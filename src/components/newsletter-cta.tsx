@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 
 import type { Locale } from "@/lib/i18n";
 
-type NewsletterVariant = "sidebar" | "inline";
+type NewsletterVariant = "sidebar" | "inline" | "compact";
 
 type NewsletterCtaProps = {
   locale?: Locale;
@@ -125,35 +125,32 @@ export function NewsletterCta({ locale = "en", variant = "sidebar" }: Newsletter
 
   return (
     <section className="card-frame motion-card motion-enter motion-delay-5">
-      <div className="relative overflow-hidden rounded-[0.95rem] border theme-border theme-surface p-6">
+      <div
+        className={`relative overflow-hidden rounded-[0.95rem] border theme-border theme-surface ${variant === "compact" ? "p-5" : "p-6"}`}
+      >
         <div className="pointer-events-none absolute inset-0 opacity-70">
           <div className="absolute -left-20 -top-28 h-64 w-64 rounded-full bg-cyan-400/15 blur-2xl" />
           <div className="absolute -right-24 -bottom-28 h-72 w-72 rounded-full bg-amber-400/12 blur-2xl" />
         </div>
 
-        <div
-          className={
-            variant === "inline"
-              ? "relative grid gap-6 md:grid-cols-[1.15fr_0.85fr] md:items-start"
-              : "relative grid gap-5"
-          }
-        >
+        <div className={variant === "inline" ? "relative grid gap-6 md:grid-cols-[1.15fr_0.85fr] md:items-start" : "relative grid gap-5"}>
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">{copy.kicker}</p>
-            <h3 className="mt-2 text-2xl font-black tracking-tight">{copy.title}</h3>
+            <h3 className={variant === "compact" ? "mt-2 text-xl font-black tracking-tight" : "mt-2 text-2xl font-black tracking-tight"}>
+              {copy.title}
+            </h3>
             <p className="mt-2 theme-text-muted">{copy.body}</p>
 
-            <ul className="mt-4 grid gap-2 text-sm theme-text-muted">
-              {copy.bullets.map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <span
-                    className="mt-2 inline-flex h-2 w-2 flex-none rounded-full bg-cyan-300/80"
-                    aria-hidden="true"
-                  />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
+            {variant === "compact" ? null : (
+              <ul className="mt-4 grid gap-2 text-sm theme-text-muted">
+                {copy.bullets.map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <span className="mt-2 inline-flex h-2 w-2 flex-none rounded-full bg-cyan-300/80" aria-hidden="true" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
 
           <div>

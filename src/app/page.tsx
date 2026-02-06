@@ -8,6 +8,45 @@ import { formatTagForPath, PRIMARY_REGIONS, getAllPostsMeta, getAllTags, getRegi
 export const metadata: Metadata = {
   title: "Home",
   description: "Daily AI news and tutorials with explainers for models, agents, and tools.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/",
+      "fr-FR": "/fr",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "AI Signals",
+    description: "Daily AI news and tutorials with explainers for models, agents, and tools.",
+    url: "/",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "AI Signals",
+          subtitle: "Daily signal, less noise.",
+          locale: "en",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Signals",
+    description: "Daily AI news and tutorials with explainers for models, agents, and tools.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "AI Signals",
+        subtitle: "Daily signal, less noise.",
+        locale: "en",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default async function Home() {

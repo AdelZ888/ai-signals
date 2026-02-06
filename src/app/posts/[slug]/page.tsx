@@ -6,6 +6,7 @@ import { NewsletterCta } from "@/components/newsletter-cta";
 import { PostToc } from "@/components/post-toc";
 import { ReadingProgress } from "@/components/reading-progress";
 import { RelatedPosts } from "@/components/related-posts";
+import { ShareSnippet } from "@/components/share-snippet";
 import {
   formatTagForPath,
   getAllPostsMeta,
@@ -31,13 +32,35 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
   try {
     const post = await getPostBySlug(slug);
+    const ogUrl = `/api/og?${new URLSearchParams({
+      title: post.title,
+      subtitle: post.excerpt,
+      locale: "en",
+      kind: "post",
+      kicker: post.category,
+    }).toString()}`;
     return {
       title: post.title,
       description: post.excerpt,
+      alternates: {
+        canonical: `/posts/${post.slug}`,
+        languages: {
+          "en-US": `/posts/${post.slug}`,
+          "fr-FR": `/fr/posts/${post.slug}`,
+        },
+      },
       openGraph: {
         type: "article",
         title: post.title,
         description: post.excerpt,
+        url: `/posts/${post.slug}`,
+        images: [{ url: ogUrl, width: 1200, height: 630, alt: post.title }],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.title,
+        description: post.excerpt,
+        images: [ogUrl],
       },
     };
   } catch {
@@ -59,7 +82,8 @@ export default async function PostPage({ params }: Params) {
 
   const relatedPosts = await getRelatedPosts(slug);
   const shareText = encodeURIComponent(post.title);
-  const shareUrl = encodeURIComponent(`${process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"}/posts/${post.slug}`);
+  const canonicalUrl = `${process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"}/posts/${post.slug}`;
+  const shareUrl = encodeURIComponent(canonicalUrl);
   const showSeries = typeof post.series === "string" && post.series.trim().length > 0;
   const showDifficulty = !!post.difficulty;
   const showTime = typeof post.timeToImplementMinutes === "number" && Number.isFinite(post.timeToImplementMinutes);
@@ -115,6 +139,8 @@ export default async function PostPage({ params }: Params) {
 
           <div className="article-content motion-enter motion-delay-2" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
 
+          <ShareSnippet title={post.title} excerpt={post.excerpt} url={canonicalUrl} locale="en" />
+
           {post.sources.length > 0 ? (
             <section className="article-section motion-enter motion-delay-3">
               <h2 className="article-section-title">Sources</h2>
@@ -142,6 +168,7 @@ export default async function PostPage({ params }: Params) {
 
         <aside className="space-y-4 lg:sticky lg:top-24 lg:h-fit">
           <PostToc toc={post.toc} locale="en" />
+          <NewsletterCta locale="en" variant="compact" />
         </aside>
       </div>
     </main>

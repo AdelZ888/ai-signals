@@ -8,6 +8,45 @@ import { formatTagForPath, PRIMARY_REGIONS, getAllPostsMeta, getAllTags, getRegi
 export const metadata: Metadata = {
   title: "Accueil",
   description: "Actualites IA quotidiennes et tutoriels pratiques pour US, UK et France.",
+  alternates: {
+    canonical: "/fr",
+    languages: {
+      "en-US": "/",
+      "fr-FR": "/fr",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "AI Signals (FR)",
+    description: "Actualites IA quotidiennes et tutoriels pratiques pour US, UK et France.",
+    url: "/fr",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "AI Signals",
+          subtitle: "Le bon signal, moins de bruit.",
+          locale: "fr",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "AI Signals (FR)",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Signals (FR)",
+    description: "Actualites IA quotidiennes et tutoriels pratiques pour US, UK et France.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "AI Signals",
+        subtitle: "Le bon signal, moins de bruit.",
+        locale: "fr",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default async function HomeFr() {

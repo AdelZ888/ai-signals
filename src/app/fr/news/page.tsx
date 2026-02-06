@@ -6,6 +6,45 @@ import { getPostsByCategory } from "@/lib/posts";
 export const metadata: Metadata = {
   title: "Actualites",
   description: "Actualites IA et analyses de changements du secteur.",
+  alternates: {
+    canonical: "/fr/news",
+    languages: {
+      "en-US": "/news",
+      "fr-FR": "/fr/news",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "Actualites IA",
+    description: "Actualites IA et analyses de changements du secteur.",
+    url: "/fr/news",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "Actualites IA",
+          subtitle: "Les sorties importantes et leur impact concret.",
+          locale: "fr",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "Actualites IA | AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Actualites IA",
+    description: "Actualites IA et analyses de changements du secteur.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "Actualites IA",
+        subtitle: "Les sorties importantes et leur impact concret.",
+        locale: "fr",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default async function NewsFrPage() {

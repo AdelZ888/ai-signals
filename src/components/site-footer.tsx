@@ -30,6 +30,9 @@ export function SiteFooter() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">
               {locale === "fr" ? "Explorer" : "Explore"}
             </p>
+            <Link className="footer-link" href={`${prefix}/start-here`}>
+              {locale === "fr" ? "Commencer ici" : "Start here"}
+            </Link>
             <Link className="footer-link" href={`${prefix}/news`}>
               {locale === "fr" ? "Actualites" : "News"}
             </Link>

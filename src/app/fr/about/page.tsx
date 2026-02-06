@@ -3,6 +3,45 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "A propos",
   description: "Mission editoriale et principes de qualite de AI Signals.",
+  alternates: {
+    canonical: "/fr/about",
+    languages: {
+      "en-US": "/about",
+      "fr-FR": "/fr/about",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "A propos",
+    description: "Mission editoriale et principes de qualite de AI Signals.",
+    url: "/fr/about",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "A propos",
+          subtitle: "Mission et politique editoriale.",
+          locale: "fr",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "A propos | AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "A propos",
+    description: "Mission editoriale et principes de qualite de AI Signals.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "A propos",
+        subtitle: "Mission et politique editoriale.",
+        locale: "fr",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default function AboutFrPage() {

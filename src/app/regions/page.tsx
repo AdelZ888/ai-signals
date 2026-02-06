@@ -6,6 +6,45 @@ import { PRIMARY_REGIONS, getAllPostsMeta, getRegionCounts, getRegionLabel, regi
 export const metadata: Metadata = {
   title: "Regions",
   description: "Regional AI coverage for the US, UK, and France.",
+  alternates: {
+    canonical: "/regions",
+    languages: {
+      "en-US": "/regions",
+      "fr-FR": "/fr/regions",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "Regions",
+    description: "Regional AI coverage for the US, UK, and France.",
+    url: "/regions",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "Regions",
+          subtitle: "US, UK, and France market lens.",
+          locale: "en",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "Regions | AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Regions",
+    description: "Regional AI coverage for the US, UK, and France.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "Regions",
+        subtitle: "US, UK, and France market lens.",
+        locale: "en",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default async function RegionsPage() {

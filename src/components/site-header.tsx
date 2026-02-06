@@ -14,6 +14,7 @@ export function SiteHeader() {
     locale === "fr"
       ? {
           home: "Accueil",
+          startHere: "Commencer",
           news: "Actualites",
           tutorials: "Tutoriels",
           newsletter: "Newsletter",
@@ -23,6 +24,7 @@ export function SiteHeader() {
         }
       : {
           home: "Home",
+          startHere: "Start Here",
           news: "News",
           tutorials: "Tutorials",
           newsletter: "Newsletter",
@@ -33,12 +35,13 @@ export function SiteHeader() {
 
   const navLinks = [
     { path: "/", label: navLabels.home, delayClass: "motion-delay-1" },
-    { path: "/news", label: navLabels.news, delayClass: "motion-delay-2" },
-    { path: "/tutorials", label: navLabels.tutorials, delayClass: "motion-delay-3" },
-    { path: "/newsletter", label: navLabels.newsletter, delayClass: "motion-delay-4" },
-    { path: "/regions", label: navLabels.regions, delayClass: "motion-delay-5" },
-    { path: "/search", label: navLabels.search, delayClass: "motion-delay-6" },
-    { path: "/about", label: navLabels.about, delayClass: "motion-delay-7" },
+    { path: "/start-here", label: navLabels.startHere, delayClass: "motion-delay-2" },
+    { path: "/news", label: navLabels.news, delayClass: "motion-delay-3" },
+    { path: "/tutorials", label: navLabels.tutorials, delayClass: "motion-delay-4" },
+    { path: "/newsletter", label: navLabels.newsletter, delayClass: "motion-delay-5" },
+    { path: "/regions", label: navLabels.regions, delayClass: "motion-delay-6" },
+    { path: "/search", label: navLabels.search, delayClass: "motion-delay-7" },
+    { path: "/about", label: navLabels.about, delayClass: "motion-delay-8" },
   ];
 
   const canonicalPath = stripLocalePrefix(pathname || "/");

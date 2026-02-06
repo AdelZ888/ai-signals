@@ -6,6 +6,45 @@ import { getAllPostsMeta } from "@/lib/posts";
 export const metadata: Metadata = {
   title: "Search",
   description: "Search AI Signals articles by keyword.",
+  alternates: {
+    canonical: "/search",
+    languages: {
+      "en-US": "/search",
+      "fr-FR": "/fr/search",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "Search",
+    description: "Search AI Signals articles by keyword.",
+    url: "/search",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "Search",
+          subtitle: "Find models, agents, and tutorials.",
+          locale: "en",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "Search | AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Search",
+    description: "Search AI Signals articles by keyword.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "Search",
+        subtitle: "Find models, agents, and tutorials.",
+        locale: "en",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 type SearchPageProps = {

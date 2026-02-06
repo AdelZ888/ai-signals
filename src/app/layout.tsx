@@ -3,6 +3,7 @@ import { Space_Grotesk, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
 
 import { GoogleAnalytics } from "@/components/google-analytics";
+import { ExitSubscribe } from "@/components/exit-subscribe";
 import { LocaleDocument } from "@/components/locale-document";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -22,6 +23,12 @@ const body = IBM_Plex_Sans({
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "";
+const defaultOgParams = new URLSearchParams({
+  title: "AI Signals",
+  subtitle: "AI news, agents, tutorials. Builder-focused.",
+  locale: "en",
+  kind: "page",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -35,6 +42,7 @@ export const metadata: Metadata = {
     shortcut: ["/favicon.svg"],
   },
   alternates: {
+    canonical: "/",
     languages: {
       "en-US": "/",
       "fr-FR": "/fr",
@@ -45,6 +53,20 @@ export const metadata: Metadata = {
         { title: "AI Signals RSS FR", url: "/fr/rss.xml" },
       ],
     },
+  },
+  openGraph: {
+    type: "website",
+    title: "AI Signals",
+    description: "Automated AI blog covering models, agents, tools, and ecosystem changes.",
+    url: "/",
+    siteName: "AI Signals",
+    images: [{ url: `/api/og?${defaultOgParams.toString()}`, width: 1200, height: 630, alt: "AI Signals" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Signals",
+    description: "Automated AI blog covering models, agents, tools, and ecosystem changes.",
+    images: [`/api/og?${defaultOgParams.toString()}`],
   },
 };
 
@@ -104,6 +126,7 @@ gtag('config', '${GA_MEASUREMENT_ID}', { anonymize_ip: true, send_page_view: fal
         <div className="min-h-screen">
           <SiteHeader />
           {children}
+          <ExitSubscribe />
           <SiteFooter />
         </div>
       </body>

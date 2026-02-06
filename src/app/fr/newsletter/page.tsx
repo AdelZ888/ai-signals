@@ -8,6 +8,45 @@ import { getAllNewslettersMeta } from "@/lib/newsletters";
 export const metadata: Metadata = {
   title: "Newsletter | AI Signals",
   description: "Le digest hebdo AI Signals: sorties de modeles, patterns d'agents, tutoriels pratiques.",
+  alternates: {
+    canonical: "/fr/newsletter",
+    languages: {
+      "en-US": "/newsletter",
+      "fr-FR": "/fr/newsletter",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "AI Signals Hebdo",
+    description: "Le digest hebdo AI Signals: sorties de modeles, patterns d'agents, tutoriels pratiques.",
+    url: "/fr/newsletter",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "AI Signals Hebdo",
+          subtitle: "Digest hebdo: modeles, agents, tutoriels.",
+          locale: "fr",
+          kind: "newsletter",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "AI Signals Hebdo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Signals Hebdo",
+    description: "Le digest hebdo AI Signals: sorties de modeles, patterns d'agents, tutoriels pratiques.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "AI Signals Hebdo",
+        subtitle: "Digest hebdo: modeles, agents, tutoriels.",
+        locale: "fr",
+        kind: "newsletter",
+      }).toString()}`,
+    ],
+  },
 };
 
 function formatDate(dateIso: string) {
@@ -105,4 +144,3 @@ export default async function NewsletterIndexPageFr() {
     </main>
   );
 }
-

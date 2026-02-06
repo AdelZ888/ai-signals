@@ -27,9 +27,39 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     return { title: "Region introuvable" };
   }
 
+  const title = `Couverture ${getRegionLabel(regionCode, "fr")}`;
+  const description = `Actualites et tutoriels IA adaptes au contexte ${getRegionLabel(regionCode, "fr")}.`;
+  const ogUrl = `/api/og?${new URLSearchParams({
+    title,
+    subtitle: description,
+    locale: "fr",
+    kind: "page",
+    kicker: "Region",
+  }).toString()}`;
+
   return {
-    title: `Couverture ${getRegionLabel(regionCode, "fr")}`,
-    description: `Actualites et tutoriels IA adaptes au contexte ${getRegionLabel(regionCode, "fr")}.`,
+    title,
+    description,
+    alternates: {
+      canonical: `/fr/regions/${region}`,
+      languages: {
+        "en-US": `/regions/${region}`,
+        "fr-FR": `/fr/regions/${region}`,
+      },
+    },
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url: `/fr/regions/${region}`,
+      images: [{ url: ogUrl, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogUrl],
+    },
   };
 }
 

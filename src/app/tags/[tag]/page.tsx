@@ -17,9 +17,39 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { tag } = await params;
   const label = parseTagFromPath(tag);
 
+  const title = `Tag: ${label}`;
+  const description = `Posts tagged with ${label}.`;
+  const ogUrl = `/api/og?${new URLSearchParams({
+    title,
+    subtitle: description,
+    locale: "en",
+    kind: "page",
+    kicker: "Tag",
+  }).toString()}`;
+
   return {
-    title: `Tag: ${label}`,
-    description: `Posts tagged with ${label}.`,
+    title,
+    description,
+    alternates: {
+      canonical: `/tags/${tag}`,
+      languages: {
+        "en-US": `/tags/${tag}`,
+        "fr-FR": `/fr/tags/${tag}`,
+      },
+    },
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url: `/tags/${tag}`,
+      images: [{ url: ogUrl, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogUrl],
+    },
   };
 }
 

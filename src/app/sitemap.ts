@@ -10,8 +10,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const newslettersEn = await getAllNewslettersMeta("en");
   const newslettersFr = await getAllNewslettersMeta("fr");
 
-  const staticEnRoutes = ["", "/about", "/news", "/tutorials", "/search", "/regions", "/newsletter"];
-  const staticFrRoutes = ["/fr", "/fr/about", "/fr/news", "/fr/tutorials", "/fr/search", "/fr/regions", "/fr/newsletter"];
+  const staticEnRoutes = ["", "/start-here", "/about", "/news", "/tutorials", "/search", "/regions", "/newsletter"];
+  const staticFrRoutes = [
+    "/fr",
+    "/fr/start-here",
+    "/fr/about",
+    "/fr/news",
+    "/fr/tutorials",
+    "/fr/search",
+    "/fr/regions",
+    "/fr/newsletter",
+  ];
 
   const staticRoutes: MetadataRoute.Sitemap = [...staticEnRoutes, ...staticFrRoutes].map((route) => ({
     url: `${baseUrl}${route}`,

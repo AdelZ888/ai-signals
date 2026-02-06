@@ -6,6 +6,45 @@ import { PRIMARY_REGIONS, getAllPostsMeta, getRegionCounts, getRegionLabel, regi
 export const metadata: Metadata = {
   title: "Regions",
   description: "Couverture IA regionale pour les Etats-Unis, le Royaume-Uni et la France.",
+  alternates: {
+    canonical: "/fr/regions",
+    languages: {
+      "en-US": "/regions",
+      "fr-FR": "/fr/regions",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "Regions",
+    description: "Couverture IA regionale pour les Etats-Unis, le Royaume-Uni et la France.",
+    url: "/fr/regions",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "Regions",
+          subtitle: "Angle Etats-Unis, Royaume-Uni, France.",
+          locale: "fr",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "Regions | AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Regions",
+    description: "Couverture IA regionale pour les Etats-Unis, le Royaume-Uni et la France.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "Regions",
+        subtitle: "Angle Etats-Unis, Royaume-Uni, France.",
+        locale: "fr",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default async function RegionsFrPage() {

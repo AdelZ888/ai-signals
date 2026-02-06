@@ -8,6 +8,45 @@ import { getAllNewslettersMeta } from "@/lib/newsletters";
 export const metadata: Metadata = {
   title: "Newsletter | AI Signals",
   description: "Weekly AI Signals digest: model launches, agent patterns, and practical tutorials.",
+  alternates: {
+    canonical: "/newsletter",
+    languages: {
+      "en-US": "/newsletter",
+      "fr-FR": "/fr/newsletter",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "AI Signals Weekly",
+    description: "Weekly AI Signals digest: model launches, agent patterns, and practical tutorials.",
+    url: "/newsletter",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "AI Signals Weekly",
+          subtitle: "Weekly digest: models, agents, tutorials.",
+          locale: "en",
+          kind: "newsletter",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "AI Signals Weekly",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Signals Weekly",
+    description: "Weekly AI Signals digest: model launches, agent patterns, and practical tutorials.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "AI Signals Weekly",
+        subtitle: "Weekly digest: models, agents, tutorials.",
+        locale: "en",
+        kind: "newsletter",
+      }).toString()}`,
+    ],
+  },
 };
 
 function formatDate(dateIso: string) {

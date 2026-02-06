@@ -6,6 +6,45 @@ import { getPostsByCategory } from "@/lib/posts";
 export const metadata: Metadata = {
   title: "News",
   description: "AI news and ecosystem updates.",
+  alternates: {
+    canonical: "/news",
+    languages: {
+      "en-US": "/news",
+      "fr-FR": "/fr/news",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "AI News",
+    description: "AI news and ecosystem updates.",
+    url: "/news",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "AI News",
+          subtitle: "Fresh updates and release breakdowns.",
+          locale: "en",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "AI News | AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI News",
+    description: "AI news and ecosystem updates.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "AI News",
+        subtitle: "Fresh updates and release breakdowns.",
+        locale: "en",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default async function NewsPage() {

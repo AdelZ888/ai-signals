@@ -6,6 +6,45 @@ import { getPostsByCategory } from "@/lib/posts";
 export const metadata: Metadata = {
   title: "Tutoriels",
   description: "Tutoriels IA pas a pas pour builders et equipes produit.",
+  alternates: {
+    canonical: "/fr/tutorials",
+    languages: {
+      "en-US": "/tutorials",
+      "fr-FR": "/fr/tutorials",
+    },
+  },
+  openGraph: {
+    type: "website",
+    title: "Tutoriels",
+    description: "Tutoriels IA pas a pas pour builders et equipes produit.",
+    url: "/fr/tutorials",
+    images: [
+      {
+        url: `/api/og?${new URLSearchParams({
+          title: "Tutoriels",
+          subtitle: "Guides pratiques pour mettre l'IA en production.",
+          locale: "fr",
+          kind: "page",
+        }).toString()}`,
+        width: 1200,
+        height: 630,
+        alt: "Tutoriels | AI Signals",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tutoriels",
+    description: "Tutoriels IA pas a pas pour builders et equipes produit.",
+    images: [
+      `/api/og?${new URLSearchParams({
+        title: "Tutoriels",
+        subtitle: "Guides pratiques pour mettre l'IA en production.",
+        locale: "fr",
+        kind: "page",
+      }).toString()}`,
+    ],
+  },
 };
 
 export default async function TutorialsFrPage() {
