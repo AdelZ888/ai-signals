@@ -27,6 +27,8 @@ const LOG_STAGES = String(process.env.LOG_STAGES ?? "1") !== "0";
 const SOURCE_FETCH_TIMEOUT_MS = Math.max(3_000, Math.min(30_000, Number(process.env.SOURCE_FETCH_TIMEOUT_MS || 8_000)));
 const SOURCE_SNAPSHOT_CHARS = Math.max(1_200, Math.min(8_000, Number(process.env.SOURCE_SNAPSHOT_CHARS || 2_500)));
 const SOURCE_FETCH_MAX_BYTES = Math.max(80_000, Math.min(1_500_000, Number(process.env.SOURCE_FETCH_MAX_BYTES || 450_000)));
+const MIN_SOURCE_SNAPSHOTS = Math.max(1, Math.min(3, Number(process.env.MIN_SOURCE_SNAPSHOTS || 2)));
+const DRY_RUN = String(process.env.DRY_RUN || "0") === "1";
 
 const SERIES = [
   {
@@ -544,10 +546,23 @@ function validateDraft(markdown, headings, sources, templateId) {
       issues.push(`Missing section: ${heading}`);
       continue;
     }
-    const hasSourceLink = sources.some((source) => body.includes(source));
+    const usedSources = sources.filter((source) => body.includes(source));
+    const hasSourceLink = usedSources.length > 0;
     if (!hasSourceLink) {
       issues.push(`Section "${heading}" is missing an inline source link (must include one of the provided URLs).`);
     }
+  }
+
+  const sourcesUsedInDoc = sources.filter((source) => String(markdown || "").includes(source));
+  if (sourcesUsedInDoc.length < Math.min(2, sources.length)) {
+    issues.push("Not enough distinct sources are referenced across the draft. Use at least two different provided URLs.");
+  }
+
+  const missingSources = sources.filter((source) => !String(markdown || "").includes(source));
+  if (missingSources.length > 0 && sources.length > 1) {
+    issues.push(
+      `Some provided sources are never cited inline: ${missingSources.slice(0, 2).join(", ")}${missingSources.length > 2 ? "..." : ""}`,
+    );
   }
 
   const codeBlocks = String(markdown || "").match(/```[\s\S]*?```/g) || [];
@@ -557,6 +572,17 @@ function validateDraft(markdown, headings, sources, templateId) {
 
   const numbers = (markdown.match(/\b\d+(\.\d+)?\b/g) || []).length;
   if (numbers < 8) issues.push("Too few concrete numbers/thresholds. Add more measurable targets (%, ms, $, counts).");
+
+  const lastHeading = headings[headings.length - 1];
+  const lastBody = lastHeading ? byHeading.get(normalizeHeadingKey(lastHeading)) || "" : "";
+  if (lastBody) {
+    const hasAssumptions = /###\s+(assumptions|hypotheses|hypoth[eè]ses|assumptions & unknowns)/i.test(lastBody);
+    const hasRisks = /###\s+(risks|risk|risques|risque|mitigations|mitigation)/i.test(lastBody);
+    const hasNext = /###\s+(next steps|next actions|actions|prochaines etapes|prochaines actions|a shipper|a faire)/i.test(lastBody);
+    if (!hasAssumptions) issues.push(`Last section "${lastHeading}" should include a '### Assumptions / Hypotheses' subsection.`);
+    if (!hasRisks) issues.push(`Last section "${lastHeading}" should include a '### Risks / Mitigations' subsection.`);
+    if (!hasNext) issues.push(`Last section "${lastHeading}" should include a '### Next steps' subsection.`);
+  }
 
   if (templateId === "TUTORIAL") {
     if (codeBlocks.length < 2) issues.push("Tutorial should include at least two code blocks (commands + config/code).");
@@ -589,6 +615,10 @@ async function runRepairPass(
   const language = locale === "fr" ? "French" : "English";
   const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
   const snapshotBlock = formatSourceSnapshots(sourceSnapshots);
+  const requiredSubheads =
+    locale === "fr"
+      ? ["### Hypotheses / inconnues", "### Risques / mitigations", "### Prochaines etapes"]
+      : ["### Assumptions / Hypotheses", "### Risks / Mitigations", "### Next steps"];
 
   const response = await runJsonCompletion(
     client,
@@ -598,7 +628,8 @@ async function runRepairPass(
         role: "system",
         content:
           `You are a meticulous technical editor. Rewrite the article in ${language} to fix issues without adding filler. ` +
-          "Return strict JSON with keys: content (markdown). Use exactly the provided H2 headings in order.",
+          "Return strict JSON with keys: content (markdown). Use exactly the provided H2 headings in order. " +
+          `In the last H2 section, include these exact H3 subheads:\n${requiredSubheads.join("\n")}`,
       },
       {
         role: "user",
@@ -611,6 +642,8 @@ async function runRepairPass(
           `- Ground claims only in the snapshot excerpts below; if a detail is not supported, rewrite it as a clearly labeled hypothesis.\n` +
           `Snapshot excerpts:\n${snapshotBlock}\n` +
           `- Include at least one fenced code block, one markdown table, and one checklist ('- [ ]').\n` +
+          `- Include at least 8 concrete numbers/thresholds across the doc (%, ms, $, tokens, counts).\n` +
+          `- In the last H2 section, include these exact H3 subheads:\n${requiredSubheads.join("\n")}\n` +
           `- Keep total length around ${targetWordCount} to ${targetWordCount + 500} words.\n\n` +
           `Draft:\n${draft}`,
       },
@@ -683,6 +716,18 @@ async function draftFromOutline(
   const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
   const headings = outline.headings;
   const snapshotBlock = formatSourceSnapshots(sourceSnapshots);
+  const requiredSubheads =
+    locale === "fr"
+      ? ["### Hypotheses / inconnues", "### Risques / mitigations", "### Prochaines etapes"]
+      : ["### Assumptions / Hypotheses", "### Risks / Mitigations", "### Next steps"];
+
+  const tutorialRules =
+    template.id === "TUTORIAL"
+      ? `\nTutorial rules:\n` +
+        `- Include at least two code blocks: one with commands (bash) and one with config/code (yaml/json/ts).\n` +
+        `- Provide a rollout/rollback plan with explicit gates (canary, feature flags, rollback).\n` +
+        `- In the "Step-by-step implementation" section, include clearly numbered steps (1., 2., 3., ...).\n`
+      : "";
 
   const response = await runJsonCompletion(
     client,
@@ -707,8 +752,12 @@ async function draftFromOutline(
           `Snapshot excerpts:\n${snapshotBlock}\n` +
           `- Include at least one fenced code block and at least one checklist with '- [ ]'.\n` +
           `- Include at least one markdown table for a founder decision frame.\n` +
+          `- Include at least 8 concrete numbers/thresholds across the doc (%, ms, $, tokens, counts).\n` +
+          `- In the last H2 section ("${headings[headings.length - 1]}"), include these exact H3 subheads:\n${requiredSubheads.join("\n")}\n` +
           `- Avoid filler; if you need more words, add deeper technical detail, examples, and constraints.\n` +
-          `- Do not invent claims that are not supported by the sources.\n\n` +
+          `- Do not invent claims that are not supported by the sources.\n` +
+          tutorialRules +
+          "\n" +
           `Outline title: ${outline.title}\n` +
           `Outline excerpt: ${outline.excerpt}\n` +
           `Series: ${outline.series}\n` +
@@ -998,6 +1047,7 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
   const model = process.env.OPENAI_MODEL || "gpt-5-mini";
   const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
   const snapshotBlock = formatSourceSnapshots(sourceSnapshots);
+  const requiredSubheadsFr = ["### Hypotheses / inconnues", "### Risques / mitigations", "### Prochaines etapes"];
 
   try {
     if (LOG_STAGES) console.log("[generate-post] FR: translate");
@@ -1019,6 +1069,7 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
             headingsFr.map((heading) => `## ${heading}`).join("\n") +
             "\n\n" +
             "Every required section must start with '## ' exactly. Do not use H1. Do not add extra H2 headings; use H3 for subsections.\n\n" +
+            `In the last H2 section ("${headingsFr[headingsFr.length - 1]}"), include these exact H3 subheads:\n${requiredSubheadsFr.join("\n")}\n\n` +
             "Preserve code blocks and practical implementation details.\n\n" +
             `Sources:\n${sourceBlock}\n\n` +
             `Snapshot excerpts (ground claims only in these excerpts; if a detail is not supported, rewrite it as a clearly labeled hypothesis):\n${snapshotBlock}\n\n` +
@@ -1102,6 +1153,7 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
               "Use these exact H2 headings in this order:\n" +
               headingsFr.map((heading) => `## ${heading}`).join("\n") +
               "\n\n" +
+              `In the last H2 section ("${headingsFr[headingsFr.length - 1]}"), include these exact H3 subheads:\n${requiredSubheadsFr.join("\n")}\n\n` +
               `English title: ${postEn.title}\nEnglish excerpt: ${postEn.excerpt}\n\nEnglish content:\n${postEn.content}`,
           },
         ],
@@ -1158,7 +1210,7 @@ export async function generatePost() {
 
     if (!topic) {
       console.log("No queued topic available.");
-      await fs.writeFile(queuePath, JSON.stringify(queue, null, 2));
+      if (!DRY_RUN) await fs.writeFile(queuePath, JSON.stringify(queue, null, 2));
       return null;
     }
 
@@ -1166,11 +1218,42 @@ export async function generatePost() {
     const wordTargets = getWordTargets(template);
 
     const sourceBundle = dedupeUrls([topic.link, ...pickSupportingSources(queue, topic, targetRegion)]).slice(0, 3);
+    if (sourceBundle.length < 2) {
+      updateItem(topic.id, {
+        status: "failed",
+        targetRegion,
+        region: normalizeRegion(topic.region),
+        editorialTemplate: template.id,
+        failedAtRun: nowIso,
+        failureReason: "insufficient source bundle (need at least 2 URLs)",
+        sourceBundle,
+      });
+      console.warn(`Skipped topic ${topic.id} (${topic.title}) because: insufficient source bundle`);
+      continue;
+    }
+
     console.log(
       `[generate-post] Attempt ${attempt + 1}/${MAX_TOPIC_ATTEMPTS} region=${targetRegion} template=${template.id} topic="${topic.title}" sources=${sourceBundle.length}`,
     );
     const sourceSnapshots = await getSourceSnapshots(sourceBundle);
     console.log(`[generate-post] Snapshots fetched: ${sourceSnapshots.length}/${sourceBundle.length}`);
+
+    if (sourceSnapshots.length < MIN_SOURCE_SNAPSHOTS) {
+      updateItem(topic.id, {
+        status: "failed",
+        targetRegion,
+        region: normalizeRegion(topic.region),
+        editorialTemplate: template.id,
+        failedAtRun: nowIso,
+        failureReason: `insufficient source snapshots (${sourceSnapshots.length}/${sourceBundle.length})`,
+        sourceBundle,
+        sourceSnapshotsCount: sourceSnapshots.length,
+      });
+      console.warn(
+        `Skipped topic ${topic.id} (${topic.title}) because: insufficient source snapshots (${sourceSnapshots.length}/${sourceBundle.length})`,
+      );
+      continue;
+    }
 
     const postEn = await generateWithLLM(topic, targetRegion, sourceBundle, template, wordTargets, sourceSnapshots);
     const generationMode = String(postEn.generationMode || "llm");
@@ -1254,10 +1337,12 @@ export async function generatePost() {
     );
     const bodyFr = `${frontmatterFr}\n${postFr.content.trim()}\n`;
 
-    await fs.mkdir(postsDir, { recursive: true });
-    await fs.mkdir(postsFrDir, { recursive: true });
-    await fs.writeFile(targetPathEn, bodyEn, "utf8");
-    await fs.writeFile(targetPathFr, bodyFr, "utf8");
+    if (!DRY_RUN) {
+      await fs.mkdir(postsDir, { recursive: true });
+      await fs.mkdir(postsFrDir, { recursive: true });
+      await fs.writeFile(targetPathEn, bodyEn, "utf8");
+      await fs.writeFile(targetPathFr, bodyFr, "utf8");
+    }
 
     updateItem(topic.id, {
       status: "published",
@@ -1277,7 +1362,7 @@ export async function generatePost() {
       wordsFr: countWords(postFr.content),
     });
 
-    await fs.writeFile(queuePath, JSON.stringify(queue, null, 2));
+    if (!DRY_RUN) await fs.writeFile(queuePath, JSON.stringify(queue, null, 2));
 
     console.log(
       `Generated ${path.relative(process.cwd(), targetPathEn)} (${countWords(postEn.content)} words EN) and ${path.relative(
@@ -1286,10 +1371,10 @@ export async function generatePost() {
       )} (${countWords(postFr.content)} words FR) for ${targetRegion} with ${template.id} template`,
     );
 
-    return targetPathEn;
+    return DRY_RUN ? null : targetPathEn;
   }
 
-  await fs.writeFile(queuePath, JSON.stringify(queue, null, 2));
+  if (!DRY_RUN) await fs.writeFile(queuePath, JSON.stringify(queue, null, 2));
   console.warn(`Failed to generate a publishable post after ${MAX_TOPIC_ATTEMPTS} attempts.`);
   return null;
 }

@@ -33,6 +33,23 @@ jobs:
           MIN_WORDS_FR: "850"
         run: npm run automate
 
+      - name: Detect post changes
+        run: |
+          if git status --porcelain | awk '{print $2}' | grep -q '^content/posts/'; then
+            echo "POST_GENERATED=1" >> "$GITHUB_ENV"
+          else
+            echo "POST_GENERATED=0" >> "$GITHUB_ENV"
+            echo "No post file changed under content/posts/."
+          fi
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://aisignals.dev
+        run: npm run build
+
       - name: Commit and push
         run: |
           if git diff --quiet; then
@@ -44,3 +61,9 @@ jobs:
           git add content/posts data/topics-queue.json
           git commit -m "chore: auto-publish ai post"
           git push
+
+      - name: Fail if no post was generated
+        if: ${{ env.POST_GENERATED != '1' }}
+        run: |
+          echo "Automation ran but did not produce a new post. Failing to trigger an alert."
+          exit 1

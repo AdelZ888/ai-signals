@@ -1,0 +1,28 @@
+name: Health Check
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run health checks
+        env:
+          HEALTHCHECK_BASE_URL: https://aisignals.dev
+          HEALTHCHECK_TIMEOUT_MS: "8000"
+        run: node scripts/health-check.mjs
+

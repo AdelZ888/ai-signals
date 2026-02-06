@@ -1,0 +1,40 @@
+name: Alert on Failure
+
+on:
+  workflow_run:
+    workflows:
+      - Auto Publish AI Blog
+      - Auto Newsletter
+      - Auto Send Newsletter
+      - Health Check
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+jobs:
+  alert:
+    if: ${{ github.event.workflow_run.conclusion != 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Send alert email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
+          NEWSLETTER_REPLY_TO: ${{ secrets.NEWSLETTER_REPLY_TO }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: node scripts/send-alert.mjs
+

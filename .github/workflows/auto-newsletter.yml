@@ -32,6 +32,23 @@ jobs:
           NEXT_PUBLIC_SITE_URL: https://aisignals.dev
         run: npm run generate-newsletter
 
+      - name: Detect issue changes
+        run: |
+          if git status --porcelain | awk '{print $2}' | grep -q '^content/newsletters/'; then
+            echo "ISSUE_GENERATED=1" >> "$GITHUB_ENV"
+          else
+            echo "ISSUE_GENERATED=0" >> "$GITHUB_ENV"
+            echo "No newsletter issue file changed under content/newsletters/."
+          fi
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://aisignals.dev
+        run: npm run build
+
       - name: Commit and push
         run: |
           if git diff --quiet; then
@@ -43,3 +60,9 @@ jobs:
           git add content/newsletters
           git commit -m "chore: auto-generate newsletter"
           git push
+
+      - name: Fail if no newsletter issue was generated
+        if: ${{ env.ISSUE_GENERATED != '1' }}
+        run: |
+          echo "Automation ran but did not produce a new newsletter issue. Failing to trigger an alert."
+          exit 1
