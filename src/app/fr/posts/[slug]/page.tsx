@@ -132,7 +132,7 @@ export default async function PostFrPage({ params }: Params) {
           ) : null}
 
           <section className="article-section motion-enter motion-delay-4">
-            <NewsletterCta locale="fr" />
+            <NewsletterCta locale="fr" variant="inline" />
           </section>
 
           <section className="article-section motion-enter motion-delay-5">

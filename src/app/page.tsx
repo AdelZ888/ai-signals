@@ -107,7 +107,7 @@ export default async function Home() {
 
         <aside className="space-y-4 lg:sticky lg:top-24 lg:h-fit">
           <div id="newsletter" className="scroll-mt-28">
-            <NewsletterCta locale="en" />
+            <NewsletterCta locale="en" variant="sidebar" />
           </div>
 
           <div className="aside-card motion-card motion-enter motion-delay-4">

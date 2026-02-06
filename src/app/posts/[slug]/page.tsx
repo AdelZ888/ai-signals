@@ -132,7 +132,7 @@ export default async function PostPage({ params }: Params) {
           ) : null}
 
           <section className="article-section motion-enter motion-delay-4">
-            <NewsletterCta locale="en" />
+            <NewsletterCta locale="en" variant="inline" />
           </section>
 
           <section className="article-section motion-enter motion-delay-5">
