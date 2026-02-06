@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Signals - Automated AI Blog
 
-## Getting Started
+A fully automated blog that discovers AI topics, generates posts, and publishes them on a schedule.
 
-First, run the development server:
+## What this project does
+
+- Renders a markdown-based blog from `content/posts`.
+- Supports sections and blog UX:
+  - Home, News, Tutorials, Regions, Search, About
+  - French mirror routes under `/fr` with localized UI and metadata
+  - Regional pages (`/regions/us`, `/regions/uk`, `/regions/fr`)
+  - Tag pages (`/tags/[tag]`)
+  - Reading time, table of contents, related posts, share links
+- Generates SEO outputs:
+  - RSS feed at `/rss.xml`
+  - French RSS feed at `/fr/rss.xml`
+  - Sitemap at `/sitemap.xml`
+- Automates content pipeline:
+  - Topic discovery from AI RSS feeds (US/UK/FR + global sources)
+  - Queue scoring in `data/topics-queue.json`
+  - Region-balanced post generation for US/UK/FR
+  - Long-form generation rules (minimum word counts, structured deep-dive sections, multi-source bundle)
+  - Automatic French companion post generation in `content/posts/fr`
+  - Post generation with OpenAI (fallback template if key is missing)
+  - Daily GitHub Action auto-commit
+
+## Local setup
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Configure environment:
+
+```bash
+cp .env.example .env.local
+```
+
+3. Add your key in `.env.local`:
+
+```bash
+OPENAI_API_KEY=...
+OPENAI_MODEL=gpt-5-mini
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+MIN_WORDS_EN=900
+MAX_WORDS_EN=1500
+MIN_WORDS_FR=850
+```
+
+4. Run the app:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Run one automation cycle locally:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run automate
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available scripts
 
-## Learn More
+- `npm run dev` - start local site
+- `npm run build` - production build
+- `npm run lint` - lint check
+- `npm run discover-topics` - refresh queue from RSS sources
+- `npm run generate-post` - generate one post from queue
+- `npm run automate` - discover + generate
 
-To learn more about Next.js, take a look at the following resources:
+## GitHub automation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Daily publishing is configured in:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `.github/workflows/auto-publish.yml`
 
-## Deploy on Vercel
+To enable OpenAI generation in GitHub Actions, add this repository secret:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `OPENAI_API_KEY`
