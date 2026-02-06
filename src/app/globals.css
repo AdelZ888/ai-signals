@@ -931,8 +931,50 @@ h6,
 }
 
 @media (max-width: 640px) {
+  body::before {
+    opacity: 0.22;
+    background-size: 72px 72px;
+    mask-image: radial-gradient(circle at 50% 0%, black 14%, transparent 62%);
+  }
+
+  body::after {
+    opacity: 0.12;
+  }
+
+  .brand-mark {
+    font-size: 0.98rem;
+  }
+
+  .theme-toggle {
+    padding: 0.38rem 0.55rem;
+  }
+
+  .lang-switch {
+    border-radius: 0.65rem;
+  }
+
+  .lang-pill {
+    padding: 0.42rem 0.55rem;
+  }
+
+  .nav-menu-panel {
+    min-width: 13.5rem;
+  }
+
   .hero-grid {
     padding: 2.4rem 1.35rem;
+  }
+
+  .hero-cta {
+    width: 100%;
+  }
+
+  .hero-chip {
+    padding: 0.42rem 0.75rem;
+  }
+
+  .hero-tag {
+    padding: 0.36rem 0.65rem;
   }
 
   .section-title {

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AI Signals">
+  <defs>
+    <radialGradient id="g" cx="32" cy="28" r="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </radialGradient>
+    <filter id="s" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="128" height="128" rx="28" fill="#0b1220"/>
+  <circle cx="64" cy="64" r="44" fill="url(#g)" filter="url(#s)"/>
+  <path
+    d="M64 36c-14.6 0-26.5 11.9-26.5 26.5S49.4 89 64 89s26.5-11.9 26.5-26.5S78.6 36 64 36zm0 12.5c7.7 0 14 6.3 14 14s-6.3 14-14 14-14-6.3-14-14 6.3-14 14-14z"
+    fill="#0b1220"
+    fill-opacity="0.9"
+  />
+  <circle cx="88" cy="36" r="6" fill="#22d3ee"/>
+</svg>
+

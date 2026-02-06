@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     template: "%s | AI Signals",
   },
   description: "Automated AI blog covering models, agents, tools, and ecosystem changes.",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: ["/favicon.svg"],
+  },
   alternates: {
     languages: {
       "en-US": "/",
