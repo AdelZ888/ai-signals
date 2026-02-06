@@ -28,33 +28,19 @@ async function unsubscribeWithBeehiiv(email: string) {
   const publicationId = process.env.BEEHIIV_PUBLICATION_ID;
   if (!apiKey || !publicationId) throw new Error("not_configured");
 
-  // 1) Lookup subscription ID by email
-  const lookup = await fetch(
+  // Official API: update subscription by email (PUT).
+  const res = await fetch(
     `https://api.beehiiv.com/v2/publications/${publicationId}/subscriptions/by_email/${encodeURIComponent(email)}`,
     {
-      method: "GET",
+      method: "PUT",
       headers: {
         Authorization: `Bearer ${apiKey}`,
+        "content-type": "application/json",
         accept: "application/json",
       },
+      body: JSON.stringify({ unsubscribe: true }),
     },
   );
-
-  if (!lookup.ok) throw new Error(`beehiiv_lookup_${lookup.status}`);
-  const lookupJson = (await lookup.json()) as { data?: { id?: string } };
-  const subscriptionId = String(lookupJson.data?.id || "");
-  if (!subscriptionId) throw new Error("beehiiv_missing_subscription_id");
-
-  // 2) Unsubscribe by ID
-  const res = await fetch(`https://api.beehiiv.com/v2/publications/${publicationId}/subscriptions/${subscriptionId}`, {
-    method: "PATCH",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "content-type": "application/json",
-      accept: "application/json",
-    },
-    body: JSON.stringify({ unsubscribe: true }),
-  });
 
   if (res.ok) return;
 
