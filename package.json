@@ -10,6 +10,7 @@
     "discover-topics": "node scripts/discover-topics.mjs",
     "generate-post": "node scripts/generate-post.mjs",
     "generate-tutorial": "FORCE_TEMPLATE=TUTORIAL node scripts/generate-post.mjs",
+    "generate-newsletter": "node scripts/generate-newsletter.mjs",
     "automate": "node scripts/automate.mjs"
   },
   "dependencies": {

@@ -16,6 +16,7 @@ export function SiteHeader() {
           home: "Accueil",
           news: "Actualites",
           tutorials: "Tutoriels",
+          newsletter: "Newsletter",
           regions: "Regions",
           search: "Recherche",
           about: "A propos",
@@ -24,6 +25,7 @@ export function SiteHeader() {
           home: "Home",
           news: "News",
           tutorials: "Tutorials",
+          newsletter: "Newsletter",
           regions: "Regions",
           search: "Search",
           about: "About",
@@ -33,9 +35,10 @@ export function SiteHeader() {
     { path: "/", label: navLabels.home, delayClass: "motion-delay-1" },
     { path: "/news", label: navLabels.news, delayClass: "motion-delay-2" },
     { path: "/tutorials", label: navLabels.tutorials, delayClass: "motion-delay-3" },
-    { path: "/regions", label: navLabels.regions, delayClass: "motion-delay-4" },
-    { path: "/search", label: navLabels.search, delayClass: "motion-delay-5" },
-    { path: "/about", label: navLabels.about, delayClass: "motion-delay-6" },
+    { path: "/newsletter", label: navLabels.newsletter, delayClass: "motion-delay-4" },
+    { path: "/regions", label: navLabels.regions, delayClass: "motion-delay-5" },
+    { path: "/search", label: navLabels.search, delayClass: "motion-delay-6" },
+    { path: "/about", label: navLabels.about, delayClass: "motion-delay-7" },
   ];
 
   const canonicalPath = stripLocalePrefix(pathname || "/");

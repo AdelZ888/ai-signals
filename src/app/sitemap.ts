@@ -1,14 +1,17 @@
 import type { MetadataRoute } from "next";
 
 import { PRIMARY_REGIONS, getAllPostsMeta, regionCodeToPath } from "@/lib/posts";
+import { getAllNewslettersMeta } from "@/lib/newsletters";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
   const postsEn = await getAllPostsMeta("en");
   const postsFr = await getAllPostsMeta("fr");
+  const newslettersEn = await getAllNewslettersMeta("en");
+  const newslettersFr = await getAllNewslettersMeta("fr");
 
-  const staticEnRoutes = ["", "/about", "/news", "/tutorials", "/search", "/regions"];
-  const staticFrRoutes = ["/fr", "/fr/about", "/fr/news", "/fr/tutorials", "/fr/search", "/fr/regions"];
+  const staticEnRoutes = ["", "/about", "/news", "/tutorials", "/search", "/regions", "/newsletter"];
+  const staticFrRoutes = ["/fr", "/fr/about", "/fr/news", "/fr/tutorials", "/fr/search", "/fr/regions", "/fr/newsletter"];
 
   const staticRoutes: MetadataRoute.Sitemap = [...staticEnRoutes, ...staticFrRoutes].map((route) => ({
     url: `${baseUrl}${route}`,
@@ -49,5 +52,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...regionRoutes, ...postRoutesEn, ...postRoutesFr];
+  const newsletterRoutesEn: MetadataRoute.Sitemap = newslettersEn.map((issue) => ({
+    url: `${baseUrl}/newsletter/${issue.slug}`,
+    lastModified: new Date(issue.date),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
+  const newsletterRoutesFr: MetadataRoute.Sitemap = newslettersFr.map((issue) => ({
+    url: `${baseUrl}/fr/newsletter/${issue.slug}`,
+    lastModified: new Date(issue.date),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...regionRoutes, ...postRoutesEn, ...postRoutesFr, ...newsletterRoutesEn, ...newsletterRoutesFr];
 }

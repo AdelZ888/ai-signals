@@ -36,6 +36,9 @@ export function SiteFooter() {
             <Link className="footer-link" href={`${prefix}/tutorials`}>
               {locale === "fr" ? "Tutoriels" : "Tutorials"}
             </Link>
+            <Link className="footer-link" href={`${prefix}/newsletter`}>
+              {locale === "fr" ? "Newsletter" : "Newsletter"}
+            </Link>
             <Link className="footer-link" href={`${prefix}/regions`}>
               {locale === "fr" ? "Regions" : "Regions"}
             </Link>
@@ -48,6 +51,9 @@ export function SiteFooter() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">RSS</p>
             <a className="footer-link" href={`${prefix}/rss.xml`}>
               {locale === "fr" ? "Flux RSS" : "RSS feed"}
+            </a>
+            <a className="footer-link" href={`${prefix}/newsletter/rss.xml`}>
+              {locale === "fr" ? "RSS newsletter" : "Newsletter RSS"}
             </a>
             <a className="footer-link" href={`${prefix}/sitemap.xml`}>
               Sitemap
