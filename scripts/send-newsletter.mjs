@@ -7,10 +7,6 @@ import "./load-env.mjs";
 
 import matter from "gray-matter";
 import { Resend } from "resend";
-import { remark } from "remark";
-import rehypeSlug from "rehype-slug";
-import rehypeStringify from "rehype-stringify";
-import remarkRehype from "remark-rehype";
 
 const ROOT = process.cwd();
 const SITE_URL = String(process.env.NEXT_PUBLIC_SITE_URL || "https://aisignals.dev").replace(/\/+$/u, "");
@@ -60,11 +56,6 @@ function formatDate(dateIso, locale) {
   } catch {
     return dateIso;
   }
-}
-
-async function markdownToHtml(markdown) {
-  const processed = await remark().use(remarkRehype).use(rehypeSlug).use(rehypeStringify).process(String(markdown || ""));
-  return String(processed.value);
 }
 
 function stripTags(html) {
@@ -161,6 +152,147 @@ function sanitizeContent(html) {
   return out;
 }
 
+function clampText(input, max) {
+  const value = String(input || "").trim();
+  if (value.length <= max) return value;
+  return value.slice(0, Math.max(0, max - 1)).trimEnd() + "…";
+}
+
+function parseSection(markdown, heading) {
+  const lines = String(markdown || "").split(/\r?\n/);
+  const startIndex = lines.findIndex((line) => line.trim() === heading);
+  if (startIndex === -1) return [];
+
+  const out = [];
+  for (let i = startIndex + 1; i < lines.length; i += 1) {
+    const line = lines[i];
+    if (line.startsWith("## ")) break;
+    out.push(line);
+  }
+  return out;
+}
+
+function parseBullets(lines) {
+  return lines
+    .map((l) => l.trim())
+    .filter((l) => l.startsWith("- "))
+    .map((l) => l.replace(/^-+\s+/, "").trim())
+    .filter(Boolean);
+}
+
+function parseLinkBullets(lines) {
+  const items = [];
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line.startsWith("- [")) continue;
+
+    const match = line.match(/^- \[([^\]]+)\]\(([^)]+)\)(?:\s*(?:—|:)\s*(.*))?$/u);
+    if (!match) continue;
+
+    const title = match[1].trim();
+    const url = match[2].trim();
+    const desc = String(match[3] || "").trim();
+
+    if (!title || !url) continue;
+    items.push({ title, url, desc });
+  }
+  return items;
+}
+
+function withUtm(rawUrl, params) {
+  try {
+    const url = new URL(rawUrl);
+    for (const [k, v] of Object.entries(params)) {
+      if (!v) continue;
+      url.searchParams.set(k, v);
+    }
+    return url.toString();
+  } catch {
+    return rawUrl;
+  }
+}
+
+function renderTeaserHtml({ locale, issue, campaign }) {
+  const isFr = locale === "fr";
+  const tldrHeading = "## TL;DR";
+  const linksHeading = isFr ? "## Cette semaine sur AI Signals (liens internes)" : "## This week on AI Signals (internal links)";
+
+  const tldrLines = parseSection(issue.markdown, tldrHeading);
+  const linksLines = parseSection(issue.markdown, linksHeading);
+
+  const tldr = parseBullets(tldrLines).slice(0, 6);
+  const stories = parseLinkBullets(linksLines).slice(0, 4).map((s) => ({
+    ...s,
+    url: withUtm(s.url, {
+      utm_source: "newsletter",
+      utm_medium: "email",
+      utm_campaign: campaign,
+      utm_content: locale,
+    }),
+  }));
+
+  const issueUrlTracked = withUtm(issue.issueUrl, {
+    utm_source: "newsletter",
+    utm_medium: "email",
+    utm_campaign: campaign,
+    utm_content: locale,
+  });
+
+  const tldrHtml =
+    tldr.length === 0
+      ? `<p style="margin:0;color:#cbd5e1;">${isFr ? "Resume a venir." : "Summary coming soon."}</p>`
+      : `<ul style="margin:12px 0 0;padding:0 0 0 18px;color:#cbd5e1;">${tldr
+          .map((b) => `<li style="margin:0 0 8px;">${escapeHtml(b)}</li>`)
+          .join("")}</ul>`;
+
+  const storyCards =
+    stories.length === 0
+      ? ""
+      : `<div style="margin-top:16px;">
+          ${stories
+            .map((s) => {
+              const desc = s.desc ? `<div style="margin-top:6px;color:#cbd5e1;font-size:13px;line-height:19px;">${escapeHtml(clampText(s.desc, 160))}</div>` : "";
+              return `<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin-top:10px;border:1px solid rgba(148,163,184,0.18);border-radius:14px;background:rgba(2,6,23,0.35);">
+                        <tr>
+                          <td style="padding:14px 14px 12px;">
+                            <div style="font-weight:900;color:#f8fafc;font-size:15px;line-height:20px;">${escapeHtml(s.title)}</div>
+                            ${desc}
+                            <div style="margin-top:10px;">
+                              <a href="${s.url}" style="display:inline-block;background:#22d3ee;color:#0b1220;text-decoration:none;font-weight:900;font-size:12px;padding:9px 12px;border-radius:10px;">${isFr ? "Lire l'article" : "Read the post"}</a>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>`;
+            })
+            .join("")}
+        </div>`;
+
+  return `
+    <div style="margin-top:6px;color:#94a3b8;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-weight:800;">
+      ${isFr ? "TL;DR builders" : "Builder TL;DR"}
+    </div>
+    ${tldrHtml}
+
+    <div style="margin-top:22px;color:#94a3b8;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-weight:800;">
+      ${isFr ? "Top articles" : "Top posts"}
+    </div>
+    ${storyCards}
+
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin-top:22px;border:1px dashed rgba(103,232,249,0.35);border-radius:14px;">
+      <tr>
+        <td style="padding:14px 14px 14px;">
+          <div style="font-weight:900;color:#f8fafc;font-size:14px;line-height:20px;">
+            ${isFr ? "Lire l'edition complete (avec Model watch, Agents, Tools...)" : "Read the full issue (Model watch, Agents, Tools...)"}
+          </div>
+          <div style="margin-top:10px;">
+            <a href="${issueUrlTracked}" style="display:inline-block;background:linear-gradient(90deg,#22d3ee,#fbbf24);color:#0b1220;text-decoration:none;font-weight:900;font-size:13px;padding:11px 14px;border-radius:10px;">${isFr ? "Ouvrir l'edition" : "Open the issue"}</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  `;
+}
+
 async function readLatestIssue(locale) {
   const dir = locale === "fr" ? OUT_FR_DIR : OUT_DIR;
   const files = await fs.readdir(dir);
@@ -179,7 +311,6 @@ async function readLatestIssue(locale) {
   const dateIso = String(fm.date || slug.slice(0, 10));
   const issueNumber = typeof fm.issueNumber === "number" ? fm.issueNumber : Number(fm.issueNumber || "");
   const markdown = String(parsed.content || "").trim();
-  const contentHtml = await markdownToHtml(markdown);
 
   return {
     slug,
@@ -187,7 +318,7 @@ async function readLatestIssue(locale) {
     excerpt,
     dateIso,
     issueNumber: Number.isFinite(issueNumber) ? issueNumber : undefined,
-    contentHtml,
+    markdown,
   };
 }
 
@@ -277,13 +408,19 @@ async function main() {
     const issue = locale === "fr" ? issueFr : issueEn;
     const issueUrl = `${SITE_URL}${locale === "fr" ? "/fr" : ""}/newsletter/${issue.slug}`;
     const unsubscribeUrl = buildUnsubscribeUrl(TEST_TO);
+    const campaign = `weekly_issue_${issue.issueNumber || issue.slug}`;
+    const teaserHtml = renderTeaserHtml({
+      locale,
+      issue: { ...issue, issueUrl },
+      campaign,
+    });
     const html = wrapEmailHtml({
       locale,
       title: issue.title,
       excerpt: issue.excerpt,
       dateIso: issue.dateIso,
       issueNumber: issue.issueNumber,
-      contentHtml: issue.contentHtml,
+      contentHtml: teaserHtml,
       issueUrl,
       unsubscribeUrl,
     });
@@ -327,6 +464,12 @@ async function main() {
     const issue = locale === "fr" ? issueFr : issueEn;
     const issueUrl = `${SITE_URL}${locale === "fr" ? "/fr" : ""}/newsletter/${issue.slug}`;
     const unsubscribeUrl = buildUnsubscribeUrl(email);
+    const campaign = `weekly_issue_${issue.issueNumber || issue.slug}`;
+    const teaserHtml = renderTeaserHtml({
+      locale,
+      issue: { ...issue, issueUrl },
+      campaign,
+    });
 
     const html = wrapEmailHtml({
       locale,
@@ -334,7 +477,7 @@ async function main() {
       excerpt: issue.excerpt,
       dateIso: issue.dateIso,
       issueNumber: issue.issueNumber,
-      contentHtml: issue.contentHtml,
+      contentHtml: teaserHtml,
       issueUrl,
       unsubscribeUrl,
     });
