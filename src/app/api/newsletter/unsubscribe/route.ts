@@ -28,9 +28,25 @@ async function unsubscribeWithBeehiiv(email: string) {
   const publicationId = process.env.BEEHIIV_PUBLICATION_ID;
   if (!apiKey || !publicationId) throw new Error("not_configured");
 
-  // Beehiiv supports updating a subscription by email.
-  const url = `https://api.beehiiv.com/v2/publications/${publicationId}/subscriptions/by_email/${encodeURIComponent(email)}`;
-  const res = await fetch(url, {
+  // 1) Lookup subscription ID by email
+  const lookup = await fetch(
+    `https://api.beehiiv.com/v2/publications/${publicationId}/subscriptions/by_email/${encodeURIComponent(email)}`,
+    {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        accept: "application/json",
+      },
+    },
+  );
+
+  if (!lookup.ok) throw new Error(`beehiiv_lookup_${lookup.status}`);
+  const lookupJson = (await lookup.json()) as { data?: { id?: string } };
+  const subscriptionId = String(lookupJson.data?.id || "");
+  if (!subscriptionId) throw new Error("beehiiv_missing_subscription_id");
+
+  // 2) Unsubscribe by ID
+  const res = await fetch(`https://api.beehiiv.com/v2/publications/${publicationId}/subscriptions/${subscriptionId}`, {
     method: "PATCH",
     headers: {
       Authorization: `Bearer ${apiKey}`,
@@ -102,6 +118,6 @@ export async function POST(req: Request) {
     // ignore
   }
 
-  return NextResponse.json({ ok: true }, { status: 200, headers: { "cache-control": "no-store" } });
+  // For one-click unsubscribe, providers expect an empty 200/202 response.
+  return new Response("", { status: 200, headers: { "cache-control": "no-store" } });
 }
-
