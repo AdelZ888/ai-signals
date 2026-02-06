@@ -7,6 +7,7 @@ import { ExitSubscribe } from "@/components/exit-subscribe";
 import { LocaleDocument } from "@/components/locale-document";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { getSiteUrl } from "@/lib/site-url";
 
 import "./globals.css";
 
@@ -21,7 +22,7 @@ const body = IBM_Plex_Sans({
   weight: ["400", "500", "700"],
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const baseUrl = getSiteUrl();
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "";
 const defaultOgParams = new URLSearchParams({
   title: "AI Signals",

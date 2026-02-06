@@ -17,6 +17,7 @@ import {
   getRegionLabel,
   getSeriesLabel,
 } from "@/lib/posts";
+import { getSiteUrl } from "@/lib/site-url";
 
 type Params = {
   params: Promise<{ slug: string }>;
@@ -82,7 +83,7 @@ export default async function PostPage({ params }: Params) {
 
   const relatedPosts = await getRelatedPosts(slug);
   const shareText = encodeURIComponent(post.title);
-  const canonicalUrl = `${process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"}/posts/${post.slug}`;
+  const canonicalUrl = `${getSiteUrl()}/posts/${post.slug}`;
   const shareUrl = encodeURIComponent(canonicalUrl);
   const showSeries = typeof post.series === "string" && post.series.trim().length > 0;
   const showDifficulty = !!post.difficulty;

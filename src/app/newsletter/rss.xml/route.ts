@@ -1,4 +1,5 @@
 import { getAllNewslettersMeta, getNewsletter } from "@/lib/newsletters";
+import { getSiteUrl } from "@/lib/site-url";
 
 function cdata(value: string) {
   return `<![CDATA[${String(value || "").replaceAll("]]>", "]]]]><![CDATA[>")}]]>`;
@@ -14,7 +15,7 @@ function absolutizeRelativeLinks(html: string, siteUrl: string) {
 }
 
 export async function GET() {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const siteUrl = getSiteUrl();
   const issues = (await getAllNewslettersMeta("en")).slice(0, 25);
 
   const items = await Promise.all(
@@ -51,4 +52,3 @@ export async function GET() {
     },
   });
 }
-

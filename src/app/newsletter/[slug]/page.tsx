@@ -7,6 +7,7 @@ import { PostToc } from "@/components/post-toc";
 import { ReadingProgress } from "@/components/reading-progress";
 import { ShareSnippet } from "@/components/share-snippet";
 import { getAllNewslettersMeta, getNewsletter } from "@/lib/newsletters";
+import { getSiteUrl } from "@/lib/site-url";
 
 type Params = {
   params: Promise<{ slug: string }>;
@@ -76,7 +77,7 @@ export default async function NewsletterIssuePage({ params }: Params) {
     notFound();
   }
 
-  const canonicalUrl = `${process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"}/newsletter/${issue.slug}`;
+  const canonicalUrl = `${getSiteUrl()}/newsletter/${issue.slug}`;
 
   return (
     <main className="mx-auto w-full max-w-6xl px-6 py-12">
