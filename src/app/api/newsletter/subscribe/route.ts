@@ -121,7 +121,7 @@ export async function POST(req: Request) {
     ...(payload.utm_source ? { utm_source: payload.utm_source } : null),
     ...(payload.utm_medium ? { utm_medium: payload.utm_medium } : null),
     ...(payload.utm_campaign ? { utm_campaign: payload.utm_campaign } : null),
-    ...(payload.utm_content ? { utm_content: payload.utm_content } : null),
+    ...(payload.utm_content ? { utm_content: payload.utm_content } : { utm_content: `locale_${locale}` }),
     ...(payload.utm_term ? { utm_term: payload.utm_term } : null),
     ...(payload.referring_site ? { referring_site: payload.referring_site } : null),
   };
