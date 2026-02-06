@@ -26,6 +26,7 @@ const UNSUBSCRIBE_SECRET = process.env.NEWSLETTER_UNSUBSCRIBE_SECRET;
 
 const DRY_RUN = String(process.env.DRY_RUN || "0") === "1";
 const TEST_TO = String(process.env.NEWSLETTER_TEST_TO || "").trim(); // if set: only send to this address
+const TEST_LOCALE = String(process.env.NEWSLETTER_TEST_LOCALE || "").trim().toLowerCase(); // en|fr (optional)
 const MAX_SEND = Math.max(1, Math.min(10_000, Number(process.env.NEWSLETTER_MAX_SEND || 500)));
 
 const OUT_DIR = path.join(ROOT, "content/newsletters");
@@ -259,11 +260,10 @@ async function main() {
 
   const resend = new Resend(RESEND_API_KEY);
 
-  const [issueEn, issueFr, sentLog, subs] = await Promise.all([
+  const [issueEn, issueFr, sentLog] = await Promise.all([
     readLatestIssue("en"),
     readLatestIssue("fr"),
     readSentLog(),
-    fetchBeehiivSubscriptions(),
   ]);
 
   // Prevent duplicate sends per issue slug (autonomous safety).
@@ -272,8 +272,49 @@ async function main() {
     return;
   }
 
+  if (TEST_TO) {
+    const locale = TEST_LOCALE === "fr" ? "fr" : "en";
+    const issue = locale === "fr" ? issueFr : issueEn;
+    const issueUrl = `${SITE_URL}${locale === "fr" ? "/fr" : ""}/newsletter/${issue.slug}`;
+    const unsubscribeUrl = buildUnsubscribeUrl(TEST_TO);
+    const html = wrapEmailHtml({
+      locale,
+      title: issue.title,
+      excerpt: issue.excerpt,
+      dateIso: issue.dateIso,
+      issueNumber: issue.issueNumber,
+      contentHtml: issue.contentHtml,
+      issueUrl,
+      unsubscribeUrl,
+    });
+    const text = stripTags(html);
+
+    if (DRY_RUN) {
+      console.log(`[send-newsletter] DRY_RUN -> ${normalizeEmail(TEST_TO)} locale=${locale} issue=${issue.slug}`);
+      return;
+    }
+
+    await resend.emails.send({
+      from: NEWSLETTER_FROM,
+      to: [normalizeEmail(TEST_TO)],
+      replyTo: NEWSLETTER_REPLY_TO ? [NEWSLETTER_REPLY_TO] : undefined,
+      subject: issue.title,
+      html,
+      text,
+      headers: {
+        "List-Unsubscribe": `<${unsubscribeUrl}>`,
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      },
+      tags: [{ name: "locale", value: locale }, { name: "issue", value: issue.slug }, { name: "mode", value: "test" }],
+    });
+
+    console.log(`[send-newsletter] sent=1 issue=${issueEn.slug} (test mode)`);
+    return;
+  }
+
+  const subs = await fetchBeehiivSubscriptions();
   const activeSubs = subs.filter((s) => String(s.status || "").toLowerCase() === "active");
-  const recipients = TEST_TO ? activeSubs.filter((s) => normalizeEmail(s.email) === normalizeEmail(TEST_TO)) : activeSubs;
+  const recipients = activeSubs;
 
   const batches = recipients.slice(0, MAX_SEND);
   let sentCount = 0;
