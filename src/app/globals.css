@@ -134,12 +134,78 @@ h6,
   color: var(--soft);
 }
 
+.card-excerpt {
+  color: color-mix(in srgb, var(--soft) 68%, var(--muted));
+  line-height: 1.6;
+}
+
 .theme-pill {
   background: var(--pill);
 }
 
 .theme-pill-hover:hover {
   background: var(--pill-hover);
+}
+
+.meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  padding: 0.28rem 0.6rem;
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  color: var(--faint);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.meta-icon {
+  display: inline-flex;
+  color: color-mix(in srgb, #22d3ee 55%, var(--faint));
+}
+
+.tag-more {
+  position: relative;
+}
+
+.tag-more-summary {
+  list-style: none;
+  cursor: pointer;
+  border: 1px dashed color-mix(in srgb, var(--border-soft) 85%, transparent);
+  border-radius: 9999px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 900;
+  color: var(--muted);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  transition: transform 200ms ease, border-color 200ms ease, color 200ms ease;
+}
+
+.tag-more-summary::-webkit-details-marker {
+  display: none;
+}
+
+.tag-more[open] .tag-more-summary {
+  border-color: rgba(34, 211, 238, 0.6);
+  color: var(--foreground);
+}
+
+.tag-more-panel {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.5rem);
+  z-index: 20;
+  min-width: min(520px, 80vw);
+  max-width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--surface-strong);
+  padding: 0.75rem;
+  box-shadow: var(--shadow-card-hover);
 }
 
 .theme-toggle {
@@ -189,6 +255,15 @@ h6,
   color: var(--muted);
   background: transparent;
   transition: transform 180ms ease, border-color 180ms ease, color 180ms ease, background-color 180ms ease;
+}
+
+.nav-pill-summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-pill-summary::-webkit-details-marker {
+  display: none;
 }
 
 .nav-pill:hover {
@@ -251,6 +326,12 @@ h6,
   background: var(--surface-strong);
   padding: 0.5rem;
   box-shadow: var(--shadow-card-hover);
+}
+
+.nav-more-panel {
+  left: auto;
+  right: 0;
+  min-width: 14rem;
 }
 
 .nav-menu-item {
@@ -647,6 +728,14 @@ h6,
   line-height: 1.65;
 }
 
+.hero-group-label {
+  color: var(--faint);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 .hero-cta {
   display: inline-flex;
   align-items: center;
@@ -662,6 +751,7 @@ h6,
 .hero-cta-primary {
   background: #22d3ee;
   color: #0f172a;
+  box-shadow: 0 10px 25px rgba(34, 211, 238, 0.12);
 }
 
 .hero-cta-primary:hover {
@@ -683,7 +773,7 @@ h6,
 
 .hero-cta-tertiary {
   border: 1px dashed color-mix(in srgb, var(--border-soft) 80%, transparent);
-  background: transparent;
+  background: color-mix(in srgb, var(--surface) 55%, transparent);
   color: var(--muted);
 }
 
@@ -691,6 +781,51 @@ h6,
   border-color: rgba(245, 158, 11, 0.55);
   color: var(--foreground);
   transform: translateY(-1px);
+}
+
+.pager {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pager-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-soft);
+  border-radius: 0.85rem;
+  padding: 0.55rem 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 900;
+  background: var(--surface);
+  color: var(--soft);
+  transition: transform 200ms ease, border-color 200ms ease, color 200ms ease;
+}
+
+.pager-link:hover {
+  transform: translateY(-1px);
+  border-color: rgba(34, 211, 238, 0.6);
+  color: #22d3ee;
+}
+
+.pager-link-primary {
+  border-color: transparent;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.28), rgba(245, 158, 11, 0.18));
+}
+
+.pager-link-primary:hover {
+  border-color: rgba(34, 211, 238, 0.55);
+  color: var(--foreground);
+}
+
+.pager-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
 }
 
 .hero-chip {

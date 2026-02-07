@@ -33,7 +33,7 @@ export function RelatedPosts({ posts, locale = "en" }: RelatedPostsProps) {
                   {post.title}
                 </Link>
               </h3>
-              <p className="mt-2 text-sm theme-text-muted">{post.excerpt}</p>
+              <p className="mt-2 text-sm card-excerpt">{post.excerpt}</p>
             </article>
           </div>
         ))}

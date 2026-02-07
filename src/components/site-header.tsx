@@ -33,15 +33,18 @@ export function SiteHeader() {
           about: "About",
         };
 
-  const navLinks = [
+  const primaryLinks = [
     { path: "/", label: navLabels.home, delayClass: "motion-delay-1" },
     { path: "/start-here", label: navLabels.startHere, delayClass: "motion-delay-2" },
     { path: "/news", label: navLabels.news, delayClass: "motion-delay-3" },
     { path: "/tutorials", label: navLabels.tutorials, delayClass: "motion-delay-4" },
     { path: "/newsletter", label: navLabels.newsletter, delayClass: "motion-delay-5" },
-    { path: "/regions", label: navLabels.regions, delayClass: "motion-delay-6" },
-    { path: "/search", label: navLabels.search, delayClass: "motion-delay-7" },
-    { path: "/about", label: navLabels.about, delayClass: "motion-delay-8" },
+  ];
+
+  const secondaryLinks = [
+    { path: "/regions", label: navLabels.regions },
+    { path: "/search", label: navLabels.search },
+    { path: "/about", label: navLabels.about },
   ];
 
   const canonicalPath = stripLocalePrefix(pathname || "/");
@@ -64,7 +67,7 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-3">
           <nav className="hidden items-center gap-2 text-sm theme-text-muted md:flex">
-            {navLinks.map((link) => (
+            {primaryLinks.map((link) => (
               <Link
                 key={link.path}
                 href={withLocalePath(link.path, locale)}
@@ -73,6 +76,21 @@ export function SiteHeader() {
                 {link.label}
               </Link>
             ))}
+
+            <details className="relative">
+              <summary className="nav-pill nav-pill-summary motion-enter-soft motion-delay-6">{locale === "fr" ? "Plus" : "More"}</summary>
+              <div className="nav-menu-panel nav-more-panel">
+                {secondaryLinks.map((link) => (
+                  <Link
+                    key={`more-${link.path}`}
+                    href={withLocalePath(link.path, locale)}
+                    className={`nav-menu-item ${isActive(link.path) ? "nav-menu-item-active" : ""}`}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </details>
           </nav>
 
           <Link href={subscribeHref} className="hidden rounded-lg bg-cyan-300 px-3 py-2 text-xs font-bold text-zinc-900 transition hover:bg-cyan-200 md:inline-flex">
@@ -91,11 +109,31 @@ export function SiteHeader() {
           <ThemeToggle />
 
           <details className="relative md:hidden">
-            <summary className="nav-menu-button">Menu</summary>
+            <summary className="nav-menu-button" aria-label={locale === "fr" ? "Ouvrir le menu" : "Open menu"}>
+              <span className="sr-only">{locale === "fr" ? "Menu" : "Menu"}</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <path d="M4 7h16" />
+                <path d="M4 12h16" />
+                <path d="M4 17h16" />
+              </svg>
+            </summary>
             <div className="nav-menu-panel">
-              {navLinks.map((link) => (
+              <p className="px-3 pb-2 pt-1 text-xs font-extrabold uppercase tracking-[0.2em] theme-text-faint">
+                {locale === "fr" ? "Navigation" : "Navigation"}
+              </p>
+              {primaryLinks.map((link) => (
                 <Link
                   key={`mobile-${link.path}`}
+                  href={withLocalePath(link.path, locale)}
+                  className={`nav-menu-item ${isActive(link.path) ? "nav-menu-item-active" : ""}`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <div className="my-2 h-px w-full" style={{ background: "var(--border)" }} />
+              {secondaryLinks.map((link) => (
+                <Link
+                  key={`mobile-secondary-${link.path}`}
                   href={withLocalePath(link.path, locale)}
                   className={`nav-menu-item ${isActive(link.path) ? "nav-menu-item-active" : ""}`}
                 >

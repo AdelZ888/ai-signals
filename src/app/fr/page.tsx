@@ -53,7 +53,9 @@ export default async function HomeFr() {
   const posts = await getAllPostsMeta("fr");
   const tags = await getAllTags("fr");
   const featured = posts[0];
-  const rest = posts.slice(1, 9);
+  const rest = posts.slice(1, 13);
+  const visibleTags = tags.slice(0, 6);
+  const hiddenTags = tags.slice(6, 18);
 
   return (
     <main className="mx-auto w-full max-w-6xl px-6 py-12">
@@ -77,33 +79,51 @@ export default async function HomeFr() {
             </Link>
           </div>
 
-          <div className="mt-7 flex flex-wrap gap-2">
-            {PRIMARY_REGIONS.map((region, index) => (
-              <Link
-                key={region}
-                href={`/fr/regions/${regionCodeToPath(region)}`}
-                className={`hero-chip motion-enter motion-delay-${Math.min(index + 1, 8)}`}
-              >
-                {getRegionLabel(region, "fr")}
-              </Link>
-            ))}
+          <div className="mt-7">
+            <p className="hero-group-label">Regions</p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {PRIMARY_REGIONS.map((region, index) => (
+                <Link
+                  key={region}
+                  href={`/fr/regions/${regionCodeToPath(region)}`}
+                  className={`hero-chip motion-enter motion-delay-${Math.min(index + 1, 8)}`}
+                >
+                  {getRegionLabel(region, "fr")}
+                </Link>
+              ))}
+            </div>
           </div>
 
-          <div className="mt-3 flex flex-wrap gap-2">
-            {tags.slice(0, 10).map((tag, index) => (
-              <Link
-                key={tag}
-                href={`/fr/tags/${formatTagForPath(tag)}`}
-                className={`hero-tag motion-enter motion-delay-${Math.min(index + 2, 8)}`}
-              >
-                {tag}
-              </Link>
-            ))}
+          <div className="mt-5">
+            <p className="hero-group-label">Themes</p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {visibleTags.map((tag, index) => (
+                <Link
+                  key={tag}
+                  href={`/fr/tags/${formatTagForPath(tag)}`}
+                  className={`hero-tag motion-enter motion-delay-${Math.min(index + 2, 8)}`}
+                >
+                  {tag}
+                </Link>
+              ))}
+              {hiddenTags.length > 0 ? (
+                <details className="tag-more">
+                  <summary className="tag-more-summary">+{hiddenTags.length} de plus</summary>
+                  <div className="tag-more-panel">
+                    {hiddenTags.map((tag) => (
+                      <Link key={`hero-fr-${tag}`} href={`/fr/tags/${formatTagForPath(tag)}`} className="hero-tag">
+                        {tag}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              ) : null}
+            </div>
           </div>
         </div>
       </section>
 
-      <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_360px]">
+      <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_340px] xl:grid-cols-[1fr_380px]">
         <section className="space-y-5">
           <div className="flex items-end justify-between gap-4">
             <div>
@@ -124,7 +144,7 @@ export default async function HomeFr() {
                     {featured.title}
                   </Link>
                 </h3>
-                <p className="mt-3 theme-text-muted">{featured.excerpt}</p>
+                <p className="mt-3 card-excerpt">{featured.excerpt}</p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   <Link href={`/fr/posts/${featured.slug}`} className="hero-cta hero-cta-secondary">
                     Ouvrir
@@ -137,7 +157,7 @@ export default async function HomeFr() {
             </div>
           ) : null}
 
-          <div className="grid gap-4">
+          <div className="grid gap-4 sm:grid-cols-2">
             {rest.map((post, index) => (
               <PostCard key={post.slug} post={post} locale="fr" delayClass={`motion-delay-${Math.min(index + 3, 8)}`} />
             ))}
