@@ -483,6 +483,80 @@ function truncateChars(text, maxChars) {
   return `${value.slice(0, maxChars).trim()}…`;
 }
 
+function cosineSimilarity(a, b) {
+  if (!Array.isArray(a) || !Array.isArray(b) || a.length === 0 || a.length !== b.length) return 0;
+
+  let dot = 0;
+  let normA = 0;
+  let normB = 0;
+  for (let i = 0; i < a.length; i += 1) {
+    const x = Number(a[i]);
+    const y = Number(b[i]);
+    if (!Number.isFinite(x) || !Number.isFinite(y)) continue;
+    dot += x * y;
+    normA += x * x;
+    normB += y * y;
+  }
+  const denom = Math.sqrt(normA) * Math.sqrt(normB);
+  if (!denom) return 0;
+  return dot / denom;
+}
+
+function buildDedupText(item, maxChars) {
+  const title = String(item?.title || "").trim();
+  const summary = String(item?.summary || "").trim();
+  const source = String(item?.source || "").trim();
+  const link = String(item?.link || item?.id || "").trim();
+
+  const text = [title, summary, source, link].filter(Boolean).join("\n");
+  return truncateChars(text, maxChars);
+}
+
+async function createEmbeddings(client, model, inputs) {
+  const normalized = (Array.isArray(inputs) ? inputs : [])
+    .map((v) => String(v || "").trim())
+    .filter(Boolean);
+
+  if (normalized.length === 0) return [];
+
+  const out = [];
+  const batchSize = 96;
+
+  for (let i = 0; i < normalized.length; i += batchSize) {
+    const batch = normalized.slice(i, i + batchSize);
+    const res = await client.embeddings.create({ model, input: batch });
+    const data = Array.isArray(res?.data) ? res.data.slice() : [];
+    if (data.length !== batch.length) {
+      throw new Error(`Embeddings count mismatch: got ${data.length}, expected ${batch.length}`);
+    }
+    data.sort((a, b) => (a.index ?? 0) - (b.index ?? 0));
+    out.push(...data.map((entry) => entry.embedding));
+  }
+
+  return out;
+}
+
+function pickDedupPublishedReferences(queue, lookbackDays, maxItems) {
+  const nowMs = Date.now();
+  const cutoffMs = nowMs - lookbackDays * 24 * 60 * 60 * 1000;
+
+  const items = Array.isArray(queue?.items) ? queue.items : [];
+  const published = items
+    .filter((item) => item && item.status === "published")
+    .map((item) => {
+      const rawDate = item.publishedAtRun || item.publishedAt;
+      const ms = rawDate ? new Date(String(rawDate)).getTime() : 0;
+      const keep = String(item.id || "").startsWith("manual:") || (Number.isFinite(ms) && ms >= cutoffMs);
+      return keep ? { item, ms: Number.isFinite(ms) ? ms : 0 } : null;
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.ms - a.ms)
+    .slice(0, maxItems)
+    .map((entry) => entry.item);
+
+  return published;
+}
+
 function isLikelyPaywalled(text, url) {
   const value = String(text || "").toLowerCase();
   if (!value) return false;
@@ -1720,6 +1794,38 @@ export async function generatePost() {
     queue.items = (queue.items || []).map((item) => (item.id === topicId ? { ...item, ...patch } : item));
   };
 
+  const dedupEnabled = String(process.env.DEDUP_ENABLED ?? "1") !== "0";
+  const dedupLookbackDays = clampInt(process.env.DEDUP_LOOKBACK_DAYS ?? 120, { min: 7, max: 365 }) || 120;
+  const dedupMaxReferences = clampInt(process.env.DEDUP_MAX_REFERENCES ?? 160, { min: 10, max: 400 }) || 160;
+  const dedupTextChars = clampInt(process.env.DEDUP_TEXT_CHARS ?? 900, { min: 250, max: 2000 }) || 900;
+  const dedupEmbedThreshold = Math.max(0.5, Math.min(0.99, Number(process.env.DEDUP_EMBED_THRESHOLD || 0.92)));
+  const dedupLexicalJaccard = Math.max(0.08, Math.min(0.95, Number(process.env.DEDUP_JACCARD_THRESHOLD || 0.34)));
+  const dedupLexicalOverlap = clampInt(process.env.DEDUP_OVERLAP_THRESHOLD ?? 8, { min: 3, max: 30 }) || 8;
+  const dedupEmbedModel = String(process.env.OPENAI_EMBED_MODEL || "text-embedding-3-small").trim() || "text-embedding-3-small";
+  const dedupDebug = String(process.env.DEDUP_DEBUG || "0") === "1";
+
+  const dedupReferences = dedupEnabled ? pickDedupPublishedReferences(queue, dedupLookbackDays, dedupMaxReferences) : [];
+
+  let dedupClient = null;
+  let dedupReferenceEmbeddings = null;
+
+  if (dedupEnabled && process.env.OPENAI_API_KEY && dedupReferences.length > 0) {
+    try {
+      dedupClient = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, timeout: OPENAI_TIMEOUT_MS, maxRetries: OPENAI_MAX_RETRIES });
+      const refTexts = dedupReferences.map((item) => buildDedupText(item, dedupTextChars));
+      dedupReferenceEmbeddings = await createEmbeddings(dedupClient, dedupEmbedModel, refTexts);
+      console.log(
+        `[generate-post] Dedup ready: refs=${dedupReferences.length} model=${dedupEmbedModel} threshold=${dedupEmbedThreshold}`,
+      );
+    } catch (error) {
+      console.warn(`[generate-post] Dedup embeddings disabled: ${error.message}`);
+      dedupClient = null;
+      dedupReferenceEmbeddings = null;
+    }
+  } else if (dedupEnabled && dedupReferences.length > 0) {
+    console.log(`[generate-post] Dedup ready: refs=${dedupReferences.length} mode=lexical (embeddings unavailable)`);
+  }
+
   for (let attempt = 0; attempt < MAX_TOPIC_ATTEMPTS; attempt += 1) {
     // Don't get stuck trying the same region repeatedly if sources are paywalled or generation fails.
     const targetRegion = regionOrder[attempt % regionOrder.length] || pickTargetRegion(queue);
@@ -1733,6 +1839,74 @@ export async function generatePost() {
 
     const template = detectEditorialTemplate(topic);
     const wordTargets = getWordTargets(template);
+
+    if (dedupEnabled && dedupReferences.length > 0) {
+      const candidateText = buildDedupText(topic, dedupTextChars);
+      let duplicate = null;
+
+      if (dedupClient && Array.isArray(dedupReferenceEmbeddings) && dedupReferenceEmbeddings.length === dedupReferences.length) {
+        try {
+          const [candidateEmbedding] = await createEmbeddings(dedupClient, dedupEmbedModel, [candidateText]);
+          let bestSim = 0;
+          let bestIndex = -1;
+
+          for (let i = 0; i < dedupReferences.length; i += 1) {
+            const sim = cosineSimilarity(candidateEmbedding, dedupReferenceEmbeddings[i]);
+            if (sim > bestSim) {
+              bestSim = sim;
+              bestIndex = i;
+            }
+          }
+
+          if (dedupDebug && bestIndex >= 0) {
+            console.log(`[generate-post] Dedup best cosine=${bestSim.toFixed(3)} ref="${dedupReferences[bestIndex].title}"`);
+          }
+
+          if (bestIndex >= 0 && bestSim >= dedupEmbedThreshold) {
+            duplicate = { mode: "embeddings", ref: dedupReferences[bestIndex], score: bestSim };
+          }
+        } catch (error) {
+          console.warn(`[generate-post] Dedup embedding check failed: ${error.message}`);
+        }
+      }
+
+      if (!duplicate) {
+        let best = { jaccard: 0, overlap: 0, ref: null };
+
+        for (const ref of dedupReferences) {
+          const sim = topicSimilarity(topic, ref);
+          if (sim.jaccard > best.jaccard) best = { ...sim, ref };
+        }
+
+        if (best.ref && best.jaccard >= dedupLexicalJaccard && best.overlap >= dedupLexicalOverlap) {
+          duplicate = { mode: "lexical", ref: best.ref, score: best.jaccard, overlap: best.overlap };
+        } else if (dedupDebug && best.ref) {
+          console.log(
+            `[generate-post] Dedup best lexical jaccard=${best.jaccard.toFixed(3)} overlap=${best.overlap} ref="${best.ref.title}"`,
+          );
+        }
+      }
+
+      if (duplicate) {
+        const ref = duplicate.ref;
+        const simLabel =
+          duplicate.mode === "embeddings" ? duplicate.score.toFixed(3) : `${duplicate.score.toFixed(3)} (overlap=${duplicate.overlap})`;
+
+        updateItem(topic.id, {
+          status: "failed",
+          targetRegion,
+          region: normalizeRegion(topic.region),
+          editorialTemplate: template.id,
+          failedAtRun: nowIso,
+          failureReason: `duplicate(${duplicate.mode}) of \"${ref.title}\" (${ref.id}) sim=${simLabel}`.slice(0, 1800),
+          duplicateOf: ref.id,
+          duplicateSimilarity: duplicate.score,
+        });
+
+        console.warn(`Skipped topic ${topic.id} (${topic.title}) because: semantic duplicate of ${ref.id}`);
+        continue;
+      }
+    }
 
     const sourceBundle = buildSourceBundle(queue, topic, targetRegion, template);
     if (sourceBundle.length < 1) {

@@ -3,6 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 import Parser from "rss-parser";
+import { compactQueuePayload } from "./compact-queue.mjs";
 
 const FEEDS = [
   { name: "OpenAI News", url: "https://openai.com/news/rss.xml", region: "US" },
@@ -155,13 +156,12 @@ export async function discoverTopics() {
 
   const merged = [...mergedById.values()]
     .filter((item) => isAiRelevant(item))
-    .sort((a, b) => (b.score || 0) - (a.score || 0))
-    .slice(0, 120);
+    .sort((a, b) => (b.score || 0) - (a.score || 0));
 
-  const payload = {
+  const payload = compactQueuePayload({
     generatedAt: new Date().toISOString(),
     items: merged,
-  };
+  });
 
   await fs.mkdir(path.dirname(queuePath), { recursive: true });
   await fs.writeFile(queuePath, JSON.stringify(payload, null, 2));

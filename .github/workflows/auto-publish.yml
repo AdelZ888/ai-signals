@@ -37,8 +37,19 @@ jobs:
 
       - name: Detect post changes
         run: |
-          if git status --porcelain | awk '{print $2}' | grep -q '^content/posts/'; then
+          CHANGED_POSTS="$(git status --porcelain | awk '{print $2}' | grep '^content/posts/' || true)"
+
+          if [ -n "$CHANGED_POSTS" ]; then
             echo "POST_GENERATED=1" >> "$GITHUB_ENV"
+
+            # Prefer EN slugs for validation, but fall back to FR if needed.
+            SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/' | grep -v '^content/posts/fr/' | sed 's|^content/posts/||' | sed 's|\\.md$||' | paste -sd ',' - || true)"
+            if [ -z "$SLUGS" ]; then
+              SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/fr/' | sed 's|^content/posts/fr/||' | sed 's|\\.md$||' | paste -sd ',' - || true)"
+            fi
+
+            echo "POST_SLUGS=$SLUGS" >> "$GITHUB_ENV"
+            echo "Detected post slugs: $SLUGS"
           else
             echo "POST_GENERATED=0" >> "$GITHUB_ENV"
             echo "No post file changed under content/posts/."
@@ -63,6 +74,42 @@ jobs:
           git add content/posts data/topics-queue.json
           git commit -m "chore: auto-publish ai post"
           git push
+
+      - name: Validate deployment URLs (prod)
+        if: ${{ env.POST_GENERATED == '1' }}
+        run: |
+          if [ -z "${POST_SLUGS:-}" ]; then
+            echo "POST_SLUGS is empty even though a post was generated."
+            exit 1
+          fi
+
+          BASE_URL="https://aisignals.dev"
+          IFS=',' read -r -a slugs <<< "$POST_SLUGS"
+
+          for slug in "${slugs[@]}"; do
+            for path in "/posts/${slug}" "/fr/posts/${slug}"; do
+              url="${BASE_URL}${path}"
+              echo "Waiting for ${url}"
+              ok=0
+
+              # Vercel production deploy may take a few minutes after push.
+              for i in {1..42}; do
+                code="$(curl -sSL -o /dev/null -w '%{http_code}' "${url}" || true)"
+                if [ "${code}" = "200" ]; then
+                  echo "OK: ${url}"
+                  ok=1
+                  break
+                fi
+                echo "[${i}/42] HTTP ${code}"
+                sleep 10
+              done
+
+              if [ "${ok}" != "1" ]; then
+                echo "Deployment validation failed for ${url}"
+                exit 1
+              fi
+            done
+          done
 
       - name: Fail if no post was generated
         if: ${{ env.POST_GENERATED != '1' }}
