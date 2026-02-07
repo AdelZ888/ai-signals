@@ -2,6 +2,35 @@
   "generatedAt": "2026-02-07T10:50:58.501Z",
   "items": [
     {
+      "id": "manual:openclaw-beginner-tutorial",
+      "title": "OpenClaw for Beginners: Install, Onboard, and Ship Your First Agent Workflow",
+      "link": "https://docs.openclaw.ai/start/wizard",
+      "summary": "Beginner tutorial: install OpenClaw, run the onboarding wizard, connect a messaging platform, and ship a safe first workflow with skills + guardrails.",
+      "source": "OpenClaw Docs",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-07T12:00:00.000Z",
+      "score": 999,
+      "status": "published",
+      "sourceBundle": [
+        "https://docs.openclaw.ai/start/wizard",
+        "https://docs.openclaw.ai/start/wizard-cli-reference",
+        "https://getclawdbot.com/guides/install/"
+      ],
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-07T12:31:26.407Z",
+      "file": "content/posts/2026-02-07-set-up-openclaw-with-the-cli-onboarding-configure-gateway-seed-workspace-install-a-daemon-and-add-channels.md",
+      "fileFr": "content/posts/fr/2026-02-07-set-up-openclaw-with-the-cli-onboarding-configure-gateway-seed-workspace-install-a-daemon-and-add-channels.md",
+      "sourceSnapshotsCount": 2,
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1559,
+      "wordsFr": 1360
+    },
+    {
       "id": "https://arxiv.org/abs/2602.05088",
       "title": "VERA-MH: Reliability and Validity of an Open-Source AI Safety Evaluation in Mental Health",
       "link": "https://arxiv.org/abs/2602.05088",

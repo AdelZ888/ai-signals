@@ -653,10 +653,16 @@ function pickSupportingSources(queue, topic, targetRegion, limit = 3) {
 }
 
 function buildSourceBundle(queue, topic, targetRegion, template) {
-  const primary = String(topic.link || topic.id || "").trim();
   const urls = [];
 
-  if (primary) urls.push(primary);
+  // Allow curated bundles for manual/hand-picked topics (useful for tutorials).
+  // If omitted, we fall back to the single primary link + supporting sources.
+  if (Array.isArray(topic.sourceBundle) && topic.sourceBundle.length > 0) {
+    urls.push(...topic.sourceBundle.map((v) => String(v || "").trim()).filter(Boolean));
+  } else {
+    const primary = String(topic.link || topic.id || "").trim();
+    if (primary) urls.push(primary);
+  }
 
   const supporting = pickSupportingSources(queue, topic, targetRegion, 4);
   urls.push(...supporting);
