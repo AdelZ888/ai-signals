@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-07T08:20:00.212Z",
+  "generatedAt": "2026-02-07T09:54:03.400Z",
   "items": [
     {
       "id": "https://arxiv.org/abs/2602.05088",
@@ -795,8 +795,25 @@
       "region": "FR",
       "publishedAt": "2026-02-05T04:00:11.000Z",
       "score": 23.45,
-      "status": "queued",
-      "keywordHits": 0
+      "status": "published",
+      "keywordHits": 0,
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-07T09:57:41.567Z",
+      "file": "content/posts/2026-02-07-lintelligence-artificielle-va-t-elle-detruire-nos-emplois.md",
+      "fileFr": "content/posts/fr/2026-02-07-lintelligence-artificielle-va-t-elle-detruire-nos-emplois.md",
+      "sourceBundle": [
+        "https://www.lemonde.fr/podcasts/article/2026/02/05/l-intelligence-artificielle-va-t-elle-detruire-nos-emplois_6665446_5463015.html",
+        "https://arxiv.org/abs/2602.05088",
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "sourceSnapshotsCount": 3,
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 0,
+      "wordsEn": 1679,
+      "wordsFr": 1221
     },
     {
       "id": "https://openai.com/index/introducing-gpt-5-3-codex",
