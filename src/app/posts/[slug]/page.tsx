@@ -8,6 +8,7 @@ import { PostToc } from "@/components/post-toc";
 import { ReadingProgress } from "@/components/reading-progress";
 import { RelatedPosts } from "@/components/related-posts";
 import { ShareSnippet } from "@/components/share-snippet";
+import { CodeCopyEnhancer } from "@/components/code-copy";
 import {
   formatTagForPath,
   getAllPostsMeta,
@@ -126,6 +127,7 @@ export default async function PostPage({ params }: Params) {
   const visibleTags = post.tags.slice(0, 8);
   const hiddenTags = post.tags.slice(8);
   const moreLabel = `+${hiddenTags.length} more`;
+  const contentId = `article-content-${slug}`;
   const coverStyle = { ["--cover-image" as never]: `url("${coverUrl}")` } as unknown as CSSProperties;
 
   return (
@@ -192,7 +194,8 @@ export default async function PostPage({ params }: Params) {
             </div>
           </header>
 
-          <div className="article-content motion-enter motion-delay-2" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+          <div id={contentId} className="article-content motion-enter motion-delay-2" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+          <CodeCopyEnhancer contentId={contentId} locale="en" />
 
           <ShareSnippet title={post.title} excerpt={post.excerpt} url={canonicalUrl} locale="en" />
 

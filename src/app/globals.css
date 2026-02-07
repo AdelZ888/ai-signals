@@ -639,6 +639,49 @@ h6,
   background: var(--article-code-block);
 }
 
+.code-toolbar {
+  position: relative;
+}
+
+.code-toolbar pre {
+  margin: 0;
+  padding-top: 2.35rem;
+}
+
+.code-copy-btn {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.7rem;
+  border: 1px solid var(--border-soft);
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  padding: 0.35rem 0.55rem;
+  transition: transform 180ms ease, border-color 180ms ease, color 180ms ease, background-color 180ms ease;
+  backdrop-filter: blur(10px);
+}
+
+.code-copy-btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(34, 211, 238, 0.55);
+  color: #22d3ee;
+}
+
+.code-copy-btn:active {
+  transform: translateY(0);
+}
+
+.code-copy-btn[data-copied="1"] {
+  border-color: rgba(16, 185, 129, 0.55);
+  color: rgba(110, 231, 183, 0.95);
+}
+
 .article-content blockquote {
   border-left: 3px solid #22d3ee;
   padding-left: 1rem;
