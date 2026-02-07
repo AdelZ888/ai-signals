@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       },
     };
   } catch {
-    return { title: "Edition introuvable" };
+    return { title: "Édition introuvable" };
   }
 }
 

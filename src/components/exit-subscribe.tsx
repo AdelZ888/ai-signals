@@ -40,7 +40,7 @@ export function ExitSubscribe() {
     return locale === "fr"
       ? {
           title: "Recevoir le digest hebdo",
-          body: "Une fois par semaine. Sans bruit. Des choses a shipper.",
+          body: "Une fois par semaine. Sans bruit. Des choses à shipper.",
           close: "Fermer",
         }
       : {
@@ -53,6 +53,23 @@ export function ExitSubscribe() {
   useEffect(() => {
     if (typeof window === "undefined") return;
 
+    // Keep this modal conservative: show only on post pages and only on desktop-like pointers.
+    // Mobile scroll-based triggers tend to feel aggressive.
+    const isPostPage = pathname.startsWith("/posts/") || pathname.startsWith("/fr/posts/");
+    if (!isPostPage) return;
+
+    const isDesktopPointer = (() => {
+      try {
+        return (
+          window.matchMedia("(pointer: fine)").matches &&
+          window.matchMedia("(hover: hover)").matches
+        );
+      } catch {
+        return false;
+      }
+    })();
+    if (!isDesktopPointer) return;
+
     // Don't pop the modal on dedicated newsletter pages.
     if (pathname === "/newsletter" || pathname.startsWith("/newsletter/")) return;
     if (pathname === "/fr/newsletter" || pathname.startsWith("/fr/newsletter/")) return;
@@ -62,7 +79,7 @@ export function ExitSubscribe() {
     let armed = false;
     const armTimer = window.setTimeout(() => {
       armed = true;
-    }, 10_000);
+    }, 15_000);
 
     const open = () => {
       if (isOpen) return;
@@ -76,26 +93,16 @@ export function ExitSubscribe() {
       if ((e.clientY ?? 0) <= 0) open();
     };
 
-    const onScroll = () => {
-      // Mobile intent: show late in the read.
-      const doc = document.documentElement;
-      const max = Math.max(1, doc.scrollHeight - doc.clientHeight);
-      const progress = doc.scrollTop / max;
-      if (progress > 0.72) open();
-    };
-
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") setIsOpen(false);
     };
 
     window.addEventListener("mouseleave", onMouseLeave);
-    window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("keydown", onKeyDown);
 
     return () => {
       window.clearTimeout(armTimer);
       window.removeEventListener("mouseleave", onMouseLeave);
-      window.removeEventListener("scroll", onScroll);
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [isOpen, pathname]);
@@ -134,4 +141,3 @@ export function ExitSubscribe() {
     </div>
   );
 }
-

@@ -7,7 +7,7 @@ import { getAllPostsMeta, getPostsByCategory } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Commencer ici",
-  description: "La meilleure porte d'entree AI Signals: quoi lire, quoi construire, et comment rester a jour.",
+  description: "La meilleure porte d'entrée AI Signals: quoi lire, quoi construire, et comment rester à jour.",
   alternates: {
     canonical: "/fr/start-here",
     languages: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "Commencer ici",
-    description: "La meilleure porte d'entree AI Signals: quoi lire, quoi construire, et comment rester a jour.",
+    description: "La meilleure porte d'entrée AI Signals: quoi lire, quoi construire, et comment rester à jour.",
     url: "/fr/start-here",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Commencer ici",
-    description: "La meilleure porte d'entree AI Signals: quoi lire, quoi construire, et comment rester a jour.",
+    description: "La meilleure porte d'entrée AI Signals: quoi lire, quoi construire, et comment rester à jour.",
     images: [
       `/api/og?${new URLSearchParams({
         title: "Commencer ici",
@@ -66,10 +66,9 @@ export default async function StartHereFrPage() {
         <div className="hero-grid">
           <p className="hero-kicker">Commencer ici</p>
           <h1 className="hero-title">La carte pour builders</h1>
-	          <p className="hero-subtitle">
-	            AI Signals est une publication automatisee, orientee pratique, pour devs, fondateurs et passionnes IA. Objectif:
-	            comprendre ce qui compte, puis shipper l&apos;etape suivante.
-	          </p>
+          <p className="hero-subtitle">
+            AI Signals est une publication automatisée, orientée pratique, pour devs, fondateurs et passionnés IA. Objectif: comprendre ce qui compte, puis shipper l&apos;étape suivante.
+          </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a className="hero-cta hero-cta-primary" href="#newsletter">
               S&apos;abonner
@@ -101,7 +100,7 @@ export default async function StartHereFrPage() {
               </Link>
               <Link href="/fr/tutorials" className="aside-card motion-card">
                 <p className="text-lg font-extrabold tracking-tight">Tutoriels</p>
-                <p className="mt-2 text-sm theme-text-muted">Guides pas-a-pas: configs, gates, rollbacks.</p>
+                <p className="mt-2 text-sm theme-text-muted">Guides pas à pas: configs, gates, rollbacks.</p>
               </Link>
               <Link href="/fr/regions" className="aside-card motion-card">
                 <p className="text-lg font-extrabold tracking-tight">Régions</p>

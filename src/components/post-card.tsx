@@ -106,10 +106,10 @@ export function PostCard({ post, delayClass, locale = "en" }: PostCardProps) {
   const hiddenTags = post.tags.slice(6);
   const moreLabel = locale === "fr" ? `+${hiddenTags.length} de plus` : `+${hiddenTags.length} more`;
   const dateLabel = locale === "fr" ? "Date" : "Date";
-  const regionLabel = locale === "fr" ? "Region" : "Region";
+  const regionLabel = locale === "fr" ? "Région" : "Region";
   const readingLabel = locale === "fr" ? "Lecture" : "Reading time";
-  const categoryLabel = locale === "fr" ? "Categorie" : "Category";
-  const seriesLabel = locale === "fr" ? "Serie" : "Series";
+  const categoryLabel = locale === "fr" ? "Catégorie" : "Category";
+  const seriesLabel = locale === "fr" ? "Série" : "Series";
   const difficultyLabel = locale === "fr" ? "Niveau" : "Difficulty";
   const buildTimeLabel = locale === "fr" ? "Temps de build" : "Build time";
 

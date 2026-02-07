@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     subtitle: description,
     locale: "fr",
     kind: "page",
-    kicker: "Region",
+    kicker: "Région",
   }).toString()}`;
 
   return {

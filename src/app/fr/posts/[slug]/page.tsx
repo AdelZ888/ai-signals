@@ -90,13 +90,14 @@ export default async function PostFrPage({ params }: Params) {
     const dt = new Date(post.date);
     return Number.isFinite(dt.getTime()) ? dt.toISOString() : post.date;
   })();
-  const ogImageUrl = `${getSiteUrl()}${buildOgUrl({
+  const coverUrl = buildOgUrl({
     title: post.title,
     subtitle: post.excerpt,
     locale: "fr",
     kind: "post",
     kicker: post.category,
-  })}`;
+  });
+  const ogImageUrl = `${getSiteUrl()}${coverUrl}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -129,6 +130,9 @@ export default async function PostFrPage({ params }: Params) {
             <p className="article-kicker">Briefing AI Signals</p>
             <h1 className="article-title">{post.title}</h1>
             <p className="article-excerpt">{post.excerpt}</p>
+            <div className="article-cover">
+              <img src={coverUrl} alt={post.title} width={1200} height={630} loading="lazy" decoding="async" />
+            </div>
 
             <div className="article-meta">
               <span className="article-chip">{post.date}</span>

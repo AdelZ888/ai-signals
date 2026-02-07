@@ -80,7 +80,7 @@ export async function POST(req: Request) {
 
   if (payload.hp) {
     // Honeypot hit: pretend success.
-    return json(locale, { ok: true, message: locale === "fr" ? "Merci, vous etes inscrit." : "Thanks, you are subscribed." }, 200);
+    return json(locale, { ok: true, message: locale === "fr" ? "Merci, vous êtes inscrit." : "Thanks, you are subscribed." }, 200);
   }
 
   if (isRateLimited(ip)) {
@@ -91,7 +91,7 @@ export async function POST(req: Request) {
         error: "rate_limited",
         message:
           locale === "fr"
-            ? "Trop de tentatives. Reessayez dans une heure."
+            ? "Trop de tentatives. Réessayez dans une heure."
             : "Too many attempts. Please try again in an hour.",
       },
       429,
@@ -120,7 +120,7 @@ export async function POST(req: Request) {
         ok: false,
         error: "not_configured",
         message:
-          locale === "fr" ? "Newsletter non configuree pour le moment." : "Newsletter is not configured yet.",
+          locale === "fr" ? "Newsletter non configurée pour le moment." : "Newsletter is not configured yet.",
       },
       503,
     );
@@ -156,7 +156,7 @@ export async function POST(req: Request) {
         locale,
         {
           ok: true,
-          message: locale === "fr" ? "Inscription confirmee. Bienvenue." : "You're subscribed. Welcome.",
+          message: locale === "fr" ? "Inscription confirmée. Bienvenue." : "You're subscribed. Welcome.",
         },
         200,
       );
@@ -168,7 +168,7 @@ export async function POST(req: Request) {
         locale,
         {
           ok: true,
-          message: locale === "fr" ? "Vous etes deja inscrit." : "You're already subscribed.",
+          message: locale === "fr" ? "Vous êtes déjà inscrit." : "You're already subscribed.",
         },
         200,
       );
@@ -181,7 +181,7 @@ export async function POST(req: Request) {
         error: "upstream_error",
         message:
           locale === "fr"
-            ? "Impossible de vous inscrire pour le moment. Reessayez plus tard."
+            ? "Impossible de vous inscrire pour le moment. Réessayez plus tard."
             : "Couldn't subscribe right now. Please try again later.",
       },
       502,
@@ -194,7 +194,7 @@ export async function POST(req: Request) {
         error: "network_error",
         message:
           locale === "fr"
-            ? "Erreur reseau. Reessayez dans quelques minutes."
+            ? "Erreur réseau. Réessayez dans quelques minutes."
             : "Network error. Please try again in a few minutes.",
       },
       502,

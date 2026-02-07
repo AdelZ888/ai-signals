@@ -7,7 +7,7 @@ import { getAllNewslettersMeta } from "@/lib/newsletters";
 
 export const metadata: Metadata = {
   title: "Newsletter | AI Signals",
-  description: "Le digest hebdo AI Signals: sorties de modeles, patterns d'agents, tutoriels pratiques.",
+  description: "Le digest hebdo AI Signals: sorties de modèles, patterns d'agents, tutoriels pratiques.",
   alternates: {
     canonical: "/fr/newsletter",
     languages: {
@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "AI Signals Hebdo",
-    description: "Le digest hebdo AI Signals: sorties de modeles, patterns d'agents, tutoriels pratiques.",
+    description: "Le digest hebdo AI Signals: sorties de modèles, patterns d'agents, tutoriels pratiques.",
     url: "/fr/newsletter",
     images: [
       {
         url: `/api/og?${new URLSearchParams({
           title: "AI Signals Hebdo",
-          subtitle: "Digest hebdo: modeles, agents, tutoriels.",
+          subtitle: "Digest hebdo: modèles, agents, tutoriels.",
           locale: "fr",
           kind: "newsletter",
         }).toString()}`,
@@ -37,11 +37,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Signals Hebdo",
-    description: "Le digest hebdo AI Signals: sorties de modeles, patterns d'agents, tutoriels pratiques.",
+    description: "Le digest hebdo AI Signals: sorties de modèles, patterns d'agents, tutoriels pratiques.",
     images: [
       `/api/og?${new URLSearchParams({
         title: "AI Signals Hebdo",
-        subtitle: "Digest hebdo: modeles, agents, tutoriels.",
+        subtitle: "Digest hebdo: modèles, agents, tutoriels.",
         locale: "fr",
         kind: "newsletter",
       }).toString()}`,
@@ -67,7 +67,7 @@ export default async function NewsletterIndexPageFr() {
           <p className="hero-kicker">Newsletter</p>
           <h1 className="hero-title">AI Signals Hebdo</h1>
           <p className="hero-subtitle">
-            Le digest axe builders: sorties de modeles, patterns d&apos;agents, et details pratiques a shipper.
+            Le digest axé builders: sorties de modèles, patterns d&apos;agents et détails pratiques à shipper.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a className="hero-cta hero-cta-primary" href="#signup">
@@ -84,14 +84,14 @@ export default async function NewsletterIndexPageFr() {
         <section className="space-y-4">
           <div className="flex items-end justify-between gap-4">
             <div>
-              <p className="section-kicker">Editions</p>
-              <h2 className="section-title">Dernieres</h2>
+              <p className="section-kicker">Éditions</p>
+              <h2 className="section-title">Dernières</h2>
             </div>
           </div>
 
           {issues.length === 0 ? (
             <div className="aside-card">
-              <p className="theme-text-muted">Pas encore d&apos;editions. La premiere arrive bientot.</p>
+              <p className="theme-text-muted">Pas encore d&apos;éditions. La première arrive bientôt.</p>
             </div>
           ) : (
             <div className="grid gap-4">
@@ -105,7 +105,7 @@ export default async function NewsletterIndexPageFr() {
                       {issue.issueNumber ? (
                         <>
                           <span aria-hidden>•</span>
-                          <span>Edition #{issue.issueNumber}</span>
+                          <span>Édition #{issue.issueNumber}</span>
                         </>
                       ) : null}
                     </div>
@@ -133,10 +133,10 @@ export default async function NewsletterIndexPageFr() {
           </div>
 
           <div className="aside-card motion-card motion-enter motion-delay-6">
-            <p className="section-kicker">Comment ca marche</p>
+            <p className="section-kicker">Comment ça marche</p>
             <p className="mt-2 text-sm theme-text-muted">
-              Les editions sont generees automatiquement a partir des meilleurs signaux de la semaine, puis publiees sur le
-              site (et envoyees par email une fois l&apos;integration Beehiiv activee).
+              Les éditions sont générées automatiquement à partir des meilleurs signaux de la semaine, puis publiées sur le
+              site et envoyées par email.
             </p>
           </div>
         </aside>

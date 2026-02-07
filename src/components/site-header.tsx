@@ -106,7 +106,7 @@ export function SiteHeader() {
             </Link>
           </div>
 
-          <ThemeToggle />
+          <ThemeToggle locale={locale} />
 
           <details className="relative md:hidden">
             <summary className="nav-menu-button" aria-label={locale === "fr" ? "Ouvrir le menu" : "Open menu"}>

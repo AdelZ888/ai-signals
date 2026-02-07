@@ -92,7 +92,7 @@ export default async function NewsFrPage({ searchParams }: Props) {
           <div className="flex flex-wrap items-center gap-2">
             {page > 1 ? (
               <Link className="pager-link" href={prevHref}>
-                Precedent
+                Précédent
               </Link>
             ) : null}
             <span className="pager-meta">

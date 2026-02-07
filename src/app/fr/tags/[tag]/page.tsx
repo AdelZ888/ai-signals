@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const label = await resolveTagLabel(tag);
 
   const title = `Tag: ${label}`;
-  const description = `Articles etiquetes ${label}.`;
+  const description = `Articles étiquetés ${label}.`;
   const ogUrl = `/api/og?${new URLSearchParams({
     title,
     subtitle: description,
@@ -108,7 +108,7 @@ export default async function TagFrPage({ params, searchParams }: Props) {
           <div className="flex flex-wrap items-center gap-2">
             {page > 1 ? (
               <Link className="pager-link" href={prevHref}>
-                Precedent
+                Précédent
               </Link>
             ) : null}
             <span className="pager-meta">

@@ -127,8 +127,8 @@ export default async function HomeFr() {
         <section className="space-y-5">
           <div className="flex items-end justify-between gap-4">
             <div>
-              <p className="section-kicker">Derniers posts</p>
-              <h2 className="section-title">Nouveautes</h2>
+              <p className="section-kicker">Derniers articles</p>
+              <h2 className="section-title">Nouveautés</h2>
             </div>
             <Link className="section-link" href="/fr/news">
               Voir les actus
@@ -138,7 +138,7 @@ export default async function HomeFr() {
           {featured ? (
             <div className="card-frame motion-card motion-enter motion-delay-2">
               <article className="rounded-2xl border theme-border theme-surface p-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">A la une</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">À la une</p>
                 <h3 className="mt-3 text-3xl font-black tracking-tight">
                   <Link href={`/fr/posts/${featured.slug}`} className="motion-link hover:text-cyan-300">
                     {featured.title}

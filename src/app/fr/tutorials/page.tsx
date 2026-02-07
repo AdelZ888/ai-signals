@@ -6,7 +6,7 @@ import { getPostsByCategory } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Tutoriels",
-  description: "Tutoriels IA pas a pas pour builders et equipes produit.",
+  description: "Tutoriels IA pas à pas pour builders et équipes produit.",
   alternates: {
     canonical: "/fr/tutorials",
     languages: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "Tutoriels",
-    description: "Tutoriels IA pas a pas pour builders et equipes produit.",
+    description: "Tutoriels IA pas à pas pour builders et équipes produit.",
     url: "/fr/tutorials",
     images: [
       {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Tutoriels",
-    description: "Tutoriels IA pas a pas pour builders et equipes produit.",
+    description: "Tutoriels IA pas à pas pour builders et équipes produit.",
     images: [
       `/api/og?${new URLSearchParams({
         title: "Tutoriels",
@@ -92,7 +92,7 @@ export default async function TutorialsFrPage({ searchParams }: Props) {
           <div className="flex flex-wrap items-center gap-2">
             {page > 1 ? (
               <Link className="pager-link" href={prevHref}>
-                Precedent
+                Précédent
               </Link>
             ) : null}
             <span className="pager-meta">

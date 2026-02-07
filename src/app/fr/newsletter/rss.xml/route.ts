@@ -40,7 +40,7 @@ export async function GET() {
   <channel>
     <title>AI Signals Hebdo (FR)</title>
     <link>${siteUrl}/fr/newsletter</link>
-    <description>Digest hebdo: sorties de modeles, patterns d'agents, et tutoriels pratiques.</description>
+    <description>Digest hebdo: sorties de modèles, patterns d'agents, et tutoriels pratiques.</description>
     ${items.join("\n")}
   </channel>
 </rss>`;

@@ -6,7 +6,7 @@ import { getAllPostsMeta } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Recherche",
-  description: "Rechercher des articles AI Signals en francais.",
+  description: "Rechercher des articles AI Signals en français.",
   alternates: {
     canonical: "/fr/search",
     languages: {
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "Recherche",
-    description: "Rechercher des articles AI Signals en francais.",
+    description: "Rechercher des articles AI Signals en français.",
     url: "/fr/search",
     images: [
       {
         url: `/api/og?${new URLSearchParams({
           title: "Recherche",
-          subtitle: "Trouver modeles, agents, tutoriels.",
+          subtitle: "Trouver modèles, agents, tutoriels.",
           locale: "fr",
           kind: "page",
         }).toString()}`,
@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Recherche",
-    description: "Rechercher des articles AI Signals en francais.",
+    description: "Rechercher des articles AI Signals en français.",
     images: [
       `/api/og?${new URLSearchParams({
         title: "Recherche",
-        subtitle: "Trouver modeles, agents, tutoriels.",
+        subtitle: "Trouver modèles, agents, tutoriels.",
         locale: "fr",
         kind: "page",
       }).toString()}`,
@@ -85,13 +85,13 @@ export default async function SearchFrPage({ searchParams }: SearchPageProps) {
         <input
           name="q"
           defaultValue={q || ""}
-          placeholder="Rechercher modeles, agents, tutoriels..."
+          placeholder="Rechercher modèles, agents, tutoriels..."
           className="w-full rounded-xl border theme-border-soft theme-surface px-4 py-3 outline-none ring-cyan-300 transition focus:ring"
         />
       </form>
       <p className="mt-4 text-sm theme-text-faint motion-enter motion-delay-2">
         {filtered.length === 0 ? (
-          "0 resultat(s)"
+          "0 résultat(s)"
         ) : (
           <>
             Affichage <span className="theme-text-soft">{start + 1}</span>-<span className="theme-text-soft">{Math.min(start + PAGE_SIZE, filtered.length)}</span> sur{" "}
@@ -104,7 +104,7 @@ export default async function SearchFrPage({ searchParams }: SearchPageProps) {
         {pagePosts.map((post, index) => (
           <PostCard key={post.slug} post={post} locale="fr" delayClass={`motion-delay-${Math.min(index + 3, 8)}`} />
         ))}
-        {filtered.length === 0 ? <p className="text-sm theme-text-faint">Essayez un autre mot-cle.</p> : null}
+        {filtered.length === 0 ? <p className="text-sm theme-text-faint">Essayez un autre mot-clé.</p> : null}
       </section>
 
       {pageCount > 1 ? (
@@ -112,7 +112,7 @@ export default async function SearchFrPage({ searchParams }: SearchPageProps) {
           <div className="flex flex-wrap items-center gap-2">
             {page > 1 ? (
               <Link className="pager-link" href={prevHref}>
-                Precedent
+                Précédent
               </Link>
             ) : null}
             <span className="pager-meta">
