@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-07T09:54:03.400Z",
+  "generatedAt": "2026-02-07T10:43:13.222Z",
   "items": [
     {
       "id": "https://arxiv.org/abs/2602.05088",
@@ -11,7 +11,16 @@
       "keywordHits": 9,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 150,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-02-07T10:43:13.225Z",
+      "failureReason": "insufficient source snapshots (1/2)",
+      "sourceBundle": [
+        "https://arxiv.org/abs/2602.05088",
+        "https://arxiv.org/pdf/2602.05088.pdf"
+      ],
+      "sourceSnapshotsCount": 1
     },
     {
       "id": "https://arxiv.org/abs/2602.04326",
@@ -222,6 +231,25 @@
       "wordsFr": 1521
     },
     {
+      "id": "https://www.numerama.com/tech/2161859-quest-ce-quun-llm-large-language-model-et-comment-cela-fonctionne.html",
+      "title": "Qu’est-ce qu’un LLM (Large Language Model) et comment cela fonctionne ?",
+      "link": "https://www.numerama.com/tech/2161859-quest-ce-quun-llm-large-language-model-et-comment-cela-fonctionne.html",
+      "summary": "L’intelligence artificielle a pris un autre tournant avec les LLM. ChatGPT, Gemini ou encore Claude, ces LLM sont désormais des outils incontournables et ont changé notre manière d’interagir avec la machine.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 5,
+      "publishedAt": "2026-01-24T17:31:00.000Z",
+      "score": 72.36,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T10:43:13.225Z",
+      "failureReason": "insufficient source bundle (need at least 2 URLs)",
+      "sourceBundle": [
+        "https://www.numerama.com/tech/2161859-quest-ce-quun-llm-large-language-model-et-comment-cela-fonctionne.html"
+      ]
+    },
+    {
       "id": "https://arxiv.org/abs/2602.05195",
       "title": "Traceable Cross-Source RAG for Chinese Tibetan Medicine Question Answering",
       "link": "https://arxiv.org/abs/2602.05195",
@@ -291,7 +319,14 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-06T10:00:00.000Z",
       "score": 59.37,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T10:43:13.225Z",
+      "failureReason": "insufficient source bundle (need at least 2 URLs)",
+      "sourceBundle": [
+        "https://openai.com/index/our-approach-to-localization"
+      ]
     },
     {
       "id": "https://arxiv.org/abs/2602.03900",
@@ -351,7 +386,14 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-06T16:38:11.000Z",
       "score": 49.64,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T10:43:13.225Z",
+      "failureReason": "insufficient source bundle (need at least 2 URLs)",
+      "sourceBundle": [
+        "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/"
+      ]
     },
     {
       "id": "https://arxiv.org/abs/2602.04003",
@@ -390,6 +432,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md",
       "region": "GLOBAL",
       "keywordHits": 0
+    },
+    {
+      "id": "https://www.actuia.com/actualite/anthropic-devoile-claude-sonnet-45-toujours-meilleur-en-programmation/",
+      "title": "Anthropic dévoile Claude Sonnet 4.5, toujours meilleur en programmation",
+      "link": "https://www.actuia.com/actualite/anthropic-devoile-claude-sonnet-45-toujours-meilleur-en-programmation/",
+      "summary": "La start-up américaine Anthropic, fondée en 2021 par d’anciens chercheurs d’OpenAI, a annoncé le lancement de son nouveau modèle Claude Sonnet 4.5, prése...",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2025-09-30T10:14:08.000Z",
+      "score": 42.04,
+      "status": "queued"
     },
     {
       "id": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
@@ -463,6 +517,30 @@
       "wordsFr": 1590
     },
     {
+      "id": "https://www.actuia.com/actualite/codex-passe-a-la-vitesse-superieure-avec-gpt5-codex/",
+      "title": "Codex passe à la vitesse supérieure avec GPT‑5-Codex",
+      "link": "https://www.actuia.com/actualite/codex-passe-a-la-vitesse-superieure-avec-gpt5-codex/",
+      "summary": "OpenAI a annoncé le lancement de GPT‑5-Codex, une version de GPT‑5 optimisée pour l'ingénierie logicielle agentique dans Codex, son agent IA lancé en mai dernier. Selon l'e...",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2025-09-17T11:02:27.000Z",
+      "score": 36.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/world-ai-film-festival-2026-quand-le-cinema-rencontre-lintelligence-artificielle/",
+      "title": "World AI Film Festival 2026 : Quand le cinéma rencontre l’intelligence artificielle",
+      "link": "https://www.actuia.com/actualite/world-ai-film-festival-2026-quand-le-cinema-rencontre-lintelligence-artificielle/",
+      "summary": "Cannes, ville emblématique du 7ème art, accueillera les 21 et 22 avril 2026 la seconde édition du World AI Film Festival (WAIFF), un événement pionnier qui explore l...",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2025-09-17T10:43:10.000Z",
+      "score": 36.03,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.03978",
       "title": "Monitorability as a Free Gift: How RLVR Spontaneously Aligns Reasoning",
       "link": "https://arxiv.org/abs/2602.03978",
@@ -513,6 +591,18 @@
       "file": "content/posts/2026-02-06-chatbots-campagnes-augmentees-lia-simmisce-dans-la-politique-francaise.md",
       "fileFr": "content/posts/fr/2026-02-06-chatbots-campagnes-augmentees-lia-simmisce-dans-la-politique-francaise.md",
       "keywordHits": 0
+    },
+    {
+      "id": "https://www.numerama.com/tech/2173427-vous-etes-client-bouygues-cest-maintenant-ou-jamais-pour-activer-perplexity-pro-gratuitement.html",
+      "title": "Vous êtes client Bouygues ? C’est maintenant ou jamais pour activer Perplexity Pro gratuitement",
+      "link": "https://www.numerama.com/tech/2173427-vous-etes-client-bouygues-cest-maintenant-ou-jamais-pour-activer-perplexity-pro-gratuitement.html",
+      "summary": "Depuis près d’un an, Bouygues Telecom propose à ses clients un abonnement gratuit à Perplexity Pro. Mais toute bonne chose a une fin : l’accès gratuit à ce LLM se terminera dans quelques jours. L’heure est donc venue, pour certains, de se désabonner… et pour d’autres, de profiter des tout derniers moments pour s’inscrire.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-04T13:56:55.000Z",
+      "score": 31.74,
+      "status": "queued"
     },
     {
       "id": "https://www.lemonde.fr/economie/article/2026/02/03/fusion-spacex-xai-elon-musk-defend-son-projet-d-ia-dans-l-espace-les-analystes-s-interrogent-sur-la-viabilite-de-l-ensemble_6665163_3234.html",
@@ -669,6 +759,30 @@
       "keywordHits": 0
     },
     {
+      "id": "https://www.actuia.com/actualite/chatgpt-pulse-lassistant-qui-travaille-pendant-votre-sommeil/",
+      "title": "ChatGPT Pulse : l’assistant qui travaille pendant votre sommeil",
+      "link": "https://www.actuia.com/actualite/chatgpt-pulse-lassistant-qui-travaille-pendant-votre-sommeil/",
+      "summary": "Jeudi dernier, OpenAI a lancé en preview Pulse, une nouvelle fonctionnalité qui transforme ChatGPT en compagnon proactif. Réservée pour l'instant en preview aux abonn&eacut...",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2025-09-30T10:03:52.000Z",
+      "score": 30.04,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/contribution/sergio-gago/lavenir-est-deja-la-et-il-est-agentique/",
+      "title": "L'avenir est déjà là et il est agentique",
+      "link": "https://www.actuia.com/contribution/sergio-gago/lavenir-est-deja-la-et-il-est-agentique/",
+      "summary": "Imaginons la scène suivante : un collaborateur se rend au travail et y retrouve ses collègues. Certains sont humains et d’autres, non. Il ne s'agit pas de robots au sens traditionn...",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2025-09-26T10:13:41.000Z",
+      "score": 30.04,
+      "status": "queued"
+    },
+    {
       "id": "https://www.bbc.com/news/articles/ce3edyx74jko?at_medium=RSS&at_campaign=rss",
       "title": "ChatGPT boss ridiculed for online 'tantrum' over rival's Super Bowl ad",
       "link": "https://www.bbc.com/news/articles/ce3edyx74jko?at_medium=RSS&at_campaign=rss",
@@ -750,6 +864,18 @@
       ],
       "sourceSnapshotsCount": 3,
       "generationMode": "fallback"
+    },
+    {
+      "id": "https://www.numerama.com/sciences/2170347-horloge-de-lapocalypse-2026-il-ne-reste-que-85-secondes-avant-minuit.html",
+      "title": "Horloge de l’Apocalypse 2026 : il ne reste que 85 secondes avant minuit",
+      "link": "https://www.numerama.com/sciences/2170347-horloge-de-lapocalypse-2026-il-ne-reste-que-85-secondes-avant-minuit.html",
+      "summary": "Réglée à 85 secondes de minuit le 27 janvier 2026, l’Horloge de l’Apocalypse n’a jamais été aussi proche du seuil symbolique de la catastrophe, selon le Bulletin of the Atomic Scientists. L’organisation alerte sur l’escalade des rivalités entre grandes puissances, la fragilisation des accords internationaux et les risques conjugués du nucléaire, du climat et de l’intelligence artificielle.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-01-29T17:33:03.000Z",
+      "score": 24.57,
+      "status": "queued"
     },
     {
       "id": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/",
@@ -1106,8 +1232,15 @@
       "region": "UK",
       "publishedAt": "2026-02-02T13:59:14.000Z",
       "score": 11.24,
-      "status": "queued",
-      "keywordHits": 0
+      "status": "failed",
+      "keywordHits": 0,
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T10:43:13.225Z",
+      "failureReason": "insufficient source bundle (need at least 2 URLs)",
+      "sourceBundle": [
+        "https://www.bbc.com/news/articles/c62n410w5yno?at_medium=RSS&at_campaign=rss"
+      ]
     },
     {
       "id": "https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/",
