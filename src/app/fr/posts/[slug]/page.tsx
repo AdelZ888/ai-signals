@@ -86,6 +86,34 @@ export default async function PostFrPage({ params }: Params) {
   const shareText = encodeURIComponent(post.title);
   const canonicalUrl = `${getSiteUrl()}/fr/posts/${post.slug}`;
   const shareUrl = encodeURIComponent(canonicalUrl);
+  const publishedIso = (() => {
+    const dt = new Date(post.date);
+    return Number.isFinite(dt.getTime()) ? dt.toISOString() : post.date;
+  })();
+  const ogImageUrl = `${getSiteUrl()}${buildOgUrl({
+    title: post.title,
+    subtitle: post.excerpt,
+    locale: "fr",
+    kind: "post",
+    kicker: post.category,
+  })}`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: publishedIso,
+    dateModified: publishedIso,
+    inLanguage: "fr-FR",
+    url: canonicalUrl,
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
+    author: { "@type": "Organization", name: "AI Signals" },
+    publisher: { "@type": "Organization", name: "AI Signals" },
+    keywords: post.tags.join(", "),
+    articleSection: post.category,
+    image: ogImageUrl,
+    isAccessibleForFree: true,
+  };
   const showSeries = typeof post.series === "string" && post.series.trim().length > 0;
   const showDifficulty = !!post.difficulty;
   const showTime = typeof post.timeToImplementMinutes === "number" && Number.isFinite(post.timeToImplementMinutes);
@@ -93,6 +121,7 @@ export default async function PostFrPage({ params }: Params) {
   return (
     <main className="mx-auto w-full max-w-6xl px-6 py-12">
       <ReadingProgress />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="grid gap-8 lg:grid-cols-[1fr_280px]">
         <article className="article-shell motion-enter">

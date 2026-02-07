@@ -15,12 +15,12 @@ export function SiteHeader() {
       ? {
           home: "Accueil",
           startHere: "Commencer",
-          news: "Actualites",
+          news: "Actualités",
           tutorials: "Tutoriels",
           newsletter: "Newsletter",
-          regions: "Regions",
+          regions: "Régions",
           search: "Recherche",
-          about: "A propos",
+          about: "À propos",
         }
       : {
           home: "Home",

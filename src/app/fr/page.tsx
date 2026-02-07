@@ -7,7 +7,7 @@ import { formatTagForPath, PRIMARY_REGIONS, getAllPostsMeta, getAllTags, getRegi
 
 export const metadata: Metadata = {
   title: "Accueil",
-  description: "Actualites IA quotidiennes et tutoriels pratiques pour US, UK et France.",
+  description: "Actualités IA quotidiennes et tutoriels pratiques pour US, UK et France.",
   alternates: {
     canonical: "/fr",
     languages: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "AI Signals (FR)",
-    description: "Actualites IA quotidiennes et tutoriels pratiques pour US, UK et France.",
+    description: "Actualités IA quotidiennes et tutoriels pratiques pour US, UK et France.",
     url: "/fr",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Signals (FR)",
-    description: "Actualites IA quotidiennes et tutoriels pratiques pour US, UK et France.",
+    description: "Actualités IA quotidiennes et tutoriels pratiques pour US, UK et France.",
     images: [
       `/api/og?${new URLSearchParams({
         title: "AI Signals",
@@ -61,10 +61,10 @@ export default async function HomeFr() {
     <main className="mx-auto w-full max-w-6xl px-6 py-12">
       <section className="hero-shell motion-enter">
         <div className="hero-grid">
-          <p className="hero-kicker">Publication IA Independante</p>
+          <p className="hero-kicker">Publication IA Indépendante</p>
           <h1 className="hero-title">Le bon signal, moins de bruit</h1>
           <p className="hero-subtitle">
-            Une couverture builder-grade pour US, UK et France: sorties de modeles, workflows d&apos;agents, tutoriels et changements du marche.
+            Une couverture builder-grade pour US, UK et France: sorties de modèles, workflows d&apos;agents, tutoriels et changements du marché.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
@@ -80,7 +80,7 @@ export default async function HomeFr() {
           </div>
 
           <div className="mt-7">
-            <p className="hero-group-label">Regions</p>
+            <p className="hero-group-label">Régions</p>
             <div className="mt-2 flex flex-wrap gap-2">
               {PRIMARY_REGIONS.map((region, index) => (
                 <Link
@@ -95,7 +95,7 @@ export default async function HomeFr() {
           </div>
 
           <div className="mt-5">
-            <p className="hero-group-label">Themes</p>
+            <p className="hero-group-label">Thèmes</p>
             <div className="mt-2 flex flex-wrap gap-2">
               {visibleTags.map((tag, index) => (
                 <Link
@@ -173,13 +173,13 @@ export default async function HomeFr() {
             <p className="section-kicker">Navigation</p>
             <div className="mt-3 grid gap-2 text-sm">
               <Link className="footer-link" href="/fr/news">
-                Actualites IA
+                Actualités IA
               </Link>
               <Link className="footer-link" href="/fr/tutorials">
                 Tutoriels
               </Link>
               <Link className="footer-link" href="/fr/regions">
-                Regions
+                Régions
               </Link>
               <Link className="footer-link" href="/fr/search">
                 Recherche

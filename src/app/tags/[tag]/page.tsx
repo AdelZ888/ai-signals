@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 
 import { PostCard } from "@/components/post-card";
-import { formatTagForPath, getAllTags, getPostsByTag, parseTagFromPath } from "@/lib/posts";
+import { formatTagForPath, getAllTags, getPostsByTag } from "@/lib/posts";
 
 type Props = {
   params: Promise<{ tag: string }>;
@@ -14,6 +14,13 @@ type Params = {
   params: Promise<{ tag: string }>;
 };
 
+async function resolveTagLabel(tagSlug: string) {
+  const tags = await getAllTags();
+  const normalized = formatTagForPath(tagSlug);
+  const match = tags.find((tag) => formatTagForPath(tag) === normalized);
+  return match || tagSlug;
+}
+
 export async function generateStaticParams() {
   const tags = await getAllTags();
   return tags.map((tag) => ({ tag: formatTagForPath(tag) }));
@@ -21,7 +28,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { tag } = await params;
-  const label = parseTagFromPath(tag);
+  const label = await resolveTagLabel(tag);
 
   const title = `Tag: ${label}`;
   const description = `Posts tagged with ${label}.`;
@@ -61,8 +68,8 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 export default async function TagPage({ params, searchParams }: Props) {
   const { tag } = await params;
-  const label = parseTagFromPath(tag);
-  const posts = await getPostsByTag(label);
+  const label = await resolveTagLabel(tag);
+  const posts = await getPostsByTag(tag);
 
   if (posts.length === 0) {
     notFound();

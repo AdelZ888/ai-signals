@@ -28,6 +28,7 @@ function getClientIp(req: Request): string {
 // Basic in-memory throttling (best-effort; serverless instances may reset).
 const globalForRateLimit = globalThis as unknown as {
   __newsletterRateLimit?: Map<string, number[]>;
+  __newsletterRateLimitLastPurge?: number;
 };
 const RATE_LIMIT: Map<string, number[]> = (globalForRateLimit.__newsletterRateLimit ??=
   new Map<string, number[]>());
@@ -36,6 +37,19 @@ function isRateLimited(ip: string): boolean {
   const now = Date.now();
   const windowMs = 60 * 60 * 1000;
   const maxHits = 8;
+
+  // Keep the map bounded in long-running environments (dev/self-hosted).
+  // In serverless, this is best-effort since instances can restart.
+  const lastPurge = globalForRateLimit.__newsletterRateLimitLastPurge || 0;
+  if (now - lastPurge > 10 * 60 * 1000) {
+    for (const [key, hits] of RATE_LIMIT.entries()) {
+      const prunedHits = hits.filter((t) => now - t < windowMs);
+      if (prunedHits.length === 0) RATE_LIMIT.delete(key);
+      else RATE_LIMIT.set(key, prunedHits);
+    }
+    globalForRateLimit.__newsletterRateLimitLastPurge = now;
+  }
+
   const hits = RATE_LIMIT.get(ip) || [];
   const pruned = hits.filter((t) => now - t < windowMs);
   pruned.push(now);

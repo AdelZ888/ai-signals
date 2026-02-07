@@ -96,7 +96,7 @@ export default async function StartHereFrPage() {
             <h2 className="section-title">Choisir une piste</h2>
             <div className="mt-5 grid gap-4 md:grid-cols-3">
               <Link href="/fr/news" className="aside-card motion-card">
-                <p className="text-lg font-extrabold tracking-tight">Actualites</p>
+                <p className="text-lg font-extrabold tracking-tight">Actualités</p>
                 <p className="mt-2 text-sm theme-text-muted">Ce qui change, pourquoi, et quoi faire ensuite.</p>
               </Link>
               <Link href="/fr/tutorials" className="aside-card motion-card">
@@ -104,8 +104,8 @@ export default async function StartHereFrPage() {
                 <p className="mt-2 text-sm theme-text-muted">Guides pas-a-pas: configs, gates, rollbacks.</p>
               </Link>
               <Link href="/fr/regions" className="aside-card motion-card">
-                <p className="text-lg font-extrabold tracking-tight">Regions</p>
-                <p className="mt-2 text-sm theme-text-muted">Contexte US/UK/FR: adoption, conformite, GTM.</p>
+                <p className="text-lg font-extrabold tracking-tight">Régions</p>
+                <p className="mt-2 text-sm theme-text-muted">Contexte US/UK/FR: adoption, conformité, GTM.</p>
               </Link>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default async function StartHereFrPage() {
           <div className="motion-enter motion-delay-3">
             <div className="flex items-end justify-between gap-4">
               <div>
-                <p className="section-kicker">A lire</p>
+                <p className="section-kicker">À lire</p>
                 <h2 className="section-title">Derniers articles</h2>
               </div>
               <Link className="section-link" href="/fr">
@@ -132,7 +132,7 @@ export default async function StartHereFrPage() {
             <h2 className="section-title">Top 3 actus + tutoriels</h2>
             <div className="mt-6 grid gap-6 md:grid-cols-2">
               <div className="aside-card">
-                <p className="text-sm font-extrabold tracking-tight">Actualites</p>
+                <p className="text-sm font-extrabold tracking-tight">Actualités</p>
                 <div className="mt-3 grid gap-2">
                   {latestNews.map((post) => (
                     <Link key={`news-${post.slug}`} className="footer-link" href={`/fr/posts/${post.slug}`}>

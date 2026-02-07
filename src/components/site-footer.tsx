@@ -11,7 +11,7 @@ export function SiteFooter() {
 
   const description =
     locale === "fr"
-      ? "Actualites IA quotidiennes, tutoriels et analyses de modeles."
+      ? "Actualités IA quotidiennes, tutoriels et analyses de modèles."
       : "Daily AI news, tutorials, and model analysis.";
 
   return (
@@ -22,7 +22,7 @@ export function SiteFooter() {
             <p className="font-heading text-lg font-extrabold tracking-tight">AI Signals</p>
             <p className="text-sm theme-text-faint">{description}</p>
             <p className="text-xs theme-text-faint">
-              {locale === "fr" ? "Construit pour devs, fondateurs, et passionnes IA." : "Built for devs, founders, and AI enthusiasts."}
+              {locale === "fr" ? "Construit pour devs, fondateurs, et passionnés IA." : "Built for devs, founders, and AI enthusiasts."}
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <Link className="footer-link inline-flex w-fit" href={`${prefix}/news`}>
-                  {locale === "fr" ? "Actualites" : "News"}
+                  {locale === "fr" ? "Actualités" : "News"}
                 </Link>
               </li>
               <li>
@@ -53,7 +53,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <Link className="footer-link inline-flex w-fit" href={`${prefix}/regions`}>
-                  {locale === "fr" ? "Regions" : "Regions"}
+                  {locale === "fr" ? "Régions" : "Regions"}
                 </Link>
               </li>
               <li>

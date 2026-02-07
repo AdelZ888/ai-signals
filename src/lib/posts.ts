@@ -4,6 +4,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import GithubSlugger from "github-slugger";
 import { remark } from "remark";
+import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 import rehypeSlug from "rehype-slug";
 import rehypeStringify from "rehype-stringify";
 import remarkRehype from "remark-rehype";
@@ -36,7 +37,7 @@ const REGION_LABEL_BY_CODE: Record<RegionCode, string> = {
 };
 
 const REGION_LABEL_BY_CODE_FR: Record<RegionCode, string> = {
-  US: "Etats-Unis",
+  US: "États-Unis",
   UK: "Royaume-Uni",
   FR: "France",
   GLOBAL: "Monde",
@@ -78,27 +79,29 @@ type Frontmatter = Record<string, unknown>;
 
 const SERIES_LABELS: Record<string, { en: string; fr: string }> = {
   "agent-playbook": { en: "Agent Playbook", fr: "Playbook Agents" },
-  "model-release-brief": { en: "Model Release Brief", fr: "Brief sortie modele" },
-  "security-boundary": { en: "Security Boundary", fr: "Securite & Frontieres" },
+  "model-release-brief": { en: "Model Release Brief", fr: "Brief sortie modèle" },
+  "security-boundary": { en: "Security Boundary", fr: "Sécurité & frontières" },
   "tooling-deep-dive": { en: "Tooling Deep Dive", fr: "Deep dive outillage" },
   "founder-notes": { en: "Founder Notes", fr: "Notes fondateur" },
 };
 
 const DIFFICULTY_LABELS: Record<NonNullable<PostMeta["difficulty"]>, { en: string; fr: string }> = {
-  beginner: { en: "Beginner", fr: "Debutant" },
-  intermediate: { en: "Intermediate", fr: "Intermediaire" },
-  advanced: { en: "Advanced", fr: "Avance" },
+  beginner: { en: "Beginner", fr: "Débutant" },
+  intermediate: { en: "Intermediate", fr: "Intermédiaire" },
+  advanced: { en: "Advanced", fr: "Avancé" },
 };
 
 const DIFFICULTY_VALUES = ["beginner", "intermediate", "advanced"] as const;
 
-function toSlug(input: string): string {
-  return input
+function toTagSlug(input: string): string {
+  return String(input || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .trim()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 function normalizeRegion(input: unknown): RegionCode {
@@ -162,14 +165,14 @@ function inferCategory(tags: string[], title: string): string {
 }
 
 const CATEGORY_TRANSLATIONS: Record<string, { en: string; fr: string }> = {
-  news: { en: "News", fr: "Actualites" },
-  actualites: { en: "News", fr: "Actualites" },
+  news: { en: "News", fr: "Actualités" },
+  actualites: { en: "News", fr: "Actualités" },
   tutorials: { en: "Tutorials", fr: "Tutoriels" },
   tutoriels: { en: "Tutorials", fr: "Tutoriels" },
   "agent playbooks": { en: "Agent Playbooks", fr: "Playbooks Agents" },
   "playbooks agents": { en: "Agent Playbooks", fr: "Playbooks Agents" },
-  "model breakdowns": { en: "Model Breakdowns", fr: "Analyses de modeles" },
-  "analyses de modeles": { en: "Model Breakdowns", fr: "Analyses de modeles" },
+  "model breakdowns": { en: "Model Breakdowns", fr: "Analyses de modèles" },
+  "analyses de modeles": { en: "Model Breakdowns", fr: "Analyses de modèles" },
   "ai/ml": { en: "AI/ML", fr: "IA/ML" },
   "ia/ml": { en: "AI/ML", fr: "IA/ML" },
 };
@@ -284,6 +287,15 @@ export function regionPathToCode(regionPath: string): RegionCode | null {
 }
 
 export async function getAllPostsMeta(locale: Locale = "en"): Promise<PostMeta[]> {
+  const enableCache = process.env.NODE_ENV !== "development";
+  const globalForPosts = globalThis as unknown as { __allPostsMetaCache?: Map<string, PostMeta[]> };
+  const cache: Map<string, PostMeta[]> = (globalForPosts.__allPostsMetaCache ??= new Map<string, PostMeta[]>());
+
+  if (enableCache) {
+    const cached = cache.get(locale);
+    if (cached) return cached;
+  }
+
   const slugs = await getPostSlugs(locale);
 
   const posts = await Promise.all(
@@ -294,20 +306,49 @@ export async function getAllPostsMeta(locale: Locale = "en"): Promise<PostMeta[]
     }),
   );
 
-  return posts.sort((a, b) => b.date.localeCompare(a.date));
+  const sorted = posts.sort((a, b) => b.date.localeCompare(a.date));
+  if (enableCache) cache.set(locale, sorted);
+  return sorted;
 }
 
 export async function getPostBySlug(slug: string, locale: Locale = "en"): Promise<Post> {
+  const enableCache = process.env.NODE_ENV !== "development";
+  const globalForPosts = globalThis as unknown as { __postBySlugCache?: Map<string, Post> };
+  const cache: Map<string, Post> = (globalForPosts.__postBySlugCache ??= new Map<string, Post>());
+  const cacheKey = `${locale}:${slug}`;
+
+  if (enableCache) {
+    const cached = cache.get(cacheKey);
+    if (cached) return cached;
+  }
+
   const fileContent = await readPostRaw(slug, locale);
   const { data, content } = matter(fileContent);
-  const processed = await remark().use(remarkRehype).use(rehypeSlug).use(rehypeStringify).process(content);
+  const sanitizeSchema = {
+    ...defaultSchema,
+    // Keep `id`s generated by `rehype-slug` (used by the TOC).
+    attributes: {
+      ...defaultSchema.attributes,
+      "*": [...(defaultSchema.attributes?.["*"] || []), "id", "className"],
+      a: [...(defaultSchema.attributes?.a || []), "href", "title", "target", "rel"],
+    },
+  };
+  const processed = await remark()
+    .use(remarkRehype, { allowDangerousHtml: false })
+    .use(rehypeSlug)
+    .use(rehypeSanitize, sanitizeSchema)
+    .use(rehypeStringify)
+    .process(content);
 
-  return {
+  const post = {
     ...normalizeMeta(slug, data as Frontmatter, content),
     contentHtml: processed.toString(),
     contentMarkdown: content,
     toc: buildToc(content),
   };
+
+  if (enableCache) cache.set(cacheKey, post);
+  return post;
 }
 
 export async function getPostsByCategory(category: string, locale: Locale = "en"): Promise<PostMeta[]> {
@@ -343,12 +384,33 @@ export async function getRegionCounts(locale: Locale = "en"): Promise<Record<Reg
 
 export async function getPostsByTag(tag: string, locale: Locale = "en"): Promise<PostMeta[]> {
   const posts = await getAllPostsMeta(locale);
-  return posts.filter((post) => post.tags.some((entry) => entry.toLowerCase() === tag.toLowerCase()));
+  const target = toTagSlug(tag);
+  if (!target) return [];
+  return posts.filter((post) => post.tags.some((entry) => toTagSlug(entry) === target));
 }
 
 export async function getAllTags(locale: Locale = "en"): Promise<string[]> {
   const posts = await getAllPostsMeta(locale);
-  return [...new Set(posts.flatMap((post) => post.tags))].sort((a, b) => a.localeCompare(b));
+  const scoreLabel = (value: string) => {
+    const s = String(value || "");
+    const upper = (s.match(/[A-Z]/g) || []).length;
+    const punct = (s.match(/[^A-Za-z0-9\\s]/g) || []).length;
+    return upper * 3 + punct * 2 + Math.min(24, s.length) / 10;
+  };
+
+  const bySlug = new Map<string, string>();
+  for (const tag of posts.flatMap((post) => post.tags)) {
+    const slug = toTagSlug(tag);
+    if (!slug) continue;
+    const existing = bySlug.get(slug);
+    if (!existing) {
+      bySlug.set(slug, tag);
+      continue;
+    }
+    bySlug.set(slug, scoreLabel(tag) > scoreLabel(existing) ? tag : existing);
+  }
+
+  return [...bySlug.values()].sort((a, b) => a.localeCompare(b));
 }
 
 export async function getRelatedPosts(slug: string, limit = 3, locale: Locale = "en"): Promise<PostMeta[]> {
@@ -370,7 +432,7 @@ export async function getRelatedPosts(slug: string, limit = 3, locale: Locale = 
 }
 
 export function formatTagForPath(tag: string): string {
-  return toSlug(tag);
+  return toTagSlug(tag);
 }
 
 export function parseTagFromPath(tag: string): string {

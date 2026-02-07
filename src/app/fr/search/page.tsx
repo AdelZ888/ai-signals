@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import { PostCard } from "@/components/post-card";
 import { getAllPostsMeta } from "@/lib/posts";
@@ -48,11 +49,11 @@ export const metadata: Metadata = {
 };
 
 type SearchPageProps = {
-  searchParams: Promise<{ q?: string }>;
+  searchParams: Promise<{ q?: string; page?: string }>;
 };
 
 export default async function SearchFrPage({ searchParams }: SearchPageProps) {
-  const { q } = await searchParams;
+  const { q, page: pageParam } = await searchParams;
   const query = (q || "").trim().toLowerCase();
   const posts = await getAllPostsMeta("fr");
 
@@ -62,6 +63,18 @@ export default async function SearchFrPage({ searchParams }: SearchPageProps) {
         return haystack.includes(query);
       })
     : posts;
+
+  const PAGE_SIZE = 12;
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const parsed = Number.parseInt(String(pageParam || "1"), 10);
+  const page = Number.isFinite(parsed) ? Math.min(pageCount, Math.max(1, parsed)) : 1;
+  const start = (page - 1) * PAGE_SIZE;
+  const pagePosts = filtered.slice(start, start + PAGE_SIZE);
+
+  const base = q ? `/fr/search?q=${encodeURIComponent(q)}` : "/fr/search";
+  const pageSep = base.includes("?") ? "&" : "?";
+  const prevHref = page <= 2 ? base : `${base}${pageSep}page=${page - 1}`;
+  const nextHref = `${base}${pageSep}page=${page + 1}`;
 
   return (
     <main className="mx-auto w-full max-w-5xl px-6 py-12">
@@ -76,13 +89,43 @@ export default async function SearchFrPage({ searchParams }: SearchPageProps) {
           className="w-full rounded-xl border theme-border-soft theme-surface px-4 py-3 outline-none ring-cyan-300 transition focus:ring"
         />
       </form>
-      <p className="mt-4 text-sm theme-text-faint motion-enter motion-delay-2">{filtered.length} resultat(s)</p>
+      <p className="mt-4 text-sm theme-text-faint motion-enter motion-delay-2">
+        {filtered.length === 0 ? (
+          "0 resultat(s)"
+        ) : (
+          <>
+            Affichage <span className="theme-text-soft">{start + 1}</span>-<span className="theme-text-soft">{Math.min(start + PAGE_SIZE, filtered.length)}</span> sur{" "}
+            <span className="theme-text-soft">{filtered.length}</span>
+          </>
+        )}
+      </p>
 
       <section className="mt-6 grid gap-4">
-        {filtered.map((post, index) => (
+        {pagePosts.map((post, index) => (
           <PostCard key={post.slug} post={post} locale="fr" delayClass={`motion-delay-${Math.min(index + 3, 8)}`} />
         ))}
+        {filtered.length === 0 ? <p className="text-sm theme-text-faint">Essayez un autre mot-cle.</p> : null}
       </section>
+
+      {pageCount > 1 ? (
+        <nav className="pager motion-enter motion-delay-3" aria-label="Pagination">
+          <div className="flex flex-wrap items-center gap-2">
+            {page > 1 ? (
+              <Link className="pager-link" href={prevHref}>
+                Precedent
+              </Link>
+            ) : null}
+            <span className="pager-meta">
+              Page <span className="theme-text-soft">{page}</span> / <span className="theme-text-soft">{pageCount}</span>
+            </span>
+          </div>
+          {page < pageCount ? (
+            <Link className="pager-link pager-link-primary" href={nextHref}>
+              Charger plus
+            </Link>
+          ) : null}
+        </nav>
+      ) : null}
     </main>
   );
 }

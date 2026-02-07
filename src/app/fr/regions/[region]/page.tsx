@@ -24,11 +24,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const regionCode = regionPathToCode(region);
 
   if (!regionCode || regionCode === "GLOBAL") {
-    return { title: "Region introuvable" };
+    return { title: "Région introuvable" };
   }
 
   const title = `Couverture ${getRegionLabel(regionCode, "fr")}`;
-  const description = `Actualites et tutoriels IA adaptes au contexte ${getRegionLabel(regionCode, "fr")}.`;
+  const description = `Actualités et tutoriels IA adaptés au contexte ${getRegionLabel(regionCode, "fr")}.`;
   const ogUrl = `/api/og?${new URLSearchParams({
     title,
     subtitle: description,
@@ -78,7 +78,7 @@ export default async function RegionFrPage({ params }: Params) {
       <div className="motion-enter">
         <h1 className="text-4xl font-black tracking-tight">Couverture IA {getRegionLabel(regionCode as RegionCode, "fr")}</h1>
         <p className="mt-2 theme-text-muted">
-          Articles regionaux et contenus globaux interpretes pour les lecteurs {getRegionLabel(regionCode as RegionCode, "fr")}.
+          Articles régionaux et contenus globaux interprétés pour les lecteurs {getRegionLabel(regionCode as RegionCode, "fr")}.
         </p>
       </div>
 
@@ -88,7 +88,7 @@ export default async function RegionFrPage({ params }: Params) {
             <PostCard key={post.slug} post={post} locale="fr" delayClass={`motion-delay-${Math.min(index + 2, 8)}`} />
           ))
         ) : (
-          <p className="motion-enter motion-delay-2">Aucun article pour cette region.</p>
+          <p className="motion-enter motion-delay-2">Aucun article pour cette région.</p>
         )}
       </section>
     </main>

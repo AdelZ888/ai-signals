@@ -4,8 +4,8 @@ import Link from "next/link";
 import { PRIMARY_REGIONS, getAllPostsMeta, getRegionCounts, getRegionLabel, regionCodeToPath } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "Regions",
-  description: "Couverture IA regionale pour les Etats-Unis, le Royaume-Uni et la France.",
+  title: "Régions",
+  description: "Couverture IA régionale pour les États-Unis, le Royaume-Uni et la France.",
   alternates: {
     canonical: "/fr/regions",
     languages: {
@@ -15,31 +15,31 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    title: "Regions",
-    description: "Couverture IA regionale pour les Etats-Unis, le Royaume-Uni et la France.",
+    title: "Régions",
+    description: "Couverture IA régionale pour les États-Unis, le Royaume-Uni et la France.",
     url: "/fr/regions",
     images: [
       {
         url: `/api/og?${new URLSearchParams({
-          title: "Regions",
-          subtitle: "Angle Etats-Unis, Royaume-Uni, France.",
+          title: "Régions",
+          subtitle: "Angle États-Unis, Royaume-Uni, France.",
           locale: "fr",
           kind: "page",
         }).toString()}`,
         width: 1200,
         height: 630,
-        alt: "Regions | AI Signals",
+        alt: "Régions | AI Signals",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Regions",
-    description: "Couverture IA regionale pour les Etats-Unis, le Royaume-Uni et la France.",
+    title: "Régions",
+    description: "Couverture IA régionale pour les États-Unis, le Royaume-Uni et la France.",
     images: [
       `/api/og?${new URLSearchParams({
-        title: "Regions",
-        subtitle: "Angle Etats-Unis, Royaume-Uni, France.",
+        title: "Régions",
+        subtitle: "Angle États-Unis, Royaume-Uni, France.",
         locale: "fr",
         kind: "page",
       }).toString()}`,
@@ -53,8 +53,8 @@ export default async function RegionsFrPage() {
   return (
     <main className="mx-auto w-full max-w-5xl px-6 py-12">
       <div className="motion-enter">
-        <h1 className="text-4xl font-black tracking-tight">Couverture regionale</h1>
-        <p className="mt-2 theme-text-muted">Naviguez par contexte de marche: US, UK ou France.</p>
+        <h1 className="text-4xl font-black tracking-tight">Couverture régionale</h1>
+        <p className="mt-2 theme-text-muted">Naviguez par contexte de marché: US, UK ou France.</p>
       </div>
 
       <section className="mt-8 grid gap-4 md:grid-cols-3">
@@ -66,7 +66,7 @@ export default async function RegionsFrPage() {
               className={`rounded-2xl border theme-border theme-surface p-5 motion-card motion-enter motion-delay-${Math.min(index + 2, 8)}`}
             >
               <h2 className="text-2xl font-bold tracking-tight">{getRegionLabel(region, "fr")}</h2>
-              <p className="mt-1 text-sm theme-text-faint">{counts[region]} article(s) dedie(s)</p>
+              <p className="mt-1 text-sm theme-text-faint">{counts[region]} article(s) dédié(s)</p>
               <div className="mt-4 space-y-2">
                 {regionPosts.length > 0 ? (
                   regionPosts.map((post) => (
@@ -75,7 +75,7 @@ export default async function RegionsFrPage() {
                     </Link>
                   ))
                 ) : (
-                  <p className="text-sm theme-text-faint">Aucun article pour le moment. La generation regionale est automatique.</p>
+                  <p className="text-sm theme-text-faint">Aucun article pour le moment. La génération régionale est automatique.</p>
                 )}
               </div>
               <Link

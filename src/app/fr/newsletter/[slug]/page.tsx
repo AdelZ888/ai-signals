@@ -93,16 +93,16 @@ export default async function NewsletterIssuePageFr({ params }: Params) {
 
             <div className="article-meta">
               <span className="article-chip">{formatDate(issue.date)}</span>
-              {issue.issueNumber ? <span className="article-chip">Edition #{issue.issueNumber}</span> : null}
+              {issue.issueNumber ? <span className="article-chip">Édition #{issue.issueNumber}</span> : null}
               <span className="article-chip">{issue.readingTimeMinutes} min</span>
             </div>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm">
               <Link className="article-action" href="/fr/newsletter">
-                Toutes les editions
+                Toutes les éditions
               </Link>
               <Link className="article-action" href="/fr/news">
-                Actualites IA
+                Actualités IA
               </Link>
               <a className="article-action" href="/fr/rss.xml">
                 RSS
