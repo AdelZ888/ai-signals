@@ -18,8 +18,9 @@ const AI_RELEVANCE_REGEX =
 const MIN_WORDS_EN_DEFAULT = Number(process.env.MIN_WORDS_EN || 900);
 const MIN_WORDS_FR_DEFAULT = Number(process.env.MIN_WORDS_FR || 850);
 const MAX_WORDS_EN_DEFAULT = Number(process.env.MAX_WORDS_EN || 2200);
-const OPENAI_TIMEOUT_MS = Number(process.env.OPENAI_TIMEOUT_MS || 30_000);
-const OPENAI_MAX_RETRIES = Number(process.env.OPENAI_MAX_RETRIES || 2);
+// GPT-5 calls can be slow in CI. Default to a safer timeout and allow override.
+const OPENAI_TIMEOUT_MS = Math.max(10_000, Math.min(180_000, Number(process.env.OPENAI_TIMEOUT_MS || 90_000)));
+const OPENAI_MAX_RETRIES = Math.max(0, Math.min(4, Number(process.env.OPENAI_MAX_RETRIES || 2)));
 const STRICT_PUBLISH = String(process.env.STRICT_PUBLISH ?? "1") !== "0";
 const ALLOW_FALLBACK_CONTENT = String(process.env.ALLOW_FALLBACK_CONTENT ?? "0") === "1";
 const MAX_TOPIC_ATTEMPTS = Math.max(1, Math.min(12, Number(process.env.MAX_TOPIC_ATTEMPTS || 5)));
@@ -999,7 +1000,14 @@ async function generateWithLLM(topic, targetRegion, sources, template, wordTarge
 
     return candidate;
   } catch (error) {
-    console.warn(`Falling back to EN template due to LLM error: ${error.message}`);
+    const message = error?.message || String(error);
+    console.warn(`Falling back to EN template due to LLM error: ${message}`);
+
+    // In strict mode, fail the whole run instead of "poisoning" the queue by marking topics as failed
+    // due to transient OpenAI / network issues.
+    if (STRICT_PUBLISH && !ALLOW_FALLBACK_CONTENT) {
+      throw new Error(`OpenAI generation failed: ${message}`);
+    }
 
     return {
       title: topic.title,
@@ -1191,8 +1199,9 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
 
 export async function generatePost() {
   if (!process.env.OPENAI_API_KEY && STRICT_PUBLISH && !ALLOW_FALLBACK_CONTENT) {
-    console.warn("OPENAI_API_KEY is missing. STRICT_PUBLISH is enabled and ALLOW_FALLBACK_CONTENT is disabled; refusing to publish fallback posts.");
-    return null;
+    throw new Error(
+      "OPENAI_API_KEY is missing. STRICT_PUBLISH is enabled and ALLOW_FALLBACK_CONTENT is disabled; refusing to publish fallback posts.",
+    );
   }
 
   const rawQueue = await fs.readFile(queuePath, "utf8");

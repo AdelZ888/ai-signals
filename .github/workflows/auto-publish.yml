@@ -28,6 +28,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5-mini
+          OPENAI_TIMEOUT_MS: "120000"
+          OPENAI_MAX_RETRIES: "3"
           MIN_WORDS_EN: "900"
           MAX_WORDS_EN: "1500"
           MIN_WORDS_FR: "850"

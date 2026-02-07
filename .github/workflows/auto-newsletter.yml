@@ -29,6 +29,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5-mini
+          OPENAI_TIMEOUT_MS: "120000"
+          OPENAI_MAX_RETRIES: "3"
           NEXT_PUBLIC_SITE_URL: https://aisignals.dev
         run: npm run generate-newsletter
 
