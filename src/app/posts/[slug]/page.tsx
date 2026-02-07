@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { CSSProperties } from "react";
 
 import { NewsletterCta } from "@/components/newsletter-cta";
 import { PostToc } from "@/components/post-toc";
@@ -118,6 +119,7 @@ export default async function PostPage({ params }: Params) {
   const showSeries = typeof post.series === "string" && post.series.trim().length > 0;
   const showDifficulty = !!post.difficulty;
   const showTime = typeof post.timeToImplementMinutes === "number" && Number.isFinite(post.timeToImplementMinutes);
+  const coverStyle = { ["--cover-image" as never]: `url("${coverUrl}")` } as unknown as CSSProperties;
 
   return (
     <main className="mx-auto w-full max-w-6xl px-6 py-12">
@@ -130,9 +132,7 @@ export default async function PostPage({ params }: Params) {
             <p className="article-kicker">AI Signals Briefing</p>
             <h1 className="article-title">{post.title}</h1>
             <p className="article-excerpt">{post.excerpt}</p>
-            <div className="article-cover">
-              <img src={coverUrl} alt={post.title} width={1200} height={630} loading="lazy" decoding="async" />
-            </div>
+            <div className="article-cover" style={coverStyle} data-has-image="true" aria-hidden="true" />
 
             <div className="article-meta">
               <span className="article-chip">{post.date}</span>

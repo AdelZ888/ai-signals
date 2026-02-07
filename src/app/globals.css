@@ -467,17 +467,25 @@ h6,
 
 .article-cover {
   margin-top: 1.35rem;
+  position: relative;
   border: 1px solid var(--border-soft);
   border-radius: 1.25rem;
   overflow: hidden;
-  background: var(--surface);
+  aspect-ratio: 1200 / 630;
+  background-color: var(--surface);
+  --cover-fallback:
+    radial-gradient(circle at 20% 18%, rgba(34, 211, 238, 0.18), transparent 60%),
+    radial-gradient(circle at 78% 26%, rgba(245, 158, 11, 0.12), transparent 62%),
+    linear-gradient(180deg, rgba(2, 6, 23, 0.55), rgba(2, 6, 23, 0.86));
+  background-image: var(--cover-fallback);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
 }
 
-.article-cover img {
-  display: block;
-  width: 100%;
-  height: auto;
+.article-cover[data-has-image="true"] {
+  background-image: var(--cover-image), var(--cover-fallback);
 }
 
 .article-meta {
