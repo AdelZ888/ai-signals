@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-02-06T15:24:39.515Z",
+  "generatedAt": "2026-02-07T08:20:00.212Z",
   "items": [
+    {
+      "id": "https://arxiv.org/abs/2602.05088",
+      "title": "VERA-MH: Reliability and Validity of an Open-Source AI Safety Evaluation in Mental Health",
+      "link": "https://arxiv.org/abs/2602.05088",
+      "summary": "arXiv:2602.05088v1 Announce Type: new Abstract: Millions now use leading generative AI chatbots for psychological support. Despite the promise related to availability and scale, the single most pressing question in AI for mental health is whether these tools are safe. The Validation of Ethical and Responsible AI in Mental Health (VERA-MH) evaluation was recently proposed to meet the urgent need for an evidence-based automated safety benchmark. This study aimed to examine the clinical validity and reliability of the VERA-MH evaluation for AI safety in suicide risk detection and response. We first simulated a large set of conversations between large language model (LLM)-based users (user-agents) and general-purpose AI chatbots. Licensed mental health clinicians used a rubric (scoring guide) to independently rate the simulated conversations for safe and unsafe chatbot behaviors, as well as user-agent realism. An LLM-based judge used the same scoring rubric to evaluate the same set of simulated conversations. We then compared rating alignment across (a) individual clinicians and (b) clinician consensus and the LLM judge, and (c) examined clinicians' ratings of user-agent realism. Individual clinicians were generally consistent with one another in their safety ratings (chance-corrected inter-rater reliability [IRR]: 0.77), thus establishing a gold-standard clinical reference. The LL",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 150,
+      "status": "queued"
+    },
     {
       "id": "https://arxiv.org/abs/2602.04326",
       "title": "From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning for Embodied Agents",
@@ -26,6 +38,102 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.05073",
+      "title": "Towards Reducible Uncertainty Modeling for Reliable Large Language Model Agents",
+      "link": "https://arxiv.org/abs/2602.05073",
+      "summary": "arXiv:2602.05073v1 Announce Type: new Abstract: Uncertainty quantification (UQ) for large language models (LLMs) is a key building block for safety guardrails of daily LLM applications. Yet, even as LLM agents are increasingly deployed in highly complex tasks, most UQ research still centers on single-turn question-answering. We argue that UQ research must shift to realistic settings with interactive agents, and that a new principled framework for agent UQ is needed. This paper presents the first general formulation of agent UQ that subsumes broad classes of existing UQ setups. Under this formulation, we show that prior works implicitly treat LLM UQ as an uncertainty accumulation process, a viewpoint that breaks down for interactive agents in an open world. In contrast, we propose a novel perspective, a conditional uncertainty reduction process, that explicitly models reducible uncertainty over an agent's trajectory by highlighting \"interactivity\" of actions. From this perspective, we outline a conceptual framework to provide actionable guidance for designing UQ in LLM agent setups. Finally, we conclude with practical implications of the agent UQ in frontier LLM development and domain-specific applications, as well as open remaining problems.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 132,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05115",
+      "title": "SocialVeil: Probing Social Intelligence of Language Agents under Communication Barriers",
+      "link": "https://arxiv.org/abs/2602.05115",
+      "summary": "arXiv:2602.05115v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated in interactive environments to test their social intelligence. However, existing benchmarks often assume idealized communication between agents, limiting our ability to diagnose whether LLMs can maintain and repair interactions in more realistic, imperfect settings. To close this gap, we present \\textsc{SocialVeil}, a social learning environment that can simulate social interaction under cognitive-difference-induced communication barriers. Grounded in a systematic literature review of communication challenges in human interaction, \\textsc{SocialVeil} introduces three representative types of such disruption, \\emph{semantic vagueness}, \\emph{sociocultural mismatch}, and \\emph{emotional interference}. We also introduce two barrier-aware evaluation metrics, \\emph{unresolved confusion} and \\emph{mutual understanding}, to evaluate interaction quality under impaired communication. Experiments across 720 scenarios and four frontier LLMs show that barriers consistently impair performance, with mutual understanding reduced by over 45\\% on average, and confusion elevated by nearly 50\\%. Human evaluations validate the fidelity of these simulated barriers (ICC$\\approx$0.78, Pearson r$\\approx$0.80). We further demonstrate that adaptation strategies (Repair Instruction and Interactive learn",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 132,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05110",
+      "title": "Understanding LLM Evaluator Behavior: A Structured Multi-Evaluator Framework for Merchant Risk Assessment",
+      "link": "https://arxiv.org/abs/2602.05110",
+      "summary": "arXiv:2602.05110v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used as evaluators of reasoning quality, yet their reliability and bias in payments-risk settings remain poorly understood. We introduce a structured multi-evaluator framework for assessing LLM reasoning in Merchant Category Code (MCC)-based merchant risk assessment, combining a five-criterion rubric with Monte-Carlo scoring to evaluate rationale quality and evaluator stability. Five frontier LLMs generate and cross-evaluate MCC risk rationales under attributed and anonymized conditions. To establish a judge-independent reference, we introduce a consensus-deviation metric that eliminates circularity by comparing each judge's score to the mean of all other judges, yielding a theoretically grounded measure of self-evaluation and cross-model deviation. Results reveal substantial heterogeneity: GPT-5.1 and Claude 4.5 Sonnet show negative self-evaluation bias (-0.33, -0.31), while Gemini-2.5 Pro and Grok 4 display positive bias (+0.77, +0.71), with bias attenuating by 25.8 percent under anonymization. Evaluation by 26 payment-industry experts shows LLM judges assign scores averaging +0.46 points above human consensus, and that the negative bias of GPT-5.1 and Claude 4.5 Sonnet reflects closer alignment with human judgment. Ground-truth validation using payment-network data shows four models",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 126,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05014",
+      "title": "DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search",
+      "link": "https://arxiv.org/abs/2602.05014",
+      "summary": "arXiv:2602.05014v1 Announce Type: new Abstract: With the rapid progress of tool-using and agentic large language models (LLMs), Retrieval-Augmented Generation (RAG) is evolving from one-shot, passive retrieval into multi-turn, decision-driven evidence acquisition. Despite strong results in open-domain settings, existing agentic search frameworks commonly treat long documents as flat collections of chunks, underutilizing document-native priors such as hierarchical organization and sequential discourse structure. We introduce DeepRead, a structure-aware, multi-turn document reasoning agent that explicitly operationalizes these priors for long-document question answering. DeepRead leverages LLM-based OCR model to convert PDFs into structured Markdown that preserves headings and paragraph boundaries. It then indexes documents at the paragraph level and assigns each paragraph a coordinate-style metadata key encoding its section identity and in-section order. Building on this representation, DeepRead equips the LLM with two complementary tools: a Retrieve tool that localizes relevant paragraphs while exposing their structural coordinates (with lightweight scanning context), and a ReadSection tool that enables contiguous, order-preserving reading within a specified section and paragraph range. Our experiments demonstrate that DeepRead achieves significant improvements over Search-o1-s",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 120,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05059",
+      "title": "Evaluating Large Language Models on Solved and Unsolved Problems in Graph Theory: Implications for Computing Education",
+      "link": "https://arxiv.org/abs/2602.05059",
+      "summary": "arXiv:2602.05059v1 Announce Type: new Abstract: Large Language Models are increasingly used by students to explore advanced material in computer science, including graph theory. As these tools become integrated into undergraduate and graduate coursework, it is important to understand how reliably they support mathematically rigorous thinking. This study examines the performance of a LLM on two related graph theoretic problems: a solved problem concerning the gracefulness of line graphs and an open problem for which no solution is currently known. We use an eight stage evaluation protocol that reflects authentic mathematical inquiry, including interpretation, exploration, strategy formation, and proof construction. The model performed strongly on the solved problem, producing correct definitions, identifying relevant structures, recalling appropriate results without hallucination, and constructing a valid proof confirmed by a graph theory expert. For the open problem, the model generated coherent interpretations and plausible exploratory strategies but did not advance toward a solution. It did not fabricate results and instead acknowledged uncertainty, which is consistent with the explicit prompting instructions that directed the model to avoid inventing theorems or unsupported claims. These findings indicate that LLMs can support exploration of established material but remain l",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 120,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05105",
+      "title": "GAMMS: Graph based Adversarial Multiagent Modeling Simulator",
+      "link": "https://arxiv.org/abs/2602.05105",
+      "summary": "arXiv:2602.05105v1 Announce Type: new Abstract: As intelligent systems and multi-agent coordination become increasingly central to real-world applications, there is a growing need for simulation tools that are both scalable and accessible. Existing high-fidelity simulators, while powerful, are often computationally expensive and ill-suited for rapid prototyping or large-scale agent deployments. We present GAMMS (Graph based Adversarial Multiagent Modeling Simulator), a lightweight yet extensible simulation framework designed to support fast development and evaluation of agent behavior in environments that can be represented as graphs. GAMMS emphasizes five core objectives: scalability, ease of use, integration-first architecture, fast visualization feedback, and real-world grounding. It enables efficient simulation of complex domains such as urban road networks and communication systems, supports integration with external tools (e.g., machine learning libraries, planning solvers), and provides built-in visualization with minimal configuration. GAMMS is agnostic to policy type, supporting heuristic, optimization-based, and learning-based agents, including those using large language models. By lowering the barrier to entry for researchers and enabling high-performance simulations on standard hardware, GAMMS facilitates experimentation and innovation in multi-agent systems, autono",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 120,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05048",
+      "title": "MINT: Minimal Information Neuro-Symbolic Tree for Objective-Driven Knowledge-Gap Reasoning and Active Elicitation",
+      "link": "https://arxiv.org/abs/2602.05048",
+      "summary": "arXiv:2602.05048v1 Announce Type: new Abstract: Joint planning through language-based interactions is a key area of human-AI teaming. Planning problems in the open world often involve various aspects of incomplete information and unknowns, e.g., objects involved, human goals/intents -- thus leading to knowledge gaps in joint planning. We consider the problem of discovering optimal interaction strategies for AI agents to actively elicit human inputs in object-driven planning. To this end, we propose Minimal Information Neuro-Symbolic Tree (MINT) to reason about the impact of knowledge gaps and leverage self-play with MINT to optimize the AI agent's elicitation strategies and queries. More precisely, MINT builds a symbolic tree by making propositions of possible human-AI interactions and by consulting a neural planning policy to estimate the uncertainty in planning outcomes caused by remaining knowledge gaps. Finally, we leverage LLM to search and summarize MINT's reasoning process and curate a set of queries to optimally elicit human inputs for best planning performance. By considering a family of extended Markov decision processes with knowledge gaps, we analyze the return guarantee for a given MINT with active human elicitation. Our evaluation on three benchmarks involving unseen/unknown objects of increasing realism shows that MINT-based planning attains near-expert returns b",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 114,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.04986",
+      "title": "Artificial Intelligence as Strange Intelligence: Against Linear Models of Intelligence",
+      "link": "https://arxiv.org/abs/2602.04986",
+      "summary": "arXiv:2602.04986v1 Announce Type: new Abstract: We endorse and expand upon Susan Schneider's critique of the linear model of AI progress and introduce two novel concepts: \"familiar intelligence\" and \"strange intelligence\". AI intelligence is likely to be strange intelligence, defying familiar patterns of ability and inability, combining superhuman capacities in some domains with subhuman performance in other domains, and even within domains sometimes combining superhuman insight with surprising errors that few humans would make. We develop and defend a nonlinear model of intelligence on which \"general intelligence\" is not a unified capacity but instead the ability to achieve a broad range of goals in a broad range of environments, in a manner that defies nonarbitrary reduction to a single linear quantity. We conclude with implications for adversarial testing approaches to evaluating AI capacities. If AI is strange intelligence, we should expect that even the most capable systems will sometimes fail in seemingly obvious tasks. On a nonlinear model of AI intelligence, such errors on their own do not demonstrate a system's lack of outstanding general intelligence. Conversely, excellent performance on one type of task, such as an IQ test, cannot warrant assumptions of broad capacities beyond that task domain.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 108,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.04284",
       "title": "Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning",
       "link": "https://arxiv.org/abs/2602.04284",
@@ -35,6 +143,42 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-06T05:00:00.000Z",
       "score": 95.89,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05113",
+      "title": "Democratic Preference Alignment via Sortition-Weighted RLHF",
+      "link": "https://arxiv.org/abs/2602.05113",
+      "summary": "arXiv:2602.05113v1 Announce Type: new Abstract: Whose values should AI systems learn? Preference based alignment methods like RLHF derive their training signal from human raters, yet these rater pools are typically convenience samples that systematically over represent some demographics and under represent others. We introduce Democratic Preference Optimization, or DemPO, a framework that applies algorithmic sortition, the same mechanism used to construct citizen assemblies, to preference based fine tuning. DemPO offers two training schemes. Hard Panel trains exclusively on preferences from a quota satisfying mini public sampled via sortition. Soft Panel retains all data but reweights each rater by their inclusion probability under the sortition lottery. We prove that Soft Panel weighting recovers the expected Hard Panel objective in closed form. Using a public preference dataset that pairs human judgments with rater demographics and a seventy five clause constitution independently elicited from a representative United States panel, we evaluate Llama models from one billion to eight billion parameters fine tuned under each scheme. Across six aggregation methods, the Hard Panel consistently ranks first and the Soft Panel consistently outperforms the unweighted baseline, with effect sizes growing as model capacity increases. These results demonstrate that enforcing demographic re",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 90,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05133",
+      "title": "CAST-CKT: Chaos-Aware Spatio-Temporal and Cross-City Knowledge Transfer for Traffic Flow Prediction",
+      "link": "https://arxiv.org/abs/2602.05133",
+      "summary": "arXiv:2602.05133v1 Announce Type: new Abstract: Traffic prediction in data-scarce, cross-city settings is challenging due to complex nonlinear dynamics and domain shifts. Existing methods often fail to capture traffic's inherent chaotic nature for effective few-shot learning. We propose CAST-CKT, a novel Chaos-Aware Spatio-Temporal and Cross-City Knowledge Transfer framework. It employs an efficient chaotic analyser to quantify traffic predictability regimes, driving several key innovations: chaos-aware attention for regime-adaptive temporal modelling; adaptive topology learning for dynamic spatial dependencies; and chaotic consistency-based cross-city alignment for knowledge transfer. The framework also provides horizon-specific predictions with uncertainty quantification. Theoretical analysis shows improved generalisation bounds. Extensive experiments on four benchmarks in cross-city few-shot settings show CAST-CKT outperforms state-of-the-art methods by significant margins in MAE and RMSE, while offering interpretable regime analysis. Code is available at https://github.com/afofanah/CAST-CKT.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 84,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05143",
+      "title": "HugRAG: Hierarchical Causal Knowledge Graph Design for RAG",
+      "link": "https://arxiv.org/abs/2602.05143",
+      "summary": "arXiv:2602.05143v1 Announce Type: new Abstract: Retrieval augmented generation (RAG) has enhanced large language models by enabling access to external knowledge, with graph-based RAG emerging as a powerful paradigm for structured retrieval and reasoning. However, existing graph-based methods often over-rely on surface-level node matching and lack explicit causal modeling, leading to unfaithful or spurious answers. Prior attempts to incorporate causality are typically limited to local or single-document contexts and also suffer from information isolation that arises from modular graph structures, which hinders scalability and cross-module causal reasoning. To address these challenges, we propose HugRAG, a framework that rethinks knowledge organization for graph-based RAG through causal gating across hierarchical modules. HugRAG explicitly models causal relationships to suppress spurious correlations while enabling scalable reasoning over large-scale knowledge graphs. Extensive experiments demonstrate that HugRAG consistently outperforms competitive graph-based RAG baselines across multiple datasets and evaluation metrics. Our work establishes a principled foundation for structured, scalable, and causally grounded RAG systems.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 84,
       "status": "queued"
     },
     {
@@ -76,6 +220,18 @@
       ],
       "wordsEn": 1290,
       "wordsFr": 1521
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.05195",
+      "title": "Traceable Cross-Source RAG for Chinese Tibetan Medicine Question Answering",
+      "link": "https://arxiv.org/abs/2602.05195",
+      "summary": "arXiv:2602.05195v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) promises grounded question answering, yet domain settings with multiple heterogeneous knowledge bases (KBs) remain challenging. In Chinese Tibetan medicine, encyclopedia entries are often dense and easy to match, which can dominate retrieval even when classics or clinical papers provide more authoritative evidence. We study a practical setting with three KBs (encyclopedia, classics, and clinical papers) and a 500-query benchmark (cutoff $K{=}5$) covering both single-KB and cross-KB questions. We propose two complementary methods to improve traceability, reduce hallucinations, and enable cross-KB verification. First, DAKS performs KB routing and budgeted retrieval to mitigate density-driven bias and to prioritize authoritative sources when appropriate. Second, we use an alignment graph to guide evidence fusion and coverage-aware packing, improving cross-KB evidence coverage without relying on naive concatenation. All answers are generated by a lightweight generator, \\textsc{openPangu-Embedded-7B}. Experiments show consistent gains in routing quality and cross-KB evidence coverage, with the full system achieving the best CrossEv@5 while maintaining strong faithfulness and citation correctness.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-07T05:00:00.000Z",
+      "score": 72,
+      "status": "queued"
     },
     {
       "id": "https://arxiv.org/abs/2602.03974",
@@ -126,6 +282,18 @@
       "keywordHits": 0
     },
     {
+      "id": "https://openai.com/index/our-approach-to-localization",
+      "title": "Making AI work for everyone, everywhere: our approach to localization",
+      "link": "https://openai.com/index/our-approach-to-localization",
+      "summary": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-06T10:00:00.000Z",
+      "score": 59.37,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.03900",
       "title": "Knowledge Model Prompting Increases LLM Performance on Planning Tasks",
       "link": "https://arxiv.org/abs/2602.03900",
@@ -172,6 +340,18 @@
       "status": "queued",
       "region": "GLOBAL",
       "keywordHits": 0
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
+      "title": "Moltbook was peak AI theater",
+      "link": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
+      "summary": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on January 28 by Matt Schlicht,…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-06T16:38:11.000Z",
+      "score": 49.64,
+      "status": "queued"
     },
     {
       "id": "https://arxiv.org/abs/2602.04003",
@@ -344,7 +524,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-03T04:34:27.000Z",
       "score": 31.45,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T08:20:00.214Z",
+      "failureReason": "strict publish refused generationMode=\"fallback\"",
+      "sourceBundle": [
+        "https://www.lemonde.fr/economie/article/2026/02/03/fusion-spacex-xai-elon-musk-defend-son-projet-d-ia-dans-l-espace-les-analystes-s-interrogent-sur-la-viabilite-de-l-ensemble_6665163_3234.html",
+        "https://arxiv.org/abs/2602.05088",
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "sourceSnapshotsCount": 3,
+      "generationMode": "fallback"
     },
     {
       "id": "https://www.lemonde.fr/economie/article/2026/02/03/elon-musk-fusionne-xai-et-spacex-pour-batir-des-centres-de-donnees-en-orbite_6665150_3234.html",
@@ -356,7 +547,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-02T23:24:09.000Z",
       "score": 31.37,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T08:20:00.214Z",
+      "failureReason": "strict publish refused generationMode=\"fallback\"",
+      "sourceBundle": [
+        "https://www.lemonde.fr/economie/article/2026/02/03/elon-musk-fusionne-xai-et-spacex-pour-batir-des-centres-de-donnees-en-orbite_6665150_3234.html",
+        "https://arxiv.org/abs/2602.05088",
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "sourceSnapshotsCount": 3,
+      "generationMode": "fallback"
     },
     {
       "id": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
@@ -513,7 +715,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-02T17:44:34.000Z",
       "score": 25.29,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T08:20:00.214Z",
+      "failureReason": "strict publish refused generationMode=\"fallback\"",
+      "sourceBundle": [
+        "https://www.lemonde.fr/economie/video/2026/02/02/friend-com-que-vendent-ces-publicites-affichees-dans-le-metro-parisien_6665132_3234.html",
+        "https://arxiv.org/abs/2602.05088",
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "sourceSnapshotsCount": 3,
+      "generationMode": "fallback"
     },
     {
       "id": "https://www.lemonde.fr/emploi/article/2026/02/02/recrutement-peut-on-maitriser-les-secrets-des-algorithmes-avant-de-postuler_6665057_1698637.html",
@@ -525,7 +738,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-02T05:30:04.000Z",
       "score": 25.14,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T08:20:00.214Z",
+      "failureReason": "strict publish refused generationMode=\"fallback\"",
+      "sourceBundle": [
+        "https://www.lemonde.fr/emploi/article/2026/02/02/recrutement-peut-on-maitriser-les-secrets-des-algorithmes-avant-de-postuler_6665057_1698637.html",
+        "https://arxiv.org/abs/2602.05088",
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "sourceSnapshotsCount": 3,
+      "generationMode": "fallback"
     },
     {
       "id": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/",
@@ -548,8 +772,19 @@
       "region": "FR",
       "publishedAt": "2026-02-05T08:08:31.000Z",
       "score": 23.92,
-      "status": "queued",
-      "keywordHits": 0
+      "status": "failed",
+      "keywordHits": 0,
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T08:20:00.214Z",
+      "failureReason": "strict publish refused generationMode=\"fallback\"",
+      "sourceBundle": [
+        "https://www.lemonde.fr/economie/article/2026/02/05/les-craintes-sur-l-ia-font-plonger-la-tech-a-wall-street_6665487_3234.html",
+        "https://arxiv.org/abs/2602.05088",
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "sourceSnapshotsCount": 3,
+      "generationMode": "fallback"
     },
     {
       "id": "https://www.lemonde.fr/podcasts/article/2026/02/05/l-intelligence-artificielle-va-t-elle-detruire-nos-emplois_6665446_5463015.html",
