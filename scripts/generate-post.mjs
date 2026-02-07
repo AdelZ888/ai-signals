@@ -652,22 +652,11 @@ function pickSupportingSources(queue, topic, targetRegion, limit = 3) {
   return dedupeUrls(scored.map(({ item }) => item.link)).slice(0, limit);
 }
 
-function toArxivPdf(url) {
-  const value = String(url || "").trim();
-  const match = value.match(/^https?:\/\/arxiv\.org\/abs\/([^?#/]+(?:v\d+)?)$/i);
-  if (!match) return null;
-  return `https://arxiv.org/pdf/${match[1]}.pdf`;
-}
-
 function buildSourceBundle(queue, topic, targetRegion, template) {
   const primary = String(topic.link || topic.id || "").trim();
   const urls = [];
 
   if (primary) urls.push(primary);
-
-  // Many arXiv topics have only one "abs" URL in the queue; add the PDF as a second, still-relevant source.
-  const arxivPdf = toArxivPdf(primary);
-  if (arxivPdf) urls.push(arxivPdf);
 
   const supporting = pickSupportingSources(queue, topic, targetRegion, 4);
   urls.push(...supporting);
@@ -1740,14 +1729,14 @@ export async function generatePost() {
     const wordTargets = getWordTargets(template);
 
     const sourceBundle = buildSourceBundle(queue, topic, targetRegion, template);
-    if (sourceBundle.length < 2) {
+    if (sourceBundle.length < 1) {
       updateItem(topic.id, {
         status: "failed",
         targetRegion,
         region: normalizeRegion(topic.region),
         editorialTemplate: template.id,
         failedAtRun: nowIso,
-        failureReason: "insufficient source bundle (need at least 2 URLs)",
+        failureReason: "insufficient source bundle (need at least 1 URL)",
         sourceBundle,
       });
       console.warn(`Skipped topic ${topic.id} (${topic.title}) because: insufficient source bundle`);
@@ -1760,7 +1749,8 @@ export async function generatePost() {
     const sourceSnapshots = await getSourceSnapshots(sourceBundle);
     console.log(`[generate-post] Snapshots fetched: ${sourceSnapshots.length}/${sourceBundle.length}`);
 
-    if (sourceSnapshots.length < MIN_SOURCE_SNAPSHOTS) {
+    const requiredSnapshots = Math.min(MIN_SOURCE_SNAPSHOTS, sourceBundle.length);
+    if (sourceSnapshots.length < requiredSnapshots) {
       updateItem(topic.id, {
         status: "failed",
         targetRegion,
