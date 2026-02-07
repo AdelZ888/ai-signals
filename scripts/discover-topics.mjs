@@ -8,14 +8,23 @@ import { compactQueuePayload } from "./compact-queue.mjs";
 const FEEDS = [
   { name: "OpenAI News", url: "https://openai.com/news/rss.xml", region: "US" },
   { name: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", region: "US" },
+  { name: "Google DeepMind News", url: "https://deepmind.google/blog/rss.xml", region: "UK" },
+  { name: "Microsoft AI Blog", url: "https://blogs.microsoft.com/ai/feed/", region: "US" },
+  { name: "NVIDIA Blog", url: "https://blogs.nvidia.com/blog/category/deep-learning/feed/", region: "US" },
   { name: "MIT Tech Review AI", url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", region: "US" },
+  { name: "TechCrunch AI", url: "https://techcrunch.com/tag/artificial-intelligence/feed/", region: "US" },
+  { name: "Ars Technica AI", url: "https://arstechnica.com/tag/artificial-intelligence/feed/", region: "US" },
+  { name: "The Verge AI", url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", region: "US" },
   { name: "BBC Technology", url: "https://feeds.bbci.co.uk/news/technology/rss.xml", region: "UK" },
+  { name: "Hacker News (AI)", url: "https://hnrss.org/newest?q=ai", region: "GLOBAL" },
   // Prefer open-access sources; paywalled stubs produce thin snapshots and low-trust posts.
   { name: "ActuIA", url: "https://www.actuia.com/feed/", region: "FR" },
   { name: "Numerama IA", url: "https://www.numerama.com/tag/intelligence-artificielle/feed/", region: "FR" },
   { name: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", region: "FR" },
   { name: "ArXiv cs.AI", url: "https://export.arxiv.org/rss/cs.AI", region: "GLOBAL" },
 ];
+
+const FEED_ITEM_LIMIT = Math.max(8, Math.min(120, Number(process.env.DISCOVER_FEED_ITEMS || 16)));
 
 const KEYWORDS = [
   "ai",
@@ -114,7 +123,7 @@ export async function discoverTopics() {
   for (const feed of FEEDS) {
     try {
       const parsed = await parser.parseURL(feed.url);
-      const items = (parsed.items || []).slice(0, 16);
+      const items = (parsed.items || []).slice(0, FEED_ITEM_LIMIT);
 
       for (const item of items) {
         const title = stripHtml(item.title).trim();

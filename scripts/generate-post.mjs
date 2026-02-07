@@ -34,6 +34,17 @@ const MIN_SOURCE_SNAPSHOT_CHARS = Math.max(250, Math.min(4_000, Number(process.e
 const MIN_SOURCE_SNAPSHOTS = Math.max(1, Math.min(3, Number(process.env.MIN_SOURCE_SNAPSHOTS || 2)));
 const DRY_RUN = String(process.env.DRY_RUN || "0") === "1";
 
+function resolvePublishDate() {
+  const raw = String(process.env.PUBLISH_DATE || "").trim();
+  if (!raw) return new Date().toISOString().slice(0, 10);
+  // Strictly accept YYYY-MM-DD so slugs are stable and predictable.
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) {
+    console.warn(`[generate-post] Ignoring invalid PUBLISH_DATE="${raw}". Expected YYYY-MM-DD.`);
+    return new Date().toISOString().slice(0, 10);
+  }
+  return raw;
+}
+
 const SERIES = [
   {
     id: "agent-playbook",
@@ -688,12 +699,50 @@ function pickTopic(queue, targetRegion) {
     console.warn(`FORCE_TOPIC_ID did not match any topic: ${forcedId}`);
   }
 
-  const queued = (queue.items || [])
+  const forcedTemplate = resolveForcedTemplate();
+  const queuedAll = (queue.items || [])
     .filter((item) => item.status === "queued")
     .filter((item) => {
       const text = `${item.title || ""} ${item.summary || ""}`;
       return Number(item.keywordHits || 0) >= 2 || AI_RELEVANCE_REGEX.test(text);
     });
+
+  const tutorialKeyword =
+    /(tutorial|how to|step-by-step|walkthrough|guide|build|implement|implementation|reference architecture|prereq|prerequisite|install|setup|configure|deploy|pipeline|eval|benchmark|sdk|api|library|framework)/i;
+  const tutorialSourceAllow = new Set([
+    "OpenAI News",
+    "Google AI Blog",
+    "Google DeepMind News",
+    "Hugging Face Blog",
+    "ArXiv cs.AI",
+    "Microsoft AI Blog",
+    "NVIDIA Blog",
+  ]);
+
+  function isTutorialFriendly(item) {
+    const title = String(item?.title || "");
+    const summary = String(item?.summary || "");
+    const source = String(item?.source || "");
+    const link = String(item?.link || item?.id || "");
+    const haystack = `${title} ${summary} ${source} ${link}`;
+
+    if (tutorialSourceAllow.has(source)) return true;
+    if (tutorialKeyword.test(haystack)) return true;
+    if (/(arxiv\.org|github\.com|openai\.com|huggingface\.co|deepmind\.google|blog\.google|microsoft\.com|nvidia\.com)/i.test(link)) {
+      return true;
+    }
+
+    // Avoid forcing tutorials out of gossip/PR/news-only sources.
+    if (/(bbc|verge|techcrunch|wired|ars technica)/i.test(source)) return false;
+
+    return false;
+  }
+
+  const queued = (() => {
+    if (forcedTemplate?.id !== "TUTORIAL") return queuedAll;
+    const filtered = queuedAll.filter((item) => isTutorialFriendly(item));
+    return filtered.length > 0 ? filtered : queuedAll;
+  })();
 
   const byScore = (a, b) => (b.score || 0) - (a.score || 0);
 
@@ -799,7 +848,7 @@ function buildFrontmatter(post, sources, targetRegion, template) {
       ? Math.max(5, Math.min(480, Math.round(post.timeToImplementMinutes)))
       : null;
 
-  const date = new Date().toISOString().slice(0, 10);
+  const date = resolvePublishDate();
 
   const extra =
     (series ? `\nseries: "${series}"` : "") +
@@ -1106,6 +1155,7 @@ async function runRepairPass(
 
 async function generateOutline(client, model, { locale, topic, targetRegion, sources, template, seriesId, sourceSnapshots }) {
   const language = locale === "fr" ? "French" : "English";
+  const publishDate = resolvePublishDate();
   const headings = resolveHeadings(locale === "fr" ? template.headingsFr : template.headingsEn, targetRegion);
   const seriesList = SERIES.map((entry) => `- ${entry.id}: ${entry.label}`).join("\n");
   const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
@@ -1141,6 +1191,7 @@ async function generateOutline(client, model, { locale, topic, targetRegion, sou
           `- difficulty must be one of: beginner, intermediate, advanced.\n` +
           `- timeToImplementMinutes should be realistic (for tutorials) and can be 0 for non-tutorials.\n` +
           `- Title and excerpt must be written in ${language}. Do not copy a French headline verbatim into an English title.\n` +
+          `- Publication date: ${publishDate} (UTC). Write as if publishing on that date. Avoid relative words like "today/this week" unless you anchor them to ${publishDate}.\n` +
           `- Every section bullet list must include at least one bullet that references a concrete artifact (checklist, decision table, metric threshold, config, rollout gate). For SOCIETY topics, prefer worksheets/checklists over code.\n` +
           societyRules +
           `- Do not invent unsupported claims. Ground bullets in the snapshot excerpts below.\n\n` +
@@ -1173,6 +1224,7 @@ async function draftFromOutline(
   { locale, outline, targetRegion, sources, template, wordTargets, sourceSnapshots },
 ) {
   const language = locale === "fr" ? "French" : "English";
+  const publishDate = resolvePublishDate();
   const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
   const headings = outline.headings;
   const snapshotBlock = formatSourceSnapshots(sourceSnapshots);
@@ -1221,6 +1273,7 @@ async function draftFromOutline(
         role: "user",
         content:
           `Write the full ${template.id} article for ${targetRegion}.\n` +
+          `Publication date (UTC): ${publishDate}. Write as if publishing on that date.\n` +
           `Word count target: ${locale === "fr" ? wordTargets.minWordsFr : wordTargets.minWordsEn} to ${wordTargets.maxWordsEn}.\n` +
           `Use exactly these H2 headings in this order:\n${headings.map((h) => `## ${h}`).join("\n")}\n\n` +
           `Hard rules:\n` +
@@ -2011,8 +2064,8 @@ export async function generatePost() {
       continue;
     }
 
-    const date = new Date().toISOString().slice(0, 10);
-    const slug = `${date}-${slugify(postEn.title, { lower: true, strict: true })}`;
+    const publishDate = resolvePublishDate();
+    const slug = `${publishDate}-${slugify(postEn.title, { lower: true, strict: true })}`;
 
     const targetPathEn = path.join(postsDir, `${slug}.md`);
     const targetPathFr = path.join(postsFrDir, `${slug}.md`);

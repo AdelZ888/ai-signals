@@ -1,8 +1,8 @@
-name: Auto Publish AI Blog
+name: Auto Publish AI Tutorial
 
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 15 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -28,7 +28,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate content
+      - name: Discover topics
+        run: npm run discover-topics
+
+      - name: Generate tutorial
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5-mini
@@ -41,7 +44,10 @@ jobs:
           GEMINI_IMAGE_MODEL: ${{ secrets.GEMINI_IMAGE_MODEL }}
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
           IMAGES_ENABLED: "1"
-        run: npm run automate
+        run: npm run generate-tutorial
+
+      - name: Compact queue
+        run: node scripts/compact-queue.mjs
 
       - name: Detect post changes
         run: |
@@ -50,7 +56,6 @@ jobs:
           if [ -n "$CHANGED_POSTS" ]; then
             echo "POST_GENERATED=1" >> "$GITHUB_ENV"
 
-            # Prefer EN slugs for validation, but fall back to FR if needed.
             SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/' | grep -v '^content/posts/fr/' | sed 's|^content/posts/||' | sed 's|\\.md$||' | paste -sd ',' - || true)"
             if [ -z "$SLUGS" ]; then
               SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/fr/' | sed 's|^content/posts/fr/||' | sed 's|\\.md$||' | paste -sd ',' - || true)"
@@ -80,7 +85,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/posts data/topics-queue.json
-          git commit -m "chore: auto-publish ai post"
+          git commit -m "chore: auto-publish tutorial"
           git push
 
       - name: Validate deployment URLs (prod)
@@ -100,7 +105,6 @@ jobs:
               echo "Waiting for ${url}"
               ok=0
 
-              # Vercel production deploy may take a few minutes after push.
               for i in {1..42}; do
                 code="$(curl -sSL -o /dev/null -w '%{http_code}' "${url}" || true)"
                 if [ "${code}" = "200" ]; then
@@ -119,8 +123,9 @@ jobs:
             done
           done
 
-      - name: Fail if no post was generated
+      - name: Fail if no tutorial was generated
         if: ${{ env.POST_GENERATED != '1' }}
         run: |
-          echo "Automation ran but did not produce a new post. Failing to trigger an alert."
+          echo "Automation ran but did not produce a new tutorial. Failing to trigger an alert."
           exit 1
+
