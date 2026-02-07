@@ -9,7 +9,9 @@ const FEEDS = [
   { name: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", region: "US" },
   { name: "MIT Tech Review AI", url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", region: "US" },
   { name: "BBC Technology", url: "https://feeds.bbci.co.uk/news/technology/rss.xml", region: "UK" },
-  { name: "Le Monde IA", url: "https://www.lemonde.fr/intelligence-artificielle/rss_full.xml", region: "FR" },
+  // Prefer open-access sources; paywalled stubs produce thin snapshots and low-trust posts.
+  { name: "ActuIA", url: "https://www.actuia.com/feed/", region: "FR" },
+  { name: "Numerama IA", url: "https://www.numerama.com/tag/intelligence-artificielle/feed/", region: "FR" },
   { name: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", region: "FR" },
   { name: "ArXiv cs.AI", url: "https://export.arxiv.org/rss/cs.AI", region: "GLOBAL" },
 ];

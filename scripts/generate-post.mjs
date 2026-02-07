@@ -28,6 +28,7 @@ const LOG_STAGES = String(process.env.LOG_STAGES ?? "1") !== "0";
 const SOURCE_FETCH_TIMEOUT_MS = Math.max(3_000, Math.min(30_000, Number(process.env.SOURCE_FETCH_TIMEOUT_MS || 8_000)));
 const SOURCE_SNAPSHOT_CHARS = Math.max(1_200, Math.min(8_000, Number(process.env.SOURCE_SNAPSHOT_CHARS || 2_500)));
 const SOURCE_FETCH_MAX_BYTES = Math.max(80_000, Math.min(1_500_000, Number(process.env.SOURCE_FETCH_MAX_BYTES || 450_000)));
+const MIN_SOURCE_SNAPSHOT_CHARS = Math.max(250, Math.min(4_000, Number(process.env.MIN_SOURCE_SNAPSHOT_CHARS || 650)));
 const MIN_SOURCE_SNAPSHOTS = Math.max(1, Math.min(3, Number(process.env.MIN_SOURCE_SNAPSHOTS || 2)));
 const DRY_RUN = String(process.env.DRY_RUN || "0") === "1";
 
@@ -109,6 +110,93 @@ const FR_STOP_WORDS = new Set([
   "modeles",
 ]);
 
+// Extra stop words/markers used specifically for short strings (titles/excerpts).
+// Keep this separate from the main stop-word sets to avoid impacting similarity scoring.
+const EN_META_WORDS = new Set([
+  "the",
+  "and",
+  "or",
+  "but",
+  "for",
+  "with",
+  "without",
+  "from",
+  "into",
+  "over",
+  "under",
+  "about",
+  "of",
+  "to",
+  "in",
+  "on",
+  "at",
+  "by",
+  "how",
+  "what",
+  "why",
+  "when",
+  "will",
+  "can",
+  "should",
+  "new",
+  "jobs",
+  "job",
+  "employment",
+  "work",
+]);
+
+const FR_META_WORDS = new Set([
+  "le",
+  "la",
+  "les",
+  "un",
+  "une",
+  "des",
+  "du",
+  "de",
+  "pour",
+  "avec",
+  "sans",
+  "dans",
+  "sur",
+  "en",
+  "au",
+  "aux",
+  "comment",
+  "quoi",
+  "pourquoi",
+  "quand",
+  "va",
+  "peut",
+  "doit",
+  "emploi",
+  "emplois",
+  "travail",
+  "metier",
+  "metiers",
+]);
+
+const SIMILARITY_STOP_WORDS = new Set([
+  ...EN_STOP_WORDS,
+  ...FR_STOP_WORDS,
+  // Generic AI/news terms that cause false overlap across unrelated topics.
+  "ai",
+  "ia",
+  "llm",
+  "ml",
+  "gpt",
+  "model",
+  "models",
+  "modele",
+  "modeles",
+  "artificial",
+  "intelligence",
+  "artificielle",
+  "news",
+  "update",
+  "release",
+]);
+
 const EDITORIAL_TEMPLATES = {
   NEWS: {
     id: "NEWS",
@@ -188,6 +276,32 @@ const EDITORIAL_TEMPLATES = {
       "Metriques a suivre",
     ],
   },
+  SOCIETY: {
+    id: "SOCIETY",
+    category: "Model Breakdowns",
+    minWordsEn: Math.max(MIN_WORDS_EN_DEFAULT, 1100),
+    minWordsFr: Math.max(MIN_WORDS_FR_DEFAULT, 1050),
+    headingsEn: [
+      "TL;DR (jobs + builders)",
+      "What the sources actually say",
+      "Tasks vs jobs: what's exposed",
+      "Three concrete personas (2026 scenarios)",
+      "What to do if you're an employee",
+      "What to do if you're a founder/manager",
+      "France / US / UK lens",
+      "Ship-this-week checklist",
+    ],
+    headingsFr: [
+      "TL;DR (emploi + builders)",
+      "Ce que disent vraiment les sources",
+      "Taches vs emplois: ce qui est expose",
+      "Trois personas concrets (scenarios 2026)",
+      "Quoi faire si vous etes salarie",
+      "Quoi faire si vous etes fondateur/manager",
+      "Angle France / US / UK",
+      "Checklist a shipper cette semaine",
+    ],
+  },
 };
 
 function resolveForcedTemplate() {
@@ -201,7 +315,7 @@ function resolveForcedTemplate() {
     return EDITORIAL_TEMPLATES[raw];
   }
 
-  console.warn(`Ignoring invalid FORCE_TEMPLATE="${raw}". Expected NEWS, TUTORIAL, or ANALYSIS.`);
+  console.warn(`Ignoring invalid FORCE_TEMPLATE="${raw}". Expected NEWS, TUTORIAL, ANALYSIS, or SOCIETY.`);
   return null;
 }
 
@@ -246,6 +360,60 @@ function detectLanguage(text) {
   return "unknown";
 }
 
+function detectLanguageLoose(text) {
+  const tokens = tokenizeLanguage(text);
+  if (tokens.length === 0) return "unknown";
+
+  let enHits = 0;
+  let frHits = 0;
+  for (const token of tokens) {
+    if (EN_META_WORDS.has(token)) enHits += 1;
+    if (FR_META_WORDS.has(token)) frHits += 1;
+  }
+
+  const raw = String(text || "").toLowerCase();
+  const accentHits = raw.match(/[àâçéèêëîïôùûüœ]/gi)?.length || 0;
+  if (accentHits > 0) frHits += accentHits * 0.4;
+
+  // French contractions ("l'", "d'", "qu'") show up often in headlines.
+  if (/(^|\s)(l|d|qu|j|c|t|n|s|m)'[a-z]/i.test(raw)) frHits += 1;
+
+  if (enHits >= frHits + 2 && enHits >= 2) return "en";
+  if (frHits >= enHits + 2 && frHits >= 2) return "fr";
+  return detectLanguage(text);
+}
+
+function tokenizeForSimilarity(text) {
+  return String(text || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\\s]/g, " ")
+    .split(/\\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean)
+    .filter((token) => {
+      if (SIMILARITY_STOP_WORDS.has(token)) return false;
+      if (token.length >= 3) return true;
+      return token.length >= 2 && /\\d/.test(token);
+    });
+}
+
+function topicSimilarity(a, b) {
+  const aTokens = new Set(tokenizeForSimilarity(`${a.title || ""} ${a.summary || ""} ${a.source || ""}`));
+  const bTokens = new Set(tokenizeForSimilarity(`${b.title || ""} ${b.summary || ""} ${b.source || ""}`));
+  if (aTokens.size === 0 || bTokens.size === 0) return { overlap: 0, jaccard: 0 };
+
+  let overlap = 0;
+  for (const token of aTokens) {
+    if (bTokens.has(token)) overlap += 1;
+  }
+
+  const union = aTokens.size + bTokens.size - overlap;
+  const jaccard = union > 0 ? overlap / union : 0;
+  return { overlap, jaccard };
+}
+
 function normalizeRegion(value) {
   if (!value) return "GLOBAL";
   const region = String(value).trim().toUpperCase();
@@ -263,6 +431,7 @@ function detectSeriesId(topic, template) {
 
   if (template.id === "TUTORIAL") return "tooling-deep-dive";
   if (template.id === "ANALYSIS") return "founder-notes";
+  if (template.id === "SOCIETY") return "founder-notes";
   return "model-release-brief";
 }
 
@@ -314,6 +483,42 @@ function truncateChars(text, maxChars) {
   return `${value.slice(0, maxChars).trim()}…`;
 }
 
+function isLikelyPaywalled(text, url) {
+  const value = String(text || "").toLowerCase();
+  if (!value) return false;
+
+  let host = "";
+  try {
+    host = new URL(String(url || "")).hostname.toLowerCase();
+  } catch {
+    host = "";
+  }
+
+  const markers = [
+    "abonnez-vous",
+    "abonnez vous",
+    "abonnement",
+    "se connecter",
+    "connectez-vous",
+    "pour lire la suite",
+    "deja abonne",
+    "déjà abonné",
+    "inscrivez-vous",
+    "subscribe",
+    "sign in",
+    "log in",
+    "register to continue",
+    "create an account",
+  ];
+
+  const hasMarker = markers.some((marker) => value.includes(marker));
+  if (!hasMarker) return false;
+
+  // Heuristic: paywall stubs tend to be short and repetitive.
+  if (host.endsWith("lemonde.fr")) return value.length < 2_000;
+  return value.length < 1_200;
+}
+
 async function fetchSourceSnapshot(url) {
   const target = String(url || "").trim();
   if (!target) return null;
@@ -340,7 +545,9 @@ async function fetchSourceSnapshot(url) {
     if (!reader) {
       const raw = await res.text();
       const text = stripHtmlToText(raw);
-      return text ? { url: target, text: truncateChars(text, SOURCE_SNAPSHOT_CHARS) } : null;
+      if (!text || text.length < MIN_SOURCE_SNAPSHOT_CHARS) return null;
+      if (isLikelyPaywalled(text, target)) return null;
+      return { url: target, text: truncateChars(text, SOURCE_SNAPSHOT_CHARS) };
     }
 
     let received = 0;
@@ -357,7 +564,9 @@ async function fetchSourceSnapshot(url) {
 
     const raw = Buffer.concat(chunks).toString("utf8");
     const text = stripHtmlToText(raw);
-    return text ? { url: target, text: truncateChars(text, SOURCE_SNAPSHOT_CHARS) } : null;
+    if (!text || text.length < MIN_SOURCE_SNAPSHOT_CHARS) return null;
+    if (isLikelyPaywalled(text, target)) return null;
+    return { url: target, text: truncateChars(text, SOURCE_SNAPSHOT_CHARS) };
   } catch {
     return null;
   } finally {
@@ -422,12 +631,50 @@ function pickTopic(queue, targetRegion) {
 }
 
 function pickSupportingSources(queue, topic, targetRegion, limit = 3) {
-  const candidates = (queue.items || [])
-    .filter((item) => item.id !== topic.id)
-    .filter((item) => [targetRegion, "GLOBAL"].includes(normalizeRegion(item.region)))
-    .sort((a, b) => (b.score || 0) - (a.score || 0));
+  const target = normalizeRegion(targetRegion);
 
-  return dedupeUrls(candidates.map((item) => item.link)).slice(0, limit);
+  const candidates = (queue.items || [])
+    .filter((item) => item && item.id && item.link)
+    .filter((item) => item.id !== topic.id)
+    .filter((item) => ["queued", "published"].includes(String(item.status || "queued")));
+
+  const scored = candidates
+    .map((item) => {
+      const sim = topicSimilarity(topic, item);
+      const sameRegion = [target, "GLOBAL"].includes(normalizeRegion(item.region)) ? 1 : 0;
+      const sameSource = String(item.source || "") && String(item.source || "") === String(topic.source || "") ? 1 : 0;
+      const score = sim.overlap * 10 + sim.jaccard * 12 + sameRegion * 1.5 + sameSource * 1 + Number(item.score || 0) / 150;
+      return { item, sim, score };
+    })
+    .filter(({ sim }) => sim.overlap >= 3 || (sim.overlap >= 2 && sim.jaccard >= 0.08) || sim.jaccard >= 0.14)
+    .sort((a, b) => b.score - a.score);
+
+  return dedupeUrls(scored.map(({ item }) => item.link)).slice(0, limit);
+}
+
+function toArxivPdf(url) {
+  const value = String(url || "").trim();
+  const match = value.match(/^https?:\/\/arxiv\.org\/abs\/([^?#/]+(?:v\d+)?)$/i);
+  if (!match) return null;
+  return `https://arxiv.org/pdf/${match[1]}.pdf`;
+}
+
+function buildSourceBundle(queue, topic, targetRegion, template) {
+  const primary = String(topic.link || topic.id || "").trim();
+  const urls = [];
+
+  if (primary) urls.push(primary);
+
+  // Many arXiv topics have only one "abs" URL in the queue; add the PDF as a second, still-relevant source.
+  const arxivPdf = toArxivPdf(primary);
+  if (arxivPdf) urls.push(arxivPdf);
+
+  const supporting = pickSupportingSources(queue, topic, targetRegion, 4);
+  urls.push(...supporting);
+
+  // For SOCIETY posts, keep the bundle smaller to avoid mixing angles.
+  const maxSources = template.id === "SOCIETY" ? 2 : 3;
+  return dedupeUrls(urls).slice(0, maxSources);
 }
 
 function detectEditorialTemplate(topic) {
@@ -435,6 +682,11 @@ function detectEditorialTemplate(topic) {
   if (forced) return forced;
 
   const haystack = `${topic.title || ""} ${topic.summary || ""} ${topic.source || ""}`.toLowerCase();
+
+  // Societal / labor-market topics need a different structure than builder release notes.
+  if (/(job|jobs|employment|labor market|labour market|workforce|layoff|layoffs|unemployment|career|reskill|reskilling|upskill|union|workers|wages|productivity|emploi|emplois|travail|chomage|licenciement|reconversion|metier|metiers)/.test(haystack)) {
+    return EDITORIAL_TEMPLATES.SOCIETY;
+  }
 
   if (/(tutorial|how to|step-by-step|guide|build|implementation|walkthrough)/.test(haystack)) {
     return EDITORIAL_TEMPLATES.TUTORIAL;
@@ -567,12 +819,25 @@ function validateDraft(markdown, headings, sources, templateId) {
   }
 
   const codeBlocks = String(markdown || "").match(/```[\s\S]*?```/g) || [];
-  if (codeBlocks.length < 1) issues.push("Missing at least one fenced code block (```...```)");
+  if (templateId === "TUTORIAL" && codeBlocks.length < 2) issues.push("Tutorial should include at least two code blocks (commands + config/code).");
+  if (templateId === "SOCIETY" && codeBlocks.length > 0) issues.push("Society post should not include code blocks.");
   if (!/\|[^\n]*\|\n\| *-+/.test(markdown)) issues.push("Missing at least one markdown table (decision frame or comparison).");
   if (!/\n- \[ \]/.test(markdown)) issues.push("Missing a checklist with task boxes ('- [ ]').");
 
+  const minNumbers = templateId === "TUTORIAL" ? 8 : templateId === "SOCIETY" ? 5 : 6;
   const numbers = (markdown.match(/\b\d+(\.\d+)?\b/g) || []).length;
-  if (numbers < 8) issues.push("Too few concrete numbers/thresholds. Add more measurable targets (%, ms, $, counts).");
+  if (numbers < minNumbers) issues.push("Too few concrete numbers/thresholds. Add more measurable targets (%, ms, $, counts).");
+
+  const disclaimerMatches =
+    String(markdown || "").match(
+      /(not present in the excerpt|excerpt does not|cannot confirm|not provided in the excerpt|l['’]extrait ne|pas present dans l['’]extrait|impossible de confirmer)/gi,
+    ) || [];
+  const maxDisclaimers = templateId === "SOCIETY" ? 1 : 2;
+  if (disclaimerMatches.length > maxDisclaimers) {
+    issues.push(
+      "Too many source-disclaimer sentences (e.g. 'not present in the excerpt'). Keep methodology to one short note; omit unsupported details or move them to the final assumptions section.",
+    );
+  }
 
   const lastHeading = headings[headings.length - 1];
   const lastBody = lastHeading ? byHeading.get(normalizeHeadingKey(lastHeading)) || "" : "";
@@ -586,8 +851,6 @@ function validateDraft(markdown, headings, sources, templateId) {
   }
 
   if (templateId === "TUTORIAL") {
-    if (codeBlocks.length < 2) issues.push("Tutorial should include at least two code blocks (commands + config/code).");
-
     const hasCommandBlock = /```bash|```sh|```shell/i.test(markdown) || /\n\$\s+/.test(markdown);
     if (!hasCommandBlock) issues.push("Tutorial missing a command-line snippet (```bash``` or '$ ...').");
 
@@ -605,13 +868,116 @@ function validateDraft(markdown, headings, sources, templateId) {
     }
   }
 
+  if (templateId === "SOCIETY") {
+    const personaHeading = headings.find((heading) => /persona/i.test(heading)) || "";
+    if (personaHeading) {
+      const personaBody = byHeading.get(normalizeHeadingKey(personaHeading)) || "";
+      const personaHits = (personaBody.match(/\b(persona|profil)\b/gi) || []).length;
+      const hasThree = personaHits >= 3 || (personaBody.match(/^\s*-\s+/gm) || []).length >= 6;
+      if (!hasThree) issues.push(`Society post should include 3 distinct personas inside "${personaHeading}".`);
+    }
+
+    const jobMentions =
+      String(markdown || "").match(
+        /\b(job|jobs|employment|workforce|worker|workers|wage|wages|layoff|layoffs|reskill|reskilling|upskill|career|profession|role|roles|task|tasks|emploi|emplois|travail|salarie|salari[eé]s|metier|metiers|reconversion|licenciement|chomage|taches)\b/gi,
+      ) || [];
+    if (jobMentions.length < 10) {
+      issues.push("Society post must explicitly cover jobs/work/tasks throughout (add more concrete job/employment vocabulary and examples).");
+    }
+
+    const employeeHeading = headings.find((heading) => /employee|salarie/i.test(heading));
+    if (employeeHeading) {
+      const employeeBody = byHeading.get(normalizeHeadingKey(employeeHeading)) || "";
+      const bulletCount = (employeeBody.match(/^\s*-\s+/gm) || []).length;
+      if (bulletCount < 4) issues.push(`Society post should include a concrete bullet list in "${employeeHeading}".`);
+    }
+
+    const founderHeading = headings.find((heading) => /founder|manager|fondateur/i.test(heading));
+    if (founderHeading) {
+      const founderBody = byHeading.get(normalizeHeadingKey(founderHeading)) || "";
+      const bulletCount = (founderBody.match(/^\s*-\s+/gm) || []).length;
+      if (bulletCount < 4) issues.push(`Society post should include a concrete bullet list in "${founderHeading}".`);
+    }
+
+    const hasFileArtifacts = /\.(py|ya?ml|json|ts|tsx|js|mjs|sh|bash|sql)\b/i.test(markdown);
+    if (hasFileArtifacts) issues.push("Society post should not invent file names or repo artifacts (e.g. *.py, *.yaml).");
+  }
+
   return issues;
+}
+
+function shouldRepairMeta({ locale, title, excerpt, topic }) {
+  const desired = locale === "fr" ? "fr" : "en";
+  const titleLang = detectLanguageLoose(title);
+  const excerptLang = detectLanguageLoose(excerpt);
+
+  if (desired === "en" && (titleLang === "fr" || excerptLang === "fr")) {
+    return { reason: "meta language mismatch", titleLang, excerptLang };
+  }
+  if (desired === "fr" && (titleLang === "en" || excerptLang === "en")) {
+    return { reason: "meta language mismatch", titleLang, excerptLang };
+  }
+
+  const sim = topicSimilarity({ title, summary: excerpt, source: "" }, topic);
+  if (sim.overlap <= 1 && sim.jaccard < 0.06) {
+    return { reason: "meta drift from topic", sim };
+  }
+
+  return null;
+}
+
+async function repairMeta(client, model, { locale, topic, template, currentTitle, currentExcerpt, currentTags, content, sourceSnapshots }) {
+  const language = locale === "fr" ? "French" : "English";
+  const snapshotBlock = formatSourceSnapshots(sourceSnapshots);
+  const contentPreview = truncateChars(String(content || "").trim(), 3_000);
+  const tagsBlock = Array.isArray(currentTags) && currentTags.length > 0 ? currentTags.slice(0, 8).join(", ") : "";
+
+  const extraRule =
+    template.id === "SOCIETY"
+      ? "- This is a jobs/work topic. Keep the framing about tasks, roles, work, and employment outcomes.\n"
+      : "";
+
+  const response = await runJsonCompletion(
+    client,
+    model,
+    [
+      {
+        role: "system",
+        content: `You are a senior editor. Return strict JSON with keys: title, excerpt, tags (array). Write in ${language}.`,
+      },
+      {
+        role: "user",
+        content:
+          `Rewrite the title and excerpt so they match the article content AND the source snapshots.\n\n` +
+          `Rules:\n` +
+          `- Language: ${language} only.\n` +
+          `- Title: specific and non-clickbait; avoid hype and avoid pure translation of a French headline into EN.\n` +
+          `- Excerpt: 140-190 characters; describe the value and create curiosity that encourages reading the full post.\n` +
+          extraRule +
+          `- Avoid infra jargon unless it is clearly supported by the snapshots.\n\n` +
+          `Topic (RSS): ${topic.title}\n` +
+          `Topic summary: ${topic.summary}\n\n` +
+          `Current title: ${currentTitle}\n` +
+          `Current excerpt: ${currentExcerpt}\n` +
+          (tagsBlock ? `Current tags: ${tagsBlock}\n\n` : "\n") +
+          `Article content preview:\n${contentPreview}\n\n` +
+          `Snapshot excerpts:\n${snapshotBlock}`,
+      },
+    ],
+    0.15,
+  );
+
+  const nextTitle = String(response.title || currentTitle || "").trim() || String(currentTitle || "").trim();
+  const nextExcerpt = String(response.excerpt || currentExcerpt || "").trim() || String(currentExcerpt || "").trim();
+  const nextTags = Array.isArray(response.tags) ? response.tags.slice(0, 8) : Array.isArray(currentTags) ? currentTags.slice(0, 8) : [];
+
+  return { title: nextTitle, excerpt: nextExcerpt, tags: nextTags };
 }
 
 async function runRepairPass(
   client,
   model,
-  { locale, headings, sources, draft, issues, targetWordCount, sourceSnapshots },
+  { locale, headings, sources, draft, issues, targetWordCount, sourceSnapshots, templateId },
 ) {
   const language = locale === "fr" ? "French" : "English";
   const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
@@ -620,6 +986,13 @@ async function runRepairPass(
     locale === "fr"
       ? ["### Hypotheses / inconnues", "### Risques / mitigations", "### Prochaines etapes"]
       : ["### Assumptions / Hypotheses", "### Risks / Mitigations", "### Next steps"];
+  const minNumbers = templateId === "TUTORIAL" ? 8 : templateId === "SOCIETY" ? 5 : 6;
+  const codeRule =
+    templateId === "TUTORIAL"
+      ? "- Include at least two fenced code blocks (commands + config/code).\n"
+      : templateId === "SOCIETY"
+        ? "- Do NOT include code blocks.\n"
+        : "- Code blocks are optional; avoid invented filenames or fake repos.\n";
 
   const response = await runJsonCompletion(
     client,
@@ -640,10 +1013,12 @@ async function runRepairPass(
           `- Keep exactly these H2 headings in order:\n${headings.map((h) => `## ${h}`).join("\n")}\n` +
           `- Every required section must start with '## ' exactly. Do not use H1. Do not add extra H2 headings.\n` +
           `- Every section must include at least one inline source URL from this bundle:\n${sourceBlock}\n` +
-          `- Ground claims only in the snapshot excerpts below; if a detail is not supported, rewrite it as a clearly labeled hypothesis.\n` +
+          `- Ground factual claims in the snapshot excerpts below. If a detail is not supported, omit it or move it to the final "Assumptions / Hypotheses" subsection.\n` +
           `Snapshot excerpts:\n${snapshotBlock}\n` +
-          `- Include at least one fenced code block, one markdown table, and one checklist ('- [ ]').\n` +
-          `- Include at least 8 concrete numbers/thresholds across the doc (%, ms, $, tokens, counts).\n` +
+          `${codeRule}` +
+          `- Include at least one markdown table and one checklist ('- [ ]').\n` +
+          `- Include at least ${minNumbers} concrete numbers/thresholds across the doc (%, ms, $, tokens, counts).\n` +
+          `- Avoid repeating "not present in the excerpt" disclaimers. One short methodology note max.\n` +
           `- In the last H2 section, include these exact H3 subheads:\n${requiredSubheads.join("\n")}\n` +
           `- Keep total length around ${targetWordCount} to ${targetWordCount + 500} words.\n\n` +
           `Draft:\n${draft}`,
@@ -661,6 +1036,14 @@ async function generateOutline(client, model, { locale, topic, targetRegion, sou
   const seriesList = SERIES.map((entry) => `- ${entry.id}: ${entry.label}`).join("\n");
   const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
   const snapshotBlock = formatSourceSnapshots(sourceSnapshots);
+  const audience =
+    template.id === "SOCIETY"
+      ? "a mixed audience (employees, managers, founders, builders) who care about AI and work"
+      : "developers, startup founders, and AI enthusiasts";
+  const societyRules =
+    template.id === "SOCIETY"
+      ? "- For SOCIETY: avoid code talk, repo artifacts, filenames, CI/CD jargon, and internal checklists that feel like engineering memos. Focus on jobs/tasks, concrete personas, and practical guidance.\n"
+      : "";
 
   const response = await runJsonCompletion(
     client,
@@ -669,7 +1052,7 @@ async function generateOutline(client, model, { locale, topic, targetRegion, sou
       {
         role: "system",
         content:
-          `You are an editor-in-chief writing for developers, startup founders, and AI enthusiasts. ` +
+          `You are an editor-in-chief writing for ${audience}. ` +
           `Return strict JSON with keys: title, excerpt, tags (array), series (string), difficulty (string), timeToImplementMinutes (number), sectionBullets (object).\n` +
           `Write in ${language}.`,
       },
@@ -683,7 +1066,9 @@ async function generateOutline(client, model, { locale, topic, targetRegion, sou
           `- Prefer series="${seriesId}" unless clearly wrong.\n` +
           `- difficulty must be one of: beginner, intermediate, advanced.\n` +
           `- timeToImplementMinutes should be realistic (for tutorials) and can be 0 for non-tutorials.\n` +
-          `- Every section bullet list must include at least one bullet that references a concrete artifact (config, metric threshold, code, rollout gate).\n` +
+          `- Title and excerpt must be written in ${language}. Do not copy a French headline verbatim into an English title.\n` +
+          `- Every section bullet list must include at least one bullet that references a concrete artifact (checklist, decision table, metric threshold, config, rollout gate). For SOCIETY topics, prefer worksheets/checklists over code.\n` +
+          societyRules +
           `- Do not invent unsupported claims. Ground bullets in the snapshot excerpts below.\n\n` +
           `Topic title: ${topic.title}\n` +
           `Topic summary: ${topic.summary}\n` +
@@ -721,6 +1106,13 @@ async function draftFromOutline(
     locale === "fr"
       ? ["### Hypotheses / inconnues", "### Risques / mitigations", "### Prochaines etapes"]
       : ["### Assumptions / Hypotheses", "### Risks / Mitigations", "### Next steps"];
+  const minNumbers = template.id === "TUTORIAL" ? 8 : template.id === "SOCIETY" ? 5 : 6;
+  const codeRule =
+    template.id === "TUTORIAL"
+      ? "- Include at least two fenced code blocks (commands + config/code).\n"
+      : template.id === "SOCIETY"
+        ? "- Do NOT include code blocks.\n"
+        : "- Code blocks are optional; avoid invented filenames or fake repos.\n";
 
   const tutorialRules =
     template.id === "TUTORIAL"
@@ -730,6 +1122,15 @@ async function draftFromOutline(
         `- In the "Step-by-step implementation" section, include clearly numbered steps (1., 2., 3., ...).\n`
       : "";
 
+  const societyRules =
+    template.id === "SOCIETY"
+      ? `\nSociety rules:\n` +
+        `- Write for a mixed audience (employees, founders, builders). Avoid infra jargon.\n` +
+        `- In the personas section, include 3 distinct personas with role + context (FR/US/UK when relevant), each with a short before/after scenario.\n` +
+        `- In employee/founder sections, provide distinct bullet lists (do not repeat the same advice).\n` +
+        `- Do not invent file names, internal scripts, or repo artifacts.\n`
+      : "";
+
   const response = await runJsonCompletion(
     client,
     model,
@@ -737,7 +1138,9 @@ async function draftFromOutline(
       {
         role: "system",
         content:
-          `You write builder-grade long-form content for developers and founders. Write in ${language}. ` +
+          (template.id === "SOCIETY"
+            ? `You write clear, rigorous long-form content for a mixed audience (employees, managers, founders, builders) who care about AI and work. Write in ${language}. `
+            : `You write builder-grade long-form content for developers and founders. Write in ${language}. `) +
           "Return strict JSON with keys: content (markdown).",
       },
       {
@@ -749,15 +1152,17 @@ async function draftFromOutline(
           `Hard rules:\n` +
           `- Use only these H2 headings (each must start with '## ' exactly). Do not use H1. Do not add extra H2 headings; use H3 for subsections.\n` +
           `- Each section must include at least one inline source URL from this bundle (paste the URL in the text, not only in a Sources section):\n${sourceBlock}\n` +
-          `- Ground claims only in the snapshot excerpts below; if a detail is not supported, say so explicitly.\n` +
+          `- Ground factual claims in the snapshot excerpts below. If a detail is not supported, omit it or move it to the final "Assumptions / Hypotheses" subsection.\n` +
           `Snapshot excerpts:\n${snapshotBlock}\n` +
-          `- Include at least one fenced code block and at least one checklist with '- [ ]'.\n` +
-          `- Include at least one markdown table for a founder decision frame.\n` +
-          `- Include at least 8 concrete numbers/thresholds across the doc (%, ms, $, tokens, counts).\n` +
+          `${codeRule}` +
+          `- Include at least one markdown table and at least one checklist with '- [ ]'.\n` +
+          `- Include at least ${minNumbers} concrete numbers/thresholds across the doc (%, ms, $, tokens, counts).\n` +
+          `- Avoid repeating "not present in the excerpt" disclaimers. One short methodology note max.\n` +
           `- In the last H2 section ("${headings[headings.length - 1]}"), include these exact H3 subheads:\n${requiredSubheads.join("\n")}\n` +
           `- Avoid filler; if you need more words, add deeper technical detail, examples, and constraints.\n` +
           `- Do not invent claims that are not supported by the sources.\n` +
           tutorialRules +
+          societyRules +
           "\n" +
           `Outline title: ${outline.title}\n` +
           `Outline excerpt: ${outline.excerpt}\n` +
@@ -775,39 +1180,114 @@ async function draftFromOutline(
 function buildFallbackContent(topic, targetRegion, sources, template, locale = "en") {
   const headings =
     locale === "fr" ? resolveHeadings(template.headingsFr, targetRegion) : resolveHeadings(template.headingsEn, targetRegion);
+  const bundle = Array.isArray(sources) ? sources.filter(Boolean) : [];
+  const sourceFor = (idx) => bundle[idx % Math.max(1, bundle.length)] || bundle[0] || "";
+  const bundleList = bundle.map((url) => `- ${url}`).join("\n");
 
-  const sourceMarkdown = sources.map((source, index) => `[Source ${index + 1}](${source})`).join(", ");
+  const requiredSubheads =
+    locale === "fr"
+      ? ["### Hypotheses / inconnues", "### Risques / mitigations", "### Prochaines etapes"]
+      : ["### Assumptions / Hypotheses", "### Risks / Mitigations", "### Next steps"];
 
-  const bodyByIndex = (idx) => {
-    if (locale === "fr") {
-      const blocks = [
-        `${topic.summary || "Ce signal IA doit etre analyse comme une decision produit, pas comme un buzz."}\n\n- Pour devs: identifier le changement d'architecture ou de stack.\n- Pour fondateurs: estimer impact marge, vitesse de livraison, et risque execution.\n- Pour passionnes IA: verifier ce qui est prouve vs ce qui est encore experimental.`,
-        `Ce qui change concretement: nouveaux patterns d'agent, gains attendus sur taches multi-etapes, et nouvelles contraintes de monitoring. Le but n'est pas de refaire toute la stack, mais de trouver 1 workflow rentable a optimiser en premier.`,
-        `Lecture technique minimale:\n- Baseline SFT stable avant RL.\n- Reward model calibre sur set hold-out.\n- Contrainte KL explicite pour limiter la derive policy.\n- Observabilite: latence, taux d'erreur outil, taux de correction humaine.\n\nUn gain offline n'est valide que s'il tient en conditions reelles (timeouts, prompts adversariaux, cout/token).`,
-        `Blueprint implementation (MVP) :\n\n\`\`\`yaml\npipeline:\n  stage_1: sft_baseline\n  stage_2: reward_model_training\n  stage_3: ppo_with_kl_constraint\n  stage_4: canary_release\nrelease_gates:\n  - no_safety_regression\n  - latency_delta_lt_15_percent\n  - rollback_ready\n\`\`\`\n\nCommencez avec un cas d'usage unique, 2 semaines de mesures, puis extension progressive.`,
-        `Vue fondateur (decision rapide):\n- Cout initial augmente (annotation + eval + monitoring).\n- Defensibilite augmente si la qualite de sortie reste stable en production.\n- Risque principal: equipe trop large trop tot.\n\nCadre simple: lancer petit, mesurer marge/qualite, couper vite si pas d'avantage net.`,
-        `Pour ${targetRegion}, la difference se joue sur conformite, attentes clients et vitesse d'adoption. Priorites operationnelles: journalisation exploitable, preuves d'evaluation, et messaging clair sur limites du systeme.`,
-        `Comparatif pratique:\n- US: vitesse d'iteration et distribution produit.\n- UK: gouvernance et accountability.\n- FR: robustesse, tracabilite, et contraintes conformite.\n\nStrategie gagnante: un noyau technique commun + adaptation locale du go-to-market.`,
-        `Checklist de la semaine:\n- Choisir 1 use case agentique avec KPI business.\n- Definir seuils go/no-go (qualite, latence, cout).\n- Ecrire tests adversariaux obligatoires.\n- Mettre rollback one-command.\n- Documenter decisions + hypothese invalidee.\n\nSources: ${sourceMarkdown}.`,
-      ];
-      return blocks[idx] || blocks[blocks.length - 1];
-    }
+  const baseTable =
+    locale === "fr"
+      ? `| Decision | Option par defaut | Quand changer |\n|---|---|---|\n| Mesure | 3 KPI (cout, latence, qualite) | Ajoutez securite / legal selon secteur |\n| Rollout | Canary 10% pendant 7 jours | Montez a 50% si 0 regression |\n| Stop | 15% de regression qualite = rollback | Re-testez avant relance |`
+      : `| Decision | Default | When to change |\n|---|---|---|\n| Measurement | 3 KPIs (cost, latency, quality) | Add safety/legal metrics by sector |\n| Rollout | 10% canary for 7 days | Move to 50% if 0 regressions |\n| Stop | 15% quality regression = rollback | Re-test before re-launch |`;
 
-    const blocks = [
-      `${topic.summary || "Treat this AI update as an execution decision, not a headline."}\n\n- For developers: identify architecture implications and integration effort.\n- For founders: estimate margin impact, shipping speed, and defensibility.\n- For AI enthusiasts: separate proven results from speculative claims.`,
-      `The practical shift is usually a new agent pattern, not a full stack reset. The winning move is to pick one high-frequency workflow and validate whether quality and latency improve under real traffic constraints.`,
-      `Technical teardown essentials:\n- Stable SFT baseline before RL loops.\n- Reward model calibrated on hold-out data.\n- Explicit KL control to prevent policy drift.\n- Online metrics: tool error rate, human override rate, and cost per successful task.\n\nIf gains only appear offline, treat them as unproven.`,
-      `Implementation blueprint (MVP):\n\n\`\`\`yaml\npipeline:\n  stage_1: sft_baseline\n  stage_2: reward_model_training\n  stage_3: ppo_with_kl_constraint\n  stage_4: canary_release\nrelease_gates:\n  - no_safety_regression\n  - latency_delta_lt_15_percent\n  - rollback_ready\n\`\`\`\n\nStart with one workflow, run a two-week canary, and expand only after passing gates.`,
-      `Founder lens:\n- Costs rise first (labeling, eval, monitoring).\n- Moat improves only if output quality remains stable in production.\n- Biggest risk is scaling the team before unit economics improve.\n\nDecision frame: small pilot, hard metrics, fast rollback, no sunk-cost bias.`,
-      `For ${targetRegion}, adoption speed depends on compliance expectations, procurement behavior, and trust signals. Translate technical reliability into buyer-facing proof: evaluation docs, rollback policy, and incident response readiness.`,
-      `US/UK/FR operating contrast:\n- US: product velocity and distribution pressure.\n- UK: accountability and auditability.\n- FR: traceability, resilience, and compliance depth.\n\nBest strategy: one core technical stack, localized governance and GTM messaging.`,
-      `Ship-this-week checklist:\n- Pick 1 agentic use case with a business KPI.\n- Define go/no-go thresholds (quality, latency, cost).\n- Add mandatory adversarial tests.\n- Implement one-command rollback.\n- Log decisions and invalidated assumptions.\n\nSource bundle: ${sourceMarkdown}.`,
-    ];
+  const lastSection =
+    locale === "fr"
+      ? `Checklist:\n- [ ] Definir 3 KPI mesurables (cout, latence, qualite)\n- [ ] Ajouter 1 gate de rollout (canary 10% pendant 7 jours)\n- [ ] Mettre un rollback et un plan incident\n- [ ] Ecrire 5 tests adversariaux\n\n${requiredSubheads[0]}\n- Ce billet est un fallback (pas de generation LLM).\n- Les extraits sources peuvent etre incomplets.\n\n${requiredSubheads[1]}\n- Risque: sur-interpretation. Mitigation: limiter aux faits des sources.\n- Risque: mauvaise region. Mitigation: comparer US/UK/FR.\n\n${requiredSubheads[2]}\n- Re-lancer la generation avec des sources plus solides.\n- Ajouter 1 source locale (FR/US/UK) et republier.`
+      : `Checklist:\n- [ ] Define 3 measurable KPIs (cost, latency, quality)\n- [ ] Add 1 rollout gate (10% canary for 7 days)\n- [ ] Implement rollback + incident plan\n- [ ] Write 5 adversarial tests\n\n${requiredSubheads[0]}\n- This post is a fallback (no LLM generation).\n- Source snapshots may be incomplete.\n\n${requiredSubheads[1]}\n- Risk: over-interpretation. Mitigation: stick to source facts.\n- Risk: wrong region lens. Mitigation: compare US/UK/FR.\n\n${requiredSubheads[2]}\n- Re-run generation with stronger sources.\n- Add 1 local (FR/US/UK) source and republish.`;
 
-    return blocks[idx] || blocks[blocks.length - 1];
+  const blocksEn = {
+    NEWS: [
+      `${topic.summary || "Fallback post (LLM unavailable)."}\n\n${baseTable}\n\nSource bundle:\n${bundleList}`,
+      `What changed (quick read): focus on the delta, why it matters, and a 7-day validation plan. Use a single owner and a single metric gate before scaling.\n\nSource: ${sourceFor(1)}`,
+      `Technical teardown: measure cost per successful task, p95 latency, and human override rate. Start with 3 thresholds (e.g., p95 < 900ms, override < 10%, cost < $0.08/task) and tighten weekly.\n\nSource: ${sourceFor(2)}`,
+      `Implementation blueprint: ship one narrow workflow first, add evals, and gate rollout (10% canary for 7 days). Avoid broad rewrites.\n\nSource: ${sourceFor(0)}`,
+      `Founder lens: treat this as a distribution + reliability game. If quality is unstable, do not scale. If retention improves by 3-5% after 2 weeks, invest.\n\nSource: ${sourceFor(1)}`,
+      `Regional lens (${targetRegion}): map compliance and buyer expectations into technical proof (logging, eval docs, incident response). Turn reliability into trust signals.\n\nSource: ${sourceFor(2)}`,
+      `US/UK/FR comparison:\n\n| Region | Buyer expectation | What you must show |\n|---|---|---|\n| US | speed + UX | fast iteration + hard metrics |\n| UK | accountability | audit trail + clear ownership |\n| FR | traceability | documentation + resilience |\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
+    ANALYSIS: [
+      `${topic.summary || "Fallback post (LLM unavailable)."}\n\n${baseTable}\n\nSource bundle:\n${bundleList}`,
+      `Core thesis: the real change is practical capability under constraints (latency, cost, safety), not a headline. Your edge comes from integration + eval discipline.\n\nSource: ${sourceFor(1)}`,
+      `Evidence from sources: list 3 claims you can defend, 2 claims you suspect, and 1 claim you will not state. Keep numbers explicit.\n\nSource: ${sourceFor(2)}`,
+      `Technical implications: define a small eval set (50-200 examples), track p95 latency, and set a rollback trigger (15% quality regression).\n\nSource: ${sourceFor(0)}`,
+      `Founder lens: if CAC is unchanged but conversion lifts 2-4% and support tickets drop 10-20%, you have a wedge. Otherwise, pause.\n\nSource: ${sourceFor(1)}`,
+      `Trade-offs and risks: reliability vs capability, cost vs accuracy, speed vs governance. Treat unknowns as assumptions, not facts.\n\nSource: ${sourceFor(2)}`,
+      `Decision framework:\n\n| Question | Green light | Red flag |\n|---|---|---|\n| Is it stable? | override < 10% | override > 25% |\n| Is it cheap enough? | <$0.08/task | >$0.25/task |\n| Is it faster? | p95 < 900ms | p95 > 2s |\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
+    TUTORIAL: [
+      `${topic.summary || "Fallback tutorial (LLM unavailable)."}\n\n${baseTable}\n\nSource bundle:\n${bundleList}`,
+      `Goal: ship a minimal agent workflow with evals and a safe rollout in 60-120 minutes.\n\nSource: ${sourceFor(1)}`,
+      `Stack and prerequisites:\n- Node 20+\n- A staging environment\n- A logging sink (even a CSV is fine)\n\nQuick check:\n\`\`\`bash\nnode -v\nnpm -v\n\`\`\`\n\nSource: ${sourceFor(2)}`,
+      `Step-by-step implementation:\n1. Pick 1 workflow (support triage, report draft, lead qualification).\n2. Write 50-200 eval examples.\n3. Add a canary gate (10% for 7 days).\n4. Add rollback trigger (15% quality regression).\n\nExample config:\n\`\`\`yaml\nrollout:\n  canary_percent: 10\n  canary_days: 7\n  rollback_on_quality_regression_percent: 15\nmetrics:\n  p95_latency_ms_target: 900\n  max_cost_per_task_usd: 0.08\n\`\`\`\n\nSource: ${sourceFor(0)}`,
+      `Reference architecture: request -> policy -> tool calls -> eval -> store. Keep prompts versioned and logs queryable.\n\nSource: ${sourceFor(1)}`,
+      `Founder lens: do not scale headcount until you see a 2-4% conversion lift or a 10-20% support load drop in 2 weeks.\n\nSource: ${sourceFor(2)}`,
+      `Failure modes and debugging: timeouts, tool errors, hallucinated fields, and silent regressions. Track override rate and add adversarial tests.\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
+    SOCIETY: [
+      `${topic.summary || "Fallback post (LLM unavailable)."}\n\n${baseTable}\n\nSource bundle:\n${bundleList}`,
+      `What the sources say: separate (1) task automation, (2) job redesign, and (3) displacement risk. Most change is task-level first, then roles.\n\nSource: ${sourceFor(1)}`,
+      `Tasks vs jobs: list the top 5 tasks exposed (drafting, summarizing, routing, QA) and the 5 tasks that stay human-heavy (accountability, negotiation, responsibility).\n\nSource: ${sourceFor(2)}`,
+      `Three concrete personas (2026 scenarios):\n- Persona 1: customer support agent (tickets, macros, escalation) -> 30-50% task automation, higher bar on judgment.\n- Persona 2: accountant/analyst (reconciliation, reporting) -> faster cycles, more review + audit burden.\n- Persona 3: junior developer (boilerplate, tests) -> productivity gain, more code review and system understanding.\n\nSource: ${sourceFor(0)}`,
+      `What to do if you're an employee:\n- Map your job into 20-40 tasks; label which are automatable.\n- Build a "review skill": verification, edge-cases, and accountability.\n- Negotiate for training time (2h/week) and measurable outcomes.\n- Track 3 metrics: time saved, error rate, and escalations.\n\nSource: ${sourceFor(1)}`,
+      `What to do if you're a founder/manager:\n- Communicate the intent (augmentation vs replacement) and the rollout gates.\n- Measure impact on quality before headcount decisions.\n- Define ownership when AI makes mistakes.\n- Invest in reskilling for the most exposed roles.\n\nSource: ${sourceFor(2)}`,
+      `France / US / UK lens: France emphasizes works council + documentation; UK emphasizes accountability; US emphasizes speed. Translate that into governance and training programs.\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
   };
 
-  const sections = headings.map((heading, index) => `## ${heading}\n\n${bodyByIndex(index)}`);
+  const blocksFr = {
+    NEWS: [
+      `${topic.summary || "Article fallback (LLM indisponible)."}\n\n${baseTable}\n\nSources:\n${bundleList}`,
+      `Ce qui a change: allez droit au delta, pourquoi c'est important, et comment valider en 7 jours. Un owner unique, un gate unique avant de scaler.\n\nSource: ${sourceFor(1)}`,
+      `Demontage technique: mesurez cout par tache reussie, latence p95, et taux de correction humaine. Fixez 3 seuils (ex: p95 < 900ms, override < 10%, cout < $0.08/tache).\n\nSource: ${sourceFor(2)}`,
+      `Plan d'implementation: ship un workflow etroit, ajoutez des evals, et gatez le rollout (canary 10% pendant 7 jours). Evitez les gros refactors.\n\nSource: ${sourceFor(0)}`,
+      `Vue fondateur: distribution + fiabilite. Si la qualite est instable, ne scalez pas. Si la retention monte de 3-5% apres 2 semaines, investissez.\n\nSource: ${sourceFor(1)}`,
+      `Angle regional (${targetRegion}): transformez conformite et attentes buyers en preuves techniques (logs, eval docs, plan incident).\n\nSource: ${sourceFor(2)}`,
+      `Comparatif US/UK/FR:\n\n| Region | Attente buyer | Preuve a montrer |\n|---|---|---|\n| US | vitesse + UX | iteration rapide + metriques |\n| UK | accountability | audit trail + ownership |\n| FR | tracabilite | documentation + resilience |\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
+    ANALYSIS: [
+      `${topic.summary || "Article fallback (LLM indisponible)."}\n\n${baseTable}\n\nSources:\n${bundleList}`,
+      `These: la vraie rupture est la capacite en conditions reelles (latence, cout, securite), pas le headline. L'avantage vient de l'integration + discipline d'eval.\n\nSource: ${sourceFor(1)}`,
+      `Evidences: 3 assertions defendables, 2 hypotheses, 1 point que vous ne dites pas. Gardez les chiffres explicites.\n\nSource: ${sourceFor(2)}`,
+      `Implications techniques: set d'eval de 50-200 exemples, latence p95, trigger rollback (15% de regression qualite).\n\nSource: ${sourceFor(0)}`,
+      `Vue fondateur: si conversion +2-4% et tickets -10-20% en 2 semaines, wedge valide. Sinon, pause.\n\nSource: ${sourceFor(1)}`,
+      `Compromis: fiabilite vs capacite, cout vs precision, vitesse vs gouvernance. Les inconnues vont dans "Hypotheses".\n\nSource: ${sourceFor(2)}`,
+      `Cadre de decision:\n\n| Question | Vert | Rouge |\n|---|---|---|\n| Stable ? | override < 10% | override > 25% |\n| Cout ok ? | <$0.08/tache | >$0.25/tache |\n| Rapide ? | p95 < 900ms | p95 > 2s |\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
+    TUTORIAL: [
+      `${topic.summary || "Tutoriel fallback (LLM indisponible)."}\n\n${baseTable}\n\nSources:\n${bundleList}`,
+      `Objectif: ship un workflow agentique minimal avec evals + rollout safe en 60-120 minutes.\n\nSource: ${sourceFor(1)}`,
+      `Stack et prerequis:\n- Node 20+\n- Environnement de staging\n- Un log (meme CSV)\n\nCheck:\n\`\`\`bash\nnode -v\nnpm -v\n\`\`\`\n\nSource: ${sourceFor(2)}`,
+      `Implementation pas a pas:\n1. Choisir 1 workflow (tri tickets, rapport, qualification lead).\n2. Ecrire 50-200 exemples d'eval.\n3. Ajouter gate canary (10% pendant 7 jours).\n4. Ajouter trigger rollback (15% regression qualite).\n\nConfig example:\n\`\`\`yaml\nrollout:\n  canary_percent: 10\n  canary_days: 7\n  rollback_on_quality_regression_percent: 15\nmetrics:\n  p95_latency_ms_target: 900\n  max_cost_per_task_usd: 0.08\n\`\`\`\n\nSource: ${sourceFor(0)}`,
+      `Architecture de reference: request -> policy -> tools -> eval -> store. Versionnez les prompts et gardez des logs requetables.\n\nSource: ${sourceFor(1)}`,
+      `Vue fondateur: ne scalez pas avant un lift conversion +2-4% ou une baisse support -10-20% sur 2 semaines.\n\nSource: ${sourceFor(2)}`,
+      `Pannes et debugging: timeouts, erreurs tool, champs inventes, regressions silencieuses. Suivez override rate et ajoutez tests adversariaux.\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
+    SOCIETY: [
+      `${topic.summary || "Article fallback (LLM indisponible)."}\n\n${baseTable}\n\nSources:\n${bundleList}`,
+      `Ce que disent les sources: distinguez (1) automatisation de taches, (2) redesign de poste, (3) risque de remplacement. Souvent: taches d'abord, roles ensuite.\n\nSource: ${sourceFor(1)}`,
+      `Taches vs emplois: top 5 taches exposees (draft, resume, routage, QA) et 5 taches encore humaines (responsabilite, negociation, jugement, accountability).\n\nSource: ${sourceFor(2)}`,
+      `Trois personas (scenarios 2026):\n- Persona 1: support client -> 30-50% automatisable, plus d'escalade et de jugement.\n- Persona 2: compta/analyste -> cycles plus rapides, plus de controle/audit.\n- Persona 3: dev junior -> gain productivite, plus de code review et de comprehension systeme.\n\nSource: ${sourceFor(0)}`,
+      `Si vous etes salarie:\n- Decoupez votre job en 20-40 taches; marquez celles automatisables.\n- Renforcez "review skill": verification, cas limites, responsabilite.\n- Negociez 2h/semaine de formation + objectifs mesurables.\n- Suivez 3 metriques: temps gagne, erreurs, escalades.\n\nSource: ${sourceFor(1)}`,
+      `Si vous etes fondateur/manager:\n- Communiquez l'intention (augmentation vs remplacement) + gates.\n- Mesurez la qualite avant toute decision headcount.\n- Definissez l'ownership quand l'IA se trompe.\n- Investissez reskilling sur les roles exposes.\n\nSource: ${sourceFor(2)}`,
+      `Angle France / US / UK: FR = documentation + dialogue social; UK = accountability; US = vitesse. Traduisez cela en gouvernance + training.\n\nSource: ${sourceFor(0)}`,
+      `${lastSection}\n\nSource: ${sourceFor(1)}`,
+    ],
+  };
+
+  const templateId = template.id in blocksEn ? template.id : "NEWS";
+  const blocks = locale === "fr" ? blocksFr[templateId] : blocksEn[templateId];
+  const sections = headings.map((heading, index) => `## ${heading}\n\n${blocks[index] || ""}`.trim());
   return sections.join("\n\n");
 }
 
@@ -911,6 +1391,7 @@ async function generateWithLLM(topic, targetRegion, sources, template, wordTarge
         issues,
         targetWordCount: wordTargets.minWordsEn,
         sourceSnapshots,
+        templateId: template.id,
       });
     }
 
@@ -952,6 +1433,32 @@ async function generateWithLLM(topic, targetRegion, sources, template, wordTarge
       content,
       generationMode: "llm",
     };
+
+    const metaSignal = shouldRepairMeta({
+      locale: "en",
+      title: candidate.title,
+      excerpt: candidate.excerpt,
+      topic,
+    });
+    if (metaSignal) {
+      if (LOG_STAGES) console.log(`[generate-post] EN: meta repair (${metaSignal.reason})`);
+      const fixed = await repairMeta(client, model, {
+        locale: "en",
+        topic,
+        template,
+        currentTitle: candidate.title,
+        currentExcerpt: candidate.excerpt,
+        currentTags: candidate.tags,
+        content: candidate.content,
+        sourceSnapshots,
+      });
+      candidate = {
+        ...candidate,
+        title: fixed.title || candidate.title,
+        excerpt: fixed.excerpt || candidate.excerpt,
+        tags: Array.isArray(fixed.tags) && fixed.tags.length > 0 ? fixed.tags : candidate.tags,
+      };
+    }
 
     const detected = detectLanguage(`${candidate.title}\n${candidate.excerpt}\n${candidate.content}`);
     if (detected === "fr") {
@@ -1139,6 +1646,7 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
         issues,
         targetWordCount: wordTargets.minWordsFr,
         sourceSnapshots,
+        templateId: template.id,
       });
     }
 
@@ -1208,13 +1716,18 @@ export async function generatePost() {
   const queue = JSON.parse(rawQueue);
 
   const nowIso = new Date().toISOString();
+  const regionOrder = (() => {
+    const counts = getPublishedCounts(queue);
+    return TARGET_REGIONS.slice().sort((a, b) => counts[a] - counts[b]);
+  })();
 
   const updateItem = (topicId, patch) => {
     queue.items = (queue.items || []).map((item) => (item.id === topicId ? { ...item, ...patch } : item));
   };
 
   for (let attempt = 0; attempt < MAX_TOPIC_ATTEMPTS; attempt += 1) {
-    const targetRegion = pickTargetRegion(queue);
+    // Don't get stuck trying the same region repeatedly if sources are paywalled or generation fails.
+    const targetRegion = regionOrder[attempt % regionOrder.length] || pickTargetRegion(queue);
     const topic = pickTopic(queue, targetRegion);
 
     if (!topic) {
@@ -1226,7 +1739,7 @@ export async function generatePost() {
     const template = detectEditorialTemplate(topic);
     const wordTargets = getWordTargets(template);
 
-    const sourceBundle = dedupeUrls([topic.link, ...pickSupportingSources(queue, topic, targetRegion)]).slice(0, 3);
+    const sourceBundle = buildSourceBundle(queue, topic, targetRegion, template);
     if (sourceBundle.length < 2) {
       updateItem(topic.id, {
         status: "failed",
