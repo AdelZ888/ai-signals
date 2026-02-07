@@ -2,6 +2,7 @@
 title: "Configurer OpenClaw avec l'onboarding CLI : Gateway, workspace initial, démon utilisateur et canaux"
 date: "2026-02-07"
 excerpt: "Guide pratique pour développeurs et fondateurs US : utiliser l'onboarding CLI d'OpenClaw pour provisionner un Gateway local (port 18789), semer ~/.openclaw/workspace, installer un démon utilisateur et connecter au moins un canal."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-07-set-up-openclaw-with-the-cli-onboarding-configure-gateway-seed-workspace-install-a-daemon-and-add-channels.jpg"
 region: "US"
 category: "Tutorials"
 series: "agent-playbook"

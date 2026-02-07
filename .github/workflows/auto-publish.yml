@@ -33,6 +33,10 @@ jobs:
           MIN_WORDS_EN: "900"
           MAX_WORDS_EN: "1500"
           MIN_WORDS_FR: "850"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ secrets.GEMINI_IMAGE_MODEL }}
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+          IMAGES_ENABLED: "1"
         run: npm run automate
 
       - name: Detect post changes

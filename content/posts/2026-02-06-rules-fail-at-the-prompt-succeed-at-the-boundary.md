@@ -2,6 +2,7 @@
 title: "Rules fail at the prompt, succeed at the boundary"
 date: "2026-02-06"
 excerpt: "Agentic workflows and prompt coercion are the new attack surface. This tutorial shows a concrete, deployable boundary strategy (policy engine + sandbox + attested channels) to reduce agentic compromise risk — with configs, code, metrics and a founder cost/risk frame."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-rules-fail-at-the-prompt-succeed-at-the-boundary.jpg"
 region: "UK"
 category: "Tutorials"
 editorialTemplate: "TUTORIAL"

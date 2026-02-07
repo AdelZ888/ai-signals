@@ -2,6 +2,7 @@
 title: "GPT-OSS et RL agentique: ce que les builders peuvent vraiment shipper"
 date: "2026-02-06"
 excerpt: "Decomposition concrete pour devs et fondateurs: ce qui change avec le RL agentique, quoi implementer en premier, et comment decider rapidement si l'economie tient."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-unlocking-agentic-rl-training-for-gpt-oss-a-practical-retrospective.jpg"
 region: "FR"
 category: "News"
 editorialTemplate: "NEWS"

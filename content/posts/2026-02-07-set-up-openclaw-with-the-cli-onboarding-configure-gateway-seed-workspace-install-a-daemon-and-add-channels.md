@@ -2,6 +2,7 @@
 title: "Set up OpenClaw with the CLI onboarding: configure Gateway, seed workspace, install a daemon and add channels"
 date: "2026-02-07"
 excerpt: "Use the OpenClaw CLI onboarding to set up a local Gateway (port 18789) with token auth, seed ~/.openclaw/workspace, install a user daemon, and connect a messaging channel."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-07-set-up-openclaw-with-the-cli-onboarding-configure-gateway-seed-workspace-install-a-daemon-and-add-channels.jpg"
 region: "US"
 category: "Tutorials"
 series: "agent-playbook"

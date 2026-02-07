@@ -2,6 +2,7 @@
 title: "PCE : convertir les traces de raisonnement LLM en arbres de décision pour une planification consciente de l'incertitude"
 date: "2026-02-07"
 excerpt: "Guide technique et opérationnel (contexte UK) pour implémenter PCE — Planner–Composer–Evaluator — qui transforme les hypothèses fragmentées issues des traces de raisonnement des LLM en un arbre de décision scoré par probabilité de scénario, gain visé et coût d'exécution, afin de réduire la communication inter-agents dans des tâches incarnées multi-agents (référence : arXiv:2602.04326)."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-07-pce-converting-llm-reasoning-traces-into-decision-trees-for-uncertainty-aware-planning-in-embodied-multi-agent-tasks.jpg"
 region: "UK"
 category: "Tutorials"
 series: "agent-playbook"

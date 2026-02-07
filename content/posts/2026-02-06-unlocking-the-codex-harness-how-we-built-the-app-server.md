@@ -2,6 +2,7 @@
 title: "Unlocking the Codex harness: how we built the App Server"
 date: "2026-02-06"
 excerpt: "A hands‑on tutorial showing how to embed the Codex agent with a Codex App Server — a bidirectional JSON‑RPC service that powers streaming progress, tool use, approvals, and diffs. Includes an implementation plan, infra and monitoring artifacts, rollout gates, and founder ROI considerations."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-unlocking-the-codex-harness-how-we-built-the-app-server.jpg"
 region: "US"
 category: "Tutorials"
 series: "agent-playbook"

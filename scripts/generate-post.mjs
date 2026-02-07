@@ -7,6 +7,8 @@ import "./load-env.mjs";
 import OpenAI from "openai";
 import slugify from "slugify";
 
+import { generateAndUploadCover } from "./cover-images.mjs";
+
 const queuePath = path.join(process.cwd(), "data/topics-queue.json");
 const postsDir = path.join(process.cwd(), "content/posts");
 const postsFrDir = path.join(process.cwd(), "content/posts/fr");
@@ -787,6 +789,7 @@ function buildFrontmatter(post, sources, targetRegion, template) {
   const tags = Array.isArray(post.tags) && post.tags.length > 0 ? post.tags : ["AI", "News", targetRegion, template.id];
   const safeTitle = String(post.title || "Automated AI update").replace(/"/g, "\\\"");
   const safeExcerpt = String(post.excerpt || "Automated AI update").replace(/"/g, "\\\"");
+  const safeCoverImage = post.coverImage ? String(post.coverImage).replace(/"/g, "\\\"") : "";
   const region = normalizeRegion(post.region || targetRegion);
   const category = String(post.category || template.category).replace(/"/g, "\\\"");
   const series = post.series ? String(post.series).replace(/"/g, "\\\"") : "";
@@ -803,7 +806,9 @@ function buildFrontmatter(post, sources, targetRegion, template) {
     (difficulty ? `\ndifficulty: "${difficulty}"` : "") +
     (timeToImplementMinutes ? `\ntimeToImplementMinutes: ${timeToImplementMinutes}` : "");
 
-  return `---\ntitle: "${safeTitle}"\ndate: "${date}"\nexcerpt: "${safeExcerpt}"\nregion: "${region}"\ncategory: "${category}"${extra}\neditorialTemplate: "${template.id}"\ntags:\n${tags
+  return `---\ntitle: "${safeTitle}"\ndate: "${date}"\nexcerpt: "${safeExcerpt}"${
+    safeCoverImage ? `\ncoverImage: "${safeCoverImage}"` : ""
+  }\nregion: "${region}"\ncategory: "${category}"${extra}\neditorialTemplate: "${template.id}"\ntags:\n${tags
     .map((tag) => `  - "${String(tag).replace(/"/g, "\\\"")}"`)
     .join("\n")}\nsources:\n${sources.map((source) => `  - "${source}"`).join("\n")}\n---\n`;
 }
@@ -2012,12 +2017,25 @@ export async function generatePost() {
     const targetPathEn = path.join(postsDir, `${slug}.md`);
     const targetPathFr = path.join(postsFrDir, `${slug}.md`);
 
-    const frontmatterEn = buildFrontmatter(postEn, sourceBundle, targetRegion, template);
+    let coverImage = null;
+    if (!DRY_RUN) {
+      coverImage = await generateAndUploadCover({
+        slug,
+        title: postEn.title,
+        excerpt: postEn.excerpt,
+        tags: postEn.tags,
+        category: template.category,
+        region: targetRegion,
+      });
+    }
+
+    const postEnWithCover = coverImage ? { ...postEn, coverImage } : postEn;
+    const frontmatterEn = buildFrontmatter(postEnWithCover, sourceBundle, targetRegion, template);
     const bodyEn = `${frontmatterEn}\n${postEn.content.trim()}\n`;
 
     const frontmatterFr = buildFrontmatter(
       {
-        ...postEn,
+        ...postEnWithCover,
         ...postFr,
         category: template.category,
         tags: postFr.tags,

@@ -2,6 +2,7 @@
 title: "Les règles échouent dans le prompt, réussissent à la frontière"
 date: "2026-02-06"
 excerpt: "Les workflows agentiques et la coercition par prompt sont la nouvelle surface d'attaque. Ce tutoriel décrit une stratégie de frontière concrète et déployable (moteur de politique + sandbox + canaux attestés) pour réduire le risque de compromission agentique — avec configurations, code, métriques et cadre coût/risque pour fondateurs (contexte Royaume‑Uni)."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-rules-fail-at-the-prompt-succeed-at-the-boundary.jpg"
 region: "UK"
 category: "Tutorials"
 editorialTemplate: "TUTORIAL"

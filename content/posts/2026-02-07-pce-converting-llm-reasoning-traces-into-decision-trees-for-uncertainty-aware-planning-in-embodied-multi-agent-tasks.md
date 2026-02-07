@@ -2,6 +2,7 @@
 title: "PCE: Converting LLM Reasoning Traces into Decision Trees for Uncertainty-Aware Planning in Embodied Multi-Agent Tasks"
 date: "2026-02-07"
 excerpt: "Describes PCE (Planner-Composer-Evaluator) that turns LLM reasoning assumptions into decision trees, then scores paths by likelihood, goal gain and execution cost to reduce communication."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-07-pce-converting-llm-reasoning-traces-into-decision-trees-for-uncertainty-aware-planning-in-embodied-multi-agent-tasks.jpg"
 region: "UK"
 category: "Tutorials"
 series: "agent-playbook"

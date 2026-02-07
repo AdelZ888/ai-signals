@@ -12,9 +12,11 @@
     "generate-tutorial": "FORCE_TEMPLATE=TUTORIAL node scripts/generate-post.mjs",
     "generate-newsletter": "node scripts/generate-newsletter.mjs",
     "send-newsletter": "node scripts/send-newsletter.mjs",
+    "backfill-covers": "node scripts/backfill-cover-images.mjs",
     "automate": "node scripts/automate.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^2.2.0",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "next": "16.1.6",

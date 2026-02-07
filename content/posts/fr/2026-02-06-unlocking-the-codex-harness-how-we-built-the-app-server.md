@@ -2,6 +2,7 @@
 title: "Déverrouiller le Codex Harness : comment nous avons construit l'App Server"
 date: "2026-02-06"
 excerpt: "Tutoriel technique pour développeurs et fondateurs : implémenter un App Server JSON‑RPC bidirectionnel qui expose des hypothèses internes, stream des frames incrémentales et persiste des diffs pour approbation humaine. Combine des patterns pratiques avec deux signaux de recherche (PCE, Empirical‑MCTS). Les artefacts concrets non documentés dans les extraits de recherche sont marqués HYPOTHESIS."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-unlocking-the-codex-harness-how-we-built-the-app-server.jpg"
 region: "US"
 category: "Tutorials"
 series: "agent-playbook"

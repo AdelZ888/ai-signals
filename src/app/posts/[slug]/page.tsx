@@ -35,13 +35,16 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
   try {
     const post = await getPostBySlug(slug);
-    const ogUrl = buildOgUrl({
+    const ogFallback = buildOgUrl({
       title: post.title,
       subtitle: post.excerpt,
       locale: "en",
       kind: "post",
       kicker: post.category,
     });
+    const ogUrl = post.coverImage || ogFallback;
+    const ogImageUrl = ogUrl.startsWith("http") ? ogUrl : `${getSiteUrl()}${ogUrl}`;
+    const canonicalUrl = `${getSiteUrl()}/posts/${post.slug}`;
     return {
       title: post.title,
       description: post.excerpt,
@@ -56,14 +59,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
         type: "article",
         title: post.title,
         description: post.excerpt,
-        url: `/posts/${post.slug}`,
-        images: [{ url: ogUrl, width: 1200, height: 630, alt: post.title }],
+        url: canonicalUrl,
+        images: [{ url: ogImageUrl, width: 1200, height: 630, alt: post.title }],
       },
       twitter: {
         card: "summary_large_image",
         title: post.title,
         description: post.excerpt,
-        images: [ogUrl],
+        images: [ogImageUrl],
       },
     };
   } catch {
@@ -91,14 +94,15 @@ export default async function PostPage({ params }: Params) {
     const dt = new Date(post.date);
     return Number.isFinite(dt.getTime()) ? dt.toISOString() : post.date;
   })();
-  const coverUrl = buildOgUrl({
+  const coverFallback = buildOgUrl({
     title: post.title,
     subtitle: post.excerpt,
     locale: "en",
     kind: "post",
     kicker: post.category,
   });
-  const ogImageUrl = `${getSiteUrl()}${coverUrl}`;
+  const coverUrl = post.coverImage || coverFallback;
+  const ogImageUrl = coverUrl.startsWith("http") ? coverUrl : `${getSiteUrl()}${coverUrl}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",

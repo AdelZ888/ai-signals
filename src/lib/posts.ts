@@ -52,6 +52,7 @@ export type PostMeta = {
   title: string;
   date: string;
   excerpt: string;
+  coverImage?: string;
   tags: string[];
   sources: string[];
   category: string;
@@ -229,6 +230,7 @@ function normalizeMeta(slug: string, data: Frontmatter, markdown = ""): PostMeta
   const title = String(data.title ?? slug);
   const tags = Array.isArray(data.tags) ? data.tags.map(String) : [];
   const sources = Array.isArray(data.sources) ? data.sources.map(String) : [];
+  const coverImage = typeof data.coverImage === "string" ? data.coverImage.trim() : "";
   const series = typeof data.series === "string" ? data.series.trim() : "";
   const difficultyRaw = typeof data.difficulty === "string" ? data.difficulty.trim().toLowerCase() : "";
   const difficulty = DIFFICULTY_VALUES.includes(difficultyRaw as (typeof DIFFICULTY_VALUES)[number])
@@ -243,6 +245,7 @@ function normalizeMeta(slug: string, data: Frontmatter, markdown = ""): PostMeta
     title,
     date: String(data.date ?? "1970-01-01"),
     excerpt: String(data.excerpt ?? ""),
+    coverImage: coverImage || undefined,
     tags,
     sources,
     category: String(data.category ?? inferCategory(tags, title)),

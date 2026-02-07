@@ -2,6 +2,7 @@
 title: "GPT-OSS Agentic RL: What Builders Can Actually Ship"
 date: "2026-02-06"
 excerpt: "A builder-focused breakdown of Agentic RL for GPT-OSS: what changed, what to implement first, and how founders can decide if the economics work."
+coverImage: "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-unlocking-agentic-rl-training-for-gpt-oss-a-practical-retrospective.jpg"
 region: "FR"
 category: "News"
 editorialTemplate: "NEWS"
