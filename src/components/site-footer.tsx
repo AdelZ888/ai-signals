@@ -26,41 +26,63 @@ export function SiteFooter() {
             </p>
           </div>
 
-          <div className="space-y-2 text-sm">
+          <div className="text-sm">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">
               {locale === "fr" ? "Explorer" : "Explore"}
             </p>
-            <Link className="footer-link" href={`${prefix}/start-here`}>
-              {locale === "fr" ? "Commencer ici" : "Start here"}
-            </Link>
-            <Link className="footer-link" href={`${prefix}/news`}>
-              {locale === "fr" ? "Actualites" : "News"}
-            </Link>
-            <Link className="footer-link" href={`${prefix}/tutorials`}>
-              {locale === "fr" ? "Tutoriels" : "Tutorials"}
-            </Link>
-            <Link className="footer-link" href={`${prefix}/newsletter`}>
-              {locale === "fr" ? "Newsletter" : "Newsletter"}
-            </Link>
-            <Link className="footer-link" href={`${prefix}/regions`}>
-              {locale === "fr" ? "Regions" : "Regions"}
-            </Link>
-            <Link className="footer-link" href={`${prefix}/search`}>
-              {locale === "fr" ? "Recherche" : "Search"}
-            </Link>
+            <ul className="mt-3 grid gap-2">
+              <li>
+                <Link className="footer-link inline-flex w-fit" href={`${prefix}/start-here`}>
+                  {locale === "fr" ? "Commencer ici" : "Start here"}
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link inline-flex w-fit" href={`${prefix}/news`}>
+                  {locale === "fr" ? "Actualites" : "News"}
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link inline-flex w-fit" href={`${prefix}/tutorials`}>
+                  {locale === "fr" ? "Tutoriels" : "Tutorials"}
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link inline-flex w-fit" href={`${prefix}/newsletter`}>
+                  {locale === "fr" ? "Newsletter" : "Newsletter"}
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link inline-flex w-fit" href={`${prefix}/regions`}>
+                  {locale === "fr" ? "Regions" : "Regions"}
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link inline-flex w-fit" href={`${prefix}/search`}>
+                  {locale === "fr" ? "Recherche" : "Search"}
+                </Link>
+              </li>
+            </ul>
           </div>
 
-          <div className="space-y-2 text-sm">
+          <div className="text-sm">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">RSS</p>
-            <a className="footer-link" href={`${prefix}/rss.xml`}>
-              {locale === "fr" ? "Flux RSS" : "RSS feed"}
-            </a>
-            <a className="footer-link" href={`${prefix}/newsletter/rss.xml`}>
-              {locale === "fr" ? "RSS newsletter" : "Newsletter RSS"}
-            </a>
-            <a className="footer-link" href={`${prefix}/sitemap.xml`}>
-              Sitemap
-            </a>
+            <ul className="mt-3 grid gap-2">
+              <li>
+                <a className="footer-link inline-flex w-fit" href={`${prefix}/rss.xml`}>
+                  {locale === "fr" ? "Flux RSS" : "RSS feed"}
+                </a>
+              </li>
+              <li>
+                <a className="footer-link inline-flex w-fit" href={`${prefix}/newsletter/rss.xml`}>
+                  {locale === "fr" ? "RSS newsletter" : "Newsletter RSS"}
+                </a>
+              </li>
+              <li>
+                <a className="footer-link inline-flex w-fit" href="/sitemap.xml">
+                  Sitemap
+                </a>
+              </li>
+            </ul>
           </div>
 
           <div className="space-y-3">

@@ -17,6 +17,7 @@ import {
   getRegionLabel,
   getSeriesLabel,
 } from "@/lib/posts";
+import { buildOgUrl } from "@/lib/og";
 import { getSiteUrl } from "@/lib/site-url";
 
 type Params = {
@@ -33,13 +34,13 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
   try {
     const post = await getPostBySlug(slug);
-    const ogUrl = `/api/og?${new URLSearchParams({
+    const ogUrl = buildOgUrl({
       title: post.title,
       subtitle: post.excerpt,
       locale: "en",
       kind: "post",
       kicker: post.category,
-    }).toString()}`;
+    });
     return {
       title: post.title,
       description: post.excerpt,

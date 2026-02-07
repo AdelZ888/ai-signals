@@ -7,6 +7,7 @@ import { PostToc } from "@/components/post-toc";
 import { ReadingProgress } from "@/components/reading-progress";
 import { ShareSnippet } from "@/components/share-snippet";
 import { getAllNewslettersMeta, getNewsletter } from "@/lib/newsletters";
+import { buildOgUrl } from "@/lib/og";
 import { getSiteUrl } from "@/lib/site-url";
 
 type Params = {
@@ -31,13 +32,13 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
   try {
     const issue = await getNewsletter(slug, "en");
-    const ogUrl = `/api/og?${new URLSearchParams({
+    const ogUrl = buildOgUrl({
       title: issue.title,
       subtitle: issue.excerpt,
       locale: "en",
       kind: "newsletter",
       kicker: "Newsletter",
-    }).toString()}`;
+    });
     return {
       title: issue.title,
       description: issue.excerpt,
