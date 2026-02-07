@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-07T10:43:13.222Z",
+  "generatedAt": "2026-02-07T10:50:58.501Z",
   "items": [
     {
       "id": "https://arxiv.org/abs/2602.05088",
@@ -32,7 +32,22 @@
       "keywordHits": 9,
       "publishedAt": "2026-02-06T05:00:00.000Z",
       "score": 149.89,
-      "status": "queued"
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-07T10:56:37.463Z",
+      "file": "content/posts/2026-02-07-pce-converting-llm-reasoning-traces-into-decision-trees-for-uncertainty-aware-planning-in-embodied-multi-agent-tasks.md",
+      "fileFr": "content/posts/fr/2026-02-07-pce-converting-llm-reasoning-traces-into-decision-trees-for-uncertainty-aware-planning-in-embodied-multi-agent-tasks.md",
+      "sourceBundle": [
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "sourceSnapshotsCount": 1,
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 360,
+      "wordsEn": 1480,
+      "wordsFr": 1443
     },
     {
       "id": "https://arxiv.org/abs/2602.04248",
@@ -467,7 +482,15 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-05T11:00:00.000Z",
       "score": 40.22,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-02-07T10:50:58.503Z",
+      "failureReason": "insufficient source snapshots (0/1)",
+      "sourceBundle": [
+        "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost"
+      ],
+      "sourceSnapshotsCount": 0
     },
     {
       "id": "https://openai.com/index/retiring-gpt-4o-and-older-models",
