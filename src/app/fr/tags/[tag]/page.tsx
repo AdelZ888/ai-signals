@@ -97,7 +97,7 @@ export default async function TagFrPage({ params, searchParams }: Props) {
         </p>
       </div>
 
-      <section className="mt-8 grid gap-4 sm:grid-cols-2">
+      <section className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {pagePosts.map((post, index) => (
           <PostCard key={post.slug} post={post} locale="fr" delayClass={`motion-delay-${Math.min(index + 2, 8)}`} />
         ))}

@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import type { CSSProperties } from "react";
 
 import { NewsletterCta } from "@/components/newsletter-cta";
 import { PostCard } from "@/components/post-card";
 import { formatTagForPath, PRIMARY_REGIONS, getAllPostsMeta, getAllTags, getRegionLabel, regionCodeToPath } from "@/lib/posts";
+import { buildOgUrl } from "@/lib/og";
 
 export const metadata: Metadata = {
   title: "Accueil",
@@ -56,6 +58,22 @@ export default async function HomeFr() {
   const rest = posts.slice(1, 13);
   const visibleTags = tags.slice(0, 6);
   const hiddenTags = tags.slice(6, 18);
+  const latestNews = posts.filter((post) => post.category.toLowerCase() === "news").slice(0, 3);
+  const latestTutorials = posts.filter((post) => post.category.toLowerCase() === "tutorials").slice(0, 3);
+  const featuredCoverUrl =
+    featured?.coverImage ||
+    (featured
+      ? buildOgUrl({
+          title: featured.title,
+          subtitle: featured.excerpt,
+          locale: "fr",
+          kind: "post",
+          kicker: featured.category,
+        })
+      : "");
+  const featuredCoverStyle = featuredCoverUrl
+    ? ({ ["--featured-cover" as never]: `url("${featuredCoverUrl}")` } as unknown as CSSProperties)
+    : undefined;
 
   return (
     <main className="mx-auto w-full max-w-6xl px-6 py-12">
@@ -137,27 +155,37 @@ export default async function HomeFr() {
 
           {featured ? (
             <div className="card-frame motion-card motion-enter motion-delay-2">
-              <article className="rounded-2xl border theme-border theme-surface p-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">À la une</p>
-                <h3 className="mt-3 text-3xl font-black tracking-tight">
-                  <Link href={`/fr/posts/${featured.slug}`} className="motion-link hover:text-cyan-300">
-                    {featured.title}
-                  </Link>
-                </h3>
-                <p className="mt-3 card-excerpt">{featured.excerpt}</p>
-                <div className="mt-5 flex flex-wrap gap-2">
-                  <Link href={`/fr/posts/${featured.slug}`} className="hero-cta hero-cta-secondary">
-                    Ouvrir
-                  </Link>
-                  <Link href="/fr/tutorials" className="hero-cta hero-cta-tertiary">
-                    Tutoriels
-                  </Link>
+              <article className="featured-card rounded-2xl border theme-border theme-surface">
+                <Link href={`/fr/posts/${featured.slug}`} className="featured-cover motion-link" style={featuredCoverStyle} aria-label={featured.title}>
+                  <div className="featured-cover-badges">
+                    <span className="post-card-badge">À la une</span>
+                    <span className="post-card-badge post-card-badge-soft">{featured.category}</span>
+                  </div>
+                </Link>
+                <div className="p-6">
+                  <h3 className="text-3xl font-black tracking-tight">
+                    <Link href={`/fr/posts/${featured.slug}`} className="motion-link hover:text-cyan-300">
+                      {featured.title}
+                    </Link>
+                  </h3>
+                  <p className="mt-3 card-excerpt">{featured.excerpt}</p>
+                  <div className="mt-5 flex flex-wrap gap-2">
+                    <Link href={`/fr/posts/${featured.slug}`} className="hero-cta hero-cta-primary">
+                      Lire
+                    </Link>
+                    <Link href="/fr/news" className="hero-cta hero-cta-secondary">
+                      Actus
+                    </Link>
+                    <Link href="/fr/tutorials" className="hero-cta hero-cta-tertiary">
+                      Tutoriels
+                    </Link>
+                  </div>
                 </div>
               </article>
             </div>
           ) : null}
 
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
             {rest.map((post, index) => (
               <PostCard key={post.slug} post={post} locale="fr" delayClass={`motion-delay-${Math.min(index + 3, 8)}`} />
             ))}
@@ -187,6 +215,40 @@ export default async function HomeFr() {
               <a className="footer-link" href="/fr/rss.xml">
                 RSS
               </a>
+            </div>
+          </div>
+
+          <div className="aside-card motion-card motion-enter motion-delay-5">
+            <p className="section-kicker">Aujourd&apos;hui</p>
+            <div className="mt-3 grid gap-4 text-sm">
+              <div>
+                <p className="text-xs font-extrabold uppercase tracking-[0.2em] theme-text-faint">Actus</p>
+                <div className="mt-2 grid gap-2">
+                  {latestNews.length > 0 ? (
+                    latestNews.map((post) => (
+                      <Link key={`home-fr-news-${post.slug}`} href={`/fr/posts/${post.slug}`} className="footer-link">
+                        {post.title}
+                      </Link>
+                    ))
+                  ) : (
+                    <p className="text-sm theme-text-faint">Aucune actu pour le moment.</p>
+                  )}
+                </div>
+              </div>
+              <div>
+                <p className="text-xs font-extrabold uppercase tracking-[0.2em] theme-text-faint">Tutoriels</p>
+                <div className="mt-2 grid gap-2">
+                  {latestTutorials.length > 0 ? (
+                    latestTutorials.map((post) => (
+                      <Link key={`home-fr-tutorial-${post.slug}`} href={`/fr/posts/${post.slug}`} className="footer-link">
+                        {post.title}
+                      </Link>
+                    ))
+                  ) : (
+                    <p className="text-sm theme-text-faint">Aucun tutoriel pour le moment.</p>
+                  )}
+                </div>
+              </div>
             </div>
           </div>
         </aside>

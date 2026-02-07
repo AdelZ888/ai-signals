@@ -123,6 +123,9 @@ export default async function PostFrPage({ params }: Params) {
   const showSeries = typeof post.series === "string" && post.series.trim().length > 0;
   const showDifficulty = !!post.difficulty;
   const showTime = typeof post.timeToImplementMinutes === "number" && Number.isFinite(post.timeToImplementMinutes);
+  const visibleTags = post.tags.slice(0, 8);
+  const hiddenTags = post.tags.slice(8);
+  const moreLabel = `+${hiddenTags.length} de plus`;
   const coverStyle = { ["--cover-image" as never]: `url("${coverUrl}")` } as unknown as CSSProperties;
 
   return (
@@ -149,11 +152,24 @@ export default async function PostFrPage({ params }: Params) {
             </div>
 
             <div className="mt-5 flex flex-wrap gap-2">
-              {post.tags.map((tag) => (
+              {visibleTags.map((tag) => (
                 <Link key={`${post.slug}-${tag}`} href={`/fr/tags/${formatTagForPath(tag)}`} className="article-tag">
                   {tag}
                 </Link>
               ))}
+
+              {hiddenTags.length > 0 ? (
+                <details className="tag-more">
+                  <summary className="tag-more-summary">{moreLabel}</summary>
+                  <div className="tag-more-panel">
+                    {hiddenTags.map((tag) => (
+                      <Link key={`${post.slug}-${tag}-hidden`} href={`/fr/tags/${formatTagForPath(tag)}`} className="article-tag">
+                        {tag}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              ) : null}
             </div>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm">

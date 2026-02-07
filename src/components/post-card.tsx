@@ -1,8 +1,10 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 
 import type { Locale } from "@/lib/i18n";
 import { localePrefix } from "@/lib/i18n";
 import { formatTagForPath, getCategoryLabel, getDifficultyLabel, getRegionLabel, getSeriesLabel, type PostMeta } from "@/lib/posts";
+import { buildOgUrl } from "@/lib/og";
 
 type PostCardProps = {
   post: PostMeta;
@@ -48,18 +50,6 @@ function IconCalendar({ title }: { title: string }) {
   );
 }
 
-function IconGlobe({ title }: { title: string }) {
-  return (
-    <Icon title={title}>
-      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M3 12h18" />
-        <path d="M12 3c3 3.5 3 14.5 0 18c-3-3.5-3-14.5 0-18Z" />
-      </svg>
-    </Icon>
-  );
-}
-
 function IconClock({ title }: { title: string }) {
   return (
     <Icon title={title}>
@@ -82,18 +72,6 @@ function IconSpark({ title }: { title: string }) {
   );
 }
 
-function IconStack({ title }: { title: string }) {
-  return (
-    <Icon title={title}>
-      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2">
-        <path d="M12 3l9 5-9 5-9-5 9-5Z" />
-        <path d="M3 12l9 5 9-5" />
-        <path d="M3 16l9 5 9-5" />
-      </svg>
-    </Icon>
-  );
-}
-
 export function PostCard({ post, delayClass, locale = "en" }: PostCardProps) {
   const prefix = localePrefix(locale);
   const minuteLabel = locale === "fr" ? "min de lecture" : "min read";
@@ -102,60 +80,83 @@ export function PostCard({ post, delayClass, locale = "en" }: PostCardProps) {
   const showTime = typeof post.timeToImplementMinutes === "number" && Number.isFinite(post.timeToImplementMinutes);
   const timeLabel = locale === "fr" ? "min build" : "min build";
 
-  const visibleTags = post.tags.slice(0, 6);
-  const hiddenTags = post.tags.slice(6);
+  const coverUrl =
+    post.coverImage ||
+    buildOgUrl({
+      title: post.title,
+      subtitle: post.excerpt,
+      locale,
+      kind: "post",
+      kicker: post.category,
+    });
+  const coverStyle = { ["--post-card-cover" as never]: `url("${coverUrl}")` } as unknown as CSSProperties;
+
+  const visibleTags = post.tags.slice(0, 5);
+  const hiddenTags = post.tags.slice(5);
   const moreLabel = locale === "fr" ? `+${hiddenTags.length} de plus` : `+${hiddenTags.length} more`;
   const dateLabel = locale === "fr" ? "Date" : "Date";
-  const regionLabel = locale === "fr" ? "Région" : "Region";
   const readingLabel = locale === "fr" ? "Lecture" : "Reading time";
-  const categoryLabel = locale === "fr" ? "Catégorie" : "Category";
   const seriesLabel = locale === "fr" ? "Série" : "Series";
   const difficultyLabel = locale === "fr" ? "Niveau" : "Difficulty";
   const buildTimeLabel = locale === "fr" ? "Temps de build" : "Build time";
+  const openLabel = locale === "fr" ? "Ouvrir" : "Open";
+  const coverAlt = locale === "fr" ? `Couverture: ${post.title}` : `Cover: ${post.title}`;
 
   return (
     <div className={`card-frame motion-card motion-enter ${delayClass || ""}`}>
-      <article className="rounded-2xl border theme-border theme-surface p-5">
-        <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
-          <span className="meta-chip" title={dateLabel}>
-            <IconCalendar title={dateLabel} />
-            <span>{formatDisplayDate(post.date, locale)}</span>
+      <article className="post-card rounded-2xl border theme-border theme-surface">
+        <Link
+          href={`${prefix}/posts/${post.slug}`}
+          className="post-card-cover motion-link"
+          style={coverStyle}
+          aria-label={coverAlt}
+        >
+          <div className="post-card-cover-badges">
+            <span className="post-card-badge">{getCategoryLabel(post.category, locale)}</span>
+            <span className="post-card-badge post-card-badge-soft">{getRegionLabel(post.region, locale)}</span>
+          </div>
+          <span className="post-card-open">
+            {openLabel}
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <path d="M5 12h12" />
+              <path d="M13 6l6 6-6 6" />
+            </svg>
           </span>
-          <span className="meta-chip" title={regionLabel}>
-            <IconGlobe title={regionLabel} />
-            <span>{getRegionLabel(post.region, locale)}</span>
-          </span>
-          <span className="meta-chip" title={readingLabel}>
-            <IconClock title={readingLabel} />
-            <span>
-              {post.readingTimeMinutes} {minuteLabel}
+        </Link>
+
+        <div className="p-5">
+          <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
+            <span className="meta-chip" title={dateLabel}>
+              <IconCalendar title={dateLabel} />
+              <span>{formatDisplayDate(post.date, locale)}</span>
             </span>
-          </span>
-          <span className="meta-chip" title={categoryLabel}>
-            <IconStack title={categoryLabel} />
-            <span>{getCategoryLabel(post.category, locale)}</span>
-          </span>
-          {showSeries ? (
-            <span className="meta-chip" title={seriesLabel}>
-              <IconSpark title={seriesLabel} />
-              <span>{getSeriesLabel(post.series!, locale)}</span>
-            </span>
-          ) : null}
-          {showDifficulty ? (
-            <span className="meta-chip" title={difficultyLabel}>
-              <IconSpark title={difficultyLabel} />
-              <span>{getDifficultyLabel(post.difficulty!, locale)}</span>
-            </span>
-          ) : null}
-          {showTime ? (
-            <span className="meta-chip" title={buildTimeLabel}>
-              <IconClock title={buildTimeLabel} />
+            <span className="meta-chip" title={readingLabel}>
+              <IconClock title={readingLabel} />
               <span>
-                {Math.max(5, Math.round(post.timeToImplementMinutes!))} {timeLabel}
+                {post.readingTimeMinutes} {minuteLabel}
               </span>
             </span>
-          ) : null}
-        </div>
+            {showSeries ? (
+              <span className="meta-chip" title={seriesLabel}>
+                <IconSpark title={seriesLabel} />
+                <span>{getSeriesLabel(post.series!, locale)}</span>
+              </span>
+            ) : null}
+            {showDifficulty ? (
+              <span className="meta-chip" title={difficultyLabel}>
+                <IconSpark title={difficultyLabel} />
+                <span>{getDifficultyLabel(post.difficulty!, locale)}</span>
+              </span>
+            ) : null}
+            {showTime ? (
+              <span className="meta-chip" title={buildTimeLabel}>
+                <IconClock title={buildTimeLabel} />
+                <span>
+                  {Math.max(5, Math.round(post.timeToImplementMinutes!))} {timeLabel}
+                </span>
+              </span>
+            ) : null}
+          </div>
         <h2 className="text-2xl font-bold tracking-tight">
           <Link href={`${prefix}/posts/${post.slug}`} className="motion-link hover:text-cyan-300">
             {post.title}
@@ -190,6 +191,7 @@ export function PostCard({ post, delayClass, locale = "en" }: PostCardProps) {
               </div>
             </details>
           ) : null}
+        </div>
         </div>
       </article>
     </div>

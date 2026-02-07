@@ -100,7 +100,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         )}
       </p>
 
-      <section className="mt-6 grid gap-4">
+      <section className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {pagePosts.map((post, index) => (
           <PostCard key={post.slug} post={post} delayClass={`motion-delay-${Math.min(index + 3, 8)}`} />
         ))}

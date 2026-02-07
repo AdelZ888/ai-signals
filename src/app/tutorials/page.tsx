@@ -77,7 +77,7 @@ export default async function TutorialsPage({ searchParams }: Props) {
           </p>
         ) : null}
       </div>
-      <section className="mt-8 grid gap-4 sm:grid-cols-2">
+      <section className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {pagePosts.length > 0 ? (
           pagePosts.map((post, index) => (
             <PostCard key={post.slug} post={post} delayClass={`motion-delay-${Math.min(index + 2, 8)}`} />

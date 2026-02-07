@@ -7,7 +7,7 @@ import { NewsletterCta } from "@/components/newsletter-cta";
 import { getLocaleFromPathname } from "@/lib/i18n";
 
 const STORAGE_KEY = "aisignals_subscribe_modal_v1";
-const COOLDOWN_DAYS = 7;
+const COOLDOWN_DAYS = 30;
 
 function cooldownMs() {
   return COOLDOWN_DAYS * 24 * 60 * 60 * 1000;
