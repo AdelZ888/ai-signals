@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-08T08:25:10.005Z",
+  "generatedAt": "2026-02-08T15:30:53.406Z",
   "items": [
+    {
+      "id": "https://github.com/rendro/sediment",
+      "title": "Show HN: Sediment – Local semantic memory for AI agents (Rust, single binary)",
+      "link": "https://github.com/rendro/sediment",
+      "summary": "I've been increasingly relying on AI coding assistants. I recently had my first child, and my coding hours look different now. I prompt between feedings, sketch out ideas while he naps, and pick up where I left off later. AI lets me stay productive in fragmented time. But every session starts from zero. Claude doesn't remember the product roadmap we outlined last week. It doesn't know the design decisions we already…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-08T14:41:07.000Z",
+      "score": 246,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-08T15:30:53.355Z",
+      "file": "content/posts/2026-02-08-add-persistent-local-semantic-memory-to-llm-agents-with-sediment-rust-single-binary.md",
+      "fileFr": "content/posts/fr/2026-02-08-add-persistent-local-semantic-memory-to-llm-agents-with-sediment-rust-single-binary.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1697,
+      "wordsFr": 1974
+    },
     {
       "id": "https://www.numerama.com/sciences/2170347-horloge-de-lapocalypse-2026-il-ne-reste-que-85-secondes-avant-minuit.html",
       "title": "Horloge de l’Apocalypse 2026 : il ne reste que 85 secondes avant minuit",
@@ -1076,6 +1099,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=46934166",
+      "title": "Recursive Deductive Verification: A framework for reducing AI hallucinations",
+      "link": "https://news.ycombinator.com/item?id=46934166",
+      "summary": ": I've been working on a systematic methodology that significantly improves LLM reliability. The core idea: force verification before conclusion. The Problem: LLMs generate plausible-sounding outputs without verifying premises. They optimize for coherence, not correctness. RDV Principles: Never assume - If not verifiable, ask or admit uncertainty Decompose recursively - Break complex claims into testable atomic facts Distinguish IS from SHOULD - Separate observation from recommendation Test mechanisms first - Functions over essences, reproducible behavior over speculation Intellectual honesty over comfort - \"I don't know\" is valid Practical Results: Applied as system instructions, RDV significantly reduces: Hallucinations (model stops instead of confabulating) Logical errors (decomposition catches flaws) Unjustified confidence (verification reveals gaps) Example: Without RDV: \"The best solution is X because Y\" (unverified assumption) With RDV: \"What are we optimizing for? What constraints exist? Let me verify Y before recommending X...\" Implementation: Can be added to system prompts or custom instructions. The key is making verification a required step, not optional. This isn't about restricting capability - it's about adding rigor. Better verification = more reliable outputs. Open question: Could verification frameworks like this be built into model training rather than just p",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-08T13:48:17.000Z",
+      "score": 127.25,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.05110",
       "title": "Understanding LLM Evaluator Behavior: A Structured Multi-Evaluator Framework for Merchant Risk Assessment",
       "link": "https://arxiv.org/abs/2602.05110",
@@ -1148,6 +1183,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.watchllm.dev/",
+      "title": "WatchLLM – Cost kill switch for AI agents (with loop detection)",
+      "link": "https://www.watchllm.dev/",
+      "summary": "Article URL: https://www.watchllm.dev/ Comments URL: https://news.ycombinator.com/item?id=46933707 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-08T12:34:15.000Z",
+      "score": 113.78,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.04986",
       "title": "Artificial Intelligence as Strange Intelligence: Against Linear Models of Intelligence",
       "link": "https://arxiv.org/abs/2602.04986",
@@ -1172,6 +1219,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=46933611",
+      "title": "AI's Real Problem Is Illegitimacy, Not Hallucination",
+      "link": "https://news.ycombinator.com/item?id=46933611",
+      "summary": "The Core Problem of AI Is Not Hallucination — It Is the Lack of Execution Legitimacy Janus pater Introduction Most debates around AI today revolve around a false question: is the model smart enough, accurate enough? In engineering reality, the real question is never accuracy — it is whether the system is even allowed to act. 1. The Original Sin of the Predictive Paradigm: No Execution Legitimacy Modern generative AI fundamentally does one thing: predict the most likely next state in a probability space. Whether it predicts tokens, pixels, latent states, or so-called “world models”, as long as the output is probabilistic, it answers only one question: “What is most likely to happen?” In many real-world systems, however, engineering demands an entirely different question: “What is the only action that is allowed to be executed?” This is not an accuracy problem — it is a legitimacy problem. 2. Yann LeCun Is Right — but Only Halfway LeCun is absolutely right to criticize next-token prediction as the foundation of intelligence. World models (JEPA) are undeniably more advanced than raw pixel or text prediction. Yet even world models still output possible worlds, not permitted worlds. World models are excellent at three things: • Abstract state representation • Learning dynamics • Producing goals and constraints They do not possess — and should not possess — execution authority. Once",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-08T12:13:43.000Z",
+      "score": 103.33,
+      "status": "queued"
+    },
+    {
       "id": "https://calculus.academa.ai/",
       "title": "Show HN: A calculus course with an AI tutor watching the lectures with you",
       "link": "https://calculus.academa.ai/",
@@ -1184,6 +1243,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Parassharmaa/agent-sandbox",
+      "title": "Show HN: A sandboxed execution environment for AI agents via WASM",
+      "link": "https://github.com/Parassharmaa/agent-sandbox",
+      "summary": "A secure, embeddable, WASM-based sandbox for AI agents. 40+ built-in CLI tools, a JavaScript runtime, safe HTTP networking, https://news.ycombinator.com/item?id=46933640 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-08T12:17:23.000Z",
+      "score": 92.06,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=46933631",
+      "title": "From Prediction to Compilation: A Manifesto for Intrinsically Reliable AI",
+      "link": "https://news.ycombinator.com/item?id=46933631",
+      "summary": "从预测到编译：本质可靠 AI 的公理化宣言 From Prediction to Compilation: An Axiomatic Manifesto for Intrinsically Reliable AI ________________________________________ 定义｜Definitions 定义 1（预测系统） Definition 1 (Predictive System) 以概率方式输出未来状态或动作分布的系统。 A system that outputs future states or actions in probabilistic form. 定义 2（执行系统） Definition 2 (Executable System) 其输出将直接驱动物理世界状态变化的系统。 A system whose outputs directly cause physical state changes. 定义 3（执行合法性） Definition 3 (Execution Legitimacy) 一个输出在物理上存在唯一、确定、可验证执行路径的性质。 The property that an output admits a unique, deterministic, and verifiable physical execution path. ________________________________________ 核心命题｜Core Proposition 命题 1 Proposition 1 任何缺乏执行合法性的系统，不得被视为可靠的执行系统。 Any system lacking execution legitimacy cannot be considered a reliable executable system. ________________________________________ 公理体系｜Axiom System 公理一：非臆想公理 Axiom I: Non-Hallucination Axiom 系统的任何输出，若不存在唯一的物理执行映射，则该输出在执行层面是非法的。 Any system output that lacks a unique physical execution mapping is illegal at the execution level. ________________________________________ 公理二：预测–执行分离公理 Axiom II: Prediction–Execution Separation Axiom 概率系统仅允许生成目标、约束与假设，不得直接生成可执行动作。 Probabilistic systems may generate goals, constraints, and hypotheses, but must not generate executable actions directly. ________________________________________ 公理三：编译优先公理 Axiom III: Compilation Primacy Axiom 所有可执行动作，必须由确定性物",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-08T12:16:44.000Z",
+      "score": 91.92,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.05113",
       "title": "Democratic Preference Alignment via Sortition-Weighted RLHF",
       "link": "https://arxiv.org/abs/2602.05113",
@@ -1193,6 +1276,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 90,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.nethuml.xyz/posts/2026/02/timeline-of-claims-about-ai-llms/",
+      "title": "A timeline of claims about AI/LLMs",
+      "link": "https://blog.nethuml.xyz/posts/2026/02/timeline-of-claims-about-ai-llms/",
+      "summary": "Article URL: https://blog.nethuml.xyz/posts/2026/02/timeline-of-claims-about-ai-llms/ Comments URL: https://news.ycombinator.com/item?id=46933847 Points: 3 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-08T13:02:08.000Z",
+      "score": 85.84,
       "status": "queued"
     },
     {
@@ -1229,6 +1324,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-08T06:00:09.000Z",
       "score": 80.83,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/",
+      "title": "Jokes on You AI: Turning the Tables – LLMs for Learning",
+      "link": "https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/",
+      "summary": "Article URL: https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/ Comments URL: https://news.ycombinator.com/item?id=46933729 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-08T12:38:20.000Z",
+      "score": 78.79,
       "status": "queued"
     },
     {
@@ -1337,18 +1444,6 @@
       "keywordHits": 0,
       "publishedAt": "2026-01-29T10:00:00.000Z",
       "score": 30.62,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/taisei",
-      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "link": "https://openai.com/index/taisei",
-      "summary": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-29T00:00:00.000Z",
-      "score": 30.58,
       "status": "queued"
     },
     {
@@ -1746,6 +1841,22 @@
       "publishedAt": "2026-01-27T15:01:45.000Z",
       "score": 10.5,
       "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/taisei",
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "link": "https://openai.com/index/taisei",
+      "summary": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-01-29T00:00:00.000Z",
+      "score": 30.58,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-02-08T15:26:38.928Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
