@@ -56,9 +56,9 @@ jobs:
           if [ -n "$CHANGED_POSTS" ]; then
             echo "POST_GENERATED=1" >> "$GITHUB_ENV"
 
-            SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/' | grep -v '^content/posts/fr/' | sed 's|^content/posts/||' | sed -E 's|\\.(md|mdx)$||' | paste -sd ',' - || true)"
+            SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/' | grep -v '^content/posts/fr/' | sed 's|^content/posts/||' | sed -E 's/\.(md|mdx)$//' | paste -sd ',' - || true)"
             if [ -z "$SLUGS" ]; then
-              SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/fr/' | sed 's|^content/posts/fr/||' | sed -E 's|\\.(md|mdx)$||' | paste -sd ',' - || true)"
+              SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/fr/' | sed 's|^content/posts/fr/||' | sed -E 's/\.(md|mdx)$//' | paste -sd ',' - || true)"
             fi
 
             echo "POST_SLUGS=$SLUGS" >> "$GITHUB_ENV"
@@ -92,8 +92,19 @@ jobs:
         if: ${{ env.POST_GENERATED == '1' }}
         run: |
           if [ -z "${POST_SLUGS:-}" ]; then
-            echo "POST_SLUGS is empty even though a post was generated."
-            exit 1
+            echo "POST_SLUGS is empty; inferring slugs from the last commit."
+            CHANGED_POSTS="$(git show --name-only --pretty='' HEAD | grep '^content/posts/' || true)"
+            SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/' | grep -v '^content/posts/fr/' | sed 's|^content/posts/||' | sed -E 's/\.(md|mdx)$//' | paste -sd ',' - || true)"
+            if [ -z "$SLUGS" ]; then
+              SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/fr/' | sed 's|^content/posts/fr/||' | sed -E 's/\.(md|mdx)$//' | paste -sd ',' - || true)"
+            fi
+            if [ -z "$SLUGS" ]; then
+              echo "Could not infer POST_SLUGS from git history."
+              exit 1
+            fi
+            echo "POST_SLUGS=$SLUGS" >> "$GITHUB_ENV"
+            POST_SLUGS="$SLUGS"
+            echo "Inferred post slugs: $POST_SLUGS"
           fi
 
           BASE_URL="https://aisignals.dev"
