@@ -56,9 +56,9 @@ jobs:
           if [ -n "$CHANGED_POSTS" ]; then
             echo "POST_GENERATED=1" >> "$GITHUB_ENV"
 
-            SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/' | grep -v '^content/posts/fr/' | sed 's|^content/posts/||' | sed 's|\\.md$||' | paste -sd ',' - || true)"
+            SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/' | grep -v '^content/posts/fr/' | sed 's|^content/posts/||' | sed -E 's|\\.(md|mdx)$||' | paste -sd ',' - || true)"
             if [ -z "$SLUGS" ]; then
-              SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/fr/' | sed 's|^content/posts/fr/||' | sed 's|\\.md$||' | paste -sd ',' - || true)"
+              SLUGS="$(echo "$CHANGED_POSTS" | grep '^content/posts/fr/' | sed 's|^content/posts/fr/||' | sed -E 's|\\.(md|mdx)$||' | paste -sd ',' - || true)"
             fi
 
             echo "POST_SLUGS=$SLUGS" >> "$GITHUB_ENV"
@@ -128,4 +128,3 @@ jobs:
         run: |
           echo "Automation ran but did not produce a new tutorial. Failing to trigger an alert."
           exit 1
-
