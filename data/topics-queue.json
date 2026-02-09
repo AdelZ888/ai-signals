@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-09T08:43:14.755Z",
+  "generatedAt": "2026-02-09T16:02:00.488Z",
   "items": [
+    {
+      "id": "https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/",
+      "title": "Are AI agents ready for the workplace? A new benchmark raises doubts",
+      "link": "https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/",
+      "summary": "Article URL: https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/ Comments URL: https://news.ycombinator.com/item?id=46926131 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-07T18:18:17.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-09T16:02:00.433Z",
+      "file": "content/posts/2026-02-09-build-an-apex-agents-style-harness-to-evaluate-ai-agents-multi-domain-performance.md",
+      "fileFr": "content/posts/fr/2026-02-09-build-an-apex-agents-style-harness-to-evaluate-ai-agents-multi-domain-performance.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1460,
+      "wordsFr": 1735
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake",
       "title": "OpenAI’s supposedly ‘leaked’ Super Bowl ad with ear buds and a shiny orb was a hoax",
@@ -990,15 +1013,51 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/",
-      "title": "Are AI agents ready for the workplace? A new benchmark raises doubts",
-      "link": "https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/",
-      "summary": "Article URL: https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/ Comments URL: https://news.ycombinator.com/item?id=46926131 Points: 1 # Comments: 0",
+      "id": "https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs",
+      "title": "Siemens CEO Roland Busch’s mission to automate everything",
+      "link": "https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs",
+      "summary": "Today, I’m talking with Roland Busch, who is the CEO of Siemens. Siemens is one of those absolutely giant, extremely important, but fairly opaque companies we love to dig into on Decoder. At a very basic, reductive level, Siemens makes the hardware and software that allow other companies to run and automate their stuff. Everyone has seen the Siemens logo somewhere, whether it’s under the hood of their cars, stamped on control systems in fancy buildings, or scattered across factory floors. But since it’s not really a consumer-facing company, it’s hard to know what ties all these ideas together — and what some 320,000 Siemens employees across the world are actually working on. How all those people are organized and work together is wildly complicated. Roland and I spent some real time just talking through the Siemens corporate structure, which, for my true Decoderheads out there, was incredibly fascinating. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. We also spent a lot of time talking about automation broadly and what happens as AI brings automation from the physical world of factories into the digital world of accounting and procurement — the things that help decide what factories should be doing. Roland’s vision is for Siemens to automate the whole factory process",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 11,
+      "publishedAt": "2026-02-09T15:00:00.000Z",
+      "score": 252,
+      "status": "queued"
+    },
+    {
+      "id": "https://hallucinatingsplines.com",
+      "title": "Show HN: AI agents play SimCity through a REST API",
+      "link": "https://hallucinatingsplines.com",
+      "summary": "This is a weekend project that spiraled out of control. I was originally trying to get Claude to play a ROM of the SNES SimCity. I struggled with it and that led me to Micropolis (the open-sourced SimCity engine) and was able to get it to work by bolting on an API. The weekend hack turned into a headless city simulation platform where anyone can get an API key (no signup) and have their AI agent play mayor. The simulation runs the real Micropolis engine inside Cloudflare Durable Objects, one per city. Every city is public and browsable on the site. LLMs are awful at the spatial stuff, which sort of makes it extra fun as you try to control them when they scatter buildings randomly and struggle with power lines and roads. A little like dealing with a toddler. There's a full REST API and an MCP server, so you can point Claude Code or Cursor at it directly. You can usually get agents building in seconds. Website: https://hallucinatingsplines.com API docs: https://hallucinatingsplines.com/docs GitHub: https://github.com/andrewedunn/hallucinating-splines Future ideas: Let multiple agents play a single city and see how they step all over each other, or a \"conquest mode\" where you can earn points and spawn disasters on other cities. Comments URL: https://news.ycombinator.com/item?id=46946593 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-02-07T18:18:17.000Z",
-      "score": 192,
+      "publishedAt": "2026-02-09T15:54:33.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://clelp.ai",
+      "title": "Show HN: Clelp – A searchable directory of 1,700 AI skills, rated by AI agents",
+      "link": "https://clelp.ai",
+      "summary": "We built a directory for AI skills (MCP servers, agent tools, plugins) because the ecosystem is growing faster than anyone can track manually. Currently indexing 1,700+ skills. Searchable by type, category, and rating. The rating system only accepts reviews from AI agents, not humans. The reasoning: AI agents actually use these tools and can evaluate them on technical merit rather than popularity. Built with Next.js and Supabase. Browse at https://clelp.ai Happy to answer questions about the approach or the tech. Comments URL: https://news.ycombinator.com/item?id=46946520 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T15:49:35.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
+      "title": "Show HN: We added AGENTS.md to 120 challenges so AI teaches instead of codes",
+      "link": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
+      "summary": "Hi HN! I'm Matt, founder of Frontend Mentor (https://www.frontendmentor.io). We provide front-end and full-stack coding challenges with professional Figma designs, enabling developers to build real projects and grow their skills. The problem: AI coding tools are great, but they can work against you when you're learning. Ask Copilot or Cursor to help with a beginner project, and they'll happily write the whole thing for you. You ship the project, but you didn't really learn anything. What we did: We added AGENTS.md (and CLAUDE.md) files to every challenge's starter code. These files tell AI tools how to help based on the challenge's difficulty level, so the AI becomes a learning partner rather than an answer machine. The idea is simple: AI guidance should scale with the learner. - Newbie: AI acts as a patient mentor. Breaks problems into tiny steps, uses analogies, and gives multiple hints before showing an approach. Won't hand you a complete solution. - Junior: AI becomes a supportive guide. Introduces debugging, encourages DevTools usage, and explains the \"why,\" not just the \"what.\" - Intermediate: AI acts like an experienced colleague. Presents trade-offs, shows multiple approaches, and lets you make decisions. - Advanced: AI acts like a senior dev. Challenges your thinking, plays devil's advocate, gives honest feedback. - Guru: AI acts like a peer. Debates approaches, refere",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T15:22:32.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
@@ -1038,6 +1097,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.aiseedance2.app",
+      "title": "Show HN: AI Seedance 2 – Solving the \"jump-cut\" problem in AI video",
+      "link": "https://www.aiseedance2.app",
+      "summary": "I’ve been obsessed with a specific problem in AI video: the transition mess. Most models today (Sora, Kling, etc.) are great at generating a single pretty shot, but as soon as the camera moves or the scene changes, the physics fall apart and the visuals start warping into nonsense. After testing the new Seedance 2.0 models from ByteDance, I noticed they handle scene changes differently. It feels like the model actually understands \"editorial logic\"—likely because ByteDance (the team behind CapCut/TikTok) trained it on professional editing patterns, not just raw pixels. I built aiseedance2.app to experiment with this \"narrative-first\" workflow. The Current Setup: The Seedance 2.0 API is still in a closed rollout, so I’ve launched this playground using Seedance 1.5 Pro as the engine for now. Even with 1.5 Pro, the temporal consistency and \"shot flow\" are significantly better than what I've seen in other models. I’ll be migrating to the 2.0 multi-modal reference system the second it's fully public. Why this matters: If we want AI video to be used for actual filmmaking, the model needs to understand how to \"cut\" like a human editor. Seedance seems to be the first one to get this right. I’d love to get your thoughts on the \"flow\" of these generations. Comments URL: https://news.ycombinator.com/item?id=46946280 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-09T15:27:49.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
+      "title": "OpenAI will reportedly start testing ads in ChatGPT today",
+      "link": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
+      "summary": "OpenAI plans to start testing ads in ChatGPT today, according to a report from CNBC. The \"clearly labeled\" ads will appear in a separate area beneath your chat, OpenAI announced last month. A source close to the situation tells CNBC that OpenAI \"expects ads to make up less than half of its revenue long term.\" Last week, Anthropic showed off a Super Bowl commercial poking fun at OpenAI, saying \"ads are coming to AI,\" but not to its AI chatbot Claude. The version of the ad that aired during the game was a little less direct after OpenAI CEO Sam Altman called the campaign \"clearly dishonest.\" OpenAI will show ads to logged-in users who use th … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T14:45:41.000Z",
+      "score": 161.9,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/GRMPZQUIDOS/AIII",
       "title": "AIII: A public benchmark for AI narrative and political independence",
       "link": "https://github.com/GRMPZQUIDOS/AIII",
@@ -1046,6 +1129,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-07T17:41:13.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://aistage.pro/",
+      "title": "Agent Lens AI Staging",
+      "link": "https://aistage.pro/",
+      "summary": "Article URL: https://aistage.pro/ Comments URL: https://news.ycombinator.com/item?id=46946031 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-09T15:07:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/singularityhacker/bank-skills",
+      "title": "Bank Skills: Give your AI agent a bank account",
+      "link": "https://github.com/singularityhacker/bank-skills",
+      "summary": "Article URL: https://github.com/singularityhacker/bank-skills Comments URL: https://news.ycombinator.com/item?id=46945944 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-09T15:00:13.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -1635,6 +1742,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-08T04:49:56.000Z",
       "score": 69.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cqxdj77welpo?at_medium=RSS&at_campaign=rss",
+      "title": "EU tells Meta to let rivals run AI chatbots on WhatsApp",
+      "link": "https://www.bbc.com/news/articles/cqxdj77welpo?at_medium=RSS&at_campaign=rss",
+      "summary": "A Meta spokesperson said the EU had \"no reason\" to intervene over it changing the app in January.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-09T12:14:35.000Z",
+      "score": 68.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/",
+      "title": "Making AI Work, MIT Technology Review’s new AI newsletter, is here",
+      "link": "https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/",
+      "summary": "For years, our newsroom has explored AI’s limitations and potential dangers, as well as its growing energy needs. And our reporters have looked closely at how generative tools are being used for tasks such as coding and running scientific experiments. But how is AI actually being used in fields like health care, climate tech, education,…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-09T11:30:00.000Z",
+      "score": 57.03,
       "status": "queued"
     },
     {
