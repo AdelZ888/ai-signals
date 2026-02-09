@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-08T15:30:53.406Z",
+  "generatedAt": "2026-02-09T08:43:14.755Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake",
+      "title": "OpenAI’s supposedly ‘leaked’ Super Bowl ad with ear buds and a shiny orb was a hoax",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake",
+      "summary": "As if OpenAI didn't have enough drama around the Super Bowl and advertising, as the game wound down, word spread of a \"leaked\" ad that actually wasn't leaked at all; it was just a fake. Screenshots of a now-deleted Reddit thread told the tale of a frustrated employee who, while posting about how upset they were because the ad they'd worked on didn't run, accidentally leaked the entire advertisement video, seemingly…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-09T04:54:36.000Z",
+      "score": 68.09,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-09T08:43:14.751Z",
+      "file": "content/posts/2026-02-09-screenshots-alleging-a-leaked-openai-super-bowl-ad-with-alexander-skarsgard-a-shiny-orb-and-earbuds-were-fabricated.md",
+      "fileFr": "content/posts/fr/2026-02-09-screenshots-alleging-a-leaked-openai-super-bowl-ad-with-alexander-skarsgard-a-shiny-orb-and-earbuds-were-fabricated.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1474,
+      "wordsFr": 1074
+    },
     {
       "id": "https://github.com/rendro/sediment",
       "title": "Show HN: Sediment – Local semantic memory for AI agents (Rust, single binary)",
@@ -1003,6 +1026,18 @@
       "status": "queued"
     },
     {
+      "id": "https://business.molinar.ai",
+      "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
+      "link": "https://business.molinar.ai",
+      "summary": "Hey HN, I built a managed platform for OpenClaw (the open-source AI agent framework) and shipped the whole thing in a day. Then I open-sourced the platform itself. The problem: Running your own AI agent means a Mac Mini in your closet, praying your wifi holds, and becoming a part-time sysadmin. Most people give up before they start. The solution: 3 steps, 5 minutes, done. 1. Sign up 2. Paste your Anthropic API key + Telegram bot token 3. Hit launch You watch your agent boot in real-time. When it hits \"Ready,\" it's live on Telegram - running 24/7 without your laptop open. What actually happens when you hit Launch: - ECS Fargate spins up an isolated container (FARGATE_SPOT, 2 vCPU/4 GB) - Your API keys are pulled from AWS SSM Parameter Store (SecureString), encrypted at rest and never stored in our database - Each container gets its own ENI with an egress-only security group - no inbound ports, the agent initiates all connections - A background process patches the OpenClaw config for Telegram DM access - CloudWatch logs stream back to the dashboard, parsed into setup phases: provisioning -> configuring -> health check -> nginx -> gateway ready - Supabase Realtime pushes updates to the browser in real-time (3s polling during setup) Stack: Next.js, Stytch B2B auth, Supabase (Postgres + Realtime), AWS ECS Fargate, SSM Parameter Store, CloudWatch, Stripe. Security model: - Full conta",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T07:29:20.000Z",
+      "score": 169.33,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/GRMPZQUIDOS/AIII",
       "title": "AIII: A public benchmark for AI narrative and political independence",
       "link": "https://github.com/GRMPZQUIDOS/AIII",
@@ -1027,6 +1062,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.06485",
+      "title": "AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents",
+      "link": "https://arxiv.org/abs/2602.06485",
+      "summary": "arXiv:2602.06485v1 Announce Type: new Abstract: While Large Language Model (LLM)-based agents have shown remarkable potential for solving complex tasks, existing systems remain heavily reliant on large-scale models, leaving the capabilities of edge-scale models largely underexplored. In this paper, we present the first systematic study on training agentic models at the 4B-parameter scale. We identify three primary bottlenecks hindering the performance of edge-scale models: catastrophic forgetting during Supervised Fine-Tuning (SFT), sensitivity to reward signal noise during Reinforcement Learning (RL), and reasoning degradation caused by redundant information in long-context scenarios. To address the issues, we propose AgentCPM-Explore, a compact 4B agent model with high knowledge density and strong exploration capability. We introduce a holistic training framework featuring parameter-space model fusion, reward signal denoising, and contextual information refinement. Through deep exploration, AgentCPM-Explore achieves state-of-the-art (SOTA) performance among 4B-class models, matches or surpasses 8B-class SOTA models on four benchmarks, and even outperforms larger-scale models such as Claude-4.5-Sonnet or DeepSeek-v3.2 in five benchmarks. Notably, AgentCPM-Explore achieves 97.09% accuracy on GAIA text-based tasks under pass@64. These results provide compelling evidence that the",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 152.87,
+      "status": "queued"
+    },
+    {
       "id": "https://github.blog/ai-and-ml/generative-ai/what-ai-is-actually-good-for-according-to-developers/",
       "title": "What AI is good for, according to developers",
       "link": "https://github.blog/ai-and-ml/generative-ai/what-ai-is-actually-good-for-according-to-developers/",
@@ -1036,6 +1083,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-07T17:53:34.000Z",
       "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=46942091",
+      "title": "Show HN: Give Your AI the Ability to Find, Install, and Use Skill Autonomously",
+      "link": "https://news.ycombinator.com/item?id=46942091",
+      "summary": "URL: https://github.com/twwch/next-chat-skills --- Text (paste into the \"text\" field): Hi HN, I built an open-source AI assistant that can autonomously discover, install, and execute Skills to actually complete tasks for you. The Problem: Most AI chatbots today are stuck in \"read-only\" mode. They can tell you how to do something, but they can't do it. Want to convert a PPTX to PDF? The AI will explain how, but you still have to run the commands yourself. The Solution: Next-Chat-Skills is a self-hosted AI assistant with a plugin system called Skills. When you ask the AI to do something it can't handle natively, it: 1. Searches for a relevant Skill (like an app store for AI capabilities) 2. Installs it automatically (npx skills add ...) 3. Executes the Skill's scripts (Python, Node.js, Shell) 4. Streams real-time output back to you in a terminal UI 5. Recovers from errors by installing missing dependencies and retrying For example: User: \"Summarize this YouTube video for me\" AI: -> Searches for a video-summarizer Skill -> Installs it (yt-dlp + Whisper) -> Downloads the video, transcribes audio -> Returns a structured summary What is a Skill? A Skill is just a folder with a SKILL.md descriptor and some scripts: ~/.agents/skills/video-summarizer/ ├── SKILL.md # Metadata + description ├── scripts/ │ ├── download.py # Download video │ ├── transcribe.py # Whisper transcription │ └── s",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-09T06:13:22.000Z",
+      "score": 139.44,
       "status": "queued"
     },
     {
@@ -1060,6 +1119,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-08T07:11:41.000Z",
       "score": 138.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06286",
+      "title": "Do LLMs Act Like Rational Agents? Measuring Belief Coherence in Probabilistic Decision Making",
+      "link": "https://arxiv.org/abs/2602.06286",
+      "summary": "arXiv:2602.06286v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as agents in high-stakes domains where optimal actions depend on both uncertainty about the world and consideration of utilities of different outcomes, yet their decision logic remains difficult to interpret. We study whether LLMs are rational utility maximizers with coherent beliefs and stable preferences. We consider behaviors of models for diagnosis challenge problems. The results provide insights about the relationship of LLM inferences to ideal Bayesian utility maximization for elicited probabilities and observed actions. Our approach provides falsifiable conditions under which the reported probabilities \\emph{cannot} correspond to the true beliefs of any rational agent. We apply this methodology to multiple medical diagnostic domains with evaluations across several LLMs. We discuss implications of the results and directions forward for uses of LLMs in guiding high-stakes decisions.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 134.87,
       "status": "queued"
     },
     {
@@ -1099,6 +1170,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.06527",
+      "title": "HyPER: Bridging Exploration and Exploitation for Scalable LLM Reasoning with Hypothesis Path Expansion and Reduction",
+      "link": "https://arxiv.org/abs/2602.06527",
+      "summary": "arXiv:2602.06527v1 Announce Type: new Abstract: Scaling test-time compute with multi-path chain-of-thought improves reasoning accuracy, but its effectiveness depends critically on the exploration-exploitation trade-off. Existing approaches address this trade-off in rigid ways: tree-structured search hard-codes exploration through brittle expansion rules that interfere with post-trained reasoning, while parallel reasoning over-explores redundant hypothesis paths and relies on weak answer selection. Motivated by the observation that the optimal balance is phase-dependent and that correct and incorrect reasoning paths often diverge only at late stages, we reformulate test-time scaling as a dynamic expand-reduce control problem over a pool of hypotheses. We propose HyPER, a training-free online control policy for multi-path decoding in mixture-of-experts models that reallocates computation under a fixed budget using lightweight path statistics. HyPER consists of an online controller that transitions from exploration to exploitation as the hypothesis pool evolves, a token-level refinement mechanism that enables efficient generation-time exploitation without full-path resampling, and a length- and confidence-aware aggregation strategy for reliable answer-time exploitation. Experiments on four mixture-of-experts language models across diverse reasoning benchmarks show that HyPER consi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 128.87,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=46934166",
       "title": "Recursive Deductive Verification: A framework for reducing AI hallucinations",
       "link": "https://news.ycombinator.com/item?id=46934166",
@@ -1120,6 +1203,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 126,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06554",
+      "title": "SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees",
+      "link": "https://arxiv.org/abs/2602.06554",
+      "summary": "arXiv:2602.06554v1 Announce Type: new Abstract: Reinforcement learning (RL) has emerged as the predominant paradigm for training large language model (LLM)-based AI agents. However, existing backbone RL algorithms lack verified convergence guarantees in agentic scenarios, especially in multi-turn settings, which can lead to training instability and failure to converge to optimal policies. In this paper, we systematically analyze how different combinations of policy update mechanisms and advantage estimation methods affect convergence properties in single/multi-turn scenarios. We find that REINFORCE with Group Relative Advantage Estimation (GRAE) can converge to the globally optimal under undiscounted conditions, but the combination of PPO & GRAE breaks PPO's original monotonic improvement property. Furthermore, we demonstrate that mainstream backbone RL algorithms cannot simultaneously achieve both critic-free and convergence guarantees in multi-turn scenarios. To address this, we propose SeeUPO (Sequence-level Sequential Update Policy Optimization), a critic-free approach with convergence guarantees for multi-turn interactions. SeeUPO models multi-turn interaction as sequentially executed multi-agent bandit problems. Through turn-by-turn sequential policy updates in reverse execution order, it ensures monotonic improvement and convergence to global optimal solution via backwar",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 122.87,
       "status": "queued"
     },
     {
@@ -1171,6 +1266,54 @@
       "status": "queued"
     },
     {
+      "id": "https://hamzamostafa.com/blog/agents-training-their-own-models",
+      "title": "Show HN: I Let AI Agents Train Their Own Models. Here's What Happened",
+      "link": "https://hamzamostafa.com/blog/agents-training-their-own-models",
+      "summary": "there's a big narrative in the AI space right now that agents training future generations of models is imminent. i spent a few weeks testing whether the current generation of models can actually do this. full breakdown below: https://hamzamostafa.com/blog/agents-training-their-own-mode... Comments URL: https://news.ycombinator.com/item?id=46941579 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T04:25:55.000Z",
+      "score": 118.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06351",
+      "title": "Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion",
+      "link": "https://arxiv.org/abs/2602.06351",
+      "summary": "arXiv:2602.06351v1 Announce Type: new Abstract: GUI grounding maps natural language instructions to the correct interface elements, serving as the perception foundation for GUI agents. Existing approaches predominantly rely on fine-tuning multimodal large language models (MLLMs) using large-scale GUI datasets to predict target element coordinates, which is data-intensive and generalizes poorly to unseen interfaces. Recent attention-based alternatives exploit localization signals in MLLMs attention mechanisms without task-specific fine-tuning, but suffer from low reliability due to the lack of explicit and complementary spatial anchors in GUI images. To address this limitation, we propose Trifuse, an attention-based grounding framework that explicitly integrates complementary spatial anchors. Trifuse integrates attention, OCR-derived textual cues, and icon-level caption semantics via a Consensus-SinglePeak (CS) fusion strategy that enforces cross-modal agreement while retaining sharp localization peaks. Extensive evaluations on four grounding benchmarks demonstrate that Trifuse achieves strong performance without task-specific fine-tuning, substantially reducing the reliance on expensive annotated data. Moreover, ablation studies reveal that incorporating OCR and caption cues consistently improves attention-based grounding performance across different backbones, highlighting its",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 116.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06394",
+      "title": "Unlocking Noisy Real-World Corpora for Foundation Model Pre-Training via Quality-Aware Tokenization",
+      "link": "https://arxiv.org/abs/2602.06394",
+      "summary": "arXiv:2602.06394v1 Announce Type: new Abstract: Current tokenization methods process sequential data without accounting for signal quality, limiting their effectiveness on noisy real-world corpora. We present QA-Token (Quality-Aware Tokenization), which incorporates data reliability directly into vocabulary construction. We make three key contributions: (i) a bilevel optimization formulation that jointly optimizes vocabulary construction and downstream performance, (ii) a reinforcement learning approach that learns merge policies through quality-aware rewards with convergence guarantees, and (iii) an adaptive parameter learning mechanism via Gumbel-Softmax relaxation for end-to-end optimization. Our experimental evaluation demonstrates consistent improvements: genomics (6.7 percentage point F1 gain in variant calling over BPE), finance (30% Sharpe ratio improvement). At foundation scale, we tokenize a pretraining corpus comprising 1.7 trillion base-pairs and achieve state-of-the-art pathogen detection (94.53 MCC) while reducing token count by 15%. We unlock noisy real-world corpora, spanning petabases of genomic sequences and terabytes of financial time series, for foundation model training with zero inference overhead.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 116.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06533",
+      "title": "LogicSkills: A Structured Benchmark for Formal Reasoning in Large Language Models",
+      "link": "https://arxiv.org/abs/2602.06533",
+      "summary": "arXiv:2602.06533v1 Announce Type: new Abstract: Large language models have demonstrated notable performance across various logical reasoning benchmarks. However, it remains unclear which core logical skills they truly master. To address this, we introduce LogicSkills, a unified benchmark designed to isolate three fundamental skills in formal reasoning: (i) $\\textit{formal symbolization}\\unicode{x2014}$translating premises into first-order logic; (ii) $\\textit{countermodel construction}\\unicode{x2014}$formulating a finite structure in which all premises are true while the conclusion is false; and (iii) $\\textit{validity assessment}\\unicode{x2014}$deciding whether a conclusion follows from a given set of premises. Items are drawn from the two-variable fragment of first-order logic (without identity) and are presented in both natural English and a Carroll-style language with nonce words. All examples are verified for correctness and non-triviality using the SMT solver Z3. Across leading models, performance is high on validity but substantially lower on symbolization and countermodel construction, suggesting reliance on surface-level patterns rather than genuine symbolic or rule-based reasoning.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 116.87,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.05048",
       "title": "MINT: Minimal Information Neuro-Symbolic Tree for Objective-Driven Knowledge-Gap Reasoning and Active Elicitation",
       "link": "https://arxiv.org/abs/2602.05048",
@@ -1192,6 +1335,30 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-08T12:34:15.000Z",
       "score": 113.78,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06176",
+      "title": "Large Language Model Reasoning Failures",
+      "link": "https://arxiv.org/abs/2602.06176",
+      "summary": "arXiv:2602.06176v1 Announce Type: new Abstract: Large Language Models (LLMs) have exhibited remarkable reasoning capabilities, achieving impressive results across a wide range of tasks. Despite these advances, significant reasoning failures persist, occurring even in seemingly simple scenarios. To systematically understand and address these shortcomings, we present the first comprehensive survey dedicated to reasoning failures in LLMs. We introduce a novel categorization framework that distinguishes reasoning into embodied and non-embodied types, with the latter further subdivided into informal (intuitive) and formal (logical) reasoning. In parallel, we classify reasoning failures along a complementary axis into three types: fundamental failures intrinsic to LLM architectures that broadly affect downstream tasks; application-specific limitations that manifest in particular domains; and robustness issues characterized by inconsistent performance across minor variations. For each reasoning failure, we provide a clear definition, analyze existing studies, explore root causes, and present mitigation strategies. By unifying fragmented research efforts, our survey provides a structured perspective on systemic weaknesses in LLM reasoning, offering valuable insights and guiding future research towards building stronger, more reliable, and robust reasoning capabilities. We additionally",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 110.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06319",
+      "title": "Exposing Weaknesses of Large Reasoning Models through Graph Algorithm Problems",
+      "link": "https://arxiv.org/abs/2602.06319",
+      "summary": "arXiv:2602.06319v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) have advanced rapidly; however, existing benchmarks in mathematics, code, and common-sense reasoning remain limited. They lack long-context evaluation, offer insufficient challenge, and provide answers that are difficult to verify programmatically. We introduce GrAlgoBench, a benchmark designed to evaluate LRMs through graph algorithm problems. Such problems are particularly well suited for probing reasoning abilities: they demand long-context reasoning, allow fine-grained control of difficulty levels, and enable standardized, programmatic evaluation. Across nine tasks, our systematic experiments reveal two major weaknesses of current LRMs. First, accuracy deteriorates sharply as context length increases, falling below 50% once graphs exceed 120 nodes. This degradation is driven by frequent execution errors, weak memory, and redundant reasoning. Second, LRMs suffer from an over-thinking phenomenon, primarily caused by extensive yet largely ineffective self-verification, which inflates reasoning traces without improving correctness. By exposing these limitations, GrAlgoBench establishes graph algorithm problems as a rigorous, multidimensional, and practically relevant testbed for advancing the study of reasoning in LRMs. Code is available at https://github.com/Bklight999/GrAlgoBench.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 110.87,
       "status": "queued"
     },
     {
@@ -1219,6 +1386,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.06375",
+      "title": "Difficulty-Estimated Policy Optimization",
+      "link": "https://arxiv.org/abs/2602.06375",
+      "summary": "arXiv:2602.06375v1 Announce Type: new Abstract: Recent advancements in Large Reasoning Models (LRMs), exemplified by DeepSeek-R1, have underscored the potential of scaling inference-time compute through Group Relative Policy Optimization (GRPO). However, GRPO frequently suffers from gradient signal attenuation when encountering problems that are either too trivial or overly complex. In these scenarios, the disappearance of inter-group advantages makes the gradient signal susceptible to noise, thereby jeopardizing convergence stability. While variants like DAPO attempt to rectify gradient vanishing, they do not alleviate the substantial computational overhead incurred by exhaustive rollouts on low-utility samples. In this paper, we propose Difficulty-Estimated Policy Optimization (DEPO), a novel framework designed to optimize the efficiency and robustness of reasoning alignment. DEPO integrates an online Difficulty Estimator that dynamically assesses and filters training data before the rollout phase. This mechanism ensures that computational resources are prioritized for samples with high learning potential. Empirical results demonstrate that DEPO achieves up to a 2x reduction in rollout costs without compromising model performance. Our approach significantly lowers the computational barrier for training high-performance reasoning models, offering a more sustainable path for re",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 104.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06486",
+      "title": "JADE: Expert-Grounded Dynamic Evaluation for Open-Ended Professional Tasks",
+      "link": "https://arxiv.org/abs/2602.06486",
+      "summary": "arXiv:2602.06486v1 Announce Type: new Abstract: Evaluating agentic AI on open-ended professional tasks faces a fundamental dilemma between rigor and flexibility. Static rubrics provide rigorous, reproducible assessment but fail to accommodate diverse valid response strategies, while LLM-as-a-judge approaches adapt to individual responses yet suffer from instability and bias. Human experts address this dilemma by combining domain-grounded principles with dynamic, claim-level assessment. Inspired by this process, we propose JADE, a two-layer evaluation framework. Layer 1 encodes expert knowledge as a predefined set of evaluation skills, providing stable evaluation criteria. Layer 2 performs report-specific, claim-level evaluation to flexibly assess diverse reasoning strategies, with evidence-dependency gating to invalidate conclusions built on refuted claims. Experiments on BizBench show that JADE improves evaluation stability and reveals critical agent failure modes missed by holistic LLM-based evaluators. We further demonstrate strong alignment with expert-authored rubrics and effective transfer to a medical-domain benchmark, validating JADE across professional domains. Our code is publicly available at https://github.com/smiling-world/JADE.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 104.87,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=46933611",
       "title": "AI's Real Problem Is Illegitimacy, Not Hallucination",
       "link": "https://news.ycombinator.com/item?id=46933611",
@@ -1240,6 +1431,78 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-08T06:39:43.000Z",
       "score": 100.53,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06413",
+      "title": "Intrinsic Stability Limits of Autoregressive Reasoning: Structural Consequences for Long-Horizon Execution",
+      "link": "https://arxiv.org/abs/2602.06413",
+      "summary": "arXiv:2602.06413v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their performance often deteriorates sharply in long-horizon tasks, exhibiting systematic breakdown beyond certain scales. Conventional explanations primarily attribute this phenomenon to task complexity, such as combinatorial search explosion or long-term credit assignment challenges. In this work, we argue that these explanations are incomplete: even in linear, unbranched tasks without semantic ambiguity, autoregressive execution is subject to an intrinsic stability limit. We propose that the fundamental constraint on long-horizon reasoning arises from process-level instability in autoregressive generation rather than solely from search or task complexity, reframing long-horizon reasoning as a problem of structural governance. We derive Theorem~A, showing that decision advantage in single-path autoregressive reasoning decays exponentially with execution length, imposing a fundamental bound on maintainable reasoning chains. This result implies a structural consequence: stable long-horizon reasoning requires discrete segmentation, naturally inducing graph-like execution structures such as directed acyclic graphs (DAGs). Empirical studies in both synthetic environments and real TextWorld tasks reveal observable performance cliffs consistent with theoret",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 98.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06540",
+      "title": "AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research",
+      "link": "https://arxiv.org/abs/2602.06540",
+      "summary": "arXiv:2602.06540v1 Announce Type: new Abstract: Generating deep research reports requires large-scale information acquisition and the synthesis of insight-driven analysis, posing a significant challenge for current language models. Most existing approaches follow a plan-then-write paradigm, whose performance heavily depends on the quality of the initial outline. However, constructing a comprehensive outline itself demands strong reasoning ability, causing current deep research systems to rely almost exclusively on closed-source or online large models. This reliance raises practical barriers to deployment and introduces safety and privacy concerns for user-authored data. In this work, we present AgentCPM-Report, a lightweight yet high-performing local solution composed of a framework that mirrors the human writing process and an 8B-parameter deep research agent. Our framework uses a Writing As Reasoning Policy (WARP), which enables models to dynamically revise outlines during report generation. Under this policy, the agent alternates between Evidence-Based Drafting and Reasoning-Driven Deepening, jointly supporting information acquisition, knowledge refinement, and iterative outline evolution. To effectively equip small models with this capability, we introduce a Multi-Stage Agentic Training strategy, consisting of cold-start, atomic skill RL, and holistic pipeline RL. Experimen",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 98.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=46942012",
+      "title": "Show HN: EdgeAI-OS – Air-gapped Linux distro where AI is a system primitive",
+      "link": "https://news.ycombinator.com/item?id=46942012",
+      "summary": "I built a bootable Linux distribution that treats AI as a system primitive – like CPU or memory. Designed for security-conscious environments where data cannot leave the network. The problem: Most AI requires cloud APIs, which means your data leaves your control. For banks, healthcare, defense, and regulated industries – that's a non-starter. The solution: EdgeAI-OS runs everything locally. No cloud calls. No API keys. No telemetry. Boot the ISO, use AI. Your data never leaves the machine. Security features: - 100% offline operation – air-gap friendly, zero network dependencies - No external API calls – all inference runs locally on CPU - Command risk assessment – every command classified as Safe/Moderate/Dangerous - Dangerous pattern blocking – prevents rm -rf /, curl|bash, fork bombs, etc. - Open source & auditable – MIT licensed, inspect every line of code - No data exfiltration – nothing phones home, ever What's in the ISO: - Local LLMs (TinyLlama 1.1B + SmolLM 135M) – runs on CPU, no GPU needed - ai-sh: natural language shell where 80% of queries resolve instantly via templates - Multi-tier routing: simple queries → fast model, complex → larger model Example ai-sh session: what time is it? [template] date ← instant, no LLM files larger than 1gb [template] find . -size +1G ← instant, no LLM rm -rf / [DANGEROUS] Blocked ← security check configure nginx as reverse proxy [ai-g",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T05:56:37.000Z",
+      "score": 98.34,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=46942086",
+      "title": "Who Approved This Agent? A book on authorizing AI-generated code",
+      "link": "https://news.ycombinator.com/item?id=46942086",
+      "summary": "I moved my IoT compiler to test something from an AI vibe coding standpoint. The result is SETC a compiler and permit system and a free book that documents what I learned along the way. The book starts with the problem, AI agents are writing and executing code with minimal oversight. Databases deleted, drives wiped, dozens of CVEs across every major AI coding tool. Usage is up, trust is down. Then it walks through one approach, Ed25519 signed permits, Secure Enclave integration, M of N team approval, capability gated runtimes, and an ECDH killswitch. It stirs ideas about what the future may look like but doesn't necessarily have to but stirs the idea of what the gates might be then. Would appreciate feedback from anyone working on similar problems & your approach. Book: https://book.se.tc page: https://se.tc Docker: docker pull humanatsetc/setc:book-edition Comments URL: https://news.ycombinator.com/item?id=46942086 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-09T06:11:57.000Z",
+      "score": 96.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/superS007/localllmjournal",
+      "title": "LocalLLMJournal – An offline, privacy-first AI journal running locally on macOS",
+      "link": "https://github.com/superS007/localllmjournal",
+      "summary": "Article URL: https://github.com/superS007/localllmjournal Comments URL: https://news.ycombinator.com/item?id=46942206 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-09T06:34:27.000Z",
+      "score": 93.8,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.06107",
+      "title": "Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2602.06107",
+      "summary": "arXiv:2602.06107v1 Announce Type: new Abstract: Reinforcement learning (RL) for large language models (LLMs) remains expensive, particularly because the rollout is expensive. Decoupling rollout generation from policy optimization (e.g., leveraging a more efficient model to rollout) could enable substantial efficiency gains, yet doing so introduces a severe distribution mismatch that destabilizes learning. We propose Jackpot, a framework that leverages Optimal Budget Rejection Sampling (OBRS) to directly reduce the discrepancy between the rollout model and the evolving policy. Jackpot integrates a principled OBRS procedure, a unified training objective that jointly updates the policy and rollout models, and an efficient system implementation enabled by top-$k$ probability estimation and batch-level bias correction. Our theoretical analysis shows that OBRS consistently moves the rollout distribution closer to the target distribution under a controllable acceptance budget. Empirically, \\sys substantially improves training stability compared to importance-sampling baselines, achieving performance comparable to on-policy RL when training Qwen3-8B-Base for up to 300 update steps of batchsize 64. Taken together, our results show that OBRS-based alignment brings us a step closer to practical and effective decoupling of rollout generation from policy optimization for RL for LLMs.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-09T05:00:00.000Z",
+      "score": 92.87,
       "status": "queued"
     },
     {
@@ -1339,6 +1602,18 @@
       "status": "queued"
     },
     {
+      "id": "https://dwrite.me",
+      "title": "Show HN: Dwrite.me A minimalist writing space that blocks copypaste to fight AI",
+      "link": "https://dwrite.me",
+      "summary": "Lately, the internet has started to feel loud, yet incredibly empty. Every time I browse Google, Medium, or news portals, I run into articles that feel \"too perfect.\" The structure is flawless, the grammar is impeccable, but there is absolutely no soul in them. We all know why. It’s AI. As a developer, I love technology. But as a human, I’ve started to crave writing that has \"scars\"—writing that has emotion, rhythm, and is actually born from someone’s messy brain, not a polished prompt. That’s why I built dwrite.me. An Internet That’s Too Fast My frustration is simple: We live in an age where everything is expected to be instant. Need a 2,000-word article? One click. Need an opinion? Ask a chatbot. But here’s the problem: If everyone is using AI to write, why should we bother reading each other at all? We aren't exchanging thoughts anymore; we are just swapping machine-processed data. Our way of thinking is becoming lazy. We no longer value the \"friction\" of struggling to find the right words. Yet, that struggle is exactly where our humanity lives. The Broken Bridge Between Us I used to read blogs to feel like I was having a conversation with the author. I could feel their anxiety, their excitement, or even their confusion. Now? That bridge feels broken. AI writing is sterile. There are no surprises, no bold opinions, no \"wrong\" takes. Everything is safe. I’m worried that if we",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-09T05:03:58.000Z",
+      "score": 75.48,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.05195",
       "title": "Traceable Cross-Source RAG for Chinese Tibetan Medicine Question Answering",
       "link": "https://arxiv.org/abs/2602.05195",
@@ -1360,6 +1635,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-08T04:49:56.000Z",
       "score": 69.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
+      "title": "New York is considering two bills to rein in the AI industry",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
+      "summary": "AI data centers are becoming a bipartisan concern. | Image: Microsoft New York's state legislature is set to consider a pair of bills that would require labels on AI-generated content and would put a three-year pause on new data center construction. The New York Fundamental Artificial Intelligence Requirements in News Act (NY FAIR News Act, for short) would require that any news \"substantially composed, authored, or created through the use of generative artificial intelligence\" carry a disclaimer. It would also require that any content created using AI be reviewed and approved by a human with \"editorial control\" before being published. Beyond that, the bill requires organizations to disclose to newsroom em … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-08T21:04:53.000Z",
+      "score": 52.37,
       "status": "queued"
     },
     {
