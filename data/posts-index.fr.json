@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-02-10T11:11:23.750Z",
+  "generatedAt": "2026-02-10T16:11:43.045Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-02-10-asterbot-an-ai-agent-built-from-sandboxed-swappable-wasm-components",
+      "title": "Asterbot — agent IA construit à partir de composants WASM sandboxés et interchangeables",
+      "date": "2026-02-10",
+      "excerpt": "Exécutez Asterbot — un agent IA où chaque capacité (recherche, mémoire, LLM, etc.) est fournie comme un composant WASM sandboxé et remplaçable via WASI. Ce guide explique l'approche, les tests d'acceptation et les hypothèses opérationnelles (UK context).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-10-asterbot-an-ai-agent-built-from-sandboxed-swappable-wasm-components.jpg",
+      "tags": [
+        "wasm",
+        "wasi",
+        "agent-ia",
+        "sécurité",
+        "dev",
+        "startup",
+        "observabilité"
+      ],
+      "sources": [
+        "https://github.com/asterai-io/asterbot"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-02-10-blueprint-for-a-scoped-factory-to-erp-automation-pilot-inspired-by-siemens-ceo-roland-busch",
       "title": "Feuille de route pour un pilote d’automatisation limité usine→ERP, inspirée par Roland Busch (Siemens)",

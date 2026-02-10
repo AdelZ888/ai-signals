@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-02-10T11:11:23.749Z",
+  "generatedAt": "2026-02-10T16:11:43.045Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-02-10-asterbot-an-ai-agent-built-from-sandboxed-swappable-wasm-components",
+      "title": "Asterbot — an AI agent built from sandboxed, swappable WASM components",
+      "date": "2026-02-10",
+      "excerpt": "Run Asterbot - an AI agent where each capability (search, memory, LLM) is a sandboxed, swappable WASM component via WASI. Learn how components are authorized and discovered.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-10-asterbot-an-ai-agent-built-from-sandboxed-swappable-wasm-components.jpg",
+      "tags": [
+        "wasm",
+        "wasi",
+        "wasmtime",
+        "asterbot",
+        "asterai",
+        "ai-agents",
+        "sandboxing",
+        "registry"
+      ],
+      "sources": [
+        "https://github.com/asterai-io/asterbot"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-02-10-blueprint-for-a-scoped-factory-to-erp-automation-pilot-inspired-by-siemens-ceo-roland-busch",
       "title": "Blueprint for a Scoped Factory-to-ERP Automation Pilot, Inspired by Siemens CEO Roland Busch",
