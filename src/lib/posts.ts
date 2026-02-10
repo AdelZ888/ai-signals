@@ -17,6 +17,11 @@ const POSTS_DIR_BY_LOCALE: Record<Locale, string> = {
   fr: path.join(POSTS_DIR, "fr"),
 };
 
+const POSTS_INDEX_PATH_BY_LOCALE: Record<Locale, string> = {
+  en: path.join(process.cwd(), "data/posts-index.en.json"),
+  fr: path.join(process.cwd(), "data/posts-index.fr.json"),
+};
+
 export const REGION_CODES = ["US", "UK", "FR", "GLOBAL"] as const;
 export const PRIMARY_REGIONS = ["US", "UK", "FR"] as const;
 
@@ -93,6 +98,10 @@ const DIFFICULTY_LABELS: Record<NonNullable<PostMeta["difficulty"]>, { en: strin
 };
 
 const DIFFICULTY_VALUES = ["beginner", "intermediate", "advanced"] as const;
+
+type PostsIndexPayload = {
+  posts?: unknown;
+};
 
 function toTagSlug(input: string): string {
   return String(input || "")
@@ -258,6 +267,62 @@ function normalizeMeta(slug: string, data: Frontmatter, markdown = ""): PostMeta
   };
 }
 
+function normalizeIndexedMeta(raw: unknown): PostMeta | null {
+  if (!raw || typeof raw !== "object") return null;
+  const value = raw as Record<string, unknown>;
+
+  const slug = typeof value.slug === "string" ? value.slug.trim() : "";
+  if (!slug) return null;
+
+  const title = typeof value.title === "string" ? value.title.trim() : "";
+  const excerpt = typeof value.excerpt === "string" ? value.excerpt.trim() : "";
+  const date = typeof value.date === "string" ? value.date.trim() : "";
+  const coverImage = typeof value.coverImage === "string" ? value.coverImage.trim() : "";
+  const tags = Array.isArray(value.tags) ? value.tags.map(String) : [];
+  const sources = Array.isArray(value.sources) ? value.sources.map(String) : [];
+  const category = typeof value.category === "string" ? value.category.trim() : "";
+  const series = typeof value.series === "string" ? value.series.trim() : "";
+  const difficultyRaw = typeof value.difficulty === "string" ? value.difficulty.trim().toLowerCase() : "";
+  const difficulty = DIFFICULTY_VALUES.includes(difficultyRaw as (typeof DIFFICULTY_VALUES)[number])
+    ? (difficultyRaw as (typeof DIFFICULTY_VALUES)[number])
+    : undefined;
+  const timeRaw = typeof value.timeToImplementMinutes === "number" ? value.timeToImplementMinutes : Number(value.timeToImplementMinutes);
+  const timeToImplementMinutes = Number.isFinite(timeRaw) && timeRaw > 0 ? Math.min(480, Math.max(5, Math.round(timeRaw))) : undefined;
+  const editorialTemplate = typeof value.editorialTemplate === "string" ? value.editorialTemplate.trim() : undefined;
+  const readingTimeRaw = typeof value.readingTimeMinutes === "number" ? value.readingTimeMinutes : Number(value.readingTimeMinutes);
+  const readingTimeMinutes = Number.isFinite(readingTimeRaw) && readingTimeRaw > 0 ? Math.max(1, Math.min(120, Math.round(readingTimeRaw))) : 1;
+
+  return {
+    slug,
+    title: title || slug,
+    date: date || "1970-01-01",
+    excerpt,
+    coverImage: coverImage || undefined,
+    tags,
+    sources,
+    category: category || inferCategory(tags, title || slug),
+    region: normalizeRegion(value.region ?? inferRegion(tags, title || slug, sources)),
+    series: series || undefined,
+    difficulty,
+    timeToImplementMinutes,
+    editorialTemplate,
+    readingTimeMinutes,
+  };
+}
+
+async function readPostsIndex(locale: Locale): Promise<PostMeta[] | null> {
+  const indexPath = POSTS_INDEX_PATH_BY_LOCALE[locale];
+  try {
+    const raw = await fs.readFile(indexPath, "utf8");
+    const parsed = JSON.parse(raw) as PostsIndexPayload;
+    const postsRaw = Array.isArray(parsed?.posts) ? parsed.posts : [];
+    const normalized = postsRaw.map(normalizeIndexedMeta).filter(Boolean) as PostMeta[];
+    return normalized.sort((a, b) => b.date.localeCompare(a.date));
+  } catch {
+    return null;
+  }
+}
+
 export function getRegionLabel(region: RegionCode, locale: Locale = "en"): string {
   return locale === "fr" ? REGION_LABEL_BY_CODE_FR[region] : REGION_LABEL_BY_CODE[region];
 }
@@ -297,6 +362,15 @@ export async function getAllPostsMeta(locale: Locale = "en"): Promise<PostMeta[]
   if (enableCache) {
     const cached = cache.get(locale);
     if (cached) return cached;
+  }
+
+  const indexEnabled = enableCache && String(process.env.POSTS_INDEX_ENABLED ?? "1") !== "0";
+  if (indexEnabled) {
+    const indexed = await readPostsIndex(locale);
+    if (indexed) {
+      cache.set(locale, indexed);
+      return indexed;
+    }
   }
 
   const slugs = await getPostSlugs(locale);

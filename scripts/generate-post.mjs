@@ -8,6 +8,7 @@ import OpenAI from "openai";
 import slugify from "slugify";
 
 import { generateAndUploadCover } from "./cover-images.mjs";
+import { getReadingTimeMinutes, upsertPostsIndex } from "./posts-index.mjs";
 
 const queuePath = path.join(process.cwd(), "data/topics-queue.json");
 const postsDir = path.join(process.cwd(), "content/posts");
@@ -2124,6 +2125,47 @@ export async function generatePost() {
       wordsEn: countWords(postEn.content),
       wordsFr: countWords(postFr.content),
     });
+
+    if (!DRY_RUN) {
+      try {
+        await Promise.all([
+          upsertPostsIndex("en", {
+            slug,
+            title: postEnWithCover.title,
+            date: publishDate,
+            excerpt: postEnWithCover.excerpt,
+            coverImage: postEnWithCover.coverImage,
+            tags: postEnWithCover.tags,
+            sources: sourceBundle,
+            category: template.category,
+            region: targetRegion,
+            series: postEnWithCover.series,
+            difficulty: postEnWithCover.difficulty,
+            timeToImplementMinutes: postEnWithCover.timeToImplementMinutes,
+            editorialTemplate: template.id,
+            readingTimeMinutes: getReadingTimeMinutes(postEnWithCover.content),
+          }),
+          upsertPostsIndex("fr", {
+            slug,
+            title: postFr.title,
+            date: publishDate,
+            excerpt: postFr.excerpt,
+            coverImage: postEnWithCover.coverImage,
+            tags: postFr.tags,
+            sources: sourceBundle,
+            category: template.category,
+            region: targetRegion,
+            series: postEnWithCover.series,
+            difficulty: postEnWithCover.difficulty,
+            timeToImplementMinutes: postEnWithCover.timeToImplementMinutes,
+            editorialTemplate: template.id,
+            readingTimeMinutes: getReadingTimeMinutes(postFr.content),
+          }),
+        ]);
+      } catch (error) {
+        console.warn(`[generate-post] Posts index update failed: ${error?.message || String(error)}`);
+      }
+    }
 
     if (!DRY_RUN) await fs.writeFile(queuePath, JSON.stringify(queue, null, 2));
 

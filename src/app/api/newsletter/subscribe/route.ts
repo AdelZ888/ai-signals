@@ -33,6 +33,9 @@ const globalForRateLimit = globalThis as unknown as {
 const RATE_LIMIT: Map<string, number[]> = (globalForRateLimit.__newsletterRateLimit ??=
   new Map<string, number[]>());
 
+// Default OFF: user requested no rate limiting. Enable only if you start seeing abuse.
+const RATE_LIMIT_ENABLED = String(process.env.NEWSLETTER_RATE_LIMIT_ENABLED || "0") === "1";
+
 function isRateLimited(ip: string): boolean {
   const now = Date.now();
   const windowMs = 60 * 60 * 1000;
@@ -83,7 +86,7 @@ export async function POST(req: Request) {
     return json(locale, { ok: true, message: locale === "fr" ? "Merci, vous êtes inscrit." : "Thanks, you are subscribed." }, 200);
   }
 
-  if (isRateLimited(ip)) {
+  if (RATE_LIMIT_ENABLED && isRateLimited(ip)) {
     return json(
       locale,
       {

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 
 import { PostCard } from "@/components/post-card";
-import { formatTagForPath, getAllTags, getPostsByTag } from "@/lib/posts";
+import { formatTagForPath, getAllPostsMeta, getAllTags, getPostsByTag } from "@/lib/posts";
 
 type Props = {
   params: Promise<{ tag: string }>;
@@ -22,8 +22,23 @@ async function resolveTagLabel(tagSlug: string) {
 }
 
 export async function generateStaticParams() {
-  const tags = await getAllTags("fr");
-  return tags.map((tag) => ({ tag: formatTagForPath(tag) }));
+  // Keep builds fast as the content corpus grows: pre-render only the most common tags.
+  const limit = Math.max(80, Math.min(1200, Number(process.env.STATIC_TAG_PARAMS_LIMIT || 160)));
+  const posts = await getAllPostsMeta("fr");
+  const counts = new Map<string, number>();
+
+  for (const post of posts) {
+    for (const tag of post.tags) {
+      const slug = formatTagForPath(tag);
+      if (!slug) continue;
+      counts.set(slug, (counts.get(slug) || 0) + 1);
+    }
+  }
+
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, limit)
+    .map(([tag]) => ({ tag }));
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {

@@ -4,6 +4,7 @@ on:
   workflow_run:
     workflows:
       - Auto Publish AI Blog
+      - Auto Publish AI Tutorial
       - Auto Newsletter
       - Auto Send Newsletter
       - Health Check
@@ -37,4 +38,3 @@ jobs:
           NEWSLETTER_REPLY_TO: ${{ secrets.NEWSLETTER_REPLY_TO }}
           ALERT_TO: ${{ secrets.ALERT_TO }}
         run: node scripts/send-alert.mjs
-

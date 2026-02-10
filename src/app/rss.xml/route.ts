@@ -12,7 +12,8 @@ function xmlEscape(value: string) {
 
 export async function GET() {
   const siteUrl = getSiteUrl();
-  const posts = await getAllPostsMeta("en");
+  const maxItems = Math.max(20, Math.min(200, Number(process.env.RSS_MAX_ITEMS || 60)));
+  const posts = (await getAllPostsMeta("en")).slice(0, maxItems);
 
   const lastBuildDate = posts[0]?.date ? new Date(posts[0].date) : new Date();
   const selfUrl = `${siteUrl}/rss.xml`;

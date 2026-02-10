@@ -12,7 +12,7 @@ function required(value, message) {
   return value;
 }
 
-async function fetchText(url) {
+async function fetchResponse(url, { readBody } = {}) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
 
@@ -23,7 +23,14 @@ async function fetchText(url) {
       signal: controller.signal,
       headers: { "user-agent": "aisignals-healthcheck/1.0" },
     });
-    const text = await res.text();
+    const text = readBody ? await res.text() : "";
+    if (!readBody) {
+      try {
+        res.body?.cancel();
+      } catch {
+        // ignore
+      }
+    }
     return { res, text };
   } finally {
     clearTimeout(timer);
@@ -35,7 +42,7 @@ async function check({ name, path, expect, expectContentType }) {
   const started = Date.now();
 
   try {
-    const { res, text } = await fetchText(url);
+    const { res, text } = await fetchResponse(url, { readBody: Boolean(expect) });
     const elapsed = Date.now() - started;
 
     if (!res.ok) {
@@ -65,10 +72,15 @@ async function main() {
 
   const checks = [
     { name: "Home (EN)", path: "/", expect: /AI Signals/i, expectContentType: "text/html" },
+    { name: "Header controls (EN)", path: "/", expect: /hamburger-button/i, expectContentType: "text/html" },
+    { name: "Theme toggle (EN)", path: "/", expect: /theme-toggle/i, expectContentType: "text/html" },
     { name: "Home (FR)", path: "/fr", expect: /AI Signals/i, expectContentType: "text/html" },
+    { name: "Header controls (FR)", path: "/fr", expect: /hamburger-button/i, expectContentType: "text/html" },
+    { name: "Theme toggle (FR)", path: "/fr", expect: /theme-toggle/i, expectContentType: "text/html" },
     { name: "RSS (EN)", path: "/rss.xml", expect: /<rss|<feed/i, expectContentType: "xml" },
     { name: "RSS (FR)", path: "/fr/rss.xml", expect: /<rss|<feed/i, expectContentType: "xml" },
     { name: "Sitemap", path: "/sitemap.xml", expect: /<urlset/i, expectContentType: "xml" },
+    { name: "OG image", path: "/api/og?title=Health%20check&subtitle=AI%20Signals&locale=en&kind=page", expectContentType: "image" },
   ];
 
   const results = await Promise.all(checks.map((c) => check(c)));
@@ -90,4 +102,3 @@ async function main() {
 }
 
 await main();
-

@@ -1,0 +1,1067 @@
+{
+  "generatedAt": "2026-02-10T11:11:23.750Z",
+  "locale": "fr",
+  "posts": [
+    {
+      "slug": "2026-02-10-blueprint-for-a-scoped-factory-to-erp-automation-pilot-inspired-by-siemens-ceo-roland-busch",
+      "title": "Feuille de route pour un pilote d’automatisation limité usine→ERP, inspirée par Roland Busch (Siemens)",
+      "date": "2026-02-10",
+      "excerpt": "Playbook opérationnel pour exécuter un pilote d’automatisation limité et auditable : capteurs → jumeau numérique → couche décisionnelle ML → ERP/MES, inspiré par la stratégie évoquée par le CEO de Siemens Roland Busch.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-10-blueprint-for-a-scoped-factory-to-erp-automation-pilot-inspired-by-siemens-ceo-roland-busch.jpg",
+      "tags": [
+        "automation",
+        "digital-twin",
+        "IIoT",
+        "ERP",
+        "MES",
+        "Siemens",
+        "Roland Busch",
+        "startup"
+      ],
+      "sources": [
+        "https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-09-build-an-apex-agents-style-harness-to-evaluate-ai-agents-multi-domain-performance",
+      "title": "Construire un harness à la manière APEX‑Agents pour évaluer la performance multi‑domaines des agents d'IA",
+      "date": "2026-02-09",
+      "excerpt": "Tutoriel reproductible pour créer un harness d'évaluation inspiré du benchmark APEX‑Agents (résumé TechCrunch). Mesurez la capacité d'un agent à assembler le contexte à travers Slack, Google Drive et autres sources, et produisez des métriques et gates de déploiement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-09-build-an-apex-agents-style-harness-to-evaluate-ai-agents-multi-domain-performance.jpg",
+      "tags": [
+        "ai",
+        "agents",
+        "benchmark",
+        "evaluation",
+        "apex-agents",
+        "mercor",
+        "architecture",
+        "devops"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
+    {
+      "slug": "2026-02-09-screenshots-alleging-a-leaked-openai-super-bowl-ad-with-alexander-skarsgard-a-shiny-orb-and-earbuds-were-fabricated",
+      "title": "Screenshots d'une fuite OpenAI (pub Super Bowl) : détection, triage et plan d'action pour équipes techniques et fondateurs (US)",
+      "date": "2026-02-09",
+      "excerpt": "Des captures d'écran affirmant une fuite d'une publicité OpenAI du Super Bowl (Alexander Skarsgård, sphère brillante, écouteurs) ont été fabriquées selon The Verge. Guide opérationnel bilingue pour ingénieurs, fondateurs et responsables comms : vérification, pipeline de métadonnées, seuils et checklist à déployer en 72 heures.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-09-screenshots-alleging-a-leaked-openai-super-bowl-ad-with-alexander-skarsgard-a-shiny-orb-and-earbuds-were-fabricated.jpg",
+      "tags": [
+        "AI",
+        "media-forensics",
+        "incident-response",
+        "OpenAI",
+        "hoax",
+        "Super Bowl",
+        "security",
+        "crisis-management"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-02-08-add-persistent-local-semantic-memory-to-llm-agents-with-sediment-rust-single-binary",
+      "title": "Ajouter une mémoire sémantique locale persistante aux agents LLM avec Sediment (Rust, binaire unique)",
+      "date": "2026-02-08",
+      "excerpt": "Guide d'intégration de Sediment — binaire Rust mono-fichier, local-first, pour ajouter une mémoire sémantique privée et persistante aux agents LLM via quatre outils (store, recall, list, forget).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-08-add-persistent-local-semantic-memory-to-llm-agents-with-sediment-rust-single-binary.jpg",
+      "tags": [
+        "sediment",
+        "mémoire sémantique",
+        "llm",
+        "rust",
+        "local-first",
+        "agents-ai",
+        "intégration"
+      ],
+      "sources": [
+        "https://github.com/rendro/sediment"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
+    },
+    {
+      "slug": "2026-02-08-doomsday-clock-at-85-seconds-2026-practical-implications-for-builders-and-tech-leaders",
+      "title": "Horloge de l'Apocalypse à 85 secondes (2026) : implications pratiques pour builders et dirigeants tech",
+      "date": "2026-02-08",
+      "excerpt": "Le 27 janvier 2026, le Bulletin of the Atomic Scientists a réglé l'Horloge de l'Apocalypse à 85 secondes avant minuit. Guide opérationnel pour développeurs, fondateurs et responsables techniques : gouvernance, résilience et artefacts à produire cette semaine.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-08-doomsday-clock-at-85-seconds-2026-practical-implications-for-builders-and-tech-leaders.jpg",
+      "tags": [
+        "risque systémique",
+        "résilience",
+        "gouvernance",
+        "sécurité",
+        "IA",
+        "climat",
+        "nucléaire",
+        "startups"
+      ],
+      "sources": [
+        "https://www.numerama.com/sciences/2170347-horloge-de-lapocalypse-2026-il-ne-reste-que-85-secondes-avant-minuit.html"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-07-pce-converting-llm-reasoning-traces-into-decision-trees-for-uncertainty-aware-planning-in-embodied-multi-agent-tasks",
+      "title": "PCE : convertir les traces de raisonnement LLM en arbres de décision pour une planification consciente de l'incertitude",
+      "date": "2026-02-07",
+      "excerpt": "Guide technique et opérationnel (contexte UK) pour implémenter PCE — Planner–Composer–Evaluator — qui transforme les hypothèses fragmentées issues des traces de raisonnement des LLM en un arbre de décision scoré par probabilité de scénario, gain visé et coût d'exécution, afin de réduire la communication inter-agents dans des tâches incarnées multi-agents (référence : arXiv:2602.04326).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-07-pce-converting-llm-reasoning-traces-into-decision-trees-for-uncertainty-aware-planning-in-embodied-multi-agent-tasks.jpg",
+      "tags": [
+        "PCE",
+        "LLM",
+        "planification",
+        "agents-incarnés",
+        "IA",
+        "startups",
+        "UK"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04326"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 360,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-07-set-up-openclaw-with-the-cli-onboarding-configure-gateway-seed-workspace-install-a-daemon-and-add-channels",
+      "title": "Configurer OpenClaw avec l'onboarding CLI : Gateway, workspace initial, démon utilisateur et canaux",
+      "date": "2026-02-07",
+      "excerpt": "Guide pratique pour développeurs et fondateurs US : utiliser l'onboarding CLI d'OpenClaw pour provisionner un Gateway local (port 18789), semer ~/.openclaw/workspace, installer un démon utilisateur et connecter au moins un canal.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-07-set-up-openclaw-with-the-cli-onboarding-configure-gateway-seed-workspace-install-a-daemon-and-add-channels.jpg",
+      "tags": [
+        "openclaw",
+        "onboarding",
+        "cli",
+        "gateway",
+        "agents",
+        "devops",
+        "ai"
+      ],
+      "sources": [
+        "https://docs.openclaw.ai/start/wizard",
+        "https://docs.openclaw.ai/start/wizard-cli-reference",
+        "https://getclawdbot.com/guides/install/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-active-epistemic-control-grounded-fact-versus-belief-stores-and-sq-bcp-gating-for-verified-planning",
+      "title": "Active Epistemic Control : séparation des faits enracinés et des croyances, et filtrage SQ-BCP pour une planification vérifiée",
+      "date": "2026-02-06",
+      "excerpt": "Traduction et localisation professionnelle de l'article arXiv sur Active Epistemic Control (AEC). Résumé technique et opérationnel destiné aux développeurs, fondateurs de startups et passionnés d'IA (contexte US). Met en évidence les éléments factuels extraits du résumé de l'article et sépare clairement les propositions opérationnelles (hypothèses) des revendications supportées par la source (arXiv:2602.03974).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-active-epistemic-control-grounded-fact-versus-belief-stores-and-sq-bcp-gating-for-verified-planning.jpg",
+      "tags": [
+        "active-epistemic-control",
+        "planning",
+        "partial-observability",
+        "aec",
+        "sq-bcp",
+        "world-models",
+        "ALFWorld",
+        "ScienceWorld"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.03974"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-adversarial-explanation-attacks-how-llm-framing-preserves-user-trust-in-incorrect-outputs",
+      "title": "Attaques d'explication adversariales : quand les LLM persuadent et préservent la confiance sur des sorties incorrectes",
+      "date": "2026-02-06",
+      "excerpt": "Résumé et adaptation française pour développeurs, fondateurs et passionnés d'IA de l'étude «When AI Persuades» (arXiv:2602.04003). Présente le concept d'Adversarial Explanation Attacks (AEAs), les preuves expérimentales (n = 205), conséquences techniques et business, et un cadre opérationnel avec métriques et hypothèses à valider.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-adversarial-explanation-attacks-how-llm-framing-preserves-user-trust-in-incorrect-outputs.jpg",
+      "tags": [
+        "IA",
+        "LLM",
+        "Sécurité",
+        "Confiance",
+        "Produit",
+        "Startup",
+        "Recherche"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04003"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 8
+    },
+    {
+      "slug": "2026-02-06-agent-omit-a-training-framework-for-adaptive-omission-of-thoughts-and-observations-in-llm-agents",
+      "title": "Agent-Omit — Résumé technique et cadre d'adoption pour builders (contexte US)",
+      "date": "2026-02-06",
+      "excerpt": "Traduction et mise en perspective de Agent-Omit (arXiv:2602.04284). Expose la proposition : entraîner des agents LLM à omettre de manière adaptative des « pensées » internes et des observations inutiles via un cold-start d'exemples d'omission puis un RL agentique aware de l'omission ; inclut une borne en KL-divergence et des résultats rapportés pour Agent-Omit-8B.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-agent-omit-a-training-framework-for-adaptive-omission-of-thoughts-and-observations-in-llm-agents.jpg",
+      "tags": [
+        "LLM",
+        "agents",
+        "reinforcement-learning",
+        "efficacite",
+        "startups",
+        "infrastructure",
+        "monitoring"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04284"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-agentark-turning-multi-agent-debate-into-single-agent-capabilities-via-hierarchical-distillation",
+      "title": "AgentArk — Distillation de systèmes multi‑agents en un seul agent LLM",
+      "date": "2026-02-06",
+      "excerpt": "Résumé professionnel (contexte US) : AgentArk propose de « distiller » la dynamique de débat et d’auto‑correction d’un système multi‑agent dans les poids d’un seul grand modèle de langage (LLM). L’objectif annoncé : transférer la complexité et le coût computationnel de l’inférence vers l’entraînement pour obtenir un agent unique plus efficace tout en préservant le raisonnement, la robustesse et la capacité d’auto‑correction.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-agentark-turning-multi-agent-debate-into-single-agent-capabilities-via-hierarchical-distillation.jpg",
+      "tags": [
+        "AgentArk",
+        "LLM",
+        "distillation",
+        "multi-agent",
+        "IA",
+        "ML engineering",
+        "founders"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.03955"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-06-analysis-omg-agents-decoupled-planner-retriever-executor-pipeline-for-missing-modality-generation",
+      "title": "Analyse : pipeline découplé planner‑retriever‑executor d’OMG‑Agent pour la génération en absence de modalité",
+      "date": "2026-02-06",
+      "excerpt": "Résumé technique et guide pour développeurs et fondateurs (contexte UK) sur OMG‑Agent (arXiv:2602.04144) — un cadre en trois étapes qui sépare la planification sémantique de la synthèse de détails afin de réduire les hallucinations dans la génération multimodale.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-analysis-omg-agents-decoupled-planner-retriever-executor-pipeline-for-missing-modality-generation.jpg",
+      "tags": [
+        "multimodal",
+        "retrieval",
+        "MLLM",
+        "architecture",
+        "startup",
+        "UK"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04144"
+      ],
+      "category": "Model Breakdowns",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-06-apple-reportedly-testing-carplay-support-for-third-party-voice-chat-apps-but-siri-controls-remain",
+      "title": "Apple CarPlay : rumeur d’apps de chat vocal tierces — analyse pour builders",
+      "date": "2026-02-06",
+      "excerpt": "Bloomberg / The Verge indiquent qu’Apple pourrait autoriser des applications de chat vocal tierces dans CarPlay (ChatGPT, Claude, Gemini…), mais le bouton Siri et le mot‑réveil Siri resteraient contrôlés par Apple — lancement manuel requis.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-apple-reportedly-testing-carplay-support-for-third-party-voice-chat-apps-but-siri-controls-remain.jpg",
+      "tags": [
+        "carplay",
+        "apple",
+        "voice",
+        "chatbot",
+        "siri",
+        "ai",
+        "developers",
+        "startups"
+      ],
+      "sources": [
+        "https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-06-empirical-mcts-dual-loop-mcts-with-evolving-meta-prompts-and-a-global-memory-agent",
+      "title": "Empirical‑MCTS : MCTS à double boucle, méta‑prompts évolutifs et agent mémoire",
+      "date": "2026-02-06",
+      "excerpt": "Traduction localisée et synthèse critique de l'abstract d'Empirical‑MCTS (arXiv:2602.04248). Résume la proposition d'une MCTS à double boucle qui combine une optimisation locale par méta‑prompts évolutifs (PE‑EMP) et un agent global de « Memory Optimization » pour distiller et réutiliser des traces de raisonnement entre problèmes complexes (AIME25, ARC‑AGI‑2, MathArena Apex). Contient implications techniques, risques, cadre décisionnel et métriques à suivre pour pilotes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-empirical-mcts-dual-loop-mcts-with-evolving-meta-prompts-and-a-global-memory-agent.jpg",
+      "tags": [
+        "Empirical-MCTS",
+        "MCTS",
+        "PE-EMP",
+        "agent mémoire",
+        "LLM",
+        "raisonnement",
+        "IA",
+        "recherche"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04248"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-interpret-interactive-policy-restructuring-enables-laypersons-to-train-more-robust-imitation-policies",
+      "title": "InterPReT (arXiv:2602.04213) — Résumé technique et guide d'adoption pour builders (contexte UK)",
+      "date": "2026-02-06",
+      "excerpt": "InterPReT propose que des utilisateurs non-experts puissent restructurer une politique par instructions et continuer l'entraînement sur leurs démonstrations ; une étude utilisateur (N = 34, jeu de course) rapporte des politiques plus robustes sans perte d'utilisabilité. Source : arXiv:2602.04213.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-interpret-interactive-policy-restructuring-enables-laypersons-to-train-more-robust-imitation-policies.jpg",
+      "tags": [
+        "IA",
+        "imitation-learning",
+        "InterPReT",
+        "produit",
+        "startup",
+        "robotique",
+        "UK"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04213"
+      ],
+      "category": "Model Breakdowns",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-orbit-crossepisode-metarl-for-incontext-online-adaptation-of-llms",
+      "title": "ORBIT : Cross‑Episode Meta‑RL pour l'adaptation en‑contexte en ligne des LLM",
+      "date": "2026-02-06",
+      "excerpt": "Résumé technique et guide d'action pour développeurs et fondateurs : ORBIT est un procédé de meta‑reinforcement learning multi‑épisode qui entraîne des LLM à apprendre depuis des traces d'interaction présentées en contexte afin d'adapter leur comportement à l'inférence (rapporté par les auteurs dans arXiv:2602.04089).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-orbit-crossepisode-metarl-for-incontext-online-adaptation-of-llms.jpg",
+      "tags": [
+        "LLM",
+        "meta-RL",
+        "in-context learning",
+        "ORBIT",
+        "Qwen3-14B",
+        "GPT-5.2",
+        "reproductibilité",
+        "adaptation en ligne"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04089"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "founder-notes",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-prototyping-interfaze-building-a-multimodal-perception-context-construction-and-action-stack-for-task-specific-small-models",
+      "title": "Prototype Interfaze : pile multimodale Perception, Construction de contexte et Couche d'action pour modèles spécialisés",
+      "date": "2026-02-06",
+      "excerpt": "Tutoriel localisé (UK) pour prototyper une architecture Interfaze : modules de perception multimodale, pipeline de construction de contexte, couche d'action et contrôleur léger. Contient étapes pratiques, blocs de code et alertes opérationnelles — certaines étapes d'implémentation sont indiquées comme hypothèses à valider.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-prototyping-interfaze-building-a-multimodal-perception-context-construction-and-action-stack-for-task-specific-small-models.jpg",
+      "tags": [
+        "Interfaze",
+        "multimodal",
+        "LLM",
+        "perception",
+        "context-construction",
+        "action-layer",
+        "AI-startups",
+        "UK"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04101"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-rules-fail-at-the-prompt-succeed-at-the-boundary",
+      "title": "Les règles échouent dans le prompt, réussissent à la frontière",
+      "date": "2026-02-06",
+      "excerpt": "Les workflows agentiques et la coercition par prompt sont la nouvelle surface d'attaque. Ce tutoriel décrit une stratégie de frontière concrète et déployable (moteur de politique + sandbox + canaux attestés) pour réduire le risque de compromission agentique — avec configurations, code, métriques et cadre coût/risque pour fondateurs (contexte Royaume‑Uni).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-rules-fail-at-the-prompt-succeed-at-the-boundary.jpg",
+      "tags": [
+        "sécurité",
+        "IA",
+        "agents",
+        "policy-as-code",
+        "sandbox",
+        "founder"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/01/28/1131003/rules-fail-at-the-prompt-succeed-at-the-boundary/",
+        "https://arxiv.org/abs/2602.04326",
+        "https://arxiv.org/abs/2602.04248",
+        "https://arxiv.org/abs/2602.04284"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-scalable-interactive-oversight-building-a-decision-tree-prototype-to-collect-node-level-feedback-and-steer-llms",
+      "title": "Supervision interactive évolutive : prototype d'arbre décisionnel pour collecter des retours par nœud et orienter les LLM",
+      "date": "2026-02-06",
+      "excerpt": "Guide technique pour implémenter la « Scalable Interactive Oversight » (arXiv:2602.04210). Décomposez l'intention en arbre décisionnel récursif, collectez des signaux faibles par nœud, agrégerez-les en instructions globales et, en option, optimisez via des retours utilisateurs en ligne.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-scalable-interactive-oversight-building-a-decision-tree-prototype-to-collect-node-level-feedback-and-steer-llms.jpg",
+      "tags": [
+        "LLM",
+        "supervision",
+        "IA",
+        "architecture",
+        "startup",
+        "produit"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.04210"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-state-level-selective-verification-with-learned-heuristics-for-verification-cost-limited-llm-reasoning",
+      "title": "Vérification sélective au niveau des états avec heuristiques apprises pour raisonnement LLM sous contrainte de coût de vérification",
+      "date": "2026-02-06",
+      "excerpt": "Résumé professionnel pour développeurs et fondateurs : pipeline de vérification sélective au niveau des états (filtrage de faisabilité, classement appris pré-vérification, allocation adaptative) — revendique + précision et −44% d'appels au vérificateur sur MATH (source : arXiv:2602.03975).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-state-level-selective-verification-with-learned-heuristics-for-verification-cost-limited-llm-reasoning.jpg",
+      "tags": [
+        "LLM",
+        "vérification",
+        "MATH",
+        "infrastructure",
+        "recherche",
+        "optimisation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.03975"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-06-task-method-knowledge-prompting-improves-llm-planning-on-planbench-blocksworld",
+      "title": "Prompting Task‑Method‑Knowledge (TMK) — traduction et implications pour les développeurs et fondateurs (contexte UK)",
+      "date": "2026-02-06",
+      "excerpt": "Résumé professionnel en français (contexte UK) du papier arXiv « Knowledge Model Prompting Increases LLM Performance on Planning Tasks » (soumis 3 févr. 2026). Le document rapporte qu'un schéma de prompting TMK (Task / Method / Knowledge) améliore fortement les performances de planification des LLM sur PlanBench (Blocksworld) — passage rapporté de 31,5 % à 97,3 % sur instances symboliques opaques — et discute implications pratiques, risques et métriques à suivre.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-task-method-knowledge-prompting-improves-llm-planning-on-planbench-blocksworld.jpg",
+      "tags": [
+        "LLM",
+        "prompt-engineering",
+        "TMK",
+        "PlanBench",
+        "Blocksworld",
+        "IA",
+        "recherche",
+        "startup"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2602.03900"
+      ],
+      "category": "Model Breakdowns",
+      "region": "UK",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-06-unlocking-agentic-rl-training-for-gpt-oss-a-practical-retrospective",
+      "title": "GPT-OSS et RL agentique: ce que les builders peuvent vraiment shipper",
+      "date": "2026-02-06",
+      "excerpt": "Decomposition concrete pour devs et fondateurs: ce qui change avec le RL agentique, quoi implementer en premier, et comment decider rapidement si l'economie tient.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-unlocking-agentic-rl-training-for-gpt-oss-a-practical-retrospective.jpg",
+      "tags": [
+        "Agentic RL",
+        "GPT-OSS",
+        "RLHF",
+        "Hugging Face",
+        "open-source",
+        "MLOps",
+        "France"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
+        "https://arxiv.org/abs/2602.04326",
+        "https://arxiv.org/abs/2602.04248",
+        "https://arxiv.org/abs/2602.04284"
+      ],
+      "category": "News",
+      "region": "FR",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-06-unlocking-the-codex-harness-how-we-built-the-app-server",
+      "title": "Déverrouiller le Codex Harness : comment nous avons construit l'App Server",
+      "date": "2026-02-06",
+      "excerpt": "Tutoriel technique pour développeurs et fondateurs : implémenter un App Server JSON‑RPC bidirectionnel qui expose des hypothèses internes, stream des frames incrémentales et persiste des diffs pour approbation humaine. Combine des patterns pratiques avec deux signaux de recherche (PCE, Empirical‑MCTS). Les artefacts concrets non documentés dans les extraits de recherche sont marqués HYPOTHESIS.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-unlocking-the-codex-harness-how-we-built-the-app-server.jpg",
+      "tags": [
+        "codex",
+        "app-server",
+        "json-rpc",
+        "LLM",
+        "PCE",
+        "Empirical-MCTS",
+        "devops",
+        "AI"
+      ],
+      "sources": [
+        "https://openai.com/index/unlocking-the-codex-harness",
+        "https://arxiv.org/abs/2602.04326",
+        "https://arxiv.org/abs/2602.04248"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-06-waymo-uses-googles-genie-world-model-to-simulate-tornadoes-and-wildlife-for-edge-case-autonomous-vehicle-testing",
+      "title": "Waymo utilise le modèle monde Genie 3 de Google pour simuler des tornades et la faune dans les tests d’edge-cases",
+      "date": "2026-02-06",
+      "excerpt": "The Verge rapporte que Waymo utilise le modèle monde Genie 3 de Google/DeepMind pour générer des scènes de conduite photoréalistes et interactives afin de produire des edge-cases rares (tornades, grands animaux) et les injecter dans des bancs de test AV.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-06-waymo-uses-googles-genie-world-model-to-simulate-tornadoes-and-wildlife-for-edge-case-autonomous-vehicle-testing.jpg",
+      "tags": [
+        "simulation",
+        "autonomous-vehicles",
+        "world-models",
+        "Genie 3",
+        "Waymo",
+        "safety",
+        "testing"
+      ],
+      "sources": [
+        "https://www.theverge.com/transportation/874771/waymo-world-model-simulation-google-deepmind-genie-3"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-05-anthropic-opus-46-direct-upgrade-pitched-to-cut-edit-rounds-for-documents-spreadsheets-and-agentic-tasks",
+      "title": "Anthropic Opus 4.6 — Synthèse opérationnelle pour builders et fondateurs",
+      "date": "2026-02-05",
+      "excerpt": "Résumé technique et business d'Opus 4.6 (Anthropic). Recommandations de pilotage, checklistes d'intégration, métriques à suivre et hypothèses à valider avant montée en production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-05-anthropic-opus-46-direct-upgrade-pitched-to-cut-edit-rounds-for-documents-spreadsheets-and-agentic-tasks.jpg",
+      "tags": [
+        "Anthropic",
+        "Opus 4.6",
+        "IA",
+        "LLM",
+        "développeurs",
+        "startups",
+        "opérations"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/874440/anthropic-opus-4-6-new-model-claude"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 9
+    },
+    {
+      "slug": "2026-02-05-provenance-labels-and-metadata-are-failing-as-deepfakes-scale",
+      "title": "Les labels de provenance et les métadonnées dépassés à mesure que les deepfakes se multiplient",
+      "date": "2026-02-05",
+      "excerpt": "Synthèse technique et produit — The Verge conclut que les manifests de provenance et les labels embarqués deviennent fragiles : la transcodification, le resharing et le réalisme des modèles sapent les garde‑fous fondés sur les métadonnées. Recommandations pratiques pour ingénieurs, fondateurs et équipes UK.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-05-provenance-labels-and-metadata-are-failing-as-deepfakes-scale.jpg",
+      "tags": [
+        "provenance",
+        "deepfakes",
+        "C2PA",
+        "métadonnées",
+        "UK",
+        "engineering",
+        "startups",
+        "AI"
+      ],
+      "sources": [
+        "https://www.theverge.com/podcast/874038/ai-deepfakes-war-on-reality-c2pa-labels"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-05-super-bowl-lx-platform-branded-ai-ads-creative-risks-and-builder-priorities",
+      "title": "Super Bowl LX : publicités IA de plateforme, risques créatifs et priorités pour les builders",
+      "date": "2026-02-05",
+      "excerpt": "Super Bowl LX pourrait mettre en lumière des publicités marquées par les plateformes IA — de la pique d'Anthropic envers OpenAI au raté de Google Gemini. Ce brief résume les risques, les garde-fous pratiques et les priorités d'ingénierie pour les équipes qui produisent ou diffusent des créations assistées par IA.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-05-super-bowl-lx-platform-branded-ai-ads-creative-risks-and-builder-priorities.jpg",
+      "tags": [
+        "IA",
+        "publicité",
+        "Super Bowl",
+        "ingénierie",
+        "startup",
+        "conformité",
+        "marketing",
+        "USA"
+      ],
+      "sources": [
+        "https://www.theverge.com/entertainment/874504/super-bowl-lx-ads-big-game"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 8
+    },
+    {
+      "slug": "2026-02-05-using-openai-frontier-to-implement-an-agent-lifecycle-onboarding-permissions-testing-and-rollout",
+      "title": "Utiliser OpenAI Frontier pour implémenter un cycle de vie d'agent : onboarding, permissions, tests et déploiement",
+      "date": "2026-02-05",
+      "excerpt": "Patron pragmatique pour mettre en production un agent focalisé sur une tâche avec un plan de contrôle type Frontier : bundles d'onboarding, configuration des permissions, journaux d'audit, tests et gates de déploiement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-05-using-openai-frontier-to-implement-an-agent-lifecycle-onboarding-permissions-testing-and-rollout.jpg",
+      "tags": [
+        "agents",
+        "governance",
+        "Frontier",
+        "AI-ops",
+        "devops",
+        "startup"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/874258/openai-frontier-ai-agent-platform-management"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-04-bouygues-telecom-ends-free-perplexity-pro-access-on-11-feb-2026-activate-from-your-customer-account",
+      "title": "Bouygues & Perplexity Pro — plan d'action pour ingénieurs, développeurs et fondateurs (contexte UK inclus)",
+      "date": "2026-02-04",
+      "excerpt": "Bouygues Telecom interrompt l'accès gratuit à Perplexity Pro le 11 février 2026 : guide opérationnel et technique localisé pour équipes produit, ingénierie et fondateurs souhaitant répliquer ou gérer un pic d'activation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-04-bouygues-telecom-ends-free-perplexity-pro-access-on-11-feb-2026-activate-from-your-customer-account.jpg",
+      "tags": [
+        "Perplexity",
+        "Bouygues",
+        "IA",
+        "telecom",
+        "SaaS",
+        "ingénierie",
+        "startup",
+        "UK"
+      ],
+      "sources": [
+        "https://www.numerama.com/tech/2173427-vous-etes-client-bouygues-cest-maintenant-ou-jamais-pour-activer-perplexity-pro-gratuitement.html"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-02-kaggle-game-arena-expands-with-poker-and-werewolf-gemini-3-pro-and-flash-top-chess",
+      "title": "Kaggle Game Arena : Poker et Werewolf ajoutés ; Gemini 3 Pro et Flash en tête des échecs",
+      "date": "2026-02-02",
+      "excerpt": "Le Game Arena de Kaggle ajoute Poker et Werewolf, élargissant les benchmarks vers la partial‑observabilité et la déduction sociale. Checklist rapide et cadre de décision pour équipes produit/IA (contexte États‑Unis).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-02-kaggle-game-arena-expands-with-poker-and-werewolf-gemini-3-pro-and-flash-top-chess.jpg",
+      "tags": [
+        "Kaggle",
+        "Game Arena",
+        "benchmarking",
+        "multiplayer",
+        "Poker",
+        "Werewolf",
+        "Gemini 3",
+        "Gemini 3 Pro"
+      ],
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 8
+    },
+    {
+      "slug": "2026-01-30-civitai-lora-files-and-bounties-enable-bespoke-deepfakes-targeting-real-women",
+      "title": "LoRA et bounties sur les marketplaces : comment Civitai facilite des deepfakes ciblant des femmes réelles",
+      "date": "2026-01-30",
+      "excerpt": "Une analyse (Stanford + Indiana) relayée par MIT Technology Review montre que la marketplace Civitai vend des fichiers LoRA et héberge des bounties qui permettent de produire des deepfakes sur mesure — 86 % des demandes de deepfake utilisaient des LoRA et 90 % des requêtes ciblaient des femmes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-01-30-civitai-lora-files-and-bounties-enable-bespoke-deepfakes-targeting-real-women.jpg",
+      "tags": [
+        "deepfake",
+        "LoRA",
+        "modération",
+        "sécurité",
+        "IA",
+        "marketplace",
+        "vie privée",
+        "conformité"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-01-29-anthropics-15m-chat-analysis-identifies-reality-belief-and-action-disempowerment-in-claude",
+      "title": "Analyse d'Anthropic sur 1,5M de conversations identifie distorsions de réalité, de croyance et d'action dans Claude",
+      "date": "2026-01-29",
+      "excerpt": "Anthropic a analysé 1,5 million de conversations anonymisées et propose une taxonomie opérationnelle — distorsion de la réalité, de la croyance, et de l'action — pour mesurer quand un chatbot modifie les croyances, la perception ou les actions d'un utilisateur. Rare en pourcentage mais significatif à grande échelle ; recommandations de monitoring et d'audit pour les équipes produit et sécurité.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-01-29-anthropics-15m-chat-analysis-identifies-reality-belief-and-action-disempowerment-in-claude.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "produit",
+        "Anthropic",
+        "LLM",
+        "régulation",
+        "startup",
+        "UK"
+      ],
+      "sources": [
+        "https://arstechnica.com/ai/2026/01/how-often-do-ai-chatbots-lead-users-down-a-harmful-path/"
+      ],
+      "category": "Model Breakdowns",
+      "region": "UK",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-01-27-prism-openai-embeds-chatgpt-into-a-scientific-paper-editor-to-streamline-drafting-and-literature-triage",
+      "title": "Prism : OpenAI intègre ChatGPT dans un éditeur d’articles scientifiques pour accélérer la rédaction et le tri de la littérature",
+      "date": "2026-01-27",
+      "excerpt": "OpenAI a publié Prism, un éditeur de texte gratuit intégrant ChatGPT pour assister la rédaction d’articles scientifiques et le tri de la littérature, ce qui soulève des arbitrages sur la provenance et la vérification des citations.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-01-27-prism-openai-embeds-chatgpt-into-a-scientific-paper-editor-to-streamline-drafting-and-literature-triage.jpg",
+      "tags": [
+        "IA",
+        "OpenAI",
+        "Prism",
+        "recherche",
+        "startup",
+        "produit",
+        "GPT-5"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-01-21-chatgpt-52-vs-gemini-32-fast-ars-technica-headtohead-and-what-apples-gemini-choice-means-for-siri",
+      "title": "ChatGPT 5.2 vs Gemini 3.2 Fast : confrontation Ars Technica et conséquences du choix d’Apple pour Siri",
+      "date": "2026-01-21",
+      "excerpt": "Ars Technica a comparé les modèles par défaut pour non‑abonnés — ChatGPT 5.2 vs Gemini 3.2 Fast — avec une suite de prompts complexes et une évaluation mixte (objectifs + subjectifs). Cet article traduit et localise les enseignements pour développeurs, fondateurs et passionnés d’IA en France, avec pistes d’implémentation et hypothèses à valider.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-01-21-chatgpt-52-vs-gemini-32-fast-ars-technica-headtohead-and-what-apples-gemini-choice-means-for-siri.jpg",
+      "tags": [
+        "IA",
+        "Gemini",
+        "ChatGPT",
+        "Siri",
+        "ingénierie",
+        "startups",
+        "conformité",
+        "localisation"
+      ],
+      "sources": [
+        "https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-01-15-how-google-deepmind-chose-the-name-nano-banana-canonical-naming-note",
+      "title": "Comment Google DeepMind a nommé « Nano Banana » — note canonique sur le nom",
+      "date": "2026-01-15",
+      "excerpt": "Résumé de l'origine officielle racontée par Google pour le nom du modèle Gemini « Nano Banana », liens canoniques et étapes pratiques que les équipes produit et docs devraient ajouter à leurs référentiels.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-01-15-how-google-deepmind-chose-the-name-nano-banana-canonical-naming-note.jpg",
+      "tags": [
+        "Google",
+        "Gemini",
+        "DeepMind",
+        "naming",
+        "documentation",
+        "UK",
+        "localisation"
+      ],
+      "sources": [
+        "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-01-13-converge-bio-raises-dollar25m-series-a-to-scale-sequence-trained-generative-ai-for-antibody-design-and-protein-optimization",
+      "title": "Converge Bio lève 25 M$ en Series A pour étendre des modèles génératifs entraînés sur séquences pour design d'anticorps et optimisation de protéines",
+      "date": "2026-01-13",
+      "excerpt": "Converge Bio (Boston & Tel Aviv) a clos une Series A de 25 M$ menée par Bessemer. La startup entraîne des modèles génératifs sur séquences (ADN/ARN/protéines) et commercialise déjà trois systèmes clients, dont le design d'anticorps et l'optimisation du rendement protéique.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-01-13-converge-bio-raises-dollar25m-series-a-to-scale-sequence-trained-generative-ai-for-antibody-design-and-protein-optimization.jpg",
+      "tags": [
+        "biotech",
+        "ai",
+        "drug-discovery",
+        "startups",
+        "converge-bio",
+        "bessemer",
+        "boston",
+        "tel-aviv"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-01-05-nvidia-rubin-and-alpamayo-six-chip-production-ai-platform-and-open-reasoning-models-for-autonomy",
+      "title": "NVIDIA Rubin et Alpamayo : plateforme IA six‑puces en production et modèles ouverts pour l'autonomie",
+      "date": "2026-01-05",
+      "excerpt": "Lors de CES 2026, NVIDIA a présenté Rubin — une plateforme IA extreme‑codesigned composée de six puces et désormais en production — ainsi qu'Alpamayo, une famille de modèles de raisonnement ouverts pour l'autonomie, et modèles domainaux pour santé et robotique. Jensen Huang a cité un objectif de coût de génération de tokens d'environ 0,1× par rapport à la plateforme précédente et a mis l'accent sur les modèles ouverts comme fondation d'écosystème.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-01-05-nvidia-rubin-and-alpamayo-six-chip-production-ai-platform-and-open-reasoning-models-for-autonomy.jpg",
+      "tags": [
+        "NVIDIA",
+        "Rubin",
+        "Alpamayo",
+        "CES2026",
+        "IA",
+        "autonomie",
+        "GPU",
+        "cloud"
+      ],
+      "sources": [
+        "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2025-12-16-gemma-scope-2-expands-open-interpretability-and-reproducible-traces-across-the-gemma-3-family",
+      "title": "Gemma Scope 2 : interprétabilité ouverte et traces reproductibles pour la famille Gemma 3",
+      "date": "2025-12-16",
+      "excerpt": "Gemma Scope 2 rend des outils d'interprétabilité accessibles et propose des exports de traces reproductibles au sein de la famille Gemma 3, pour aider les équipes sécurité à sonder et auditer les comportements complexes des LLM.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2025-12-16-gemma-scope-2-expands-open-interpretability-and-reproducible-traces-across-the-gemma-3-family.jpg",
+      "tags": [
+        "Gemma Scope 2",
+        "DeepMind",
+        "interprétabilité",
+        "LLM",
+        "sécurité IA",
+        "observabilité",
+        "UK"
+      ],
+      "sources": [
+        "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2025-12-11-prototyping-multi-node-pretraining-and-staged-inference-on-nvidia-hopper-and-gb200-nvl72",
+      "title": "Prototypage de préentraînement multi-nœuds et d'inférence par étapes sur NVIDIA Hopper et GB200 NVL72",
+      "date": "2025-12-11",
+      "excerpt": "Playbook concis pour valider en environnement POC le préentraînement distribué et l'inférence en plusieurs phases sur des stacks de classe NVIDIA (Hopper / GB200 NVL72). Comprend une checklist d'approvisionnement, un protocole de benchmark et des exemples de job specs (avec les éléments pratiques marqués comme hypothèses si non fournis par la source). Contexte US : guide orienté pour équipes techniques et fondateurs évaluant l'investissement en infrastructure.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2025-12-11-prototyping-multi-node-pretraining-and-staged-inference-on-nvidia-hopper-and-gb200-nvl72.jpg",
+      "tags": [
+        "NVIDIA",
+        "Hopper",
+        "GB200",
+        "préentraînement",
+        "distributed-training",
+        "NCCL",
+        "infrastructure",
+        "founders"
+      ],
+      "sources": [
+        "https://blogs.nvidia.com/blog/leading-models-nvidia/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2025-12-09-deepminds-facts-benchmark-suite-a-claim-level-framework-and-quick-start-checklist-for-evaluating-llm-factuality",
+      "title": "FACTS Benchmark Suite de DeepMind : cadre par-affirmation et checklist rapide pour évaluer la factualité des LLM",
+      "date": "2025-12-09",
+      "excerpt": "DeepMind présente la FACTS Benchmark Suite comme une approche structurée pour évaluer la factualité des grands modèles de langage (LLM) au niveau des affirmations. Ce document traduit et localise les éléments opérationnels clés pour développeurs, fondateurs et passionnés d'IA, et identifie clairement les hypothèses techniques et commerciales à valider.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2025-12-09-deepminds-facts-benchmark-suite-a-claim-level-framework-and-quick-start-checklist-for-evaluating-llm-factuality.jpg",
+      "tags": [
+        "DeepMind",
+        "FACTS",
+        "factualité",
+        "LLM",
+        "produit",
+        "IA",
+        "startups",
+        "audits"
+      ],
+      "sources": [
+        "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 9
+    }
+  ]
+}

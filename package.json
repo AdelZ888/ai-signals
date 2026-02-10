@@ -14,6 +14,7 @@
     "send-newsletter": "node scripts/send-newsletter.mjs",
     "backfill-covers": "node scripts/backfill-cover-images.mjs",
     "backfill-60days": "node scripts/backfill-60-days.mjs",
+    "rebuild-posts-index": "node scripts/rebuild-posts-index.mjs",
     "automate": "node scripts/automate.mjs"
   },
   "dependencies": {

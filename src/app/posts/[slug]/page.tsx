@@ -28,7 +28,8 @@ type Params = {
 
 export async function generateStaticParams() {
   const posts = await getAllPostsMeta();
-  return posts.map((post) => ({ slug: post.slug }));
+  const limit = Math.max(40, Math.min(400, Number(process.env.STATIC_POST_PARAMS_LIMIT || 140)));
+  return posts.slice(0, limit).map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
