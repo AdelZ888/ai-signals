@@ -311,6 +311,9 @@ h6,
 
 .nav-menu-button {
   list-style: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--border-soft);
   border-radius: 0.75rem;
   padding: 0.45rem 0.75rem;
@@ -319,6 +322,12 @@ h6,
   font-weight: 800;
   color: var(--soft);
   cursor: pointer;
+}
+
+.hamburger-button {
+  width: 2.65rem;
+  height: 2.35rem;
+  padding: 0;
 }
 
 .nav-menu-button::-webkit-details-marker {
@@ -1418,6 +1427,10 @@ h6,
 
   .theme-toggle {
     padding: 0.38rem 0.55rem;
+  }
+
+  .theme-toggle-text {
+    display: none;
   }
 
   .lang-switch {

@@ -97,7 +97,7 @@ export function SiteHeader() {
         </Link>
 
         <div className="flex items-center gap-3">
-          <nav className="hidden items-center gap-2 text-sm theme-text-muted md:flex">
+          <nav className="hidden items-center gap-2 text-sm theme-text-muted lg:flex">
             {primaryLinks.map((link) => (
               <Link
                 key={link.path}
@@ -136,11 +136,11 @@ export function SiteHeader() {
             </details>
           </nav>
 
-          <Link href={subscribeHref} className="hidden rounded-lg bg-cyan-300 px-3 py-2 text-xs font-bold text-zinc-900 transition hover:bg-cyan-200 md:inline-flex">
+          <Link href={subscribeHref} className="hidden rounded-lg bg-cyan-300 px-3 py-2 text-xs font-bold text-zinc-900 transition hover:bg-cyan-200 lg:inline-flex">
             {navLabels.subscribe}
           </Link>
 
-          <div className="lang-switch hidden md:inline-flex">
+          <div className="lang-switch hidden lg:inline-flex">
             <Link href={enHref} className={`lang-pill ${locale === "en" ? "lang-pill-active" : ""}`}>
               EN
             </Link>
@@ -149,13 +149,11 @@ export function SiteHeader() {
             </Link>
           </div>
 
-          <div className="hidden md:block">
-            <ThemeToggle locale={locale} />
-          </div>
+          <ThemeToggle locale={locale} />
 
           <button
             type="button"
-            className="nav-menu-button md:hidden"
+            className="nav-menu-button hamburger-button lg:hidden"
             aria-label={mobileOpen ? navLabels.close : navLabels.menu}
             aria-expanded={mobileOpen}
             onClick={() => setMobileOpen((v) => !v)}
