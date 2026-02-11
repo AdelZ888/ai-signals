@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { NewsletterCta } from "@/components/newsletter-cta";
 import { PostCard } from "@/components/post-card";
+import { ServicesCta } from "@/components/services-cta";
 import { getAllPostsMeta, getPostsByCategory } from "@/lib/posts";
 
 export const metadata: Metadata = {
@@ -78,6 +79,9 @@ export default async function StartHereFrPage() {
             </Link>
             <Link className="hero-cta hero-cta-tertiary" href="/fr/tutorials">
               Tutoriels
+            </Link>
+            <Link className="hero-cta hero-cta-tertiary" href="/fr/services">
+              Services
             </Link>
           </div>
           <div className="mt-6 flex flex-wrap gap-2">
@@ -158,6 +162,8 @@ export default async function StartHereFrPage() {
           <div id="newsletter" className="scroll-mt-28">
             <NewsletterCta locale="fr" variant="sidebar" />
           </div>
+
+          <ServicesCta locale="fr" />
 
           <div className="aside-card motion-card motion-enter motion-delay-6">
             <p className="section-kicker">Regle</p>

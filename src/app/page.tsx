@@ -4,6 +4,7 @@ import type { CSSProperties } from "react";
 
 import { NewsletterCta } from "@/components/newsletter-cta";
 import { PostCard } from "@/components/post-card";
+import { ServicesCta } from "@/components/services-cta";
 import { formatTagForPath, PRIMARY_REGIONS, getAllPostsMeta, getAllTags, getRegionLabel, regionCodeToPath } from "@/lib/posts";
 import { buildOgUrl } from "@/lib/og";
 
@@ -94,6 +95,9 @@ export default async function Home() {
             </Link>
             <Link href="/#newsletter" className="hero-cta hero-cta-tertiary">
               Subscribe
+            </Link>
+            <Link href="/services" className="hero-cta hero-cta-tertiary">
+              Services
             </Link>
           </div>
 
@@ -197,9 +201,14 @@ export default async function Home() {
             <NewsletterCta locale="en" variant="sidebar" />
           </div>
 
+          <ServicesCta locale="en" variant="sidebar" />
+
           <div className="aside-card motion-card motion-enter motion-delay-4">
             <p className="section-kicker">Browse</p>
             <div className="mt-3 grid gap-2 text-sm">
+              <Link className="footer-link" href="/services">
+                Services
+              </Link>
               <Link className="footer-link" href="/news">
                 AI News
               </Link>

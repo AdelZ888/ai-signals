@@ -6,7 +6,7 @@ A fully automated blog that discovers AI topics, generates posts, and publishes 
 
 - Renders a markdown-based blog from `content/posts`.
 - Supports sections and blog UX:
-  - Home, News, Tutorials, Regions, Search, About
+  - Home, News, Tutorials, Services, Regions, Search, About
   - French mirror routes under `/fr` with localized UI and metadata
   - Regional pages (`/regions/us`, `/regions/uk`, `/regions/fr`)
   - Tag pages (`/tags/[tag]`)
@@ -79,3 +79,26 @@ Daily publishing is configured in:
 To enable OpenAI generation in GitHub Actions, add this repository secret:
 
 - `OPENAI_API_KEY`
+
+## Services lead funnel
+
+Service pages are available at:
+
+- `/services`
+- `/fr/services`
+
+Qualified requests are posted to:
+
+- `/api/services/lead`
+
+Required env vars:
+
+- `RESEND_API_KEY`
+- `SERVICES_LEAD_TO`
+
+Optional env vars:
+
+- `SERVICES_FROM`
+- `SERVICES_REPLY_TO`
+- `SERVICES_BOOKING_URL`
+- `NEXT_PUBLIC_SERVICES_BOOKING_URL`

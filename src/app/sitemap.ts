@@ -11,11 +11,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const newslettersEn = await getAllNewslettersMeta("en");
   const newslettersFr = await getAllNewslettersMeta("fr");
 
-  const staticEnRoutes = ["", "/start-here", "/about", "/news", "/tutorials", "/search", "/regions", "/newsletter"];
+  const staticEnRoutes = ["", "/start-here", "/about", "/services", "/news", "/tutorials", "/search", "/regions", "/newsletter"];
   const staticFrRoutes = [
     "/fr",
     "/fr/start-here",
     "/fr/about",
+    "/fr/services",
     "/fr/news",
     "/fr/tutorials",
     "/fr/search",

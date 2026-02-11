@@ -37,6 +37,7 @@ export function SiteHeader() {
           startHere: "Commencer",
           news: "Actualités",
           tutorials: "Tutoriels",
+          services: "Services",
           newsletter: "Newsletter",
           regions: "Régions",
           search: "Recherche",
@@ -52,6 +53,7 @@ export function SiteHeader() {
           startHere: "Start Here",
           news: "News",
           tutorials: "Tutorials",
+          services: "Services",
           newsletter: "Newsletter",
           regions: "Regions",
           search: "Search",
@@ -72,6 +74,7 @@ export function SiteHeader() {
   ];
 
   const secondaryLinks = [
+    { path: "/services", label: navLabels.services },
     { path: "/regions", label: navLabels.regions },
     { path: "/newsletter", label: navLabels.newsletter },
     { path: "/search", label: navLabels.search },

@@ -7,6 +7,7 @@ import { NewsletterCta } from "@/components/newsletter-cta";
 import { PostToc } from "@/components/post-toc";
 import { ReadingProgress } from "@/components/reading-progress";
 import { RelatedPosts } from "@/components/related-posts";
+import { ServicesCta } from "@/components/services-cta";
 import { ShareSnippet } from "@/components/share-snippet";
 import { CodeCopyEnhancer } from "@/components/code-copy";
 import {
@@ -221,6 +222,10 @@ export default async function PostFrPage({ params }: Params) {
           </section>
 
           <section className="article-section motion-enter motion-delay-5">
+            <ServicesCta locale="fr" variant="inline" />
+          </section>
+
+          <section className="article-section motion-enter motion-delay-6">
             <RelatedPosts posts={relatedPosts} locale="fr" />
           </section>
         </article>

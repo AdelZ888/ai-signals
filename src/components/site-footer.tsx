@@ -37,6 +37,11 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
+                <Link className="footer-link inline-flex w-fit" href={`${prefix}/services`}>
+                  {locale === "fr" ? "Services" : "Services"}
+                </Link>
+              </li>
+              <li>
                 <Link className="footer-link inline-flex w-fit" href={`${prefix}/news`}>
                   {locale === "fr" ? "Actualités" : "News"}
                 </Link>
