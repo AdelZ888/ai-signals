@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-02-10T16:11:43.045Z",
+  "generatedAt": "2026-02-11T08:41:38.427Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-02-11-set-up-comfyui-on-an-nvidia-rtx-pc-for-local-image-and-short-video-generation",
+      "title": "Set up ComfyUI on an Nvidia RTX PC for local image and short-video generation",
+      "date": "2026-02-11",
+      "excerpt": "A concise playbook to run ComfyUI on an Nvidia RTX PC: hardware preflight, driver/runtime checklist and a reproducible deployment to generate images and short videos locally.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-11-set-up-comfyui-on-an-nvidia-rtx-pc-for-local-image-and-short-video-generation.jpg",
+      "tags": [
+        "comfyui",
+        "nvidia",
+        "rtx",
+        "generative-ai",
+        "local-inference",
+        "gpu-acceleration",
+        "video-generation",
+        "tutorial"
+      ],
+      "sources": [
+        "https://www.numerama.com/tech/2176519-comfyui-comment-generer-facilement-des-images-ou-des-videos-avec-une-carte-graphique-nvidia-rtx.html"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-02-10-asterbot-an-ai-agent-built-from-sandboxed-swappable-wasm-components",
       "title": "Asterbot — an AI agent built from sandboxed, swappable WASM components",
