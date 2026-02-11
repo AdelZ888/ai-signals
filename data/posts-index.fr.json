@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-02-11T08:41:38.427Z",
+  "generatedAt": "2026-02-11T16:07:33.814Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-02-11-prototype-guide-cart-assistant-that-prefills-uber-eats-grocery-carts-from-text-or-photo-shopping-lists",
+      "title": "Guide prototype : Cart Assistant qui préremplit les paniers Uber Eats à partir de listes textuelles ou photo",
+      "date": "2026-02-11",
+      "excerpt": "Guide pratique pour construire un MVP Cart Assistant capable d'accepter une liste texte ou une photo (OCR), d'extraire et normaliser les articles avec un LLM, de mapper vers des SKUs en privilégiant l'historique de commande utilisateur, et de préremplir un panier pour revue avant paiement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-11-prototype-guide-cart-assistant-that-prefills-uber-eats-grocery-carts-from-text-or-photo-shopping-lists.jpg",
+      "tags": [
+        "ai",
+        "ocr",
+        "llm",
+        "nlp",
+        "grocery",
+        "prototype",
+        "product",
+        "ux"
+      ],
+      "sources": [
+        "https://www.theverge.com/transportation/876540/uber-eats-ai-chatbot-cart-assistant-grocery-shopping"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 600,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-02-11-set-up-comfyui-on-an-nvidia-rtx-pc-for-local-image-and-short-video-generation",
       "title": "Installer ComfyUI sur un PC Nvidia RTX pour génération locale d'images et de courtes vidéos",
