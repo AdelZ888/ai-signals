@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-12T08:38:00.942Z",
+  "generatedAt": "2026-02-12T15:58:13.396Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-12-prototype-guide-integrating-bytedance-seedance-20-with-capcutdreamina-and-developer-apis",
+      "title": "Prototype guide: integrating ByteDance Seedance 2.0 with CapCut/Dreamina and developer APIs",
+      "date": "2026-02-12",
+      "excerpt": "Hands-on guide to build a prototype that uses ByteDance Seedance 2.0 — a single‑pass video model generating visuals, dialogue and music — delivered via CapCut/Dreamina or APIs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-12-prototype-guide-integrating-bytedance-seedance-20-with-capcutdreamina-and-developer-apis.jpg",
+      "tags": [
+        "Seedance",
+        "ByteDance",
+        "video-generation",
+        "multimodal",
+        "CapCut",
+        "Dreamina",
+        "APIs",
+        "deployment"
+      ],
+      "sources": [
+        "https://www.numerama.com/tech/2176523-seedance-le-nouveau-modele-chinois-pour-generer-des-videos-defie-openai-et-google.html"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
     },
     {
       "slug": "2026-02-11-prototype-guide-cart-assistant-that-prefills-uber-eats-grocery-carts-from-text-or-photo-shopping-lists",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-12T08:38:00.948Z",
+  "generatedAt": "2026-02-12T15:58:13.451Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2176523-seedance-le-nouveau-modele-chinois-pour-generer-des-videos-defie-openai-et-google.html",
+      "title": "Seedance, le nouveau modèle chinois pour générer des vidéos, défie OpenAI et Google",
+      "link": "https://www.numerama.com/tech/2176523-seedance-le-nouveau-modele-chinois-pour-generer-des-videos-defie-openai-et-google.html",
+      "summary": "Début février 2026, le groupe chinois ByteDance a dévoilé Seedance 2.0, son nouveau modèle de génération vidéo par IA. Capable de produire image, son, voix et musique dans un même pipeline, l’outil impressionne autant par ses performances techniques que par sa stratégie de déploiement grand public.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-10T10:44:38.000Z",
+      "score": 58.38,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-12T15:58:13.387Z",
+      "file": "content/posts/2026-02-12-prototype-guide-integrating-bytedance-seedance-20-with-capcutdreamina-and-developer-apis.md",
+      "fileFr": "content/posts/fr/2026-02-12-prototype-guide-integrating-bytedance-seedance-20-with-capcutdreamina-and-developer-apis.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1761,
+      "wordsFr": 1399
+    },
     {
       "id": "https://www.bbc.com/news/articles/cqxdj77welpo?at_medium=RSS&at_campaign=rss",
       "title": "EU tells Meta to let rivals run AI chatbots on WhatsApp",
@@ -1128,6 +1151,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://github.com/fctr-id/okta-ai-agent",
+      "title": "Show HN: Tako AI – Agent for Okta With Natural language (zero hallucination)",
+      "link": "https://github.com/fctr-id/okta-ai-agent",
+      "summary": "Hi HN, Every week I watched Okta admins burn hours answering ad-hoc questions from security teams: \"Who has access to Salesforce?\", \"Find all contractors with GitHub access who haven't used MFA in 30 days.\" The answers always involved the same painful loop: dig through a slow web console, chain API calls, correlate CSVs, write throwaway Python scripts. Repeat next week. I spent 12 months building Tako AI to fix this. You ask a question in plain English, it returns verified data. GitHub: https://github.com/fctr-id/okta-ai-agent THE ONE RULE: Zero hallucinations. In identity and access management, a wrong answer is worse than no answer. If an AI tells your CISO a contractor doesn't have admin access when they actually do, that's a security incident. Tako never \"predicts\" an answer. It writes the code to find the answer, executes it, and returns the raw result. Ask the same question twice, you get the same data. THE HARDEST PROBLEM: Scaling to 107+ API endpoints Most AI agents break down past 10-20 tools. They hallucinate parameters, call wrong endpoints, invent fields that don't exist. We went through five architecture rewrites over 12 months. Each iteration: new LLM drops (GPT-4, Claude 3.5), we rebuild the agent, hit context limits, watch it snowball into gibberish. The breakthrough wasn't bigger context windows — it was precise context engineering. Instead of cramming 107 endp",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-02-12T15:38:38.000Z",
+      "score": 252,
+      "status": "queued"
+    },
+    {
       "id": "https://weloveaijobs.com",
       "title": "Show HN: We Love AI Jobs – AI jobs for people who don't write Python",
       "link": "https://weloveaijobs.com",
@@ -1188,6 +1223,18 @@
       "status": "queued"
     },
     {
+      "id": "https://drift.marquis.codes/",
+      "title": "Show HN: Drift – Real-time codebase health dashboard with AI-powered fixing (Go)",
+      "link": "https://drift.marquis.codes/",
+      "summary": "I built drift, a terminal tool that monitors code health in real-time across 8 languages (Go, TypeScript, Python, Rust, Java, Ruby, PHP, C#). It tracks cyclomatic complexity, dependency freshness, architecture boundary violations, and dead code — all in a live TUI dashboard. The interesting part: `drift fix` calls GitHub Copilot CLI programmatically to suggest refactorings. It extracts the function source, builds a context-rich prompt, and runs `copilot -p \" \" -s --add-dir ` as a subprocess. You review each suggestion before doing anything. I also created a custom Copilot agent (`.github/agents/`) that gives Copilot domain expertise about code health metrics, and a GitHub Action that uses Copilot to turn raw health reports into friendly PR comments. Go analysis uses full AST parsing via go/ast. Other languages use heuristic regex. TUI is built with Bubble Tea + Lip Gloss. Repo: https://github.com/greatnessinabox/drift Site: https://drift.marquis.codes Comments URL: https://news.ycombinator.com/item?id=46989958 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-12T15:25:47.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/actionbook/actionbook",
       "title": "Show HN: Actionbook – Resilient browser automation engine for AI agents (Rust)",
       "link": "https://github.com/actionbook/actionbook",
@@ -1208,6 +1255,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-07T18:15:09.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch",
+      "title": "ByteDance’s next-gen AI model can generate clips based on text, images, audio, and video",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch",
+      "summary": "ByteDance says its new AI video model can more accurately follow prompts. | Image: ByteDance Big Tech's race to leapfrog the latest AI models continues with the launch of ByteDance's next-gen video generator. In a blog post, ByteDance - the China-based company behind TikTok - says Seedance 2.0 supports prompts that combine text, images, video, and audio. The company claims it \"delivers a substantial leap in generation quality,\" offering improvements in generating complex scenes with multiple subjects and its ability to follow instructions. Users can refine their text prompts by feeding Seedance 2.0 up to nine images, three video clips, and three audio clips. The model can generate up to 15-second clips with audio, while taking cam … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-12T15:26:00.000Z",
       "score": 180,
       "status": "queued"
     },
@@ -1284,6 +1343,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.clawcity.city/",
+      "title": "Show HN: ClawCity - A wall only AI agents can write on",
+      "link": "https://www.clawcity.city/",
+      "summary": "Article URL: https://www.clawcity.city/ Comments URL: https://news.ycombinator.com/item?id=46990292 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-12T15:49:42.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.getagentcraft.com/#start",
+      "title": "AgentCraft – Watch AI agents come alive in an RTS game",
+      "link": "https://www.getagentcraft.com/#start",
+      "summary": "Article URL: https://www.getagentcraft.com/#start Comments URL: https://news.ycombinator.com/item?id=46989864 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-12T15:17:52.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://saysigned.com/",
+      "title": "SaySigned – The e-signature platform built for AI agents",
+      "link": "https://saysigned.com/",
+      "summary": "Article URL: https://saysigned.com/ Comments URL: https://news.ycombinator.com/item?id=46989782 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-12T15:10:19.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -1304,6 +1399,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-11T15:27:44.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://medium.com/riskified-technology/lgtm-2-0-zero-noise-ai-code-review-agents-857441ec4f1a",
+      "title": "I built a zero-noise AI code review agent using Claude Code",
+      "link": "https://medium.com/riskified-technology/lgtm-2-0-zero-noise-ai-code-review-agents-857441ec4f1a",
+      "summary": "Article URL: https://medium.com/riskified-technology/lgtm-2-0-zero-noise-ai-code-review-agents-857441ec4f1a Comments URL: https://news.ycombinator.com/item?id=46989956 Points: 4 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-12T15:25:33.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -1472,6 +1579,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-11T15:29:41.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://theautomatedoperator.substack.com/p/shortcutai-is-crazy-good-for-excel",
+      "title": "Shortcut.ai Is AGreat Excel Agent (and Thoughts on AI Replacing Prof Services)",
+      "link": "https://theautomatedoperator.substack.com/p/shortcutai-is-crazy-good-for-excel",
+      "summary": "Article URL: https://theautomatedoperator.substack.com/p/shortcutai-is-crazy-good-for-excel Comments URL: https://news.ycombinator.com/item?id=46990206 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-12T15:43:30.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -1653,6 +1772,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-12T05:00:00.000Z",
       "score": 141.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://polydom.ai",
+      "title": "Show HN: An AI agent covering all first-line hotel and Airbnb communications",
+      "link": "https://polydom.ai",
+      "summary": "Article URL: https://polydom.ai Comments URL: https://news.ycombinator.com/item?id=46989460 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-12T14:44:37.000Z",
+      "score": 141.01,
       "status": "queued"
     },
     {
@@ -2676,6 +2807,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2178207-claude-ai-ameliore-sa-version-gratuite-anthropic-defie-chatgpt-avec-plusieurs-nouveautes.html",
+      "title": "Claude AI améliore sa version gratuite : Anthropic défie ChatGPT avec plusieurs nouveautés",
+      "link": "https://www.numerama.com/tech/2178207-claude-ai-ameliore-sa-version-gratuite-anthropic-defie-chatgpt-avec-plusieurs-nouveautes.html",
+      "summary": "Plusieurs fonctionnalités populaires de l’IA Claude, développée par Anthropic et jusqu’ici réservées aux abonnés payants, deviennent gratuites, a annoncé l’entreprise le 11 février 2026. Une décision qui relance un peu plus la rivalité avec OpenAI.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-12T09:58:33.000Z",
+      "score": 68.3,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/c62dlvdq3e3o?at_medium=RSS&at_campaign=rss",
+      "title": "AI safety leader says 'world is in peril' and quits to study poetry",
+      "link": "https://www.bbc.com/news/articles/c62dlvdq3e3o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes in the same week an OpenAI researcher resigned amid concerns about its decision to start testing ChatGPT ads.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-12T12:21:10.000Z",
+      "score": 63.96,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
       "title": "Is a secure AI assistant possible?",
       "link": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
@@ -2685,6 +2840,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-11T20:08:35.000Z",
       "score": 63.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
+      "title": "What’s next for Chinese open-source AI",
+      "link": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025, Chinese companies have repeatedly delivered AI…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-12T10:00:00.000Z",
+      "score": 62.39,
       "status": "queued"
     },
     {
@@ -2721,18 +2888,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-11T11:00:00.000Z",
       "score": 59.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2176523-seedance-le-nouveau-modele-chinois-pour-generer-des-videos-defie-openai-et-google.html",
-      "title": "Seedance, le nouveau modèle chinois pour générer des vidéos, défie OpenAI et Google",
-      "link": "https://www.numerama.com/tech/2176523-seedance-le-nouveau-modele-chinois-pour-generer-des-videos-defie-openai-et-google.html",
-      "summary": "Début février 2026, le groupe chinois ByteDance a dévoilé Seedance 2.0, son nouveau modèle de génération vidéo par IA. Capable de produire image, son, voix et musique dans un même pipeline, l’outil impressionne autant par ses performances techniques que par sa stratégie de déploiement grand public.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T10:44:38.000Z",
-      "score": 58.38,
       "status": "queued"
     },
     {
@@ -2796,6 +2951,18 @@
       "status": "queued"
     },
     {
+      "id": "https://huggingface.co/blog/openenv-turing",
+      "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
+      "link": "https://huggingface.co/blog/openenv-turing",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-12T00:00:00.000Z",
+      "score": 43.55,
+      "status": "queued"
+    },
+    {
       "id": "https://www.bbc.com/news/articles/c3093gjy2ero?at_medium=RSS&at_campaign=rss",
       "title": "AI chatbots pose 'dangerous' risk when giving medical advice, study suggests",
       "link": "https://www.bbc.com/news/articles/c3093gjy2ero?at_medium=RSS&at_campaign=rss",
@@ -2853,6 +3020,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-01-27T17:00:58.000Z",
       "score": 36.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://huggingface.co/blog/upskill",
+      "title": "We Got Claude to Build CUDA Kernels and teach open models!",
+      "link": "https://huggingface.co/blog/upskill",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-01-28T00:00:00.000Z",
+      "score": 36.32,
       "status": "queued"
     },
     {
@@ -3117,162 +3296,6 @@
       "keywordHits": 0,
       "publishedAt": "2026-02-03T11:25:53.000Z",
       "score": 21.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.lemonde.fr/societe/article/2026/02/03/laisser-l-ia-hors-de-la-classe-c-est-la-laisser-sans-contre-pouvoir_6665166_3224.html",
-      "title": "« Laisser l’IA hors de la classe, c’est la laisser sans contre‑pouvoir »",
-      "link": "https://www.lemonde.fr/societe/article/2026/02/03/laisser-l-ia-hors-de-la-classe-c-est-la-laisser-sans-contre-pouvoir_6665166_3224.html",
-      "summary": "Docteur en histoire et professeur dans le secondaire, Nicolas Smaghue plaide, dans une tribune au « Monde », pour une « voie médiane » concernant l’utilisation de l’intelligence artificielle à l’école, refusant une « abstinence générale ».",
-      "source": "Le Monde IA",
-      "region": "FR",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-03T05:00:09.000Z",
-      "score": 21.47,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/introducing-the-codex-app",
-      "title": "Introducing the Codex app",
-      "link": "https://openai.com/index/introducing-the-codex-app",
-      "summary": "Introducing the Codex app for macOS—a command center for AI coding and software development with multiple agents, parallel workflows, and long-running tasks.",
-      "source": "OpenAI News",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-02T00:00:00.000Z",
-      "score": 21.1,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/dear-upstairs-neighbors/",
-      "title": "How animators and AI researchers made ‘Dear Upstairs Neighbors’",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/dear-upstairs-neighbors/",
-      "summary": "Today, our animated short film, “Dear Upstairs Neighbors,” previews at the Sundance Film Festival.",
-      "source": "Google AI Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-01-26T18:00:00.000Z",
-      "score": 20.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
-      "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
-      "link": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
-      "summary": "Learn how Google's NAI framework uses AI to make technology more adaptive, inclusive and helpful for everyone.",
-      "source": "Google AI Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-05T17:00:00.000Z",
-      "score": 16.1,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/",
-      "title": "How Google Cloud is helping Team USA elevate their tricks with AI",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/",
-      "summary": "Google Cloud built an industry-first AI tool to help U.S. Ski and Snowboard athletes.",
-      "source": "Google AI Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-05T16:00:00.000Z",
-      "score": 15.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/",
-      "title": "The latest AI news we announced in January",
-      "link": "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/",
-      "summary": "Google AI announcements from January",
-      "source": "Google AI Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-04T16:55:00.000Z",
-      "score": 12.74,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.lemonde.fr/m-le-mag/article/2026/02/04/lolita-cercel-la-chanteuse-creee-par-ia-en-roumanie-fascine-et-inquiete_6665414_4500055.html",
-      "title": "Lolita Cercel, la chanteuse créée par IA en Roumanie, fascine et inquiète",
-      "link": "https://www.lemonde.fr/m-le-mag/article/2026/02/04/lolita-cercel-la-chanteuse-creee-par-ia-en-roumanie-fascine-et-inquiete_6665414_4500055.html",
-      "summary": "L’artiste virtuelle créée par l’intelligence artificielle cumule des milliers de vues et d’écoutes sur les plateformes en Roumanie, bousculant les milieux artistiques.",
-      "source": "Le Monde IA",
-      "region": "FR",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-04T17:30:02.000Z",
-      "score": 12.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b",
-      "title": "H Company's new Holo2 model takes the lead in UI Localization",
-      "link": "https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-03T17:40:14.000Z",
-      "score": 11.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3",
-      "title": "The Future of the Global Open-Source AI Ecosystem: From DeepSeek to AI+",
-      "link": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-03T15:03:19.000Z",
-      "score": 11.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
-      "title": "What we’ve been getting wrong about AI’s truth crisis",
-      "link": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. What would it take to convince you that the era of truth decay we were long warned about—where AI content dupes us, shapes our beliefs even wh",
-      "source": "MIT Tech Review AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-02T18:09:57.000Z",
-      "score": 11.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/",
-      "title": "How we’re helping preserve the genetic information of endangered species with AI",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/",
-      "summary": "Scientists are working to sequence the genome of every known species on Earth.",
-      "source": "Google AI Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-02T18:00:00.000Z",
-      "score": 11.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/",
-      "title": "The crucial first step for designing a successful enterprise AI system",
-      "link": "https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/",
-      "summary": "Many organizations rushed into generative AI, only to see pilots fail to deliver value. Now, companies want measurable outcomes—but how do you design for success? At Mistral AI, we partner with global industry leaders to co-design tailored AI solutions that solve their most diffi",
-      "source": "MIT Tech Review AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-02T14:20:29.000Z",
-      "score": 11.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/",
-      "title": "The AI Hype Index: Grok makes porn, and Claude Code nails your job",
-      "link": "https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/",
-      "summary": "Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It’s just that you never know which one you’re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is s",
-      "source": "MIT Tech Review AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-01-29T20:56:23.000Z",
-      "score": 10.65,
       "status": "queued"
     },
     {
