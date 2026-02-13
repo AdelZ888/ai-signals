@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-12T15:58:13.451Z",
+  "generatedAt": "2026-02-13T08:35:22.072Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch",
+      "title": "ByteDance’s next-gen AI model can generate clips based on text, images, audio, and video",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch",
+      "summary": "ByteDance says its new AI video model can more accurately follow prompts. | Image: ByteDance Big Tech's race to leapfrog the latest AI models continues with the launch of ByteDance's next-gen video generator. In a blog post, ByteDance - the China-based company behind TikTok - says Seedance 2.0 supports prompts that combine text, images, video, and audio. The company claims it \"delivers a substantial leap in generati…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-12T15:26:00.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-13T08:35:22.056Z",
+      "file": "content/posts/2026-02-13-seedance-20-bytedances-multimodal-model-for-generating-up-to-15second-videos-from-text-images-audio-and-video.md",
+      "fileFr": "content/posts/fr/2026-02-13-seedance-20-bytedances-multimodal-model-for-generating-up-to-15second-videos-from-text-images-audio-and-video.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1470,
+      "wordsFr": 1283
+    },
     {
       "id": "https://www.numerama.com/tech/2176523-seedance-le-nouveau-modele-chinois-pour-generer-des-videos-defie-openai-et-google.html",
       "title": "Seedance, le nouveau modèle chinois pour générer des vidéos, défie OpenAI et Google",
@@ -1163,6 +1186,18 @@
       "status": "queued"
     },
     {
+      "id": "https://margindash.com/",
+      "title": "Show HN: MarginDash – See which AI customers are profitable",
+      "link": "https://margindash.com/",
+      "summary": "I built MarginDash because I couldn't answer a basic question: which of my customers actually make me money after AI costs? My Stripe dashboard showed revenue going up. My OpenAI bills showed costs going up faster. I had no way to connect the two at the customer level. MarginDash is a few line SDK integration (TypeScript, Python, or REST) that tracks model usage per customer and connects it to revenue — either through Stripe sync or by passing revenue directly in the API call. You get a per-customer P&L showing revenue, cost, and margin. A cost simulator lets you pick any feature, swap the underlying model, and see projected savings. Models are ranked by intelligence-per-dollar using public benchmarks (MMLU-Pro, GPQA, AIME) so you can find cheaper options that aren't actually worse. Budget alerts email you before a customer or feature blows past a threshold. The pricing database covers 100+ models across OpenAI, Anthropic, Google, AWS Bedrock, Azure, and Groq with daily updates — so cost calculations stay accurate without you maintaining a spreadsheet. The SDK only sends model name, token counts, and customer ID. No prompts, no responses. Solo founder, built the whole thing for $239.72 in AI costs (wrote about that too). Currently free while I get feedback — would love to hear what you think, especially about the cost simulator. Comments URL: https://news.ycombinator.com/item?i",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-13T08:21:46.000Z",
+      "score": 222,
+      "status": "queued"
+    },
+    {
       "id": "https://weloveaijobs.com",
       "title": "Show HN: We Love AI Jobs – AI jobs for people who don't write Python",
       "link": "https://weloveaijobs.com",
@@ -1255,18 +1290,6 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-07T18:15:09.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch",
-      "title": "ByteDance’s next-gen AI model can generate clips based on text, images, audio, and video",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch",
-      "summary": "ByteDance says its new AI video model can more accurately follow prompts. | Image: ByteDance Big Tech's race to leapfrog the latest AI models continues with the launch of ByteDance's next-gen video generator. In a blog post, ByteDance - the China-based company behind TikTok - says Seedance 2.0 supports prompts that combine text, images, video, and audio. The company claims it \"delivers a substantial leap in generation quality,\" offering improvements in generating complex scenes with multiple subjects and its ability to follow instructions. Users can refine their text prompts by feeding Seedance 2.0 up to nine images, three video clips, and three audio clips. The model can generate up to 15-second clips with audio, while taking cam … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-12T15:26:00.000Z",
       "score": 180,
       "status": "queued"
     },
@@ -1412,6 +1435,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-12T15:25:33.000Z",
       "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://agentprobe.xyz",
+      "title": "Show HN: AgentProbe – Validate AI agent endpoints across 8 protocols in one URL",
+      "link": "https://agentprobe.xyz",
+      "summary": "I built AgentProbe to solve a recurring problem: checking whether an AI agent endpoint actually supports the protocols it claims to. Paste a URL, click Validate, get instant verdicts across HTTP, MCP, A2A/AP2, x402, OAuth, MCP Apps, HTML, and ERC-8004. Each layer gets a detail breakdown — tools found, payment networks, SSL status, agent card metadata, AP2 detection, etc. It also exposes a built-in MCP server so agents can trigger validation programmatically. Code: https://github.com/FlowMCP/mcp-agent-validator Stack: Node.js 22, vanilla JS, DigitalOcean App Platform. Would love feedback on the detection approach. Comments URL: https://news.ycombinator.com/item?id=46999938 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-13T07:31:06.000Z",
+      "score": 166.23,
       "status": "queued"
     },
     {
@@ -1643,6 +1678,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/",
+      "title": "OpenAI says China's DeepSeek trained its AI by distilling US models, memo shows",
+      "link": "https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/",
+      "summary": "Article URL: https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/ Comments URL: https://news.ycombinator.com/item?id=46999766 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-13T07:02:50.000Z",
+      "score": 152.75,
+      "status": "queued"
+    },
+    {
       "id": "https://github.blog/ai-and-ml/generative-ai/what-ai-is-actually-good-for-according-to-developers/",
       "title": "What AI is good for, according to developers",
       "link": "https://github.blog/ai-and-ml/generative-ai/what-ai-is-actually-good-for-according-to-developers/",
@@ -1703,6 +1750,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.11510",
+      "title": "AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems",
+      "link": "https://arxiv.org/abs/2602.11510",
+      "summary": "arXiv:2602.11510v1 Announce Type: new Abstract: Multi-agent Large Language Model (LLM) systems create privacy risks that current benchmarks cannot measure. When agents coordinate on tasks, sensitive data passes through inter-agent messages, shared memory, and tool arguments; pathways that output-only audits never inspect. We introduce AgentLeak, to the best of our knowledge the first full-stack benchmark for privacy leakage covering internal channels, spanning 1,000 scenarios across healthcare, finance, legal, and corporate domains, paired with a 32-class attack taxonomy and three-tier detection pipeline. Testing GPT-4o, GPT-4o-mini, Claude 3.5 Sonnet, Mistral Large, and Llama 3.3 70B across 4,979 traces reveals that multi-agent configurations reduce per-channel output leakage (C1: 27.2% vs 43.2% in single-agent) but introduce unmonitored internal channels that raise total system exposure to 68.9% (OR-aggregated across C1, C2, C5). Internal channels account for most of this gap: inter-agent messages (C2) leak at 68.8%, compared to 27.2% on C1 (output channel). This means that output-only audits miss 41.7% of violations. Claude 3.5 Sonnet, which emphasizes safety alignment in its design, achieves the lowest leakage rates on both external (3.3%) and internal (28.1%) channels, suggesting that model-level safety training may transfer to internal channel protection. Across all five",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 147.96,
+      "status": "queued"
+    },
+    {
       "id": "https://aipractitioner.substack.com/",
       "title": "A Technical Series on Building Stateful AI Agents with LangGraph",
       "link": "https://aipractitioner.substack.com/",
@@ -1748,6 +1807,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-10T06:28:59.000Z",
       "score": 145.15,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11348",
+      "title": "AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition",
+      "link": "https://arxiv.org/abs/2602.11348",
+      "summary": "arXiv:2602.11348v1 Announce Type: new Abstract: Recent advances in large language models have enabled LLM-based agents to achieve strong performance on a variety of benchmarks. However, their performance in real-world deployments often that observed on benchmark settings, especially in complex and imperfect environments. This discrepancy largely arises because prevailing training and evaluation paradigms are typically built on idealized assumptions, overlooking the inherent stochasticity and noise present in real-world interactions. To bridge this gap, we introduce AgentNoiseBench, a framework for systematically evaluating the robustness of agentic models under noisy environments. We first conduct an in-depth analysis of biases and uncertainties in real-world scenarios and categorize environmental noise into two primary types: user-noise and tool-noise. Building on this analysis, we develop an automated pipeline that injects controllable noise into existing agent-centric benchmarks while preserving task solvability. Leveraging this pipeline, we perform extensive evaluations across a wide range of models with diverse architectures and parameter scales. Our results reveal consistent performance variations under different noise conditions, highlighting the sensitivity of current agentic models to realistic environmental perturbations.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 141.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11354",
+      "title": "ReplicatorBench: Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences",
+      "link": "https://arxiv.org/abs/2602.11354",
+      "summary": "arXiv:2602.11354v1 Announce Type: new Abstract: The literature has witnessed an emerging interest in AI agents for automated assessment of scientific papers. Existing benchmarks focus primarily on the computational aspect of this task, testing agents' ability to reproduce or replicate research outcomes when having access to the code and data. This setting, while foundational, (1) fails to capture the inconsistent availability of new data for replication as opposed to reproduction, and (2) lacks ground-truth diversity by focusing only on reproducible papers, thereby failing to evaluate an agent's ability to identify non-replicable research. Furthermore, most benchmarks only evaluate outcomes rather than the replication process. In response, we introduce ReplicatorBench, an end-to-end benchmark, including human-verified replicable and non-replicable research claims in social and behavioral sciences for evaluating AI agents in research replication across three stages: (1) extraction and retrieval of replication data; (2) design and execution of computational experiments; and (3) interpretation of results, allowing a test of AI agents' capability to mimic the activities of human replicators in real world. To set a baseline of AI agents' capability, we develop ReplicatorAgent, an agentic framework equipped with necessary tools, like web search and iterative interaction with sandboxe",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 141.96,
       "status": "queued"
     },
     {
@@ -1943,6 +2026,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.11351",
+      "title": "Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization",
+      "link": "https://arxiv.org/abs/2602.11351",
+      "summary": "arXiv:2602.11351v1 Announce Type: new Abstract: Proactive large language model (LLM) agents aim to actively plan, query, and interact over multiple turns, enabling efficient task completion beyond passive instruction following and making them essential for real-world, user-centric applications. Agentic reinforcement learning (RL) has recently emerged as a promising solution for training such agents in multi-turn settings, allowing interaction strategies to be learned from feedback. However, existing pipelines face a critical challenge in balancing task performance with user engagement, as passive agents can not efficiently adapt to users' intentions while overuse of human feedback reduces their satisfaction. To address this trade-off, we propose BAO, an agentic RL framework that combines behavior enhancement to enrich proactive reasoning and information-gathering capabilities with behavior regularization to suppress inefficient or redundant interactions and align agent behavior with user expectations. We evaluate BAO on multiple tasks from the UserRL benchmark suite, and demonstrate that it substantially outperforms proactive agentic RL baselines while achieving comparable or even superior performance to commercial LLM agents, highlighting its effectiveness for training proactive, user-aligned LLM agents in complex multi-turn scenarios. Our website: https://proactive-agentic-rl",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 129.96,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10467",
       "title": "MERIT Feedback Elicits Better Bargaining in LLM Negotiators",
       "link": "https://arxiv.org/abs/2602.10467",
@@ -2027,6 +2122,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/877299/ai-arbitrator-bridget-mccormack-aaa-arbitration-interview",
+      "title": "The surprising case for AI judges",
+      "link": "https://www.theverge.com/podcast/877299/ai-arbitrator-bridget-mccormack-aaa-arbitration-interview",
+      "summary": "Today, we’re going to talk about the role AI might play in deciding legal disputes. Not just drafting memos and doing research — actually deciding who’s right and who’s wrong, and who should pay. My guest today is Bridget McCormack, the former chief justice for the Michigan Supreme Court and now president and CEO of the American Arbitration Association. The AAA has been around for exactly 100 years and is the country’s largest nonprofit arbitrator. You’ve probably heard of arbitration before. It’s is a form of dispute resolution that allows two parties to resolve conflicts outside the formal court system using a third, neutral party — the arbitrator — to negotiate a settlement. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. You may have never found yourself in arbitration, but you’ve almost certainly signed an arbitration clause, in one of the many contracts and terms-of-service agreements that all of us have to sign all the time. Arbitration can be much faster, cheaper, and easier than going to court, so it’s become a favored way of resolving disputes between businesses. It’s also, as it turns out, how many employers and large corporations defend against lawsuits, because they can sneak an arbitration clause into the agreements for everything from cellphone service t",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-12T16:22:33.000Z",
+      "score": 121.43,
+      "status": "queued"
+    },
+    {
       "id": "https://www.myclone.is/",
       "title": "Show HN: AI that replaces the first 15 minutes of every client call",
       "link": "https://www.myclone.is/",
@@ -2096,6 +2203,42 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-09T04:25:55.000Z",
       "score": 118.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11301",
+      "title": "The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates",
+      "link": "https://arxiv.org/abs/2602.11301",
+      "summary": "arXiv:2602.11301v1 Announce Type: new Abstract: Enterprises are rapidly deploying large language models, retrieval augmented generation pipelines, and tool using agents into production, often on shared high performance computing clusters and cloud accelerator platforms that also support defensive analytics. These systems increasingly function not as isolated models but as AI estates: socio technical systems spanning models, agents, data pipelines, security tooling, human workflows, and hyperscale infrastructure. Existing governance and security frameworks, including the NIST AI Risk Management Framework and systems security engineering guidance, articulate principles and risk functions but do not provide implementable architectures for multi agent, AI enabled cyber defense. This paper introduces the Practitioners Blueprint for Secure AI (PBSAI) Governance Ecosystem, a multi agent reference architecture for securing enterprise and hyperscale AI estates. PBSAI organizes responsibilities into a twelve domain taxonomy and defines bounded agent families that mediate between tools and policy through shared context envelopes and structured output contracts. The architecture assumes baseline enterprise security capabilities and encodes key systems security techniques, including analytic monitoring, coordinated defense, and adaptive response. A lightweight formal model of agents, contex",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 117.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11340",
+      "title": "Bi-Level Prompt Optimization for Multimodal LLM-as-a-Judge",
+      "link": "https://arxiv.org/abs/2602.11340",
+      "summary": "arXiv:2602.11340v1 Announce Type: new Abstract: Large language models (LLMs) have become widely adopted as automated judges for evaluating AI-generated content. Despite their success, aligning LLM-based evaluations with human judgments remains challenging. While supervised fine-tuning on human-labeled data can improve alignment, it is costly and inflexible, requiring new training for each task or dataset. Recent progress in auto prompt optimization (APO) offers a more efficient alternative by automatically improving the instructions that guide LLM judges. However, existing APO methods primarily target text-only evaluations and remain underexplored in multimodal settings. In this work, we study auto prompt optimization for multimodal LLM-as-a-judge, particularly for evaluating AI-generated images. We identify a key bottleneck: multimodal models can only process a limited number of visual examples due to context window constraints, which hinders effective trial-and-error prompt refinement. To overcome this, we propose BLPO, a bi-level prompt optimization framework that converts images into textual representations while preserving evaluation-relevant visual cues. Our bi-level optimization approach jointly refines the judge prompt and the I2T prompt to maintain fidelity under limited context budgets. Experiments on four datasets and three LLM judges demonstrate the effectiveness of",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 117.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11455",
+      "title": "Credit Where It is Due: Cross-Modality Connectivity Drives Precise Reinforcement Learning for MLLM Reasoning",
+      "link": "https://arxiv.org/abs/2602.11455",
+      "summary": "arXiv:2602.11455v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) has significantly advanced the reasoning capabilities of Multimodal Large Language Models (MLLMs), yet how visual evidence is integrated during reasoning remains poorly understood. We explore multimodal RLVR through the lens of cross-modal attention connectivity and find that only a small fraction of tokens (approximately 15%) exhibit strong visual-textual coupling. These high-connectivity tokens act as anchors that ground reasoning in the image, while the majority follow linguistic patterns. During RLVR training, credit assignment naturally concentrates on these anchors, sharpening their visual grounding over time. Building on this insight, we propose Anchor-Token Reinforcement Learning (AT-RL), a lightweight framework that selectively reinforces high-connectivity tokens via graph-based clustering of attention topology. Evaluated across the series (3B-32B), AT-RL introduces only 1.2% overhead yet enables the 32B model to surpass the 72B-Instruct baseline on MathVista (80.2), with consistent gains observed across STEM, video and general tasks. Conversely, training solely on low-connectivity tokens causes severe degradation, confirming that effective multimodal RL hinges on precise credit assignment to visual anchors. Our work reveals that reasoning quality is governed not by to",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 117.96,
       "status": "queued"
     },
     {
@@ -2303,6 +2446,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.11318",
+      "title": "Dissecting Subjectivity and the \"Ground Truth\" Illusion in Data Annotation",
+      "link": "https://arxiv.org/abs/2602.11318",
+      "summary": "arXiv:2602.11318v1 Announce Type: new Abstract: In machine learning, \"ground truth\" refers to the assumed correct labels used to train and evaluate models. However, the foundational \"ground truth\" paradigm rests on a positivistic fallacy that treats human disagreement as technical noise rather than a vital sociotechnical signal. This systematic literature review analyzes research published between 2020 and 2025 across seven premier venues: ACL, AIES, CHI, CSCW, EAAMO, FAccT, and NeurIPS, investigating the mechanisms in data annotation practices that facilitate this \"consensus trap\". Our identification phase captured 30,897 records, which were refined via a tiered keyword filtration schema to a high-recall corpus of 3,042 records for manual screening, resulting in a final included corpus of 346 papers for qualitative synthesis. Our reflexive thematic analysis reveals that systemic failures in positional legibility, combined with the recent architectural shift toward human-as-verifier models, specifically the reliance on model-mediated annotations, introduce deep-seated anchoring bias and effectively remove human voices from the loop. We further demonstrate how geographic hegemony imposes Western norms as universal benchmarks, often enforced by the performative alignment of precarious data workers who prioritize requester compliance over honest subjectivity to avoid economic pena",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 105.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11389",
+      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+      "link": "https://arxiv.org/abs/2602.11389",
+      "summary": "arXiv:2602.11389v1 Announce Type: new Abstract: World models require robust relational understanding to support prediction, reasoning, and control. While object-centric representations provide a useful abstraction, they are not sufficient to capture interaction-dependent dynamics. We therefore propose C-JEPA, a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations. By applying object-level masking that requires an object's state to be inferred from other objects, C-JEPA induces latent interventions with counterfactual-like effects and prevents shortcut solutions, making interaction reasoning essential. Empirically, C-JEPA leads to consistent gains in visual question answering, with an absolute improvement of about 20\\% in counterfactual reasoning compared to the same architecture without object-level masking. On agent control tasks, C-JEPA enables substantially more efficient planning by using only 1\\% of the total latent input features required by patch-based world models, while achieving comparable performance. Finally, we provide a formal analysis demonstrating that object-level masking induces a causal inductive bias via latent interventions. Our code is available at https://github.com/galilai-group/cjepa.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 105.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11409",
+      "title": "TRACER: Trajectory Risk Aggregation for Critical Episodes in Agentic Reasoning",
+      "link": "https://arxiv.org/abs/2602.11409",
+      "summary": "arXiv:2602.11409v1 Announce Type: new Abstract: Estimating uncertainty for AI agents in real-world multi-turn tool-using interaction with humans is difficult because failures are often triggered by sparse critical episodes (e.g., looping, incoherent tool use, or user-agent miscoordination) even when local generation appears confident. Existing uncertainty proxies focus on single-shot text generation and therefore miss these trajectory-level breakdown signals. We introduce TRACER, a trajectory-level uncertainty metric for dual-control Tool-Agent-User interaction. TRACER combines content-aware surprisal with situational-awareness signals, semantic and lexical repetition, and tool-grounded coherence gaps, and aggregates them using a tail-focused risk functional with a MAX-composite step risk to surface decisive anomalies. We evaluate TRACER on $\\tau^2$-bench by predicting task failure and selective task execution. To this end, TRACER improves AUROC by up to 37.1% and AUARC by up to 55% over baselines, enabling earlier and more accurate detection of uncertainty in complex conversational tool-use settings. Our code and benchmark are available at https://github.com/sinatayebati/agent-tracer.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 105.96,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10583",
       "title": "Flow of Spans: Generalizing Language Models to Dynamic Span-Vocabulary via GFlowNets",
       "link": "https://arxiv.org/abs/2602.10583",
@@ -2408,6 +2587,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-08T06:39:43.000Z",
       "score": 100.53,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11159",
+      "title": "Explaining AI Without Code: A User Study on Explainable AI",
+      "link": "https://arxiv.org/abs/2602.11159",
+      "summary": "arXiv:2602.11159v1 Announce Type: new Abstract: The increasing use of Machine Learning (ML) in sensitive domains such as healthcare, finance, and public policy has raised concerns about the transparency of automated decisions. Explainable AI (XAI) addresses this by clarifying how models generate predictions, yet most methods demand technical expertise, limiting their value for novices. This gap is especially critical in no-code ML platforms, which seek to democratize AI but rarely include explainability. We present a human-centered XAI module in DashAI, an open-source no-code ML platform. The module integrates three complementary techniques, which are Partial Dependence Plots (PDP), Permutation Feature Importance (PFI), and KernelSHAP, into DashAI's workflow for tabular classification. A user study (N = 20; ML novices and experts) evaluated usability and the impact of explanations. Results show: (i) high task success ($\\geq80\\%$) across all explainability tasks; (ii) novices rated explanations as useful, accurate, and trustworthy on the Explanation Satisfaction Scale (ESS, Cronbach's $\\alpha$ = 0.74, a measure of internal consistency), while experts were more critical of sufficiency and completeness; and (iii) explanations improved perceived predictability and confidence on the Trust in Automation scale (TiA, $\\alpha$ = 0.60), with novices showing higher trust than experts. The",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 99.96,
       "status": "queued"
     },
     {
@@ -2615,6 +2806,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.11229",
+      "title": "Latent Generative Solvers for Generalizable Long-Term Physics Simulation",
+      "link": "https://arxiv.org/abs/2602.11229",
+      "summary": "arXiv:2602.11229v1 Announce Type: new Abstract: We study long-horizon surrogate simulation across heterogeneous PDE systems. We introduce Latent Generative Solvers (LGS), a two-stage framework that (i) maps diverse PDE states into a shared latent physics space with a pretrained VAE, and (ii) learns probabilistic latent dynamics with a Transformer trained by flow matching. Our key mechanism is an uncertainty knob that perturbs latent inputs during training and inference, teaching the solver to correct off-manifold rollout drift and stabilizing autoregressive prediction. We further use flow forcing to update a system descriptor (context) from model-generated trajectories, aligning train/test conditioning and improving long-term stability. We pretrain on a curated corpus of $\\sim$2.5M trajectories at $128^2$ resolution spanning 12 PDE families. LGS matches strong deterministic neural-operator baselines on short horizons while substantially reducing rollout drift on long horizons. Learning in latent space plus efficient architectural choices yields up to \\textbf{70$\\times$} lower FLOPs than non-generative baselines, enabling scalable pretraining. We also show efficient adaptation to an out-of-distribution $256^2$ Kolmogorov flow dataset under limited finetuning budgets. Overall, LGS provides a practical route toward generalizable, uncertainty-aware neural PDE solvers that are more",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 87.96,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10699",
       "title": "Spend Search Where It Pays: Value-Guided Structured Sampling and Optimization for Generative Recommendation",
       "link": "https://arxiv.org/abs/2602.10699",
@@ -2687,6 +2890,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.11298",
+      "title": "Voxtral Realtime",
+      "link": "https://arxiv.org/abs/2602.11298",
+      "summary": "arXiv:2602.11298v1 Announce Type: new Abstract: We introduce Voxtral Realtime, a natively streaming automatic speech recognition model that matches offline transcription quality at sub-second latency. Unlike approaches that adapt offline models through chunking or sliding windows, Voxtral Realtime is trained end-to-end for streaming, with explicit alignment between audio and text streams. Our architecture builds on the Delayed Streams Modeling framework, introducing a new causal audio encoder and Ada RMS-Norm for improved delay conditioning. We scale pretraining to a large-scale dataset spanning 13 languages. At a delay of 480ms, Voxtral Realtime achieves performance on par with Whisper, the most widely deployed offline transcription system. We release the model weights under the Apache 2.0 license.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 81.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11408",
+      "title": "GHOST: Unmasking Phantom States in Mamba2 via Grouped Hidden-state Output-aware Selection & Truncation",
+      "link": "https://arxiv.org/abs/2602.11408",
+      "summary": "arXiv:2602.11408v1 Announce Type: new Abstract: While Mamba2's expanded state dimension enhances temporal modeling, it incurs substantial inference overhead that saturates bandwidth during autoregressive generation. Standard pruning methods fail to address this bottleneck: unstructured sparsity leaves activations dense, magnitude-based selection ignores runtime dynamics, and gradient-based methods impose prohibitive costs. We introduce GHOST (Grouped Hidden-state Output-aware Selection and Truncation), a structured pruning framework that approximates control-theoretic balanced truncation using only forward-pass statistics. By jointly measuring controllability and observability, GHOST rivals the fidelity of gradient-based methods without requiring backpropagation. As a highlight, on models ranging from 130M to 2.7B parameters, our approach achieves a 50\\% state-dimension reduction with approximately 1 perplexity point increase on WikiText-2. Code is available at https://anonymous.4open.science/r/mamba2_ghost-7BCB/.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 81.96,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10802",
       "title": "Integrating Generative AI-enhanced Cognitive Systems in Higher Education: From Stakeholder Perceptions to a Conceptual Framework considering the EU AI Act",
       "link": "https://arxiv.org/abs/2602.10802",
@@ -2756,6 +2983,54 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-08T12:38:20.000Z",
       "score": 78.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://susam.net/inverse-laws-of-robotics.html",
+      "title": "Three Inverse Laws of AI and Robotics",
+      "link": "https://susam.net/inverse-laws-of-robotics.html",
+      "summary": "Article URL: https://susam.net/inverse-laws-of-robotics.html Comments URL: https://news.ycombinator.com/item?id=46999301 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-13T05:41:48.000Z",
+      "score": 78.3,
+      "status": "queued"
+    },
+    {
+      "id": "https://seedanceai2.org/",
+      "title": "Show HN: Seedance AShow HN: Seedance AI Video Generation (Next.js, Drizzle)",
+      "link": "https://seedanceai2.org/",
+      "summary": "Hi HN — I’m an indie maker building Seedance AI. It helps people create short videos (and images) from text prompts and reference photos. I tried to keep it simple: fast templates, predictable credit pricing, and downloadable results. It’s still early, and I know there are rough edges. I’d really appreciate honest feedback on what feels useful, what feels confusing, and what I should improve first. Happy to answer technical or product questions. Comments URL: https://news.ycombinator.com/item?id=46999394 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-13T05:57:27.000Z",
+      "score": 76.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/itc-ou-shigou/winclaw",
+      "title": "WinClaw: Windows-native AI assistant with Office automation and skills",
+      "link": "https://github.com/itc-ou-shigou/winclaw",
+      "summary": "Article URL: https://github.com/itc-ou-shigou/winclaw Comments URL: https://news.ycombinator.com/item?id=46999254 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-13T05:33:33.000Z",
+      "score": 76.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.11437",
+      "title": "Distributionally Robust Cooperative Multi-Agent Reinforcement Learning via Robust Value Factorization",
+      "link": "https://arxiv.org/abs/2602.11437",
+      "summary": "arXiv:2602.11437v1 Announce Type: new Abstract: Cooperative multi-agent reinforcement learning (MARL) commonly adopts centralized training with decentralized execution, where value-factorization methods enforce the individual-global-maximum (IGM) principle so that decentralized greedy actions recover the team-optimal joint action. However, the reliability of this recipe in real-world settings remains unreliable due to environmental uncertainties arising from the sim-to-real gap, model mismatch, and system noise. We address this gap by introducing Distributionally robust IGM (DrIGM), a principle that requires each agent's robust greedy action to align with the robust team-optimal joint action. We show that DrIGM holds for a novel definition of robust individual action values, which is compatible with decentralized greedy execution and yields a provable robustness guarantee for the whole system. Building on this foundation, we derive DrIGM-compliant robust variants of existing value-factorization architectures (e.g., VDN/QMIX/QTRAN) that (i) train on robust Q-targets, (ii) preserve scalability, and (iii) integrate seamlessly with existing codebases without bespoke per-agent reward shaping. Empirically, on high-fidelity SustainGym simulators and a StarCraft game environment, our methods consistently improve out-of-distribution performance. Code and data are available at https://gi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-13T05:00:00.000Z",
+      "score": 75.96,
       "status": "queued"
     },
     {
@@ -2999,6 +3274,30 @@
       "status": "queued"
     },
     {
+      "id": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-12T16:15:09.000Z",
+      "score": 37.37,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "summary": "We’re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
+      "source": "Google AI Blog",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-12T16:13:00.000Z",
+      "score": 37.35,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
       "title": "ChatGPT’s deep research tool adds a built-in document viewer so you can read its reports",
       "link": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
@@ -3020,282 +3319,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-01-27T17:00:58.000Z",
       "score": 36.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/upskill",
-      "title": "We Got Claude to Build CUDA Kernels and teach open models!",
-      "link": "https://huggingface.co/blog/upskill",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-28T00:00:00.000Z",
-      "score": 36.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.03978",
-      "title": "Monitorability as a Free Gift: How RLVR Spontaneously Aligns Reasoning",
-      "link": "https://arxiv.org/abs/2602.03978",
-      "summary": "arXiv:2602.03978v1 Announce Type: new \nAbstract: As Large Reasoning Models (LRMs) are increasingly deployed, auditing their chain-of-thought (CoT) traces for safety becomes critical. Recent work has reported that monitorability--the degree to which CoT faithfully and informativel",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-06T05:00:00.000Z",
-      "score": 35.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "title": "Bringing ChatGPT to GenAI.mil",
-      "link": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T11:00:00.000Z",
-      "score": 35.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.04028",
-      "title": "Axiomatic Foundations of Counterfactual Explanations",
-      "link": "https://arxiv.org/abs/2602.04028",
-      "summary": "arXiv:2602.04028v1 Announce Type: new Abstract: Explaining autonomous and intelligent systems is critical in order to improve trust in their decisions. Counterfactuals have emerged as one of the most compelling forms of explanation. They address ``why not'' questions by revealing how decisions could be altered. Despite the growing literature, most existing explainers focus on a single type of counterfactual and are restricted to local explanations, focusing on individual instances. There has been no systematic study of alternative counterfactual types, nor of global counterfactuals that shed light on a system's overall reasoning process. This paper addresses the two gaps by introducing an axiomatic framework built on a set of desirable properties for counterfactual explainers. It proves impossibility theorems showing that no single explainer can satisfy certain axiom combinations simultaneously, and fully characterizes all compatible sets. Representation theorems then establish five one-to-one correspondences between specific subsets of axioms and the families of explainers that satisfy them. Each family gives rise to a distinct type of counterfactual explanation, uncovering five fundamentally different types of counterfactuals. Some of these correspond to local explanations, while others capture global explanations. Finally, the framework situates existing explainers within th",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-06T05:00:00.000Z",
-      "score": 35.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/876029/openai-testing-ads-in-chatgpt",
-      "title": "ChatGPT&#8217;s cheapest options now show you ads",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/876029/openai-testing-ads-in-chatgpt",
-      "summary": "Ads will appear as labeled “sponsored” links. | Image: OpenAI ChatGPT users may soon start seeing ads in their chats, as OpenAI announced on Monday that it's officially beginning to test ads on its AI platform. They'll appear as labeled \"sponsored\" links at the bottom of ChatGPT answers, but OpenAI says the ads \"do not influence the answers ChatGPT gives you.\" Currently, ads will only show up for users on the free version of ChatGPT or the lowest-cost $8 per month Go plan. Users in the Plus, Pro, Business, Enterprise, and Education plans won't see any ads, so anyone who wants to avoid them has to pay at least $20 per month for the Plus subscription. There is one loophole - OpenAI notes that users can … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T21:23:07.000Z",
-      "score": 34.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/introducing-openai-frontier",
-      "title": "Introducing OpenAI Frontier",
-      "link": "https://openai.com/index/introducing-openai-frontier",
-      "summary": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
-      "source": "OpenAI News",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-05T06:00:00.000Z",
-      "score": 33.91,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/snowflake-partnership",
-      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
-      "link": "https://openai.com/index/snowflake-partnership",
-      "summary": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.",
-      "source": "OpenAI News",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-02T06:00:00.000Z",
-      "score": 31.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/technology/ai/release-notes-podcast-project-genie/",
-      "title": "Hear more about interactive world models in our latest podcast.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/release-notes-podcast-project-genie/",
-      "summary": "The latest episode of the Google AI: Release Notes podcast focuses on Genie 3, a real-time, interactive world model. Host Logan Kilpatrick chats with Diego Rivas, Shlomi…",
-      "source": "Google AI Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-01-29T15:00:00.000Z",
-      "score": 30.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/inside-our-in-house-data-agent",
-      "title": "Inside OpenAI’s in-house data agent",
-      "link": "https://openai.com/index/inside-our-in-house-data-agent",
-      "summary": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
-      "source": "OpenAI News",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-01-29T10:00:00.000Z",
-      "score": 30.62,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/",
-      "title": "What AI “remembers” about you is privacy’s next frontier",
-      "link": "https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/",
-      "summary": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.  Earlier this month, Google announced Personal Intelligence, a new way for people to interact with the company’s Gemini chatbot that draws on their Gmail, photos,",
-      "source": "MIT Tech Review AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-01-28T14:57:37.000Z",
-      "score": 30.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/google/2026/01/google-project-genie-lets-you-create-interactive-worlds-from-a-photo-or-prompt/",
-      "title": "Google Project Genie lets you create interactive worlds from a photo or prompt",
-      "link": "https://arstechnica.com/google/2026/01/google-project-genie-lets-you-create-interactive-worlds-from-a-photo-or-prompt/",
-      "summary": "Project Genie lets you generate new worlds 60 seconds at a time, but only if you pay for AI Ultra.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-29T20:26:50.000Z",
-      "score": 30.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
-      "title": "The next chapter for AI in the EU",
-      "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
-      "summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-28T01:00:00.000Z",
-      "score": 30.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
-      "link": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "summary": "Bringing Gemini to billions of users requires a massive, coordinated infrastructure effort. In the latest episode of the Google AI: Release Notes podcast, host Logan Kil…",
-      "source": "Google AI Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-01-27T10:28:00.000Z",
-      "score": 30.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/",
-      "title": "“Wildly irresponsible”: DOT's use of AI to draft safety rules sparks concerns",
-      "link": "https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/",
-      "summary": "Staffers warn DOT's use of Gemini to draft rules could cause injuries and deaths.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-26T20:13:47.000Z",
-      "score": 30.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/testing-ads-in-chatgpt",
-      "title": "Testing ads in ChatGPT",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T11:00:00.000Z",
-      "score": 29.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/trusted-access-for-cyber",
-      "title": "Introducing Trusted Access for Cyber",
-      "link": "https://openai.com/index/trusted-access-for-cyber",
-      "summary": "OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-05T10:00:00.000Z",
-      "score": 28.08,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/report/874308/anthropic-claude-code-opus-hype-moment",
-      "title": "Claude has been having a moment — can it keep it up?",
-      "link": "https://www.theverge.com/report/874308/anthropic-claude-code-opus-hype-moment",
-      "summary": "Boris Cherny gets recognized in public relatively often. At the bar, at the airport, and in generally any public space, people want to take selfies with the creator and head of Claude Code. For the last couple of months, Anthropic's Claude and its coding platform have been having a moment - on social media, in engineers' circles, and in C-suite offices. Claude Code reached newfound popularity over the holidays, when people spent days or weeks building anything from a tool for viewing MRI results to a Goodreads alternative to an AI-generated T-shirt design contest with a complex judicial system. X posts in January proclaimed that \"we are wi … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-05T18:00:00.000Z",
-      "score": 26.48,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/introducing-gpt-5-3-codex",
-      "title": "Introducing GPT-5.3-Codex",
-      "link": "https://openai.com/index/introducing-gpt-5-3-codex",
-      "summary": "GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work.",
-      "source": "OpenAI News",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-05T00:00:00.000Z",
-      "score": 23.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/gpt-5-3-codex-system-card",
-      "title": "GPT-5.3-Codex System Card",
-      "link": "https://openai.com/index/gpt-5-3-codex-system-card",
-      "summary": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.",
-      "source": "OpenAI News",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-05T00:00:00.000Z",
-      "score": 23.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.lemonde.fr/idees/article/2026/02/04/les-etats-unis-parient-sur-une-coordination-active-entre-les-pays-et-les-industries-pour-securiser-toute-la-chaine-de-l-ia_6665426_3232.html",
-      "title": "« Les Etats-Unis parient sur une coordination active entre les pays et les industries pour sécuriser toute la chaîne de l’IA »",
-      "link": "https://www.lemonde.fr/idees/article/2026/02/04/les-etats-unis-parient-sur-une-coordination-active-entre-les-pays-et-les-industries-pour-securiser-toute-la-chaine-de-l-ia_6665426_3232.html",
-      "summary": "Le plus gros pari énergétique de Trump n’est pas le pétrole du Venezuela, mais le discret projet d’alliance internationale visant à sécuriser la chaîne de valeur de l’intelligence artificielle, explique, dans sa chronique, l’experte américaine Sarah Ladislaw.",
-      "source": "Le Monde IA",
-      "region": "FR",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-04T19:00:01.000Z",
-      "score": 22.74,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/nvidia/nemotron-colembed-v2",
-      "title": "Nemotron ColEmbed V2: Raising the Bar for Multimodal Retrieval with ViDoRe V3’s Top Model",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-colembed-v2",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-04T15:00:40.000Z",
-      "score": 22.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
-      "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
-      "link": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
-      "summary": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article is the prescription. The question every CEO is now getting from their board is s",
-      "source": "MIT Tech Review AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-04T14:00:00.000Z",
-      "score": 22.57,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/Photoroom/prx-part2",
-      "title": "Training Design for Text-to-Image Models: Lessons from Ablations",
-      "link": "https://huggingface.co/blog/Photoroom/prx-part2",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-03T11:25:53.000Z",
-      "score": 21.64,
       "status": "queued"
     },
     {
