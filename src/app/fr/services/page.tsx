@@ -9,109 +9,132 @@ const bookingUrl = process.env.NEXT_PUBLIC_SERVICES_BOOKING_URL || process.env.S
 
 const offers = [
   {
-    name: "Sprint fondation IA",
-    timeline: "2 semaines",
-    fit: "Idéal pour les équipes qui veulent un plan clair et un premier résultat en production.",
-    price: "À partir de 6k EUR",
+    name: "Pack Démarrage IA",
+    price: "990 EUR",
+    timeline: "Livré en 7 jours",
+    fit: "Pour solo founders et petites équipes qui veulent des gains rapides.",
     bullets: [
-      "Priorisation des workflows selon le ROI",
-      "Architecture cible et stack recommandée",
-      "1 workflow prêt prod livré",
-      "Cartographie des risques + plan de déploiement",
+      "2 automatisations utiles sur vos outils actuels",
+      "SOP simple pour rester autonome",
+      "1 passe d'optimisation après lancement",
     ],
   },
   {
-    name: "Programme build agentique",
-    timeline: "4 à 8 semaines",
-    fit: "Idéal pour les équipes qui livrent des workflows agents internes ou orientés client.",
-    price: "À partir de 18k EUR",
+    name: "Pack Acquisition",
+    price: "1 490 EUR",
+    timeline: "Livré en 10 jours",
+    fit: "Pour les équipes qui veulent plus de trafic et plus de contenu publié.",
     bullets: [
-      "Implémentation de bout en bout",
-      "Harness d'évaluation et quality gates",
-      "Guardrails, observabilité, fallback",
-      "Documentation de transfert + training équipe",
+      "Workflow idée -> article -> publication",
+      "Structure SEO de base + maillage interne",
+      "Checklist hebdo d'exécution",
     ],
   },
   {
-    name: "Scale et fiabilité",
-    timeline: "Continu",
-    fit: "Idéal pour les équipes déjà live qui veulent optimiser coût, latence et robustesse.",
-    price: "Retainer",
+    name: "Pack Opérations",
+    price: "1 990 EUR",
+    timeline: "Livré en 14 jours",
+    fit: "Pour agences et petites structures avec trop de tâches répétitives.",
     bullets: [
-      "Optimisation latence et coûts",
-      "Prévention de régressions et checks release",
-      "Runbooks incidents et exploitation",
-      "Advisory roadmap avec leadership produit",
+      "3 à 5 automatisations (support, admin, reporting, CRM)",
+      "Intégration outils (Notion, Sheets, Gmail, Slack, Zapier/Make)",
+      "1h de formation équipe incluse",
     ],
+  },
+  {
+    name: "Support Mensuel",
+    price: "390 EUR / mois",
+    timeline: "En continu",
+    fit: "Pour garder vos automatisations fiables et les faire évoluer sans stress.",
+    bullets: [
+      "Monitoring + corrections + petites améliorations",
+      "Canal support prioritaire",
+      "1 call stratégie par mois",
+    ],
+  },
+];
+
+const useCases = [
+  {
+    title: "Gestion des leads",
+    detail: "Qualification automatique et relances propres au lieu de faire du copier/coller.",
+  },
+  {
+    title: "Support client",
+    detail: "Préparation de réponses et tri des demandes pour traiter plus vite.",
+  },
+  {
+    title: "Production de contenu",
+    detail: "Passer d'idées en vrac à des publications régulières sans y passer vos soirées.",
+  },
+  {
+    title: "Admin et reporting",
+    detail: "Rapports récurrents et updates internes générés automatiquement chaque semaine.",
   },
 ];
 
 const outcomes = [
   {
-    metric: "-62%",
-    label: "Charge support manuelle",
-    detail: "Résultat représentatif sur des workflows IA de triage et préparation de réponse.",
+    metric: "-8h/semaine",
+    label: "Temps manuel économisé",
+    detail: "Résultat typique après automatisation des tâches admin répétitives.",
   },
   {
-    metric: "4.1x",
-    label: "Vitesse de prototypage",
-    detail: "Grâce à un delivery découpé en slices validées.",
+    metric: "2x",
+    label: "Volume de contenu",
+    detail: "Quand le workflow de publication est structuré simplement.",
   },
   {
-    metric: "<12 min",
-    label: "Temps médian de triage incident",
-    detail: "Après ajout de quality gates, traces et runbooks.",
+    metric: "<14 jours",
+    label: "Délai avant résultats",
+    detail: "Sur la majorité des projets petite structure avec scope clair.",
   },
 ];
 
 const testimonials = [
   {
     quote:
-      "L'équipe a transformé notre roadmap IA en système réellement exploitable, avec des KPIs clairs en quelques semaines.",
-    role: "Head of Product, B2B SaaS (UK)",
+      "Nous sommes 4 et on n'avait aucun process. En une semaine on a des automatisations qui nous font gagner un temps énorme.",
+    role: "Fondatrice, marque e-commerce (4 personnes)",
   },
   {
     quote:
-      "On a arrêté de deviner. Chaque changement prompt/modèle passe maintenant avec des evals et des contrôles de rollback.",
-    role: "CTO, Fintech Scale-up (France)",
+      "Zéro jargon. Ils ont identifié ce qui nous faisait perdre du temps et l'ont réglé rapidement.",
+    role: "Dirigeant d'agence (8 personnes)",
   },
   {
     quote:
-      "Exécution solide. Le transfert était propre et notre équipe interne peut opérer le système sans dépendance externe.",
-    role: "VP Engineering, Marketplace (US)",
+      "Premier projet IA vraiment utile pour notre quotidien, pas un test de labo.",
+    role: "Responsable opérations, startup SaaS (12 personnes)",
   },
 ];
 
 const faqs = [
   {
-    q: "En combien de temps peut-on démarrer ?",
-    a: "En général sous 7 à 10 jours selon le scope. En urgence, on peut prioriser un sprint compact.",
+    q: "Je ne suis pas technique. C'est bloquant ?",
+    a: "Non. L'offre est pensée pour fondateurs non-tech et petites équipes. On fait simple du début à la fin.",
   },
   {
-    q: "Vous travaillez avec notre stack actuelle ?",
-    a: "Oui. On s'intègre à vos providers LLM, outils d'orchestration et plateforme de déploiement, sauf si une migration est vraiment justifiée.",
+    q: "Faut-il un développeur senior dans mon équipe ?",
+    a: "Non. La plupart des clients n'en ont pas. On s'appuie sur vos outils actuels.",
   },
   {
-    q: "Pouvez-vous travailler avec notre équipe plutôt qu'à sa place ?",
-    a: "Oui. Le mode standard est co-build: delivery commun puis transfert complet via docs, training et routines de release.",
+    q: "Vous pouvez travailler avec mes outils existants ?",
+    a: "Oui. On travaille souvent avec Notion, Google Sheets, Gmail, Slack, Zapier, Make et des CRM classiques.",
   },
   {
-    q: "Pourquoi les projets IA échouent le plus souvent ?",
-    a: "Absence d'evals, critères de succès flous et aucun plan de rollback. On sécurise ces points dès le premier sprint.",
+    q: "En combien de temps je vois des résultats ?",
+    a: "Généralement entre 7 et 14 jours quand le besoin est clair.",
   },
   {
-    q: "Vous couvrez bien US, UK et France ?",
-    a: "Oui. Le process de delivery et le reporting sont pensés pour les équipes multi-régions.",
-  },
-  {
-    q: "Que se passe-t-il après l'envoi du formulaire ?",
-    a: "Réponse sous 24h avec fit assessment, proposition de scope, options de timeline et créneaux d'appel.",
+    q: "Que se passe-t-il après le formulaire ?",
+    a: "Vous recevez une réponse sous 24h avec un plan simple, une fourchette de prix et les prochaines étapes.",
   },
 ];
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Services d'implémentation IA pour équipes produit: cadrage, delivery, transfert opérationnel.",
+  description: "Services d'automatisation IA simples pour solo founders et petites équipes.",
   alternates: {
     canonical: "/fr/services",
     languages: {
@@ -121,14 +144,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    title: "Services IA | AI Signals",
-    description: "Déployez des workflows IA robustes avec une équipe delivery focalisée.",
+    title: "Services IA pour petites équipes | AI Signals",
+    description: "Automatisations IA concrètes, offres claires, livraison rapide.",
     url: "/fr/services",
     images: [
       {
         url: `/api/og?${new URLSearchParams({
           title: "Services IA",
-          subtitle: "Cadrage, build et transfert pour des systèmes IA en production.",
+          subtitle: "Offres simples pour solo founders et petites équipes.",
           locale: "fr",
           kind: "page",
         }).toString()}`,
@@ -140,12 +163,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Services IA | AI Signals",
-    description: "Déployez des workflows IA robustes avec une équipe delivery focalisée.",
+    title: "Services IA pour petites équipes | AI Signals",
+    description: "Automatisations IA concrètes, offres claires, livraison rapide.",
     images: [
       `/api/og?${new URLSearchParams({
         title: "Services IA",
-        subtitle: "Cadrage, build et transfert pour des systèmes IA en production.",
+        subtitle: "Offres simples pour solo founders et petites équipes.",
         locale: "fr",
         kind: "page",
       }).toString()}`,
@@ -157,7 +180,7 @@ export default function ServicesFrPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: "Conseil et implémentation IA",
+    serviceType: "Services d'automatisation IA pour petites entreprises",
     provider: {
       "@type": "Organization",
       name: "AI Signals",
@@ -165,12 +188,6 @@ export default function ServicesFrPage() {
     },
     areaServed: ["US", "UK", "FR"],
     url: `${siteUrl}/fr/services`,
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      priceCurrency: "EUR",
-      description: "Services d'implémentation IA pour équipes produit et engineering.",
-    },
   };
 
   return (
@@ -180,50 +197,37 @@ export default function ServicesFrPage() {
       <section className="hero-shell motion-enter">
         <div className="hero-grid">
           <p className="hero-kicker">Services</p>
-          <h1 className="hero-title">Livrez de l&apos;IA qui tient en production</h1>
+          <h1 className="hero-title">Automatisations IA pour petites équipes, sans complexité</h1>
           <p className="hero-subtitle">
-            Nous accompagnons les startups et équipes produit pour concevoir, build et opérer des workflows IA robustes avec impact business mesurable.
+            Si vous vibe-codez et gérez une petite structure, on vous aide à automatiser le répétitif, livrer plus vite et rester simple.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a className="hero-cta hero-cta-primary" href="#request">
-              Obtenir un plan chiffré
+              Obtenir mon plan d&apos;action
             </a>
             {bookingUrl ? (
               <a className="hero-cta hero-cta-secondary" href={bookingUrl} target="_blank" rel="noreferrer">
-                Réserver un call
+                Réserver un appel rapide
               </a>
             ) : null}
-            <Link className="hero-cta hero-cta-tertiary" href="/fr/newsletter">
-              Voir notre approche
+            <Link className="hero-cta hero-cta-tertiary" href="/fr/start-here">
+              Commencer ici
             </Link>
           </div>
-
-          <div className="mt-6 grid gap-3 sm:grid-cols-3">
-            <div className="aside-card">
-              <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-cyan-300">Vitesse</p>
-              <p className="mt-2 text-xl font-black tracking-tight">7-10 jours</p>
-              <p className="mt-1 text-sm theme-text-muted">Délai de démarrage typique</p>
-            </div>
-            <div className="aside-card">
-              <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-cyan-300">Contexte</p>
-              <p className="mt-2 text-xl font-black tracking-tight">US / UK / FR</p>
-              <p className="mt-1 text-sm theme-text-muted">Delivery multi-régions</p>
-            </div>
-            <div className="aside-card">
-              <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-cyan-300">Réponse</p>
-              <p className="mt-2 text-xl font-black tracking-tight">&lt; 24h</p>
-              <p className="mt-1 text-sm theme-text-muted">Sur les demandes qualifiées</p>
-            </div>
+          <div className="mt-6 flex flex-wrap gap-2">
+            <span className="hero-chip">Pas besoin de dev senior</span>
+            <span className="hero-chip">Packs prix fixes</span>
+            <span className="hero-chip">Premiers résultats en 7-14 jours</span>
           </div>
         </div>
       </section>
 
       <section className="mt-10">
         <div className="mb-4">
-          <p className="section-kicker">Packages</p>
-          <h2 className="section-title">Choisir le format d&apos;engagement</h2>
+          <p className="section-kicker">Offres</p>
+          <h2 className="section-title">Des packs simples à choisir aujourd&apos;hui</h2>
         </div>
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {offers.map((offer, index) => (
             <article key={offer.name} className={`aside-card motion-card motion-enter motion-delay-${Math.min(index + 1, 8)}`}>
               <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-cyan-300">{offer.timeline}</p>
@@ -243,29 +247,25 @@ export default function ServicesFrPage() {
         </div>
       </section>
 
-      <section className="mt-8 grid gap-4 md:grid-cols-2">
-        <article className="aside-card motion-card motion-enter motion-delay-3">
-          <p className="section-kicker">Bon fit</p>
-          <ul className="mt-3 grid gap-2 text-sm theme-text-muted">
-            <li>1. Vous cherchez un impact business mesurable, pas une démo gadget.</li>
-            <li>2. Vous pouvez mobiliser un owner produit + engineering.</li>
-            <li>3. Vous valorisez evals, observabilité et discipline de release.</li>
-          </ul>
-        </article>
-        <article className="aside-card motion-card motion-enter motion-delay-4">
-          <p className="section-kicker">Mauvais fit</p>
-          <ul className="mt-3 grid gap-2 text-sm theme-text-muted">
-            <li>1. Vous voulez du contenu hype sans implémentation réelle.</li>
-            <li>2. Aucun décideur n&apos;est disponible pour piloter le scope.</li>
-            <li>3. Vous ne souhaitez pas de quality gates ni de fallback.</li>
-          </ul>
-        </article>
+      <section className="mt-8">
+        <div className="mb-4">
+          <p className="section-kicker">Cas d&apos;usage</p>
+          <h2 className="section-title">Là où on aide en premier</h2>
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+          {useCases.map((item, index) => (
+            <article key={item.title} className={`aside-card motion-card motion-enter motion-delay-${Math.min(index + 3, 8)}`}>
+              <h3 className="text-lg font-black tracking-tight">{item.title}</h3>
+              <p className="mt-2 text-sm theme-text-muted">{item.detail}</p>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="mt-8">
         <div className="mb-4">
-          <p className="section-kicker">Résultats représentatifs</p>
-          <h2 className="section-title">Performance visée en delivery</h2>
+          <p className="section-kicker">Résultats typiques</p>
+          <h2 className="section-title">Ce que les clients constatent souvent</h2>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           {outcomes.map((item, index) => (
@@ -276,15 +276,13 @@ export default function ServicesFrPage() {
             </article>
           ))}
         </div>
-        <p className="mt-3 text-xs theme-text-faint">
-          Les résultats varient selon le contexte de départ. Les chiffres sont anonymisés et représentatifs.
-        </p>
+        <p className="mt-3 text-xs theme-text-faint">Résultats représentatifs, variables selon le point de départ.</p>
       </section>
 
       <section className="mt-8">
         <div className="mb-4">
           <p className="section-kicker">Retours clients</p>
-          <h2 className="section-title">Ce que disent les équipes après delivery</h2>
+          <h2 className="section-title">Des petites équipes qu&apos;on a aidées</h2>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           {testimonials.map((item, index) => (
@@ -294,7 +292,6 @@ export default function ServicesFrPage() {
             </article>
           ))}
         </div>
-        <p className="mt-3 text-xs theme-text-faint">Noms masqués pour NDA. Références partagées en call quand disponible.</p>
       </section>
 
       <section className="mt-8 aside-card motion-card motion-enter motion-delay-6">
@@ -312,9 +309,9 @@ export default function ServicesFrPage() {
       <section id="request" className="mt-8 scroll-mt-28">
         <div className="mb-4">
           <p className="section-kicker">Demande projet</p>
-          <h2 className="section-title">Décrivez ce que vous voulez livrer au prochain trimestre</h2>
+          <h2 className="section-title">Dites votre objectif, on répond avec un plan clair sous 24h</h2>
           <p className="mt-2 text-sm theme-text-muted">
-            Plus l&apos;objectif business et les contraintes sont précis, plus notre proposition est utile dès la première réponse.
+            Restez simple: dites ce qui vous prend trop de temps aujourd&apos;hui et le résultat voulu.
           </p>
         </div>
         <ServiceLeadForm locale="fr" source="services_page_fr" />

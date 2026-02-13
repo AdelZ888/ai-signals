@@ -20,7 +20,9 @@ type Copy = {
   budget: string;
   timeline: string;
   objective: string;
+  objectivePlaceholder: string;
   needs: string;
+  needsPlaceholder: string;
   consent: string;
   submit: string;
   submitLoading: string;
@@ -28,7 +30,6 @@ type Copy = {
   errorTitle: string;
   successBody: string;
   errorBody: string;
-  sourceLabel: string;
   budgetOptions: { value: string; label: string }[];
   timelineOptions: { value: string; label: string }[];
 };
@@ -51,15 +52,17 @@ export function ServiceLeadForm({ locale = "en", source = "services_page" }: Ser
   const copy: Copy =
     locale === "fr"
       ? {
-          fullName: "Nom complet",
+          fullName: "Prénom et nom",
           email: "Email pro",
           company: "Entreprise",
-          role: "Rôle",
+          role: "Votre activité",
           website: "Site web (optionnel)",
           budget: "Budget mensuel",
           timeline: "Délai souhaité",
-          objective: "Objectif business",
-          needs: "Contexte et besoin",
+          objective: "Priorité n°1",
+          objectivePlaceholder: "Ex: générer plus de leads, gagner du temps sur le support, publier plus vite...",
+          needs: "Ce qui vous bloque aujourd'hui",
+          needsPlaceholder: "Expliquez simplement vos tâches répétitives ou votre objectif. Pas besoin de détails techniques.",
           consent: "J'accepte d'être contacté au sujet de cette demande.",
           submit: "Envoyer la demande",
           submitLoading: "Envoi...",
@@ -67,30 +70,32 @@ export function ServiceLeadForm({ locale = "en", source = "services_page" }: Ser
           errorTitle: "Erreur",
           successBody: "Merci. Nous revenons vers vous rapidement avec une proposition claire.",
           errorBody: "Impossible d'envoyer la demande pour le moment. Réessayez dans quelques minutes.",
-          sourceLabel: "Source",
           budgetOptions: [
-            { value: "under_2k", label: "< 2k EUR / mois" },
-            { value: "2k_8k", label: "2k - 8k EUR / mois" },
-            { value: "8k_25k", label: "8k - 25k EUR / mois" },
-            { value: "25k_plus", label: "25k+ EUR / mois" },
+            { value: "under_1k", label: "< 1k EUR / mois" },
+            { value: "1k_2k", label: "1k - 2k EUR / mois" },
+            { value: "2k_5k", label: "2k - 5k EUR / mois" },
+            { value: "5k_plus", label: "5k+ EUR / mois" },
+            { value: "unsure", label: "Je ne sais pas encore" },
           ],
           timelineOptions: [
-            { value: "asap", label: "ASAP (2 semaines)" },
+            { value: "asap", label: "Dès que possible (1-2 semaines)" },
             { value: "1_month", label: "Sous 1 mois" },
-            { value: "quarter", label: "Ce trimestre" },
-            { value: "later", label: "Plus tard / exploration" },
+            { value: "2_3_months", label: "Sous 2-3 mois" },
+            { value: "later", label: "Plus tard" },
           ],
         }
       : {
           fullName: "Full name",
           email: "Work email",
           company: "Company",
-          role: "Role",
+          role: "What you do",
           website: "Website (optional)",
           budget: "Monthly budget",
           timeline: "Expected timeline",
-          objective: "Business goal",
-          needs: "Context and needs",
+          objective: "Main goal",
+          objectivePlaceholder: "Example: get more leads, save time on support, publish content faster...",
+          needs: "What is slowing you down today?",
+          needsPlaceholder: "Describe repetitive tasks or your business goal in plain language. No technical details needed.",
           consent: "I agree to be contacted about this request.",
           submit: "Send request",
           submitLoading: "Sending...",
@@ -98,18 +103,18 @@ export function ServiceLeadForm({ locale = "en", source = "services_page" }: Ser
           errorTitle: "Error",
           successBody: "Thanks. We will get back quickly with a scoped plan.",
           errorBody: "Could not send the request right now. Please try again in a few minutes.",
-          sourceLabel: "Source",
           budgetOptions: [
-            { value: "under_2k", label: "< $2k / month" },
-            { value: "2k_8k", label: "$2k - $8k / month" },
-            { value: "8k_25k", label: "$8k - $25k / month" },
-            { value: "25k_plus", label: "$25k+ / month" },
+            { value: "under_1k", label: "< $1k / month" },
+            { value: "1k_2k", label: "$1k - $2k / month" },
+            { value: "2k_5k", label: "$2k - $5k / month" },
+            { value: "5k_plus", label: "$5k+ / month" },
+            { value: "unsure", label: "Not sure yet" },
           ],
           timelineOptions: [
-            { value: "asap", label: "ASAP (within 2 weeks)" },
+            { value: "asap", label: "ASAP (1-2 weeks)" },
             { value: "1_month", label: "Within 1 month" },
-            { value: "quarter", label: "This quarter" },
-            { value: "later", label: "Later / exploring" },
+            { value: "2_3_months", label: "Within 2-3 months" },
+            { value: "later", label: "Later" },
           ],
         };
 
@@ -121,7 +126,7 @@ export function ServiceLeadForm({ locale = "en", source = "services_page" }: Ser
     company: "",
     role: "",
     website: "",
-    budget: "2k_8k",
+    budget: "1k_2k",
     timeline: "1_month",
     objective: "",
     needs: "",
@@ -278,6 +283,7 @@ export function ServiceLeadForm({ locale = "en", source = "services_page" }: Ser
                 disabled={isBusy}
                 value={form.objective}
                 onChange={(e) => updateField("objective", e.target.value)}
+                placeholder={copy.objectivePlaceholder}
                 className="theme-input min-h-24 w-full rounded-lg px-3 py-2.5 text-sm outline-none ring-cyan-300/55 transition focus:ring"
               />
             </label>
@@ -289,6 +295,7 @@ export function ServiceLeadForm({ locale = "en", source = "services_page" }: Ser
                 disabled={isBusy}
                 value={form.needs}
                 onChange={(e) => updateField("needs", e.target.value)}
+                placeholder={copy.needsPlaceholder}
                 className="theme-input min-h-36 w-full rounded-lg px-3 py-2.5 text-sm outline-none ring-cyan-300/55 transition focus:ring"
               />
             </label>
@@ -325,9 +332,6 @@ export function ServiceLeadForm({ locale = "en", source = "services_page" }: Ser
             >
               {submitLabel}
             </button>
-            <p className="text-xs theme-text-faint">
-              {copy.sourceLabel}: <span className="font-mono">{source}</span>
-            </p>
           </div>
 
           {status !== "idle" ? (
