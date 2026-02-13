@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-13T08:35:22.072Z",
+  "generatedAt": "2026-02-13T15:45:38.324Z",
   "items": [
+    {
+      "id": "https://github.com/fctr-id/okta-ai-agent",
+      "title": "Show HN: Tako AI – Agent for Okta With Natural language (zero hallucination)",
+      "link": "https://github.com/fctr-id/okta-ai-agent",
+      "summary": "Hi HN, Every week I watched Okta admins burn hours answering ad-hoc questions from security teams: \"Who has access to Salesforce?\", \"Find all contractors with GitHub access who haven't used MFA in 30 days.\" The answers always involved the same painful loop: dig through a slow web console, chain API calls, correlate CSVs, write throwaway Python scripts. Repeat next week. I spent 12 months building Tako AI to fix this…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-02-12T15:38:38.000Z",
+      "score": 252,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-13T15:45:38.250Z",
+      "file": "content/posts/2026-02-13-build-a-local-first-okta-agent-that-executes-deterministic-api-calls-and-enforces-zero-hallucinations.md",
+      "fileFr": "content/posts/fr/2026-02-13-build-a-local-first-okta-agent-that-executes-deterministic-api-calls-and-enforces-zero-hallucinations.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1524,
+      "wordsFr": 1310
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch",
       "title": "ByteDance’s next-gen AI model can generate clips based on text, images, audio, and video",
@@ -1174,18 +1197,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://github.com/fctr-id/okta-ai-agent",
-      "title": "Show HN: Tako AI – Agent for Okta With Natural language (zero hallucination)",
-      "link": "https://github.com/fctr-id/okta-ai-agent",
-      "summary": "Hi HN, Every week I watched Okta admins burn hours answering ad-hoc questions from security teams: \"Who has access to Salesforce?\", \"Find all contractors with GitHub access who haven't used MFA in 30 days.\" The answers always involved the same painful loop: dig through a slow web console, chain API calls, correlate CSVs, write throwaway Python scripts. Repeat next week. I spent 12 months building Tako AI to fix this. You ask a question in plain English, it returns verified data. GitHub: https://github.com/fctr-id/okta-ai-agent THE ONE RULE: Zero hallucinations. In identity and access management, a wrong answer is worse than no answer. If an AI tells your CISO a contractor doesn't have admin access when they actually do, that's a security incident. Tako never \"predicts\" an answer. It writes the code to find the answer, executes it, and returns the raw result. Ask the same question twice, you get the same data. THE HARDEST PROBLEM: Scaling to 107+ API endpoints Most AI agents break down past 10-20 tools. They hallucinate parameters, call wrong endpoints, invent fields that don't exist. We went through five architecture rewrites over 12 months. Each iteration: new LLM drops (GPT-4, Claude 3.5), we rebuild the agent, hit context limits, watch it snowball into gibberish. The breakthrough wasn't bigger context windows — it was precise context engineering. Instead of cramming 107 endp",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-02-12T15:38:38.000Z",
-      "score": 252,
-      "status": "queued"
-    },
-    {
       "id": "https://margindash.com/",
       "title": "Show HN: MarginDash – See which AI customers are profitable",
       "link": "https://margindash.com/",
@@ -1206,6 +1217,18 @@
       "region": "GLOBAL",
       "keywordHits": 7,
       "publishedAt": "2026-02-10T15:53:17.000Z",
+      "score": 210,
+      "status": "queued"
+    },
+    {
+      "id": "https://aidevhub.io/",
+      "title": "Show HN: AI Dev Hub. 75 free AI and dev tools",
+      "link": "https://aidevhub.io/",
+      "summary": "I built 75 developer and AI tools as a single static site. Everything runs in the browser, no cookies, no ads, nothing gets sent to a server. The tools range from the usual suspects (JSON formatter, base64 encoder, regex tester) to some AI-specific ones I couldn't find good free versions of bundled in one suite: - LLM Token Counter (estimates tokens for GPT, Claude, Gemini, etc.) - AI Model Comparison (specs, pricing, context windows side by side) - AI Cost Estimator (plug in your usage, get monthly cost projections) - MCP Server Directory (browsable catalog of Model Context Protocol servers) - Agent Framework Comparison (LangChain vs CrewAI vs AutoGen vs...) - Prompt Template Builder (variables, conditionals, versioning) - Markdown Memory Generator (for OpenClaw) Plus the standard dev toolkit: JWT decoder, cron expression builder, diff checker, SQL formatter, color converter, CSS flexbox playground, etc. Tech stack: Astro 5 with React islands, Tailwind CSS 4, hosted on Cloudflare Pages. The whole site is static, so it loads fast everywhere. Largest JS bundle is 58 KB gzipped. I built this with AI agent Rusty (OpenClaw). The AI handled most of the component code while I focused on architecture decisions, tool selection, and QA. Took about 2 days of evening sessions. No login, no tracking cookies, no ads, no \"sign up for premium\". Just tools. Feedback welcome. What ai or dev too",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-13T15:20:44.000Z",
       "score": 210,
       "status": "queued"
     },
@@ -1402,6 +1425,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Cocabadger/saferun-guard",
+      "title": "SafeRun Guard- Runtime safety firewall for AI coding agents (bash+jq, zero deps)",
+      "link": "https://github.com/Cocabadger/saferun-guard",
+      "summary": "Article URL: https://github.com/Cocabadger/saferun-guard Comments URL: https://news.ycombinator.com/item?id=47003498 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-13T15:03:10.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -1495,6 +1530,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-09T14:45:41.000Z",
       "score": 161.9,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/jovanSAPFIONEER/Network-AI",
+      "title": "Show HN: Network-AI – A Distributed Mutex for AI Agent Swarms",
+      "link": "https://github.com/jovanSAPFIONEER/Network-AI",
+      "summary": "I built this because standard Python locks (asyncio.Lock) don't work when AI agents run across different containers or processes. As I started scaling my agent swarms (using CrewAI/LangChain), I kept hitting race conditions where agents would overwrite shared files or double-spend API credits because they read the state simultaneously. Network-AI is a distributed lock (backed by Redis or local file-locks) that solves this. It acts as a traffic light for agent tools. Key features: 2-line decorator: @lock(\"resource_id\") Handles lock timeouts (preventing \"zombie\" agents from freezing the swarm) Works with standard agent frameworks (CrewAI, AutoGen, LangGraph) The repo is open-source. I'd love feedback on the locking implementation or to hear if you've hit similar concurrency issues in production. Comments URL: https://news.ycombinator.com/item?id=47003226 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-13T14:37:05.000Z",
+      "score": 159.18,
       "status": "queued"
     },
     {
@@ -1630,6 +1677,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "title": "The economic potential of generative AI: The next productivity frontier",
+      "link": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "summary": "Article URL: https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier Comments URL: https://news.ycombinator.com/item?id=47003319 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-13T14:46:59.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/moezakura/mux-pod",
       "title": "Show HN: MuxPod – A mobile tmux client for monitoring AI agents on the go",
       "link": "https://github.com/moezakura/mux-pod",
@@ -1734,6 +1793,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-11T15:06:49.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://quesma.com/benchmarks/binaryaudit/",
+      "title": "BinaryAudit: Can AI find backdoors in raw machine code?",
+      "link": "https://quesma.com/benchmarks/binaryaudit/",
+      "summary": "Article URL: https://quesma.com/benchmarks/binaryaudit/ Comments URL: https://news.ycombinator.com/item?id=47003503 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-13T15:03:24.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -2119,6 +2190,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-09T05:00:00.000Z",
       "score": 122.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theregister.com/2026/02/13/anthropic_c_compiler/",
+      "title": "OK, so Anthropic's AI built a C compiler. That don't impress me much",
+      "link": "https://www.theregister.com/2026/02/13/anthropic_c_compiler/",
+      "summary": "Article URL: https://www.theregister.com/2026/02/13/anthropic_c_compiler/ Comments URL: https://news.ycombinator.com/item?id=47003020 Points: 4 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-13T14:17:40.000Z",
+      "score": 121.53,
       "status": "queued"
     },
     {
@@ -3154,6 +3237,30 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/introducing-openai-frontier",
+      "title": "Introducing OpenAI Frontier",
+      "link": "https://openai.com/index/introducing-openai-frontier",
+      "summary": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-05T06:00:00.000Z",
+      "score": 60.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/snowflake-partnership",
+      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
+      "link": "https://openai.com/index/snowflake-partnership",
+      "summary": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-02T06:00:00.000Z",
+      "score": 60.44,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/876558/tech-workers-ice-resistance-google-microsoft-clear-abbott",
       "title": "‘Shut up and focus on the mission’: Tech workers are frustrated by their companies’ silence about ICE",
       "link": "https://www.theverge.com/ai-artificial-intelligence/876558/tech-workers-ice-resistance-google-microsoft-clear-abbott",
@@ -3190,6 +3297,18 @@
       "status": "queued"
     },
     {
+      "id": "https://huggingface.co/blog/Photoroom/prx-part2",
+      "title": "Training Design for Text-to-Image Models: Lessons from Ablations",
+      "link": "https://huggingface.co/blog/Photoroom/prx-part2",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-03T11:25:53.000Z",
+      "score": 54.49,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
       "title": "New York is considering two bills to rein in the AI industry",
       "link": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
@@ -3202,123 +3321,27 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/877526/anthropic-ai-electricity-costs-data-center-pledge",
-      "title": "Anthropic says it&#8217;ll try to keep its data centers from raising electricity costs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/877526/anthropic-ai-electricity-costs-data-center-pledge",
-      "summary": "Anthropic is the latest AI company promising to limit the impact its data centers have on nearby residents' electricity bills. The company said it would pay higher monthly electricity charges in order to cover 100 percent of the upgrades needed to connect its data centers to power grids. \"This includes the shares of these costs that would otherwise be passed onto consumers,\" the announcement says. Anthropic didn't provide details today about any agreements it has inked with energy companies in order to accomplish these goals. In November, it shared a $50 billion plan to build data centers in New York and Texas \"with more sites to come.\" … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T22:37:02.000Z",
-      "score": 48.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/09/1132537/a-lesson-from-pokemon/",
-      "title": "Why the Moltbook frenzy was like Pokémon",
-      "link": "https://www.technologyreview.com/2026/02/09/1132537/a-lesson-from-pokemon/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Lots of influential people in tech last week were describing Moltbook, an online hangout populated by AI agents interacting with one another, as a glimpse into the future. It appeared to show…",
+      "id": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
+      "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
+      "link": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
+      "summary": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article is the prescription. The question every CEO is now getting from their board is some version of: What do we do about agent risk? Across…",
       "source": "MIT Tech Review AI",
       "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-02-09T17:02:56.000Z",
-      "score": 43.69,
+      "publishedAt": "2026-02-04T14:00:00.000Z",
+      "score": 48.55,
       "status": "queued"
     },
     {
-      "id": "https://huggingface.co/blog/openenv-turing",
-      "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
-      "link": "https://huggingface.co/blog/openenv-turing",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-12T00:00:00.000Z",
-      "score": 43.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/c3093gjy2ero?at_medium=RSS&at_campaign=rss",
-      "title": "AI chatbots pose 'dangerous' risk when giving medical advice, study suggests",
-      "link": "https://www.bbc.com/news/articles/c3093gjy2ero?at_medium=RSS&at_campaign=rss",
-      "summary": "It found people using AI for health reasons found it hard to identify what advice they should trust.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T16:33:29.000Z",
-      "score": 43.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/877148/openai-chatgpt-advertisers-target-adobe-audible",
-      "title": "Here are the brands bringing ads to ChatGPT",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/877148/openai-chatgpt-advertisers-target-adobe-audible",
-      "summary": "OpenAI officially launched its advertising pilot in ChatGPT, leaving us with a better idea of the kinds of products we might see stuffed beneath our conversations with the AI chatbot. Several companies have announced plans to show ads inside ChatGPT - placements that will reportedly cost them a pretty penny - ranging from major retailers like Target to automakers like Ford and Mazda. You'll only see ads in ChatGPT if you're a free user or subscribed to its cheaper $8 / month Go plan. OpenAI has said it will \"clearly\" label the ads and that they won't influence ChatGPT's response. Here are all the brands that we know are partnering with Open … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T16:08:03.000Z",
-      "score": 43.3,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2177647-cortaix-naval-group-sallie-a-thales-pour-lia-du-combat-naval.html",
-      "title": "CortAIx : Naval Group s’allie à Thales pour l’IA du combat naval",
-      "link": "https://www.numerama.com/tech/2177647-cortaix-naval-group-sallie-a-thales-pour-lia-du-combat-naval.html",
-      "summary": "Naval Group et Thales s’allient pour développer une intelligence artificielle souveraine qui embarquera dans les navires de premier rang et les sous-marins. Objectif : traiter le déluge de données en mer et accélérer la prise de décision, tout en garantissant que l'humain reste le seul maître du tir.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T17:21:27.000Z",
-      "score": 37.88,
-      "status": "queued"
-    },
-    {
-      "id": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
-      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
-      "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
-      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.",
-      "source": "Google DeepMind News",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-12T16:15:09.000Z",
-      "score": 37.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
-      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
-      "summary": "We’re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
+      "id": "https://blog.google/innovation-and-ai/technology/ai/release-notes-podcast-project-genie/",
+      "title": "Hear more about interactive world models in our latest podcast.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/release-notes-podcast-project-genie/",
+      "summary": "The latest episode of the Google AI: Release Notes podcast focuses on Genie 3, a real-time, interactive world model. Host Logan Kilpatrick chats with Diego Rivas, Shlomi…",
       "source": "Google AI Blog",
       "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-12T16:13:00.000Z",
-      "score": 37.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
-      "title": "ChatGPT’s deep research tool adds a built-in document viewer so you can read its reports",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
-      "summary": "OpenAI is updating ChatGPT's deep research tool with a full-screen viewer that you can use to scroll through and navigate to specific areas of its AI-generated reports. As shown in a video shared by OpenAI, the built-in viewer allows you to open ChatGPT's reports in a window separate from your chat, while showing a table of contents on the left side of the screen, and a list of sources on the right. Deep research, which OpenAI first launched last year, has ChatGPT scour the web to compile an in-depth report about the topic of your choosing. With this most recent update, you'll be able to ask ChatGPT to focus on specific websites and connect … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T23:02:32.000Z",
-      "score": 36.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/google/2026/01/ai-overviews-gets-upgraded-to-gemini-3-with-a-dash-of-ai-mode/",
-      "title": "AI Overviews gets upgraded to Gemini 3 with a dash of AI Mode",
-      "link": "https://arstechnica.com/google/2026/01/ai-overviews-gets-upgraded-to-gemini-3-with-a-dash-of-ai-mode/",
-      "summary": "AI Overviews may get it right more often with the move to Gemini 3.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-27T17:00:58.000Z",
-      "score": 36.45,
+      "keywordHits": 3,
+      "publishedAt": "2026-01-29T15:00:00.000Z",
+      "score": 48.33,
       "status": "queued"
     },
     {

@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-02-13T08:35:22.066Z",
+  "generatedAt": "2026-02-13T15:45:38.261Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-02-13-build-a-local-first-okta-agent-that-executes-deterministic-api-calls-and-enforces-zero-hallucinations",
+      "title": "Build a local-first Okta agent that executes deterministic API calls and enforces zero hallucinations",
+      "date": "2026-02-13",
+      "excerpt": "Build a local-first Okta agent that converts plain-English queries into deterministic API calls, executes them in a sandbox, and returns raw, auditable tenant data.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-13-build-a-local-first-okta-agent-that-executes-deterministic-api-calls-and-enforces-zero-hallucinations.jpg",
+      "tags": [
+        "okta",
+        "identity",
+        "iam",
+        "agents",
+        "llms",
+        "zero-hallucination",
+        "security",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/fctr-id/okta-ai-agent"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-02-13-seedance-20-bytedances-multimodal-model-for-generating-up-to-15second-videos-from-text-images-audio-and-video",
       "title": "Seedance 2.0 — ByteDance’s multimodal model for generating up to 15‑second videos from text, images, audio, and video",
