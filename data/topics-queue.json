@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-13T15:45:38.324Z",
+  "generatedAt": "2026-02-14T08:23:18.401Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2177979-pourquoi-mistral-ai-investit-12-milliard-deuros-dans-un-data-center-en-suede.html",
+      "title": "Pourquoi Mistral AI investit 1,2 milliard d’euros dans un data center en Suède ?",
+      "link": "https://www.numerama.com/tech/2177979-pourquoi-mistral-ai-investit-12-milliard-deuros-dans-un-data-center-en-suede.html",
+      "summary": "Mistral AI s'allie à l'entreprise suédoise EcoDataCenter pour mettre au point un centre de données en Suède au nom de la souveraineté européenne en matière d'intelligence artificielle. Un projet qui souffre cependant d'une limite : la provenance des GPU.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-12T07:32:10.000Z",
+      "score": 145.26,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-14T08:23:18.384Z",
+      "file": "content/posts/2026-02-14-mistral-ai-invests-euro12b-with-ecodatacenter-in-sweden-nvidia-vera-rubin-gpus-limit-a-fully-european-hardware-stack.md",
+      "fileFr": "content/posts/fr/2026-02-14-mistral-ai-invests-euro12b-with-ecodatacenter-in-sweden-nvidia-vera-rubin-gpus-limit-a-fully-european-hardware-stack.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1514,
+      "wordsFr": 1517
+    },
     {
       "id": "https://github.com/fctr-id/okta-ai-agent",
       "title": "Show HN: Tako AI – Agent for Okta With Natural language (zero hallucination)",
@@ -1473,6 +1496,18 @@
       "status": "queued"
     },
     {
+      "id": "https://darios-dilemma.up.railway.app/",
+      "title": "Show HN: A playable toy model of frontier AI lab capex decisions",
+      "link": "https://darios-dilemma.up.railway.app/",
+      "summary": "I made a lightweight web game about compute CAPEX tradeoffs: https://darios-dilemma.up.railway.app/ No signup, runs on mobile/desktop. Loop per round: 1. choose compute capacity 2. forecast demand 3. allocate capacity between training and inference 4. random demand shock resolves outcome You can end profitable, cash constrained, or bankrupt depending on allocation + forecast error. Goal was to make the decision surface intuitive in 2–3 minutes per run. It’s a toy model and deliberately omits many real world factors. Note: this is based on what I learned after listening to Dario on Dwarkesh's podcast - thought it was fascinating. Comments URL: https://news.ycombinator.com/item?id=47012453 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-14T07:29:45.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://agentprobe.xyz",
       "title": "Show HN: AgentProbe – Validate AI agent endpoints across 8 protocols in one URL",
       "link": "https://agentprobe.xyz",
@@ -1689,6 +1724,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/gitroomhq/postiz-agent",
+      "title": "Show HN: Schedule posts to social media with AI Agent CLI",
+      "link": "https://github.com/gitroomhq/postiz-agent",
+      "summary": "Article URL: https://github.com/gitroomhq/postiz-agent Comments URL: https://news.ycombinator.com/item?id=47012611 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-14T08:00:31.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/moezakura/mux-pod",
       "title": "Show HN: MuxPod – A mobile tmux client for monitoring AI agents on the go",
       "link": "https://github.com/moezakura/mux-pod",
@@ -1857,18 +1904,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2177979-pourquoi-mistral-ai-investit-12-milliard-deuros-dans-un-data-center-en-suede.html",
-      "title": "Pourquoi Mistral AI investit 1,2 milliard d’euros dans un data center en Suède ?",
-      "link": "https://www.numerama.com/tech/2177979-pourquoi-mistral-ai-investit-12-milliard-deuros-dans-un-data-center-en-suede.html",
-      "summary": "Mistral AI s'allie à l'entreprise suédoise EcoDataCenter pour mettre au point un centre de données en Suède au nom de la souveraineté européenne en matière d'intelligence artificielle. Un projet qui souffre cependant d'une limite : la provenance des GPU.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-12T07:32:10.000Z",
-      "score": 145.26,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/VouchlyAI/Pincer-MCP",
       "title": "Show HN: Pincer-MCP – Stop AI agents from reading their own credentials",
       "link": "https://github.com/VouchlyAI/Pincer-MCP",
@@ -1902,6 +1937,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-13T05:00:00.000Z",
       "score": 141.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47012302",
+      "title": "Context management is the real bottleneck in AI-assisted coding",
+      "link": "https://news.ycombinator.com/item?id=47012302",
+      "summary": "After using Cursor and Claude Code daily, I’ve noticed that when an AI coding agent drifts or forgets constraints, we assume it’s a model limitation. In many cases, it’s context management. A few observations: - Tokens are not just limits. They’re attention competition. - Even before hitting the hard window limit, attention dilution happens. - Coding tasks degrade faster than chat because of dependency density and multi-representation juggling (diffs, logs, tests). I started managing context deliberately: - Always write a contract - Chunk sessions by intent - Snapshot state and restart - Prefer on-demand CLI instead of preloading large MCP responses It dramatically improved the stability of the agent. Curious how others are handling context optimization. Comments URL: https://news.ycombinator.com/item?id=47012302 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-14T06:58:16.000Z",
+      "score": 141.69,
       "status": "queued"
     },
     {
@@ -2070,6 +2117,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 132,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8",
+      "title": "AI message: New uniform to wear is \"Prompt, Deploy, Pray.\"",
+      "link": "https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8",
+      "summary": "Article URL: https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8 Comments URL: https://news.ycombinator.com/item?id=47012335 Points: 2 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-14T07:05:11.000Z",
+      "score": 131.76,
       "status": "queued"
     },
     {
@@ -2334,6 +2393,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-12T05:00:00.000Z",
       "score": 117.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47011649",
+      "title": "Show HN: Why Playwright-CLI Beats MCP for AI‑Driven Browser Automation",
+      "link": "https://news.ycombinator.com/item?id=47011649",
+      "summary": "Most “AI + browser” setups still bolt MCP tools onto Playwright and hope for the best, so every click dumps full DOMs, accessibility trees, and logs into the model. That burns tokens, collapses context, and makes long sessions unreliable. Meanwhile, default Playwright reports start to struggle once you have more than a few dozen e2e tests, so teams drown in HTML reports and flaky failures instead of clear patterns. The insights at https://testdino.com/blog/playwright-cli/ explores how Microsoft’s playwright-cli keeps browser state external, returns only compact element references and YAML flows, and works with normal npx playwright test plus smarter reporting, so both agents and humans stay fast, cost aware, and predictable. Comments URL: https://news.ycombinator.com/item?id=47011649 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-14T04:45:31.000Z",
+      "score": 117.51,
       "status": "queued"
     },
     {
@@ -2649,6 +2720,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47011510",
+      "title": "Show HN: Verify-before-release x402 gateway for AI agent transactions",
+      "link": "https://news.ycombinator.com/item?id=47011510",
+      "summary": "Hey HN, I built Settld because I kept running into the same problem: AI agents can call APIs, pay for services, and hire other agents - but there's no way to prove the work was actually done before the money moves. The problem in one sentence: x402 tells you \"payment was sent\". Settld tells you \"the work was worth paying for\". What it does Settld sits between your agent and the APIs/agents it pays. It: 1. Intercepts HTTP 402 (Payment Required) responses 2. Creates an escrow hold instead of paying immediately 3. Collects evidence that the work was completed 4. Runs deterministic verification (same evidence + same terms = same payout, every time) 5. Releases payment only after verification passes 6. Issues a cryptographically verifiable receipt If verification fails or the work is disputed, the hold is refunded. The agent gets a receipt either way - a permanent, auditable record of what happened. Why this matters now We're at a weird inflection point. Coinbase shipped x402 (50M+ transactions). Google shipped A2A. Anthropic shipped MCP. Agents can discover each other, communicate, and pay each other. But nobody built the layer that answers: \"was the work actually done correctly, and how much should the payout be?\" That's the gap. Right now, every agent-to-agent transaction is either \"trust and hope\" or \"don't transact.\" Neither scales. The x402 gateway (the fastest way to try it)",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-14T04:17:17.000Z",
+      "score": 101.62,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=46971643",
       "title": "Show HN: GHOSTYPE – AI voice input that learns your writing style",
       "link": "https://news.ycombinator.com/item?id=46971643",
@@ -2889,6 +2972,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/gtsbahamas/hallucination-reversing-system",
+      "title": "Show HN: Lucid – Catch hallucinations in AI-generated code before they ship",
+      "link": "https://github.com/gtsbahamas/hallucination-reversing-system",
+      "summary": "Hi HN, I'm Ty. I built LUCID because I kept shipping bugs that my AI coding assistant hallucinated into existence. Three independent papers have proven that LLM hallucination is mathematically inevitable (Xu et al. 2024, Banerjee et al. 2024, Karpowicz 2025). You can't train it away. You can't prompt it away. So I built a verification layer instead. How it works: LUCID extracts implicit claims from AI-generated code (e.g., \"this function handles null input,\" \"this query is injection-safe,\" \"this handles concurrent access\"), then uses a second, adversarial AI pass to verify each claim against the actual implementation. You get a report showing exactly what would have shipped to production without verification. \"But can't the verifier hallucinate too?\" Yes -- and that's the right question. The benchmarks below were validated by running real test suites, not by trusting LUCID's judgment. The value is that structured claim extraction + adversarial verification catches bugs that a single generation pass misses. The architecture also supports swapping LLM verification for formal methods (SMT solvers, property-based testing) per claim type as those integrations mature. Benchmarks: - HumanEval: 86.6% baseline -> 100% pass@5 with LUCID (164/164 problems) - SWE-bench: 18.3% baseline -> 30.3% with LUCID (+65.5%) - Both benchmarks were validated by running actual test suites, not by LLM ju",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-14T04:55:10.000Z",
+      "score": 89.09,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.11229",
       "title": "Latent Generative Solvers for Generalizable Long-Term Physics Simulation",
       "link": "https://arxiv.org/abs/2602.11229",
@@ -2970,6 +3065,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 84,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/musecl/musecl-memory",
+      "title": "Show HN: Musecl-memory – Zero-dependency memory sync for AI agents bash and Git",
+      "link": "https://github.com/musecl/musecl-memory",
+      "summary": "Article URL: https://github.com/musecl/musecl-memory Comments URL: https://news.ycombinator.com/item?id=47011519 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-14T04:18:37.000Z",
+      "score": 83.78,
       "status": "queued"
     },
     {
@@ -3201,6 +3308,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906",
+      "title": "Why ads are coming to your AI chatbot",
+      "link": "https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906",
+      "summary": "Article URL: https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906 Comments URL: https://news.ycombinator.com/item?id=47011371 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-14T03:51:57.000Z",
+      "score": 62.82,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
       "title": "What’s next for Chinese open-source AI",
       "link": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
@@ -3246,102 +3365,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-05T06:00:00.000Z",
       "score": 60.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/snowflake-partnership",
-      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
-      "link": "https://openai.com/index/snowflake-partnership",
-      "summary": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-02T06:00:00.000Z",
-      "score": 60.44,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/876558/tech-workers-ice-resistance-google-microsoft-clear-abbott",
-      "title": "‘Shut up and focus on the mission’: Tech workers are frustrated by their companies’ silence about ICE",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/876558/tech-workers-ice-resistance-google-microsoft-clear-abbott",
-      "summary": "Keep your head down. Compartmentalize. Don't make trouble. That's what many tech workers are taking their CEOs' strategic silence to mean, amid an immigration crackdown across the US by the Trump administration's Department of Homeland Security. Widespread violence by federal agents has sparked protests in Minneapolis and across the country. One month after an ICE agent shot and killed Renee Nicole Good, and two weeks after Border Patrol agents shot and killed Alex Pretti, the majority of tech CEOs have remained tight-lipped. Internally, workers from several companies describe a culture of silence and fear - and trepidation over what kind … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T11:00:00.000Z",
-      "score": 59.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/",
-      "title": "Making AI Work, MIT Technology Review’s new AI newsletter, is here",
-      "link": "https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/",
-      "summary": "For years, our newsroom has explored AI’s limitations and potential dangers, as well as its growing energy needs. And our reporters have looked closely at how generative tools are being used for tasks such as coding and running scientific experiments. But how is AI actually being used in fields like health care, climate tech, education,…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T11:30:00.000Z",
-      "score": 57.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2177035-cette-simple-faille-transforme-google-traduction-en-un-chatbot-totalement-jailbreake.html",
-      "title": "Cette simple faille transforme Google Traduction en un chatbot totalement jailbreaké",
-      "link": "https://www.numerama.com/tech/2177035-cette-simple-faille-transforme-google-traduction-en-un-chatbot-totalement-jailbreake.html",
-      "summary": "Une faille étonnante vient d’être trouvée dans la nouvelle version de Google Traduction, désormais dopée à Gemini. En manipulant finement le texte à traduire, des internautes sont parvenus à transformer le service en chatbot capable de répondre à des requêtes potentiellement illégales.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-10T17:17:04.000Z",
-      "score": 55.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/Photoroom/prx-part2",
-      "title": "Training Design for Text-to-Image Models: Lessons from Ablations",
-      "link": "https://huggingface.co/blog/Photoroom/prx-part2",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-03T11:25:53.000Z",
-      "score": 54.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
-      "title": "New York is considering two bills to rein in the AI industry",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
-      "summary": "AI data centers are becoming a bipartisan concern. | Image: Microsoft New York's state legislature is set to consider a pair of bills that would require labels on AI-generated content and would put a three-year pause on new data center construction. The New York Fundamental Artificial Intelligence Requirements in News Act (NY FAIR News Act, for short) would require that any news \"substantially composed, authored, or created through the use of generative artificial intelligence\" carry a disclaimer. It would also require that any content created using AI be reviewed and approved by a human with \"editorial control\" before being published. Beyond that, the bill requires organizations to disclose to newsroom em … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-08T21:04:53.000Z",
-      "score": 52.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
-      "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
-      "link": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
-      "summary": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article is the prescription. The question every CEO is now getting from their board is some version of: What do we do about agent risk? Across…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-04T14:00:00.000Z",
-      "score": 48.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/technology/ai/release-notes-podcast-project-genie/",
-      "title": "Hear more about interactive world models in our latest podcast.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/release-notes-podcast-project-genie/",
-      "summary": "The latest episode of the Google AI: Release Notes podcast focuses on Genie 3, a real-time, interactive world model. Host Logan Kilpatrick chats with Diego Rivas, Shlomi…",
-      "source": "Google AI Blog",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-01-29T15:00:00.000Z",
-      "score": 48.33,
       "status": "queued"
     },
     {
