@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-02-14T08:23:18.394Z",
+  "generatedAt": "2026-02-14T15:28:19.145Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-02-14-integrate-margindash-for-per-customer-ai-pandl-with-sdk-stripe-sync-and-a-cost-simulator",
+      "title": "Integrate MarginDash for per-customer AI P&L with SDK, Stripe sync, and a cost simulator",
+      "date": "2026-02-14",
+      "excerpt": "Install MarginDash (TypeScript/Python/REST) to attribute model usage to customers, link Stripe revenue, and run a pricing-backed cost simulator to find cheaper models and set budget alerts.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-14-integrate-margindash-for-per-customer-ai-pandl-with-sdk-stripe-sync-and-a-cost-simulator.jpg",
+      "tags": [
+        "margindash",
+        "ai-costs",
+        "cost-tracking",
+        "stripe",
+        "sdk",
+        "cost-simulator",
+        "model-selection",
+        "observability"
+      ],
+      "sources": [
+        "https://margindash.com/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-02-14-mistral-ai-invests-euro12b-with-ecodatacenter-in-sweden-nvidia-vera-rubin-gpus-limit-a-fully-european-hardware-stack",
       "title": "Mistral AI invests €1.2B with EcoDataCenter in Sweden; Nvidia Vera Rubin GPUs limit a fully European hardware stack",

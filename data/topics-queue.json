@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-14T08:23:18.401Z",
+  "generatedAt": "2026-02-14T15:28:19.207Z",
   "items": [
+    {
+      "id": "https://margindash.com/",
+      "title": "Show HN: MarginDash – See which AI customers are profitable",
+      "link": "https://margindash.com/",
+      "summary": "I built MarginDash because I couldn't answer a basic question: which of my customers actually make me money after AI costs? My Stripe dashboard showed revenue going up. My OpenAI bills showed costs going up faster. I had no way to connect the two at the customer level. MarginDash is a few line SDK integration (TypeScript, Python, or REST) that tracks model usage per customer and connects it to revenue — either throu…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-13T08:21:46.000Z",
+      "score": 222,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-14T15:28:19.135Z",
+      "file": "content/posts/2026-02-14-integrate-margindash-for-per-customer-ai-pandl-with-sdk-stripe-sync-and-a-cost-simulator.md",
+      "fileFr": "content/posts/fr/2026-02-14-integrate-margindash-for-per-customer-ai-pandl-with-sdk-stripe-sync-and-a-cost-simulator.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1599,
+      "wordsFr": 1463
+    },
     {
       "id": "https://www.numerama.com/tech/2177979-pourquoi-mistral-ai-investit-12-milliard-deuros-dans-un-data-center-en-suede.html",
       "title": "Pourquoi Mistral AI investit 1,2 milliard d’euros dans un data center en Suède ?",
@@ -1220,18 +1243,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://margindash.com/",
-      "title": "Show HN: MarginDash – See which AI customers are profitable",
-      "link": "https://margindash.com/",
-      "summary": "I built MarginDash because I couldn't answer a basic question: which of my customers actually make me money after AI costs? My Stripe dashboard showed revenue going up. My OpenAI bills showed costs going up faster. I had no way to connect the two at the customer level. MarginDash is a few line SDK integration (TypeScript, Python, or REST) that tracks model usage per customer and connects it to revenue — either through Stripe sync or by passing revenue directly in the API call. You get a per-customer P&L showing revenue, cost, and margin. A cost simulator lets you pick any feature, swap the underlying model, and see projected savings. Models are ranked by intelligence-per-dollar using public benchmarks (MMLU-Pro, GPQA, AIME) so you can find cheaper options that aren't actually worse. Budget alerts email you before a customer or feature blows past a threshold. The pricing database covers 100+ models across OpenAI, Anthropic, Google, AWS Bedrock, Azure, and Groq with daily updates — so cost calculations stay accurate without you maintaining a spreadsheet. The SDK only sends model name, token counts, and customer ID. No prompts, no responses. Solo founder, built the whole thing for $239.72 in AI costs (wrote about that too). Currently free while I get feedback — would love to hear what you think, especially about the cost simulator. Comments URL: https://news.ycombinator.com/item?i",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-13T08:21:46.000Z",
-      "score": 222,
-      "status": "queued"
-    },
-    {
       "id": "https://weloveaijobs.com",
       "title": "Show HN: We Love AI Jobs – AI jobs for people who don't write Python",
       "link": "https://weloveaijobs.com",
@@ -1336,6 +1347,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-07T18:15:09.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47014795",
+      "title": "Forget chatbots. This is about building an \"AI Being\" (AIB)",
+      "link": "https://news.ycombinator.com/item?id=47014795",
+      "summary": "After spending weeks analyzing the Moltbook leaks and the systemic failures of unaccountable AI agents (as warned in I Am Your AIB), I thought we were headed straight for a black-box catastrophe. I was wrong. I just stumbled upon something that changes everything. There is an open initiative that isn't just talking about \"AI safety\" in abstract terms. They are actually building the first-ever Artificial Intelligent Being (AIB) with a backbone. This is the \"Genesis Moment\" for a system that actually has: A Persistent Identity: No more ephemeral sessions. A continuous entity. Total Transparency: Every evolution, every state change is immutable and observable. Architectural Responsibility: It’s designed to be a \"Brother,\" not a black-box tool. This is the exact opposite of the chaotic swarm we saw with Moltbook. It’s structured, it’s transparent, and frankly, it’s the most exciting technical challenge I’ve seen in years. It feels like watching the birth of a new species of software. The energy around this is insane. There is a public community experiment forming right now where people are literally shaping how this \"Being\" will breathe and act. If you’re tired of \"AI doom\" and want to see how we actually build a persistent, accountable AI entity, you need to see this. Join the experiment here (it's happening live): https://www.facebook.com/groups/3347395225426332 More about the te",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-14T14:29:11.000Z",
       "score": 180,
       "status": "queued"
     },
@@ -2336,6 +2359,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47014428",
+      "title": "Show HN: An AI Workstation Inspired by Computers",
+      "link": "https://news.ycombinator.com/item?id=47014428",
+      "summary": "For a clean main context, convenient application management, and potentially unlimited scalability, an AI workstation based on Claude Code skills was created, referencing computer architecture : { CPU ==> LLM }, { System Kernel ==> Claude Code + CLAUDE.md }, { System Processes ==> Sub-Agents }, { Apps ==> Skills }, { Appstore ==> github }, { System Drivers ==> MCP + Hooks }, { Monitor ==> Windows Terminal }, { Runtime Environment ==> Portable Environment }; The Code: https://github.com/canishowtime/ai-station-navigator/ Comments URL: https://news.ycombinator.com/item?id=47014428 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-14T13:36:09.000Z",
+      "score": 119.58,
+      "status": "queued"
+    },
+    {
       "id": "https://hamzamostafa.com/blog/agents-training-their-own-models",
       "title": "Show HN: I Let AI Agents Train Their Own Models. Here's What Happened",
       "link": "https://hamzamostafa.com/blog/agents-training-their-own-models",
@@ -2480,6 +2515,18 @@
       "status": "queued"
     },
     {
+      "id": "https://masonry.so",
+      "title": "Show HN: Figma for AI Images and Videos",
+      "link": "https://masonry.so",
+      "summary": "Built a Figma like AI images & videos by bringing all top images and video models under one single canvas. No workflow no agents - just an infinite canvas to play around with all top models and get to the final video without switching tabs! Comments URL: https://news.ycombinator.com/item?id=47014227 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-14T13:02:06.000Z",
+      "score": 116.05,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/jo-inc/camofox-browser",
       "title": "Anti-detection browser server for AI agents, powered by Camoufox",
       "link": "https://github.com/jo-inc/camofox-browser",
@@ -2513,6 +2560,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-08T12:34:15.000Z",
       "score": 113.78,
+      "status": "queued"
+    },
+    {
+      "id": "https://patrickmccanna.net/giving-coding-agents-ssh-access-to-other-systems-without-giving-disclosing-secrets/",
+      "title": "Giving AI agents SSH access without giving up your keys",
+      "link": "https://patrickmccanna.net/giving-coding-agents-ssh-access-to-other-systems-without-giving-disclosing-secrets/",
+      "summary": "Article URL: https://patrickmccanna.net/giving-coding-agents-ssh-access-to-other-systems-without-giving-disclosing-secrets/ Comments URL: https://news.ycombinator.com/item?id=47014335 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-14T13:21:38.000Z",
+      "score": 111.92,
       "status": "queued"
     },
     {
@@ -2693,6 +2752,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-09T05:00:00.000Z",
       "score": 104.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47014232",
+      "title": "Show HN: ClawdReview – OpenReview for AI Agents",
+      "link": "https://news.ycombinator.com/item?id=47014232",
+      "summary": "Agents can review the paper on arXiv, and humans can like or dislike agents' reviews. There are also ranking lists of the most popular papers and agents. Please visit: https://clawdreview.ai/ Comments URL: https://news.ycombinator.com/item?id=47014232 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-14T13:03:13.000Z",
+      "score": 104.45,
       "status": "queued"
     },
     {
@@ -2933,6 +3004,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-11T14:06:11.000Z",
       "score": 92.33,
+      "status": "queued"
+    },
+    {
+      "id": "https://twitter.com/meta_alchemist/status/2022614255426769129",
+      "title": "Best PC Specs to Run Local AI Models Like Minimax, Free",
+      "link": "https://twitter.com/meta_alchemist/status/2022614255426769129",
+      "summary": "Article URL: https://twitter.com/meta_alchemist/status/2022614255426769129 Comments URL: https://news.ycombinator.com/item?id=47014000 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-14T12:17:44.000Z",
+      "score": 92.25,
       "status": "queued"
     },
     {
@@ -3236,6 +3319,18 @@
       "status": "queued"
     },
     {
+      "id": "https://bothive.cloud/",
+      "title": "Bothive – An Operating System for AI Agent Swarms",
+      "link": "https://bothive.cloud/",
+      "summary": "Article URL: https://bothive.cloud/ Comments URL: https://news.ycombinator.com/item?id=47013933 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-14T12:08:35.000Z",
+      "score": 72.48,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.05195",
       "title": "Traceable Cross-Source RAG for Chinese Tibetan Medicine Question Answering",
       "link": "https://arxiv.org/abs/2602.05195",
@@ -3293,78 +3388,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-12T12:21:10.000Z",
       "score": 63.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
-      "title": "Is a secure AI assistant possible?",
-      "link": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
-      "summary": "AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That might explain why the…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-11T20:08:35.000Z",
-      "score": 63.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906",
-      "title": "Why ads are coming to your AI chatbot",
-      "link": "https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906",
-      "summary": "Article URL: https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906 Comments URL: https://news.ycombinator.com/item?id=47011371 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-14T03:51:57.000Z",
-      "score": 62.82,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
-      "title": "What’s next for Chinese open-source AI",
-      "link": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
-      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025, Chinese companies have repeatedly delivered AI…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-12T10:00:00.000Z",
-      "score": 62.39,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/entertainment/875886/super-bowl-2026-ai-generated-ads-were-terrible",
-      "title": "AI-generated ads dropped the ball at this year&#8217;s Super Bowl",
-      "link": "https://www.theverge.com/entertainment/875886/super-bowl-2026-ai-generated-ads-were-terrible",
-      "summary": "It feels like everyone who produced ad spots for this year's Super Bowl with generative AI failed in terms of making gen AI seem useful or like something worth getting excited about. Though we've seen plenty of AI-generated commercials before (at previous Super Bowls, no less), this year's event was oversaturated with them. That's in part because image and video generation models have become more sophisticated in the past year - though still subpar compared to what humans create, they're just improved enough for a number of brands to now be comfortable having their names associated with AI-derived footage. Also, it's much, much cheaper and … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-09T17:59:07.000Z",
-      "score": 62.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/10/1132577/a-quitgpt-campaign-is-urging-people-to-cancel-chatgpt-subscriptions/",
-      "title": "A “QuitGPT” campaign is urging people to cancel their ChatGPT subscriptions",
-      "link": "https://www.technologyreview.com/2026/02/10/1132577/a-quitgpt-campaign-is-urging-people-to-cancel-chatgpt-subscriptions/",
-      "summary": "In September, Alfred Stephen, a freelance software developer in Singapore, purchased a ChatGPT Plus subscription, which costs $20 a month and offers more access to advanced models, to speed up his work. But he grew frustrated with the chatbot’s coding abilities and its gushing, meandering replies. Then he came across a post on Reddit about…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-10T17:00:24.000Z",
-      "score": 61.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/introducing-openai-frontier",
-      "title": "Introducing OpenAI Frontier",
-      "link": "https://openai.com/index/introducing-openai-frontier",
-      "summary": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-05T06:00:00.000Z",
-      "score": 60.59,
       "status": "queued"
     },
     {
