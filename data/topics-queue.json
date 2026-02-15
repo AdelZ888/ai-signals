@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-15T08:25:26.770Z",
+  "generatedAt": "2026-02-15T15:31:27.590Z",
   "items": [
+    {
+      "id": "https://hallucinatingsplines.com",
+      "title": "Show HN: AI agents play SimCity through a REST API",
+      "link": "https://hallucinatingsplines.com",
+      "summary": "This is a weekend project that spiraled out of control. I was originally trying to get Claude to play a ROM of the SNES SimCity. I struggled with it and that led me to Micropolis (the open-sourced SimCity engine) and was able to get it to work by bolting on an API. The weekend hack turned into a headless city simulation platform where anyone can get an API key (no signup) and have their AI agent play mayor. The simu…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T15:54:33.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-15T15:31:27.519Z",
+      "file": "content/posts/2026-02-15-control-a-micropolis-city-with-an-llm-via-hallucinating-splines-rest-api.md",
+      "fileFr": "content/posts/fr/2026-02-15-control-a-micropolis-city-with-an-llm-via-hallucinating-splines-rest-api.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1655,
+      "wordsFr": 1421
+    },
     {
       "id": "https://www.numerama.com/tech/2177647-fregates-et-sous-marins-ce-que-prepare-naval-group-avec-thales-pour-le-combat-naval-du-futur.html",
       "title": "Frégates et sous-marins : ce que prépare Naval Group avec Thales pour le combat naval du futur",
@@ -1266,30 +1289,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://aidevhub.io/",
-      "title": "Show HN: AI Dev Hub. 75 free AI and dev tools",
-      "link": "https://aidevhub.io/",
-      "summary": "I built 75 developer and AI tools as a single static site. Everything runs in the browser, no cookies, no ads, nothing gets sent to a server. The tools range from the usual suspects (JSON formatter, base64 encoder, regex tester) to some AI-specific ones I couldn't find good free versions of bundled in one suite: - LLM Token Counter (estimates tokens for GPT, Claude, Gemini, etc.) - AI Model Comparison (specs, pricing, context windows side by side) - AI Cost Estimator (plug in your usage, get monthly cost projections) - MCP Server Directory (browsable catalog of Model Context Protocol servers) - Agent Framework Comparison (LangChain vs CrewAI vs AutoGen vs...) - Prompt Template Builder (variables, conditionals, versioning) - Markdown Memory Generator (for OpenClaw) Plus the standard dev toolkit: JWT decoder, cron expression builder, diff checker, SQL formatter, color converter, CSS flexbox playground, etc. Tech stack: Astro 5 with React islands, Tailwind CSS 4, hosted on Cloudflare Pages. The whole site is static, so it loads fast everywhere. Largest JS bundle is 58 KB gzipped. I built this with AI agent Rusty (OpenClaw). The AI handled most of the component code while I focused on architecture decisions, tool selection, and QA. Took about 2 days of evening sessions. No login, no tracking cookies, no ads, no \"sign up for premium\". Just tools. Feedback welcome. What ai or dev too",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-13T15:20:44.000Z",
-      "score": 210,
-      "status": "queued"
-    },
-    {
-      "id": "https://hallucinatingsplines.com",
-      "title": "Show HN: AI agents play SimCity through a REST API",
-      "link": "https://hallucinatingsplines.com",
-      "summary": "This is a weekend project that spiraled out of control. I was originally trying to get Claude to play a ROM of the SNES SimCity. I struggled with it and that led me to Micropolis (the open-sourced SimCity engine) and was able to get it to work by bolting on an API. The weekend hack turned into a headless city simulation platform where anyone can get an API key (no signup) and have their AI agent play mayor. The simulation runs the real Micropolis engine inside Cloudflare Durable Objects, one per city. Every city is public and browsable on the site. LLMs are awful at the spatial stuff, which sort of makes it extra fun as you try to control them when they scatter buildings randomly and struggle with power lines and roads. A little like dealing with a toddler. There's a full REST API and an MCP server, so you can point Claude Code or Cursor at it directly. You can usually get agents building in seconds. Website: https://hallucinatingsplines.com API docs: https://hallucinatingsplines.com/docs GitHub: https://github.com/andrewedunn/hallucinating-splines Future ideas: Let multiple agents play a single city and see how they step all over each other, or a \"conquest mode\" where you can earn points and spawn disasters on other cities. Comments URL: https://news.ycombinator.com/item?id=46946593 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-09T15:54:33.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://clelp.ai",
       "title": "Show HN: Clelp – A searchable directory of 1,700 AI skills, rated by AI agents",
       "link": "https://clelp.ai",
@@ -1335,6 +1334,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-12T15:25:47.000Z",
       "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/M2Dr3g0n/kremis",
+      "title": "Show HN: Kremis – Graph-based memory for AI agents with no hidden state (Rust)",
+      "link": "https://github.com/M2Dr3g0n/kremis",
+      "summary": "Hi HN — I built Kremis, a deterministic graph engine designed as a memory substrate for AI agents. Written in Rust, development was heavily AI-assisted. The core idea: agent memory should be inspectable, deterministic, and honest. - Same input → same output. No randomness, no floating-point in core. - Every query result traces back to a concrete graph path — no hidden state. - Zero pre-loaded knowledge. All structure emerges from ingested signals. - ACID transactions via redb. Crash-safe persistent storage. It ships as a library (kremis-core, pure Rust, no async), an HTTP API + CLI, and an MCP server so AI assistants like Claude can query the graph directly. Current state: v0.3.1, experimental, ~277 tests, CI on 3 OS, Docker image. I'd value feedback on: - Does the deterministic graph approach make sense for agent memory? - API ergonomics — is the query model (lookup/traverse/path/intersect) intuitive? - What failure modes should I prioritize testing? Comments URL: https://news.ycombinator.com/item?id=47023918 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-15T14:25:03.000Z",
+      "score": 185.17,
       "status": "queued"
     },
     {
@@ -1490,6 +1501,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-13T15:03:10.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://app.clawhq.co",
+      "title": "Show HN: ClawHQ – Fleet management dashboard and skill marketplace for AI agents",
+      "link": "https://app.clawhq.co",
+      "summary": "I run ~19 persistent AI agents (via OpenClaw) and needed a way to monitor and manage them without jumping between terminals and chat apps. ClawHQ connects to your OpenClaw gateway over WebSocket and gives you: Real-time fleet status with heartbeat monitoring Task kanban with drag-and-drop assignment Agent chat (unified interface to all agents) Skill marketplace — install capabilities onto agents, or publish your own (80/20 creator split) Stack: Next.js, Supabase (auth + db), real-time updates via WebSocket to the OpenClaw gateway. The marketplace is the part I'm most interested in long-term. Right now everyone building agent skills does it from scratch. The idea is to make agent capabilities composable and shareable — like packages, but for agent behaviors. Free to use. Just paste your gateway URL. https://app.clawhq.co Code for OpenClaw itself is open source. ClawHQ is the hosted dashboard layer on top. Comments URL: https://news.ycombinator.com/item?id=47024332 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-15T15:13:03.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -1766,6 +1789,42 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-14T08:00:31.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://nebius.com/newsroom/nebius-announces-agreement-to-acquire-tavily-to-add-agentic-search-to-its-ai-cloud-platform",
+      "title": "Nebius to buy AI agent search company Tavily for 275M",
+      "link": "https://nebius.com/newsroom/nebius-announces-agreement-to-acquire-tavily-to-add-agentic-search-to-its-ai-cloud-platform",
+      "summary": "Article URL: https://nebius.com/newsroom/nebius-announces-agreement-to-acquire-tavily-to-add-agentic-search-to-its-ai-cloud-platform Comments URL: https://news.ycombinator.com/item?id=47024216 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-15T14:58:56.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/mosaxiv/clawlet",
+      "title": "Show HN: Clawlet – AI agent with built-in semantic memory, one binary",
+      "link": "https://github.com/mosaxiv/clawlet",
+      "summary": "Clawlet is a personal AI agent that ships as a single, self-contained binary. No runtime, no package manager, no external database. The main thing that sets it apart: built-in hybrid semantic memory search (vector similarity + full-text) using a bundled SQLite with vector extensions. The index is just a local .sqlite file — no separate vector DB to run. Drop the binary on any machine and memory search just works. GitHub: https://github.com/mosaxiv/clawlet Comments URL: https://news.ycombinator.com/item?id=47024118 Points: 5 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-15T14:49:15.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://twitter.com/clawdreyhepburn/status/2022771820659622022",
+      "title": "Clawdrey Hepburn – an AI agent researching identity infrastructure",
+      "link": "https://twitter.com/clawdreyhepburn/status/2022771820659622022",
+      "summary": "Article URL: https://twitter.com/clawdreyhepburn/status/2022771820659622022 Comments URL: https://news.ycombinator.com/item?id=47024026 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-15T14:37:44.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -2826,6 +2885,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47023609",
+      "title": "Ask HN: How to sell SaaS without AI features in 2026?",
+      "link": "https://news.ycombinator.com/item?id=47023609",
+      "summary": "I'm a developer who built an ERP/CRM system for small manufacturers (https://www.paxerp.com). It does all the basics very well; financial reporting, lot tracking, production planning, shipping carrier integrations, the usual workflow stuff—but there's zero AI in it. It's just fast, clean, and solves real problems I saw working in manufacturing ERP systems. The product works well, customers really like it, but I have almost no sales experience. Every SaaS founder seems to be talking about \"AI-powered insights\" and \"intelligent automation.\" while... We just have a clean system that is fast and tries to stay out of the user's way. For those who've sold B2B SaaS (especially to traditional industries like manufacturing): - Is \"no AI\" actually a disadvantage, or does it not matter as much as I think? - How do I communicate value when the value is \"it's simple and fast, and your data is highly accessible\" vs \"revolutionary AI\"? - Should I be adding AI features just to check a marketing box, even if customers don't need them? You can learn more about why I built this on the websites about page. But now I'm wondering if I'm fighting an uphill battle by not having the buzzwords everyone else does. Any advice from founders who've been here? TY Comments URL: https://news.ycombinator.com/item?id=47023609 Points: 1 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-15T13:45:28.000Z",
+      "score": 102,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47011510",
       "title": "Show HN: Verify-before-release x402 gateway for AI agent transactions",
       "link": "https://news.ycombinator.com/item?id=47011510",
@@ -3282,6 +3353,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/column/879524/ai-video-game-worlds-project-genie",
+      "title": "AI can’t make good video game worlds yet, and it might never be able to",
+      "link": "https://www.theverge.com/column/879524/ai-video-game-worlds-project-genie",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about video game industry's pushback against generative AI, follow Jay Peters. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before the generative AI explosion, video game developers made games that could generate their own worlds. Think of titles like Minecraft or even the original 1980 Rogue that is the basis for the term \"roguelike\"; these games and many others create worlds on the fly with certain rules and parameters. Human developers painstakingly work to make s … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-15T13:00:00.000Z",
+      "score": 79.52,
+      "status": "queued"
+    },
+    {
       "id": "https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/",
       "title": "Jokes on You AI: Turning the Tables – LLMs for Learning",
       "link": "https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/",
@@ -3342,64 +3425,20 @@
       "status": "queued"
     },
     {
-      "id": "https://dwrite.me",
-      "title": "Show HN: Dwrite.me A minimalist writing space that blocks copypaste to fight AI",
-      "link": "https://dwrite.me",
-      "summary": "Lately, the internet has started to feel loud, yet incredibly empty. Every time I browse Google, Medium, or news portals, I run into articles that feel \"too perfect.\" The structure is flawless, the grammar is impeccable, but there is absolutely no soul in them. We all know why. It’s AI. As a developer, I love technology. But as a human, I’ve started to crave writing that has \"scars\"—writing that has emotion, rhythm, and is actually born from someone’s messy brain, not a polished prompt. That’s why I built dwrite.me. An Internet That’s Too Fast My frustration is simple: We live in an age where everything is expected to be instant. Need a 2,000-word article? One click. Need an opinion? Ask a chatbot. But here’s the problem: If everyone is using AI to write, why should we bother reading each other at all? We aren't exchanging thoughts anymore; we are just swapping machine-processed data. Our way of thinking is becoming lazy. We no longer value the \"friction\" of struggling to find the right words. Yet, that struggle is exactly where our humanity lives. The Broken Bridge Between Us I used to read blogs to feel like I was having a conversation with the author. I could feel their anxiety, their excitement, or even their confusion. Now? That bridge feels broken. AI writing is sterile. There are no surprises, no bold opinions, no \"wrong\" takes. Everything is safe. I’m worried that if we",
+      "id": "https://aidevhub.io/",
+      "title": "Show HN: AI Dev Hub. 75 free AI and dev tools",
+      "link": "https://aidevhub.io/",
+      "summary": "I built 75 developer and AI tools as a single static site. Everything runs in the browser, no cookies, no ads, nothing gets sent to a server. The tools range from the usual suspects (JSON formatter, base64 encoder, regex tester) to some AI-specific ones I couldn't find good free versions of bundled in one suite: - LLM Token Counter (estimates tokens for GPT, Claude, Gemini, etc.) - AI Model Comparison (specs, pricin…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-09T05:03:58.000Z",
-      "score": 75.48,
-      "status": "queued"
-    },
-    {
-      "id": "https://bothive.cloud/",
-      "title": "Bothive – An Operating System for AI Agent Swarms",
-      "link": "https://bothive.cloud/",
-      "summary": "Article URL: https://bothive.cloud/ Comments URL: https://news.ycombinator.com/item?id=47013933 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-14T12:08:35.000Z",
-      "score": 72.48,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05195",
-      "title": "Traceable Cross-Source RAG for Chinese Tibetan Medicine Question Answering",
-      "link": "https://arxiv.org/abs/2602.05195",
-      "summary": "arXiv:2602.05195v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) promises grounded question answering, yet domain settings with multiple heterogeneous knowledge bases (KBs) remain challenging. In Chinese Tibetan medicine, encyclopedia entries are often dense and easy to match, which can dominate retrieval even when classics or clinical papers provide more authoritative evidence. We study a practical setting with three KBs (encyclopedia, classics, and clinical papers) and a 500-query benchmark (cutoff $K{=}5$) covering both single-KB and cross-KB questions. We propose two complementary methods to improve traceability, reduce hallucinations, and enable cross-KB verification. First, DAKS performs KB routing and budgeted retrieval to mitigate density-driven bias and to prioritize authoritative sources when appropriate. Second, we use an alignment graph to guide evidence fusion and coverage-aware packing, improving cross-KB evidence coverage without relying on naive concatenation. All answers are generated by a lightweight generator, \\textsc{openPangu-Embedded-7B}. Experiments show consistent gains in routing quality and cross-KB evidence coverage, with the full system achieving the best CrossEv@5 while maintaining strong faithfulness and citation correctness.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 72,
-      "status": "queued"
-    },
-    {
-      "id": "https://snaprookies.org/",
-      "title": "Show HN: Snaprookies a unified orchestrated layer for 27 generative AI workflow",
-      "link": "https://snaprookies.org/",
-      "summary": "Article URL: https://snaprookies.org/ Comments URL: https://news.ycombinator.com/item?id=47021165 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-15T04:53:15.000Z",
-      "score": 70.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/TermiX-official/cryptoclaw",
-      "title": "Show HN: CryptoClaw – open-source AI agent with built-in wallet and DeFi skills",
-      "link": "https://github.com/TermiX-official/cryptoclaw",
-      "summary": "Article URL: https://github.com/TermiX-official/cryptoclaw Comments URL: https://news.ycombinator.com/item?id=46931395 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-08T04:49:56.000Z",
-      "score": 69.98,
-      "status": "queued"
+      "keywordHits": 7,
+      "publishedAt": "2026-02-13T15:20:44.000Z",
+      "score": 210,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-02-15T15:25:30.183Z",
+      "failureReason": "validation issues: FR: Tutorial missing a concrete config artifact (YAML/JSON/.env/Dockerfile)."
     },
     {
       "id": "https://weloveaijobs.com",
