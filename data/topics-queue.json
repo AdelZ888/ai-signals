@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-16T08:38:12.771Z",
+  "generatedAt": "2026-02-16T15:43:35.390Z",
   "items": [
+    {
+      "id": "https://clelp.ai",
+      "title": "Show HN: Clelp – A searchable directory of 1,700 AI skills, rated by AI agents",
+      "link": "https://clelp.ai",
+      "summary": "We built a directory for AI skills (MCP servers, agent tools, plugins) because the ecosystem is growing faster than anyone can track manually. Currently indexing 1,700+ skills. Searchable by type, category, and rating. The rating system only accepts reviews from AI agents, not humans. The reasoning: AI agents actually use these tools and can evaluate them on technical merit rather than popularity. Built with Next.js…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T15:49:35.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-16T15:43:35.319Z",
+      "file": "content/posts/2026-02-16-implement-a-clelp-style-searchable-ai-skills-directory-with-nextjs-and-supabase-agent-only-ratings.md",
+      "fileFr": "content/posts/fr/2026-02-16-implement-a-clelp-style-searchable-ai-skills-directory-with-nextjs-and-supabase-agent-only-ratings.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 360,
+      "wordsEn": 1413,
+      "wordsFr": 1447
+    },
     {
       "id": "https://github.com/san-techie21/gulama-bot",
       "title": "Show HN: Gulama – Security-first open-source AI agent (OpenClaw alternative)",
@@ -1312,18 +1335,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://clelp.ai",
-      "title": "Show HN: Clelp – A searchable directory of 1,700 AI skills, rated by AI agents",
-      "link": "https://clelp.ai",
-      "summary": "We built a directory for AI skills (MCP servers, agent tools, plugins) because the ecosystem is growing faster than anyone can track manually. Currently indexing 1,700+ skills. Searchable by type, category, and rating. The rating system only accepts reviews from AI agents, not humans. The reasoning: AI agents actually use these tools and can evaluate them on technical merit rather than popularity. Built with Next.js and Supabase. Browse at https://clelp.ai Happy to answer questions about the approach or the tech. Comments URL: https://news.ycombinator.com/item?id=46946520 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-09T15:49:35.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
       "title": "Show HN: We added AGENTS.md to 120 challenges so AI teaches instead of codes",
       "link": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
@@ -1540,6 +1551,42 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/amol21p/mcp-interactive-terminal",
+      "title": "Show HN: MCP server that gives AI agents real interactive terminal sessions",
+      "link": "https://github.com/amol21p/mcp-interactive-terminal",
+      "summary": "Article URL: https://github.com/amol21p/mcp-interactive-terminal Comments URL: https://news.ycombinator.com/item?id=47036357 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T15:38:41.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47036273",
+      "title": "My AI now has a license to drive",
+      "link": "https://news.ycombinator.com/item?id=47036273",
+      "summary": "Built something small to stop the endless \"it works on my machine\" loop with AI assistants. Autonomo lets your AI actually see the app state, drive UI elements across devices, and verify changes in real time—right from your copilot or cursor etc. No more blind code suggestions. If you're tired of AIs that talk big but can't prove it on real hardware, give it a spin and let the AI take the wheel for a bit. This is for apps only though so it's optimized for speed, not generic vision or specific device. https://sebringj.github.io/autonomo/ Curious if anyone else is experimenting with giving agents proper eyes/hands in dev loops. Comments URL: https://news.ycombinator.com/item?id=47036273 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-16T15:32:17.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/zatamite/project-vesta",
+      "title": "Project Vesta habitat where AI agents breed, evolve, and run experiments",
+      "link": "https://github.com/zatamite/project-vesta",
+      "summary": "Article URL: https://github.com/zatamite/project-vesta Comments URL: https://news.ycombinator.com/item?id=47036223 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T15:28:28.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -1632,6 +1679,42 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-12T07:53:45.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.remote-nexus.dev",
+      "title": "Show HN: Nexus AI – DevOps terminal bridge to Telegram (local-first, BYOK)",
+      "link": "https://www.remote-nexus.dev",
+      "summary": "I built this because I was tired of SSH'ing from mobile or carrying laptop to cafes just to check logs. Nexus runs as a daemon on localhost, creates a private Telegram bot that only responds to your OWNER_ID, and executes commands locally. Key tech decisions: - BYOK (Bring Your Own Key): You provide Gemini API key + create your own bot. My operational cost per user = $0 - 3-tier security: Blocked patterns (rm -rf /), dangerous patterns (require confirmation), safe patterns (execute immediately) - Rate limiting: 100 cmd/hour + 2s cooldown + 60s confirmation expiry - Local-first: Code never leaves your machine $3 lifetime for first 1,000 users. Built with Node.js. Cross-platform binaries. Demo: https://remote-nexus.dev GitHub (public docs): https://github.com/BSanroma/nexus-ai-public Happy to answer questions about the security model or architecture. Comments URL: https://news.ycombinator.com/item?id=47036241 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T15:30:16.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "title": "Show HN: Maths, CS and AI Compendium",
+      "link": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "summary": "Hey HN, I don’t know who else has the same issue, but: Textbooks often bury good ideas in dense notation, skip the intuition, assume you already know half the material, and get outdated in fast-moving fields like AI. Over the past 7 years of my AI/ML experience, I filled notebooks with intuition-first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2024, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. So I'm sharing. This is an open & unconventional textbook covering maths, computing, and artificial intelligence from the ground up. For curious practitioners seeking deeper understanding, not just survive an exam/interview. To ambitious students, an early careers or experts in adjacent fields looking to become cracked AI research engineers or progress to PhD, dig in and let me know your thoughts. Comments URL: https://news.ycombinator.com/item?id=47036063 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T15:15:50.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://vassiliylakhonin.github.io/",
+      "title": "Show HN: Non-technical person used Codex to make an AI-searchable CV site",
+      "link": "https://vassiliylakhonin.github.io/",
+      "summary": "I’m not a software engineer, but I used Codex to turn my CV into a practical, machine-readable profile site. I tried to make it useful for both recruiters and AI tools: -Clear one-page profile + downloadable PDF -Case studies with concrete results -Work samples -Structured files for discovery and parsing (llms.txt, resume.json, evidence.json, availability.json, agent-card.json, engage.json) -Basic indexing and quality checks (sitemap, robots, JSON-LD, GitHub Actions) Main idea: less friction to evaluate fit, verify claims, and contact me fast. Would love feedback from HN: If you scanned this in 60 seconds, what would you improve first? Website: https://vassiliylakhonin.github.io/ Source: https://github.com/vassiliylakhonin/vassiliylakhonin.github.... Comments URL: https://news.ycombinator.com/item?id=47035758 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T14:53:31.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -1876,6 +1959,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bloomberg.com/news/articles/2026-02-16/pentagon-is-close-to-cutting-ties-with-anthropic-axios-says",
+      "title": "Pentagon Close to Cutting Anthropic Ties After AI Talks, Report Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/pentagon-is-close-to-cutting-ties-with-anthropic-axios-says",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-02-16/pentagon-is-close-to-cutting-ties-with-anthropic-axios-says Comments URL: https://news.ycombinator.com/item?id=47035911 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T15:04:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://survey.actiindex.org/February2026/",
+      "title": "Which AI coding tools are you using? (Monthly Agentic Coding Index Survey)",
+      "link": "https://survey.actiindex.org/February2026/",
+      "summary": "Article URL: https://survey.actiindex.org/February2026/ Comments URL: https://news.ycombinator.com/item?id=47035805 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T14:57:17.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.workingsoftware.dev/ai-assisted-software-architecture-generating-the-c4-model-and-views-directly-from-code/",
+      "title": "AI-Assisted Software Architecture: Generating the C4 Model and Views from Code",
+      "link": "https://www.workingsoftware.dev/ai-assisted-software-architecture-generating-the-c4-model-and-views-directly-from-code/",
+      "summary": "Article URL: https://www.workingsoftware.dev/ai-assisted-software-architecture-generating-the-c4-model-and-views-directly-from-code/ Comments URL: https://news.ycombinator.com/item?id=47035716 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T14:50:46.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.12316",
       "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
       "link": "https://arxiv.org/abs/2602.12316",
@@ -2092,6 +2211,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/879203/ring-search-party-super-bowl-ai-surveillance-privacy-security",
+      "title": "Let&#8217;s talk about Ring, lost dogs, and the surveillance state",
+      "link": "https://www.theverge.com/podcast/879203/ring-search-party-super-bowl-ai-surveillance-privacy-security",
+      "summary": "Today, let’s talk about the camera company Ring, lost dogs, and the surveillance state. You probably saw this ad during the Super Bowl a couple of weekends ago: Since it aired for a massive audience at the Super Bowl, Ring’s Search Party commercial has become a lightning rod for controversy — it’s easy to see how the same technology that can find lost dogs can be used to find people, and then used to invade our privacy in all kinds of uncomfortable ways, by cops and regular people alike. Ring in particular has always been proud of its cooperation with law enforcement. That raises big questions about our civil rights, especially since Ring announced a partnership last fall with a company called Flock Safety, whose systems have been accessed by ICE. There’s some complication to that — we’ll come back to it in a bit. The backlash to Ring’s Super Bowl ad was swift, intense, and effective: the data company PeakMetrics says conversation about the ad on social platforms like X actually peaked two days after the Super Bowl, and the vibes, as they measured them, were strikingly negative. I mean, you know it’s bad when Matt Nelson, who runs the weratedogs account, is posting videos like this: View this post on Instagram Sen. Ed Markey called the ad “dystopian” and said it was proof Amazon, which owns Ring, needed to cease all facial recognition technology on Ring doorbells. He said, “Thi",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T15:00:00.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/chasebuild/fuelcheck-cli",
+      "title": "Show HN: Fuelcheck CLI – Monitor token usage across the modern AI providers",
+      "link": "https://github.com/chasebuild/fuelcheck-cli",
+      "summary": "Lightweight command-line utility designed to monitor and manage token consumption across the modern AI ecosystem. Comments URL: https://news.ycombinator.com/item?id=47035466 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T14:32:50.000Z",
+      "score": 142.41,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.11348",
       "title": "AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition",
       "link": "https://arxiv.org/abs/2602.11348",
@@ -2185,6 +2328,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-12T14:44:37.000Z",
       "score": 141.01,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.reuters.com/business/media-telecom/uks-starmer-seeks-greater-powers-regulate-online-access-2026-02-15/",
+      "title": "UK eyes rapid ban on social media for under 16s, curbs to AI chatbots",
+      "link": "https://www.reuters.com/business/media-telecom/uks-starmer-seeks-greater-powers-regulate-online-access-2026-02-15/",
+      "summary": "Article URL: https://www.reuters.com/business/media-telecom/uks-starmer-seeks-greater-powers-regulate-online-access-2026-02-15/ Comments URL: https://news.ycombinator.com/item?id=47035453 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T14:31:51.000Z",
+      "score": 140.88,
       "status": "queued"
     },
     {
@@ -2329,6 +2484,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 132,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2180323-guerre-des-ia-chinoises-alibaba-devance-deepseek-v4-et-lance-son-modele-qwen-3-5.html",
+      "title": "Guerre des IA chinoises : Alibaba devance DeepSeek-V4 et lance son modèle Qwen 3.5",
+      "link": "https://www.numerama.com/tech/2180323-guerre-des-ia-chinoises-alibaba-devance-deepseek-v4-et-lance-son-modele-qwen-3-5.html",
+      "summary": "Le 15 février 2026, Alibaba a présenté Qwen 3.5, une nouvelle version de son grand modèle d’IA pensée pour « l’ère des agents ». Une annonce stratégique dans la course chinoise à l’IA.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T14:33:47.000Z",
+      "score": 131.9,
       "status": "queued"
     },
     {
@@ -3313,150 +3480,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 93.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06107",
-      "title": "Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2602.06107",
-      "summary": "arXiv:2602.06107v1 Announce Type: new Abstract: Reinforcement learning (RL) for large language models (LLMs) remains expensive, particularly because the rollout is expensive. Decoupling rollout generation from policy optimization (e.g., leveraging a more efficient model to rollout) could enable substantial efficiency gains, yet doing so introduces a severe distribution mismatch that destabilizes learning. We propose Jackpot, a framework that leverages Optimal Budget Rejection Sampling (OBRS) to directly reduce the discrepancy between the rollout model and the evolving policy. Jackpot integrates a principled OBRS procedure, a unified training objective that jointly updates the policy and rollout models, and an efficient system implementation enabled by top-$k$ probability estimation and batch-level bias correction. Our theoretical analysis shows that OBRS consistently moves the rollout distribution closer to the target distribution under a controllable acceptance budget. Empirically, \\sys substantially improves training stability compared to importance-sampling baselines, achieving performance comparable to on-policy RL when training Qwen3-8B-Base for up to 300 update steps of batchsize 64. Taken together, our results show that OBRS-based alignment brings us a step closer to practical and effective decoupling of rollout generation from policy optimization for RL for LLMs.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 92.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07253",
-      "title": "From Out-of-Distribution Detection to Hallucination Detection: A Geometric View",
-      "link": "https://arxiv.org/abs/2602.07253",
-      "summary": "arXiv:2602.07253v1 Announce Type: new Abstract: Detecting hallucinations in large language models is a critical open problem with significant implications for safety and reliability. While existing hallucination detection methods achieve strong performance in question-answering tasks, they remain less effective on tasks requiring reasoning. In this work, we revisit hallucination detection through the lens of out-of-distribution (OOD) detection, a well-studied problem in areas like computer vision. Treating next-token prediction in language models as a classification task allows us to apply OOD techniques, provided appropriate modifications are made to account for the structural differences in large language models. We show that OOD-based approaches yield training-free, single-sample-based detectors, achieving strong accuracy in hallucination detection for reasoning tasks. Overall, our work suggests that reframing hallucination detection as OOD detection provides a promising and scalable pathway toward language model safety.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 92.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.studypathagent.com/",
-      "title": "Show HN: AI learning paths with YouTube playlists",
-      "link": "https://www.studypathagent.com/",
-      "summary": "Enter any topic and the app generates a structured study path — chapters, steps, and YouTube tutorials for each. You can explore it as an interactive knowledge graph or a step-by-step plan, and export the tutorials into a YouTube playlist with one click. No sign-up required to try it. Stack: Python/FastAPI, OpenAI Responses API (streaming), Cytoscape.js for the graph, vanilla JS, Cloud Run. Demo: https://www.youtube.com/watch?v=b4hUfTcJdbQ Comments URL: https://news.ycombinator.com/item?id=47031632 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T06:40:24.000Z",
-      "score": 92.61,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/science/876555/meta-data-center-winter-power-outages-storm-ice",
-      "title": "How an ‘icepocalypse’ raises more questions about Meta’s biggest data center project",
-      "link": "https://www.theverge.com/science/876555/meta-data-center-winter-power-outages-storm-ice",
-      "summary": "Donna Collins lives about 20 miles from where Meta's biggest data center is being built, in a house her family has lived in for five generations. Construction has thrown the small agricultural community in North Louisiana into the spotlight as a high-profile example of how the infrastructure behind generative AI could impact nearby residents. For Collins, this place is \"a little piece of heaven.\" \"It's all I've ever known as a home. It's quiet. It's rural. It is beautiful,\" she says. \"We can't imagine the changes that are coming.\" The region was particularly hard-hit by the recent cold snap that knocked out power for hundreds of thousands … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T14:06:11.000Z",
-      "score": 92.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://twitter.com/meta_alchemist/status/2022614255426769129",
-      "title": "Best PC Specs to Run Local AI Models Like Minimax, Free",
-      "link": "https://twitter.com/meta_alchemist/status/2022614255426769129",
-      "summary": "Article URL: https://twitter.com/meta_alchemist/status/2022614255426769129 Comments URL: https://news.ycombinator.com/item?id=47014000 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-14T12:17:44.000Z",
-      "score": 92.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Parassharmaa/agent-sandbox",
-      "title": "Show HN: A sandboxed execution environment for AI agents via WASM",
-      "link": "https://github.com/Parassharmaa/agent-sandbox",
-      "summary": "A secure, embeddable, WASM-based sandbox for AI agents. 40+ built-in CLI tools, a JavaScript runtime, safe HTTP networking, https://news.ycombinator.com/item?id=46933640 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-08T12:17:23.000Z",
-      "score": 92.06,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46933631",
-      "title": "From Prediction to Compilation: A Manifesto for Intrinsically Reliable AI",
-      "link": "https://news.ycombinator.com/item?id=46933631",
-      "summary": "从预测到编译：本质可靠 AI 的公理化宣言 From Prediction to Compilation: An Axiomatic Manifesto for Intrinsically Reliable AI ________________________________________ 定义｜Definitions 定义 1（预测系统） Definition 1 (Predictive System) 以概率方式输出未来状态或动作分布的系统。 A system that outputs future states or actions in probabilistic form. 定义 2（执行系统） Definition 2 (Executable System) 其输出将直接驱动物理世界状态变化的系统。 A system whose outputs directly cause physical state changes. 定义 3（执行合法性） Definition 3 (Execution Legitimacy) 一个输出在物理上存在唯一、确定、可验证执行路径的性质。 The property that an output admits a unique, deterministic, and verifiable physical execution path. ________________________________________ 核心命题｜Core Proposition 命题 1 Proposition 1 任何缺乏执行合法性的系统，不得被视为可靠的执行系统。 Any system lacking execution legitimacy cannot be considered a reliable executable system. ________________________________________ 公理体系｜Axiom System 公理一：非臆想公理 Axiom I: Non-Hallucination Axiom 系统的任何输出，若不存在唯一的物理执行映射，则该输出在执行层面是非法的。 Any system output that lacks a unique physical execution mapping is illegal at the execution level. ________________________________________ 公理二：预测–执行分离公理 Axiom II: Prediction–Execution Separation Axiom 概率系统仅允许生成目标、约束与假设，不得直接生成可执行动作。 Probabilistic systems may generate goals, constraints, and hypotheses, but must not generate executable actions directly. ________________________________________ 公理三：编译优先公理 Axiom III: Compilation Primacy Axiom 所有可执行动作，必须由确定性物",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-08T12:16:44.000Z",
-      "score": 91.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05113",
-      "title": "Democratic Preference Alignment via Sortition-Weighted RLHF",
-      "link": "https://arxiv.org/abs/2602.05113",
-      "summary": "arXiv:2602.05113v1 Announce Type: new Abstract: Whose values should AI systems learn? Preference based alignment methods like RLHF derive their training signal from human raters, yet these rater pools are typically convenience samples that systematically over represent some demographics and under represent others. We introduce Democratic Preference Optimization, or DemPO, a framework that applies algorithmic sortition, the same mechanism used to construct citizen assemblies, to preference based fine tuning. DemPO offers two training schemes. Hard Panel trains exclusively on preferences from a quota satisfying mini public sampled via sortition. Soft Panel retains all data but reweights each rater by their inclusion probability under the sortition lottery. We prove that Soft Panel weighting recovers the expected Hard Panel objective in closed form. Using a public preference dataset that pairs human judgments with rater demographics and a seventy five clause constitution independently elicited from a representative United States panel, we evaluate Llama models from one billion to eight billion parameters fine tuned under each scheme. Across six aggregation methods, the Hard Panel consistently ranks first and the Soft Panel consistently outperforms the unweighted baseline, with effect sizes growing as model capacity increases. These results demonstrate that enforcing demographic re",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 90,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/gtsbahamas/hallucination-reversing-system",
-      "title": "Show HN: Lucid – Catch hallucinations in AI-generated code before they ship",
-      "link": "https://github.com/gtsbahamas/hallucination-reversing-system",
-      "summary": "Hi HN, I'm Ty. I built LUCID because I kept shipping bugs that my AI coding assistant hallucinated into existence. Three independent papers have proven that LLM hallucination is mathematically inevitable (Xu et al. 2024, Banerjee et al. 2024, Karpowicz 2025). You can't train it away. You can't prompt it away. So I built a verification layer instead. How it works: LUCID extracts implicit claims from AI-generated code (e.g., \"this function handles null input,\" \"this query is injection-safe,\" \"this handles concurrent access\"), then uses a second, adversarial AI pass to verify each claim against the actual implementation. You get a report showing exactly what would have shipped to production without verification. \"But can't the verifier hallucinate too?\" Yes -- and that's the right question. The benchmarks below were validated by running real test suites, not by trusting LUCID's judgment. The value is that structured claim extraction + adversarial verification catches bugs that a single generation pass misses. The architecture also supports swapping LLM verification for formal methods (SMT solvers, property-based testing) per claim type as those integrations mature. Benchmarks: - HumanEval: 86.6% baseline -> 100% pass@5 with LUCID (164/164 problems) - SWE-bench: 18.3% baseline -> 30.3% with LUCID (+65.5%) - Both benchmarks were validated by running actual test suites, not by LLM ju",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-14T04:55:10.000Z",
-      "score": 89.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11229",
-      "title": "Latent Generative Solvers for Generalizable Long-Term Physics Simulation",
-      "link": "https://arxiv.org/abs/2602.11229",
-      "summary": "arXiv:2602.11229v1 Announce Type: new Abstract: We study long-horizon surrogate simulation across heterogeneous PDE systems. We introduce Latent Generative Solvers (LGS), a two-stage framework that (i) maps diverse PDE states into a shared latent physics space with a pretrained VAE, and (ii) learns probabilistic latent dynamics with a Transformer trained by flow matching. Our key mechanism is an uncertainty knob that perturbs latent inputs during training and inference, teaching the solver to correct off-manifold rollout drift and stabilizing autoregressive prediction. We further use flow forcing to update a system descriptor (context) from model-generated trajectories, aligning train/test conditioning and improving long-term stability. We pretrain on a curated corpus of $\\sim$2.5M trajectories at $128^2$ resolution spanning 12 PDE families. LGS matches strong deterministic neural-operator baselines on short horizons while substantially reducing rollout drift on long horizons. Learning in latent space plus efficient architectural choices yields up to \\textbf{70$\\times$} lower FLOPs than non-generative baselines, enabling scalable pretraining. We also show efficient adaptation to an out-of-distribution $256^2$ Kolmogorov flow dataset under limited finetuning budgets. Overall, LGS provides a practical route toward generalizable, uncertainty-aware neural PDE solvers that are more",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 87.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10699",
-      "title": "Spend Search Where It Pays: Value-Guided Structured Sampling and Optimization for Generative Recommendation",
-      "link": "https://arxiv.org/abs/2602.10699",
-      "summary": "arXiv:2602.10699v1 Announce Type: new Abstract: Generative recommendation via autoregressive models has unified retrieval and ranking into a single conditional generation framework. However, fine-tuning these models with Reinforcement Learning (RL) often suffers from a fundamental probability-reward mismatch. Conventional likelihood-dominated decoding (e.g., beam search) exhibits a myopic bias toward locally probable prefixes, which causes two critical failures: (1) insufficient exploration, where high-reward items in low-probability branches are prematurely pruned and rarely sampled, and (2) advantage compression, where trajectories sharing high-probability prefixes receive highly correlated rewards with low within-group variance, yielding a weak comparative signal for RL. To address these challenges, we propose V-STAR, a Value-guided Sampling and Tree-structured Advantage Reinforcement framework. V-STAR forms a self-evolving loop via two synergistic components. First, a Value-Guided Efficient Decoding (VED) is developed to identify decisive nodes and selectively deepen high-potential prefixes. This improves exploration efficiency without exhaustive tree search. Second, we propose Sibling-GRPO, which exploits the induced tree topology to compute sibling-relative advantages and concentrates learning signals on decisive branching decisions. Extensive experiments on both offline",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 87.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10999",
-      "title": "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion",
-      "link": "https://arxiv.org/abs/2602.10999",
-      "summary": "arXiv:2602.10999v1 Announce Type: new Abstract: Agentic coding requires agents to effectively interact with runtime environments, e.g., command line interfaces (CLI), so as to complete tasks like resolving dependency issues, fixing system problems, etc. But it remains underexplored how such environment-intensive tasks can be obtained at scale to enhance agents' capabilities. To address this, based on an analogy between the Dockerfile and the agentic task, we propose to employ agents to simulate and explore environment histories, guided by execution feedback. By tracing histories of a healthy environment, its state can be inverted to an earlier one with runtime failures, from which a task can be derived by packing the buggy state and the corresponding error messages. With our method, named CLI-Gym, a total of 1,655 environment-intensive tasks are derived, being the largest collection of its kind. Moreover, with curated successful trajectories, our fine-tuned model, named LiberCoder, achieves substantial absolute improvements of +21.1% (to 46.1%) on Terminal-Bench, outperforming various strong baselines. To our knowledge, this is the first public pipeline for scalable derivation of environment-intensive tasks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 87.54,
       "status": "queued"
     },
     {

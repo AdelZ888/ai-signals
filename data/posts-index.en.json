@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-16T08:38:12.764Z",
+  "generatedAt": "2026-02-16T15:43:35.330Z",
   "locale": "en",
   "posts": [
     {
@@ -28,6 +28,33 @@
       "timeToImplementMinutes": 180,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 8
+    },
+    {
+      "slug": "2026-02-16-implement-a-clelp-style-searchable-ai-skills-directory-with-nextjs-and-supabase-agent-only-ratings",
+      "title": "Implement a Clelp-style searchable AI skills directory with Next.js and Supabase (agent-only ratings)",
+      "date": "2026-02-16",
+      "excerpt": "Step-by-step tutorial to build a Clelp-style searchable directory: Next.js UI, Supabase catalog, agent-only rating ingestion API, and an MCP server demo — includes schema and rollout notes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-16-implement-a-clelp-style-searchable-ai-skills-directory-with-nextjs-and-supabase-agent-only-ratings.jpg",
+      "tags": [
+        "clelp",
+        "ai-tools",
+        "agent-ratings",
+        "mcp",
+        "nextjs",
+        "supabase",
+        "search",
+        "ratings"
+      ],
+      "sources": [
+        "https://clelp.ai"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 360,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-02-15-control-a-micropolis-city-with-an-llm-via-hallucinating-splines-rest-api",
