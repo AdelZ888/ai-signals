@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-15T15:31:27.590Z",
+  "generatedAt": "2026-02-16T08:38:12.771Z",
   "items": [
+    {
+      "id": "https://github.com/san-techie21/gulama-bot",
+      "title": "Show HN: Gulama – Security-first open-source AI agent (OpenClaw alternative)",
+      "link": "https://github.com/san-techie21/gulama-bot",
+      "summary": "Hi HN, I'm a security engineer with 15+ years in enterprise security. After watching OpenClaw explode to 180K stars while binding to 0.0.0.0 by default, shipping no encryption, and accumulating 512 CVEs — I decided to build what I think a personal AI agent should look like when security comes first. Gulama is an open-source personal AI agent with 15+ security mechanisms built into the core: - AES-256-GCM encryption…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-16T07:27:20.000Z",
+      "score": 213.79,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-16T08:38:12.753Z",
+      "file": "content/posts/2026-02-16-deploy-and-harden-gulama-secure-local-setup-with-sandboxed-signed-skills-and-audit-trails.md",
+      "fileFr": "content/posts/fr/2026-02-16-deploy-and-harden-gulama-secure-local-setup-with-sandboxed-signed-skills-and-audit-trails.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1628,
+      "wordsFr": 1303
+    },
     {
       "id": "https://hallucinatingsplines.com",
       "title": "Show HN: AI agents play SimCity through a REST API",
@@ -1625,6 +1648,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.12662",
+      "title": "Think Fast and Slow: Step-Level Cognitive Depth Adaptation for LLM Agents",
+      "link": "https://arxiv.org/abs/2602.12662",
+      "summary": "arXiv:2602.12662v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as autonomous agents for multi-turn decision-making tasks. However, current agents typically rely on fixed cognitive patterns: non-thinking models generate immediate responses, while thinking models engage in deep reasoning uniformly. This rigidity is inefficient for long-horizon tasks, where cognitive demands vary significantly from step to step, with some requiring strategic planning and others only routine execution. In this paper, we introduce CogRouter, a framework that trains agents to dynamically adapt cognitive depth at each step. Grounded in ACT-R theory, we design four hierarchical cognitive levels ranging from instinctive responses to strategic planning. Our two-stage training approach includes Cognition-aware Supervised Fine-tuning (CoSFT) to instill stable level-specific patterns, and Cognition-aware Policy Optimization (CoPO) for step-level credit assignment via confidence-aware advantage reweighting. The key insight is that appropriate cognitive depth should maximize the confidence of the resulting action. Experiments on ALFWorld and ScienceWorld demonstrate that CogRouter achieves state-of-the-art performance with superior efficiency. With Qwen2.5-7B, it reaches an 82.3% success rate, outperforming GPT-4o (+40.3%), OpenAI-o3 (+18.3%), and GRPO (+14.0%), while u",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 159.42,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/jovanSAPFIONEER/Network-AI",
       "title": "Show HN: Network-AI – A Distributed Mutex for AI Agent Swarms",
       "link": "https://github.com/jovanSAPFIONEER/Network-AI",
@@ -1829,6 +1864,30 @@
       "status": "queued"
     },
     {
+      "id": "https://sajarin.com/blog/modeltree/",
+      "title": "A Tree of AI Model Names",
+      "link": "https://sajarin.com/blog/modeltree/",
+      "summary": "Article URL: https://sajarin.com/blog/modeltree/ Comments URL: https://news.ycombinator.com/item?id=47032390 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T08:27:57.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.12316",
+      "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
+      "link": "https://arxiv.org/abs/2602.12316",
+      "summary": "arXiv:2602.12316v1 Announce Type: new Abstract: Frontier AI systems are increasingly capable and deployed in high-stakes multi-agent environments. However, existing AI safety benchmarks largely evaluate single agents, leaving multi-agent risks such as coordination failure and conflict poorly understood. We introduce GT-HarmBench, a benchmark of 2,009 high-stakes scenarios spanning game-theoretic structures such as the Prisoner's Dilemma, Stag Hunt and Chicken. Scenarios are drawn from realistic AI risk contexts in the MIT AI Risk Repository. Across 15 frontier models, agents choose socially beneficial actions in only 62% of cases, frequently leading to harmful outcomes. We measure sensitivity to game-theoretic prompt framing and ordering, and analyze reasoning patterns driving failures. We further show that game-theoretic interventions improve socially beneficial outcomes by up to 18%. Our results highlight substantial reliability gaps and provide a broad standardized testbed for studying alignment in multi-agent environments. The benchmark and code are available at https://github.com/causalNLP/gt-harmbench.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 153.42,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/moezakura/mux-pod",
       "title": "Show HN: MuxPod – A mobile tmux client for monitoring AI agents on the go",
       "link": "https://github.com/moezakura/mux-pod",
@@ -1973,6 +2032,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.12876",
+      "title": "BrowseComp-$V^3$: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents",
+      "link": "https://arxiv.org/abs/2602.12876",
+      "summary": "arXiv:2602.12876v1 Announce Type: new Abstract: Multimodal large language models (MLLMs), equipped with increasingly advanced planning and tool-use capabilities, are evolving into autonomous agents capable of performing multimodal web browsing and deep search in open-world environments. However, existing benchmarks for multimodal browsing remain limited in task complexity, evidence accessibility, and evaluation granularity, hindering comprehensive and reproducible assessments of deep search capabilities. To address these limitations, we introduce BrowseComp-$V^3$, a novel benchmark consisting of 300 carefully curated and challenging questions spanning diverse domains. The benchmark emphasizes deep, multi-level, and cross-modal multi-hop reasoning, where critical evidence is interleaved across textual and visual modalities within and across web pages. All supporting evidence is strictly required to be publicly searchable, ensuring fairness and reproducibility. Beyond final-answer accuracy, we incorporate an expert-validated, subgoal-driven process evaluation mechanism that enables fine-grained analysis of intermediate reasoning behaviors and systematic characterization of capability boundaries. In addition, we propose OmniSeeker, a unified multimodal browsing agent framework integrating diverse web search and visual perception tools. Comprehensive experiments demonstrate that ev",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 147.42,
+      "status": "queued"
+    },
+    {
       "id": "https://aipractitioner.substack.com/",
       "title": "A Technical Series on Building Stateful AI Agents with LangGraph",
       "link": "https://aipractitioner.substack.com/",
@@ -2006,6 +2077,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-10T06:28:59.000Z",
       "score": 145.15,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/SpdVpr/DeclassFileAgents",
+      "title": "Show HN: Open API for AI agents to search 29k+ declassified docs",
+      "link": "https://github.com/SpdVpr/DeclassFileAgents",
+      "summary": "Article URL: https://github.com/SpdVpr/DeclassFileAgents Comments URL: https://news.ycombinator.com/item?id=47031888 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T07:15:59.000Z",
+      "score": 144.67,
       "status": "queued"
     },
     {
@@ -2066,6 +2149,30 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-12T05:00:00.000Z",
       "score": 141.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.12631",
+      "title": "AI Agents for Inventory Control: Human-LLM-OR Complementarity",
+      "link": "https://arxiv.org/abs/2602.12631",
+      "summary": "arXiv:2602.12631v1 Announce Type: new Abstract: Inventory control is a fundamental operations problem in which ordering decisions are traditionally guided by theoretically grounded operations research (OR) algorithms. However, such algorithms often rely on rigid modeling assumptions and can perform poorly when demand distributions shift or relevant contextual information is unavailable. Recent advances in large language models (LLMs) have generated interest in AI agents that can reason flexibly and incorporate rich contextual signals, but it remains unclear how best to incorporate LLM-based methods into traditional decision-making pipelines. We study how OR algorithms, LLMs, and humans can interact and complement each other in a multi-period inventory control setting. We construct InventoryBench, a benchmark of over 1,000 inventory instances spanning both synthetic and real-world demand data, designed to stress-test decision rules under demand shifts, seasonality, and uncertain lead times. Through this benchmark, we find that OR-augmented LLM methods outperform either method in isolation, suggesting that these methods are complementary rather than substitutes. We further investigate the role of humans through a controlled classroom experiment that embeds LLM recommendations into a human-in-the-loop decision pipeline. Contrary to prior findings that human-AI collaboration can de",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 141.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.12670",
+      "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+      "link": "https://arxiv.org/abs/2602.12670",
+      "summary": "arXiv:2602.12670v1 Announce Type: new Abstract: Agent Skills are structured packages of procedural knowledge that augment LLM agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark of 86 tasks across 11 domains paired with curated Skills and deterministic verifiers. Each task is evaluated under three conditions: no Skills, curated Skills, and self-generated Skills. We test 7 agent-model configurations over 7,308 trajectories. Curated Skills raise average pass rate by 16.2 percentage points(pp), but effects vary widely by domain (+4.5pp for Software Engineering to +51.9pp for Healthcare) and 16 of 84 tasks show negative deltas. Self-generated Skills provide no benefit on average, showing that models cannot reliably author the procedural knowledge they benefit from consuming. Focused Skills with 2--3 modules outperform comprehensive documentation, and smaller models with Skills can match larger models without them.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 141.42,
       "status": "queued"
     },
     {
@@ -2186,6 +2293,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-11T07:06:58.000Z",
       "score": 133.94,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/agenticmail/agenticmail",
+      "title": "Show HN: AgenticMail – Email, SMS, and multi-agent coordination for AI agents",
+      "link": "https://github.com/agenticmail/agenticmail",
+      "summary": "Article URL: https://github.com/agenticmail/agenticmail Comments URL: https://news.ycombinator.com/item?id=47031792 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T07:04:56.000Z",
+      "score": 133.59,
       "status": "queued"
     },
     {
@@ -2330,6 +2449,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 126,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.12665",
+      "title": "Evaluating Robustness of Reasoning Models on Parameterized Logical Problems",
+      "link": "https://arxiv.org/abs/2602.12665",
+      "summary": "arXiv:2602.12665v1 Announce Type: new Abstract: Logic provides a controlled testbed for evaluating LLM-based reasoners, yet standard SAT-style benchmarks often conflate surface difficulty (length, wording, clause order) with the structural phenomena that actually determine satisfiability. We introduce a diagnostic benchmark for 2-SAT built from parameterized families of structured 2--CNF formulas, where satisfiability is characterized by the implication graph and can be tuned along interpretable axes. Our generators isolate distinct competencies and failure modes: (i) contradiction-cycle UNSAT cores with controllable size and imbalance, (ii) SAT instances with a prescribed fraction of free variables to control solution multiplicity, (iii) planted backbones that modulate propagation, (iv) late bridge clauses that couple otherwise monotone regions to probe sensitivity to ordering and revision, and (v) symmetry/duplication variants that test abstraction under renaming and redundant structure. We evaluate LLM-based reasoners on decision accuracy and assignment validity, and quantify robustness under semantics-preserving perturbations such as clause reordering, filler clauses, and variable renaming. Across models, we observe sharp performance transitions under targeted structural interventions even when surface statistics are held fixed, revealing brittleness regimes that are invisi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 123.42,
       "status": "queued"
     },
     {
@@ -2669,6 +2800,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.12566",
+      "title": "To Mix or To Merge: Toward Multi-Domain Reinforcement Learning for Large Language Models",
+      "link": "https://arxiv.org/abs/2602.12566",
+      "summary": "arXiv:2602.12566v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) plays a key role in stimulating the explicit reasoning capability of Large Language Models (LLMs). We can achieve expert-level performance in some specific domains via RLVR, such as coding or math. When a general multi-domain expert-level model is required, we need to carefully consider the collaboration of RLVR across different domains. The current state-of-the-art models mainly employ two different training paradigms for multi-domain RLVR: mixed multi-task RLVR and separate RLVR followed by model merging. However, most of the works did not provide a detailed comparison and analysis about these paradigms. To this end, we choose multiple commonly used high-level tasks (e.g., math, coding, science, and instruction following) as our target domains and design extensive qualitative and quantitative experiments using open-source datasets. We find the RLVR across domains exhibits few mutual interferences, and reasoning-intensive domains demonstrate mutually synergistic effects. Furthermore, we analyze the internal mechanisms of mutual gains from the perspectives of weight space geometry, model prediction behavior, and information constraints. This project is named as M2RL that means Mixed multi-task training or separate training followed by model Merging for Reinforcement Learning, a",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 111.42,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.06176",
       "title": "Large Language Model Reasoning Failures",
       "link": "https://arxiv.org/abs/2602.06176",
@@ -2825,6 +2968,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.12419",
+      "title": "Intent-Driven Smart Manufacturing Integrating Knowledge Graphs and Large Language Models",
+      "link": "https://arxiv.org/abs/2602.12419",
+      "summary": "arXiv:2602.12419v1 Announce Type: new Abstract: The increasing complexity of smart manufacturing environments demands interfaces that can translate high-level human intents into machine-executable actions. This paper presents a unified framework that integrates instruction-tuned Large Language Models (LLMs) with ontology-aligned Knowledge Graphs (KGs) to enable intent-driven interaction in Manufacturing-as-a-Service (MaaS) ecosystems. We fine-tune Mistral-7B-Instruct-V02 on a domain-specific dataset, enabling the translation of natural language intents into structured JSON requirement models. These models are semantically mapped to a Neo4j-based knowledge graph grounded in the ISA-95 standard, ensuring operational alignment with manufacturing processes, resources, and constraints. Our experimental results demonstrate significant performance gains over zero-shot and 3-shots baselines, achieving 89.33\\% exact match accuracy and 97.27\\% overall accuracy. This work lays the foundation for scalable, explainable, and adaptive human-machine",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 105.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.12544",
+      "title": "Scaling Web Agent Training through Automatic Data Generation and Fine-grained Evaluation",
+      "link": "https://arxiv.org/abs/2602.12544",
+      "summary": "arXiv:2602.12544v1 Announce Type: new Abstract: We present a scalable pipeline for automatically generating high-quality training data for web agents. In particular, a major challenge in identifying high-quality training instances is trajectory evaluation - quantifying how much progress was made towards task completion. We introduce a novel constraint-based evaluation framework that provides fine-grained assessment of progress towards task completion. This enables us to leverage partially successful trajectories, which significantly expands the amount of usable training data. We evaluate our method on a new benchmark we propose called BookingArena, which consists of complex booking tasks across 20 popular websites, and demonstrate that our distilled student model outperforms open-source approaches and matches or exceeds commercial systems, while being a significantly smaller model. Our work addresses the challenge of efficiently creating diverse, realistic web interaction datasets and provides a systematic evaluation methodology for complex structured web tasks.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 105.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.12852",
+      "title": "WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning",
+      "link": "https://arxiv.org/abs/2602.12852",
+      "summary": "arXiv:2602.12852v1 Announce Type: new Abstract: Deep Research systems based on web agents have shown strong potential in solving complex information-seeking tasks, yet their search efficiency remains underexplored. We observe that many state-of-the-art open-source web agents rely on long tool-call trajectories with cyclic reasoning loops and exploration of unproductive branches. To address this, we propose WebClipper, a framework that compresses web agent trajectories via graph-based pruning. Concretely, we model the agent's search process as a state graph and cast trajectory optimization as a minimum-necessary Directed Acyclic Graph (DAG) mining problem, yielding pruned trajectories that preserve essential reasoning while eliminating redundant steps. Continued training on these refined trajectories enables the agent to evolve toward more efficient search patterns and reduces tool-call rounds by about 20% while improving accuracy. Furthermore, we introduce a new metric called F-AE Score to measure the model's overall performance in balancing accuracy and efficiency. Experiments demonstrate that WebClipper compresses tool-call rounds under excellent performance, providing practical insight into balancing effectiveness and efficiency in web agent design.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 105.42,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.06375",
       "title": "Difficulty-Estimated Policy Optimization",
       "link": "https://arxiv.org/abs/2602.06375",
@@ -2957,6 +3136,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.12356",
+      "title": "A Theoretical Framework for Adaptive Utility-Weighted Benchmarking",
+      "link": "https://arxiv.org/abs/2602.12356",
+      "summary": "arXiv:2602.12356v1 Announce Type: new Abstract: Benchmarking has long served as a foundational practice in machine learning and, increasingly, in modern AI systems such as large language models, where shared tasks, metrics, and leaderboards offer a common basis for measuring progress and comparing approaches. As AI systems are deployed in more varied and consequential settings, though, there is growing value in complementing these established practices with a more holistic conceptualization of what evaluation should represent. Of note, recognizing the sociotechnical contexts in which these systems operate invites an opportunity for a deeper view of how multiple stakeholders and their unique priorities might inform what we consider meaningful or desirable model behavior. This paper introduces a theoretical framework that reconceptualizes benchmarking as a multilayer, adaptive network linking evaluation metrics, model components, and stakeholder groups through weighted interactions. Using conjoint-derived utilities and a human-in-the-loop update rule, we formalize how human tradeoffs can be embedded into benchmark structure and how benchmarks can evolve dynamically while preserving stability and interpretability. The resulting formulation generalizes classical leaderboards as a special case and provides a foundation for building evaluation protocols that are more context aware, r",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 99.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.12617",
+      "title": "GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics",
+      "link": "https://arxiv.org/abs/2602.12617",
+      "summary": "arXiv:2602.12617v1 Announce Type: new Abstract: This paper presents GeoAgent, a model capable of reasoning closely with humans and deriving fine-grained address conclusions. Previous RL-based methods have achieved breakthroughs in performance and interpretability but still remain concerns because of their reliance on AI-generated chain-of-thought (CoT) data and training strategies, which conflict with geographic characteristics. To address these issues, we first introduce GeoSeek, a new geolocation dataset comprising CoT data annotated by geographic experts and professional players. We further thoroughly explore the inherent characteristics of geographic tasks and propose a geo-similarity reward and a consistency reward assessed by a consistency agent to assist training. This encourages the model to converge towards correct answers from a geographic perspective while ensuring the integrity and consistency of its reasoning process. Experimental results show that GeoAgent outperforms existing methods and a series of general VLLMs across multiple grains, while generating reasoning that closely aligns with humans.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 99.42,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.06413",
       "title": "Intrinsic Stability Limits of Autoregressive Reasoning: Structural Consequences for Long-Horizon Execution",
       "link": "https://arxiv.org/abs/2602.06413",
@@ -3029,6 +3232,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47031686",
+      "title": "Fractal Native – doesn't optimize your AI workflow",
+      "link": "https://news.ycombinator.com/item?id=47031686",
+      "summary": "Hello there, Problem: I wanted to reduce DX friction when using ai to verify that ai-implemented features perform exactly what the developer had in mind. And I'm stuck now... Context: First, I thought we could formalize prompts so that they become the code. The idea: a project spec where particular words define behavior, and changing the words changes the program. Each word is a function, so pressing \"Go To... (F12)\" drops you into a nested behavior (hence \"Fractal\"). So it would be a meta-spec language interpreted by an ai compiler while still using native language (hence \"Native\"). But this rests on a wrong assumption — that developers are open to learning a new language (less formalized than TS, Java, or Go, yet still formalized). I don't think that can happen anymore. The next coding language is purely English (or any other natural language). Second, I discussed the idea with a friend and we realized that tests are a nice descriptor of behaviors (with quite some exceptions ofc). Ideation continued, and long story short, here's the Language Spec: https://github.com/slowestmonkey/fractal/blob/main/README.md So why am I stuck? I've come to the realization that prompting ai and receiving correct behavior isn't enough for engineer. I can't confidently say \"it makes sense\" unless I understand how and why it was built that way. Here's the realization: https://www.conjectly.com/tho",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T06:48:50.000Z",
+      "score": 97.57,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=46942086",
       "title": "Who Approved This Agent? A book on authorizing AI-generated code",
       "link": "https://news.ycombinator.com/item?id=46942086",
@@ -3038,6 +3253,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-09T06:11:57.000Z",
       "score": 96.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://wisepanel.ai",
+      "title": "Show HN: Wisepanel – Multi-model AI panel for decision support",
+      "link": "https://wisepanel.ai",
+      "summary": "Wisepanel brings ChatGPT, Claude, Gemini, and Perplexity together in distinct roles. Instead of asking one model and hoping for the best, it assigns each a perspective and lets them interact -- surfacing opportunities, risks, and alternatives you wouldn't get from any single model. Built for founders, developers, investors, and consultants making decisions before commitment. The value isn't comparing outputs side-by-side -- it's the interaction between perspectives. Comments URL: https://news.ycombinator.com/item?id=47031423 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-16T06:07:24.000Z",
+      "score": 96.65,
       "status": "queued"
     },
     {
@@ -3077,6 +3304,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.12586",
+      "title": "Can I Have Your Order? Monte-Carlo Tree Search for Slot Filling Ordering in Diffusion Language Models",
+      "link": "https://arxiv.org/abs/2602.12586",
+      "summary": "arXiv:2602.12586v1 Announce Type: new Abstract: While plan-and-infill decoding in Masked Diffusion Models (MDMs) shows promise for mathematical and code reasoning, performance remains highly sensitive to slot infilling order, often yielding substantial output variance. We introduce McDiffuSE, a framework that formulates slot selection as decision making and optimises infilling orders through Monte Carlo Tree Search (MCTS). McDiffuSE uses look-ahead simulations to evaluate partial completions before commitment, systematically exploring the combinatorial space of generation orders. Experiments show an average improvement of 3.2% over autoregressive baselines and 8.0% over baseline plan-and-infill, with notable gains of 19.5% on MBPP and 4.9% on MATH500. Our analysis reveals that while McDiffuSE predominantly follows sequential ordering, incorporating non-sequential generation is essential for maximising performance. We observe that larger exploration constants, rather than increased simulations, are necessary to overcome model confidence biases and discover effective orderings. These findings establish MCTS-based planning as an effective approach for enhancing generation quality in MDMs.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-16T05:00:00.000Z",
+      "score": 93.42,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.06107",
       "title": "Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning",
       "link": "https://arxiv.org/abs/2602.06107",
@@ -3098,6 +3337,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-10T05:00:00.000Z",
       "score": 92.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.studypathagent.com/",
+      "title": "Show HN: AI learning paths with YouTube playlists",
+      "link": "https://www.studypathagent.com/",
+      "summary": "Enter any topic and the app generates a structured study path — chapters, steps, and YouTube tutorials for each. You can explore it as an interactive knowledge graph or a step-by-step plan, and export the tutorials into a YouTube playlist with one click. No sign-up required to try it. Stack: Python/FastAPI, OpenAI Responses API (streaming), Cytoscape.js for the graph, vanilla JS, Cloud Run. Demo: https://www.youtube.com/watch?v=b4hUfTcJdbQ Comments URL: https://news.ycombinator.com/item?id=47031632 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T06:40:24.000Z",
+      "score": 92.61,
       "status": "queued"
     },
     {
@@ -3206,222 +3457,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-12T05:00:00.000Z",
       "score": 87.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07267",
-      "title": "BRIDGE: Predicting Human Task Completion Time From Model Performance",
-      "link": "https://arxiv.org/abs/2602.07267",
-      "summary": "arXiv:2602.07267v1 Announce Type: new Abstract: Evaluating the real-world capabilities of AI systems requires grounding benchmark performance in human-interpretable measures of task difficulty. Existing approaches that rely on direct human task completion time annotations are costly, noisy, and difficult to scale across benchmarks. In this work, we propose BRIDGE, a unified psychometric framework that learns the latent difficulty scale from model responses and anchors it to human task completion time. Using a two-parameter logistic Item Response Theory model, we jointly estimate latent task difficulty and model capability from model performance data across multiple benchmarks. We demonstrate that latent task difficulty varies linearly with the logarithm of human completion time, allowing human task completion time to be inferred for new benchmarks from model performance alone. Leveraging this alignment, we forecast frontier model capabilities in terms of human task length and independently reproduce METR's exponential scaling results, with the 50% solvable task horizon doubling approximately every 6 months.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 86.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.nethuml.xyz/posts/2026/02/timeline-of-claims-about-ai-llms/",
-      "title": "A timeline of claims about AI/LLMs",
-      "link": "https://blog.nethuml.xyz/posts/2026/02/timeline-of-claims-about-ai-llms/",
-      "summary": "Article URL: https://blog.nethuml.xyz/posts/2026/02/timeline-of-claims-about-ai-llms/ Comments URL: https://news.ycombinator.com/item?id=46933847 Points: 3 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-08T13:02:08.000Z",
-      "score": 85.84,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05133",
-      "title": "CAST-CKT: Chaos-Aware Spatio-Temporal and Cross-City Knowledge Transfer for Traffic Flow Prediction",
-      "link": "https://arxiv.org/abs/2602.05133",
-      "summary": "arXiv:2602.05133v1 Announce Type: new Abstract: Traffic prediction in data-scarce, cross-city settings is challenging due to complex nonlinear dynamics and domain shifts. Existing methods often fail to capture traffic's inherent chaotic nature for effective few-shot learning. We propose CAST-CKT, a novel Chaos-Aware Spatio-Temporal and Cross-City Knowledge Transfer framework. It employs an efficient chaotic analyser to quantify traffic predictability regimes, driving several key innovations: chaos-aware attention for regime-adaptive temporal modelling; adaptive topology learning for dynamic spatial dependencies; and chaotic consistency-based cross-city alignment for knowledge transfer. The framework also provides horizon-specific predictions with uncertainty quantification. Theoretical analysis shows improved generalisation bounds. Extensive experiments on four benchmarks in cross-city few-shot settings show CAST-CKT outperforms state-of-the-art methods by significant margins in MAE and RMSE, while offering interpretable regime analysis. Code is available at https://github.com/afofanah/CAST-CKT.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 84,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05143",
-      "title": "HugRAG: Hierarchical Causal Knowledge Graph Design for RAG",
-      "link": "https://arxiv.org/abs/2602.05143",
-      "summary": "arXiv:2602.05143v1 Announce Type: new Abstract: Retrieval augmented generation (RAG) has enhanced large language models by enabling access to external knowledge, with graph-based RAG emerging as a powerful paradigm for structured retrieval and reasoning. However, existing graph-based methods often over-rely on surface-level node matching and lack explicit causal modeling, leading to unfaithful or spurious answers. Prior attempts to incorporate causality are typically limited to local or single-document contexts and also suffer from information isolation that arises from modular graph structures, which hinders scalability and cross-module causal reasoning. To address these challenges, we propose HugRAG, a framework that rethinks knowledge organization for graph-based RAG through causal gating across hierarchical modules. HugRAG explicitly models causal relationships to suppress spurious correlations while enabling scalable reasoning over large-scale knowledge graphs. Extensive experiments demonstrate that HugRAG consistently outperforms competitive graph-based RAG baselines across multiple datasets and evaluation metrics. Our work establishes a principled foundation for structured, scalable, and causally grounded RAG systems.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 84,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/musecl/musecl-memory",
-      "title": "Show HN: Musecl-memory – Zero-dependency memory sync for AI agents bash and Git",
-      "link": "https://github.com/musecl/musecl-memory",
-      "summary": "Article URL: https://github.com/musecl/musecl-memory Comments URL: https://news.ycombinator.com/item?id=47011519 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-14T04:18:37.000Z",
-      "score": 83.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11298",
-      "title": "Voxtral Realtime",
-      "link": "https://arxiv.org/abs/2602.11298",
-      "summary": "arXiv:2602.11298v1 Announce Type: new Abstract: We introduce Voxtral Realtime, a natively streaming automatic speech recognition model that matches offline transcription quality at sub-second latency. Unlike approaches that adapt offline models through chunking or sliding windows, Voxtral Realtime is trained end-to-end for streaming, with explicit alignment between audio and text streams. Our architecture builds on the Delayed Streams Modeling framework, introducing a new causal audio encoder and Ada RMS-Norm for improved delay conditioning. We scale pretraining to a large-scale dataset spanning 13 languages. At a delay of 480ms, Voxtral Realtime achieves performance on par with Whisper, the most widely deployed offline transcription system. We release the model weights under the Apache 2.0 license.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 81.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11408",
-      "title": "GHOST: Unmasking Phantom States in Mamba2 via Grouped Hidden-state Output-aware Selection & Truncation",
-      "link": "https://arxiv.org/abs/2602.11408",
-      "summary": "arXiv:2602.11408v1 Announce Type: new Abstract: While Mamba2's expanded state dimension enhances temporal modeling, it incurs substantial inference overhead that saturates bandwidth during autoregressive generation. Standard pruning methods fail to address this bottleneck: unstructured sparsity leaves activations dense, magnitude-based selection ignores runtime dynamics, and gradient-based methods impose prohibitive costs. We introduce GHOST (Grouped Hidden-state Output-aware Selection and Truncation), a structured pruning framework that approximates control-theoretic balanced truncation using only forward-pass statistics. By jointly measuring controllability and observability, GHOST rivals the fidelity of gradient-based methods without requiring backpropagation. As a highlight, on models ranging from 130M to 2.7B parameters, our approach achieves a 50\\% state-dimension reduction with approximately 1 perplexity point increase on WikiText-2. Code is available at https://anonymous.4open.science/r/mamba2_ghost-7BCB/.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 81.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10802",
-      "title": "Integrating Generative AI-enhanced Cognitive Systems in Higher Education: From Stakeholder Perceptions to a Conceptual Framework considering the EU AI Act",
-      "link": "https://arxiv.org/abs/2602.10802",
-      "summary": "arXiv:2602.10802v1 Announce Type: new Abstract: Many staff and students in higher education have adopted generative artificial intelligence (GenAI) tools in their work and study. GenAI is expected to enhance cognitive systems by enabling personalized learning and streamlining educational services. However, stakeholders perceptions of GenAI in higher education remain divided, shaped by cultural, disciplinary, and institutional contexts. In addition, the EU AI Act requires universities to ensure regulatory compliance when deploying cognitive systems. These developments highlight the need for institutions to engage stakeholders and tailor GenAI integration to their needs while addressing concerns. This study investigates how GenAI is perceived within the disciplines of Information Technology and Electrical Engineering (ITEE). Using a mixed-method approach, we surveyed 61 staff and 37 students at the Faculty of ITEE, University of Oulu. The results reveal both shared and discipline-specific themes, including strong interest in programming support from GenAI and concerns over response quality, privacy, and academic integrity. Drawing from these insights, the study identifies a set of high-level requirements and proposes a conceptual framework for responsible GenAI integration. Disciplinary-specific requirements reinforce the importance of stakeholder engagement when integrating GenA",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 81.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10845",
-      "title": "SynergyKGC: Reconciling Topological Heterogeneity in Knowledge Graph Completion via Topology-Aware Synergy",
-      "link": "https://arxiv.org/abs/2602.10845",
-      "summary": "arXiv:2602.10845v1 Announce Type: new Abstract: Knowledge Graph Completion (KGC) fundamentally hinges on the coherent fusion of pre-trained entity semantics with heterogeneous topological structures to facilitate robust relational reasoning. However, existing paradigms encounter a critical \"structural resolution mismatch,\" failing to reconcile divergent representational demands across varying graph densities, which precipitates structural noise interference in dense clusters and catastrophic representation collapse in sparse regions. We present SynergyKGC, an adaptive framework that advances traditional neighbor aggregation to an active Cross-Modal Synergy Expert via relation-aware cross-attention and semantic-intent-driven gating. By coupling a density-dependent Identity Anchoring strategy with a Double-tower Coherent Consistency architecture, SynergyKGC effectively reconciles topological heterogeneity while ensuring representational stability across training and inference phases. Systematic evaluations on two public benchmarks validate the superiority of our method in significantly boosting KGC hit rates, providing empirical evidence for a generalized principle of resilient information integration in non-homogeneous structured data.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 81.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/RoundTable02/remote-opencode",
-      "title": "Show HN: Remote-OpenCode – Run your AI coding agent from your phone via Discord",
-      "link": "https://github.com/RoundTable02/remote-opencode",
-      "summary": "Article URL: https://github.com/RoundTable02/remote-opencode Comments URL: https://news.ycombinator.com/item?id=47021346 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-15T05:41:30.000Z",
-      "score": 80.88,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/agentkube/agentkube",
-      "title": "Show HN: Open-source AI powered Kubernetes IDE",
-      "link": "https://github.com/agentkube/agentkube",
-      "summary": "AgentKube is the AI powered Kubernetes IDE - all open source. Try it our and lets chat on making it better. open source is the way to go. Comments URL: https://news.ycombinator.com/item?id=46931712 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-08T06:00:09.000Z",
-      "score": 80.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07040",
-      "title": "Aster: Autonomous Scientific Discovery over 20x Faster Than Existing Methods",
-      "link": "https://arxiv.org/abs/2602.07040",
-      "summary": "arXiv:2602.07040v1 Announce Type: new Abstract: We introduce Aster, an AI agent for autonomous scientific discovery capable of operating over 20 times faster than existing frameworks. Given a task, an initial program, and a script to evaluate the performance of the program, Aster iteratively improves the program, often leading to new state-of-the-art performances. Aster's significant reduction in the number of iterations required for novel discovery expands the domain of tractable problems to include tasks with long evaluation durations, such as multi-hour machine learning training runs. We applied Aster to problems in mathematics, GPU kernel engineering, biology, neuroscience, and language model training. More specifically: the Erdos minimum overlap problem, optimizing the TriMul kernel, a single-cell analysis denoising problem, training a neural activity prediction model to perform well on ZAPBench, and the NanoGPT Speedrun Competition. Aster attains SOTA results in every task, except for ZAPBench, where it matches the performance of the best human solution with less than 1/190th of the compute. Aster is accessible via a web interface and API at asterlab.ai.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 80.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/column/879524/ai-video-game-worlds-project-genie",
-      "title": "AI can’t make good video game worlds yet, and it might never be able to",
-      "link": "https://www.theverge.com/column/879524/ai-video-game-worlds-project-genie",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about video game industry's pushback against generative AI, follow Jay Peters. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before the generative AI explosion, video game developers made games that could generate their own worlds. Think of titles like Minecraft or even the original 1980 Rogue that is the basis for the term \"roguelike\"; these games and many others create worlds on the fly with certain rules and parameters. Human developers painstakingly work to make s … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-15T13:00:00.000Z",
-      "score": 79.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/",
-      "title": "Jokes on You AI: Turning the Tables – LLMs for Learning",
-      "link": "https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/",
-      "summary": "Article URL: https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/ Comments URL: https://news.ycombinator.com/item?id=46933729 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-08T12:38:20.000Z",
-      "score": 78.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://susam.net/inverse-laws-of-robotics.html",
-      "title": "Three Inverse Laws of AI and Robotics",
-      "link": "https://susam.net/inverse-laws-of-robotics.html",
-      "summary": "Article URL: https://susam.net/inverse-laws-of-robotics.html Comments URL: https://news.ycombinator.com/item?id=46999301 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-13T05:41:48.000Z",
-      "score": 78.3,
-      "status": "queued"
-    },
-    {
-      "id": "https://seedanceai2.org/",
-      "title": "Show HN: Seedance AShow HN: Seedance AI Video Generation (Next.js, Drizzle)",
-      "link": "https://seedanceai2.org/",
-      "summary": "Hi HN — I’m an indie maker building Seedance AI. It helps people create short videos (and images) from text prompts and reference photos. I tried to keep it simple: fast templates, predictable credit pricing, and downloadable results. It’s still early, and I know there are rough edges. I’d really appreciate honest feedback on what feels useful, what feels confusing, and what I should improve first. Happy to answer technical or product questions. Comments URL: https://news.ycombinator.com/item?id=46999394 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-13T05:57:27.000Z",
-      "score": 76.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/itc-ou-shigou/winclaw",
-      "title": "WinClaw: Windows-native AI assistant with Office automation and skills",
-      "link": "https://github.com/itc-ou-shigou/winclaw",
-      "summary": "Article URL: https://github.com/itc-ou-shigou/winclaw Comments URL: https://news.ycombinator.com/item?id=46999254 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-13T05:33:33.000Z",
-      "score": 76.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11437",
-      "title": "Distributionally Robust Cooperative Multi-Agent Reinforcement Learning via Robust Value Factorization",
-      "link": "https://arxiv.org/abs/2602.11437",
-      "summary": "arXiv:2602.11437v1 Announce Type: new Abstract: Cooperative multi-agent reinforcement learning (MARL) commonly adopts centralized training with decentralized execution, where value-factorization methods enforce the individual-global-maximum (IGM) principle so that decentralized greedy actions recover the team-optimal joint action. However, the reliability of this recipe in real-world settings remains unreliable due to environmental uncertainties arising from the sim-to-real gap, model mismatch, and system noise. We address this gap by introducing Distributionally robust IGM (DrIGM), a principle that requires each agent's robust greedy action to align with the robust team-optimal joint action. We show that DrIGM holds for a novel definition of robust individual action values, which is compatible with decentralized greedy execution and yields a provable robustness guarantee for the whole system. Building on this foundation, we derive DrIGM-compliant robust variants of existing value-factorization architectures (e.g., VDN/QMIX/QTRAN) that (i) train on robust Q-targets, (ii) preserve scalability, and (iii) integrate seamlessly with existing codebases without bespoke per-agent reward shaping. Empirically, on high-fidelity SustainGym simulators and a StarCraft game environment, our methods consistently improve out-of-distribution performance. Code and data are available at https://gi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 75.96,
       "status": "queued"
     },
     {

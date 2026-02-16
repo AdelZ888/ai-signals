@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-02-15T15:31:27.530Z",
+  "generatedAt": "2026-02-16T08:38:12.764Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-02-16-deploy-and-harden-gulama-secure-local-setup-with-sandboxed-signed-skills-and-audit-trails",
+      "title": "Déployer et durcir Gulama : installation locale sécurisée avec skills sandboxés, signés et piste d'audit",
+      "date": "2026-02-16",
+      "excerpt": "Guide pratique (~3 heures) pour cloner et mettre en service Gulama en local, inspecter son design orienté sécurité, et préparer une instance durcie : passerelle liée à 127.0.0.1, gestion chiffrée des secrets, skills sandboxés et signés, filtrage d'egress et chaîne d'audit vérifiable.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-16-deploy-and-harden-gulama-secure-local-setup-with-sandboxed-signed-skills-and-audit-trails.jpg",
+      "tags": [
+        "Gulama",
+        "sécurité",
+        "LLM",
+        "sandbox",
+        "devops",
+        "open-source",
+        "audit",
+        "production-readiness"
+      ],
+      "sources": [
+        "https://github.com/san-techie21/gulama-bot"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-02-15-control-a-micropolis-city-with-an-llm-via-hallucinating-splines-rest-api",
       "title": "Contrôler une ville Micropolis avec un LLM via l'API REST de Hallucinating Splines",
