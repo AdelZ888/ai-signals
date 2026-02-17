@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-17T08:36:54.095Z",
+  "generatedAt": "2026-02-17T15:56:35.125Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47048811",
+      "title": "Show HN: Voicetest – open-source test harness for voice AI agents",
+      "link": "https://news.ycombinator.com/item?id=47048811",
+      "summary": "We've been building voice agents across Retell, VAPI, LiveKit, and Bland, and the testing story is... rough. Every platform has its own config format, there's no shared way to define what \"correct\" looks like, and most teams end up doing manual QA by literally calling their agent and listening. So we built voicetest. voicetest is an open source (Apache 2.0) test harness that works across voice AI platforms. You impo…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-17T15:49:09.000Z",
+      "score": 198,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-17T15:56:35.057Z",
+      "file": "content/posts/2026-02-17-voicetest-open-source-test-harness-that-unifies-retell-vapi-livekit-and-bland-via-an-agentgraph-ir.md",
+      "fileFr": "content/posts/fr/2026-02-17-voicetest-open-source-test-harness-that-unifies-retell-vapi-livekit-and-bland-via-an-agentgraph-ir.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1498,
+      "wordsFr": 1437
+    },
     {
       "id": "https://www.numerama.com/tech/2180323-guerre-des-ia-chinoises-alibaba-devance-deepseek-v4-et-lance-son-modele-qwen-3-5.html",
       "title": "Guerre des IA chinoises : Alibaba devance DeepSeek-V4 et lance son modèle Qwen 3.5",
@@ -1610,6 +1633,18 @@
       "status": "queued"
     },
     {
+      "id": "https://blog.cloudkernels.net/posts/urunc_agent/",
+      "title": "AI Agents? Not on my host",
+      "link": "https://blog.cloudkernels.net/posts/urunc_agent/",
+      "summary": "Article URL: https://blog.cloudkernels.net/posts/urunc_agent/ Comments URL: https://news.ycombinator.com/item?id=47048491 Points: 7 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-17T15:25:52.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -2170,6 +2205,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-17T08:25:22.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://plannotator.ai/docs/commands/annotate/",
+      "title": "Show HN: Skill to annotate any Markdown file for AI feedback",
+      "link": "https://plannotator.ai/docs/commands/annotate/",
+      "summary": "Plannotator natively integrates with coding agent plan modes via hooks. The core feature set is the ability to annotate plans throughout the planning mode process. Users submitted a feature request to be able to annotate any file. This is what that does. More on how Plannotator works in the video demo here: https://www.youtube.com/watch?v=a_AT7cEN_9I Comments URL: https://news.ycombinator.com/item?id=47048696 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-17T15:40:56.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -3479,30 +3526,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 99.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06413",
-      "title": "Intrinsic Stability Limits of Autoregressive Reasoning: Structural Consequences for Long-Horizon Execution",
-      "link": "https://arxiv.org/abs/2602.06413",
-      "summary": "arXiv:2602.06413v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their performance often deteriorates sharply in long-horizon tasks, exhibiting systematic breakdown beyond certain scales. Conventional explanations primarily attribute this phenomenon to task complexity, such as combinatorial search explosion or long-term credit assignment challenges. In this work, we argue that these explanations are incomplete: even in linear, unbranched tasks without semantic ambiguity, autoregressive execution is subject to an intrinsic stability limit. We propose that the fundamental constraint on long-horizon reasoning arises from process-level instability in autoregressive generation rather than solely from search or task complexity, reframing long-horizon reasoning as a problem of structural governance. We derive Theorem~A, showing that decision advantage in single-path autoregressive reasoning decays exponentially with execution length, imposing a fundamental bound on maintainable reasoning chains. This result implies a structural consequence: stable long-horizon reasoning requires discrete segmentation, naturally inducing graph-like execution structures such as directed acyclic graphs (DAGs). Empirical studies in both synthetic environments and real TextWorld tasks reveal observable performance cliffs consistent with theoret",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 98.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06540",
-      "title": "AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research",
-      "link": "https://arxiv.org/abs/2602.06540",
-      "summary": "arXiv:2602.06540v1 Announce Type: new Abstract: Generating deep research reports requires large-scale information acquisition and the synthesis of insight-driven analysis, posing a significant challenge for current language models. Most existing approaches follow a plan-then-write paradigm, whose performance heavily depends on the quality of the initial outline. However, constructing a comprehensive outline itself demands strong reasoning ability, causing current deep research systems to rely almost exclusively on closed-source or online large models. This reliance raises practical barriers to deployment and introduces safety and privacy concerns for user-authored data. In this work, we present AgentCPM-Report, a lightweight yet high-performing local solution composed of a framework that mirrors the human writing process and an 8B-parameter deep research agent. Our framework uses a Writing As Reasoning Policy (WARP), which enables models to dynamically revise outlines during report generation. Under this policy, the agent alternates between Evidence-Based Drafting and Reasoning-Driven Deepening, jointly supporting information acquisition, knowledge refinement, and iterative outline evolution. To effectively equip small models with this capability, we introduce a Multi-Stage Agentic Training strategy, consisting of cold-start, atomic skill RL, and holistic pipeline RL. Experimen",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 98.87,
       "status": "queued"
     },
     {

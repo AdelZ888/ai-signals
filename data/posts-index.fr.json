@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-17T08:36:54.089Z",
+  "generatedAt": "2026-02-17T15:56:35.068Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-17-voicetest-open-source-test-harness-that-unifies-retell-vapi-livekit-and-bland-via-an-agentgraph-ir",
+      "title": "Voicetest : banc de tests open-source unifiant Retell, VAPI, LiveKit et Bland via un AgentGraph IR",
+      "date": "2026-02-17",
+      "excerpt": "Simulez des conversations sur Retell, VAPI, LiveKit et Bland avec Voicetest : normalisation des configs via un AgentGraph IR, notation par juges LLM et contrôles de conformité.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-17-voicetest-open-source-test-harness-that-unifies-retell-vapi-livekit-and-bland-via-an-agentgraph-ir.jpg",
+      "tags": [
+        "voicetest",
+        "voice-ai",
+        "testing",
+        "LLM",
+        "AgentGraph",
+        "CI/CD",
+        "DuckDB",
+        "LiveKit"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47048811"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
