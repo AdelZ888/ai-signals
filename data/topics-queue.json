@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-16T15:43:35.390Z",
+  "generatedAt": "2026-02-17T08:36:54.095Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2180323-guerre-des-ia-chinoises-alibaba-devance-deepseek-v4-et-lance-son-modele-qwen-3-5.html",
+      "title": "Guerre des IA chinoises : Alibaba devance DeepSeek-V4 et lance son modèle Qwen 3.5",
+      "link": "https://www.numerama.com/tech/2180323-guerre-des-ia-chinoises-alibaba-devance-deepseek-v4-et-lance-son-modele-qwen-3-5.html",
+      "summary": "Le 15 février 2026, Alibaba a présenté Qwen 3.5, une nouvelle version de son grand modèle d’IA pensée pour « l’ère des agents ». Une annonce stratégique dans la course chinoise à l’IA.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-16T14:33:47.000Z",
+      "score": 131.9,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-17T08:36:54.077Z",
+      "file": "content/posts/2026-02-17-alibaba-unveils-qwen-35-an-agentoriented-multimodal-model-claiming-about-2hour-context-and-60percent-lower-usage-cost.md",
+      "fileFr": "content/posts/fr/2026-02-17-alibaba-unveils-qwen-35-an-agentoriented-multimodal-model-claiming-about-2hour-context-and-60percent-lower-usage-cost.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1555,
+      "wordsFr": 1430
+    },
     {
       "id": "https://clelp.ai",
       "title": "Show HN: Clelp – A searchable directory of 1,700 AI skills, rated by AI agents",
@@ -1719,6 +1742,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47044810",
+      "title": "HN is an echo chamber of AI wrappers. Moving to Slashdot",
+      "link": "https://news.ycombinator.com/item?id=47044810",
+      "summary": "Move fast and break things\" is a lie now. This place has been softened by corporate bureaucracy. Every \"Show HN\" I see is either a hollow AI wrapper or an \"OS\" that’s just three agents talking to each other. It’s performative and empty. I am a sociologist. I was never your \"coding guy,\" yet I build. I’ve never taken your language wars seriously—low level, high level, Javascript—it doesn't matter. Since AI arrived, I’ve been open about being \"lazy\" with manual coding, but I never stopped generating ideas. I thought this platform valued original thought, but it only cares about corporate-safe jargon and intellectual posturing. I’m not here to \"karma whore\" or talk in circles just to get your upvotes. I’d rather go to the X crowd, where I can gain real users and build real chaos. I’m moving to Slashdot. I hope you find your original spirit again, but until then, enjoy your polite, sterilized echo chamber. I’m out. Peace. Comments URL: https://news.ycombinator.com/item?id=47044810 Points: 4 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-17T07:53:16.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
       "title": "OpenAI will reportedly start testing ads in ChatGPT today",
       "link": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
@@ -2127,6 +2162,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/zkzkGamal/zkzkAgent",
+      "title": "Local AI Assistant for Linux That Runs Commands",
+      "link": "https://github.com/zkzkGamal/zkzkAgent",
+      "summary": "Article URL: https://github.com/zkzkGamal/zkzkAgent Comments URL: https://news.ycombinator.com/item?id=47044986 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-17T08:25:22.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
       "title": "'The world is in peril': AI researchers quit with public warnings",
       "link": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
@@ -2268,6 +2315,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-14T06:58:16.000Z",
       "score": 141.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.13255",
+      "title": "DPBench: Large Language Models Struggle with Simultaneous Coordination",
+      "link": "https://arxiv.org/abs/2602.13255",
+      "summary": "arXiv:2602.13255v1 Announce Type: new Abstract: Large language models are increasingly deployed in multi-agent systems, yet we lack benchmarks that test whether they can coordinate under resource contention. We introduce DPBench, a benchmark based on the Dining Philosophers problem that evaluates LLM coordination across eight conditions that vary decision timing, group size, and communication. Our experiments with GPT-5.2, Claude Opus 4.5, and Grok 4.1 reveal a striking asymmetry: LLMs coordinate effectively in sequential settings but fail when decisions must be made simultaneously, with deadlock rates exceeding 95\\% under some conditions. We trace this failure to convergent reasoning, where agents independently arrive at identical strategies that, when executed simultaneously, guarantee deadlock. Contrary to expectations, enabling communication does not resolve this problem and can even increase deadlock rates. Our findings suggest that multi-agent LLM systems requiring concurrent resource access may need external coordination mechanisms rather than relying on emergent coordination. DPBench is released as an open-source benchmark. Code and benchmark are available at https://github.com/najmulhasan-code/dpbench.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 141.6,
       "status": "queued"
     },
     {
@@ -2487,18 +2546,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2180323-guerre-des-ia-chinoises-alibaba-devance-deepseek-v4-et-lance-son-modele-qwen-3-5.html",
-      "title": "Guerre des IA chinoises : Alibaba devance DeepSeek-V4 et lance son modèle Qwen 3.5",
-      "link": "https://www.numerama.com/tech/2180323-guerre-des-ia-chinoises-alibaba-devance-deepseek-v4-et-lance-son-modele-qwen-3-5.html",
-      "summary": "Le 15 février 2026, Alibaba a présenté Qwen 3.5, une nouvelle version de son grand modèle d’IA pensée pour « l’ère des agents ». Une annonce stratégique dans la course chinoise à l’IA.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T14:33:47.000Z",
-      "score": 131.9,
-      "status": "queued"
-    },
-    {
       "id": "https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8",
       "title": "AI message: New uniform to wear is \"Prompt, Deploy, Pray.\"",
       "link": "https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8",
@@ -2547,6 +2594,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.13214",
+      "title": "BotzoneBench: Scalable LLM Evaluation via Graded AI Anchors",
+      "link": "https://arxiv.org/abs/2602.13214",
+      "summary": "arXiv:2602.13214v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed in interactive environments requiring strategic decision-making, yet systematic evaluation of these capabilities remains challenging. Existing benchmarks for LLMs primarily assess static reasoning through isolated tasks and fail to capture dynamic strategic abilities. Recent game-based evaluations employ LLM-vs-LLM tournaments that produce relative rankings dependent on transient model pools, incurring quadratic computational costs and lacking stable performance anchors for longitudinal tracking. The central challenge is establishing a scalable evaluation framework that measures LLM strategic reasoning against consistent, interpretable standards rather than volatile peer models. Here we show that anchoring LLM evaluation to fixed hierarchies of skill-calibrated game Artificial Intelligence (AI) enables linear-time absolute skill measurement with stable cross-temporal interpretability. Built on the Botzone platform's established competitive infrastructure, our BotzoneBench evaluates LLMs across eight diverse games spanning deterministic perfect-information board games to stochastic imperfect-information card games. Through systematic assessment of 177,047 state-action pairs from five flagship models, we reveal significant performance disparities and identify distinct strategic",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 129.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.13234",
+      "title": "Stay in Character, Stay Safe: Dual-Cycle Adversarial Self-Evolution for Safety Role-Playing Agents",
+      "link": "https://arxiv.org/abs/2602.13234",
+      "summary": "arXiv:2602.13234v1 Announce Type: new Abstract: LLM-based role-playing has rapidly improved in fidelity, yet stronger adherence to persona constraints commonly increases vulnerability to jailbreak attacks, especially for risky or negative personas. Most prior work mitigates this issue with training-time solutions (e.g., data curation or alignment-oriented regularization). However, these approaches are costly to maintain as personas and attack strategies evolve, can degrade in-character behavior, and are typically infeasible for frontier closed-weight LLMs. We propose a training-free Dual-Cycle Adversarial Self-Evolution framework with two coupled cycles. A Persona-Targeted Attacker Cycle synthesizes progressively stronger jailbreak prompts, while a Role-Playing Defender Cycle distills observed failures into a hierarchical knowledge base of (i) global safety rules, (ii) persona-grounded constraints, and (iii) safe in-character exemplars. At inference time, the Defender retrieves and composes structured knowledge from this hierarchy to guide generation, producing responses that remain faithful to the target persona while satisfying safety constraints. Extensive experiments across multiple proprietary LLMs show consistent gains over strong baselines on both role fidelity and jailbreak resistance, and robust generalization to unseen personas and attack prompts.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 129.6,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10467",
       "title": "MERIT Feedback Elicits Better Bargaining in LLM Negotiators",
       "link": "https://arxiv.org/abs/2602.10467",
@@ -2568,6 +2639,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-12T05:00:00.000Z",
       "score": 129.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.ft.com/content/92dfd571-8d34-42f1-8be8-dce126998e37",
+      "title": "Are Anthropic's new AI work tools game-changing for professionals?",
+      "link": "https://www.ft.com/content/92dfd571-8d34-42f1-8be8-dce126998e37",
+      "summary": "Article URL: https://www.ft.com/content/92dfd571-8d34-42f1-8be8-dce126998e37 Comments URL: https://news.ycombinator.com/item?id=47044617 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-17T07:16:53.000Z",
+      "score": 129.42,
       "status": "queued"
     },
     {
@@ -2799,6 +2882,54 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.13213",
+      "title": "Agentic AI for Commercial Insurance Underwriting with Adversarial Self-Critique",
+      "link": "https://arxiv.org/abs/2602.13213",
+      "summary": "arXiv:2602.13213v1 Announce Type: new Abstract: Commercial insurance underwriting is a labor-intensive process that requires manual review of extensive documentation to assess risk and determine policy pricing. While AI offers substantial efficiency improvements, existing solutions lack comprehensive reasoning capabilities and internal mechanisms to ensure reliability within regulated, high-stakes environments. Full automation remains impractical and inadvisable in scenarios where human judgment and accountability are critical. This study presents a decision-negative, human-in-the-loop agentic system that incorporates an adversarial self-critique mechanism as a bounded safety architecture for regulated underwriting workflows. Within this system, a critic agent challenges the primary agent's conclusions prior to submitting recommendations to human reviewers. This internal system of checks and balances addresses a critical gap in AI safety for regulated workflows. Additionally, the research develops a formal taxonomy of failure modes to characterize potential errors by decision-negative agents. This taxonomy provides a structured framework for risk identification and risk management in high-stakes applications. Experimental evaluation using 500 expert-validated underwriting cases demonstrates that the adversarial critique mechanism reduces AI hallucination rates from 11.3% to 3.8",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 117.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.13232",
+      "title": "PlotChain: Deterministic Checkpointed Evaluation of Multimodal LLMs on Engineering Plot Reading",
+      "link": "https://arxiv.org/abs/2602.13232",
+      "summary": "arXiv:2602.13232v1 Announce Type: new Abstract: We present PlotChain, a deterministic, generator-based benchmark for evaluating multimodal large language models (MLLMs) on engineering plot reading-recovering quantitative values from classic plots (e.g., Bode/FFT, step response, stress-strain, pump curves) rather than OCR-only extraction or free-form captioning. PlotChain contains 15 plot families with 450 rendered plots (30 per family), where every item is produced from known parameters and paired with exact ground truth computed directly from the generating process. A central contribution is checkpoint-based diagnostic evaluation: in addition to final targets, each item includes intermediate 'cp_' fields that isolate sub-skills (e.g., reading cutoff frequency or peak magnitude) and enable failure localization within a plot family. We evaluate four state-of-the-art MLLMs under a standardized, deterministic protocol (temperature = 0 and a strict JSON-only numeric output schema) and score predictions using per-field tolerances designed to reflect human plot-reading precision. Under the 'plotread' tolerance policy, the top models achieve 80.42% (Gemini 2.5 Pro), 79.84% (GPT-4.1), and 78.21% (Claude Sonnet 4.5) overall field-level pass rates, while GPT-4o trails at 61.59%. Despite strong performance on many families, frequency-domain tasks remain brittle: bandpass response stays lo",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 117.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.13237",
+      "title": "NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models",
+      "link": "https://arxiv.org/abs/2602.13237",
+      "summary": "arXiv:2602.13237v1 Announce Type: new Abstract: Automated reasoning is critical in domains such as law and governance, where verifying claims against facts in documents requires both accuracy and interpretability. Recent work adopts structured reasoning pipelines that translate natural language into first-order logic and delegate inference to automated solvers. With the rise of large language models, approaches such as GCD and CODE4LOGIC leverage their reasoning and code generation capabilities to improve logic parsing. However, these methods suffer from fragile syntax control due to weak enforcement of global grammar constraints and low semantic faithfulness caused by insufficient clause-level semantic understanding. We propose NL2LOGIC, a first-order logic translation framework that introduces an abstract syntax tree as an intermediate representation. NL2LOGIC combines a recursive large language model based semantic parser with an abstract syntax tree guided generator that deterministically produces solver-ready logic code. Experiments on the FOLIO, LogicNLI, and ProofWriter benchmarks show that NL2LOGIC achieves 99 percent syntactic accuracy and improves semantic correctness by up to 30 percent over state-of-the-art baselines. Furthermore, integrating NL2LOGIC into Logic-LM yields near-perfect executability and improves downstream reasoning accuracy by 31 percent compared to",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 117.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.13258",
+      "title": "MAPLE: A Sub-Agent Architecture for Memory, Learning, and Personalization in Agentic AI Systems",
+      "link": "https://arxiv.org/abs/2602.13258",
+      "summary": "arXiv:2602.13258v1 Announce Type: new Abstract: Large language model (LLM) agents have emerged as powerful tools for complex tasks, yet their ability to adapt to individual users remains fundamentally limited. We argue this limitation stems from a critical architectural conflation: current systems treat memory, learning, and personalization as a unified capability rather than three distinct mechanisms requiring different infrastructure, operating on different timescales, and benefiting from independent optimization. We propose MAPLE (Memory-Adaptive Personalized LEarning), a principled decomposition where Memory handles storage and retrieval infrastructure; Learning extracts intelligence from accumulated interactions asynchronously; and Personalization applies learned knowledge in real-time within finite context budgets. Each component operates as a dedicated sub-agent with specialized tooling and well-defined interfaces. Experimental evaluation on the MAPLE-Personas benchmark demonstrates that our decomposition achieves a 14.6% improvement in personalization score compared to a stateless baseline (p < 0.01, Cohen's d = 0.95) and increases trait incorporation rate from 45% to 75% -- enabling agents that genuinely learn and adapt.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 117.6,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10885",
       "title": "Reinforcing Chain-of-Thought Reasoning with Self-Evolving Rubrics",
       "link": "https://arxiv.org/abs/2602.10885",
@@ -2952,6 +3083,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-14T13:21:38.000Z",
       "score": 111.92,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.13224",
+      "title": "A Geometric Taxonomy of Hallucinations in LLMs",
+      "link": "https://arxiv.org/abs/2602.13224",
+      "summary": "arXiv:2602.13224v1 Announce Type: new Abstract: The term \"hallucination\" in large language models conflates distinct phenomena with different geometric signatures in embedding space. We propose a taxonomy identifying three types: unfaithfulness (failure to engage with provided context), confabulation (invention of semantically foreign content), and factual error (incorrect claims within correct conceptual frames). We observe a striking asymmetry. On standard benchmarks where hallucinations are LLM-generated, detection is domain-local: AUROC 0.76-0.99 within domains, but 0.50 (chance level) across domains. Discriminative directions are approximately orthogonal between domains (mean cosine similarity -0.07). On human-crafted confabulations - invented institutions, redefined terminology, fabricated mechanisms - a single global direction achieves 0.96 AUROC with 3.8% cross-domain degradation. We interpret this divergence as follows: benchmarks capture generation artifacts (stylistic signatures of prompted fabrication), while human-crafted confabulations capture genuine topical drift. The geometric structure differs because the underlying phenomena differ. Type III errors show 0.478 AUROC - indistinguishable from chance. This reflects a theoretical constraint: embeddings encode distributional co-occurrence, not correspondence to external reality. Statements with identical contextual",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 111.6,
       "status": "queued"
     },
     {
@@ -3291,6 +3434,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.13217",
+      "title": "VeRA: Verified Reasoning Data Augmentation at Scale",
+      "link": "https://arxiv.org/abs/2602.13217",
+      "summary": "arXiv:2602.13217v1 Announce Type: new Abstract: The main issue with most evaluation schemes today is their \"static\" nature: the same problems are reused repeatedly, allowing for memorization, format exploitation, and eventual saturation. To measure genuine AI progress, we need evaluation that is robust by construction, not by post-hoc detection. In response, we propose VeRA (Verified Reasoning Data Augmentation), a framework that converts benchmark problems into executable specifications, comprising (i) a natural language template with placeholder slots, (ii) a coherent generator that samples valid configurations, and (iii) a deterministic verifier that validates parameters and calculates the corresponding correct answers for each configuration. From a single seed problem, VeRA automatically creates unlimited verified variants with reliable labels at near-zero marginal cost without human involvement. VeRA operates in two complementary modes. VeRA-E (equivalent) rewrites problems while keeping the underlying logic intact, useful for detecting memorization versus genuine reasoning. VeRA-H (hardened) systematically increases complexity while remaining verifiable, enabling reliable creation and labelling of fresh difficult tasks at the boundary of intelligence. Evaluating 16 frontier models with VeRA, we find: (i) VeRA-E improves evaluation quality and reveals contamination pattern",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-17T05:00:00.000Z",
+      "score": 99.6,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10324",
       "title": "Discovering Differences in Strategic Behavior Between Humans and LLMs",
       "link": "https://arxiv.org/abs/2602.10324",
@@ -3348,138 +3503,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-09T05:00:00.000Z",
       "score": 98.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07034",
-      "title": "ST-Raptor: An Agentic System for Semi-Structured Table QA",
-      "link": "https://arxiv.org/abs/2602.07034",
-      "summary": "arXiv:2602.07034v1 Announce Type: new Abstract: Semi-structured table question answering (QA) is a challenging task that requires (1) precise extraction of cell contents and positions and (2) accurate recovery of key implicit logical structures, hierarchical relationships, and semantic associations encoded in table layouts. In practice, such tables are often interpreted manually by human experts, which is labor-intensive and time-consuming. However, automating this process remains difficult. Existing Text-to-SQL methods typically require converting semi-structured tables into structured formats, inevitably leading to information loss, while approaches like Text-to-Code and multimodal LLM-based QA struggle with complex layouts and often yield inaccurate answers. To address these limitations, we present ST-Raptor, an agentic system for semi-structured table QA. ST-Raptor offers an interactive analysis environment that combines visual editing, tree-based structural modeling, and agent-driven query resolution to support accurate and user-friendly table understanding. Experimental results on both benchmark and real-world datasets demonstrate that ST-Raptor outperforms existing methods in both accuracy and usability. The code is available at https://github.com/weAIDB/ST-Raptor, and a demonstration video is available at https://youtu.be/9GDR-94Cau4.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 98.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07238",
-      "title": "Is there \"Secret Sauce'' in Large Language Model Development?",
-      "link": "https://arxiv.org/abs/2602.07238",
-      "summary": "arXiv:2602.07238v1 Announce Type: new Abstract: Do leading LLM developers possess a proprietary ``secret sauce'', or is LLM performance driven by scaling up compute? Using training and benchmark data for 809 models released between 2022 and 2025, we estimate scaling-law regressions with release-date and developer fixed effects. We find clear evidence of developer-specific efficiency advantages, but their importance depends on where models lie in the performance distribution. At the frontier, 80-90% of performance differences are explained by higher training compute, implying that scale--not proprietary technology--drives frontier advances. Away from the frontier, however, proprietary techniques and shared algorithmic progress substantially reduce the compute required to reach fixed capability thresholds. Some companies can systematically produce smaller models more efficiently. Strikingly, we also find substantial variation of model efficiency within companies; a firm can train two models with more than 40x compute efficiency difference. We also discuss the implications for AI leadership and capability diffusion.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 98.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07259",
-      "title": "Incentive-Aware AI Safety via Strategic Resource Allocation: A Stackelberg Security Games Perspective",
-      "link": "https://arxiv.org/abs/2602.07259",
-      "summary": "arXiv:2602.07259v1 Announce Type: new Abstract: As AI systems grow more capable and autonomous, ensuring their safety and reliability requires not only model-level alignment but also strategic oversight of the humans and institutions involved in their development and deployment. Existing safety frameworks largely treat alignment as a static optimization problem (e.g., tuning models to desired behavior) while overlooking the dynamic, adversarial incentives that shape how data are collected, how models are evaluated, and how they are ultimately deployed. We propose a new perspective on AI safety grounded in Stackelberg Security Games (SSGs): a class of game-theoretic models designed for adversarial resource allocation under uncertainty. By viewing AI oversight as a strategic interaction between defenders (auditors, evaluators, and deployers) and attackers (malicious actors, misaligned contributors, or worst-case failure modes), SSGs provide a unifying framework for reasoning about incentive design, limited oversight capacity, and adversarial uncertainty across the AI lifecycle. We illustrate how this framework can inform (1) training-time auditing against data/feedback poisoning, (2) pre-deployment evaluation under constrained reviewer resources, and (3) robust multi-model deployment in adversarial environments. This synthesis bridges algorithmic alignment and institutional overs",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 98.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46942012",
-      "title": "Show HN: EdgeAI-OS – Air-gapped Linux distro where AI is a system primitive",
-      "link": "https://news.ycombinator.com/item?id=46942012",
-      "summary": "I built a bootable Linux distribution that treats AI as a system primitive – like CPU or memory. Designed for security-conscious environments where data cannot leave the network. The problem: Most AI requires cloud APIs, which means your data leaves your control. For banks, healthcare, defense, and regulated industries – that's a non-starter. The solution: EdgeAI-OS runs everything locally. No cloud calls. No API keys. No telemetry. Boot the ISO, use AI. Your data never leaves the machine. Security features: - 100% offline operation – air-gap friendly, zero network dependencies - No external API calls – all inference runs locally on CPU - Command risk assessment – every command classified as Safe/Moderate/Dangerous - Dangerous pattern blocking – prevents rm -rf /, curl|bash, fork bombs, etc. - Open source & auditable – MIT licensed, inspect every line of code - No data exfiltration – nothing phones home, ever What's in the ISO: - Local LLMs (TinyLlama 1.1B + SmolLM 135M) – runs on CPU, no GPU needed - ai-sh: natural language shell where 80% of queries resolve instantly via templates - Multi-tier routing: simple queries → fast model, complex → larger model Example ai-sh session: what time is it? [template] date ← instant, no LLM files larger than 1gb [template] find . -size +1G ← instant, no LLM rm -rf / [DANGEROUS] Blocked ← security check configure nginx as reverse proxy [ai-g",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-09T05:56:37.000Z",
-      "score": 98.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47031686",
-      "title": "Fractal Native – doesn't optimize your AI workflow",
-      "link": "https://news.ycombinator.com/item?id=47031686",
-      "summary": "Hello there, Problem: I wanted to reduce DX friction when using ai to verify that ai-implemented features perform exactly what the developer had in mind. And I'm stuck now... Context: First, I thought we could formalize prompts so that they become the code. The idea: a project spec where particular words define behavior, and changing the words changes the program. Each word is a function, so pressing \"Go To... (F12)\" drops you into a nested behavior (hence \"Fractal\"). So it would be a meta-spec language interpreted by an ai compiler while still using native language (hence \"Native\"). But this rests on a wrong assumption — that developers are open to learning a new language (less formalized than TS, Java, or Go, yet still formalized). I don't think that can happen anymore. The next coding language is purely English (or any other natural language). Second, I discussed the idea with a friend and we realized that tests are a nice descriptor of behaviors (with quite some exceptions ofc). Ideation continued, and long story short, here's the Language Spec: https://github.com/slowestmonkey/fractal/blob/main/README.md So why am I stuck? I've come to the realization that prompting ai and receiving correct behavior isn't enough for engineer. I can't confidently say \"it makes sense\" unless I understand how and why it was built that way. Here's the realization: https://www.conjectly.com/tho",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T06:48:50.000Z",
-      "score": 97.57,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46942086",
-      "title": "Who Approved This Agent? A book on authorizing AI-generated code",
-      "link": "https://news.ycombinator.com/item?id=46942086",
-      "summary": "I moved my IoT compiler to test something from an AI vibe coding standpoint. The result is SETC a compiler and permit system and a free book that documents what I learned along the way. The book starts with the problem, AI agents are writing and executing code with minimal oversight. Databases deleted, drives wiped, dozens of CVEs across every major AI coding tool. Usage is up, trust is down. Then it walks through one approach, Ed25519 signed permits, Secure Enclave integration, M of N team approval, capability gated runtimes, and an ECDH killswitch. It stirs ideas about what the future may look like but doesn't necessarily have to but stirs the idea of what the gates might be then. Would appreciate feedback from anyone working on similar problems & your approach. Book: https://book.se.tc page: https://se.tc Docker: docker pull humanatsetc/setc:book-edition Comments URL: https://news.ycombinator.com/item?id=46942086 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-09T06:11:57.000Z",
-      "score": 96.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://wisepanel.ai",
-      "title": "Show HN: Wisepanel – Multi-model AI panel for decision support",
-      "link": "https://wisepanel.ai",
-      "summary": "Wisepanel brings ChatGPT, Claude, Gemini, and Perplexity together in distinct roles. Instead of asking one model and hoping for the best, it assigns each a perspective and lets them interact -- surfacing opportunities, risks, and alternatives you wouldn't get from any single model. Built for founders, developers, investors, and consultants making decisions before commitment. The value isn't comparing outputs side-by-side -- it's the interaction between perspectives. Comments URL: https://news.ycombinator.com/item?id=47031423 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-16T06:07:24.000Z",
-      "score": 96.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46955823",
-      "title": "Why Every Business Must Engage with AI – and How to Do It Right",
-      "link": "https://news.ycombinator.com/item?id=46955823",
-      "summary": "Title: Why every business should engage with AI (the real question is how deep) AI is no longer an experimental technology. It’s becoming a baseline capability for modern businesses. The real question most teams should be asking is not “should we use AI?” but “how deeply should we engage with it?” I’ve talked to many founders, CTOs, and operators over the past couple of years. The hesitation around AI usually comes from two places: Teams that haven’t really tried AI and feel comfortable sticking with existing workflows. Teams that rushed into AI, spent money, got disappointing results, and walked away. Both often conclude: “AI isn’t for us.” That conclusion is understandable — but increasingly risky. Many organizations still rely on manual or semi-manual processes: document handling, internal knowledge search, reporting, customer support triage. Everything appears to “work,” but it’s slow, hard to scale, and dependent on headcount rather than leverage. AI isn’t magic, but it is a force multiplier. Ignoring it means accepting structural inefficiency while competitors gradually improve speed, quality, and decision-making. One misconception I see a lot: that engaging with AI means building custom models or hiring a large ML team. In practice, AI today is closer to what spreadsheets or search once were — general-purpose tools that most teams can benefit from without deep specializa",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-10T05:43:25.000Z",
-      "score": 94.88,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/superS007/localllmjournal",
-      "title": "LocalLLMJournal – An offline, privacy-first AI journal running locally on macOS",
-      "link": "https://github.com/superS007/localllmjournal",
-      "summary": "Article URL: https://github.com/superS007/localllmjournal Comments URL: https://news.ycombinator.com/item?id=46942206 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T06:34:27.000Z",
-      "score": 93.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10598",
-      "title": "Neuro-symbolic Action Masking for Deep Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2602.10598",
-      "summary": "arXiv:2602.10598v1 Announce Type: new Abstract: Deep reinforcement learning (DRL) may explore infeasible actions during training and execution. Existing approaches assume a symbol grounding function that maps high-dimensional states to consistent symbolic representations and a manually specified action masking techniques to constrain actions. In this paper, we propose Neuro-symbolic Action Masking (NSAM), a novel framework that automatically learn symbolic models, which are consistent with given domain constraints of high-dimensional states, in a minimally supervised manner during the DRL process. Based on the learned symbolic model of states, NSAM learns action masks that rules out infeasible actions. NSAM enables end-to-end integration of symbolic reasoning and deep policy optimization, where improvements in symbolic grounding and policy learning mutually reinforce each other. We evaluate NSAM on multiple domains with constraints, and experimental results demonstrate that NSAM significantly improves sample efficiency of DRL agent while substantially reducing constraint violations.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 93.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12586",
-      "title": "Can I Have Your Order? Monte-Carlo Tree Search for Slot Filling Ordering in Diffusion Language Models",
-      "link": "https://arxiv.org/abs/2602.12586",
-      "summary": "arXiv:2602.12586v1 Announce Type: new Abstract: While plan-and-infill decoding in Masked Diffusion Models (MDMs) shows promise for mathematical and code reasoning, performance remains highly sensitive to slot infilling order, often yielding substantial output variance. We introduce McDiffuSE, a framework that formulates slot selection as decision making and optimises infilling orders through Monte Carlo Tree Search (MCTS). McDiffuSE uses look-ahead simulations to evaluate partial completions before commitment, systematically exploring the combinatorial space of generation orders. Experiments show an average improvement of 3.2% over autoregressive baselines and 8.0% over baseline plan-and-infill, with notable gains of 19.5% on MBPP and 4.9% on MATH500. Our analysis reveals that while McDiffuSE predominantly follows sequential ordering, incorporating non-sequential generation is essential for maximising performance. We observe that larger exploration constants, rather than increased simulations, are necessary to overcome model confidence biases and discover effective orderings. These findings establish MCTS-based planning as an effective approach for enhancing generation quality in MDMs.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 93.42,
       "status": "queued"
     },
     {
