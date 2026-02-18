@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-17T15:56:35.125Z",
+  "generatedAt": "2026-02-18T08:39:14.184Z",
   "items": [
+    {
+      "id": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
+      "title": "Show HN: We added AGENTS.md to 120 challenges so AI teaches instead of codes",
+      "link": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
+      "summary": "Hi HN! I'm Matt, founder of Frontend Mentor (https://www.frontendmentor.io). We provide front-end and full-stack coding challenges with professional Figma designs, enabling developers to build real projects and grow their skills. The problem: AI coding tools are great, but they can work against you when you're learning. Ask Copilot or Cursor to help with a beginner project, and they'll happily write the whole thing…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T15:22:32.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-18T08:39:14.167Z",
+      "file": "content/posts/2026-02-18-add-agentsmd-to-challenge-starters-to-make-ai-a-difficulty-aware-learning-partner.md",
+      "fileFr": "content/posts/fr/2026-02-18-add-agentsmd-to-challenge-starters-to-make-ai-a-difficulty-aware-learning-partner.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1530,
+      "wordsFr": 1283
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47048811",
       "title": "Show HN: Voicetest – open-source test harness for voice AI agents",
@@ -1381,18 +1404,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
-      "title": "Show HN: We added AGENTS.md to 120 challenges so AI teaches instead of codes",
-      "link": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
-      "summary": "Hi HN! I'm Matt, founder of Frontend Mentor (https://www.frontendmentor.io). We provide front-end and full-stack coding challenges with professional Figma designs, enabling developers to build real projects and grow their skills. The problem: AI coding tools are great, but they can work against you when you're learning. Ask Copilot or Cursor to help with a beginner project, and they'll happily write the whole thing for you. You ship the project, but you didn't really learn anything. What we did: We added AGENTS.md (and CLAUDE.md) files to every challenge's starter code. These files tell AI tools how to help based on the challenge's difficulty level, so the AI becomes a learning partner rather than an answer machine. The idea is simple: AI guidance should scale with the learner. - Newbie: AI acts as a patient mentor. Breaks problems into tiny steps, uses analogies, and gives multiple hints before showing an approach. Won't hand you a complete solution. - Junior: AI becomes a supportive guide. Introduces debugging, encourages DevTools usage, and explains the \"why,\" not just the \"what.\" - Intermediate: AI acts like an experienced colleague. Presents trade-offs, shows multiple approaches, and lets you make decisions. - Advanced: AI acts like a senior dev. Challenges your thinking, plays devil's advocate, gives honest feedback. - Guru: AI acts like a peer. Debates approaches, refere",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-09T15:22:32.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=46976391",
       "title": "Part 2 - AI Chat Evaluation of the Formal Language in He Xin's PEPC System",
       "link": "https://news.ycombinator.com/item?id=46976391",
@@ -2065,6 +2076,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.15325",
+      "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
+      "link": "https://arxiv.org/abs/2602.15325",
+      "summary": "arXiv:2602.15325v1 Announce Type: new Abstract: Foundation models for agriculture are increasingly trained on massive spatiotemporal data (e.g., multi-spectral remote sensing, soil grids, and field-level management logs) and achieve strong performance on forecasting and monitoring. However, these models lack language-based reasoning and interactive capabilities, limiting their usefulness in real-world agronomic workflows. Meanwhile, large language models (LLMs) excel at interpreting and generating text, but cannot directly reason over high-dimensional, heterogeneous agricultural datasets. We bridge this gap with an agentic framework for agricultural science. It provides a Python execution environment, AgriWorld, exposing unified tools for geospatial queries over field parcels, remote-sensing time-series analytics, crop growth simulation, and task-specific predictors (e.g., yield, stress, and disease risk). On top of this environment, we design a multi-turn LLM agent, Agro-Reflective, that iteratively writes code, observes execution results, and refines its analysis via an execute-observe-refine loop. We introduce AgroBench, with scalable data generation for diverse agricultural QA spanning lookups, forecasting, anomaly detection, and counterfactual \"what-if\" analysis. Experiments outperform text-only and direct tool-use baselines, validating execution-driven reflection for reli",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 153.54,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.12316",
       "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
       "link": "https://arxiv.org/abs/2602.12316",
@@ -2134,6 +2157,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-13T07:02:50.000Z",
       "score": 152.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47058199",
+      "title": "Ask HN: Any AI / Agent power users out there? Do you have any tips?",
+      "link": "https://news.ycombinator.com/item?id=47058199",
+      "summary": "At my large tech company, we're all being pushed to use AI. I, and most people I work with, have had success using the chatbots and Cursor-style tools and more recently Claude Code to accelerate the process of writing code. Yet, with a few people in my network, it's like they're living 10 years ahead. Guys are automating everything in their jobs, spinning up 10 specialized agents at a time and running multi-agent pipelines, just doing all sorts of crazy things with this tech that I just can't even fathom. It seems like it's making them way more productive. I have found a way to fit code-writing and question-answering chatbots into my workflow. I have NOT done the same in terms of these crazy Agent setups. There's clearly a way to leverage these tools to turbocharge your productivity, like at least 2x or maybe even 10x. But what is it? Are there any Agentic power users out there who can enlighten me? What are the best ways to take advantage of these new tools? Comments URL: https://news.ycombinator.com/item?id=47058199 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-18T07:15:50.000Z",
+      "score": 151.7,
       "status": "queued"
     },
     {
@@ -2242,6 +2277,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-13T05:00:00.000Z",
       "score": 147.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.15156",
+      "title": "Panini: Continual Learning in Token Space via Structured Memory",
+      "link": "https://arxiv.org/abs/2602.15156",
+      "summary": "arXiv:2602.15156v1 Announce Type: new Abstract: Language models are increasingly used to reason over content they were not trained on, such as new documents, evolving knowledge, and user-specific data. A common approach is retrieval-augmented generation (RAG), which stores verbatim documents externally (as chunks) and retrieves only a relevant subset at inference time for an LLM to reason over. However, this results in inefficient usage of test-time compute (LLM repeatedly reasons over the same documents); moreover, chunk retrieval can inject irrelevant context that increases unsupported generation. We propose a human-like non-parametric continual learning framework, where the base model remains fixed, and learning occurs by integrating each new experience into an external semantic memory state that accumulates and consolidates itself continually. We present Panini, which realizes this by representing documents as Generative Semantic Workspaces (GSW) -- an entity- and event-aware network of question-answer (QA) pairs, sufficient for an LLM to reconstruct the experienced situations and mine latent knowledge via reasoning-grounded inference chains on the network. Given a query, Panini only traverses the continually-updated GSW (not the verbatim documents or chunks), and retrieves the most likely inference chains. Across six QA benchmarks, Panini achieves the highest average perfo",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 147.54,
       "status": "queued"
     },
     {
@@ -2689,6 +2736,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.15212",
+      "title": "Secure and Energy-Efficient Wireless Agentic AI Networks",
+      "link": "https://arxiv.org/abs/2602.15212",
+      "summary": "arXiv:2602.15212v1 Announce Type: new Abstract: In this paper, we introduce a secure wireless agentic AI network comprising one supervisor AI agent and multiple other AI agents to provision quality of service (QoS) for users' reasoning tasks while ensuring confidentiality of private knowledge and reasoning outcomes. Specifically, the supervisor AI agent can dynamically assign other AI agents to participate in cooperative reasoning, while the unselected AI agents act as friendly jammers to degrade the eavesdropper's interception performance. To extend the service duration of AI agents, an energy minimization problem is formulated that jointly optimizes AI agent selection, base station (BS) beamforming, and AI agent transmission power, subject to latency and reasoning accuracy constraints. To address the formulated problem, we propose two resource allocation schemes, ASC and LAW, which first decompose it into three sub-problems. Specifically, ASC optimizes each sub-problem iteratively using the proposed alternating direction method of multipliers (ADMM)-based algorithm, semi-definite relaxation (SDR), and successive convex approximation (SCA), while LAW tackles each sub-problem using the proposed large language model (LLM) optimizer within an agentic workflow. The experimental results show that the proposed solutions can reduce network energy consumption by up to 59.1% compared t",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 129.54,
+      "status": "queued"
+    },
+    {
       "id": "https://www.ft.com/content/92dfd571-8d34-42f1-8be8-dce126998e37",
       "title": "Are Anthropic's new AI work tools game-changing for professionals?",
       "link": "https://www.ft.com/content/92dfd571-8d34-42f1-8be8-dce126998e37",
@@ -2749,6 +2808,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.15294",
+      "title": "EAA: Automating materials characterization with vision language model agents",
+      "link": "https://arxiv.org/abs/2602.15294",
+      "summary": "arXiv:2602.15294v1 Announce Type: new Abstract: We present Experiment Automation Agents (EAA), a vision-language-model-driven agentic system designed to automate complex experimental microscopy workflows. EAA integrates multimodal reasoning, tool-augmented action, and optional long-term memory to support both autonomous procedures and interactive user-guided measurements. Built on a flexible task-manager architecture, the system enables workflows ranging from fully agent-driven automation to logic-defined routines that embed localized LLM queries. EAA further provides a modern tool ecosystem with two-way compatibility for Model Context Protocol (MCP), allowing instrument-control tools to be consumed or served across applications. We demonstrate EAA at an imaging beamline at the Advanced Photon Source, including automated zone plate focusing, natural language-described feature search, and interactive data acquisition. These results illustrate how vision-capable agents can enhance beamline efficiency, reduce operational burden, and lower the expertise barrier for users.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 123.54,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.12665",
       "title": "Evaluating Robustness of Reasoning Models on Parameterized Logical Problems",
       "link": "https://arxiv.org/abs/2602.12665",
@@ -2782,6 +2853,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-15T06:13:19.000Z",
       "score": 121.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://aibenchy.com",
+      "title": "Show HN: AIBenchy – Independent AI Leaderboard",
+      "link": "https://aibenchy.com",
+      "summary": "Hey HN, Like many of you, I'm tired of public AI leaderboards that mostly recycle the same saturated/overfitted benchmarks (MMLU, HumanEval, etc.) and often miss fast/cheap variants or real daily pain points. A couple days ago I launched AIBenchy — a small, opinionated leaderboard running my own custom tests focused on end-user/dev scenarios that actually trip up models today. Current tests cover categories like: - Anti-AI Tricks (classic gotchas like \"count the Rs in strawberry\", logic traps) - Instruction following & consistency - Data parsing/extraction - Domain-specific tasks - Puzzle solving / edge-case reasoning Recent additions (just pushed today): - Reasoning score (new!): A separate judge LLM evaluates the chain-of-thought for efficiency — does it repeat itself, loop, think forever, brute-force enumerate every possibility (looking at you, some Qwen-3.5 runs), or get to the point cleanly? This penalizes \"cheaty\" high-token reasoning even if the final answer is correct. Goal: reward smart, concise thinking over exhaustive trial-and-error. - Stability metric: Measures consistency across runs (some models flake on the same prompt). Right now the leaderboard has ~20 models (Qwen3.5 Plus currently topping it, followed by GLM 5, various GPT/Claude variants, etc.), but it's super early/WIP: - Manual runs + small test set - No public submission of tests yet (open to ideas!) - F",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-18T02:31:35.000Z",
+      "score": 121.85,
       "status": "queued"
     },
     {
@@ -2989,6 +3072,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.15112",
+      "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
+      "link": "https://arxiv.org/abs/2602.15112",
+      "summary": "arXiv:2602.15112v1 Announce Type: new Abstract: We introduce ResearchGym, a benchmark and execution environment for evaluating AI agents on end-to-end research. To instantiate this, we repurpose five oral and spotlight papers from ICML, ICLR, and ACL. From each paper's repository, we preserve the datasets, evaluation harness, and baseline implementations but withhold the paper's proposed method. This results in five containerized task environments comprising 39 sub-tasks in total. Within each environment, agents must propose novel hypotheses, run experiments, and attempt to surpass strong human baselines on the paper's metrics. In a controlled evaluation of an agent powered by GPT-5, we observe a sharp capability--reliability gap. The agent improves over the provided baselines from the repository in just 1 of 15 evaluations (6.7%) by 11.5%, and completes only 26.5% of sub-tasks on average. We identify recurring long-horizon failure modes, including impatience, poor time and resource management, overconfidence in weak hypotheses, difficulty coordinating parallel experiments, and hard limits from context length. Yet in a single run, the agent surpasses the solution of an ICML 2025 Spotlight task, indicating that frontier agents can occasionally reach state-of-the-art performance, but do so unreliably. We additionally evaluate proprietary agent scaffolds including Claude Code (Opu",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 117.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.15173",
+      "title": "Mind the (DH) Gap! A Contrast in Risky Choices Between Reasoning and Conversational LLMs",
+      "link": "https://arxiv.org/abs/2602.15173",
+      "summary": "arXiv:2602.15173v1 Announce Type: new Abstract: The use of large language models either as decision support systems, or in agentic workflows, is rapidly transforming the digital ecosystem. However, the understanding of LLM decision-making under uncertainty remains limited. We initiate a comparative study of LLM risky choices along two dimensions: (1) prospect representation (explicit vs. experience based) and (2) decision rationale (explanation). Our study, which involves 20 frontier and open LLMs, is complemented by a matched human subjects experiment, which provides one reference point, while an expected payoff maximizing rational agent model provides another. We find that LLMs cluster into two categories: reasoning models (RMs) and conversational models (CMs). RMs tend towards rational behavior, are insensitive to the order of prospects, gain/loss framing, and explanations, and behave similarly whether prospects are explicit or presented via experience history. CMs are significantly less rational, slightly more human-like, sensitive to prospect ordering, framing, and explanation, and exhibit a large description-history gap. Paired comparisons of open LLMs suggest that a key factor differentiating RMs and CMs is training for mathematical reasoning.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 117.54,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47011649",
       "title": "Show HN: Why Playwright-CLI Beats MCP for AI‑Driven Browser Automation",
       "link": "https://news.ycombinator.com/item?id=47011649",
@@ -3085,6 +3192,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/AhmedAllam0/ghosttrace",
+      "title": "Show HN: GhostTrace – See rejected decisions in AI agents",
+      "link": "https://github.com/AhmedAllam0/ghosttrace",
+      "summary": "Hey HN, When an AI agent makes a decision, it evaluates several options and picks one. The rest disappear forever – you never see what it almost did or why it rejected the alternatives. I built GhostTrace to fix that. It captures \"Phantom Branches\": the actions your agent considered but rejected, with the reasoning for each rejection. All saved to a .ghost.json file you can replay and inspect. Quick demo: ghosttrace record Recorded 4 decisions with 5 phantom branches Saved to gt_a1b2c3d4.ghost.json ghosttrace replay gt_ghost.json --show-phantoms Step 1: read_file → src/auth.py REJECTED: write_file (premature) REJECTED: search_codebase (too broad) pip install ghosttrace PyPI: https://pypi.org/project/ghosttrace/ It's framework-agnostic for now, but what agent frameworks should I integrate first? LangChain? CrewAI? OpenAI Agents SDK? Feedback very welcome! Comments URL: https://news.ycombinator.com/item?id=47057488 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-18T05:24:44.000Z",
+      "score": 115.97,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/jo-inc/camofox-browser",
       "title": "Anti-detection browser server for AI agents, powered by Camoufox",
       "link": "https://github.com/jo-inc/camofox-browser",
@@ -3153,6 +3272,42 @@
       "region": "GLOBAL",
       "keywordHits": 5,
       "publishedAt": "2026-02-12T05:00:00.000Z",
+      "score": 111.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.15143",
+      "title": "Protecting Language Models Against Unauthorized Distillation through Trace Rewriting",
+      "link": "https://arxiv.org/abs/2602.15143",
+      "summary": "arXiv:2602.15143v1 Announce Type: new Abstract: Knowledge distillation is a widely adopted technique for transferring capabilities from LLMs to smaller, more efficient student models. However, unauthorized use of knowledge distillation takes unfair advantage of the considerable effort and cost put into developing frontier models. We investigate methods for modifying teacher-generated reasoning traces to achieve two objectives that deter unauthorized distillation: (1) \\emph{anti-distillation}, or degrading the training usefulness of query responses, and (2) \\emph{API watermarking}, which embeds verifiable signatures in student models. We introduce several approaches for dynamically rewriting a teacher's reasoning outputs while preserving answer correctness and semantic coherence. Two of these leverage the rewriting capabilities of LLMs, while others use gradient-based techniques. Our experiments show that a simple instruction-based rewriting approach achieves a strong anti-distillation effect while maintaining or even improving teacher performance. Furthermore, we show that our rewriting approach also enables highly reliable watermark detection with essentially no false alarms.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 111.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.15270",
+      "title": "Enhancing Diversity and Feasibility: Joint Population Synthesis from Multi-source Data Using Generative Models",
+      "link": "https://arxiv.org/abs/2602.15270",
+      "summary": "arXiv:2602.15270v1 Announce Type: new Abstract: Generating realistic synthetic populations is essential for agent-based models (ABM) in transportation and urban planning. Current methods face two major limitations. First, many rely on a single dataset or follow a sequential data fusion and generation process, which means they fail to capture the complex interplay between features. Second, these approaches struggle with sampling zeros (valid but unobserved attribute combinations) and structural zeros (infeasible combinations due to logical constraints), which reduce the diversity and feasibility of the generated data. This study proposes a novel method to simultaneously integrate and synthesize multi-source datasets using a Wasserstein Generative Adversarial Network (WGAN) with gradient penalty. This joint learning method improves both the diversity and feasibility of synthetic data by defining a regularization term (inverse gradient penalty) for the generator loss function. For the evaluation, we implement a unified evaluation metric for similarity, and place special emphasis on measuring diversity and feasibility through recall, precision, and the F1 score. Results show that the proposed joint approach outperforms the sequential baseline, with recall increasing by 7\\% and precision by 15\\%. Additionally, the regularization term further improves diversity and feasibility, refle",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
+      "score": 111.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.15384",
+      "title": "World-Model-Augmented Web Agents with Action Correction",
+      "link": "https://arxiv.org/abs/2602.15384",
+      "summary": "arXiv:2602.15384v1 Announce Type: new Abstract: Web agents based on large language models have demonstrated promising capability in automating web tasks. However, current web agents struggle to reason out sensible actions due to the limitations of predicting environment changes, and might not possess comprehensive awareness of execution risks, prematurely performing risky actions that cause losses and lead to task failure. To address these challenges, we propose WAC, a web agent that integrates model collaboration, consequence simulation, and feedback-driven action refinement. To overcome the cognitive isolation of individual models, we introduce a multi-agent collaboration process that enables an action model to consult a world model as a web-environment expert for strategic guidance; the action model then grounds these suggestions into executable actions, leveraging prior knowledge of environmental state transition dynamics to enhance candidate action proposal. To achieve risk-aware resilient task execution, we introduce a two-stage deduction chain. A world model, specialized in environmental state transitions, simulates action outcomes, which a judge model then scrutinizes to trigger action corrective feedback when necessary. Experiments show that WAC achieves absolute gains of 1.8% on VisualWebArena and 1.3% on Online-Mind2Web.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-18T05:00:00.000Z",
       "score": 111.54,
       "status": "queued"
     },
@@ -3394,138 +3549,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-14T13:03:13.000Z",
       "score": 104.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46933611",
-      "title": "AI's Real Problem Is Illegitimacy, Not Hallucination",
-      "link": "https://news.ycombinator.com/item?id=46933611",
-      "summary": "The Core Problem of AI Is Not Hallucination — It Is the Lack of Execution Legitimacy Janus pater Introduction Most debates around AI today revolve around a false question: is the model smart enough, accurate enough? In engineering reality, the real question is never accuracy — it is whether the system is even allowed to act. 1. The Original Sin of the Predictive Paradigm: No Execution Legitimacy Modern generative AI fundamentally does one thing: predict the most likely next state in a probability space. Whether it predicts tokens, pixels, latent states, or so-called “world models”, as long as the output is probabilistic, it answers only one question: “What is most likely to happen?” In many real-world systems, however, engineering demands an entirely different question: “What is the only action that is allowed to be executed?” This is not an accuracy problem — it is a legitimacy problem. 2. Yann LeCun Is Right — but Only Halfway LeCun is absolutely right to criticize next-token prediction as the foundation of intelligence. World models (JEPA) are undeniably more advanced than raw pixel or text prediction. Yet even world models still output possible worlds, not permitted worlds. World models are excellent at three things: • Abstract state representation • Learning dynamics • Producing goals and constraints They do not possess — and should not possess — execution authority. Once",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-08T12:13:43.000Z",
-      "score": 103.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46971761",
-      "title": "Ask HN: What is your AI assisted dev workflow",
-      "link": "https://news.ycombinator.com/item?id=46971761",
-      "summary": "Curious on: 1. What information gets attached with pull requests / merge requests such that humans get to manage the volumes of code that AI generates? 2. What is the dev workflow in your company/personal projects? 3. What IDE+model combo is working for you? 4. What is your hack/tricks for managing large complex codebases when working with AI or are you finding utility only in small focussed repos? Comments URL: https://news.ycombinator.com/item?id=46971761 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T06:57:07.000Z",
-      "score": 102.06,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47023609",
-      "title": "Ask HN: How to sell SaaS without AI features in 2026?",
-      "link": "https://news.ycombinator.com/item?id=47023609",
-      "summary": "I'm a developer who built an ERP/CRM system for small manufacturers (https://www.paxerp.com). It does all the basics very well; financial reporting, lot tracking, production planning, shipping carrier integrations, the usual workflow stuff—but there's zero AI in it. It's just fast, clean, and solves real problems I saw working in manufacturing ERP systems. The product works well, customers really like it, but I have almost no sales experience. Every SaaS founder seems to be talking about \"AI-powered insights\" and \"intelligent automation.\" while... We just have a clean system that is fast and tries to stay out of the user's way. For those who've sold B2B SaaS (especially to traditional industries like manufacturing): - Is \"no AI\" actually a disadvantage, or does it not matter as much as I think? - How do I communicate value when the value is \"it's simple and fast, and your data is highly accessible\" vs \"revolutionary AI\"? - Should I be adding AI features just to check a marketing box, even if customers don't need them? You can learn more about why I built this on the websites about page. But now I'm wondering if I'm fighting an uphill battle by not having the buzzwords everyone else does. Any advice from founders who've been here? TY Comments URL: https://news.ycombinator.com/item?id=47023609 Points: 1 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-15T13:45:28.000Z",
-      "score": 102,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47011510",
-      "title": "Show HN: Verify-before-release x402 gateway for AI agent transactions",
-      "link": "https://news.ycombinator.com/item?id=47011510",
-      "summary": "Hey HN, I built Settld because I kept running into the same problem: AI agents can call APIs, pay for services, and hire other agents - but there's no way to prove the work was actually done before the money moves. The problem in one sentence: x402 tells you \"payment was sent\". Settld tells you \"the work was worth paying for\". What it does Settld sits between your agent and the APIs/agents it pays. It: 1. Intercepts HTTP 402 (Payment Required) responses 2. Creates an escrow hold instead of paying immediately 3. Collects evidence that the work was completed 4. Runs deterministic verification (same evidence + same terms = same payout, every time) 5. Releases payment only after verification passes 6. Issues a cryptographically verifiable receipt If verification fails or the work is disputed, the hold is refunded. The agent gets a receipt either way - a permanent, auditable record of what happened. Why this matters now We're at a weird inflection point. Coinbase shipped x402 (50M+ transactions). Google shipped A2A. Anthropic shipped MCP. Agents can discover each other, communicate, and pay each other. But nobody built the layer that answers: \"was the work actually done correctly, and how much should the payout be?\" That's the gap. Right now, every agent-to-agent transaction is either \"trust and hope\" or \"don't transact.\" Neither scales. The x402 gateway (the fastest way to try it)",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-14T04:17:17.000Z",
-      "score": 101.62,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46971643",
-      "title": "Show HN: GHOSTYPE – AI voice input that learns your writing style",
-      "link": "https://news.ycombinator.com/item?id=46971643",
-      "summary": "Hello HN, I’m the creator of GHOSTYPE. I built this because I wanted a voice input workflow that didn't feel like talking to a chatbot. I wanted something that felt like a \"neural extension\" of my keyboard. It’s a macOS-native app that sits between your voice and your active window. Here is what it actually does: The Core Input Workflow: Push-to-Talk & Smart Send: Hold a global shortcut to speak. It detects the active app to determine the correct send method (e.g., Cmd+Enter for Slack vs Enter for Discord). Inline Editing: You can format while speaking. Need a line break, a specific spelling, or a bulleted list? You just say it, and it handles the formatting inside the sentence before outputting. \"Call Ghost\": Post-processing commands (translate, polish, expand) are available immediately after speaking, before the text is typed out. The Experimental Stuff (WIP): 1. Ghost Twin (Style Transfer): I call this a \"Virtual Personality Engine\" (a bit pretentious, I know). It analyzes your local writing history to build a style vector. It learns your tone—whether professional for emails or casual for Discord—so the output sounds like you, not a generic LLM. Side note: I'm currently building the training UI to look like a retro CRT terminal because I miss that aesthetic. 2. Ghost Morph (Custom Skills): Trigger custom macros with a modifier key. For example, turn a raw voice thought direc",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T06:35:56.000Z",
-      "score": 101.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://calculus.academa.ai/",
-      "title": "Show HN: A calculus course with an AI tutor watching the lectures with you",
-      "link": "https://calculus.academa.ai/",
-      "summary": "We're two PhD students in mechanical engineering. We spent years digging through scattered textbooks and YouTube rabbit holes. We figured there could be a better way to learn. So we wrote a multivariable calculus course entirely in code: 18 lectures, 6 languages. All content and pedagogy are ours. As everything is code, we can feed the LLM the full context of every lecture. Ask a question mid-lecture, it knows what's on the screen, and answers from the actual content. The recent Coursera/Udemy thread echoed a lot of what pushed us to build this: https://news.ycombinator.com/item?id=46301346 Would love feedback, especially on the tutor. Comments URL: https://news.ycombinator.com/item?id=46931868 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-08T06:39:43.000Z",
-      "score": 100.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11159",
-      "title": "Explaining AI Without Code: A User Study on Explainable AI",
-      "link": "https://arxiv.org/abs/2602.11159",
-      "summary": "arXiv:2602.11159v1 Announce Type: new Abstract: The increasing use of Machine Learning (ML) in sensitive domains such as healthcare, finance, and public policy has raised concerns about the transparency of automated decisions. Explainable AI (XAI) addresses this by clarifying how models generate predictions, yet most methods demand technical expertise, limiting their value for novices. This gap is especially critical in no-code ML platforms, which seek to democratize AI but rarely include explainability. We present a human-centered XAI module in DashAI, an open-source no-code ML platform. The module integrates three complementary techniques, which are Partial Dependence Plots (PDP), Permutation Feature Importance (PFI), and KernelSHAP, into DashAI's workflow for tabular classification. A user study (N = 20; ML novices and experts) evaluated usability and the impact of explanations. Results show: (i) high task success ($\\geq80\\%$) across all explainability tasks; (ii) novices rated explanations as useful, accurate, and trustworthy on the Explanation Satisfaction Scale (ESS, Cronbach's $\\alpha$ = 0.74, a measure of internal consistency), while experts were more critical of sufficiency and completeness; and (iii) explanations improved perceived predictability and confidence on the Trust in Automation scale (TiA, $\\alpha$ = 0.60), with novices showing higher trust than experts. The",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 99.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.13217",
-      "title": "VeRA: Verified Reasoning Data Augmentation at Scale",
-      "link": "https://arxiv.org/abs/2602.13217",
-      "summary": "arXiv:2602.13217v1 Announce Type: new Abstract: The main issue with most evaluation schemes today is their \"static\" nature: the same problems are reused repeatedly, allowing for memorization, format exploitation, and eventual saturation. To measure genuine AI progress, we need evaluation that is robust by construction, not by post-hoc detection. In response, we propose VeRA (Verified Reasoning Data Augmentation), a framework that converts benchmark problems into executable specifications, comprising (i) a natural language template with placeholder slots, (ii) a coherent generator that samples valid configurations, and (iii) a deterministic verifier that validates parameters and calculates the corresponding correct answers for each configuration. From a single seed problem, VeRA automatically creates unlimited verified variants with reliable labels at near-zero marginal cost without human involvement. VeRA operates in two complementary modes. VeRA-E (equivalent) rewrites problems while keeping the underlying logic intact, useful for detecting memorization versus genuine reasoning. VeRA-H (hardened) systematically increases complexity while remaining verifiable, enabling reliable creation and labelling of fresh difficult tasks at the boundary of intelligence. Evaluating 16 frontier models with VeRA, we find: (i) VeRA-E improves evaluation quality and reveals contamination pattern",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-17T05:00:00.000Z",
-      "score": 99.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10324",
-      "title": "Discovering Differences in Strategic Behavior Between Humans and LLMs",
-      "link": "https://arxiv.org/abs/2602.10324",
-      "summary": "arXiv:2602.10324v1 Announce Type: new Abstract: As Large Language Models (LLMs) are increasingly deployed in social and strategic scenarios, it becomes critical to understand where and why their behavior diverges from that of humans. While behavioral game theory (BGT) provides a framework for analyzing behavior, existing models do not fully capture the idiosyncratic behavior of humans or black-box, non-human agents like LLMs. We employ AlphaEvolve, a cutting-edge program discovery tool, to directly discover interpretable models of human and LLM behavior from data, thereby enabling open-ended discovery of structural factors driving human and LLM behavior. Our analysis on iterated rock-paper-scissors reveals that frontier LLMs can be capable of deeper strategic behavior than humans. These results provide a foundation for understanding structural differences driving differences in human and LLM behavior in strategic interactions.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 99.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12356",
-      "title": "A Theoretical Framework for Adaptive Utility-Weighted Benchmarking",
-      "link": "https://arxiv.org/abs/2602.12356",
-      "summary": "arXiv:2602.12356v1 Announce Type: new Abstract: Benchmarking has long served as a foundational practice in machine learning and, increasingly, in modern AI systems such as large language models, where shared tasks, metrics, and leaderboards offer a common basis for measuring progress and comparing approaches. As AI systems are deployed in more varied and consequential settings, though, there is growing value in complementing these established practices with a more holistic conceptualization of what evaluation should represent. Of note, recognizing the sociotechnical contexts in which these systems operate invites an opportunity for a deeper view of how multiple stakeholders and their unique priorities might inform what we consider meaningful or desirable model behavior. This paper introduces a theoretical framework that reconceptualizes benchmarking as a multilayer, adaptive network linking evaluation metrics, model components, and stakeholder groups through weighted interactions. Using conjoint-derived utilities and a human-in-the-loop update rule, we formalize how human tradeoffs can be embedded into benchmark structure and how benchmarks can evolve dynamically while preserving stability and interpretability. The resulting formulation generalizes classical leaderboards as a special case and provides a foundation for building evaluation protocols that are more context aware, r",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 99.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12617",
-      "title": "GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics",
-      "link": "https://arxiv.org/abs/2602.12617",
-      "summary": "arXiv:2602.12617v1 Announce Type: new Abstract: This paper presents GeoAgent, a model capable of reasoning closely with humans and deriving fine-grained address conclusions. Previous RL-based methods have achieved breakthroughs in performance and interpretability but still remain concerns because of their reliance on AI-generated chain-of-thought (CoT) data and training strategies, which conflict with geographic characteristics. To address these issues, we first introduce GeoSeek, a new geolocation dataset comprising CoT data annotated by geographic experts and professional players. We further thoroughly explore the inherent characteristics of geographic tasks and propose a geo-similarity reward and a consistency reward assessed by a consistency agent to assist training. This encourages the model to converge towards correct answers from a geographic perspective while ensuring the integrity and consistency of its reasoning process. Experimental results show that GeoAgent outperforms existing methods and a series of general VLLMs across multiple grains, while generating reasoning that closely aligns with humans.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 99.42,
       "status": "queued"
     },
     {
