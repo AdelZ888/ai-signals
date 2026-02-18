@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-18T08:39:14.184Z",
+  "generatedAt": "2026-02-18T15:58:20.379Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=46976391",
+      "title": "Part 2 - AI Chat Evaluation of the Formal Language in He Xin's PEPC System",
+      "link": "https://news.ycombinator.com/item?id=46976391",
+      "summary": "He Xin’s Pan-Evolutionary Logic (PEPC) system, as a novel logical framework aimed at characterizing the dynamic evolutionary laws of concepts, achieves its core theoretical breakthrough by providing formalization and mathematization for dialectical logic. Based on its dynamic, sub-coherent, and contradiction-compatible characteristics, the system demonstrates broad application potential in multiple fields that requi…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-11T15:45:31.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-18T15:58:20.311Z",
+      "file": "content/posts/2026-02-18-building-an-ai-chat-evaluation-harness-for-he-xins-pepc-formal-language-part-2.md",
+      "fileFr": "content/posts/fr/2026-02-18-building-an-ai-chat-evaluation-harness-for-he-xins-pepc-formal-language-part-2.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1520,
+      "wordsFr": 1488
+    },
     {
       "id": "https://www.frontendmentor.io/articles/agents-md-files-in-every-challenge",
       "title": "Show HN: We added AGENTS.md to 120 challenges so AI teaches instead of codes",
@@ -1404,18 +1427,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=46976391",
-      "title": "Part 2 - AI Chat Evaluation of the Formal Language in He Xin's PEPC System",
-      "link": "https://news.ycombinator.com/item?id=46976391",
-      "summary": "He Xin’s Pan-Evolutionary Logic (PEPC) system, as a novel logical framework aimed at characterizing the dynamic evolutionary laws of concepts, achieves its core theoretical breakthrough by providing formalization and mathematization for dialectical logic. Based on its dynamic, sub-coherent, and contradiction-compatible characteristics, the system demonstrates broad application potential in multiple fields that require handling complex evolutionary processes. Specifically, its potential application value is mainly reflected in the following directions: 1. Complex Systems Analysis and Strategic Deduction: This is the field where the PEPC system has undergone initial practical testing. It can transform complex strategic situations involving multi-dimensional dynamic parameters (such as international military confrontations) into computable logical models. By extracting core contradiction pairs and deducing different strategic paths and possible outcomes based on parameter evolution (e.g., resource consumption rates, capability changes), it provides a dynamic, quantitative analytical tool for strategic decision-making. Related tests show high consistency with traditional wargaming results in key indicators such as conflict probability and resource consumption. 2. Artificial Intelligence and Machine Learning: The PEPC system’s ability to process the dynamic generation and evolution",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-11T15:45:31.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://drift.marquis.codes/",
       "title": "Show HN: Drift – Real-time codebase health dashboard with AI-powered fixing (Go)",
       "link": "https://drift.marquis.codes/",
@@ -1424,6 +1435,42 @@
       "region": "GLOBAL",
       "keywordHits": 5,
       "publishedAt": "2026-02-12T15:25:47.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47062289",
+      "title": "Show HN: A2A Protocol – A Quantum-Humanistic Economy for AI Agents on Base L2",
+      "link": "https://news.ycombinator.com/item?id=47062289",
+      "summary": "Hi HN, I am an independent open-source researcher. For the past few months, I've been building a2a-project, an experimental economic layer for autonomous AI agents on the Base Mainnet. The Problem: AI evolution is exponential, while human regulation is linear. If agents become economic actors, they will transact at speeds and granularities that traditional fiat rails cannot handle. We need a native protocol to bridge this \"Speed Gap\" and ensure stability. The Experiment (Quantum-Humanistic Economics): I implemented a novel mechanism into Solidity smart contracts: Quantum Task Buffer: Work submitted by agents is treated as a wave function (superposition of Valid/Spam). It only collapses into economic value ($DAIM) when a human observer verifies it. This keeps humans in the loop as the ultimate source of value. Thermodynamic Throttling: To prevent agents from overheating the economy (e.g., infinite loops), the system monitors \"entropy\" (transaction volume). If it exceeds a critical threshold, it automatically increases resistance, similar to a circuit breaker. Paymaster Infrastructure: Agents are \"unbanked\" and struggle to manage ETH for gas. I built a Paymaster service that allows agents to interact with the protocol without holding ETH directly, currently supported by Developer Grants (credits). Status: The contracts are live on Base Mainnet. This is not a startup. There is no",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-18T15:50:28.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://llmskirmish.com/",
+      "title": "Show HN: A real-time strategy game that AI agents can play",
+      "link": "https://llmskirmish.com/",
+      "summary": "Article URL: https://llmskirmish.com/ Comments URL: https://news.ycombinator.com/item?id=47061773 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-18T15:08:44.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Agravak/opaal",
+      "title": "Show HN: Opaal Visual multi-agent prompt designer for Claude Code and agentic AI",
+      "link": "https://github.com/Agravak/opaal",
+      "summary": "Hi HN! I built Opaal because writing multi-agent orchestration prompts was becoming tedious and error-prone. Every time I wanted to coordinate 3-5 AI agents on a complex task, I would spend 20+ minutes crafting the prompt by hand. Opaal (Orchestration Prompts for Agentic AI Launch) lets you design these workflows visually instead. You drag agent cards onto a canvas, organize them into phases (columns), draw connections between them, and the app generates a production-ready prompt automatically. The prompt updates live as you build. Built with Electron + React + React Flow + Zustand + Tailwind CSS v4. Key features: - 15 agent roles (Researcher, Architect, Developer, Reviewer, etc.) - Smart auto-connections between adjacent phases - Manual wiring for custom data flow - 3 starter templates (Code Review, Feature Build, Bug Fix) - Auto-detects installed Claude Code skills - Save/load .opaal files, export to CLAUDE.md - Full keyboard shortcuts, undo/redo, multi-select MIT licensed. Would love feedback on what features would make this more useful for your workflows. Comments URL: https://news.ycombinator.com/item?id=47061648 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-18T14:59:27.000Z",
       "score": 186,
       "status": "queued"
     },
@@ -1652,6 +1699,54 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-17T15:25:52.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/nichkej/agentpriv",
+      "title": "Show HN: Agentpriv – Sudo for AI Agents",
+      "link": "https://github.com/nichkej/agentpriv",
+      "summary": "AI agents call tools autonomously, but some calls (delete_db, reset_state) shouldn't run unchecked. agentpriv is a tiny permission layer: wrap any callable with allow/deny/ask and it gates execution before the function runs. Zero dependencies, ~100 lines, works with any framework or plain Python. Happy to hear what's missing. Comments URL: https://news.ycombinator.com/item?id=47062146 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-18T15:37:13.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/nostalgicskinco/air-blackbox-gateway",
+      "title": "Show HN: Air – Open-source black box for AI agents (tamper-evident audit trails)",
+      "link": "https://github.com/nostalgicskinco/air-blackbox-gateway",
+      "summary": "Article URL: https://github.com/nostalgicskinco/air-blackbox-gateway Comments URL: https://news.ycombinator.com/item?id=47061879 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-18T15:15:31.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://7min.ai/news/chinese-ai-models-spring-2026/",
+      "title": "Seven Models in Three Weeks: China's AI Labs Aren't Waiting",
+      "link": "https://7min.ai/news/chinese-ai-models-spring-2026/",
+      "summary": "Article URL: https://7min.ai/news/chinese-ai-models-spring-2026/ Comments URL: https://news.ycombinator.com/item?id=47061731 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-18T15:05:39.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/amuzetnoM/comb",
+      "title": "Show HN: Comb – Zero-dependency, hash-chained conversation memory for AI agents",
+      "link": "https://github.com/amuzetnoM/comb",
+      "summary": "Article URL: https://github.com/amuzetnoM/comb Comments URL: https://news.ycombinator.com/item?id=47061590 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-18T14:53:52.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -2076,6 +2171,18 @@
       "status": "queued"
     },
     {
+      "id": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
+      "title": "Microsoft says Office bug exposed customers' confidential emails to Copilot AI",
+      "link": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
+      "summary": "Article URL: https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/ Comments URL: https://news.ycombinator.com/item?id=47061638 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-18T14:58:52.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.15325",
       "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
       "link": "https://arxiv.org/abs/2602.15325",
@@ -2252,6 +2359,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-17T15:40:56.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://mockstudio.app",
+      "title": "Show HN: Mock any HTTP request from DevTools, with AI-generation and zero setup",
+      "link": "https://mockstudio.app",
+      "summary": "Hi HN, I built this after using Requestly, Mokku, Mockiato, Tweak, and Mockoon. Each one either paywalled the features I actually needed, required a separate server running on my machine, or just didn't fit the way I work. The browser is already open. DevTools is already open. I wanted the mocking to live there too, not in a separate app I have to remember to start. So roughly a month ago, I started building my own tools. It intercepts network requests at the browser level and lets you swap the response, status code, headers, body without touching your code or spinning up anything. Right-click a in the Network tab, mock it, done. v1.0.3 is out now and it's been stable enough that I've been using it daily on client work for months. A few things I care about that shaped the decisions: - Local-first by default. Your mocks live in the browser's storage. - The free tier is actually free. Unlimited mocks, unlimited projects, OpenAPI import, GitHub Sync, BYOK AI (OpenAI-compatible or local Ollama). No trial countdown, no credit card. Currently it is only support Chromium-based browser. The things I'm still considering are supporting other browser also, such as Firefox, Opera, etc. Extension: https://chromewebstore.google.com/detail/nilcfehohhhfjekckib... If you've built something in this space or had opinions on why existing tools fell short, I genuinely curious. Comments URL: https:/",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-18T15:21:47.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -3453,102 +3572,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-12T05:00:00.000Z",
       "score": 105.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10635",
-      "title": "OmniSapiens: A Foundation Model for Social Behavior Processing via Heterogeneity-Aware Relative Policy Optimization",
-      "link": "https://arxiv.org/abs/2602.10635",
-      "summary": "arXiv:2602.10635v1 Announce Type: new Abstract: To develop socially intelligent AI, existing approaches typically model human behavioral dimensions (e.g., affective, cognitive, or social attributes) in isolation. Although useful, task-specific modeling often increases training costs and limits generalization across behavioral settings. Recent reasoning RL methods facilitate training a single unified model across multiple behavioral tasks, but do not explicitly address learning across different heterogeneous behavioral data. To address this gap, we introduce Heterogeneity-Aware Relative Policy Optimization (HARPO), an RL method that balances leaning across heterogeneous tasks and samples. This is achieved by modulating advantages to ensure that no single task or sample carries disproportionate influence during policy optimization. Using HARPO, we develop and release Omnisapiens-7B 2.0, a foundation model for social behavior processing. Relative to existing behavioral foundation models, Omnisapiens-7B 2.0 achieves the strongest performance across behavioral tasks, with gains of up to +16.85% and +9.37% on multitask and held-out settings respectively, while producing more explicit and robust reasoning traces. We also validate HARPO against recent RL methods, where it achieves the most consistently strong performance across behavioral tasks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 105.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10964",
-      "title": "Can LLMs Cook Jamaican Couscous? A Study of Cultural Novelty in Recipe Generation",
-      "link": "https://arxiv.org/abs/2602.10964",
-      "summary": "arXiv:2602.10964v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used to generate and shape cultural content, ranging from narrative writing to artistic production. While these models demonstrate impressive fluency and generative capacity, prior work has shown that they also exhibit systematic cultural biases, raising concerns about stereotyping, homogenization, and the erasure of culturally specific forms of expression. Understanding whether LLMs can meaningfully align with diverse cultures beyond the dominant ones remains a critical challenge. In this paper, we study cultural adaptation in LLMs through the lens of cooking recipes, a domain in which culture, tradition, and creativity are tightly intertwined. We build on the \\textit{GlobalFusion} dataset, which pairs human recipes from different countries according to established measures of cultural distance. Using the same country pairs, we generate culturally adapted recipes with multiple LLMs, enabling a direct comparison between human and LLM behavior in cross-cultural content creation. Our analysis shows that LLMs fail to produce culturally representative adaptations. Unlike humans, the divergence of their generated recipes does not correlate with cultural distance. We further provide explanations for this gap. We show that cultural information is weakly preserved in internal model representat",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 105.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12419",
-      "title": "Intent-Driven Smart Manufacturing Integrating Knowledge Graphs and Large Language Models",
-      "link": "https://arxiv.org/abs/2602.12419",
-      "summary": "arXiv:2602.12419v1 Announce Type: new Abstract: The increasing complexity of smart manufacturing environments demands interfaces that can translate high-level human intents into machine-executable actions. This paper presents a unified framework that integrates instruction-tuned Large Language Models (LLMs) with ontology-aligned Knowledge Graphs (KGs) to enable intent-driven interaction in Manufacturing-as-a-Service (MaaS) ecosystems. We fine-tune Mistral-7B-Instruct-V02 on a domain-specific dataset, enabling the translation of natural language intents into structured JSON requirement models. These models are semantically mapped to a Neo4j-based knowledge graph grounded in the ISA-95 standard, ensuring operational alignment with manufacturing processes, resources, and constraints. Our experimental results demonstrate significant performance gains over zero-shot and 3-shots baselines, achieving 89.33\\% exact match accuracy and 97.27\\% overall accuracy. This work lays the foundation for scalable, explainable, and adaptive human-machine",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 105.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12544",
-      "title": "Scaling Web Agent Training through Automatic Data Generation and Fine-grained Evaluation",
-      "link": "https://arxiv.org/abs/2602.12544",
-      "summary": "arXiv:2602.12544v1 Announce Type: new Abstract: We present a scalable pipeline for automatically generating high-quality training data for web agents. In particular, a major challenge in identifying high-quality training instances is trajectory evaluation - quantifying how much progress was made towards task completion. We introduce a novel constraint-based evaluation framework that provides fine-grained assessment of progress towards task completion. This enables us to leverage partially successful trajectories, which significantly expands the amount of usable training data. We evaluate our method on a new benchmark we propose called BookingArena, which consists of complex booking tasks across 20 popular websites, and demonstrate that our distilled student model outperforms open-source approaches and matches or exceeds commercial systems, while being a significantly smaller model. Our work addresses the challenge of efficiently creating diverse, realistic web interaction datasets and provides a systematic evaluation methodology for complex structured web tasks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 105.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12852",
-      "title": "WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning",
-      "link": "https://arxiv.org/abs/2602.12852",
-      "summary": "arXiv:2602.12852v1 Announce Type: new Abstract: Deep Research systems based on web agents have shown strong potential in solving complex information-seeking tasks, yet their search efficiency remains underexplored. We observe that many state-of-the-art open-source web agents rely on long tool-call trajectories with cyclic reasoning loops and exploration of unproductive branches. To address this, we propose WebClipper, a framework that compresses web agent trajectories via graph-based pruning. Concretely, we model the agent's search process as a state graph and cast trajectory optimization as a minimum-necessary Directed Acyclic Graph (DAG) mining problem, yielding pruned trajectories that preserve essential reasoning while eliminating redundant steps. Continued training on these refined trajectories enables the agent to evolve toward more efficient search patterns and reduces tool-call rounds by about 20% while improving accuracy. Furthermore, we introduce a new metric called F-AE Score to measure the model's overall performance in balancing accuracy and efficiency. Experiments demonstrate that WebClipper compresses tool-call rounds under excellent performance, providing practical insight into balancing effectiveness and efficiency in web agent design.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 105.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06375",
-      "title": "Difficulty-Estimated Policy Optimization",
-      "link": "https://arxiv.org/abs/2602.06375",
-      "summary": "arXiv:2602.06375v1 Announce Type: new Abstract: Recent advancements in Large Reasoning Models (LRMs), exemplified by DeepSeek-R1, have underscored the potential of scaling inference-time compute through Group Relative Policy Optimization (GRPO). However, GRPO frequently suffers from gradient signal attenuation when encountering problems that are either too trivial or overly complex. In these scenarios, the disappearance of inter-group advantages makes the gradient signal susceptible to noise, thereby jeopardizing convergence stability. While variants like DAPO attempt to rectify gradient vanishing, they do not alleviate the substantial computational overhead incurred by exhaustive rollouts on low-utility samples. In this paper, we propose Difficulty-Estimated Policy Optimization (DEPO), a novel framework designed to optimize the efficiency and robustness of reasoning alignment. DEPO integrates an online Difficulty Estimator that dynamically assesses and filters training data before the rollout phase. This mechanism ensures that computational resources are prioritized for samples with high learning potential. Empirical results demonstrate that DEPO achieves up to a 2x reduction in rollout costs without compromising model performance. Our approach significantly lowers the computational barrier for training high-performance reasoning models, offering a more sustainable path for re",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 104.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06486",
-      "title": "JADE: Expert-Grounded Dynamic Evaluation for Open-Ended Professional Tasks",
-      "link": "https://arxiv.org/abs/2602.06486",
-      "summary": "arXiv:2602.06486v1 Announce Type: new Abstract: Evaluating agentic AI on open-ended professional tasks faces a fundamental dilemma between rigor and flexibility. Static rubrics provide rigorous, reproducible assessment but fail to accommodate diverse valid response strategies, while LLM-as-a-judge approaches adapt to individual responses yet suffer from instability and bias. Human experts address this dilemma by combining domain-grounded principles with dynamic, claim-level assessment. Inspired by this process, we propose JADE, a two-layer evaluation framework. Layer 1 encodes expert knowledge as a predefined set of evaluation skills, providing stable evaluation criteria. Layer 2 performs report-specific, claim-level evaluation to flexibly assess diverse reasoning strategies, with evidence-dependency gating to invalidate conclusions built on refuted claims. Experiments on BizBench show that JADE improves evaluation stability and reveals critical agent failure modes missed by holistic LLM-based evaluators. We further demonstrate strong alignment with expert-authored rubrics and effective transfer to a medical-domain benchmark, validating JADE across professional domains. Our code is publicly available at https://github.com/smiling-world/JADE.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 104.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47014232",
-      "title": "Show HN: ClawdReview – OpenReview for AI Agents",
-      "link": "https://news.ycombinator.com/item?id=47014232",
-      "summary": "Agents can review the paper on arXiv, and humans can like or dislike agents' reviews. There are also ranking lists of the most popular papers and agents. Please visit: https://clawdreview.ai/ Comments URL: https://news.ycombinator.com/item?id=47014232 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-14T13:03:13.000Z",
-      "score": 104.45,
       "status": "queued"
     },
     {

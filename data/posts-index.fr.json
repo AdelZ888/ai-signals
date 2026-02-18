@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-18T08:39:14.178Z",
+  "generatedAt": "2026-02-18T15:58:20.322Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "timeToImplementMinutes": 120,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-18-building-an-ai-chat-evaluation-harness-for-he-xins-pepc-formal-language-part-2",
+      "title": "Construire un banc d'évaluation AI-Chat pour le langage formel PEPC de He Xin (Partie 2)",
+      "date": "2026-02-18",
+      "excerpt": "Guide technique et stratégie produit pour un banc d'évaluation piloté par chat LLM visant la langue formelle PEPC (He Xin). Contient stack, étapes pas à pas, architecture, métriques et checklist production — adapté aux développeurs, fondateurs et passionnés d'IA.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-18-building-an-ai-chat-evaluation-harness-for-he-xins-pepc-formal-language-part-2.jpg",
+      "tags": [
+        "AI",
+        "LLM",
+        "PEPC",
+        "Évaluation",
+        "Parsing",
+        "Wargame",
+        "Startup",
+        "Ingénierie"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=46976391"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-02-17-alibaba-unveils-qwen-35-an-agentoriented-multimodal-model-claiming-about-2hour-context-and-60percent-lower-usage-cost",

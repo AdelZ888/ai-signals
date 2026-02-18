@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-18T08:39:14.177Z",
+  "generatedAt": "2026-02-18T15:58:20.321Z",
   "locale": "en",
   "posts": [
     {
@@ -24,6 +24,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-18-building-an-ai-chat-evaluation-harness-for-he-xins-pepc-formal-language-part-2",
+      "title": "Building an AI-Chat Evaluation Harness for He Xin's PEPC Formal Language (Part 2)",
+      "date": "2026-02-18",
+      "excerpt": "Build an AI-chat evaluation harness for He Xin’s PEPC formal language to test expressiveness, contradiction handling, and alignment with wargame baselines — includes artifacts and metrics.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-18-building-an-ai-chat-evaluation-harness-for-he-xins-pepc-formal-language-part-2.jpg",
+      "tags": [
+        "PEPC",
+        "He Xin",
+        "formal-language",
+        "evaluation",
+        "LLM",
+        "wargaming",
+        "knowledge-graphs",
+        "concept-drift"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=46976391"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "advanced",
+      "timeToImplementMinutes": 240,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
