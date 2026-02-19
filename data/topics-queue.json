@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-18T15:58:20.379Z",
+  "generatedAt": "2026-02-19T08:36:20.963Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
+      "title": "OpenAI will reportedly start testing ads in ChatGPT today",
+      "link": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
+      "summary": "OpenAI plans to start testing ads in ChatGPT today, according to a report from CNBC. The \"clearly labeled\" ads will appear in a separate area beneath your chat, OpenAI announced last month. A source close to the situation tells CNBC that OpenAI \"expects ads to make up less than half of its revenue long term.\" Last week, Anthropic showed off a Super Bowl commercial poking fun at OpenAI, saying \"ads are coming to AI,\"…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-09T14:45:41.000Z",
+      "score": 161.9,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-19T08:36:20.946Z",
+      "file": "content/posts/2026-02-19-openai-begins-testing-clearly-labeled-ad-placements-beneath-chatgpt-conversations.md",
+      "fileFr": "content/posts/fr/2026-02-19-openai-begins-testing-clearly-labeled-ad-placements-beneath-chatgpt-conversations.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1253,
+      "wordsFr": 1495
+    },
     {
       "id": "https://news.ycombinator.com/item?id=46976391",
       "title": "Part 2 - AI Chat Evaluation of the Formal Language in He Xin's PEPC System",
@@ -1499,6 +1522,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Artifact-Virtual/social-cookie-jar",
+      "title": "Show HN: Social Cookie Jar – Social media automation for AI agents",
+      "link": "https://github.com/Artifact-Virtual/social-cookie-jar",
+      "summary": "Article URL: https://github.com/Artifact-Virtual/social-cookie-jar Comments URL: https://news.ycombinator.com/item?id=47070935 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-19T07:27:42.000Z",
+      "score": 181.89,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=46926098",
       "title": "Ask HN: Will LLMs/AI Decrease Human Intelligence and Make Expertise a Commodity?",
       "link": "https://news.ycombinator.com/item?id=46926098",
@@ -1751,6 +1786,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/auriti-web-design/kore-memory",
+      "title": "Show HN: Kore – local AI memory layer with Ebbinghaus forgetting curve",
+      "link": "https://github.com/auriti-web-design/kore-memory",
+      "summary": "I built Kore because every AI memory tool I found either required cloud APIs, was too heavy, or stored everything forever with no pruning. Kore is different: - Memory decay based on the Ebbinghaus forgetting curve — memories fade unless retrieved, with half-life based on importance (7 days for casual notes, 1 year for critical info) - Auto-importance scoring locally — no LLM call needed - Semantic search in 50+ languages — local sentence-transformers, zero API calls - Memory compression — auto-merges similar memories - Agent namespace isolation — multi-agent safe - Runs fully offline — SQLite + FTS5, FastAPI, no external services pip install kore-memory[semantic] then kore to start. Would love feedback on the decay formula and whether the Ebbinghaus approach makes sense for long-running agents. Comments URL: https://news.ycombinator.com/item?id=47070979 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-19T07:34:31.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -1895,15 +1942,27 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
-      "title": "OpenAI will reportedly start testing ads in ChatGPT today",
-      "link": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
-      "summary": "OpenAI plans to start testing ads in ChatGPT today, according to a report from CNBC. The \"clearly labeled\" ads will appear in a separate area beneath your chat, OpenAI announced last month. A source close to the situation tells CNBC that OpenAI \"expects ads to make up less than half of its revenue long term.\" Last week, Anthropic showed off a Super Bowl commercial poking fun at OpenAI, saying \"ads are coming to AI,\" but not to its AI chatbot Claude. The version of the ad that aired during the game was a little less direct after OpenAI CEO Sam Altman called the campaign \"clearly dishonest.\" OpenAI will show ads to logged-in users who use th … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-09T14:45:41.000Z",
-      "score": 161.9,
+      "id": "https://news.ycombinator.com/item?id=47071286",
+      "title": "Every AI app builder outputs React Native. I chose real Swift instead",
+      "link": "https://news.ycombinator.com/item?id=47071286",
+      "summary": "Every AI app builder on the market right now generates cross-platform code. Bolt, Lovable, Rork, they all output React Native or Expo under the hood, or worse, web apps wrapped in a native shell. And I get why. React has more documentation, more training data for LLMs, and it's easier to build a platform around, one codebase, two platforms, faster time to market. But the apps are bad. I tried building a polished app with one of these tools and the moment I needed a premium, native-feeling design, I hit a wall. Everything looked like AI slop. Animations were janky. Platform conventions were ignored. Try getting one of these approved on the App Store without weeks of cleanup. Apple doesn't love Expo wrappers, and users can feel the difference whether they can articulate it or not. So when I started building Nativeline, I made what most people told me was the wrong bet: generate real SwiftUI for iPhone, iPad, and Mac. No React Native. No web views. Actual native Swift that opens in Xcode and builds. This was significantly harder. Here's why. The biggest challenge is that LLMs are trained on the entire history of Swift, including five years of deprecated APIs, old UIKit patterns, and SwiftUI code from when it was half-baked. Getting the model to generate modern, clean SwiftUI without reaching for GeometryReader for every layout problem or calling APIs that haven't existed since iOS",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-19T08:23:21.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16246",
+      "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
+      "link": "https://arxiv.org/abs/2602.16246",
+      "summary": "arXiv:2602.16246v1 Announce Type: new Abstract: Interactive large language model (LLM) agents operating via multi-turn dialogue and multi-step tool calling are increasingly used in production. Benchmarks for these agents must both reliably compare models and yield on-policy training data. Prior agentic benchmarks (e.g., tau-bench, tau2-bench, AppWorld) rely on fully deterministic backends, which are costly to build and iterate. We propose Proxy State-Based Evaluation, an LLM-driven simulation framework that preserves final state-based evaluation without a deterministic database. Specifically, a scenario specifies the user goal, user/system facts, expected final state, and expected agent behavior, and an LLM state tracker infers a structured proxy state from the full interaction trace. LLM judges then verify goal completion and detect tool/user hallucinations against scenario constraints. Empirically, our benchmark produces stable, model-differentiating rankings across families and inference-time reasoning efforts, and its on-/off-policy rollouts provide supervision that transfers to unseen scenarios. Careful scenario specification yields near-zero simulator hallucination rates as supported by ablation studies. The framework also supports sensitivity analyses over user personas. Human-LLM judge agreement exceeds 90%, indicating reliable automated evaluation. Overall, proxy state",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 159.75,
       "status": "queued"
     },
     {
@@ -2179,6 +2238,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-18T14:58:52.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.windowslatest.com/2026/02/18/microsoft-365-copilot-for-android-or-ios-auto-sends-files-to-ai-onedrive-before-you-even-realise-it-instead-of-opening-normally/",
+      "title": "Microsoft 365 Copilot for Android or iOS auto-sends files to AI and OneDrive",
+      "link": "https://www.windowslatest.com/2026/02/18/microsoft-365-copilot-for-android-or-ios-auto-sends-files-to-ai-onedrive-before-you-even-realise-it-instead-of-opening-normally/",
+      "summary": "Article URL: https://www.windowslatest.com/2026/02/18/microsoft-365-copilot-for-android-or-ios-auto-sends-files-to-ai-onedrive-before-you-even-realise-it-instead-of-opening-normally/ Comments URL: https://news.ycombinator.com/item?id=47071141 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-19T08:00:42.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -2687,6 +2758,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47070584",
+      "title": "Sayou – Open-source Dropbox for AI agents",
+      "link": "https://news.ycombinator.com/item?id=47070584",
+      "summary": "success of openclaw is incredible, and I really loved playing with it, but of course the problem is the security risk running on my desktop. okay for personal use for fun, not at all for professional use. Once agents run in the cloud (and they will — you're not giving your marketing manager a terminal), they need somewhere to read and write. Right now there's nothing. Your company's knowledge is locked in Notion, Slack, Google Drive, and the agent can see none of it unless someone copy-pastes it into the chat window every single time. sayou is basically Dropbox for agents. It syncs your SaaS tools into a single workspace of versioned Markdown files, and any agent connects to it over MCP. Multiple agents share the same workspace. one does research and writes findings, another picks them up to draft a report, a third sends it over email. The human just makes decisions. Why files and not a database? Honestly we tried a database first. It sucked. Agents don't think in rows. When you ask an agent to research competitor pricing, the natural output is a document with sections and citations, not 15 entries in a table. Markdown with YAML frontmatter turned out to be the sweet spot — you get structured metadata for querying and rich content that both agents and humans can actually read. I also built a benchmark, Structured Agent Memory Benchmark(SAMB) to test how different memory systems",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-19T06:31:51.000Z",
+      "score": 137.32,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10625",
       "title": "To Think or Not To Think, That is The Question for Large Reasoning Models in Theory of Mind Tasks",
       "link": "https://arxiv.org/abs/2602.10625",
@@ -2927,6 +3010,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.16179",
+      "title": "EnterpriseGym Corecraft: Training Generalizable Agents on High-Fidelity RL Environments",
+      "link": "https://arxiv.org/abs/2602.16179",
+      "summary": "arXiv:2602.16179v1 Announce Type: new Abstract: We show that training AI agents on high-fidelity reinforcement learning environments produces capabilities that generalize beyond the training distribution. We introduce \\corecraft{}, the first environment in \\textsc{EnterpriseGym}, Surge AI's suite of agentic RL environments. \\corecraft{} is a fully operational enterprise simulation of a customer support organization, comprising over 2,500 entities across 14 entity types with 23 unique tools, designed to measure whether AI agents can perform the multi-step, domain-specific work that real jobs demand. Frontier models such as GPT-5.2 and Claude Opus 4.6 solve fewer than 30\\% of tasks when all expert-authored rubric criteria must be satisfied. Using this environment, we train GLM~4.6 with Group Relative Policy Optimization (GRPO) and adaptive clipping. After a single epoch of training, the model improves from 25.37\\% to 36.76\\% task pass rate on held-out evaluation tasks. More importantly, these gains transfer to out-of-distribution benchmarks: +4.5\\% on BFCL Parallel, +7.4\\% on $\\tau^2$-Bench Retail, and +6.8\\% on Toolathlon (Pass@1). We believe three environment properties are consistent with the observed transfer: task-centric world building that optimizes for diverse, challenging tasks; expert-authored rubrics enabling reliable reward computation; and enterprise workflows that r",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 123.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16481",
+      "title": "Leveraging Large Language Models for Causal Discovery: a Constraint-based, Argumentation-driven Approach",
+      "link": "https://arxiv.org/abs/2602.16481",
+      "summary": "arXiv:2602.16481v1 Announce Type: new Abstract: Causal discovery seeks to uncover causal relations from data, typically represented as causal graphs, and is essential for predicting the effects of interventions. While expert knowledge is required to construct principled causal graphs, many statistical methods have been proposed to leverage observational data with varying formal guarantees. Causal Assumption-based Argumentation (ABA) is a framework that uses symbolic reasoning to ensure correspondence between input constraints and output graphs, while offering a principled way to combine data and expertise. We explore the use of large language models (LLMs) as imperfect experts for Causal ABA, eliciting semantic structural priors from variable names and descriptions and integrating them with conditional-independence evidence. Experiments on standard benchmarks and semantically grounded synthetic graphs demonstrate state-of-the-art performance, and we additionally introduce an evaluation protocol to mitigate memorisation bias when assessing LLMs for causal discovery.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 123.75,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.15294",
       "title": "EAA: Automating materials characterization with vision language model agents",
       "link": "https://arxiv.org/abs/2602.15294",
@@ -3128,6 +3235,42 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-13T05:00:00.000Z",
       "score": 117.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16105",
+      "title": "GPSBench: Do Large Language Models Understand GPS Coordinates?",
+      "link": "https://arxiv.org/abs/2602.16105",
+      "summary": "arXiv:2602.16105v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed in applications that interact with the physical world, such as navigation, robotics, or mapping, making robust geospatial reasoning a critical capability. Despite that, LLMs' ability to reason about GPS coordinates and real-world geography remains underexplored. We introduce GPSBench, a dataset of 57,800 samples across 17 tasks for evaluating geospatial reasoning in LLMs, spanning geometric coordinate operations (e.g., distance and bearing computation) and reasoning that integrates coordinates with world knowledge. Focusing on intrinsic model capabilities rather than tool use, we evaluate 14 state-of-the-art LLMs and find that GPS reasoning remains challenging, with substantial variation across tasks: models are generally more reliable at real-world geographic reasoning than at geometric computations. Geographic knowledge degrades hierarchically, with strong country-level performance but weak city-level localization, while robustness to coordinate noise suggests genuine coordinate understanding rather than memorization. We further show that GPS-coordinate augmentation can improve in downstream geospatial tasks, and that finetuning induces trade-offs between gains in geometric computation and degradation in world knowledge. Our dataset and reproducible code are available at htt",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 117.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16173",
+      "title": "Learning Personalized Agents from Human Feedback",
+      "link": "https://arxiv.org/abs/2602.16173",
+      "summary": "arXiv:2602.16173v1 Announce Type: new Abstract: Modern AI agents are powerful but often fail to align with the idiosyncratic, evolving preferences of individual users. Prior approaches typically rely on static datasets, either training implicit preference models on interaction history or encoding user profiles in external memory. However, these approaches struggle with new users and with preferences that change over time. We introduce Personalized Agents from Human Feedback (PAHF), a framework for continual personalization in which agents learn online from live interaction using explicit per-user memory. PAHF operationalizes a three-step loop: (1) seeking pre-action clarification to resolve ambiguity, (2) grounding actions in preferences retrieved from memory, and (3) integrating post-action feedback to update memory when preferences drift. To evaluate this capability, we develop a four-phase protocol and two benchmarks in embodied manipulation and online shopping. These benchmarks quantify an agent's ability to learn initial preferences from scratch and subsequently adapt to persona shifts. Our theoretical analysis and empirical results show that integrating explicit memory with dual feedback channels is critical: PAHF learns substantially faster and consistently outperforms both no-memory and single-channel baselines, reducing initial personalization error and enabling rapid",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 117.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16301",
+      "title": "Multi-agent cooperation through in-context co-player inference",
+      "link": "https://arxiv.org/abs/2602.16301",
+      "summary": "arXiv:2602.16301v1 Announce Type: new Abstract: Achieving cooperation among self-interested agents remains a fundamental challenge in multi-agent reinforcement learning. Recent work showed that mutual cooperation can be induced between \"learning-aware\" agents that account for and shape the learning dynamics of their co-players. However, existing approaches typically rely on hardcoded, often inconsistent, assumptions about co-player learning rules or enforce a strict separation between \"naive learners\" updating on fast timescales and \"meta-learners\" observing these updates. Here, we demonstrate that the in-context learning capabilities of sequence models allow for co-player learning awareness without requiring hardcoded assumptions or explicit timescale separation. We show that training sequence model agents against a diverse distribution of co-players naturally induces in-context best-response strategies, effectively functioning as learning algorithms on the fast intra-episode timescale. We find that the cooperative mechanism identified in prior work-where vulnerability to extortion drives mutual shaping-emerges naturally in this setting: in-context adaptation renders agents vulnerable to extortion, and the resulting mutual pressure to shape the opponent's in-context learning dynamics resolves into the learning of cooperative behavior. Our results suggest that standard decentra",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 117.75,
       "status": "queued"
     },
     {
@@ -3371,6 +3514,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.16039",
+      "title": "How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment",
+      "link": "https://arxiv.org/abs/2602.16039",
+      "summary": "arXiv:2602.16039v1 Announce Type: new Abstract: The rapid rise of large language models (LLMs) is reshaping the landscape of automatic assessment in education. While these systems demonstrate substantial advantages in adaptability to diverse question types and flexibility in output formats, they also introduce new challenges related to output uncertainty, stemming from the inherently probabilistic nature of LLMs. Output uncertainty is an inescapable challenge in automatic assessment, as assessment results often play a critical role in informing subsequent pedagogical actions, such as providing feedback to students or guiding instructional decisions. Unreliable or poorly calibrated uncertainty estimates can lead to unstable downstream interventions, potentially disrupting students' learning processes and resulting in unintended negative consequences. To systematically understand this challenge and inform future research, we benchmark a broad range of uncertainty quantification methods in the context of LLM-based automatic assessment. Although the effectiveness of these methods has been demonstrated in many tasks across other domains, their applicability and reliability in educational settings, particularly for automatic grading, remain underexplored. Through comprehensive analyses of uncertainty behaviors across multiple assessment datasets, LLM families, and generation control",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 111.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16050",
+      "title": "Evidence-Grounded Subspecialty Reasoning: Evaluating a Curated Clinical Intelligence Layer on the 2025 Endocrinology Board-Style Examination",
+      "link": "https://arxiv.org/abs/2602.16050",
+      "summary": "arXiv:2602.16050v1 Announce Type: new Abstract: Background: Large language models have demonstrated strong performance on general medical examinations, but subspecialty clinical reasoning remains challenging due to rapidly evolving guidelines and nuanced evidence hierarchies. Methods: We evaluated January Mirror, an evidence-grounded clinical reasoning system, against frontier LLMs (GPT-5, GPT-5.2, Gemini-3-Pro) on a 120-question endocrinology board-style examination. Mirror integrates a curated endocrinology and cardiometabolic evidence corpus with a structured reasoning architecture to generate evidence-linked outputs. Mirror operated under a closed-evidence constraint without external retrieval. Comparator LLMs had real-time web access to guidelines and primary literature. Results: Mirror achieved 87.5% accuracy (105/120; 95% CI: 80.4-92.3%), exceeding a human reference of 62.3% and frontier LLMs including GPT-5.2 (74.6%), GPT-5 (74.0%), and Gemini-3-Pro (69.8%). On the 30 most difficult questions (human accuracy less than 50%), Mirror achieved 76.7% accuracy. Top-2 accuracy was 92.5% for Mirror versus 85.25% for GPT-5.2. Conclusions: Mirror provided evidence traceability: 74.2% of outputs cited at least one guideline-tier source, with 100% citation accuracy on manual verification. Curated evidence with explicit provenance can outperform unconstrained web retrieval for subsp",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 111.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16424",
+      "title": "Verifiable Semantics for Agent-to-Agent Communication",
+      "link": "https://arxiv.org/abs/2602.16424",
+      "summary": "arXiv:2602.16424v1 Announce Type: new Abstract: Multiagent AI systems require consistent communication, but we lack methods to verify that agents share the same understanding of the terms used. Natural language is interpretable but vulnerable to semantic drift, while learned protocols are efficient but opaque. We propose a certification protocol based on the stimulus-meaning model, where agents are tested on shared observable events and terms are certified if empirical disagreement falls below a statistical threshold. In this protocol, agents restricting their reasoning to certified terms (\"core-guarded reasoning\") achieve provably bounded disagreement. We also outline mechanisms for detecting drift (recertification) and recovering shared vocabulary (renegotiation). In simulations with varying degrees of semantic divergence, core-guarding reduces disagreement by 72-96%. In a validation with fine-tuned language models, disagreement is reduced by 51%. Our framework provides a first step towards verifiable agent-to-agent communication.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-19T05:00:00.000Z",
+      "score": 111.75,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.13224",
       "title": "A Geometric Taxonomy of Hallucinations in LLMs",
       "link": "https://arxiv.org/abs/2602.13224",
@@ -3416,162 +3595,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-18T05:00:00.000Z",
       "score": 111.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.15384",
-      "title": "World-Model-Augmented Web Agents with Action Correction",
-      "link": "https://arxiv.org/abs/2602.15384",
-      "summary": "arXiv:2602.15384v1 Announce Type: new Abstract: Web agents based on large language models have demonstrated promising capability in automating web tasks. However, current web agents struggle to reason out sensible actions due to the limitations of predicting environment changes, and might not possess comprehensive awareness of execution risks, prematurely performing risky actions that cause losses and lead to task failure. To address these challenges, we propose WAC, a web agent that integrates model collaboration, consequence simulation, and feedback-driven action refinement. To overcome the cognitive isolation of individual models, we introduce a multi-agent collaboration process that enables an action model to consult a world model as a web-environment expert for strategic guidance; the action model then grounds these suggestions into executable actions, leveraging prior knowledge of environmental state transition dynamics to enhance candidate action proposal. To achieve risk-aware resilient task execution, we introduce a two-stage deduction chain. A world model, specialized in environmental state transitions, simulates action outcomes, which a judge model then scrutinizes to trigger action corrective feedback when necessary. Experiments show that WAC achieves absolute gains of 1.8% on VisualWebArena and 1.3% on Online-Mind2Web.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-18T05:00:00.000Z",
-      "score": 111.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12566",
-      "title": "To Mix or To Merge: Toward Multi-Domain Reinforcement Learning for Large Language Models",
-      "link": "https://arxiv.org/abs/2602.12566",
-      "summary": "arXiv:2602.12566v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) plays a key role in stimulating the explicit reasoning capability of Large Language Models (LLMs). We can achieve expert-level performance in some specific domains via RLVR, such as coding or math. When a general multi-domain expert-level model is required, we need to carefully consider the collaboration of RLVR across different domains. The current state-of-the-art models mainly employ two different training paradigms for multi-domain RLVR: mixed multi-task RLVR and separate RLVR followed by model merging. However, most of the works did not provide a detailed comparison and analysis about these paradigms. To this end, we choose multiple commonly used high-level tasks (e.g., math, coding, science, and instruction following) as our target domains and design extensive qualitative and quantitative experiments using open-source datasets. We find the RLVR across domains exhibits few mutual interferences, and reasoning-intensive domains demonstrate mutually synergistic effects. Furthermore, we analyze the internal mechanisms of mutual gains from the perspectives of weight space geometry, model prediction behavior, and information constraints. This project is named as M2RL that means Mixed multi-task training or separate training followed by model Merging for Reinforcement Learning, a",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 111.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06176",
-      "title": "Large Language Model Reasoning Failures",
-      "link": "https://arxiv.org/abs/2602.06176",
-      "summary": "arXiv:2602.06176v1 Announce Type: new Abstract: Large Language Models (LLMs) have exhibited remarkable reasoning capabilities, achieving impressive results across a wide range of tasks. Despite these advances, significant reasoning failures persist, occurring even in seemingly simple scenarios. To systematically understand and address these shortcomings, we present the first comprehensive survey dedicated to reasoning failures in LLMs. We introduce a novel categorization framework that distinguishes reasoning into embodied and non-embodied types, with the latter further subdivided into informal (intuitive) and formal (logical) reasoning. In parallel, we classify reasoning failures along a complementary axis into three types: fundamental failures intrinsic to LLM architectures that broadly affect downstream tasks; application-specific limitations that manifest in particular domains; and robustness issues characterized by inconsistent performance across minor variations. For each reasoning failure, we provide a clear definition, analyze existing studies, explore root causes, and present mitigation strategies. By unifying fragmented research efforts, our survey provides a structured perspective on systemic weaknesses in LLM reasoning, offering valuable insights and guiding future research towards building stronger, more reliable, and robust reasoning capabilities. We additionally",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 110.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06319",
-      "title": "Exposing Weaknesses of Large Reasoning Models through Graph Algorithm Problems",
-      "link": "https://arxiv.org/abs/2602.06319",
-      "summary": "arXiv:2602.06319v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) have advanced rapidly; however, existing benchmarks in mathematics, code, and common-sense reasoning remain limited. They lack long-context evaluation, offer insufficient challenge, and provide answers that are difficult to verify programmatically. We introduce GrAlgoBench, a benchmark designed to evaluate LRMs through graph algorithm problems. Such problems are particularly well suited for probing reasoning abilities: they demand long-context reasoning, allow fine-grained control of difficulty levels, and enable standardized, programmatic evaluation. Across nine tasks, our systematic experiments reveal two major weaknesses of current LRMs. First, accuracy deteriorates sharply as context length increases, falling below 50% once graphs exceed 120 nodes. This degradation is driven by frequent execution errors, weak memory, and redundant reasoning. Second, LRMs suffer from an over-thinking phenomenon, primarily caused by extensive yet largely ineffective self-verification, which inflates reasoning traces without improving correctness. By exposing these limitations, GrAlgoBench establishes graph algorithm problems as a rigorous, multidimensional, and practically relevant testbed for advancing the study of reasoning in LRMs. Code is available at https://github.com/Bklight999/GrAlgoBench.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 110.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07187",
-      "title": "PreFlect: From Retrospective to Prospective Reflection in Large Language Model Agents",
-      "link": "https://arxiv.org/abs/2602.07187",
-      "summary": "arXiv:2602.07187v1 Announce Type: new Abstract: Advanced large language model agents typically adopt self-reflection for improving performance, where agents iteratively analyze past actions to correct errors. However, existing reflective approaches are inherently retrospective: agents act, observe failure, and only then attempt to recover. In this work, we introduce PreFlect, a prospective reflection mechanism that shifts the paradigm from post hoc correction to pre-execution foresight by criticizing and refining agent plans before execution. To support grounded prospective reflection, we distill planning errors from historical agent trajectories, capturing recurring success and failure patterns observed across past executions. Furthermore, we complement prospective reflection with a dynamic re-planning mechanism that provides execution-time plan update in case the original plan encounters unexpected deviation. Evaluations on different benchmarks demonstrate that PreFlect significantly improves overall agent utility on complex real-world tasks, outperforming strong reflection-based baselines and several more complex agent architectures. Code will be updated at https://github.com/wwwhy725/PreFlect.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 110.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07276",
-      "title": "Steer2Adapt: Dynamically Composing Steering Vectors Elicits Efficient Adaptation of LLMs",
-      "link": "https://arxiv.org/abs/2602.07276",
-      "summary": "arXiv:2602.07276v1 Announce Type: new Abstract: Activation steering has emerged as a promising approach for efficiently adapting large language models (LLMs) to downstream behaviors. However, most existing steering methods rely on a single static direction per task or concept, making them inflexible under task variation and inadequate for complex tasks that require multiple coordinated capabilities. To address this limitation, we propose STEER2ADAPT, a lightweight framework that adapts LLMs by composing steering vectors rather than learning new ones from scratch. In many domains (e.g., reasoning or safety), tasks share a small set of underlying concept dimensions. STEER2ADAPT captures these dimensions as a reusable, low-dimensional semantic prior subspace, and adapts to new tasks by dynamically discovering a linear combination of basis vectors from only a handful of examples. Experiments across 9 tasks and 3 models in both reasoning and safety domains demonstrate the effectiveness of STEER2ADAPT, achieving an average improvement of 8.2%. Extensive analyses further show that STEER2ADAPT is a data-efficient, stable, and transparent inference-time adaptation method for LLMs.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 110.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.04986",
-      "title": "Artificial Intelligence as Strange Intelligence: Against Linear Models of Intelligence",
-      "link": "https://arxiv.org/abs/2602.04986",
-      "summary": "arXiv:2602.04986v1 Announce Type: new Abstract: We endorse and expand upon Susan Schneider's critique of the linear model of AI progress and introduce two novel concepts: \"familiar intelligence\" and \"strange intelligence\". AI intelligence is likely to be strange intelligence, defying familiar patterns of ability and inability, combining superhuman capacities in some domains with subhuman performance in other domains, and even within domains sometimes combining superhuman insight with surprising errors that few humans would make. We develop and defend a nonlinear model of intelligence on which \"general intelligence\" is not a unified capacity but instead the ability to achieve a broad range of goals in a broad range of environments, in a manner that defies nonarbitrary reduction to a single linear quantity. We conclude with implications for adversarial testing approaches to evaluating AI capacities. If AI is strange intelligence, we should expect that even the most capable systems will sometimes fail in seemingly obvious tasks. On a nonlinear model of AI intelligence, such errors on their own do not demonstrate a system's lack of outstanding general intelligence. Conversely, excellent performance on one type of task, such as an IQ test, cannot warrant assumptions of broad capacities beyond that task domain.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 108,
-      "status": "queued"
-    },
-    {
-      "id": "https://agentshield.live/",
-      "title": "Is Your AI Agent Safe?",
-      "link": "https://agentshield.live/",
-      "summary": "Article URL: https://agentshield.live/ Comments URL: https://news.ycombinator.com/item?id=47021487 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-15T06:21:40.000Z",
-      "score": 107.88,
-      "status": "queued"
-    },
-    {
-      "id": "https://x.com/SarvamAI",
-      "title": "India's Sarvan AI LLM launches Indic-language focused models",
-      "link": "https://x.com/SarvamAI",
-      "summary": "Article URL: https://x.com/SarvamAI Comments URL: https://news.ycombinator.com/item?id=46931408 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-08T04:52:43.000Z",
-      "score": 106.44,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11318",
-      "title": "Dissecting Subjectivity and the \"Ground Truth\" Illusion in Data Annotation",
-      "link": "https://arxiv.org/abs/2602.11318",
-      "summary": "arXiv:2602.11318v1 Announce Type: new Abstract: In machine learning, \"ground truth\" refers to the assumed correct labels used to train and evaluate models. However, the foundational \"ground truth\" paradigm rests on a positivistic fallacy that treats human disagreement as technical noise rather than a vital sociotechnical signal. This systematic literature review analyzes research published between 2020 and 2025 across seven premier venues: ACL, AIES, CHI, CSCW, EAAMO, FAccT, and NeurIPS, investigating the mechanisms in data annotation practices that facilitate this \"consensus trap\". Our identification phase captured 30,897 records, which were refined via a tiered keyword filtration schema to a high-recall corpus of 3,042 records for manual screening, resulting in a final included corpus of 346 papers for qualitative synthesis. Our reflexive thematic analysis reveals that systemic failures in positional legibility, combined with the recent architectural shift toward human-as-verifier models, specifically the reliance on model-mediated annotations, introduce deep-seated anchoring bias and effectively remove human voices from the loop. We further demonstrate how geographic hegemony imposes Western norms as universal benchmarks, often enforced by the performative alignment of precarious data workers who prioritize requester compliance over honest subjectivity to avoid economic pena",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 105.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11389",
-      "title": "Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
-      "link": "https://arxiv.org/abs/2602.11389",
-      "summary": "arXiv:2602.11389v1 Announce Type: new Abstract: World models require robust relational understanding to support prediction, reasoning, and control. While object-centric representations provide a useful abstraction, they are not sufficient to capture interaction-dependent dynamics. We therefore propose C-JEPA, a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations. By applying object-level masking that requires an object's state to be inferred from other objects, C-JEPA induces latent interventions with counterfactual-like effects and prevents shortcut solutions, making interaction reasoning essential. Empirically, C-JEPA leads to consistent gains in visual question answering, with an absolute improvement of about 20\\% in counterfactual reasoning compared to the same architecture without object-level masking. On agent control tasks, C-JEPA enables substantially more efficient planning by using only 1\\% of the total latent input features required by patch-based world models, while achieving comparable performance. Finally, we provide a formal analysis demonstrating that object-level masking induces a causal inductive bias via latent interventions. Our code is available at https://github.com/galilai-group/cjepa.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 105.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11409",
-      "title": "TRACER: Trajectory Risk Aggregation for Critical Episodes in Agentic Reasoning",
-      "link": "https://arxiv.org/abs/2602.11409",
-      "summary": "arXiv:2602.11409v1 Announce Type: new Abstract: Estimating uncertainty for AI agents in real-world multi-turn tool-using interaction with humans is difficult because failures are often triggered by sparse critical episodes (e.g., looping, incoherent tool use, or user-agent miscoordination) even when local generation appears confident. Existing uncertainty proxies focus on single-shot text generation and therefore miss these trajectory-level breakdown signals. We introduce TRACER, a trajectory-level uncertainty metric for dual-control Tool-Agent-User interaction. TRACER combines content-aware surprisal with situational-awareness signals, semantic and lexical repetition, and tool-grounded coherence gaps, and aggregates them using a tail-focused risk functional with a MAX-composite step risk to surface decisive anomalies. We evaluate TRACER on $\\tau^2$-bench by predicting task failure and selective task execution. To this end, TRACER improves AUROC by up to 37.1% and AUARC by up to 55% over baselines, enabling earlier and more accurate detection of uncertainty in complex conversational tool-use settings. Our code and benchmark are available at https://github.com/sinatayebati/agent-tracer.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 105.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10583",
-      "title": "Flow of Spans: Generalizing Language Models to Dynamic Span-Vocabulary via GFlowNets",
-      "link": "https://arxiv.org/abs/2602.10583",
-      "summary": "arXiv:2602.10583v1 Announce Type: new Abstract: Standard autoregressive language models generate text token-by-token from a fixed vocabulary, inducing a tree-structured state space when viewing token sampling as an action, which limits flexibility and expressiveness. Recent work introduces dynamic vocabulary by sampling retrieved text spans but overlooks that the same sentence can be composed of spans of varying lengths, lacking explicit modeling of the directed acyclic graph (DAG) state space. This leads to restricted exploration of compositional paths and is biased toward the chosen path. Generative Flow Networks (GFlowNets) are powerful for efficient exploring and generalizing over state spaces, particularly those with a DAG structure. However, prior GFlowNets-based language models operate at the token level and remain confined to tree-structured spaces, limiting their potential. In this work, we propose Flow of SpanS (FOSS), a principled GFlowNets framework for span generation. FoSS constructs a dynamic span vocabulary by segmenting the retrieved text flexibly, ensuring a DAG-structured state space, which allows GFlowNets to explore diverse compositional paths and improve generalization. With specialized reward models, FoSS generates diverse, high-quality text. Empirically, FoSS improves MAUVE scores by up to 12.5% over Transformer on text generation and achieves 3.5% gains",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 105.54,
       "status": "queued"
     },
     {
