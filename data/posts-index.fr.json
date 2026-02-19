@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-19T08:36:20.957Z",
+  "generatedAt": "2026-02-19T15:55:48.147Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "timeToImplementMinutes": 180,
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-19-run-and-extend-drift-live-tui-codehealth-dashboard-go-ast-analysis-and-copilotdriven-fixes",
+      "title": "Exécuter et étendre Drift : TUI de santé du code en temps réel, analyse AST Go et corrections pilotées par Copilot",
+      "date": "2026-02-19",
+      "excerpt": "Guide pratique pas à pas pour installer et exécuter le tableau de bord terminal live de Drift, inspecter l'analyseur AST Go, tester le flux interactif « drift fix » piloté par Copilot et ajouter une étape CI qui publie des rapports de santé.",
+      "tags": [
+        "drift",
+        "go",
+        "tui",
+        "code-health",
+        "copilot",
+        "ci",
+        "monitoring",
+        "dev-tools"
+      ],
+      "sources": [
+        "https://drift.marquis.codes/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

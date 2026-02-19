@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-19T08:36:20.956Z",
+  "generatedAt": "2026-02-19T15:55:48.146Z",
   "locale": "en",
   "posts": [
     {
@@ -28,6 +28,32 @@
       "timeToImplementMinutes": 180,
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-19-run-and-extend-drift-live-tui-codehealth-dashboard-go-ast-analysis-and-copilotdriven-fixes",
+      "title": "Run and Extend Drift: Live TUI Code‑Health Dashboard, Go AST Analysis and Copilot‑Driven Fixes",
+      "date": "2026-02-19",
+      "excerpt": "Step-by-step guide to install and run Drift's live terminal dashboard, inspect the Go AST analyzer, and test Copilot-driven interactive 'drift fix' suggestions and CI automation.",
+      "tags": [
+        "go",
+        "code-health",
+        "tui",
+        "github-copilot",
+        "devtools",
+        "observability",
+        "refactoring",
+        "github-actions"
+      ],
+      "sources": [
+        "https://drift.marquis.codes/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-02-18-add-agentsmd-to-challenge-starters-to-make-ai-a-difficulty-aware-learning-partner",
