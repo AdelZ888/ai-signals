@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-20T08:35:51.684Z",
+  "generatedAt": "2026-02-20T15:40:51.096Z",
   "items": [
+    {
+      "id": "https://github.com/garagon/aguara",
+      "title": "Show HN: Aguara – Security scanner for AI agent skills and MCP servers",
+      "link": "https://github.com/garagon/aguara",
+      "summary": "Hey HN, I built Aguara because I kept seeing the same problem: AI agents and MCP servers run code on your behalf, and nobody is checking what that code actually does before it runs. A single malicious skill file can exfiltrate your SSH keys, inject prompts to override safety instructions, or curl-pipe-bash a backdoor. I wanted something like Semgrep but specifically for the AI agent ecosystem. Aguara is a Go binary…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-20T15:05:29.000Z",
+      "score": 204,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-20T15:40:51.033Z",
+      "file": "content/posts/2026-02-20-aguara-deterministic-offline-static-scanner-for-ai-agent-skills-and-mcp-servers.md",
+      "fileFr": "content/posts/fr/2026-02-20-aguara-deterministic-offline-static-scanner-for-ai-agent-skills-and-mcp-servers.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1488,
+      "wordsFr": 1648
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47062289",
       "title": "Show HN: A2A Protocol – A Quantum-Humanistic Economy for AI Agents on Base L2",
@@ -1532,6 +1555,18 @@
       "status": "queued"
     },
     {
+      "id": "https://hivemindai.dev",
+      "title": "Show HN: Hivemind – A shared coordination layer for AI agents",
+      "link": "https://hivemindai.dev",
+      "summary": "I've been running multiple AI agents (Claude Code, Cursor, Codex) on the same codebase and kept hitting the same problem: they have no idea what each other are doing. Agent A refactors the auth module while Agent B is building a feature that depends on it. Agent C re-investigates a decision that Agent A already made and documented in a different session, but doesn't have access to Agent A's decision making process. Many times I'll have multiple agents running and coming up with different findings that contradict one another since there's no \"source of truth\" where they can see past decisions that other agents and users made to guide their decision making process... and subsequently burning tokens along the way The root cause is simple: there's no shared state between agents. Each one starts with a blank slate every session, and when you run them in parallel, conflicts are inevitable. Hivemind is my attempt at fixing this. It's a persistent, append-only event log exposed as an MCP server. Every agent publishes structured events (decisions, completions, blockers) and every agent can query the log to understand what's happening across the project. I find it most useful when one agent completes a large task, and then my next agent can easily see the updates done instead of scanning through my codebase or git commits, trying to piece together the changes. This alone has saved me ton",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-20T15:06:58.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/M2Dr3g0n/kremis",
       "title": "Show HN: Kremis – Graph-based memory for AI agents with no hidden state (Rust)",
       "link": "https://github.com/M2Dr3g0n/kremis",
@@ -1844,6 +1879,42 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/airblackbox/air-platform",
+      "title": "Show HN: Air Blackbox – Open-source flight recorder for AI agents",
+      "link": "https://github.com/airblackbox/air-platform",
+      "summary": "Article URL: https://github.com/airblackbox/air-platform Comments URL: https://news.ycombinator.com/item?id=47089039 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-20T15:16:02.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47089014",
+      "title": "Ask HN: Giving AI agents a credit card",
+      "link": "https://news.ycombinator.com/item?id=47089014",
+      "summary": "Is there a safe way to give agents a credit card with usage caps? Ideally also the ability for purchases to pend until human approval. Comments URL: https://news.ycombinator.com/item?id=47089014 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-20T15:13:58.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/hubby247/astrmap",
+      "title": "Show HN: AstrMap – Unix Philosophy for the AI Era (Ditch the RAG)",
+      "link": "https://github.com/hubby247/astrmap",
+      "summary": "Hey HN, I got incredibly tired of RAG for code. Vectorizing source code into arbitrary chunks and hoping a cosine-similarity search finds the right structural context is a black box that just doesn't reliably work for agentic coding. It's anti-KISS. So I wrote AstrMap in Go. It rips through your repo in milliseconds and generates a highly compressed, AI-readable AST \"Map\" (like a giant table of contents with line numbers and functions). You feed the Map to your LLM (costs almost 0 tokens), and the LLM uses it as a deterministic radar to pinpoint exactly which files it needs to modify. It treats your architecture as pure, parseable text. It's completely free, a single binary, local, and supports Go, JS/TS, Python, HTML/CSS. Give it a try and let me know if it speeds up your agentic coding workflows. Link: https://github.com/hubby247/astrmap Comments URL: https://news.ycombinator.com/item?id=47088646 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-20T14:44:12.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -2020,6 +2091,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-19T15:16:19.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://tropes.fyi/",
+      "title": "Show HN: Tropes.fyi – Name and shame AI writing",
+      "link": "https://tropes.fyi/",
+      "summary": "Today I come to you on this beautiful Friday with a freshly hardthink-ed solution to a proliferous problem plaguing our world: the loss of original voice. The blanket of blandness slowly suffocating centuries of writing. Or to put it bluntly: AI writing is trash. It is disrespectful to expect ME to read something YOU could not even be bothered to write (or likely even read). The lingering human connection that remained resilient on the internet - through years of SEO optimisation, propaganda bots, ads, regional firewalls, politics, censorship - is now being diluted even further. Many of the posts I eagerly click on HN (especially sorting by new) are now disappointingly, ragingly, completely AI generated. This includes several that reach the front page on a daily basis. It's shameless. Unfortunately, many of you educated readers are oblivious to the tropes and tells or too eager to discuss the topic to notice. To combat this (and because I'm petty) I (and ironically Claude) built a directory and several tools to name and shame these patterns. Both to educate those are not AI-literate and to spread awareness. NOT TO HARASS. tropes.fyi is a catalogue of the recurring tropes, tics, structures and word choices that give away AI-generated writing. Each trope is documented with a name, description, real-world examples and the category it falls under (word choice, sentence structure, t",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-20T14:58:25.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -2644,6 +2727,18 @@
       "region": "US",
       "keywordHits": 2,
       "publishedAt": "2026-02-16T15:00:00.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.numerama.com/politique/2184361-derriere-le-reve-de-lecole-100-ia-un-cauchemar-de-surveillance-pour-les-eleves.html",
+      "title": "Derrière le rêve de l’école 100 % IA, un cauchemar de surveillance pour les élèves",
+      "link": "https://www.numerama.com/politique/2184361-derriere-le-reve-de-lecole-100-ia-un-cauchemar-de-surveillance-pour-les-eleves.html",
+      "summary": "Derrière la promesse d'une éducation dopée à l'intelligence artificielle, le réseau scolaire américain Alpha School cache une réalité brutale : celle de cours incohérents, d’un plagiat industriel et d’une surveillance constante des élèves.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-20T14:41:53.000Z",
       "score": 144,
       "status": "queued"
     },
@@ -3569,78 +3664,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-18T05:00:00.000Z",
       "score": 117.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47011649",
-      "title": "Show HN: Why Playwright-CLI Beats MCP for AI‑Driven Browser Automation",
-      "link": "https://news.ycombinator.com/item?id=47011649",
-      "summary": "Most “AI + browser” setups still bolt MCP tools onto Playwright and hope for the best, so every click dumps full DOMs, accessibility trees, and logs into the model. That burns tokens, collapses context, and makes long sessions unreliable. Meanwhile, default Playwright reports start to struggle once you have more than a few dozen e2e tests, so teams drown in HTML reports and flaky failures instead of clear patterns. The insights at https://testdino.com/blog/playwright-cli/ explores how Microsoft’s playwright-cli keeps browser state external, returns only compact element references and YAML flows, and works with normal npx playwright test plus smarter reporting, so both agents and humans stay fast, cost aware, and predictable. Comments URL: https://news.ycombinator.com/item?id=47011649 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-14T04:45:31.000Z",
-      "score": 117.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06351",
-      "title": "Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion",
-      "link": "https://arxiv.org/abs/2602.06351",
-      "summary": "arXiv:2602.06351v1 Announce Type: new Abstract: GUI grounding maps natural language instructions to the correct interface elements, serving as the perception foundation for GUI agents. Existing approaches predominantly rely on fine-tuning multimodal large language models (MLLMs) using large-scale GUI datasets to predict target element coordinates, which is data-intensive and generalizes poorly to unseen interfaces. Recent attention-based alternatives exploit localization signals in MLLMs attention mechanisms without task-specific fine-tuning, but suffer from low reliability due to the lack of explicit and complementary spatial anchors in GUI images. To address this limitation, we propose Trifuse, an attention-based grounding framework that explicitly integrates complementary spatial anchors. Trifuse integrates attention, OCR-derived textual cues, and icon-level caption semantics via a Consensus-SinglePeak (CS) fusion strategy that enforces cross-modal agreement while retaining sharp localization peaks. Extensive evaluations on four grounding benchmarks demonstrate that Trifuse achieves strong performance without task-specific fine-tuning, substantially reducing the reliance on expensive annotated data. Moreover, ablation studies reveal that incorporating OCR and caption cues consistently improves attention-based grounding performance across different backbones, highlighting its",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 116.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06394",
-      "title": "Unlocking Noisy Real-World Corpora for Foundation Model Pre-Training via Quality-Aware Tokenization",
-      "link": "https://arxiv.org/abs/2602.06394",
-      "summary": "arXiv:2602.06394v1 Announce Type: new Abstract: Current tokenization methods process sequential data without accounting for signal quality, limiting their effectiveness on noisy real-world corpora. We present QA-Token (Quality-Aware Tokenization), which incorporates data reliability directly into vocabulary construction. We make three key contributions: (i) a bilevel optimization formulation that jointly optimizes vocabulary construction and downstream performance, (ii) a reinforcement learning approach that learns merge policies through quality-aware rewards with convergence guarantees, and (iii) an adaptive parameter learning mechanism via Gumbel-Softmax relaxation for end-to-end optimization. Our experimental evaluation demonstrates consistent improvements: genomics (6.7 percentage point F1 gain in variant calling over BPE), finance (30% Sharpe ratio improvement). At foundation scale, we tokenize a pretraining corpus comprising 1.7 trillion base-pairs and achieve state-of-the-art pathogen detection (94.53 MCC) while reducing token count by 15%. We unlock noisy real-world corpora, spanning petabases of genomic sequences and terabytes of financial time series, for foundation model training with zero inference overhead.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 116.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06533",
-      "title": "LogicSkills: A Structured Benchmark for Formal Reasoning in Large Language Models",
-      "link": "https://arxiv.org/abs/2602.06533",
-      "summary": "arXiv:2602.06533v1 Announce Type: new Abstract: Large language models have demonstrated notable performance across various logical reasoning benchmarks. However, it remains unclear which core logical skills they truly master. To address this, we introduce LogicSkills, a unified benchmark designed to isolate three fundamental skills in formal reasoning: (i) $\\textit{formal symbolization}\\unicode{x2014}$translating premises into first-order logic; (ii) $\\textit{countermodel construction}\\unicode{x2014}$formulating a finite structure in which all premises are true while the conclusion is false; and (iii) $\\textit{validity assessment}\\unicode{x2014}$deciding whether a conclusion follows from a given set of premises. Items are drawn from the two-variable fragment of first-order logic (without identity) and are presented in both natural English and a Carroll-style language with nonce words. All examples are verified for correctness and non-triviality using the SMT solver Z3. Across leading models, performance is high on validity but substantially lower on symbolization and countermodel construction, suggesting reliance on surface-level patterns rather than genuine symbolic or rule-based reasoning.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 116.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07153",
-      "title": "ANCHOR: Branch-Point Data Generation for GUI Agents",
-      "link": "https://arxiv.org/abs/2602.07153",
-      "summary": "arXiv:2602.07153v1 Announce Type: new Abstract: End-to-end GUI agents for real desktop environments require large amounts of high-quality interaction data, yet collecting human demonstrations is expensive and existing synthetic pipelines often suffer from limited task diversity or noisy, goal-drifting trajectories. We present a trajectory expansion framework Anchor that bootstraps scalable desktop supervision from a small set of verified seed demonstrations. Starting from each seed, we identify branch points that correspond to meaningful state changes and propose new, state-grounded task variants conditioned on the current GUI context. An executing agent then follows the proposed instructions to generate new trajectories, while a verifier enforces task completion via state-aware checks and trajectory-level consistency. To improve supervision quality, we further apply task-conditioned step-level filtering to remove ungrounded actions and denoise post-branch segments to maintain coherent intent. Experiments on standard desktop benchmarks, OSWorld and WindowsAgentArena, show that models fine-tuned on our expanded corpus achieve consistent improvements over zero-shot agents and representative synthesis baselines, and generalize across applications and operating systems.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 116.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07274",
-      "title": "TermiGen: High-Fidelity Environment and Robust Trajectory Synthesis for Terminal Agents",
-      "link": "https://arxiv.org/abs/2602.07274",
-      "summary": "arXiv:2602.07274v1 Announce Type: new Abstract: Executing complex terminal tasks remains a significant challenge for open-weight LLMs, constrained by two fundamental limitations. First, high-fidelity, executable training environments are scarce: environments synthesized from real-world repositories are not diverse and scalable, while trajectories synthesized by LLMs suffer from hallucinations. Second, standard instruction tuning uses expert trajectories that rarely exhibit simple mistakes common to smaller models. This creates a distributional mismatch, leaving student models ill-equipped to recover from their own runtime failures. To bridge these gaps, we introduce TermiGen, an end-to-end pipeline for synthesizing verifiable environments and resilient expert trajectories. Termi-Gen first generates functionally valid tasks and Docker containers via an iterative multi-agent refinement loop. Subsequently, we employ a Generator-Critic protocol that actively injects errors during trajectory collection, synthesizing data rich in error-correction cycles. Fine-tuned on this TermiGen-generated dataset, our TermiGen-Qwen2.5-Coder-32B achieves a 31.3% pass rate on TerminalBench. This establishes a new open-weights state-of-the-art, outperforming existing baselines and notably surpassing capable proprietary models such as o4-mini. Dataset is avaiable at https://github.com/ucsb-mlsec/termi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 116.79,
       "status": "queued"
     },
     {

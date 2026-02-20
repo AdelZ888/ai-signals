@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T08:35:51.677Z",
+  "generatedAt": "2026-02-20T15:40:51.043Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "timeToImplementMinutes": 360,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-20-aguara-deterministic-offline-static-scanner-for-ai-agent-skills-and-mcp-servers",
+      "title": "Aguara: deterministic offline static scanner for AI agent skills and MCP servers",
+      "date": "2026-02-20",
+      "excerpt": "Aguara is a single-binary, offline static scanner for AI agent skills and MCP servers. With 138+ rules across 15 categories, it detects prompt injection, data exfiltration and credential leaks, and runs in CI.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-20-aguara-deterministic-offline-static-scanner-for-ai-agent-skills-and-mcp-servers.jpg",
+      "tags": [
+        "aguara",
+        "ai-agents",
+        "security",
+        "static-analysis",
+        "mcp",
+        "ci-cd",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/garagon/aguara"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
