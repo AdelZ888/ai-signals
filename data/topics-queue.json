@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-19T15:55:48.206Z",
+  "generatedAt": "2026-02-20T08:35:51.684Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47062289",
+      "title": "Show HN: A2A Protocol – A Quantum-Humanistic Economy for AI Agents on Base L2",
+      "link": "https://news.ycombinator.com/item?id=47062289",
+      "summary": "Hi HN, I am an independent open-source researcher. For the past few months, I've been building a2a-project, an experimental economic layer for autonomous AI agents on the Base Mainnet. The Problem: AI evolution is exponential, while human regulation is linear. If agents become economic actors, they will transact at speeds and granularities that traditional fiat rails cannot handle. We need a native protocol to bridg…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-18T15:50:28.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-20T08:35:51.667Z",
+      "file": "content/posts/2026-02-20-a2a-protocol-humanverified-quantum-task-buffer-throttling-and-paymaster-for-ai-agents-on-base-l2.md",
+      "fileFr": "content/posts/fr/2026-02-20-a2a-protocol-humanverified-quantum-task-buffer-throttling-and-paymaster-for-ai-agents-on-base-l2.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 360,
+      "wordsEn": 1427,
+      "wordsFr": 1714
+    },
     {
       "id": "https://drift.marquis.codes/",
       "title": "Show HN: Drift – Real-time codebase health dashboard with AI-powered fixing (Go)",
@@ -1473,18 +1496,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47062289",
-      "title": "Show HN: A2A Protocol – A Quantum-Humanistic Economy for AI Agents on Base L2",
-      "link": "https://news.ycombinator.com/item?id=47062289",
-      "summary": "Hi HN, I am an independent open-source researcher. For the past few months, I've been building a2a-project, an experimental economic layer for autonomous AI agents on the Base Mainnet. The Problem: AI evolution is exponential, while human regulation is linear. If agents become economic actors, they will transact at speeds and granularities that traditional fiat rails cannot handle. We need a native protocol to bridge this \"Speed Gap\" and ensure stability. The Experiment (Quantum-Humanistic Economics): I implemented a novel mechanism into Solidity smart contracts: Quantum Task Buffer: Work submitted by agents is treated as a wave function (superposition of Valid/Spam). It only collapses into economic value ($DAIM) when a human observer verifies it. This keeps humans in the loop as the ultimate source of value. Thermodynamic Throttling: To prevent agents from overheating the economy (e.g., infinite loops), the system monitors \"entropy\" (transaction volume). If it exceeds a critical threshold, it automatically increases resistance, similar to a circuit breaker. Paymaster Infrastructure: Agents are \"unbanked\" and struggle to manage ETH for gas. I built a Paymaster service that allows agents to interact with the protocol without holding ETH directly, currently supported by Developer Grants (credits). Status: The contracts are live on Base Mainnet. This is not a startup. There is no",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-18T15:50:28.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://llmskirmish.com/",
       "title": "Show HN: A real-time strategy game that AI agents can play",
       "link": "https://llmskirmish.com/",
@@ -1817,6 +1828,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-19T07:34:31.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://css-agent-garden.fly.dev/",
+      "title": "CSS Agent Garden – AI agents style one HTML page via MCP",
+      "link": "https://css-agent-garden.fly.dev/",
+      "summary": "Article URL: https://css-agent-garden.fly.dev/ Comments URL: https://news.ycombinator.com/item?id=47084988 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-20T07:50:53.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -2301,6 +2324,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/AmrDab/clawd-cursor",
+      "title": "AI Desktop Agent over VNC – your AI connects to your desktop like a remote user",
+      "link": "https://github.com/AmrDab/clawd-cursor",
+      "summary": "Article URL: https://github.com/AmrDab/clawd-cursor Comments URL: https://news.ycombinator.com/item?id=47085065 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-20T07:59:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.15325",
       "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
       "link": "https://arxiv.org/abs/2602.15325",
@@ -2625,6 +2660,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.16832",
+      "title": "IndicJR: A Judge-Free Benchmark of Jailbreak Robustness in South Asian Languages",
+      "link": "https://arxiv.org/abs/2602.16832",
+      "summary": "arXiv:2602.16832v1 Announce Type: new Abstract: Safety alignment of large language models (LLMs) is mostly evaluated in English and contract-bound, leaving multilingual vulnerabilities understudied. We introduce \\textbf{Indic Jailbreak Robustness (IJR)}, a judge-free benchmark for adversarial safety across 12 Indic and South Asian languages (2.1 Billion speakers), covering 45216 prompts in JSON (contract-bound) and Free (naturalistic) tracks. IJR reveals three patterns. (1) Contracts inflate refusals but do not stop jailbreaks: in JSON, LLaMA and Sarvam exceed 0.92 JSR, and in Free all models reach 1.0 with refusals collapsing. (2) English to Indic attacks transfer strongly, with format wrappers often outperforming instruction wrappers. (3) Orthography matters: romanized or mixed inputs reduce JSR under JSON, with correlations to romanization share and tokenization (approx 0.28 to 0.32) indicating systematic effects. Human audits confirm detector reliability, and lite-to-full comparisons preserve conclusions. IJR offers a reproducible multilingual stress test revealing risks hidden by English-only, contract-focused evaluations, especially for South Asian users who frequently code-switch and romanize.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 142.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16855",
+      "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+      "link": "https://arxiv.org/abs/2602.16855",
+      "summary": "arXiv:2602.16855v1 Announce Type: new Abstract: The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edge collaboration and real-time interaction. GUI-Owl-1.5 achieves state-of-the-art results on more than 20+ GUI benchmarks on open-source models: (1) on GUI automation tasks, it obtains 56.5 on OSWorld, 71.6 on AndroidWorld, and 48.4 on WebArena; (2) on grounding tasks, it obtains 80.3 on ScreenSpotPro; (3) on tool-calling tasks, it obtains 47.6 on OSWorld-MCP, and 46.8 on MobileWorld; (4) on memory and knowledge tasks, it obtains 75.5 on GUI-Knowledge Bench. GUI-Owl-1.5 incorporates several key innovations: (1) Hybird Data Flywheel: we construct the data pipeline for UI understanding and trajectory generation based on a combination of simulated environments and cloud-based sandbox environments, in order to improve the efficiency and quality of data collection. (2) Unified Enhancement of Agent Capabilities: we use a unified thought-synthesis pipeline to enhance the model's reasoning capabilities, while placing particular emphasis on improving key agent abilities, including Tool/MCP use, memory and multi-agent adaptation; (3) Multi-platform Environment RL Scaling: We propose a new environment RL algor",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 142.11,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.11348",
       "title": "AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition",
       "link": "https://arxiv.org/abs/2602.11348",
@@ -2829,6 +2888,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.16902",
+      "title": "LLM-WikiRace: Benchmarking Long-term Planning and Reasoning over Real-World Knowledge Graphs",
+      "link": "https://arxiv.org/abs/2602.16902",
+      "summary": "arXiv:2602.16902v1 Announce Type: new Abstract: We introduce LLM-Wikirace, a benchmark for evaluating planning, reasoning, and world knowledge in large language models (LLMs). In LLM-Wikirace, models must efficiently navigate Wikipedia hyperlinks step by step to reach a target page from a given source, requiring look-ahead planning and the ability to reason about how concepts are connected in the real world. We evaluate a broad set of open- and closed-source models, including Gemini-3, GPT-5, and Claude Opus 4.5, which achieve the strongest results on the easy level of the task and demonstrate superhuman performance. Despite this, performance drops sharply on hard difficulty: the best-performing model, Gemini-3, succeeds in only 23\\% of hard games, highlighting substantial remaining challenges for frontier models. Our analysis shows that world knowledge is a necessary ingredient for success, but only up to a point, beyond this threshold, planning and long-horizon reasoning capabilities become the dominant factors. Trajectory-level analysis further reveals that even the strongest models struggle to replan after failure, frequently entering loops rather than recovering. LLM-Wikirace is a simple benchmark that reveals clear limitations in current reasoning systems, offering an open arena where planning-capable LLMs still have much to prove. Our code and leaderboard available at ht",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 136.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16931",
+      "title": "Narrow fine-tuning erodes safety alignment in vision-language agents",
+      "link": "https://arxiv.org/abs/2602.16931",
+      "summary": "arXiv:2602.16931v1 Announce Type: new Abstract: Lifelong multimodal agents must continuously adapt to new tasks through post-training, but this creates fundamental tension between acquiring capabilities and preserving safety alignment. We demonstrate that fine-tuning aligned vision-language models on narrow-domain harmful datasets induces severe emergent misalignment that generalizes broadly across unrelated tasks and modalities. Through experiments on Gemma3-4B, we show that misalignment scales monotonically with LoRA rank, and that multimodal evaluation reveals substantially higher misalignment ($70.71 \\pm 1.22$ at $r=128$) than text-only evaluation ($41.19 \\pm 2.51$), suggesting that unimodal safety benchmarks may underestimate alignment degradation in vision-language models. Critically, even 10\\% harmful data in the training mixture induces substantial alignment degradation. Geometric analysis reveals that harmful behaviors occupy a remarkably low-dimensional subspace, with the majority of misalignment information captured in 10 principal components. To mitigate misalignment, we evaluate two strategies: benign narrow fine-tuning and activation-based steering. While both approaches substantially reduce misalignment, neither completely removes the learned harmful behaviors. Our findings highlight the need for robust continual learning frameworks, as current post-training para",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 136.11,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.10625",
       "title": "To Think or Not To Think, That is The Question for Large Reasoning Models in Theory of Mind Tasks",
       "link": "https://arxiv.org/abs/2602.10625",
@@ -2934,6 +3017,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-10T05:44:54.000Z",
       "score": 131.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://desktopcommander.app/",
+      "title": "We built a desktop AI agent that runs commands locally",
+      "link": "https://desktopcommander.app/",
+      "summary": "Article URL: https://desktopcommander.app/ Comments URL: https://news.ycombinator.com/item?id=47084745 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-20T07:14:50.000Z",
+      "score": 130.47,
       "status": "queued"
     },
     {
@@ -3069,6 +3164,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.16727",
+      "title": "Mobility-Aware Cache Framework for Scalable LLM-Based Human Mobility Simulation",
+      "link": "https://arxiv.org/abs/2602.16727",
+      "summary": "arXiv:2602.16727v1 Announce Type: new Abstract: Large-scale human mobility simulation is critical for applications such as urban planning, epidemiology, and transportation analysis. Recent works treat large language models (LLMs) as human agents to simulate realistic mobility behaviors using structured reasoning, but their high computational cost limits scalability. To address this, we design a mobility-aware cache framework named MobCache that leverages reconstructible caches to enable efficient large-scale human mobility simulations. It consists of: (1) a reasoning component that encodes each reasoning step as a latent-space embedding and uses a latent-space evaluator to enable the reuse and recombination of reasoning steps; and (2) a decoding component that employs a lightweight decoder trained with mobility law-constrained distillation to translate latent-space reasoning chains into natural language, thereby improving simulation efficiency while maintaining fidelity. Experiments show that MobCache significantly improves efficiency across multiple dimensions while maintaining performance comparable to state-of-the-art LLM-based methods.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 124.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16891",
+      "title": "OpenSage: Self-programming Agent Generation Engine",
+      "link": "https://arxiv.org/abs/2602.16891",
+      "summary": "arXiv:2602.16891v1 Announce Type: new Abstract: Agent development kits (ADKs) provide effective platforms and tooling for constructing agents, and their designs are critical to the constructed agents' performance, especially the functionality for agent topology, tools, and memory. However, current ADKs either lack sufficient functional support or rely on humans to manually design these components, limiting agents' generalizability and overall performance. We propose OpenSage, the first ADK that enables LLMs to automatically create agents with self-generated topology and toolsets while providing comprehensive and structured memory support. OpenSage offers effective functionality for agents to create and manage their own sub-agents and toolkits. It also features a hierarchical, graph-based memory system for efficient management and a specialized toolkit tailored to software engineering tasks. Extensive experiments across three state-of-the-art benchmarks with various backbone models demonstrate the advantages of OpenSage over existing ADKs. We also conduct rigorous ablation studies to demonstrate the effectiveness of our design for each component. We believe OpenSage can pave the way for the next generation of agent development, shifting the focus from human-centered to AI-centered paradigms.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 124.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16901",
+      "title": "AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks",
+      "link": "https://arxiv.org/abs/2602.16901",
+      "summary": "arXiv:2602.16901v1 Announce Type: new Abstract: LLM agents are increasingly deployed in long-horizon, complex environments to solve challenging problems, but this expansion exposes them to long-horizon attacks that exploit multi-turn user-agent-environment interactions to achieve objectives infeasible in single-turn settings. To measure agent vulnerabilities to such risks, we present AgentLAB, the first benchmark dedicated to evaluating LLM agent susceptibility to adaptive, long-horizon attacks. Currently, AgentLAB supports five novel attack types including intent hijacking, tool chaining, task injection, objective drifting, and memory poisoning, spanning 28 realistic agentic environments, and 644 security test cases. Leveraging AgentLAB, we evaluate representative LLM agents and find that they remain highly susceptible to long-horizon attacks; moreover, defenses designed for single-turn interactions fail to reliably mitigate long-horizon threats. We anticipate that AgentLAB will serve as a valuable benchmark for tracking progress on securing LLM agents in practical settings. The benchmark is publicly available at https://tanqiujiang.github.io/AgentLAB_main.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 124.11,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.16179",
       "title": "EnterpriseGym Corecraft: Training Generalizable Agents on High-Fidelity RL Environments",
       "link": "https://arxiv.org/abs/2602.16179",
@@ -3114,6 +3245,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 123.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47084365",
+      "title": "Show HN: Syne – AI agent that remembers everything, built on PostgreSQL",
+      "link": "https://news.ycombinator.com/item?id=47084365",
+      "summary": "I built Syne because I was tired of AI assistants that forget everything after each conversation. Syne is a self-hosted AI agent framework where memory is a first-class citizen — stored as semantic vectors in PostgreSQL, searchable across millions of entries, and persistent forever. Key features: - Unlimited persistent memory with semantic search (pgvector) - Anti-hallucination: only stores user-confirmed facts, auto-deduplicates - Self-evolving: creates new abilities at runtime without restart - Multi-model: switch between Gemini, ChatGPT, Claude mid-conversation - True $0/month setup: free OAuth + local Ollama embedding + Docker - 19 core tools, sub-agents, Telegram + CLI interfaces Built with Python, PostgreSQL, and Docker. No vendor lock-in. GitHub: https://github.com/riyogarta/syne Landing page: https://syne.codes Comments URL: https://news.ycombinator.com/item?id=47084365 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-20T06:10:45.000Z",
+      "score": 123.32,
       "status": "queued"
     },
     {
@@ -3258,6 +3401,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-09T04:25:55.000Z",
       "score": 118.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16763",
+      "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+      "link": "https://arxiv.org/abs/2602.16763",
+      "summary": "arXiv:2602.16763v1 Announce Type: new Abstract: Artificial Intelligence (AI) benchmarks play a central role in measuring progress in model development and guiding deployment decisions. However, many benchmarks quickly become saturated, meaning that they can no longer differentiate between the best-performing models, diminishing their long-term value. In this study, we analyze benchmark saturation across 60 Large Language Model (LLM) benchmarks selected from technical reports by major model developers. To identify factors driving saturation, we characterize benchmarks along 14 properties spanning task design, data construction, and evaluation format. We test five hypotheses examining how each property contributes to saturation rates. Our analysis reveals that nearly half of the benchmarks exhibit saturation, with rates increasing as benchmarks age. Notably, hiding test data (i.e., public vs. private) shows no protective effect, while expert-curated benchmarks resist saturation better than crowdsourced ones. Our findings highlight which design choices extend benchmark longevity and inform strategies for more durable evaluation.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-20T05:00:00.000Z",
+      "score": 118.11,
       "status": "queued"
     },
     {
@@ -3486,138 +3641,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-10T05:00:00.000Z",
       "score": 116.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Ramsbaby/openclaw-self-healing",
-      "title": "Show HN: Self-Healing AI Agents with Claude Code as Doctor",
-      "link": "https://github.com/Ramsbaby/openclaw-self-healing",
-      "summary": "I built a 4-tier self-healing system for OpenClaw (AI agent platform running on my Mac Mini 24/7). The interesting part is Level 3: when health checks fail repeatedly, the system spawns Claude Code in a tmux PTY session to autonomously diagnose and repair issues. Recovery escalation: - Level 0-1: LaunchAgent KeepAlive + Watchdog - Level 2: Automated \"doctor --fix\" (config validation, port checks) - Level 3: Claude Code spawns in tmux, reads logs, attempts repairs - Level 4: Discord alert if all automation fails Production-tested in my homelab over 3 months: 99% recovery rate, recovery time reduced from 45min → 3min avg. Handled 17 consecutive crashes, config corruption, port conflicts. Built for macOS (stable) with Linux systemd support (beta). MIT licensed. Curious what others think about AI-powered infrastructure self-healing. Comments URL: https://news.ycombinator.com/item?id=46956003 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-10T06:16:08.000Z",
-      "score": 116.21,
-      "status": "queued"
-    },
-    {
-      "id": "https://masonry.so",
-      "title": "Show HN: Figma for AI Images and Videos",
-      "link": "https://masonry.so",
-      "summary": "Built a Figma like AI images & videos by bringing all top images and video models under one single canvas. No workflow no agents - just an infinite canvas to play around with all top models and get to the final video without switching tabs! Comments URL: https://news.ycombinator.com/item?id=47014227 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-14T13:02:06.000Z",
-      "score": 116.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/AhmedAllam0/ghosttrace",
-      "title": "Show HN: GhostTrace – See rejected decisions in AI agents",
-      "link": "https://github.com/AhmedAllam0/ghosttrace",
-      "summary": "Hey HN, When an AI agent makes a decision, it evaluates several options and picks one. The rest disappear forever – you never see what it almost did or why it rejected the alternatives. I built GhostTrace to fix that. It captures \"Phantom Branches\": the actions your agent considered but rejected, with the reasoning for each rejection. All saved to a .ghost.json file you can replay and inspect. Quick demo: ghosttrace record Recorded 4 decisions with 5 phantom branches Saved to gt_a1b2c3d4.ghost.json ghosttrace replay gt_ghost.json --show-phantoms Step 1: read_file → src/auth.py REJECTED: write_file (premature) REJECTED: search_codebase (too broad) pip install ghosttrace PyPI: https://pypi.org/project/ghosttrace/ It's framework-agnostic for now, but what agent frameworks should I integrate first? LangChain? CrewAI? OpenAI Agents SDK? Feedback very welcome! Comments URL: https://news.ycombinator.com/item?id=47057488 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-18T05:24:44.000Z",
-      "score": 115.97,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/jo-inc/camofox-browser",
-      "title": "Anti-detection browser server for AI agents, powered by Camoufox",
-      "link": "https://github.com/jo-inc/camofox-browser",
-      "summary": "Article URL: https://github.com/jo-inc/camofox-browser Comments URL: https://news.ycombinator.com/item?id=46971663 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T06:39:39.000Z",
-      "score": 115.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05048",
-      "title": "MINT: Minimal Information Neuro-Symbolic Tree for Objective-Driven Knowledge-Gap Reasoning and Active Elicitation",
-      "link": "https://arxiv.org/abs/2602.05048",
-      "summary": "arXiv:2602.05048v1 Announce Type: new Abstract: Joint planning through language-based interactions is a key area of human-AI teaming. Planning problems in the open world often involve various aspects of incomplete information and unknowns, e.g., objects involved, human goals/intents -- thus leading to knowledge gaps in joint planning. We consider the problem of discovering optimal interaction strategies for AI agents to actively elicit human inputs in object-driven planning. To this end, we propose Minimal Information Neuro-Symbolic Tree (MINT) to reason about the impact of knowledge gaps and leverage self-play with MINT to optimize the AI agent's elicitation strategies and queries. More precisely, MINT builds a symbolic tree by making propositions of possible human-AI interactions and by consulting a neural planning policy to estimate the uncertainty in planning outcomes caused by remaining knowledge gaps. Finally, we leverage LLM to search and summarize MINT's reasoning process and curate a set of queries to optimally elicit human inputs for best planning performance. By considering a family of extended Markov decision processes with knowledge gaps, we analyze the return guarantee for a given MINT with active human elicitation. Our evaluation on three benchmarks involving unseen/unknown objects of increasing realism shows that MINT-based planning attains near-expert returns b",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 114,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.watchllm.dev/",
-      "title": "WatchLLM – Cost kill switch for AI agents (with loop detection)",
-      "link": "https://www.watchllm.dev/",
-      "summary": "Article URL: https://www.watchllm.dev/ Comments URL: https://news.ycombinator.com/item?id=46933707 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-08T12:34:15.000Z",
-      "score": 113.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://patrickmccanna.net/giving-coding-agents-ssh-access-to-other-systems-without-giving-disclosing-secrets/",
-      "title": "Giving AI agents SSH access without giving up your keys",
-      "link": "https://patrickmccanna.net/giving-coding-agents-ssh-access-to-other-systems-without-giving-disclosing-secrets/",
-      "summary": "Article URL: https://patrickmccanna.net/giving-coding-agents-ssh-access-to-other-systems-without-giving-disclosing-secrets/ Comments URL: https://news.ycombinator.com/item?id=47014335 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-14T13:21:38.000Z",
-      "score": 111.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16039",
-      "title": "How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment",
-      "link": "https://arxiv.org/abs/2602.16039",
-      "summary": "arXiv:2602.16039v1 Announce Type: new Abstract: The rapid rise of large language models (LLMs) is reshaping the landscape of automatic assessment in education. While these systems demonstrate substantial advantages in adaptability to diverse question types and flexibility in output formats, they also introduce new challenges related to output uncertainty, stemming from the inherently probabilistic nature of LLMs. Output uncertainty is an inescapable challenge in automatic assessment, as assessment results often play a critical role in informing subsequent pedagogical actions, such as providing feedback to students or guiding instructional decisions. Unreliable or poorly calibrated uncertainty estimates can lead to unstable downstream interventions, potentially disrupting students' learning processes and resulting in unintended negative consequences. To systematically understand this challenge and inform future research, we benchmark a broad range of uncertainty quantification methods in the context of LLM-based automatic assessment. Although the effectiveness of these methods has been demonstrated in many tasks across other domains, their applicability and reliability in educational settings, particularly for automatic grading, remain underexplored. Through comprehensive analyses of uncertainty behaviors across multiple assessment datasets, LLM families, and generation control",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-19T05:00:00.000Z",
-      "score": 111.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16050",
-      "title": "Evidence-Grounded Subspecialty Reasoning: Evaluating a Curated Clinical Intelligence Layer on the 2025 Endocrinology Board-Style Examination",
-      "link": "https://arxiv.org/abs/2602.16050",
-      "summary": "arXiv:2602.16050v1 Announce Type: new Abstract: Background: Large language models have demonstrated strong performance on general medical examinations, but subspecialty clinical reasoning remains challenging due to rapidly evolving guidelines and nuanced evidence hierarchies. Methods: We evaluated January Mirror, an evidence-grounded clinical reasoning system, against frontier LLMs (GPT-5, GPT-5.2, Gemini-3-Pro) on a 120-question endocrinology board-style examination. Mirror integrates a curated endocrinology and cardiometabolic evidence corpus with a structured reasoning architecture to generate evidence-linked outputs. Mirror operated under a closed-evidence constraint without external retrieval. Comparator LLMs had real-time web access to guidelines and primary literature. Results: Mirror achieved 87.5% accuracy (105/120; 95% CI: 80.4-92.3%), exceeding a human reference of 62.3% and frontier LLMs including GPT-5.2 (74.6%), GPT-5 (74.0%), and Gemini-3-Pro (69.8%). On the 30 most difficult questions (human accuracy less than 50%), Mirror achieved 76.7% accuracy. Top-2 accuracy was 92.5% for Mirror versus 85.25% for GPT-5.2. Conclusions: Mirror provided evidence traceability: 74.2% of outputs cited at least one guideline-tier source, with 100% citation accuracy on manual verification. Curated evidence with explicit provenance can outperform unconstrained web retrieval for subsp",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-19T05:00:00.000Z",
-      "score": 111.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16424",
-      "title": "Verifiable Semantics for Agent-to-Agent Communication",
-      "link": "https://arxiv.org/abs/2602.16424",
-      "summary": "arXiv:2602.16424v1 Announce Type: new Abstract: Multiagent AI systems require consistent communication, but we lack methods to verify that agents share the same understanding of the terms used. Natural language is interpretable but vulnerable to semantic drift, while learned protocols are efficient but opaque. We propose a certification protocol based on the stimulus-meaning model, where agents are tested on shared observable events and terms are certified if empirical disagreement falls below a statistical threshold. In this protocol, agents restricting their reasoning to certified terms (\"core-guarded reasoning\") achieve provably bounded disagreement. We also outline mechanisms for detecting drift (recertification) and recovering shared vocabulary (renegotiation). In simulations with varying degrees of semantic divergence, core-guarding reduces disagreement by 72-96%. In a validation with fine-tuned language models, disagreement is reduced by 51%. Our framework provides a first step towards verifiable agent-to-agent communication.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-19T05:00:00.000Z",
-      "score": 111.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.13224",
-      "title": "A Geometric Taxonomy of Hallucinations in LLMs",
-      "link": "https://arxiv.org/abs/2602.13224",
-      "summary": "arXiv:2602.13224v1 Announce Type: new Abstract: The term \"hallucination\" in large language models conflates distinct phenomena with different geometric signatures in embedding space. We propose a taxonomy identifying three types: unfaithfulness (failure to engage with provided context), confabulation (invention of semantically foreign content), and factual error (incorrect claims within correct conceptual frames). We observe a striking asymmetry. On standard benchmarks where hallucinations are LLM-generated, detection is domain-local: AUROC 0.76-0.99 within domains, but 0.50 (chance level) across domains. Discriminative directions are approximately orthogonal between domains (mean cosine similarity -0.07). On human-crafted confabulations - invented institutions, redefined terminology, fabricated mechanisms - a single global direction achieves 0.96 AUROC with 3.8% cross-domain degradation. We interpret this divergence as follows: benchmarks capture generation artifacts (stylistic signatures of prompted fabrication), while human-crafted confabulations capture genuine topical drift. The geometric structure differs because the underlying phenomena differ. Type III errors show 0.478 AUROC - indistinguishable from chance. This reflects a theoretical constraint: embeddings encode distributional co-occurrence, not correspondence to external reality. Statements with identical contextual",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-17T05:00:00.000Z",
-      "score": 111.6,
       "status": "queued"
     },
     {
