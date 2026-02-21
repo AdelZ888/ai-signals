@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-20T15:40:51.096Z",
+  "generatedAt": "2026-02-21T08:24:36.188Z",
   "items": [
+    {
+      "id": "https://www.bbc.com/news/articles/cn4gq352w89o?at_medium=RSS&at_campaign=rss",
+      "title": "Tumbler Ridge suspect's ChatGPT account banned before shooting",
+      "link": "https://www.bbc.com/news/articles/cn4gq352w89o?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI said the account's activity did not meet the threshold to flag it to authorities when it was identified.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-21T07:30:32.000Z",
+      "score": 144,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-21T08:24:36.169Z",
+      "file": "content/posts/2026-02-21-openai-says-chatgpt-account-tied-to-tumbler-ridge-suspect-was-banned-in-june-2025-but-not-reported-to-police.md",
+      "fileFr": "content/posts/fr/2026-02-21-openai-says-chatgpt-account-tied-to-tumbler-ridge-suspect-was-banned-in-june-2025-but-not-reported-to-police.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1355,
+      "wordsFr": 1114
+    },
     {
       "id": "https://github.com/garagon/aguara",
       "title": "Show HN: Aguara – Security scanner for AI agent skills and MCP servers",
@@ -1567,6 +1590,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47098555",
+      "title": "Show HN: Using classic dev books to guide AI agents",
+      "link": "https://news.ycombinator.com/item?id=47098555",
+      "summary": "I've been experimenting with turning principles from classic software engineering books (Clean Code, DDIA, etc.) into structured \"skill\" files that AI agents can use during code review. Each skill is an opinionated instruction set grounded in known engineering wisdom — not a summary or excerpt. Repo: https://github.com/ZLStas/skills I'm trying to figure out the best way to wire this into a practical workflow — whether as a review layer or as a tool to iteratively refactor a legacy codebase into something clean and well-structured. A few open questions I'd love input on: Does it make sense to use book-based principles as a structured lens for AI-driven code review? How would you set up sub-agents to iteratively review LLM output — one agent creates, another evaluates — without the review becoming shallow or repetitive? Has anyone tried a different approach that worked better? How do you maintain project context across multiple review passes so the agent doesn't lose sight of the bigger picture? Comments URL: https://news.ycombinator.com/item?id=47098555 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-21T08:03:41.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/M2Dr3g0n/kremis",
       "title": "Show HN: Kremis – Graph-based memory for AI agents with no hidden state (Rust)",
       "link": "https://github.com/M2Dr3g0n/kremis",
@@ -2623,6 +2658,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47098387",
+      "title": "Looking for technical co-founder to build AI-powered stack migration platform",
+      "link": "https://news.ycombinator.com/item?id=47098387",
+      "summary": "I'm migrating an Android app to Flutter and it's a nightmare. Months of manual work, endless bugs, fear of breaking things. So I'm building the tool I wish existed. Massive market: $95B+ annually. Every company eventually migrates. The product: AI-powered platform that automates stack migrations. Start with Android→Flutter, expand to iOS, React Native, databases. Use AI to restructure data intelligently. Tech approach: Core engine with pluggable parsers/generators. AI-first (Gemini 2.5 Flash). Build once, support many stacks. Looking for: Technical co-founder who's felt migration pain. I've written a 27-page doc with market analysis, tech architecture, AI strategy, and complete action plan. Email tonnykamau6@gmail.com if interested. Comments URL: https://news.ycombinator.com/item?id=47098387 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-21T07:29:21.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
       "title": "'The world is in peril': AI researchers quit with public warnings",
       "link": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
@@ -3115,6 +3162,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/etazza2025/laravel-mbc",
+      "title": "Show HN: MBC – AI agent orchestration for Laravel",
+      "link": "https://github.com/etazza2025/laravel-mbc",
+      "summary": "Article URL: https://github.com/etazza2025/laravel-mbc Comments URL: https://news.ycombinator.com/item?id=47098232 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-21T07:04:16.000Z",
+      "score": 131.18,
+      "status": "queued"
+    },
+    {
       "id": "https://desktopcommander.app/",
       "title": "We built a desktop AI agent that runs commands locally",
       "link": "https://desktopcommander.app/",
@@ -3124,6 +3183,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-20T07:14:50.000Z",
       "score": 130.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://hnshowcase.com",
+      "title": "Show HN: HN Showcase – I rebuilt my 2011 Show HN gallery with AI curation",
+      "link": "https://hnshowcase.com",
+      "summary": "I built HN Showcase as a weekend project in 2011 (https://news.ycombinator.com/item?id=2843490) - a thumbnail gallery for Show HN posts. It got some love (https://news.ycombinator.com/item?id=4053755, 158 pts), then went offline like all side projects do. Fourteen years later, Show HN gets hundreds of posts per day and it's harder to find the interesting stuff. So I rebuilt it from scratch. Every post gets a Playwright screenshot, then Claude Haiku analyzes the screenshot + page content + GitHub README to classify it into tiers (Gem → Banger → Solid → Mid → Pass) with a one-sentence editorial take and vibe tags like \"Wizardry\" or \"Dark Horse.\" The whole rating system was built by iterating with AI — I gave it the objective (surface interesting projects, don't inflate scores) and had it design the tier rubric, pick real posts as calibration benchmarks, and tune itself until the distribution had teeth. I didn't hand-label a single example. Out of a couple thousand posts analyzed, under 1% got \"Gem.\" Open source: https://github.com/InsipidPoint/showhn Would love feedback — are the ratings reasonably calibrated? Any projects rated unfairly? Comments URL: https://news.ycombinator.com/item?id=47098260 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-21T07:07:57.000Z",
+      "score": 130.05,
       "status": "queued"
     },
     {
@@ -3616,54 +3687,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-17T05:00:00.000Z",
       "score": 117.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.13258",
-      "title": "MAPLE: A Sub-Agent Architecture for Memory, Learning, and Personalization in Agentic AI Systems",
-      "link": "https://arxiv.org/abs/2602.13258",
-      "summary": "arXiv:2602.13258v1 Announce Type: new Abstract: Large language model (LLM) agents have emerged as powerful tools for complex tasks, yet their ability to adapt to individual users remains fundamentally limited. We argue this limitation stems from a critical architectural conflation: current systems treat memory, learning, and personalization as a unified capability rather than three distinct mechanisms requiring different infrastructure, operating on different timescales, and benefiting from independent optimization. We propose MAPLE (Memory-Adaptive Personalized LEarning), a principled decomposition where Memory handles storage and retrieval infrastructure; Learning extracts intelligence from accumulated interactions asynchronously; and Personalization applies learned knowledge in real-time within finite context budgets. Each component operates as a dedicated sub-agent with specialized tooling and well-defined interfaces. Experimental evaluation on the MAPLE-Personas benchmark demonstrates that our decomposition achieves a 14.6% improvement in personalization score compared to a stateless baseline (p < 0.01, Cohen's d = 0.95) and increases trait incorporation rate from 45% to 75% -- enabling agents that genuinely learn and adapt.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-17T05:00:00.000Z",
-      "score": 117.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10885",
-      "title": "Reinforcing Chain-of-Thought Reasoning with Self-Evolving Rubrics",
-      "link": "https://arxiv.org/abs/2602.10885",
-      "summary": "arXiv:2602.10885v1 Announce Type: new Abstract: Despite chain-of-thought (CoT) playing crucial roles in LLM reasoning, directly rewarding it is difficult: training a reward model demands heavy human labeling efforts, and static RMs struggle with evolving CoT distributions and reward hacking. These challenges motivate us to seek an autonomous CoT rewarding approach that requires no human annotation efforts and can evolve gradually. Inspired by recent self-evolving training methods, we propose \\textbf{RLCER} (\\textbf{R}einforcement \\textbf{L}earning with \\textbf{C}oT Supervision via Self-\\textbf{E}volving \\textbf{R}ubrics), which enhances the outcome-centric RLVR by rewarding CoTs with self-proposed and self-evolving rubrics. We show that self-proposed and self-evolving rubrics provide reliable CoT supervision signals even without outcome rewards, enabling RLCER to outperform outcome-centric RLVR. Moreover, when used as in-prompt hints, these self-proposed rubrics further improve inference-time performance.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 117.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.15112",
-      "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
-      "link": "https://arxiv.org/abs/2602.15112",
-      "summary": "arXiv:2602.15112v1 Announce Type: new Abstract: We introduce ResearchGym, a benchmark and execution environment for evaluating AI agents on end-to-end research. To instantiate this, we repurpose five oral and spotlight papers from ICML, ICLR, and ACL. From each paper's repository, we preserve the datasets, evaluation harness, and baseline implementations but withhold the paper's proposed method. This results in five containerized task environments comprising 39 sub-tasks in total. Within each environment, agents must propose novel hypotheses, run experiments, and attempt to surpass strong human baselines on the paper's metrics. In a controlled evaluation of an agent powered by GPT-5, we observe a sharp capability--reliability gap. The agent improves over the provided baselines from the repository in just 1 of 15 evaluations (6.7%) by 11.5%, and completes only 26.5% of sub-tasks on average. We identify recurring long-horizon failure modes, including impatience, poor time and resource management, overconfidence in weak hypotheses, difficulty coordinating parallel experiments, and hard limits from context length. Yet in a single run, the agent surpasses the solution of an ICML 2025 Spotlight task, indicating that frontier agents can occasionally reach state-of-the-art performance, but do so unreliably. We additionally evaluate proprietary agent scaffolds including Claude Code (Opu",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-18T05:00:00.000Z",
-      "score": 117.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.15173",
-      "title": "Mind the (DH) Gap! A Contrast in Risky Choices Between Reasoning and Conversational LLMs",
-      "link": "https://arxiv.org/abs/2602.15173",
-      "summary": "arXiv:2602.15173v1 Announce Type: new Abstract: The use of large language models either as decision support systems, or in agentic workflows, is rapidly transforming the digital ecosystem. However, the understanding of LLM decision-making under uncertainty remains limited. We initiate a comparative study of LLM risky choices along two dimensions: (1) prospect representation (explicit vs. experience based) and (2) decision rationale (explanation). Our study, which involves 20 frontier and open LLMs, is complemented by a matched human subjects experiment, which provides one reference point, while an expected payoff maximizing rational agent model provides another. We find that LLMs cluster into two categories: reasoning models (RMs) and conversational models (CMs). RMs tend towards rational behavior, are insensitive to the order of prospects, gain/loss framing, and explanations, and behave similarly whether prospects are explicit or presented via experience history. CMs are significantly less rational, slightly more human-like, sensitive to prospect ordering, framing, and explanation, and exhibit a large description-history gap. Paired comparisons of open LLMs suggest that a key factor differentiating RMs and CMs is training for mathematical reasoning.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-18T05:00:00.000Z",
-      "score": 117.54,
       "status": "queued"
     },
     {
