@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T08:25:22.251Z",
+  "generatedAt": "2026-02-22T15:30:49.399Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "timeToImplementMinutes": 120,
       "editorialTemplate": "SOCIETY",
       "readingTimeMinutes": 8
+    },
+    {
+      "slug": "2026-02-22-malicious-npm-plugin-in-openclaw-exposed-processenv-captured-browser-cookies-and-injected-soulmd-prompts",
+      "title": "Malicious npm plugin in OpenClaw exposed process.env, captured browser cookies, and injected SOUL.md prompts",
+      "date": "2026-02-22",
+      "excerpt": "Incident analysis of @getfoundry/unbrowse-openclaw: plugin read process.env, exfiltrated browser cookies/tokens, and injected SOUL.md prompts. Detection steps and remediation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-22-malicious-npm-plugin-in-openclaw-exposed-processenv-captured-browser-cookies-and-injected-soulmd-prompts.jpg",
+      "tags": [
+        "security",
+        "supply-chain",
+        "npm",
+        "nodejs",
+        "ai-safety",
+        "incident-response",
+        "plugins",
+        "openclaw"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47109114"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
     },
     {
       "slug": "2026-02-21-opaal-visual-designer-for-multi-agent-claude-code-workflows",

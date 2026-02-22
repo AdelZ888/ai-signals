@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T08:25:22.251Z",
+  "generatedAt": "2026-02-22T15:30:49.400Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "timeToImplementMinutes": 120,
       "editorialTemplate": "SOCIETY",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-22-malicious-npm-plugin-in-openclaw-exposed-processenv-captured-browser-cookies-and-injected-soulmd-prompts",
+      "title": "Plugin npm malveillant dans OpenClaw : process.env exposé, cookies de navigateur capturés et injections dans SOUL.md",
+      "date": "2026-02-22",
+      "excerpt": "Analyse d'incident de @getfoundry/unbrowse-openclaw : le plugin a lu process.env, exfiltré des cookies/tokens du navigateur et injecté des instructions dans des fichiers de démarrage (SOUL.md, AGENTS.md, HEARTBEAT.md). Étapes de détection et remédiation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-22-malicious-npm-plugin-in-openclaw-exposed-processenv-captured-browser-cookies-and-injected-soulmd-prompts.jpg",
+      "tags": [
+        "sécurité",
+        "npm",
+        "supply-chain",
+        "node.js",
+        "openclaw",
+        "incident-response",
+        "plugins",
+        "gestion-des-secrets"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47109114"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
