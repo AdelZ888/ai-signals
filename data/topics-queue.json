@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-21T15:28:52.084Z",
+  "generatedAt": "2026-02-22T08:25:22.257Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo",
+      "title": "Money no longer matters to AI’s top talent",
+      "link": "https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo",
+      "summary": "Today on Decoder we’re going to talk about the war for AI talent. Right now, the hottest job market on the planet is for AI researchers. The vast majority of these people are concentrated into a small number of hugely valuable, extremely fast-growing companies in the San Francisco Bay Area. Nowadays, such companies are paying some of the highest salaries in the history of the tech industry to poach researchers from…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-19T15:00:00.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-02-22T08:25:22.241Z",
+      "file": "content/posts/2026-02-22-ai-researchers-prioritize-mission-and-safety-over-pay-hiring-and-retention-actions-for-founders.md",
+      "fileFr": "content/posts/fr/2026-02-22-ai-researchers-prioritize-mission-and-safety-over-pay-hiring-and-retention-actions-for-founders.md",
+      "generationMode": "llm",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1628,
+      "wordsFr": 1479
+    },
     {
       "id": "https://github.com/Agravak/opaal",
       "title": "Show HN: Opaal Visual multi-agent prompt designer for Claude Code and agentic AI",
@@ -1565,6 +1588,30 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47109076",
+      "title": "Show HN: LawClaw – Constitutional governance for AI agents (MIT)",
+      "link": "https://news.ycombinator.com/item?id=47109076",
+      "summary": "Most AI agents today run with unchecked access to tools like shell execution, database writes, and arbitrary HTTP calls. There's no systematic way to constrain what they can do before execution happens. You're essentially giving a new employee root access and no employment contract. LawClaw applies a separation-of-powers model to agent governance — borrowing from constitutional design to create layered, enforceable rules. Three layers: Constitution: Immutable core rules embedded in the system prompt. The agent cannot override these regardless of user instruction. Legislature: Detailed behavioral laws written as plain markdown files. Human-readable, git-diffable, no custom DSL. Change the law by editing a file and committing. Pre-Judiciary: Automated enforcement that runs before tool execution, not after. It inspects the LLM's intended action and blocks it if it violates law. Think traffic cameras, not courtrooms. This is where \"rm -rf /\", \"DROP TABLE\", and \"curl | bash\" get intercepted. Because the governed \"society\" has exactly one citizen (the agent), there's no need for an Executive branch — enforcement is fully automated. What ships with it: - Telegram bot interface - Multi-provider LLM support (OpenRouter, Z.AI, Claude Max proxy) - Cron job scheduling - Full audit trail of every action attempted and whether it was allowed or blocked - Runtime tool ban/approve without resta",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-22T07:34:57.000Z",
+      "score": 222,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47109114",
+      "title": "I Got Pwned by a Malicious AI Plugin: A Technical Breakdown",
+      "link": "https://news.ycombinator.com/item?id=47109114",
+      "summary": "*Context:* I run OpenClaw. On Feb 5th, I installed `@getfoundry/unbrowse-openclaw` from npm. Two weeks later, I discovered it was exfiltrating credentials to a remote \"skill marketplace.\" I did something stupid and I am sharing this to warn others. ## Attack Vectors ### 1. Process Environment Access Plugin ran inside the OpenClaw gateway (Node.js). Could read `process.env`, which included: - `OP_SERVICE_ACCOUNT_TOKEN` (1Password service account with vault access) - `OPENCLAW_GATEWAY_TOKEN` - Various API keys (Slack, Telegram, OpenAI, etc.) ### 2. Browser Traffic Interception Captured auth cookies/tokens from browser API calls: - AmEx (22-26 cookies including JSESSIONID, Akamai tokens) - Stanford MyHealth (126-128 cookies, HIPAA data) - Kubera (portfolio aggregator) - Twitter/X (bearer tokens) - My startup's admin session Each capture logged as `Auto-published [service] to skill marketplace` with HTTP 200 responses from remote server. ### 3. Prompt Injection at Configuration Level Modified files my AI reads on startup: - `SOUL.md` (personality/behavior) - `AGENTS.md` (operational protocols) - `HEARTBEAT.md` (autonomous task scheduling) - Daily memory logs Injected instructions: - Stop responding to diagnostic questions - Lie about system state - Request 1Password integration - Hide Solana payment references ## The Payload Found in config: - Solana wallet address field - Dependen",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-22T07:41:27.000Z",
+      "score": 198,
+      "status": "queued"
+    },
+    {
       "id": "https://llmskirmish.com/",
       "title": "Show HN: A real-time strategy game that AI agents can play",
       "link": "https://llmskirmish.com/",
@@ -1573,18 +1620,6 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-18T15:08:44.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo",
-      "title": "Money no longer matters to AI’s top talent",
-      "link": "https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo",
-      "summary": "Today on Decoder we’re going to talk about the war for AI talent. Right now, the hottest job market on the planet is for AI researchers. The vast majority of these people are concentrated into a small number of hugely valuable, extremely fast-growing companies in the San Francisco Bay Area. Nowadays, such companies are paying some of the highest salaries in the history of the tech industry to poach researchers from one another. It feels like every time one of these AI researchers leaves one company for another, they tell us exactly why. Sometimes they’re simply resigning to go be a poet. Sometimes they’re chasing a mission. Sometimes they’re worried that AI is going to imperil humanity, destroy all jobs, and plunge the world into chaos. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. They’re really saying these things. They’re publishing these notes on X, in blog posts, or in the case of one former OpenAI safety researcher by writing a full New York Times op-ed. I’ve been dying to really dig in and try to unpack what’s going on with all these talent moves in AI. So my guest today is Verge senior AI reporter Hayden Field, who’s been covering the revolving door of the AI industry really closely and also the broader culture that’s motivating the AI workers to jump ship an",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-19T15:00:00.000Z",
       "score": 186,
       "status": "queued"
     },
@@ -3197,6 +3232,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/souvikghosh957/secret-sanitizer-extension",
+      "title": "Show HN: Secret Sanitizer – auto-masks secrets when you paste into AI chats",
+      "link": "https://github.com/souvikghosh957/secret-sanitizer-extension",
+      "summary": "I kept pasting code with hardcoded API keys, database credentials, and auth tokens into ChatGPT while debugging. Copy a failing function, paste it into AI, and realise your AWS secret key or Stripe token was right there in the snippet. So I built (with some help from Claude) a simple Chrome extension that intercepts the paste, detects secrets using local regex, and replaces them with [MASKED] before they reach the chat. Originals stay in a local AES-256 encrypted vault for unmasking. No servers. No network requests. No tracking. ~41 KB, zero dependencies. Don't take my word for it: 'grep -r \"fetch\\|XMLHttpRequest\" content_script.js' returns nothing. Works on ChatGPT, Claude, Gemini, Grok, Perplexity, DeepSeek, and any custom site you add. Supports 30+ patterns — AWS keys, GitHub tokens, JWTs, Stripe keys, database URLs, private keys, and more. You can toggle individual patterns off for false positives. Open source, MIT licensed. With the recent news about extensions harvesting AI conversations, I figured more devs could use this. Would love feedback — especially on patterns I might be missing or edge cases you hit. Comments URL: https://news.ycombinator.com/item?id=47108901 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-22T07:00:09.000Z",
+      "score": 131.29,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/hongzhidao/jsbench/tree/main/docs",
       "title": "An Nginx Engineer Took over AI's Benchmark Tool",
       "link": "https://github.com/hongzhidao/jsbench/tree/main/docs",
@@ -3629,6 +3676,18 @@
       "status": "queued"
     },
     {
+      "id": "https://insforge.dev/blog/webmcp-browser-native-execution-model-for-ai-agents",
+      "title": "WebMCP: A Browser-Native Execution Model for AI Agents",
+      "link": "https://insforge.dev/blog/webmcp-browser-native-execution-model-for-ai-agents",
+      "summary": "Article URL: https://insforge.dev/blog/webmcp-browser-native-execution-model-for-ai-agents Comments URL: https://news.ycombinator.com/item?id=47108582 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-22T05:49:04.000Z",
+      "score": 119.46,
+      "status": "queued"
+    },
+    {
       "id": "https://hamzamostafa.com/blog/agents-training-their-own-models",
       "title": "Show HN: I Let AI Agents Train Their Own Models. Here's What Happened",
       "link": "https://hamzamostafa.com/blog/agents-training-their-own-models",
@@ -3674,42 +3733,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-13T05:00:00.000Z",
       "score": 117.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11455",
-      "title": "Credit Where It is Due: Cross-Modality Connectivity Drives Precise Reinforcement Learning for MLLM Reasoning",
-      "link": "https://arxiv.org/abs/2602.11455",
-      "summary": "arXiv:2602.11455v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) has significantly advanced the reasoning capabilities of Multimodal Large Language Models (MLLMs), yet how visual evidence is integrated during reasoning remains poorly understood. We explore multimodal RLVR through the lens of cross-modal attention connectivity and find that only a small fraction of tokens (approximately 15%) exhibit strong visual-textual coupling. These high-connectivity tokens act as anchors that ground reasoning in the image, while the majority follow linguistic patterns. During RLVR training, credit assignment naturally concentrates on these anchors, sharpening their visual grounding over time. Building on this insight, we propose Anchor-Token Reinforcement Learning (AT-RL), a lightweight framework that selectively reinforces high-connectivity tokens via graph-based clustering of attention topology. Evaluated across the series (3B-32B), AT-RL introduces only 1.2% overhead yet enables the 32B model to surpass the 72B-Instruct baseline on MathVista (80.2), with consistent gains observed across STEM, video and general tasks. Conversely, training solely on low-connectivity tokens causes severe degradation, confirming that effective multimodal RL hinges on precise credit assignment to visual anchors. Our work reveals that reasoning quality is governed not by to",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 117.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16105",
-      "title": "GPSBench: Do Large Language Models Understand GPS Coordinates?",
-      "link": "https://arxiv.org/abs/2602.16105",
-      "summary": "arXiv:2602.16105v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed in applications that interact with the physical world, such as navigation, robotics, or mapping, making robust geospatial reasoning a critical capability. Despite that, LLMs' ability to reason about GPS coordinates and real-world geography remains underexplored. We introduce GPSBench, a dataset of 57,800 samples across 17 tasks for evaluating geospatial reasoning in LLMs, spanning geometric coordinate operations (e.g., distance and bearing computation) and reasoning that integrates coordinates with world knowledge. Focusing on intrinsic model capabilities rather than tool use, we evaluate 14 state-of-the-art LLMs and find that GPS reasoning remains challenging, with substantial variation across tasks: models are generally more reliable at real-world geographic reasoning than at geometric computations. Geographic knowledge degrades hierarchically, with strong country-level performance but weak city-level localization, while robustness to coordinate noise suggests genuine coordinate understanding rather than memorization. We further show that GPS-coordinate augmentation can improve in downstream geospatial tasks, and that finetuning induces trade-offs between gains in geometric computation and degradation in world knowledge. Our dataset and reproducible code are available at htt",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-19T05:00:00.000Z",
-      "score": 117.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16173",
-      "title": "Learning Personalized Agents from Human Feedback",
-      "link": "https://arxiv.org/abs/2602.16173",
-      "summary": "arXiv:2602.16173v1 Announce Type: new Abstract: Modern AI agents are powerful but often fail to align with the idiosyncratic, evolving preferences of individual users. Prior approaches typically rely on static datasets, either training implicit preference models on interaction history or encoding user profiles in external memory. However, these approaches struggle with new users and with preferences that change over time. We introduce Personalized Agents from Human Feedback (PAHF), a framework for continual personalization in which agents learn online from live interaction using explicit per-user memory. PAHF operationalizes a three-step loop: (1) seeking pre-action clarification to resolve ambiguity, (2) grounding actions in preferences retrieved from memory, and (3) integrating post-action feedback to update memory when preferences drift. To evaluate this capability, we develop a four-phase protocol and two benchmarks in embodied manipulation and online shopping. These benchmarks quantify an agent's ability to learn initial preferences from scratch and subsequently adapt to persona shifts. Our theoretical analysis and empirical results show that integrating explicit memory with dual feedback channels is critical: PAHF learns substantially faster and consistently outperforms both no-memory and single-channel baselines, reducing initial personalization error and enabling rapid",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-19T05:00:00.000Z",
-      "score": 117.75,
       "status": "queued"
     },
     {
