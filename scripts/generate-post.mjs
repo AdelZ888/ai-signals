@@ -28,6 +28,7 @@ const STRICT_PUBLISH = String(process.env.STRICT_PUBLISH ?? "1") !== "0";
 const ALLOW_FALLBACK_CONTENT = String(process.env.ALLOW_FALLBACK_CONTENT ?? "0") === "1";
 const MAX_TOPIC_ATTEMPTS = Math.max(1, Math.min(12, Number(process.env.MAX_TOPIC_ATTEMPTS || 5)));
 const LOG_STAGES = String(process.env.LOG_STAGES ?? "1") !== "0";
+const PLAIN_LANGUAGE_PASS_ENABLED = String(process.env.PLAIN_LANGUAGE_PASS_ENABLED ?? "1") !== "0";
 const SOURCE_FETCH_TIMEOUT_MS = Math.max(3_000, Math.min(30_000, Number(process.env.SOURCE_FETCH_TIMEOUT_MS || 8_000)));
 const SOURCE_SNAPSHOT_CHARS = Math.max(1_200, Math.min(8_000, Number(process.env.SOURCE_SNAPSHOT_CHARS || 2_500)));
 const SOURCE_FETCH_MAX_BYTES = Math.max(80_000, Math.min(1_500_000, Number(process.env.SOURCE_FETCH_MAX_BYTES || 450_000)));
@@ -218,24 +219,24 @@ const EDITORIAL_TEMPLATES = {
     minWordsEn: Math.max(MIN_WORDS_EN_DEFAULT, 950),
     minWordsFr: Math.max(MIN_WORDS_FR_DEFAULT, 900),
     headingsEn: [
-      "Builder TL;DR",
+      "TL;DR in plain English",
       "What changed",
-      "Technical teardown (for engineers)",
-      "Implementation blueprint (for developers)",
-      "Founder lens: cost, moat, and distribution",
+      "Why this matters (for real teams)",
+      "Concrete example: what this looks like in practice",
+      "What small teams and solo founders should do now",
       "Regional lens ({region})",
       "US, UK, FR comparison",
-      "Ship-this-week checklist",
+      "Technical notes + this-week checklist",
     ],
     headingsFr: [
-      "TL;DR builders",
+      "TL;DR en langage simple",
       "Ce qui a change",
-      "Demontage technique (pour ingenieurs)",
-      "Plan d'implementation (pour developpeurs)",
-      "Vue fondateur: cout, avantage, distribution",
+      "Pourquoi c'est important (pour les vraies equipes)",
+      "Exemple concret: a quoi cela ressemble en pratique",
+      "Ce que les petites equipes et solos doivent faire maintenant",
       "Angle regional ({region})",
       "Comparatif US, UK, FR",
-      "Checklist a shipper cette semaine",
+      "Notes techniques + checklist de la semaine",
     ],
   },
   TUTORIAL: {
@@ -244,24 +245,24 @@ const EDITORIAL_TEMPLATES = {
     minWordsEn: Math.max(MIN_WORDS_EN_DEFAULT, 1200),
     minWordsFr: Math.max(MIN_WORDS_FR_DEFAULT, 1100),
     headingsEn: [
-      "Builder TL;DR",
-      "Goal and expected outcome",
-      "Stack and prerequisites",
-      "Step-by-step implementation",
-      "Reference architecture",
-      "Founder lens: ROI and adoption path",
-      "Failure modes and debugging",
-      "Production checklist",
+      "TL;DR in plain English",
+      "What you will build and why it helps",
+      "Before you start (time, cost, prerequisites)",
+      "Step-by-step setup and implementation",
+      "Common problems and quick fixes",
+      "First use case for a small team",
+      "Technical notes (optional)",
+      "What to do next (production checklist)",
     ],
     headingsFr: [
-      "TL;DR builders",
-      "Objectif et resultat attendu",
-      "Stack et prerequis",
-      "Implementation pas a pas",
-      "Architecture de reference",
-      "Vue fondateur: ROI et adoption",
-      "Pannes frequentes et debugging",
-      "Checklist production",
+      "TL;DR en langage simple",
+      "Ce que vous allez construire et pourquoi c'est utile",
+      "Avant de commencer (temps, cout, prerequis)",
+      "Installation et implementation pas a pas",
+      "Problemes frequents et correctifs rapides",
+      "Premier cas d'usage pour une petite equipe",
+      "Notes techniques (optionnel)",
+      "Que faire ensuite (checklist production)",
     ],
   },
   ANALYSIS: {
@@ -270,24 +271,24 @@ const EDITORIAL_TEMPLATES = {
     minWordsEn: Math.max(MIN_WORDS_EN_DEFAULT, 1100),
     minWordsFr: Math.max(MIN_WORDS_FR_DEFAULT, 1000),
     headingsEn: [
-      "Builder TL;DR",
-      "Core thesis",
-      "Evidence from sources",
-      "Technical implications",
-      "Founder lens: business consequences",
+      "TL;DR in plain English",
+      "Core question and short answer",
+      "What the sources actually show",
+      "Concrete example: where this matters",
+      "What small teams should pay attention to",
       "Trade-offs and risks",
-      "Decision framework",
-      "Metrics to track",
+      "Technical notes (for advanced readers)",
+      "Decision checklist and next steps",
     ],
     headingsFr: [
-      "TL;DR builders",
-      "These centrale",
-      "Evidences issues des sources",
-      "Implications techniques",
-      "Vue fondateur: consequences business",
+      "TL;DR en langage simple",
+      "Question centrale et reponse courte",
+      "Ce que montrent vraiment les sources",
+      "Exemple concret: ou cela compte",
+      "Ce que les petites equipes doivent surveiller",
       "Compromis et risques",
-      "Cadre de decision",
-      "Metriques a suivre",
+      "Notes techniques (pour lecteurs avances)",
+      "Checklist de decision et prochaines etapes",
     ],
   },
   SOCIETY: {
@@ -296,24 +297,24 @@ const EDITORIAL_TEMPLATES = {
     minWordsEn: Math.max(MIN_WORDS_EN_DEFAULT, 1100),
     minWordsFr: Math.max(MIN_WORDS_FR_DEFAULT, 1050),
     headingsEn: [
-      "TL;DR (jobs + builders)",
+      "TL;DR (jobs + people, plain English)",
       "What the sources actually say",
-      "Tasks vs jobs: what's exposed",
+      "Which tasks are exposed vs which jobs change slowly",
       "Three concrete personas (2026 scenarios)",
-      "What to do if you're an employee",
-      "What to do if you're a founder/manager",
+      "What employees should do now",
+      "What founders and managers should do now",
       "France / US / UK lens",
-      "Ship-this-week checklist",
+      "Checklist and next steps",
     ],
     headingsFr: [
-      "TL;DR (emploi + builders)",
+      "TL;DR (emploi + personnes, langage simple)",
       "Ce que disent vraiment les sources",
-      "Taches vs emplois: ce qui est expose",
+      "Quelles taches sont exposees vs quels emplois changent plus lentement",
       "Trois personas concrets (scenarios 2026)",
-      "Quoi faire si vous etes salarie",
-      "Quoi faire si vous etes fondateur/manager",
+      "Ce que les salaries doivent faire maintenant",
+      "Ce que les fondateurs et managers doivent faire maintenant",
       "Angle France / US / UK",
-      "Checklist a shipper cette semaine",
+      "Checklist et prochaines etapes",
     ],
   },
 };
@@ -912,6 +913,72 @@ function normalizeHeadingKey(heading) {
     .replace(/\s+/g, " ");
 }
 
+const INTERNAL_MEMO_PATTERNS = [
+  /\btechnical teardown\b/i,
+  /\bimplementation blueprint\b/i,
+  /\bfounder lens\b/i,
+  /\bship-this-week checklist\b/i,
+];
+
+const EARLY_JARGON_PATTERNS = [
+  /\bci\/cd\b/gi,
+  /\b(canary|rollback|feature flag|rollout gate|gates)\b/gi,
+  /\bp95\b/gi,
+  /\binfra(structure)?\b/gi,
+  /\b(eval|evals)\b/gi,
+  /\btdw-mat\b/gi,
+  /\bc-wah\b/gi,
+  /\birr\b/gi,
+  /\b(unit economics|moat|gtm|cac)\b/gi,
+];
+
+function countListItems(text) {
+  return (String(text || "").match(/^\s*[-*]\s+/gm) || []).length;
+}
+
+function countChecklistItems(text) {
+  return (String(text || "").match(/^\s*-\s+\[[ xX]\]\s+/gm) || []).length;
+}
+
+function countNumberedSteps(text) {
+  return (String(text || "").match(/^\s*\d+\.\s+/gm) || []).length;
+}
+
+function averageSentenceWordCount(text) {
+  const cleaned = String(text || "")
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/\|[^\n]*\|/g, " ")
+    .replace(/https?:\/\/\S+/g, " ");
+  const sentences = cleaned
+    .split(/[.!?]\s+/)
+    .map((s) => s.trim())
+    .filter((s) => s.length >= 20);
+  if (sentences.length === 0) return 0;
+  const totalWords = sentences.reduce((sum, s) => sum + countWords(s), 0);
+  return totalWords / sentences.length;
+}
+
+function countPatternHits(text, patterns) {
+  let hits = 0;
+  for (const pattern of patterns) {
+    const matches = String(text || "").match(pattern);
+    if (matches) hits += matches.length;
+  }
+  return hits;
+}
+
+function hasConcreteExampleSignal(text) {
+  return /\b(example|scenario|case|before\/after|use case|for example|par exemple|exemple|scenario|cas concret)\b/i.test(
+    String(text || ""),
+  );
+}
+
+function hasSmallTeamSignal(text) {
+  return /\b(small team|small teams|solo founder|solo|agency|agencies|pme|petite equipe|petites equipes|independant|freelance)\b/i.test(
+    String(text || ""),
+  );
+}
+
 function validateDraft(markdown, headings, sources, templateId) {
   const issues = [];
   const sections = splitByH2(markdown);
@@ -961,6 +1028,58 @@ function validateDraft(markdown, headings, sources, templateId) {
     issues.push(
       "Too many source-disclaimer sentences (e.g. 'not present in the excerpt'). Keep methodology to one short note; omit unsupported details or move them to the final assumptions section.",
     );
+  }
+
+  if (countPatternHits(markdown, INTERNAL_MEMO_PATTERNS) > 0) {
+    issues.push(
+      "Draft still uses internal-memo / infra-jargon framing (e.g. technical teardown, founder lens, VERA-MH/PCE). Rewrite sections in plain language first and move advanced details to a late technical-notes section.",
+    );
+  }
+
+  const firstHeading = headings[0];
+  const firstBody = firstHeading ? byHeading.get(normalizeHeadingKey(firstHeading)) || "" : "";
+  if (firstBody) {
+    const bulletCount = countListItems(firstBody);
+    if (bulletCount < 3) issues.push(`First section "${firstHeading}" should be a plain-language TL;DR with at least 3 bullets.`);
+    if (averageSentenceWordCount(firstBody) > 24) {
+      issues.push(`First section "${firstHeading}" is too dense. Use shorter sentences and simpler wording.`);
+    }
+    const earlyJargon = countPatternHits(firstBody, EARLY_JARGON_PATTERNS);
+    if (templateId !== "SOCIETY" && earlyJargon >= 4) {
+      issues.push(`First section "${firstHeading}" is too jargon-heavy. Explain the change in plain language before technical terms.`);
+    }
+  }
+
+  const earlyBodies = headings
+    .slice(0, 4)
+    .map((heading) => byHeading.get(normalizeHeadingKey(heading)) || "")
+    .join("\n\n");
+  if (earlyBodies) {
+    if (averageSentenceWordCount(earlyBodies) > 26) {
+      issues.push("The first half of the article is too dense. Shorten sentences and front-load concrete explanations.");
+    }
+    if (templateId !== "SOCIETY" && countPatternHits(earlyBodies, EARLY_JARGON_PATTERNS) >= 10) {
+      issues.push("Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.");
+    }
+  }
+
+  if (["NEWS", "TUTORIAL", "ANALYSIS"].includes(templateId)) {
+    const exampleHeading = headings.find((heading) => /example|exemple|scenario|cas concret/i.test(heading));
+    if (exampleHeading) {
+      const exampleBody = byHeading.get(normalizeHeadingKey(exampleHeading)) || "";
+      if (!hasConcreteExampleSignal(exampleBody) && countListItems(exampleBody) + countNumberedSteps(exampleBody) < 2) {
+        issues.push(`Section "${exampleHeading}" should include a concrete example or short scenario (not only abstract analysis).`);
+      }
+    }
+
+    const smallTeamHeading = headings.find((heading) => /small team|solo|petite equipe|pme/i.test(heading));
+    if (smallTeamHeading) {
+      const smallTeamBody = byHeading.get(normalizeHeadingKey(smallTeamHeading)) || "";
+      const actionableCount = countListItems(smallTeamBody) + countChecklistItems(smallTeamBody) + countNumberedSteps(smallTeamBody);
+      if (!hasSmallTeamSignal(smallTeamBody) || actionableCount < 3) {
+        issues.push(`Section "${smallTeamHeading}" should give concrete advice for solo founders / small teams (at least 3 actionable points).`);
+      }
+    }
   }
 
   const lastHeading = headings[headings.length - 1];
@@ -1154,6 +1273,64 @@ async function runRepairPass(
   return String(response.content || draft).trim();
 }
 
+async function runClarityPass(
+  client,
+  model,
+  { locale, headings, sources, draft, targetWordCount, sourceSnapshots, templateId },
+) {
+  const language = locale === "fr" ? "French" : "English";
+  const sourceBlock = sources.map((source) => `- ${source}`).join("\n");
+  const snapshotBlock = formatSourceSnapshots(sourceSnapshots);
+  const requiredSubheads =
+    locale === "fr"
+      ? ["### Hypotheses / inconnues", "### Risques / mitigations", "### Prochaines etapes"]
+      : ["### Assumptions / Hypotheses", "### Risks / Mitigations", "### Next steps"];
+  const tutorialRule =
+    templateId === "TUTORIAL"
+      ? "- Keep all code blocks and commands intact; improve explanations around them.\n"
+      : "- Code blocks are optional; if present, keep them unchanged.\n";
+  const societyRule =
+    templateId === "SOCIETY"
+      ? "- Keep the focus on jobs, tasks, people, and practical actions. Avoid product/infra memo language.\n"
+      : "- Add a plain-language explanation before advanced details in the first half.\n";
+
+  const response = await runJsonCompletion(
+    client,
+    model,
+    [
+      {
+        role: "system",
+        content:
+          `You are a senior plain-language editor for technical publications. Rewrite in ${language} for smart non-experts first, while preserving factual accuracy. ` +
+          "Return strict JSON with key: content (markdown).",
+      },
+      {
+        role: "user",
+        content:
+          `Rewrite this article to improve accessibility and clarity without dumbing it down.\n\n` +
+          `Hard rules:\n` +
+          `- Keep exactly these H2 headings in this order:\n${headings.map((h) => `## ${h}`).join("\n")}\n` +
+          `- Do not add or remove H2 headings. Use H3 only.\n` +
+          `- Keep all inline source URLs and preserve factual claims supported by the snapshot excerpts.\n` +
+          `- Do not invent new claims; if unsure, simplify wording rather than adding content.\n` +
+          `- First section must stay a plain-language TL;DR with short bullets.\n` +
+          `- Add/keep at least one concrete example or short scenario in the first half.\n` +
+          `- Prefer short sentences and explicit wording over jargon. Define acronyms on first use.\n` +
+          `- Keep the last H2 section and preserve these exact H3 subheads:\n${requiredSubheads.join("\n")}\n` +
+          tutorialRule +
+          societyRule +
+          `- Keep overall length close to ${targetWordCount}-${targetWordCount + 500} words.\n\n` +
+          `Source bundle:\n${sourceBlock}\n\n` +
+          `Snapshot excerpts:\n${snapshotBlock}\n\n` +
+          `Draft:\n${draft}`,
+      },
+    ],
+    0.15,
+  );
+
+  return String(response.content || draft).trim();
+}
+
 async function generateOutline(client, model, { locale, topic, targetRegion, sources, template, seriesId, sourceSnapshots }) {
   const language = locale === "fr" ? "French" : "English";
   const publishDate = resolvePublishDate();
@@ -1164,11 +1341,15 @@ async function generateOutline(client, model, { locale, topic, targetRegion, sou
   const audience =
     template.id === "SOCIETY"
       ? "a mixed audience (employees, managers, founders, builders) who care about AI and work"
-      : "developers, startup founders, and AI enthusiasts";
+      : "AI-curious operators, small teams, startup founders, developers, and AI enthusiasts (including smart non-experts)";
   const societyRules =
     template.id === "SOCIETY"
       ? "- For SOCIETY: avoid code talk, repo artifacts, filenames, CI/CD jargon, and internal checklists that feel like engineering memos. Focus on jobs/tasks, concrete personas, and practical guidance.\n"
       : "";
+  const accessibilityRules =
+    template.id === "SOCIETY"
+      ? "- Keep the first section readable for non-technical readers and use plain words before policy or labor-economics jargon.\n"
+      : "- The first section must be a plain-language TL;DR (short bullets) readable by a non-expert in 30 seconds.\n- Include at least one concrete example/scenario section and one section with advice for a small team / solo founder.\n";
 
   const response = await runJsonCompletion(
     client,
@@ -1194,6 +1375,8 @@ async function generateOutline(client, model, { locale, topic, targetRegion, sou
           `- Title and excerpt must be written in ${language}. Do not copy a French headline verbatim into an English title.\n` +
           `- Publication date: ${publishDate} (UTC). Write as if publishing on that date. Avoid relative words like "today/this week" unless you anchor them to ${publishDate}.\n` +
           `- Every section bullet list must include at least one bullet that references a concrete artifact (checklist, decision table, metric threshold, config, rollout gate). For SOCIETY topics, prefer worksheets/checklists over code.\n` +
+          `- Write section bullets in plain language first; advanced terminology can appear later in the article.\n` +
+          accessibilityRules +
           societyRules +
           `- Do not invent unsupported claims. Ground bullets in the snapshot excerpts below.\n\n` +
           `Topic title: ${topic.title}\n` +
@@ -1257,6 +1440,18 @@ async function draftFromOutline(
         `- In employee/founder sections, provide distinct bullet lists (do not repeat the same advice).\n` +
         `- Do not invent file names, internal scripts, or repo artifacts.\n`
       : "";
+  const accessibilityRules =
+    template.id === "SOCIETY"
+      ? `\nAccessibility rules:\n` +
+        `- The first section must be a plain-language TL;DR with short bullets.\n` +
+        `- Explain job/task impacts in simple terms before nuance and caveats.\n` +
+        `- Use concrete personas and examples rather than abstract framework language.\n`
+      : `\nAccessibility rules:\n` +
+        `- The first section must be a plain-language TL;DR with short bullets (non-expert readable in 30 seconds).\n` +
+        `- Put "what changed / why it matters / what to do" before deep technical detail.\n` +
+        `- Include at least one concrete example or short scenario in the first half.\n` +
+        `- Include practical advice for small teams / solo founders (not only enterprise or senior-engineer framing).\n` +
+        `- If you use jargon or acronyms, define them on first use.\n`;
 
   const response = await runJsonCompletion(
     client,
@@ -1267,7 +1462,7 @@ async function draftFromOutline(
         content:
           (template.id === "SOCIETY"
             ? `You write clear, rigorous long-form content for a mixed audience (employees, managers, founders, builders) who care about AI and work. Write in ${language}. `
-            : `You write builder-grade long-form content for developers and founders. Write in ${language}. `) +
+            : `You write builder-grade long-form content for developers and founders, but your first priority is clarity for smart non-experts and small teams. Write in ${language}. `) +
           "Return strict JSON with keys: content (markdown).",
       },
       {
@@ -1287,8 +1482,9 @@ async function draftFromOutline(
           `- Include at least ${minNumbers} concrete numbers/thresholds across the doc (%, ms, $, tokens, counts).\n` +
           `- Avoid repeating "not present in the excerpt" disclaimers. One short methodology note max.\n` +
           `- In the last H2 section ("${headings[headings.length - 1]}"), include these exact H3 subheads:\n${requiredSubheads.join("\n")}\n` +
-          `- Avoid filler; if you need more words, add deeper technical detail, examples, and constraints.\n` +
+          `- Avoid filler; if you need more words, add concrete examples, constraints, and optional technical notes.\n` +
           `- Do not invent claims that are not supported by the sources.\n` +
+          accessibilityRules +
           tutorialRules +
           societyRules +
           "\n" +
@@ -1549,6 +1745,34 @@ async function generateWithLLM(topic, targetRegion, sources, template, wordTarge
       content = String(expanded.content || content).trim();
     }
 
+    if (PLAIN_LANGUAGE_PASS_ENABLED) {
+      if (LOG_STAGES) console.log("[generate-post] EN: clarity pass");
+      content = await runClarityPass(client, model, {
+        locale: "en",
+        headings,
+        sources,
+        draft: content,
+        targetWordCount: wordTargets.minWordsEn,
+        sourceSnapshots,
+        templateId: template.id,
+      });
+
+      const clarityIssues = validateDraft(content, headings, sources, template.id);
+      if (clarityIssues.length > 0) {
+        if (LOG_STAGES) console.log(`[generate-post] EN: repair after clarity issues=${clarityIssues.length}`);
+        content = await runRepairPass(client, model, {
+          locale: "en",
+          headings,
+          sources,
+          draft: content,
+          issues: clarityIssues.slice(0, 12),
+          targetWordCount: wordTargets.minWordsEn,
+          sourceSnapshots,
+          templateId: template.id,
+        });
+      }
+    }
+
     let candidate = {
       title: String(outline.title || topic.title).trim() || topic.title,
       excerpt: String(outline.excerpt || `Deep-dive update: ${topic.title}`).trim(),
@@ -1598,12 +1822,12 @@ async function generateWithLLM(topic, targetRegion, sources, template, wordTarge
           {
             role: "system",
             content:
-              "Rewrite in professional English. Return strict JSON with keys: title, excerpt, tags (array), content (markdown).",
+              "Rewrite in professional English with plain-language-first clarity. Return strict JSON with keys: title, excerpt, tags (array), content (markdown).",
           },
           {
             role: "user",
             content:
-              "This draft is not in English. Rewrite it fully in English while preserving the same factual meaning and structure.\n" +
+              "This draft is not in English. Rewrite it fully in English while preserving the same factual meaning and structure. Keep the first half readable for smart non-experts and small teams.\n" +
               `Keep these exact H2 headings in order:\n${headings.map((heading) => `## ${heading}`).join("\n")}\n\n` +
               `Minimum words: ${wordTargets.minWordsEn}.\n\n` +
               `Draft title: ${candidate.title}\nDraft excerpt: ${candidate.excerpt}\n\nDraft content:\n${candidate.content}`,
@@ -1701,19 +1925,20 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
         {
           role: "system",
           content:
-            "Translate and localize this article into professional French for developers, startup founders, and AI enthusiasts. Return strict JSON with keys: title, excerpt, tags (array), content (markdown).",
+            "Translate and localize this article into professional French for AI enthusiasts, small teams, founders, and developers. Prioritize clear wording for smart non-experts. Return strict JSON with keys: title, excerpt, tags (array), content (markdown).",
         },
         {
           role: "user",
           content:
             `Translate for ${targetRegion} context. Keep depth and preserve factual fidelity.\n` +
             `French text must be at least ${wordTargets.minWordsFr} words.\n` +
+            "Use plain French in the first half (explain concepts before jargon) and keep advanced details later.\n" +
             "Use these exact H2 headings in this order:\n" +
             headingsFr.map((heading) => `## ${heading}`).join("\n") +
             "\n\n" +
             "Every required section must start with '## ' exactly. Do not use H1. Do not add extra H2 headings; use H3 for subsections.\n\n" +
             `In the last H2 section ("${headingsFr[headingsFr.length - 1]}"), include these exact H3 subheads:\n${requiredSubheadsFr.join("\n")}\n\n` +
-            "Preserve code blocks and practical implementation details.\n\n" +
+            "Preserve code blocks and practical implementation details. Add short explanations around technical terms when needed.\n\n" +
             `Sources:\n${sourceBlock}\n\n` +
             `Snapshot excerpts (ground claims only in these excerpts; if a detail is not supported, rewrite it as a clearly labeled hypothesis):\n${snapshotBlock}\n\n` +
             `English title: ${postEn.title}\n` +
@@ -1735,12 +1960,12 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
           {
             role: "system",
             content:
-              "You are a French AI editor. Return strict JSON with keys: excerpt, tags (array), content (markdown).",
+              "You are a French AI editor. Expand clarity and examples without filler. Return strict JSON with keys: excerpt, tags (array), content (markdown).",
           },
           {
             role: "user",
             content:
-              `Develop this French draft to at least ${wordTargets.minWordsFr} words with concrete detail and no filler. Keep headings unchanged.\n\nDraft:\n${content}`,
+              `Develop this French draft to at least ${wordTargets.minWordsFr} words with concrete detail and no filler. Keep headings unchanged. Keep the first half easy to read for a non-expert and add examples before technical depth.\n\nDraft:\n${content}`,
           },
         ],
         0.2,
@@ -1788,7 +2013,7 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
           {
             role: "system",
             content:
-              "Translate and localize into professional French. Return strict JSON with keys: title, excerpt, tags (array), content (markdown).",
+              "Translate and localize into professional French with plain-language-first clarity. Return strict JSON with keys: title, excerpt, tags (array), content (markdown).",
           },
           {
             role: "user",
@@ -1819,6 +2044,34 @@ async function translateToFrench(postEn, topic, targetRegion, sources, template,
         tags: [...postEn.tags, "FR"].slice(0, 8),
         content: fallbackFr,
       };
+    }
+
+    if (PLAIN_LANGUAGE_PASS_ENABLED) {
+      if (LOG_STAGES) console.log("[generate-post] FR: clarity pass");
+      candidate.content = await runClarityPass(client, model, {
+        locale: "fr",
+        headings: headingsFr,
+        sources,
+        draft: candidate.content,
+        targetWordCount: wordTargets.minWordsFr,
+        sourceSnapshots,
+        templateId: template.id,
+      });
+
+      const clarityIssues = validateDraft(candidate.content, headingsFr, sources, template.id);
+      if (clarityIssues.length > 0) {
+        if (LOG_STAGES) console.log(`[generate-post] FR: repair after clarity issues=${clarityIssues.length}`);
+        candidate.content = await runRepairPass(client, model, {
+          locale: "fr",
+          headings: headingsFr,
+          sources,
+          draft: candidate.content,
+          issues: clarityIssues.slice(0, 12),
+          targetWordCount: wordTargets.minWordsFr,
+          sourceSnapshots,
+          templateId: template.id,
+        });
+      }
     }
 
     return candidate;
