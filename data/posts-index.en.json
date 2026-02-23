@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T08:43:29.868Z",
+  "generatedAt": "2026-02-23T15:50:46.496Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs",
+      "title": "Paragent: Launch parallel AI coding agents that branch, run tests, and open PRs",
+      "date": "2026-02-23",
+      "excerpt": "Connect Paragent to a GitHub repo, supply your LLM keys, and run parallel agents (Free: 2, Pro: 10) that create branches, run your tests, and open PRs for review.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs.jpg",
+      "tags": [
+        "paragent",
+        "ai-agents",
+        "github",
+        "devtools",
+        "automation",
+        "ai-coding",
+        "pr-workflow",
+        "byo-keys"
+      ],
+      "sources": [
+        "https://paragent.app/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-02-22-ai-researchers-prioritize-mission-and-safety-over-pay-hiring-and-retention-actions-for-founders",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-23T08:43:29.874Z",
+  "generatedAt": "2026-02-23T15:50:46.541Z",
   "items": [
+    {
+      "id": "https://paragent.app/",
+      "title": "Show HN: Run 10 AI coding agents in parallel–each opens a PR when done",
+      "link": "https://paragent.app/",
+      "summary": "I built Paragent because I kept context-switching between features. The idea: describe what you want in plain English, and an agent branches off, writes the code, and opens a PR. You can run 10 at once — each on its own branch. How it works: - Connect your repo via GitHub App (minimal permissions: contents + PRs) - Describe a feature (\"Add Stripe checkout to the pricing page\") - Agent plans, writes, runs your verifi…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-22T13:58:57.000Z",
+      "score": 196.83,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-23T15:50:46.486Z",
+      "file": "content/posts/2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs.md",
+      "fileFr": "content/posts/fr/2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1707,
+      "wordsFr": 1590
+    },
     {
       "id": "https://www.numerama.com/politique/2184361-derriere-le-reve-de-lecole-100-ia-un-cauchemar-de-surveillance-pour-les-eleves.html",
       "title": "Derrière le rêve de l’école 100 % IA, un cauchemar de surveillance pour les élèves",
@@ -1646,18 +1669,6 @@
       "status": "queued"
     },
     {
-      "id": "https://paragent.app/",
-      "title": "Show HN: Run 10 AI coding agents in parallel–each opens a PR when done",
-      "link": "https://paragent.app/",
-      "summary": "I built Paragent because I kept context-switching between features. The idea: describe what you want in plain English, and an agent branches off, writes the code, and opens a PR. You can run 10 at once — each on its own branch. How it works: - Connect your repo via GitHub App (minimal permissions: contents + PRs) - Describe a feature (\"Add Stripe checkout to the pricing page\") - Agent plans, writes, runs your verification, opens a PR - You review on GitHub like any other PR You bring your own API keys (OpenAI, Anthropic, Gemini). We orchestrate but never store your code or prompts. Free tier: 1 repo, 2 concurrent agents. Would love feedback from anyone who's tried Cursor/Copilot and wants something that works in parallel. Comments URL: https://news.ycombinator.com/item?id=47111058 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-22T13:58:57.000Z",
-      "score": 196.83,
-      "status": "queued"
-    },
-    {
       "id": "https://openbrowser.me/",
       "title": "Show HN: OpenBrowser MCP: Give your AI agent a real efficient browser",
       "link": "https://openbrowser.me/",
@@ -2102,6 +2113,42 @@
       "status": "queued"
     },
     {
+      "id": "https://aimodularity.com/A2SPA",
+      "title": "Show HN: A2SPA – Cryptographic payload signing and verification for AI agents",
+      "link": "https://aimodularity.com/A2SPA",
+      "summary": "Article URL: https://aimodularity.com/A2SPA Comments URL: https://news.ycombinator.com/item?id=47123482 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-23T15:23:49.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://encore.dev/blog/golang-ai",
+      "title": "AI Agents Want to Write Go",
+      "link": "https://encore.dev/blog/golang-ai",
+      "summary": "Article URL: https://encore.dev/blog/golang-ai Comments URL: https://news.ycombinator.com/item?id=47123378 Points: 3 # Comments: 4",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-23T15:15:50.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://vibevideo.app",
+      "title": "Show HN: Vibevideo – Unified interface for top AI video models",
+      "link": "https://vibevideo.app",
+      "summary": "Hello HN — I’m the founder of Vibevideo (https://vibevideo.app). I built Vibevideo to give creators one place to use the latest AI video models without juggling multiple subscriptions, tools, and workflows. What’s available right now: - Multi-model workflow: Use and compare leading video models in one interface. - Advanced video control: Beyond basic text-to-video, we support frame-guided generation and reference-based workflows for better motion/style consistency. - Practical creator tooling: Aspect ratio controls, reusable settings, and unified credit management so you can iterate faster. This is still an early release. My goal is to keep adding top models quickly and make Vibevideo a reliable “all-in-one” workspace for AI video production. For the HN community, I’m offering an early-bird 30% discount with code: EARLY30. I’d really value feedback on: 1) generation quality across different use cases 2) the reference-based workflow 3) what would make this useful for you every week, not just once Link: https://vibevideo.app Comments URL: https://news.ycombinator.com/item?id=47123259 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-23T15:08:21.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -2158,6 +2205,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-19T15:43:29.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47123473",
+      "title": "TinySDLC – Agent orchestrator with SDLC role discipline for AI coding (MIT)",
+      "link": "https://news.ycombinator.com/item?id=47123473",
+      "summary": "Problem: when multiple AI coding agents collaborate, there's no structure — no separation of duties, no handoff discipline, no traceability. TinySDLC is a minimal agent orchestrator that adds SDLC role discipline to AI coding. 8 roles (researcher, architect, coder, reviewer, tester, etc.), each with isolated workspaces, scoped tool permissions, and enforced separation of duties. Coder can't self-approve. Reviewer can't be bypassed. Design constraints: file-based queue (zero external dependencies), multi-channel (Discord, Telegram, WhatsApp, Zalo), security hardening (7 credential scrubbing patterns, 12 injection patterns blocked, 8 shell deny patterns). Protocol-first: roles are contracts, AI providers are swappable. Companion repo MTS-SDLC-Lite contains the governance methodology (Spec → Gate → Evidence → Approval) — templates, playbooks, processes. Both MIT. Result of 12 iterations across 5 production projects. GitHub: https://github.com/Minh-Tam-Solution/tinysdlc Methodology docs: https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite Both MIT licensed. Feedback and criticism welcome. Comments URL: https://news.ycombinator.com/item?id=47123473 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-23T15:23:22.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -2642,6 +2701,66 @@
       "status": "queued"
     },
     {
+      "id": "https://www.anthropic.com/research/AI-fluency-index",
+      "title": "Anthropic Education the AI Fluency Index",
+      "link": "https://www.anthropic.com/research/AI-fluency-index",
+      "summary": "Article URL: https://www.anthropic.com/research/AI-fluency-index Comments URL: https://news.ycombinator.com/item?id=47123590 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-23T15:31:17.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/elophanto/EloPhanto",
+      "title": "Show HN: EloPhanto – A self-evolving AI agent that builds its own tools",
+      "link": "https://github.com/elophanto/EloPhanto",
+      "summary": "I built EloPhanto because I wanted an AI agent that could actually execute tasks on my machine with full visibility — not a black box API call. It runs locally and controls a real Chrome browser (47 tools) using your existing sessions. The standout feature: when EloPhanto encounters a task it doesn't have a tool for, it autonomously writes the Python code, tests it, reviews itself, and integrates the new tool permanently. It's now built 99+ tools for itself this way. Other features: - Multi-channel gateway (CLI, Telegram, Discord, Slack) with unified sessions - MCP tool server support (connect any MCP server) - Document & media analysis (PDF, images, OCR, RAG) - Agent email (own inbox for service signup/verification) - Crypto payments wallet (Base chain, spending limits) - TOTP authenticator (autonomous 2FA handling) - Evolving identity that learns from experience - Skill system with EloPhantoHub marketplace (28 bundled skills) It's open source (Apache 2.0), local-first, and designed to be your personal AI operating system. The project is very new — currently at 6 stars on GitHub. I'd love to get feedback on the architecture, the self-development approach, or what features you'd want in a local agent. Comments URL: https://news.ycombinator.com/item?id=47123543 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-23T15:28:06.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/isac322/kwin-mcp",
+      "title": "Show HN: Kwin-MCP – MCP server for AI-driven Linux GUI automation via KWin",
+      "link": "https://github.com/isac322/kwin-mcp",
+      "summary": "Article URL: https://github.com/isac322/kwin-mcp Comments URL: https://news.ycombinator.com/item?id=47123439 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-23T15:20:31.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/stargate-ai-data-centers-for-openai-reportedly-delayed-by-squabbles-between-partners-sources-say-openai-oracle-and-softbank-disagreed-on-who-would-have-ultimate-control-of-the-planned-data-centers",
+      "title": "OpenAI Stargate AI data centers reportedly delayed by squabbles between partners",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/stargate-ai-data-centers-for-openai-reportedly-delayed-by-squabbles-between-partners-sources-say-openai-oracle-and-softbank-disagreed-on-who-would-have-ultimate-control-of-the-planned-data-centers",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/stargate-ai-data-centers-for-openai-reportedly-delayed-by-squabbles-between-partners-sources-say-openai-oracle-and-softbank-disagreed-on-who-would-have-ultimate-control-of-the-planned-data-centers Comments URL: https://news.ycombinator.com/item?id=47123362 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-23T15:14:52.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://inconvo.com/blog/how-we-built-a-chat-with-data-agent-that-doesnt-ai-generate-sql/",
+      "title": "How we built a chat-with-data agent that doesn't AI generate SQL",
+      "link": "https://inconvo.com/blog/how-we-built-a-chat-with-data-agent-that-doesnt-ai-generate-sql/",
+      "summary": "Article URL: https://inconvo.com/blog/how-we-built-a-chat-with-data-agent-that-doesnt-ai-generate-sql/ Comments URL: https://news.ycombinator.com/item?id=47123226 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-23T15:06:12.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.15325",
       "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
       "link": "https://arxiv.org/abs/2602.15325",
@@ -2866,6 +2985,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-21T07:29:21.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/umitkavala/mindpm",
+      "title": "Show HN: Mindpm – persistent project/task memory for AI coding assistants (MCP)",
+      "link": "https://github.com/umitkavala/mindpm",
+      "summary": "I built mindpm to solve a problem I kept running into with Claude Code and other AI assistants: every new session loses context. What are we working on? What did we decide last time? Where did we leave off? mindpm is an MCP server that gives your assistant persistent memory — tasks, decisions, notes, and session summaries stored in a local SQLite database. It also spins up a Kanban board at localhost:3131. Works with Claude Code, Cursor, Cline, Copilot, and Windsurf — they all share the same database. Open source, contributions welcome. Comments URL: https://news.ycombinator.com/item?id=47123228 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-23T15:06:25.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -3671,114 +3802,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-19T05:00:00.000Z",
       "score": 123.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.15294",
-      "title": "EAA: Automating materials characterization with vision language model agents",
-      "link": "https://arxiv.org/abs/2602.15294",
-      "summary": "arXiv:2602.15294v1 Announce Type: new Abstract: We present Experiment Automation Agents (EAA), a vision-language-model-driven agentic system designed to automate complex experimental microscopy workflows. EAA integrates multimodal reasoning, tool-augmented action, and optional long-term memory to support both autonomous procedures and interactive user-guided measurements. Built on a flexible task-manager architecture, the system enables workflows ranging from fully agent-driven automation to logic-defined routines that embed localized LLM queries. EAA further provides a modern tool ecosystem with two-way compatibility for Model Context Protocol (MCP), allowing instrument-control tools to be consumed or served across applications. We demonstrate EAA at an imaging beamline at the Advanced Photon Source, including automated zone plate focusing, natural language-described feature search, and interactive data acquisition. These results illustrate how vision-capable agents can enhance beamline efficiency, reduce operational burden, and lower the expertise barrier for users.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-18T05:00:00.000Z",
-      "score": 123.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12665",
-      "title": "Evaluating Robustness of Reasoning Models on Parameterized Logical Problems",
-      "link": "https://arxiv.org/abs/2602.12665",
-      "summary": "arXiv:2602.12665v1 Announce Type: new Abstract: Logic provides a controlled testbed for evaluating LLM-based reasoners, yet standard SAT-style benchmarks often conflate surface difficulty (length, wording, clause order) with the structural phenomena that actually determine satisfiability. We introduce a diagnostic benchmark for 2-SAT built from parameterized families of structured 2--CNF formulas, where satisfiability is characterized by the implication graph and can be tuned along interpretable axes. Our generators isolate distinct competencies and failure modes: (i) contradiction-cycle UNSAT cores with controllable size and imbalance, (ii) SAT instances with a prescribed fraction of free variables to control solution multiplicity, (iii) planted backbones that modulate propagation, (iv) late bridge clauses that couple otherwise monotone regions to probe sensitivity to ordering and revision, and (v) symmetry/duplication variants that test abstraction under renaming and redundant structure. We evaluate LLM-based reasoners on decision accuracy and assignment validity, and quantify robustness under semantics-preserving perturbations such as clause reordering, filler clauses, and variable renaming. Across models, we observe sharp performance transitions under targeted structural interventions even when surface statistics are held fixed, revealing brittleness regimes that are invisi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 123.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47084365",
-      "title": "Show HN: Syne – AI agent that remembers everything, built on PostgreSQL",
-      "link": "https://news.ycombinator.com/item?id=47084365",
-      "summary": "I built Syne because I was tired of AI assistants that forget everything after each conversation. Syne is a self-hosted AI agent framework where memory is a first-class citizen — stored as semantic vectors in PostgreSQL, searchable across millions of entries, and persistent forever. Key features: - Unlimited persistent memory with semantic search (pgvector) - Anti-hallucination: only stores user-confirmed facts, auto-deduplicates - Self-evolving: creates new abilities at runtime without restart - Multi-model: switch between Gemini, ChatGPT, Claude mid-conversation - True $0/month setup: free OAuth + local Ollama embedding + Docker - 19 core tools, sub-agents, Telegram + CLI interfaces Built with Python, PostgreSQL, and Docker. No vendor lock-in. GitHub: https://github.com/riyogarta/syne Landing page: https://syne.codes Comments URL: https://news.ycombinator.com/item?id=47084365 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-20T06:10:45.000Z",
-      "score": 123.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.17831",
-      "title": "The Token Games: Evaluating Language Model Reasoning with Puzzle Duels",
-      "link": "https://arxiv.org/abs/2602.17831",
-      "summary": "arXiv:2602.17831v1 Announce Type: new Abstract: Evaluating the reasoning capabilities of Large Language Models is increasingly challenging as models improve. Human curation of hard questions is highly expensive, especially in recent benchmarks using PhD-level domain knowledge to challenge the most capable models. Even then, there is always a concern about whether these questions test genuine reasoning or if similar problems have been seen during training. Here, we take inspiration from 16th-century mathematical duels to design The Token Games (TTG): an evaluation framework where models challenge each other by creating their own puzzles. We leverage the format of Programming Puzzles - given a Python function that returns a boolean, find inputs that make it return True - to flexibly represent problems and enable verifying solutions. Using results from pairwise duels, we then compute Elo ratings, allowing us to compare models relative to each other. We evaluate 10 frontier models on TTG, and closely match the ranking from existing benchmarks such as Humanity's Last Exam, without involving any human effort in creating puzzles. We also find that creating good puzzles is still a highly challenging task for current models, not measured by previous benchmarks. Overall, our work suggests new paradigms for evaluating reasoning that cannot be saturated by design, and that allow testing mo",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-23T05:00:00.000Z",
-      "score": 123.04,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.17672",
-      "title": "Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse",
-      "link": "https://arxiv.org/abs/2602.17672",
-      "summary": "arXiv:2602.17672v1 Announce Type: cross Abstract: Technology-facilitated abuse (TFA) is a pervasive form of intimate partner violence (IPV) that leverages digital tools to control, surveil, or harm survivors. While tech clinics are one of the reliable sources of support for TFA survivors, they face limitations due to staffing constraints and logistical barriers. As a result, many survivors turn to online resources for assistance. With the growing accessibility and popularity of large language models (LLMs), and increasing interest from IPV organizations, survivors may begin to consult LLM-based chatbots before seeking help from tech clinics. In this work, we present the first expert-led manual evaluation of four LLMs - two widely used general-purpose non-reasoning models and two domain-specific models designed for IPV contexts - focused on their effectiveness in responding to TFA-related questions. Using real-world questions collected from literature and online forums, we assess the quality of zero-shot single-turn LLM responses generated with a survivor safety-centered prompt on criteria tailored to the TFA domain. Additionally, we conducted a user study to evaluate the perceived actionability of these responses from the perspective of individuals who have experienced TFA. Our findings, grounded in both expert assessment and user feedback, provide insights into the current cap",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-23T05:00:00.000Z",
-      "score": 123.04,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06554",
-      "title": "SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees",
-      "link": "https://arxiv.org/abs/2602.06554",
-      "summary": "arXiv:2602.06554v1 Announce Type: new Abstract: Reinforcement learning (RL) has emerged as the predominant paradigm for training large language model (LLM)-based AI agents. However, existing backbone RL algorithms lack verified convergence guarantees in agentic scenarios, especially in multi-turn settings, which can lead to training instability and failure to converge to optimal policies. In this paper, we systematically analyze how different combinations of policy update mechanisms and advantage estimation methods affect convergence properties in single/multi-turn scenarios. We find that REINFORCE with Group Relative Advantage Estimation (GRAE) can converge to the globally optimal under undiscounted conditions, but the combination of PPO & GRAE breaks PPO's original monotonic improvement property. Furthermore, we demonstrate that mainstream backbone RL algorithms cannot simultaneously achieve both critic-free and convergence guarantees in multi-turn scenarios. To address this, we propose SeeUPO (Sequence-level Sequential Update Policy Optimization), a critic-free approach with convergence guarantees for multi-turn interactions. SeeUPO models multi-turn interaction as sequentially executed multi-agent bandit problems. Through turn-by-turn sequential policy updates in reverse execution order, it ensures monotonic improvement and convergence to global optimal solution via backwar",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 122.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/xiongallen40-design/agentscore",
-      "title": "Show HN: AgentScore – Lighthouse for AI Agents",
-      "link": "https://github.com/xiongallen40-design/agentscore",
-      "summary": "AgentScore scores websites 0-100 on AI Agent friendliness. Most sites are built for humans, not AI - we analyze DOM semantics, ARIA coverage, selector stability, WebMCP support, and structured data. Real results: - anthropic.com: 60/100 - github.com: 56/100 (91% CSS-in-JS hash classes) - news.ycombinator.com: 31/100 (table layout, zero semantic tags) Try it: npx agentscore audit Comments URL: https://news.ycombinator.com/item?id=47021453 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-15T06:13:19.000Z",
-      "score": 121.99,
-      "status": "queued"
-    },
-    {
-      "id": "https://aibenchy.com",
-      "title": "Show HN: AIBenchy – Independent AI Leaderboard",
-      "link": "https://aibenchy.com",
-      "summary": "Hey HN, Like many of you, I'm tired of public AI leaderboards that mostly recycle the same saturated/overfitted benchmarks (MMLU, HumanEval, etc.) and often miss fast/cheap variants or real daily pain points. A couple days ago I launched AIBenchy — a small, opinionated leaderboard running my own custom tests focused on end-user/dev scenarios that actually trip up models today. Current tests cover categories like: - Anti-AI Tricks (classic gotchas like \"count the Rs in strawberry\", logic traps) - Instruction following & consistency - Data parsing/extraction - Domain-specific tasks - Puzzle solving / edge-case reasoning Recent additions (just pushed today): - Reasoning score (new!): A separate judge LLM evaluates the chain-of-thought for efficiency — does it repeat itself, loop, think forever, brute-force enumerate every possibility (looking at you, some Qwen-3.5 runs), or get to the point cleanly? This penalizes \"cheaty\" high-token reasoning even if the final answer is correct. Goal: reward smart, concise thinking over exhaustive trial-and-error. - Stability metric: Measures consistency across runs (some models flake on the same prompt). Right now the leaderboard has ~20 models (Qwen3.5 Plus currently topping it, followed by GLM 5, various GPT/Claude variants, etc.), but it's super early/WIP: - Manual runs + small test set - No public submission of tests yet (open to ideas!) - F",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-18T02:31:35.000Z",
-      "score": 121.85,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theregister.com/2026/02/13/anthropic_c_compiler/",
-      "title": "OK, so Anthropic's AI built a C compiler. That don't impress me much",
-      "link": "https://www.theregister.com/2026/02/13/anthropic_c_compiler/",
-      "summary": "Article URL: https://www.theregister.com/2026/02/13/anthropic_c_compiler/ Comments URL: https://news.ycombinator.com/item?id=47003020 Points: 4 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-13T14:17:40.000Z",
-      "score": 121.53,
       "status": "queued"
     },
     {

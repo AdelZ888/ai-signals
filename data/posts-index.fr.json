@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T08:43:29.868Z",
+  "generatedAt": "2026-02-23T15:50:46.496Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs",
+      "title": "Paragent : Lancer des agents IA parallèles qui créent des branches, exécutent des tests et ouvrent des PRs",
+      "date": "2026-02-23",
+      "excerpt": "Connectez Paragent à un dépôt GitHub, fournissez vos clés LLM (BYO), et lancez des agents parallèles (Free : 2, Pro : 10) qui créent des branches, exécutent votre suite de tests et ouvrent des PRs pour revue.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs.jpg",
+      "tags": [
+        "paragent",
+        "ai",
+        "github",
+        "automation",
+        "llm",
+        "ci",
+        "devops",
+        "startup"
+      ],
+      "sources": [
+        "https://paragent.app/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-02-22-ai-researchers-prioritize-mission-and-safety-over-pay-hiring-and-retention-actions-for-founders",
