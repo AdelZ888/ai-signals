@@ -16,7 +16,6 @@ const STATE_PATH = path.join(ROOT, "data/x-posted.json");
 
 const MODE = String(process.env.X_MODE || "new-posts").trim().toLowerCase(); // new-posts | engagement | weekly-thread
 const DRY_RUN = String(process.env.DRY_RUN || "0") === "1";
-const X_HANDLE = String(process.env.X_HANDLE || "@aisignals_dev").trim();
 const X_TIMEZONE = String(process.env.X_TIMEZONE || "Europe/Paris").trim();
 const X_NEW_POST_LIMIT = Math.max(1, Math.min(4, Number(process.env.X_NEW_POST_LIMIT || 2)));
 const X_ENGAGEMENT_LIMIT = Math.max(1, Math.min(2, Number(process.env.X_ENGAGEMENT_LIMIT || 1)));
@@ -39,12 +38,6 @@ const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-5-mini";
 function ensureEnv(name, value) {
   if (!value) throw new Error(`Missing env: ${name}`);
   return value;
-}
-
-function normalizeHandle(handle) {
-  const raw = String(handle || "").trim();
-  if (!raw) return "@aisignals_dev";
-  return raw.startsWith("@") ? raw : `@${raw}`;
 }
 
 function clamp(text, max) {
@@ -218,7 +211,7 @@ function composeContentTweet(post) {
   return hardClampTweet(lines.join("\n"), { urlIncluded: true });
 }
 
-function composeEngagementTweetFromPost(post, handle) {
+function composeEngagementTweetFromPost(post) {
   const title = clamp(post.title, 84);
   const takeaway = extractTakeaway(post.excerpt, 100);
   const prompts = [
@@ -233,8 +226,7 @@ function composeEngagementTweetFromPost(post, handle) {
   let hash = 0;
   for (const ch of post.slug) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
   const body = prompts[hash % prompts.length];
-  const outro = `\n\n${handle}`;
-  return hardClampTweet(body + outro, { urlIncluded: false, hardMax: 280 });
+  return hardClampTweet(body, { urlIncluded: false, hardMax: 280 });
 }
 
 async function maybeImproveTweetWithLlm(text, mode, context = {}) {
@@ -414,7 +406,6 @@ function pickEngagementSourcePost(posts, state) {
 
 async function runEngagementMode({ rwClient, posts, state }) {
   let posted = 0;
-  const handle = normalizeHandle(X_HANDLE);
 
   for (let i = 0; i < X_ENGAGEMENT_LIMIT; i += 1) {
     const sourcePost = pickEngagementSourcePost(posts, state);
@@ -424,7 +415,7 @@ async function runEngagementMode({ rwClient, posts, state }) {
     }
 
     const dateKey = getDateKey(X_TIMEZONE);
-    let text = composeEngagementTweetFromPost(sourcePost, handle);
+    let text = composeEngagementTweetFromPost(sourcePost);
     text = await maybeImproveTweetWithLlm(text, "engagement", {
       title: sourcePost.title,
       excerpt: sourcePost.excerpt,
