@@ -23,6 +23,7 @@ const UNSUBSCRIBE_SECRET = process.env.NEWSLETTER_UNSUBSCRIBE_SECRET;
 const DRY_RUN = String(process.env.DRY_RUN || "0") === "1";
 const TEST_TO = String(process.env.NEWSLETTER_TEST_TO || "").trim(); // if set: only send to this address
 const TEST_LOCALE = String(process.env.NEWSLETTER_TEST_LOCALE || "").trim().toLowerCase(); // en|fr (optional)
+const FORCED_ISSUE_SLUG = String(process.env.NEWSLETTER_ISSUE_SLUG || "").trim();
 const MAX_SEND = Math.max(1, Math.min(10_000, Number(process.env.NEWSLETTER_MAX_SEND || 500)));
 
 const OUT_DIR = path.join(ROOT, "content/newsletters");
@@ -293,15 +294,32 @@ function renderTeaserHtml({ locale, issue, campaign }) {
   `;
 }
 
-async function readLatestIssue(locale) {
+async function listIssueSlugs(locale) {
   const dir = locale === "fr" ? OUT_FR_DIR : OUT_DIR;
   const files = await fs.readdir(dir);
   const mdFiles = files.filter((f) => f.endsWith(".md") || f.endsWith(".mdx")).sort();
   if (mdFiles.length === 0) throw new Error(`No newsletter issues found in ${dir}`);
 
-  // Slugs start with YYYY-MM-DD, lexicographic sort is fine.
-  const fileName = mdFiles[mdFiles.length - 1];
-  const slug = fileName.replace(/\.(md|mdx)$/u, "");
+  return mdFiles.map((fileName) => fileName.replace(/\.(md|mdx)$/u, ""));
+}
+
+async function readIssueBySlug(locale, slug) {
+  const dir = locale === "fr" ? OUT_FR_DIR : OUT_DIR;
+  const candidates = [`${slug}.md`, `${slug}.mdx`];
+  let fileName = "";
+
+  for (const candidate of candidates) {
+    try {
+      await fs.access(path.join(dir, candidate));
+      fileName = candidate;
+      break;
+    } catch {
+      // try next extension
+    }
+  }
+
+  if (!fileName) throw new Error(`Newsletter issue not found: locale=${locale} slug=${slug}`);
+
   const raw = await fs.readFile(path.join(dir, fileName), "utf8");
   const parsed = matter(raw);
 
@@ -320,6 +338,37 @@ async function readLatestIssue(locale) {
     issueNumber: Number.isFinite(issueNumber) ? issueNumber : undefined,
     markdown,
   };
+}
+
+async function readLatestIssue(locale) {
+  const slugs = await listIssueSlugs(locale);
+  return readIssueBySlug(locale, slugs[slugs.length - 1]);
+}
+
+async function pickIssuePairToSend(sentLog) {
+  if (FORCED_ISSUE_SLUG) {
+    const [issueEn, issueFr] = await Promise.all([
+      readIssueBySlug("en", FORCED_ISSUE_SLUG),
+      readIssueBySlug("fr", FORCED_ISSUE_SLUG),
+    ]);
+    return { issueEn, issueFr, selectedMode: "forced" };
+  }
+
+  const slugsEn = await listIssueSlugs("en");
+  const sent = sentLog && typeof sentLog === "object" ? sentLog : {};
+
+  // Pick the newest EN issue that is not yet in the send log.
+  for (let i = slugsEn.length - 1; i >= 0; i -= 1) {
+    const slug = slugsEn[i];
+    if (sent[slug]) continue;
+
+    const [issueEn, issueFr] = await Promise.all([readIssueBySlug("en", slug), readIssueBySlug("fr", slug)]);
+    return { issueEn, issueFr, selectedMode: "latest-unsent" };
+  }
+
+  // Fallback for legacy behavior / diagnostics.
+  const [issueEn, issueFr] = await Promise.all([readLatestIssue("en"), readLatestIssue("fr")]);
+  return { issueEn, issueFr, selectedMode: "latest" };
 }
 
 async function readSentLog() {
@@ -390,12 +439,9 @@ async function main() {
   requiredEnv("NEWSLETTER_UNSUBSCRIBE_SECRET", UNSUBSCRIBE_SECRET);
 
   const resend = new Resend(RESEND_API_KEY);
-
-  const [issueEn, issueFr, sentLog] = await Promise.all([
-    readLatestIssue("en"),
-    readLatestIssue("fr"),
-    readSentLog(),
-  ]);
+  const sentLog = await readSentLog();
+  const { issueEn, issueFr, selectedMode } = await pickIssuePairToSend(sentLog);
+  console.log(`[send-newsletter] selected issue=${issueEn.slug} mode=${selectedMode}`);
 
   // Prevent duplicate sends per issue slug (autonomous safety).
   if (sentLog && sentLog[issueEn.slug] && !TEST_TO) {

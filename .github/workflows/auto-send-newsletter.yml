@@ -1,5 +1,9 @@
 name: Auto Send Newsletter
 
+concurrency:
+  group: auto-send-newsletter-main
+  cancel-in-progress: false
+
 on:
   workflow_run:
     workflows: ["Auto Newsletter"]
@@ -12,11 +16,20 @@ permissions:
 
 jobs:
   send:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git checkout main
+          git pull --ff-only origin main
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -50,5 +63,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/newsletter-sent.json
           git commit -m "chore: log newsletter send"
-          git push
-
+          git push origin HEAD:main
