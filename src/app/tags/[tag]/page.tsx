@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 
 import { PostCard } from "@/components/post-card";
@@ -19,6 +19,11 @@ async function resolveTagLabel(tagSlug: string) {
   const normalized = formatTagForPath(tagSlug);
   const match = tags.find((tag) => formatTagForPath(tag) === normalized);
   return match || tagSlug;
+}
+
+async function getTagLocaleAvailability(tagSlug: string) {
+  const [enPosts, frPosts] = await Promise.all([getPostsByTag(tagSlug, "en"), getPostsByTag(tagSlug, "fr")]);
+  return { en: enPosts.length > 0, fr: frPosts.length > 0 };
 }
 
 export async function generateStaticParams() {
@@ -44,6 +49,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { tag } = await params;
   const label = await resolveTagLabel(tag);
+  const availability = await getTagLocaleAvailability(tag);
 
   const title = `Tag: ${label}`;
   const description = `Posts tagged with ${label}.`;
@@ -61,8 +67,8 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     alternates: {
       canonical: `/tags/${tag}`,
       languages: {
-        "en-US": `/tags/${tag}`,
-        "fr-FR": `/fr/tags/${tag}`,
+        ...(availability.en ? { "en-US": `/tags/${tag}` } : null),
+        ...(availability.fr ? { "fr-FR": `/fr/tags/${tag}` } : null),
       },
     },
     openGraph: {
@@ -87,6 +93,10 @@ export default async function TagPage({ params, searchParams }: Props) {
   const posts = await getPostsByTag(tag);
 
   if (posts.length === 0) {
+    const frPosts = await getPostsByTag(tag, "fr");
+    if (frPosts.length > 0) {
+      permanentRedirect(`/fr/tags/${tag}`);
+    }
     notFound();
   }
 
