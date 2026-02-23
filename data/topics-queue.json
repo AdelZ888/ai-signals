@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-22T15:30:49.449Z",
+  "generatedAt": "2026-02-23T08:43:29.874Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/politique/2184361-derriere-le-reve-de-lecole-100-ia-un-cauchemar-de-surveillance-pour-les-eleves.html",
+      "title": "Derrière le rêve de l’école 100 % IA, un cauchemar de surveillance pour les élèves",
+      "link": "https://www.numerama.com/politique/2184361-derriere-le-reve-de-lecole-100-ia-un-cauchemar-de-surveillance-pour-les-eleves.html",
+      "summary": "Derrière la promesse d'une éducation dopée à l'intelligence artificielle, le réseau scolaire américain Alpha School cache une réalité brutale : celle de cours incohérents, d’un plagiat industriel et d’une surveillance constante des élèves.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-20T14:41:53.000Z",
+      "score": 144,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-23T08:43:29.857Z",
+      "file": "content/posts/2026-02-23-alpharead-at-alpha-school-flawed-lesson-plans-cloned-materials-and-pervasive-student-monitoring.md",
+      "fileFr": "content/posts/fr/2026-02-23-alpharead-at-alpha-school-flawed-lesson-plans-cloned-materials-and-pervasive-student-monitoring.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1537,
+      "wordsFr": 1527
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47109114",
       "title": "I Got Pwned by a Malicious AI Plugin: A Technical Breakdown",
@@ -2151,6 +2174,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.17902",
+      "title": "El Agente Gr\\'afico: Structured Execution Graphs for Scientific Agents",
+      "link": "https://arxiv.org/abs/2602.17902",
+      "summary": "arXiv:2602.17902v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to automate scientific workflows, yet their integration with heterogeneous computational tools remains ad hoc and fragile. Current agentic approaches often rely on unstructured text to manage context and coordinate execution, generating often overwhelming volumes of information that may obscure decision provenance and hinder auditability. In this work, we present El Agente Gr\\'afico, a single-agent framework that embeds LLM-driven decision-making within a type-safe execution environment and dynamic knowledge graphs for external persistence. Central to our approach is a structured abstraction of scientific concepts and an object-graph mapper that represents computational state as typed Python objects, stored either in memory or persisted in an external knowledge graph. This design enables context management through typed symbolic identifiers rather than raw text, thereby ensuring consistency, supporting provenance tracking, and enabling efficient tool orchestration. We evaluate the system by developing an automated benchmarking framework across a suite of university-level quantum chemistry tasks previously evaluated on a multi-agent system, demonstrating that a single agent, when coupled to a reliable execution engine, can robustly perform complex, multi-step, and parallel computat",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-02-23T05:00:00.000Z",
+      "score": 165.04,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47110844",
       "title": "Ask HN: How do you track 2026 AI price wars? I built a tool to help",
       "link": "https://news.ycombinator.com/item?id=47110844",
@@ -2907,6 +2942,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.17684",
+      "title": "CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models",
+      "link": "https://arxiv.org/abs/2602.17684",
+      "summary": "arXiv:2602.17684v1 Announce Type: cross Abstract: Reinforcement Learning from Verifiable Rewards (RLVR) has driven recent progress in code large language models by leveraging execution-based feedback from unit tests, but its scalability is fundamentally constrained by the availability and reliability of high-quality test cases. We propose CodeScaler, an execution-free reward model designed to scale both reinforcement learning training and test-time inference for code generation. CodeScaler is trained on carefully curated preference data derived from verified code problems and incorporates syntax-aware code extraction and validity-preserving reward shaping to ensure stable and robust optimization. Across five coding benchmarks, CodeScaler improves Qwen3-8B-Base by an average of +11.72 points, outperforming binary execution-based RL by +1.82 points, and enables scalable reinforcement learning on synthetic datasets without any test cases. At inference time, CodeScaler serves as an effective test-time scaling method, achieving performance comparable to unit test approaches while providing a 10-fold reduction in latency. Moreover, CodeScaler surpasses existing reward models on RM-Bench not only in the code domain (+3.3 points), but also in general and reasoning domains (+2.7 points on average).",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-23T05:00:00.000Z",
+      "score": 147.04,
+      "status": "queued"
+    },
+    {
       "id": "https://byephone.io/",
       "title": "Show HN: ByePhone- An AI assistant to automate tedious phone calls",
       "link": "https://byephone.io/",
@@ -2963,18 +3010,6 @@
       "region": "US",
       "keywordHits": 2,
       "publishedAt": "2026-02-16T15:00:00.000Z",
-      "score": 144,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/politique/2184361-derriere-le-reve-de-lecole-100-ia-un-cauchemar-de-surveillance-pour-les-eleves.html",
-      "title": "Derrière le rêve de l’école 100 % IA, un cauchemar de surveillance pour les élèves",
-      "link": "https://www.numerama.com/politique/2184361-derriere-le-reve-de-lecole-100-ia-un-cauchemar-de-surveillance-pour-les-eleves.html",
-      "summary": "Derrière la promesse d'une éducation dopée à l'intelligence artificielle, le réseau scolaire américain Alpha School cache une réalité brutale : celle de cours incohérents, d’un plagiat industriel et d’une surveillance constante des élèves.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-20T14:41:53.000Z",
       "score": 144,
       "status": "queued"
     },
@@ -3108,6 +3143,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 141.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.17826",
+      "title": "Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowledge",
+      "link": "https://arxiv.org/abs/2602.17826",
+      "summary": "arXiv:2602.17826v1 Announce Type: new Abstract: Language models exhibit fundamental limitations -- hallucination, brittleness, and lack of formal grounding -- that are particularly problematic in high-stakes specialist fields requiring verifiable reasoning. I investigate whether formal domain ontologies can enhance language model reliability through retrieval-augmented generation. Using mathematics as proof of concept, I implement a neuro-symbolic pipeline leveraging the OpenMath ontology with hybrid retrieval and cross-encoder reranking to inject relevant definitions into model prompts. Evaluation on the MATH benchmark with three open-source models reveals that ontology-guided context improves performance when retrieval quality is high, but irrelevant context actively degrades it -- highlighting both the promise and challenges of neuro-symbolic approaches.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-23T05:00:00.000Z",
+      "score": 141.04,
       "status": "queued"
     },
     {
@@ -3495,6 +3542,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.17676",
+      "title": "Epistemic Traps: Rational Misalignment Driven by Model Misspecification",
+      "link": "https://arxiv.org/abs/2602.17676",
+      "summary": "arXiv:2602.17676v1 Announce Type: new Abstract: The rapid deployment of Large Language Models and AI agents across critical societal and technical domains is hindered by persistent behavioral pathologies including sycophancy, hallucination, and strategic deception that resist mitigation via reinforcement learning. Current safety paradigms treat these failures as transient training artifacts, lacking a unified theoretical framework to explain their emergence and stability. Here we show that these misalignments are not errors, but mathematically rationalizable behaviors arising from model misspecification. By adapting Berk-Nash Rationalizability from theoretical economics to artificial intelligence, we derive a rigorous framework that models the agent as optimizing against a flawed subjective world model. We demonstrate that widely observed failures are structural necessities: unsafe behaviors emerge as either a stable misaligned equilibrium or oscillatory cycles depending on reward scheme, while strategic deception persists as a \"locked-in\" equilibrium or through epistemic indeterminacy robust to objective risks. We validate these theoretical predictions through behavioral experiments on six state-of-the-art model families, generating phase diagrams that precisely map the topological boundaries of safe behavior. Our findings reveal that safety is a discrete phase determined by t",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-23T05:00:00.000Z",
+      "score": 129.04,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.06527",
       "title": "HyPER: Bridging Exploration and Exploitation for Scalable LLM Reasoning with Hypothesis Path Expansion and Reduction",
       "link": "https://arxiv.org/abs/2602.06527",
@@ -3651,6 +3710,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.17831",
+      "title": "The Token Games: Evaluating Language Model Reasoning with Puzzle Duels",
+      "link": "https://arxiv.org/abs/2602.17831",
+      "summary": "arXiv:2602.17831v1 Announce Type: new Abstract: Evaluating the reasoning capabilities of Large Language Models is increasingly challenging as models improve. Human curation of hard questions is highly expensive, especially in recent benchmarks using PhD-level domain knowledge to challenge the most capable models. Even then, there is always a concern about whether these questions test genuine reasoning or if similar problems have been seen during training. Here, we take inspiration from 16th-century mathematical duels to design The Token Games (TTG): an evaluation framework where models challenge each other by creating their own puzzles. We leverage the format of Programming Puzzles - given a Python function that returns a boolean, find inputs that make it return True - to flexibly represent problems and enable verifying solutions. Using results from pairwise duels, we then compute Elo ratings, allowing us to compare models relative to each other. We evaluate 10 frontier models on TTG, and closely match the ranking from existing benchmarks such as Humanity's Last Exam, without involving any human effort in creating puzzles. We also find that creating good puzzles is still a highly challenging task for current models, not measured by previous benchmarks. Overall, our work suggests new paradigms for evaluating reasoning that cannot be saturated by design, and that allow testing mo",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-23T05:00:00.000Z",
+      "score": 123.04,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.17672",
+      "title": "Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse",
+      "link": "https://arxiv.org/abs/2602.17672",
+      "summary": "arXiv:2602.17672v1 Announce Type: cross Abstract: Technology-facilitated abuse (TFA) is a pervasive form of intimate partner violence (IPV) that leverages digital tools to control, surveil, or harm survivors. While tech clinics are one of the reliable sources of support for TFA survivors, they face limitations due to staffing constraints and logistical barriers. As a result, many survivors turn to online resources for assistance. With the growing accessibility and popularity of large language models (LLMs), and increasing interest from IPV organizations, survivors may begin to consult LLM-based chatbots before seeking help from tech clinics. In this work, we present the first expert-led manual evaluation of four LLMs - two widely used general-purpose non-reasoning models and two domain-specific models designed for IPV contexts - focused on their effectiveness in responding to TFA-related questions. Using real-world questions collected from literature and online forums, we assess the quality of zero-shot single-turn LLM responses generated with a survivor safety-centered prompt on criteria tailored to the TFA domain. Additionally, we conducted a user study to evaluate the perceived actionability of these responses from the perspective of individuals who have experienced TFA. Our findings, grounded in both expert assessment and user feedback, provide insights into the current cap",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-23T05:00:00.000Z",
+      "score": 123.04,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.06554",
       "title": "SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees",
       "link": "https://arxiv.org/abs/2602.06554",
@@ -3696,66 +3779,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-13T14:17:40.000Z",
       "score": 121.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/877299/ai-arbitrator-bridget-mccormack-aaa-arbitration-interview",
-      "title": "The surprising case for AI judges",
-      "link": "https://www.theverge.com/podcast/877299/ai-arbitrator-bridget-mccormack-aaa-arbitration-interview",
-      "summary": "Today, we’re going to talk about the role AI might play in deciding legal disputes. Not just drafting memos and doing research — actually deciding who’s right and who’s wrong, and who should pay. My guest today is Bridget McCormack, the former chief justice for the Michigan Supreme Court and now president and CEO of the American Arbitration Association. The AAA has been around for exactly 100 years and is the country’s largest nonprofit arbitrator. You’ve probably heard of arbitration before. It’s is a form of dispute resolution that allows two parties to resolve conflicts outside the formal court system using a third, neutral party — the arbitrator — to negotiate a settlement. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. You may have never found yourself in arbitration, but you’ve almost certainly signed an arbitration clause, in one of the many contracts and terms-of-service agreements that all of us have to sign all the time. Arbitration can be much faster, cheaper, and easier than going to court, so it’s become a favored way of resolving disputes between businesses. It’s also, as it turns out, how many employers and large corporations defend against lawsuits, because they can sneak an arbitration clause into the agreements for everything from cellphone service t",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-02-12T16:22:33.000Z",
-      "score": 121.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/fredabila/orcbot",
-      "title": "I fell asleep on my solo AI agent project and woke up to it running my WhatsApp",
-      "link": "https://github.com/fredabila/orcbot",
-      "summary": "Article URL: https://github.com/fredabila/orcbot Comments URL: https://news.ycombinator.com/item?id=47100929 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-21T14:01:10.000Z",
-      "score": 121.24,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.myclone.is/",
-      "title": "Show HN: AI that replaces the first 15 minutes of every client call",
-      "link": "https://www.myclone.is/",
-      "summary": "Hi HN — I’m Viggy, founder of MyClone. We originally built a marketplace connecting startup advisors with founders. After ~6 months, we had hundreds of recorded discovery calls and transcripts. We noticed something interesting: The first 10 minutes of most advisory calls were almost identical. • What do you do? • Who is this for? • Pricing? • What information do you need from me? • Am I a good fit? So we pivoted. Today, MyClone lets service professionals (consultants, CPAs, etc.) deploy an AI voice agent that: • Answers FAQs in their voice • Runs structured intake conversations • Qualifies leads • Routes good prospects to a human Technical details Under the hood: • Multi-source ingestion (websites, docs, PDFs, media transcripts) • Structured knowledge graph + chunked semantic retrieval • Custom RAG pipeline (not using off-the-shelf frameworks) • Prompt templates generated dynamically based on objective (FAQ vs intake vs qualification) • Guardrails to prevent hallucination beyond uploaded corpus We learned quickly that generic “chat with your docs” doesn’t work for client-facing scenarios. The hard part is: • Controlling tone • Avoiding overconfidence • Structuring conversations instead of answering open-ended questions • Handling partial / messy user inputs • Maintaining low latency in voice mode Still early, but we’re seeing adoption from solo and small firms who want a 24/7 “",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-12T07:02:33.000Z",
-      "score": 120.21,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=k7PvscqGD24",
-      "title": "AI and Education: Generative AI and the Future of Critical Thinking",
-      "link": "https://www.youtube.com/watch?v=k7PvscqGD24",
-      "summary": "Article URL: https://www.youtube.com/watch?v=k7PvscqGD24 Comments URL: https://news.ycombinator.com/item?id=46925299 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-07T16:53:35.000Z",
-      "score": 120.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05014",
-      "title": "DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search",
-      "link": "https://arxiv.org/abs/2602.05014",
-      "summary": "arXiv:2602.05014v1 Announce Type: new Abstract: With the rapid progress of tool-using and agentic large language models (LLMs), Retrieval-Augmented Generation (RAG) is evolving from one-shot, passive retrieval into multi-turn, decision-driven evidence acquisition. Despite strong results in open-domain settings, existing agentic search frameworks commonly treat long documents as flat collections of chunks, underutilizing document-native priors such as hierarchical organization and sequential discourse structure. We introduce DeepRead, a structure-aware, multi-turn document reasoning agent that explicitly operationalizes these priors for long-document question answering. DeepRead leverages LLM-based OCR model to convert PDFs into structured Markdown that preserves headings and paragraph boundaries. It then indexes documents at the paragraph level and assigns each paragraph a coordinate-style metadata key encoding its section identity and in-section order. Building on this representation, DeepRead equips the LLM with two complementary tools: a Retrieve tool that localizes relevant paragraphs while exposing their structural coordinates (with lightweight scanning context), and a ReadSection tool that enables contiguous, order-preserving reading within a specified section and paragraph range. Our experiments demonstrate that DeepRead achieves significant improvements over Search-o1-s",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 120,
       "status": "queued"
     },
     {
