@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-02-23T15:50:46.496Z",
+  "generatedAt": "2026-02-24T16:08:19.994Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-02-24-neuron-v03-independent-composable-rust-crates-for-ai-agents",
+      "title": "neuron v0.3 — independent, composable Rust crates for AI agents",
+      "date": "2026-02-24",
+      "excerpt": "neuron v0.3 splits the agent stack into independent Rust crates—Provider, Tool, ContextStrategy, AgentLoop and MCP—so you can pick only the pieces you need and compose agents.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-24-neuron-v03-independent-composable-rust-crates-for-ai-agents.jpg",
+      "tags": [
+        "Rust",
+        "AI agents",
+        "neuron",
+        "agent framework",
+        "MCP",
+        "context compaction",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "sources": [
+        "https://secbear.github.io/neuron/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-02-23-alpharead-at-alpha-school-flawed-lesson-plans-cloned-materials-and-pervasive-student-monitoring",
       "title": "AlphaRead at Alpha School: flawed lesson plans, cloned materials and pervasive student monitoring",

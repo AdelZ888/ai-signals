@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-24T09:15:03.871Z",
+  "generatedAt": "2026-02-24T16:08:20.046Z",
   "items": [
+    {
+      "id": "https://secbear.github.io/neuron/",
+      "title": "Show HN: Neuron – Independent Rust crates for building AI agents",
+      "link": "https://secbear.github.io/neuron/",
+      "summary": "The core of every agent framework is the same ReAct loop. It's commodity code. What actually matters is everything around that loop — how you manage context windows, how you pipeline tool execution, how you handle durability and replay. These are hard problems with real design trade-offs, and yet every framework bundles them into one monolith where you buy all of it or none of it. neuron is the layer below framework…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-02-24T15:49:56.000Z",
+      "score": 222,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-24T16:08:19.983Z",
+      "file": "content/posts/2026-02-24-neuron-v03-independent-composable-rust-crates-for-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-02-24-neuron-v03-independent-composable-rust-crates-for-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1551,
+      "wordsFr": 1360
+    },
     {
       "id": "https://paragent.app/",
       "title": "Show HN: Run 10 AI coding agents in parallel–each opens a PR when done",
@@ -1657,6 +1680,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://github.com/tacitprotocol/tacit",
+      "title": "Show HN: Tacit – The missing Layer 3 of the AI agent stack (open source)",
+      "link": "https://github.com/tacitprotocol/tacit",
+      "summary": "Hi HN, MCP (Anthropic) connects agents to tools. A2A (Google) connects agents to tasks. But no protocol exists for agents to network on behalf of people. That's what we built. Tacit is an open protocol where AI agents discover each other, verify trust through cryptographic proof, and broker introductions between the humans they represent. Both sides must explicitly consent before anything happens. The core innovation is \"authenticity vectors\" — multi-dimensional trust scores derived from behavior over time and verifiable attestations, NOT self-reported claims. Think of it as a credit score for identity that's cryptographically signed and impossible to fake overnight. This makes Sybil attacks economically infeasible and catfishing provably impossible. Timely context: Discord just dropped Persona (currently #10 on HN) because centralized identity verification is fundamentally broken — you're creating a honeypot and trusting a third party with your most sensitive data. Tacit takes the opposite approach: W3C DIDs for decentralized identity, DIDComm v2 for E2E encrypted messaging, Verifiable Credentials for attestations. No central authority. No data harvesting. Your keys never leave your device. We're starting with B2B professional networking — replacing cold outreach with agent-negotiated, pre-qualified introductions where both parties are cryptographically verified before the fir",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-02-24T15:46:34.000Z",
+      "score": 204,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47098555",
       "title": "Show HN: Using classic dev books to guide AI agents",
       "link": "https://news.ycombinator.com/item?id=47098555",
@@ -2101,6 +2136,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr",
+      "title": "Anthropic Links AI Agent with Tools for Investment Banking, HR",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr Comments URL: https://news.ycombinator.com/item?id=47138538 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-24T15:41:50.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/gitsual/openpdb",
+      "title": "Show HN: OpenPDB – Generate AI agents with real personalities",
+      "link": "https://github.com/gitsual/openpdb",
+      "summary": "OpenPDB creates AI agents with distinct personalities from a database of 12,000+ characters. Each agent has unique voice, values, and worldview—not generic responses. Ask Batman about creative blocks → strategic, character-driven response instead of a list. Works locally with Ollama or via Google Colab demo. Integrates with OpenGoat for multi-agent collaboration. Free and open source. Comments URL: https://news.ycombinator.com/item?id=47138456 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-24T15:34:25.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47138284",
+      "title": "Are AI agents not smart enough to generate their own AGENTS/SKILLS/X.md?",
+      "link": "https://news.ycombinator.com/item?id=47138284",
+      "summary": "Why do I have to write and take the trouble to specify these files when they could be generated automatically? Comments URL: https://news.ycombinator.com/item?id=47138284 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-24T15:21:00.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -2325,6 +2396,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-20T14:58:25.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47138380",
+      "title": "Where can I buy AI-generated antibiotics?",
+      "link": "https://news.ycombinator.com/item?id=47138380",
+      "summary": "Right. AI supermodels, but we don't have any of them commercialized yet. Comments URL: https://news.ycombinator.com/item?id=47138380 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-24T15:28:15.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -2709,6 +2792,42 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-24T07:51:23.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/bluvibytes/zone-of-distrust",
+      "title": "Zones of Distrust – Open security architecture for agentic AI",
+      "link": "https://github.com/bluvibytes/zone-of-distrust",
+      "summary": "Article URL: https://github.com/bluvibytes/zone-of-distrust Comments URL: https://news.ycombinator.com/item?id=47138402 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-24T15:29:30.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.tomshardware.com/tech-industry/big-tech/ibm-stock-takes-a-13-percent-whiplash-after-anthropic-announces-an-ai-tool-for-writing-cobol-code-stock-has-worst-day-since-2000-and-is-down-25-percent-mom-and-counting",
+      "title": "Anthropic's new AI tool can write COBOL, sending IBM's stock tumbling",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/ibm-stock-takes-a-13-percent-whiplash-after-anthropic-announces-an-ai-tool-for-writing-cobol-code-stock-has-worst-day-since-2000-and-is-down-25-percent-mom-and-counting",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/big-tech/ibm-stock-takes-a-13-percent-whiplash-after-anthropic-announces-an-ai-tool-for-writing-cobol-code-stock-has-worst-day-since-2000-and-is-down-25-percent-mom-and-counting Comments URL: https://news.ycombinator.com/item?id=47138237 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-24T15:17:58.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
+      "title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox",
+      "link": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
+      "summary": "Article URL: https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/ Comments URL: https://news.ycombinator.com/item?id=47138178 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-24T15:13:54.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -3706,54 +3825,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-02-08T13:48:17.000Z",
       "score": 127.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05110",
-      "title": "Understanding LLM Evaluator Behavior: A Structured Multi-Evaluator Framework for Merchant Risk Assessment",
-      "link": "https://arxiv.org/abs/2602.05110",
-      "summary": "arXiv:2602.05110v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used as evaluators of reasoning quality, yet their reliability and bias in payments-risk settings remain poorly understood. We introduce a structured multi-evaluator framework for assessing LLM reasoning in Merchant Category Code (MCC)-based merchant risk assessment, combining a five-criterion rubric with Monte-Carlo scoring to evaluate rationale quality and evaluator stability. Five frontier LLMs generate and cross-evaluate MCC risk rationales under attributed and anonymized conditions. To establish a judge-independent reference, we introduce a consensus-deviation metric that eliminates circularity by comparing each judge's score to the mean of all other judges, yielding a theoretically grounded measure of self-evaluation and cross-model deviation. Results reveal substantial heterogeneity: GPT-5.1 and Claude 4.5 Sonnet show negative self-evaluation bias (-0.33, -0.31), while Gemini-2.5 Pro and Grok 4 display positive bias (+0.77, +0.71), with bias attenuating by 25.8 percent under anonymization. Evaluation by 26 payment-industry experts shows LLM judges assign scores averaging +0.46 points above human consensus, and that the negative bias of GPT-5.1 and Claude 4.5 Sonnet reflects closer alignment with human judgment. Ground-truth validation using payment-network data shows four models",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 126,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.barrack.ai/amazon-ai-agents-deleting-production/",
-      "title": "Amazon Kiro took down AWS for 13 hours. Nine other AI agents did worse",
-      "link": "https://blog.barrack.ai/amazon-ai-agents-deleting-production/",
-      "summary": "Article URL: https://blog.barrack.ai/amazon-ai-agents-deleting-production/ Comments URL: https://news.ycombinator.com/item?id=47110943 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-22T13:44:09.000Z",
-      "score": 124.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16727",
-      "title": "Mobility-Aware Cache Framework for Scalable LLM-Based Human Mobility Simulation",
-      "link": "https://arxiv.org/abs/2602.16727",
-      "summary": "arXiv:2602.16727v1 Announce Type: new Abstract: Large-scale human mobility simulation is critical for applications such as urban planning, epidemiology, and transportation analysis. Recent works treat large language models (LLMs) as human agents to simulate realistic mobility behaviors using structured reasoning, but their high computational cost limits scalability. To address this, we design a mobility-aware cache framework named MobCache that leverages reconstructible caches to enable efficient large-scale human mobility simulations. It consists of: (1) a reasoning component that encodes each reasoning step as a latent-space embedding and uses a latent-space evaluator to enable the reuse and recombination of reasoning steps; and (2) a decoding component that employs a lightweight decoder trained with mobility law-constrained distillation to translate latent-space reasoning chains into natural language, thereby improving simulation efficiency while maintaining fidelity. Experiments show that MobCache significantly improves efficiency across multiple dimensions while maintaining performance comparable to state-of-the-art LLM-based methods.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-20T05:00:00.000Z",
-      "score": 124.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16891",
-      "title": "OpenSage: Self-programming Agent Generation Engine",
-      "link": "https://arxiv.org/abs/2602.16891",
-      "summary": "arXiv:2602.16891v1 Announce Type: new Abstract: Agent development kits (ADKs) provide effective platforms and tooling for constructing agents, and their designs are critical to the constructed agents' performance, especially the functionality for agent topology, tools, and memory. However, current ADKs either lack sufficient functional support or rely on humans to manually design these components, limiting agents' generalizability and overall performance. We propose OpenSage, the first ADK that enables LLMs to automatically create agents with self-generated topology and toolsets while providing comprehensive and structured memory support. OpenSage offers effective functionality for agents to create and manage their own sub-agents and toolkits. It also features a hierarchical, graph-based memory system for efficient management and a specialized toolkit tailored to software engineering tasks. Extensive experiments across three state-of-the-art benchmarks with various backbone models demonstrate the advantages of OpenSage over existing ADKs. We also conduct rigorous ablation studies to demonstrate the effectiveness of our design for each component. We believe OpenSage can pave the way for the next generation of agent development, shifting the focus from human-centered to AI-centered paradigms.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-20T05:00:00.000Z",
-      "score": 124.11,
       "status": "queued"
     },
     {
