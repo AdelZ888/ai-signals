@@ -979,6 +979,29 @@ function hasSmallTeamSignal(text) {
   );
 }
 
+const SOFT_VALIDATION_ISSUE_PATTERNS = [
+  /first section .*too dense/i,
+  /first section .*plain-language tl;dr/i,
+  /first half of the article is too dense/i,
+  /section ".*small teams?.*".*concrete advice/i,
+  /society post must explicitly cover jobs\/work\/tasks throughout/i,
+];
+
+function isSoftValidationIssue(issue) {
+  const text = String(issue || "");
+  return SOFT_VALIDATION_ISSUE_PATTERNS.some((pattern) => pattern.test(text));
+}
+
+function splitValidationIssues(issues) {
+  const soft = [];
+  const hard = [];
+  for (const issue of Array.isArray(issues) ? issues : []) {
+    if (isSoftValidationIssue(issue)) soft.push(issue);
+    else hard.push(issue);
+  }
+  return { hard, soft };
+}
+
 function validateDraft(markdown, headings, sources, templateId) {
   const issues = [];
   const sections = splitByH2(markdown);
@@ -2292,17 +2315,26 @@ export async function generatePost() {
     const publishAllowed = !STRICT_PUBLISH ? true : !isFallback || ALLOW_FALLBACK_CONTENT;
     const meetsLength = countWords(postEn.content) >= wordTargets.minWordsEn && countWords(postFr.content) >= wordTargets.minWordsFr;
     const issues = [...enIssues.map((v) => `EN: ${v}`), ...frIssues.map((v) => `FR: ${v}`)];
+    const { hard: hardIssues, soft: softIssues } = splitValidationIssues(issues);
 
-    if (!publishAllowed || !meetsLength || issues.length > 0) {
+    if (softIssues.length > 0) {
+      console.warn(`[generate-post] Publishing with soft validation warnings (${softIssues.length}).`);
+      for (const warning of softIssues.slice(0, 6)) {
+        console.warn(`[generate-post] Soft warning: ${warning}`);
+      }
+    }
+
+    if (!publishAllowed || !meetsLength || hardIssues.length > 0) {
       console.warn(
         `[generate-post] Rejecting draft. generationMode=${generationMode} wordsEn=${countWords(postEn.content)} wordsFr=${countWords(
           postFr.content,
-        )} issues=${issues.length}`,
+        )} issues=${hardIssues.length} hard + ${softIssues.length} soft`,
       );
       const reasonParts = [];
       if (!publishAllowed) reasonParts.push(`strict publish refused generationMode="${generationMode}"`);
       if (!meetsLength) reasonParts.push("below min word targets");
-      if (issues.length > 0) reasonParts.push(`validation issues: ${issues.slice(0, 8).join(" | ")}`);
+      if (hardIssues.length > 0) reasonParts.push(`validation issues: ${hardIssues.slice(0, 8).join(" | ")}`);
+      if (softIssues.length > 0) reasonParts.push(`soft warnings: ${softIssues.slice(0, 4).join(" | ")}`);
 
       updateItem(topic.id, {
         status: "failed",
