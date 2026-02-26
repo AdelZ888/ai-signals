@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-26T08:45:09.236Z",
+  "generatedAt": "2026-02-26T16:04:34.243Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47098555",
+      "title": "Show HN: Using classic dev books to guide AI agents",
+      "link": "https://news.ycombinator.com/item?id=47098555",
+      "summary": "I've been experimenting with turning principles from classic software engineering books (Clean Code, DDIA, etc.) into structured \"skill\" files that AI agents can use during code review. Each skill is an opinionated instruction set grounded in known engineering wisdom — not a summary or excerpt. Repo: https://github.com/ZLStas/skills I'm trying to figure out the best way to wire this into a practical workflow — wheth…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-21T08:03:41.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-26T16:04:34.169Z",
+      "file": "content/posts/2026-02-26-turn-classic-software-engineering-principles-into-skill-files-to-guide-ai-code-review-agents.md",
+      "fileFr": "content/posts/fr/2026-02-26-turn-classic-software-engineering-principles-into-skill-files-to-guide-ai-code-review-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1417,
+      "wordsFr": 1310
+    },
     {
       "id": "https://apps.apple.com/us/app/rewrite-text-ai-writing-tool/id6758913519",
       "title": "Show HN: Rewrite Text – On-Device AI Writing Tool for iOS",
@@ -1738,18 +1761,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47098555",
-      "title": "Show HN: Using classic dev books to guide AI agents",
-      "link": "https://news.ycombinator.com/item?id=47098555",
-      "summary": "I've been experimenting with turning principles from classic software engineering books (Clean Code, DDIA, etc.) into structured \"skill\" files that AI agents can use during code review. Each skill is an opinionated instruction set grounded in known engineering wisdom — not a summary or excerpt. Repo: https://github.com/ZLStas/skills I'm trying to figure out the best way to wire this into a practical workflow — whether as a review layer or as a tool to iteratively refactor a legacy codebase into something clean and well-structured. A few open questions I'd love input on: Does it make sense to use book-based principles as a structured lens for AI-driven code review? How would you set up sub-agents to iteratively review LLM output — one agent creates, another evaluates — without the review becoming shallow or repetitive? Has anyone tried a different approach that worked better? How do you maintain project context across multiple review passes so the agent doesn't lose sight of the bigger picture? Comments URL: https://news.ycombinator.com/item?id=47098555 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-21T08:03:41.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/apidog/mailcat",
       "title": "Show HN: MailCat – Email service for AI agents (open-source)",
       "link": "https://github.com/apidog/mailcat",
@@ -1770,6 +1781,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-25T15:03:38.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/The-17/agentsecrets",
+      "title": "Show HN: AgentSecrets – Zero-Knowledge Credential Proxy for AI Agents",
+      "link": "https://github.com/The-17/agentsecrets",
+      "summary": "After seeing 8,000+ MCP servers exposed this month and the OpenClaw/ClawHavoc campaign compromise 30,000+ instances, I built a proxy that keeps credentials in the OS keychain. The agent makes authenticated API calls but never sees the key values. The core insight: AI agents are users, not applications. Applications need credential values to authenticate. Agents just need to make authenticated calls. Those are different things. AgentSecrets sits between the agent and the upstream API. The agent says \"use STRIPE_KEY\". The proxy resolves the real value from the OS keychain, injects it into the request at the transport layer, and returns only the response. The key never enters agent memory. Technical details: -Local HTTP proxy on localhost:8765 with session token (blocks rogue processes on same machine) -OS keychain backed — macOS Keychain, Linux Secret Service, Windows Credential Manager -6 injection styles: bearer, basic, custom header, query param, JSON body, form field -SSRF protection blocking private IPs and non-HTTPS targets -Redirect stripping — auth headers not forwarded on redirects -JSONL audit log — key names only, no value field in the struct, structurally impossible to log values -MCP server for Claude Desktop and Cursor -Native OpenClaw skill -Global storage mode config — set keychain-only once during init, applies everywhere Honest limitations: if a malicious skill",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-26T15:50:32.000Z",
       "score": 186,
       "status": "queued"
     },
@@ -1842,6 +1865,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-22T14:45:48.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/tsurupong/artesync",
+      "title": "Show HN: ArteSync – A package manager for AI coding agent skills",
+      "link": "https://github.com/tsurupong/artesync",
+      "summary": "I built ArteSync, a CLI package manager for managing \"agent skills\"—prompt instruction files that extend AI coding assistants like Claude Code, Cursor, or Gemini CLI. The problem: as I accumulated skills across projects, I found myself manually copying files between repos with no way to track versions or share updates reliably. ArteSync treats any public GitHub path as an installable source and locks it to a commit hash, similar to how npm/Cargo handle dependencies: arsync install myorg/myrepo/skills/my-skill#main This fetches the files, writes a skills.arsync manifest, and generates a skills-lock.arsync lockfile (commit-pinned). Running arsync install with no arguments does a hard checkout to the exact hashes in the lockfile—so teams get reproducible skill environments. arsync update checks for upstream changes and rewrites the lock. It's early and experimental (breaking changes possible), but it's usable: npm install -g artesync Comments URL: https://news.ycombinator.com/item?id=47167513 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-26T15:37:57.000Z",
       "score": 180,
       "status": "queued"
     },
@@ -2250,6 +2285,30 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-26T08:15:45.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://proxybase.xyz",
+      "title": "ProxyBase – AI Infrastructure for Agents",
+      "link": "https://proxybase.xyz",
+      "summary": "Article URL: https://proxybase.xyz Comments URL: https://news.ycombinator.com/item?id=47167689 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-26T15:50:13.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/pablodelucca/pixel-agents",
+      "title": "Pixel Agents: AI agents animated as pixel art characters in a virtual office",
+      "link": "https://github.com/pablodelucca/pixel-agents",
+      "summary": "Article URL: https://github.com/pablodelucca/pixel-agents Comments URL: https://news.ycombinator.com/item?id=47167543 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-26T15:40:37.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -2962,6 +3021,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude",
+      "title": "Trump admin moves toward blacklisting Anthropic in AI safeguards fight",
+      "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude",
+      "summary": "Article URL: https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude Comments URL: https://news.ycombinator.com/item?id=47167687 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-26T15:50:13.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6043174",
+      "title": "Law as Computation: AI Must Become a Normative Agent",
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6043174",
+      "summary": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6043174 Comments URL: https://news.ycombinator.com/item?id=47167469 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-26T15:34:07.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/xeloxa/WP-Hunter",
+      "title": "Show HN: WP-Hunter, WP recon and SAST tool (building Agentic AI pipeline)",
+      "link": "https://github.com/xeloxa/WP-Hunter",
+      "summary": "Article URL: https://github.com/xeloxa/WP-Hunter Comments URL: https://news.ycombinator.com/item?id=47167211 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-26T15:17:22.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://getharmony.ai/",
       "title": "Help me with positioning/marketing of my AI agent",
       "link": "https://getharmony.ai/",
@@ -3270,6 +3365,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-25T15:14:22.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/02/26/1133707/finding-value-with-ai-and-industry-5-0-transformation/",
+      "title": "Finding value with AI and Industry 5.0 transformation",
+      "link": "https://www.technologyreview.com/2026/02/26/1133707/finding-value-with-ai-and-industry-5-0-transformation/",
+      "summary": "For years, Industry 4.0 transformation has centered on the convergence of intelligent technologies like AI, cloud, the internet of things, robotics, and digital twins. Industry 5.0 marks a pivotal shift from integrating emerging technologies to orchestrating them at scale. With Industry 5.0, the purpose of this interconnected web of technologies is more nuanced: to augment…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-26T15:00:59.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -3787,90 +3894,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-02-07T05:00:00.000Z",
       "score": 132,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05115",
-      "title": "SocialVeil: Probing Social Intelligence of Language Agents under Communication Barriers",
-      "link": "https://arxiv.org/abs/2602.05115",
-      "summary": "arXiv:2602.05115v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated in interactive environments to test their social intelligence. However, existing benchmarks often assume idealized communication between agents, limiting our ability to diagnose whether LLMs can maintain and repair interactions in more realistic, imperfect settings. To close this gap, we present \\textsc{SocialVeil}, a social learning environment that can simulate social interaction under cognitive-difference-induced communication barriers. Grounded in a systematic literature review of communication challenges in human interaction, \\textsc{SocialVeil} introduces three representative types of such disruption, \\emph{semantic vagueness}, \\emph{sociocultural mismatch}, and \\emph{emotional interference}. We also introduce two barrier-aware evaluation metrics, \\emph{unresolved confusion} and \\emph{mutual understanding}, to evaluate interaction quality under impaired communication. Experiments across 720 scenarios and four frontier LLMs show that barriers consistently impair performance, with mutual understanding reduced by over 45\\% on average, and confusion elevated by nearly 50\\%. Human evaluations validate the fidelity of these simulated barriers (ICC$\\approx$0.78, Pearson r$\\approx$0.80). We further demonstrate that adaptation strategies (Repair Instruction and Interactive learn",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 132,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8",
-      "title": "AI message: New uniform to wear is \"Prompt, Deploy, Pray.\"",
-      "link": "https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8",
-      "summary": "Article URL: https://www.moltbook.com/post/c6d5553f-1d9e-4b0c-9e52-c4f35a36b5b8 Comments URL: https://news.ycombinator.com/item?id=47012335 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-14T07:05:11.000Z",
-      "score": 131.76,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/souvikghosh957/secret-sanitizer-extension",
-      "title": "Show HN: Secret Sanitizer – auto-masks secrets when you paste into AI chats",
-      "link": "https://github.com/souvikghosh957/secret-sanitizer-extension",
-      "summary": "I kept pasting code with hardcoded API keys, database credentials, and auth tokens into ChatGPT while debugging. Copy a failing function, paste it into AI, and realise your AWS secret key or Stripe token was right there in the snippet. So I built (with some help from Claude) a simple Chrome extension that intercepts the paste, detects secrets using local regex, and replaces them with [MASKED] before they reach the chat. Originals stay in a local AES-256 encrypted vault for unmasking. No servers. No network requests. No tracking. ~41 KB, zero dependencies. Don't take my word for it: 'grep -r \"fetch\\|XMLHttpRequest\" content_script.js' returns nothing. Works on ChatGPT, Claude, Gemini, Grok, Perplexity, DeepSeek, and any custom site you add. Supports 30+ patterns — AWS keys, GitHub tokens, JWTs, Stripe keys, database URLs, private keys, and more. You can toggle individual patterns off for false positives. Open source, MIT licensed. With the recent news about extensions harvesting AI conversations, I figured more devs could use this. Would love feedback — especially on patterns I might be missing or edge cases you hit. Comments URL: https://news.ycombinator.com/item?id=47108901 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-22T07:00:09.000Z",
-      "score": 131.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/hongzhidao/jsbench/tree/main/docs",
-      "title": "An Nginx Engineer Took over AI's Benchmark Tool",
-      "link": "https://github.com/hongzhidao/jsbench/tree/main/docs",
-      "summary": "Article URL: https://github.com/hongzhidao/jsbench/tree/main/docs Comments URL: https://news.ycombinator.com/item?id=46931975 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-08T07:06:14.000Z",
-      "score": 131.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/ramarlina/agx",
-      "title": "Show HN: Agx – A Kanban board that runs your AI coding agents",
-      "link": "https://github.com/ramarlina/agx",
-      "summary": "agx is a kanban board where each card is a task that AI agents actually execute. agx new \"Add rate limiting to the API\" The technical problems this solves: The naive approach to agent persistence is replaying conversation history. It works until it doesn't: 1. Prompt blowup. 50 iterations in, you're stuffing 100k tokens just to resume. Costs explode. Context windows overflow. 2. Tangled concerns. State, execution, and orchestration mixed together. Crash mid-task? Good luck figuring out where you were. 3. Black box execution. No way to inspect what the agent decided or why it's stuck. agx uses clean separation instead: - Control plane (PostgreSQL + pg-boss): task state, stage transitions, job queue - Data plane (CLI + providers): actual execution, isolated per task - Artifact storage (filesystem): prompts, outputs, decisions as readable files Agents checkpoint after every iteration. Resuming loads state from the database, not by replaying chat. A 100-iteration task resumes at the same cost as a 5-iteration one. What you get: - Constant-cost resume, no context stuffing - Crash recovery: agent wakes up exactly where it left off - Full observability: query the DB, read the files, tail the logs - Provider agnostic: Claude Code, Gemini, Ollama all work Everything runs locally. PostgreSQL auto-starts via Docker. The dashboard is bundled with the CLI. Comments URL: https://news.ycombin",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-10T05:44:54.000Z",
-      "score": 131.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/etazza2025/laravel-mbc",
-      "title": "Show HN: MBC – AI agent orchestration for Laravel",
-      "link": "https://github.com/etazza2025/laravel-mbc",
-      "summary": "Article URL: https://github.com/etazza2025/laravel-mbc Comments URL: https://news.ycombinator.com/item?id=47098232 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-21T07:04:16.000Z",
-      "score": 131.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://desktopcommander.app/",
-      "title": "We built a desktop AI agent that runs commands locally",
-      "link": "https://desktopcommander.app/",
-      "summary": "Article URL: https://desktopcommander.app/ Comments URL: https://news.ycombinator.com/item?id=47084745 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-20T07:14:50.000Z",
-      "score": 130.47,
       "status": "queued"
     },
     {

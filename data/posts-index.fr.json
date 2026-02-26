@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-26T08:45:09.230Z",
+  "generatedAt": "2026-02-26T16:04:34.180Z",
   "locale": "fr",
   "posts": [
     {
@@ -28,6 +28,30 @@
       "timeToImplementMinutes": 360,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-26-turn-classic-software-engineering-principles-into-skill-files-to-guide-ai-code-review-agents",
+      "title": "Transformer les principes classiques d'ingénierie logicielle en fichiers « skill » pour guider des agents IA de revue de code",
+      "date": "2026-02-26",
+      "excerpt": "Encoder des leçons de livres comme Clean Code ou DDIA en petits fichiers « skill » pour que des agents IA donnent des retours cohérents et traçables. Flux proposé : lint rapide → revue guidée → humain.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-26-turn-classic-software-engineering-principles-into-skill-files-to-guide-ai-code-review-agents.jpg",
+      "tags": [
+        "IA",
+        "revue-de-code",
+        "ingénierie-logicielle",
+        "LLM",
+        "CI"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47098555"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
     },
     {
       "slug": "2026-02-25-tacit-an-open-protocol-for-agent-mediated-introductions-using-dids-and-verifiable-credentials",
