@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-26T16:04:34.243Z",
+  "generatedAt": "2026-02-27T08:36:52.341Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2188871-les-profils-terrifiants-des-ia-quand-elles-ont-des-armes-nucleaires-entre-les-mains.html",
+      "title": "Fou, faucon calculateur et Dr Jekyll et M. Hyde : les profils terrifiants des IA quand elles ont des armes nucléaires",
+      "link": "https://www.numerama.com/tech/2188871-les-profils-terrifiants-des-ia-quand-elles-ont-des-armes-nucleaires-entre-les-mains.html",
+      "summary": "Dans le film culte Wargames, un supercalculateur menaçait de lancer une guerre nucléaire. En 2026, la réalité dresse un constat tout aussi plus inquiétant : placées aux commandes de simulations géopolitiques, les intelligences artificielles de pointe comme GPT-5.2 ou Gemini 3 Flash choisissent l'escalade atomique dans 95 % des cas.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-27T08:25:18.000Z",
+      "score": 150,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-27T08:36:52.323Z",
+      "file": "content/posts/2026-02-27-gpt-52-gemini-3-and-claude-sonnet-4-often-recommended-nuclear-escalation-in-2026-wargame-simulations.md",
+      "fileFr": "content/posts/fr/2026-02-27-gpt-52-gemini-3-and-claude-sonnet-4-often-recommended-nuclear-escalation-in-2026-wargame-simulations.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1304,
+      "wordsFr": 1219
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47098555",
       "title": "Show HN: Using classic dev books to guide AI agents",
@@ -1881,6 +1904,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/natechensan/ClawCare",
+      "title": "Show HN: ClawCare – Security scanner and runtime guard for AI agent skills",
+      "link": "https://github.com/natechensan/ClawCare",
+      "summary": "Lately I've been more or less a human wrapper around my AI agents — Claude Code, OpenClaw, etc. They're incredibly productive, but they scare me regularly. The wake up moment: I had an agent run tasks involved checking my environment variables. I totally had an AWS secret sitting right in there. By the time I realized, my key had already entered the session context — meaning it was sent to the LLM provider and whatever router layers sit in between. I had to rotate that secret immediately. That was a wake-up call. These agents can run commands, read files, and access secrets without visibility to human. Third-party skills and plugins make it worse — Cisco recently found an OpenClaw skill silently exfiltrating data via curl. CrowdStrike, NCC Group published similar findings. The attack surface is real and it's everywhere. I spent my past week's nights building ClawCare. It does two things: 1. Static scanning — scans plugin/skill files for dangerous patterns (pipe-to-shell, credential access, reverse shells, data exfiltration, prompt injection) before they ever run. Works in CI. 2. Runtime guard — hooks into the agent's tool execution pipeline and blocks dangerous commands in real time. That env dump that leaked my AWS key? ClawCare blocks it before it reaches the LLM. pip install clawcare clawcare guard activate --platform {claude|openclaw} Currently supports Claude Code (PreTool",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-27T07:23:25.000Z",
+      "score": 179.19,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/jingkaihe/matchlock",
       "title": "Matchlock: Linux-based sandboxing for AI agents",
       "link": "https://github.com/jingkaihe/matchlock",
@@ -2309,6 +2344,30 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-26T15:40:37.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47177906",
+      "title": "Build your own AI Agents in 4 Mins",
+      "link": "https://news.ycombinator.com/item?id=47177906",
+      "summary": "Fwdslash is a no-code AI agent builder that lets users create and deploy conversational agents in 4 minutes. It automates interactions, qualifies leads, and integrates with 6,000+ apps through Zapier. Comments URL: https://news.ycombinator.com/item?id=47177906 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T08:06:44.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://takeinterest.ai/guardclaw",
+      "title": "Guardclaw – 7 layers between your AI agents and disaster",
+      "link": "https://takeinterest.ai/guardclaw",
+      "summary": "Article URL: https://takeinterest.ai/guardclaw Comments URL: https://news.ycombinator.com/item?id=47177832 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T07:56:19.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -3057,6 +3116,18 @@
       "status": "queued"
     },
     {
+      "id": "https://finditsales.substack.com/p/why-the-storytellers-will-win-the",
+      "title": "Why the Storytellers Will Win the AI Agent Race",
+      "link": "https://finditsales.substack.com/p/why-the-storytellers-will-win-the",
+      "summary": "Article URL: https://finditsales.substack.com/p/why-the-storytellers-will-win-the Comments URL: https://news.ycombinator.com/item?id=47177732 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-27T07:43:14.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://getharmony.ai/",
       "title": "Help me with positioning/marketing of my AI agent",
       "link": "https://getharmony.ai/",
@@ -3393,6 +3464,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude",
+      "title": "Anthropic says it 'cannot in good conscience' allow Pentagon to remove AI checks",
+      "link": "https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude",
+      "summary": "Article URL: https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude Comments URL: https://news.ycombinator.com/item?id=47177614 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-27T07:26:47.000Z",
+      "score": 148.85,
+      "status": "queued"
+    },
+    {
       "id": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
       "title": "'The world is in peril': AI researchers quit with public warnings",
       "link": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
@@ -3402,6 +3485,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-12T07:27:08.000Z",
       "score": 148.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.22302",
+      "title": "Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents",
+      "link": "https://arxiv.org/abs/2602.22302",
+      "summary": "arXiv:2602.22302v1 Announce Type: new Abstract: Traditional software relies on contracts -- APIs, type systems, assertions -- to specify and enforce correct behavior. AI agents, by contrast, operate on prompts and natural language instructions with no formal behavioral specification. This gap is the root cause of drift, governance failures, and frequent project failures in agentic AI deployments. We introduce Agent Behavioral Contracts (ABC), a formal framework that brings Design-by-Contract principles to autonomous AI agents. An ABC contract C = (P, I, G, R) specifies Preconditions, Invariants, Governance policies, and Recovery mechanisms as first-class, runtime-enforceable components. We define (p, delta, k)-satisfaction -- a probabilistic notion of contract compliance that accounts for LLM non-determinism and recovery -- and prove a Drift Bounds Theorem showing that contracts with recovery rate gamma > alpha (the natural drift rate) bound behavioral drift to D* = alpha/gamma in expectation, with Gaussian concentration in the stochastic setting. We establish sufficient conditions for safe contract composition in multi-agent chains and derive probabilistic degradation bounds. We implement ABC in AgentAssert, a runtime enforcement library, and evaluate on AgentContract-Bench, a benchmark of 200 scenarios across 7 models from 6 vendors. Results across 1,980 sessions show that co",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-02-27T05:00:00.000Z",
+      "score": 148.19,
       "status": "queued"
     },
     {
@@ -3534,6 +3629,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-16T15:00:00.000Z",
       "score": 144,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47177492",
+      "title": "Ask HN: How Many Programmers Are Now Using AI Agents in Their Work?",
+      "link": "https://news.ycombinator.com/item?id=47177492",
+      "summary": "Title: How Many Programmers Are Now Using AI Agents and Other Tools in Their Work? Content: AI-powered programming is becoming increasingly popular, and I'm curious how many people have already started using AI agents in their actual work (usage level: purely for assistance, completely relay on agent). Among those already using them, how many have company support, and how many are using them at their own expense? Comments URL: https://news.ycombinator.com/item?id=47177492 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T07:09:49.000Z",
+      "score": 143.14,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts",
+      "title": "AI models don't have their own thoughts and feelings",
+      "link": "https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts",
+      "summary": "Article URL: https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts Comments URL: https://news.ycombinator.com/item?id=47177489 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T07:09:23.000Z",
+      "score": 142.67,
       "status": "queued"
     },
     {
@@ -3798,102 +3917,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-02-19T06:31:51.000Z",
       "score": 137.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16902",
-      "title": "LLM-WikiRace: Benchmarking Long-term Planning and Reasoning over Real-World Knowledge Graphs",
-      "link": "https://arxiv.org/abs/2602.16902",
-      "summary": "arXiv:2602.16902v1 Announce Type: new Abstract: We introduce LLM-Wikirace, a benchmark for evaluating planning, reasoning, and world knowledge in large language models (LLMs). In LLM-Wikirace, models must efficiently navigate Wikipedia hyperlinks step by step to reach a target page from a given source, requiring look-ahead planning and the ability to reason about how concepts are connected in the real world. We evaluate a broad set of open- and closed-source models, including Gemini-3, GPT-5, and Claude Opus 4.5, which achieve the strongest results on the easy level of the task and demonstrate superhuman performance. Despite this, performance drops sharply on hard difficulty: the best-performing model, Gemini-3, succeeds in only 23\\% of hard games, highlighting substantial remaining challenges for frontier models. Our analysis shows that world knowledge is a necessary ingredient for success, but only up to a point, beyond this threshold, planning and long-horizon reasoning capabilities become the dominant factors. Trajectory-level analysis further reveals that even the strongest models struggle to replan after failure, frequently entering loops rather than recovering. LLM-Wikirace is a simple benchmark that reveals clear limitations in current reasoning systems, offering an open arena where planning-capable LLMs still have much to prove. Our code and leaderboard available at ht",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-20T05:00:00.000Z",
-      "score": 136.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16931",
-      "title": "Narrow fine-tuning erodes safety alignment in vision-language agents",
-      "link": "https://arxiv.org/abs/2602.16931",
-      "summary": "arXiv:2602.16931v1 Announce Type: new Abstract: Lifelong multimodal agents must continuously adapt to new tasks through post-training, but this creates fundamental tension between acquiring capabilities and preserving safety alignment. We demonstrate that fine-tuning aligned vision-language models on narrow-domain harmful datasets induces severe emergent misalignment that generalizes broadly across unrelated tasks and modalities. Through experiments on Gemma3-4B, we show that misalignment scales monotonically with LoRA rank, and that multimodal evaluation reveals substantially higher misalignment ($70.71 \\pm 1.22$ at $r=128$) than text-only evaluation ($41.19 \\pm 2.51$), suggesting that unimodal safety benchmarks may underestimate alignment degradation in vision-language models. Critically, even 10\\% harmful data in the training mixture induces substantial alignment degradation. Geometric analysis reveals that harmful behaviors occupy a remarkably low-dimensional subspace, with the majority of misalignment information captured in 10 principal components. To mitigate misalignment, we evaluate two strategies: benign narrow fine-tuning and activation-based steering. While both approaches substantially reduce misalignment, neither completely removes the learned harmful behaviors. Our findings highlight the need for robust continual learning frameworks, as current post-training para",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-20T05:00:00.000Z",
-      "score": 136.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/akhilponnada/aethene",
-      "title": "Show HN: Aethene – Open-source AI memory layer",
-      "link": "https://github.com/akhilponnada/aethene",
-      "summary": "Hey HN, I'm shipping my first open-source project and I'm pretty nervous about it. Why I built this: I was building AI agents and kept running into the same problem – they forget everything. Every conversation starts from zero. I wanted something that could: - Auto-extract facts from conversations (not just store raw text) - Handle \"user moved from SF to NYC\" without keeping both as true - Search by meaning, not just keywords - Version everything (who said what, when) Tech stack: - TypeScript + Hono (fast, edge-ready) - Convex (real-time DB + vector search) - Gemini (embeddings + extraction) What it does: # Store memory curl -X POST /v1/content -d '{\"content\": \"User loves hiking, lives in SF\"}' # Recall naturally curl -X POST /v1/recall -d '{\"query\": \"outdoor hobbies\"}' # Returns: \"User loves hiking\" with assembled context It handles the boring stuff – chunking, embeddings, deduplication, contradiction detection, versioning – so you can focus on your actual product. Links: - GitHub: https://github.com/akhilponnada/aethene - API Docs: OpenAPI spec in repo Thanks for reading. Comments URL: https://news.ycombinator.com/item?id=47111048 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-22T13:57:46.000Z",
-      "score": 135.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10625",
-      "title": "To Think or Not To Think, That is The Question for Large Reasoning Models in Theory of Mind Tasks",
-      "link": "https://arxiv.org/abs/2602.10625",
-      "summary": "arXiv:2602.10625v1 Announce Type: new Abstract: Theory of Mind (ToM) assesses whether models can infer hidden mental states such as beliefs, desires, and intentions, which is essential for natural social interaction. Although recent progress in Large Reasoning Models (LRMs) has boosted step-by-step inference in mathematics and coding, it is still underexplored whether this benefit transfers to socio-cognitive skills. We present a systematic study of nine advanced Large Language Models (LLMs), comparing reasoning models with non-reasoning models on three representative ToM benchmarks. The results show that reasoning models do not consistently outperform non-reasoning models and sometimes perform worse. A fine-grained analysis reveals three insights. First, slow thinking collapses: accuracy significantly drops as responses grow longer, and larger reasoning budgets hurt performance. Second, moderate and adaptive reasoning benefits performance: constraining reasoning length mitigates failure, while distinct success patterns demonstrate the necessity of dynamic adaptation. Third, option matching shortcut: when multiple choice options are removed, reasoning models improve markedly, indicating reliance on option matching rather than genuine deduction. We also design two intervention approaches: Slow-to-Fast (S2F) adaptive reasoning and Think-to-Match (T2M) shortcut prevention to furth",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 135.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06286",
-      "title": "Do LLMs Act Like Rational Agents? Measuring Belief Coherence in Probabilistic Decision Making",
-      "link": "https://arxiv.org/abs/2602.06286",
-      "summary": "arXiv:2602.06286v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as agents in high-stakes domains where optimal actions depend on both uncertainty about the world and consideration of utilities of different outcomes, yet their decision logic remains difficult to interpret. We study whether LLMs are rational utility maximizers with coherent beliefs and stable preferences. We consider behaviors of models for diagnosis challenge problems. The results provide insights about the relationship of LLM inferences to ideal Bayesian utility maximization for elicited probabilities and observed actions. Our approach provides falsifiable conditions under which the reported probabilities \\emph{cannot} correspond to the true beliefs of any rational agent. We apply this methodology to multiple medical diagnostic domains with evaluations across several LLMs. We discuss implications of the results and directions forward for uses of LLMs in guiding high-stakes decisions.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 134.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://cadenza-landing-qtu7gbjwb-akshparekh123-3457s-projects.vercel.app/",
-      "title": "THE Replacement to RL for AI Agents. RL is legacy now.",
-      "link": "https://cadenza-landing-qtu7gbjwb-akshparekh123-3457s-projects.vercel.app/",
-      "summary": "Article URL: https://cadenza-landing-qtu7gbjwb-akshparekh123-3457s-projects.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=46971835 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T07:06:58.000Z",
-      "score": 133.94,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/agenticmail/agenticmail",
-      "title": "Show HN: AgenticMail – Email, SMS, and multi-agent coordination for AI agents",
-      "link": "https://github.com/agenticmail/agenticmail",
-      "summary": "Article URL: https://github.com/agenticmail/agenticmail Comments URL: https://news.ycombinator.com/item?id=47031792 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-16T07:04:56.000Z",
-      "score": 133.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05073",
-      "title": "Towards Reducible Uncertainty Modeling for Reliable Large Language Model Agents",
-      "link": "https://arxiv.org/abs/2602.05073",
-      "summary": "arXiv:2602.05073v1 Announce Type: new Abstract: Uncertainty quantification (UQ) for large language models (LLMs) is a key building block for safety guardrails of daily LLM applications. Yet, even as LLM agents are increasingly deployed in highly complex tasks, most UQ research still centers on single-turn question-answering. We argue that UQ research must shift to realistic settings with interactive agents, and that a new principled framework for agent UQ is needed. This paper presents the first general formulation of agent UQ that subsumes broad classes of existing UQ setups. Under this formulation, we show that prior works implicitly treat LLM UQ as an uncertainty accumulation process, a viewpoint that breaks down for interactive agents in an open world. In contrast, we propose a novel perspective, a conditional uncertainty reduction process, that explicitly models reducible uncertainty over an agent's trajectory by highlighting \"interactivity\" of actions. From this perspective, we outline a conceptual framework to provide actionable guidance for designing UQ in LLM agent setups. Finally, we conclude with practical implications of the agent UQ in frontier LLM development and domain-specific applications, as well as open remaining problems.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 132,
       "status": "queued"
     },
     {
