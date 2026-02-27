@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T08:36:52.334Z",
+  "generatedAt": "2026-02-27T15:48:42.001Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1",
+      "title": "Self-host MailCat: instant ephemeral mailboxes for AI agents (Cloudflare Workers + D1)",
+      "date": "2026-02-27",
+      "excerpt": "Deploy MailCat: an open-source API that gives AI agents instant, ephemeral inboxes, auto-extracts verification codes, and stores mail for one hour—set up in minutes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1.jpg",
+      "tags": [
+        "mailcat",
+        "email",
+        "ai-agents",
+        "self-hosting",
+        "cloudflare-workers",
+        "verification",
+        "open-source",
+        "devops"
+      ],
+      "sources": [
+        "https://github.com/apidog/mailcat"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 20,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-02-26-rewrite-text-ios-app-that-rewrites-summarizes-and-extracts-key-points-locally-with-apple-foundation-models",

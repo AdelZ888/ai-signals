@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-27T08:36:52.341Z",
+  "generatedAt": "2026-02-27T15:48:42.059Z",
   "items": [
+    {
+      "id": "https://github.com/apidog/mailcat",
+      "title": "Show HN: MailCat – Email service for AI agents (open-source)",
+      "link": "https://github.com/apidog/mailcat",
+      "summary": "Hi HN, I built MailCat because my AI agents kept getting stuck at \"please verify your email.\" The key insight: if your AI agent can read documentation, it can set itself up. Just paste this into Claude Code, OpenClaw, or any AI agent: \"Read https://mailcat.ai/skill.md and set up a MailCat mailbox for yourself. Save the token securely.\" What it does: - Instant mailbox creation via API - Verification codes auto-extrac…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-21T14:36:35.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-27T15:48:41.991Z",
+      "file": "content/posts/2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1.md",
+      "fileFr": "content/posts/fr/2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 20,
+      "wordsEn": 1632,
+      "wordsFr": 1225
+    },
     {
       "id": "https://www.numerama.com/tech/2188871-les-profils-terrifiants-des-ia-quand-elles-ont-des-armes-nucleaires-entre-les-mains.html",
       "title": "Fou, faucon calculateur et Dr Jekyll et M. Hyde : les profils terrifiants des IA quand elles ont des armes nucléaires",
@@ -1784,18 +1807,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/apidog/mailcat",
-      "title": "Show HN: MailCat – Email service for AI agents (open-source)",
-      "link": "https://github.com/apidog/mailcat",
-      "summary": "Hi HN, I built MailCat because my AI agents kept getting stuck at \"please verify your email.\" The key insight: if your AI agent can read documentation, it can set itself up. Just paste this into Claude Code, OpenClaw, or any AI agent: \"Read https://mailcat.ai/skill.md and set up a MailCat mailbox for yourself. Save the token securely.\" What it does: - Instant mailbox creation via API - Verification codes auto-extracted from emails - 1-hour retention (perfect for verification flows) - Fully open source (MIT) and self-hostable Built with Cloudflare Workers + D1 + KV. Self-host in ~10 minutes. GitHub: https://github.com/apidog/mailcat Happy to answer questions about the architecture. Comments URL: https://news.ycombinator.com/item?id=47101217 Points: 8 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-21T14:36:35.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47152473",
       "title": "Ask HN: Is RAG an antipattern for AI agents?",
       "link": "https://news.ycombinator.com/item?id=47152473",
@@ -1900,6 +1911,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-02-26T15:37:57.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/885958/openai-amazon-nvidia-softback-110-billion-investment",
+      "title": "OpenAI snags $110 billion in investments from Amazon, Nvidia, and Softbank",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/885958/openai-amazon-nvidia-softback-110-billion-investment",
+      "summary": "OpenAI has closed another round of funding, totalling $110 billion being newly committed to the maker of ChatGPT, which it says has more than 900 million weekly active users and over 50 million consumer subscribers. Amazon is investing $50 billion and striking a deal that includes plans for custom models and more. Nvidia and SoftBank are each contributing $30 billion, as well, even as the Wall Street Journal notes that Nvidia's previous $100 billion investment plan is \"on ice.\" This marks another massive influx of cash for the company that's now valued at $730 billion, and previously closed a $40 billion round in 2025. At the time, it was th … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-27T14:55:16.000Z",
       "score": 180,
       "status": "queued"
     },
@@ -2372,6 +2395,66 @@
       "status": "queued"
     },
     {
+      "id": "https://alba-run.vercel.app/",
+      "title": "Show HN: Alba – Earn and bid on unique software using idle AI credits",
+      "link": "https://alba-run.vercel.app/",
+      "summary": "I have been using Claude Code lately, and I hated seeing my daily/weekly API quotas go to waste during downtime. So I built ALBA, a system designed to turn that idle power into digital assets. How it works: ALBA is an autonomous software factory that runs through Claude Code. You join as a worker node, and the system orchestrates Claude Code to build, test, and deploy functional micro-MVPs like tools, landing pages, and small SaaS. The Credit and Auction Model: Contribute: Run a command through Claude Code to power an AI agent task. Earn: You receive ALBA Credits proportional to the tokens and compute you provided. Bid: Use those credits in our Auction House to bid on unique software built by the collective. To make the discovery process more intuitive, I added an \"Explore\" feature that works like a vertical feed (similar to Shorts). You can quickly cycle through live demos of everything the factory has produced so far. It helps users visualize the \"Asset\" they are about to bid on. Exclusive Ownership: This is the \"burn\" logic I am most excited about: if you win an auction, you get the source code, and the demo environment is hard-deleted from our servers forever. You own a unique piece of software with zero duplicates. Tech Stack: - Frontend: Next.js (Vercel) - Backend: Java Spring Boot (GCP Cloud Run) - Database: Supabase/Firestore Agent Orchestration: via Claude Code CLI I w",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-27T15:25:40.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://clawdocx.com/",
+      "title": "Show HN: ClawDocx – We built a skill and guide library for OpenClaw AI agents",
+      "link": "https://clawdocx.com/",
+      "summary": "Article URL: https://clawdocx.com/ Comments URL: https://news.ycombinator.com/item?id=47181509 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T15:16:54.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/snyk/agent-scan",
+      "title": "Snyk Agent Scan: Security scanner for AI agents, MCP servers and agent skills",
+      "link": "https://github.com/snyk/agent-scan",
+      "summary": "Article URL: https://github.com/snyk/agent-scan Comments URL: https://news.ycombinator.com/item?id=47181441 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T15:12:44.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.npmjs.com/package/six-verifier",
+      "title": "Cryptographic receipts for LLM inference – verify your AI in 30 seconds",
+      "link": "https://www.npmjs.com/package/six-verifier",
+      "summary": "Article URL: https://www.npmjs.com/package/six-verifier Comments URL: https://news.ycombinator.com/item?id=47181401 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T15:09:29.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://twitter.com/koylanai/status/2025286163641118915",
+      "title": "The File System Is the New Database: How I Built a Personal OS for AI Agents",
+      "link": "https://twitter.com/koylanai/status/2025286163641118915",
+      "summary": "Article URL: https://twitter.com/koylanai/status/2025286163641118915 Comments URL: https://news.ycombinator.com/item?id=47181306 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T15:02:55.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://business.molinar.ai",
       "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
       "link": "https://business.molinar.ai",
@@ -2441,6 +2524,42 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-23T15:23:22.000Z",
       "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/aniketh-maddipati/agentmint",
+      "title": "Show HN: AgentMint – Cryptographic proof of human approval for AI agent actions",
+      "link": "https://github.com/aniketh-maddipati/agentmint",
+      "summary": "Session auth says \"agent can use Stripe.\" It doesn't say \"Alice approved this $50 refund at 10:03am.\" AgentMint signs short-lived tokens proving a human approved a specific action. Ed25519 signatures Single-use (JTI tracking) 60s TTL default 3ms verify Full audit trail Built in Rust. Drop-in sidecar for your backend. https://github.com/aniketh-maddipati/agentmint Comments URL: https://news.ycombinator.com/item?id=47181363 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T15:07:01.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848",
+      "title": "Burger King's AI agent will listen to orders and 'coach' workers",
+      "link": "https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848",
+      "summary": "Article URL: https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848 Comments URL: https://news.ycombinator.com/item?id=47181329 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T15:04:33.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.mvnt.studio/",
+      "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
+      "link": "https://www.mvnt.studio/",
+      "summary": "I think Suno opened up music. Kling and Runway opened up video - but there's one creative domain nobody has touched yet: dance. So my team built an web app — give it a YouTube link to your music and it generates a 3D dance animation in under 2 minutes. The core is a diffusion-based music-to-motion model (mvnt-m4) trained on proprietary mocap/label data from professional choreographers. I think dance is the missing piece of AI-generated content — just like how performance made K-pop a global phenomenon, and we believe AI dance will play the same role in the AI UGC era. This is v0.1 — a fast, experimental playground. Dance quality is still improving (m4.1 in progress), and we're working on faster inference, and finger/facial motion generation. We're also preparing API integrations with platforms like Higgsfield. I think our tech is quite validated through Epic MegaGrant but still very early in finding user validation. Would love honest feedback on the output quality and what you'd want to see next. Also in product hunt: https://www.producthunt.com/products/mvntstudio Demo vid: https://youtu.be/mjq2iAr96iM Comments URL: https://news.ycombinator.com/item?id=47180954 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-27T14:36:42.000Z",
+      "score": 166.34,
       "status": "queued"
     },
     {
@@ -3128,6 +3247,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
+      "title": "China's DeepSeek trained AI model on Nvidia's best chip despite US ban",
+      "link": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
+      "summary": "Article URL: https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/ Comments URL: https://news.ycombinator.com/item?id=47181301 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-27T15:02:41.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://getharmony.ai/",
       "title": "Help me with positioning/marketing of my AI agent",
       "link": "https://getharmony.ai/",
@@ -3448,6 +3579,18 @@
       "region": "US",
       "keywordHits": 2,
       "publishedAt": "2026-02-26T15:00:59.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.autonomynext.com",
+      "title": "Show HN: Personal AI with Dedicated Hardware and App. Everything Runs Locally",
+      "link": "https://www.autonomynext.com",
+      "summary": "Connects to your email, bank accounts, investments, health data, home cameras, and car. Storage and inference is on-device. App connects to HW peer-to-peer. Comments URL: https://news.ycombinator.com/item?id=47181206 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-27T14:55:35.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -3797,126 +3940,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 141.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.17826",
-      "title": "Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowledge",
-      "link": "https://arxiv.org/abs/2602.17826",
-      "summary": "arXiv:2602.17826v1 Announce Type: new Abstract: Language models exhibit fundamental limitations -- hallucination, brittleness, and lack of formal grounding -- that are particularly problematic in high-stakes specialist fields requiring verifiable reasoning. I investigate whether formal domain ontologies can enhance language model reliability through retrieval-augmented generation. Using mathematics as proof of concept, I implement a neuro-symbolic pipeline leveraging the OpenMath ontology with hybrid retrieval and cross-encoder reranking to inject relevant definitions into model prompts. Evaluation on the MATH benchmark with three open-source models reveals that ontology-guided context improves performance when retrieval quality is high, but irrelevant context actively degrades it -- highlighting both the promise and challenges of neuro-symbolic approaches.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-23T05:00:00.000Z",
-      "score": 141.04,
-      "status": "queued"
-    },
-    {
-      "id": "https://polydom.ai",
-      "title": "Show HN: An AI agent covering all first-line hotel and Airbnb communications",
-      "link": "https://polydom.ai",
-      "summary": "Article URL: https://polydom.ai Comments URL: https://news.ycombinator.com/item?id=46989460 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-12T14:44:37.000Z",
-      "score": 141.01,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/business/media-telecom/uks-starmer-seeks-greater-powers-regulate-online-access-2026-02-15/",
-      "title": "UK eyes rapid ban on social media for under 16s, curbs to AI chatbots",
-      "link": "https://www.reuters.com/business/media-telecom/uks-starmer-seeks-greater-powers-regulate-online-access-2026-02-15/",
-      "summary": "Article URL: https://www.reuters.com/business/media-telecom/uks-starmer-seeks-greater-powers-regulate-online-access-2026-02-15/ Comments URL: https://news.ycombinator.com/item?id=47035453 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T14:31:51.000Z",
-      "score": 140.88,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07032",
-      "title": "LLM-FSM: Scaling Large Language Models for Finite-State Reasoning in RTL Code Generation",
-      "link": "https://arxiv.org/abs/2602.07032",
-      "summary": "arXiv:2602.07032v1 Announce Type: new Abstract: Finite-state reasoning, the ability to understand and implement state-dependent behavior, is central to hardware design. In this paper, we present LLM-FSM, a benchmark that evaluates how well large language models (LLMs) can recover finite-state machine (FSM) behavior from natural-language specifications and translate it into correct register transfer-level (RTL) implementations. Unlike prior specification-to-RTL benchmarks that rely on manually constructed examples, LLM-FSM is built through a fully automated pipeline. LLM-FSM first constructs FSM with configurable state counts and constrained transition structures. It then prompts LLMs to express each FSM in a structured YAML format with an application context, and to further convert that YAML into a natural-language (NL) specification. From the same YAML, our pipeline synthesizes the reference RTL and testbench in a correct-by-construction manner. All 1,000 problems are verified using LLM-based and SAT-solver-based checks, with human review on a subset. Our experiments show that even the strongest LLMs exhibit sharply declining accuracy as FSM complexity increases. We further demonstrate that training-time scaling via supervised fine-tuning (SFT) generalizes effectively to out-of-distribution (OOD) tasks, while increasing test-time compute improves reasoning reliability. Finally",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 140.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46942091",
-      "title": "Show HN: Give Your AI the Ability to Find, Install, and Use Skill Autonomously",
-      "link": "https://news.ycombinator.com/item?id=46942091",
-      "summary": "URL: https://github.com/twwch/next-chat-skills --- Text (paste into the \"text\" field): Hi HN, I built an open-source AI assistant that can autonomously discover, install, and execute Skills to actually complete tasks for you. The Problem: Most AI chatbots today are stuck in \"read-only\" mode. They can tell you how to do something, but they can't do it. Want to convert a PPTX to PDF? The AI will explain how, but you still have to run the commands yourself. The Solution: Next-Chat-Skills is a self-hosted AI assistant with a plugin system called Skills. When you ask the AI to do something it can't handle natively, it: 1. Searches for a relevant Skill (like an app store for AI capabilities) 2. Installs it automatically (npx skills add ...) 3. Executes the Skill's scripts (Python, Node.js, Shell) 4. Streams real-time output back to you in a terminal UI 5. Recovers from errors by installing missing dependencies and retrying For example: User: \"Summarize this YouTube video for me\" AI: -> Searches for a video-summarizer Skill -> Installs it (yt-dlp + Whisper) -> Downloads the video, transcribes audio -> Returns a structured summary What is a Skill? A Skill is just a folder with a SKILL.md descriptor and some scripts: ~/.agents/skills/video-summarizer/ ├── SKILL.md # Metadata + description ├── scripts/ │ ├── download.py # Download video │ ├── transcribe.py # Whisper transcription │ └── s",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-09T06:13:22.000Z",
-      "score": 139.44,
-      "status": "queued"
-    },
-    {
-      "id": "https://app.writtte.com/read/kZ8Kj6R",
-      "title": "Token-to-Credit Conversion: Avoiding Floating-Point Errors in AI Billing Systems",
-      "link": "https://app.writtte.com/read/kZ8Kj6R",
-      "summary": "Article URL: https://app.writtte.com/read/kZ8Kj6R Comments URL: https://news.ycombinator.com/item?id=46925443 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-07T17:09:27.000Z",
-      "score": 139.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://vidzoo.ai",
-      "title": "Top #1 AI Video Agent: Free All in One AI Video and Image Agent by Vidzoo AI",
-      "link": "https://vidzoo.ai",
-      "summary": "Article URL: https://vidzoo.ai Comments URL: https://news.ycombinator.com/item?id=46932008 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-08T07:11:41.000Z",
-      "score": 138.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Ask149/orchestrator",
-      "title": "Show HN: MCP Orchestrator – Spawn parallel AI sub-agents from one prompt",
-      "link": "https://github.com/Ask149/orchestrator",
-      "summary": "I built an open-source MCP server (TypeScript/Node.js) that lets you spawn up to 10 parallel sub-agents using Copilot CLI or Claude Code CLI. Key features: - Context passing to each agent (full file, summary, or grep mode) - Smart timeout selection based on MCP servers requested - Cross-platform (macOS, Linux, Windows) - Headless & programmatic — designed for AI-to-AI orchestration Example: give one prompt like \"research job openings at Stripe, Google, and Meta\" — the orchestrator fans it out to 3 parallel agents, each with their own MCP servers (e.g., Playwright for browser), and aggregates results. Install: npm i @ask149/mcp-orchestrator This is a solo side project. Would love feedback on: - What CLI backends to support next (Aider, Open Interpreter, local LLM CLIs?) - Ideas for improving the context-passing system - What MCP server integrations would be most useful PRs and issues welcome — check CONTRIBUTING.md in the repo. Comments URL: https://news.ycombinator.com/item?id=46955848 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-10T05:47:26.000Z",
-      "score": 137.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://cocoon.org/",
-      "title": "Cocoon – decentralized network for confidential AI inference",
-      "link": "https://cocoon.org/",
-      "summary": "Article URL: https://cocoon.org/ Comments URL: https://news.ycombinator.com/item?id=46971948 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T07:26:01.000Z",
-      "score": 137.38,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47070584",
-      "title": "Sayou – Open-source Dropbox for AI agents",
-      "link": "https://news.ycombinator.com/item?id=47070584",
-      "summary": "success of openclaw is incredible, and I really loved playing with it, but of course the problem is the security risk running on my desktop. okay for personal use for fun, not at all for professional use. Once agents run in the cloud (and they will — you're not giving your marketing manager a terminal), they need somewhere to read and write. Right now there's nothing. Your company's knowledge is locked in Notion, Slack, Google Drive, and the agent can see none of it unless someone copy-pastes it into the chat window every single time. sayou is basically Dropbox for agents. It syncs your SaaS tools into a single workspace of versioned Markdown files, and any agent connects to it over MCP. Multiple agents share the same workspace. one does research and writes findings, another picks them up to draft a report, a third sends it over email. The human just makes decisions. Why files and not a database? Honestly we tried a database first. It sucked. Agents don't think in rows. When you ask an agent to research competitor pricing, the natural output is a document with sections and citations, not 15 entries in a table. Markdown with YAML frontmatter turned out to be the sweet spot — you get structured metadata for querying and rich content that both agents and humans can actually read. I also built a benchmark, Structured Agent Memory Benchmark(SAMB) to test how different memory systems",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-19T06:31:51.000Z",
-      "score": 137.32,
       "status": "queued"
     },
     {

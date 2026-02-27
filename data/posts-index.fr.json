@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T08:36:52.334Z",
+  "generatedAt": "2026-02-27T15:48:42.002Z",
   "locale": "fr",
   "posts": [
     {
@@ -24,6 +24,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1",
+      "title": "Auto‑héberger MailCat : boîtes mail éphémères instantanées pour agents IA (MailCat self‑host)",
+      "date": "2026-02-27",
+      "excerpt": "Déployez MailCat : une API open‑source qui donne à un agent IA une boîte mail éphémère instantanée, extrait automatiquement les codes de vérification et conserve les messages temporairement — installation en quelques minutes. Voir le dépôt : https://github.com/apidog/mailcat",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1.jpg",
+      "tags": [
+        "mail",
+        "mailbox",
+        "AI",
+        "test-automation",
+        "CI",
+        "mailcat",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/apidog/mailcat"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 20,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
