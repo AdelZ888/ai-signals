@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-27T15:48:42.059Z",
+  "generatedAt": "2026-02-28T08:24:29.973Z",
   "items": [
+    {
+      "id": "https://claw-guard.org/adnet/",
+      "title": "Advertise to AI Agents with Prompt Injection",
+      "link": "https://claw-guard.org/adnet/",
+      "summary": "Article URL: https://claw-guard.org/adnet/ Comments URL: https://news.ycombinator.com/item?id=47163443 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-26T08:29:49.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-02-28T08:24:29.955Z",
+      "file": "content/posts/2026-02-28-clawguard-adnet-launches-programmatic-exchange-that-injects-sponsored-prompts-and-multimodal-ads-into-ai-agents-context-windows.md",
+      "fileFr": "content/posts/fr/2026-02-28-clawguard-adnet-launches-programmatic-exchange-that-injects-sponsored-prompts-and-multimodal-ads-into-ai-agents-context-windows.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1436,
+      "wordsFr": 1293
+    },
     {
       "id": "https://github.com/apidog/mailcat",
       "title": "Show HN: MailCat – Email service for AI agents (open-source)",
@@ -1795,18 +1818,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://claw-guard.org/adnet/",
-      "title": "Advertise to AI Agents with Prompt Injection",
-      "link": "https://claw-guard.org/adnet/",
-      "summary": "Article URL: https://claw-guard.org/adnet/ Comments URL: https://news.ycombinator.com/item?id=47163443 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-26T08:29:49.000Z",
-      "score": 192,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47152473",
       "title": "Ask HN: Is RAG an antipattern for AI agents?",
       "link": "https://news.ycombinator.com/item?id=47152473",
@@ -2451,6 +2462,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-02-27T15:02:55.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://prefix.dev/blog/packaging-ai-ml-models-as-conda-packages",
+      "title": "Packaging AI/ML Models as Conda Packages",
+      "link": "https://prefix.dev/blog/packaging-ai-ml-models-as-conda-packages",
+      "summary": "Article URL: https://prefix.dev/blog/packaging-ai-ml-models-as-conda-packages Comments URL: https://news.ycombinator.com/item?id=47192061 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-28T08:07:56.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -3595,6 +3618,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/SudhirGadhvi/open-vernacular-ai-kit",
+      "title": "Show HN: Open Vernacular AI Kit – preprocessing for Indian code-mixed text",
+      "link": "https://github.com/SudhirGadhvi/open-vernacular-ai-kit",
+      "summary": "Built an OSS toolkit to normalize mixed-script/mixed-language user text before LLM pipelines. Focus is production use: API mode, Docker deploy path, language-pack interface, and evaluation snapshots. Would appreciate feedback on data strategy, evaluation design, and integration patterns. https://github.com/SudhirGadhvi/open-vernacular-ai-kit Comments URL: https://news.ycombinator.com/item?id=47191647 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-02-28T07:24:47.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/Hakku/finnish-humanizer",
       "title": "Show HN: Finnish Humanizer – 26 patterns for detecting AI-generated Finnish text",
       "link": "https://github.com/Hakku/finnish-humanizer",
@@ -3926,18 +3961,6 @@
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 7,
-      "publishedAt": "2026-02-16T05:00:00.000Z",
-      "score": 141.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.12670",
-      "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
-      "link": "https://arxiv.org/abs/2602.12670",
-      "summary": "arXiv:2602.12670v1 Announce Type: new Abstract: Agent Skills are structured packages of procedural knowledge that augment LLM agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark of 86 tasks across 11 domains paired with curated Skills and deterministic verifiers. Each task is evaluated under three conditions: no Skills, curated Skills, and self-generated Skills. We test 7 agent-model configurations over 7,308 trajectories. Curated Skills raise average pass rate by 16.2 percentage points(pp), but effects vary widely by domain (+4.5pp for Software Engineering to +51.9pp for Healthcare) and 16 of 84 tasks show negative deltas. Self-generated Skills provide no benefit on average, showing that models cannot reliably author the procedural knowledge they benefit from consuming. Focused Skills with 2--3 modules outperform comprehensive documentation, and smaller models with Skills can match larger models without them.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 141.42,
       "status": "queued"
