@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T08:24:29.966Z",
+  "generatedAt": "2026-02-28T15:48:13.774Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-02-28-getting-started-with-kremis-v031-build-and-smoke-test-a-deterministic-graph-memory-for-ai-agents-rust",
+      "title": "Getting started with Kremis v0.3.1: build and smoke-test a deterministic graph memory for AI agents (Rust)",
+      "date": "2026-02-28",
+      "excerpt": "A hands-on guide to build and smoke-test Kremis v0.3.1 — a Rust, deterministic graph memory for AI agents. Clone, compile, run ingest+query reproducibility checks and optional API wrapper.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-02-28-getting-started-with-kremis-v031-build-and-smoke-test-a-deterministic-graph-memory-for-ai-agents-rust.jpg",
+      "tags": [
+        "kremis",
+        "rust",
+        "graph-memory",
+        "ai-agents",
+        "determinism",
+        "redb",
+        "mcp",
+        "docker"
+      ],
+      "sources": [
+        "https://github.com/M2Dr3g0n/kremis"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

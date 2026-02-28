@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-02-28T08:24:29.973Z",
+  "generatedAt": "2026-02-28T15:48:13.833Z",
   "items": [
+    {
+      "id": "https://github.com/M2Dr3g0n/kremis",
+      "title": "Show HN: Kremis – Graph-based memory for AI agents with no hidden state (Rust)",
+      "link": "https://github.com/M2Dr3g0n/kremis",
+      "summary": "Hi HN — I built Kremis, a deterministic graph engine designed as a memory substrate for AI agents. Written in Rust, development was heavily AI-assisted. The core idea: agent memory should be inspectable, deterministic, and honest. - Same input → same output. No randomness, no floating-point in core. - Every query result traces back to a concrete graph path — no hidden state. - Zero pre-loaded knowledge. All structur…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-15T14:25:03.000Z",
+      "score": 185.17,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-02-28T15:48:13.763Z",
+      "file": "content/posts/2026-02-28-getting-started-with-kremis-v031-build-and-smoke-test-a-deterministic-graph-memory-for-ai-agents-rust.md",
+      "fileFr": "content/posts/fr/2026-02-28-getting-started-with-kremis-v031-build-and-smoke-test-a-deterministic-graph-memory-for-ai-agents-rust.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1524,
+      "wordsFr": 1523
+    },
     {
       "id": "https://claw-guard.org/adnet/",
       "title": "Advertise to AI Agents with Prompt Injection",
@@ -1818,42 +1841,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47152473",
-      "title": "Ask HN: Is RAG an antipattern for AI agents?",
-      "link": "https://news.ycombinator.com/item?id=47152473",
-      "summary": "Every agent framework I've used treats document retrieval the same way: build a custom pipeline, pick an embedding model, set up a vector store, wire it all into a tool. Repeat for every new project. I'm starting to think this is the wrong abstraction entirely. The universal interface every agent already supports is reading files. So I've been designing around that instead: Mount a drive at /drive/ with two directories: - /drive/files/ — actual documents (PDF, code, markdown, etc.) - /drive/search/ — virtual directory where the filename IS the query Agent wants context on \"refund policy for enterprise customers\"? cat \"/drive/search/refund policy for enterprise customers\" Returns the most relevant chunk. No custom tool. No vector store API. No pipeline to maintain. Any runtime that reads files works immediately. Under the hood: markitdown for parsing, sqlite-vss for search, virtual filesystem layer for the interface. Is this a solved problem I'm not aware of? Or is the \"each agent builds its own RAG\" approach as wasteful as it feels? Building in public if there's interest — @r_klosowski on X. Comments URL: https://news.ycombinator.com/item?id=47152473 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-25T15:03:38.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/The-17/agentsecrets",
-      "title": "Show HN: AgentSecrets – Zero-Knowledge Credential Proxy for AI Agents",
-      "link": "https://github.com/The-17/agentsecrets",
-      "summary": "After seeing 8,000+ MCP servers exposed this month and the OpenClaw/ClawHavoc campaign compromise 30,000+ instances, I built a proxy that keeps credentials in the OS keychain. The agent makes authenticated API calls but never sees the key values. The core insight: AI agents are users, not applications. Applications need credential values to authenticate. Agents just need to make authenticated calls. Those are different things. AgentSecrets sits between the agent and the upstream API. The agent says \"use STRIPE_KEY\". The proxy resolves the real value from the OS keychain, injects it into the request at the transport layer, and returns only the response. The key never enters agent memory. Technical details: -Local HTTP proxy on localhost:8765 with session token (blocks rogue processes on same machine) -OS keychain backed — macOS Keychain, Linux Secret Service, Windows Credential Manager -6 injection styles: bearer, basic, custom header, query param, JSON body, form field -SSRF protection blocking private IPs and non-HTTPS targets -Redirect stripping — auth headers not forwarded on redirects -JSONL audit log — key names only, no value field in the struct, structurally impossible to log values -MCP server for Claude Desktop and Cursor -Native OpenClaw skill -Global storage mode config — set keychain-only once during init, applies everywhere Honest limitations: if a malicious skill",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-26T15:50:32.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/M2Dr3g0n/kremis",
-      "title": "Show HN: Kremis – Graph-based memory for AI agents with no hidden state (Rust)",
-      "link": "https://github.com/M2Dr3g0n/kremis",
-      "summary": "Hi HN — I built Kremis, a deterministic graph engine designed as a memory substrate for AI agents. Written in Rust, development was heavily AI-assisted. The core idea: agent memory should be inspectable, deterministic, and honest. - Same input → same output. No randomness, no floating-point in core. - Every query result traces back to a concrete graph path — no hidden state. - Zero pre-loaded knowledge. All structure emerges from ingested signals. - ACID transactions via redb. Crash-safe persistent storage. It ships as a library (kremis-core, pure Rust, no async), an HTTP API + CLI, and an MCP server so AI assistants like Claude can query the graph directly. Current state: v0.3.1, experimental, ~277 tests, CI on 3 OS, Docker image. I'd value feedback on: - Does the deterministic graph approach make sense for agent memory? - API ergonomics — is the query model (lookup/traverse/path/intersect) intuitive? - What failure modes should I prioritize testing? Comments URL: https://news.ycombinator.com/item?id=47023918 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-15T14:25:03.000Z",
-      "score": 185.17,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/actionbook/actionbook",
       "title": "Show HN: Actionbook – Resilient browser automation engine for AI agents (Rust)",
       "link": "https://github.com/actionbook/actionbook",
@@ -2475,6 +2462,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-28T08:07:56.000Z",
       "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/ZSeven-W/openpencil",
+      "title": "Show HN: OpenPencil - Open-source vector design tool controlled by AI Agents",
+      "link": "https://github.com/ZSeven-W/openpencil",
+      "summary": "Hey! I'm the creator of OpenPencil, and I'm super excited to share it with you today. We are entering the era of AI Agents, but our design tools are still stuck in the GUI era. We are constantly downloading \"final_v9.fig\" and manually clicking to tweak UI elements. I wanted to change that. OpenPencil isn't just another design tool with a magic AI button. It is structurally built for AI. Here is why it's different: Agentic Design (MCP Server): You can connect Claude, Cursor, or any MCP-compatible agent directly to your design. Tell your AI IDE to \"update the login screen to match the new dark mode theme,\" and it modifies the design file without you ever touching a mouse. Design-as-Code: The .op format is pure JSON. Finally, you can Git commit, diff, and PR your design files just like your codebase. 100% Open Source (MIT): No subscriptions, no vendor lock-in. Build on top of it, fork it, make it yours. I built this because I believe the future of design is Human creativity + Agent execution. I'd love your feedback! Drop your questions below, and let me know what features you want to see next! Comments URL: https://news.ycombinator.com/item?id=47195713 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-02-28T14:21:23.000Z",
+      "score": 172.33,
       "status": "queued"
     },
     {
@@ -3964,6 +3963,38 @@
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 141.42,
       "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47152473",
+      "title": "Ask HN: Is RAG an antipattern for AI agents?",
+      "link": "https://news.ycombinator.com/item?id=47152473",
+      "summary": "Every agent framework I've used treats document retrieval the same way: build a custom pipeline, pick an embedding model, set up a vector store, wire it all into a tool. Repeat for every new project. I'm starting to think this is the wrong abstraction entirely. The universal interface every agent already supports is reading files. So I've been designing around that instead: Mount a drive at /drive/ with two director…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-25T15:03:38.000Z",
+      "score": 186,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-02-28T15:22:15.522Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
+    },
+    {
+      "id": "https://github.com/The-17/agentsecrets",
+      "title": "Show HN: AgentSecrets – Zero-Knowledge Credential Proxy for AI Agents",
+      "link": "https://github.com/The-17/agentsecrets",
+      "summary": "After seeing 8,000+ MCP servers exposed this month and the OpenClaw/ClawHavoc campaign compromise 30,000+ instances, I built a proxy that keeps credentials in the OS keychain. The agent makes authenticated API calls but never sees the key values. The core insight: AI agents are users, not applications. Applications need credential values to authenticate. Agents just need to make authenticated calls. Those are differ…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-26T15:50:32.000Z",
+      "score": 186,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-02-28T15:22:15.522Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://clashai.live",
