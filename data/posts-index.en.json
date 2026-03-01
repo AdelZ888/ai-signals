@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-01T08:33:47.325Z",
+  "generatedAt": "2026-03-01T15:30:09.827Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-03-01-social-cookie-jar-headless-toolkit-for-ai-agents-to-post-via-browser-cookies",
+      "title": "Social Cookie Jar: Headless toolkit for AI agents to post via browser cookies",
+      "date": "2026-03-01",
+      "excerpt": "Step-by-step guide to run Social Cookie Jar locally: a headless, cookie-auth toolkit that lets AI agents paste drafts into social UIs without API keys. Includes setup, example, and checklist.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-01-social-cookie-jar-headless-toolkit-for-ai-agents-to-post-via-browser-cookies.jpg",
+      "tags": [
+        "AI agents",
+        "social media",
+        "cookie auth",
+        "headless browser",
+        "open source",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/Artifact-Virtual/social-cookie-jar"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-02-28-clawguard-adnet-launches-programmatic-exchange-that-injects-sponsored-prompts-and-multimodal-ads-into-ai-agents-context-windows",

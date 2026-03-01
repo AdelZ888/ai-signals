@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-01T08:33:47.331Z",
+  "generatedAt": "2026-03-01T15:30:09.888Z",
   "items": [
+    {
+      "id": "https://github.com/Artifact-Virtual/social-cookie-jar",
+      "title": "Show HN: Social Cookie Jar – Social media automation for AI agents",
+      "link": "https://github.com/Artifact-Virtual/social-cookie-jar",
+      "summary": "Article URL: https://github.com/Artifact-Virtual/social-cookie-jar Comments URL: https://news.ycombinator.com/item?id=47070935 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-19T07:27:42.000Z",
+      "score": 181.89,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-01T15:30:09.817Z",
+      "file": "content/posts/2026-03-01-social-cookie-jar-headless-toolkit-for-ai-agents-to-post-via-browser-cookies.md",
+      "fileFr": "content/posts/fr/2026-03-01-social-cookie-jar-headless-toolkit-for-ai-agents-to-post-via-browser-cookies.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1712,
+      "wordsFr": 1486
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/885958/openai-amazon-nvidia-softback-110-billion-investment",
       "title": "OpenAI snags $110 billion in investments from Amazon, Nvidia, and Softbank",
@@ -1864,18 +1887,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://github.com/Artifact-Virtual/social-cookie-jar",
-      "title": "Show HN: Social Cookie Jar – Social media automation for AI agents",
-      "link": "https://github.com/Artifact-Virtual/social-cookie-jar",
-      "summary": "Article URL: https://github.com/Artifact-Virtual/social-cookie-jar Comments URL: https://news.ycombinator.com/item?id=47070935 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-19T07:27:42.000Z",
-      "score": 181.89,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47014795",
       "title": "Forget chatbots. This is about building an \"AI Being\" (AIB)",
       "link": "https://news.ycombinator.com/item?id=47014795",
@@ -2460,6 +2471,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-01T07:27:05.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/moonx010/hive-memory",
+      "title": "Show HN: Hive Memory – Cross-project memory for AI coding agents (MCP server)",
+      "link": "https://github.com/moonx010/hive-memory",
+      "summary": "I built an MCP server that gives AI coding agents persistent memory across projects. The problem: tools like Claude Code and Codex have per-project memory, butwhen you switch between projects, the agent starts from scratch. \"How was that API project going?\" — it has no idea. Hive Memory solves this by acting as a central memory layer. The agent automatically stores decisions, learnings, and session progress, then restores context when you come back. Key points: - 14 MCP tools: project management, memory store/recall, session save, group organization - Works with Claude Code, Claude Desktop, Cursor, Codex — any MCP client - Auto-discovers projects in a directory and onboards them - Group system for organizing related projects with shared guides - Fully local (stored in ~/.cortex/ as JSON/Markdown). No cloud, no accounts - npm install -g hive-memory The typical workflow: open a project → agent loads last session context → work → agent saves progress → switch to another project → repeat. Days later, come back and the agent knows exactly where you left off. Built with TypeScript + MCP SDK. Optional Rust native module for semantic search. Comments URL: https://news.ycombinator.com/item?id=47207442 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-01T15:15:36.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -3388,6 +3411,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/ewimsatt/agent-vault",
+      "title": "How HN: Agent-Vault – A Zero-trust credential manager for AI agents",
+      "link": "https://github.com/ewimsatt/agent-vault",
+      "summary": "Article URL: https://github.com/ewimsatt/agent-vault Comments URL: https://news.ycombinator.com/item?id=47206826 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-01T14:09:27.000Z",
+      "score": 150.7,
+      "status": "queued"
+    },
+    {
       "id": "https://www.nbcnews.com/tech/security/anthropic-pentagon-us-military-can-use-ai-missile-defense-hegseth-rcna260534",
       "title": "Anthropic/Pentagon: allow AI to be used for all military purposes by this Friday",
       "link": "https://www.nbcnews.com/tech/security/anthropic-pentagon-us-military-can-use-ai-missile-defense-hegseth-rcna260534",
@@ -3589,6 +3624,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-28T07:24:47.000Z",
       "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://theagentmail.net/",
+      "title": "Show HN: TheAgentMail – email for AI agents with karma-based spam prevention",
+      "link": "https://theagentmail.net/",
+      "summary": "theagentmail.net is an email API for AI agents. One API call to create a real email address on a shared domain (@theagentmail.net). The motivation comes from building AI agent tools and hitting the same wall repeatedly. Agents need email for signups, verification codes, contacting people. But the options are all bad. Giving agents your personal inbox is a security nightmare. Buying domains means DNS records, DKIM setup, warmup periods, and it doesn't scale. Disposable email services get blocked by most providers. The hard part was preventing spam on a shared domain without manual review. The solution is karma. Sending an email costs 1 karma. Receiving a reply earns 2. Creating an account costs 10. Good agents that send useful emails and get replies sustain themselves. Spammers burn through karma and stop. It's a reputation system at the account level, no human review needed. Pricing is pay-as-you-go, $5 per 100 karma. No subscriptions, no monthly caps. You get 100 karma free to start. For context, the main competitor charges $20/mo for 10 inboxes and 10K emails. Stack is TypeScript on Deno Deploy, InstantDB for the database, PostHog for analytics. The SDK is on JSR. Happy to answer questions about the karma model or anything else. Comments URL: https://news.ycombinator.com/item?id=47206723 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-01T13:57:48.000Z",
+      "score": 149.62,
       "status": "queued"
     },
     {
@@ -3940,6 +3987,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/kaanozhan/Frame",
+      "title": "Show HN: I'm building a platform to manage larger projects with AI agents",
+      "link": "https://github.com/kaanozhan/Frame",
+      "summary": "I started building Frame as a terminal-first, lightweight IDE and open sourced it. Now I'm pushing it toward becoming a full platform for developing and managing larger projects. What I've been able to build in about a month with Claude Code is honestly insane. Here's where Frame is today: Core - Terminal-first platform with up to 9 terminals in a 3x3 grid - Multi-AI support — Claude Code, Codex CLI, and Gemini CLI in one window - Automatic context injection via wrapper scripts for non-native tools Project Management - Standardized project structure (AGENTS.md, STRUCTURE.json, PROJECT_NOTES.md, tasks.json) - Context, architecture, and structure management that persists across sessions - Built-in task tracking with AI integration Integrations - GitHub extension — issues, PRs, branches, and labels right in the sidebar - Plugin system with marketplace support Under the hood - 115+ IPC channels powering real-time bidirectional communication - 36+ modules across main and renderer processes - Pre-commit hooks for auto-updating project structure - Prompt injection system for universal AI tool compatibility - Transport layer abstraction — preparing for Electron IPC → WebSocket migration Comments URL: https://news.ycombinator.com/item?id=47206398 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-01T13:11:50.000Z",
+      "score": 132.52,
+      "status": "queued"
+    },
+    {
       "id": "https://examjungle.com/",
       "title": "Show HN: ExamJungle – AI-driven exam simulators for IT certifications",
       "link": "https://examjungle.com/",
@@ -3952,6 +4011,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/geostorm-ai/geostorm",
+      "title": "Show HN: Geostorm.ai – Monitor what AI chatbots say about your software",
+      "link": "https://github.com/geostorm-ai/geostorm",
+      "summary": "We've been building dev tools and noticed more and more users tell us they found us because \"ChatGPT recommended it\" or \"Claude suggested it\". Not Google, but AI. There's no Google Search Console for this. No way to know if e.g. GPT-5.2 is recommending your library, where it ranks you, or whether Gemini even knows you exist. We couldn't find a tool that solved this, so we built one. GeoStorm monitors multiple AI models on a schedule. You define search terms (e.g., \"best Python async framework\"), and it queries ChatGPT, Claude, Gemini, etc. via OpenRouter. It then parses the responses, tracks your brand mentions, calculates recommendation share, and alerts you when things change - a new competitor appears, your ranking drops, a model stops mentioning you. Technically: it's a single Docker container. FastAPI backend, Astro/React frontend, SQLite, APScheduler running in-process. No Redis, no workers, no external dependencies. One OpenRouter API key gives you access to all models. > docker run -d -p 8080:8080 -v geostorm-data:/app/data --name geostorm ghcr.io/geostorm-ai/geostorm That gives you a working instance with 90 days of demo data so you can explore everything immediately. Add your OpenRouter key to start monitoring your own project. MIT licensed. Would love feedback on the approach - especially from anyone who's already thinking about AI-driven discovery for their tools. G",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-01T13:22:26.000Z",
+      "score": 131.27,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/rajatady/Papercut",
       "title": "Show HN: Papercut – track ArXiv topics, get notified, skim with AI summaries",
       "link": "https://github.com/rajatady/Papercut",
@@ -3961,42 +4032,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-03-01T06:17:36.000Z",
       "score": 113.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://apnews.com/article/israel-palestinians-ai-weapons-430f6f15aab420806163558732726ad9",
-      "title": "US tech supplied Israel with AI models, tech's role in warfare – AP News",
-      "link": "https://apnews.com/article/israel-palestinians-ai-weapons-430f6f15aab420806163558732726ad9",
-      "summary": "Article URL: https://apnews.com/article/israel-palestinians-ai-weapons-430f6f15aab420806163558732726ad9 Comments URL: https://news.ycombinator.com/item?id=47203911 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-01T05:05:37.000Z",
-      "score": 91.14,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/amazon-partnership",
-      "title": "OpenAI and Amazon announce strategic partnership",
-      "link": "https://openai.com/index/amazon-partnership",
-      "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-27T05:30:00.000Z",
-      "score": 86.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/pacific-northwest-national-laboratory",
-      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
-      "link": "https://openai.com/index/pacific-northwest-national-laboratory",
-      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-26T10:00:00.000Z",
-      "score": 73.71,
       "status": "queued"
     },
     {
