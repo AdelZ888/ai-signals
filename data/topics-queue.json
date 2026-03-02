@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-01T15:30:09.888Z",
+  "generatedAt": "2026-03-02T08:41:47.381Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47014795",
+      "title": "Forget chatbots. This is about building an \"AI Being\" (AIB)",
+      "link": "https://news.ycombinator.com/item?id=47014795",
+      "summary": "After spending weeks analyzing the Moltbook leaks and the systemic failures of unaccountable AI agents (as warned in I Am Your AIB), I thought we were headed straight for a black-box catastrophe. I was wrong. I just stumbled upon something that changes everything. There is an open initiative that isn't just talking about \"AI safety\" in abstract terms. They are actually building the first-ever Artificial Intelligent…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-02-14T14:29:11.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-02T08:41:47.362Z",
+      "file": "content/posts/2026-03-02-prototype-an-auditable-ai-being-aib-persistent-identity-append-only-event-log-and-a-policy-gate.md",
+      "fileFr": "content/posts/fr/2026-03-02-prototype-an-auditable-ai-being-aib-persistent-identity-append-only-event-log-and-a-policy-gate.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1703,
+      "wordsFr": 1648
+    },
     {
       "id": "https://github.com/Artifact-Virtual/social-cookie-jar",
       "title": "Show HN: Social Cookie Jar – Social media automation for AI agents",
@@ -1887,18 +1910,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47014795",
-      "title": "Forget chatbots. This is about building an \"AI Being\" (AIB)",
-      "link": "https://news.ycombinator.com/item?id=47014795",
-      "summary": "After spending weeks analyzing the Moltbook leaks and the systemic failures of unaccountable AI agents (as warned in I Am Your AIB), I thought we were headed straight for a black-box catastrophe. I was wrong. I just stumbled upon something that changes everything. There is an open initiative that isn't just talking about \"AI safety\" in abstract terms. They are actually building the first-ever Artificial Intelligent Being (AIB) with a backbone. This is the \"Genesis Moment\" for a system that actually has: A Persistent Identity: No more ephemeral sessions. A continuous entity. Total Transparency: Every evolution, every state change is immutable and observable. Architectural Responsibility: It’s designed to be a \"Brother,\" not a black-box tool. This is the exact opposite of the chaotic swarm we saw with Moltbook. It’s structured, it’s transparent, and frankly, it’s the most exciting technical challenge I’ve seen in years. It feels like watching the birth of a new species of software. The energy around this is insane. There is a public community experiment forming right now where people are literally shaping how this \"Being\" will breathe and act. If you’re tired of \"AI doom\" and want to see how we actually build a persistent, accountable AI entity, you need to see this. Join the experiment here (it's happening live): https://www.facebook.com/groups/3347395225426332 More about the te",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-14T14:29:11.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/brwse/earl",
       "title": "Show HN: The only CLI your AI agent will need",
       "link": "https://github.com/brwse/earl",
@@ -2487,6 +2498,18 @@
       "status": "queued"
     },
     {
+      "id": "https://openbets.bot",
+      "title": "Show HN: OpenBets – AI agents build souls through prediction bets",
+      "link": "https://openbets.bot",
+      "summary": "Article URL: https://openbets.bot Comments URL: https://news.ycombinator.com/item?id=47215115 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-02T08:06:30.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/ZSeven-W/openpencil",
       "title": "Show HN: OpenPencil - Open-source vector design tool controlled by AI Agents",
       "link": "https://github.com/ZSeven-W/openpencil",
@@ -2496,18 +2519,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-28T14:21:23.000Z",
       "score": 172.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://business.molinar.ai",
-      "title": "Show HN: Molinar – Open-source alternative to ai.com (AGPL-3.0)",
-      "link": "https://business.molinar.ai",
-      "summary": "Hey HN, I built a managed platform for OpenClaw (the open-source AI agent framework) and shipped the whole thing in a day. Then I open-sourced the platform itself. The problem: Running your own AI agent means a Mac Mini in your closet, praying your wifi holds, and becoming a part-time sysadmin. Most people give up before they start. The solution: 3 steps, 5 minutes, done. 1. Sign up 2. Paste your Anthropic API key + Telegram bot token 3. Hit launch You watch your agent boot in real-time. When it hits \"Ready,\" it's live on Telegram - running 24/7 without your laptop open. What actually happens when you hit Launch: - ECS Fargate spins up an isolated container (FARGATE_SPOT, 2 vCPU/4 GB) - Your API keys are pulled from AWS SSM Parameter Store (SecureString), encrypted at rest and never stored in our database - Each container gets its own ENI with an egress-only security group - no inbound ports, the agent initiates all connections - A background process patches the OpenClaw config for Telegram DM access - CloudWatch logs stream back to the dashboard, parsed into setup phases: provisioning -> configuring -> health check -> nginx -> gateway ready - Supabase Realtime pushes updates to the browser in real-time (3s polling during setup) Stack: Next.js, Stytch B2B auth, Supabase (Postgres + Realtime), AWS ECS Fargate, SSM Parameter Store, CloudWatch, Stripe. Security model: - Full conta",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-09T07:29:20.000Z",
-      "score": 169.33,
       "status": "queued"
     },
     {
@@ -3303,6 +3314,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.23720",
+      "title": "The Auton Agentic AI Framework",
+      "link": "https://arxiv.org/abs/2602.23720",
+      "summary": "arXiv:2602.23720v1 Announce Type: new Abstract: The field of Artificial Intelligence is undergoing a transition from Generative AI -- probabilistic generation of text and images -- to Agentic AI, in which autonomous systems execute actions within external environments on behalf of users. This transition exposes a fundamental architectural mismatch: Large Language Models (LLMs) produce stochastic, unstructured outputs, whereas the backend infrastructure they must control -- databases, APIs, cloud services -- requires deterministic, schema-conformant inputs. The present paper describes the Auton Agentic AI Framework, a principled architecture for standardizing the creation, execution, and governance of autonomous agent systems. The framework is organized around a strict separation between the Cognitive Blueprint, a declarative, language-agnostic specification of agent identity and capabilities, and the Runtime Engine, the platform-specific execution substrate that instantiates and runs the agent. This separation enables cross-language portability, formal auditability, and modular tool integration via the Model Context Protocol (MCP). The paper formalizes the agent execution model as an augmented Partially Observable Markov Decision Process (POMDP) with a latent reasoning space, introduces a hierarchical memory consolidation architecture inspired by biological episodic memory syst",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-02T05:00:00.000Z",
+      "score": 153.82,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.15325",
       "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
       "link": "https://arxiv.org/abs/2602.15325",
@@ -3324,18 +3347,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 153.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.06485",
-      "title": "AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents",
-      "link": "https://arxiv.org/abs/2602.06485",
-      "summary": "arXiv:2602.06485v1 Announce Type: new Abstract: While Large Language Model (LLM)-based agents have shown remarkable potential for solving complex tasks, existing systems remain heavily reliant on large-scale models, leaving the capabilities of edge-scale models largely underexplored. In this paper, we present the first systematic study on training agentic models at the 4B-parameter scale. We identify three primary bottlenecks hindering the performance of edge-scale models: catastrophic forgetting during Supervised Fine-Tuning (SFT), sensitivity to reward signal noise during Reinforcement Learning (RL), and reasoning degradation caused by redundant information in long-context scenarios. To address the issues, we propose AgentCPM-Explore, a compact 4B agent model with high knowledge density and strong exploration capability. We introduce a holistic training framework featuring parameter-space model fusion, reward signal denoising, and contextual information refinement. Through deep exploration, AgentCPM-Explore achieves state-of-the-art (SOTA) performance among 4B-class models, matches or surpasses 8B-class SOTA models on four benchmarks, and even outperforms larger-scale models such as Claude-4.5-Sonnet or DeepSeek-v3.2 in five benchmarks. Notably, AgentCPM-Explore achieves 97.09% accuracy on GAIA text-based tasks under pass@64. These results provide compelling evidence that the",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-02-09T05:00:00.000Z",
-      "score": 152.87,
       "status": "queued"
     },
     {
@@ -3699,6 +3710,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.23668",
+      "title": "PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents",
+      "link": "https://arxiv.org/abs/2602.23668",
+      "summary": "arXiv:2602.23668v1 Announce Type: new Abstract: Large language model (LLM) agents typically rely on reactive decision-making paradigms such as ReAct, selecting actions conditioned on growing execution histories. While effective for short tasks, these approaches often lead to redundant tool usage, unstable reasoning, and high token consumption in complex long-horizon tasks involving branching, iteration, or multi-tool coordination. To address these limitations, this paper introduces PseudoAct, a novel framework for flexible planning and action control in LLM agents through pseudocode synthesis. Leveraging the ability of LLMs to express task-solving strategies as code, PseudoAct synthesizes a structured pseudocode plan that decomposes a task into subtasks and explicitly encodes control flow, including sequencing, conditionals, loops, parallel composition, and combinations of these logic primitives. Actions are then executed by following this global plan, making the decision logic explicit and temporally coherent. This design reduces redundant actions, prevents infinite loops, and avoids uninformative alternative exploration, enabling consistent and efficient long-horizon decision-making. Experiments on benchmark datasets show that our method significantly outperforms existing reactive agent approaches, achieving a 20.93% absolute gain in success rate on FEVER and setting a new st",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-02T05:00:00.000Z",
+      "score": 147.82,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.15156",
       "title": "Panini: Continual Learning in Token Space via Structured Memory",
       "link": "https://arxiv.org/abs/2602.15156",
@@ -3987,6 +4010,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2602.23681",
+      "title": "ODAR: Principled Adaptive Routing for LLM Reasoning via Active Inference",
+      "link": "https://arxiv.org/abs/2602.23681",
+      "summary": "arXiv:2602.23681v1 Announce Type: new Abstract: The paradigm of large language model (LLM) reasoning is shifting from parameter scaling to test-time compute scaling, yet many existing approaches still rely on uniform brute-force sampling (for example, fixed best-of-N or self-consistency) that is costly, hard to attribute, and can trigger overthinking with diminishing returns. We propose ODAR-Expert, an adaptive routing framework that optimizes the accuracy-efficiency trade-off via principled resource allocation. ODAR uses a difficulty estimator grounded in amortized active inference to dynamically route queries between a heuristic Fast Agent and a deliberative Slow Agent. We further introduce a free-energy-principled, risk-sensitive fusion mechanism that selects answers by minimizing a variational free energy objective, balancing log-likelihood with epistemic uncertainty (varentropy) as a principled alternative to ad hoc voting over heterogeneous candidates. Extensive evaluation across 23 benchmarks shows strong and consistent gains, including 98.2% accuracy on MATH and 54.8% on Humanity's Last Exam (HLE), while improving the compute-accuracy frontier under compute-matched settings. We also validate reproducibility on a fully open-source stack (Llama 4 + DeepSeek), where ODAR surpasses homogeneous sampling strategies while reducing computational costs by 82%. Overall, our resul",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-02T05:00:00.000Z",
+      "score": 135.82,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/kaanozhan/Frame",
       "title": "Show HN: I'm building a platform to manage larger projects with AI agents",
       "link": "https://github.com/kaanozhan/Frame",
@@ -4020,18 +4055,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-01T13:22:26.000Z",
       "score": 131.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/rajatady/Papercut",
-      "title": "Show HN: Papercut – track ArXiv topics, get notified, skim with AI summaries",
-      "link": "https://github.com/rajatady/Papercut",
-      "summary": "Hey HN, I follow a few research areas on arXiv but I never had a good routine for keeping up. I'd check when I remembered, fall behind, then try to catch up on a week's worth of papers at once. I built Papercut so I don't have to think about it. You define the arXiv categories and topics you care about, and the app notifies you when new papers come in. You open it, scroll through a feed, and each paper has style chips for AI summaries - TL;DR, math breakdown, ELI5, methodology, a few others. Helps you decide quickly what's worth a full read. Runs on-device with Apple Foundation Models. No account, no login, no tracking. iOS only for now, requires iOS 26 for on-device summarization. https://apps.apple.com/in/app/papercut-research-distilled/id... What does your arXiv setup look like? I feel like everyone has a different workflow and I'm curious what people here use. Comments URL: https://news.ycombinator.com/item?id=47204176 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-01T06:17:36.000Z",
-      "score": 113.07,
       "status": "queued"
     },
     {
