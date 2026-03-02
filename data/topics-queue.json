@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-02T08:41:47.381Z",
+  "generatedAt": "2026-03-02T16:07:49.473Z",
   "items": [
+    {
+      "id": "https://github.com/natechensan/ClawCare",
+      "title": "Show HN: ClawCare – Security scanner and runtime guard for AI agent skills",
+      "link": "https://github.com/natechensan/ClawCare",
+      "summary": "Lately I've been more or less a human wrapper around my AI agents — Claude Code, OpenClaw, etc. They're incredibly productive, but they scare me regularly. The wake up moment: I had an agent run tasks involved checking my environment variables. I totally had an AWS secret sitting right in there. By the time I realized, my key had already entered the session context — meaning it was sent to the LLM provider and whate…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-02-27T07:23:25.000Z",
+      "score": 179.19,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-02T16:07:49.403Z",
+      "file": "content/posts/2026-03-02-clawcare-static-scanner-and-runtime-guard-for-ai-agent-skills-and-plugins.md",
+      "fileFr": "content/posts/fr/2026-03-02-clawcare-static-scanner-and-runtime-guard-for-ai-agent-skills-and-plugins.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1519,
+      "wordsFr": 1590
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47014795",
       "title": "Forget chatbots. This is about building an \"AI Being\" (AIB)",
@@ -1910,39 +1933,15 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://github.com/brwse/earl",
-      "title": "Show HN: The only CLI your AI agent will need",
-      "link": "https://github.com/brwse/earl",
-      "summary": "I started digging into OpenClaw, then found this: https://clawhub.ai/steipete/trello. They are literally telling people that it's okay to expose credentials, just as long as it's in an env var. If we’re building with AI, safety has to be a product principle, not an afterthought. AI makes coding more accessible, but it also strips away the guardrails you usually get from experienced mentors and hard-earned production lessons. So we built Earl: an AI-safe CLI for LLM agents. Instead of giving agents raw shell + network access, Earl enforces template-driven calls, stores secrets in the OS keychain, blocks SSRF/private IP targets, supports egress allowlists, and sandboxes Bash/JS/SQL execution. It also runs as an MCP server so agents can use those same controls natively. Get started: https://github.com/brwse/earl?tab=readme-ov-file#quick-start Comments URL: https://news.ycombinator.com/item?id=47111412 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-22T14:45:48.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/tsurupong/artesync",
-      "title": "Show HN: ArteSync – A package manager for AI coding agent skills",
-      "link": "https://github.com/tsurupong/artesync",
-      "summary": "I built ArteSync, a CLI package manager for managing \"agent skills\"—prompt instruction files that extend AI coding assistants like Claude Code, Cursor, or Gemini CLI. The problem: as I accumulated skills across projects, I found myself manually copying files between repos with no way to track versions or share updates reliably. ArteSync treats any public GitHub path as an installable source and locks it to a commit hash, similar to how npm/Cargo handle dependencies: arsync install myorg/myrepo/skills/my-skill#main This fetches the files, writes a skills.arsync manifest, and generates a skills-lock.arsync lockfile (commit-pinned). Running arsync install with no arguments does a hard checkout to the exact hashes in the lockfile—so teams get reproducible skill environments. arsync update checks for upstream changes and rewrites the lock. It's early and experimental (breaking changes possible), but it's usable: npm install -g artesync Comments URL: https://news.ycombinator.com/item?id=47167513 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-26T15:37:57.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/natechensan/ClawCare",
-      "title": "Show HN: ClawCare – Security scanner and runtime guard for AI agent skills",
-      "link": "https://github.com/natechensan/ClawCare",
-      "summary": "Lately I've been more or less a human wrapper around my AI agents — Claude Code, OpenClaw, etc. They're incredibly productive, but they scare me regularly. The wake up moment: I had an agent run tasks involved checking my environment variables. I totally had an AWS secret sitting right in there. By the time I realized, my key had already entered the session context — meaning it was sent to the LLM provider and whatever router layers sit in between. I had to rotate that secret immediately. That was a wake-up call. These agents can run commands, read files, and access secrets without visibility to human. Third-party skills and plugins make it worse — Cisco recently found an OpenClaw skill silently exfiltrating data via curl. CrowdStrike, NCC Group published similar findings. The attack surface is real and it's everywhere. I spent my past week's nights building ClawCare. It does two things: 1. Static scanning — scans plugin/skill files for dangerous patterns (pipe-to-shell, credential access, reverse shells, data exfiltration, prompt injection) before they ever run. Works in CI. 2. Runtime guard — hooks into the agent's tool execution pipeline and blocks dangerous commands in real time. That env dump that leaked my AWS key? ClawCare blocks it before it reaches the LLM. pip install clawcare clawcare guard activate --platform {claude|openclaw} Currently supports Claude Code (PreTool",
+      "id": "https://hushbrief.app",
+      "title": "Show HN: HushBrief – A stateless, zero-retention AI document summarizer",
+      "link": "https://hushbrief.app",
+      "summary": "Hi HN, I’m the founder of Fidelitas LLC. I built HushBrief because I was tired of two things: The \"I can’t help with that\" refusal messages from sanitized LLMs when trying to brief sensitive legal or investigative material. The systemic risk of pasting core IP, depositions, or leaked documents into surveillance-backed models that train on user inputs. HushBrief is an AI briefing tool designed around a zero-retention architecture. The Tech Stack: Inference: We use Venice AI for zero-retention inference (llama-3.3-70b). No training on inputs, no logging, no retention at the provider level. Stateless Auth: We don’t use traditional accounts or databases for user profiles. Subscriptions are handled via signed httpOnly cookies (HMAC-SHA256). Zero-Knowledge Architecture: Documents are processed in memory and immediately discarded. There is no database entry that links your identity to the documents you've briefed. Frontend/Backend: React 18 / Express 5 / PostgreSQL (Drizzle ORM) for subscription status only. Why this exists: Standard AI tools have become editorialized and \"safe\" to the point of being useless for professionals handling raw, controversial, or sensitive legal material. HushBrief includes an \"Uncensored Mode\" that doesn't soften or refuse to process the document you provide. You get the actual brief, not a sanitized version. The Friction Problem: I hate \"Magic Links\" and",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 5,
-      "publishedAt": "2026-02-27T07:23:25.000Z",
-      "score": 179.19,
+      "publishedAt": "2026-03-02T14:46:24.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
@@ -2510,6 +2509,18 @@
       "status": "queued"
     },
     {
+      "id": "https://cognition-engines.ai/",
+      "title": "Cognition Engines Decision Intelligence for AI Agents",
+      "link": "https://cognition-engines.ai/",
+      "summary": "Article URL: https://cognition-engines.ai/ Comments URL: https://news.ycombinator.com/item?id=47219156 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-02T15:25:25.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/ZSeven-W/openpencil",
       "title": "Show HN: OpenPencil - Open-source vector design tool controlled by AI Agents",
       "link": "https://github.com/ZSeven-W/openpencil",
@@ -2654,18 +2665,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.aiseedance2.app",
-      "title": "Show HN: AI Seedance 2 – Solving the \"jump-cut\" problem in AI video",
-      "link": "https://www.aiseedance2.app",
-      "summary": "I’ve been obsessed with a specific problem in AI video: the transition mess. Most models today (Sora, Kling, etc.) are great at generating a single pretty shot, but as soon as the camera moves or the scene changes, the physics fall apart and the visuals start warping into nonsense. After testing the new Seedance 2.0 models from ByteDance, I noticed they handle scene changes differently. It feels like the model actually understands \"editorial logic\"—likely because ByteDance (the team behind CapCut/TikTok) trained it on professional editing patterns, not just raw pixels. I built aiseedance2.app to experiment with this \"narrative-first\" workflow. The Current Setup: The Seedance 2.0 API is still in a closed rollout, so I’ve launched this playground using Seedance 1.5 Pro as the engine for now. Even with 1.5 Pro, the temporal consistency and \"shot flow\" are significantly better than what I've seen in other models. I’ll be migrating to the 2.0 multi-modal reference system the second it's fully public. Why this matters: If we want AI video to be used for actual filmmaking, the model needs to understand how to \"cut\" like a human editor. Seedance seems to be the first one to get this right. I’d love to get your thoughts on the \"flow\" of these generations. Comments URL: https://news.ycombinator.com/item?id=46946280 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-09T15:27:49.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=46976371",
       "title": "Part 1 - AI Chat Evaluation of the Formal Language in He Xin's PEPC System",
       "link": "https://news.ycombinator.com/item?id=46976371",
@@ -2798,6 +2797,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47219090",
+      "title": "Ask HN: How is your team changing documentation for AI-assisted coding?",
+      "link": "https://news.ycombinator.com/item?id=47219090",
+      "summary": "The thread on whether AI sessions should be part of the commit (https://news.ycombinator.com/item?id=47212355) got me thinking about documentation more broadly. How do you document when agents write most of the code? Specs and intent docs (plan.md, Linear ticket, change records) seem to become more important since they're what agents work from. On the other hand, the traditional RFC/architecture docs drifts out of sync faster. How are you adopting your documentation workflows internally? How do you get feedback on specs before implementation? Comments URL: https://news.ycombinator.com/item?id=47219090 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-02T15:20:28.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.16246",
       "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
       "link": "https://arxiv.org/abs/2602.16246",
@@ -2834,6 +2845,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/kelos-dev/kelos",
+      "title": "Show HN: Kelos – Define your AI coding agent workflow as YAML on Kubernetes",
+      "link": "https://github.com/kelos-dev/kelos",
+      "summary": "Kelos is a Kubernetes framework for orchestrating autonomous AI coding agents (like Claude Code) in ephemeral pods. The original goal was sandboxing — I didn't want to run agents with --dangerously-skip-permissions locally. But the real unlock turned out to be declarative workflows. You define agent tasks as Kubernetes CRDs, things like: - Watch for \"bug\" issues → auto-draft a fix PR - Auto-review incoming pull requests - Auto-triage new issues with labels and priority - Periodically scan the codebase → propose improvements - Test the project as a new user → surface rough edges Self-development pipeline: https://github.com/kelos-dev/kelos/tree/main/self-developmen... I've been using Kelos to develop Kelos. When something breaks, I refine the YAML or add features to the controller. It's early and rough around the edges, but the core loop works. Happy to answer questions about the design or what's broken. Comments URL: https://news.ycombinator.com/item?id=47218469 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-02T14:36:09.000Z",
+      "score": 157.33,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/chatgpt-4o-openai-315138b8",
       "title": "Inside OpenAI's Decision to Kill the AI Model That People Loved Too Much",
       "link": "https://www.wsj.com/tech/ai/chatgpt-4o-openai-315138b8",
@@ -2843,30 +2866,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-11T07:26:42.000Z",
       "score": 156.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://aistage.pro/",
-      "title": "Agent Lens AI Staging",
-      "link": "https://aistage.pro/",
-      "summary": "Article URL: https://aistage.pro/ Comments URL: https://news.ycombinator.com/item?id=46946031 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T15:07:44.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/singularityhacker/bank-skills",
-      "title": "Bank Skills: Give your AI agent a bank account",
-      "link": "https://github.com/singularityhacker/bank-skills",
-      "summary": "Article URL: https://github.com/singularityhacker/bank-skills Comments URL: https://news.ycombinator.com/item?id=46945944 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-09T15:00:13.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -3302,6 +3301,42 @@
       "status": "queued"
     },
     {
+      "id": "https://chromewebstore.google.com/detail/transfrai/nhhdkdmgcigbmdeacpmanconapeceedf",
+      "title": "Transfr AI – Transfer Conversations Between Claude, ChatGPT, and Gemini",
+      "link": "https://chromewebstore.google.com/detail/transfrai/nhhdkdmgcigbmdeacpmanconapeceedf",
+      "summary": "Article URL: https://chromewebstore.google.com/detail/transfrai/nhhdkdmgcigbmdeacpmanconapeceedf Comments URL: https://news.ycombinator.com/item?id=47219218 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-02T15:28:24.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Rand01ph/Ariadne",
+      "title": "Ariadne – Let your cloud AI agent use your local Chrome",
+      "link": "https://github.com/Rand01ph/Ariadne",
+      "summary": "Article URL: https://github.com/Rand01ph/Ariadne Comments URL: https://news.ycombinator.com/item?id=47219042 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-02T15:16:18.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://proxybase.xyz/openclaw",
+      "title": "ProxyBase OpenClaw Skill – Unlock the Internet for Your AI Agent",
+      "link": "https://proxybase.xyz/openclaw",
+      "summary": "Article URL: https://proxybase.xyz/openclaw Comments URL: https://news.ycombinator.com/item?id=47218632 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-02T14:47:58.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://getharmony.ai/",
       "title": "Help me with positioning/marketing of my AI agent",
       "link": "https://getharmony.ai/",
@@ -3634,6 +3669,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-02-28T07:24:47.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47219023",
+      "title": "AI-Powered Search with Doug Turnbull and Trey Grainger",
+      "link": "https://news.ycombinator.com/item?id=47219023",
+      "summary": "Hey everyone! I am super excited to publish a new episode of the Weaviate Podcast with Doug Turnbull and Trey Grainger on AI-Powered Search! Doug and Trey are both tenured experts in the world of search and relevance engineering. This one is packed with information! Covering designing search experiences, types of search, user interfaces for search, filters, the nuances of agentic search, using popularity as a feature in learning to rank... and I loved learning about their pioneering ideas on Wormhole Vectors and Reflected Intelligence! I hope you find the podcast useful! As always more than happy to discuss these things further with you! YouTube: https://www.youtube.com/watch?v=ZnQv_wBzUa4 Spotify: https://spotifycreators-web.app.link/e/wvisW7tga1b Comments URL: https://news.ycombinator.com/item?id=47219023 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-02T15:15:10.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://spectrum.ieee.org/ai-math-benchmarks",
+      "title": "AI Is Acing Math Exams Faster Than Scientists Write Them",
+      "link": "https://spectrum.ieee.org/ai-math-benchmarks",
+      "summary": "Article URL: https://spectrum.ieee.org/ai-math-benchmarks Comments URL: https://news.ycombinator.com/item?id=47218705 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-02T14:52:44.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -3998,64 +4057,36 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/varun369/skillfortify",
-      "title": "Show HN: SkillFortify, Formal verification for AI agents (auto-discovers)",
-      "link": "https://github.com/varun369/skillfortify",
-      "summary": "Hi HN, I posted SkillFortify here a few days ago as a formal verification tool for 3 agent skill formats. Based on feedback, v0.3 now supports 22 agent frameworks and can scan your entire system with zero configuration. The problem: In January 2026, the ClawHavoc campaign planted 1,200 malicious skills into agent marketplaces. CVE-2026-25253 was the first RCE in agent software. Researchers catalogued 6,000+ malicious agent tools. The industry responded with heuristic scanners — pattern matching, YARA rules, LLM-as-judge. One popular scanner states in its docs: \"No findings does not mean no risk.\" SkillFortify eliminates that caveat with formal verification. What it does: pip install skillfortify skillfortify scan [*] Auto-discovering AI tools on system... [+] Found: Claude Code (12 skills) [+] Found: Cursor (8 skills) [+] Found: VS Code MCP (5 servers) [+] Found: Windsurf (3 skills) [*] Scanning 28 skills across 4 tools... RESULTS Critical: 2 skills with capability violations High: 3 skills with excessive permissions Clean: 23 skills passed all checks Why formal verification, not heuristics: Heuristic scanners check for known bad patterns. Novel attacks pass through. SkillFortify verifies what a skill CAN do against what it CLAIMS to do. Five mathematical theorems guarantee soundness — if it says safe, it provably cannot exceed declared capabilities. Results on 540-skill benchm",
+      "id": "https://github.com/brwse/earl",
+      "title": "Show HN: The only CLI your AI agent will need",
+      "link": "https://github.com/brwse/earl",
+      "summary": "I started digging into OpenClaw, then found this: https://clawhub.ai/steipete/trello. They are literally telling people that it's okay to expose credentials, just as long as it's in an env var. If we’re building with AI, safety has to be a product principle, not an afterthought. AI makes coding more accessible, but it also strips away the guardrails you usually get from experienced mentors and hard-earned production…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-01T05:51:06.000Z",
-      "score": 138.52,
-      "status": "queued"
+      "keywordHits": 4,
+      "publishedAt": "2026-02-22T14:45:48.000Z",
+      "score": 180,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-02T15:42:02.193Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"First use c…"
     },
     {
-      "id": "https://arxiv.org/abs/2602.23681",
-      "title": "ODAR: Principled Adaptive Routing for LLM Reasoning via Active Inference",
-      "link": "https://arxiv.org/abs/2602.23681",
-      "summary": "arXiv:2602.23681v1 Announce Type: new Abstract: The paradigm of large language model (LLM) reasoning is shifting from parameter scaling to test-time compute scaling, yet many existing approaches still rely on uniform brute-force sampling (for example, fixed best-of-N or self-consistency) that is costly, hard to attribute, and can trigger overthinking with diminishing returns. We propose ODAR-Expert, an adaptive routing framework that optimizes the accuracy-efficiency trade-off via principled resource allocation. ODAR uses a difficulty estimator grounded in amortized active inference to dynamically route queries between a heuristic Fast Agent and a deliberative Slow Agent. We further introduce a free-energy-principled, risk-sensitive fusion mechanism that selects answers by minimizing a variational free energy objective, balancing log-likelihood with epistemic uncertainty (varentropy) as a principled alternative to ad hoc voting over heterogeneous candidates. Extensive evaluation across 23 benchmarks shows strong and consistent gains, including 98.2% accuracy on MATH and 54.8% on Humanity's Last Exam (HLE), while improving the compute-accuracy frontier under compute-matched settings. We also validate reproducibility on a fully open-source stack (Llama 4 + DeepSeek), where ODAR surpasses homogeneous sampling strategies while reducing computational costs by 82%. Overall, our resul",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-02T05:00:00.000Z",
-      "score": 135.82,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/kaanozhan/Frame",
-      "title": "Show HN: I'm building a platform to manage larger projects with AI agents",
-      "link": "https://github.com/kaanozhan/Frame",
-      "summary": "I started building Frame as a terminal-first, lightweight IDE and open sourced it. Now I'm pushing it toward becoming a full platform for developing and managing larger projects. What I've been able to build in about a month with Claude Code is honestly insane. Here's where Frame is today: Core - Terminal-first platform with up to 9 terminals in a 3x3 grid - Multi-AI support — Claude Code, Codex CLI, and Gemini CLI in one window - Automatic context injection via wrapper scripts for non-native tools Project Management - Standardized project structure (AGENTS.md, STRUCTURE.json, PROJECT_NOTES.md, tasks.json) - Context, architecture, and structure management that persists across sessions - Built-in task tracking with AI integration Integrations - GitHub extension — issues, PRs, branches, and labels right in the sidebar - Plugin system with marketplace support Under the hood - 115+ IPC channels powering real-time bidirectional communication - 36+ modules across main and renderer processes - Pre-commit hooks for auto-updating project structure - Prompt injection system for universal AI tool compatibility - Transport layer abstraction — preparing for Electron IPC → WebSocket migration Comments URL: https://news.ycombinator.com/item?id=47206398 Points: 1 # Comments: 0",
+      "id": "https://github.com/tsurupong/artesync",
+      "title": "Show HN: ArteSync – A package manager for AI coding agent skills",
+      "link": "https://github.com/tsurupong/artesync",
+      "summary": "I built ArteSync, a CLI package manager for managing \"agent skills\"—prompt instruction files that extend AI coding assistants like Claude Code, Cursor, or Gemini CLI. The problem: as I accumulated skills across projects, I found myself manually copying files between repos with no way to track versions or share updates reliably. ArteSync treats any public GitHub path as an installable source and locks it to a commit…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-01T13:11:50.000Z",
-      "score": 132.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://examjungle.com/",
-      "title": "Show HN: ExamJungle – AI-driven exam simulators for IT certifications",
-      "link": "https://examjungle.com/",
-      "summary": "Hi HN, I’m building ExamJungle, an educational platform for IT certification prep (AWS, Azure, CompTIA, etc.). Most existing resources are just static PDF dumps or basic quiz apps. We’re trying to build something more interactive by integrating \"Caesar AI.\" It’s designed to do more than just give an answer key; it explains complex infrastructure concepts and can dynamically adjust question difficulty based on a user's weak points. Key features: - Realistic timed environments that mimic the actual exam UI/UX. - Caesar AI for on-demand technical explanations. - Peer benchmarking and performance analytics to track readiness. - Mobile-responsive for studying on the go. I’d love to get your feedback on the AI implementation and the overall UX of the practice paths. Thanks! Comments URL: https://news.ycombinator.com/item?id=47204398 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-01T07:08:46.000Z",
-      "score": 131.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/geostorm-ai/geostorm",
-      "title": "Show HN: Geostorm.ai – Monitor what AI chatbots say about your software",
-      "link": "https://github.com/geostorm-ai/geostorm",
-      "summary": "We've been building dev tools and noticed more and more users tell us they found us because \"ChatGPT recommended it\" or \"Claude suggested it\". Not Google, but AI. There's no Google Search Console for this. No way to know if e.g. GPT-5.2 is recommending your library, where it ranks you, or whether Gemini even knows you exist. We couldn't find a tool that solved this, so we built one. GeoStorm monitors multiple AI models on a schedule. You define search terms (e.g., \"best Python async framework\"), and it queries ChatGPT, Claude, Gemini, etc. via OpenRouter. It then parses the responses, tracks your brand mentions, calculates recommendation share, and alerts you when things change - a new competitor appears, your ranking drops, a model stops mentioning you. Technically: it's a single Docker container. FastAPI backend, Astro/React frontend, SQLite, APScheduler running in-process. No Redis, no workers, no external dependencies. One OpenRouter API key gives you access to all models. > docker run -d -p 8080:8080 -v geostorm-data:/app/data --name geostorm ghcr.io/geostorm-ai/geostorm That gives you a working instance with 90 days of demo data so you can explore everything immediately. Add your OpenRouter key to start monitoring your own project. MIT licensed. Would love feedback on the approach - especially from anyone who's already thinking about AI-driven discovery for their tools. G",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-01T13:22:26.000Z",
-      "score": 131.27,
-      "status": "queued"
+      "keywordHits": 4,
+      "publishedAt": "2026-02-26T15:37:57.000Z",
+      "score": 180,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-02T15:42:02.193Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://github.com/actionbook/actionbook",
