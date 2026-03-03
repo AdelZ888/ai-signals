@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-02T16:07:49.473Z",
+  "generatedAt": "2026-03-03T15:54:34.082Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47233969",
+      "title": "The Limits of Today's AI Systems",
+      "link": "https://news.ycombinator.com/item?id=47233969",
+      "summary": "Recently, I’ve increasingly come to believe that intelligence is no longer AI’s bottleneck. The systems we build around it are. Input Paradox (1) The first issue is the input paradox. When interacting with AI, if the prompt is highly detailed, the model tends to overfit to the user’s framing and assumptions. If it is too concise, the model lacks the context needed to generate something truly useful. This creates a p…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-03T15:36:40.000Z",
+      "score": 234,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-03T15:54:34.008Z",
+      "file": "content/posts/2026-03-03-design-patterns-to-address-the-input-paradox-information-asymmetry-and-token-costs-in-ai-workflows.md",
+      "fileFr": "content/posts/fr/2026-03-03-design-patterns-to-address-the-input-paradox-information-asymmetry-and-token-costs-in-ai-workflows.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1832,
+      "wordsFr": 1888
+    },
     {
       "id": "https://github.com/natechensan/ClawCare",
       "title": "Show HN: ClawCare – Security scanner and runtime guard for AI agent skills",
@@ -1945,42 +1968,6 @@
       "status": "queued"
     },
     {
-      "id": "https://entire.io/blog/hello-entire-world/",
-      "title": "Ex-GitHub CEO Launches a New Developer Platform for AI Agents",
-      "link": "https://entire.io/blog/hello-entire-world/",
-      "summary": "Article URL: https://entire.io/blog/hello-entire-world/ Comments URL: https://news.ycombinator.com/item?id=46961345 Points: 7 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-10T15:44:47.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://zknill.io/posts/only-ai-tasks-you-know-how-to-do/",
-      "title": "Rule #1 for coding with AI agents",
-      "link": "https://zknill.io/posts/only-ai-tasks-you-know-how-to-do/",
-      "summary": "Article URL: https://zknill.io/posts/only-ai-tasks-you-know-how-to-do/ Comments URL: https://news.ycombinator.com/item?id=46960860 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-10T15:18:27.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://coinpayportal.com",
-      "title": "Show HN: Non-custodial escrow for crypto – works for AI agents and humans",
-      "link": "https://coinpayportal.com",
-      "summary": "Article URL: https://coinpayportal.com Comments URL: https://news.ycombinator.com/item?id=46960726 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-10T15:11:05.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://medium.com/@kamil.tustanowski/ai-agents-101-from-concept-to-code-no-frameworks-required-2dfdaf66b6c1",
       "title": "AI Agents 101: From Concept to Code (No Frameworks Required)",
       "link": "https://medium.com/@kamil.tustanowski/ai-agents-101-from-concept-to-code-no-frameworks-required-2dfdaf66b6c1",
@@ -2521,6 +2508,18 @@
       "status": "queued"
     },
     {
+      "id": "https://scopegate.dev",
+      "title": "Show HN: ScopeGate – Granular permission gateway for AI agents (MCP, open-core)",
+      "link": "https://scopegate.dev",
+      "summary": "88% of orgs have had AI agent security incidents, yet MCP servers run broad OAuth scopes with no way to restrict per agent. After reading about the GitHub MCP exploit I got tired of cobbling together OAuth + custom middleware + prayer. ScopeGate is a permission proxy that sits between your AI agents and external services (Google Drive, Gmail, Calendar, etc). You connect a service via OAuth, define granular scopes per agent (read-only, specific folders, rate limits), and get a unique MCP endpoint. Agent A can read one Drive folder but not write. Agent B can send email but not read inbox. One click revokes access across all services instantly. Open-core, self-hostable — same features on cloud and self-hosted. Comments URL: https://news.ycombinator.com/item?id=47233663 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-03T15:16:00.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/ZSeven-W/openpencil",
       "title": "Show HN: OpenPencil - Open-source vector design tool controlled by AI Agents",
       "link": "https://github.com/ZSeven-W/openpencil",
@@ -2809,6 +2808,30 @@
       "status": "queued"
     },
     {
+      "id": "https://7min.ai/exodus/",
+      "title": "Show HN: Exodus – we tracked 240 moves across companies to map the AI talent war",
+      "link": "https://7min.ai/exodus/",
+      "summary": "Hey HN, Exodus tracks who's leaving the big AI companies, where they're going, and what they're building. 240+ moves, 80+ companies, every entry sourced. I used AI to track these after noticing the same pattern every week: someone leaves OpenAI, someone leaves Anthropic, a new startup appears, they get funded week later. A few things stood out: - Google/DeepMind lost 58 people and got 13 back - OpenAI alumni founded 18 startups worth $450B+ (TechCrunch calls them \"The OpenAI Mafia\") - Half of xAI's co-founding team walked out - Apple feeds Meta, Meta feeds OpenAI — there's a whole food chain You can filter by company, role, seniority, or time period. There's a Sankey diagram and a brain drain chart. The curation pipeline uses the same system I run for https://7min.ai. Every entry is checked against published sources. Are we missing any patterns? Comments URL: https://news.ycombinator.com/item?id=47233912 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-03T15:32:52.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47233397",
+      "title": "If AI is great at HTML/CSS, why are AI presentation/CV tools template based?",
+      "link": "https://news.ycombinator.com/item?id=47233397",
+      "summary": "Most AI resume and presentation tools work like: AI -> pick a template -> fill in content. But LLMs are actually pretty good at generating and modifying raw HTML/CSS. In theory, you could: 1. Keep the doc as real HTML (or React) 2. Let AI directly adjust layout and styles 3. Iterate with prompts like “more minimal” or “stronger hierarchy” 4. Export to PDF at the end So why are we still constraining everything to rigid templates? Is this about PDF rendering, layout instability, user trust, or something deeper around determinism and control? Curious if anyone here has tried building something like this and what broke. Comments URL: https://news.ycombinator.com/item?id=47233397 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-03T14:59:41.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.16246",
       "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
       "link": "https://arxiv.org/abs/2602.16246",
@@ -2866,66 +2889,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-11T07:26:42.000Z",
       "score": 156.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/KaimingWan/oh-my-claude-code",
-      "title": "Show HN: A framework that makes your AI coding agent learn from every session",
-      "link": "https://github.com/KaimingWan/oh-my-claude-code",
-      "summary": "Article URL: https://github.com/KaimingWan/oh-my-claude-code Comments URL: https://news.ycombinator.com/item?id=46956690 Points: 4 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T08:06:20.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://seedancevideo.app/",
-      "title": "Show HN: Seedance2 – Stop \"prompt guessing\" and start directing AI video",
-      "link": "https://seedancevideo.app/",
-      "summary": "We’ve all seen the viral AI video clips: stunning, surreal, but ultimately... random. As developers and creators, we noticed a frustrating pattern. Using current AI video tools feels like playing a slot machine. You put in a prompt, pull the lever, and hope the \"AI gods\" give you what you envisioned. If you need a specific camera movement or a consistent character, you're stuck in a loop of \"regenerate and pray.\" We built Seedance2 because we believe the future of AI isn't just about generation—it’s about direction. The Story Behind the Workflow In traditional filmmaking, a director doesn't just give a vague description; they use storyboards, reference clips, and specific audio cues. We wanted to bring that level of precision to AI. Our goal was to create a \"Control Studio\" where every input serves a functional purpose in the creative pipeline. What makes this different? Instead of relying solely on text, Seedance2 introduces a Multi-Modal Timeline. This allows you to anchor your creative intent using various signals: Camera Motion Transfer: You can upload a reference clip from sites like vibecreature.com or your own library, and our engine will \"extract\" the camera's soul—the pans, tilts, and zooms—and apply them to your generated scene. Frame Anchoring: Tired of AI videos that start and end in total chaos? You can lock the first and last frames to ensure narrative continuity,",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T07:42:14.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://skly.ai",
-      "title": "Skly is a marketplace for AI agent skills",
-      "link": "https://skly.ai",
-      "summary": "Article URL: https://skly.ai Comments URL: https://news.ycombinator.com/item?id=46961474 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T15:51:58.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://grillmypitch.com",
-      "title": "Show HN: GrillMyPitch – An AI investor-readiness simulator for founders",
-      "link": "https://grillmypitch.com",
-      "summary": "Hi HN — been working on something new: GrillMyPitch This is an early MVP built around a problem I hit repeatedly while fundraising: most pitch prep is either static (deck feedback) or human-heavy (coaches), and neither really prepares you for the actual investor conversation. GrillMyPitch analyzes a pitch deck (PDF) and produces a 0–100 investor-readiness score across 12 parameters, along with concrete rewrite suggestions. After that, it runs a short AI-driven voice conversation that asks the kinds of questions investors tend to push on assumptions, gaps, and unclear narratives, inspired by common VC evaluation frameworks. I’m posting here mainly to learn. In particular, I’d value thoughts on: - Whether scoring a pitch is useful or misleading - How close simulated investor questioning can realistically get - Where this approach breaks down for different founder profiles This is very early and likely wrong in places. Happy to answer questions and share how it works. Comments URL: https://news.ycombinator.com/item?id=46961092 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T15:32:31.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Jk1484/agentic-waterfall",
-      "title": "The Agentic Waterfall: How the AI Industry Is Regressing Software Development",
-      "link": "https://github.com/Jk1484/agentic-waterfall",
-      "summary": "Article URL: https://github.com/Jk1484/agentic-waterfall Comments URL: https://news.ycombinator.com/item?id=46960638 Points: 3 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T15:06:28.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -3337,6 +3300,54 @@
       "status": "queued"
     },
     {
+      "id": "https://www.clawdefend.com/",
+      "title": "Show HN: Scanning 277 AI agent skills for security issues",
+      "link": "https://www.clawdefend.com/",
+      "summary": "Article URL: https://www.clawdefend.com/ Comments URL: https://news.ycombinator.com/item?id=47234080 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-03T15:43:54.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://unbound.video",
+      "title": "Is Unbound AI Video the most uncensored AI model in 2026?",
+      "link": "https://unbound.video",
+      "summary": "Article URL: https://unbound.video Comments URL: https://news.ycombinator.com/item?id=47233958 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-03T15:36:07.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.hikai.space",
+      "title": "Show HN: Kai – macOS native fully autonomous AI agent.",
+      "link": "https://www.hikai.space",
+      "summary": "Article URL: https://www.hikai.space Comments URL: https://news.ycombinator.com/item?id=47233784 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-03T15:23:36.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.engadget.com/ai/the-us-reportedly-used-anthropics-ai-for-its-attack-on-iran-just-after-banning-it-172908929.html",
+      "title": "Anthropic AI used in Khamenei elimination",
+      "link": "https://www.engadget.com/ai/the-us-reportedly-used-anthropics-ai-for-its-attack-on-iran-just-after-banning-it-172908929.html",
+      "summary": "Article URL: https://www.engadget.com/ai/the-us-reportedly-used-anthropics-ai-for-its-attack-on-iran-just-after-banning-it-172908929.html Comments URL: https://news.ycombinator.com/item?id=47233343 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-03T14:56:21.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://getharmony.ai/",
       "title": "Help me with positioning/marketing of my AI agent",
       "link": "https://getharmony.ai/",
@@ -3382,30 +3393,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 153.42,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07035",
-      "title": "DLLM-Searcher: Adapting Diffusion Large Language Model for Search Agents",
-      "link": "https://arxiv.org/abs/2602.07035",
-      "summary": "arXiv:2602.07035v1 Announce Type: new Abstract: Recently, Diffusion Large Language Models (dLLMs) have demonstrated unique efficiency advantages, enabled by their inherently parallel decoding mechanism and flexible generation paradigm. Meanwhile, despite the rapid advancement of Search Agents, their practical deployment is constrained by a fundamental limitation, termed as 1) Latency Challenge: the serial execution of multi-round reasoning, tool calling, and tool response waiting under the ReAct agent paradigm induces severe end-to-end latency. Intuitively, dLLMs can leverage their distinctive strengths to optimize the operational efficiency of agents under the ReAct agent paradigm. Practically, existing dLLM backbones face the 2) Agent Ability Challenge. That is, existing dLLMs exhibit remarkably weak reasoning and tool-calling capabilities, preventing these advantages from being effectively realized in practice. In this paper, we propose DLLM-Searcher, an optimization framework for dLLM-based Search Agents. To solve the Agent Ability Challenge, we design a two-stage post-training pipeline encompassing Agentic Supervised Fine-Tuning (Agentic SFT) and Agentic Variance-Reduced Preference Optimization Agentic VRPO, which enhances the backbone dLLM's information seeking and reasoning capabilities. To mitigate the Latency Challenge, we leverage the flexible generation mechanism of",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 152.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.07342",
-      "title": "SupChain-Bench: Benchmarking Large Language Models for Real-World Supply Chain Management",
-      "link": "https://arxiv.org/abs/2602.07342",
-      "summary": "arXiv:2602.07342v1 Announce Type: new Abstract: Large language models (LLMs) have shown promise in complex reasoning and tool-based decision making, motivating their application to real-world supply chain management. However, supply chain workflows require reliable long-horizon, multi-step orchestration grounded in domain-specific procedures, which remains challenging for current models. To systematically evaluate LLM performance in this setting, we introduce SupChain-Bench, a unified real-world benchmark that assesses both supply chain domain knowledge and long-horizon tool-based orchestration grounded in standard operating procedures (SOPs). Our experiments reveal substantial gaps in execution reliability across models. We further propose SupChain-ReAct, an SOP-free framework that autonomously synthesizes executable procedures for tool use, achieving the strongest and most consistent tool-calling performance. Our work establishes a principled benchmark for studying reliable long-horizon orchestration in real-world operational settings and highlights significant room for improvement in LLM-based supply chain agents.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 152.79,
       "status": "queued"
     },
     {
@@ -3478,18 +3465,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-26T07:32:05.000Z",
       "score": 150.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://vibe.xpandrai.com/",
-      "title": "Show HN: Vibe – AI tool to automate social media content, posting, and reporting",
-      "link": "https://vibe.xpandrai.com/",
-      "summary": "Hi HN, I’m one of the founders of Vibe. As founders running a small team, we kept losing time on social media: thinking of ideas, writing posts, adapting them for each platform, scheduling, and then trying to understand what worked. So we built Vibe for ourselves. It helps us: • Turn a single idea into multi-platform posts • Auto-publish and schedule • Track engagement in one place • Run this as a white-label tool for agencies Stack: - Spring Boot + AWS - React - OpenAI APIs We’re still early and learning. Would love honest feedback: what feels useful, what feels unnecessary, and what’s missing. https://vibe.xpandrai.com Comments URL: https://news.ycombinator.com/item?id=46961277 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-10T15:41:21.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -3697,6 +3672,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/jshph/aside/",
+      "title": "Show HN: Aside – Local meeting capture with vault-native AI distillation",
+      "link": "https://github.com/jshph/aside/",
+      "summary": "I built aside this weekend because I was tired of pasting meeting transcripts into Claude Code myself to get notes that actually connected to my Obsidian vault. Every tool I tried either required an account, sent my audio to a server, or produced summaries disconnected from where I actually think. aside is a ~5MB Rust binary that records meetings and feeds them into an AI-native transcription-to-vault workflow: 1. Record — captures mic + system audio simultaneously (stereo WAV, left=you, right=them) with a timestamped TUI editor for real-time notes 2. Transcribe — local transcription via whisper.cpp, with a 7-stage cleanup pipeline that strips hallucinations, deduplicates backchannels, and merges fragments 3. Align — interleaves your memo lines with the transcript on a shared timeline, so you can see what was said around each thing you noted 4. Distill — a Claude Code skill searches your Obsidian vault for related notes, then writes a structured note back into it with [[wikilinks]] to your existing thinking The distillation step is the part I'm most interested in feedback on. The entire pipeline is a 240-line markdown file (a Claude Code \"skill\") that the LLM follows as instructions. It treats your memo lines as attention signals — what you wrote down mid-call gets priority over what you didn't. Lines you edited mid-meeting get weighted even higher. It searches your vault seman",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-03T15:27:35.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://lgtmeme.com",
+      "title": "Show HN: LGTMeme – AI-generated memes for your pull requests",
+      "link": "https://lgtmeme.com",
+      "summary": "I built a GitHub bot that generates context-aware memes for pull requests. When a PR is opened, the bot reads the metadata — title, labels, line count, commit messages — and uses AI to pick a meme template and generate a caption that matches the context. It posts the meme as a PR comment. It never accesses your actual code. Free for public repos. The interesting technical challenge turned out to be prompt engineering for humor — getting AI to be consistently funny in a constrained format is a surprisingly hard problem. Looking for people to try it and tell me if the memes actually land. Comments URL: https://news.ycombinator.com/item?id=47233523 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-03T15:06:53.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://theagentmail.net/",
       "title": "Show HN: TheAgentMail – email for AI agents with karma-based spam prevention",
       "link": "https://theagentmail.net/",
@@ -3841,18 +3840,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.07055",
-      "title": "Theory of Space: Can Foundation Models Construct Spatial Beliefs through Active Exploration?",
-      "link": "https://arxiv.org/abs/2602.07055",
-      "summary": "arXiv:2602.07055v1 Announce Type: new Abstract: Spatial embodied intelligence requires agents to act to acquire information under partial observability. While multimodal foundation models excel at passive perception, their capacity for active, self-directed exploration remains understudied. We propose Theory of Space, defined as an agent's ability to actively acquire information through self-directed, active exploration and to construct, revise, and exploit a spatial belief from sequential, partial observations. We evaluate this through a benchmark where the goal is curiosity-driven exploration to build an accurate cognitive map. A key innovation is spatial belief probing, which prompts models to reveal their internal spatial representations at each step. Our evaluation of state-of-the-art models reveals several critical bottlenecks. First, we identify an Active-Passive Gap, where performance drops significantly when agents must autonomously gather information. Second, we find high inefficiency, as models explore unsystematically compared to program-based proxies. Through belief probing, we diagnose that while perception is an initial bottleneck, global beliefs suffer from instability that causes spatial knowledge to degrade over time. Finally, using a false belief paradigm, we uncover Belief Inertia, where agents fail to update obsolete priors with new evidence. This issue is",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-10T05:00:00.000Z",
-      "score": 146.79,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/parallax-labs/context-harness",
       "title": "Show HN: Context Harness – Local first context engine for AI tools",
       "link": "https://github.com/parallax-labs/context-harness",
@@ -3862,18 +3849,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-26T06:26:01.000Z",
       "score": 145.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/VouchlyAI/Pincer-MCP",
-      "title": "Show HN: Pincer-MCP – Stop AI agents from reading their own credentials",
-      "link": "https://github.com/VouchlyAI/Pincer-MCP",
-      "summary": "I run AI agents for coding (OpenClaw, Claude Desktop) and realized they could read their own .env files. Tested it - asked my agent to \"check configuration\" and it printed everything. The problem: agents need file access to work, but if they can read files, they can read their own credentials. One prompt injection and your API keys are leaked. Standard solutions don't help: - Environment variables: agent can read process.env - Secret managers: agent needs credentials to access them - Better prompting: can't security-patch an LLM with instructions I built a proxy token architecture instead. The agent never sees real credentials: - Agent has: pxr_abc123 (proxy token) - Real keys: encrypted in OS keychain - On API call: decrypt key, make call, scrub memory immediately Built in 1 week. 500 npm installs with zero promotion (people are searching for this). GitHub: https://github.com/VouchlyAI/Pincer-MCP npm: npm install -g pincer-mcp Works with OpenClaw, Claude Desktop, any MCP client. Looking for security feedback - if you see holes in the architecture, please tell me. I want to know before people trust this with production credentials. Comments URL: https://news.ycombinator.com/item?id=46956070 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-10T06:28:59.000Z",
-      "score": 145.15,
       "status": "queued"
     },
     {
@@ -4054,6 +4029,66 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-16T05:00:00.000Z",
       "score": 141.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.00349",
+      "title": "EmCoop: A Framework and Benchmark for Embodied Cooperation Among LLM Agents",
+      "link": "https://arxiv.org/abs/2603.00349",
+      "summary": "arXiv:2603.00349v1 Announce Type: new Abstract: Real-world scenarios increasingly require multiple embodied agents to collaborate in dynamic environments under embodied constraints, as many tasks exceed the capabilities of any single agent. Recent advances in large language models (LLMs) enable high-level cognitive coordination through reasoning, planning, and natural language communication. However, fine-grained analyses of how such collaboration emerges, unfolds, and contributes to task success in embodied multi-agent systems are difficult to conduct with existing benchmarks. In this paper, we introduce EmCoop, a benchmark framework for studying cooperation in LLM-based embodied multi-agent systems. Our framework separates a high-level cognitive layer from a low-level embodied interaction layer, allowing us to characterize agent cooperation through their interleaved dynamics over time. Given a cooperation-constrained embodied task, we propose generalizable, process-level metrics that diagnose collaboration quality and failure modes, beyond final task success. We instantiate our framework in two embodied environments that scale to arbitrary numbers of agents and support diverse communication topologies, and use these instantiations to demonstrate how EmCoop enables systematic analysis of cooperation dynamics across team sizes and task settings. The project web page can be foun",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-03T05:00:00.000Z",
+      "score": 131.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.00285",
+      "title": "TraderBench: How Robust Are AI Agents in Adversarial Capital Markets?",
+      "link": "https://arxiv.org/abs/2603.00285",
+      "summary": "arXiv:2603.00285v1 Announce Type: new Abstract: Evaluating AI agents in finance faces two key challenges: static benchmarks require costly expert annotation yet miss the dynamic decision-making central to real-world trading, while LLM-based judges introduce uncontrolled variance on domain-specific tasks. We introduce TraderBench, a benchmark that addresses both issues. It combines expert-verified static tasks (knowledge retrieval, analytical reasoning) with adversarial trading simulations scored purely on realized performance-Sharpe ratio, returns, and drawdown-eliminating judge variance entirely. The framework features two novel tracks: crypto trading with four progressive market-manipulation transforms, and options derivatives scoring across P&L accuracy, Greeks, and risk management. Trading scenarios can be refreshed with new market data to prevent benchmark contamination. Evaluating 13 models (8B open-source to frontier) on ~50 tasks, we find: (1) 8 of 13 models score ~33 on crypto with <1-point variation across adversarial conditions, exposing fixed non-adaptive strategies; (2) extended thinking helps retrieval (+26 points) but has zero impact on trading (+0.3 crypto, -0.1 options). These findings reveal that current agents lack genuine market adaptation, underscoring the need for performance-grounded evaluation in finance.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-03T05:00:00.000Z",
+      "score": 125.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.00460",
+      "title": "MED-COPILOT: A Medical Assistant Powered by GraphRAG and Similar Patient Case Retrieval",
+      "link": "https://arxiv.org/abs/2603.00460",
+      "summary": "arXiv:2603.00460v1 Announce Type: new Abstract: Clinical decision-making requires synthesizing heterogeneous evidence, including patient histories, clinical guidelines, and trajectories of comparable cases. While large language models (LLMs) offer strong reasoning capabilities, they remain prone to hallucinations and struggle to integrate long, structured medical documents. We present MED-COPILOT, an interactive clinical decision-support system designed for clinicians and medical trainees, which combines guideline-grounded GraphRAG retrieval with hybrid semantic-keyword similar-patient retrieval to support transparent and evidence-aware clinical reasoning. The system builds a structured knowledge graph from WHO and NICE guidelines, applies community-level summarization for efficient retrieval, and maintains a 36,000-case similar-patient database derived from SOAP-normalized MIMIC-IV notes and Synthea-generated records. We evaluate our framework on clinical note completion and medical question answering, and demonstrate that it consistently outperforms parametric LLM baselines and standard RAG, improving both generation fidelity and clinical reasoning accuracy. The full system is available at https://huggingface.co/spaces/Cryo3978/Med_GraphRAG , enabling users to inspect retrieved evidence, visualize token-level similarity contributions, and conduct guided follow-up analysis. Ou",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-03T05:00:00.000Z",
+      "score": 101.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.00532",
+      "title": "DenoiseFlow: Uncertainty-Aware Denoising for Reliable LLM Agentic Workflows",
+      "link": "https://arxiv.org/abs/2603.00532",
+      "summary": "arXiv:2603.00532v1 Announce Type: new Abstract: Autonomous agents are increasingly entrusted with complex, long-horizon tasks, ranging from mathematical reasoning to software generation. While agentic workflows facilitate these tasks by decomposing them into multi-step reasoning chains, reliability degrades significantly as the sequence lengthens. Specifically, minor interpretation errors in natural-language instructions tend to compound silently across steps. We term this failure mode accumulated semantic ambiguity. Existing approaches to mitigate this often lack runtime adaptivity, relying instead on static exploration budgets, reactive error recovery, or single-path execution that ignores uncertainty entirely. We formalize the multi-step reasoning process as a Noisy MDP and propose DenoiseFlow, a closed-loop framework that performs progressive denoising through three coordinated stages: (1)Sensing estimates per-step semantic uncertainty; (2)Regulating adaptively allocates computation by routing between fast single-path execution and parallel exploration based on estimated risk; and (3)Correcting performs targeted recovery via influence-based root-cause localization. Online self-calibration continuously aligns decision boundaries with verifier feedback, requiring no ground-truth labels. Experiments on six benchmarks spanning mathematical reasoning, code generation, and multi-",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-03T05:00:00.000Z",
+      "score": 101.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.00312",
+      "title": "How Well Do Multimodal Models Reason on ECG Signals?",
+      "link": "https://arxiv.org/abs/2603.00312",
+      "summary": "arXiv:2603.00312v1 Announce Type: new Abstract: While multimodal large language models offer a promising solution to the \"black box\" nature of health AI by generating interpretable reasoning traces, verifying the validity of these traces remains a critical challenge. Existing evaluation methods are either unscalable, relying on manual clinician review, or superficial, utilizing proxy metrics (e.g. QA) that fail to capture the semantic correctness of clinical logic. In this work, we introduce a reproducible framework for evaluating reasoning in ECG signals. We propose decomposing reasoning into two distinct, components: (i) Perception, the accurate identification of patterns within the raw signal, and (ii) Deduction, the logical application of domain knowledge to those patterns. To evaluate Perception, we employ an agentic framework that generates code to empirically verify the temporal structures described in the reasoning trace. To evaluate Deduction, we measure the alignment of the model's logic against a structured database of established clinical criteria in a retrieval-based approach. This dual-verification method enables the scalable assessment of \"true\" reasoning capabilities.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-03T05:00:00.000Z",
+      "score": 95.13,
       "status": "queued"
     },
     {
