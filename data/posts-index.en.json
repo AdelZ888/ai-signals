@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-04T08:40:21.903Z",
+  "generatedAt": "2026-03-04T15:52:12.117Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-03-04-videodb-skills-expose-videoinfrastructure-primitives-to-ai-agents",
+      "title": "VideoDB Skills — expose video‑infrastructure primitives to AI agents",
+      "date": "2026-03-04",
+      "excerpt": "VideoDB Skills packages a decade of video-infrastructure battle scars into agent APIs so agents can ingest streams, index and search moments, return playable clips, and run server-side edits.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-04-videodb-skills-expose-videoinfrastructure-primitives-to-ai-agents.jpg",
+      "tags": [
+        "video",
+        "agents",
+        "infrastructure",
+        "videodb",
+        "skills",
+        "streaming",
+        "ffmpeg"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47249002"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-03-03-design-patterns-to-address-the-input-paradox-information-asymmetry-and-token-costs-in-ai-workflows",

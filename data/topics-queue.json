@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-04T08:40:21.910Z",
+  "generatedAt": "2026-03-04T15:52:12.179Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47249002",
+      "title": "Show HN: I packaged decade of video infra battle scars into tools for AI agents",
+      "link": "https://news.ycombinator.com/item?id=47249002",
+      "summary": "Hi HN, I’m Ashu, founder of VideoDB. I’ve spent a big chunk of my life building video infrastructure. Not video creation. Video plumbing. The stuff you only learn after production breaks: timebases, VFR, keyframes, audio sync drift, container quirks, partial uploads, live streams, retries, backpressure, codecs, ffmpeg flags, cost blowups, and “why is this clip unseekable on one player but fine on another”. This week…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-04T15:34:22.000Z",
+      "score": 198,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-04T15:52:12.107Z",
+      "file": "content/posts/2026-03-04-videodb-skills-expose-videoinfrastructure-primitives-to-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-03-04-videodb-skills-expose-videoinfrastructure-primitives-to-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1620,
+      "wordsFr": 1244
+    },
     {
       "id": "https://www.technologyreview.com/2026/02/26/1133707/finding-value-with-ai-and-industry-5-0-transformation/",
       "title": "Finding value with AI and Industry 5.0 transformation",
@@ -1979,6 +2002,30 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://github.com/rivradev/recite-agent-skill",
+      "title": "Show HN: Recite – I built an Skill and MCP so my AI agent does my bookkeeping",
+      "link": "https://github.com/rivradev/recite-agent-skill",
+      "summary": "Hi HN, I’m an indie dev, and as my tech stack grew, so did the number of SaaS subscriptions and invoices. Every month, I’d get a chaotic pile of PDFs and image receipts. I absolutely hate bookkeeping. It breaks my flow state, and honestly, the last thing I want to do on a weekend is open an Excel spreadsheet to manually input tax data. So I built Recite. Originally, it was just a simple web app that used vision models to parse receipts into clean CSV. But I realized I didn't even want to log into my own web app. So I pivoted and turned it into a Public APIs/agent skill and an MCP server. Now, I just download all my invoices into a single local folder and tell my agent (I use OpenClaw), \"Process my receipts.\" The agent hits the Recite API, reads the images/PDFs, categorizes them using standard accounting logic, renames the files by date, and generates a structured CSV for me. I literally don't look at spreadsheets anymore. How to use it: Public API: Because we all love APIs. Agent Skill: The easiest way to let your agent do the work in environments like OpenClaw or Claude Desktop. MCP Server: If you want more control and want to build your own custom agentic workflows. I’m currently focused on maxing out accuracy and keeping costs as close to zero as possible. There’s a generous free tier for indie devs because I know the pain. I would love for you to try hooking it up to your a",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-04T15:32:56.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
+      "id": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
+      "title": "Show HN: Teaching Tokens: Implementing Private, Lightweight AI in the Classroom",
+      "link": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
+      "summary": "Introducing students to the fundamentals! This app does the following: -./setup.sh -Installs Ollama Docker Container -Pulls in first LLM (1B Parameter model) -Starts WebUI chat interface -Use can one-click deploy other models easily Lesson plan included on the GitHub page. Put students in front of Kali and have them follow the directions! Thanks for looking. Comments URL: https://news.ycombinator.com/item?id=47248765 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-04T15:19:47.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
       "id": "https://hushbrief.app",
       "title": "Show HN: HushBrief – A stateless, zero-retention AI document summarizer",
       "link": "https://hushbrief.app",
@@ -1988,30 +2035,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-02T14:46:24.000Z",
       "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://medium.com/@kamil.tustanowski/ai-agents-101-from-concept-to-code-no-frameworks-required-2dfdaf66b6c1",
-      "title": "AI Agents 101: From Concept to Code (No Frameworks Required)",
-      "link": "https://medium.com/@kamil.tustanowski/ai-agents-101-from-concept-to-code-no-frameworks-required-2dfdaf66b6c1",
-      "summary": "Article URL: https://medium.com/@kamil.tustanowski/ai-agents-101-from-concept-to-code-no-frameworks-required-2dfdaf66b6c1 Comments URL: https://news.ycombinator.com/item?id=46976265 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T15:36:56.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://z-imagebase.com/",
-      "title": "Show HN: Z-Image Base – Fast AI Image Generator (Open-Source, Free Tier)",
-      "link": "https://z-imagebase.com/",
-      "summary": "Z-Image Base is an AI image generator built on Alibaba Tongyi Lab's open-source 6B-parameter S3-DiT (Scalable Single-Stream Diffusion Transformer) architecture. It achieves state-of-the-art results among open-source models on Elo-based human preference evaluations. Key features: - Text-to-image and image-to-image generation - Native bilingual understanding (English & Chinese) — true semantic comprehension, not translation - Full CFG (Classifier-Free Guidance) control and negative prompt support - Runs on consumer hardware with 16GB VRAM for local deployment - Apache 2.0 licensed — all generated images are free for commercial use - Free tier includes 10 credits Would love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=46976069 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-11T15:23:27.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -2543,6 +2566,30 @@
       "status": "queued"
     },
     {
+      "id": "https://chainix.ai",
+      "title": "Building AI Agents non-technical teammates can improve without me",
+      "link": "https://chainix.ai",
+      "summary": "Article URL: https://chainix.ai Comments URL: https://news.ycombinator.com/item?id=47248401 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-04T14:56:39.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://aipricecompare.saposs.com/",
+      "title": "AIPriceCompare – Instantly Compare AI API Pricing Across Models",
+      "link": "https://aipricecompare.saposs.com/",
+      "summary": "Article URL: https://aipricecompare.saposs.com/ Comments URL: https://news.ycombinator.com/item?id=47248344 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-04T14:53:50.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/ZSeven-W/openpencil",
       "title": "Show HN: OpenPencil - Open-source vector design tool controlled by AI Agents",
       "link": "https://github.com/ZSeven-W/openpencil",
@@ -2564,18 +2611,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-03-04T06:53:02.000Z",
       "score": 171.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://pingpulsehq.com",
-      "title": "Show HN: Monitor, audit & alert on AI agent actions and interactions",
-      "link": "https://pingpulsehq.com",
-      "summary": "Monitor, visualize, audit, and alert on AI agent actions and interactions with PingPulse We built PingPulse because debugging AI agents in production is painful. As a DevOps Engineer, I have literally faced this problem of tracking what stage is the ML training is in by scrolling the logs forever to find out that the process has terminated few seconds after the start due to race-condition. I have wasted hours waiting for the process to complete while also wasting the compute costs of provisioned huge machines. Logs tell you what happened, but not always how the agent behaved step-by-step. When agents retry, branch, call tools, or make decisions across stages, it becomes hard to trace unexpected behavior. PingPulse works by letting you instrument your agent with a simple key and send structured “pings” at each stage. We turn those into: - A stage-by-stage execution timeline - An audit trail of agent actions - Alerts for deviations (retries, delays, out-of-order steps, prohibited interactions) We launched on Product Hunt yesterday. The goal is to make agent behavior visible and predictable in production environments. Getting started is simple: 1. Give your key to your Agent 2. Share a doc with your AI Agent 3. See how the workflow is created, visualized, audited, and has alerting options too. Would love feedback — especially from teams running multi-step AI workflows. Comments UR",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T15:27:44.000Z",
-      "score": 168,
       "status": "queued"
     },
     {
@@ -2696,18 +2731,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-22T13:28:10.000Z",
       "score": 163.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=46976371",
-      "title": "Part 1 - AI Chat Evaluation of the Formal Language in He Xin's PEPC System",
-      "link": "https://news.ycombinator.com/item?id=46976371",
-      "summary": "The formalized content of He Xin’s Pan-Evolutionary Logic (PEPC) system is mainly reflected in the following specific aspects: 1. Formal Language and Axiomatic System The system has constructed a custom formal language ℒ_PEPC, which includes: • Basic symbols: strategic concept variables (Cₖ), military attribute parameters (pₙ). • Core operators: including dialectical inclusion (⊂), dialectical compatibility (∘), evolutionary sub-coherent implication (→ₙ꜀), and dialectical truth value (⊤^∘), among other specialized operators. • Axiom system: an axiomatic framework from A1 (dialectical construction) to A7 (non-explosive reinforcement) has been established, providing a formal foundation for system reasoning. 2. Semantic Model and Mathematical Definitions The system defines a clear semantic model ℯℴ, structured as ⟨T, https://news.ycombinator.com/item?id=46976371 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-11T15:44:14.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -2867,6 +2890,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/kodustech/cli",
+      "title": "Show HN: AI Code Review CLI",
+      "link": "https://github.com/kodustech/cli",
+      "summary": "This week we released the Kodus CLI. It took a bit longer than we expected to ship. The reason was simple: there are already many ways to run reviews locally today. IDEs, extensions, terminal commands, agents inside the editor. So building “just another AI CLI” didn’t seem like a good idea. The question that guided the project was different: how can we bring the quality of PR reviews to the moment when the code is still being written? Today the CLI does two main things. The first is running local reviews using the same context we use in PRs. The goal was to avoid that shallow review that only looks at the diff currently open in the editor. We try to reconstruct more repository context, similar to what happens during a PR review. The second is helping resolve comments that Kody has already left on a PR, but directly from the local environment. Instead of opening the PR, reading the comment, going back to the editor, making the change, and repeating the process, you can work through those fixes directly in your coding workflow. The whole idea revolves around reducing the feedback loop time. Some design decisions came from things we heard from teams using other CLIs. Auth in large teams often turns into friction. Many tools assume each developer will create an account before using the CLI. That becomes painful when someone just wants to try it, or when an entire team decides to ex",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-04T14:51:34.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2602.16246",
       "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
       "link": "https://arxiv.org/abs/2602.16246",
@@ -2912,18 +2947,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-02T14:36:09.000Z",
       "score": 157.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/",
-      "title": "Maia 200: The AI accelerator built for inference",
-      "link": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/",
-      "summary": "Article URL: https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ Comments URL: https://news.ycombinator.com/item?id=46976159 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T15:29:41.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -3371,6 +3394,42 @@
       "status": "queued"
     },
     {
+      "id": "https://danq.me/2026/03/03/ai-agent-logging/",
+      "title": "Subverting AI Agent Logging with a Git Post-Commit Hook",
+      "link": "https://danq.me/2026/03/03/ai-agent-logging/",
+      "summary": "Article URL: https://danq.me/2026/03/03/ai-agent-logging/ Comments URL: https://news.ycombinator.com/item?id=47249044 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-04T15:37:01.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/",
+      "title": "Anthropic's AI tool Claude central to U.S. campaign in Iran, amid a bitter feud",
+      "link": "https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/",
+      "summary": "Article URL: https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/ Comments URL: https://news.ycombinator.com/item?id=47248385 Points: 10 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-04T14:56:06.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://agenticros.com",
+      "title": "AgenticROS is an open-source platform connecting ROS to OpenClaw for Physical AI",
+      "link": "https://agenticros.com",
+      "summary": "Article URL: https://agenticros.com Comments URL: https://news.ycombinator.com/item?id=47248199 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-04T14:47:00.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://getharmony.ai/",
       "title": "Help me with positioning/marketing of my AI agent",
       "link": "https://getharmony.ai/",
@@ -3488,30 +3547,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-26T07:32:05.000Z",
       "score": 150.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://usemeva.com/",
-      "title": "Show HN: MEVA, a desktop Markdown reader for AI-generated docs",
-      "link": "https://usemeva.com/",
-      "summary": "Hey HN! Saurabh here – I built MEVA, a lightweight desktop app for reading AI-generated markdown. I work with AI tools (Claude, ChatGPT, Copilot) daily and end up with dozens of markdown files – design docs, API specs, architecture notes, explanations. VS Code previews split your workspace, browser renderers don't watch files, and most markdown apps are built for writing, not reading. I just wanted something I could point at a file and read, beautifully rendered, updating live. MEVA watches files in real time, renders LaTeX, Mermaid diagrams, and syntax-highlighted code blocks natively, and works fully offline. No accounts, no cloud sync, no tracking. Under 15MB. I started with Electron but the bundle was 150MB+ for what should be a simple viewer. Switched to Tauri (Rust + WebView), which got the app under 15MB while keeping it native on Mac, Windows, and Linux. For rendering I use markdown-it with plugins for KaTeX and Mermaid. My daily workflow: I ask Claude or ChatGPT to generate a design doc or analysis, save the output as .md, and MEVA picks it up instantly. When AI tools stream output directly to .md files, I see the rendered result building in real time in the app. It's become my default way to read any markdown file. Free version includes all core features. There's an optional paid version that adds multiple tabs, themes, and a few extras to support continued developmen",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T15:14:35.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/clanker-lover/spicebridge",
-      "title": "Show HN: SPICEBridge – MCP server for AI circuit design via ngspice",
-      "link": "https://github.com/clanker-lover/spicebridge",
-      "summary": "Built this in under 24 hours. I'm a self-taught EE and I got tired of the loop where I describe a circuit to Claude, then have to manually translate it into a netlist, run ngspice, parse output, check specs, tweak, repeat. The AI couldn't touch the simulator. SPICEBridge is an MCP server with 18 tools covering the full design loop — template loading with auto-calculated component values (E24 series), AC/transient/DC simulation, automated measurement, spec verification, and schematic generation. One call goes from \"1kHz low-pass filter\" to a verified, simulated circuit. Works locally with Claude Code (stdio) or remotely via Cloudflare tunnel. Ran it through a multi-model security audit before public release. Solo project, GPL-3.0. Would love feedback from anyone who works with SPICE. Comments URL: https://news.ycombinator.com/item?id=46975866 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-11T15:06:49.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -3703,6 +3738,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-03-03T15:06:53.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.statnews.com/2026/01/13/arpa-h-advancing-clinical-agentic-ai-use-heart-disease/",
+      "title": "ARPA-H launching new AI program for 46% of US counties with no cardiologists",
+      "link": "https://www.statnews.com/2026/01/13/arpa-h-advancing-clinical-agentic-ai-use-heart-disease/",
+      "summary": "Article URL: https://www.statnews.com/2026/01/13/arpa-h-advancing-clinical-agentic-ai-use-heart-disease/ Comments URL: https://news.ycombinator.com/item?id=47248989 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-04T15:33:34.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -4088,30 +4135,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-03-04T05:00:00.000Z",
       "score": 106.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.00490",
-      "title": "LifeEval: A Multimodal Benchmark for Assistive AI in Egocentric Daily Life Tasks",
-      "link": "https://arxiv.org/abs/2603.00490",
-      "summary": "arXiv:2603.00490v1 Announce Type: new Abstract: The rapid progress of Multimodal Large Language Models (MLLMs) marks a significant step toward artificial general intelligence, offering great potential for augmenting human capabilities. However, their ability to provide effective assistance in dynamic, real-world environments remains largely underexplored. Existing video benchmarks predominantly assess passive understanding through retrospective analysis or isolated perception tasks, failing to capture the interactive and adaptive nature of real-time user assistance. To bridge this gap, we introduce LifeEval, a multimodal benchmark designed to evaluate real-time, task-oriented human-AI collaboration in daily life from an egocentric perspective. LifeEval emphasizes three key aspects: task-oriented holistic evaluation, egocentric real-time perception from continuous first-person streams, and human-assistant collaborative interaction through natural dialogues. Constructed via a rigorous annotation pipeline, the benchmark comprises 4,075 high-quality question-answer pairs across 6 core capability dimensions. Extensive evaluations of 26 state-of-the-art MLLMs on LifeEval reveal substantial challenges in achieving timely, effective and adaptive interaction, highlighting essential directions for advancing human-centered interactive intelligence.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-04T05:00:00.000Z",
-      "score": 106.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.00460",
-      "title": "MED-COPILOT: A Medical Assistant Powered by GraphRAG and Similar Patient Case Retrieval",
-      "link": "https://arxiv.org/abs/2603.00460",
-      "summary": "arXiv:2603.00460v1 Announce Type: new Abstract: Clinical decision-making requires synthesizing heterogeneous evidence, including patient histories, clinical guidelines, and trajectories of comparable cases. While large language models (LLMs) offer strong reasoning capabilities, they remain prone to hallucinations and struggle to integrate long, structured medical documents. We present MED-COPILOT, an interactive clinical decision-support system designed for clinicians and medical trainees, which combines guideline-grounded GraphRAG retrieval with hybrid semantic-keyword similar-patient retrieval to support transparent and evidence-aware clinical reasoning. The system builds a structured knowledge graph from WHO and NICE guidelines, applies community-level summarization for efficient retrieval, and maintains a 36,000-case similar-patient database derived from SOAP-normalized MIMIC-IV notes and Synthea-generated records. We evaluate our framework on clinical note completion and medical question answering, and demonstrate that it consistently outperforms parametric LLM baselines and standard RAG, improving both generation fidelity and clinical reasoning accuracy. The full system is available at https://huggingface.co/spaces/Cryo3978/Med_GraphRAG , enabling users to inspect retrieved evidence, visualize token-level similarity contributions, and conduct guided follow-up analysis. Ou",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-03T05:00:00.000Z",
-      "score": 101.13,
       "status": "queued"
     },
     {

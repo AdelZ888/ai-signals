@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-04T08:40:21.903Z",
+  "generatedAt": "2026-03-04T15:52:12.118Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-03-04-videodb-skills-expose-videoinfrastructure-primitives-to-ai-agents",
+      "title": "VideoDB Skills — exposer des primitives d'infrastructure vidéo aux agents IA",
+      "date": "2026-03-04",
+      "excerpt": "VideoDB Skills regroupe des années d'expérience en plomberie vidéo en une « skill » pour agents IA : ingestion de flux, indexation de moments, retours de clips jouables et modifications côté serveur, avec une installation rapide via npx.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-04-videodb-skills-expose-videoinfrastructure-primitives-to-ai-agents.jpg",
+      "tags": [
+        "video",
+        "infrastructure",
+        "agents-IA",
+        "ffmpeg",
+        "streaming",
+        "UK"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47249002"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
