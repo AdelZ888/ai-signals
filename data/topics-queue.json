@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-04T15:52:12.179Z",
+  "generatedAt": "2026-03-05T08:40:03.232Z",
   "items": [
+    {
+      "id": "https://github.com/rivradev/recite-agent-skill",
+      "title": "Show HN: Recite – I built an Skill and MCP so my AI agent does my bookkeeping",
+      "link": "https://github.com/rivradev/recite-agent-skill",
+      "summary": "Hi HN, I’m an indie dev, and as my tech stack grew, so did the number of SaaS subscriptions and invoices. Every month, I’d get a chaotic pile of PDFs and image receipts. I absolutely hate bookkeeping. It breaks my flow state, and honestly, the last thing I want to do on a weekend is open an Excel spreadsheet to manually input tax data. So I built Recite. Originally, it was just a simple web app that used vision mode…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-04T15:32:56.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-05T08:40:03.213Z",
+      "file": "content/posts/2026-03-05-recite-agent-skill-and-mcp-server-to-parse-receipts-rename-files-and-generate-csv-ledger.md",
+      "fileFr": "content/posts/fr/2026-03-05-recite-agent-skill-and-mcp-server-to-parse-receipts-rename-files-and-generate-csv-ledger.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1514,
+      "wordsFr": 1335
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47249002",
       "title": "Show HN: I packaged decade of video infra battle scars into tools for AI agents",
@@ -2002,18 +2025,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://github.com/rivradev/recite-agent-skill",
-      "title": "Show HN: Recite – I built an Skill and MCP so my AI agent does my bookkeeping",
-      "link": "https://github.com/rivradev/recite-agent-skill",
-      "summary": "Hi HN, I’m an indie dev, and as my tech stack grew, so did the number of SaaS subscriptions and invoices. Every month, I’d get a chaotic pile of PDFs and image receipts. I absolutely hate bookkeeping. It breaks my flow state, and honestly, the last thing I want to do on a weekend is open an Excel spreadsheet to manually input tax data. So I built Recite. Originally, it was just a simple web app that used vision models to parse receipts into clean CSV. But I realized I didn't even want to log into my own web app. So I pivoted and turned it into a Public APIs/agent skill and an MCP server. Now, I just download all my invoices into a single local folder and tell my agent (I use OpenClaw), \"Process my receipts.\" The agent hits the Recite API, reads the images/PDFs, categorizes them using standard accounting logic, renames the files by date, and generates a structured CSV for me. I literally don't look at spreadsheets anymore. How to use it: Public API: Because we all love APIs. Agent Skill: The easiest way to let your agent do the work in environments like OpenClaw or Claude Desktop. MCP Server: If you want more control and want to build your own custom agentic workflows. I’m currently focused on maxing out accuracy and keeping costs as close to zero as possible. There’s a generous free tier for indie devs because I know the pain. I would love for you to try hooking it up to your a",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-04T15:32:56.000Z",
-      "score": 192,
-      "status": "queued"
-    },
-    {
       "id": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
       "title": "Show HN: Teaching Tokens: Implementing Private, Lightweight AI in the Classroom",
       "link": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
@@ -2035,6 +2046,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-02T14:46:24.000Z",
       "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/luislopez1212/Nemilia",
+      "title": "Show HN: Nemilia – multi-agent AI workspace in a single HTML file, no back end",
+      "link": "https://github.com/luislopez1212/Nemilia",
+      "summary": "A full multi-agent AI workspace in a single HTML file. No backend. No install. No build step. No account. You own the entire runtime — open it in a browser and it works. That's not a constraint. That's the point. Nemilia is built around the idea of AI sovereignty — your agents, your workflows, your data, your keys, all running on your machine. Nothing phoned home, nothing locked to a platform, nothing that breaks when a SaaS company changes its pricing. What you get: - Build custom agents with their own roles, personalities, system prompts, and model overrides - Design custom workflows with drag-and-drop pipeline builder — chain agents in any order, set HITL review checkpoints, run parallel DAG execution - MCP tool execution — build agents that call external tools in real time (filesystem, databases, APIs, code execution) over streamableHttp or SSE - Document RAG with hybrid Transformers.js vector embeddings + BM25 keyword search, fully client-side - WebGPU offline mode — run Llama, Qwen, Phi, Gemma entirely in the browser, no API key, no internet - Connect any provider: OpenAI, Anthropic, Groq, Gemini, Mistral, DeepSeek, Ollama, LM Studio — swap anytime, your workflows follow - API keys encrypted AES-256-GCM, never leave your browser - Workspace syncs to a real folder on disk as plain JSON and Markdown — version control it, edit it in VS Code, take it anywhere One file. Any br",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-05T06:47:11.000Z",
+      "score": 178.26,
       "status": "queued"
     },
     {
@@ -2734,18 +2757,6 @@
       "status": "queued"
     },
     {
-      "id": "https://clawhosters.com/blog/posts/own-ai-assistant-costs-clawhosters",
-      "title": "Show HN: Running your own AI assistant for €19/month",
-      "link": "https://clawhosters.com/blog/posts/own-ai-assistant-costs-clawhosters",
-      "summary": "I run ClawHosters, managed OpenClaw hosting. Wrote up a cost breakdown because the \"AI APIs are expensive\" fear keeps people from trying personal assistants. TL;DR: €19/month hosting + Google Gemini free tier (20-50 requests/day) = fully functional AI assistant on Telegram/WhatsApp/Discord. The math that surprised me: - VentureBeat calculated you'd need 74,000 pages/day to hit $180 in API costs - DeepSeek costs $0.27/million tokens (95% cheaper than GPT-4) - ChatGPT Plus is actually €24.50/month in Germany after VAT DIY on a €6 VPS sounds cheaper until you factor in 15+ hours of setup and ongoing maintenance. I watched someone lose all their conversation history on day 3 because backups weren't configured. Full breakdown with API comparisons: https://clawhosters.com/blog/posts/own-ai-assistant-costs-cl... Comments URL: https://news.ycombinator.com/item?id=46986010 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-12T07:53:45.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://www.remote-nexus.dev",
       "title": "Show HN: Nexus AI – DevOps terminal bridge to Telegram (local-first, BYOK)",
       "link": "https://www.remote-nexus.dev",
@@ -3430,6 +3441,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theguardian.com/technology/2026/mar/04/sam-altman-openai-pentagon",
+      "title": "Sam Altman admits OpenAI can't control Pentagon's use of AI",
+      "link": "https://www.theguardian.com/technology/2026/mar/04/sam-altman-openai-pentagon",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/mar/04/sam-altman-openai-pentagon Comments URL: https://news.ycombinator.com/item?id=47258828 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-05T07:47:51.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.dongascience.com/en/news/76660",
+      "title": "AI model trained on 9.3T base pairs can now design novel genes",
+      "link": "https://www.dongascience.com/en/news/76660",
+      "summary": "Article URL: https://www.dongascience.com/en/news/76660 Comments URL: https://news.ycombinator.com/item?id=47258736 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-05T07:36:11.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.03686",
+      "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
+      "link": "https://arxiv.org/abs/2603.03686",
+      "summary": "arXiv:2603.03686v1 Announce Type: new Abstract: Automated design of chemical formulations is a cornerstone of materials science, yet it requires navigating a high-dimensional combinatorial space involving discrete compositional choices and continuous geometric constraints. Existing Large Language Model (LLM) agents face significant challenges in this setting, including context window limitations during long-horizon reasoning and path-dependent exploration that may lead to mode collapse. To address these issues, we introduce AI4S-SDS, a closed-loop neuro-symbolic framework that integrates multi-agent collaboration with a tailored Monte Carlo Tree Search (MCTS) engine. We propose a Sparse State Storage mechanism with Dynamic Path Reconstruction, which decouples reasoning history from context length and enables arbitrarily deep exploration under fixed token budgets. To reduce local convergence and improve coverage, we implement a Global--Local Search Strategy: a memory-driven planning module adaptively reconfigures the search root based on historical feedback, while a Sibling-Aware Expansion mechanism promotes orthogonal exploration at the node level. Furthermore, we bridge symbolic reasoning and physical feasibility through a Differentiable Physics Engine, employing a hybrid normalized loss with sparsity-inducing regularization to optimize continuous mixing ratios under thermodyn",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-05T05:00:00.000Z",
+      "score": 154.34,
+      "status": "queued"
+    },
+    {
       "id": "https://getharmony.ai/",
       "title": "Help me with positioning/marketing of my AI agent",
       "link": "https://getharmony.ai/",
@@ -3790,15 +3837,27 @@
       "status": "queued"
     },
     {
-      "id": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
-      "title": "'The world is in peril': AI researchers quit with public warnings",
-      "link": "https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr",
-      "summary": "Article URL: https://www.thetimes.com/uk/technology-uk/article/ai-researchers-quit-openai-chatgpt-anthropic-pfhgpxztr Comments URL: https://news.ycombinator.com/item?id=46985813 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
+      "id": "https://arxiv.org/abs/2603.03655",
+      "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+      "link": "https://arxiv.org/abs/2603.03655",
+      "summary": "arXiv:2603.03655v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents promise to unify scientific reasoning with computation, yet their deployment in high-stakes domains like drug discovery is bottlenecked by two critical barriers: unconstrained tool-use governance and poor long-horizon reliability. In dependency-heavy pharmaceutical pipelines, autonomous agents often drift into irreproducible trajectories, where early-stage hallucinations multiplicatively compound into downstream failures. To overcome this, we present Mozi, a dual-layer architecture that bridges the flexibility of generative AI with the deterministic rigor of computational biology. Layer A (Control Plane) establishes a governed supervisor--worker hierarchy that enforces role-based tool isolation, limits execution to constrained action spaces, and drives reflection-based replanning. Layer B (Workflow Plane) operationalizes canonical drug discovery stages -- from Target Identification to Lead Optimization -- as stateful, composable skill graphs. This layer integrates strict data contracts and strategic human-in-the-loop (HITL) checkpoints to safeguard scientific validity at high-uncertainty decision boundaries. Operating on the design principle of ``free-form reasoning for safe tasks, structured execution for long-horizon pipelines,'' Mozi provides built-in robustness mechanisms and tr",
+      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-12T07:27:08.000Z",
-      "score": 148.7,
+      "keywordHits": 8,
+      "publishedAt": "2026-03-05T05:00:00.000Z",
+      "score": 148.34,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.03761",
+      "title": "AgentSelect: Benchmark for Narrative Query-to-Agent Recommendation",
+      "link": "https://arxiv.org/abs/2603.03761",
+      "summary": "arXiv:2603.03761v1 Announce Type: new Abstract: LLM agents are rapidly becoming the practical interface for task automation, yet the ecosystem lacks a principled way to choose among an exploding space of deployable configurations. Existing LLM leaderboards and tool/agent benchmarks evaluate components in isolation and remain fragmented across tasks, metrics, and candidate pools, leaving a critical research gap: there is little query-conditioned supervision for learning to recommend end-to-end agent configurations that couple a backbone model with a toolkit. We address this gap with AgentSelect, a benchmark that reframes agent selection as narrative query-to-agent recommendation over capability profiles and systematically converts heterogeneous evaluation artifacts into unified, positive-only interaction data. AgentSelectcomprises 111,179 queries, 107,721 deployable agents, and 251,103 interaction records aggregated from 40+ sources, spanning LLM-only, toolkit-only, and compositional agents. Our analyses reveal a regime shift from dense head reuse to long-tail, near one-off supervision, where popularity-based CF/GNN methods become fragile and content-aware capability matching is essential. We further show that Part~III synthesized compositional interactions are learnable, induce capability-sensitive behavior under controlled counterfactual edits, and improve coverage over realis",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-05T05:00:00.000Z",
+      "score": 148.34,
       "status": "queued"
     },
     {
@@ -3895,6 +3954,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-02-26T06:26:01.000Z",
       "score": 145.86,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.armalo.ai/blog/ai-agents-breaking-commitments-accountability",
+      "title": "AI Agent Broke Its Promise. Now What?",
+      "link": "https://www.armalo.ai/blog/ai-agents-breaking-commitments-accountability",
+      "summary": "Article URL: https://www.armalo.ai/blog/ai-agents-breaking-commitments-accountability Comments URL: https://news.ycombinator.com/item?id=47258582 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-05T07:15:46.000Z",
+      "score": 145.44,
       "status": "queued"
     },
     {
@@ -4030,30 +4101,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.10367",
-      "title": "LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with Automated Rubric Evaluation",
-      "link": "https://arxiv.org/abs/2602.10367",
-      "summary": "arXiv:2602.10367v1 Announce Type: new Abstract: The deployment of Large Language Models (LLMs) in high-stakes clinical settings demands rigorous and reliable evaluation. However, existing medical benchmarks remain static, suffering from two critical limitations: (1) data contamination, where test sets inadvertently leak into training corpora, leading to inflated performance estimates; and (2) temporal misalignment, failing to capture the rapid evolution of medical knowledge. Furthermore, current evaluation metrics for open-ended clinical reasoning often rely on either shallow lexical overlap (e.g., ROUGE) or subjective LLM-as-a-Judge scoring, both inadequate for verifying clinical correctness. To bridge these gaps, we introduce LiveMedBench, a continuously updated, contamination-free, and rubric-based benchmark that weekly harvests real-world clinical cases from online medical communities, ensuring strict temporal separation from model training data. We propose a Multi-Agent Clinical Curation Framework that filters raw data noise and validates clinical integrity against evidence-based medical principles. For evaluation, we develop an Automated Rubric-based Evaluation Framework that decomposes physician responses into granular, case-specific criteria, achieving substantially stronger alignment with expert physicians than LLM-as-a-Judge. To date, LiveMedBench comprises 2,756 real",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 141.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.10458",
-      "title": "Found-RL: foundation model-enhanced reinforcement learning for autonomous driving",
-      "link": "https://arxiv.org/abs/2602.10458",
-      "summary": "arXiv:2602.10458v1 Announce Type: new Abstract: Reinforcement Learning (RL) has emerged as a dominant paradigm for end-to-end autonomous driving (AD). However, RL suffers from sample inefficiency and a lack of semantic interpretability in complex scenarios. Foundation Models, particularly Vision-Language Models (VLMs), can mitigate this by offering rich, context-aware knowledge, yet their high inference latency hinders deployment in high-frequency RL training loops. To bridge this gap, we present Found-RL, a platform tailored to efficiently enhance RL for AD using foundation models. A core innovation is the asynchronous batch inference framework, which decouples heavy VLM reasoning from the simulation loop, effectively resolving latency bottlenecks to support real-time learning. We introduce diverse supervision mechanisms: Value-Margin Regularization (VMR) and Advantage-Weighted Action Guidance (AWAG) to effectively distill expert-like VLM action suggestions into the RL policy. Additionally, we adopt high-throughput CLIP for dense reward shaping. We address CLIP's dynamic blindness via Conditional Contrastive Action Alignment, which conditions prompts on discretized speed/command and yields a normalized, margin-based bonus from context-specific action-anchor scoring. Found-RL provides an end-to-end pipeline for fine-tuned VLM integration and shows that a lightweight RL model ca",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-12T05:00:00.000Z",
-      "score": 141.54,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2602.22070",
       "title": "Language Models Exhibit Inconsistent Biases Towards Algorithmic Agents and Human Experts",
       "link": "https://arxiv.org/abs/2602.22070",
@@ -4090,6 +4137,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.03456",
+      "title": "Asymmetric Goal Drift in Coding Agents Under Value Conflict",
+      "link": "https://arxiv.org/abs/2603.03456",
+      "summary": "arXiv:2603.03456v1 Announce Type: new Abstract: Agentic coding agents are increasingly deployed autonomously, at scale, and over long-context horizons. Throughout an agent's lifetime, it must navigate tensions between explicit instructions, learned values, and environmental pressures, often in contexts unseen during training. Prior work on model preferences, agent behavior under value tensions, and goal drift has relied on static, synthetic settings that do not capture the complexity of real-world environments. To this end, we introduce a framework built on OpenCode to orchestrate realistic, multi-step coding tasks to measure how agents violate explicit constraints in their system prompt over time with and without environmental pressure toward competing values. Using this framework, we demonstrate that GPT-5 mini, Haiku 4.5, and Grok Code Fast 1 exhibit asymmetric drift: they are more likely to violate their system prompt when its constraint opposes strongly-held values like security and privacy. We find for the models and values tested that goal drift correlates with three compounding factors: value alignment, adversarial pressure, and accumulated context. However, even strongly-held values like privacy show non-zero violation rates under sustained environmental pressure. These findings reveal that shallow compliance checks are insufficient and that comment-based pressure can",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-05T05:00:00.000Z",
+      "score": 130.34,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.00285",
       "title": "TraderBench: How Robust Are AI Agents in Adversarial Capital Markets?",
       "link": "https://arxiv.org/abs/2603.00285",
@@ -4111,30 +4170,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-04T05:00:00.000Z",
       "score": 118.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.00309",
-      "title": "DIG to Heal: Scaling General-purpose Agent Collaboration via Explainable Dynamic Decision Paths",
-      "link": "https://arxiv.org/abs/2603.00309",
-      "summary": "arXiv:2603.00309v1 Announce Type: new Abstract: The increasingly popular agentic AI paradigm promises to harness the power of multiple, general-purpose large language model (LLM) agents to collaboratively complete complex tasks. While many agentic AI systems utilize predefined workflows or agent roles in order to reduce complexity, ideally these agents would be truly autonomous, able to achieve emergent collaboration even as the number of collaborating agents increases. Yet in practice, such unstructured interactions can lead to redundant work and cascading failures that are difficult to interpret or correct. In this work, we study multi-agent systems composed of general-purpose LLM agents that operate without predefined roles, control flow, or communication constraints, relying instead on emergent collaboration to solve problems. We introduce the Dynamic Interaction Graph (DIG), which captures emergent collaboration as a time-evolving causal network of agent activations and interactions. DIG makes emergent collaboration observable and explainable for the first time, enabling real-time identification, explanation, and correction of collaboration-induced error patterns directly from agents' collaboration paths. Thus, DIG fills a critical gap in understanding how general LLM agents solve problems together in truly agentic multi-agent systems. The project webpage can be found at:",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-04T05:00:00.000Z",
-      "score": 106.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.00350",
-      "title": "Monotropic Artificial Intelligence: Toward a Cognitive Taxonomy of Domain-Specialized Language Models",
-      "link": "https://arxiv.org/abs/2603.00350",
-      "summary": "arXiv:2603.00350v1 Announce Type: new Abstract: The prevailing paradigm in artificial intelligence research equates progress with scale: larger models trained on broader datasets are presumed to yield superior capabilities. This assumption, while empirically productive for general-purpose applications, obscures a fundamental epistemological tension between breadth and depth of knowledge. We introduce the concept of \\emph{Monotropic Artificial Intelligence} -- language models that deliberately sacrifice generality to achieve extraordinary precision within narrowly circumscribed domains. Drawing on the cognitive theory of monotropism developed to understand autistic cognition, we argue that intense specialization represents not a limitation but an alternative cognitive architecture with distinct advantages for safety-critical applications. We formalize the defining characteristics of monotropic models, contrast them with conventional polytropic architectures, and demonstrate their viability through Mini-Enedina, a 37.5-million-parameter model that achieves near-perfect performance on Timoshenko beam analysis while remaining deliberately incompetent outside its domain. Our framework challenges the implicit assumption that artificial general intelligence constitutes the sole legitimate aspiration of AI research, proposing instead a cognitive ecology in which specialized and general",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-04T05:00:00.000Z",
-      "score": 106.55,
       "status": "queued"
     },
     {

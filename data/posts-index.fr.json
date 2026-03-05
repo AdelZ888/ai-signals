@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-04T15:52:12.118Z",
+  "generatedAt": "2026-03-05T08:40:03.225Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-05-recite-agent-skill-and-mcp-server-to-parse-receipts-rename-files-and-generate-csv-ledger",
+      "title": "Recite : skill d'agent et serveur MCP pour parser des reçus, renommer des fichiers et générer un CSV",
+      "date": "2026-03-05",
+      "excerpt": "Recite transforme un dossier de reçus PDF/images en noms de fichiers datés et en un CSV structuré en connectant une skill d'agent (ex. OpenClaw/Claude) à son API publique ou à un serveur MCP local. Commencez par un dry‑run.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-05-recite-agent-skill-and-mcp-server-to-parse-receipts-rename-files-and-generate-csv-ledger.jpg",
+      "tags": [
+        "recite",
+        "reçus",
+        "OCR",
+        "comptabilité",
+        "automatisation",
+        "OpenClaw",
+        "Claude",
+        "MCP"
+      ],
+      "sources": [
+        "https://github.com/rivradev/recite-agent-skill"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-04-orchestrating-ai-iot-and-robotics-for-industry-50-to-prioritize-growth-resilience-and-human-centered-outcomes",
       "title": "Orchestrer IA, IoT et robotique pour Industry 5.0 : prioriser croissance, résilience et résultats centrés sur l'humain",
