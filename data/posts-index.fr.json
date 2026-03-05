@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-05T08:40:03.225Z",
+  "generatedAt": "2026-03-05T16:04:24.459Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-05-deploying-vision-language-action-models-on-nxp-imx95-dataset-recording-policy-fine-tuning-and-latency-aware-on-device-optimizations",
+      "title": "Déployer des modèles Vision–Language–Action sur NXP i.MX95 : enregistrement de données, fine‑tuning de la politique et optimisation sensible à la latence",
+      "date": "2026-03-05",
+      "excerpt": "Guide pratique pour déployer des VLA sur une carte embarquée NXP i.MX95 : comment enregistrer des jeux de données avec caméra sur la pince, fine‑tuner uniquement la tête d’action, et appliquer quantification et ordonnancement sensibles à la latence.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-05-deploying-vision-language-action-models-on-nxp-imx95-dataset-recording-policy-fine-tuning-and-latency-aware-on-device-optimizations.jpg",
+      "tags": [
+        "VLA",
+        "Vision-Language-Action",
+        "robotique",
+        "edge-ai",
+        "i.MX95",
+        "quantification",
+        "inférence asynchrone",
+        "NXP"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 480,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-05-recite-agent-skill-and-mcp-server-to-parse-receipts-rename-files-and-generate-csv-ledger",
       "title": "Recite : skill d'agent et serveur MCP pour parser des reçus, renommer des fichiers et générer un CSV",
