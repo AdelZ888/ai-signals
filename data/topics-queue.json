@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-06T08:36:00.595Z",
+  "generatedAt": "2026-03-06T15:47:12.212Z",
   "items": [
+    {
+      "id": "https://i-am-neon.itch.io/infinit",
+      "title": "Show HN: Voiced, image-based D&D inspired AI-native RPG",
+      "link": "https://i-am-neon.itch.io/infinit",
+      "summary": "I'm a solo dev and I built a visual novel-style RPG where you type what you want to do and an AI game master responds in real time. Free alpha, plays in the browser. What makes it different from AI Dungeon: the AI doesn't just generate text. It emits structured commands that change the music, move NPCs between locations, give/remove items, swap character portraits based on emotional reactions, and trigger cutscenes.…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-06T14:43:14.000Z",
+      "score": 222,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-06T15:47:12.142Z",
+      "file": "content/posts/2026-03-06-ai-game-master-prototype-real-time-voiced-image-driven-rpg-in-godot-and-fastapi.md",
+      "fileFr": "content/posts/fr/2026-03-06-ai-game-master-prototype-real-time-voiced-image-driven-rpg-in-godot-and-fastapi.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 360,
+      "wordsEn": 1704,
+      "wordsFr": 1247
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts",
       "title": "AI tools can unmask anonymous accounts",
@@ -2071,6 +2094,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://github.com/cdknorow/corral",
+      "title": "Show HN: Corral – An open-source orchestration layer for AI coding agents",
+      "link": "https://github.com/cdknorow/corral",
+      "summary": "Corral is an open-source orchestration layer that runs multiple AI agents side-by-side in parallel git worktrees, backing them with `tmux`, and tracking the history and context of each session in a local SQLite database. Instead of losing track of terminal sessions, Corral gives you a unified web dashboard (FastAPI + SQLite WAL) where you can: - *Track activity live* via pane capture and real-time status pulses. - *Search your entire session history* (using FTS5) across Claude and Gemini. - *Auto-summarize* past sessions. - *Take the helm* (send commands, change modes, or kill a wandering agent directly from the UI). It’s completely open source and currently supports Claude Code and the Gemini CLI natively (though any agent can be integrated by emitting simple `||PULSE:STATUS||` tokens to stdout). You can try it out via `pip install agent-corral` or check out the code and the underlying architecture in the repo. I’d love to hear your thoughts, feedback, or any war stories about dealing with terminal fatigue from running agents! Happy to answer any questions about the implementation. Comments URL: https://news.ycombinator.com/item?id=47275955 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-06T15:17:44.000Z",
+      "score": 198,
+      "status": "queued"
+    },
+    {
       "id": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
       "title": "Show HN: Teaching Tokens: Implementing Private, Lightweight AI in the Classroom",
       "link": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
@@ -2095,6 +2130,30 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47276142",
+      "title": "Validation pipeline that blocks AI-generated files with schema errors",
+      "link": "https://news.ycombinator.com/item?id=47276142",
+      "summary": "Every time I used an LLM to generate structured knowledge files, the output would drift — wrong enum values, missing fields, dates in the wrong format, tags as strings instead of arrays. The files looked fine until something downstream broke: a Dataview query returning nothing, a CI check failing, a search index corrupting. The standard fix is post-hoc validation — check after writing, fix manually. That doesn't scale past a few dozen files. So I built a pipeline where the commit gate is the product: Prompt → LLM → Validation Engine → Error Normalizer → Retry Controller → Commit Gate → File The LLM is the only non-deterministic component. Everything else is pure functions. If output fails schema checks, it never touches disk — the normalizer converts error codes into correction instructions and sends them back to the LLM. If the same error fires twice on the same field, it aborts instead of looping — that pattern means your schema has a boundary problem, not the model. The taxonomy lives in an external akf.yaml — not compiled into the tool: enums: domain: [ai-system, api-design, devops, security] level: [beginner, intermediate, advanced] status: [draft, active, completed, archived] Change your ontology without touching code or redeploying. What it catches: wrong enum values (E001), missing required fields (E002), bad date formats (E003), type mismatches like tags: \"security\" in",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-06T15:28:46.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/clkao/agentlore",
+      "title": "Show HN: Agentlore – searchable team log for AI coding agent sessions",
+      "link": "https://github.com/clkao/agentlore",
+      "summary": "Agentlore syncs your team's AI coding agent conversations to shared storage, links them to git commits and PRs, and makes them searchable. Built on top of agentsview[0] by Wes McKinney, which indexes local sessions from various coding agents into a SQLite database. I built this because I wanted to understand my own agent usage patterns. I mostly use Claude Code, and agentsview was already doing the hard work of collecting sessions locally. Then I wanted to sync sessions across my machines so everything was searchable in one place. When I found interesting new approaches with coding agents (superpowers, gsd, higher-order prompting) that I wanted to share with friends and teammates. I ended up creating gists, which is a terrible way to share conversations. These clicked together into agentlore. A daemon watches agentsview's local database, masks secrets, and syncs conversations to ClickHouse. A web UI lets you browse, search, and filter across all your sessions. The part I'm most excited about is git linking. Agentlore parses tool calls for git commit and gh pr create invocations, extracting commit SHAs and PR URLs. So you can go from a commit to the full conversation that produced it. Every conversation gets a shareable permalink, so you can drop it in a PR comment or Slack and people can see exactly what happened. What I'm hoping to see play out: - Review agents should get more",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-06T15:19:26.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/luislopez1212/Nemilia",
       "title": "Show HN: Nemilia – multi-agent AI workspace in a single HTML file, no back end",
       "link": "https://github.com/luislopez1212/Nemilia",
@@ -2104,18 +2163,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Cocabadger/saferun-guard",
-      "title": "SafeRun Guard- Runtime safety firewall for AI coding agents (bash+jq, zero deps)",
-      "link": "https://github.com/Cocabadger/saferun-guard",
-      "summary": "Article URL: https://github.com/Cocabadger/saferun-guard Comments URL: https://news.ycombinator.com/item?id=47003498 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-13T15:03:10.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -2623,6 +2670,54 @@
       "status": "queued"
     },
     {
+      "id": "https://levine.tech/blog/oauth-is-broken",
+      "title": "OAuth Is Broken for AI Agents",
+      "link": "https://levine.tech/blog/oauth-is-broken",
+      "summary": "Article URL: https://levine.tech/blog/oauth-is-broken Comments URL: https://news.ycombinator.com/item?id=47275987 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T15:19:28.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/theredsix/agent-browser-protocol",
+      "title": "Show HN: Deterministic browser control for AI agents (~90% on Mind2Web)",
+      "link": "https://github.com/theredsix/agent-browser-protocol",
+      "summary": "Article URL: https://github.com/theredsix/agent-browser-protocol Comments URL: https://news.ycombinator.com/item?id=47275862 Points: 3 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T15:12:06.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.techpolicy.press/americas-first-war-in-age-of-llms-exposes-myth-of-ai-alignment/",
+      "title": "America's First War in Age of LLMs Exposes Myth of AI Alignment",
+      "link": "https://www.techpolicy.press/americas-first-war-in-age-of-llms-exposes-myth-of-ai-alignment/",
+      "summary": "Article URL: https://www.techpolicy.press/americas-first-war-in-age-of-llms-exposes-myth-of-ai-alignment/ Comments URL: https://news.ycombinator.com/item?id=47275814 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T15:09:11.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Jack-Lin-DS-AI/squawk",
+      "title": "Show HN: Squawk – Detect and stop behavioral anti-patterns in AI coding agents",
+      "link": "https://github.com/Jack-Lin-DS-AI/squawk",
+      "summary": "Article URL: https://github.com/Jack-Lin-DS-AI/squawk Comments URL: https://news.ycombinator.com/item?id=47275717 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T15:02:37.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/ZSeven-W/openpencil",
       "title": "Show HN: OpenPencil - Open-source vector design tool controlled by AI Agents",
       "link": "https://github.com/ZSeven-W/openpencil",
@@ -2959,18 +3054,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/jovanSAPFIONEER/Network-AI",
-      "title": "Show HN: Network-AI – A Distributed Mutex for AI Agent Swarms",
-      "link": "https://github.com/jovanSAPFIONEER/Network-AI",
-      "summary": "I built this because standard Python locks (asyncio.Lock) don't work when AI agents run across different containers or processes. As I started scaling my agent swarms (using CrewAI/LangChain), I kept hitting race conditions where agents would overwrite shared files or double-spend API credits because they read the state simultaneously. Network-AI is a distributed lock (backed by Redis or local file-locks) that solves this. It acts as a traffic light for agent tools. Key features: 2-line decorator: @lock(\"resource_id\") Handles lock timeouts (preventing \"zombie\" agents from freezing the swarm) Works with standard agent frameworks (CrewAI, AutoGen, LangGraph) The repo is open-source. I'd love feedback on the locking implementation or to hear if you've hit similar concurrency issues in production. Comments URL: https://news.ycombinator.com/item?id=47003226 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-13T14:37:05.000Z",
-      "score": 159.18,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/kelos-dev/kelos",
       "title": "Show HN: Kelos – Define your AI coding agent workflow as YAML on Kubernetes",
       "link": "https://github.com/kelos-dev/kelos",
@@ -2980,18 +3063,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-02T14:36:09.000Z",
       "score": 157.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
-      "title": "The economic potential of generative AI: The next productivity frontier",
-      "link": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
-      "summary": "Article URL: https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier Comments URL: https://news.ycombinator.com/item?id=47003319 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-13T14:46:59.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -3487,6 +3558,30 @@
       "status": "queued"
     },
     {
+      "id": "https://friendly-maamoul-bf2dd5.netlify.app",
+      "title": "8-phase AI agent pipeline from problem description to production release",
+      "link": "https://friendly-maamoul-bf2dd5.netlify.app",
+      "summary": "Article URL: https://friendly-maamoul-bf2dd5.netlify.app Comments URL: https://news.ycombinator.com/item?id=47275971 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-06T15:18:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not",
+      "title": "What if AI alignment is a skill, not a state?",
+      "link": "https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not",
+      "summary": "Article URL: https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not Comments URL: https://news.ycombinator.com/item?id=47275573 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-06T14:50:56.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.03686",
       "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
       "link": "https://arxiv.org/abs/2603.03686",
@@ -3616,18 +3711,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-26T07:32:05.000Z",
       "score": 150.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://quesma.com/benchmarks/binaryaudit/",
-      "title": "BinaryAudit: Can AI find backdoors in raw machine code?",
-      "link": "https://quesma.com/benchmarks/binaryaudit/",
-      "summary": "Article URL: https://quesma.com/benchmarks/binaryaudit/ Comments URL: https://news.ycombinator.com/item?id=47003503 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-13T15:03:24.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -4156,66 +4239,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-03-05T05:00:00.000Z",
       "score": 130.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.00285",
-      "title": "TraderBench: How Robust Are AI Agents in Adversarial Capital Markets?",
-      "link": "https://arxiv.org/abs/2603.00285",
-      "summary": "arXiv:2603.00285v1 Announce Type: new Abstract: Evaluating AI agents in finance faces two key challenges: static benchmarks require costly expert annotation yet miss the dynamic decision-making central to real-world trading, while LLM-based judges introduce uncontrolled variance on domain-specific tasks. We introduce TraderBench, a benchmark that addresses both issues. It combines expert-verified static tasks (knowledge retrieval, analytical reasoning) with adversarial trading simulations scored purely on realized performance-Sharpe ratio, returns, and drawdown-eliminating judge variance entirely. The framework features two novel tracks: crypto trading with four progressive market-manipulation transforms, and options derivatives scoring across P&L accuracy, Greeks, and risk management. Trading scenarios can be refreshed with new market data to prevent benchmark contamination. Evaluating 13 models (8B open-source to frontier) on ~50 tasks, we find: (1) 8 of 13 models score ~33 on crypto with <1-point variation across adversarial conditions, exposing fixed non-adaptive strategies; (2) extended thinking helps retrieval (+26 points) but has zero impact on trading (+0.3 crypto, -0.1 options). These findings reveal that current agents lack genuine market adaptation, underscoring the need for performance-grounded evaluation in finance.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-03T05:00:00.000Z",
-      "score": 125.13,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.04549",
-      "title": "Adaptive Memory Admission Control for LLM Agents",
-      "link": "https://arxiv.org/abs/2603.04549",
-      "summary": "arXiv:2603.04549v1 Announce Type: new Abstract: LLM-based agents increasingly rely on long-term memory to support multi-session reasoning and interaction, yet current systems provide little control over what information is retained. In practice, agents either accumulate large volumes of conversational content, including hallucinated or obsolete facts, or depend on opaque, fully LLM-driven memory policies that are costly and difficult to audit. As a result, memory admission remains a poorly specified and weakly controlled component in agent architectures. To address this gap, we propose Adaptive Memory Admission Control (A-MAC), a framework that treats memory admission as a structured decision problem. A-MAC decomposes memory value into five complementary and interpretable factors: future utility, factual confidence, semantic novelty, temporal recency, and content type prior. The framework combines lightweight rule-based feature extraction with a single LLM-assisted utility assessment, and learns domain-adaptive admission policies through cross-validated optimization. This design enables transparent and efficient control over long-term memory. Experiments on the LoCoMo benchmark show that A-MAC achieves a superior precision-recall tradeoff, improving F1 to 0.583 while reducing latency by 31% compared to state-of-the-art LLM-native memory systems. Ablation results identify conten",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-06T05:00:00.000Z",
-      "score": 124.82,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.04631",
-      "title": "Towards automated data analysis: A guided framework for LLM-based risk estimation",
-      "link": "https://arxiv.org/abs/2603.04631",
-      "summary": "arXiv:2603.04631v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into critical decision-making pipelines, a trend that raises the demand for robust and automated data analysis. Current approaches to dataset risk analysis are limited to manual auditing methods which involve time-consuming and complex tasks, whereas fully automated analysis based on Artificial Intelligence (AI) suffers from hallucinations and issues stemming from AI alignment. To this end, this work proposes a framework for dataset risk estimation that integrates Generative AI under human guidance and supervision, aiming to set the foundations for a future automated risk analysis paradigm. Our approach utilizes LLMs to identify semantic and structural properties in database schemata, subsequently propose clustering techniques, generate the code for them and finally interpret the produced results. The human supervisor guides the model on the desired analysis and ensures process integrity and alignment with the task's objectives. A proof of concept is presented to demonstrate the feasibility of the framework's utility in producing meaningful results in risk assessment tasks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-06T05:00:00.000Z",
-      "score": 124.82,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.00472",
-      "title": "From Goals to Aspects, Revisited: An NFR Pattern Language for Agentic AI Systems",
-      "link": "https://arxiv.org/abs/2603.00472",
-      "summary": "arXiv:2603.00472v1 Announce Type: new Abstract: Agentic AI systems exhibit numerous crosscutting concerns -- security, observability, cost management, fault tolerance -- that are poorly modularized in current implementations, contributing to the high failure rate of AI projects in reaching production. The goals-to-aspects methodology proposed at RE 2004 demonstrated that aspects can be systematically discovered from i* goal models by identifying non-functional soft-goals that crosscut functional goals. This paper revisits and extends that methodology to the agentic AI domain. We present a pattern language of 12 reusable patterns organized across four NFR categories (security, reliability, observability, cost management), each mapping an i* goal model to a concrete aspect implementation using an AOP framework for Rust. Four patterns address agent-specific crosscutting concerns absent from traditional AOP literature: tool-scope sandboxing, prompt injection detection, token budget management, and action audit trails. We extend the V-graph model to capture how agent tasks simultaneously contribute to functional goals and non-functional soft-goals. We validate the pattern language through a case study analyzing an open-source autonomous agent framework, demonstrating how goal-driven aspect discovery systematically identifies and modularizes crosscutting concerns. The pattern languag",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-04T05:00:00.000Z",
-      "score": 118.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model",
-      "title": "Zammad open-source helpdesk introduces AI without LLM lock-in",
-      "link": "https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model",
-      "summary": "Article URL: https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model Comments URL: https://news.ycombinator.com/item?id=47271708 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T06:42:38.000Z",
-      "score": 117.16,
       "status": "queued"
     },
     {
