@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-05T16:04:24.520Z",
+  "generatedAt": "2026-03-06T08:36:00.595Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts",
+      "title": "AI tools can unmask anonymous accounts",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts",
+      "summary": "Do you have a Reddit alt, secret X, finsta, or Glassdoor account you trash your boss with? AI might have just made it a lot easier to unmask you. That's the conclusion of a recently published study, which hints at some uncomfortable consequences for staying private online - even if it's not quite time to hold a funeral for anonymity just yet. The finding, which has not been peer reviewed, comes from researchers at E…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-05T13:30:00.000Z",
+      "score": 153.07,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-03-06T08:36:00.575Z",
+      "file": "content/posts/2026-03-06-lab-study-shows-ai-agents-can-link-throwaway-social-accounts-to-real-identities.md",
+      "fileFr": "content/posts/fr/2026-03-06-lab-study-shows-ai-agents-can-link-throwaway-social-accounts-to-real-identities.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1615,
+      "wordsFr": 1258
+    },
     {
       "id": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
       "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
@@ -2624,6 +2647,18 @@
       "status": "queued"
     },
     {
+      "id": "https://shellfirm.vercel.app/",
+      "title": "Shellfirm – Safety guardrails for AI coding agents",
+      "link": "https://shellfirm.vercel.app/",
+      "summary": "Article URL: https://shellfirm.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=47272036 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T07:25:19.000Z",
+      "score": 171.23,
+      "status": "queued"
+    },
+    {
       "id": "https://darios-dilemma.up.railway.app/",
       "title": "Show HN: A playable toy model of frontier AI lab capex decisions",
       "link": "https://darios-dilemma.up.railway.app/",
@@ -2684,6 +2719,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47272260",
+      "title": "Show HN: Claude Code for iPad – Agentic AI coding tool with file ops, Git, shell",
+      "link": "https://news.ycombinator.com/item?id=47272260",
+      "summary": "We built an agentic coding tool that runs on iPad. Claude reads your codebase, plans changes, edits files, and pushes to GitHub — autonomously, in a loop. 7 integrated tools (Read, Write, Edit, Glob, Grep, Bash, Git), all executing locally on the device. The shell is a JS polyfill (~25 Unix commands with pipes, chaining, and redirection). Git uses isomorphic-git. API calls stream token-by-token via SSE. We used it to develop itself — dogfooding from day one. We've hit iPad platform limits: no persistent background processes, no real shell for builds/tests, iOS purges IndexedDB after 7 days. Looking for collaborators to solve the last-mile problem — especially anyone with experience in iOS hybrid apps, WebContainers, or keeping background servers alive on iOS. Repo: https://github.com/M8seven/claude-mobile Detailed writeup: https://github.com/M8seven/claude-mobile/issues/1 Comments URL: https://news.ycombinator.com/item?id=47272260 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T08:00:47.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://www.mvnt.studio/",
       "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
       "link": "https://www.mvnt.studio/",
@@ -2693,18 +2740,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-27T14:36:42.000Z",
       "score": 166.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://agentprobe.xyz",
-      "title": "Show HN: AgentProbe – Validate AI agent endpoints across 8 protocols in one URL",
-      "link": "https://agentprobe.xyz",
-      "summary": "I built AgentProbe to solve a recurring problem: checking whether an AI agent endpoint actually supports the protocols it claims to. Paste a URL, click Validate, get instant verdicts across HTTP, MCP, A2A/AP2, x402, OAuth, MCP Apps, HTML, and ERC-8004. Each layer gets a detail breakdown — tools found, payment networks, SSL status, agent card metadata, AP2 detection, etc. It also exposes a built-in MCP server so agents can trigger validation programmatically. Code: https://github.com/FlowMCP/mcp-agent-validator Stack: Node.js 22, vanilla JS, DigitalOcean App Platform. Would love feedback on the detection approach. Comments URL: https://news.ycombinator.com/item?id=46999938 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-13T07:31:06.000Z",
-      "score": 166.23,
       "status": "queued"
     },
     {
@@ -2884,6 +2919,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-04T14:51:34.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Bugsbuny24/Koshe-Al-",
+      "title": "Show HN: Koshei AI – a voice-native AI language university (A1 to D2)",
+      "link": "https://github.com/Bugsbuny24/Koshe-Al-",
+      "summary": "Hi HN, I’m building a voice-first AI language teacher in the browser using: - Next.js - Gemini Audio API for STT - Gemini TTS - Supabase The product vision is a structured AI “language university” rather than a general chatbot. Right now my biggest technical problem is: How would you implement lightweight browser-native lip sync for a static avatar image while TTS audio is playing? I’ve tried: - Three.js + VRM (too heavy / unstable for this use case) - simple canvas mouth animation - CSS-only pulse effects I want: - something realistic enough to feel alive - low dependency weight - web-compatible - stable on mobile Secondary issues: - MediaRecorder reliability on mobile Safari - reducing transcript latency - voice UX for guided teaching rather than free-form chat Demo: https://koshe-al.onrender.com Repo: https://github.com/Bugsbuny24/Koshe-Al- Would love technical suggestions, architecture criticism, or examples of similar systems done well. Comments URL: https://news.ycombinator.com/item?id=47272188 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T07:49:50.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -3428,6 +3475,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/kite-org/kite/discussions/409",
+      "title": "Show HN: Introducing Kite AI Agent: Conversational Operations for Kubernetes",
+      "link": "https://github.com/kite-org/kite/discussions/409",
+      "summary": "Article URL: https://github.com/kite-org/kite/discussions/409 Comments URL: https://news.ycombinator.com/item?id=47272298 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-06T08:07:00.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.03686",
       "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
       "link": "https://arxiv.org/abs/2603.03686",
@@ -3488,27 +3547,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts",
-      "title": "AI tools can unmask anonymous accounts",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts",
-      "summary": "Do you have a Reddit alt, secret X, finsta, or Glassdoor account you trash your boss with? AI might have just made it a lot easier to unmask you. That's the conclusion of a recently published study, which hints at some uncomfortable consequences for staying private online - even if it's not quite time to hold a funeral for anonymity just yet. The finding, which has not been peer reviewed, comes from researchers at ETH Zurich, Anthropic, and the Machine Learning Alignment and Theory Scholars program. They built an automated system of AI agents using unspecified models - capable of searching the web and interacting with information much like … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-05T13:30:00.000Z",
-      "score": 153.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/",
-      "title": "OpenAI says China's DeepSeek trained its AI by distilling US models, memo shows",
-      "link": "https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/",
-      "summary": "Article URL: https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/ Comments URL: https://news.ycombinator.com/item?id=46999766 Points: 1 # Comments: 1",
+      "id": "https://github.com/Aftermath-Technologies-Ltd/adaptive-belief-ecology-system",
+      "title": "Show HN: ABES – a memory architecture for belief revision in AI agents",
+      "link": "https://github.com/Aftermath-Technologies-Ltd/adaptive-belief-ecology-system",
+      "summary": "I’ve been building ABES (Adaptive Belief Ecology System), a memory architecture for AI agents based on the idea that memory should manage belief state over time, not only retrieve prior text. The system models memory as structured beliefs with explicit state, including confidence, salience, contradiction pressure, lifecycle status, memory tier, evidence balance, lineage, user and session scope, and decay behavior. Beliefs can be reinforced, weakened, contested, updated, mutated, or deprecated as new evidence arrives. The goal is to support longer-running agents that need to deal with stale information, conflicting information, confidence change, and belief revision, rather than only recalling similar prior content. Current implementation includes a structured belief model, reinforcement and decay mechanics, contradiction handling, tiered memory behavior, session isolation, API support, Docker support, and testing/evaluation infrastructure. What has been verified so far in the project’s published tests and evals: 822 passing tests a 1,000-prompt evaluation with an overall score of 825/1000 (82.5%) reported category scores of 96.8% episodic memory, 94.4% working memory, and 92.8% semantic memory a 15-block side-by-side evaluation against a raw Ollama baseline, where ABES passed 14/15 blocks and the baseline passed 6/15 a 200-prompt cognitive stress test reported as 3 consecutive",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-13T07:02:50.000Z",
-      "score": 152.75,
+      "keywordHits": 7,
+      "publishedAt": "2026-03-06T06:06:22.000Z",
+      "score": 153.29,
       "status": "queued"
     },
     {
@@ -3848,18 +3895,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.11510",
-      "title": "AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems",
-      "link": "https://arxiv.org/abs/2602.11510",
-      "summary": "arXiv:2602.11510v1 Announce Type: new Abstract: Multi-agent Large Language Model (LLM) systems create privacy risks that current benchmarks cannot measure. When agents coordinate on tasks, sensitive data passes through inter-agent messages, shared memory, and tool arguments; pathways that output-only audits never inspect. We introduce AgentLeak, to the best of our knowledge the first full-stack benchmark for privacy leakage covering internal channels, spanning 1,000 scenarios across healthcare, finance, legal, and corporate domains, paired with a 32-class attack taxonomy and three-tier detection pipeline. Testing GPT-4o, GPT-4o-mini, Claude 3.5 Sonnet, Mistral Large, and Llama 3.3 70B across 4,979 traces reveals that multi-agent configurations reduce per-channel output leakage (C1: 27.2% vs 43.2% in single-agent) but introduce unmonitored internal channels that raise total system exposure to 68.9% (OR-aggregated across C1, C2, C5). Internal channels account for most of this gap: inter-agent messages (C2) leak at 68.8%, compared to 27.2% on C1 (output channel). This means that output-only audits miss 41.7% of violations. Claude 3.5 Sonnet, which emphasizes safety alignment in its design, achieves the lowest leakage rates on both external (3.3%) and internal (28.1%) channels, suggesting that model-level safety training may transfer to internal channel protection. Across all five",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 147.96,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2602.23668",
       "title": "PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents",
       "link": "https://arxiv.org/abs/2602.23668",
@@ -4028,30 +4063,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.11348",
-      "title": "AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition",
-      "link": "https://arxiv.org/abs/2602.11348",
-      "summary": "arXiv:2602.11348v1 Announce Type: new Abstract: Recent advances in large language models have enabled LLM-based agents to achieve strong performance on a variety of benchmarks. However, their performance in real-world deployments often that observed on benchmark settings, especially in complex and imperfect environments. This discrepancy largely arises because prevailing training and evaluation paradigms are typically built on idealized assumptions, overlooking the inherent stochasticity and noise present in real-world interactions. To bridge this gap, we introduce AgentNoiseBench, a framework for systematically evaluating the robustness of agentic models under noisy environments. We first conduct an in-depth analysis of biases and uncertainties in real-world scenarios and categorize environmental noise into two primary types: user-noise and tool-noise. Building on this analysis, we develop an automated pipeline that injects controllable noise into existing agent-centric benchmarks while preserving task solvability. Leveraging this pipeline, we perform extensive evaluations across a wide range of models with diverse architectures and parameter scales. Our results reveal consistent performance variations under different noise conditions, highlighting the sensitivity of current agentic models to realistic environmental perturbations.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 141.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.11354",
-      "title": "ReplicatorBench: Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences",
-      "link": "https://arxiv.org/abs/2602.11354",
-      "summary": "arXiv:2602.11354v1 Announce Type: new Abstract: The literature has witnessed an emerging interest in AI agents for automated assessment of scientific papers. Existing benchmarks focus primarily on the computational aspect of this task, testing agents' ability to reproduce or replicate research outcomes when having access to the code and data. This setting, while foundational, (1) fails to capture the inconsistent availability of new data for replication as opposed to reproduction, and (2) lacks ground-truth diversity by focusing only on reproducible papers, thereby failing to evaluate an agent's ability to identify non-replicable research. Furthermore, most benchmarks only evaluate outcomes rather than the replication process. In response, we introduce ReplicatorBench, an end-to-end benchmark, including human-verified replicable and non-replicable research claims in social and behavioral sciences for evaluating AI agents in research replication across three stages: (1) extraction and retrieval of replication data; (2) design and execution of computational experiments; and (3) interpretation of results, allowing a test of AI agents' capability to mimic the activities of human replicators in real world. To set a baseline of AI agents' capability, we develop ReplicatorAgent, an agentic framework equipped with necessary tools, like web search and iterative interaction with sandboxe",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-13T05:00:00.000Z",
-      "score": 141.96,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47012302",
       "title": "Context management is the real bottleneck in AI-assisted coding",
       "link": "https://news.ycombinator.com/item?id=47012302",
@@ -4100,6 +4111,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.04636",
+      "title": "When Agents Persuade: Propaganda Generation and Mitigation in LLMs",
+      "link": "https://arxiv.org/abs/2603.04636",
+      "summary": "arXiv:2603.04636v1 Announce Type: new Abstract: Despite their wide-ranging benefits, LLM-based agents deployed in open environments can be exploited to produce manipulative material. In this study, we task LLMs with propaganda objectives and analyze their outputs using two domain-specific models: one that classifies text as propaganda or non-propaganda, and another that detects rhetorical techniques of propaganda (e.g., loaded language, appeals to fear, flag-waving, name-calling). Our findings show that, when prompted, LLMs exhibit propagandistic behaviors and use a variety of rhetorical techniques in doing so. We also explore mitigation via Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and ORPO (Odds Ratio Preference Optimization). We find that fine-tuning significantly reduces their tendency to generate such content, with ORPO proving most effective.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-06T05:00:00.000Z",
+      "score": 136.82,
+      "status": "queued"
+    },
+    {
+      "id": "https://youraislopbores.me",
+      "title": "AI Chatbot Simulator",
+      "link": "https://youraislopbores.me",
+      "summary": "Article URL: https://youraislopbores.me Comments URL: https://news.ycombinator.com/item?id=47271972 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-06T07:15:18.000Z",
+      "score": 136.79,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.00349",
       "title": "EmCoop: A Framework and Benchmark for Embodied Cooperation Among LLM Agents",
       "link": "https://arxiv.org/abs/2603.00349",
@@ -4136,6 +4171,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.04549",
+      "title": "Adaptive Memory Admission Control for LLM Agents",
+      "link": "https://arxiv.org/abs/2603.04549",
+      "summary": "arXiv:2603.04549v1 Announce Type: new Abstract: LLM-based agents increasingly rely on long-term memory to support multi-session reasoning and interaction, yet current systems provide little control over what information is retained. In practice, agents either accumulate large volumes of conversational content, including hallucinated or obsolete facts, or depend on opaque, fully LLM-driven memory policies that are costly and difficult to audit. As a result, memory admission remains a poorly specified and weakly controlled component in agent architectures. To address this gap, we propose Adaptive Memory Admission Control (A-MAC), a framework that treats memory admission as a structured decision problem. A-MAC decomposes memory value into five complementary and interpretable factors: future utility, factual confidence, semantic novelty, temporal recency, and content type prior. The framework combines lightweight rule-based feature extraction with a single LLM-assisted utility assessment, and learns domain-adaptive admission policies through cross-validated optimization. This design enables transparent and efficient control over long-term memory. Experiments on the LoCoMo benchmark show that A-MAC achieves a superior precision-recall tradeoff, improving F1 to 0.583 while reducing latency by 31% compared to state-of-the-art LLM-native memory systems. Ablation results identify conten",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-06T05:00:00.000Z",
+      "score": 124.82,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.04631",
+      "title": "Towards automated data analysis: A guided framework for LLM-based risk estimation",
+      "link": "https://arxiv.org/abs/2603.04631",
+      "summary": "arXiv:2603.04631v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into critical decision-making pipelines, a trend that raises the demand for robust and automated data analysis. Current approaches to dataset risk analysis are limited to manual auditing methods which involve time-consuming and complex tasks, whereas fully automated analysis based on Artificial Intelligence (AI) suffers from hallucinations and issues stemming from AI alignment. To this end, this work proposes a framework for dataset risk estimation that integrates Generative AI under human guidance and supervision, aiming to set the foundations for a future automated risk analysis paradigm. Our approach utilizes LLMs to identify semantic and structural properties in database schemata, subsequently propose clustering techniques, generate the code for them and finally interpret the produced results. The human supervisor guides the model on the desired analysis and ensures process integrity and alignment with the task's objectives. A proof of concept is presented to demonstrate the feasibility of the framework's utility in producing meaningful results in risk assessment tasks.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-06T05:00:00.000Z",
+      "score": 124.82,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.00472",
       "title": "From Goals to Aspects, Revisited: An NFR Pattern Language for Agentic AI Systems",
       "link": "https://arxiv.org/abs/2603.00472",
@@ -4148,51 +4207,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.03784",
-      "title": "Specification-Driven Generation and Evaluation of Discrete-Event World Models via the DEVS Formalism",
-      "link": "https://arxiv.org/abs/2603.03784",
-      "summary": "arXiv:2603.03784v1 Announce Type: new Abstract: World models are essential for planning and evaluation in agentic systems, yet existing approaches lie at two extremes: hand-engineered simulators that offer consistency and reproducibility but are costly to adapt, and implicit neural models that are flexible but difficult to constrain, verify, and debug over long horizons. We seek a principled middle ground that combines the reliability of explicit simulators with the flexibility of learned models, allowing world models to be adapted during online execution. By targeting a broad class of environments whose dynamics are governed by the ordering, timing, and causality of discrete events, such as queueing and service operations, embodied task planning, and message-mediated multi-agent coordination, we advocate explicit, executable discrete-event world models synthesized directly from natural-language specifications. Our approach adopts the DEVS formalism and introduces a staged LLM-based generation pipeline that separates structural inference of component interactions from component-level event and timing logic. To evaluate generated models without a unique ground truth, simulators emit structured event traces that are validated against specification-derived temporal and semantic constraints, enabling reproducible verification and localized diagnostics. Together, these contributions",
-      "source": "ArXiv cs.AI",
+      "id": "https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model",
+      "title": "Zammad open-source helpdesk introduces AI without LLM lock-in",
+      "link": "https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model",
+      "summary": "Article URL: https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model Comments URL: https://news.ycombinator.com/item?id=47271708 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-05T05:00:00.000Z",
-      "score": 95.06,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.03824",
-      "title": "In-Context Environments Induce Evaluation-Awareness in Language Models",
-      "link": "https://arxiv.org/abs/2603.03824",
-      "summary": "arXiv:2603.03824v1 Announce Type: new Abstract: Humans often become more self-aware under threat, yet can lose self-awareness when absorbed in a task; we hypothesize that language models exhibit environment-dependent \\textit{evaluation awareness}. This raises concerns that models could strategically underperform, or \\textit{sandbag}, to avoid triggering capability-limiting interventions such as unlearning or shutdown. Prior work demonstrates sandbagging under hand-crafted prompts, but this underestimates the true vulnerability ceiling. We introduce a black-box adversarial optimization framework treating the in-context prompt as an optimizable environment, and develop two approaches to characterize sandbagging: (1) measuring whether models expressing intent to underperform can actually execute it across different task structures, and (2) causally isolating whether underperformance is driven by genuine evaluation-aware reasoning or shallow prompt-following. Evaluating Claude-3.5-Haiku, GPT-4o-mini, and Llama-3.3-70B across four benchmarks (Arithmetic, GSM8K, MMLU, and HumanEval), optimized prompts induce up to 94 percentage point (pp) degradation on arithmetic (GPT-4o-mini: 97.8\\%$\\rightarrow$4.0\\%), far exceeding hand-crafted baselines which produce near-zero behavioral change. Code generation exhibits model-dependent resistance: Claude degrades only 0.6pp, while Llama's accurac",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-05T05:00:00.000Z",
-      "score": 95.06,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.03970",
-      "title": "Generative AI in Managerial Decision-Making: Redefining Boundaries through Ambiguity Resolution and Sycophancy Analysis",
-      "link": "https://arxiv.org/abs/2603.03970",
-      "summary": "arXiv:2603.03970v1 Announce Type: new Abstract: Generative artificial intelligence is increasingly being integrated into complex business workflows, fundamentally shifting the boundaries of managerial decision-making. However, the reliability of its strategic advice in ambiguous business contexts remains a critical knowledge gap. This study addresses this by comparing various models on ambiguity detection, evaluating how a systematic resolution process enhances response quality, and investigating their sycophantic behavior when presented with flawed directives. Using a novel four-dimensional business ambiguity taxonomy, we conducted a human-in-the-loop experiment across strategic, tactical, and operational scenarios. The resulting decisions were assessed with an \"LLM-as-a-judge\" framework on criteria including agreement, actionability, justification quality, and constraint adherence. Results reveal distinct performance capabilities. While models excel in detecting internal contradictions and contextual ambiguities, they struggle with structural linguistic nuances. Ambiguity resolution consistently increased response quality across all decision types, while sycophantic behavior analysis revealed distinct patterns depending on the model architecture. This study contributes to the bounded rationality literature by positioning GAI as a cognitive scaffold that can detect and resolve",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-05T05:00:00.000Z",
-      "score": 95.06,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.03975",
-      "title": "Phi-4-reasoning-vision-15B Technical Report",
-      "link": "https://arxiv.org/abs/2603.03975",
-      "summary": "arXiv:2603.03975v1 Announce Type: new Abstract: We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute practical insight to the research community on building smaller, efficient multimodal reasoning models and to share the result of these learnings as an open-weight model that is good at common vision and language tasks and excels at scientific and mathematical reasoning and understanding user interfaces. Our contributions include demonstrating that careful architecture choices and rigorous data curation enable smaller, open-weight multimodal models to achieve competitive performance with significantly less training and inference-time compute and tokens. The most substantial improvements come from systematic filtering, error correction, and synthetic augmentation -- reinforcing that data quality remains the primary lever for model performance. Systematic ablations show that high-resolution, dynamic-resolution encoders yield consistent improvements, as accurate perception is a prerequisite for high-quality reasoning. Finally, a hybrid mix of reasoning and non-reasoning data with explicit mode tokens allows a single model to deliver fast direct answers for simpler tasks and chain-of-thought reasoning for complex problems.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-05T05:00:00.000Z",
-      "score": 89.06,
+      "keywordHits": 3,
+      "publishedAt": "2026-03-06T06:42:38.000Z",
+      "score": 117.16,
       "status": "queued"
     },
     {
