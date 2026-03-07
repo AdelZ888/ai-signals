@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-07T08:36:14.523Z",
+  "generatedAt": "2026-03-07T15:31:58.101Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors",
+      "title": "Commit-gated validation pipeline to prevent AI-generated schema errors",
+      "date": "2026-03-07",
+      "excerpt": "A commit-gated pipeline (Prompt→LLM→Validation→Normalizer→Retry→Commit) keeps AI-generated structured files off disk until they pass schema checks, revealing schema gaps.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors.jpg",
+      "tags": [
+        "validation",
+        "LLM",
+        "schema",
+        "pipeline",
+        "CI",
+        "devops",
+        "data-quality",
+        "automation"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47276142"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-03-07-rings-super-bowl-search-party-ad-spotlights-trade-offs-between-petfinding-features-and-surveillance",
       "title": "Ring’s Super Bowl 'Search Party' ad spotlights trade-offs between pet‑finding features and surveillance",

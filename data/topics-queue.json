@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-07T08:36:14.530Z",
+  "generatedAt": "2026-03-07T15:31:58.162Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47276142",
+      "title": "Validation pipeline that blocks AI-generated files with schema errors",
+      "link": "https://news.ycombinator.com/item?id=47276142",
+      "summary": "Every time I used an LLM to generate structured knowledge files, the output would drift — wrong enum values, missing fields, dates in the wrong format, tags as strings instead of arrays. The files looked fine until something downstream broke: a Dataview query returning nothing, a CI check failing, a search index corrupting. The standard fix is post-hoc validation — check after writing, fix manually. That doesn't sca…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-06T15:28:46.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-07T15:31:58.090Z",
+      "file": "content/posts/2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors.md",
+      "fileFr": "content/posts/fr/2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1736,
+      "wordsFr": 1682
+    },
     {
       "id": "https://www.theverge.com/podcast/879203/ring-search-party-super-bowl-ai-surveillance-privacy-security",
       "title": "Let&#8217;s talk about Ring, lost dogs, and the surveillance state",
@@ -2117,18 +2140,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
-      "title": "Show HN: Teaching Tokens: Implementing Private, Lightweight AI in the Classroom",
-      "link": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
-      "summary": "Introducing students to the fundamentals! This app does the following: -./setup.sh -Installs Ollama Docker Container -Pulls in first LLM (1B Parameter model) -Starts WebUI chat interface -Use can one-click deploy other models easily Lesson plan included on the GitHub page. Put students in front of Kali and have them follow the directions! Thanks for looking. Comments URL: https://news.ycombinator.com/item?id=47248765 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-04T15:19:47.000Z",
-      "score": 192,
-      "status": "queued"
-    },
-    {
       "id": "https://hushbrief.app",
       "title": "Show HN: HushBrief – A stateless, zero-retention AI document summarizer",
       "link": "https://hushbrief.app",
@@ -2137,18 +2148,6 @@
       "region": "GLOBAL",
       "keywordHits": 5,
       "publishedAt": "2026-03-02T14:46:24.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47276142",
-      "title": "Validation pipeline that blocks AI-generated files with schema errors",
-      "link": "https://news.ycombinator.com/item?id=47276142",
-      "summary": "Every time I used an LLM to generate structured knowledge files, the output would drift — wrong enum values, missing fields, dates in the wrong format, tags as strings instead of arrays. The files looked fine until something downstream broke: a Dataview query returning nothing, a CI check failing, a search index corrupting. The standard fix is post-hoc validation — check after writing, fix manually. That doesn't scale past a few dozen files. So I built a pipeline where the commit gate is the product: Prompt → LLM → Validation Engine → Error Normalizer → Retry Controller → Commit Gate → File The LLM is the only non-deterministic component. Everything else is pure functions. If output fails schema checks, it never touches disk — the normalizer converts error codes into correction instructions and sends them back to the LLM. If the same error fires twice on the same field, it aborts instead of looping — that pattern means your schema has a boundary problem, not the model. The taxonomy lives in an external akf.yaml — not compiled into the tool: enums: domain: [ai-system, api-design, devops, security] level: [beginner, intermediate, advanced] status: [draft, active, completed, archived] Change your ontology without touching code or redeploying. What it catches: wrong enum values (E001), missing required fields (E002), bad date formats (E003), type mismatches like tags: \"security\" in",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-06T15:28:46.000Z",
       "score": 186,
       "status": "queued"
     },
@@ -3641,6 +3640,18 @@
       "status": "queued"
     },
     {
+      "id": "https://eventuallymarching.substack.com/p/the-last-rung",
+      "title": "Why the AI Discourse Cannot Ask Who Bears the Cost of Automation",
+      "link": "https://eventuallymarching.substack.com/p/the-last-rung",
+      "summary": "Article URL: https://eventuallymarching.substack.com/p/the-last-rung Comments URL: https://news.ycombinator.com/item?id=47288075 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-07T14:41:00.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.03686",
       "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
       "link": "https://arxiv.org/abs/2603.03686",
@@ -3965,6 +3976,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2194795-pourquoi-vous-allez-bientot-repondre-aidr-a-tout-le-monde.html",
+      "title": "Pourquoi vous allez bientôt répondre « AI;DR » à tout le monde",
+      "link": "https://www.numerama.com/tech/2194795-pourquoi-vous-allez-bientot-repondre-aidr-a-tout-le-monde.html",
+      "summary": "Face à la multiplication des contenus générés par intelligence artificielle, une nouvelle abréviation commence à apparaître sur les réseaux sociaux : « AI;DR ». Inspirée du fameux « TL;DR », elle exprime une forme de lassitude face aux textes produits par des IA.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-07T14:31:00.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://theagentmail.net/",
       "title": "Show HN: TheAgentMail – email for AI agents with karma-based spam prevention",
       "link": "https://theagentmail.net/",
@@ -4229,28 +4252,48 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.04636",
-      "title": "When Agents Persuade: Propaganda Generation and Mitigation in LLMs",
-      "link": "https://arxiv.org/abs/2603.04636",
-      "summary": "arXiv:2603.04636v1 Announce Type: new Abstract: Despite their wide-ranging benefits, LLM-based agents deployed in open environments can be exploited to produce manipulative material. In this study, we task LLMs with propaganda objectives and analyze their outputs using two domain-specific models: one that classifies text as propaganda or non-propaganda, and another that detects rhetorical techniques of propaganda (e.g., loaded language, appeals to fear, flag-waving, name-calling). Our findings show that, when prompted, LLMs exhibit propagandistic behaviors and use a variety of rhetorical techniques in doing so. We also explore mitigation via Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and ORPO (Odds Ratio Preference Optimization). We find that fine-tuning significantly reduces their tendency to generate such content, with ORPO proving most effective.",
-      "source": "ArXiv cs.AI",
+      "id": "https://clankercloud.ai/",
+      "title": "Clanker cloud – fix all your DevOps issues with AI agents",
+      "link": "https://clankercloud.ai/",
+      "summary": "Article URL: https://clankercloud.ai/ Comments URL: https://news.ycombinator.com/item?id=47287691 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-06T05:00:00.000Z",
-      "score": 136.82,
+      "keywordHits": 3,
+      "publishedAt": "2026-03-07T13:59:14.000Z",
+      "score": 139.17,
       "status": "queued"
     },
     {
-      "id": "https://youraislopbores.me",
-      "title": "AI Chatbot Simulator",
-      "link": "https://youraislopbores.me",
-      "summary": "Article URL: https://youraislopbores.me Comments URL: https://news.ycombinator.com/item?id=47271972 Points: 1 # Comments: 1",
+      "id": "https://rankclaw.com",
+      "title": "Show HN: RankClaw – AI-audited all 14,706 OpenClaw skills; 1,103 are malicious",
+      "link": "https://rankclaw.com",
+      "summary": "RankClaw (rankclaw.com) is a security scanner for AI agent skills — the OpenClaw/ClawHub ecosystem that extends Claude-based agents with file, web, and shell access. Data: - 14,706 skills indexed - Every single skill has a full AI deep audit report (14,704 complete) - 1,103 confirmed malicious (7.5%) The key finding: automated surface scanning (metadata, dependency checks, pattern matching) systematically undercount…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-06T07:15:18.000Z",
-      "score": 136.79,
-      "status": "queued"
+      "keywordHits": 6,
+      "publishedAt": "2026-03-07T14:32:26.000Z",
+      "score": 198,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-07T15:23:47.577Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
+      "title": "Show HN: Teaching Tokens: Implementing Private, Lightweight AI in the Classroom",
+      "link": "https://medium.com/@josh.beck2006/teaching-tokens-implementing-private-lightweight-ai-in-the-classroom-minijarvis-a28fd3259eb6",
+      "summary": "Introducing students to the fundamentals! This app does the following: -./setup.sh -Installs Ollama Docker Container -Pulls in first LLM (1B Parameter model) -Starts WebUI chat interface -Use can one-click deploy other models easily Lesson plan included on the GitHub page. Put students in front of Kali and have them follow the directions! Thanks for looking. Comments URL: https://news.ycombinator.com/item?id=4724876…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-04T15:19:47.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-07T15:23:47.577Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://github.com/cdknorow/corral",

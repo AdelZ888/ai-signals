@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-07T08:36:14.524Z",
+  "generatedAt": "2026-03-07T15:31:58.102Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors",
+      "title": "Pipeline de validation commit-gated pour éviter les erreurs de schéma dans les fichiers générés par IA",
+      "date": "2026-03-07",
+      "excerpt": "Pattern Prompt → LLM → Validation → Normalisation d'erreurs → Retry → Commit : empêcher que des fichiers structurés générés par IA n'arrivent sur le disque tant qu'ils ne passent pas les contrôles de schéma, et révéler rapidement les limites du schéma.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors.jpg",
+      "tags": [
+        "IA",
+        "LLM",
+        "validation",
+        "pipeline",
+        "git",
+        "devops",
+        "docs",
+        "open-source"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47276142"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-03-07-rings-super-bowl-search-party-ad-spotlights-trade-offs-between-petfinding-features-and-surveillance",
       "title": "La pub Super Bowl de Ring (« Search Party ») révèle les compromis entre fonctionnalités de recherche d’animaux et risque de surveillance",
