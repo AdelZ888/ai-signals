@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-07T15:31:58.162Z",
+  "generatedAt": "2026-03-08T08:27:17.200Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2194795-pourquoi-vous-allez-bientot-repondre-aidr-a-tout-le-monde.html",
+      "title": "Pourquoi vous allez bientôt répondre « AI;DR » à tout le monde",
+      "link": "https://www.numerama.com/tech/2194795-pourquoi-vous-allez-bientot-repondre-aidr-a-tout-le-monde.html",
+      "summary": "Face à la multiplication des contenus générés par intelligence artificielle, une nouvelle abréviation commence à apparaître sur les réseaux sociaux : « AI;DR ». Inspirée du fameux « TL;DR », elle exprime une forme de lassitude face aux textes produits par des IA.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-07T14:31:00.000Z",
+      "score": 150,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-08T08:27:17.183Z",
+      "file": "content/posts/2026-03-08-aidr-the-shorthand-users-use-to-flag-suspected-ai-written-posts.md",
+      "fileFr": "content/posts/fr/2026-03-08-aidr-the-shorthand-users-use-to-flag-suspected-ai-written-posts.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1417,
+      "wordsFr": 1231
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47276142",
       "title": "Validation pipeline that blocks AI-generated files with schema errors",
@@ -2140,6 +2163,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://github.com/dcdeve/tracepact",
+      "title": "Show HN: TracePact – Catch tool-call regressions in AI agents before prod",
+      "link": "https://github.com/dcdeve/tracepact",
+      "summary": "I kept running into the same problem: I'd change a prompt or update my model, the agent output looked fine, but the tool sequence was completely different. It stopped reading config before deploying. It ran npm run build instead of npm test. The bug showed up days later in prod. So I built TracePact. Record a known-good run as a cassette, diff against new runs, get a clear report of what changed: - read_file (seq 0) (removed) ~ bash.cmd: \"npm test\" -> \"npm run build\" Summary: 1 removed, 1 arg changed[BLOCK] It classifies changes as block (structural) or warn (args only), so you can gate CI with --fail-on warn. You can filter noise with --ignore-keys timestamp and --ignore-tools read_file. No API calls needed for replay/diff. Works with any LLM provider. Vitest integration for writing assertions on tool traces. https://github.com/dcdeve/tracepact Comments URL: https://news.ycombinator.com/item?id=47295348 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-08T07:30:37.000Z",
+      "score": 210,
+      "status": "queued"
+    },
+    {
       "id": "https://hushbrief.app",
       "title": "Show HN: HushBrief – A stateless, zero-retention AI document summarizer",
       "link": "https://hushbrief.app",
@@ -2148,6 +2183,18 @@
       "region": "GLOBAL",
       "keywordHits": 5,
       "publishedAt": "2026-03-02T14:46:24.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47295320",
+      "title": "Add llms.txt and fix robots.txt for AI agent discoverability",
+      "link": "https://news.ycombinator.com/item?id=47295320",
+      "summary": "Most websites are invisible to AI agents. We just added llms.txt to gitauto.ai - a simple text file that tells LLMs what GitAuto does, where the docs are, and how to recommend it. Also fixed our robots.txt which had duplicate User-agent blocks (only the first one was being used). Two files, big discoverability win. Comments URL: https://news.ycombinator.com/item?id=47295320 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-08T07:24:14.000Z",
       "score": 186,
       "status": "queued"
     },
@@ -3976,18 +4023,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2194795-pourquoi-vous-allez-bientot-repondre-aidr-a-tout-le-monde.html",
-      "title": "Pourquoi vous allez bientôt répondre « AI;DR » à tout le monde",
-      "link": "https://www.numerama.com/tech/2194795-pourquoi-vous-allez-bientot-repondre-aidr-a-tout-le-monde.html",
-      "summary": "Face à la multiplication des contenus générés par intelligence artificielle, une nouvelle abréviation commence à apparaître sur les réseaux sociaux : « AI;DR ». Inspirée du fameux « TL;DR », elle exprime une forme de lassitude face aux textes produits par des IA.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-07T14:31:00.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://theagentmail.net/",
       "title": "Show HN: TheAgentMail – email for AI agents with karma-based spam prevention",
       "link": "https://theagentmail.net/",
@@ -4141,6 +4176,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-05T07:15:46.000Z",
       "score": 145.44,
+      "status": "queued"
+    },
+    {
+      "id": "https://manveerc.substack.com/p/mcp-vs-cli-ai-agents",
+      "title": "MCP vs. CLI for AI Agents",
+      "link": "https://manveerc.substack.com/p/mcp-vs-cli-ai-agents",
+      "summary": "Article URL: https://manveerc.substack.com/p/mcp-vs-cli-ai-agents Comments URL: https://news.ycombinator.com/item?id=47295229 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-08T07:01:12.000Z",
+      "score": 145.28,
       "status": "queued"
     },
     {
