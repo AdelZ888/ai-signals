@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T08:27:17.194Z",
+  "generatedAt": "2026-03-08T15:32:08.261Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-03-08-tracepact-record-golden-ai-agent-tool-call-traces-and-diff-runs-to-catch-regressions-in-ci",
+      "title": "TracePact : enregistrez une trace « golden » des appels d'outils d’un agent IA et comparez les exécutions pour détecter les régressions en CI",
+      "date": "2026-03-08",
+      "excerpt": "TracePact est présenté comme un framework de tests comportementaux pour agents IA. Cette traduction explique, pour un public UK (équipes réduites, fondateurs, développeurs), comment protéger un scénario critique avec une trace canonique, rejouer le scénario en CI et comparer les traces pour attraper régressions structurelles et changements d’arguments.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-08-tracepact-record-golden-ai-agent-tool-call-traces-and-diff-runs-to-catch-regressions-in-ci.jpg",
+      "tags": [
+        "AI",
+        "tests comportementaux",
+        "CI",
+        "DevOps",
+        "TracePact",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/dcdeve/tracepact"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors",

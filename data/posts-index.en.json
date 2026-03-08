@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T08:27:17.194Z",
+  "generatedAt": "2026-03-08T15:32:08.261Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-03-08-tracepact-record-golden-ai-agent-tool-call-traces-and-diff-runs-to-catch-regressions-in-ci",
+      "title": "TracePact: Record golden AI-agent tool-call traces and diff runs to catch regressions in CI",
+      "date": "2026-03-08",
+      "excerpt": "Record a golden AI-agent tool-call trace with TracePact, diff new runs to spot structural vs argument-only regressions, and gate CI with clear fail/warn reports.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-08-tracepact-record-golden-ai-agent-tool-call-traces-and-diff-runs-to-catch-regressions-in-ci.jpg",
+      "tags": [
+        "tracepact",
+        "ai-agents",
+        "regression-testing",
+        "ci-cd",
+        "vitest",
+        "observability",
+        "tooling"
+      ],
+      "sources": [
+        "https://github.com/dcdeve/tracepact"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
     },
     {
       "slug": "2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors",
