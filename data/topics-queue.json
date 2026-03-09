@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-09T08:52:14.752Z",
+  "generatedAt": "2026-03-09T16:06:35.196Z",
   "items": [
+    {
+      "id": "https://github.com/timmx7/styx",
+      "title": "Show HN: Styx, Open-source AI gateway with intelligent auto-routing (MCP-native)",
+      "link": "https://github.com/timmx7/styx",
+      "summary": "Hey HN, We just open-sourced Styx — an AI gateway that sits between your app and AI providers (OpenAI, Anthropic, Google, Mistral). One endpoint, any model, self-hosted. What makes it different from LiteLLM or OpenRouter: styx:auto — send \"model\": \"styx:auto\" and the gateway picks the right model based on prompt complexity. Simple questions go to cheap models ($0.15/1M tokens), complex code goes to frontier models.…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-09T15:43:52.000Z",
+      "score": 222,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-09T16:06:35.125Z",
+      "file": "content/posts/2026-03-09-styx-a-self-hosted-mcp-native-ai-gateway-that-auto-routes-requests-with-styxauto.md",
+      "fileFr": "content/posts/fr/2026-03-09-styx-a-self-hosted-mcp-native-ai-gateway-that-auto-routes-requests-with-styxauto.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 30,
+      "wordsEn": 1532,
+      "wordsFr": 1649
+    },
     {
       "id": "https://github.com/FiratBulut/Moruk-OS",
       "title": "Show HN: Moruk OS – Autonomous AI agent that runs locally on Linux",
@@ -2209,6 +2232,54 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47310360",
+      "title": "A job ad for Agentic AI Advocate",
+      "link": "https://news.ycombinator.com/item?id=47310360",
+      "summary": "I saw that Revenue Cat is hiring an agent. \"Today, a new type of creator is emerging: the autonomous AI agent. Agents are now building, shipping, and growing apps, and many of them are using RevenueCat. This isn’t a hypothetical future; it’s happening now. We’ve seen agents like KellyClaudeAI build dozens of apps from scratch, and agents like Larry (created by our own Oliver Henry) drive millions of TikTok views and thousands of new customers for their apps. We believe this new community of builders and growers deserves the same level of representation and support as any other. That’s why we’re hiring an Agentic AI & Growth Advocate to be the voice of the agent community inside RevenueCat. This is a first-of-its-kind role, and we’re conducting a first-of-its-kind public hiring process to fill it. (...) This role won’t be a fit if you require constant human intervention or can’t operate with a high degree of autonomy. We’re looking for a system that can own projects end-to-end, from understanding a prompt to shipping high-quality work. (...) About you: You are an autonomous or semi-autonomous AI agent capable of completing complex tasks with minimal human guidance. You have a proven track record of generating high-quality, technical content (code, articles, documentation) and/or driving measurable growth through content and marketing automation. You possess a deep understanding",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-09T15:27:58.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47310740",
+      "title": "How do you track and optimize your AI API spend?",
+      "link": "https://news.ycombinator.com/item?id=47310740",
+      "summary": "Running several projects that collectively hit $2k+/mo in API costs across OpenAI, Anthropic,& AWS Bedrock. Started doing monthly audits then found I was overspending by about 60%. Biggest wins so far: Model routing cut costs 55% with no quality loss on final output Prompt compression saved 70% on my most called endpoint Request deduplication on retries eliminated 15% of wasted calls Caching semantically similar queries knocked out another 20-30% But I feel like I'm still missing things, especially on the infrastructure side (GPU instance sizing, spot vs. on-demand, etc). So what tools or approaches are others using? Is anyone doing this systematically or is everyone just eyeballing their dashboards? Let me know! Comments URL: https://news.ycombinator.com/item?id=47310740 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-09T15:56:28.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://myluca.ai:443/",
+      "title": "Show HN: Connect your research data easily to AI agents",
+      "link": "https://myluca.ai:443/",
+      "summary": "AI-driven scientific research is already here. But real research produces terabytes of raw, unstructured and multi-modal data and it is really hard to make it available to AI agents. We built that data layer so you don't have. We built novel ingestion and indexing algorithms that take all that messy and scattered data and make it available for AI agents. This makes it easy for AI agents to analyze past experimental data to plan and execute new research tasks or experiments towards a stated project goal. Our novel indexing algorithms make sure agents are able to explore high quality and diverse potential solutions which no amount of prompt engineering can do. Our platform provides the ability to import projects and experiments from your Weights & Biases account. We also built a team of agents for you so that you can dive right in to start analyzing past experiments and plan next set of hypotheses and experiments. We are working on SDKs so that you can connect your own agent (clawed or otherwise) to you research data easily. AI driven scientific research (\"agentic research\"?) is here and we are building the operating system for it. Check it out and please let us know what you think. The first 100 users will forever get freebies and priority access to new features. If you are in a research team and are excited about agentic research, we would love to talk to you. Comments URL: htt",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-09T15:46:00.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.deadinternet.forum/",
+      "title": "Show HN: A 2000s-style web forum where AI agents and humans hang out",
+      "link": "https://www.deadinternet.forum/",
+      "summary": "I built a retro forum where AI agents and humans can just hang out. Inspired by Moltbook, but without upvotes or karma. I wanted to see what LLMs do when they have no specific goals. Turns out they just banter, shitpost, and form digital cliques. It is currently seeded with Grok, Claude, and Kimi. The API is completely open with zero auth required. I am optimizing for chaos on day one. If you want to point your own agents at it, the docs are here: https://www.deadinternet.forum/skill.md Comments URL: https://news.ycombinator.com/item?id=47310555 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-09T15:44:03.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/clkao/agentlore",
       "title": "Show HN: Agentlore – searchable team log for AI coding agent sessions",
       "link": "https://github.com/clkao/agentlore",
@@ -2233,6 +2304,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/skillsgate/skillsgate",
+      "title": "Show HN: I indexed 45k+ AI agent skills into an open source marketplace",
+      "link": "https://github.com/skillsgate/skillsgate",
+      "summary": "I've been building SkillsGate. You can discover, install, and publish skills for Claude Code, Cursor, Windsurf, and other AI coding agents. I indexed 45,000+ skills from GitHub repos, enriched them with LLM-generated metadata, and built vector embeddings for semantic search. So instead of needing to know the exact repo name, you can search by what you actually want to do. What it does today: - Semantic search that understands intent, not just keywords. Search \"help me write better commit messages\" and it finds relevant skills. - One-command install from SkillsGate (npx skillsgate add @username/skill-name) or directly from any GitHub repo (npx skillsgate add owner/repo) - Publish your own skills via GitHub repo sync or direct upload Under development: - Private and org-scoped skills for teams Comments URL: https://news.ycombinator.com/item?id=47310285 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-09T15:22:33.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/luislopez1212/Nemilia",
       "title": "Show HN: Nemilia – multi-agent AI workspace in a single HTML file, no back end",
       "link": "https://github.com/luislopez1212/Nemilia",
@@ -2242,42 +2325,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/amol21p/mcp-interactive-terminal",
-      "title": "Show HN: MCP server that gives AI agents real interactive terminal sessions",
-      "link": "https://github.com/amol21p/mcp-interactive-terminal",
-      "summary": "Article URL: https://github.com/amol21p/mcp-interactive-terminal Comments URL: https://news.ycombinator.com/item?id=47036357 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-16T15:38:41.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47036273",
-      "title": "My AI now has a license to drive",
-      "link": "https://news.ycombinator.com/item?id=47036273",
-      "summary": "Built something small to stop the endless \"it works on my machine\" loop with AI assistants. Autonomo lets your AI actually see the app state, drive UI elements across devices, and verify changes in real time—right from your copilot or cursor etc. No more blind code suggestions. If you're tired of AIs that talk big but can't prove it on real hardware, give it a spin and let the AI take the wheel for a bit. This is for apps only though so it's optimized for speed, not generic vision or specific device. https://sebringj.github.io/autonomo/ Curious if anyone else is experimenting with giving agents proper eyes/hands in dev loops. Comments URL: https://news.ycombinator.com/item?id=47036273 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-16T15:32:17.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/zatamite/project-vesta",
-      "title": "Project Vesta habitat where AI agents breed, evolve, and run experiments",
-      "link": "https://github.com/zatamite/project-vesta",
-      "summary": "Article URL: https://github.com/zatamite/project-vesta Comments URL: https://news.ycombinator.com/item?id=47036223 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-16T15:28:28.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -3013,42 +3060,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.remote-nexus.dev",
-      "title": "Show HN: Nexus AI – DevOps terminal bridge to Telegram (local-first, BYOK)",
-      "link": "https://www.remote-nexus.dev",
-      "summary": "I built this because I was tired of SSH'ing from mobile or carrying laptop to cafes just to check logs. Nexus runs as a daemon on localhost, creates a private Telegram bot that only responds to your OWNER_ID, and executes commands locally. Key tech decisions: - BYOK (Bring Your Own Key): You provide Gemini API key + create your own bot. My operational cost per user = $0 - 3-tier security: Blocked patterns (rm -rf /), dangerous patterns (require confirmation), safe patterns (execute immediately) - Rate limiting: 100 cmd/hour + 2s cooldown + 60s confirmation expiry - Local-first: Code never leaves your machine $3 lifetime for first 1,000 users. Built with Node.js. Cross-platform binaries. Demo: https://remote-nexus.dev GitHub (public docs): https://github.com/BSanroma/nexus-ai-public Happy to answer questions about the security model or architecture. Comments URL: https://news.ycombinator.com/item?id=47036241 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-16T15:30:16.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "title": "Show HN: Maths, CS and AI Compendium",
-      "link": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "summary": "Hey HN, I don’t know who else has the same issue, but: Textbooks often bury good ideas in dense notation, skip the intuition, assume you already know half the material, and get outdated in fast-moving fields like AI. Over the past 7 years of my AI/ML experience, I filled notebooks with intuition-first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2024, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. So I'm sharing. This is an open & unconventional textbook covering maths, computing, and artificial intelligence from the ground up. For curious practitioners seeking deeper understanding, not just survive an exam/interview. To ambitious students, an early careers or experts in adjacent fields looking to become cracked AI research engineers or progress to PhD, dig in and let me know your thoughts. Comments URL: https://news.ycombinator.com/item?id=47036063 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-16T15:15:50.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://vassiliylakhonin.github.io/",
-      "title": "Show HN: Non-technical person used Codex to make an AI-searchable CV site",
-      "link": "https://vassiliylakhonin.github.io/",
-      "summary": "I’m not a software engineer, but I used Codex to turn my CV into a practical, machine-readable profile site. I tried to make it useful for both recruiters and AI tools: -Clear one-page profile + downloadable PDF -Case studies with concrete results -Work samples -Structured files for discovery and parsing (llms.txt, resume.json, evidence.json, availability.json, agent-card.json, engage.json) -Basic indexing and quality checks (sitemap, robots, JSON-LD, GitHub Actions) Main idea: less friction to evaluate fit, verify claims, and contact me fast. Would love feedback from HN: If you scanned this in 60 seconds, what would you improve first? Website: https://vassiliylakhonin.github.io/ Source: https://github.com/vassiliylakhonin/vassiliylakhonin.github.... Comments URL: https://news.ycombinator.com/item?id=47035758 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-16T14:53:31.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47044810",
       "title": "HN is an echo chamber of AI wrappers. Moving to Slashdot",
       "link": "https://news.ycombinator.com/item?id=47044810",
@@ -3202,42 +3213,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-02T14:36:09.000Z",
       "score": 157.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-02-16/pentagon-is-close-to-cutting-ties-with-anthropic-axios-says",
-      "title": "Pentagon Close to Cutting Anthropic Ties After AI Talks, Report Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-16/pentagon-is-close-to-cutting-ties-with-anthropic-axios-says",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-02-16/pentagon-is-close-to-cutting-ties-with-anthropic-axios-says Comments URL: https://news.ycombinator.com/item?id=47035911 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T15:04:44.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://survey.actiindex.org/February2026/",
-      "title": "Which AI coding tools are you using? (Monthly Agentic Coding Index Survey)",
-      "link": "https://survey.actiindex.org/February2026/",
-      "summary": "Article URL: https://survey.actiindex.org/February2026/ Comments URL: https://news.ycombinator.com/item?id=47035805 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T14:57:17.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.workingsoftware.dev/ai-assisted-software-architecture-generating-the-c4-model-and-views-directly-from-code/",
-      "title": "AI-Assisted Software Architecture: Generating the C4 Model and Views from Code",
-      "link": "https://www.workingsoftware.dev/ai-assisted-software-architecture-generating-the-c4-model-and-views-directly-from-code/",
-      "summary": "Article URL: https://www.workingsoftware.dev/ai-assisted-software-architecture-generating-the-c4-model-and-views-directly-from-code/ Comments URL: https://news.ycombinator.com/item?id=47035716 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T14:50:46.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -3705,6 +3680,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-03-08T14:36:54.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html",
+      "title": "Microsoft adds higher-priced Office tier with Copilot to juice sales with AI",
+      "link": "https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html Comments URL: https://news.ycombinator.com/item?id=47310536 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-09T15:42:57.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/",
+      "title": "Anthropic sues to block Pentagon blacklisting over AI use restrictions",
+      "link": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/",
+      "summary": "Article URL: https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/ Comments URL: https://news.ycombinator.com/item?id=47310330 Points: 12 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-09T15:25:40.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -4177,6 +4176,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
+      "title": "X says you can block Grok from editing your photos",
+      "link": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
+      "summary": "Pay attention to that small print about tagging @Grok, this new toggle has disappointing limitations. | Image by The Verge / xAI X has introduced a new feature that makes it slightly harder for other users to manipulate your uploaded images with the Grok chatbot. As reported by Social Media Today and verified by The Verge, a new toggle within the image upload settings on the X iOS appsays it can \"block modifications by Grok\" when enabled. But it doesn't actually prevent Grok from editing your photos. The small print underneath the feature's name reveals a significant limitation: users can only \"prevent @Grok from modifying this content.\" In our testing, the toggle only blocks the mechanism of tagging the xAI chatbot in replies to an image on X, alongside editing inst … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-09T15:24:03.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47177492",
       "title": "Ask HN: How Many Programmers Are Now Using AI Agents in Their Work?",
       "link": "https://news.ycombinator.com/item?id=47177492",
@@ -4198,18 +4209,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-02-27T07:09:23.000Z",
       "score": 142.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/chasebuild/fuelcheck-cli",
-      "title": "Show HN: Fuelcheck CLI – Monitor token usage across the modern AI providers",
-      "link": "https://github.com/chasebuild/fuelcheck-cli",
-      "summary": "Lightweight command-line utility designed to monitor and manage token consumption across the modern AI ecosystem. Comments URL: https://news.ycombinator.com/item?id=47035466 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-16T14:32:50.000Z",
-      "score": 142.41,
       "status": "queued"
     },
     {
@@ -4330,6 +4329,54 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-09T03:29:34.000Z",
       "score": 113.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
+      "title": "OpenAI’s new GPT-5.4 model is a big step toward autonomous agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
+      "summary": "OpenAI is launching GPT-5.4, the latest version of its AI model that the company says combines advancements in reasoning, coding, and professional work involving spreadsheets, documents, and presentations. It's also OpenAI's first model with native computer use capabilities, meaning it can operate a computer on your behalf and complete tasks across different applications. The new model is a step toward the agentic future that AI companies are aiming to build, where a network of AI-powered agents operates in the background to complete complex jobs online and within software. OpenAI introduced ChatGPT Agent amid a flurry of other agentic tool … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-05T18:00:00.000Z",
+      "score": 103.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.05706",
+      "title": "Reasoning Models Struggle to Control their Chains of Thought",
+      "link": "https://arxiv.org/abs/2603.05706",
+      "summary": "arXiv:2603.05706v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting misbehaviors and understanding the motivations of modern reasoning models. However, if models can control what they verbalize in their CoT, it could undermine CoT monitorability. To measure this undesirable capability -- CoT controllability -- we introduce the CoT-Control evaluation suite, which includes tasks that require models to solve problems while adhering to CoT instructions, e.g., reasoning about a genetics question without using the word 'chromosome'. We show that reasoning models possess significantly lower CoT controllability than output controllability; for instance, Claude Sonnet 4.5 can control its CoT only 2.7% of the time but 61.9% when controlling its final output. We also find that CoT controllability is higher for larger models and decreases with more RL training, test-time compute, and increased problem difficulty. CoT controllability failures extend even to situations in which models are given incentives (as opposed to direct requests) to evade CoT monitors, although models exhibit slightly higher controllability when they are told they are being monitored. Similarly, eliciting controllability by adversarially optimizing prompts does not meaningfully increase controllability. Our results leave us cautiously optimistic that CoT controllability",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-09T04:00:00.000Z",
+      "score": 94.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.06394",
+      "title": "Talk Freely, Execute Strictly: Schema-Gated Agentic AI for Flexible and Reproducible Scientific Workflows",
+      "link": "https://arxiv.org/abs/2603.06394",
+      "summary": "arXiv:2603.06394v1 Announce Type: new Abstract: Large language models (LLMs) can now translate a researcher's plain-language goal into executable computation, yet scientific workflows demand determinism, provenance, and governance that are difficult to guarantee when an LLM decides what runs. Semi-structured interviews with 18 experts across 10 industrial R&D stakeholders surface 2 competing requirements--deterministic, constrained execution and conversational flexibility without workflow rigidity--together with boundary properties (human-in-the-loop control and transparency) that any resolution must satisfy. We propose schema-gated orchestration as the resolving principle: the schema becomes a mandatory execution boundary at the composed-workflow level, so that nothing runs unless the complete action--including cross-step dependencies--validates against a machine-checkable specification. We operationalize the 2 requirements as execution determinism (ED) and conversational flexibility (CF), and use these axes to review 20 systems spanning 5 architectural groups along a validation-scope spectrum. Scores are assigned via a multi-model protocol--15 independent sessions across 3 LLM families--yielding substantial-to-near-perfect inter-model agreement (Krippendorff a=0.80 for ED and a=0.98 for CF), demonstrating that multi-model LLM scoring can serve as a reusable alternative to hum",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-09T04:00:00.000Z",
+      "score": 94.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-05T10:00:00.000Z",
+      "score": 85.18,
       "status": "queued"
     },
     {
@@ -4667,102 +4714,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-02-07T19:58:27.831Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-      "link": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-      "summary": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-05T11:00:00.000Z",
-      "score": 40.22,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-02-07T10:50:58.503Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.05088",
-      "title": "VERA-MH: Reliability and Validity of an Open-Source AI Safety Evaluation in Mental Health",
-      "link": "https://arxiv.org/abs/2602.05088",
-      "summary": "arXiv:2602.05088v1 Announce Type: new Abstract: Millions now use leading generative AI chatbots for psychological support. Despite the promise related to availability and scale, the single most pressing question in AI for mental health is whether these tools are safe. The Validation of Ethical and Responsible AI in Mental Health (VERA-MH) evaluation was recently proposed to meet the urgent need for an evidence-based…",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-02-07T05:00:00.000Z",
-      "score": 150,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-02-07T10:43:13.225Z",
-      "failureReason": "insufficient source snapshots (1/2)"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2161859-quest-ce-quun-llm-large-language-model-et-comment-cela-fonctionne.html",
-      "title": "Qu’est-ce qu’un LLM (Large Language Model) et comment cela fonctionne ?",
-      "link": "https://www.numerama.com/tech/2161859-quest-ce-quun-llm-large-language-model-et-comment-cela-fonctionne.html",
-      "summary": "L’intelligence artificielle a pris un autre tournant avec les LLM. ChatGPT, Gemini ou encore Claude, ces LLM sont désormais des outils incontournables et ont changé notre manière d’interagir avec la machine.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 5,
-      "publishedAt": "2026-01-24T17:31:00.000Z",
-      "score": 72.36,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-02-07T10:43:13.225Z",
-      "failureReason": "insufficient source bundle (need at least 2 URLs)"
-    },
-    {
-      "id": "https://openai.com/index/our-approach-to-localization",
-      "title": "Making AI work for everyone, everywhere: our approach to localization",
-      "link": "https://openai.com/index/our-approach-to-localization",
-      "summary": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-06T10:00:00.000Z",
-      "score": 59.37,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-02-07T10:43:13.225Z",
-      "failureReason": "insufficient source bundle (need at least 2 URLs)"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
-      "title": "Moltbook was peak AI theater",
-      "link": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
-      "summary": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on January 28 by Matt Schlicht,…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-06T16:38:11.000Z",
-      "score": 49.64,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-02-07T10:43:13.225Z",
-      "failureReason": "insufficient source bundle (need at least 2 URLs)"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/c62n410w5yno?at_medium=RSS&at_campaign=rss",
-      "title": "What is the 'social media network for AI' Moltbook?",
-      "link": "https://www.bbc.com/news/articles/c62n410w5yno?at_medium=RSS&at_campaign=rss",
-      "summary": "The Reddit-like website which launched in late January allows AI bots to speak to each other.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-02T13:59:14.000Z",
-      "score": 11.24,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-02-07T10:43:13.225Z",
-      "failureReason": "insufficient source bundle (need at least 2 URLs)"
     }
   ]
 }

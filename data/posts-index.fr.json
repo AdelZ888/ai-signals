@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T08:52:14.745Z",
+  "generatedAt": "2026-03-09T16:06:35.137Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-03-09-styx-a-self-hosted-mcp-native-ai-gateway-that-auto-routes-requests-with-styxauto",
+      "title": "Styx : passerelle AI auto‑routeuse auto‑hébergée (styx:auto) — guide pratique",
+      "date": "2026-03-09",
+      "excerpt": "Guide pratique pour auto‑héberger Styx, une passerelle AI « MCP‑native » qui route automatiquement (styx:auto) les requêtes vers plusieurs fournisseurs. Installation, tests de routage et conseils pour un POC rapide.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-09-styx-a-self-hosted-mcp-native-ai-gateway-that-auto-routes-requests-with-styxauto.jpg",
+      "tags": [
+        "styx",
+        "self-hosted",
+        "AI-gateway",
+        "MCP",
+        "routage",
+        "open-source",
+        "POC",
+        "devops"
+      ],
+      "sources": [
+        "https://github.com/timmx7/styx"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 30,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-03-08-aidr-the-shorthand-users-use-to-flag-suspected-ai-written-posts",

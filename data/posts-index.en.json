@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T08:52:14.744Z",
+  "generatedAt": "2026-03-09T16:06:35.136Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-03-09-styx-a-self-hosted-mcp-native-ai-gateway-that-auto-routes-requests-with-styxauto",
+      "title": "Styx: a self-hosted MCP-native AI gateway that auto-routes requests with styx:auto",
+      "date": "2026-03-09",
+      "excerpt": "Hands-on guide to self-hosting Styx, an MCP-native AI gateway that auto-routes requests (styx:auto) across 65+ models with live pricing. Setup, test routing, and POC tips.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-09-styx-a-self-hosted-mcp-native-ai-gateway-that-auto-routes-requests-with-styxauto.jpg",
+      "tags": [
+        "styx",
+        "ai-gateway",
+        "mcp",
+        "self-hosted",
+        "auto-routing",
+        "open-source",
+        "model-routing",
+        "openrouter"
+      ],
+      "sources": [
+        "https://github.com/timmx7/styx"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 30,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-03-08-aidr-the-shorthand-users-use-to-flag-suspected-ai-written-posts",
