@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-10T08:35:47.716Z",
+  "generatedAt": "2026-03-10T16:11:38.958Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47310740",
+      "title": "How do you track and optimize your AI API spend?",
+      "link": "https://news.ycombinator.com/item?id=47310740",
+      "summary": "Running several projects that collectively hit $2k+/mo in API costs across OpenAI, Anthropic,& AWS Bedrock. Started doing monthly audits then found I was overspending by about 60%. Biggest wins so far: Model routing cut costs 55% with no quality loss on final output Prompt compression saved 70% on my most called endpoint Request deduplication on retries eliminated 15% of wasted calls Caching semantically similar que…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-09T15:56:28.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-10T16:11:38.897Z",
+      "file": "content/posts/2026-03-10-audit-and-lightweight-controls-to-reduce-multi-provider-llm-api-spend.md",
+      "fileFr": "content/posts/fr/2026-03-10-audit-and-lightweight-controls-to-reduce-multi-provider-llm-api-spend.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 480,
+      "wordsEn": 1608,
+      "wordsFr": 1617
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47310360",
       "title": "A job ad for Agentic AI Advocate",
@@ -2255,18 +2278,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47310740",
-      "title": "How do you track and optimize your AI API spend?",
-      "link": "https://news.ycombinator.com/item?id=47310740",
-      "summary": "Running several projects that collectively hit $2k+/mo in API costs across OpenAI, Anthropic,& AWS Bedrock. Started doing monthly audits then found I was overspending by about 60%. Biggest wins so far: Model routing cut costs 55% with no quality loss on final output Prompt compression saved 70% on my most called endpoint Request deduplication on retries eliminated 15% of wasted calls Caching semantically similar queries knocked out another 20-30% But I feel like I'm still missing things, especially on the infrastructure side (GPU instance sizing, spot vs. on-demand, etc). So what tools or approaches are others using? Is anyone doing this systematically or is everyone just eyeballing their dashboards? Let me know! Comments URL: https://news.ycombinator.com/item?id=47310740 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-09T15:56:28.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://myluca.ai:443/",
       "title": "Show HN: Connect your research data easily to AI agents",
       "link": "https://myluca.ai:443/",
@@ -2348,18 +2359,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.cloudkernels.net/posts/urunc_agent/",
-      "title": "AI Agents? Not on my host",
-      "link": "https://blog.cloudkernels.net/posts/urunc_agent/",
-      "summary": "Article URL: https://blog.cloudkernels.net/posts/urunc_agent/ Comments URL: https://news.ycombinator.com/item?id=47048491 Points: 7 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-17T15:25:52.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -2927,6 +2926,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
+      "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
+      "summary": "Meta is acquiring Moltbook, a Reddit-like platform where AI agents can make and comment on posts, as first reported by Axios. In a statement to The Verge, Meta spokesperson Matthew Tye confirmed the Moltbook team will join Meta Superintelligence Labs as the company looks for \"new ways for AI agents to work for people and businesses.\" Matt Schlict and Ben Parr launched Moltbook earlier this year, offering a \"social\" network for autonomous agents powered by the open-source AI assistant OpenClaw (formerly Moltbot). The platform went viral earlier this year for a number of posts - including one that asks questions about AI consciousness - thoug … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-10T15:22:17.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/gojiplus/understudy",
+      "title": "Understudy: Scenario Testing for AI Agents",
+      "link": "https://github.com/gojiplus/understudy",
+      "summary": "Article URL: https://github.com/gojiplus/understudy Comments URL: https://news.ycombinator.com/item?id=47324464 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-10T15:19:51.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3212,6 +3235,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-06T07:49:50.000Z",
       "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor",
+      "title": "You Could Be Next",
+      "link": "https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor",
+      "summary": "The LinkedIn post seemed like yet another scam job offer, but Katya was desperate enough to click. After college, she’d struggled to make a living as a freelance journalist, gone to grad school, then pivoted to what she hoped would be a more stable career in content marketing — only to find AI had automated much of the work. This company was called Crossing Hurdles, and it promised copywriting jobs starting at $45 per hour. Katya clicked and was taken to a page for another company, called Mercor, where she was instructed to interview on-camera with an AI named Melvin. “It just seemed like the sketchiest thing in the world,” Katya says. She closed the tab. But a few weeks later, still unemployed, she got a message inviting her to apply to Mercor. This time, she looked up the company. Mercor, it seemed, sold data to train AI, and she was being recruited to create that data. “My job is gone because of ChatGPT, and I was being invited to train the model to do the worst version of it imaginable,” she says. The idea depressed her. But her financial situation was increasingly dire, and she had to find a new place to live in a hurry, so she turned on her webcam and said “hello” to Melvin. It was a strange, if largely pleasant, experience. Manifesting on Katya’s laptop as a disembodied male voice, Melvin seemed to have actually read her résumé and asked specific questions about it. A fe",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 12,
+      "publishedAt": "2026-03-10T09:00:01.000Z",
+      "score": 161.16,
       "status": "queued"
     },
     {
@@ -3767,6 +3802,54 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/JulienPoitou/MCPGUARD",
+      "title": "AI agent's API keys are sitting in plaintext",
+      "link": "https://github.com/JulienPoitou/MCPGUARD",
+      "summary": "Article URL: https://github.com/JulienPoitou/MCPGUARD Comments URL: https://news.ycombinator.com/item?id=47324774 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-10T15:40:17.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.reuters.com/business/meta-acquires-ai-agent-social-network-moltbook-2026-03-10/",
+      "title": "Meta acquires AI agent social network Moltbook",
+      "link": "https://www.reuters.com/business/meta-acquires-ai-agent-social-network-moltbook-2026-03-10/",
+      "summary": "Article URL: https://www.reuters.com/business/meta-acquires-ai-agent-social-network-moltbook-2026-03-10/ Comments URL: https://news.ycombinator.com/item?id=47324485 Points: 3 # Comments: 5",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-10T15:20:51.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.valiantlynx.com/blogs/machine-core-the-flexible-ai-agent-framework-that-keeps-things-simple",
+      "title": "The Flexible AI Agent Framework that keeps things simple",
+      "link": "https://www.valiantlynx.com/blogs/machine-core-the-flexible-ai-agent-framework-that-keeps-things-simple",
+      "summary": "Article URL: https://www.valiantlynx.com/blogs/machine-core-the-flexible-ai-agent-framework-that-keeps-things-simple Comments URL: https://news.ycombinator.com/item?id=47324483 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-10T15:20:42.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.originary.xyz/agent-auditor",
+      "title": "Show HN: See what your AI agent did and verify it locally",
+      "link": "https://www.originary.xyz/agent-auditor",
+      "summary": "Article URL: https://www.originary.xyz/agent-auditor Comments URL: https://news.ycombinator.com/item?id=47324434 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-10T15:17:48.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.03686",
       "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
       "link": "https://arxiv.org/abs/2603.03686",
@@ -3884,18 +3967,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-26T07:32:05.000Z",
       "score": 150.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://plannotator.ai/docs/commands/annotate/",
-      "title": "Show HN: Skill to annotate any Markdown file for AI feedback",
-      "link": "https://plannotator.ai/docs/commands/annotate/",
-      "summary": "Plannotator natively integrates with coding agent plan modes via hooks. The core feature set is the ability to annotate plans throughout the planning mode process. Users submitted a feature request to be able to annotate any file. This is what that does. More on how Plannotator works in the video demo here: https://www.youtube.com/watch?v=a_AT7cEN_9I Comments URL: https://news.ycombinator.com/item?id=47048696 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-17T15:40:56.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -4063,6 +4134,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-03-04T15:33:34.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://demofly.ai",
+      "title": "Show HN: Point it at your local dev server, get a demo video with AI voiceover",
+      "link": "https://demofly.ai",
+      "summary": "Hi HN, I'm Matt, one of the engineers behind DemoFly! We built DemoFly because we got tired of the gap between building features and showing them to people. Our team has been doing full-stack engineering for over a decade (most recently building Rownd, an authentication platform) and the one thing that never got easier was making demo videos. You finish a feature, you know it works, but showing it to someone means opening a screen recorder, figuring out what to say, re-recording when you stumble. So the demo just...doesn't happen. DemoFly is a CLI tool. You point it at whatever you're building and it autonomously navigates your app using Playwright + image recognition, then produces a polished video with AI-generated voiceover. No screen recording, no scripting on your part. How it works technically: - Node-based CLI. You run demofly against localhost or any browser-accessible target. - Playwright drives a headless browser. Image processing observes the rendered UI and decides what to interact with next. - As it navigates, it builds a narrative of what it's seeing and doing. - That narrative becomes a voiceover script, synthesized locally with AI TTS (kokoro). - Video is composited from the browser session frames + voiceover audio. - Output uploads to a dashboard where you can review, edit, and share. What it's good at: Standard CRUD apps, multi-page flows, dashboards. Works we",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-10T15:28:07.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -4340,66 +4423,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-10T06:50:43.000Z",
       "score": 138.38,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.05912",
-      "title": "DeepFact: Co-Evolving Benchmarks and Agents for Deep Research Factuality",
-      "link": "https://arxiv.org/abs/2603.05912",
-      "summary": "arXiv:2603.05912v1 Announce Type: new Abstract: Search-augmented LLM agents can produce deep research reports (DRRs), but verifying claim-level factuality remains challenging. Existing fact-checkers are primarily designed for general-domain, factoid-style atomic claims, and there is no benchmark to test whether such verifiers transfer to DRRs. Yet building such a benchmark is itself difficult. We first show that static expert-labeled benchmarks are brittle in this setting: in a controlled study with PhD-level specialists, unassisted experts achieve only 60.8% accuracy on a hidden micro-gold set of verifiable claims. We propose Evolving Benchmarking via Audit-then-Score (AtS), where benchmark labels and rationales are explicitly revisable: when a verifier disagrees with the current benchmark, it must submit evidence; an auditor adjudicates the dispute; and accepted revisions update the benchmark before models are scored. Across four AtS rounds, expert micro-gold accuracy rises to 90.9%, indicating experts are substantially more reliable as auditors than as one-shot labelers. We instantiate AtS as DeepFact-Bench, a versioned DRR factuality benchmark with auditable rationales, and DeepFact-Eval, a document-level verification agent (with a grouped lite variant) that outperforms existing verifiers on DeepFact-Bench and transfers well to external factuality datasets.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-09T04:00:00.000Z",
-      "score": 128.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Mysticbirdie/image-cultural-accuracy-benchmark",
-      "title": "Show HN: AI image models hallucinate history, we built a method to fix it it",
-      "link": "https://github.com/Mysticbirdie/image-cultural-accuracy-benchmark",
-      "summary": "We created 24 image prompts across 3 characters living in Rome, 110 CE. Each prompt has a naive version and a culturally-grounded version enhanced by the Triad Engine (structured domain knowledge injection). Same model, same pipeline, only the prompt changes. A blinded Gemini Vision judge scores each pair without knowing which is which. Results: RAW (naive prompt): 12.5% historically accurate TRIAD (grounded prompt): 83.3% historically accurate In 23 of 24 pairs, the grounded image was judged more accurate In 0 of 24 pairs was the naive image judged better The key insight for prompt engineers: image models silently drop historical terms they don't recognize. \"dextrarum iunctio handshake\" produces nothing useful. \"two men clasping right hands wrist-to-wrist, elbows raised\" works. Visual translation, not historical terminology. The full benchmark — all 48 images, prompts, evaluation data, and reproducible pipeline — is open source. You can re-run the blinded evaluation yourself with a free Gemini API key. Repo: https://github.com/Mysticbirdie/image-cultural-accuracy-benc... Paper: https://github.com/Mysticbirdie/image-cultural-accuracy-benc... Comments URL: https://news.ycombinator.com/item?id=47305172 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-09T05:24:49.000Z",
-      "score": 128.2,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.05522",
-      "title": "RoboLayout: Differentiable 3D Scene Generation for Embodied Agents",
-      "link": "https://arxiv.org/abs/2603.05522",
-      "summary": "arXiv:2603.05522v1 Announce Type: new Abstract: Recent advances in vision language models (VLMs) have shown strong potential for spatial reasoning and 3D scene layout generation from open-ended language instructions. However, generating layouts that are not only semantically coherent but also feasible for interaction by embodied agents remains challenging, particularly in physically constrained indoor environments. In this paper, RoboLayout is introduced as an extension of LayoutVLM that augments the original framework with agent-aware reasoning and improved optimization stability. RoboLayout integrates explicit reachability constraints into a differentiable layout optimization process, enabling the generation of layouts that are navigable and actionable by embodied agents. Importantly, the agent abstraction is not limited to a specific robot platform and can represent diverse entities with distinct physical capabilities, such as service robots, warehouse robots, humans of different age groups, or animals, allowing environment design to be tailored to the intended agent. In addition, a local refinement stage is proposed that selectively reoptimizes problematic object placements while keeping the remainder of the scene fixed, improving convergence efficiency without increasing global optimization iterations. Overall, RoboLayout preserves the strong semantic alignment and physica",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-09T04:00:00.000Z",
-      "score": 122.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.06064",
-      "title": "Agentic LLM Planning via Step-Wise PDDL Simulation: An Empirical Characterisation",
-      "link": "https://arxiv.org/abs/2603.06064",
-      "summary": "arXiv:2603.06064v1 Announce Type: new Abstract: Task planning, the problem of sequencing actions to reach a goal from an initial state, is a core capability requirement for autonomous robotic systems. Whether large language models (LLMs) can serve as viable planners alongside classical symbolic methods remains an open question. We present PyPDDLEngine, an open-source Planning Domain Definition Language (PDDL) simulation engine that exposes planning operations as LLM tool calls through a Model Context Protocol (MCP) interface. Rather than committing to a complete action sequence upfront, the LLM acts as an interactive search policy that selects one action at a time, observes each resulting state, and can reset and retry. We evaluate four approaches on 102 International Planning Competition (IPC) Blocksworld instances under a uniform 180-second budget: Fast Downward lama-first and seq-sat-lama-2011 as classical baselines, direct LLM planning (Claude Haiku 4.5), and agentic LLM planning via PyPDDLEngine. Fast Downward achieves 85.3% success. The direct and agentic LLM approaches achieve 63.7% and 66.7%, respectively, a consistent but modest three-percentage-point advantage for the agentic approach at $5.7\\times$ higher token cost per solution. Across most co-solved difficulty blocks, both LLM approaches produce shorter plans than seq-sat-lama-2011 despite its iterative quality imp",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-09T04:00:00.000Z",
-      "score": 122.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.nextplatform.com/compute/2026/03/09/we-need-a-proper-ai-inference-benchmark-test/5208100",
-      "title": "We Need a Proper AI Inference Benchmark Test",
-      "link": "https://www.nextplatform.com/compute/2026/03/09/we-need-a-proper-ai-inference-benchmark-test/5208100",
-      "summary": "Article URL: https://www.nextplatform.com/compute/2026/03/09/we-need-a-proper-ai-inference-benchmark-test/5208100 Comments URL: https://news.ycombinator.com/item?id=47319745 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-10T06:35:28.000Z",
-      "score": 116.76,
       "status": "queued"
     },
     {
@@ -4704,22 +4727,6 @@
       "targetRegion": "UK",
       "editorialTemplate": "SOCIETY",
       "failedAtRun": "2026-02-15T08:21:56.349Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://openai.com/index/taisei",
-      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "link": "https://openai.com/index/taisei",
-      "summary": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-29T00:00:00.000Z",
-      "score": 30.58,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-02-08T15:26:38.928Z",
       "failureReason": "insufficient source snapshots (0/1)"
     }
   ]

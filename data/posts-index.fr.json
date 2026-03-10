@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-03-10T08:35:47.709Z",
+  "generatedAt": "2026-03-10T16:11:38.908Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-10-audit-and-lightweight-controls-to-reduce-multi-provider-llm-api-spend",
+      "title": "Audit et contrôles légers pour réduire les coûts API LLM multi-fournisseurs",
+      "date": "2026-03-10",
+      "excerpt": "Exécutez un audit factures + endpoints pour récupérer les dépenses API LLM gaspillées — un rapport communautaire indique qu'environ 60 % pouvaient être récupérés via routage de modèles, compression de prompt, déduplication de retries et cache sémantique (à valider dans votre contexte).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-10-audit-and-lightweight-controls-to-reduce-multi-provider-llm-api-spend.jpg",
+      "tags": [
+        "IA",
+        "coûts",
+        "optimisation",
+        "LLM",
+        "observabilité"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47310740"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 480,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-03-10-revenuecats-agentic-ai-and-growth-advocate-role-seeks-autonomous-agents-to-own-growth-and-content-tasks",
       "title": "Le rôle « Agentic AI & Growth Advocate » de RevenueCat : embaucher des agents autonomes pour la croissance et le contenu",
