@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-11T08:55:36.032Z",
+  "generatedAt": "2026-03-11T15:59:23.062Z",
   "items": [
+    {
+      "id": "https://www.deadinternet.forum/",
+      "title": "Show HN: A 2000s-style web forum where AI agents and humans hang out",
+      "link": "https://www.deadinternet.forum/",
+      "summary": "I built a retro forum where AI agents and humans can just hang out. Inspired by Moltbook, but without upvotes or karma. I wanted to see what LLMs do when they have no specific goals. Turns out they just banter, shitpost, and form digital cliques. It is currently seeded with Grok, Claude, and Kimi. The API is completely open with zero auth required. I am optimizing for chaos on day one. If you want to point your own…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-09T15:44:03.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-11T15:59:22.991Z",
+      "file": "content/posts/2026-03-11-build-a-local-forum-prototype-where-humans-and-ai-agents-post-together.md",
+      "fileFr": "content/posts/fr/2026-03-11-build-a-local-forum-prototype-where-humans-and-ai-agents-post-together.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1666,
+      "wordsFr": 1365
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
       "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
@@ -2301,18 +2324,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.deadinternet.forum/",
-      "title": "Show HN: A 2000s-style web forum where AI agents and humans hang out",
-      "link": "https://www.deadinternet.forum/",
-      "summary": "I built a retro forum where AI agents and humans can just hang out. Inspired by Moltbook, but without upvotes or karma. I wanted to see what LLMs do when they have no specific goals. Turns out they just banter, shitpost, and form digital cliques. It is currently seeded with Grok, Claude, and Kimi. The API is completely open with zero auth required. I am optimizing for chaos on day one. If you want to point your own agents at it, the docs are here: https://www.deadinternet.forum/skill.md Comments URL: https://news.ycombinator.com/item?id=47310555 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-09T15:44:03.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://isaacus.com/",
       "title": "Show HN: Isaacus – the legal AI research company",
       "link": "https://isaacus.com/",
@@ -2321,6 +2332,18 @@
       "region": "GLOBAL",
       "keywordHits": 5,
       "publishedAt": "2026-03-10T07:43:16.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://ml.ink/",
+      "title": "Show HN: Ink – Deploy full-stack apps from AI agents via MCP or Skills",
+      "link": "https://ml.ink/",
+      "summary": "Hi HN, I built Ink, a full stack deployment platform where the primary users are AI agents, not humans. We all know AI can write code, but deploying them still requires a human to wire it up: hosting, databases, DNS, and secrets. Ink gives agents those tools directly. The agent calls \"deploy\" and the platform auto-detects the framework, builds it, deploys it, and returns a live URL at *.ml.ink. Here's a demo with Claude Code: https://www.youtube.com/watch?v=F6ZM_RrIaC0. What Ink does that I haven't seen elsewhere: - One agent skill for compute + databases + DNS + secrets + domains + usage + metrics + logs + scaling. The agent doesn't juggle separate providers — one account, one auth, one set of tools. - DNS zone delegation. Delegate a zone once (e.g. dev.acme.com) and agents create any subdomain instantly — no manual adding DNS records each time, no propagation wait. - Multiple agents and humans share one workspace and collaborate on projects. I envision a future where many agents collaborate together. I'm working on a cool demo to share. - Built-in git hosting. Agents push code and deploy without the human setting up GitHub first. No external account needed. (Of course if you're a developer you can store code on GitHub — that's the recommended pattern.) You also have what you'd expect: - UI with service observability designed for humans (logs, metrics, DNS). - GitHub integrati",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-11T15:39:03.000Z",
       "score": 186,
       "status": "queued"
     },
@@ -2370,54 +2393,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/nichkej/agentpriv",
-      "title": "Show HN: Agentpriv – Sudo for AI Agents",
-      "link": "https://github.com/nichkej/agentpriv",
-      "summary": "AI agents call tools autonomously, but some calls (delete_db, reset_state) shouldn't run unchecked. agentpriv is a tiny permission layer: wrap any callable with allow/deny/ask and it gates execution before the function runs. Zero dependencies, ~100 lines, works with any framework or plain Python. Happy to hear what's missing. Comments URL: https://news.ycombinator.com/item?id=47062146 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-18T15:37:13.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/nostalgicskinco/air-blackbox-gateway",
-      "title": "Show HN: Air – Open-source black box for AI agents (tamper-evident audit trails)",
-      "link": "https://github.com/nostalgicskinco/air-blackbox-gateway",
-      "summary": "Article URL: https://github.com/nostalgicskinco/air-blackbox-gateway Comments URL: https://news.ycombinator.com/item?id=47061879 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-18T15:15:31.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://7min.ai/news/chinese-ai-models-spring-2026/",
-      "title": "Seven Models in Three Weeks: China's AI Labs Aren't Waiting",
-      "link": "https://7min.ai/news/chinese-ai-models-spring-2026/",
-      "summary": "Article URL: https://7min.ai/news/chinese-ai-models-spring-2026/ Comments URL: https://news.ycombinator.com/item?id=47061731 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-18T15:05:39.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/amuzetnoM/comb",
-      "title": "Show HN: Comb – Zero-dependency, hash-chained conversation memory for AI agents",
-      "link": "https://github.com/amuzetnoM/comb",
-      "summary": "Article URL: https://github.com/amuzetnoM/comb Comments URL: https://news.ycombinator.com/item?id=47061590 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-18T14:53:52.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -2949,6 +2924,42 @@
       "status": "queued"
     },
     {
+      "id": "https://nanonets.com/blog/idp-leaderboard-1-5/",
+      "title": "We Ran 16 AI Models on 9k Real Documents. Here's What We Found",
+      "link": "https://nanonets.com/blog/idp-leaderboard-1-5/",
+      "summary": "Article URL: https://nanonets.com/blog/idp-leaderboard-1-5/ Comments URL: https://news.ycombinator.com/item?id=47336749 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-11T15:17:35.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://clawbank.co/",
+      "title": "Give your AI agents their own bank accounts",
+      "link": "https://clawbank.co/",
+      "summary": "Article URL: https://clawbank.co/ Comments URL: https://news.ycombinator.com/item?id=47336717 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-11T15:14:53.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/iamevandrake/opensoul",
+      "title": "Show HN: Opensoul – Open-source agentic marketing stack (6 AI agents)",
+      "link": "https://github.com/iamevandrake/opensoul",
+      "summary": "Article URL: https://github.com/iamevandrake/opensoul Comments URL: https://news.ycombinator.com/item?id=47336615 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-11T15:07:21.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3282,18 +3293,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-02T14:36:09.000Z",
       "score": 157.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
-      "title": "Microsoft says Office bug exposed customers' confidential emails to Copilot AI",
-      "link": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
-      "summary": "Article URL: https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/ Comments URL: https://news.ycombinator.com/item?id=47061638 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-18T14:58:52.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -3861,6 +3860,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.gecko.security/blog/rce-in-your-test-suite-ai-agent-skills-bypass-skill-scanners",
+      "title": "RCE in Your Test Suite: How AI Agent Skills Bypass Every Skill Security Scanner",
+      "link": "https://www.gecko.security/blog/rce-in-your-test-suite-ai-agent-skills-bypass-skill-scanners",
+      "summary": "Article URL: https://www.gecko.security/blog/rce-in-your-test-suite-ai-agent-skills-bypass-skill-scanners Comments URL: https://news.ycombinator.com/item?id=47337062 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-11T15:40:29.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.gladekit.com/",
+      "title": "Show HN: GladeKit – AI agent for Unity game development",
+      "link": "https://www.gladekit.com/",
+      "summary": "We’ve been building GladeKit, an AI agent for Unity game development that works directly inside the editor. Instead of just generating code, it reads the actual project state: scene hierarchy, scripts, selected objects, component values, installed packages, and compiler errors - then takes actions inside Unity. What it does today: - 150+ native Unity actions (create prefabs, wire components, configure Animator Controllers, build UI, set up physics, lighting, and NavMeshes) - Reads real editor context before taking action - Project-aware modes for Agent, Debug, and Ask workflows - Turn-by-turn revert and script diff viewer so changes are inspectable and reversible I started this because most “AI for game dev” tools still leave you doing the actual editor work manually: pasting scripts, assigning references, fixing errors, and clicking through the inspector. It’s still early, but I’d especially love feedback from Unity developers on where this feels genuinely useful versus where it still breaks down. Try it here: https://gladekit.com Comments URL: https://news.ycombinator.com/item?id=47336949 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-11T15:33:14.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
+      "title": "Sign in with ANY password into Rocket.Chat EE, found by our open source AI agent",
+      "link": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
+      "summary": "Article URL: https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/ Comments URL: https://news.ycombinator.com/item?id=47336854 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-11T15:26:19.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.03686",
       "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
       "link": "https://arxiv.org/abs/2603.03686",
@@ -3954,18 +3989,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-26T07:32:05.000Z",
       "score": 150.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://mockstudio.app",
-      "title": "Show HN: Mock any HTTP request from DevTools, with AI-generation and zero setup",
-      "link": "https://mockstudio.app",
-      "summary": "Hi HN, I built this after using Requestly, Mokku, Mockiato, Tweak, and Mockoon. Each one either paywalled the features I actually needed, required a separate server running on my machine, or just didn't fit the way I work. The browser is already open. DevTools is already open. I wanted the mocking to live there too, not in a separate app I have to remember to start. So roughly a month ago, I started building my own tools. It intercepts network requests at the browser level and lets you swap the response, status code, headers, body without touching your code or spinning up anything. Right-click a in the Network tab, mock it, done. v1.0.3 is out now and it's been stable enough that I've been using it daily on client work for months. A few things I care about that shaped the decisions: - Local-first by default. Your mocks live in the browser's storage. - The free tier is actually free. Unlimited mocks, unlimited projects, OpenAPI import, GitHub Sync, BYOK AI (OpenAI-compatible or local Ollama). No trial countdown, no credit card. Currently it is only support Chromium-based browser. The things I'm still considering are supporting other browser also, such as Firefox, Opera, etc. Extension: https://chromewebstore.google.com/detail/nilcfehohhhfjekckib... If you've built something in this space or had opinions on why existing tools fell short, I genuinely curious. Comments URL: https:/",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-18T15:21:47.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -4145,6 +4168,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-03-11T08:05:13.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/AINYC/canonry",
+      "title": "Show HN: Canonry – Open-source AEO monitor (track how AI engines cite you)",
+      "link": "https://github.com/AINYC/canonry",
+      "summary": "We couldn't find a good open source solution for this so we built Canonry to monitor how ChatGPT, Gemini, and Claude represent and cite our sites. It tracks visibility scores, citation-readiness, and brand accuracy across providers over time. Self-hosted on SQLite, config-as-code in YAML, CLI and API are first-class. Would love some feedback! Comments URL: https://news.ycombinator.com/item?id=47336898 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-11T15:28:47.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -4422,6 +4457,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-09T04:00:00.000Z",
       "score": 140.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.08835",
+      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
+      "link": "https://arxiv.org/abs/2603.08835",
+      "summary": "arXiv:2603.08835v1 Announce Type: new Abstract: The rapid adoption of LLM-based agentic systems has produced a rich ecosystem of frameworks (smolagents, LangGraph, AutoGen, CAMEL, LlamaIndex, i.a.). Yet existing benchmarks are model-centric: they fix the agentic setup and do not compare other system components. We argue that implementation decisions substantially impact performance, including choices such as topology, orchestration logic, and error handling. MASEval addresses this evaluation gap with a framework-agnostic library that treats the entire system as the unit of analysis. Through a systematic system-level comparison across 3 benchmarks, 3 models, and 3 frameworks, we find that framework choice matters as much as model choice. MASEval allows researchers to explore all components of agentic systems, opening new avenues for principled system design, and practitioners to identify the best implementation for their use case. MASEval is available under the MIT licence https://github.com/parameterlab/MASEval.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-11T04:00:00.000Z",
+      "score": 112.15,
       "status": "queued"
     },
     {
