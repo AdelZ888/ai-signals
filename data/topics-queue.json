@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-11T15:59:23.062Z",
+  "generatedAt": "2026-03-12T08:40:09.965Z",
   "items": [
+    {
+      "id": "https://isaacus.com/",
+      "title": "Show HN: Isaacus – the legal AI research company",
+      "link": "https://isaacus.com/",
+      "summary": "Hey HN, This is Isaacus, a legal AI research company that my brother, Abdur-Rahman Butler, and I, Umar Butler, founded last year and have been working full time on ever since. We make legal AI models. We recently released two state-of-the-art legal information retrieval models, Kanon 2 Embedder and Kanon 2 Reranker. Together, they rank first on Legal RAG Bench and the Massive Legal Embedding Benchmark (MLEB). We als…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-10T07:43:16.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-03-12T08:40:09.945Z",
+      "file": "content/posts/2026-03-12-isaacus-kanon-2-retrieval-models-a-hierarchical-enricher-and-the-semchunk-chunker.md",
+      "fileFr": "content/posts/fr/2026-03-12-isaacus-kanon-2-retrieval-models-a-hierarchical-enricher-and-the-semchunk-chunker.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1290,
+      "wordsFr": 1345
+    },
     {
       "id": "https://www.deadinternet.forum/",
       "title": "Show HN: A 2000s-style web forum where AI agents and humans hang out",
@@ -2324,18 +2347,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://isaacus.com/",
-      "title": "Show HN: Isaacus – the legal AI research company",
-      "link": "https://isaacus.com/",
-      "summary": "Hey HN, This is Isaacus, a legal AI research company that my brother, Abdur-Rahman Butler, and I, Umar Butler, founded last year and have been working full time on ever since. We make legal AI models. We recently released two state-of-the-art legal information retrieval models, Kanon 2 Embedder and Kanon 2 Reranker. Together, they rank first on Legal RAG Bench and the Massive Legal Embedding Benchmark (MLEB). We also recently released Kanon 2 Enricher, an entirely new type of AI model capable of transforming lengthy, unstructured legal documents into highly structured knowledge graphs. We had the pleasure of having Harvey, KPMG Law, Alvarez & Marsal, Clifford Chance, Clyde & Co, Carey Olsen, Smokeball, and Moonlit be part of the closed beta for that model. We're proud supporters of open source and maintain popular legal and AI datasets and libraries like the Open Australian Legal Corpus and the semchunk semantic chunking algorithm, together downloaded over one million times a month. Our core mission is to solve every common data- and AI-related pain point of the legal tech industry. Uniquely, we're focused primarily on serving the legal tech industry rather than lawyers per se. We, therefore, view folks like Harvey and Legora as customers instead of competitors. In the few months since we've been around, we've witnessed massive growth in usage of our models by other new legal t",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-10T07:43:16.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://ml.ink/",
       "title": "Show HN: Ink – Deploy full-stack apps from AI agents via MCP or Skills",
       "link": "https://ml.ink/",
@@ -2344,6 +2355,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-03-11T15:39:03.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Olcmyk/Meowth-GBA-Translator",
+      "title": "Show HN: AI-powered one-click translator for Pokémon GBA ROM hacks",
+      "link": "https://github.com/Olcmyk/Meowth-GBA-Translator",
+      "summary": "Meowth GBA Translator is an open-source, AI-powered tool that automates translation of Pokémon GBA ROMs (including binary hacks like FireRed, Emerald, Ruby/Sapphire, and Mystery Dungeon). Powered by LLMs (supports OpenAI, DeepSeek, Gemini, Claude, Groq, and 10+ others), it extracts text, translates intelligently while preserving codes and context, then rebuilds the ROM — all in one click via a friendly GUI or simple CLI command. Supports 6+ languages (Chinese, English, French, German, Italian, Spanish) with optimized prompts and smart font patching. Focus on gameplay mods, let AI handle the words. Free, MIT-licensed, cross-platform. Comments URL: https://news.ycombinator.com/item?id=47347680 Points: 4 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-12T07:45:32.000Z",
       "score": 186,
       "status": "queued"
     },
@@ -2393,18 +2416,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/auriti-web-design/kore-memory",
-      "title": "Show HN: Kore – local AI memory layer with Ebbinghaus forgetting curve",
-      "link": "https://github.com/auriti-web-design/kore-memory",
-      "summary": "I built Kore because every AI memory tool I found either required cloud APIs, was too heavy, or stored everything forever with no pruning. Kore is different: - Memory decay based on the Ebbinghaus forgetting curve — memories fade unless retrieved, with half-life based on importance (7 days for casual notes, 1 year for critical info) - Auto-importance scoring locally — no LLM call needed - Semantic search in 50+ languages — local sentence-transformers, zero API calls - Memory compression — auto-merges similar memories - Agent namespace isolation — multi-agent safe - Runs fully offline — SQLite + FTS5, FastAPI, no external services pip install kore-memory[semantic] then kore to start. Would love feedback on the decay formula and whether the Ebbinghaus approach makes sense for long-running agents. Comments URL: https://news.ycombinator.com/item?id=47070979 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-19T07:34:31.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -2960,6 +2971,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/wintermeyer/heinzel",
+      "title": "Heinzel: AI-powered sysadmin ruleset. Now supports OpenCode and Ollama models",
+      "link": "https://github.com/wintermeyer/heinzel",
+      "summary": "Article URL: https://github.com/wintermeyer/heinzel Comments URL: https://news.ycombinator.com/item?id=47347913 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-12T08:21:32.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3068,6 +3091,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/radoslaw-sz/guardio",
+      "title": "Show HN: Guardio – control your AI Agent",
+      "link": "https://github.com/radoslaw-sz/guardio",
+      "summary": "I always struggle with the guarantee that my AI agent won't do anything that could break my system. An AI agent’s behavior is never 100% guaranteed — there is always a small chance that it might send tons of emails, accidentally delete a file, or cause other unintended side effects. Guardio solves this issue. You put a proxy in front of all your AI agents and create policies that the agents cannot break. You can forbid sending certain parameters, rate-limit access, or simply break down your AI system into smaller parts so your agents only do exactly what you ask them to do. Comments URL: https://news.ycombinator.com/item?id=47347781 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-12T08:02:29.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://www.mvnt.studio/",
       "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
       "link": "https://www.mvnt.studio/",
@@ -3125,18 +3160,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-22T13:28:10.000Z",
       "score": 163.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47071286",
-      "title": "Every AI app builder outputs React Native. I chose real Swift instead",
-      "link": "https://news.ycombinator.com/item?id=47071286",
-      "summary": "Every AI app builder on the market right now generates cross-platform code. Bolt, Lovable, Rork, they all output React Native or Expo under the hood, or worse, web apps wrapped in a native shell. And I get why. React has more documentation, more training data for LLMs, and it's easier to build a platform around, one codebase, two platforms, faster time to market. But the apps are bad. I tried building a polished app with one of these tools and the moment I needed a premium, native-feeling design, I hit a wall. Everything looked like AI slop. Animations were janky. Platform conventions were ignored. Try getting one of these approved on the App Store without weeks of cleanup. Apple doesn't love Expo wrappers, and users can feel the difference whether they can articulate it or not. So when I started building Nativeline, I made what most people told me was the wrong bet: generate real SwiftUI for iPhone, iPad, and Mac. No React Native. No web views. Actual native Swift that opens in Xcode and builds. This was significantly harder. Here's why. The biggest challenge is that LLMs are trained on the entire history of Swift, including five years of deprecated APIs, old UIKit patterns, and SwiftUI code from when it was half-baked. Getting the model to generate modern, clean SwiftUI without reaching for GeometryReader for every layout problem or calling APIs that haven't existed since iOS",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-19T08:23:21.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -3272,15 +3295,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.16246",
-      "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
-      "link": "https://arxiv.org/abs/2602.16246",
-      "summary": "arXiv:2602.16246v1 Announce Type: new Abstract: Interactive large language model (LLM) agents operating via multi-turn dialogue and multi-step tool calling are increasingly used in production. Benchmarks for these agents must both reliably compare models and yield on-policy training data. Prior agentic benchmarks (e.g., tau-bench, tau2-bench, AppWorld) rely on fully deterministic backends, which are costly to build and iterate. We propose Proxy State-Based Evaluation, an LLM-driven simulation framework that preserves final state-based evaluation without a deterministic database. Specifically, a scenario specifies the user goal, user/system facts, expected final state, and expected agent behavior, and an LLM state tracker infers a structured proxy state from the full interaction trace. LLM judges then verify goal completion and detect tool/user hallucinations against scenario constraints. Empirically, our benchmark produces stable, model-differentiating rankings across families and inference-time reasoning efforts, and its on-/off-policy rollouts provide supervision that transfers to unseen scenarios. Careful scenario specification yields near-zero simulator hallucination rates as supported by ablation studies. The framework also supports sensitivity analyses over user personas. Human-LLM judge agreement exceeds 90%, indicating reliable automated evaluation. Overall, proxy state",
-      "source": "ArXiv cs.AI",
+      "id": "https://news.ycombinator.com/item?id=47347399",
+      "title": "Show HN: I built an AI comic generator from scratch using only natural language",
+      "link": "https://news.ycombinator.com/item?id=47347399",
+      "summary": "I spent ~4 hours building AIComicBuilder [1], a full-stack AI comic/drama generation platform, without writing a single line of code manually. This is a writeup of my \"vibe coding\" workflow using Claude Code. The app lets you: input a script → AI generates screenplay → character analysis → storyboard generation (with first/last frame images) → video generation. Supports OpenAI-compatible, Gemini, and Bytedance Seedance APIs for text/image/video models, configurable per-user via a settings UI. Tech: Next.js full-stack, SQLite, queue-based async processing. **The workflow:** 1. Describe tech requirements in plain text → AI generates architecture doc → review/tweak in the terminal 2. Reference the doc, load `superpowers:subagent-driven-development` → AI writes the plan, self-reviews it, then executes autonomously (~45 min) 3. Auto-commits after each feature (critical safety net if AI breaks something) 4. Bug? Screenshot + one sentence → AI fixes it 5. Ugly UI? \"redesign using ui-ux-pro-max\" → 3 iterations → done The key insight from Karpathy's \"vibe coding\" concept: in this paradigm, *documentation quality matters more than coding ability*. The clearer your requirements, the better the output. Your role shifts from programmer to product manager. I'm documenting the full workflow and useful Claude Code skills here: [2] Curious if others have found good skill combinations for Claude",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-02-19T05:00:00.000Z",
-      "score": 159.75,
+      "keywordHits": 6,
+      "publishedAt": "2026-03-12T07:01:06.000Z",
+      "score": 157.72,
       "status": "queued"
     },
     {
@@ -3296,15 +3319,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.windowslatest.com/2026/02/18/microsoft-365-copilot-for-android-or-ios-auto-sends-files-to-ai-onedrive-before-you-even-realise-it-instead-of-opening-normally/",
-      "title": "Microsoft 365 Copilot for Android or iOS auto-sends files to AI and OneDrive",
-      "link": "https://www.windowslatest.com/2026/02/18/microsoft-365-copilot-for-android-or-ios-auto-sends-files-to-ai-onedrive-before-you-even-realise-it-instead-of-opening-normally/",
-      "summary": "Article URL: https://www.windowslatest.com/2026/02/18/microsoft-365-copilot-for-android-or-ios-auto-sends-files-to-ai-onedrive-before-you-even-realise-it-instead-of-opening-normally/ Comments URL: https://news.ycombinator.com/item?id=47071141 Points: 2 # Comments: 0",
+      "id": "https://news.ycombinator.com/item?id=47347383",
+      "title": "Show HN: AI Comic Builder – turn a script into an animated video local",
+      "link": "https://news.ycombinator.com/item?id=47347383",
+      "summary": "I built a self-hostable pipeline that takes a screenplay (or a one-line idea) and produces a finished animated video — no coding required, no SaaS subscription. The pipeline: 1. Write or AI-generate a script 2. Extract characters → generate turnaround reference sheets (for visual consistency) 3. Split the script into shots with camera direction and motion descriptions 4. Generate keyframes (first + last frame per shot) with continuity chaining 5. Interpolate each shot into a video clip 6. Concat everything with FFmpeg, burn subtitles Each stage can be triggered individually or in batch, so you stay in control. Tech: - Next.js 16 App Router + SQLite (self-contained, zero infra) - Bring your own keys: OpenAI, Gemini, or Seedance for text/image/video - Docker one-liner: docker run -p 3000:3000 -v ./data:/app/data twwch/aicomicbuilder:latest - No accounts — browser fingerprint (SHA-256 of UA/screen/timezone) is the user identity, so multiple people can share one instance with full data isolation Why I built it: Existing video generation tools are either single-shot (one prompt → one clip) or fully opaque pipelines. I wanted something that exposed every step so I could iterate on prompts, swap models mid-project, and understand what's actually happening. The hardest part was the continuity chain — the last frame of shot N becomes the first frame of shot N+1, which keeps characters v",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-19T08:00:42.000Z",
-      "score": 156,
+      "keywordHits": 6,
+      "publishedAt": "2026-03-12T06:59:25.000Z",
+      "score": 156.26,
       "status": "queued"
     },
     {
@@ -3956,6 +3979,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.10512",
+      "title": "Resource-constrained Amazons chess decision framework integrating large language models and graph attention",
+      "link": "https://arxiv.org/abs/2603.10512",
+      "summary": "arXiv:2603.10512v1 Announce Type: new Abstract: Artificial intelligence has advanced significantly through the development of intelligent game-playing systems, providing rigorous testbeds for decision-making, strategic planning, and adaptive learning. However, resource-constrained environments pose critical challenges, as conventional deep learning methods heavily rely on extensive datasets and computational resources. In this paper, we propose a lightweight hybrid framework for the Game of the Amazons, which explores the paradigm of weak-to-strong generalization by integrating the structural reasoning of graph-based learning with the generative capabilities of large language models. Specifically, we leverage a Graph Attention Autoencoder to inform a multi-step Monte Carlo Tree Search, utilize a Stochastic Graph Genetic Algorithm to optimize evaluation signals, and harness GPT-4o-mini to generate synthetic training data. Unlike traditional approaches that rely on expert demonstrations, our framework learns from noisy and imperfect supervision. We demonstrate that the Graph Attention mechanism effectively functions as a structural filter, denoising the LLM's outputs. Experiments on a 10$\\times$10 Amazons board show that our hybrid approach not only achieves a 15\\%--56\\% improvement in decision accuracy over baselines but also significantly outperforms its teacher model (GPT-4o-m",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-12T04:00:00.000Z",
+      "score": 152.53,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47100826",
       "title": "Should scientific publishing adapt to AI-authored research?",
       "link": "https://news.ycombinator.com/item?id=47100826",
@@ -4457,18 +4492,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-09T04:00:00.000Z",
       "score": 140.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.08835",
-      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
-      "link": "https://arxiv.org/abs/2603.08835",
-      "summary": "arXiv:2603.08835v1 Announce Type: new Abstract: The rapid adoption of LLM-based agentic systems has produced a rich ecosystem of frameworks (smolagents, LangGraph, AutoGen, CAMEL, LlamaIndex, i.a.). Yet existing benchmarks are model-centric: they fix the agentic setup and do not compare other system components. We argue that implementation decisions substantially impact performance, including choices such as topology, orchestration logic, and error handling. MASEval addresses this evaluation gap with a framework-agnostic library that treats the entire system as the unit of analysis. Through a systematic system-level comparison across 3 benchmarks, 3 models, and 3 frameworks, we find that framework choice matters as much as model choice. MASEval allows researchers to explore all components of agentic systems, opening new avenues for principled system design, and practitioners to identify the best implementation for their use case. MASEval is available under the MIT licence https://github.com/parameterlab/MASEval.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-11T04:00:00.000Z",
-      "score": 112.15,
       "status": "queued"
     },
     {
