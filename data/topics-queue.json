@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-12T08:40:09.965Z",
+  "generatedAt": "2026-03-12T16:12:56.483Z",
   "items": [
+    {
+      "id": "https://ml.ink/",
+      "title": "Show HN: Ink – Deploy full-stack apps from AI agents via MCP or Skills",
+      "link": "https://ml.ink/",
+      "summary": "Hi HN, I built Ink, a full stack deployment platform where the primary users are AI agents, not humans. We all know AI can write code, but deploying them still requires a human to wire it up: hosting, databases, DNS, and secrets. Ink gives agents those tools directly. The agent calls \"deploy\" and the platform auto-detects the framework, builds it, deploys it, and returns a live URL at *.ml.ink. Here's a demo with Cl…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-11T15:39:03.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-12T16:12:56.411Z",
+      "file": "content/posts/2026-03-12-ink-mlink-agent-driven-deployment-with-mcpskill-tokens-dns-delegation-and-observability.md",
+      "fileFr": "content/posts/fr/2026-03-12-ink-mlink-agent-driven-deployment-with-mcpskill-tokens-dns-delegation-and-observability.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1708,
+      "wordsFr": 1784
+    },
     {
       "id": "https://isaacus.com/",
       "title": "Show HN: Isaacus – the legal AI research company",
@@ -2347,18 +2370,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://ml.ink/",
-      "title": "Show HN: Ink – Deploy full-stack apps from AI agents via MCP or Skills",
-      "link": "https://ml.ink/",
-      "summary": "Hi HN, I built Ink, a full stack deployment platform where the primary users are AI agents, not humans. We all know AI can write code, but deploying them still requires a human to wire it up: hosting, databases, DNS, and secrets. Ink gives agents those tools directly. The agent calls \"deploy\" and the platform auto-detects the framework, builds it, deploys it, and returns a live URL at *.ml.ink. Here's a demo with Claude Code: https://www.youtube.com/watch?v=F6ZM_RrIaC0. What Ink does that I haven't seen elsewhere: - One agent skill for compute + databases + DNS + secrets + domains + usage + metrics + logs + scaling. The agent doesn't juggle separate providers — one account, one auth, one set of tools. - DNS zone delegation. Delegate a zone once (e.g. dev.acme.com) and agents create any subdomain instantly — no manual adding DNS records each time, no propagation wait. - Multiple agents and humans share one workspace and collaborate on projects. I envision a future where many agents collaborate together. I'm working on a cool demo to share. - Built-in git hosting. Agents push code and deploy without the human setting up GitHub first. No external account needed. (Of course if you're a developer you can store code on GitHub — that's the recommended pattern.) You also have what you'd expect: - UI with service observability designed for humans (logs, metrics, DNS). - GitHub integrati",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-11T15:39:03.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/Olcmyk/Meowth-GBA-Translator",
       "title": "Show HN: AI-powered one-click translator for Pokémon GBA ROM hacks",
       "link": "https://github.com/Olcmyk/Meowth-GBA-Translator",
@@ -2983,6 +2994,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2204641-orange-devoile-sharlie-le-nouveau-conseiller-de-sosh-nest-pas-humain.html",
+      "title": "Orange dévoile Sharlie : le nouveau conseiller de Sosh n’est pas humain",
+      "link": "https://www.numerama.com/tech/2204641-orange-devoile-sharlie-le-nouveau-conseiller-de-sosh-nest-pas-humain.html",
+      "summary": "Orange surfe sur l'intelligence artificielle générative avec deux nouveaux services pour révolutionner son service client : MAIA, un outil d'assistance pour les conseillers Orange, et Sharlie, un agent vocal conversationnel dédié aux abonnés Sosh qui n'avaient droit qu'à un chatbot jusque-là.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-12T15:54:54.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3028,18 +3051,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-06T07:25:19.000Z",
       "score": 171.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.axios.com/2026/02/19/anthropic-pentagon-ai-fight-openai-google-xai",
-      "title": "Pentagon-Anthropic battle pushes other AI labs into major dilemma",
-      "link": "https://www.axios.com/2026/02/19/anthropic-pentagon-ai-fight-openai-google-xai",
-      "summary": "Article URL: https://www.axios.com/2026/02/19/anthropic-pentagon-ai-fight-openai-google-xai Comments URL: https://news.ycombinator.com/item?id=47075015 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-19T15:43:29.000Z",
-      "score": 168,
       "status": "queued"
     },
     {
@@ -3103,6 +3114,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "title": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "summary": "Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizations during your conversation. If Claude determines a visual is useful based on the context of your chat, it will insert the image in-line, rather than in its side panel. As an example, Anthropic says a conversation about the periodic table could lead Claude to generate a visualization of it, featuring interactive elements that let you click inside the table for more information. Another example shows how Claude can generate a visual related to a question about how weight travels through a building. Though Claude will auto … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-12T16:00:00.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://www.mvnt.studio/",
       "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
       "link": "https://www.mvnt.studio/",
@@ -3160,18 +3183,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-22T13:28:10.000Z",
       "score": 163.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47074688",
-      "title": "Warning to Humanity: Why We Must Not Trust the AI \"Fluency Trap\"",
-      "link": "https://news.ycombinator.com/item?id=47074688",
-      "summary": "I’m a professional data verifier, and I’m seeing something deeply broken. AI \"hallucination\" isn't a bug we can patch. It's a permanent feature of the \"black box\" architecture that even its creators don't fully grasp. We’ve been blinded by the fluency of these models, but it’s a trap. We are firing human experts and replacing them with a tool that lies with total confidence. In my field, if you trust AI without 100% human verification, you aren't just being \"efficient\"—you are inviting a systemic disaster. We need to stop the hype and preserve pure, un-AI-tainted search. If we let the \"Black Box\" take over our critical infrastructure (legal, medical, government), the financial and social costs will be astronomical. This isn't innovation. It’s a defect. Comments URL: https://news.ycombinator.com/item?id=47074688 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-19T15:16:19.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -4027,18 +4038,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.herecomesanotherbubble.com/",
-      "title": "Show HN: Here Comes Another Bubble – AI Startup Simulator",
-      "link": "https://www.herecomesanotherbubble.com/",
-      "summary": "Vibecoded this with a friend in a few prompts while waiting for Claude to finish building something else. https://github.com/rokas-tarasevicius/here-comes-another-bub... Comments URL: https://news.ycombinator.com/item?id=47074924 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-19T15:34:18.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47098387",
       "title": "Looking for technical co-founder to build AI-powered stack migration platform",
       "link": "https://news.ycombinator.com/item?id=47098387",
@@ -4492,6 +4491,30 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-09T04:00:00.000Z",
       "score": 140.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
+      "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
+      "link": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
+      "summary": "Today we’re talking about the messy, fast-moving situation at Anthropic, the maker of Claude that now finds itself in a very ugly legal battle with the Pentagon. The back-and-forth is complicated, but as of a few days ago, the Pentagon had deemed Anthropic a supply chain risk, and Anthropic has filed a lawsuit challenging that designation, saying the government has violated its First and Fifth Amendment rights by “seeking to destroy the economic value created by one of the world’s fastest-growing private companies.” I can tell you right now: We’re going to be talking about the twists and turns of that case on The Verge and here on Decoder in the months to come. But today I wanted to take a moment and really dig in here on one very important element of this situation that’s not gotten enough attention as this has spiraled out of control: how the United States government does surveillance, the legal authority that allows that surveillance to occur, and why Anthropic was distrustful of the government saying it would follow the law when it comes to using AI to do even more surveillance. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. My guest today is Mike Masnick, the founder and CEO of Techdirt, the excellent and long-running tech policy website. Mike has been writing ab",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-12T14:00:00.000Z",
+      "score": 124.5,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
+      "title": "Bespoke AI models are the next big thing in filmmaking",
+      "link": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
+      "summary": "Though many AI boosters have convinced themselves that the technology can spit out films and television series whole cloth, claims of Hollywood being cooked feel very premature when you see what people are making with the most popular image/video models on the market. Models like Sora, Veo, and Runway just do not seem all that great for entertainment production. But we're starting to see more AI firms building a new breed of generative model - ones that are designed to address creatives' needs throughout the development process while also avoiding issues like potential copyright infringement. What really sets these models apart from their … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-12T13:56:00.000Z",
+      "score": 122.66,
       "status": "queued"
     },
     {
