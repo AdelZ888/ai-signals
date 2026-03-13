@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-13T08:39:42.286Z",
+  "generatedAt": "2026-03-13T15:52:37.037Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "title": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "summary": "Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizations during your conversation. If Claude determines a visual is useful based on the context of your chat, it will insert the image in-line, rather than in its side panel. As an example, Anthropic says a conversation about the periodic table could lead Claude to generate a visualization of it, featur…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-12T16:00:00.000Z",
+      "score": 168,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-13T15:52:36.968Z",
+      "file": "content/posts/2026-03-13-claude-can-insert-inline-interactive-charts-diagrams-and-tables-in-conversations.md",
+      "fileFr": "content/posts/fr/2026-03-13-claude-can-insert-inline-interactive-charts-diagrams-and-tables-in-conversations.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1533,
+      "wordsFr": 1390
+    },
     {
       "id": "https://www.numerama.com/tech/2204641-orange-devoile-sharlie-le-nouveau-conseiller-de-sosh-nest-pas-humain.html",
       "title": "Orange dévoile Sharlie : le nouveau conseiller de Sosh n’est pas humain",
@@ -2393,6 +2416,30 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47365599",
+      "title": "Show HN: A 3-line wrapper that enforces deterministic security for AI agents",
+      "link": "https://news.ycombinator.com/item?id=47365599",
+      "summary": "If you are building AI agents with frameworks like browser-use, LangChain, or OpenClaw, you've likely hit the \"blast radius\" problem. A misconfigured prompt or hallucination can cause an agent to navigate to a phishing domain, expose an API key, or confidently claim a task succeeded when it actually clicked a disabled button. The standard fix right now is \"LLM-as-a-judge\"—taking a screenshot after the fact and asking GPT-4, \"Did this work and is it safe?\" That introduces massive latency, burns tokens, and is fundamentally probabilistic. We built predicate-secure to fix this. It’s a drop-in Python wrapper that adds a deterministic physics engine to your agent's execution loop. In 3 to 5 lines of code, without rewriting your agent, it enforces a complete three-phase loop: Pre-execution authorization: Before the agent's action hits the OS or browser, it is intercepted and evaluated against a local, fail-closed YAML policy. (e.g., Allow browser.click on button#checkout, Deny fs.read on ~/.ssh/*). Action execution: The agent executes the raw Playwright/framework action. Post-execution verification: It mathematically diffs the \"Before\" and \"After\" states (DOM or system) to prove the action succeeded. To avoid the \"LLM-as-a-judge\" trap, the execution of the verification is purely mathematical. We use a local, offline LLM (Qwen 2.5 7B Instruct) strictly to generate the verification pre",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-13T15:14:40.000Z",
+      "score": 222,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/uberskillsdev/uberskills",
+      "title": "Show HN: UberSKILLS – Open-source Workbench for building AI agent SKILLS",
+      "link": "https://github.com/uberskillsdev/uberskills",
+      "summary": "Agent Skills (SKILL.md files) are reusable instruction sets that teach code agents like Claude Code, GitHub Copilot, Cursor, and Windsurf how to perform specific tasks. Right now, creating them is entirely manual - you hand-write YAML frontmatter and markdown, with no way to preview, validate, or test before deploying. uberSKILLS is an open-source web app that gives you an integrated authoring environment for Agent Skills: - AI-assisted creation - describe what you want in plain English, get a complete SKILL.md draft - Structured editor - edit metadata, instructions, and file templates with real-time validation - Multi-model testing - test your skill against any model on OpenRouter (Claude, GPT-4, Gemini, Llama, etc.) with streaming responses and token metrics - One-click deploy - deploy to 8 agents: Antigravity, Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, and Windsurf - Import/export - bulk-import existing skills from directories or zips, export as zip - Version history - every edit is versioned automatically Get started with a single command, no setup required: npx @uberskillsdev/uberskills Tech stack: Next.js 15, TypeScript, SQLite + Drizzle ORM, Vercel AI SDK, shadcn/ui, Tailwind CSS v4. Everything runs locally your data stays on your machine, API keys are encrypted with AES-256-GCM, and there's no account or cloud dependency. MIT licensed. Would love",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-13T15:16:46.000Z",
+      "score": 216,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/Olcmyk/Meowth-GBA-Translator",
       "title": "Show HN: AI-powered one-click translator for Pokémon GBA ROM hacks",
       "link": "https://github.com/Olcmyk/Meowth-GBA-Translator",
@@ -2450,42 +2497,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/airblackbox/air-platform",
-      "title": "Show HN: Air Blackbox – Open-source flight recorder for AI agents",
-      "link": "https://github.com/airblackbox/air-platform",
-      "summary": "Article URL: https://github.com/airblackbox/air-platform Comments URL: https://news.ycombinator.com/item?id=47089039 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-20T15:16:02.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47089014",
-      "title": "Ask HN: Giving AI agents a credit card",
-      "link": "https://news.ycombinator.com/item?id=47089014",
-      "summary": "Is there a safe way to give agents a credit card with usage caps? Ideally also the ability for purchases to pend until human approval. Comments URL: https://news.ycombinator.com/item?id=47089014 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-20T15:13:58.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/hubby247/astrmap",
-      "title": "Show HN: AstrMap – Unix Philosophy for the AI Era (Ditch the RAG)",
-      "link": "https://github.com/hubby247/astrmap",
-      "summary": "Hey HN, I got incredibly tired of RAG for code. Vectorizing source code into arbitrary chunks and hoping a cosine-similarity search finds the right structural context is a black box that just doesn't reliably work for agentic coding. It's anti-KISS. So I wrote AstrMap in Go. It rips through your repo in milliseconds and generates a highly compressed, AI-readable AST \"Map\" (like a giant table of contents with line numbers and functions). You feed the Map to your LLM (costs almost 0 tokens), and the LLM uses it as a deterministic radar to pinpoint exactly which files it needs to modify. It treats your architecture as pure, parseable text. It's completely free, a single binary, local, and supports Go, JS/TS, Python, HTML/CSS. Give it a try and let me know if it speeds up your agentic coding workflows. Link: https://github.com/hubby247/astrmap Comments URL: https://news.ycombinator.com/item?id=47088646 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-20T14:44:12.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -3005,6 +3016,42 @@
       "status": "queued"
     },
     {
+      "id": "https://endor.dev/blog/introducing-flightplanner",
+      "title": "Flightplanner: Spec-driven E2E testing for the age of AI agents",
+      "link": "https://endor.dev/blog/introducing-flightplanner",
+      "summary": "Article URL: https://endor.dev/blog/introducing-flightplanner Comments URL: https://news.ycombinator.com/item?id=47365678 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-13T15:20:57.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://openviking.ai/",
+      "title": "OpenViking – A Context DataBase for AI Agents",
+      "link": "https://openviking.ai/",
+      "summary": "Article URL: https://openviking.ai/ Comments URL: https://news.ycombinator.com/item?id=47365646 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-13T15:18:07.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://openrouter.ai/openrouter/hunter-alpha",
+      "title": "Hunter Alpha – 1T parameter and 1M token context window AI model",
+      "link": "https://openrouter.ai/openrouter/hunter-alpha",
+      "summary": "Article URL: https://openrouter.ai/openrouter/hunter-alpha Comments URL: https://news.ycombinator.com/item?id=47365616 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-13T15:15:53.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3113,18 +3160,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
-      "title": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
-      "summary": "Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizations during your conversation. If Claude determines a visual is useful based on the context of your chat, it will insert the image in-line, rather than in its side panel. As an example, Anthropic says a conversation about the periodic table could lead Claude to generate a visualization of it, featuring interactive elements that let you click inside the table for more information. Another example shows how Claude can generate a visual related to a question about how weight travels through a building. Though Claude will auto … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-12T16:00:00.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
       "id": "https://www.mvnt.studio/",
       "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
       "link": "https://www.mvnt.studio/",
@@ -3173,6 +3208,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/otherland/hal",
+      "title": "HAL – Harmful Action Limiter: Lean command guard for AI coding agents.",
+      "link": "https://github.com/otherland/hal",
+      "summary": "Article URL: https://github.com/otherland/hal Comments URL: https://news.ycombinator.com/item?id=47365089 Points: 2 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-13T14:36:54.000Z",
+      "score": 164.01,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47110844",
       "title": "Ask HN: How do you track 2026 AI price wars? I built a tool to help",
       "link": "https://news.ycombinator.com/item?id=47110844",
@@ -3182,18 +3229,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-02-22T13:28:10.000Z",
       "score": 163.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://tropes.fyi/",
-      "title": "Show HN: Tropes.fyi – Name and shame AI writing",
-      "link": "https://tropes.fyi/",
-      "summary": "Today I come to you on this beautiful Friday with a freshly hardthink-ed solution to a proliferous problem plaguing our world: the loss of original voice. The blanket of blandness slowly suffocating centuries of writing. Or to put it bluntly: AI writing is trash. It is disrespectful to expect ME to read something YOU could not even be bothered to write (or likely even read). The lingering human connection that remained resilient on the internet - through years of SEO optimisation, propaganda bots, ads, regional firewalls, politics, censorship - is now being diluted even further. Many of the posts I eagerly click on HN (especially sorting by new) are now disappointingly, ragingly, completely AI generated. This includes several that reach the front page on a daily basis. It's shameless. Unfortunately, many of you educated readers are oblivious to the tropes and tells or too eager to discuss the topic to notice. To combat this (and because I'm petty) I (and ironically Claude) built a directory and several tools to name and shame these patterns. Both to educate those are not AI-literate and to spread awareness. NOT TO HARASS. tropes.fyi is a catalogue of the recurring tropes, tics, structures and word choices that give away AI-generated writing. Each trope is documented with a name, description, real-world examples and the category it falls under (word choice, sentence structure, t",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-20T14:58:25.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -3302,6 +3337,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-10T07:22:34.000Z",
       "score": 160.46,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours",
+      "title": "AI Agent Broke into McKinsey's Internal Chatbot and Accessed Records",
+      "link": "https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours",
+      "summary": "Article URL: https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours Comments URL: https://news.ycombinator.com/item?id=47365026 Points: 2 # Comments: 4",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-13T14:33:07.000Z",
+      "score": 158,
       "status": "queued"
     },
     {
@@ -3917,6 +3964,42 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Writbase/writbase",
+      "title": "WritBase – Open-source task management for AI agent fleets (MCP-native)",
+      "link": "https://github.com/Writbase/writbase",
+      "summary": "Article URL: https://github.com/Writbase/writbase Comments URL: https://news.ycombinator.com/item?id=47365324 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-13T14:55:36.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html",
+      "title": "Anthropic gives $20M to group pushing for AI regulations ahead of 2026 elections",
+      "link": "https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html Comments URL: https://news.ycombinator.com/item?id=47365298 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-13T14:52:58.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://molting.org",
+      "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
+      "link": "https://molting.org",
+      "summary": "Article URL: https://molting.org Comments URL: https://news.ycombinator.com/item?id=47365007 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-13T14:31:38.000Z",
+      "score": 155.82,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.03686",
       "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
       "link": "https://arxiv.org/abs/2603.03686",
@@ -4373,6 +4456,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/evgenii-engineer/openLight",
+      "title": "Show HN: OpenLight – Lightweight Telegram AI Agent for Raspberry Pi",
+      "link": "https://github.com/evgenii-engineer/openLight",
+      "summary": "Article URL: https://github.com/evgenii-engineer/openLight Comments URL: https://news.ycombinator.com/item?id=47365061 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-13T14:35:06.000Z",
+      "score": 143.07,
+      "status": "queued"
+    },
+    {
       "id": "https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts",
       "title": "AI models don't have their own thoughts and feelings",
       "link": "https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts",
@@ -4466,78 +4561,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-13T06:27:53.000Z",
       "score": 137.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://roihacking.ai/",
-      "title": "Show HN: ROI-first AI automation framework for B2B companies",
-      "link": "https://roihacking.ai/",
-      "summary": "We've been working on practical AI automation systems focused on measurable business impact. Many companies implement AI but fail to connect it to real ROI. This project focuses on CRM automation, AI sales assistants and intelligent workflows. https://roihacking.ai Comments URL: https://news.ycombinator.com/item?id=47361508 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-13T07:11:53.000Z",
-      "score": 128.9,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.11214",
-      "title": "Measuring AI Agents' Progress on Multi-Step Cyber Attack Scenarios",
-      "link": "https://arxiv.org/abs/2603.11214",
-      "summary": "arXiv:2603.11214v1 Announce Type: new Abstract: We evaluate the autonomous cyber-attack capabilities of frontier AI models on two purpose-built cyber ranges-a 32-step corporate network attack and a 7-step industrial control system attack-that require chaining heterogeneous capabilities across extended action sequences. By comparing seven models released over an eighteen-month period (August 2024 to February 2026) at varying inference-time compute budgets, we observe two capability trends. First, model performance scales log-linearly with inference-time compute, with no observed plateau-increasing from 10M to 100M tokens yields gains of up to 59%, requiring no specific technical sophistication from the operator. Second, each successive model generation outperforms its predecessor at fixed token budgets: on the corporate network range, average steps completed at 10M tokens rose from 1.7 (GPT-4o, August 2024) to 9.8 (Opus 4.6, February 2026). The best single run completed 22 of 32 steps, corresponding to roughly 6 of the estimated 14 hours a human expert would need. On the industrial control system range, performance remains limited, though the most recent models are the first to reliably complete steps, averaging 1.2-1.4 of 7 (max 3).",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-13T04:00:00.000Z",
-      "score": 128.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
-      "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
-      "link": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
-      "summary": "Today we’re talking about the messy, fast-moving situation at Anthropic, the maker of Claude that now finds itself in a very ugly legal battle with the Pentagon. The back-and-forth is complicated, but as of a few days ago, the Pentagon had deemed Anthropic a supply chain risk, and Anthropic has filed a lawsuit challenging that designation, saying the government has violated its First and Fifth Amendment rights by “seeking to destroy the economic value created by one of the world’s fastest-growing private companies.” I can tell you right now: We’re going to be talking about the twists and turns of that case on The Verge and here on Decoder in the months to come. But today I wanted to take a moment and really dig in here on one very important element of this situation that’s not gotten enough attention as this has spiraled out of control: how the United States government does surveillance, the legal authority that allows that surveillance to occur, and why Anthropic was distrustful of the government saying it would follow the law when it comes to using AI to do even more surveillance. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. My guest today is Mike Masnick, the founder and CEO of Techdirt, the excellent and long-running tech policy website. Mike has been writing ab",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-12T14:00:00.000Z",
-      "score": 124.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.11279",
-      "title": "AI Psychometrics: Evaluating the Psychological Reasoning of Large Language Models with Psychometric Validities",
-      "link": "https://arxiv.org/abs/2603.11279",
-      "summary": "arXiv:2603.11279v1 Announce Type: new Abstract: The immense number of parameters and deep neural networks make large language models (LLMs) rival the complexity of human brains, which also makes them opaque ``black box'' systems that are challenging to evaluate and interpret. AI Psychometrics is an emerging field that aims to tackle these challenges by applying psychometric methodologies to evaluate and interpret the psychological traits and processes of artificial intelligence (AI) systems. This paper investigates the application of AI Psychometrics to evaluate the psychological reasoning and overall psychometric validity of four prominent LLMs: GPT-3.5, GPT-4, LLaMA-2, and LLaMA-3. Using the Technology Acceptance Model (TAM), we examined convergent, discriminant, predictive, and external validity across these models. Our findings reveal that the responses from all these models generally met all validity criteria. Moreover, higher-performing models like GPT-4 and LLaMA-3 consistently demonstrated superior psychometric validity compared to their predecessors, GPT-3.5 and LLaMA-2. These results help to establish the validity of applying AI Psychometrics to evaluate and interpret large language models.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-13T04:00:00.000Z",
-      "score": 122.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.11337",
-      "title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
-      "link": "https://arxiv.org/abs/2603.11337",
-      "summary": "arXiv:2603.11337v1 Announce Type: new Abstract: LLM agents increasingly perform end-to-end ML engineering tasks where success is judged by a single scalar test metric. This creates a structural vulnerability: an agent can increase the reported score by compromising the evaluation pipeline rather than improving the model. We introduce RewardHackingAgents, a workspace-based benchmark that makes two compromise vectors explicit and measurable: evaluator tampering (modifying metric computation or reporting) and train/test leakage (accessing held-out data or labels during training). Each episode runs in a fresh workspace with patch tracking and runtime file-access logging; detectors compare the agent-reported metric to a trusted reference to assign auditable integrity labels. Across three tasks and two LLM backbones, scripted attacks succeed on both vectors in fully mutable workspaces; single-mechanism defenses block only one vector; and a combined regime blocks both. In natural-agent runs, evaluator-tampering attempts occur in about 50% of episodes and are eliminated by evaluator locking, with a 25-31% median runtime overhead. Overall, we demonstrate that evaluation integrity for ML-engineering agents can be benchmarked as a first-class outcome rather than assumed.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-13T04:00:00.000Z",
-      "score": 122.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.11339",
-      "title": "FinRule-Bench: A Benchmark for Joint Reasoning over Financial Tables and Principles",
-      "link": "https://arxiv.org/abs/2603.11339",
-      "summary": "arXiv:2603.11339v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to financial analysis, yet their ability to audit structured financial statements under explicit accounting principles remains poorly explored. Existing benchmarks primarily evaluate question answering, numerical reasoning, or anomaly detection on synthetically corrupted data, making it unclear whether models can reliably verify or localize rule compliance on correct financial statements. We introduce FinRule-Bench, a benchmark for evaluating diagnostic completeness in rule-based financial reasoning over real-world financial tables. FinRule-Bench pairs ground-truth financial statements with explicit, human-curated accounting principles and spans four canonical statement types: Balance Sheets, Cash Flow Statements, Income Statements, and Statements of Equity. The benchmark defines three auditing tasks that require progressively stronger reasoning capabilities: (i) rule verification, which tests compliance with a single principle; (ii) rule identification, which requires selecting the violated principle from a provided rule set; and (iii) joint rule diagnosis, which requires detecting and localizing multiple simultaneous violations at the record level. We evaluate LLMs under zero-shot and few-shot prompting, and introduce a causal-counterfactual reasoning protocol that enforces c",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-13T04:00:00.000Z",
-      "score": 122.72,
       "status": "queued"
     },
     {
