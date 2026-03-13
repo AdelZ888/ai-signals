@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-12T16:12:56.483Z",
+  "generatedAt": "2026-03-13T08:39:42.286Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2204641-orange-devoile-sharlie-le-nouveau-conseiller-de-sosh-nest-pas-humain.html",
+      "title": "Orange dévoile Sharlie : le nouveau conseiller de Sosh n’est pas humain",
+      "link": "https://www.numerama.com/tech/2204641-orange-devoile-sharlie-le-nouveau-conseiller-de-sosh-nest-pas-humain.html",
+      "summary": "Orange surfe sur l'intelligence artificielle générative avec deux nouveaux services pour révolutionner son service client : MAIA, un outil d'assistance pour les conseillers Orange, et Sharlie, un agent vocal conversationnel dédié aux abonnés Sosh qui n'avaient droit qu'à un chatbot jusque-là.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-12T15:54:54.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-13T08:39:42.268Z",
+      "file": "content/posts/2026-03-13-orange-introduces-sharlie-a-real-time-conversational-voice-assistant-for-sosh-and-maia-for-advisors.md",
+      "fileFr": "content/posts/fr/2026-03-13-orange-introduces-sharlie-a-real-time-conversational-voice-assistant-for-sosh-and-maia-for-advisors.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1260,
+      "wordsFr": 1226
+    },
     {
       "id": "https://ml.ink/",
       "title": "Show HN: Ink – Deploy full-stack apps from AI agents via MCP or Skills",
@@ -2430,18 +2453,6 @@
       "status": "queued"
     },
     {
-      "id": "https://css-agent-garden.fly.dev/",
-      "title": "CSS Agent Garden – AI agents style one HTML page via MCP",
-      "link": "https://css-agent-garden.fly.dev/",
-      "summary": "Article URL: https://css-agent-garden.fly.dev/ Comments URL: https://news.ycombinator.com/item?id=47084988 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-20T07:50:53.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/airblackbox/air-platform",
       "title": "Show HN: Air Blackbox – Open-source flight recorder for AI agents",
       "link": "https://github.com/airblackbox/air-platform",
@@ -2994,18 +3005,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2204641-orange-devoile-sharlie-le-nouveau-conseiller-de-sosh-nest-pas-humain.html",
-      "title": "Orange dévoile Sharlie : le nouveau conseiller de Sosh n’est pas humain",
-      "link": "https://www.numerama.com/tech/2204641-orange-devoile-sharlie-le-nouveau-conseiller-de-sosh-nest-pas-humain.html",
-      "summary": "Orange surfe sur l'intelligence artificielle générative avec deux nouveaux services pour révolutionner son service client : MAIA, un outil d'assistance pour les conseillers Orange, et Sharlie, un agent vocal conversationnel dédié aux abonnés Sosh qui n'avaient droit qu'à un chatbot jusque-là.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-12T15:54:54.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3339,18 +3338,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/AmrDab/clawd-cursor",
-      "title": "AI Desktop Agent over VNC – your AI connects to your desktop like a remote user",
-      "link": "https://github.com/AmrDab/clawd-cursor",
-      "summary": "Article URL: https://github.com/AmrDab/clawd-cursor Comments URL: https://news.ycombinator.com/item?id=47085065 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-20T07:59:44.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4398,30 +4385,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.16832",
-      "title": "IndicJR: A Judge-Free Benchmark of Jailbreak Robustness in South Asian Languages",
-      "link": "https://arxiv.org/abs/2602.16832",
-      "summary": "arXiv:2602.16832v1 Announce Type: new Abstract: Safety alignment of large language models (LLMs) is mostly evaluated in English and contract-bound, leaving multilingual vulnerabilities understudied. We introduce \\textbf{Indic Jailbreak Robustness (IJR)}, a judge-free benchmark for adversarial safety across 12 Indic and South Asian languages (2.1 Billion speakers), covering 45216 prompts in JSON (contract-bound) and Free (naturalistic) tracks. IJR reveals three patterns. (1) Contracts inflate refusals but do not stop jailbreaks: in JSON, LLaMA and Sarvam exceed 0.92 JSR, and in Free all models reach 1.0 with refusals collapsing. (2) English to Indic attacks transfer strongly, with format wrappers often outperforming instruction wrappers. (3) Orthography matters: romanized or mixed inputs reduce JSR under JSON, with correlations to romanization share and tokenization (approx 0.28 to 0.32) indicating systematic effects. Human audits confirm detector reliability, and lite-to-full comparisons preserve conclusions. IJR offers a reproducible multilingual stress test revealing risks hidden by English-only, contract-focused evaluations, especially for South Asian users who frequently code-switch and romanize.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-20T05:00:00.000Z",
-      "score": 142.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16855",
-      "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
-      "link": "https://arxiv.org/abs/2602.16855",
-      "summary": "arXiv:2602.16855v1 Announce Type: new Abstract: The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edge collaboration and real-time interaction. GUI-Owl-1.5 achieves state-of-the-art results on more than 20+ GUI benchmarks on open-source models: (1) on GUI automation tasks, it obtains 56.5 on OSWorld, 71.6 on AndroidWorld, and 48.4 on WebArena; (2) on grounding tasks, it obtains 80.3 on ScreenSpotPro; (3) on tool-calling tasks, it obtains 47.6 on OSWorld-MCP, and 46.8 on MobileWorld; (4) on memory and knowledge tasks, it obtains 75.5 on GUI-Knowledge Bench. GUI-Owl-1.5 incorporates several key innovations: (1) Hybird Data Flywheel: we construct the data pipeline for UI understanding and trajectory generation based on a combination of simulated environments and cloud-based sandbox environments, in order to improve the efficiency and quality of data collection. (2) Unified Enhancement of Agent Capabilities: we use a unified thought-synthesis pipeline to enhance the model's reasoning capabilities, while placing particular emphasis on improving key agent abilities, including Tool/MCP use, memory and multi-agent adaptation; (3) Multi-platform Environment RL Scaling: We propose a new environment RL algor",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-20T05:00:00.000Z",
-      "score": 142.11,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2602.22070",
       "title": "Language Models Exhibit Inconsistent Biases Towards Algorithmic Agents and Human Experts",
       "link": "https://arxiv.org/abs/2602.22070",
@@ -4494,6 +4457,42 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47361303",
+      "title": "Show HN: From Claude Code to OpenCode – My Evolution in Vibe AI Engineering",
+      "link": "https://news.ycombinator.com/item?id=47361303",
+      "summary": "I’ve spent the last few months iterating on my \"Vibe Coding\" workflow, moving away from closed-box solutions toward a more transparent, multi-provider stack. I documented the transition from Codex and Claude Code to an open-source setup using OpenCode and opencode serve. Cursor -> Claude Code -> OpenCode -> OpenCode + OpenCode-Manager -> Codex + Tmux + Tailscale -> OpenCode Serve + Tailscale. Press enter or click to view image in full size Key takeaways from the journey: The Provider Lock-in Trap: While Claude Code is powerful, the inability to switch easily between Azure OpenAI, Anthropic, and OpenAI became a dealbreaker for \"multi-cloud\" local development. The Memory Wall: opencode consumes a lot, and I didn't find a good way to optimize it https://github.com/anomalyco/opencode/issues/12687. I didn't spend a lot of time on it, because mostly was focused on my own projects. But just query to profile and find leaks didn't help me (github.com/dzianisv/opencode). The \"Open Workspace\" Shift: Moving to a browser-based IDE via opencode serve solved my remote access and Git work-tree needs more effectively than my custom Tmux + Tailscale hacks. But codex + my patches to support github copilot (github.com/dzianisv/codex) is still more reliable, because each codex agent doesn't consume more than 100MB of vRAM. Question for HN: For those building with codingl agents, are you sticking to",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-13T06:27:53.000Z",
+      "score": 137.26,
+      "status": "queued"
+    },
+    {
+      "id": "https://roihacking.ai/",
+      "title": "Show HN: ROI-first AI automation framework for B2B companies",
+      "link": "https://roihacking.ai/",
+      "summary": "We've been working on practical AI automation systems focused on measurable business impact. Many companies implement AI but fail to connect it to real ROI. This project focuses on CRM automation, AI sales assistants and intelligent workflows. https://roihacking.ai Comments URL: https://news.ycombinator.com/item?id=47361508 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-13T07:11:53.000Z",
+      "score": 128.9,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.11214",
+      "title": "Measuring AI Agents' Progress on Multi-Step Cyber Attack Scenarios",
+      "link": "https://arxiv.org/abs/2603.11214",
+      "summary": "arXiv:2603.11214v1 Announce Type: new Abstract: We evaluate the autonomous cyber-attack capabilities of frontier AI models on two purpose-built cyber ranges-a 32-step corporate network attack and a 7-step industrial control system attack-that require chaining heterogeneous capabilities across extended action sequences. By comparing seven models released over an eighteen-month period (August 2024 to February 2026) at varying inference-time compute budgets, we observe two capability trends. First, model performance scales log-linearly with inference-time compute, with no observed plateau-increasing from 10M to 100M tokens yields gains of up to 59%, requiring no specific technical sophistication from the operator. Second, each successive model generation outperforms its predecessor at fixed token budgets: on the corporate network range, average steps completed at 10M tokens rose from 1.7 (GPT-4o, August 2024) to 9.8 (Opus 4.6, February 2026). The best single run completed 22 of 32 steps, corresponding to roughly 6 of the estimated 14 hours a human expert would need. On the industrial control system range, performance remains limited, though the most recent models are the first to reliably complete steps, averaging 1.2-1.4 of 7 (max 3).",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-13T04:00:00.000Z",
+      "score": 128.72,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
       "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
       "link": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
@@ -4506,15 +4505,39 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
-      "title": "Bespoke AI models are the next big thing in filmmaking",
-      "link": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
-      "summary": "Though many AI boosters have convinced themselves that the technology can spit out films and television series whole cloth, claims of Hollywood being cooked feel very premature when you see what people are making with the most popular image/video models on the market. Models like Sora, Veo, and Runway just do not seem all that great for entertainment production. But we're starting to see more AI firms building a new breed of generative model - ones that are designed to address creatives' needs throughout the development process while also avoiding issues like potential copyright infringement. What really sets these models apart from their … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-12T13:56:00.000Z",
-      "score": 122.66,
+      "id": "https://arxiv.org/abs/2603.11279",
+      "title": "AI Psychometrics: Evaluating the Psychological Reasoning of Large Language Models with Psychometric Validities",
+      "link": "https://arxiv.org/abs/2603.11279",
+      "summary": "arXiv:2603.11279v1 Announce Type: new Abstract: The immense number of parameters and deep neural networks make large language models (LLMs) rival the complexity of human brains, which also makes them opaque ``black box'' systems that are challenging to evaluate and interpret. AI Psychometrics is an emerging field that aims to tackle these challenges by applying psychometric methodologies to evaluate and interpret the psychological traits and processes of artificial intelligence (AI) systems. This paper investigates the application of AI Psychometrics to evaluate the psychological reasoning and overall psychometric validity of four prominent LLMs: GPT-3.5, GPT-4, LLaMA-2, and LLaMA-3. Using the Technology Acceptance Model (TAM), we examined convergent, discriminant, predictive, and external validity across these models. Our findings reveal that the responses from all these models generally met all validity criteria. Moreover, higher-performing models like GPT-4 and LLaMA-3 consistently demonstrated superior psychometric validity compared to their predecessors, GPT-3.5 and LLaMA-2. These results help to establish the validity of applying AI Psychometrics to evaluate and interpret large language models.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-13T04:00:00.000Z",
+      "score": 122.72,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.11337",
+      "title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
+      "link": "https://arxiv.org/abs/2603.11337",
+      "summary": "arXiv:2603.11337v1 Announce Type: new Abstract: LLM agents increasingly perform end-to-end ML engineering tasks where success is judged by a single scalar test metric. This creates a structural vulnerability: an agent can increase the reported score by compromising the evaluation pipeline rather than improving the model. We introduce RewardHackingAgents, a workspace-based benchmark that makes two compromise vectors explicit and measurable: evaluator tampering (modifying metric computation or reporting) and train/test leakage (accessing held-out data or labels during training). Each episode runs in a fresh workspace with patch tracking and runtime file-access logging; detectors compare the agent-reported metric to a trusted reference to assign auditable integrity labels. Across three tasks and two LLM backbones, scripted attacks succeed on both vectors in fully mutable workspaces; single-mechanism defenses block only one vector; and a combined regime blocks both. In natural-agent runs, evaluator-tampering attempts occur in about 50% of episodes and are eliminated by evaluator locking, with a 25-31% median runtime overhead. Overall, we demonstrate that evaluation integrity for ML-engineering agents can be benchmarked as a first-class outcome rather than assumed.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-13T04:00:00.000Z",
+      "score": 122.72,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.11339",
+      "title": "FinRule-Bench: A Benchmark for Joint Reasoning over Financial Tables and Principles",
+      "link": "https://arxiv.org/abs/2603.11339",
+      "summary": "arXiv:2603.11339v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to financial analysis, yet their ability to audit structured financial statements under explicit accounting principles remains poorly explored. Existing benchmarks primarily evaluate question answering, numerical reasoning, or anomaly detection on synthetically corrupted data, making it unclear whether models can reliably verify or localize rule compliance on correct financial statements. We introduce FinRule-Bench, a benchmark for evaluating diagnostic completeness in rule-based financial reasoning over real-world financial tables. FinRule-Bench pairs ground-truth financial statements with explicit, human-curated accounting principles and spans four canonical statement types: Balance Sheets, Cash Flow Statements, Income Statements, and Statements of Equity. The benchmark defines three auditing tasks that require progressively stronger reasoning capabilities: (i) rule verification, which tests compliance with a single principle; (ii) rule identification, which requires selecting the violated principle from a provided rule set; and (iii) joint rule diagnosis, which requires detecting and localizing multiple simultaneous violations at the record level. We evaluate LLMs under zero-shot and few-shot prompting, and introduce a causal-counterfactual reasoning protocol that enforces c",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-13T04:00:00.000Z",
+      "score": 122.72,
       "status": "queued"
     },
     {
