@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-13T15:52:37.037Z",
+  "generatedAt": "2026-03-14T08:33:05.870Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47365599",
+      "title": "Show HN: A 3-line wrapper that enforces deterministic security for AI agents",
+      "link": "https://news.ycombinator.com/item?id=47365599",
+      "summary": "If you are building AI agents with frameworks like browser-use, LangChain, or OpenClaw, you've likely hit the \"blast radius\" problem. A misconfigured prompt or hallucination can cause an agent to navigate to a phishing domain, expose an API key, or confidently claim a task succeeded when it actually clicked a disabled button. The standard fix right now is \"LLM-as-a-judge\"—taking a screenshot after the fact and askin…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-13T15:14:40.000Z",
+      "score": 222,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-14T08:33:05.850Z",
+      "file": "content/posts/2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions.md",
+      "fileFr": "content/posts/fr/2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1545,
+      "wordsFr": 1369
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
       "title": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now",
@@ -2416,18 +2439,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47365599",
-      "title": "Show HN: A 3-line wrapper that enforces deterministic security for AI agents",
-      "link": "https://news.ycombinator.com/item?id=47365599",
-      "summary": "If you are building AI agents with frameworks like browser-use, LangChain, or OpenClaw, you've likely hit the \"blast radius\" problem. A misconfigured prompt or hallucination can cause an agent to navigate to a phishing domain, expose an API key, or confidently claim a task succeeded when it actually clicked a disabled button. The standard fix right now is \"LLM-as-a-judge\"—taking a screenshot after the fact and asking GPT-4, \"Did this work and is it safe?\" That introduces massive latency, burns tokens, and is fundamentally probabilistic. We built predicate-secure to fix this. It’s a drop-in Python wrapper that adds a deterministic physics engine to your agent's execution loop. In 3 to 5 lines of code, without rewriting your agent, it enforces a complete three-phase loop: Pre-execution authorization: Before the agent's action hits the OS or browser, it is intercepted and evaluated against a local, fail-closed YAML policy. (e.g., Allow browser.click on button#checkout, Deny fs.read on ~/.ssh/*). Action execution: The agent executes the raw Playwright/framework action. Post-execution verification: It mathematically diffs the \"Before\" and \"After\" states (DOM or system) to prove the action succeeded. To avoid the \"LLM-as-a-judge\" trap, the execution of the verification is purely mathematical. We use a local, offline LLM (Qwen 2.5 7B Instruct) strictly to generate the verification pre",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-13T15:14:40.000Z",
-      "score": 222,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/uberskillsdev/uberskills",
       "title": "Show HN: UberSKILLS – Open-source Workbench for building AI agent SKILLS",
       "link": "https://github.com/uberskillsdev/uberskills",
@@ -2484,6 +2495,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-03-09T15:22:33.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47374335",
+      "title": "MemX – my AI agent remembers I hate capsicum on pizza",
+      "link": "https://news.ycombinator.com/item?id=47374335",
+      "summary": "Like everyone else in 2025 who thought “just slap a vector DB on it” would create a coherent long-term agent, I watched my Python sidekick slowly turn into a forgetful goldfish with hoarding issues. Classic failure mode: User (day 1): “My favorite editor is VSCode” User (day 47): “Actually switched to Cursor” Agent (day 92): “You love VSCode, right?” Or the memory index slowly becoming this: User prefers Python User REALLY prefers Python Python is basically the user's personality All equally weighted. Forever. Vector search is great at similarity, but terrible at current truth. Human memory fades old opinions and overwrites bad takes. My agent? Eternal archive of everything I ever said. So I built MemX as a small experiment: what happens if an agent’s memory actually has a lifecycle? Things like: importance signals frequency reinforcement duplicate compression explicit updates / superseding gentle decay for outdated facts Stack is intentionally boring: SQLite FAISS some scoring logic pretending to be a “memory OS” Tiny example: from memx import MemX m = MemX() m.add(\"User's favorite editor: VSCode\") m.add(\"User switched to Cursor\") m.compress() m.rag(\"what editor should I use?\") Quick benchmark (50 noise + 5 real memories): Vector RAG recall@3: ~0.75 MemX recall@3: ~1.0 Longer simulation: 10k interactions → ~9k memories Latency on my laptop: 10k memories → ~0.3ms 100k → ~3ms 1M",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-14T07:54:36.000Z",
       "score": 180,
       "status": "queued"
     },
@@ -3048,6 +3071,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-13T15:15:53.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Deodat-Lawson/LaunchStack",
+      "title": "Show HN: PDR AI – Open-source startup accelerator engine for non-technical chaos",
+      "link": "https://github.com/Deodat-Lawson/LaunchStack",
+      "summary": "Show HN: PDR AI – Open-source startup accelerator engine for non-technical chaos (marketing, PRDs, onboarding) A couple weeks ago I shared PDR AI as an open-source tool for startup doc mess[](https://news.ycombinator.com/item?id=47258661). Since then I've doubled down on the core vision: it's not just another RAG chat—it's an AI-powered accelerator engine that helps technical founders skip the non-technical pitfalls and move faster. As a solo technical founder, I wasted too much time on fragmented marketing plans, incomplete PRDs, onboarding docs, legal templates. PDR AI centralizes it all in a self-hostable knowledge base and actively accelerates progress by: - Document Sanity Chekcer (Verifying the content validity and consistency in the documents, extracing key information) - Marketing pipeline: Content ideas/trends for Reddit/X/LinkedIn/Bluesky, optional web-enriched analysis. - Team acceleration layer: Role-based access, invites, approvals, audit trails—great for small teams or accelerator cohorts reviewing docs. - Real-time dashboard: Tracks usage, accuracy (~99% on samples), compliance gaps, productivity. - RAG basics done right: Upload PDFs/Notion/Slack/GitHub exports, OCR support, pgvector semantic search, page-level citations, fast responses. Fully open-source (MIT), self-host via Docker/Vercel, bring-your-own LLM keys (OpenAI/LangChain now; Ollama/local coming soon).",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-14T07:42:49.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -4105,18 +4140,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-02-26T07:32:05.000Z",
       "score": 150.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47098387",
-      "title": "Looking for technical co-founder to build AI-powered stack migration platform",
-      "link": "https://news.ycombinator.com/item?id=47098387",
-      "summary": "I'm migrating an Android app to Flutter and it's a nightmare. Months of manual work, endless bugs, fear of breaking things. So I'm building the tool I wish existed. Massive market: $95B+ annually. Every company eventually migrates. The product: AI-powered platform that automates stack migrations. Start with Android→Flutter, expand to iOS, React Native, databases. Use AI to restructure data intelligently. Tech approach: Core engine with pluggable parsers/generators. AI-first (Gemini 2.5 Flash). Build once, support many stacks. Looking for: Technical co-founder who's felt migration pain. I've written a 27-page doc with market analysis, tech architecture, AI strategy, and complete action plan. Email tonnykamau6@gmail.com if interested. Comments URL: https://news.ycombinator.com/item?id=47098387 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-21T07:29:21.000Z",
-      "score": 150,
       "status": "queued"
     },
     {

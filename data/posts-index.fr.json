@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-03-13T15:52:36.980Z",
+  "generatedAt": "2026-03-14T08:33:05.862Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions",
+      "title": "predicate-secure : wrapper Python (3–5 lignes) pour vérification déterministe et fail-closed des actions d'agents IA",
+      "date": "2026-03-14",
+      "excerpt": "Wrapper Python drop-in qui impose une boucle de sécurité en trois phases : autorisation locale via YAML (fail‑closed), exécution de l'action, et vérification post‑exécution déterministe. Intégration annoncée en 3–5 lignes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "python",
+        "agents",
+        "verification",
+        "LLM"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47365599"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-13-claude-can-insert-inline-interactive-charts-diagrams-and-tables-in-conversations",
       "title": "Claude peut insérer des graphiques et diagrammes interactifs directement dans la conversation",
