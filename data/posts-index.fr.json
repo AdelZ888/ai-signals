@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-14T08:33:05.862Z",
+  "generatedAt": "2026-03-14T15:36:59.910Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-14-local-guide-to-authoring-testing-and-deploying-skillmd-agent-skills-with-uberskills",
+      "title": "Guide local pour rédiger, tester et déployer SKILL.md avec uberSKILLS",
+      "date": "2026-03-14",
+      "excerpt": "Guide pratique de 60–120 minutes : cloner uberSKILLS, lancer une instance locale, créer un SKILL.md minimal, exécuter ~10 jeux de tests via OpenRouter et valider des métriques avant déploiement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-14-local-guide-to-authoring-testing-and-deploying-skillmd-agent-skills-with-uberskills.jpg",
+      "tags": [
+        "uberSKILLS",
+        "agents",
+        "Claude",
+        "IA",
+        "développement",
+        "guide",
+        "skills"
+      ],
+      "sources": [
+        "https://github.com/uberskillsdev/uberskills"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions",
       "title": "predicate-secure : wrapper Python (3–5 lignes) pour vérification déterministe et fail-closed des actions d'agents IA",

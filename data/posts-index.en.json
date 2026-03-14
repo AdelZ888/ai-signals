@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-14T08:33:05.863Z",
+  "generatedAt": "2026-03-14T15:36:59.909Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-14-local-guide-to-authoring-testing-and-deploying-skillmd-agent-skills-with-uberskills",
+      "title": "Local guide to authoring, testing, and deploying SKILL.md agent skills with uberSKILLS",
+      "date": "2026-03-14",
+      "excerpt": "Hands-on 60–120 minute guide: clone uberSKILLS, run a local dev instance, author one SKILL.md, run ~10 test prompts across models via OpenRouter, and validate metrics before deploy.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-14-local-guide-to-authoring-testing-and-deploying-skillmd-agent-skills-with-uberskills.jpg",
+      "tags": [
+        "uberSKILLS",
+        "agent-skills",
+        "SKILL.md",
+        "open-source",
+        "developer-tools",
+        "OpenRouter",
+        "Claude",
+        "local-first"
+      ],
+      "sources": [
+        "https://github.com/uberskillsdev/uberskills"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions",
       "title": "predicate-secure: 3-5 line Python wrapper for fail-closed, deterministic pre- and post-verification of AI agent actions",
