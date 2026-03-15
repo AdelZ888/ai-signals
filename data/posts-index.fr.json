@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-14T15:36:59.910Z",
+  "generatedAt": "2026-03-15T08:50:53.714Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-15-meowth-gba-translator-llm-powered-extract-translate-build-pipeline-for-pokemon-gba-rom-hacks",
+      "title": "Meowth GBA Translator — Pipeline Extract → Translate → Build piloté par LLM pour ROM Pokémon GBA",
+      "date": "2026-03-15",
+      "excerpt": "Automatisez la traduction de hacks de ROM Pokémon GBA avec Meowth : extraction du texte, traduction par LLMs en préservant codes et polices, puis reconstruction d’une ROM jouable via GUI ou CLI.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-15-meowth-gba-translator-llm-powered-extract-translate-build-pipeline-for-pokemon-gba-rom-hacks.jpg",
+      "tags": [
+        "Meowth",
+        "GBA",
+        "localisation",
+        "LLM",
+        "ROM",
+        "traduction",
+        "CI"
+      ],
+      "sources": [
+        "https://github.com/Olcmyk/Meowth-GBA-Translator"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-14-local-guide-to-authoring-testing-and-deploying-skillmd-agent-skills-with-uberskills",
       "title": "Guide local pour rédiger, tester et déployer SKILL.md avec uberSKILLS",
