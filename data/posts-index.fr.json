@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-16T08:59:20.492Z",
+  "generatedAt": "2026-03-16T16:17:38.328Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-16-a-minimal-governance-playbook-for-deploying-autonomous-agents",
+      "title": "Carnet de gouvernance minimal pour déployer des agents autonomes",
+      "date": "2026-03-16",
+      "excerpt": "Étapes pratiques pour lancer un agent autonome étroit et sandboxé : liste d’actions limitée, journalisation stricte et responsabilité humaine — recommandations adaptées après OpenClaw et l’entrée en vigueur d’AB 316 (Californie).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-16-a-minimal-governance-playbook-for-deploying-autonomous-agents.jpg",
+      "tags": [
+        "IA agentique",
+        "agents autonomes",
+        "gouvernance",
+        "sécurité",
+        "déploiement",
+        "startups",
+        "développeurs"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-03-16-shard-open-source-orchestrator-that-runs-parallel-ai-agents-on-decomposed-code-tasks-and-merges-via-git-worktrees",
       "title": "Shard — orchestrateur open-source pour exécuter des agents IA en parallèle sur des tâches de code (local UK)",

@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-16T08:59:20.490Z",
+  "generatedAt": "2026-03-16T16:17:38.326Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-16-a-minimal-governance-playbook-for-deploying-autonomous-agents",
+      "title": "A minimal governance playbook for deploying autonomous agents",
+      "date": "2026-03-16",
+      "excerpt": "Practical steps to deploy autonomous agents safely: start one narrow, sandboxed agent with scoped actions, strict logging and human ownership—updated guidance post-OpenClaw and AB 316.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-16-a-minimal-governance-playbook-for-deploying-autonomous-agents.jpg",
+      "tags": [
+        "agentic AI",
+        "autonomous agents",
+        "governance",
+        "sandbox",
+        "no-code agents",
+        "OpenClaw",
+        "AB 316",
+        "playbook"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-16-shard-open-source-orchestrator-that-runs-parallel-ai-agents-on-decomposed-code-tasks-and-merges-via-git-worktrees",
       "title": "Shard — open-source orchestrator that runs parallel AI agents on decomposed code tasks and merges via git worktrees",
