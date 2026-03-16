@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-15T15:34:47.314Z",
+  "generatedAt": "2026-03-16T08:59:20.490Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-16-shard-open-source-orchestrator-that-runs-parallel-ai-agents-on-decomposed-code-tasks-and-merges-via-git-worktrees",
+      "title": "Shard — open-source orchestrator that runs parallel AI agents on decomposed code tasks and merges via git worktrees",
+      "date": "2026-03-16",
+      "excerpt": "Shard decomposes large code changes into a DAG of parallel subtasks, runs multiple AI agents in separate git worktrees, and merges results in order with test-aware retries.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-16-shard-open-source-orchestrator-that-runs-parallel-ai-agents-on-decomposed-code-tasks-and-merges-via-git-worktrees.jpg",
+      "tags": [
+        "shard",
+        "ai",
+        "parallelization",
+        "agents",
+        "git",
+        "git-worktrees",
+        "open-source",
+        "developer-tools"
+      ],
+      "sources": [
+        "https://github.com/nihalgunu/Shard"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-15-90-minute-test-kit-to-probe-emergent-self-awareness-in-model-based-agents",
       "title": "90-Minute Test Kit to Probe Emergent Self-Awareness in Model-Based Agents",

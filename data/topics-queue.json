@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-15T15:34:47.374Z",
+  "generatedAt": "2026-03-16T08:59:20.498Z",
   "items": [
+    {
+      "id": "https://github.com/nihalgunu/Shard",
+      "title": "Show HN: Shard – Stop watching one AI agent code for 45 min. Run four at once",
+      "link": "https://github.com/nihalgunu/Shard",
+      "summary": "The biggest bottleneck in AI-assisted coding right now isn't model quality. It's that you give Claude Code or Cursor a complex task and then sit there watching it work for 30-60 minutes. You can't intervene, you can't do anything useful, you just wait. Shard takes that one big prompt and automatically decomposes it into a DAG of parallel sub-tasks. Each task gets exclusive file ownership so there are zero merge conf…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-16T07:52:40.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-16T08:59:20.479Z",
+      "file": "content/posts/2026-03-16-shard-open-source-orchestrator-that-runs-parallel-ai-agents-on-decomposed-code-tasks-and-merges-via-git-worktrees.md",
+      "fileFr": "content/posts/fr/2026-03-16-shard-open-source-orchestrator-that-runs-parallel-ai-agents-on-decomposed-code-tasks-and-merges-via-git-worktrees.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1371,
+      "wordsFr": 1266
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47377546",
       "title": "Future After the AI Revolution",
@@ -3168,6 +3191,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/reposquirrel/Vizit",
+      "title": "Show HN: Vizit – Generate and organise visualizations from Jira using AI agents",
+      "link": "https://github.com/reposquirrel/Vizit",
+      "summary": "Article URL: https://github.com/reposquirrel/Vizit Comments URL: https://news.ycombinator.com/item?id=47396249 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-16T08:05:14.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3297,18 +3332,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-08T14:07:12.000Z",
       "score": 165.58,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.17902",
-      "title": "El Agente Gr\\'afico: Structured Execution Graphs for Scientific Agents",
-      "link": "https://arxiv.org/abs/2602.17902",
-      "summary": "arXiv:2602.17902v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to automate scientific workflows, yet their integration with heterogeneous computational tools remains ad hoc and fragile. Current agentic approaches often rely on unstructured text to manage context and coordinate execution, generating often overwhelming volumes of information that may obscure decision provenance and hinder auditability. In this work, we present El Agente Gr\\'afico, a single-agent framework that embeds LLM-driven decision-making within a type-safe execution environment and dynamic knowledge graphs for external persistence. Central to our approach is a structured abstraction of scientific concepts and an object-graph mapper that represents computational state as typed Python objects, stored either in memory or persisted in an external knowledge graph. This design enables context management through typed symbolic identifiers rather than raw text, thereby ensuring consistency, supporting provenance tracking, and enabling efficient tool orchestration. We evaluate the system by developing an automated benchmarking framework across a suite of university-level quantum chemistry tasks previously evaluated on a multi-agent system, demonstrating that a single agent, when coupled to a reliable execution engine, can robustly perform complex, multi-step, and parallel computat",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-02-23T05:00:00.000Z",
-      "score": 165.04,
       "status": "queued"
     },
     {
@@ -4452,18 +4475,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.17684",
-      "title": "CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models",
-      "link": "https://arxiv.org/abs/2602.17684",
-      "summary": "arXiv:2602.17684v1 Announce Type: cross Abstract: Reinforcement Learning from Verifiable Rewards (RLVR) has driven recent progress in code large language models by leveraging execution-based feedback from unit tests, but its scalability is fundamentally constrained by the availability and reliability of high-quality test cases. We propose CodeScaler, an execution-free reward model designed to scale both reinforcement learning training and test-time inference for code generation. CodeScaler is trained on carefully curated preference data derived from verified code problems and incorporates syntax-aware code extraction and validity-preserving reward shaping to ensure stable and robust optimization. Across five coding benchmarks, CodeScaler improves Qwen3-8B-Base by an average of +11.72 points, outperforming binary execution-based RL by +1.82 points, and enables scalable reinforcement learning on synthetic datasets without any test cases. At inference time, CodeScaler serves as an effective test-time scaling method, achieving performance comparable to unit test approaches while providing a 10-fold reduction in latency. Moreover, CodeScaler surpasses existing reward models on RM-Bench not only in the code domain (+3.3 points), but also in general and reasoning domains (+2.7 points on average).",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-23T05:00:00.000Z",
-      "score": 147.04,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/parallax-labs/context-harness",
       "title": "Show HN: Context Harness – Local first context engine for AI tools",
       "link": "https://github.com/parallax-labs/context-harness",
@@ -4488,6 +4499,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.13173",
+      "title": "Semantic Invariance in Agentic AI",
+      "link": "https://arxiv.org/abs/2603.13173",
+      "summary": "arXiv:2603.13173v1 Announce Type: new Abstract: Large Language Models (LLMs) increasingly serve as autonomous reasoning agents in decision support, scientific problem-solving, and multi-agent coordination systems. However, deploying LLM agents in consequential applications requires assurance that their reasoning remains stable under semantically equivalent input variations, a property we term semantic invariance.Standard benchmark evaluations, which assess accuracy on fixed, canonical problem formulations, fail to capture this critical reliability dimension. To address this shortcoming, in this paper we present a metamorphic testing framework for systematically assessing the robustness of LLM reasoning agents, applying eight semantic-preserving transformations (identity, paraphrase, fact reordering, expansion, contraction, academic context, business context, and contrastive formulation) across seven foundation models spanning four distinct architectural families: Hermes (70B, 405B), Qwen3 (30B-A3B, 235B-A22B), DeepSeek-R1, and gpt-oss (20B, 120B). Our evaluation encompasses 19 multi-step reasoning problems across eight scientific domains. The results reveal that model scale does not predict robustness: the smaller Qwen3-30B-A3B achieves the highest stability (79.6% invariant responses, semantic similarity 0.91), while larger models exhibit greater fragility.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-16T04:00:00.000Z",
+      "score": 145.32,
+      "status": "queued"
+    },
+    {
       "id": "https://manveerc.substack.com/p/mcp-vs-cli-ai-agents",
       "title": "MCP vs. CLI for AI Agents",
       "link": "https://manveerc.substack.com/p/mcp-vs-cli-ai-agents",
@@ -4497,18 +4520,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-08T07:01:12.000Z",
       "score": 145.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
-      "title": "X says you can block Grok from editing your photos",
-      "link": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
-      "summary": "Pay attention to that small print about tagging @Grok, this new toggle has disappointing limitations. | Image by The Verge / xAI X has introduced a new feature that makes it slightly harder for other users to manipulate your uploaded images with the Grok chatbot. As reported by Social Media Today and verified by The Verge, a new toggle within the image upload settings on the X iOS appsays it can \"block modifications by Grok\" when enabled. But it doesn't actually prevent Grok from editing your photos. The small print underneath the feature's name reveals a significant limitation: users can only \"prevent @Grok from modifying this content.\" In our testing, the toggle only blocks the mechanism of tagging the xAI chatbot in replies to an image on X, alongside editing inst … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-09T15:24:03.000Z",
-      "score": 144,
       "status": "queued"
     },
     {
@@ -4572,6 +4583,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.12813",
+      "title": "Context is all you need: Towards autonomous model-based process design using agentic AI in flowsheet simulations",
+      "link": "https://arxiv.org/abs/2603.12813",
+      "summary": "arXiv:2603.12813v1 Announce Type: new Abstract: Agentic AI systems integrating large language models (LLMs) with reasoning and tooluse capabilities are transforming various domains - in particular, software development. In contrast, their application in chemical process flowsheet modelling remains largely unexplored. In this work, we present an agentic AI framework that delivers assistance in an industrial flowsheet simulation environment. To this end, we show the capabilities of GitHub Copilot (GitHub, Inc., 2026), when using state-of-the-art LLMs, such as Claude Opus 4.6 (Anthropic, PBC, 2026), to generate valid syntax for our in-house process modelling tool Chemasim using the technical documentation and a few commented examples as context. Based on this, we develop a multi-agent system that decomposes process development tasks with one agent solving the abstract problem using engineering knowledge and another agent implementing the solution as Chemasim code. We demonstrate the effectiveness of our framework for typical flowsheet modelling examples, including (i) a reaction/separation process, (ii) a pressure-swing distillation, and (iii) a heteroazeotropic distillation including entrainer selection. Along these lines, we discuss current limitations of the framework and outline future research directions to further enhance its capabilities.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-16T04:00:00.000Z",
+      "score": 139.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.12933",
+      "title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
+      "link": "https://arxiv.org/abs/2603.12933",
+      "summary": "arXiv:2603.12933v1 Announce Type: new Abstract: Large Language Model (LLM)-driven Multi-Agent Systems (MAS) have demonstrated strong capability in complex reasoning and tool use, and heterogeneous agent pools further broaden the quality--cost trade-off space. Despite these advances, real-world deployment is often constrained by high inference cost, latency, and limited transparency, which hinders scalable and efficient routing. Existing routing strategies typically rely on expensive LLM-based selectors or static policies, and offer limited controllability for semantic-aware routing under dynamic loads and mixed intents, often resulting in unstable performance and inefficient resource utilization. To address these limitations, we propose AMRO-S, an efficient and interpretable routing framework for Multi-Agent Systems (MAS). AMRO-S models MAS routing as a semantic-conditioned path selection problem, enhancing routing performance through three key mechanisms: First, it leverages a supervised fine-tuned (SFT) small language model for intent inference, providing a low-overhead semantic interface for each query; second, it decomposes routing memory into task-specific pheromone specialists, reducing cross-task interference and optimizing path selection under mixed workloads; finally, it employs a quality-gated asynchronous update mechanism to decouple inference from learning, optimizi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-16T04:00:00.000Z",
+      "score": 133.32,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
       "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
       "link": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
@@ -4584,64 +4619,68 @@
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "title": "Designing AI agents to resist prompt injection",
-      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-11T11:30:00.000Z",
-      "score": 73.2,
+      "id": "https://arxiv.org/abs/2603.12710",
+      "title": "AI Planning Framework for LLM-Based Web Agents",
+      "link": "https://arxiv.org/abs/2603.12710",
+      "summary": "arXiv:2603.12710v1 Announce Type: new Abstract: Developing autonomous agents for web-based tasks is a core challenge in AI. While Large Language Model (LLM) agents can interpret complex user requests, they often operate as black boxes, making it difficult to diagnose why they fail or how they plan. This paper addresses this gap by formally treating web tasks as sequential decision-making processes. We introduce a taxonomy that maps modern agent architectures to traditional planning paradigms: Step-by-Step agents to Breadth-First Search (BFS), Tree Search agents to Best-First Tree Search, and Full-Plan-in-Advance agents to Depth-First Search (DFS). This framework allows for a principled diagnosis of system failures like context drift and incoherent task decomposition. To evaluate these behaviors, we propose five novel evaluation metrics that assess trajectory quality beyond simple success rates. We support this analysis with a new dataset of 794 human-labeled trajectories from the WebArena benchmark. Finally, we validate our evaluation framework by comparing a baseline Step-by-Step agent against a novel Full-Plan-in-Advance implementation. Our results reveal that while the Step-by-Step agent aligns more closely with human gold trajectories (38% overall success), the Full-Plan-in-Advance agent excels in technical measures such as element accuracy (89%), demonstrating the necessit",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-16T04:00:00.000Z",
+      "score": 121.32,
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/equip-responses-api-computer-environment",
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-11T11:00:00.000Z",
-      "score": 73.19,
+      "id": "https://arxiv.org/abs/2603.12483",
+      "title": "Generating Expressive and Customizable Evals for Timeseries Data Analysis Agents with AgentFuel",
+      "link": "https://arxiv.org/abs/2603.12483",
+      "summary": "arXiv:2603.12483v1 Announce Type: new Abstract: Across many domains (e.g., IoT, observability, telecommunications, cybersecurity), there is an emerging adoption of conversational data analysis agents that enable users to \"talk to your data\" to extract insights. Such data analysis agents operate on timeseries data models; e.g., measurements from sensors or events monitoring user clicks and actions in product analytics. We evaluate 6 popular data analysis agents (both open-source and proprietary) on domain-specific data and query types, and find that they fail on stateful and incident-specific queries. We observe two key expressivity gaps in existing evals: domain-customized datasets and domain-specific query types. To enable practitioners in such domains to generate customized and expressive evals for such timeseries data agents, we present AgentFuel. AgentFuel helps domain experts quickly create customized evals to perform end-to-end functional tests. We show that AgentFuel's benchmarks expose key directions for improvement in existing data agent frameworks. We also present anecdotal evidence that using AgentFuel can improve agent performance (e.g., with GEPA). AgentFuel benchmarks are available at https://huggingface.co/datasets/RockfishData/TimeSeriesAgentEvals.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-16T04:00:00.000Z",
+      "score": 109.32,
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
-      "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
-      "link": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
-      "summary": "Today we’re talking about the messy, fast-moving situation at Anthropic, the maker of Claude that now finds itself in a very ugly legal battle with the Pentagon. The back-and-forth is complicated, but as of a few days ago, the Pentagon had deemed Anthropic a supply chain risk, and Anthropic has filed a lawsuit challenging that designation, saying the government has violated its First and Fifth Amendment rights by “seeking to destroy the economic value created by one of the world’s fastest-growing private companies.” I can tell you right now: We’re going to be talking about the twists and turns of that case on The Verge and here on Decoder in the months to come. But today I wanted to take a moment and really dig in here on one very important element of this situation that’s not gotten enough attention as this has spiraled out of control: how the United States government does surveillance, the legal authority that allows that surveillance to occur, and why Anthropic was distrustful of the government saying it would follow the law when it comes to using AI to do even more surveillance. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. My guest today is Mike Masnick, the founder and CEO of Techdirt, the excellent and long-running tech policy website. Mike has been writing ab",
+      "id": "https://arxiv.org/abs/2603.12740",
+      "title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
+      "link": "https://arxiv.org/abs/2603.12740",
+      "summary": "arXiv:2603.12740v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly applied to complex, multi-step tasks that require interaction with diverse external tools across various domains. However, current LLM agent tool planning methods typically rely on greedy, reactive tool selection strategies that lack foresight and fail to account for inter-tool dependencies. In this paper, we present ToolTree, a novel Monte Carlo tree search-inspired planning paradigm for tool planning. ToolTree explores possible tool usage trajectories using a dual-stage LLM evaluation and bidirectional pruning mechanism that enables the agent to make informed, adaptive decisions over extended tool-use sequences while pruning less promising branches before and after the tool execution. Empirical evaluations across both open-set and closed-set tool planning tasks on 4 benchmarks demonstrate that ToolTree consistently improves performance while keeping the highest efficiency, achieving an average gain of around 10\\% compared to the state-of-the-art planning paradigm.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-16T04:00:00.000Z",
+      "score": 109.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.13099",
+      "title": "Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation",
+      "link": "https://arxiv.org/abs/2603.13099",
+      "summary": "arXiv:2603.13099v1 Announce Type: new Abstract: We introduce **CRYSTAL** (*__C__lear __R__easoning via __Y__ielded __S__teps, __T__raceability and __L__ogic*), a diagnostic benchmark with 6,372 instances that evaluates multimodal reasoning through verifiable intermediate steps. We propose two complementary metrics: *Match F1*, which scores step-level precision and recall via semantic similarity matching, and *Ordered Match F1*, which further penalizes disordered reasoning chains. References are constructed through a Delphi-inspired pipeline where four independent MLLMs generate trajectories, aggregated via semantic clustering and validated through human quality gates. Evaluation of 20 MLLMs, including commercial frontier systems not used during benchmark construction, reveals systematic failures invisible to accuracy: universal cherry-picking (precision far exceeds recall), non-monotonic scaling trade-offs, and disordered reasoning where no competitive model preserves more than 60% of matched steps in correct order. Beyond evaluation, we propose the **Causal Process Reward (CPR)**, a multiplicative reward that couples answer correctness with step-level alignment, and **CPR-Curriculum**, which progressively increases reasoning difficulty during training. CPR-Curriculum achieves +32% Match F1 via GRPO where additive reward strategies fail, improving reasoning without manual step",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-16T04:00:00.000Z",
+      "score": 109.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
+      "title": "X says you can block Grok from editing your photos",
+      "link": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
+      "summary": "Pay attention to that small print about tagging @Grok, this new toggle has disappointing limitations. | Image by The Verge / xAI X has introduced a new feature that makes it slightly harder for other users to manipulate your uploaded images with the Grok chatbot. As reported by Social Media Today and verified by The Verge, a new toggle within the image upload settings on the X iOS appsays it can \"block modifications…",
       "source": "The Verge AI",
       "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-12T14:00:00.000Z",
-      "score": 67.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
-      "title": "Bespoke AI models are the next big thing in filmmaking",
-      "link": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
-      "summary": "Though many AI boosters have convinced themselves that the technology can spit out films and television series whole cloth, claims of Hollywood being cooked feel very premature when you see what people are making with the most popular image/video models on the market. Models like Sora, Veo, and Runway just do not seem all that great for entertainment production. But we're starting to see more AI firms building a new breed of generative model - ones that are designed to address creatives' needs throughout the development process while also avoiding issues like potential copyright infringement. What really sets these models apart from their … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-12T13:56:00.000Z",
-      "score": 67.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/instruction-hierarchy-challenge",
-      "title": "Improving instruction hierarchy in frontier LLMs",
-      "link": "https://openai.com/index/instruction-hierarchy-challenge",
-      "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-10T11:00:00.000Z",
-      "score": 66.96,
-      "status": "queued"
+      "keywordHits": 2,
+      "publishedAt": "2026-03-09T15:24:03.000Z",
+      "score": 144,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-16T08:44:22.073Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
