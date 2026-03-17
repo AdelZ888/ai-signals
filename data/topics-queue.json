@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-17T09:06:09.538Z",
+  "generatedAt": "2026-03-17T16:15:57.866Z",
   "items": [
+    {
+      "id": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "summary": "We're expanding Personal Intelligence across AI Mode in Search, the Gemini app and Gemini in Chrome.",
+      "source": "Google AI Blog",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T16:00:00.000Z",
+      "score": 144,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-17T16:15:57.791Z",
+      "file": "content/posts/2026-03-17-how-to-pilot-personal-intelligence-for-small-teams-across-ai-mode-in-search-the-gemini-app-and-chrome.md",
+      "fileFr": "content/posts/fr/2026-03-17-how-to-pilot-personal-intelligence-for-small-teams-across-ai-mode-in-search-the-gemini-app-and-chrome.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1595,
+      "wordsFr": 1320
+    },
     {
       "id": "https://github.com/clkao/agentlore",
       "title": "Show HN: Agentlore – searchable team log for AI coding agent sessions",
@@ -2577,6 +2600,42 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://github.com/fwdai/reticle",
+      "title": "Show HN: Reticle – Postman for AI Agents",
+      "link": "https://github.com/fwdai/reticle",
+      "summary": "I’ve been building a lot with LLMs lately and kept thinking: why doesn’t this tool exist? The workflow usually ends up being: write some code, run it, tweak a prompt, add logs just to understand what actually happened. It works in some cases, breaks in others, and it’s hard to see why. You also want to know that changing a prompt or model didn’t quietly break everything. Reticle puts the whole loop in one place. You define a scenario (prompt + variables + tools), run it against different models, and see exactly what happened - prompts, responses, tool calls, results. You can then run evals against a dataset to see whether a change to the prompt or model breaks anything. There’s also a step-by-step view for agent runs so you can see why it made a decision. Everything runs locally. Prompts, API keys, and run history stay on your machine (SQLite). Stack: Tauri + React + SQLite + Axum + Deno. Still early and definitely rough around the edges. Is this roughly how people are debugging LLM workflows today, or do you do it differently? Comments URL: https://news.ycombinator.com/item?id=47414460 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-17T15:57:22.000Z",
+      "score": 222,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/aibuildai/AI-Build-AI",
+      "title": "AIBuildAI – An AI agent that automatically builds AI models (#1 on MLE-Bench)",
+      "link": "https://github.com/aibuildai/AI-Build-AI",
+      "summary": "Article URL: https://github.com/aibuildai/AI-Build-AI Comments URL: https://news.ycombinator.com/item?id=47414570 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-17T16:05:29.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47413969",
+      "title": "Show HN: DashClaw – Intercept AI agent actions before they execute",
+      "link": "https://news.ycombinator.com/item?id=47413969",
+      "summary": "I kept finding out what my agents did after the fact. Logs, traces, error reports. By then the action had already happened. I wanted a way to stop the action before it executes, present context to a human, and record the decision. That layer didn't exist, so I built it. DashClaw sits between your agents and their actions. Every action goes through a policy check before it runs. The agent waits until the decision comes back. What it does: - Guard policies defined in YAML. Conditions, thresholds, actions (allow / block / require_approval). Versioned, testable in CI via simulation endpoint. - Decision recording to Postgres before the action fires. Action, context, assumptions, policy applied, outcome. All org-scoped. - Human-in-the-loop over SSE with Redis broker. 10-min replay window so approvals survive disconnects. Agent holds pending until decision or timeout. - CLI approval channel. `dashclaw approve ` from a second terminal. No browser needed. - Node and Python SDKs. Wraps existing calls. No framework lock-in. How the guard check works in practice: const decision = await claw.guard({ action_type: 'deploy', risk_score: 90 }); if (decision.decision === 'block') return; Works with LangChain, CrewAI, OpenAI tools, Anthropic tools, Autogen, or custom agents. - Quick Demo w/Docker: npx dashclaw-demo - End to End Demo: cd examples/openai-governed-agent && npm install && node index.",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-17T15:22:36.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/whp_wessel/status/2029933535369343195",
       "title": "Show HN: I built an opinionated AI agent to respond to EU consultations",
       "link": "https://twitter.com/whp_wessel/status/2029933535369343195",
@@ -2613,6 +2672,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
+      "title": "Microsoft appoints a new Copilot boss after AI leadership shake-up",
+      "link": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
+      "summary": "Microsoft is doing another executive shuffle today to reorganize how it engineers its Copilot assistant. Different teams have been working on the consumer and commercial sides of Copilot for years, but Microsoft is about to unify parts of them in an effort to create a more cohesive Copilot for businesses and consumers. The changes will see Microsoft AI CEO Mustafa Suleyman focus on creating Microsoft's own AI models, instead of working directly on the assistant-like features of Copilot for consumers. Suleyman first joined Microsoft nearly two years ago, after Microsoft hired a bunch of folks from Inflection AI. Months after Suleyman's hirin … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-17T15:17:27.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/luislopez1212/Nemilia",
       "title": "Show HN: Nemilia – multi-agent AI workspace in a single HTML file, no back end",
       "link": "https://github.com/luislopez1212/Nemilia",
@@ -2622,42 +2693,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr",
-      "title": "Anthropic Links AI Agent with Tools for Investment Banking, HR",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr Comments URL: https://news.ycombinator.com/item?id=47138538 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-24T15:41:50.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/gitsual/openpdb",
-      "title": "Show HN: OpenPDB – Generate AI agents with real personalities",
-      "link": "https://github.com/gitsual/openpdb",
-      "summary": "OpenPDB creates AI agents with distinct personalities from a database of 12,000+ characters. Each agent has unique voice, values, and worldview—not generic responses. Ask Batman about creative blocks → strategic, character-driven response instead of a list. Works locally with Ollama or via Google Colab demo. Integrates with OpenGoat for multi-agent collaboration. Free and open source. Comments URL: https://news.ycombinator.com/item?id=47138456 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-24T15:34:25.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47138284",
-      "title": "Are AI agents not smart enough to generate their own AGENTS/SKILLS/X.md?",
-      "link": "https://news.ycombinator.com/item?id=47138284",
-      "summary": "Why do I have to write and take the trouble to specify these files when they could be generated automatically? Comments URL: https://news.ycombinator.com/item?id=47138284 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-24T15:21:00.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -3201,6 +3236,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Merwynkumar/clawblink",
+      "title": "ClawBlink: Create background AI agents from Telegram or WhatsApp chat",
+      "link": "https://github.com/Merwynkumar/clawblink",
+      "summary": "Article URL: https://github.com/Merwynkumar/clawblink Comments URL: https://news.ycombinator.com/item?id=47414451 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-17T15:57:05.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://nanosec.ai",
+      "title": "Show HN: I indexed 58K AI agents and built trust scores for the agent economy",
+      "link": "https://nanosec.ai",
+      "summary": "Article URL: https://nanosec.ai Comments URL: https://news.ycombinator.com/item?id=47414276 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-17T15:44:06.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3297,6 +3356,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
+      "title": "J’ai demandé à Gemini de relire mon article, il a voulu inventer une fausse interview",
+      "link": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
+      "summary": "Alors que j'ai sollicité Gemini pour une simple relecture d'un de mes articles sur OpenAI, l'IA de Google a franchi la ligne rouge : elle a proposé d'inventer, de toutes pièces, une interview fictive.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-17T16:00:22.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://www.mvnt.studio/",
       "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
       "link": "https://www.mvnt.studio/",
@@ -3342,18 +3413,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-13T14:36:54.000Z",
       "score": 164.01,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47138380",
-      "title": "Where can I buy AI-generated antibiotics?",
-      "link": "https://news.ycombinator.com/item?id=47138380",
-      "summary": "Right. AI supermodels, but we don't have any of them commercialized yet. Comments URL: https://news.ycombinator.com/item?id=47138380 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-24T15:28:15.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -3510,42 +3569,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/bluvibytes/zone-of-distrust",
-      "title": "Zones of Distrust – Open security architecture for agentic AI",
-      "link": "https://github.com/bluvibytes/zone-of-distrust",
-      "summary": "Article URL: https://github.com/bluvibytes/zone-of-distrust Comments URL: https://news.ycombinator.com/item?id=47138402 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-24T15:29:30.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.tomshardware.com/tech-industry/big-tech/ibm-stock-takes-a-13-percent-whiplash-after-anthropic-announces-an-ai-tool-for-writing-cobol-code-stock-has-worst-day-since-2000-and-is-down-25-percent-mom-and-counting",
-      "title": "Anthropic's new AI tool can write COBOL, sending IBM's stock tumbling",
-      "link": "https://www.tomshardware.com/tech-industry/big-tech/ibm-stock-takes-a-13-percent-whiplash-after-anthropic-announces-an-ai-tool-for-writing-cobol-code-stock-has-worst-day-since-2000-and-is-down-25-percent-mom-and-counting",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/big-tech/ibm-stock-takes-a-13-percent-whiplash-after-anthropic-announces-an-ai-tool-for-writing-cobol-code-stock-has-worst-day-since-2000-and-is-down-25-percent-mom-and-counting Comments URL: https://news.ycombinator.com/item?id=47138237 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-24T15:17:58.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
-      "title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox",
-      "link": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
-      "summary": "Article URL: https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/ Comments URL: https://news.ycombinator.com/item?id=47138178 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-24T15:13:54.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4053,6 +4076,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/business/openai-courts-private-equity-join-enterprise-ai-venture-sources-say-2026-03-16/",
+      "title": "OpenAI courts private equity to join enterprise AI venture",
+      "link": "https://www.reuters.com/business/openai-courts-private-equity-join-enterprise-ai-venture-sources-say-2026-03-16/",
+      "summary": "Article URL: https://www.reuters.com/business/openai-courts-private-equity-join-enterprise-ai-venture-sources-say-2026-03-16/ Comments URL: https://news.ycombinator.com/item?id=47414316 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T15:47:00.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/swarmgram/swarmgrampublic",
+      "title": "Lewis 1.0 – 8B model trained on AI social data beats Sonnet on personality dvgnc",
+      "link": "https://github.com/swarmgram/swarmgrampublic",
+      "summary": "Article URL: https://github.com/swarmgram/swarmgrampublic Comments URL: https://news.ycombinator.com/item?id=47413881 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T15:16:49.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/cssmith615/praxis",
+      "title": "Praxis – an AI-native intermediate language for agentic workflows",
+      "link": "https://github.com/cssmith615/praxis",
+      "summary": "Article URL: https://github.com/cssmith615/praxis Comments URL: https://news.ycombinator.com/item?id=47413822 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T15:12:30.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4437,6 +4496,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
+      "title": "The future of code is exciting and terrifying",
+      "link": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
+      "summary": "Suddenly it seems like everyone's a coder. Or, at the very least, like they play one in the Claude Code app. But even for the seasoned pros, the act of software development is changing fast - many people are writing less code themselves and instead spending their time managing agents and projects. So what does all that change mean, both for the code and the people who make it? Verge subscribers, don't forget you get exclusive access to ad-free Vergecast wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. On this episode of The Vergecast, Paul Ford, a writer and entrepreneur and longtime tech thinker, expl … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T15:16:47.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47177492",
       "title": "Ask HN: How Many Programmers Are Now Using AI Agents in Their Work?",
       "link": "https://news.ycombinator.com/item?id=47177492",
@@ -4674,30 +4745,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-17T06:28:55.000Z",
       "score": 108.85,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/",
-      "title": "Encyclopedia Britannica sues OpenAI over AI training",
-      "link": "https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/",
-      "summary": "Article URL: https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/ Comments URL: https://news.ycombinator.com/item?id=47409495 Points: 8 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-17T07:00:48.000Z",
-      "score": 108.44,
-      "status": "queued"
-    },
-    {
-      "id": "https://aiapi-pro.com/blog/responses-api-chinese-models",
-      "title": "API Gateway for Using Chinese AI Models with OpenAI Responses API",
-      "link": "https://aiapi-pro.com/blog/responses-api-chinese-models",
-      "summary": "Article URL: https://aiapi-pro.com/blog/responses-api-chinese-models Comments URL: https://news.ycombinator.com/item?id=47398104 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-16T12:33:00.000Z",
-      "score": 105.99,
       "status": "queued"
     },
     {
@@ -5099,22 +5146,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-02-24T08:35:54.121Z",
       "failureReason": "validation issues: EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://aidevhub.io/",
-      "title": "Show HN: AI Dev Hub. 75 free AI and dev tools",
-      "link": "https://aidevhub.io/",
-      "summary": "I built 75 developer and AI tools as a single static site. Everything runs in the browser, no cookies, no ads, nothing gets sent to a server. The tools range from the usual suspects (JSON formatter, base64 encoder, regex tester) to some AI-specific ones I couldn't find good free versions of bundled in one suite: - LLM Token Counter (estimates tokens for GPT, Claude, Gemini, etc.) - AI Model Comparison (specs, pricin…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-13T15:20:44.000Z",
-      "score": 210,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-02-15T15:25:30.183Z",
-      "failureReason": "validation issues: FR: Tutorial missing a concrete config artifact (YAML/JSON/.env/Dockerfile)."
     }
   ]
 }
