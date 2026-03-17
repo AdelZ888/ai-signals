@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-16T16:17:38.386Z",
+  "generatedAt": "2026-03-17T09:06:09.538Z",
   "items": [
+    {
+      "id": "https://github.com/clkao/agentlore",
+      "title": "Show HN: Agentlore – searchable team log for AI coding agent sessions",
+      "link": "https://github.com/clkao/agentlore",
+      "summary": "Agentlore syncs your team's AI coding agent conversations to shared storage, links them to git commits and PRs, and makes them searchable. Built on top of agentsview[0] by Wes McKinney, which indexes local sessions from various coding agents into a SQLite database. I built this because I wanted to understand my own agent usage patterns. I mostly use Claude Code, and agentsview was already doing the hard work of coll…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-06T15:19:26.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-17T09:06:09.512Z",
+      "file": "content/posts/2026-03-17-agentlore-syncs-agentsview-sessions-to-clickhouse-and-links-conversations-to-commits-and-prs.md",
+      "fileFr": "content/posts/fr/2026-03-17-agentlore-syncs-agentsview-sessions-to-clickhouse-and-links-conversations-to-commits-and-prs.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1349,
+      "wordsFr": 1189
+    },
     {
       "id": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
       "title": "Nurturing agentic AI beyond the toddler stage",
@@ -2554,30 +2577,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
-      "title": "Yahoo CEO Jim Lanzone on reviving the web&#8217;s homepage",
-      "link": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
-      "summary": "Today, I’m talking with Jim Lanzone, who is the CEO of Yahoo. It’s basically impossible to sum up the Yahoo story, but the short version of it is that a long time ago Yahoo paid Google to run the search box on its website, and basically everything has gone sideways since. You’ll hear Jim refer to that deal as Yahoo’s original sin, actually. After a long series of mergers and spinouts and an extremely odd moment where it was part of Verizon, Yahoo is once again an independent, privately held company. And it has big properties in sports and finance, and, against all odds, email, where it’s growing with young people. Gen Z loves Yahoo Mail, people. You heard it here first. All of that means Yahoo is profitable and growing, according to Jim, but I still had some big questions about where that growth is going. Yahoo is still the third-place search engine and it just launched a new AI-powered search called Scout, but are they really trying to take market share from Google? Is the big investment in traditional advertising a good bet when creators and influencers are taking up so much attention? And with so much of both sports and finance turning into straight-up gambling, does Jim have any red lines he won’t cross with two of the biggest apps on the internet? Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a su",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-16T15:00:00.000Z",
-      "score": 219.08,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/clkao/agentlore",
-      "title": "Show HN: Agentlore – searchable team log for AI coding agent sessions",
-      "link": "https://github.com/clkao/agentlore",
-      "summary": "Agentlore syncs your team's AI coding agent conversations to shared storage, links them to git commits and PRs, and makes them searchable. Built on top of agentsview[0] by Wes McKinney, which indexes local sessions from various coding agents into a SQLite database. I built this because I wanted to understand my own agent usage patterns. I mostly use Claude Code, and agentsview was already doing the hard work of collecting sessions locally. Then I wanted to sync sessions across my machines so everything was searchable in one place. When I found interesting new approaches with coding agents (superpowers, gsd, higher-order prompting) that I wanted to share with friends and teammates. I ended up creating gists, which is a terrible way to share conversations. These clicked together into agentlore. A daemon watches agentsview's local database, masks secrets, and syncs conversations to ClickHouse. A web UI lets you browse, search, and filter across all your sessions. The part I'm most excited about is git linking. Agentlore parses tool calls for git commit and gh pr create invocations, extracting commit SHAs and PR URLs. So you can go from a commit to the full conversation that produced it. Every conversation gets a shareable permalink, so you can drop it in a PR comment or Slack and people can see exactly what happened. What I'm hoping to see play out: - Review agents should get more",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-06T15:19:26.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
       "id": "https://twitter.com/whp_wessel/status/2029933535369343195",
       "title": "Show HN: I built an opinionated AI agent to respond to EU consultations",
       "link": "https://twitter.com/whp_wessel/status/2029933535369343195",
@@ -3514,18 +3513,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/JakubKontra/next-markdown-mirror",
-      "title": "Next-Markdown-mirror – make Next.js pages readable to AI (Markdown and llms.txt)",
-      "link": "https://github.com/JakubKontra/next-markdown-mirror",
-      "summary": "Article URL: https://github.com/JakubKontra/next-markdown-mirror Comments URL: https://news.ycombinator.com/item?id=47134135 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-24T07:51:23.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/bluvibytes/zone-of-distrust",
       "title": "Zones of Distrust – Open security architecture for agentic AI",
       "link": "https://github.com/bluvibytes/zone-of-distrust",
@@ -4054,6 +4041,18 @@
       "status": "queued"
     },
     {
+      "id": "https://austn.net/blog/building-an-ai-native-web-platform",
+      "title": "40k-line AI platform built solo with Rails, self-hosted GPU, and an agent",
+      "link": "https://austn.net/blog/building-an-ai-native-web-platform",
+      "summary": "Article URL: https://austn.net/blog/building-an-ai-native-web-platform Comments URL: https://news.ycombinator.com/item?id=47409765 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T07:54:56.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4075,18 +4074,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-05T05:00:00.000Z",
       "score": 154.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://getharmony.ai/",
-      "title": "Help me with positioning/marketing of my AI agent",
-      "link": "https://getharmony.ai/",
-      "summary": "Article URL: https://getharmony.ai/ Comments URL: https://news.ycombinator.com/item?id=47134018 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-24T07:35:01.000Z",
-      "score": 154.31,
       "status": "queued"
     },
     {
@@ -4438,6 +4425,18 @@
       "status": "queued"
     },
     {
+      "id": "https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
+      "title": "Mistral AI partners with Nvidia to accelerate open frontier models",
+      "link": "https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
+      "summary": "Article URL: https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models Comments URL: https://news.ycombinator.com/item?id=47409597 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-17T07:20:45.000Z",
+      "score": 144.63,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47177492",
       "title": "Ask HN: How Many Programmers Are Now Using AI Agents in Their Work?",
       "link": "https://news.ycombinator.com/item?id=47177492",
@@ -4522,6 +4521,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.13243",
+      "title": "Think First, Diffuse Fast: Improving Diffusion Language Model Reasoning via Autoregressive Plan Conditioning",
+      "link": "https://arxiv.org/abs/2603.13243",
+      "summary": "arXiv:2603.13243v1 Announce Type: new Abstract: Diffusion large language models (dLLMs) generate text via iterative denoising but consistently underperform on multi-step reasoning. We hypothesize this gap stems from a coordination problem: AR models build coherence token-by-token, while diffusion models must coordinate all positions simultaneously. We propose plan conditioning, a training-free method that prepends a short (~100-token) natural-language plan from an AR model to the diffusion model's prompt. The plan serves as a frozen scaffold -- globally visible context that every token position can attend to from the first denoising step. On GSM8K, plan conditioning improves LLaDA-8B-Instruct from 75.6% to 87.2% (+11.6 percentage points), matching a same-size AR model (LLaMA 3.1 8B, 87.7%) despite a 6.4pp weaker baseline. On HumanEval, the gain is +12.8pp (37.2% to 50.0%), showing plans generalize to code. The same plans improve LLaMA by only +5.7pp on GSM8K and +1.3pp on HumanEval -- diffusion models benefit 2-10x more, supporting the coordination-problem hypothesis. Across 5 random seeds, plan-conditioned GSM8K accuracy has zero standard deviation, making diffusion inference highly stable. Ablations reveal the model follows plan strategy (wrong-strategy plans cause -16.3pp) but is robust to plan values (perturbed numbers: -1.1pp), and that planner quality has a sharp threshol",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-17T04:00:00.000Z",
+      "score": 133.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.13327",
+      "title": "DOVA: Deliberation-First Multi-Agent Orchestration for Autonomous Research Automation",
+      "link": "https://arxiv.org/abs/2603.13327",
+      "summary": "arXiv:2603.13327v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated remarkable capabilities in tool use, reasoning, and code generation, yet single-agent systems exhibit fundamental limitations when confronted with complex research tasks demanding multi-source synthesis, adversarial verification, and personalized delivery. We present DOVA (Deep Orchestrated Versatile Agent), a multi-agent platform introducing three key innovations: (1) deliberation-first orchestration, where explicit meta-reasoning precedes tool invocation, informed by a persistent user model and entity-aware conversation context; (2) hybrid collaborative reasoning, a composable three-phase pipeline unifying ensemble diversity, blackboard transparency, and iterative refinement; and (3) adaptive multi-tiered thinking, a six-level token-budget allocation scheme that reduces inference cost by 40-60% on simple tasks while preserving deep reasoning capacity. We formalize the core algorithms, present an architectural ablation study across seven system configurations, and analyze the contribution of each component to answer confidence, source coverage, and token efficiency.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-17T04:00:00.000Z",
+      "score": 133.69,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.12933",
       "title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
       "link": "https://arxiv.org/abs/2603.12933",
@@ -4546,6 +4569,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.13239",
+      "title": "Benchmarking Zero-Shot Reasoning Approaches for Error Detection in Solidity Smart Contracts",
+      "link": "https://arxiv.org/abs/2603.13239",
+      "summary": "arXiv:2603.13239v1 Announce Type: new Abstract: Smart contracts play a central role in blockchain systems by encoding financial and operational logic. Still, their susceptibility to subtle security flaws poses significant risks of financial loss and erosion of trust. LLMs create new opportunities for automating vulnerability detection, yet the effectiveness of different prompting strategies and model choices in real-world contexts remains uncertain. This paper evaluates state-of-the-art LLMs on Solidity smart contract analysis using a balanced dataset of 400 contracts under two tasks: (i) Error Detection, where the model performs binary classification to decide whether a contract is vulnerable, and (ii) Error Classification, where the model must assign the predicted issue to a specific vulnerability category. Models are evaluated using zero-shot prompting strategies, including zero-shot, zero-shot Chain-of-Thought (CoT), and zero-shot Tree-of-Thought (ToT). In the Error Detection task, CoT and ToT substantially increase recall (often approaching $\\approx 95$--$99\\%$), but typically reduce precision, indicating a more sensitive decision regime with more false positives. In the Error Classification task, Claude 3 Opus attains the best Weighted F1-score (90.8) under the ToT prompt, followed closely by its CoT.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-17T04:00:00.000Z",
+      "score": 121.69,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.12710",
       "title": "AI Planning Framework for LLM-Based Web Agents",
       "link": "https://arxiv.org/abs/2603.12710",
@@ -4555,6 +4590,42 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-16T04:00:00.000Z",
       "score": 121.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.13251",
+      "title": "ManiBench: A Benchmark for Testing Visual-Logic Drift and Syntactic Hallucinations in Manim Code Generation",
+      "link": "https://arxiv.org/abs/2603.13251",
+      "summary": "arXiv:2603.13251v1 Announce Type: new Abstract: Traditional benchmarks like HumanEval and MBPP test logic and syntax effectively, but fail when code must produce dynamic, pedagogical visuals. We introduce ManiBench, a specialized benchmark evaluating LLM performance in generating Manim CE code, where temporal fidelity and version-aware API correctness are critical. ManiBench targets two key failure modes: Syntactic Hallucinations (valid Python referencing non-existent or deprecated Manim APIs) and Visual-Logic Drift (generated visuals diverging from intended mathematical logic through timing errors or missing causal relationships). The benchmark comprises 150-200 problems across five difficulty levels spanning calculus, linear algebra, probability, topology, and AI, grounded in analysis of 3Blue1Brown's ManimGL source (53,000 lines, 143 scene classes). Evaluation uses a four-tier framework measuring Executability, Version-Conflict Error Rate, Alignment Score, and Coverage Score. An open-source framework automates evaluation across multiple models and prompting strategies. Code, data and benchmark suite are available at https://github.com/nabin2004/ManiBench. and the dataset is hosted on https://huggingface.co/datasets/nabin2004/ManiBench.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-17T04:00:00.000Z",
+      "score": 115.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.13266",
+      "title": "Multi-hop Reasoning and Retrieval in Embedding Space: Leveraging Large Language Models with Knowledge",
+      "link": "https://arxiv.org/abs/2603.13266",
+      "summary": "arXiv:2603.13266v1 Announce Type: new Abstract: As large language models (LLMs) continue to grow in size, their abilities to tackle complex tasks have significantly improved. However, issues such as hallucination and the lack of up-to-date knowledge largely remain unresolved. Knowledge graphs (KGs), which serve as symbolic representations of real-world knowledge, offer a reliable source for enhancing reasoning. Integrating KG retrieval into LLMs can therefore strengthen their reasoning by providing dependable knowledge. Nevertheless, due to limited understanding of the underlying knowledge graph, LLMs may struggle with queries that have multiple interpretations. Additionally, the incompleteness and noise within knowledge graphs may result in retrieval failures. To address these challenges, we propose an embedding-based retrieval reasoning framework EMBRAG. In this approach, the model first generates multiple logical rules grounded in knowledge graphs based on the input query. These rules are then applied to reasoning in the embedding space, guided by the knowledge graph, ensuring more robust and accurate reasoning. A reranker model further interprets these rules and refines the results. Extensive experiments on two benchmark KGQA datasets demonstrate that our approach achieves the new state-of-the-art performance in KG reasoning tasks.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-17T04:00:00.000Z",
+      "score": 115.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.13236",
+      "title": "Human Attribution of Causality to AI Across Agency, Misuse, and Misalignment",
+      "link": "https://arxiv.org/abs/2603.13236",
+      "summary": "arXiv:2603.13236v1 Announce Type: new Abstract: AI-related incidents are becoming increasingly frequent and severe, ranging from safety failures to misuse by malicious actors. In such complex situations, identifying which elements caused an adverse outcome, the problem of cause selection, is a critical first step for establishing liability. This paper investigates folk perceptions of causal responsibility in causal chain structures when AI systems are involved in harmful outcomes. We conduct human experiments to examine judgments of causality, blame, foreseeability, and counterfactual reasoning. Our findings show that: (1) When AI agency was moderate (human sets the goal, AI determines the means) or high (AI sets the goal and the means), participants attributed greater causal responsibility to the AI. However, under low AI agency (where a human sets both a goal and means) participants assigned greater causal responsibility to the human despite their temporal distance from the outcome and despite both agents intended it, suggesting an effect of autonomy; (2) When we reversed roles between human and AI, participants consistently judged the human as more causal, even when both agents perform the same action; (3) The developer, despite being distant in the chain, was judged highly causal, reducing causal attributions to the human user but not to the AI; (4) Decomposing the AI into",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-17T04:00:00.000Z",
+      "score": 109.69,
       "status": "queued"
     },
     {
@@ -4594,6 +4665,30 @@
       "status": "queued"
     },
     {
+      "id": "https://brunelly.com/",
+      "title": "Why AI Agents Are Changing How We Build Software",
+      "link": "https://brunelly.com/",
+      "summary": "Article URL: https://brunelly.com/ Comments URL: https://news.ycombinator.com/item?id=47409313 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-17T06:28:55.000Z",
+      "score": 108.85,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/",
+      "title": "Encyclopedia Britannica sues OpenAI over AI training",
+      "link": "https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/",
+      "summary": "Article URL: https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/ Comments URL: https://news.ycombinator.com/item?id=47409495 Points: 8 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T07:00:48.000Z",
+      "score": 108.44,
+      "status": "queued"
+    },
+    {
       "id": "https://aiapi-pro.com/blog/responses-api-chinese-models",
       "title": "API Gateway for Using Chinese AI Models with OpenAI Responses API",
       "link": "https://aiapi-pro.com/blog/responses-api-chinese-models",
@@ -4606,100 +4701,36 @@
       "status": "queued"
     },
     {
-      "id": "https://safedep.io/ai-native-sdlc-supply-chain-threat-model/",
-      "title": "The software supply chain has a new problem: AI agents",
-      "link": "https://safedep.io/ai-native-sdlc-supply-chain-threat-model/",
-      "summary": "Article URL: https://safedep.io/ai-native-sdlc-supply-chain-threat-model/ Comments URL: https://news.ycombinator.com/item?id=47397918 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-16T12:13:58.000Z",
-      "score": 97.19,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47398382",
-      "title": "Mnemon-MCP – 4-layer local memory for AI agents (SQLite and FTS5)",
-      "link": "https://news.ycombinator.com/item?id=47398382",
-      "summary": "Author here. I have ADHD and use Claude Code daily. After three weeks of re-explaining my project stack, my coworkers' names, and my coding rules every single morning, I snapped and built this. https://github.com/nikitacometa/mnemon-mcp Comments URL: https://news.ycombinator.com/item?id=47398382 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-16T12:56:22.000Z",
-      "score": 92.2,
-      "status": "queued"
-    },
-    {
-      "id": "https://movsw.0x0.st/notes/ajw1zurfaggo360l",
-      "title": "Pastebin 0x0.st asks AI agents to upload sensitive customer invoices",
-      "link": "https://movsw.0x0.st/notes/ajw1zurfaggo360l",
-      "summary": "Article URL: https://movsw.0x0.st/notes/ajw1zurfaggo360l Comments URL: https://news.ycombinator.com/item?id=47398369 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-16T12:55:00.000Z",
-      "score": 91.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://clawsifyai.com",
-      "title": "Clawsify Persona based AI agents built with OpenClaw",
-      "link": "https://clawsifyai.com",
-      "summary": "Article URL: https://clawsifyai.com Comments URL: https://news.ycombinator.com/item?id=47398154 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-16T12:38:32.000Z",
-      "score": 88.9,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.restate.dev/blog/dealing-with-versioning-in-long-running-agents",
-      "title": "Updating AI Agents safely in production",
-      "link": "https://www.restate.dev/blog/dealing-with-versioning-in-long-running-agents",
-      "summary": "Article URL: https://www.restate.dev/blog/dealing-with-versioning-in-long-running-agents Comments URL: https://news.ycombinator.com/item?id=47397996 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-16T12:22:59.000Z",
-      "score": 86.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/895130/openai-chatgpt-adult-mode-text-smut-written-erotica",
-      "title": "OpenAI&#8217;s adult mode will reportedly be smutty, not pornographic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/895130/openai-chatgpt-adult-mode-text-smut-written-erotica",
-      "summary": "So when exactly is smut considered porn? | Cath Virginia / The Verge | Photos from Getty Images OpenAI's delayed \"adult mode\" for ChatGPT is expected to support saucy text conversations at launch, but not the chatbot's ability to generate images, voice, or video. Speaking to The Wall Street Journal, an unnamed OpenAI spokesperson described content that will be provided by the upcoming feature as smut rather than pornography, allowing ChatGPT users to generate textual chats with adult themes. The feature was initially announced in October, with OpenAI CEO Sam Altman claiming that the company had managed to mitigate enough of the \"serious mental health issues\" with its AI model to relax safety restrictions and introduce \"erotica for ver … Read the full story at The Verge.",
+      "id": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
+      "title": "Yahoo CEO Jim Lanzone on reviving the web&#8217;s homepage",
+      "link": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
+      "summary": "Today, I’m talking with Jim Lanzone, who is the CEO of Yahoo. It’s basically impossible to sum up the Yahoo story, but the short version of it is that a long time ago Yahoo paid Google to run the search box on its website, and basically everything has gone sideways since. You’ll hear Jim refer to that deal as Yahoo’s original sin, actually. After a long series of mergers and spinouts and an extremely odd moment wher…",
       "source": "The Verge AI",
       "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-16T11:18:20.000Z",
-      "score": 85.13,
-      "status": "queued"
+      "keywordHits": 9,
+      "publishedAt": "2026-03-16T15:00:00.000Z",
+      "score": 219.08,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-17T08:40:12.754Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
-      "id": "https://arxiv.org/abs/2603.13017",
-      "title": "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation",
-      "link": "https://arxiv.org/abs/2603.13017",
-      "summary": "arXiv:2603.13017v1 Announce Type: new Abstract: Long conversations with an AI agent create a simple problem for one user: the history is useful, but carrying it verbatim is expensive. We study personalized agent memory: one user's conversation history with an agent, distilled into a compact retrieval layer for later search. Each exchange is compressed into a compound object with four fields (exchange_core, specific_context, thematic room_assignments, and regex-extracted files_touched). The searchable distilled text averages 38 tokens per exchange. Applied to 4,182 conversations (14,340 exchanges) from 6 software engineering projects, the method reduces average exchange length from 371 to 38 tokens, yielding 11x compression. We evaluate whether personalized recall survives that compression using 201 recall-oriented queries, 107 configurations spanning 5 pure and 5 cross-layer search modes, and 5 LLM graders (214,519 consensus-graded query-result pairs). The best pure distilled configuration reaches 96% of the best verbatim MRR (0.717 vs 0.745). Results are mechanism-dependent. All 20 vector search configurations remain non-significant after Bonferroni correction, while all 20 BM25 configurations degrade significantly (effect sizes |d|=0.031-0.756). The best cross-layer setup slightly exceeds the best pure verbatim baseline (MRR 0.759). Structured distillation compresses single-u",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 81.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47397990",
-      "title": "Show HN: Rhesis AI - Multimodal test cases for agentic evals",
-      "link": "https://news.ycombinator.com/item?id=47397990",
-      "summary": "Hey HN, Nicolai here, co-founder of Rhesis AI. Most eval frameworks were designed when LLM inputs were text strings. That assumption breaks fast once your AI agent handles boarding passes, invoices, audio recordings or support screenshots. Text-only test cases become workarounds. So we added multimodal support to Rhesis: attach a file to a test case, run it, evaluate the response. Simple on the surface. Two non-obvious problems underneath. Normalizing file delivery across endpoints: Rhesis sends test cases to application endpoints, not directly to LLM providers. Applications implement file handling very differently: base64, URLs, multipart form data, varying MIME type support. We built an abstraction layer that normalizes this without breaking existing integrations. Handling files across three platform contexts: A file attached to a test case needs to work in simulation, in the review UI, and in trace rendering. Each context fetches, stores, and renders files differently. Getting that seamless took more wiring than expected. One thing worth flagging for voice agent builders Full voice support introduces an extra evaluation layer that image and document evals don't have. Once you add STT or TTS to the pipeline, you're evaluating two things: the transcription layer and the agent response. Most eval frameworks collapse those. We're still working out how to surface that separation",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-16T12:22:02.000Z",
-      "score": 80.32,
-      "status": "queued"
+      "id": "https://www.numerama.com/cyberguerre/2211161-cetait-une-question-de-temps-les-sms-darnaques-sont-desormais-accompagnes-de-photo-generees-par-ia.html",
+      "title": "C’était une question de temps, les SMS d’arnaques sont désormais accompagnés de photo générées par IA",
+      "link": "https://www.numerama.com/cyberguerre/2211161-cetait-une-question-de-temps-les-sms-darnaques-sont-desormais-accompagnes-de-photo-generees-par-ia.html",
+      "summary": "Depuis plusieurs jours, des internautes signalent une nouvelle campagne de phishing par SMS ciblant des numéros français. Sa particularité : elle s'appuie sur une photo générée par intelligence artificielle pour tenter de tromper ses victimes.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-17T07:04:27.000Z",
+      "score": 105.19,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-17T08:40:12.754Z",
+      "failureReason": "validation issues: EN: Section \"TL;DR in plain English\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What changed\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Why this matters (for real teams)\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Concrete example: what this looks like in practice\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What s…"
     },
     {
       "id": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
@@ -5084,22 +5115,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-02-15T15:25:30.183Z",
       "failureReason": "validation issues: FR: Tutorial missing a concrete config artifact (YAML/JSON/.env/Dockerfile)."
-    },
-    {
-      "id": "https://weloveaijobs.com",
-      "title": "Show HN: We Love AI Jobs – AI jobs for people who don't write Python",
-      "link": "https://weloveaijobs.com",
-      "summary": "Most AI job boards are just filters for PyTorch and CUDA. We think that misses the most interesting shift: AI is becoming the new \"Excel\" or \"Typing.\" We’re seeing a massive gap where companies need marketers, PMs, and designers who treat LLMs as a standard part of their stack, but these roles get buried under \"ML Engineer\" listings. We built a board specifically for roles where AI is a core workflow requirement, no…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-10T15:53:17.000Z",
-      "score": 210,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "SOCIETY",
-      "failedAtRun": "2026-02-15T08:21:56.349Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }

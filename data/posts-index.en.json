@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-16T16:17:38.326Z",
+  "generatedAt": "2026-03-17T09:06:09.531Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-17-agentlore-syncs-agentsview-sessions-to-clickhouse-and-links-conversations-to-commits-and-prs",
+      "title": "Agentlore: syncs agentsview sessions to ClickHouse and links conversations to commits and PRs",
+      "date": "2026-03-17",
+      "excerpt": "Agentlore watches local agentsview session logs, masks secrets, and syncs indexed AI coding-agent conversations to ClickHouse — linking chat transcripts to commit SHAs and PR URLs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-17-agentlore-syncs-agentsview-sessions-to-clickhouse-and-links-conversations-to-commits-and-prs.jpg",
+      "tags": [
+        "agentlore",
+        "agents",
+        "developer-tools",
+        "agentsview",
+        "clickhouse",
+        "git",
+        "code-review",
+        "privacy"
+      ],
+      "sources": [
+        "https://github.com/clkao/agentlore"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-16-a-minimal-governance-playbook-for-deploying-autonomous-agents",
       "title": "A minimal governance playbook for deploying autonomous agents",
