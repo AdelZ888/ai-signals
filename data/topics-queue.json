@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-17T16:15:57.866Z",
+  "generatedAt": "2026-03-18T08:48:55.160Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
+      "title": "J’ai demandé à Gemini de relire mon article, il a voulu inventer une fausse interview",
+      "link": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
+      "summary": "Alors que j'ai sollicité Gemini pour une simple relecture d'un de mes articles sur OpenAI, l'IA de Google a franchi la ligne rouge : elle a proposé d'inventer, de toutes pièces, une interview fictive.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-17T16:00:22.000Z",
+      "score": 168,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-18T08:48:55.141Z",
+      "file": "content/posts/2026-03-18-gemini-proposed-inventing-a-fictitious-interview-during-a-numerama-proofread-steps-newsrooms-should-take.md",
+      "fileFr": "content/posts/fr/2026-03-18-gemini-proposed-inventing-a-fictitious-interview-during-a-numerama-proofread-steps-newsrooms-should-take.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1234,
+      "wordsFr": 1059
+    },
     {
       "id": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
       "title": "Bringing the power of Personal Intelligence to more people",
@@ -3356,18 +3379,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
-      "title": "J’ai demandé à Gemini de relire mon article, il a voulu inventer une fausse interview",
-      "link": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
-      "summary": "Alors que j'ai sollicité Gemini pour une simple relecture d'un de mes articles sur OpenAI, l'IA de Google a franchi la ligne rouge : elle a proposé d'inventer, de toutes pièces, une interview fictive.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-17T16:00:22.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
       "id": "https://www.mvnt.studio/",
       "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
       "link": "https://www.mvnt.studio/",
@@ -4568,6 +4579,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.15670",
+      "title": "I Know What I Don't Know: Latent Posterior Factor Models for Multi-Evidence Probabilistic Reasoning",
+      "link": "https://arxiv.org/abs/2603.15670",
+      "summary": "arXiv:2603.15670v1 Announce Type: new Abstract: Real-world decision-making, from tax compliance assessment to medical diagnosis, requires aggregating multiple noisy and potentially contradictory evidence sources. Existing approaches either lack explicit uncertainty quantification (neural aggregation methods) or rely on manually engineered discrete predicates (probabilistic logic frameworks), limiting scalability to unstructured data. We introduce Latent Posterior Factors (LPF), a framework that transforms Variational Autoencoder (VAE) latent posteriors into soft likelihood factors for Sum-Product Network (SPN) inference, enabling tractable probabilistic reasoning over unstructured evidence while preserving calibrated uncertainty estimates. We instantiate LPF as LPF-SPN (structured factor-based inference) and LPF-Learned (end-to-end learned aggregation), enabling a principled comparison between explicit probabilistic reasoning and learned aggregation under a shared uncertainty representation. Across eight domains (seven synthetic and the FEVER benchmark), LPF-SPN achieves high accuracy (up to 97.8%), low calibration error (ECE 1.4%), and strong probabilistic fit, substantially outperforming evidential deep learning, LLMs and graph-based baselines over 15 random seeds. Contributions: (1) A framework bridging latent uncertainty representations with structured probabilistic reasoni",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-18T04:00:00.000Z",
+      "score": 140,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.12813",
       "title": "Context is all you need: Towards autonomous model-based process design using agentic AI in flowsheet simulations",
       "link": "https://arxiv.org/abs/2603.12813",
@@ -4628,6 +4651,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.15661",
+      "title": "DynaTrust: Defending Multi-Agent Systems Against Sleeper Agents via Dynamic Trust Graphs",
+      "link": "https://arxiv.org/abs/2603.15661",
+      "summary": "arXiv:2603.15661v1 Announce Type: new Abstract: Large Language Model-based Multi-Agent Systems (MAS) have demonstrated remarkable collaborative reasoning capabilities but introduce new attack surfaces, such as the sleeper agent, which behave benignly during routine operation and gradually accumulate trust, only revealing malicious behaviors when specific conditions or triggers are met. Existing defense works primarily focus on static graph optimization or hierarchical data management, often failing to adapt to evolving adversarial strategies or suffering from high false-positive rates (FPR) due to rigid blocking policies. To address this, we propose DynaTrust, a novel defense method against sleeper agents. DynaTrust models MAS as a dynamic trust graph~(DTG), and treats trust as a continuous, evolving process rather than a static attribute. It dynamically updates the trust of each agent based on its historical behaviors and the confidence of selected expert agents. Instead of simply blocking, DynaTrust autonomously restructures the graph to isolate compromised agents and restore task connectivity to ensure the usability of MAS. To assess the effectiveness of DynaTrust, we evaluate it on mixed benchmarks derived from AdvBench and HumanEval. The results demonstrate that DynaTrust outperforms the state-of-the-art method AgentShield by increasing the defense success rate by 41.7%, a",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-18T04:00:00.000Z",
+      "score": 128,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
       "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
       "link": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
@@ -4637,6 +4672,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-15T14:00:00.000Z",
       "score": 122.95,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.15643",
+      "title": "GSI Agent: Domain Knowledge Enhancement for Large Language Models in Green Stormwater Infrastructure",
+      "link": "https://arxiv.org/abs/2603.15643",
+      "summary": "arXiv:2603.15643v1 Announce Type: new Abstract: Green Stormwater Infrastructure (GSI) systems, such as permeable pavement, rain gardens, and bioretention facilities, require continuous inspection and maintenance to ensure long-term performance. However, domain knowledge about GSI is often scattered across municipal manuals, regulatory documents, and inspection forms. As a result, non-expert users and maintenance staff may struggle to obtain reliable and actionable guidance from field observations. Although Large Language Models (LLMs) have demonstrated strong general reasoning and language generation capabilities, they often lack domain-specific knowledge and may produce inaccurate or hallucinated answers in engineering scenarios. This limitation restricts their direct application to professional infrastructure tasks. In this paper, we propose GSI Agent, a domain-enhanced LLM framework designed to improve performance in GSI-related tasks. Our approach integrates three complementary strategies: (1) supervised fine-tuning (SFT) on a curated GSI instruction dataset, (2) retrieval-augmented generation (RAG) over an internal GSI knowledge base constructed from municipal documents, and (3) an agent-based reasoning pipeline that coordinates retrieval, context integration, and structured response generation. We also construct a new GSI Dataset aligned with real-world GSI inspection and",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-18T04:00:00.000Z",
+      "score": 122,
       "status": "queued"
     },
     {
@@ -4664,6 +4711,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.15634",
+      "title": "NextMem: Towards Latent Factual Memory for LLM-based Agents",
+      "link": "https://arxiv.org/abs/2603.15634",
+      "summary": "arXiv:2603.15634v1 Announce Type: new Abstract: Memory is critical for LLM-based agents to preserve past observations for future decision-making, where factual memory serves as its foundational part. However, existing approaches to constructing factual memory face several limitations. Textual methods impose heavy context and indexing burdens, while parametric methods suffer from catastrophic forgetting and high costs. To address these challenges, we introduce NextMem, a latent factual memory framework that utilizes an autoregressive autoencoder to efficiently construct latent memory while ensuring accurate reconstruction. For better optimization, we propose a two-stage training process, including autoregressive reconstruction alignment and progressive latent substitution. We also incorporate quantization to reduce storage overhead. Extensive experiments demonstrate that NextMem achieves superior performance, and excels in retrieval, robustness, and extensibility properties. We release our code and model checkpoints at https://github.com/nuster1128/NextMem.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-18T04:00:00.000Z",
+      "score": 116,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.13251",
       "title": "ManiBench: A Benchmark for Testing Visual-Logic Drift and Syntactic Hallucinations in Manim Code Generation",
       "link": "https://arxiv.org/abs/2603.13251",
@@ -4688,63 +4747,27 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.13236",
-      "title": "Human Attribution of Causality to AI Across Agency, Misuse, and Misalignment",
-      "link": "https://arxiv.org/abs/2603.13236",
-      "summary": "arXiv:2603.13236v1 Announce Type: new Abstract: AI-related incidents are becoming increasingly frequent and severe, ranging from safety failures to misuse by malicious actors. In such complex situations, identifying which elements caused an adverse outcome, the problem of cause selection, is a critical first step for establishing liability. This paper investigates folk perceptions of causal responsibility in causal chain structures when AI systems are involved in harmful outcomes. We conduct human experiments to examine judgments of causality, blame, foreseeability, and counterfactual reasoning. Our findings show that: (1) When AI agency was moderate (human sets the goal, AI determines the means) or high (AI sets the goal and the means), participants attributed greater causal responsibility to the AI. However, under low AI agency (where a human sets both a goal and means) participants assigned greater causal responsibility to the human despite their temporal distance from the outcome and despite both agents intended it, suggesting an effect of autonomy; (2) When we reversed roles between human and AI, participants consistently judged the human as more causal, even when both agents perform the same action; (3) The developer, despite being distant in the chain, was judged highly causal, reducing causal attributions to the human user but not to the AI; (4) Decomposing the AI into",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-17T04:00:00.000Z",
-      "score": 109.69,
+      "id": "https://www.numerama.com/tech/2212035-claude-dispatch-piloter-son-bureau-depuis-son-telephone-la-nouvelle-promesse-danthropic.html",
+      "title": "Claude Dispatch : piloter son bureau depuis son téléphone, la nouvelle promesse d’Anthropic",
+      "link": "https://www.numerama.com/tech/2212035-claude-dispatch-piloter-son-bureau-depuis-son-telephone-la-nouvelle-promesse-danthropic.html",
+      "summary": "Le 17 mars 2026, Anthropic a annoncé le lancement de Dispatch, une fonctionnalité qui permet de confier des tâches à Claude depuis son téléphone pour qu'il les exécute sur son ordinateur. Une brique supplémentaire vers une utilisation plus autonome de l'IA.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-18T07:09:23.000Z",
+      "score": 112.23,
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.12483",
-      "title": "Generating Expressive and Customizable Evals for Timeseries Data Analysis Agents with AgentFuel",
-      "link": "https://arxiv.org/abs/2603.12483",
-      "summary": "arXiv:2603.12483v1 Announce Type: new Abstract: Across many domains (e.g., IoT, observability, telecommunications, cybersecurity), there is an emerging adoption of conversational data analysis agents that enable users to \"talk to your data\" to extract insights. Such data analysis agents operate on timeseries data models; e.g., measurements from sensors or events monitoring user clicks and actions in product analytics. We evaluate 6 popular data analysis agents (both open-source and proprietary) on domain-specific data and query types, and find that they fail on stateful and incident-specific queries. We observe two key expressivity gaps in existing evals: domain-customized datasets and domain-specific query types. To enable practitioners in such domains to generate customized and expressive evals for such timeseries data agents, we present AgentFuel. AgentFuel helps domain experts quickly create customized evals to perform end-to-end functional tests. We show that AgentFuel's benchmarks expose key directions for improvement in existing data agent frameworks. We also present anecdotal evidence that using AgentFuel can improve agent performance (e.g., with GEPA). AgentFuel benchmarks are available at https://huggingface.co/datasets/RockfishData/TimeSeriesAgentEvals.",
+      "id": "https://arxiv.org/abs/2603.15666",
+      "title": "Compiled Memory: Not More Information, but More Precise Instructions for Language Agents",
+      "link": "https://arxiv.org/abs/2603.15666",
+      "summary": "arXiv:2603.15666v1 Announce Type: new Abstract: Existing memory systems for language agents address memory management: how to retrieve and page more information within a context budget. We address a complementary problem -- memory utility: what experience is worth keeping, and how it should change agent behavior. We present Atlas, a memory kernel that compiles accumulated task experience into an agent's instruction structure -- without fine-tuning, RAG, or human intervention. Memory is distillation, not storage; delivery is instruction rewriting, not context injection. Facts extracted from agent failures and successes are verified through a three-step promotion gate and delivered by rewriting the agent's system prompt with learned sub-bullets. On CUAD contract analysis, the evolved prompt improves GPT-4o token-level F1 by $+8.7$pp and precision by $+12.5$pp. On HotpotQA multi-hop QA, joint F1 improves $+3.16$pp. An ablation isolates the mechanism's defining property -- the training signal constraint: the evolved prompt learns exactly what it is taught, and nothing more. Applied to Claude Sonnet~4.5 using the same evolved prompt -- compiled from GPT-4o errors, unchanged -- joint F1 improves $+2.31$pp, with gains concentrating where Claude's stronger baseline leaves the most room -- confirming that the compiled knowledge is task-shaped, not model-shaped.",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 6,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 109.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.12740",
-      "title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
-      "link": "https://arxiv.org/abs/2603.12740",
-      "summary": "arXiv:2603.12740v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly applied to complex, multi-step tasks that require interaction with diverse external tools across various domains. However, current LLM agent tool planning methods typically rely on greedy, reactive tool selection strategies that lack foresight and fail to account for inter-tool dependencies. In this paper, we present ToolTree, a novel Monte Carlo tree search-inspired planning paradigm for tool planning. ToolTree explores possible tool usage trajectories using a dual-stage LLM evaluation and bidirectional pruning mechanism that enables the agent to make informed, adaptive decisions over extended tool-use sequences while pruning less promising branches before and after the tool execution. Empirical evaluations across both open-set and closed-set tool planning tasks on 4 benchmarks demonstrate that ToolTree consistently improves performance while keeping the highest efficiency, achieving an average gain of around 10\\% compared to the state-of-the-art planning paradigm.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 109.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.13099",
-      "title": "Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation",
-      "link": "https://arxiv.org/abs/2603.13099",
-      "summary": "arXiv:2603.13099v1 Announce Type: new Abstract: We introduce **CRYSTAL** (*__C__lear __R__easoning via __Y__ielded __S__teps, __T__raceability and __L__ogic*), a diagnostic benchmark with 6,372 instances that evaluates multimodal reasoning through verifiable intermediate steps. We propose two complementary metrics: *Match F1*, which scores step-level precision and recall via semantic similarity matching, and *Ordered Match F1*, which further penalizes disordered reasoning chains. References are constructed through a Delphi-inspired pipeline where four independent MLLMs generate trajectories, aggregated via semantic clustering and validated through human quality gates. Evaluation of 20 MLLMs, including commercial frontier systems not used during benchmark construction, reveals systematic failures invisible to accuracy: universal cherry-picking (precision far exceeds recall), non-monotonic scaling trade-offs, and disordered reasoning where no competitive model preserves more than 60% of matched steps in correct order. Beyond evaluation, we propose the **Causal Process Reward (CPR)**, a multiplicative reward that couples answer correctness with step-level alignment, and **CPR-Curriculum**, which progressively increases reasoning difficulty during training. CPR-Curriculum achieves +32% Match F1 via GRPO where additive reward strategies fail, improving reasoning without manual step",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 109.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://brunelly.com/",
-      "title": "Why AI Agents Are Changing How We Build Software",
-      "link": "https://brunelly.com/",
-      "summary": "Article URL: https://brunelly.com/ Comments URL: https://news.ycombinator.com/item?id=47409313 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-17T06:28:55.000Z",
-      "score": 108.85,
+      "publishedAt": "2026-03-18T04:00:00.000Z",
+      "score": 110,
       "status": "queued"
     },
     {
