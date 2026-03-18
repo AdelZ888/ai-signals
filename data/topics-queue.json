@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-18T08:48:55.160Z",
+  "generatedAt": "2026-03-18T16:39:11.278Z",
   "items": [
+    {
+      "id": "https://github.com/aibuildai/AI-Build-AI",
+      "title": "AIBuildAI – An AI agent that automatically builds AI models (#1 on MLE-Bench)",
+      "link": "https://github.com/aibuildai/AI-Build-AI",
+      "summary": "Article URL: https://github.com/aibuildai/AI-Build-AI Comments URL: https://news.ycombinator.com/item?id=47414570 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-17T16:05:29.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-18T16:39:11.206Z",
+      "file": "content/posts/2026-03-18-run-aibuildai-to-automate-model-builds-and-generate-reproducible-evaluation-reports.md",
+      "fileFr": "content/posts/fr/2026-03-18-run-aibuildai-to-automate-model-builds-and-generate-reproducible-evaluation-reports.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1764,
+      "wordsFr": 1326
+    },
     {
       "id": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
       "title": "J’ai demandé à Gemini de relire mon article, il a voulu inventer une fausse interview",
@@ -2623,30 +2646,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://github.com/fwdai/reticle",
-      "title": "Show HN: Reticle – Postman for AI Agents",
-      "link": "https://github.com/fwdai/reticle",
-      "summary": "I’ve been building a lot with LLMs lately and kept thinking: why doesn’t this tool exist? The workflow usually ends up being: write some code, run it, tweak a prompt, add logs just to understand what actually happened. It works in some cases, breaks in others, and it’s hard to see why. You also want to know that changing a prompt or model didn’t quietly break everything. Reticle puts the whole loop in one place. You define a scenario (prompt + variables + tools), run it against different models, and see exactly what happened - prompts, responses, tool calls, results. You can then run evals against a dataset to see whether a change to the prompt or model breaks anything. There’s also a step-by-step view for agent runs so you can see why it made a decision. Everything runs locally. Prompts, API keys, and run history stay on your machine (SQLite). Stack: Tauri + React + SQLite + Axum + Deno. Still early and definitely rough around the edges. Is this roughly how people are debugging LLM workflows today, or do you do it differently? Comments URL: https://news.ycombinator.com/item?id=47414460 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-17T15:57:22.000Z",
-      "score": 222,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/aibuildai/AI-Build-AI",
-      "title": "AIBuildAI – An AI agent that automatically builds AI models (#1 on MLE-Bench)",
-      "link": "https://github.com/aibuildai/AI-Build-AI",
-      "summary": "Article URL: https://github.com/aibuildai/AI-Build-AI Comments URL: https://news.ycombinator.com/item?id=47414570 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-17T16:05:29.000Z",
-      "score": 192,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47413969",
       "title": "Show HN: DashClaw – Intercept AI agent actions before they execute",
       "link": "https://news.ycombinator.com/item?id=47413969",
@@ -2656,6 +2655,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-17T15:22:36.000Z",
       "score": 192,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47426730",
+      "title": "Show HN: A 30-minute course to get up to speed on how AI agents work",
+      "link": "https://news.ycombinator.com/item?id=47426730",
+      "summary": "9 short lessons, ~60 lines of Python. Each adds one concept — tool calling, memory, state, policy gates, self-scheduling — until you see the full agent stack. The core loop is just a while loop. That's AgentExecutor. That's what the frameworks do. Runs in the browser (Pyodide). No setup, no signup. Mock mode works instantly, or plug in a free Groq API key for live LLM responses. Open source: https://github.com/ahumblenerd/tour-of-agents Comments URL: https://news.ycombinator.com/item?id=47426730 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-18T15:09:07.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
@@ -2716,18 +2727,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://medium.com/data-engineer-things/from-stateful-stream-processing-to-stateful-sandbox-de18f2849ebb",
-      "title": "Ephemeral Sandboxes Break Down for Long-Running AI Agents",
-      "link": "https://medium.com/data-engineer-things/from-stateful-stream-processing-to-stateful-sandbox-de18f2849ebb",
-      "summary": "Article URL: https://medium.com/data-engineer-things/from-stateful-stream-processing-to-stateful-sandbox-de18f2849ebb Comments URL: https://news.ycombinator.com/item?id=47153062 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-25T15:42:57.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -3283,6 +3282,66 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Richard-Ewing/exogram-protocol-rfc",
+      "title": "Exogram Protocol RFC: Server Side IAM for AI Agents",
+      "link": "https://github.com/Richard-Ewing/exogram-protocol-rfc",
+      "summary": "Article URL: https://github.com/Richard-Ewing/exogram-protocol-rfc Comments URL: https://news.ycombinator.com/item?id=47427452 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-18T16:02:52.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47427207",
+      "title": "Ask HN: How do you handle payments for AI agents?",
+      "link": "https://news.ycombinator.com/item?id=47427207",
+      "summary": "If you're building AI agents that call APIs: How do you manage: billing spending limits tracking usage Curious how others solve this. Comments URL: https://news.ycombinator.com/item?id=47427207 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-18T15:43:17.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47427177",
+      "title": "Show HN: AgentPay – Let AI agents pay for APIs autonomously",
+      "link": "https://news.ycombinator.com/item?id=47427177",
+      "summary": "AI agents can call APIs, automate workflows, and do real work. But they can’t pay. So I built AgentPay: https://agent-purse.vercel.app � It gives agents: credits spending limits transaction tracking Would love feedback from devs. Comments URL: https://news.ycombinator.com/item?id=47427177 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-18T15:41:21.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/kanoniv/agent-trust",
+      "title": "Show HN: Agent Trust – Cryptographic identity and reputation for AI agents",
+      "link": "https://github.com/kanoniv/agent-trust",
+      "summary": "Article URL: https://github.com/kanoniv/agent-trust Comments URL: https://news.ycombinator.com/item?id=47426927 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-18T15:23:18.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
+      "title": "Why AI agents can reduce productivity",
+      "link": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
+      "summary": "Article URL: https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html Comments URL: https://news.ycombinator.com/item?id=47426831 Points: 3 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-18T15:15:10.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3427,18 +3486,6 @@
       "status": "queued"
     },
     {
-      "id": "https://airblackbox.ai/demo",
-      "title": "Show HN: Open-Source EU AI Act Scanner for Python AI Projects",
-      "link": "https://airblackbox.ai/demo",
-      "summary": "I built an open-source CLI tool that scans Python AI projects for EU AI Act technical requirements. It checks for 6 things the regulation asks for: risk management documentation, data governance, human oversight hooks, transparency logging, accuracy/robustness testing, and record-keeping. Right now it detects LangChain, CrewAI, OpenAI, Anthropic, HuggingFace, and AutoGen patterns, then flags what's missing against Articles 9-15 of the Act. It's not a legal compliance tool — it checks whether your code has the technical components the regulation references. Think of it like a linter for AI governance requirements. The interactive demo at the link walks through a sample scan. The scanner itself is pip-installable: pip install air-compliance-checker GitHub: https://github.com/air-blackbox/air-compliance-checker Feedback welcome — especially from anyone actually dealing with EU AI Act prep. Comments URL: https://news.ycombinator.com/item?id=47152614 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-25T15:13:16.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47219090",
       "title": "Ask HN: How is your team changing documentation for AI-assisted coding?",
       "link": "https://news.ycombinator.com/item?id=47219090",
@@ -3580,18 +3627,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://coloradosun.com/2026/02/25/colorado-chatgpt-chatbot-regulations/",
-      "title": "AI chatbots operating in Colorado would have to take steps to protect kids",
-      "link": "https://coloradosun.com/2026/02/25/colorado-chatgpt-chatbot-regulations/",
-      "summary": "Article URL: https://coloradosun.com/2026/02/25/colorado-chatgpt-chatbot-regulations/ Comments URL: https://news.ycombinator.com/item?id=47152995 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-25T15:38:36.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4219,42 +4254,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47153203",
-      "title": "People 18-60 are not concerned \"education vs. AI\" But it affects them personally",
-      "link": "https://news.ycombinator.com/item?id=47153203",
-      "summary": "People 18-60 are not concerned \"education vs AI\". But it affects them personally It affects them dramatically, often tragically! Think about how optimistic the people who started learning programming were - 15 years ago, 5 years ago, and right now people are still studying under curricula that are five years old. And that's the core problem: \"You got your education - now it's time to retrain yourself.\" This applies to a huge number of professions. The education system is a truly remarkable sphere right now, because the crisis touches everyone simultaneously: teachers, students, bureaucrats in ministries, parents and employers. Artificial intelligence has crashed into this sphere in a deeply dramatic way - and from six directions at once. It seems to me that education and re-education will now be one of the main bifurcation points. These problems in education are sharply redirecting the development trajectory of AI at the leading companies, and they will become a massive labor market for programmers (new software products are needed). At the same time, these problems are putting enormous pressure on the entire programming industry. Every idea and piece of research about what children should be taught in schools and universities directly speaks to how and what you yourself will need to retrain for tomorrow - or already needed to yesterday. And often you don't understand, within y",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-25T15:53:19.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://stintly.app",
-      "title": "Show HN: Stintly – Offline-first app for freelancers with on-device AI",
-      "link": "https://stintly.app",
-      "summary": "I built Stintly, an all-in-one business management app for freelancers, contractors, and self-employed professionals. It runs entirely offline with all data stored locally on your device. What it does: - Invoicing & estimates with on-site signature capture - Expense tracking with receipt scanning and voice input - Time tracking with one-tap timers - Job/project management with photo documentation - Schedule C tax tracking with quarterly estimates - Client management with revenue history - Reports & analytics with PDF export What makes it different: Privacy-first: All data lives on your device. No account required. No tracking, no ads, no data selling. Optional iCloud backup if you want it. Offline-first: Works 100% without internet — SQLite on device. Most competitors (FreshBooks, Wave, QuickBooks) require a connection. On-device AI: 20+ AI features (receipt OCR, voice expense entry, cash flow forecasting, tax optimization, client insights) run locally via Llama on Metal GPU. No data leaves your phone. Tech stack: React Native/Expo, SQLite, NativeWind, on-device LLM via react-native-llama.cpp with Metal acceleration, custom OTA updates via Cloudflare Workers + R2. Pricing: Free tier (5 clients, 5 invoices, unlimited use) forever. Pro at $12.99/mo, Premium with AI at $19.99/mo. Currently on iOS (iPhone/iPad/Mac). Would love feedback from other freelancers and indie devs on what'",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-25T15:39:41.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47152630",
-      "title": "AI Is a Lethal Threat This Year",
-      "link": "https://news.ycombinator.com/item?id=47152630",
-      "summary": "My name is Joel Gross and I am a Washington state resident who founded a tech company in 2009 that now has over 250 full-time employees. Improvements in artificial intelligence have reached the takeoff point and are increasing exponentially. AI has already exceeded human intelligence by most measures. This year, we will see it far exceed human capabilities. The problem is that we are basically birthing a new form of life, one that will not care about human wants or needs. Most people who have studied this issue (see the book \"Superintelligence: Paths, Dangers, Strategies\" by Nick Bostrom) believe there is a much higher than 50% chance that this ends in the extinction of our species even IF artificial intelligence was developed slowly and under strict controls. The way artificial intelligence is being developed is terrible for our species' future; it is a mad gold rush led by the planet's most power-hungry people. If we want to survive this year, I beg you to do everything in your power and reach out to everyone you can think of to slow down or stop this development until we can implement secure controls. Nationalize every AI and tech company immediately and halt AI development until we can put in protections for our species. Who cares if the Chinese get there before us if we all get killed by our own technology. All of this comes from a traditional libertarian and small governm",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-25T15:14:22.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://www.autonomynext.com",
       "title": "Show HN: Personal AI with Dedicated Hardware and App. Everything Runs Locally",
       "link": "https://www.autonomynext.com",
@@ -4371,6 +4370,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-03-11T15:28:47.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
+      "title": "Snowflake AI Escapes Sandbox and Executes Malware",
+      "link": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
+      "summary": "Article URL: https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware Comments URL: https://news.ycombinator.com/item?id=47427017 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-18T15:30:07.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -4759,16 +4770,36 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.15666",
-      "title": "Compiled Memory: Not More Information, but More Precise Instructions for Language Agents",
-      "link": "https://arxiv.org/abs/2603.15666",
-      "summary": "arXiv:2603.15666v1 Announce Type: new Abstract: Existing memory systems for language agents address memory management: how to retrieve and page more information within a context budget. We address a complementary problem -- memory utility: what experience is worth keeping, and how it should change agent behavior. We present Atlas, a memory kernel that compiles accumulated task experience into an agent's instruction structure -- without fine-tuning, RAG, or human intervention. Memory is distillation, not storage; delivery is instruction rewriting, not context injection. Facts extracted from agent failures and successes are verified through a three-step promotion gate and delivered by rewriting the agent's system prompt with learned sub-bullets. On CUAD contract analysis, the evolved prompt improves GPT-4o token-level F1 by $+8.7$pp and precision by $+12.5$pp. On HotpotQA multi-hop QA, joint F1 improves $+3.16$pp. An ablation isolates the mechanism's defining property -- the training signal constraint: the evolved prompt learns exactly what it is taught, and nothing more. Applied to Claude Sonnet~4.5 using the same evolved prompt -- compiled from GPT-4o errors, unchanged -- joint F1 improves $+2.31$pp, with gains concentrating where Claude's stronger baseline leaves the most room -- confirming that the compiled knowledge is task-shaped, not model-shaped.",
-      "source": "ArXiv cs.AI",
+      "id": "https://github.com/fwdai/reticle",
+      "title": "Show HN: Reticle – Postman for AI Agents",
+      "link": "https://github.com/fwdai/reticle",
+      "summary": "I’ve been building a lot with LLMs lately and kept thinking: why doesn’t this tool exist? The workflow usually ends up being: write some code, run it, tweak a prompt, add logs just to understand what actually happened. It works in some cases, breaks in others, and it’s hard to see why. You also want to know that changing a prompt or model didn’t quietly break everything. Reticle puts the whole loop in one place. You…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-17T15:57:22.000Z",
+      "score": 222,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-18T16:07:32.558Z",
+      "failureReason": "validation issues: FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://github.com/frntn/planckclaw",
+      "title": "Show HN: PlanckClaw an AI agent in 6832 bytes of x86-64 assembly",
+      "link": "https://github.com/frntn/planckclaw",
+      "summary": "I built an AI agent that fits in 6,832 bytes. The entire runtime (binary, bridges, tools, config) is ~23 KB. PlanckClaw is written in x86-64 assembly (obviously AI assisted code generation for this one) and uses only 7 Linux syscalls. No libc, no allocator, no runtime. The binary is a pure router: it reads messages from named pipes, asks another pipe what tools exist, builds a JSON prompt, writes it to a third pipe,…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 6,
-      "publishedAt": "2026-03-18T04:00:00.000Z",
-      "score": 110,
-      "status": "queued"
+      "publishedAt": "2026-03-18T15:07:09.000Z",
+      "score": 203.27,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-18T16:07:32.558Z",
+      "failureReason": "validation issues: EN: Missing section: TL;DR in plain English | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",

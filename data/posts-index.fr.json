@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T08:48:55.153Z",
+  "generatedAt": "2026-03-18T16:39:11.219Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-03-18-run-aibuildai-to-automate-model-builds-and-generate-reproducible-evaluation-reports",
+      "title": "Exécuter AIBuildAI pour automatiser la création de modèles et générer des rapports d'évaluation reproductibles",
+      "date": "2026-03-18",
+      "excerpt": "Guide pratique pour cloner et lancer AIBuildAI (référencé sur GitHub). En 20–120 minutes vous pouvez exécuter un build de démonstration, générer un rapport d'évaluation et reproduire le résultat.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-18-run-aibuildai-to-automate-model-builds-and-generate-reproducible-evaluation-reports.jpg",
+      "tags": [
+        "AIBuildAI",
+        "IA",
+        "apprentissage-automatique",
+        "automatisation",
+        "MLOps",
+        "répétabilité",
+        "développeurs"
+      ],
+      "sources": [
+        "https://github.com/aibuildai/AI-Build-AI"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-03-17-agentlore-syncs-agentsview-sessions-to-clickhouse-and-links-conversations-to-commits-and-prs",
