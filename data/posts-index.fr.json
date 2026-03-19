@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-19T08:58:31.025Z",
+  "generatedAt": "2026-03-19T16:03:09.034Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python",
+      "title": "Tour of Agents : cours navigateur en 9 leçons pour comprendre une boucle d'agent minimal en ~60 lignes Python",
+      "date": "2026-03-19",
+      "excerpt": "Un cours interactif et court (exécuté dans le navigateur via Pyodide) qui implémente, leçon après leçon, une boucle d'agent minimale : appels d'outils, mémoire, état, règles (policy gates) et auto-planification. Mode mock gratuit ou option Groq pour LLM en direct.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python.jpg",
+      "tags": [
+        "AI",
+        "agents",
+        "python",
+        "pyodide",
+        "groq",
+        "éducation",
+        "développement"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47426730"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 30,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-19-when-agents-replace-boilerplate-shifting-engineering-to-orchestration-testing-and-safety",
       "title": "Quand les agents remplacent le code standard : passer de l'implémentation à l'orchestration, aux tests et à la sécurité",

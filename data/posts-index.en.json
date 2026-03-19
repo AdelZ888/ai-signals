@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-19T08:58:31.023Z",
+  "generatedAt": "2026-03-19T16:03:09.035Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python",
+      "title": "Tour of Agents: 9-lesson, browser-run course that implements a minimal AI agent in ~60 lines of Python",
+      "date": "2026-03-19",
+      "excerpt": "Nine lessons implement a minimal agent loop—tool calls, memory, state, policy gates, self-scheduling—in about 60 lines of Python. Run in-browser via Pyodide with mock or Groq LLM.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python.jpg",
+      "tags": [
+        "agents",
+        "tutorial",
+        "python",
+        "pyodide",
+        "llm",
+        "open-source",
+        "education",
+        "groq"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47426730"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 30,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-19-when-agents-replace-boilerplate-shifting-engineering-to-orchestration-testing-and-safety",
       "title": "When agents replace boilerplate: shifting engineering to orchestration, testing, and safety",

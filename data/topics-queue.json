@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-19T08:58:31.032Z",
+  "generatedAt": "2026-03-19T16:03:09.095Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47426730",
+      "title": "Show HN: A 30-minute course to get up to speed on how AI agents work",
+      "link": "https://news.ycombinator.com/item?id=47426730",
+      "summary": "9 short lessons, ~60 lines of Python. Each adds one concept — tool calling, memory, state, policy gates, self-scheduling — until you see the full agent stack. The core loop is just a while loop. That's AgentExecutor. That's what the frameworks do. Runs in the browser (Pyodide). No setup, no signup. Mock mode works instantly, or plug in a free Groq API key for live LLM responses. Open source: https://github.com/ahumb…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-18T15:09:07.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-19T16:03:09.022Z",
+      "file": "content/posts/2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python.md",
+      "fileFr": "content/posts/fr/2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 30,
+      "wordsEn": 1411,
+      "wordsFr": 1484
+    },
     {
       "id": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
       "title": "The future of code is exciting and terrifying",
@@ -2669,18 +2692,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47426730",
-      "title": "Show HN: A 30-minute course to get up to speed on how AI agents work",
-      "link": "https://news.ycombinator.com/item?id=47426730",
-      "summary": "9 short lessons, ~60 lines of Python. Each adds one concept — tool calling, memory, state, policy gates, self-scheduling — until you see the full agent stack. The core loop is just a while loop. That's AgentExecutor. That's what the frameworks do. Runs in the browser (Pyodide). No setup, no signup. Mock mode works instantly, or plug in a free Groq API key for live LLM responses. Open source: https://github.com/ahumblenerd/tour-of-agents Comments URL: https://news.ycombinator.com/item?id=47426730 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-18T15:09:07.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://twitter.com/whp_wessel/status/2029933535369343195",
       "title": "Show HN: I built an opinionated AI agent to respond to EU consultations",
       "link": "https://twitter.com/whp_wessel/status/2029933535369343195",
@@ -2726,30 +2737,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://proxybase.xyz",
-      "title": "ProxyBase – AI Infrastructure for Agents",
-      "link": "https://proxybase.xyz",
-      "summary": "Article URL: https://proxybase.xyz Comments URL: https://news.ycombinator.com/item?id=47167689 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-26T15:50:13.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/pablodelucca/pixel-agents",
-      "title": "Pixel Agents: AI agents animated as pixel art characters in a virtual office",
-      "link": "https://github.com/pablodelucca/pixel-agents",
-      "summary": "Article URL: https://github.com/pablodelucca/pixel-agents Comments URL: https://news.ycombinator.com/item?id=47167543 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-26T15:40:37.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -3437,6 +3424,18 @@
       "status": "queued"
     },
     {
+      "id": "https://medium.com/@bilalimamogluu/most-ai-agent-debugging-is-just-expensive-log-reading-b51e6266ebff",
+      "title": "Cut AI debugging tokens by 60% by grouping test failures",
+      "link": "https://medium.com/@bilalimamogluu/most-ai-agent-debugging-is-just-expensive-log-reading-b51e6266ebff",
+      "summary": "Article URL: https://medium.com/@bilalimamogluu/most-ai-agent-debugging-is-just-expensive-log-reading-b51e6266ebff Comments URL: https://news.ycombinator.com/item?id=47440717 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-19T15:04:06.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://www.mvnt.studio/",
       "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
       "link": "https://www.mvnt.studio/",
@@ -3557,6 +3556,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/cyberguerre/2213559-meta-un-agent-ia-provoque-une-fuite-de-donnees-interne.html",
+      "title": "Meta : un agent IA provoque une fuite de données interne",
+      "link": "https://www.numerama.com/cyberguerre/2213559-meta-un-agent-ia-provoque-une-fuite-de-donnees-interne.html",
+      "summary": "D'après un article publié le 18 mars 2026 par le média américain The Information, un agent d'intelligence artificielle déployé par Meta en interne a provoqué une fuite de données. L'incident a été jugé suffisamment grave pour déclencher une alerte de sécurité majeure.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-19T14:58:26.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/spacelobster88/centurion",
       "title": "Centurion – K8s-style resource scheduler for AI coding agents (open source)",
       "link": "https://github.com/spacelobster88/centurion",
@@ -3626,42 +3637,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude",
-      "title": "Trump admin moves toward blacklisting Anthropic in AI safeguards fight",
-      "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude",
-      "summary": "Article URL: https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude Comments URL: https://news.ycombinator.com/item?id=47167687 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-26T15:50:13.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6043174",
-      "title": "Law as Computation: AI Must Become a Normative Agent",
-      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6043174",
-      "summary": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6043174 Comments URL: https://news.ycombinator.com/item?id=47167469 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-26T15:34:07.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/xeloxa/WP-Hunter",
-      "title": "Show HN: WP-Hunter, WP recon and SAST tool (building Agentic AI pipeline)",
-      "link": "https://github.com/xeloxa/WP-Hunter",
-      "summary": "Article URL: https://github.com/xeloxa/WP-Hunter Comments URL: https://news.ycombinator.com/item?id=47167211 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-26T15:17:22.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4133,6 +4108,18 @@
       "status": "queued"
     },
     {
+      "id": "https://hellochinatech.com/p/openclaw-china-us-agent-divide",
+      "title": "OpenClaw and the China-US AI Agent Divide",
+      "link": "https://hellochinatech.com/p/openclaw-china-us-agent-divide",
+      "summary": "Article URL: https://hellochinatech.com/p/openclaw-china-us-agent-divide Comments URL: https://news.ycombinator.com/item?id=47441167 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-19T15:30:34.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4214,6 +4201,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-01T14:09:27.000Z",
       "score": 150.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://bench.evidra.cc/",
+      "title": "HN: We benchmarked 8 AI models on 36 real Kubernetes scenarios for $40",
+      "link": "https://bench.evidra.cc/",
+      "summary": "Article URL: https://bench.evidra.cc/ Comments URL: https://news.ycombinator.com/item?id=47440032 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-19T14:22:49.000Z",
+      "score": 150.26,
       "status": "queued"
     },
     {
@@ -4345,6 +4344,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-03-18T15:30:07.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://chromewebstore.google.com/detail/llm-check-ai-readiness-vi/oalgfkbijifcmkbibinfoppkmhckjjcj",
+      "title": "Check your websites AI visibility directly from the browser in 1 click",
+      "link": "https://chromewebstore.google.com/detail/llm-check-ai-readiness-vi/oalgfkbijifcmkbibinfoppkmhckjjcj",
+      "summary": "Article URL: https://chromewebstore.google.com/detail/llm-check-ai-readiness-vi/oalgfkbijifcmkbibinfoppkmhckjjcj Comments URL: https://news.ycombinator.com/item?id=47440971 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-19T15:18:50.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -4685,6 +4696,18 @@
       "status": "queued"
     },
     {
+      "id": "https://regatta.dev/blog/nvidia-agentic-era-database-bottleneck/",
+      "title": "How to fix the Agentic AI bottleneck: the database",
+      "link": "https://regatta.dev/blog/nvidia-agentic-era-database-bottleneck/",
+      "summary": "Article URL: https://regatta.dev/blog/nvidia-agentic-era-database-bottleneck/ Comments URL: https://news.ycombinator.com/item?id=47440106 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-19T14:26:30.000Z",
+      "score": 117.52,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.17310",
       "title": "InfoDensity: Rewarding Information-Dense Traces for Efficient Reasoning",
       "link": "https://arxiv.org/abs/2603.17310",
@@ -4778,6 +4801,42 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-19T04:00:00.000Z",
       "score": 104.58,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
+      "title": "Adobe’s AI image generator can now be trained on your own art",
+      "link": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
+      "summary": "Just feed your images into the bot and it’ll try to mimic specific styles and aesthetics. | Image: Adobe Adobe is launching customizable AI image generators that can mimic specific artistic styles and character designs. The Firefly Custom Models are available in public beta starting today, allowing creators and brands to train a model on their own assets to ensure generated images follow a consistent aesthetic for characters, illustrations, and photography. The tool aims to streamline workflows for teams and creators that need to produce high volumes of content, providing a reusable foundation that preserves visual consistency across multiple projects, instead of having to start from scratch each time. Adobe says that custom models can help pr … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-19T13:00:00.000Z",
+      "score": 83.19,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.17021",
+      "title": "Generative AI-assisted Participatory Modeling in Socio-Environmental Planning under Deep Uncertainty",
+      "link": "https://arxiv.org/abs/2603.17021",
+      "summary": "arXiv:2603.17021v1 Announce Type: new Abstract: Socio-environmental planning under deep uncertainty requires researchers to identify and conceptualize problems before exploring policies and deploying plans. In practice and model-based planning approaches, this problem conceptualization process often relies on participatory modeling to translate stakeholders' natural-language descriptions into a quantitative model, making this process complex and time-consuming. To facilitate this process, we propose a templated workflow that uses large language models for an initial conceptualization process. During the workflow, researchers can use large language models to identify the essential model components from stakeholders' intuitive problem descriptions, explore their diverse perspectives approaching the problem, assemble these components into a unified model, and eventually implement the model in Python through iterative communication. These results will facilitate the subsequent socio-environmental planning under deep uncertainty steps. Using ChatGPT 5.2 Instant, we demonstrated this workflow on the lake problem and an electricity market problem, both of which demonstrate socio-environmental planning problems. In both cases, acceptable outputs were obtained after a few iterations with human verification and refinement. These experiments indicated that large language models can serve",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-19T04:00:00.000Z",
+      "score": 76.07,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.17324",
+      "title": "ShuttleEnv: An Interactive Data-Driven RL Environment for Badminton Strategy Modeling",
+      "link": "https://arxiv.org/abs/2603.17324",
+      "summary": "arXiv:2603.17324v1 Announce Type: new Abstract: We present ShuttleEnv, an interactive and data-driven simulation environment for badminton, designed to support reinforcement learning and strategic behavior analysis in fast-paced adversarial sports. The environment is grounded in elite-player match data and employs explicit probabilistic models to simulate rally-level dynamics, enabling realistic and interpretable agent-opponent interactions without relying on physics-based simulation. In this demonstration, we showcase multiple trained agents within ShuttleEnv and provide live, step-by-step visualization of badminton rallies, allowing attendees to explore different play styles, observe emergent strategies, and interactively analyze decision-making behaviors. ShuttleEnv serves as a reusable platform for research, visualization, and demonstration of intelligent agents in sports AI. Our ShuttleEnv demo video URL: https://drive.google.com/file/d/1hTR4P16U27H2O0-w316bR73pxE2ucczX/view",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-19T04:00:00.000Z",
+      "score": 76.07,
       "status": "queued"
     },
     {
