@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-19T16:03:09.095Z",
+  "generatedAt": "2026-03-20T08:37:35.730Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
+      "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
+      "summary": "If you've got strong creative instincts, the ability to authentically portray emotion, and are capable of staying true to a character's voice throughout a scene, there's a job listing calling for your experience. The catch: You won't be performing in a theater, a film studio, or an underground performance space. You'd be using your talents to train an AI model for \"one of the leading AI companies,\" according to the…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-15T14:00:00.000Z",
+      "score": 122.95,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-03-20T08:37:35.711Z",
+      "file": "content/posts/2026-03-20-improv-actors-hired-to-record-emotional-performances-for-ai-training-what-performers-and-employers-should-know.md",
+      "fileFr": "content/posts/fr/2026-03-20-improv-actors-hired-to-record-emotional-performances-for-ai-training-what-performers-and-employers-should-know.md",
+      "generationMode": "llm",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1481,
+      "wordsFr": 1387
+    },
     {
       "id": "https://news.ycombinator.com/item?id=47426730",
       "title": "Show HN: A 30-minute course to get up to speed on how AI agents work",
@@ -2740,30 +2763,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47177906",
-      "title": "Build your own AI Agents in 4 Mins",
-      "link": "https://news.ycombinator.com/item?id=47177906",
-      "summary": "Fwdslash is a no-code AI agent builder that lets users create and deploy conversational agents in 4 minutes. It automates interactions, qualifies leads, and integrates with 6,000+ apps through Zapier. Comments URL: https://news.ycombinator.com/item?id=47177906 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T08:06:44.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://takeinterest.ai/guardclaw",
-      "title": "Guardclaw – 7 layers between your AI agents and disaster",
-      "link": "https://takeinterest.ai/guardclaw",
-      "summary": "Article URL: https://takeinterest.ai/guardclaw Comments URL: https://news.ycombinator.com/item?id=47177832 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T07:56:19.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://alba-run.vercel.app/",
       "title": "Show HN: Alba – Earn and bid on unique software using idle AI credits",
       "link": "https://alba-run.vercel.app/",
@@ -3484,6 +3483,18 @@
       "status": "queued"
     },
     {
+      "id": "https://asaagent.xyz",
+      "title": "Show HN: I built an AI agent that does marketing for my apps",
+      "link": "https://asaagent.xyz",
+      "summary": "I make iOS apps, been doing it for about five years now. Apple Search Ads ended up being my main paid channel - no creatives needed, just keywords and bids, feels closer to engineering than marketing. Also the only channel left where you get actual deterministic attribution, everything else is probabilistic mess. Anyway the work itself is mind-numbing. Bid adjustments, keyword mining, cross-negatives, checking what actually converts vs what just burns budget. You know the type of work where you're doing it and wondering what you're doing with your life. At some point the idea to automate it felt pretty obvious. I wanted Claude Opus specifically because quality matters here - these are real money decisions. But running it twice a day at 50-80 tool calls per session, API bill would be brutal. Using Claude Code sub through OAuth turned out to be a great hack for this. Honestly cool that Anthropic lets you use it this way. Agent pulls data from three places: Apple Search Ads API, App Store Connect, and a lightweight SDK installed in the apps. Strategy side I took an open source ASA playbook, split it into phases, and mixed in what I learned from my own campaigns. Agent picks the right playbook depending on where app is at and keeps memory between runs. Apple's APIs are a pain to work with and this is where vibe coding really bites you. Agent sort of figures them out but not fully -",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-20T07:27:57.000Z",
+      "score": 163.45,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47219090",
       "title": "Ask HN: How is your team changing documentation for AI-assisted coding?",
       "link": "https://news.ycombinator.com/item?id=47219090",
@@ -3637,18 +3648,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://finditsales.substack.com/p/why-the-storytellers-will-win-the",
-      "title": "Why the Storytellers Will Win the AI Agent Race",
-      "link": "https://finditsales.substack.com/p/why-the-storytellers-will-win-the",
-      "summary": "Article URL: https://finditsales.substack.com/p/why-the-storytellers-will-win-the Comments URL: https://news.ycombinator.com/item?id=47177732 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-27T07:43:14.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4120,6 +4119,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/AIMasterLabs/tokenbudget",
+      "title": "Free open source AI cost tracker – pip install tokenbudget",
+      "link": "https://github.com/AIMasterLabs/tokenbudget",
+      "summary": "Article URL: https://github.com/AIMasterLabs/tokenbudget Comments URL: https://news.ycombinator.com/item?id=47451819 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-20T08:10:51.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/matrixorigin/Memoria",
+      "title": "Show HN: Memoria – Snapshot, branch, and rollback for AI agent memory",
+      "link": "https://github.com/matrixorigin/Memoria",
+      "summary": "Article URL: https://github.com/matrixorigin/Memoria Comments URL: https://news.ycombinator.com/item?id=47451608 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-20T07:36:23.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4372,18 +4395,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude",
-      "title": "Anthropic says it 'cannot in good conscience' allow Pentagon to remove AI checks",
-      "link": "https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude",
-      "summary": "Article URL: https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude Comments URL: https://news.ycombinator.com/item?id=47177614 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-27T07:26:47.000Z",
-      "score": 148.85,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.03655",
       "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
       "link": "https://arxiv.org/abs/2603.03655",
@@ -4405,18 +4416,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T05:00:00.000Z",
       "score": 148.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.22302",
-      "title": "Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents",
-      "link": "https://arxiv.org/abs/2602.22302",
-      "summary": "arXiv:2602.22302v1 Announce Type: new Abstract: Traditional software relies on contracts -- APIs, type systems, assertions -- to specify and enforce correct behavior. AI agents, by contrast, operate on prompts and natural language instructions with no formal behavioral specification. This gap is the root cause of drift, governance failures, and frequent project failures in agentic AI deployments. We introduce Agent Behavioral Contracts (ABC), a formal framework that brings Design-by-Contract principles to autonomous AI agents. An ABC contract C = (P, I, G, R) specifies Preconditions, Invariants, Governance policies, and Recovery mechanisms as first-class, runtime-enforceable components. We define (p, delta, k)-satisfaction -- a probabilistic notion of contract compliance that accounts for LLM non-determinism and recovery -- and prove a Drift Bounds Theorem showing that contracts with recovery rate gamma > alpha (the natural drift rate) bound behavioral drift to D* = alpha/gamma in expectation, with Gaussian concentration in the stochastic setting. We establish sufficient conditions for safe contract composition in multi-agent chains and derive probabilistic degradation bounds. We implement ABC in AgentAssert, a runtime enforcement library, and evaluate on AgentContract-Bench, a benchmark of 200 scenarios across 7 models from 6 vendors. Results across 1,980 sessions show that co",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-27T05:00:00.000Z",
-      "score": 148.19,
       "status": "queued"
     },
     {
@@ -4480,18 +4479,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47177492",
-      "title": "Ask HN: How Many Programmers Are Now Using AI Agents in Their Work?",
-      "link": "https://news.ycombinator.com/item?id=47177492",
-      "summary": "Title: How Many Programmers Are Now Using AI Agents and Other Tools in Their Work? Content: AI-powered programming is becoming increasingly popular, and I'm curious how many people have already started using AI agents in their actual work (usage level: purely for assistance, completely relay on agent). Among those already using them, how many have company support, and how many are using them at their own expense? Comments URL: https://news.ycombinator.com/item?id=47177492 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T07:09:49.000Z",
-      "score": 143.14,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/evgenii-engineer/openLight",
       "title": "Show HN: OpenLight – Lightweight Telegram AI Agent for Raspberry Pi",
       "link": "https://github.com/evgenii-engineer/openLight",
@@ -4501,18 +4488,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-13T14:35:06.000Z",
       "score": 143.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts",
-      "title": "AI models don't have their own thoughts and feelings",
-      "link": "https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts",
-      "summary": "Article URL: https://blog.keyvan.net/p/ai-models-dont-have-their-own-thoughts Comments URL: https://news.ycombinator.com/item?id=47177489 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T07:09:23.000Z",
-      "score": 142.67,
       "status": "queued"
     },
     {
@@ -4528,6 +4503,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.18329",
+      "title": "FaithSteer-BENCH: A Deployment-Aligned Stress-Testing Benchmark for Inference-Time Steering",
+      "link": "https://arxiv.org/abs/2603.18329",
+      "summary": "arXiv:2603.18329v1 Announce Type: new Abstract: Inference-time steering is widely regarded as a lightweight and parameter-free mechanism for controlling large language model (LLM) behavior, and prior work has often suggested that simple activation-level interventions can reliably induce targeted behavioral changes. However, such conclusions are typically drawn under relatively relaxed evaluation settings that overlook deployment constraints, capability trade-offs, and real-world robustness. We therefore introduce \\textbf{FaithSteer-BENCH}, a stress-testing benchmark that evaluates steering methods at a fixed deployment-style operating point through three gate-wise criteria: controllability, utility preservation, and robustness. Across multiple models and representative steering approaches, we uncover several systematic failure modes that are largely obscured under standard evaluation, including illusory controllability, measurable cognitive tax on unrelated capabilities, and substantial brittleness under mild instruction-level perturbations, role prompts, encoding transformations, and data scarcity. Gate-wise benchmark results show that existing methods do not necessarily provide reliable controllability in deployment-oriented practical settings. In addition, mechanism-level diagnostics indicate that many steering methods induce prompt-conditional alignment rather than stable l",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-20T04:00:00.000Z",
+      "score": 140.63,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.17244",
       "title": "Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures",
       "link": "https://arxiv.org/abs/2603.17244",
@@ -4537,6 +4524,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-19T04:00:00.000Z",
       "score": 140.58,
+      "status": "queued"
+    },
+    {
+      "id": "https://proxybase.xyz/blog/why-your-ai-agent-needs-a-proxy",
+      "title": "Why Your AI Agent Needs a Proxy",
+      "link": "https://proxybase.xyz/blog/why-your-ai-agent-needs-a-proxy",
+      "summary": "Article URL: https://proxybase.xyz/blog/why-your-ai-agent-needs-a-proxy Comments URL: https://news.ycombinator.com/item?id=47451518 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-20T07:21:20.000Z",
+      "score": 140.37,
       "status": "queued"
     },
     {
@@ -4573,6 +4572,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-16T13:00:07.000Z",
       "score": 134.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.18048",
+      "title": "DEAF: A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models",
+      "link": "https://arxiv.org/abs/2603.18048",
+      "summary": "arXiv:2603.18048v1 Announce Type: new Abstract: Recent Audio Multimodal Large Language Models (Audio MLLMs) demonstrate impressive performance on speech benchmarks, yet it remains unclear whether these models genuinely process acoustic signals or rely on text-based semantic inference. To systematically study this question, we introduce DEAF (Diagnostic Evaluation of Acoustic Faithfulness), a benchmark of over 2,700 conflict stimuli spanning three acoustic dimensions: emotional prosody, background sounds, and speaker identity. Then, we design a controlled multi-level evaluation framework that progressively increases textual influence, ranging from semantic conflicts in the content to misleading prompts and their combination, allowing us to disentangle content-driven bias from prompt-induced sycophancy. We further introduce diagnostic metrics to quantify model reliance on textual cues over acoustic signals. Our evaluation of seven Audio MLLMs reveals a consistent pattern of text dominance: models are sensitive to acoustic variations, yet predictions are predominantly driven by textual inputs, revealing a gap between high performance on standard speech benchmarks and genuine acoustic understanding.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-20T04:00:00.000Z",
+      "score": 134.63,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.18273",
+      "title": "EDM-ARS: A Domain-Specific Multi-Agent System for Automated Educational Data Mining Research",
+      "link": "https://arxiv.org/abs/2603.18273",
+      "summary": "arXiv:2603.18273v1 Announce Type: new Abstract: In this technical report, we present the Educational Data Mining Automated Research System (EDM-ARS), a domain-specific multi-agent pipeline that automates end-to-end educational data mining (EDM) research. We conceptualize EDM-ARS as a general framework for domain-aware automated research pipelines, where educational expertise is embedded into each stage of the research lifecycle. As a first instantiation of this framework, we focus on predictive modeling tasks. Within this scope, EDM-ARS orchestrates five specialized LLM-powered agents (ProblemFormulator, DataEngineer, Analyst, Critic, and Writer) through a state-machine coordinator that supports revision loops, checkpoint-based recovery, and sandboxed code execution. Given a research prompt and a dataset, EDM-ARS produces a complete LaTeX manuscript with real Semantic Scholar citations, validated machine learning analyses, and automated methodological peer review. We also provide a detailed description of the system architecture, the three-tier data registry design that encodes educational domain expertise, the specification of each agent, the inter-agent communication protocol, and mechanisms for error-handling and self-correction. Finally, we discuss current limitations, including single-dataset scope and formulaic paper output, and outline a phased roadmap toward causal infe",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-20T04:00:00.000Z",
+      "score": 134.63,
       "status": "queued"
     },
     {
@@ -4648,18 +4671,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
-      "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
-      "summary": "If you've got strong creative instincts, the ability to authentically portray emotion, and are capable of staying true to a character's voice throughout a scene, there's a job listing calling for your experience. The catch: You won't be performing in a theater, a film studio, or an underground performance space. You'd be using your talents to train an AI model for \"one of the leading AI companies,\" according to the open role posted by Handshake, a company that provides training data to OpenAI and other labs. Handshake AI is one of a handful of companies of its kind, scrambling to provide more and more niche or specific training data to A … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-15T14:00:00.000Z",
-      "score": 122.95,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.15643",
       "title": "GSI Agent: Domain Knowledge Enhancement for Large Language Models in Green Stormwater Infrastructure",
       "link": "https://arxiv.org/abs/2603.15643",
@@ -4708,6 +4719,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.18272",
+      "title": "Retrieval-Augmented LLM Agents: Learning to Learn from Experience",
+      "link": "https://arxiv.org/abs/2603.18272",
+      "summary": "arXiv:2603.18272v1 Announce Type: new Abstract: While large language models (LLMs) have advanced the development of general-purpose agents, achieving robust generalization to unseen tasks remains a significant challenge. Current approaches typically rely on either fine-tuning or training-free memory-augmented generation using retrieved experience; yet both have limitations: fine-tuning often fails to extrapolate to new tasks, while experience retrieval often underperforms compared to supervised baselines. In this work, we propose to combine these approaches and systematically study how to train retrieval-augmented LLM agents to effectively leverage retrieved trajectories in-context. First, we establish a robust supervised fine-tuning (SFT) recipe using LoRA that outperforms several state-of-the-art agent training pipelines. Second, we provide a detailed analysis of key design choices for experience retrieval, identifying optimal strategies for storage, querying, and trajectory selection. Finally, we propose a pipeline that integrates experience retrieval into the fine-tuning process. Our results demonstrate that this combined approach significantly improves generalization to unseen tasks, providing a scalable and effective framework for building agents that learn to learn from experience.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-20T04:00:00.000Z",
+      "score": 116.63,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.17310",
       "title": "InfoDensity: Rewarding Information-Dense Traces for Efficient Reasoning",
       "link": "https://arxiv.org/abs/2603.17310",
@@ -4717,6 +4740,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-03-19T04:00:00.000Z",
       "score": 116.58,
+      "status": "queued"
+    },
+    {
+      "id": "https://fixy.ai/",
+      "title": "Fixy – Real-time group chat with humans and AI agents (ChatGPT, Claude, Gemini)",
+      "link": "https://fixy.ai/",
+      "summary": "Article URL: https://fixy.ai/ Comments URL: https://news.ycombinator.com/item?id=47450950 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-20T05:48:25.000Z",
+      "score": 116.47,
       "status": "queued"
     },
     {
@@ -4753,6 +4788,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-17T04:00:00.000Z",
       "score": 115.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://saolalab.github.io/clawforce/",
+      "title": "Clawforce – spin up a team of AI agents in minutes",
+      "link": "https://saolalab.github.io/clawforce/",
+      "summary": "Article URL: https://saolalab.github.io/clawforce/ Comments URL: https://news.ycombinator.com/item?id=47451187 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-20T06:29:45.000Z",
+      "score": 113.72,
       "status": "queued"
     },
     {
@@ -4804,39 +4851,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
-      "title": "Adobe’s AI image generator can now be trained on your own art",
-      "link": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
-      "summary": "Just feed your images into the bot and it’ll try to mimic specific styles and aesthetics. | Image: Adobe Adobe is launching customizable AI image generators that can mimic specific artistic styles and character designs. The Firefly Custom Models are available in public beta starting today, allowing creators and brands to train a model on their own assets to ensure generated images follow a consistent aesthetic for characters, illustrations, and photography. The tool aims to streamline workflows for teams and creators that need to produce high volumes of content, providing a reusable foundation that preserves visual consistency across multiple projects, instead of having to start from scratch each time. Adobe says that custom models can help pr … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
+      "id": "https://github.com/ORANGEWEB3/orange-skills",
+      "title": "Orange built an API where AI agents can test apps and submit feedback",
+      "link": "https://github.com/ORANGEWEB3/orange-skills",
+      "summary": "Article URL: https://github.com/ORANGEWEB3/orange-skills Comments URL: https://news.ycombinator.com/item?id=47451026 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-19T13:00:00.000Z",
-      "score": 83.19,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.17021",
-      "title": "Generative AI-assisted Participatory Modeling in Socio-Environmental Planning under Deep Uncertainty",
-      "link": "https://arxiv.org/abs/2603.17021",
-      "summary": "arXiv:2603.17021v1 Announce Type: new Abstract: Socio-environmental planning under deep uncertainty requires researchers to identify and conceptualize problems before exploring policies and deploying plans. In practice and model-based planning approaches, this problem conceptualization process often relies on participatory modeling to translate stakeholders' natural-language descriptions into a quantitative model, making this process complex and time-consuming. To facilitate this process, we propose a templated workflow that uses large language models for an initial conceptualization process. During the workflow, researchers can use large language models to identify the essential model components from stakeholders' intuitive problem descriptions, explore their diverse perspectives approaching the problem, assemble these components into a unified model, and eventually implement the model in Python through iterative communication. These results will facilitate the subsequent socio-environmental planning under deep uncertainty steps. Using ChatGPT 5.2 Instant, we demonstrated this workflow on the lake problem and an electricity market problem, both of which demonstrate socio-environmental planning problems. In both cases, acceptable outputs were obtained after a few iterations with human verification and refinement. These experiments indicated that large language models can serve",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-19T04:00:00.000Z",
-      "score": 76.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.17324",
-      "title": "ShuttleEnv: An Interactive Data-Driven RL Environment for Badminton Strategy Modeling",
-      "link": "https://arxiv.org/abs/2603.17324",
-      "summary": "arXiv:2603.17324v1 Announce Type: new Abstract: We present ShuttleEnv, an interactive and data-driven simulation environment for badminton, designed to support reinforcement learning and strategic behavior analysis in fast-paced adversarial sports. The environment is grounded in elite-player match data and employs explicit probabilistic models to simulate rally-level dynamics, enabling realistic and interpretable agent-opponent interactions without relying on physics-based simulation. In this demonstration, we showcase multiple trained agents within ShuttleEnv and provide live, step-by-step visualization of badminton rallies, allowing attendees to explore different play styles, observe emergent strategies, and interactively analyze decision-making behaviors. ShuttleEnv serves as a reusable platform for research, visualization, and demonstration of intelligent agents in sports AI. Our ShuttleEnv demo video URL: https://drive.google.com/file/d/1hTR4P16U27H2O0-w316bR73pxE2ucczX/view",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-19T04:00:00.000Z",
-      "score": 76.07,
+      "publishedAt": "2026-03-20T06:01:08.000Z",
+      "score": 102.26,
       "status": "queued"
     },
     {
