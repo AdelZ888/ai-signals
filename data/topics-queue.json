@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-20T08:37:35.730Z",
+  "generatedAt": "2026-03-20T15:49:04.537Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/podcast/897900/ai-trust-gap-killer-app-vergecast",
+      "title": "Why people really hate AI",
+      "link": "https://www.theverge.com/podcast/897900/ai-trust-gap-killer-app-vergecast",
+      "summary": "There's a big, and increasing, disconnect in culture right now when it comes to artificial intelligence. Companies of all shapes and sizes are hunting for places to deploy AI and can't stop talking about how this new technology will change everything. But when you ask people about AI, the consistent response is: no thanks. Study after study shows people are worried about the effects of AI and simply don't find the t…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-20T13:27:53.000Z",
+      "score": 83.63,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-20T15:49:04.458Z",
+      "file": "content/posts/2026-03-20-ai-acceptance-playbook-for-small-teams-how-to-launch-one-opt-in-feature-with-clear-limits.md",
+      "fileFr": "content/posts/fr/2026-03-20-ai-acceptance-playbook-for-small-teams-how-to-launch-one-opt-in-feature-with-clear-limits.md",
+      "generationMode": "llm",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1461,
+      "wordsFr": 1298
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
       "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
@@ -2715,18 +2738,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://twitter.com/whp_wessel/status/2029933535369343195",
-      "title": "Show HN: I built an opinionated AI agent to respond to EU consultations",
-      "link": "https://twitter.com/whp_wessel/status/2029933535369343195",
-      "summary": "I built Commento, an AI agent that acts as an automated lobbyist. It tracks open public policy consultations in the EU and the Netherlands, and automatically drafts and submits responses advocating for pro-growth, pro-creative destruction policies. The positions are grounded in frameworks like the Draghi Report, the Wennink Report, and the Dutch National AI Deltaplan. The pipeline consists of 4 steps: Discover: Crawling government portals for open consultations. Draft: A 3-pass LLM pipeline (draft, critique, rewrite). Submit: Automated browser submission to the portal. Publish: A public dashboard for full transparency on what the agent submits. I see this project as an exploration of how AI agents can interact with government policy and \"democratise\" lobbying. Comments URL: https://news.ycombinator.com/item?id=47306147 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-09T08:17:49.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/skillsgate/skillsgate",
       "title": "Show HN: I indexed 45k+ AI agent skills into an open source marketplace",
       "link": "https://github.com/skillsgate/skillsgate",
@@ -2760,66 +2771,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T06:47:11.000Z",
       "score": 178.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://alba-run.vercel.app/",
-      "title": "Show HN: Alba – Earn and bid on unique software using idle AI credits",
-      "link": "https://alba-run.vercel.app/",
-      "summary": "I have been using Claude Code lately, and I hated seeing my daily/weekly API quotas go to waste during downtime. So I built ALBA, a system designed to turn that idle power into digital assets. How it works: ALBA is an autonomous software factory that runs through Claude Code. You join as a worker node, and the system orchestrates Claude Code to build, test, and deploy functional micro-MVPs like tools, landing pages, and small SaaS. The Credit and Auction Model: Contribute: Run a command through Claude Code to power an AI agent task. Earn: You receive ALBA Credits proportional to the tokens and compute you provided. Bid: Use those credits in our Auction House to bid on unique software built by the collective. To make the discovery process more intuitive, I added an \"Explore\" feature that works like a vertical feed (similar to Shorts). You can quickly cycle through live demos of everything the factory has produced so far. It helps users visualize the \"Asset\" they are about to bid on. Exclusive Ownership: This is the \"burn\" logic I am most excited about: if you win an auction, you get the source code, and the demo environment is hard-deleted from our servers forever. You own a unique piece of software with zero duplicates. Tech Stack: - Frontend: Next.js (Vercel) - Backend: Java Spring Boot (GCP Cloud Run) - Database: Supabase/Firestore Agent Orchestration: via Claude Code CLI I w",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-27T15:25:40.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://clawdocx.com/",
-      "title": "Show HN: ClawDocx – We built a skill and guide library for OpenClaw AI agents",
-      "link": "https://clawdocx.com/",
-      "summary": "Article URL: https://clawdocx.com/ Comments URL: https://news.ycombinator.com/item?id=47181509 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T15:16:54.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/snyk/agent-scan",
-      "title": "Snyk Agent Scan: Security scanner for AI agents, MCP servers and agent skills",
-      "link": "https://github.com/snyk/agent-scan",
-      "summary": "Article URL: https://github.com/snyk/agent-scan Comments URL: https://news.ycombinator.com/item?id=47181441 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T15:12:44.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.npmjs.com/package/six-verifier",
-      "title": "Cryptographic receipts for LLM inference – verify your AI in 30 seconds",
-      "link": "https://www.npmjs.com/package/six-verifier",
-      "summary": "Article URL: https://www.npmjs.com/package/six-verifier Comments URL: https://news.ycombinator.com/item?id=47181401 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T15:09:29.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://twitter.com/koylanai/status/2025286163641118915",
-      "title": "The File System Is the New Database: How I Built a Personal OS for AI Agents",
-      "link": "https://twitter.com/koylanai/status/2025286163641118915",
-      "summary": "Article URL: https://twitter.com/koylanai/status/2025286163641118915 Comments URL: https://news.ycombinator.com/item?id=47181306 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T15:02:55.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -3375,30 +3326,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/aniketh-maddipati/agentmint",
-      "title": "Show HN: AgentMint – Cryptographic proof of human approval for AI agent actions",
-      "link": "https://github.com/aniketh-maddipati/agentmint",
-      "summary": "Session auth says \"agent can use Stripe.\" It doesn't say \"Alice approved this $50 refund at 10:03am.\" AgentMint signs short-lived tokens proving a human approved a specific action. Ed25519 signatures Single-use (JTI tracking) 60s TTL default 3ms verify Full audit trail Built in Rust. Drop-in sidecar for your backend. https://github.com/aniketh-maddipati/agentmint Comments URL: https://news.ycombinator.com/item?id=47181363 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T15:07:01.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848",
-      "title": "Burger King's AI agent will listen to orders and 'coach' workers",
-      "link": "https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848",
-      "summary": "Article URL: https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848 Comments URL: https://news.ycombinator.com/item?id=47181329 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T15:04:33.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47272260",
       "title": "Show HN: Claude Code for iPad – Agentic AI coding tool with file ops, Git, shell",
       "link": "https://news.ycombinator.com/item?id=47272260",
@@ -3432,18 +3359,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-19T15:04:06.000Z",
       "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.mvnt.studio/",
-      "title": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
-      "link": "https://www.mvnt.studio/",
-      "summary": "I think Suno opened up music. Kling and Runway opened up video - but there's one creative domain nobody has touched yet: dance. So my team built an web app — give it a YouTube link to your music and it generates a 3D dance animation in under 2 minutes. The core is a diffusion-based music-to-motion model (mvnt-m4) trained on proprietary mocap/label data from professional choreographers. I think dance is the missing piece of AI-generated content — just like how performance made K-pop a global phenomenon, and we believe AI dance will play the same role in the AI UGC era. This is v0.1 — a fast, experimental playground. Dance quality is still improving (m4.1 in progress), and we're working on faster inference, and finger/facial motion generation. We're also preparing API integrations with platforms like Higgsfield. I think our tech is quite validated through Epic MegaGrant but still very early in finding user validation. Would love honest feedback on the output quality and what you'd want to see next. Also in product hunt: https://www.producthunt.com/products/mvntstudio Demo vid: https://youtu.be/mjq2iAr96iM Comments URL: https://news.ycombinator.com/item?id=47180954 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-27T14:36:42.000Z",
-      "score": 166.34,
       "status": "queued"
     },
     {
@@ -3648,18 +3563,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
-      "title": "China's DeepSeek trained AI model on Nvidia's best chip despite US ban",
-      "link": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
-      "summary": "Article URL: https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/ Comments URL: https://news.ycombinator.com/item?id=47181301 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-27T15:02:41.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4239,18 +4142,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.autonomynext.com",
-      "title": "Show HN: Personal AI with Dedicated Hardware and App. Everything Runs Locally",
-      "link": "https://www.autonomynext.com",
-      "summary": "Connects to your email, bank accounts, investments, health data, home cameras, and car. Storage and inference is on-device. App connects to HW peer-to-peer. Comments URL: https://news.ycombinator.com/item?id=47181206 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-27T14:55:35.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/SudhirGadhvi/open-vernacular-ai-kit",
       "title": "Show HN: Open Vernacular AI Kit – preprocessing for Indian code-mixed text",
       "link": "https://github.com/SudhirGadhvi/open-vernacular-ai-kit",
@@ -4476,6 +4367,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-17T07:20:45.000Z",
       "score": 144.63,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2214089-il-ne-prend-pas-de-vacances-ces-chiens-robots-a-300-000-surveillent-des-data-centers-aux-etats-unis.html",
+      "title": "« Il ne prend pas de vacances » : ces chiens robots à 300 000 $ surveillent des data centers aux États-Unis",
+      "link": "https://www.numerama.com/tech/2214089-il-ne-prend-pas-de-vacances-ces-chiens-robots-a-300-000-surveillent-des-data-centers-aux-etats-unis.html",
+      "summary": "Face à l’essor des infrastructures dédiées au cloud et à l’intelligence artificielle, plusieurs exploitants américains de centres de données expérimentent des robots quadrupèdes pour renforcer la surveillance et l’inspection de leurs sites.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-20T15:06:04.000Z",
+      "score": 144,
       "status": "queued"
     },
     {
@@ -4861,6 +4764,130 @@
       "publishedAt": "2026-03-20T06:01:08.000Z",
       "score": 102.26,
       "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.18294",
+      "title": "The Validity Gap in Health AI Evaluation: A Cross-Sectional Analysis of Benchmark Composition",
+      "link": "https://arxiv.org/abs/2603.18294",
+      "summary": "arXiv:2603.18294v1 Announce Type: new Abstract: Background: Clinical trials rely on transparent inclusion criteria to ensure generalizability. In contrast, benchmarks validating health-related large language models (LLMs) rarely characterize the \"patient\" or \"query\" populations they contain. Without defined composition, aggregate performance metrics may misrepresent model readiness for clinical use. Methods: We analyzed 18,707 consumer health queries across six public benchmarks using LLMs as automated coding instruments to apply a standardized 16-field taxonomy profiling context, topic, and intent. Results: We identified a structural \"validity gap.\" While benchmarks have evolved from static retrieval to interactive dialogue, clinical composition remains misaligned with real-world needs. Although 42% of the corpus referenced objective data, this was polarized toward wellness-focused wearable signals (17.7%); complex diagnostic inputs remained rare, including laboratory values (5.2%), imaging (3.8%), and raw medical records (0.6%). Safety-critical scenarios were effectively absent: suicide/self-harm queries comprised <0.7% of the corpus and chronic disease management only 5.5%. Benchmarks also neglected vulnerable populations (pediatrics/older adults <11%) and global health needs. Conclusions: Evaluation benchmarks remain misaligned with real-world clinical needs, lacking raw cl",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-20T04:00:00.000Z",
+      "score": 82.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "title": "How we monitor internal coding agents for misalignment",
+      "link": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-19T10:00:00.000Z",
+      "score": 82.04,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+      "title": "OpenAI is throwing everything into building a fully automated researcher",
+      "link": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+      "summary": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself. ​​OpenAI says that the new…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-20T11:57:16.000Z",
+      "score": 80.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.18104",
+      "title": "Adaptive Domain Models: Bayesian Evolution, Warm Rotation, and Principled Training for Geometric and Neuromorphic AI",
+      "link": "https://arxiv.org/abs/2603.18104",
+      "summary": "arXiv:2603.18104v1 Announce Type: new Abstract: Prevailing AI training infrastructure assumes reverse-mode automatic differentiation over IEEE-754 arithmetic. The memory overhead of training relative to inference, optimizer complexity, and structural degradation of geometric properties through training are consequences of this arithmetic substrate. This paper develops an alternative training architecture grounded in three prior results: the Dimensional Type System and Deterministic Memory Management framework [6], which establishes stack-eligible gradient allocation and exact quire accumulation as design-time verifiable properties; the Program Hypergraph [8], which establishes grade preservation through geometric algebra computations as a type-level invariant; and the b-posit 2026 standard [10], which makes posit arithmetic tractable across hardware targets conventionally considered inference-only. Their composition enables depth-independent training memory bounded to approximately twice the inference footprint, grade-preserving weight updates, and exact gradient accumulation, applicable uniformly to loss-function-optimized and spike-timing-dependent neuromorphic models. We introduce Bayesian distillation, a mechanism by which the latent prior structure of a general-purpose model is extracted through the ADM training regime, resolving the data-scarcity bootstrapping problem for",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-20T04:00:00.000Z",
+      "score": 76.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "title": "Designing AI agents to resist prompt injection",
+      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-11T11:30:00.000Z",
+      "score": 72.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/equip-responses-api-computer-environment",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "score": 72.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.18290",
+      "title": "CORE: Robust Out-of-Distribution Detection via Confidence and Orthogonal Residual Scoring",
+      "link": "https://arxiv.org/abs/2603.18290",
+      "summary": "arXiv:2603.18290v1 Announce Type: new Abstract: Out-of-distribution (OOD) detection is essential for deploying deep learning models reliably, yet no single method performs consistently across architectures and datasets -- a scorer that leads on one benchmark often falters on another. We attribute this inconsistency to a shared structural limitation: logit-based methods see only the classifier's confidence signal, while feature-based methods attempt to measure membership in the training distribution but do so in the full feature space where confidence and membership are entangled, inheriting architecture-sensitive failure modes. We observe that penultimate features naturally decompose into two orthogonal subspaces: a classifier-aligned component encoding confidence, and a residual the classifier discards. We discover that this residual carries a class-specific directional signature for in-distribution data -- a membership signal invisible to logit-based methods and entangled with noise in feature-based methods. We propose CORE (COnfidence + REsidual), which disentangles the two signals by scoring each subspace independently and combines them via normalized summation. Because the two signals are orthogonal by construction, their failure modes are approximately independent, producing robust detection where either view alone is unreliable. CORE achieves competitive or state-of-the-",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-20T04:00:00.000Z",
+      "score": 70.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+      "link": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned. AI models like Anthropic’s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-17T22:30:46.000Z",
+      "score": 67.84,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/instruction-hierarchy-challenge",
+      "title": "Improving instruction hierarchy in frontier LLMs",
+      "link": "https://openai.com/index/instruction-hierarchy-challenge",
+      "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-10T11:00:00.000Z",
+      "score": 66.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://twitter.com/whp_wessel/status/2029933535369343195",
+      "title": "Show HN: I built an opinionated AI agent to respond to EU consultations",
+      "link": "https://twitter.com/whp_wessel/status/2029933535369343195",
+      "summary": "I built Commento, an AI agent that acts as an automated lobbyist. It tracks open public policy consultations in the EU and the Netherlands, and automatically drafts and submits responses advocating for pro-growth, pro-creative destruction policies. The positions are grounded in frameworks like the Draghi Report, the Wennink Report, and the Dutch National AI Deltaplan. The pipeline consists of 4 steps: Discover: Craw…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-09T08:17:49.000Z",
+      "score": 180,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-20T15:42:11.747Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://news.ycombinator.com/item?id=47413969",
