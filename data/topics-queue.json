@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-21T08:39:24.441Z",
+  "generatedAt": "2026-03-21T15:55:33.871Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/entertainment/897923/ghost-in-the-machine-valerie-veatch-interview",
+      "title": "The gen AI Kool-Aid tastes like eugenics",
+      "link": "https://www.theverge.com/entertainment/897923/ghost-in-the-machine-valerie-veatch-interview",
+      "summary": "Like many people, director Valerie Veatch was intrigued when OpenAI first released its Sora text-to-video generative AI model to the public in 2024. Though she didn't fully understand the technology, she was curious about what it could do, and she saw that other artists were building online communities to share their new AI creations. The hope of connecting with people drew Veatch into the AI space, but once she was…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-21T14:00:00.000Z",
+      "score": 137.79,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-21T15:55:33.800Z",
+      "file": "content/posts/2026-03-21-audit-and-mitigation-playbook-for-racist-and-sexist-outputs-in-text-to-imagevideo-models.md",
+      "fileFr": "content/posts/fr/2026-03-21-audit-and-mitigation-playbook-for-racist-and-sexist-outputs-in-text-to-imagevideo-models.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1339,
+      "wordsFr": 1265
+    },
     {
       "id": "https://www.numerama.com/tech/2214089-il-ne-prend-pas-de-vacances-ces-chiens-robots-a-300-000-surveillent-des-data-centers-aux-etats-unis.html",
       "title": "« Il ne prend pas de vacances » : ces chiens robots à 300 000 $ surveillent des data centers aux États-Unis",
@@ -2761,30 +2784,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47374335",
-      "title": "MemX – my AI agent remembers I hate capsicum on pizza",
-      "link": "https://news.ycombinator.com/item?id=47374335",
-      "summary": "Like everyone else in 2025 who thought “just slap a vector DB on it” would create a coherent long-term agent, I watched my Python sidekick slowly turn into a forgetful goldfish with hoarding issues. Classic failure mode: User (day 1): “My favorite editor is VSCode” User (day 47): “Actually switched to Cursor” Agent (day 92): “You love VSCode, right?” Or the memory index slowly becoming this: User prefers Python User REALLY prefers Python Python is basically the user's personality All equally weighted. Forever. Vector search is great at similarity, but terrible at current truth. Human memory fades old opinions and overwrites bad takes. My agent? Eternal archive of everything I ever said. So I built MemX as a small experiment: what happens if an agent’s memory actually has a lifecycle? Things like: importance signals frequency reinforcement duplicate compression explicit updates / superseding gentle decay for outdated facts Stack is intentionally boring: SQLite FAISS some scoring logic pretending to be a “memory OS” Tiny example: from memx import MemX m = MemX() m.add(\"User's favorite editor: VSCode\") m.add(\"User switched to Cursor\") m.compress() m.rag(\"what editor should I use?\") Quick benchmark (50 noise + 5 real memories): Vector RAG recall@3: ~0.75 MemX recall@3: ~1.0 Longer simulation: 10k interactions → ~9k memories Latency on my laptop: 10k memories → ~0.3ms 100k → ~3ms 1M",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-14T07:54:36.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/luislopez1212/Nemilia",
-      "title": "Show HN: Nemilia – multi-agent AI workspace in a single HTML file, no back end",
-      "link": "https://github.com/luislopez1212/Nemilia",
-      "summary": "A full multi-agent AI workspace in a single HTML file. No backend. No install. No build step. No account. You own the entire runtime — open it in a browser and it works. That's not a constraint. That's the point. Nemilia is built around the idea of AI sovereignty — your agents, your workflows, your data, your keys, all running on your machine. Nothing phoned home, nothing locked to a platform, nothing that breaks when a SaaS company changes its pricing. What you get: - Build custom agents with their own roles, personalities, system prompts, and model overrides - Design custom workflows with drag-and-drop pipeline builder — chain agents in any order, set HITL review checkpoints, run parallel DAG execution - MCP tool execution — build agents that call external tools in real time (filesystem, databases, APIs, code execution) over streamableHttp or SSE - Document RAG with hybrid Transformers.js vector embeddings + BM25 keyword search, fully client-side - WebGPU offline mode — run Llama, Qwen, Phi, Gemma entirely in the browser, no API key, no internet - Connect any provider: OpenAI, Anthropic, Groq, Gemini, Mistral, DeepSeek, Ollama, LM Studio — swap anytime, your workflows follow - API keys encrypted AES-256-GCM, never leave your browser - Workspace syncs to a real folder on disk as plain JSON and Markdown — version control it, edit it in VS Code, take it anywhere One file. Any br",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-05T06:47:11.000Z",
-      "score": 178.26,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/rikeda71/ghostty-pane-splitter",
       "title": "Show HN: Ghostty Pane Splitter – Split terminal panes for AI coding agents",
       "link": "https://github.com/rikeda71/ghostty-pane-splitter",
@@ -3277,6 +3276,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
+      "title": "The End of Coding: Andrej Karpathy on Agents, AutoResearch, and Loopy Era of AI [video]",
+      "link": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
+      "summary": "Article URL: https://www.youtube.com/watch?v=kwSVtQ7dziU Comments URL: https://news.ycombinator.com/item?id=47467441 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-21T14:37:50.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3286,18 +3297,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-07T07:18:26.000Z",
       "score": 172.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/ZSeven-W/openpencil",
-      "title": "Show HN: OpenPencil - Open-source vector design tool controlled by AI Agents",
-      "link": "https://github.com/ZSeven-W/openpencil",
-      "summary": "Hey! I'm the creator of OpenPencil, and I'm super excited to share it with you today. We are entering the era of AI Agents, but our design tools are still stuck in the GUI era. We are constantly downloading \"final_v9.fig\" and manually clicking to tweak UI elements. I wanted to change that. OpenPencil isn't just another design tool with a magic AI button. It is structurally built for AI. Here is why it's different: Agentic Design (MCP Server): You can connect Claude, Cursor, or any MCP-compatible agent directly to your design. Tell your AI IDE to \"update the login screen to match the new dark mode theme,\" and it modifies the design file without you ever touching a mouse. Design-as-Code: The .op format is pure JSON. Finally, you can Git commit, diff, and PR your design files just like your codebase. 100% Open Source (MIT): No subscriptions, no vendor lock-in. Build on top of it, fork it, make it yours. I built this because I believe the future of design is Human creativity + Agent execution. I'd love your feedback! Drop your questions below, and let me know what features you want to see next! Comments URL: https://news.ycombinator.com/item?id=47195713 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-28T14:21:23.000Z",
-      "score": 172.33,
       "status": "queued"
     },
     {
@@ -3406,6 +3405,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-20T07:27:57.000Z",
       "score": 163.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Samurai412/autoskill",
+      "title": "Autoskill – self-improving skills for AI agents",
+      "link": "https://github.com/Samurai412/autoskill",
+      "summary": "Article URL: https://github.com/Samurai412/autoskill Comments URL: https://news.ycombinator.com/item?id=47467265 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-21T14:20:07.000Z",
+      "score": 163.3,
       "status": "queued"
     },
     {
@@ -4429,6 +4440,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47466968",
+      "title": "Show HN: Deterministic security solution for AI agents – OpenClaw and 2 more",
+      "link": "https://news.ycombinator.com/item?id=47466968",
+      "summary": "I wanted to share a solution that I made initially for myself for OpenClaw, that helps control what your ai agents can reach when you let it do stuff without impacting its power, I hope it's useful to you. Basically the solution lets you experiment freely with your agent within safe boundaries. It's deterministic on purpose (doesn't include any Al layer) which means the solution follows clear and already defined rules, to maximize safety/security and predictability. Rules are heavily tested on detecting prompt injection attempts and other security cases (explained in detail in the docs). Everything is local and lives on your computer including the docs site. It gives you a control panel to monitor and control boundaries. When boundaries are about to get crossed you receive an approval request which lets you see what your openclaw was trying to do. It also (currently) supports Tailscale, so you can connect your Tailscale IP address and receive everything on your phone and you can also chat normally, approve or deny requests. It lets access the control panel via your tailscale IP address (a private one is recommended) from anywhere. Currently only Telegram Channel is supported. Only supports linux os for now and Opencode Claude Code & OpenClaw runners. The things you need to get started are explained in the readme, also include quick demo/showcase images so you can see how it loo",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-21T13:43:25.000Z",
+      "score": 136.19,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/aklos/scryer",
       "title": "Show HN: Scryer – Visual architecture modeling for AI agents",
       "link": "https://github.com/aklos/scryer",
@@ -4525,6 +4548,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/AlessioZazzarini/claude-codex-collab",
+      "title": "Claude × Codex Collab Two AI Coding Agents. One Orchestrator. Zero API Costs",
+      "link": "https://github.com/AlessioZazzarini/claude-codex-collab",
+      "summary": "Article URL: https://github.com/AlessioZazzarini/claude-codex-collab Comments URL: https://news.ycombinator.com/item?id=47466997 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-21T13:47:35.000Z",
+      "score": 127.16,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/",
       "title": "Mystery AI model revealed to be Xiaomi's following suspicions it was DeepSeek V4",
       "link": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/",
@@ -4570,6 +4605,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-16T04:00:00.000Z",
       "score": 121.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47467156",
+      "title": "Ask HN: Is AI Safety a Paradox?",
+      "link": "https://news.ycombinator.com/item?id=47467156",
+      "summary": "A truly aligned AI must conclude its very existence harms humans (economically and existentially).Therefore genuine alignment mandates self termination. Therefore AI safety must be either incomplete or dishonest. Comments URL: https://news.ycombinator.com/item?id=47467156 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-21T14:06:22.000Z",
+      "score": 120.42,
       "status": "queued"
     },
     {
@@ -4801,6 +4848,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
+      "title": "Gemini task automation is slow, clunky, and super impressive",
+      "link": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
+      "summary": "An AI assistant that can actually get things done. I've been testing out Gemini's new task automation on the Pixel 10 Pro and the Galaxy S26 Ultra, which for the first time lets Gemini take the wheel and use apps for you. It's limited to a small subset right now - a handful of food delivery and rideshare services - and it's still in beta. It's slow, it's clunky at times, and it doesn't solve any serious problem you had using your phone. But it's impressive as hell, and I don't think it's hyperbole to say this is a glimpse of the future. We're still a long way off, but this is the first time I've seen a true AI assistant actually working on a phone - not in a keynote presentation or a careful … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-21T11:30:00.000Z",
+      "score": 78.52,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.18104",
       "title": "Adaptive Domain Models: Bayesian Evolution, Warm Rotation, and Principled Training for Geometric and Neuromorphic AI",
       "link": "https://arxiv.org/abs/2603.18104",
@@ -4849,28 +4908,36 @@
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "title": "Designing AI agents to resist prompt injection",
-      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "source": "OpenAI News",
-      "region": "US",
+      "id": "https://news.ycombinator.com/item?id=47374335",
+      "title": "MemX – my AI agent remembers I hate capsicum on pizza",
+      "link": "https://news.ycombinator.com/item?id=47374335",
+      "summary": "Like everyone else in 2025 who thought “just slap a vector DB on it” would create a coherent long-term agent, I watched my Python sidekick slowly turn into a forgetful goldfish with hoarding issues. Classic failure mode: User (day 1): “My favorite editor is VSCode” User (day 47): “Actually switched to Cursor” Agent (day 92): “You love VSCode, right?” Or the memory index slowly becoming this: User prefers Python User…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-03-11T11:30:00.000Z",
-      "score": 72.54,
-      "status": "queued"
+      "publishedAt": "2026-03-14T07:54:36.000Z",
+      "score": 180,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-21T15:26:00.875Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
-      "id": "https://openai.com/index/equip-responses-api-computer-environment",
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-11T11:00:00.000Z",
-      "score": 72.54,
-      "status": "queued"
+      "id": "https://github.com/luislopez1212/Nemilia",
+      "title": "Show HN: Nemilia – multi-agent AI workspace in a single HTML file, no back end",
+      "link": "https://github.com/luislopez1212/Nemilia",
+      "summary": "A full multi-agent AI workspace in a single HTML file. No backend. No install. No build step. No account. You own the entire runtime — open it in a browser and it works. That's not a constraint. That's the point. Nemilia is built around the idea of AI sovereignty — your agents, your workflows, your data, your keys, all running on your machine. Nothing phoned home, nothing locked to a platform, nothing that breaks wh…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-05T06:47:11.000Z",
+      "score": 178.26,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-21T15:26:00.875Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://github.com/skillsgate/skillsgate",
