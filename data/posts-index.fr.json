@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-21T15:55:33.812Z",
+  "generatedAt": "2026-03-22T08:30:58.690Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-22-hive-memory-local-mcp-server-for-persistent-cross-project-agent-memory",
+      "title": "Hive Memory — serveur MCP local pour une mémoire persistante et inter-projets des agents",
+      "date": "2026-03-22",
+      "excerpt": "Exécutez Hive Memory en local pour donner aux agents de codage IA un contexte persistant et partageable entre projets (données JSON/Markdown sur disque). Utilisez un client compatible MCP et pointez-le vers le serveur local.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-22-hive-memory-local-mcp-server-for-persistent-cross-project-agent-memory.jpg",
+      "tags": [
+        "mcp",
+        "mémoire",
+        "agents",
+        "local",
+        "développeurs",
+        "IA",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/moonx010/hive-memory"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-21-audit-and-mitigation-playbook-for-racist-and-sexist-outputs-in-text-to-imagevideo-models",
       "title": "Playbook d’audit et d’atténuation pour sorties racistes et sexistes des modèles texte→image/vidéo",

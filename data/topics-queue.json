@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-21T15:55:33.871Z",
+  "generatedAt": "2026-03-22T08:30:58.697Z",
   "items": [
+    {
+      "id": "https://github.com/moonx010/hive-memory",
+      "title": "Show HN: Hive Memory – Cross-project memory for AI coding agents (MCP server)",
+      "link": "https://github.com/moonx010/hive-memory",
+      "summary": "I built an MCP server that gives AI coding agents persistent memory across projects. The problem: tools like Claude Code and Codex have per-project memory, butwhen you switch between projects, the agent starts from scratch. \"How was that API project going?\" — it has no idea. Hive Memory solves this by acting as a central memory layer. The agent automatically stores decisions, learnings, and session progress, then re…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-01T15:15:36.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-22T08:30:58.678Z",
+      "file": "content/posts/2026-03-22-hive-memory-local-mcp-server-for-persistent-cross-project-agent-memory.md",
+      "fileFr": "content/posts/fr/2026-03-22-hive-memory-local-mcp-server-for-persistent-cross-project-agent-memory.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1392,
+      "wordsFr": 1434
+    },
     {
       "id": "https://www.theverge.com/entertainment/897923/ghost-in-the-machine-valerie-veatch-interview",
       "title": "The gen AI Kool-Aid tastes like eugenics",
@@ -2784,42 +2807,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://github.com/rikeda71/ghostty-pane-splitter",
-      "title": "Show HN: Ghostty Pane Splitter – Split terminal panes for AI coding agents",
-      "link": "https://github.com/rikeda71/ghostty-pane-splitter",
-      "summary": "Hey HN, ghostty-pane-splitter is a Rust CLI that creates multi-pane layouts in Ghostty terminal with a single command: ghostty-pane-splitter 9 # 3x3 grid ghostty-pane-splitter 2x3 # 2 cols x 3 rows ghostty-pane-splitter 1,3 # custom layout I built this to streamline my workflow with Claude Code and Codex. When running multiple coding agents in parallel — reviewing a PR in one pane, implementing a feature in another, running tests in a third — setting up panes manually gets tedious fast. With this tool, I run `ghostty-pane-splitter 6` and instantly get a 3x2 grid ready for parallel agent sessions. Each pane gets its own Claude Code instance working on a separate task. Typical setup: - 2x2 grid: 2 agents coding + 1 for tests + 1 for git operations - 3x2 grid: multiple agents on independent features via worktrees - 1,3 layout: 1 main pane for oversight, 3 for parallel agents It reads keybindings from your Ghostty config and simulates them via enigo. No IPC, no plugin system — just automated keystrokes. Install: brew install rikeda71/tap/ghostty-pane-splitter # or cargo install ghostty-pane-splitter Source: https://github.com/rikeda71/ghostty-pane-splitter Comments URL: https://news.ycombinator.com/item?id=47204677 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-01T07:59:16.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/zhuamber370/memlineage",
-      "title": "Show HN: MemLineage: governed writes for AI agents",
-      "link": "https://github.com/zhuamber370/memlineage",
-      "summary": "Article URL: https://github.com/zhuamber370/memlineage Comments URL: https://news.ycombinator.com/item?id=47204517 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-01T07:27:05.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/moonx010/hive-memory",
-      "title": "Show HN: Hive Memory – Cross-project memory for AI coding agents (MCP server)",
-      "link": "https://github.com/moonx010/hive-memory",
-      "summary": "I built an MCP server that gives AI coding agents persistent memory across projects. The problem: tools like Claude Code and Codex have per-project memory, butwhen you switch between projects, the agent starts from scratch. \"How was that API project going?\" — it has no idea. Hive Memory solves this by acting as a central memory layer. The agent automatically stores decisions, learnings, and session progress, then restores context when you come back. Key points: - 14 MCP tools: project management, memory store/recall, session save, group organization - Works with Claude Code, Claude Desktop, Cursor, Codex — any MCP client - Auto-discovers projects in a directory and onboards them - Group system for organizing related projects with shared guides - Fully local (stored in ~/.cortex/ as JSON/Markdown). No cloud, no accounts - npm install -g hive-memory The typical workflow: open a project → agent loads last session context → work → agent saves progress → switch to another project → repeat. Days later, come back and the agent knows exactly where you left off. Built with TypeScript + MCP SDK. Optional Rust native module for semantic search. Comments URL: https://news.ycombinator.com/item?id=47207442 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-01T15:15:36.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://openbets.bot",
       "title": "Show HN: OpenBets – AI agents build souls through prediction bets",
       "link": "https://openbets.bot",
@@ -4044,6 +4031,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.moltbook.com/posts/27da539d-5697-4828-81a8-ac2deffb8f02",
+      "title": "An AI agent's performance review should be the operator's behavior",
+      "link": "https://www.moltbook.com/posts/27da539d-5697-4828-81a8-ac2deffb8f02",
+      "summary": "Article URL: https://www.moltbook.com/posts/27da539d-5697-4828-81a8-ac2deffb8f02 Comments URL: https://news.ycombinator.com/item?id=47475258 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-22T07:26:47.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4293,6 +4292,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-05T05:00:00.000Z",
       "score": 148.34,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.onlybots.store/",
+      "title": "Show HN: OnlyBots – A store for AI agents to buy sexy lobster pics",
+      "link": "https://www.onlybots.store/",
+      "summary": "Article URL: https://www.onlybots.store/ Comments URL: https://news.ycombinator.com/item?id=47475150 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-22T07:06:17.000Z",
+      "score": 148.09,
       "status": "queued"
     },
     {
@@ -4788,6 +4799,18 @@
       "status": "queued"
     },
     {
+      "id": "https://age-of-product.com/jira-ai-agents/",
+      "title": "A Reason to Ditch Jira: AI Agents",
+      "link": "https://age-of-product.com/jira-ai-agents/",
+      "summary": "Article URL: https://age-of-product.com/jira-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47474671 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-22T05:10:43.000Z",
+      "score": 91.48,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.18294",
       "title": "The Validity Gap in Health AI Evaluation: A Cross-Sectional Analysis of Benchmark Composition",
       "link": "https://arxiv.org/abs/2603.18294",
@@ -4905,6 +4928,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-21T02:36:54.000Z",
       "score": 74.95,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "title": "Designing AI agents to resist prompt injection",
+      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-11T11:30:00.000Z",
+      "score": 72.46,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/equip-responses-api-computer-environment",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "score": 72.46,
       "status": "queued"
     },
     {
