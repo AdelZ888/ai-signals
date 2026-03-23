@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-22T15:33:09.570Z",
+  "generatedAt": "2026-03-23T09:19:09.841Z",
   "items": [
+    {
+      "id": "https://aipricecompare.saposs.com/",
+      "title": "AIPriceCompare – Instantly Compare AI API Pricing Across Models",
+      "link": "https://aipricecompare.saposs.com/",
+      "summary": "Article URL: https://aipricecompare.saposs.com/ Comments URL: https://news.ycombinator.com/item?id=47248344 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-04T14:53:50.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-23T09:19:09.821Z",
+      "file": "content/posts/2026-03-23-aipricecompare-compare-public-ai-model-api-pricing-by-media-type-and-request-count.md",
+      "fileFr": "content/posts/fr/2026-03-23-aipricecompare-compare-public-ai-model-api-pricing-by-media-type-and-request-count.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1325,
+      "wordsFr": 1380
+    },
     {
       "id": "https://openbets.bot",
       "title": "Show HN: OpenBets – AI agents build souls through prediction bets",
@@ -2830,54 +2853,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://cognition-engines.ai/",
-      "title": "Cognition Engines Decision Intelligence for AI Agents",
-      "link": "https://cognition-engines.ai/",
-      "summary": "Article URL: https://cognition-engines.ai/ Comments URL: https://news.ycombinator.com/item?id=47219156 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-02T15:25:25.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://scopegate.dev",
-      "title": "Show HN: ScopeGate – Granular permission gateway for AI agents (MCP, open-core)",
-      "link": "https://scopegate.dev",
-      "summary": "88% of orgs have had AI agent security incidents, yet MCP servers run broad OAuth scopes with no way to restrict per agent. After reading about the GitHub MCP exploit I got tired of cobbling together OAuth + custom middleware + prayer. ScopeGate is a permission proxy that sits between your AI agents and external services (Google Drive, Gmail, Calendar, etc). You connect a service via OAuth, define granular scopes per agent (read-only, specific folders, rate limits), and get a unique MCP endpoint. Agent A can read one Drive folder but not write. Agent B can send email but not read inbox. One click revokes access across all services instantly. Open-core, self-hostable — same features on cloud and self-hosted. Comments URL: https://news.ycombinator.com/item?id=47233663 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-03T15:16:00.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://chainix.ai",
-      "title": "Building AI Agents non-technical teammates can improve without me",
-      "link": "https://chainix.ai",
-      "summary": "Article URL: https://chainix.ai Comments URL: https://news.ycombinator.com/item?id=47248401 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-04T14:56:39.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://aipricecompare.saposs.com/",
-      "title": "AIPriceCompare – Instantly Compare AI API Pricing Across Models",
-      "link": "https://aipricecompare.saposs.com/",
-      "summary": "Article URL: https://aipricecompare.saposs.com/ Comments URL: https://news.ycombinator.com/item?id=47248344 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-04T14:53:50.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://levine.tech/blog/oauth-is-broken",
       "title": "OAuth Is Broken for AI Agents",
       "link": "https://levine.tech/blog/oauth-is-broken",
@@ -3415,6 +3390,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-20T07:27:57.000Z",
       "score": 163.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.19685",
+      "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
+      "link": "https://arxiv.org/abs/2603.19685",
+      "summary": "arXiv:2603.19685v1 Announce Type: new Abstract: Large language model (LLM)-based agents have emerged as powerful autonomous controllers for digital environments, including mobile interfaces, operating systems, and web browsers. Web navigation, for example, requires handling dynamic content and long sequences of actions, making it particularly challenging. Existing LLM-based agents struggle with long-horizon planning in two main ways. During online execution, they often lose track as new information arrives, lacking a clear and adaptive path toward the final goal. This issue is further exacerbated during reinforcement learning (RL) fine-tuning, where sparse and delayed rewards make it difficult for agents to identify which actions lead to success, preventing them from maintaining coherent reasoning over extended tasks. To address these challenges, we propose two contributions. First, we introduce an agent framework that leverages proprietary models for online planning through subgoal decomposition. Second, we present MiRA (Milestoning your Reinforcement Learning Enhanced Agent), an RL training framework that uses dense, milestone-based reward signals. The real-time planning mechanism improves proprietary models such as Gemini by approximately a 10% absolute increase in success rate (SR) on the WebArena-Lite benchmark. Meanwhile, applying MiRA to the open Gemma3-12B model increas",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 163.36,
       "status": "queued"
     },
     {
@@ -4078,6 +4065,30 @@
       "status": "queued"
     },
     {
+      "id": "https://vistai.org",
+      "title": "VistAI–Save and Search AI Responses from ChatGPT, Claude, Gemini, and Perplexity",
+      "link": "https://vistai.org",
+      "summary": "Article URL: https://vistai.org Comments URL: https://news.ycombinator.com/item?id=47486615 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-23T08:10:29.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://gatoplugins.com/blog/released-v17-1-self-hosted-llm-translation",
+      "title": "Stop spending money on AI credits Translate your content using self-hosted LLMs",
+      "link": "https://gatoplugins.com/blog/released-v17-1-self-hosted-llm-translation",
+      "summary": "Article URL: https://gatoplugins.com/blog/released-v17-1-self-hosted-llm-translation Comments URL: https://news.ycombinator.com/item?id=47486523 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-23T07:55:56.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4114,15 +4125,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2602.23720",
-      "title": "The Auton Agentic AI Framework",
-      "link": "https://arxiv.org/abs/2602.23720",
-      "summary": "arXiv:2602.23720v1 Announce Type: new Abstract: The field of Artificial Intelligence is undergoing a transition from Generative AI -- probabilistic generation of text and images -- to Agentic AI, in which autonomous systems execute actions within external environments on behalf of users. This transition exposes a fundamental architectural mismatch: Large Language Models (LLMs) produce stochastic, unstructured outputs, whereas the backend infrastructure they must control -- databases, APIs, cloud services -- requires deterministic, schema-conformant inputs. The present paper describes the Auton Agentic AI Framework, a principled architecture for standardizing the creation, execution, and governance of autonomous agent systems. The framework is organized around a strict separation between the Cognitive Blueprint, a declarative, language-agnostic specification of agent identity and capabilities, and the Runtime Engine, the platform-specific execution substrate that instantiates and runs the agent. This separation enables cross-language portability, formal auditability, and modular tool integration via the Model Context Protocol (MCP). The paper formalizes the agent execution model as an augmented Partially Observable Markov Decision Process (POMDP) with a latent reasoning space, introduces a hierarchical memory consolidation architecture inspired by biological episodic memory syst",
-      "source": "ArXiv cs.AI",
+      "id": "https://mljar.com/ai-prompts/",
+      "title": "Show HN: AI Prompts for Data Professionals",
+      "link": "https://mljar.com/ai-prompts/",
+      "summary": "Article URL: https://mljar.com/ai-prompts/ Comments URL: https://news.ycombinator.com/item?id=47486460 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-02T05:00:00.000Z",
-      "score": 153.82,
+      "keywordHits": 2,
+      "publishedAt": "2026-03-23T07:42:51.000Z",
+      "score": 153.92,
       "status": "queued"
     },
     {
@@ -4159,6 +4170,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-03-19T07:07:10.000Z",
       "score": 152.07,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.19515",
+      "title": "ItinBench: Benchmarking Planning Across Multiple Cognitive Dimensions with Large Language Models",
+      "link": "https://arxiv.org/abs/2603.19515",
+      "summary": "arXiv:2603.19515v1 Announce Type: new Abstract: Large language models (LLMs) with advanced cognitive capabilities are emerging as agents for various reasoning and planning tasks. Traditional evaluations often focus on specific reasoning or planning questions within controlled environments. Recent studies have explored travel planning as a medium to integrate various verbal reasoning tasks into real-world contexts. However, reasoning tasks extend beyond verbal reasoning alone, and a comprehensive evaluation of LLMs requires a testbed that incorporates tasks from multiple cognitive domains. To address this gap, we introduce ItinBench, a benchmark that features one task of spatial reasoning, i.e., route optimization, into trip itinerary planning while keeping the traditional verbal reasoning tasks. ItinBench evaluates various LLMs across diverse tasks simultaneously, including Llama 3.1 8B, Mistral Large, Gemini 1.5 Pro, and GPT family. Our findings reveal that LLMs struggle to maintain high and consistent performance when concurrently handling multiple cognitive dimensions. By incorporating tasks from distinct human-level cognitive domains, ItinBench provides new insights into building more comprehensive reasoning testbeds that better reflect real-world challenges. The code and dataset: https://ethanwtl.github.io/IBweb/",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 151.36,
       "status": "queued"
     },
     {
@@ -4294,6 +4317,18 @@
       "status": "queued"
     },
     {
+      "id": "https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/",
+      "title": "Prompt to tape out: Autonomous AI agent builds 1.5 GHz RISC-V CPU",
+      "link": "https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/",
+      "summary": "Article URL: https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/ Comments URL: https://news.ycombinator.com/item?id=47486400 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-23T07:28:09.000Z",
+      "score": 149.04,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.03655",
       "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
       "link": "https://arxiv.org/abs/2603.03655",
@@ -4327,18 +4362,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-22T07:06:17.000Z",
       "score": 148.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.23668",
-      "title": "PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents",
-      "link": "https://arxiv.org/abs/2602.23668",
-      "summary": "arXiv:2602.23668v1 Announce Type: new Abstract: Large language model (LLM) agents typically rely on reactive decision-making paradigms such as ReAct, selecting actions conditioned on growing execution histories. While effective for short tasks, these approaches often lead to redundant tool usage, unstable reasoning, and high token consumption in complex long-horizon tasks involving branching, iteration, or multi-tool coordination. To address these limitations, this paper introduces PseudoAct, a novel framework for flexible planning and action control in LLM agents through pseudocode synthesis. Leveraging the ability of LLMs to express task-solving strategies as code, PseudoAct synthesizes a structured pseudocode plan that decomposes a task into subtasks and explicitly encodes control flow, including sequencing, conditionals, loops, parallel composition, and combinations of these logic primitives. Actions are then executed by following this global plan, making the decision logic explicit and temporally coherent. This design reduces redundant actions, prevents infinite loops, and avoids uninformative alternative exploration, enabling consistent and efficient long-horizon decision-making. Experiments on benchmark datasets show that our method significantly outperforms existing reactive agent approaches, achieving a 20.93% absolute gain in success rate on FEVER and setting a new st",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-02T05:00:00.000Z",
-      "score": 147.82,
       "status": "queued"
     },
     {
@@ -4558,6 +4581,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.19896",
+      "title": "Utility-Guided Agent Orchestration for Efficient LLM Tool Use",
+      "link": "https://arxiv.org/abs/2603.19896",
+      "summary": "arXiv:2603.19896v1 Announce Type: new Abstract: Tool-using large language model (LLM) agents often face a fundamental tension between answer quality and execution cost. Fixed workflows are stable but inflexible, while free-form multi-step reasoning methods such as ReAct may improve task performance at the expense of excessive tool calls, longer trajectories, higher token consumption, and increased latency. In this paper, we study agent orchestration as an explicit decision problem rather than leaving it entirely to prompt-level behavior. We propose a utility-guided orchestration policy that selects among actions such as respond, retrieve, tool call, verify, and stop by balancing estimated gain, step cost, uncertainty, and redundancy. Our goal is not to claim universally best task performance, but to provide a controllable and analyzable policy framework for studying quality-cost trade-offs in tool-using LLM agents. Experiments across direct answering, threshold control, fixed workflows, ReAct, and several policy variants show that explicit orchestration signals substantially affect agent behavior. Additional analyses on cost definitions, workflow fairness, and redundancy control further demonstrate that lightweight utility design can provide a defensible and practical mechanism for agent control.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 133.36,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.12933",
       "title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
       "link": "https://arxiv.org/abs/2603.12933",
@@ -4594,6 +4629,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.19584",
+      "title": "PowerLens: Taming LLM Agents for Safe and Personalized Mobile Power Management",
+      "link": "https://arxiv.org/abs/2603.19584",
+      "summary": "arXiv:2603.19584v1 Announce Type: new Abstract: Battery life remains a critical challenge for mobile devices, yet existing power management mechanisms rely on static rules or coarse-grained heuristics that ignore user activities and personal preferences. We present PowerLens, a system that tames the reasoning power of Large Language Models (LLMs) for safe and personalized mobile power management on Android devices. The key idea is that LLMs' commonsense reasoning can bridge the semantic gap between user activities and system parameters, enabling zero-shot, context-aware policy generation that adapts to individual preferences through implicit feedback. PowerLens employs a multi-agent architecture that recognizes user context from UI semantics and generates holistic power policies across 18 device parameters. A PDL-based constraint framework verifies every action before execution, while a two-tier memory system learns individualized preferences from implicit user overrides through confidence-based distillation, requiring no explicit configuration and converging within 3--5 days. Extensive experiments on a rooted Android device show that PowerLens achieves 81.7% action accuracy and 38.8% energy saving over stock Android, outperforming rule-based and LLM-based baselines, with high user satisfaction, fast preference convergence, and strong safety guarantees, with the system itself c",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 127.36,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/AlessioZazzarini/claude-codex-collab",
       "title": "Claude × Codex Collab Two AI Coding Agents. One Orchestrator. Zero API Costs",
       "link": "https://github.com/AlessioZazzarini/claude-codex-collab",
@@ -4606,15 +4653,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
-      "title": "Musk says he’s building Terafab chip plant in Austin, Texas",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
-      "summary": "Grok, how do you make chips? | Image: Laura Normand / The Verge Elon Musk announced plans to build a Terafab plant in Austin, Texas, that will be jointly run by Tesla and SpaceX. The goal is to eventually build chips at scale for robotics, artificial intelligence, and space-based data centers for Musk's various companies. Musk has expressed concern, as have other executives, about the chip industry's ability to keep up with demand as the AI industry has boomed. But building a chip fabrication plant is complex, requires billions of dollars, many years, and a ton of specialized equipment. And, as Bloomberg points out, Musk \"has no background in semiconductor production and a history of over-promising on g … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
+      "id": "https://01ai.ai/",
+      "title": "I have solved the identity, trust, and memory hurdles with AI Agents",
+      "link": "https://01ai.ai/",
+      "summary": "Article URL: https://01ai.ai/ Comments URL: https://news.ycombinator.com/item?id=47486278 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-22T14:06:48.000Z",
-      "score": 126.25,
+      "publishedAt": "2026-03-23T07:05:00.000Z",
+      "score": 126.79,
       "status": "queued"
     },
     {
@@ -4726,6 +4773,18 @@
       "status": "queued"
     },
     {
+      "id": "https://docs.google.com/spreadsheets/d/12r03Uscybrj2PTc-H7bq7k3fD7GOcCmFVhsFbK5rwHA/edit?usp=sharing",
+      "title": "A vetted map of the agentic AI stack (2026)",
+      "link": "https://docs.google.com/spreadsheets/d/12r03Uscybrj2PTc-H7bq7k3fD7GOcCmFVhsFbK5rwHA/edit?usp=sharing",
+      "summary": "Article URL: https://docs.google.com/spreadsheets/d/12r03Uscybrj2PTc-H7bq7k3fD7GOcCmFVhsFbK5rwHA/edit?usp=sharing Comments URL: https://news.ycombinator.com/item?id=47486324 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-23T07:14:02.000Z",
+      "score": 116.11,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.15634",
       "title": "NextMem: Towards Latent Factual Memory for LLM-based Agents",
       "link": "https://arxiv.org/abs/2603.15634",
@@ -4810,6 +4869,54 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/oguzbilgic/agent-kernel",
+      "title": "Show HN: Agent Kernel – Three Markdown files that make any AI agent stateful",
+      "link": "https://github.com/oguzbilgic/agent-kernel",
+      "summary": "Article URL: https://github.com/oguzbilgic/agent-kernel Comments URL: https://news.ycombinator.com/item?id=47486287 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-23T07:06:42.000Z",
+      "score": 110.07,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.19514",
+      "title": "Learning to Disprove: Formal Counterexample Generation with Large Language Models",
+      "link": "https://arxiv.org/abs/2603.19514",
+      "summary": "arXiv:2603.19514v1 Announce Type: new Abstract: Mathematical reasoning demands two critical, complementary skills: constructing rigorous proofs for true statements and discovering counterexamples that disprove false ones. However, current AI efforts in mathematics focus almost exclusively on proof construction, often neglecting the equally important task of finding counterexamples. In this paper, we address this gap by fine-tuning large language models (LLMs) to reason about and generate counterexamples. We formalize this task as formal counterexample generation, which requires LLMs not only to propose candidate counterexamples but also to produce formal proofs that can be automatically verified in the Lean 4 theorem prover. To enable effective learning, we introduce a symbolic mutation strategy that synthesizes diverse training data by systematically extracting theorems and discarding selected hypotheses, thereby producing diverse counterexample instances. Together with curated datasets, this strategy enables a multi-reward expert iteration framework that substantially enhances both the effectiveness and efficiency of training LLMs for counterexample generation and theorem proving. Experiments on three newly collected benchmarks validate the advantages of our approach, showing that the mutation strategy and training framework yield significant performance gains.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 109.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.19639",
+      "title": "HyEvo: Self-Evolving Hybrid Agentic Workflows for Efficient Reasoning",
+      "link": "https://arxiv.org/abs/2603.19639",
+      "summary": "arXiv:2603.19639v1 Announce Type: new Abstract: Although agentic workflows have demonstrated strong potential for solving complex tasks, existing automated generation methods remain inefficient and underperform, as they rely on predefined operator libraries and homogeneous LLM-only workflows in which all task-level computation is performed through probabilistic inference. To address these limitations, we propose HyEvo, an automated workflow-generation framework that leverages heterogeneous atomic synthesis. HyEvo integrates probabilistic LLM nodes for semantic reasoning with deterministic code nodes for rule-based execution, offloading predictable operations from LLM inference and reducing inference cost and execution latency. To efficiently navigate the hybrid search space, HyEvo employs an LLM-driven multi-island evolutionary strategy with a reflect-then-generate mechanism, iteratively refining both workflow topology and node logic via execution feedback. Comprehensive experiments show that HyEvo consistently outperforms existing methods across diverse reasoning and coding benchmarks, while reducing inference cost and execution latency by up to 19$\\times$ and 16$\\times$, respectively, compared to the state-of-the-art open-source baseline.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 109.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.19715",
+      "title": "Stepwise: Neuro-Symbolic Proof Search for Automated Systems Verification",
+      "link": "https://arxiv.org/abs/2603.19715",
+      "summary": "arXiv:2603.19715v1 Announce Type: new Abstract: Formal verification via interactive theorem proving is increasingly used to ensure the correctness of critical systems, yet constructing large proof scripts remains highly manual and limits scalability. Advances in large language models (LLMs), especially in mathematical reasoning, make their integration into software verification increasingly promising. This paper introduces a neuro-symbolic proof generation framework designed to automate proof search for systems-level verification projects. The framework performs a best-first tree search over proof states, repeatedly querying an LLM for the next candidate proof step. On the neural side, we fine-tune LLMs using datasets of proof state-step pairs; on the symbolic side, we incorporate a range of ITP tools to repair rejected steps, filter and rank proof states, and automatically discharge subgoals when search progress stalls. This synergy enables data-efficient LLM adaptation and semantics-informed pruning of the search space. We implement the framework on a new Isabelle REPL that exposes fine-grained proof states and automation tools, and evaluate it on the FVEL seL4 benchmark and additional Isabelle developments. On seL4, the system proves up to 77.6\\% of the theorems, substantially surpassing previous LLM-based approaches and standalone Sledgehammer, while solving significantly m",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 109.36,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.17112",
       "title": "Cascade-Aware Multi-Agent Routing: Spatio-Temporal Sidecars and Geometry-Switching",
       "link": "https://arxiv.org/abs/2603.17112",
@@ -4834,148 +4941,80 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/plusai-solutions/ai-scrum-master-template",
-      "title": "Show HN: An open-source AI Scrum Team that lives natively in GitHub Issues",
-      "link": "https://github.com/plusai-solutions/ai-scrum-master-template",
-      "summary": "Hi HN, I've been experimenting a lot with autonomous coding agents (like OpenClaw and various CLI tools), but I kept running into two major roadblocks when trying to use them for actual production work: Security & State: Most agents require running a persistent state on a local machine or VPS, often needing broad file system access. It's a security nightmare for enterprise code. Chaos: Generalist agents try to do everything at once (planning, coding, testing) in a single context window, which inevitably leads to hallucinations and broken dependencies. I wanted a system that mirrored how actual engineering teams work, so I built an open-source framework that runs entirely inside GitHub. How it works: I mapped out a multi-agent system (Scrum Master, Planner, Dev, QA Tester) using Anthropic's Claude, orchestrated entirely through GitHub Actions. You open an Issue with a feature request. The \"Scrum Master\" agent breaks it into a Kanban board. The \"Planner\" writes a feature issue with the implementation spec. Once you approve it, the \"Dev\" spins up an ephemeral, serverless container, writes the code, and opens a PR. The \"QA\" agent reviews the PR, runs tests, and leaves comments. The good thing for this architecture is that every task runs in a sterile, single-use runner. No corrupted environments or lingering state. It relies completely on GitHub's permission model. The agents only",
-      "source": "Hacker News (AI)",
+      "id": "https://arxiv.org/abs/2603.20046",
+      "title": "Experience is the Best Teacher: Motivating Effective Exploration in Reinforcement Learning for LLMs",
+      "link": "https://arxiv.org/abs/2603.20046",
+      "summary": "arXiv:2603.20046v1 Announce Type: new Abstract: Reinforcement Learning (RL) with rubric-based rewards has recently shown remarkable progress in enhancing general reasoning capabilities of Large Language Models (LLMs), yet still suffers from ineffective exploration confined to curent policy distribution. In fact, RL optimization can be viewed as steering the policy toward an ideal distribution that maximizes the rewards, while effective exploration should align efforts with desired target. Leveraging this insight, we propose HeRL, a Hindsight experience guided Reinforcement Learning framework to bootstrap effective exploration by explicitly telling LLMs the desired behaviors specified in rewards. Concretely, HeRL treats failed trajectories along with their unmet rubrics as hindsight experience, which serves as in-context guidance for the policy to explore desired responses beyond its current distribution. Additionally, we introduce a bonus reward to incentivize responses with greater potential for improvement under such guidance. HeRL facilitates effective learning from desired high quality samples without repeated trial-and-error from scratch, yielding a more accurate estimation of the expected gradient theoretically. Extensive experiments across various benchmarks demonstrate that HeRL achieves superior performance gains over baselines, and can further benefit from experience",
+      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 6,
-      "publishedAt": "2026-03-21T03:30:56.000Z",
-      "score": 102.86,
+      "publishedAt": "2026-03-23T04:00:00.000Z",
+      "score": 103.36,
       "status": "queued"
     },
     {
-      "id": "https://github.com/ORANGEWEB3/orange-skills",
-      "title": "Orange built an API where AI agents can test apps and submit feedback",
-      "link": "https://github.com/ORANGEWEB3/orange-skills",
-      "summary": "Article URL: https://github.com/ORANGEWEB3/orange-skills Comments URL: https://news.ycombinator.com/item?id=47451026 Points: 2 # Comments: 0",
+      "id": "https://cognition-engines.ai/",
+      "title": "Cognition Engines Decision Intelligence for AI Agents",
+      "link": "https://cognition-engines.ai/",
+      "summary": "Article URL: https://cognition-engines.ai/ Comments URL: https://news.ycombinator.com/item?id=47219156 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-20T06:01:08.000Z",
-      "score": 102.26,
-      "status": "queued"
+      "publishedAt": "2026-03-02T15:25:25.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-23T08:43:55.616Z",
+      "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
-      "id": "https://www.cryptopolitan.com/analysts-warn-of-attack-ai-agents/",
-      "title": "Security analysts warn of 'expanded attack surface' as AI agents become default",
-      "link": "https://www.cryptopolitan.com/analysts-warn-of-attack-ai-agents/",
-      "summary": "Article URL: https://www.cryptopolitan.com/analysts-warn-of-attack-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47476920 Points: 1 # Comments: 3",
+      "id": "https://scopegate.dev",
+      "title": "Show HN: ScopeGate – Granular permission gateway for AI agents (MCP, open-core)",
+      "link": "https://scopegate.dev",
+      "summary": "88% of orgs have had AI agent security incidents, yet MCP servers run broad OAuth scopes with no way to restrict per agent. After reading about the GitHub MCP exploit I got tired of cobbling together OAuth + custom middleware + prayer. ScopeGate is a permission proxy that sits between your AI agents and external services (Google Drive, Gmail, Calendar, etc). You connect a service via OAuth, define granular scopes pe…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-22T12:41:03.000Z",
-      "score": 97.49,
-      "status": "queued"
+      "publishedAt": "2026-03-03T15:16:00.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-23T08:43:55.616Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense.…"
     },
     {
-      "id": "https://age-of-product.com/jira-ai-agents/",
-      "title": "A Reason to Ditch Jira: AI Agents",
-      "link": "https://age-of-product.com/jira-ai-agents/",
-      "summary": "Article URL: https://age-of-product.com/jira-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47474671 Points: 1 # Comments: 0",
+      "id": "https://chainix.ai",
+      "title": "Building AI Agents non-technical teammates can improve without me",
+      "link": "https://chainix.ai",
+      "summary": "Article URL: https://chainix.ai Comments URL: https://news.ycombinator.com/item?id=47248401 Points: 3 # Comments: 1",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-22T05:10:43.000Z",
-      "score": 91.48,
-      "status": "queued"
+      "publishedAt": "2026-03-04T14:56:39.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-23T08:43:55.616Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
-      "id": "https://arxiv.org/abs/2603.18294",
-      "title": "The Validity Gap in Health AI Evaluation: A Cross-Sectional Analysis of Benchmark Composition",
-      "link": "https://arxiv.org/abs/2603.18294",
-      "summary": "arXiv:2603.18294v1 Announce Type: new Abstract: Background: Clinical trials rely on transparent inclusion criteria to ensure generalizability. In contrast, benchmarks validating health-related large language models (LLMs) rarely characterize the \"patient\" or \"query\" populations they contain. Without defined composition, aggregate performance metrics may misrepresent model readiness for clinical use. Methods: We analyzed 18,707 consumer health queries across six public benchmarks using LLMs as automated coding instruments to apply a standardized 16-field taxonomy profiling context, topic, and intent. Results: We identified a structural \"validity gap.\" While benchmarks have evolved from static retrieval to interactive dialogue, clinical composition remains misaligned with real-world needs. Although 42% of the corpus referenced objective data, this was polarized toward wellness-focused wearable signals (17.7%); complex diagnostic inputs remained rare, including laboratory values (5.2%), imaging (3.8%), and raw medical records (0.6%). Safety-critical scenarios were effectively absent: suicide/self-harm queries comprised <0.7% of the corpus and chronic disease management only 5.5%. Benchmarks also neglected vulnerable populations (pediatrics/older adults <11%) and global health needs. Conclusions: Evaluation benchmarks remain misaligned with real-world clinical needs, lacking raw cl",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-20T04:00:00.000Z",
-      "score": 82.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.18085",
-      "title": "Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction",
-      "link": "https://arxiv.org/abs/2603.18085",
-      "summary": "arXiv:2603.18085v1 Announce Type: new Abstract: Recent incidents have highlighted alarming cases where human-AI interactions led to negative psychological outcomes, including mental health crises and even user harm. As LLMs serve as sources of guidance, emotional support, and even informal therapy, these risks are poised to escalate. However, studying the mechanisms underlying harmful human-AI interactions presents significant methodological challenges, where organic harmful interactions typically develop over sustained engagement, requiring extensive conversational context that are difficult to simulate in controlled settings. To address this gap, we developed a Multi-Trait Subspace Steering (MultiTraitsss) framework that leverages established crisis-associated traits and novel subspace steering framework to generate Dark models that exhibits cumulative harmful behavioral patterns. Single-turn and multi-turn evaluations show that our dark models consistently produce harmful interaction and outcomes. Using our Dark models, we propose protective measure to reduce harmful outcomes in Human-AI interactions.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-21T04:00:00.000Z",
-      "score": 81.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.18122",
-      "title": "Don't Vibe Code, Do Skele-Code: Interactive No-Code Notebooks for Subject Matter Experts to Build Lower-Cost Agentic Workflows",
-      "link": "https://arxiv.org/abs/2603.18122",
-      "summary": "arXiv:2603.18122v1 Announce Type: new Abstract: Skele-Code is a natural-language and graph-based interface for building workflows with AI agents, designed especially for less or non-technical users. It supports incremental, interactive notebook-style development, and each step is converted to code with a required set of functions and behavior to enable incremental building of workflows. Agents are invoked only for code generation and error recovery, not orchestration or task execution. This agent-supported, but code-first approach to workflows, along with the context-engineering used in Skele-Code, can help reduce token costs compared to the multi-agent system approach to executing workflows. Skele-Code produces modular, easily extensible, and shareable workflows. The generated workflows can also be used as skills by agents, or as steps in other workflows.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-21T04:00:00.000Z",
-      "score": 81.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.18201",
-      "title": "A Computationally Efficient Learning of Artificial Intelligence System Reliability Considering Error Propagation",
-      "link": "https://arxiv.org/abs/2603.18201",
-      "summary": "arXiv:2603.18201v1 Announce Type: new Abstract: Artificial Intelligence (AI) systems are increasingly prominent in emerging smart cities, yet their reliability remains a critical concern. These systems typically operate through a sequence of interconnected functional stages, where upstream errors may propagate to downstream stages, ultimately affecting overall system reliability. Quantifying such error propagation is essential for accurate modeling of AI system reliability. However, this task is challenging due to: i) data availability: real-world AI system reliability data are often scarce and constrained by privacy concerns; ii) model validity: recurring error events across sequential stages are interdependent, violating the independence assumptions of statistical inference; and iii) computational complexity: AI systems process large volumes of high-speed data, resulting in frequent and complex recurrent error events that are difficult to track and analyze. To address these challenges, this paper leverages a physics-based autonomous vehicle simulation platform with a justifiable error injector to generate high-quality data for AI system reliability analysis. Building on this data, a new reliability modeling framework is developed to explicitly characterize error propagation across stages. Model parameters are estimated using a computationally efficient, theoretically guarante",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-21T04:00:00.000Z",
-      "score": 81.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
-      "title": "OpenAI is throwing everything into building a fully automated researcher",
-      "link": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
-      "summary": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself. ​​OpenAI says that the new…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-20T11:57:16.000Z",
-      "score": 80.02,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
-      "title": "Gemini task automation is slow, clunky, and super impressive",
-      "link": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
-      "summary": "An AI assistant that can actually get things done. I've been testing out Gemini's new task automation on the Pixel 10 Pro and the Galaxy S26 Ultra, which for the first time lets Gemini take the wheel and use apps for you. It's limited to a small subset right now - a handful of food delivery and rideshare services - and it's still in beta. It's slow, it's clunky at times, and it doesn't solve any serious problem you had using your phone. But it's impressive as hell, and I don't think it's hyperbole to say this is a glimpse of the future. We're still a long way off, but this is the first time I've seen a true AI assistant actually working on a phone - not in a keynote presentation or a careful … Read the full story at The Verge.",
+      "id": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
+      "title": "Musk says he’s building Terafab chip plant in Austin, Texas",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
+      "summary": "Grok, how do you make chips? | Image: Laura Normand / The Verge Elon Musk announced plans to build a Terafab plant in Austin, Texas, that will be jointly run by Tesla and SpaceX. The goal is to eventually build chips at scale for robotics, artificial intelligence, and space-based data centers for Musk's various companies. Musk has expressed concern, as have other executives, about the chip industry's ability to keep…",
       "source": "The Verge AI",
       "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-03-21T11:30:00.000Z",
-      "score": 78.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.18104",
-      "title": "Adaptive Domain Models: Bayesian Evolution, Warm Rotation, and Principled Training for Geometric and Neuromorphic AI",
-      "link": "https://arxiv.org/abs/2603.18104",
-      "summary": "arXiv:2603.18104v1 Announce Type: new Abstract: Prevailing AI training infrastructure assumes reverse-mode automatic differentiation over IEEE-754 arithmetic. The memory overhead of training relative to inference, optimizer complexity, and structural degradation of geometric properties through training are consequences of this arithmetic substrate. This paper develops an alternative training architecture grounded in three prior results: the Dimensional Type System and Deterministic Memory Management framework [6], which establishes stack-eligible gradient allocation and exact quire accumulation as design-time verifiable properties; the Program Hypergraph [8], which establishes grade preservation through geometric algebra computations as a type-level invariant; and the b-posit 2026 standard [10], which makes posit arithmetic tractable across hardware targets conventionally considered inference-only. Their composition enables depth-independent training memory bounded to approximately twice the inference footprint, grade-preserving weight updates, and exact gradient accumulation, applicable uniformly to loss-function-optimized and spike-timing-dependent neuromorphic models. We introduce Bayesian distillation, a mechanism by which the latent prior structure of a general-purpose model is extracted through the ADM training regime, resolving the data-scarcity bootstrapping problem for",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-20T04:00:00.000Z",
-      "score": 76.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.18197",
-      "title": "Access Controlled Website Interaction for Agentic AI with Delegated Critical Tasks",
-      "link": "https://arxiv.org/abs/2603.18197",
-      "summary": "arXiv:2603.18197v1 Announce Type: new Abstract: Recent studies reveal gaps in delegating critical tasks to agentic AI that accesses websites on the user's behalf, primarily due to limited access control mechanisms on websites designed for agentic AI. In response, we propose a design of website-based interaction for AI agents with fine-grained access control for delegated critical tasks. Our approach encompasses a website design and implementation, as well as modifications to the access grant protocols in an open-source authorization service to tailor it to agentic AI, with delegated critical tasks on the website. The evaluation of our approach demonstrates the capabilities of our access-controlled website used by AI agents.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-21T04:00:00.000Z",
-      "score": 75.64,
-      "status": "queued"
+      "publishedAt": "2026-03-22T14:06:48.000Z",
+      "score": 126.25,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-23T08:43:55.616Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://news.ycombinator.com/item?id=47374335",
