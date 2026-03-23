@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T09:19:09.835Z",
+  "generatedAt": "2026-03-23T16:08:59.870Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "series": "tooling-deep-dive",
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-03-23-deterministic-browser-control-capture-and-replay-traces-with-theredsixagent-browser-protocol",
+      "title": "Contrôle déterministe du navigateur : capture et replay de traces avec theredsix/agent-browser-protocol",
+      "date": "2026-03-23",
+      "excerpt": "Utilisez theredsix/agent-browser-protocol pour capturer des traces de commandes navigateur déterministes et les rejouer afin d’améliorer le débogage, la QA et l’audit. Commencez par lancer l’exemple du dépôt.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-23-deterministic-browser-control-capture-and-replay-traces-with-theredsixagent-browser-protocol.jpg",
+      "tags": [
+        "automation",
+        "navigateur",
+        "reproductibilité",
+        "agents",
+        "LLM",
+        "QA",
+        "dev",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/theredsix/agent-browser-protocol"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

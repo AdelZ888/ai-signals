@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T09:19:09.833Z",
+  "generatedAt": "2026-03-23T16:08:59.868Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-03-23-deterministic-browser-control-capture-and-replay-traces-with-theredsixagent-browser-protocol",
+      "title": "Deterministic browser control: capture and replay traces with theredsix/agent-browser-protocol",
+      "date": "2026-03-23",
+      "excerpt": "Use theredsix/agent-browser-protocol to record deterministic browser command traces that can be replayed for reproducible debugging, QA, and audits. Start by running the repo example.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-23-deterministic-browser-control-capture-and-replay-traces-with-theredsixagent-browser-protocol.jpg",
+      "tags": [
+        "deterministic",
+        "browser-automation",
+        "agent-browser-protocol",
+        "AI-agents",
+        "replay-traces",
+        "reproducibility",
+        "QA"
+      ],
+      "sources": [
+        "https://github.com/theredsix/agent-browser-protocol"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-03-22-hive-memory-local-mcp-server-for-persistent-cross-project-agent-memory",
