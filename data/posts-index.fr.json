@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T08:46:18.092Z",
+  "generatedAt": "2026-03-24T16:31:47.694Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "timeToImplementMinutes": 180,
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-03-24-testing-anthropic-claudes-code-and-cowork-on-macos-a-safe-one-machine-setup",
+      "title": "Test de Claude Code et Cowork d’Anthropic sur macOS : configuration sûre sur une seule machine",
+      "date": "2026-03-24",
+      "excerpt": "Guide pas-à-pas (~60 minutes) pour essayer en sécurité la prise de contrôle restreinte d’Anthropic Claude (Code & Cowork) sur macOS. Configurez un canari sur une seule machine, accordez des permissions minimales et journalisez les actions.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-24-testing-anthropic-claudes-code-and-cowork-on-macos-a-safe-one-machine-setup.jpg",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "macOS",
+        "automatisation",
+        "IA",
+        "sécurité",
+        "devops",
+        "pilot"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/899430/anthropic-claude-code-cowork-ai-control-computer"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
