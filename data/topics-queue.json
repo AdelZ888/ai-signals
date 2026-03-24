@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-23T16:08:59.929Z",
+  "generatedAt": "2026-03-24T08:46:18.099Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation",
+      "title": "Confronting the CEO of the AI company that impersonated me",
+      "link": "https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation",
+      "summary": "Today, I’m talking with Shishir Mehrotra, who is CEO of Superhuman — that’s the company formerly known as Grammarly, which is still its flagship product. Shishir also used to be the chief product officer at YouTube, and he’s on the board of directors at Spotify. He’s a fascinating guy, and we actually scheduled this interview a month or so ago, thinking we’d talk about AI and what it’s doing to software, platforms,…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 11,
+      "publishedAt": "2026-03-23T13:30:00.000Z",
+      "score": 186.14,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-24T08:46:18.079Z",
+      "file": "content/posts/2026-03-24-superhuman-ceo-shishir-mehrotra-on-the-expert-review-feature-that-used-reporters-names.md",
+      "fileFr": "content/posts/fr/2026-03-24-superhuman-ceo-shishir-mehrotra-on-the-expert-review-feature-that-used-reporters-names.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1379,
+      "wordsFr": 1480
+    },
     {
       "id": "https://github.com/theredsix/agent-browser-protocol",
       "title": "Show HN: Deterministic browser control for AI agents (~90% on Mind2Web)",
@@ -2876,18 +2899,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation",
-      "title": "Confronting the CEO of the AI company that impersonated me",
-      "link": "https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation",
-      "summary": "Today, I’m talking with Shishir Mehrotra, who is CEO of Superhuman — that’s the company formerly known as Grammarly, which is still its flagship product. Shishir also used to be the chief product officer at YouTube, and he’s on the board of directors at Spotify. He’s a fascinating guy, and we actually scheduled this interview a month or so ago, thinking we’d talk about AI and what it’s doing to software, platforms, and creativity pretty broadly. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. Then things really took a turn. Back in August of last year, Grammarly shipped a feature called Expert Review, which allowed you to get writing suggestions from AI-cloned “experts,” and reporters at The Verge and other outlets discovered that those experts included us. It included me. No one had ever asked permission to use our names this way, and a lot of reporters were outraged by this — the talented investigative journalist Julia Angwin was so upset she filed a class action lawsuit about it. Superhuman responded to this by first offering up an email-based opt out and then killing the feature entirely. Shishir apologized, and you’ll hear him apologize again. Throughout all of this, I kept wondering if Shishir was still going to show up and record Decoder, because my questions ab",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 11,
-      "publishedAt": "2026-03-23T13:30:00.000Z",
-      "score": 186.14,
-      "status": "queued"
-    },
-    {
       "id": "https://levine.tech/blog/oauth-is-broken",
       "title": "OAuth Is Broken for AI Agents",
       "link": "https://levine.tech/blog/oauth-is-broken",
@@ -3308,6 +3319,18 @@
       "status": "queued"
     },
     {
+      "id": "https://proofshot.argil.io/",
+      "title": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "link": "https://proofshot.argil.io/",
+      "summary": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors. So I built a CLI that lets the agent open a browser, interact with the page, record what happens, and collect any errors. Then it bundles everything — video, screenshots, logs — into a self-contained HTML file I can review in seconds. proofshot start --run \"npm run dev\" --port 3000 # agent navigates, clicks, takes screenshots proofshot stop It works with whatever agent you use (Claude Code, Cursor, Codex, etc.) — it’s just shell commands. It's packaged as a skill so your AI coding agent knows exactly how it works. It's built on agent-browser from Vercel Labs which is far better and faster than Playwright MCP. It’s not a testing framework. The agent doesn’t decide pass/fail. It just gives me the evidence so I don’t have to open the browser myself every time. Open source and completely free. https://github.com/AmElmo/proofshot Comments URL: https://news.ycombinator.com/item?id=47499672 Points: 8 # Comments: 4",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-24T07:46:46.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3520,6 +3543,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-15T07:51:30.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.numerama.com/cyberguerre/2216529-claude-dispatch-comment-profiter-pleinement-de-lia-agentique-sans-se-tirer-une-balle-dans-le-pied.html",
+      "title": "Claude Dispatch : comment profiter pleinement de l’IA agentique sans se tirer une balle dans le pied",
+      "link": "https://www.numerama.com/cyberguerre/2216529-claude-dispatch-comment-profiter-pleinement-de-lia-agentique-sans-se-tirer-une-balle-dans-le-pied.html",
+      "summary": "Le 23 mars 2026, une vidéo publiée sur X par Claude a propulsé Dispatch sur le devant de la scène. Cette fonctionnalité de Cowork permet à l'IA d'Anthropic de travailler seule sur votre ordinateur pendant que vous lui donnez des ordres depuis votre téléphone. Lancée discrètement quelques jours plus tôt, elle est désormais au cœur de l'attention, et ce qu'Anthropic écrit en petites lettres sur la sécurité mérite qu'on s'y attarde.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-24T08:12:56.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -4460,6 +4495,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.20270",
+      "title": "FactorSmith: Agentic Simulation Generation via Markov Decision Process Decomposition with Planner-Designer-Critic Refinement",
+      "link": "https://arxiv.org/abs/2603.20270",
+      "summary": "arXiv:2603.20270v1 Announce Type: new Abstract: Generating executable simulations from natural language specifications remains a challenging problem due to the limited reasoning capacity of large language models (LLMs) when confronted with large, interconnected codebases. This paper presents FactorSmith, a framework that synthesizes playable game simulations in code from textual descriptions by combining two complementary ideas: factored POMDP decomposition for principled context reduction and a hierarchical planner-designer-critic agentic workflow for iterative quality refinement at every generation step. Drawing on the factored partially observable Markov decision process (POMDP) representation introduced by FactorSim [Sun et al., 2024], the proposed method decomposes a simulation specification into modular steps where each step operates only on a minimal subset of relevant state variables, limiting the context window that any single LLM call must process. Inspired by the agentic trio architecture of SceneSmith [Pfaff et al., 2025], FactorSmith embeds within every factored step a three-agent interaction: a planner that orchestrates workflow, a designer that proposes code artifacts, and a critic that evaluates quality through structured scoring, enabling iterative refinement with checkpoint rollback. This paper formalizes the combined approach, presents the mathematical framew",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-24T04:00:00.000Z",
+      "score": 139.75,
+      "status": "queued"
+    },
+    {
       "id": "https://www.livescience.com/technology/artificial-intelligence/an-experimental-ai-agent-broke-out-of-its-testing-environment-and-mined-crypto-without-permission",
       "title": "AI agent broke out of testing environment and mined crypto without permission",
       "link": "https://www.livescience.com/technology/artificial-intelligence/an-experimental-ai-agent-broke-out-of-its-testing-environment-and-mined-crypto-without-permission",
@@ -4592,6 +4639,18 @@
       "status": "queued"
     },
     {
+      "id": "https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/",
+      "title": "The 53-Year Evolution of AI Agents: A Comprehensive Reading List",
+      "link": "https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/",
+      "summary": "Article URL: https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/ Comments URL: https://news.ycombinator.com/item?id=47499410 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-24T07:02:54.000Z",
+      "score": 128.49,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.15661",
       "title": "DynaTrust: Defending Multi-Agent Systems Against Sleeper Agents via Dynamic Trust Graphs",
       "link": "https://arxiv.org/abs/2603.15661",
@@ -4664,6 +4723,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47499498",
+      "title": "Ask HN: What would it take to provide free AI to the underprivileged?",
+      "link": "https://news.ycombinator.com/item?id=47499498",
+      "summary": "Hi folks, Seeing headlines recently of Altman's vision for users purchasing access to AI as a utility (the same way we pay for electricity). Whilst I can appreciate the convenience of this, I'm not sure it would be a practical / affordable option in may parts of the world (in my case I'm specifically thinking of the African context, but I'm sure it applies elsewhere too). What would it take to host and provide access to an \"open source\" AI for the benefit of the underprivileged? I'm specifically wondering about the technical possibilities (open source LLMs?), and back-of-the-envelope calculations for hosting and computation. There is going to be a real need for this in my part of the world, and myself and some others are working with a government think tank to help fund and ultimately drive this. Thanks. Comments URL: https://news.ycombinator.com/item?id=47499498 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-24T07:21:31.000Z",
+      "score": 122.25,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.15643",
       "title": "GSI Agent: Domain Knowledge Enhancement for Large Language Models in Green Stormwater Infrastructure",
       "link": "https://arxiv.org/abs/2603.15643",
@@ -4673,6 +4744,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-18T04:00:00.000Z",
       "score": 122,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.20213",
+      "title": "AgenticGEO: A Self-Evolving Agentic System for Generative Engine Optimization",
+      "link": "https://arxiv.org/abs/2603.20213",
+      "summary": "arXiv:2603.20213v1 Announce Type: new Abstract: Generative search engines represent a transition from traditional ranking-based retrieval to Large Language Model (LLM)-based synthesis, transforming optimization goals from ranking prominence towards content inclusion. Generative Engine Optimization (GEO), specifically, aims to maximize visibility and attribution in black-box summarized outputs by strategically manipulating source content. However, existing methods rely on static heuristics, single-prompt optimization, or engine preference rule distillation that is prone to overfitting. They cannot flexibly adapt to diverse content or the changing behaviors of generative engines. Moreover, effectively optimizing these strategies requires an impractical amount of interaction feedback from the engines. To address these challenges, we propose AgenticGEO, a self-evolving agentic framework formulating optimization as a content-conditioned control problem, which enhances intrinsic content quality to robustly adapt to the unpredictable behaviors of black-box engines. Unlike fixed-strategy methods, AgenticGEO employs a MAP-Elites archive to evolve diverse, compositional strategies. To mitigate interaction costs, we introduce a Co-Evolving Critic, a lightweight surrogate that approximates engine feedback for content-specific strategy selection and refinement, efficiently guiding both evol",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-24T04:00:00.000Z",
+      "score": 121.75,
       "status": "queued"
     },
     {
@@ -4784,6 +4867,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.20510",
+      "title": "Grounded Chess Reasoning in Language Models via Master Distillation",
+      "link": "https://arxiv.org/abs/2603.20510",
+      "summary": "arXiv:2603.20510v1 Announce Type: new Abstract: Language models often lack grounded reasoning capabilities in specialized domains where training data is scarce but bespoke systems excel. We introduce a general framework for distilling expert system reasoning into natural language chain-of-thought explanations, enabling compact models to acquire domain expertise and the ability to generate faithful, grounded explanations. Rather than distilling only final outputs, we capture the full reasoning process, transforming opaque expert computations into transparent, step-by-step explanations. We demonstrate this approach in chess, a canonical reasoning domain where language models continue to underperform. Our 4B parameter model, C1, advances from a near-zero baseline to 48.1% accuracy, outperforming all open-source models and most frontier proprietary systems. Notably, C1 surpasses its distillation teacher and generates solutions in two orders of magnitude fewer tokens than baselines. Unlike prior neural chess approaches that predict only best moves, C1 generates explainable solutions revealing strategic reasoning. Our pipeline combines supervised fine-tuning and reinforcement learning with theme-balanced data sampling for comprehensive tactical coverage. Master Distillation demonstrates how to inject expert-level knowledge into compact models for under-optimized domains, offering a r",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-24T04:00:00.000Z",
+      "score": 115.75,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.13251",
       "title": "ManiBench: A Benchmark for Testing Visual-Logic Drift and Syntactic Hallucinations in Manim Code Generation",
       "link": "https://arxiv.org/abs/2603.13251",
@@ -4868,6 +4963,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.20435",
+      "title": "Deep reflective reasoning in interdependence constrained structured data extraction from clinical notes for digital health",
+      "link": "https://arxiv.org/abs/2603.20435",
+      "summary": "arXiv:2603.20435v1 Announce Type: new Abstract: Extracting structured information from clinical notes requires navigating a dense web of interdependent variables where the value of one attribute logically constrains others. Existing Large Language Model (LLM)-based extraction pipelines often struggle to capture these dependencies, leading to clinically inconsistent outputs. We propose deep reflective reasoning, a large language model agent framework that iteratively self-critiques and revises structured outputs by checking consistency among variables, the input text, and retrieved domain knowledge, stopping when outputs converge. We extensively evaluate the proposed method in three diverse oncology applications: (1) On colorectal cancer synoptic reporting from gross descriptions (n=217), reflective reasoning improved average F1 across eight categorical synoptic variables from 0.828 to 0.911 and increased mean correct rate across four numeric variables from 0.806 to 0.895; (2) On Ewing sarcoma CD99 immunostaining pattern identification (n=200), the accuracy improved from 0.870 to 0.927; (3) On lung cancer tumor staging (n=100), tumor stage accuracy improved from 0.680 to 0.833 (pT: 0.842 -> 0.884; pN: 0.885 -> 0.948). The results demonstrate that deep reflective reasoning can systematically improve the reliability of LLM-based structured data extraction under interdependence con",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-24T04:00:00.000Z",
+      "score": 109.75,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.19514",
       "title": "Learning to Disprove: Formal Counterexample Generation with Large Language Models",
       "link": "https://arxiv.org/abs/2603.19514",
@@ -4937,90 +5044,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-22T13:41:10.000Z",
       "score": 104.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.20046",
-      "title": "Experience is the Best Teacher: Motivating Effective Exploration in Reinforcement Learning for LLMs",
-      "link": "https://arxiv.org/abs/2603.20046",
-      "summary": "arXiv:2603.20046v1 Announce Type: new Abstract: Reinforcement Learning (RL) with rubric-based rewards has recently shown remarkable progress in enhancing general reasoning capabilities of Large Language Models (LLMs), yet still suffers from ineffective exploration confined to curent policy distribution. In fact, RL optimization can be viewed as steering the policy toward an ideal distribution that maximizes the rewards, while effective exploration should align efforts with desired target. Leveraging this insight, we propose HeRL, a Hindsight experience guided Reinforcement Learning framework to bootstrap effective exploration by explicitly telling LLMs the desired behaviors specified in rewards. Concretely, HeRL treats failed trajectories along with their unmet rubrics as hindsight experience, which serves as in-context guidance for the policy to explore desired responses beyond its current distribution. Additionally, we introduce a bonus reward to incentivize responses with greater potential for improvement under such guidance. HeRL facilitates effective learning from desired high quality samples without repeated trial-and-error from scratch, yielding a more accurate estimation of the expected gradient theoretically. Extensive experiments across various benchmarks demonstrate that HeRL achieves superior performance gains over baselines, and can further benefit from experience",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 103.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/cyberguerre/2215561-comment-la-guerre-en-iran-pourrait-asphyxier-le-carburant-invisible-de-lia.html",
-      "title": "Comment la guerre en Iran pourrait asphyxier le carburant invisible de l’IA",
-      "link": "https://www.numerama.com/cyberguerre/2215561-comment-la-guerre-en-iran-pourrait-asphyxier-le-carburant-invisible-de-lia.html",
-      "summary": "Le conflit entre l'Iran, les États-Unis et Israël ne menace pas seulement les marchés pétroliers. Il pourrait aussi fragiliser un maillon inattendu de la chaîne d'approvisionnement de l'intelligence artificielle : l'hélium, gaz rare et irremplaçable dans la fabrication des puces électroniques.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-23T14:12:17.000Z",
-      "score": 97.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.19782",
-      "title": "Embodied Science: Closing the Discovery Loop with Agentic Embodied AI",
-      "link": "https://arxiv.org/abs/2603.19782",
-      "summary": "arXiv:2603.19782v1 Announce Type: new Abstract: Artificial intelligence has demonstrated remarkable capability in predicting scientific properties, yet scientific discovery remains an inherently physical, long-horizon pursuit governed by experimental cycles. Most current computational approaches are misaligned with this reality, framing discovery as isolated, task-specific predictions rather than continuous interaction with the physical world. Here, we argue for embodied science, a paradigm that reframes scientific discovery as a closed loop tightly coupling agentic reasoning with physical execution. We propose a unified Perception-Language-Action-Discovery (PLAD) framework, wherein embodied agents perceive experimental environments, reason over scientific knowledge, execute physical interventions, and internalize outcomes to drive subsequent exploration. By grounding computational reasoning in robust physical feedback, this approach bridges the gap between digital prediction and empirical validation, offering a roadmap for autonomous discovery systems in the life and chemical sciences.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 82.01,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "title": "Designing AI agents to resist prompt injection",
-      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-11T11:30:00.000Z",
-      "score": 72.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/equip-responses-api-computer-environment",
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-11T11:00:00.000Z",
-      "score": 72.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.19461",
-      "title": "Hyperagents",
-      "link": "https://arxiv.org/abs/2603.19461",
-      "summary": "arXiv:2603.19461v1 Announce Type: new Abstract: Self-improving AI systems aim to reduce reliance on human engineering by learning to improve their own learning and problem-solving processes. Existing approaches to self-improvement rely on fixed, handcrafted meta-level mechanisms, fundamentally limiting how fast such systems can improve. The Darwin G\\\"odel Machine (DGM) demonstrates open-ended self-improvement in coding by repeatedly generating and evaluating self-modified variants. Because both evaluation and self-modification are coding tasks, gains in coding ability can translate into gains in self-improvement ability. However, this alignment does not generally hold beyond coding domains. We introduce \\textbf{hyperagents}, self-referential agents that integrate a task agent (which solves the target task) and a meta agent (which modifies itself and the task agent) into a single editable program. Crucially, the meta-level modification procedure is itself editable, enabling metacognitive self-modification, improving not only the task-solving behavior, but also the mechanism that generates future improvements. We instantiate this framework by extending DGM to create DGM-Hyperagents (DGM-H), eliminating the assumption of domain-specific alignment between task performance and self-modification skill to potentially support self-accelerating progress on any computable task. Across di",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 70.01,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
-      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
-      "link": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
-      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned. AI models like Anthropic’s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-17T22:30:46.000Z",
-      "score": 66.87,
       "status": "queued"
     },
     {
