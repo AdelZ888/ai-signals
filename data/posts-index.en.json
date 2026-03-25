@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-24T16:31:47.692Z",
+  "generatedAt": "2026-03-25T08:45:09.724Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-25-litmus-record-and-deterministically-replay-full-llm-agent-executions-for-debugging-and-ci-validation",
+      "title": "Litmus: Record and deterministically replay full LLM agent executions for debugging and CI validation",
+      "date": "2026-03-25",
+      "excerpt": "Litmus records complete LLM agent executions (prompts, tool calls, outputs) so teams can deterministically replay failures, inject faults, and gate regressions in CI.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-25-litmus-record-and-deterministically-replay-full-llm-agent-executions-for-debugging-and-ci-validation.jpg",
+      "tags": [
+        "litmus",
+        "llm-agents",
+        "observability",
+        "testing",
+        "ci",
+        "replay",
+        "fault-injection",
+        "reliability"
+      ],
+      "sources": [
+        "https://github.com/rylinjames/litmus"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 5
+    },
     {
       "slug": "2026-03-24-superhuman-ceo-shishir-mehrotra-on-the-expert-review-feature-that-used-reporters-names",
       "title": "Superhuman CEO Shishir Mehrotra on the 'Expert Review' feature that used reporters' names",

@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-24T16:31:47.694Z",
+  "generatedAt": "2026-03-25T08:45:09.726Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-25-litmus-record-and-deterministically-replay-full-llm-agent-executions-for-debugging-and-ci-validation",
+      "title": "Litmus — enregistrer et rejouer de façon déterministe des exécutions d'agents LLM pour debug et validation CI",
+      "date": "2026-03-25",
+      "excerpt": "Litmus permet d'enregistrer des exécutions complètes d'agents LLM (prompts, appels d'outils, sorties) pour les rejouer de façon déterministe, injecter des fautes et bloquer des régressions en CI.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-25-litmus-record-and-deterministically-replay-full-llm-agent-executions-for-debugging-and-ci-validation.jpg",
+      "tags": [
+        "LLM",
+        "reproductibilité",
+        "CI",
+        "observabilité",
+        "litmus",
+        "débogage",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/rylinjames/litmus"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-03-24-superhuman-ceo-shishir-mehrotra-on-the-expert-review-feature-that-used-reporters-names",
       "title": "Le PDG de Superhuman, Shishir Mehrotra, sur la fonctionnalité « Expert Review » qui a utilisé des noms de journalistes",
