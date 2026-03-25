@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-25T08:45:09.734Z",
+  "generatedAt": "2026-03-25T16:40:21.495Z",
   "items": [
+    {
+      "id": "https://github.com/iamevandrake/opensoul",
+      "title": "Show HN: Opensoul – Open-source agentic marketing stack (6 AI agents)",
+      "link": "https://github.com/iamevandrake/opensoul",
+      "summary": "Article URL: https://github.com/iamevandrake/opensoul Comments URL: https://news.ycombinator.com/item?id=47336615 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-11T15:07:21.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-25T16:40:21.420Z",
+      "file": "content/posts/2026-03-25-opensoul-practical-setup-and-checklist-for-the-open-source-agentic-marketing-stack.md",
+      "fileFr": "content/posts/fr/2026-03-25-opensoul-practical-setup-and-checklist-for-the-open-source-agentic-marketing-stack.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1480,
+      "wordsFr": 1298
+    },
     {
       "id": "https://github.com/rylinjames/litmus",
       "title": "Litmus – Flight recorder for AI agents (record and replay any LLM execution)",
@@ -2969,18 +2992,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47285609",
-      "title": "Ask HN: Best way to implement logging and audit trails for AI apps?",
-      "link": "https://news.ycombinator.com/item?id=47285609",
-      "summary": "so i’ve been experimenting with a small AI-based project recently and started thinking about logging around prompts, responses, and model calls etc etc. for traditional systems observability tools handle most of this, but with LLM-based apps it feels less clear what the standard approach is, especially if you need proper audit trails for debugging or compliance. curious how teams are handling this in production are people mostly building their own logging pipelines, or are there reliable tools/platforms that help with storing and auditing LLM interactions? Comments URL: https://news.ycombinator.com/item?id=47285609 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-07T08:12:29.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://surgehq.ai/blog/enterprisebench-corecraft",
       "title": "EnterpriseBench: CoreCraft – Measuring AI Agents in Chaotic RL Environments",
       "link": "https://surgehq.ai/blog/enterprisebench-corecraft",
@@ -3005,42 +3016,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47285319",
-      "title": "Way to Use AI for Coding",
-      "link": "https://news.ycombinator.com/item?id=47285319",
-      "summary": "A mistake I see many beginner developers make with AI coding tools is this: They ask the AI to build the entire project. Something like: “Build me a full SaaS app that does this” The result? A messy codebase. AI tries to generate everything at once, and the architecture usually falls apart. After experimenting with AI coding tools, I’ve found a workflow that works much better. Think Like an Architect, Not a Prompt Engineer The key idea is simple: You design the system. AI helps implement pieces of it. Instead of asking AI to generate the whole project, break it down. You decide: architecture folder structure data models API design Then AI helps implement one piece at a time. A Better Workflow Here’s the process that works well for me. Design the architecture first Before asking AI for code, define: project structure database schema API routes major components Example: /api auth.ts users.ts /services userService.ts /components Dashboard.tsx This prevents AI from inventing random structures. Ask AI to build one file at a time Instead of: “Build the backend” Ask: “Create an Express API route for user registration with email and password validation.” Or: “Create a React component for a dashboard that displays a list of projects.” Small tasks = much better results. Review and refine Never paste AI code blindly. Check for: unnecessary complexity security issues inconsistent patterns",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-07T07:23:30.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/aloth/PowerSkills",
-      "title": "Show HN: PowerSkills – PowerShell toolkit for AI agents on Windows",
-      "link": "https://github.com/aloth/PowerSkills",
-      "summary": "Article URL: https://github.com/aloth/PowerSkills Comments URL: https://news.ycombinator.com/item?id=47297866 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-08T15:00:20.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/gojiplus/understudy",
-      "title": "Understudy: Scenario Testing for AI Agents",
-      "link": "https://github.com/gojiplus/understudy",
-      "summary": "Article URL: https://github.com/gojiplus/understudy Comments URL: https://news.ycombinator.com/item?id=47324464 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-10T15:19:51.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://nanonets.com/blog/idp-leaderboard-1-5/",
       "title": "We Ran 16 AI Models on 9k Real Documents. Here's What We Found",
       "link": "https://nanonets.com/blog/idp-leaderboard-1-5/",
@@ -3061,18 +3036,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-11T15:14:53.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/iamevandrake/opensoul",
-      "title": "Show HN: Opensoul – Open-source agentic marketing stack (6 AI agents)",
-      "link": "https://github.com/iamevandrake/opensoul",
-      "summary": "Article URL: https://github.com/iamevandrake/opensoul Comments URL: https://news.ycombinator.com/item?id=47336615 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-11T15:07:21.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -3377,6 +3340,42 @@
       "status": "queued"
     },
     {
+      "id": "https://encore.dev/blog/ai-agents-aws-credentials",
+      "title": "When AI Agents Get AWS Access",
+      "link": "https://encore.dev/blog/ai-agents-aws-credentials",
+      "summary": "Article URL: https://encore.dev/blog/ai-agents-aws-credentials Comments URL: https://news.ycombinator.com/item?id=47518906 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-25T15:43:21.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://newsletter.posthog.com/p/what-we-wish-we-knew-before-building",
+      "title": "What we wish we knew about building AI agents",
+      "link": "https://newsletter.posthog.com/p/what-we-wish-we-knew-before-building",
+      "summary": "Article URL: https://newsletter.posthog.com/p/what-we-wish-we-knew-before-building Comments URL: https://news.ycombinator.com/item?id=47518817 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-25T15:35:56.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing",
+      "title": "AI coding agents are running on your machines – Do you know what they're doing?",
+      "link": "https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing",
+      "summary": "Article URL: https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing Comments URL: https://news.ycombinator.com/item?id=47518773 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-25T15:33:20.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3434,6 +3433,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-19T15:04:06.000Z",
       "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
+      "title": "Senate Democrats are trying to ‘codify’ Anthropic&#8217;s red lines on autonomous weapons and mass surveillance",
+      "link": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
+      "summary": "Anthropic's fight with the Pentagon is expanding to Congress. Sen. Adam Schiff (D-CA) is working on a new bill to \"codify\" Anthropic's red lines and ensure humans make the ultimate decisions in questions of life and death, and Sen. Elissa Slotkin (D-MI) recently introduced a bill to limit the Defense Department's ability to use AI for mass surveillance of Americans. The Trump administration blacklisted Anthropic earlier this month after it set limits on how the military could use its AI models, designating it a supply-chain risk. Anthropic has filed suit, accusing the government of violating its constitutional rights. It's insisted that the … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-25T15:05:46.000Z",
+      "score": 166.07,
       "status": "queued"
     },
     {
@@ -3521,18 +3532,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/kodustech/cli",
-      "title": "Show HN: AI Code Review CLI",
-      "link": "https://github.com/kodustech/cli",
-      "summary": "This week we released the Kodus CLI. It took a bit longer than we expected to ship. The reason was simple: there are already many ways to run reviews locally today. IDEs, extensions, terminal commands, agents inside the editor. So building “just another AI CLI” didn’t seem like a good idea. The question that guided the project was different: how can we bring the quality of PR reviews to the moment when the code is still being written? Today the CLI does two main things. The first is running local reviews using the same context we use in PRs. The goal was to avoid that shallow review that only looks at the diff currently open in the editor. We try to reconstruct more repository context, similar to what happens during a PR review. The second is helping resolve comments that Kody has already left on a PR, but directly from the local environment. Instead of opening the PR, reading the comment, going back to the editor, making the change, and repeating the process, you can work through those fixes directly in your coding workflow. The whole idea revolves around reducing the feedback loop time. Some design decisions came from things we heard from teams using other CLIs. Auth in large teams often turns into friction. Many tools assume each developer will create an account before using the CLI. That becomes painful when someone just wants to try it, or when an entire team decides to ex",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-04T14:51:34.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/Bugsbuny24/Koshe-Al-",
       "title": "Show HN: Koshei AI – a voice-native AI language university (A1 to D2)",
       "link": "https://github.com/Bugsbuny24/Koshe-Al-",
@@ -3605,6 +3604,18 @@
       "status": "queued"
     },
     {
+      "id": "https://grith.ai/blog/claude-auto-mode-removes-prompts-not-risk",
+      "title": "AI agents are now deciding what's safe to run (Claude Auto Mode)",
+      "link": "https://grith.ai/blog/claude-auto-mode-removes-prompts-not-risk",
+      "summary": "Article URL: https://grith.ai/blog/claude-auto-mode-removes-prompts-not-risk Comments URL: https://news.ycombinator.com/item?id=47518116 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-25T14:52:11.000Z",
+      "score": 158.5,
+      "status": "queued"
+    },
+    {
       "id": "https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours",
       "title": "AI Agent Broke into McKinsey's Internal Chatbot and Accessed Records",
       "link": "https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours",
@@ -3650,42 +3661,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://danq.me/2026/03/03/ai-agent-logging/",
-      "title": "Subverting AI Agent Logging with a Git Post-Commit Hook",
-      "link": "https://danq.me/2026/03/03/ai-agent-logging/",
-      "summary": "Article URL: https://danq.me/2026/03/03/ai-agent-logging/ Comments URL: https://news.ycombinator.com/item?id=47249044 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-04T15:37:01.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/",
-      "title": "Anthropic's AI tool Claude central to U.S. campaign in Iran, amid a bitter feud",
-      "link": "https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/",
-      "summary": "Article URL: https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/ Comments URL: https://news.ycombinator.com/item?id=47248385 Points: 10 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-04T14:56:06.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://agenticros.com",
-      "title": "AgenticROS is an open-source platform connecting ROS to OpenClaw for Physical AI",
-      "link": "https://agenticros.com",
-      "summary": "Article URL: https://agenticros.com Comments URL: https://news.ycombinator.com/item?id=47248199 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-04T14:47:00.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4169,6 +4144,30 @@
       "status": "queued"
     },
     {
+      "id": "https://refreshmiami.com/news/the-new-american-dream-may-come-with-a-broker-a-balance-sheet-and-now-an-ai-copilot/",
+      "title": "New American dream may come with a broker, a balance sheet and now an AI copilot",
+      "link": "https://refreshmiami.com/news/the-new-american-dream-may-come-with-a-broker-a-balance-sheet-and-now-an-ai-copilot/",
+      "summary": "Article URL: https://refreshmiami.com/news/the-new-american-dream-may-come-with-a-broker-a-balance-sheet-and-now-an-ai-copilot/ Comments URL: https://news.ycombinator.com/item?id=47519193 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-25T16:00:37.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/oguzbilgic/kern-ai",
+      "title": "Show HN: Kern – open-source AI Agent with built in Agent-to-Agent communication",
+      "link": "https://github.com/oguzbilgic/kern-ai",
+      "summary": "Article URL: https://github.com/oguzbilgic/kern-ai Comments URL: https://news.ycombinator.com/item?id=47518952 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-25T15:45:58.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4277,18 +4276,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.statnews.com/2026/01/13/arpa-h-advancing-clinical-agentic-ai-use-heart-disease/",
-      "title": "ARPA-H launching new AI program for 46% of US counties with no cardiologists",
-      "link": "https://www.statnews.com/2026/01/13/arpa-h-advancing-clinical-agentic-ai-use-heart-disease/",
-      "summary": "Article URL: https://www.statnews.com/2026/01/13/arpa-h-advancing-clinical-agentic-ai-use-heart-disease/ Comments URL: https://news.ycombinator.com/item?id=47248989 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-04T15:33:34.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://demofly.ai",
       "title": "Show HN: Point it at your local dev server, get a demo video with AI voiceover",
       "link": "https://demofly.ai",
@@ -4357,6 +4344,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-03-25T08:32:05.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
+      "title": "Google Lyria 3 Pro makes longer AI songs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
+      "summary": "Six times the slop. | Image: The Verge Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been limited to 30-second clips. Lyria 3 Pro not only increases the maximum length sixfold, it also allows the user to prompt for specific elements like intros, choruses, and bridges for greater control over arrangements. Lyria 3 Pro works much like other popular music generation tools, such as Suno and Udio. Describe a mood, style, or instrumentation, and it spits out a track. It can also generate lyrics based on your prompt, or even a reference photo … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-25T16:00:00.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -4622,6 +4621,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-16T13:00:07.000Z",
       "score": 134.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-tourism-ai-chatbot-explora-9.7139199",
+      "title": "New Brunswick unveils new AI chatbot for tourists, but not without errors",
+      "link": "https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-tourism-ai-chatbot-explora-9.7139199",
+      "summary": "Article URL: https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-tourism-ai-chatbot-explora-9.7139199 Comments URL: https://news.ycombinator.com/item?id=47518180 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-25T14:57:05.000Z",
+      "score": 134.72,
       "status": "queued"
     },
     {
@@ -5057,40 +5068,68 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.19514",
-      "title": "Learning to Disprove: Formal Counterexample Generation with Large Language Models",
-      "link": "https://arxiv.org/abs/2603.19514",
-      "summary": "arXiv:2603.19514v1 Announce Type: new Abstract: Mathematical reasoning demands two critical, complementary skills: constructing rigorous proofs for true statements and discovering counterexamples that disprove false ones. However, current AI efforts in mathematics focus almost exclusively on proof construction, often neglecting the equally important task of finding counterexamples. In this paper, we address this gap by fine-tuning large language models (LLMs) to reason about and generate counterexamples. We formalize this task as formal counterexample generation, which requires LLMs not only to propose candidate counterexamples but also to produce formal proofs that can be automatically verified in the Lean 4 theorem prover. To enable effective learning, we introduce a symbolic mutation strategy that synthesizes diverse training data by systematically extracting theorems and discarding selected hypotheses, thereby producing diverse counterexample instances. Together with curated datasets, this strategy enables a multi-reward expert iteration framework that substantially enhances both the effectiveness and efficiency of training LLMs for counterexample generation and theorem proving. Experiments on three newly collected benchmarks validate the advantages of our approach, showing that the mutation strategy and training framework yield significant performance gains.",
-      "source": "ArXiv cs.AI",
+      "id": "https://news.ycombinator.com/item?id=47285609",
+      "title": "Ask HN: Best way to implement logging and audit trails for AI apps?",
+      "link": "https://news.ycombinator.com/item?id=47285609",
+      "summary": "so i’ve been experimenting with a small AI-based project recently and started thinking about logging around prompts, responses, and model calls etc etc. for traditional systems observability tools handle most of this, but with LLM-based apps it feels less clear what the standard approach is, especially if you need proper audit trails for debugging or compliance. curious how teams are handling this in production are…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 109.36,
-      "status": "queued"
+      "keywordHits": 4,
+      "publishedAt": "2026-03-07T08:12:29.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-25T16:10:02.930Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
-      "id": "https://arxiv.org/abs/2603.19639",
-      "title": "HyEvo: Self-Evolving Hybrid Agentic Workflows for Efficient Reasoning",
-      "link": "https://arxiv.org/abs/2603.19639",
-      "summary": "arXiv:2603.19639v1 Announce Type: new Abstract: Although agentic workflows have demonstrated strong potential for solving complex tasks, existing automated generation methods remain inefficient and underperform, as they rely on predefined operator libraries and homogeneous LLM-only workflows in which all task-level computation is performed through probabilistic inference. To address these limitations, we propose HyEvo, an automated workflow-generation framework that leverages heterogeneous atomic synthesis. HyEvo integrates probabilistic LLM nodes for semantic reasoning with deterministic code nodes for rule-based execution, offloading predictable operations from LLM inference and reducing inference cost and execution latency. To efficiently navigate the hybrid search space, HyEvo employs an LLM-driven multi-island evolutionary strategy with a reflect-then-generate mechanism, iteratively refining both workflow topology and node logic via execution feedback. Comprehensive experiments show that HyEvo consistently outperforms existing methods across diverse reasoning and coding benchmarks, while reducing inference cost and execution latency by up to 19$\\times$ and 16$\\times$, respectively, compared to the state-of-the-art open-source baseline.",
-      "source": "ArXiv cs.AI",
+      "id": "https://news.ycombinator.com/item?id=47285319",
+      "title": "Way to Use AI for Coding",
+      "link": "https://news.ycombinator.com/item?id=47285319",
+      "summary": "A mistake I see many beginner developers make with AI coding tools is this: They ask the AI to build the entire project. Something like: “Build me a full SaaS app that does this” The result? A messy codebase. AI tries to generate everything at once, and the architecture usually falls apart. After experimenting with AI coding tools, I’ve found a workflow that works much better. Think Like an Architect, Not a Prompt E…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 109.36,
-      "status": "queued"
+      "keywordHits": 4,
+      "publishedAt": "2026-03-07T07:23:30.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-25T16:10:02.930Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
-      "id": "https://arxiv.org/abs/2603.19715",
-      "title": "Stepwise: Neuro-Symbolic Proof Search for Automated Systems Verification",
-      "link": "https://arxiv.org/abs/2603.19715",
-      "summary": "arXiv:2603.19715v1 Announce Type: new Abstract: Formal verification via interactive theorem proving is increasingly used to ensure the correctness of critical systems, yet constructing large proof scripts remains highly manual and limits scalability. Advances in large language models (LLMs), especially in mathematical reasoning, make their integration into software verification increasingly promising. This paper introduces a neuro-symbolic proof generation framework designed to automate proof search for systems-level verification projects. The framework performs a best-first tree search over proof states, repeatedly querying an LLM for the next candidate proof step. On the neural side, we fine-tune LLMs using datasets of proof state-step pairs; on the symbolic side, we incorporate a range of ITP tools to repair rejected steps, filter and rank proof states, and automatically discharge subgoals when search progress stalls. This synergy enables data-efficient LLM adaptation and semantics-informed pruning of the search space. We implement the framework on a new Isabelle REPL that exposes fine-grained proof states and automation tools, and evaluate it on the FVEL seL4 benchmark and additional Isabelle developments. On seL4, the system proves up to 77.6\\% of the theorems, substantially surpassing previous LLM-based approaches and standalone Sledgehammer, while solving significantly m",
-      "source": "ArXiv cs.AI",
+      "id": "https://github.com/aloth/PowerSkills",
+      "title": "Show HN: PowerSkills – PowerShell toolkit for AI agents on Windows",
+      "link": "https://github.com/aloth/PowerSkills",
+      "summary": "Article URL: https://github.com/aloth/PowerSkills Comments URL: https://news.ycombinator.com/item?id=47297866 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 109.36,
-      "status": "queued"
+      "keywordHits": 3,
+      "publishedAt": "2026-03-08T15:00:20.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-25T16:10:02.930Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"First use c…"
+    },
+    {
+      "id": "https://github.com/gojiplus/understudy",
+      "title": "Understudy: Scenario Testing for AI Agents",
+      "link": "https://github.com/gojiplus/understudy",
+      "summary": "Article URL: https://github.com/gojiplus/understudy Comments URL: https://news.ycombinator.com/item?id=47324464 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-10T15:19:51.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-25T16:10:02.930Z",
+      "failureReason": "below min word targets; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://github.com/Jack-Lin-DS-AI/squawk",
