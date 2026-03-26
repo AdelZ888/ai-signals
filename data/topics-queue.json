@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-25T16:40:21.495Z",
+  "generatedAt": "2026-03-26T08:50:56.639Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/cyberguerre/2216529-claude-dispatch-comment-profiter-pleinement-de-lia-agentique-sans-se-tirer-une-balle-dans-le-pied.html",
+      "title": "Claude Dispatch : comment profiter pleinement de l’IA agentique sans se tirer une balle dans le pied",
+      "link": "https://www.numerama.com/cyberguerre/2216529-claude-dispatch-comment-profiter-pleinement-de-lia-agentique-sans-se-tirer-une-balle-dans-le-pied.html",
+      "summary": "Le 23 mars 2026, une vidéo publiée sur X par Claude a propulsé Dispatch sur le devant de la scène. Cette fonctionnalité de Cowork permet à l'IA d'Anthropic de travailler seule sur votre ordinateur pendant que vous lui donnez des ordres depuis votre téléphone. Lancée discrètement quelques jours plus tôt, elle est désormais au cœur de l'attention, et ce qu'Anthropic écrit en petites lettres sur la sécurité mérite qu'o…",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-24T08:12:56.000Z",
+      "score": 162,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-03-26T08:50:56.619Z",
+      "file": "content/posts/2026-03-26-using-anthropics-claude-dispatch-at-work-which-tasks-to-automate-safety-checks-and-how-to-run-a-controlled-pilot.md",
+      "fileFr": "content/posts/fr/2026-03-26-using-anthropics-claude-dispatch-at-work-which-tasks-to-automate-safety-checks-and-how-to-run-a-controlled-pilot.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1702,
+      "wordsFr": 1445
+    },
     {
       "id": "https://github.com/iamevandrake/opensoul",
       "title": "Show HN: Opensoul – Open-source agentic marketing stack (6 AI agents)",
@@ -3556,18 +3579,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/cyberguerre/2216529-claude-dispatch-comment-profiter-pleinement-de-lia-agentique-sans-se-tirer-une-balle-dans-le-pied.html",
-      "title": "Claude Dispatch : comment profiter pleinement de l’IA agentique sans se tirer une balle dans le pied",
-      "link": "https://www.numerama.com/cyberguerre/2216529-claude-dispatch-comment-profiter-pleinement-de-lia-agentique-sans-se-tirer-une-balle-dans-le-pied.html",
-      "summary": "Le 23 mars 2026, une vidéo publiée sur X par Claude a propulsé Dispatch sur le devant de la scène. Cette fonctionnalité de Cowork permet à l'IA d'Anthropic de travailler seule sur votre ordinateur pendant que vous lui donnez des ordres depuis votre téléphone. Lancée discrètement quelques jours plus tôt, elle est désormais au cœur de l'attention, et ce qu'Anthropic écrit en petites lettres sur la sécurité mérite qu'on s'y attarde.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-24T08:12:56.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/spacelobster88/centurion",
       "title": "Centurion – K8s-style resource scheduler for AI coding agents (open source)",
       "link": "https://github.com/spacelobster88/centurion",
@@ -3652,6 +3663,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.23910",
+      "title": "AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents",
+      "link": "https://arxiv.org/abs/2603.23910",
+      "summary": "arXiv:2603.23910v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) suggest strong potential for automating analog circuit design. Yet most LLM-based approaches rely on a single-model loop of generation, diagnosis, and correction, which favors succinct summaries over domain-specific insight and suffers from context attrition that erases critical technical details. To address these limitations, we propose AnalogAgent, a training-free agentic framework that integrates an LLM-based multi-agent system (MAS) with self-evolving memory (SEM) for analog circuit design automation. AnalogAgent coordinates a Code Generator, Design Optimizer, and Knowledge Curator to distill execution feedback into an adaptive playbook in SEM and retrieve targeted guidance for subsequent generation, enabling cross-task transfer without additional expert feedback, databases, or libraries. Across established benchmarks, AnalogAgent achieves 92% Pass@1 with Gemini and 97.4% Pass@1 with GPT-5. Moreover, with compact models (e.g., Qwen-8B), it yields a +48.8% average Pass@1 gain across tasks and reaches 72.1% Pass@1 overall, indicating that AnalogAgent substantially strengthens open-weight models for high-quality analog circuit design automation.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 157.43,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47347383",
       "title": "Show HN: AI Comic Builder – turn a script into an animated video local",
       "link": "https://news.ycombinator.com/item?id=47347383",
@@ -3661,30 +3684,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theguardian.com/technology/2026/mar/04/sam-altman-openai-pentagon",
-      "title": "Sam Altman admits OpenAI can't control Pentagon's use of AI",
-      "link": "https://www.theguardian.com/technology/2026/mar/04/sam-altman-openai-pentagon",
-      "summary": "Article URL: https://www.theguardian.com/technology/2026/mar/04/sam-altman-openai-pentagon Comments URL: https://news.ycombinator.com/item?id=47258828 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-05T07:47:51.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.dongascience.com/en/news/76660",
-      "title": "AI model trained on 9.3T base pairs can now design novel genes",
-      "link": "https://www.dongascience.com/en/news/76660",
-      "summary": "Article URL: https://www.dongascience.com/en/news/76660 Comments URL: https://news.ycombinator.com/item?id=47258736 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-05T07:36:11.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4192,18 +4191,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.03686",
-      "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
-      "link": "https://arxiv.org/abs/2603.03686",
-      "summary": "arXiv:2603.03686v1 Announce Type: new Abstract: Automated design of chemical formulations is a cornerstone of materials science, yet it requires navigating a high-dimensional combinatorial space involving discrete compositional choices and continuous geometric constraints. Existing Large Language Model (LLM) agents face significant challenges in this setting, including context window limitations during long-horizon reasoning and path-dependent exploration that may lead to mode collapse. To address these issues, we introduce AI4S-SDS, a closed-loop neuro-symbolic framework that integrates multi-agent collaboration with a tailored Monte Carlo Tree Search (MCTS) engine. We propose a Sparse State Storage mechanism with Dynamic Path Reconstruction, which decouples reasoning history from context length and enables arbitrarily deep exploration under fixed token budgets. To reduce local convergence and improve coverage, we implement a Global--Local Search Strategy: a memory-driven planning module adaptively reconfigures the search root based on historical feedback, while a Sibling-Aware Expansion mechanism promotes orthogonal exploration at the node level. Furthermore, we bridge symbolic reasoning and physical feasibility through a Differentiable Physics Engine, employing a hybrid normalized loss with sparsity-inducing regularization to optimize continuous mixing ratios under thermodyn",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-05T05:00:00.000Z",
-      "score": 154.34,
-      "status": "queued"
-    },
-    {
       "id": "https://mljar.com/ai-prompts/",
       "title": "Show HN: AI Prompts for Data Professionals",
       "link": "https://mljar.com/ai-prompts/",
@@ -4372,30 +4359,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.03655",
-      "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
-      "link": "https://arxiv.org/abs/2603.03655",
-      "summary": "arXiv:2603.03655v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents promise to unify scientific reasoning with computation, yet their deployment in high-stakes domains like drug discovery is bottlenecked by two critical barriers: unconstrained tool-use governance and poor long-horizon reliability. In dependency-heavy pharmaceutical pipelines, autonomous agents often drift into irreproducible trajectories, where early-stage hallucinations multiplicatively compound into downstream failures. To overcome this, we present Mozi, a dual-layer architecture that bridges the flexibility of generative AI with the deterministic rigor of computational biology. Layer A (Control Plane) establishes a governed supervisor--worker hierarchy that enforces role-based tool isolation, limits execution to constrained action spaces, and drives reflection-based replanning. Layer B (Workflow Plane) operationalizes canonical drug discovery stages -- from Target Identification to Lead Optimization -- as stateful, composable skill graphs. This layer integrates strict data contracts and strategic human-in-the-loop (HITL) checkpoints to safeguard scientific validity at high-uncertainty decision boundaries. Operating on the design principle of ``free-form reasoning for safe tasks, structured execution for long-horizon pipelines,'' Mozi provides built-in robustness mechanisms and tr",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-05T05:00:00.000Z",
-      "score": 148.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.03761",
-      "title": "AgentSelect: Benchmark for Narrative Query-to-Agent Recommendation",
-      "link": "https://arxiv.org/abs/2603.03761",
-      "summary": "arXiv:2603.03761v1 Announce Type: new Abstract: LLM agents are rapidly becoming the practical interface for task automation, yet the ecosystem lacks a principled way to choose among an exploding space of deployable configurations. Existing LLM leaderboards and tool/agent benchmarks evaluate components in isolation and remain fragmented across tasks, metrics, and candidate pools, leaving a critical research gap: there is little query-conditioned supervision for learning to recommend end-to-end agent configurations that couple a backbone model with a toolkit. We address this gap with AgentSelect, a benchmark that reframes agent selection as narrative query-to-agent recommendation over capability profiles and systematically converts heterogeneous evaluation artifacts into unified, positive-only interaction data. AgentSelectcomprises 111,179 queries, 107,721 deployable agents, and 251,103 interaction records aggregated from 40+ sources, spanning LLM-only, toolkit-only, and compositional agents. Our analyses reveal a regime shift from dense head reuse to long-tail, near one-off supervision, where popularity-based CF/GNN methods become fragile and content-aware capability matching is essential. We further show that Part~III synthesized compositional interactions are learnable, induce capability-sensitive behavior under controlled counterfactual edits, and improve coverage over realis",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-05T05:00:00.000Z",
-      "score": 148.34,
-      "status": "queued"
-    },
-    {
       "id": "https://www.onlybots.store/",
       "title": "Show HN: OnlyBots – A store for AI agents to buy sexy lobster pics",
       "link": "https://www.onlybots.store/",
@@ -4405,18 +4368,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-22T07:06:17.000Z",
       "score": 148.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.armalo.ai/blog/ai-agents-breaking-commitments-accountability",
-      "title": "AI Agent Broke Its Promise. Now What?",
-      "link": "https://www.armalo.ai/blog/ai-agents-breaking-commitments-accountability",
-      "summary": "Article URL: https://www.armalo.ai/blog/ai-agents-breaking-commitments-accountability Comments URL: https://news.ycombinator.com/item?id=47258582 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-05T07:15:46.000Z",
-      "score": 145.44,
       "status": "queued"
     },
     {
@@ -4588,6 +4539,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.23660",
+      "title": "GTO Wizard Benchmark",
+      "link": "https://arxiv.org/abs/2603.23660",
+      "summary": "arXiv:2603.23660v1 Announce Type: new Abstract: We introduce GTO Wizard Benchmark, a public API and standardized evaluation framework for benchmarking algorithms in Heads-Up No-Limit Texas Hold'em (HUNL). The benchmark evaluates agents against GTO Wizard AI, a state-of-the-art superhuman poker agent that approximates Nash Equilibria, and defeated Slumbot, the 2018 Annual Computer Poker Competition champion and previous strongest publicly accessible HUNL benchmark, by $19.4$ $\\pm$ $4.1$ bb/100. Variance is a fundamental challenge in poker evaluation; we address this by integrating AIVAT, a provably unbiased variance reduction technique that achieves equivalent statistical significance with ten times fewer hands than naive Monte Carlo evaluation. We conduct a comprehensive benchmarking study of state-of-the-art large language models under zero-shot conditions, including GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro, Grok 4, and others. Initial results and analysis reveal dramatic progress in LLM reasoning over recent years, yet all models remain far below the baseline established by our benchmark. Qualitative analysis reveals clear opportunities for improvement, including representation and the ability to reason over hidden states. This benchmark provides researchers with a precise and quantifiable setting to evaluate advances in planning and reasoning in multi-agent systems with part",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 139.43,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.12813",
       "title": "Context is all you need: Towards autonomous model-based process design using agentic AI in flowsheet simulations",
       "link": "https://arxiv.org/abs/2603.12813",
@@ -4684,6 +4647,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.23610",
+      "title": "Environment Maps: Structured Environmental Representations for Long-Horizon Agents",
+      "link": "https://arxiv.org/abs/2603.23610",
+      "summary": "arXiv:2603.23610v1 Announce Type: new Abstract: Although large language models (LLMs) have advanced rapidly, robust automation of complex software workflows remains an open problem. In long-horizon settings, agents frequently suffer from cascading errors and environmental stochasticity; a single misstep in a dynamic interface can lead to task failure, resulting in hallucinations or trial-and-error. This paper introduces $\\textit{Environment Maps}$: a persistent, agent-agnostic representation that mitigates these failures by consolidating heterogeneous evidence, such as screen recordings and execution traces, into a structured graph. The representation consists of four core components: (1) Contexts (abstracted locations), (2) Actions (parameterized affordances), (3) Workflows (observed trajectories), and (4) Tacit Knowledge (domain definitions and reusable procedures). We evaluate this framework on the WebArena benchmark across five domains. Agents equipped with environment maps achieve a 28.2% success rate, nearly doubling the performance of baselines limited to session-bound context (14.2%) and outperforming agents that have access to the raw trajectory data used to generate the environment maps (23.3%). By providing a structured interface between the model and the environment, Environment Maps establish a persistent foundation for long-horizon planning that is human-interpret",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 133.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23638",
+      "title": "Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments",
+      "link": "https://arxiv.org/abs/2603.23638",
+      "summary": "arXiv:2603.23638v1 Announce Type: new Abstract: Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. Unlike short-horizon reactive decisions, allocation requires committing scarce resources over time while balancing competing objectives and preserving flexibility for future needs. We introduce EnterpriseArena, the first benchmark for evaluating agents on long-horizon enterprise resource allocation. It instantiates CFO-style decision-making in a 132-month enterprise simulator combining firm-level financial data, anonymized business documents, macroeconomic and industry signals, and expert-validated operating rules. The environment is partially observable and reveals the state only through budgeted organizational tools, forcing agents to trade off information acquisition against conserving scarce resources. Experiments on eleven advanced LLMs show that this setting remains highly challenging: only 16% of runs survive the full horizon, and larger models do not reliably outperform smaller ones. These results identify long-horizon resource allocation under uncertainty as a distinct capability gap for current LLM agents.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 133.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23964",
+      "title": "From Pixels to Digital Agents: An Empirical Study on the Taxonomy and Technological Trends of Reinforcement Learning Environments",
+      "link": "https://arxiv.org/abs/2603.23964",
+      "summary": "arXiv:2603.23964v1 Announce Type: new Abstract: The remarkable progress of reinforcement learning (RL) is intrinsically tied to the environments used to train and evaluate artificial agents. Moving beyond traditional qualitative reviews, this work presents a large-scale, data-driven empirical investigation into the evolution of RL environments. By programmatically processing a massive corpus of academic literature and rigorously distilling over 2,000 core publications, we propose a quantitative methodology to map the transition from isolated physical simulations to generalist, language-driven foundation agents. Implementing a novel, multi-dimensional taxonomy, we systematically analyze benchmarks against diverse application domains and requisite cognitive capabilities. Our automated semantic and statistical analysis reveals a profound, data-verified paradigm shift: the bifurcation of the field into a \"Semantic Prior\" ecosystem dominated by Large Language Models (LLMs) and a \"Domain-Specific Generalization\" ecosystem. Furthermore, we characterize the \"cognitive fingerprints\" of these distinct domains to uncover the underlying mechanisms of cross-task synergy, multi-domain interference, and zero-shot generalization. Ultimately, this study offers a rigorous, quantitative roadmap for designing the next generation of Embodied Semantic Simulators, bridging the gap between continuous",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 133.43,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.19896",
       "title": "Utility-Guided Agent Orchestration for Efficient LLM Tool Use",
       "link": "https://arxiv.org/abs/2603.19896",
@@ -4756,6 +4755,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.23840",
+      "title": "VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents",
+      "link": "https://arxiv.org/abs/2603.23840",
+      "summary": "arXiv:2603.23840v1 Announce Type: new Abstract: With the growing demand for intelligent in-vehicle experiences, vehicle-based agents are evolving from simple assistants to long-term companions. This evolution requires agents to continuously model multi-user preferences and make reliable decisions in the face of inter-user preference conflicts and changing habits over time. However, existing benchmarks are largely limited to single-user, static question-answer settings, failing to capture the temporal evolution of preferences and the multi-user, tool-interactive nature of real vehicle environments. To address this gap, we introduce VehicleMemBench, a multi-user long-context memory benchmark built on an executable in-vehicle simulation environment. The benchmark evaluates tool use and memory by comparing the post-action environment state with a predefined target state, enabling objective and reproducible evaluation without LLM-based or human scoring. VehicleMemBench includes 23 tool modules, and each sample contains over 80 historical memory events. Experiments show that powerful models perform well on direct instruction tasks but struggle in scenarios involving memory evolution, particularly when user preferences change dynamically. Even advanced memory systems struggle to handle domain-specific memory requirements in this environment. These findings highlight the need for more",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 127.43,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.19584",
       "title": "PowerLens: Taming LLM Agents for Safe and Personalized Mobile Power Management",
       "link": "https://arxiv.org/abs/2603.19584",
@@ -4789,6 +4800,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-23T07:05:00.000Z",
       "score": 126.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://teach-me.replit.app/",
+      "title": "Show HN: Book Grounded AI Learning",
+      "link": "https://teach-me.replit.app/",
+      "summary": "I constantly ask Gemini/ChatGPT/Claude about books on a certain topic, then ask the llm to give me a summary of the book its chapters - this helps me: 1. keep the llm grounded as a real expert (instead of saying pretend to be an engineering expert, give it a distributed systems book and then ask opinions on it) 2. helps me discover and buy books! Once i go through book concepts and chat with llm about it, i'm more convinced to buy it and dig deeper on low level on it So i built an app through Replit on it, try it on https://teach-me.replit.app/ Cheers! Comments URL: https://news.ycombinator.com/item?id=47527523 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T07:17:35.000Z",
+      "score": 126.21,
       "status": "queued"
     },
     {
@@ -4861,6 +4884,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-03-17T04:00:00.000Z",
       "score": 121.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23749",
+      "title": "Efficient Benchmarking of AI Agents",
+      "link": "https://arxiv.org/abs/2603.23749",
+      "summary": "arXiv:2603.23749v1 Announce Type: new Abstract: Evaluating AI agents on comprehensive benchmarks is expensive because each evaluation requires interactive rollouts with tool use and multi-step reasoning. We study whether small task subsets can preserve agent rankings at substantially lower cost. Unlike static language model benchmarks, agent evaluation is subject to scaffold-driven distribution shift, since performance depends on the framework wrapping the underlying model. Across eight benchmarks, 33 agent scaffolds, and 70+ model configurations, we find that absolute score prediction degrades under this shift, while rank-order prediction remains stable. Exploiting this asymmetry, we propose a simple optimization-free protocol: evaluate new agents only on tasks with intermediate historical pass rates (30-70%). This mid-range difficulty filter, motivated by Item Response Theory, reduces the number of evaluation tasks by 44-70% while maintaining high rank fidelity under scaffold and temporal shifts. It provides more reliable rankings than random sampling, which exhibits high variance across seeds, and outperforms greedy task selection under distribution shift. These results suggest that reliable leaderboard ranking does not require full-benchmark evaluation.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 121.43,
       "status": "queued"
     },
     {
@@ -4996,6 +5031,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.23539",
+      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
+      "link": "https://arxiv.org/abs/2603.23539",
+      "summary": "arXiv:2603.23539v1 Announce Type: new Abstract: We show that PLDR-LLMs pretrained at self-organized criticality exhibit reasoning at inference time. The characteristics of PLDR-LLM deductive outputs at criticality is similar to second-order phase transitions. At criticality, the correlation length diverges, and the deductive outputs attain a metastable steady state. The steady state behaviour suggests that deductive outputs learn representations equivalent to scaling functions, universality classes and renormalization groups from the training dataset, leading to generalization and reasoning capabilities in the process. We can then define an order parameter from the global statistics of the model's deductive output parameters at inference. The reasoning capabilities of a PLDR-LLM is better when its order parameter is close to zero at criticality. This observation is supported by the benchmark scores of the models trained at near-criticality and sub-criticality. Our results provide a self-contained explanation on how reasoning manifests in large language models, and the ability to reason can be quantified solely from global model parameter values of the deductive outputs at steady state, without any need for evaluation of curated benchmark datasets through inductive output for reasoning and comprehension.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-26T04:00:00.000Z",
+      "score": 115.43,
+      "status": "queued"
+    },
+    {
       "id": "https://saolalab.github.io/clawforce/",
       "title": "Clawforce – spin up a team of AI agents in minutes",
       "link": "https://saolalab.github.io/clawforce/",
@@ -5065,6 +5112,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-24T04:00:00.000Z",
       "score": 109.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/isaacsight/kernel",
+      "title": "Show HN: Kbot – AI agent that forges its own tools at runtime (MIT, $0)",
+      "link": "https://github.com/isaacsight/kernel",
+      "summary": "I built kbot — a terminal AI agent that learns from every session and forges new tools when it hits problems it can't solve. What makes it different: Self-improving (Bayesian skill routing gets smarter over time). Tool forging (encounters a gap, builds a tool, tool persists forever). Self-defense (HMAC memory integrity, prompt injection detection). 368 tools, 41 agents, 19 local models. Fully offline, $0. Dream mode (improves itself while idle). MIT licensed. Demo of kbot forging a tool in 30 seconds: https://raw.githubusercontent.com/isaacsight/kernel/main/too... npm install -g @kernel.chat/kbot Comments URL: https://news.ycombinator.com/item?id=47526475 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-26T03:54:19.000Z",
+      "score": 108.93,
+      "status": "queued"
+    },
+    {
+      "id": "https://dev.to/priya_negi_9ffd29931ea408/tasker-vs-droidrun-rule-based-automation-vs-agentic-ai-system-1ep3",
+      "title": "Rule based automation vs. Agentic AI system",
+      "link": "https://dev.to/priya_negi_9ffd29931ea408/tasker-vs-droidrun-rule-based-automation-vs-agentic-ai-system-1ep3",
+      "summary": "Article URL: https://dev.to/priya_negi_9ffd29931ea408/tasker-vs-droidrun-rule-based-automation-vs-agentic-ai-system-1ep3 Comments URL: https://news.ycombinator.com/item?id=47527109 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T06:07:49.000Z",
+      "score": 100.37,
       "status": "queued"
     },
     {
@@ -5722,86 +5793,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-02-25T16:03:15.038Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47109076",
-      "title": "Show HN: LawClaw – Constitutional governance for AI agents (MIT)",
-      "link": "https://news.ycombinator.com/item?id=47109076",
-      "summary": "Most AI agents today run with unchecked access to tools like shell execution, database writes, and arbitrary HTTP calls. There's no systematic way to constrain what they can do before execution happens. You're essentially giving a new employee root access and no employment contract. LawClaw applies a separation-of-powers model to agent governance — borrowing from constitutional design to create layered, enforceable…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-22T07:34:57.000Z",
-      "score": 222,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "SOCIETY",
-      "failedAtRun": "2026-02-24T08:35:54.121Z",
-      "failureReason": "validation issues: EN: First section \"TL;DR (jobs + people, plain English)\" is too dense. Use shorter sentences and simpler wording. | FR: Society post must explicitly cover jobs/work/tasks throughout (add more concrete job/employment vocabulary and examples)."
-    },
-    {
-      "id": "https://openbrowser.me/",
-      "title": "Show HN: OpenBrowser MCP: Give your AI agent a real efficient browser",
-      "link": "https://openbrowser.me/",
-      "summary": "Your AI agent is burning 6x more tokens than it needs to just to browse the web. We built OpenBrowser MCP to fix that. Most browser MCPs give the LLM dozens of tools: click, scroll, type, extract, navigate. Each call dumps the entire page accessibility tree into the context window. One Wikipedia page? 124K+ tokens. Every. Single. Call. OpenBrowser works differently. It exposes one tool. Your agent writes Python code…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-22T13:57:23.000Z",
-      "score": 189.37,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "ANALYSIS",
-      "failedAtRun": "2026-02-24T08:35:54.121Z",
-      "failureReason": "validation issues: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams should pay attention to\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too…"
-    },
-    {
-      "id": "https://llmskirmish.com/",
-      "title": "Show HN: A real-time strategy game that AI agents can play",
-      "link": "https://llmskirmish.com/",
-      "summary": "Article URL: https://llmskirmish.com/ Comments URL: https://news.ycombinator.com/item?id=47061773 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-18T15:08:44.000Z",
-      "score": 186,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-02-24T08:35:54.121Z",
-      "failureReason": "validation issues: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://hivemindai.dev",
-      "title": "Show HN: Hivemind – A shared coordination layer for AI agents",
-      "link": "https://hivemindai.dev",
-      "summary": "I've been running multiple AI agents (Claude Code, Cursor, Codex) on the same codebase and kept hitting the same problem: they have no idea what each other are doing. Agent A refactors the auth module while Agent B is building a feature that depends on it. Agent C re-investigates a decision that Agent A already made and documented in a different session, but doesn't have access to Agent A's decision making process.…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-20T15:06:58.000Z",
-      "score": 186,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-02-24T08:35:54.121Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/882814/tumbler-ridge-school-shooting-chatgpt",
-      "title": "Suspect in Tumbler Ridge school shooting described violent scenarios to ChatGPT",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/882814/tumbler-ridge-school-shooting-chatgpt",
-      "summary": "The suspect in the mass shooting at Tumbler Ridge, British Columbia, Jesse Van Rootselaar, was raising alarms among employees at OpenAI months before the shooting took place. This past June, Jesse had conversations with ChatGPT involving descriptions of gun violence that triggered the chatbot's automated review system. Several employees raised concerns that her posts could be a precursor to real-world violence and e…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-21T15:22:57.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-02-24T08:35:54.121Z",
-      "failureReason": "validation issues: EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }
