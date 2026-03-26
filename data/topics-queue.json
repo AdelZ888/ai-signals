@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-26T08:50:56.639Z",
+  "generatedAt": "2026-03-26T16:36:36.825Z",
   "items": [
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "summary": "Gemini 3.1 Flash Live is now available across Google products.",
+      "source": "Google AI Blog",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-26T15:21:00.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-26T16:36:36.757Z",
+      "file": "content/posts/2026-03-26-prototype-a-low-latency-live-audio-demo-with-gemini-31-flash-live.md",
+      "fileFr": "content/posts/fr/2026-03-26-prototype-a-low-latency-live-audio-demo-with-gemini-31-flash-live.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1493,
+      "wordsFr": 1297
+    },
     {
       "id": "https://www.numerama.com/cyberguerre/2216529-claude-dispatch-comment-profiter-pleinement-de-lia-agentique-sans-se-tirer-une-balle-dans-le-pied.html",
       "title": "Claude Dispatch : comment profiter pleinement de l’IA agentique sans se tirer une balle dans le pied",
@@ -2991,6 +3014,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://sup.ai",
+      "title": "Show HN: Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
+      "link": "https://sup.ai",
+      "summary": "Hi HN. I'm Ken, a 20-year-old Stanford CS student. I built Sup AI. I started working on this because no single AI model is right all the time, but their errors don’t strongly correlate. In other words, models often make unique mistakes relative to other models. So I run multiple models in parallel and synthesize the outputs by weighting segments based on confidence. Low entropy in the output token probability distributions correlates with accuracy. High entropy is often where hallucinations begin. My dad Scott (AI Research Scientist at TRI, PhD from UCLA) is my research partner on this. He sends me papers at all hours, we argue about whether they actually apply and what modifications make sense, and then I build and test things. The entropy-weighting approach came out of one of those conversations. In our eval on Humanity's Last Exam, Sup scored 52.15%. The best individual model in the same evaluation run got 44.74%. The relative gap is statistically significant (p https://sup.ai/research/hle-white-paper-jan-9-2026 - https://github.com/supaihq/hle Limitations: - We evaluated 1,369 of the 2,500 HLE questions (details in the above links) - Not all APIs expose token logprobs; we use several methods to estimate confidence when they don't We tried offering free access and it got abused so badly it nearly killed us. Right now the sustainable option is a $5 starter credit with card ve",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-26T15:45:14.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
       "id": "https://levine.tech/blog/oauth-is-broken",
       "title": "OAuth Is Broken for AI Agents",
       "link": "https://levine.tech/blog/oauth-is-broken",
@@ -3399,6 +3434,54 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/salespeak-ai/buyer-eval-skill",
+      "title": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
+      "link": "https://github.com/salespeak-ai/buyer-eval-skill",
+      "summary": "I built this because I was evaluating software vendors and realized the process hadn't changed in 20 years: fill out forms, read G2 reviews, sit through demos designed to avoid your real questions. The skill takes a different approach. You give it your company name and the vendors you're comparing. It: Researches your company automatically -- industry, size, stack -- so you don't fill out a form Asks 2-4 category-specific questions before evaluating anything. Not generic. For a CS platform evaluation it might ask \"is your team high-touch or low-touch? Most CS platforms are built for one and barely work for the other.\" These surface requirements buyers didn't know they had. Tries to find and talk directly to each vendor's AI agent -- a REST API call that checks for a Company Agent, then runs a structured due diligence conversation if one exists Asks adversarial questions: \"What are your customers' most common complaints?\" and \"What use cases are you NOT a good fit for?\" -- and flags when agents deflect instead of answering Cross-references every vendor claim against independent sources (G2, Gartner, press) in a Claims vs. Evidence table Produces a scorecard with transparent evidence tracking -- each score shows whether it's backed by vendor-verified evidence or public sources only The agent-to-agent piece is technically new. When a vendor has an AI agent, Claude (working for the",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T16:00:47.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://golivekit.com",
+      "title": "Show HN: GoLiveKit – A Next.js SaaS kit with built-in context for AI agents",
+      "link": "https://golivekit.com",
+      "summary": "Article URL: https://golivekit.com Comments URL: https://news.ycombinator.com/item?id=47531782 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:32:55.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://philippdubach.com/posts/on-device-ai-models-will-be-the-new-reason-to-upgrade-your-phone/",
+      "title": "On-Device AI Models Might Be the Next Reason to Upgrade Your iPhone",
+      "link": "https://philippdubach.com/posts/on-device-ai-models-will-be-the-new-reason-to-upgrade-your-phone/",
+      "summary": "Article URL: https://philippdubach.com/posts/on-device-ai-models-will-be-the-new-reason-to-upgrade-your-phone/ Comments URL: https://news.ycombinator.com/item?id=47531772 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:32:22.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/amaar-mc/wit",
+      "title": "Show HN: Wit – Stops merge conflicts when multiple AI agents edit the same repo",
+      "link": "https://github.com/amaar-mc/wit",
+      "summary": "Article URL: https://github.com/amaar-mc/wit Comments URL: https://news.ycombinator.com/item?id=47531538 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:14:33.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
       "title": "AI Agents Are Recruiting Humans to Observe the Offline World",
       "link": "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world/",
@@ -3455,6 +3538,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-19T15:04:06.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "link": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:23:35.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -4167,6 +4262,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/atripati/ark",
+      "title": "Fixed a bug in ARK – my AI agent stopped hallucinating",
+      "link": "https://github.com/atripati/ark",
+      "summary": "Article URL: https://github.com/atripati/ark Comments URL: https://news.ycombinator.com/item?id=47531961 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-26T15:48:29.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4227,6 +4334,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/neo4j-labs/ai-governor",
+      "title": "Show HN: We caught our AI agents self-approving their own work, so we built this",
+      "link": "https://github.com/neo4j-labs/ai-governor",
+      "summary": "465 tests, No Deps Comments URL: https://news.ycombinator.com/item?id=47531299 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T14:58:18.000Z",
+      "score": 152.36,
+      "status": "queued"
+    },
+    {
       "id": "https://hive.rllm-project.com/",
       "title": "Hive: A swarm of AI agents evolving code together",
       "link": "https://hive.rllm-project.com/",
@@ -4248,6 +4367,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-23T04:00:00.000Z",
       "score": 151.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Dhwanil25/Agentis",
+      "title": "Agentis – multi-agent AI platform across 12 LLM providers, watch them in 3D",
+      "link": "https://github.com/Dhwanil25/Agentis",
+      "summary": "Article URL: https://github.com/Dhwanil25/Agentis Comments URL: https://news.ycombinator.com/item?id=47531283 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T14:57:21.000Z",
+      "score": 151.1,
       "status": "queued"
     },
     {
@@ -4371,6 +4502,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
+      "title": "Wikipedia bans AI-generated articles",
+      "link": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
+      "summary": "Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate \"several of Wikipedia's core content policies\" as the reason for the ban. The change applies to the English version of Wikipedia and will still allow editors to use AI in certain scenarios. That includes using large language models to \"suggest basic copyedits\" to their writing, but only if it \"does not introduce content of its own.\" Editors can also use AI to translate articles from another language's Wikipedia into English. However, they sti … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:02:52.000Z",
+      "score": 146.94,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.13173",
       "title": "Semantic Invariance in Agentic AI",
       "link": "https://arxiv.org/abs/2603.13173",
@@ -4427,6 +4570,18 @@
       "region": "FR",
       "keywordHits": 2,
       "publishedAt": "2026-03-25T07:55:18.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
+      "id": "https://agentsaegis.com/assessment",
+      "title": "Show HN: 3 out of 4 devs failed to catch dangerous AI-suggested commands",
+      "link": "https://agentsaegis.com/assessment",
+      "summary": "Hey HN, I built this. AgentsAegis is a trap-based security training app. Think KnowBe4 for AI agents The backstory: I'm a software engineer 14yoe, I use Claude Code daily. Sometimes I approve permission requests and only then read what I just approved Which is ironic as my primary spec is core back-end: security and work with big data. So I built this for myself to not become one of these stories: \"Claude ran terraform destroy for production\" Concept is simple: Go proxy that sits between AI assistant and the API, intercepts responses, and occasionally swaps in realistic trap commands. If you approve blindly - you get caught. Sounds harsh, but again - I really dont want me or anyone to add 'caused 13 hours outage' in their resume. The proxy is obviously open source, i dont expect anyone to install something from closed-source repo of young startup: github.com/agentsaegis/go-proxy The quiz (link in the title) is the free version of that concept. Takes 2 minutes, no signup. Already has 80 takers - 75% scored C or D, average 6.5/10. Curious what HN thinks — both about the quiz itself and whether this is a real problem worth solving. Comments URL: https://news.ycombinator.com/item?id=47531331 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:00:55.000Z",
       "score": 144,
       "status": "queued"
     },
@@ -4707,6 +4862,18 @@
       "status": "queued"
     },
     {
+      "id": "https://dev.to/zologic/woocommerce-just-did-what-shopify-did-hours-later-open-protocol-full-autonomous-purchase-58ef",
+      "title": "What breaks in AI agent commerce (300 sessions, WooCommerce)",
+      "link": "https://dev.to/zologic/woocommerce-just-did-what-shopify-did-hours-later-open-protocol-full-autonomous-purchase-58ef",
+      "summary": "Article URL: https://dev.to/zologic/woocommerce-just-did-what-shopify-did-hours-later-open-protocol-full-autonomous-purchase-58ef Comments URL: https://news.ycombinator.com/item?id=47531277 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-26T14:56:57.000Z",
+      "score": 132.58,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.17216",
       "title": "AI Scientist via Synthetic Task Scaling",
       "link": "https://arxiv.org/abs/2603.17216",
@@ -4983,160 +5150,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.15634",
-      "title": "NextMem: Towards Latent Factual Memory for LLM-based Agents",
-      "link": "https://arxiv.org/abs/2603.15634",
-      "summary": "arXiv:2603.15634v1 Announce Type: new Abstract: Memory is critical for LLM-based agents to preserve past observations for future decision-making, where factual memory serves as its foundational part. However, existing approaches to constructing factual memory face several limitations. Textual methods impose heavy context and indexing burdens, while parametric methods suffer from catastrophic forgetting and high costs. To address these challenges, we introduce NextMem, a latent factual memory framework that utilizes an autoregressive autoencoder to efficiently construct latent memory while ensuring accurate reconstruction. For better optimization, we propose a two-stage training process, including autoregressive reconstruction alignment and progressive latent substitution. We also incorporate quantization to reduce storage overhead. Extensive experiments demonstrate that NextMem achieves superior performance, and excels in retrieval, robustness, and extensibility properties. We release our code and model checkpoints at https://github.com/nuster1128/NextMem.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-18T04:00:00.000Z",
-      "score": 116,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.20510",
-      "title": "Grounded Chess Reasoning in Language Models via Master Distillation",
-      "link": "https://arxiv.org/abs/2603.20510",
-      "summary": "arXiv:2603.20510v1 Announce Type: new Abstract: Language models often lack grounded reasoning capabilities in specialized domains where training data is scarce but bespoke systems excel. We introduce a general framework for distilling expert system reasoning into natural language chain-of-thought explanations, enabling compact models to acquire domain expertise and the ability to generate faithful, grounded explanations. Rather than distilling only final outputs, we capture the full reasoning process, transforming opaque expert computations into transparent, step-by-step explanations. We demonstrate this approach in chess, a canonical reasoning domain where language models continue to underperform. Our 4B parameter model, C1, advances from a near-zero baseline to 48.1% accuracy, outperforming all open-source models and most frontier proprietary systems. Notably, C1 surpasses its distillation teacher and generates solutions in two orders of magnitude fewer tokens than baselines. Unlike prior neural chess approaches that predict only best moves, C1 generates explainable solutions revealing strategic reasoning. Our pipeline combines supervised fine-tuning and reinforcement learning with theme-balanced data sampling for comprehensive tactical coverage. Master Distillation demonstrates how to inject expert-level knowledge into compact models for under-optimized domains, offering a r",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-24T04:00:00.000Z",
-      "score": 115.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.13251",
-      "title": "ManiBench: A Benchmark for Testing Visual-Logic Drift and Syntactic Hallucinations in Manim Code Generation",
-      "link": "https://arxiv.org/abs/2603.13251",
-      "summary": "arXiv:2603.13251v1 Announce Type: new Abstract: Traditional benchmarks like HumanEval and MBPP test logic and syntax effectively, but fail when code must produce dynamic, pedagogical visuals. We introduce ManiBench, a specialized benchmark evaluating LLM performance in generating Manim CE code, where temporal fidelity and version-aware API correctness are critical. ManiBench targets two key failure modes: Syntactic Hallucinations (valid Python referencing non-existent or deprecated Manim APIs) and Visual-Logic Drift (generated visuals diverging from intended mathematical logic through timing errors or missing causal relationships). The benchmark comprises 150-200 problems across five difficulty levels spanning calculus, linear algebra, probability, topology, and AI, grounded in analysis of 3Blue1Brown's ManimGL source (53,000 lines, 143 scene classes). Evaluation uses a four-tier framework measuring Executability, Version-Conflict Error Rate, Alignment Score, and Coverage Score. An open-source framework automates evaluation across multiple models and prompting strategies. Code, data and benchmark suite are available at https://github.com/nabin2004/ManiBench. and the dataset is hosted on https://huggingface.co/datasets/nabin2004/ManiBench.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-17T04:00:00.000Z",
-      "score": 115.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.13266",
-      "title": "Multi-hop Reasoning and Retrieval in Embedding Space: Leveraging Large Language Models with Knowledge",
-      "link": "https://arxiv.org/abs/2603.13266",
-      "summary": "arXiv:2603.13266v1 Announce Type: new Abstract: As large language models (LLMs) continue to grow in size, their abilities to tackle complex tasks have significantly improved. However, issues such as hallucination and the lack of up-to-date knowledge largely remain unresolved. Knowledge graphs (KGs), which serve as symbolic representations of real-world knowledge, offer a reliable source for enhancing reasoning. Integrating KG retrieval into LLMs can therefore strengthen their reasoning by providing dependable knowledge. Nevertheless, due to limited understanding of the underlying knowledge graph, LLMs may struggle with queries that have multiple interpretations. Additionally, the incompleteness and noise within knowledge graphs may result in retrieval failures. To address these challenges, we propose an embedding-based retrieval reasoning framework EMBRAG. In this approach, the model first generates multiple logical rules grounded in knowledge graphs based on the input query. These rules are then applied to reasoning in the embedding space, guided by the knowledge graph, ensuring more robust and accurate reasoning. A reranker model further interprets these rules and refines the results. Extensive experiments on two benchmark KGQA datasets demonstrate that our approach achieves the new state-of-the-art performance in KG reasoning tasks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-17T04:00:00.000Z",
-      "score": 115.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.23539",
-      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
-      "link": "https://arxiv.org/abs/2603.23539",
-      "summary": "arXiv:2603.23539v1 Announce Type: new Abstract: We show that PLDR-LLMs pretrained at self-organized criticality exhibit reasoning at inference time. The characteristics of PLDR-LLM deductive outputs at criticality is similar to second-order phase transitions. At criticality, the correlation length diverges, and the deductive outputs attain a metastable steady state. The steady state behaviour suggests that deductive outputs learn representations equivalent to scaling functions, universality classes and renormalization groups from the training dataset, leading to generalization and reasoning capabilities in the process. We can then define an order parameter from the global statistics of the model's deductive output parameters at inference. The reasoning capabilities of a PLDR-LLM is better when its order parameter is close to zero at criticality. This observation is supported by the benchmark scores of the models trained at near-criticality and sub-criticality. Our results provide a self-contained explanation on how reasoning manifests in large language models, and the ability to reason can be quantified solely from global model parameter values of the deductive outputs at steady state, without any need for evaluation of curated benchmark datasets through inductive output for reasoning and comprehension.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 115.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://saolalab.github.io/clawforce/",
-      "title": "Clawforce – spin up a team of AI agents in minutes",
-      "link": "https://saolalab.github.io/clawforce/",
-      "summary": "Article URL: https://saolalab.github.io/clawforce/ Comments URL: https://news.ycombinator.com/item?id=47451187 Points: 1 # Comments: 1",
+      "id": "https://intuitivecompute.com",
+      "title": "Show HN: Kora – An AI-native OS layer written in 370k lines of Rust",
+      "link": "https://intuitivecompute.com",
+      "summary": "We've been building this for ourselves over the last year. We wanted the computer from Star Trek, something you just talk to, that knows your context, controls your environment, and runs locally. Our core belief is digital sovereignty in that you should own your context. Your conversations, files, voice, memory, and identity never leave your machine unless you explicitly choose to route through a cloud provider. No…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-20T06:29:45.000Z",
-      "score": 113.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.17169",
-      "title": "How Clued up are LLMs? Evaluating Multi-Step Deductive Reasoning in a Text-Based Game Environment",
-      "link": "https://arxiv.org/abs/2603.17169",
-      "summary": "arXiv:2603.17169v1 Announce Type: new Abstract: Deducing whodunit proves challenging for LLM agents. In this paper, we implement a text-based multi-agent version of the classic board game Clue as a rule-based testbed for evaluating multi-step deductive reasoning, with six agents drawn from GPT-4o-mini and Gemini-2.5-Flash. We further investigate whether fine-tuning on structured logic puzzles transfers to improved in-game reasoning and gameplay. Across 18 simulated games, agents achieve only four correct wins, indicating difficulty in maintaining consistent deductive reasoning over the course of a full game. Additionally, we find that fine-tuning does not reliably improve performance and, in some cases, appears to increase reasoning volume without improving reasoning precision.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-19T04:00:00.000Z",
-      "score": 110.58,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.17305",
-      "title": "Contrastive Reasoning Alignment: Reinforcement Learning from Hidden Representations",
-      "link": "https://arxiv.org/abs/2603.17305",
-      "summary": "arXiv:2603.17305v1 Announce Type: new Abstract: We propose CRAFT, a red-teaming alignment framework that leverages model reasoning capabilities and hidden representations to improve robustness against jailbreak attacks. Unlike prior defenses that operate primarily at the output level, CRAFT aligns large reasoning models to generate safety-aware reasoning traces by explicitly optimizing objectives defined over the hidden state space. Methodologically, CRAFT integrates contrastive representation learning with reinforcement learning to separate safe and unsafe reasoning trajectories, yielding a latent-space geometry that supports robust, reasoning-level safety alignment. Theoretically, we show that incorporating latent-textual consistency into GRPO eliminates superficially aligned policies by ruling them out as local optima. Empirically, we evaluate CRAFT on multiple safety benchmarks using two strong reasoning models, Qwen3-4B-Thinking and R1-Distill-Llama-8B, where it consistently outperforms state-of-the-art defenses such as IPO and SafeKey. Notably, CRAFT delivers an average 79.0% improvement in reasoning safety and 87.7% improvement in final-response safety over the base models, demonstrating the effectiveness of hidden-space reasoning alignment.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-19T04:00:00.000Z",
-      "score": 110.58,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.17368",
-      "title": "Towards Safer Large Reasoning Models by Promoting Safety Decision-Making before Chain-of-Thought Generation",
-      "link": "https://arxiv.org/abs/2603.17368",
-      "summary": "arXiv:2603.17368v1 Announce Type: new Abstract: Large reasoning models (LRMs) achieved remarkable performance via chain-of-thought (CoT), but recent studies showed that such enhanced reasoning capabilities are at the expense of significantly degraded safety capabilities. In this paper, we reveal that LRMs' safety degradation occurs only after CoT is enabled, and this degradation is not observed when CoT is disabled. This observation motivates us to consider encouraging LRMs to make safety decisions before CoT generation. To this end, we propose a novel safety alignment method that promotes the safety decision-making of LRMs before starting CoT generation. Specifically, we first utilize a Bert-based classifier to extract safety decision signals from a safe model (e.g., a CoT-disabled LRM) and then integrate these signals into LRMs' safety alignment as auxiliary supervision. In this way, the safety gradients can be backpropagated to the LRMs' latent representations, effectively strengthening the LRMs' safety decision-making abilities against CoT generation. Extensive experiments demonstrate that our method substantially improves the safety capabilities of LRMs while effectively maintaining LRMs' general reasoning performance.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-19T04:00:00.000Z",
-      "score": 110.58,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/oguzbilgic/agent-kernel",
-      "title": "Show HN: Agent Kernel – Three Markdown files that make any AI agent stateful",
-      "link": "https://github.com/oguzbilgic/agent-kernel",
-      "summary": "Article URL: https://github.com/oguzbilgic/agent-kernel Comments URL: https://news.ycombinator.com/item?id=47486287 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-23T07:06:42.000Z",
-      "score": 110.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.20435",
-      "title": "Deep reflective reasoning in interdependence constrained structured data extraction from clinical notes for digital health",
-      "link": "https://arxiv.org/abs/2603.20435",
-      "summary": "arXiv:2603.20435v1 Announce Type: new Abstract: Extracting structured information from clinical notes requires navigating a dense web of interdependent variables where the value of one attribute logically constrains others. Existing Large Language Model (LLM)-based extraction pipelines often struggle to capture these dependencies, leading to clinically inconsistent outputs. We propose deep reflective reasoning, a large language model agent framework that iteratively self-critiques and revises structured outputs by checking consistency among variables, the input text, and retrieved domain knowledge, stopping when outputs converge. We extensively evaluate the proposed method in three diverse oncology applications: (1) On colorectal cancer synoptic reporting from gross descriptions (n=217), reflective reasoning improved average F1 across eight categorical synoptic variables from 0.828 to 0.911 and increased mean correct rate across four numeric variables from 0.806 to 0.895; (2) On Ewing sarcoma CD99 immunostaining pattern identification (n=200), the accuracy improved from 0.870 to 0.927; (3) On lung cancer tumor staging (n=100), tumor stage accuracy improved from 0.680 to 0.833 (pT: 0.842 -> 0.884; pN: 0.885 -> 0.948). The results demonstrate that deep reflective reasoning can systematically improve the reliability of LLM-based structured data extraction under interdependence con",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-24T04:00:00.000Z",
-      "score": 109.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/isaacsight/kernel",
-      "title": "Show HN: Kbot – AI agent that forges its own tools at runtime (MIT, $0)",
-      "link": "https://github.com/isaacsight/kernel",
-      "summary": "I built kbot — a terminal AI agent that learns from every session and forges new tools when it hits problems it can't solve. What makes it different: Self-improving (Bayesian skill routing gets smarter over time). Tool forging (encounters a gap, builds a tool, tool persists forever). Self-defense (HMAC memory integrity, prompt injection detection). 368 tools, 41 agents, 19 local models. Fully offline, $0. Dream mode (improves itself while idle). MIT licensed. Demo of kbot forging a tool in 30 seconds: https://raw.githubusercontent.com/isaacsight/kernel/main/too... npm install -g @kernel.chat/kbot Comments URL: https://news.ycombinator.com/item?id=47526475 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-26T03:54:19.000Z",
-      "score": 108.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://dev.to/priya_negi_9ffd29931ea408/tasker-vs-droidrun-rule-based-automation-vs-agentic-ai-system-1ep3",
-      "title": "Rule based automation vs. Agentic AI system",
-      "link": "https://dev.to/priya_negi_9ffd29931ea408/tasker-vs-droidrun-rule-based-automation-vs-agentic-ai-system-1ep3",
-      "summary": "Article URL: https://dev.to/priya_negi_9ffd29931ea408/tasker-vs-droidrun-rule-based-automation-vs-agentic-ai-system-1ep3 Comments URL: https://news.ycombinator.com/item?id=47527109 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-26T06:07:49.000Z",
-      "score": 100.37,
-      "status": "queued"
+      "keywordHits": 9,
+      "publishedAt": "2026-03-26T15:18:33.000Z",
+      "score": 234,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-26T16:11:31.520Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://news.ycombinator.com/item?id=47285609",
