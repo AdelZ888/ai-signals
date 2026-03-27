@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-03-27T08:58:50.448Z",
+  "generatedAt": "2026-03-27T16:05:53.771Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-03-27-how-to-prototype-a-token-level-confidence-weighted-llm-ensemble",
+      "title": "How to prototype a token-level confidence-weighted LLM ensemble",
+      "date": "2026-03-27",
+      "excerpt": "Step-by-step prototype to run multiple LLMs in parallel, use token-level confidence (logprobs/entropy) to weight and stitch outputs, and reproduce Sup AI's HLE gain (52.15% vs 44.74%).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-27-how-to-prototype-a-token-level-confidence-weighted-llm-ensemble.jpg",
+      "tags": [
+        "ensemble",
+        "confidence-weighting",
+        "logprob",
+        "entropy",
+        "model-orchestration",
+        "Sup AI",
+        "HLE",
+        "tooling"
+      ],
+      "sources": [
+        "https://sup.ai"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-03-27-senate-democrats-led-by-adam-schiff-propose-law-to-codify-anthropics-red-lines-on-autonomous-weapons-and-mass-surveillance",
       "title": "Senate Democrats led by Adam Schiff propose law to codify Anthropic's red lines on autonomous weapons and mass surveillance",

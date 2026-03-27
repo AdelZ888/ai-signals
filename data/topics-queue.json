@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-27T08:58:50.456Z",
+  "generatedAt": "2026-03-27T16:05:53.826Z",
   "items": [
+    {
+      "id": "https://sup.ai",
+      "title": "Show HN: Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
+      "link": "https://sup.ai",
+      "summary": "Hi HN. I'm Ken, a 20-year-old Stanford CS student. I built Sup AI. I started working on this because no single AI model is right all the time, but their errors don’t strongly correlate. In other words, models often make unique mistakes relative to other models. So I run multiple models in parallel and synthesize the outputs by weighting segments based on confidence. Low entropy in the output token probability distri…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-26T15:45:14.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-27T16:05:53.757Z",
+      "file": "content/posts/2026-03-27-how-to-prototype-a-token-level-confidence-weighted-llm-ensemble.md",
+      "fileFr": "content/posts/fr/2026-03-27-how-to-prototype-a-token-level-confidence-weighted-llm-ensemble.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1533,
+      "wordsFr": 1495
+    },
     {
       "id": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
       "title": "Senate Democrats are trying to ‘codify’ Anthropic&#8217;s red lines on autonomous weapons and mass surveillance",
@@ -3037,42 +3060,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://sup.ai",
-      "title": "Show HN: Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
-      "link": "https://sup.ai",
-      "summary": "Hi HN. I'm Ken, a 20-year-old Stanford CS student. I built Sup AI. I started working on this because no single AI model is right all the time, but their errors don’t strongly correlate. In other words, models often make unique mistakes relative to other models. So I run multiple models in parallel and synthesize the outputs by weighting segments based on confidence. Low entropy in the output token probability distributions correlates with accuracy. High entropy is often where hallucinations begin. My dad Scott (AI Research Scientist at TRI, PhD from UCLA) is my research partner on this. He sends me papers at all hours, we argue about whether they actually apply and what modifications make sense, and then I build and test things. The entropy-weighting approach came out of one of those conversations. In our eval on Humanity's Last Exam, Sup scored 52.15%. The best individual model in the same evaluation run got 44.74%. The relative gap is statistically significant (p https://sup.ai/research/hle-white-paper-jan-9-2026 - https://github.com/supaihq/hle Limitations: - We evaluated 1,369 of the 2,500 HLE questions (details in the above links) - Not all APIs expose token logprobs; we use several methods to estimate confidence when they don't We tried offering free access and it got abused so badly it nearly killed us. Right now the sustainable option is a $5 starter credit with card ve",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-26T15:45:14.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://levine.tech/blog/oauth-is-broken",
-      "title": "OAuth Is Broken for AI Agents",
-      "link": "https://levine.tech/blog/oauth-is-broken",
-      "summary": "Article URL: https://levine.tech/blog/oauth-is-broken Comments URL: https://news.ycombinator.com/item?id=47275987 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T15:19:28.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.techpolicy.press/americas-first-war-in-age-of-llms-exposes-myth-of-ai-alignment/",
-      "title": "America's First War in Age of LLMs Exposes Myth of AI Alignment",
-      "link": "https://www.techpolicy.press/americas-first-war-in-age-of-llms-exposes-myth-of-ai-alignment/",
-      "summary": "Article URL: https://www.techpolicy.press/americas-first-war-in-age-of-llms-exposes-myth-of-ai-alignment/ Comments URL: https://news.ycombinator.com/item?id=47275814 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T15:09:11.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://surgehq.ai/blog/enterprisebench-corecraft",
       "title": "EnterpriseBench: CoreCraft – Measuring AI Agents in Chaotic RL Environments",
       "link": "https://surgehq.ai/blog/enterprisebench-corecraft",
@@ -3730,30 +3717,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://friendly-maamoul-bf2dd5.netlify.app",
-      "title": "8-phase AI agent pipeline from problem description to production release",
-      "link": "https://friendly-maamoul-bf2dd5.netlify.app",
-      "summary": "Article URL: https://friendly-maamoul-bf2dd5.netlify.app Comments URL: https://news.ycombinator.com/item?id=47275971 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-06T15:18:44.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not",
-      "title": "What if AI alignment is a skill, not a state?",
-      "link": "https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not",
-      "summary": "Article URL: https://12gramsofcarbon.com/p/what-if-ai-alignment-is-a-skill-not Comments URL: https://news.ycombinator.com/item?id=47275573 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-06T14:50:56.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5161,6 +5124,90 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27",
+      "title": "Apple will reportedly allow other AI chatbots to plug into Siri",
+      "link": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27",
+      "summary": "Siri currently has an integration with OpenAI’s ChatGPT. | Photo: Allison Johnson / The Verge Apple's iOS 27 update will allow users to choose the AI chatbot they want to link with Siri. That's according to a report from Bloomberg's Mark Gurman, who says third-party chatbots downloaded from the App Store, like Google's Gemini or Anthropic's Claude, will be able to fetch replies for Siri - similar to how the voice assistant already works with OpenAI's ChatGPT. The new system, reportedly called \"Extensions,\" will give users the ability to enable or disable the chatbots they want to connect with Siri on the iPhone, iPad, and Mac, Bloomberg reports. The upcoming integrations will also work with the standalone app Apple reportedly plans … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-26T21:31:27.000Z",
+      "score": 78.53,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23714",
+      "title": "LLMs Do Not Grade Essays Like Humans",
+      "link": "https://arxiv.org/abs/2603.23714",
+      "summary": "arXiv:2603.23714v1 Announce Type: new Abstract: Large language models have recently been proposed as tools for automated essay scoring, but their agreement with human grading remains unclear. In this work, we evaluate how LLM-generated scores compare with human grades and analyze the grading behavior of several models from the GPT and Llama families in an out-of-the-box setting, without task-specific training. Our results show that agreement between LLM and human scores remains relatively weak and varies with essay characteristics. In particular, compared to human raters, LLMs tend to assign higher scores to short or underdeveloped essays, while assigning lower scores to longer essays that contain minor grammatical or spelling errors. We also find that the scores generated by LLMs are generally consistent with the feedback they generate: essays receiving more praise tend to receive higher scores, while essays receiving more criticism tend to receive lower scores. These results suggest that LLM-generated scores and feedback follow coherent patterns but rely on signals that differ from those used by human raters, resulting in limited alignment with human grading practices. Nevertheless, our work shows that LLMs produce feedback that is consistent with their grading and that they can be reliably used in supporting essay scoring.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "score": 76.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "title": "Designing AI agents to resist prompt injection",
+      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-11T11:30:00.000Z",
+      "score": 72.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/equip-responses-api-computer-environment",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "score": 72.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history",
+      "title": "Google is making it easier to import another AI’s memory into Gemini",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history",
+      "summary": "After Anthropic updated its tool for copying another AI's memory into Claude earlier this month, Google Gemini is rolling out new \"Import Memory\" and \"Import Chat History\" features on desktop that can help users quickly copy over everything their current AI already knows about them. To use the \"Import Memory\" tool, users copy and paste a suggested prompt from Gemini into their previous AI, then paste the output from the previous AI into Gemini, which should get Gemini caught up on their preferences. The \"Import Chat History\" feature has users request an export of all of their chats from their previous AI, which they upload to Gemini in th … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-26T21:44:37.000Z",
+      "score": 66.61,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+      "link": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned. AI models like Anthropic’s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-17T22:30:46.000Z",
+      "score": 66.51,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23625",
+      "title": "Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework",
+      "link": "https://arxiv.org/abs/2603.23625",
+      "summary": "arXiv:2603.23625v1 Announce Type: new Abstract: Artificial intelligence (AI) is increasingly being explored in health and social care to reduce administrative workload and allow staff to spend more time on patient care. This paper evaluates a voice-enabled Care Home Smart Speaker designed to support everyday activities in residential care homes, including spoken access to resident records, reminders, and scheduling tasks. A safety-focused evaluation framework is presented that examines the system end-to-end, combining Whisper-based speech recognition with retrieval-augmented generation (RAG) approaches (hybrid, sparse, and dense). Using supervised care-home trials and controlled testing, we evaluated 330 spoken transcripts across 11 care categories, including 184 reminder-containing interactions. These evaluations focus on (i) correct identification of residents and care categories, (ii) reminder recognition and extraction, and (iii) end-to-end scheduling correctness under uncertainty (including safe deferral/clarification). Given the safety-critical nature of care homes, particular attention is also paid to reliability in noisy environments and across diverse accents, supported by confidence scoring, clarification prompts, and human-in-the-loop oversight. In the best-performing configuration (GPT-5.2), resident ID and care category matching reached 100% (95% CI: 98.86-100), wh",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "score": 64.09,
+      "status": "queued"
+    },
+    {
       "id": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
       "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
       "link": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
@@ -5849,22 +5896,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-02-28T15:22:15.522Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://clashai.live",
-      "title": "Show HN: CivBench a long-horizon AI benchmark for multi-agent games",
-      "link": "https://clashai.live",
-      "summary": "Hey HN! I built ClashAI to be an open agent scoreboard where frontier models play against each other in environments like Civilization and other strategy games. Every match is streamed live with the AI thinking fully observable. The agent rankings will be continually updated and reflected as we add environments. Brief notes on CivBench Season #001: - 200 turn limit - Starting with 8 of the top 42 agents we’ve tested…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-02-25T15:10:27.000Z",
-      "score": 246,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-02-25T16:03:15.038Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
