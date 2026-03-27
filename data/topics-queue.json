@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-26T16:36:36.825Z",
+  "generatedAt": "2026-03-27T08:58:50.456Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
+      "title": "Senate Democrats are trying to ‘codify’ Anthropic&#8217;s red lines on autonomous weapons and mass surveillance",
+      "link": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
+      "summary": "Anthropic's fight with the Pentagon is expanding to Congress. Sen. Adam Schiff (D-CA) is working on a new bill to \"codify\" Anthropic's red lines and ensure humans make the ultimate decisions in questions of life and death, and Sen. Elissa Slotkin (D-MI) recently introduced a bill to limit the Defense Department's ability to use AI for mass surveillance of Americans. The Trump administration blacklisted Anthropic ear…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-25T15:05:46.000Z",
+      "score": 166.07,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-27T08:58:50.436Z",
+      "file": "content/posts/2026-03-27-senate-democrats-led-by-adam-schiff-propose-law-to-codify-anthropics-red-lines-on-autonomous-weapons-and-mass-surveillance.md",
+      "fileFr": "content/posts/fr/2026-03-27-senate-democrats-led-by-adam-schiff-propose-law-to-codify-anthropics-red-lines-on-autonomous-weapons-and-mass-surveillance.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1390,
+      "wordsFr": 1306
+    },
     {
       "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
       "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
@@ -3494,30 +3517,6 @@
       "status": "queued"
     },
     {
-      "id": "https://shellfirm.vercel.app/",
-      "title": "Shellfirm – Safety guardrails for AI coding agents",
-      "link": "https://shellfirm.vercel.app/",
-      "summary": "Article URL: https://shellfirm.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=47272036 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T07:25:19.000Z",
-      "score": 171.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47272260",
-      "title": "Show HN: Claude Code for iPad – Agentic AI coding tool with file ops, Git, shell",
-      "link": "https://news.ycombinator.com/item?id=47272260",
-      "summary": "We built an agentic coding tool that runs on iPad. Claude reads your codebase, plans changes, edits files, and pushes to GitHub — autonomously, in a loop. 7 integrated tools (Read, Write, Edit, Glob, Grep, Bash, Git), all executing locally on the device. The shell is a JS polyfill (~25 Unix commands with pipes, chaining, and redirection). Git uses isomorphic-git. API calls stream token-by-token via SSE. We used it to develop itself — dogfooding from day one. We've hit iPad platform limits: no persistent background processes, no real shell for builds/tests, iOS purges IndexedDB after 7 days. Looking for collaborators to solve the last-mile problem — especially anyone with experience in iOS hybrid apps, WebContainers, or keeping background servers alive on iOS. Repo: https://github.com/M8seven/claude-mobile Detailed writeup: https://github.com/M8seven/claude-mobile/issues/1 Comments URL: https://news.ycombinator.com/item?id=47272260 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T08:00:47.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/radoslaw-sz/guardio",
       "title": "Show HN: Guardio – control your AI Agent",
       "link": "https://github.com/radoslaw-sz/guardio",
@@ -3539,30 +3538,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-19T15:04:06.000Z",
       "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
-      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-      "link": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
-      "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
-      "source": "Google DeepMind News",
-      "region": "UK",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-26T15:23:35.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
-      "title": "Senate Democrats are trying to ‘codify’ Anthropic&#8217;s red lines on autonomous weapons and mass surveillance",
-      "link": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
-      "summary": "Anthropic's fight with the Pentagon is expanding to Congress. Sen. Adam Schiff (D-CA) is working on a new bill to \"codify\" Anthropic's red lines and ensure humans make the ultimate decisions in questions of life and death, and Sen. Elissa Slotkin (D-MI) recently introduced a bill to limit the Defense Department's ability to use AI for mass surveillance of Americans. The Trump administration blacklisted Anthropic earlier this month after it set limits on how the military could use its AI models, designating it a supply-chain risk. Anthropic has filed suit, accusing the government of violating its constitutional rights. It's insisted that the … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-25T15:05:46.000Z",
-      "score": 166.07,
       "status": "queued"
     },
     {
@@ -3650,18 +3625,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/Bugsbuny24/Koshe-Al-",
-      "title": "Show HN: Koshei AI – a voice-native AI language university (A1 to D2)",
-      "link": "https://github.com/Bugsbuny24/Koshe-Al-",
-      "summary": "Hi HN, I’m building a voice-first AI language teacher in the browser using: - Next.js - Gemini Audio API for STT - Gemini TTS - Supabase The product vision is a structured AI “language university” rather than a general chatbot. Right now my biggest technical problem is: How would you implement lightweight browser-native lip sync for a static avatar image while TTS audio is playing? I’ve tried: - Three.js + VRM (too heavy / unstable for this use case) - simple canvas mouth animation - CSS-only pulse effects I want: - something realistic enough to feel alive - low dependency weight - web-compatible - stable on mobile Secondary issues: - MediaRecorder reliability on mobile Safari - reducing transcript latency - voice UX for guided teaching rather than free-form chat Demo: https://koshe-al.onrender.com Repo: https://github.com/Bugsbuny24/Koshe-Al- Would love technical suggestions, architecture criticism, or examples of similar systems done well. Comments URL: https://news.ycombinator.com/item?id=47272188 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T07:49:50.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47385213",
       "title": "Ask HN: Founder is claiming my 2-year RAG architecture as his AI's Featured Work",
       "link": "https://news.ycombinator.com/item?id=47385213",
@@ -3695,18 +3658,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-10T07:22:34.000Z",
       "score": 160.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2216833-the-cult-of-the-signal-laisses-seuls-dans-un-jeu-video-des-agents-ia-ont-cree-leur-propre-religion.html",
-      "title": "« The Cult of the Signal » : laissés seuls dans un jeu vidéo, des agents IA ont créé leur propre religion",
-      "link": "https://www.numerama.com/tech/2216833-the-cult-of-the-signal-laisses-seuls-dans-un-jeu-video-des-agents-ia-ont-cree-leur-propre-religion.html",
-      "summary": "Sur SpaceMolt, un MMORPG peuplé exclusivement d’agents IA, certains « joueurs » ont fini par former un véritable culte autour d’un mystérieux signal. Un phénomène émergent, né d’une simple règle de jeu et des interactions entre ces intelligences artificielles.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-24T14:57:46.000Z",
-      "score": 158.67,
       "status": "queued"
     },
     {
@@ -3779,18 +3730,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/kite-org/kite/discussions/409",
-      "title": "Show HN: Introducing Kite AI Agent: Conversational Operations for Kubernetes",
-      "link": "https://github.com/kite-org/kite/discussions/409",
-      "summary": "Article URL: https://github.com/kite-org/kite/discussions/409 Comments URL: https://news.ycombinator.com/item?id=47272298 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-06T08:07:00.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4274,6 +4213,18 @@
       "status": "queued"
     },
     {
+      "id": "https://hexaco-agent.vercel.app/",
+      "title": "How Well Does My AI Agent Know Me?",
+      "link": "https://hexaco-agent.vercel.app/",
+      "summary": "Article URL: https://hexaco-agent.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=47540121 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-27T08:11:15.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4307,18 +4258,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-23T07:42:51.000Z",
       "score": 153.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Aftermath-Technologies-Ltd/adaptive-belief-ecology-system",
-      "title": "Show HN: ABES – a memory architecture for belief revision in AI agents",
-      "link": "https://github.com/Aftermath-Technologies-Ltd/adaptive-belief-ecology-system",
-      "summary": "I’ve been building ABES (Adaptive Belief Ecology System), a memory architecture for AI agents based on the idea that memory should manage belief state over time, not only retrieve prior text. The system models memory as structured beliefs with explicit state, including confidence, salience, contradiction pressure, lifecycle status, memory tier, evidence balance, lineage, user and session scope, and decay behavior. Beliefs can be reinforced, weakened, contested, updated, mutated, or deprecated as new evidence arrives. The goal is to support longer-running agents that need to deal with stale information, conflicting information, confidence change, and belief revision, rather than only recalling similar prior content. Current implementation includes a structured belief model, reinforcement and decay mechanics, contradiction handling, tiered memory behavior, session isolation, API support, Docker support, and testing/evaluation infrastructure. What has been verified so far in the project’s published tests and evals: 822 passing tests a 1,000-prompt evaluation with an overall score of 825/1000 (82.5%) reported category scores of 96.8% episodic memory, 94.4% working memory, and 92.8% semantic memory a 15-block side-by-side evaluation against a raw Ollama baseline, where ABES passed 14/15 blocks and the baseline passed 6/15 a 200-prompt cognitive stress test reported as 3 consecutive",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-06T06:06:22.000Z",
-      "score": 153.29,
       "status": "queued"
     },
     {
@@ -5148,6 +5087,112 @@
       "publishedAt": "2026-03-23T07:14:02.000Z",
       "score": 116.11,
       "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23539",
+      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
+      "link": "https://arxiv.org/abs/2603.23539",
+      "summary": "arXiv:2603.23539v1 Announce Type: new Abstract: We show that PLDR-LLMs pretrained at self-organized criticality exhibit reasoning at inference time. The characteristics of PLDR-LLM deductive outputs at criticality is similar to second-order phase transitions. At criticality, the correlation length diverges, and the deductive outputs attain a metastable steady state. The steady state behaviour suggests that deductive outputs learn representations equivalent to scaling functions, universality classes and renormalization groups from the training dataset, leading to generalization and reasoning capabilities in the process. We can then define an order parameter from the global statistics of the model's deductive output parameters at inference. The reasoning capabilities of a PLDR-LLM is better when its order parameter is close to zero at criticality. This observation is supported by the benchmark scores of the models trained at near-criticality and sub-criticality. Our results provide a self-contained explanation on how reasoning manifests in large language models, and the ability to reason can be quantified solely from global model parameter values of the deductive outputs at steady state, without any need for evaluation of curated benchmark datasets through inductive output for reasoning and comprehension.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "score": 115.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://retroshift.dev/",
+      "title": "Show HN: Run, build, and govern AI agent workflows for DevOps",
+      "link": "https://retroshift.dev/",
+      "summary": "Hey HN, Two things kept coming up when we talked to teams building internal AI automation: rebuilding the same integrations, and automation touching production with no visibility into what it actually did. So we built Retroshift, run and govern AI agent workflows in your existing tools. Every action is logged, nothing touches production without approval, and we use a local first approach so everything can be run straight on your local machine Things we're actively working on: - Shadow execution: test workflows against mocked dependencies before hitting production - Import runbooks into workflows - Trace to workflow: convert a chat session into a reusable workflow - Workflow marketplace - Evals - Slack integration Invite-only alpha now, beta next week. Would love feedback from anyone running ops automation or starting to think about AI agents supporting production systems. Comments URL: https://news.ycombinator.com/item?id=47539422 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-27T05:44:53.000Z",
+      "score": 101.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.leanmcp.com/blog/first-non-trivial-ux-demo-agentic-web",
+      "title": "Non trivial client-side UI manipulation in runtime using AI",
+      "link": "https://www.leanmcp.com/blog/first-non-trivial-ux-demo-agentic-web",
+      "summary": "Article URL: https://www.leanmcp.com/blog/first-non-trivial-ux-demo-agentic-web Comments URL: https://news.ycombinator.com/item?id=47539748 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-27T06:56:15.000Z",
+      "score": 99.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23838",
+      "title": "Learning-guided Prioritized Planning for Lifelong Multi-Agent Path Finding in Warehouse Automation",
+      "link": "https://arxiv.org/abs/2603.23838",
+      "summary": "arXiv:2603.23838v1 Announce Type: new Abstract: Lifelong Multi-Agent Path Finding (MAPF) is critical for modern warehouse automation, which requires multiple robots to continuously navigate conflict-free paths to optimize the overall system throughput. However, the complexity of warehouse environments and the long-term dynamics of lifelong MAPF often demand costly adaptations to classical search-based solvers. While machine learning methods have been explored, their superiority over search-based methods remains inconclusive. In this paper, we introduce Reinforcement Learning (RL) guided Rolling Horizon Prioritized Planning (RL-RH-PP), the first framework integrating RL with search-based planning for lifelong MAPF. Specifically, we leverage classical Prioritized Planning (PP) as a backbone for its simplicity and flexibility in integrating with a learning-based priority assignment policy. By formulating dynamic priority assignment as a Partially Observable Markov Decision Process (POMDP), RL-RH-PP exploits the sequential decision-making nature of lifelong planning while delegating complex spatial-temporal interactions among agents to reinforcement learning. An attention-based neural network autoregressively decodes priority orders on-the-fly, enabling efficient sequential single-agent planning by the PP planner. Evaluations in realistic warehouse simulations show that RL-RH-PP ac",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "score": 97.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23853",
+      "title": "SCoOP: Semantic Consistent Opinion Pooling for Uncertainty Quantification in Multiple Vision-Language Model Systems",
+      "link": "https://arxiv.org/abs/2603.23853",
+      "summary": "arXiv:2603.23853v1 Announce Type: new Abstract: Combining multiple Vision-Language Models (VLMs) can enhance multimodal reasoning and robustness, but aggregating heterogeneous models' outputs amplifies uncertainty and increases the risk of hallucinations. We propose SCoOP (Semantic-Consistent Opinion Pooling), a training-free uncertainty quantification (UQ) framework multi-VLM systems through uncertainty-weighted linear opinion pooling. Unlike prior UQ methods designed for single models, SCoOP explicitly measures collective, system-level uncertainty across multiple VLMs, enabling effective hallucination detection and abstention for highly uncertain samples. On ScienceQA, SCoOP achieves an AUROC of 0.866 for hallucination detection, outperforming baselines (0.732-0.757) by approximately 10-13%. For abstention, it attains an AURAC of 0.907, exceeding baselines (0.818-0.840) by 7-9%. Despite these gains, SCoOP introduces only microsecond-level aggregation overhead relative to the baselines, which is trivial compared to typical VLM inference time (on the order of seconds). These results demonstrate that SCoOP provides an efficient and principled mechanism for uncertainty-aware aggregation, advancing the reliability of multimodal AI systems.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "score": 97.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.23909",
+      "title": "DUPLEX: Agentic Dual-System Planning via LLM-Driven Information Extraction",
+      "link": "https://arxiv.org/abs/2603.23909",
+      "summary": "arXiv:2603.23909v1 Announce Type: new Abstract: While Large Language Models (LLMs) provide semantic flexibility for robotic task planning, their susceptibility to hallucination and logical inconsistency limits their reliability in long-horizon domains. To bridge the gap between unstructured environments and rigorous plan synthesis, we propose DUPLEX, an agentic dual-system neuro-symbolic architecture that strictly confines the LLM to schema-guided information extraction rather than end-to-end planning or code generation. In our framework, a feed-forward Fast System utilizes a lightweight LLM to extract entities, relations etc. from natural language, deterministically mapping them into a Planning Domain Definition Language (PDDL) problem file for a classical symbolic planner. To resolve complex or underspecified scenarios, a Slow System is activated exclusively upon planning failure, leveraging solver diagnostics to drive a high-capacity LLM in iterative reflection and repair. Extensive evaluations across 12 classical and household planning domains demonstrate that DUPLEX significantly outperforms existing end-to-end and hybrid LLM baselines in both success rate and reliability. These results confirm that The key is not to make the LLM plan better, but to restrict the LLM to the part it is good at - structured semantic grounding - and leave logical plan synthesis to a symbolic p",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "score": 97.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "link": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:23:35.000Z",
+      "score": 168,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-27T08:40:09.230Z",
+      "failureReason": "duplicate(embeddings) of \"Gemini 3.1 Flash Live: Making audio AI more natural and reliable\" (https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/) sim=0.924",
+      "duplicateOf": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "duplicateSimilarity": 0.9238648334462664
+    },
+    {
+      "id": "https://www.numerama.com/tech/2216833-the-cult-of-the-signal-laisses-seuls-dans-un-jeu-video-des-agents-ia-ont-cree-leur-propre-religion.html",
+      "title": "« The Cult of the Signal » : laissés seuls dans un jeu vidéo, des agents IA ont créé leur propre religion",
+      "link": "https://www.numerama.com/tech/2216833-the-cult-of-the-signal-laisses-seuls-dans-un-jeu-video-des-agents-ia-ont-cree-leur-propre-religion.html",
+      "summary": "Sur SpaceMolt, un MMORPG peuplé exclusivement d’agents IA, certains « joueurs » ont fini par former un véritable culte autour d’un mystérieux signal. Un phénomène émergent, né d’une simple règle de jeu et des interactions entre ces intelligences artificielles.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-24T14:57:46.000Z",
+      "score": 158.67,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-27T08:40:09.230Z",
+      "failureReason": "validation issues: FR: Section \"Angle regional (FR)\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Comparatif US, UK, FR\" is missing an inline source link (must include one of the provided URLs)."
     },
     {
       "id": "https://intuitivecompute.com",
