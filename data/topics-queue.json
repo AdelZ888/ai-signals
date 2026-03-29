@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-29T08:35:17.192Z",
+  "generatedAt": "2026-03-29T15:55:43.005Z",
   "items": [
+    {
+      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "title": "Designing AI agents to resist prompt injection",
+      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-11T11:30:00.000Z",
+      "score": 72.31,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-03-29T15:55:42.937Z",
+      "file": "content/posts/2026-03-29-designing-agent-workflows-to-limit-prompt-injection-and-socialengineering-risks.md",
+      "fileFr": "content/posts/fr/2026-03-29-designing-agent-workflows-to-limit-prompt-injection-and-socialengineering-risks.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1678,
+      "wordsFr": 1585
+    },
     {
       "id": "https://www.numerama.com/cyberguerre/2217675-cinq-jours-pour-infiltrer-trois-heures-pour-tout-voler-comment-des-hackers-ont-piege-des-millions-de-developpeurs-ia.html",
       "title": "Cinq jours pour infiltrer, trois heures pour tout voler : comment des hackers ont piégé des millions de développeurs IA",
@@ -3189,30 +3212,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.pantr.co/",
-      "title": "Show HN: Pantr AI Creative Studio",
-      "link": "https://www.pantr.co/",
-      "summary": "Most AI image tools are becoming super powerful, but complicated. > More models > More settings > More prompt tricks We think creative tools should go the other direction. We’re building Pantr AI, a visual-first AI workspace where you generate images from references on a canvas. We believe in: Less options. More intuition. We just opened the beta and are looking for designers, creatives, and people making social content to test it and share feedback. If you need some more initial credits please get in touch. Comments URL: https://news.ycombinator.com/item?id=47377153 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-14T14:37:48.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/ashishgituser/bunkervm",
-      "title": "BunkerVM – Run AI agents in isolated Firecracker microVM sandboxes",
-      "link": "https://github.com/ashishgituser/bunkervm",
-      "summary": "Article URL: https://github.com/ashishgituser/bunkervm Comments URL: https://news.ycombinator.com/item?id=47377050 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-14T14:28:00.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
       "title": "You Need Deterministic Gates for Probabilistic AI Agents",
       "link": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
@@ -3221,18 +3220,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-15T08:11:06.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47385090",
-      "title": "Zirco.ai – AI employee for dental front desk operations",
-      "link": "https://news.ycombinator.com/item?id=47385090",
-      "summary": "Hi HN, I'm building Zirco.ai — an AI administrative employee for dental practices. The problem: dental front desks spend 2–3 hours every day manually verifying insurance benefits through carrier portals. On top of that, they're handling inbound scheduling calls, sending reminders, coordinating referrals, and managing new patient intake — all manually, all repetitive, all expensive. A single front desk employee costs $40–50K/year and turns over at 40% annually. What I built: an AI that handles the full front desk workflow end-to-end. It answers inbound calls with a voice AI (built on Vapi), verifies insurance automatically by integrating with carrier APIs and using browser automation for portals that don't have them, books appointments directly into the practice's existing software (Dentrix, Open Dental, Eaglesoft), and sends personalized SMS/email reminders. Everything the front desk does, handled autonomously. The technical parts I found most interesting: - Insurance verification requires logging into 10+ different carrier portals with different data formats and session handling. Playwright handles the ones without APIs. Availity covers most of the rest. - Voice AI for healthcare needs to handle interruptions, insurance jargon, and multi-step scheduling logic simultaneously. Getting this reliable enough for a medical practice took significant prompt engineering and fallback de",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-15T07:30:26.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -3513,6 +3500,18 @@
       "status": "queued"
     },
     {
+      "id": "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
+      "title": "AI agents planned and built a system to monitor AI agents",
+      "link": "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
+      "summary": "Article URL: https://ren.phytertek.com/blog/building-the-panopticon-from-inside/ Comments URL: https://news.ycombinator.com/item?id=47563558 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-29T14:40:17.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/radoslaw-sz/guardio",
       "title": "Show HN: Guardio – control your AI Agent",
       "link": "https://github.com/radoslaw-sz/guardio",
@@ -3534,18 +3533,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-19T15:04:06.000Z",
       "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://kaeso.ai",
-      "title": "Show HN: Kaeso, an OAuth hub for AI agent integrations",
-      "link": "https://kaeso.ai",
-      "summary": "Hi HN, I’m building Kaeso, an OAuth hub designed for AI agent integrations. The idea came from noticing that many AI agents need to connect to services like Google, Slack, GitHub, and others. Each integration requires OAuth flows, token storage, refresh logic, and permission management. Developers often end up rebuilding this infrastructure repeatedly. Kaeso tries to simplify that by allowing services to be connected once and then accessed through a unified API designed for agents. Still early and I would love feedback from developers building AI agents or automation systems. Website https://kaeso.ai Comments URL: https://news.ycombinator.com/item?id=47297435 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-08T14:07:12.000Z",
-      "score": 165.58,
       "status": "queued"
     },
     {
@@ -3726,42 +3713,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.datagravity.dev/p/anthropics-compute-advantage-why",
-      "title": "Anthropic's Compute Advantage: Why Silicon Strategy Is Becoming an AI Moat",
-      "link": "https://www.datagravity.dev/p/anthropics-compute-advantage-why",
-      "summary": "Article URL: https://www.datagravity.dev/p/anthropics-compute-advantage-why Comments URL: https://news.ycombinator.com/item?id=47297897 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-08T15:03:44.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/vex-hq/Vex",
-      "title": "Show HN: Vex Runtime reliability layer that auto-corrects AI-Agent hallucination",
-      "link": "https://github.com/vex-hq/Vex",
-      "summary": "Article URL: https://github.com/vex-hq/Vex Comments URL: https://news.ycombinator.com/item?id=47297895 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-08T15:03:31.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/jcrowan3/PersonaNexus",
-      "title": "PersonaNexus – A YAML compiler for deterministic AI agent personalities",
-      "link": "https://github.com/jcrowan3/PersonaNexus",
-      "summary": "Article URL: https://github.com/jcrowan3/PersonaNexus Comments URL: https://news.ycombinator.com/item?id=47297692 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-08T14:36:54.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4185,6 +4136,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/",
+      "title": "OpenAI drops AI video tool Sora, startling Disney, sources say",
+      "link": "https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/",
+      "summary": "Article URL: https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/ Comments URL: https://news.ycombinator.com/item?id=47563616 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-29T14:45:17.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+      "title": "Generative AI Can Harm Learning (2024)",
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+      "summary": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486 Comments URL: https://news.ycombinator.com/item?id=47563519 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-29T14:35:49.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4398,18 +4373,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-22T07:06:17.000Z",
       "score": 148.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
-      "title": "Wikipedia bans AI-generated articles",
-      "link": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
-      "summary": "Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate \"several of Wikipedia's core content policies\" as the reason for the ban. The change applies to the English version of Wikipedia and will still allow editors to use AI in certain scenarios. That includes using large language models to \"suggest basic copyedits\" to their writing, but only if it \"does not introduce content of its own.\" Editors can also use AI to translate articles from another language's Wikipedia into English. However, they sti … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-26T15:02:52.000Z",
-      "score": 146.94,
       "status": "queued"
     },
     {
@@ -4893,6 +4856,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says",
+      "title": "Number of AI chatbots ignoring human instructions increasing, study says",
+      "link": "https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says Comments URL: https://news.ycombinator.com/item?id=47563281 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-29T14:09:15.000Z",
+      "score": 122.94,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47552320",
       "title": "Ask HN: Anybody tried to cheat AI-HR-system with hidden/white sentences?",
       "link": "https://news.ycombinator.com/item?id=47552320",
@@ -5157,6 +5132,18 @@
       "status": "queued"
     },
     {
+      "id": "https://faridsaid.com/blog/ia-copilote-infrastructure-it.html",
+      "title": "I gave an AI SSH access to my production infrastructure – 3 months later",
+      "link": "https://faridsaid.com/blog/ia-copilote-infrastructure-it.html",
+      "summary": "Article URL: https://faridsaid.com/blog/ia-copilote-infrastructure-it.html Comments URL: https://news.ycombinator.com/item?id=47563063 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-29T13:40:26.000Z",
+      "score": 94.5,
+      "status": "queued"
+    },
+    {
       "id": "https://iris-eval.com/blog/eval-driven-development",
       "title": "Eval-Driven Development: Applying TDD Principles to AI Agent Prompts",
       "link": "https://iris-eval.com/blog/eval-driven-development",
@@ -5190,18 +5177,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-27T04:00:00.000Z",
       "score": 76.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "title": "Designing AI agents to resist prompt injection",
-      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-11T11:30:00.000Z",
-      "score": 72.31,
       "status": "queued"
     },
     {
@@ -5275,6 +5250,70 @@
       "publishedAt": "2026-03-17T22:30:46.000Z",
       "score": 66.44,
       "status": "queued"
+    },
+    {
+      "id": "https://www.pantr.co/",
+      "title": "Show HN: Pantr AI Creative Studio",
+      "link": "https://www.pantr.co/",
+      "summary": "Most AI image tools are becoming super powerful, but complicated. > More models > More settings > More prompt tricks We think creative tools should go the other direction. We’re building Pantr AI, a visual-first AI workspace where you generate images from references on a canvas. We believe in: Less options. More intuition. We just opened the beta and are looking for designers, creatives, and people making social con…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-14T14:37:48.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-29T15:32:05.317Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://github.com/ashishgituser/bunkervm",
+      "title": "BunkerVM – Run AI agents in isolated Firecracker microVM sandboxes",
+      "link": "https://github.com/ashishgituser/bunkervm",
+      "summary": "Article URL: https://github.com/ashishgituser/bunkervm Comments URL: https://news.ycombinator.com/item?id=47377050 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-14T14:28:00.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-29T15:32:05.317Z",
+      "failureReason": "validation issues: FR: Tutorial missing a concrete config artifact (YAML/JSON/.env/Dockerfile)."
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47385090",
+      "title": "Zirco.ai – AI employee for dental front desk operations",
+      "link": "https://news.ycombinator.com/item?id=47385090",
+      "summary": "Hi HN, I'm building Zirco.ai — an AI administrative employee for dental practices. The problem: dental front desks spend 2–3 hours every day manually verifying insurance benefits through carrier portals. On top of that, they're handling inbound scheduling calls, sending reminders, coordinating referrals, and managing new patient intake — all manually, all repetitive, all expensive. A single front desk employee costs…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-15T07:30:26.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-29T15:32:05.317Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
+      "title": "Wikipedia bans AI-generated articles",
+      "link": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
+      "summary": "Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate \"several of Wikipedia's core content policies\" as the reason for the ban. The change applies to the English version of Wikipedia and will still allow editors to use AI in certain scenarios. That includes using large l…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:02:52.000Z",
+      "score": 146.94,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-03-29T15:32:05.317Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://github.com/wintermeyer/heinzel",

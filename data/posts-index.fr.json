@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-03-29T08:35:17.186Z",
+  "generatedAt": "2026-03-29T15:55:42.950Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-03-29-designing-agent-workflows-to-limit-prompt-injection-and-socialengineering-risks",
+      "title": "Concevoir des workflows d'agents pour limiter les injections de prompt et les risques d'ingénierie sociale",
+      "date": "2026-03-29",
+      "excerpt": "Construisez des workflows d'agents qui séparent récupération, extraction d'intention, décision et action ; enregistrez la provenance, gérez les permissions des capacités et exigez une confirmation humaine pour réduire les risques d'injection de prompt.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-29-designing-agent-workflows-to-limit-prompt-injection-and-socialengineering-risks.jpg",
+      "tags": [
+        "IA",
+        "agents",
+        "sécurité",
+        "prompt-injection",
+        "ingénierie sociale",
+        "développement",
+        "startup"
+      ],
+      "sources": [
+        "https://openai.com/index/designing-agents-to-resist-prompt-injection"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-03-29-litellm-supply-chain-compromise-teampcp-prepared-five-days-active-for-a-three-hour-window",
       "title": "Compromission LiteLLM (supply‑chain) : TeamPCP préparé 5 jours, fenêtre active ≈3 heures — guide FR pour équipes IA",
