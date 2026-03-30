@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T09:19:23.378Z",
+  "generatedAt": "2026-03-30T16:13:31.198Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-03-30-vizit-ai-agentic-framework-and-hands-on-guide-to-reproducible-visualizations",
+      "title": "Vizit — Framework agentique IA et guide pratique pour des visualisations reproductibles",
+      "date": "2026-03-30",
+      "excerpt": "Mode d'emploi en français pour Vizit : comment utiliser le dépôt comme base pour produire des visualisations réutilisables et auditable. Contient étapes pratiques, commandes d'exemple (marquées comme hypothèses) et checklist de production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-03-30-vizit-ai-agentic-framework-and-hands-on-guide-to-reproducible-visualizations.jpg",
+      "tags": [
+        "Vizit",
+        "visualisation",
+        "IA",
+        "reproductibilité",
+        "open-source",
+        "dev-tools"
+      ],
+      "sources": [
+        "https://github.com/reposquirrel/Vizit"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
