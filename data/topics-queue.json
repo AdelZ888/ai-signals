@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-29T15:55:43.005Z",
+  "generatedAt": "2026-03-30T09:19:23.385Z",
   "items": [
+    {
+      "id": "https://endor.dev/blog/introducing-flightplanner",
+      "title": "Flightplanner: Spec-driven E2E testing for the age of AI agents",
+      "link": "https://endor.dev/blog/introducing-flightplanner",
+      "summary": "Article URL: https://endor.dev/blog/introducing-flightplanner Comments URL: https://news.ycombinator.com/item?id=47365678 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-13T15:20:57.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-03-30T09:19:23.364Z",
+      "file": "content/posts/2026-03-30-flightplanner-human-readable-product-specs-as-the-canonical-source-for-end-to-end-testing.md",
+      "fileFr": "content/posts/fr/2026-03-30-flightplanner-human-readable-product-specs-as-the-canonical-source-for-end-to-end-testing.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1427,
+      "wordsFr": 1413
+    },
     {
       "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
       "title": "Designing AI agents to resist prompt injection",
@@ -3152,30 +3175,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://clawbank.co/",
-      "title": "Give your AI agents their own bank accounts",
-      "link": "https://clawbank.co/",
-      "summary": "Article URL: https://clawbank.co/ Comments URL: https://news.ycombinator.com/item?id=47336717 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-11T15:14:53.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://endor.dev/blog/introducing-flightplanner",
-      "title": "Flightplanner: Spec-driven E2E testing for the age of AI agents",
-      "link": "https://endor.dev/blog/introducing-flightplanner",
-      "summary": "Article URL: https://endor.dev/blog/introducing-flightplanner Comments URL: https://news.ycombinator.com/item?id=47365678 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-13T15:20:57.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://openviking.ai/",
       "title": "OpenViking – A Context DataBase for AI Agents",
       "link": "https://openviking.ai/",
@@ -4424,6 +4423,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.25747",
+      "title": "BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
+      "link": "https://arxiv.org/abs/2603.25747",
+      "summary": "arXiv:2603.25747v1 Announce Type: new Abstract: The rapid evolution of Large Multimodal Models (LMMs) has enabled agents to perform complex digital and physical tasks, yet their deployment as autonomous decision-makers introduces substantial unintentional behavioral safety risks. However, the absence of a comprehensive safety benchmark remains a major bottleneck, as existing evaluations rely on low-fidelity environments, simulated APIs, or narrowly scoped tasks. To address this gap, we present BeSafe-Bench (BSB), a benchmark for exposing behavioral safety risks of situated agents in functional environments, covering four representative domains: Web, Mobile, Embodied VLM, and Embodied VLA. Using functional environments, we construct a diverse instruction space by augmenting tasks with nine categories of safety-critical risks, and adopt a hybrid evaluation framework that combines rule-based checks with LLM-as-a-judge reasoning to assess real environmental impacts. Evaluating 13 popular agents reveals a concerning trend: even the best-performing agent completes fewer than 40% of tasks while fully adhering to safety constraints, and strong task performance frequently coincides with severe safety violations. These findings underscore the urgent need for improved safety alignment before deploying agentic systems in real-world settings.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 143.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.25766",
+      "title": "ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2603.25766",
+      "summary": "arXiv:2603.25766v1 Announce Type: cross Abstract: The integration of Vision-Language-Action (VLA) models into autonomous driving systems offers a unified framework for interpreting complex scenes and executing control commands. However, the necessity to incorporate historical multi-view frames for accurate temporal reasoning imposes a severe computational burden, primarily driven by the quadratic complexity of self-attention mechanisms in Large Language Models (LLMs). To alleviate this bottleneck, we propose ETA-VLA, an Efficient Token Adaptation framework for VLA models. ETA-VLA processes the past $n$ frames of multi-view images and introduces a novel Intra-LLM Sparse Aggregator (ILSA). Drawing inspiration from human driver attention allocation, ILSA dynamically identifies and prunes redundant visual tokens guided by textual queries and temporal consistency. Specifically, we utilize a text-guided scoring mechanism alongside a diversity-preserving sparsification strategy to select a sparse subset of critical tokens, ensuring comprehensive awareness of the driving scene. Extensive experiments on the NAVSIM v2 demonstrate that ETA-VLA achieves driving performance comparable to state-of-the-art baselines while reducing computational FLOPs by approximately 32\\%. Notably, our method prunes 85% of visual tokens and reduces inference FLOPs by 61\\%, but still retaining 94% of the origi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 143.76,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/evgenii-engineer/openLight",
       "title": "Show HN: OpenLight – Lightweight Telegram AI Agent for Raspberry Pi",
       "link": "https://github.com/evgenii-engineer/openLight",
@@ -4832,6 +4855,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.25764",
+      "title": "Consistency Amplifies: How Behavioral Variance Shapes Agent Accuracy",
+      "link": "https://arxiv.org/abs/2603.25764",
+      "summary": "arXiv:2603.25764v1 Announce Type: cross Abstract: As LLM-based agents are deployed in production systems, understanding their behavioral consistency (whether they produce similar action sequences when given identical tasks) becomes critical for reliability. We study consistency in the context of SWE-bench, a challenging software engineering benchmark requiring complex, multi-step reasoning. Comparing Claude~4.5~Sonnet, GPT-5, and Llama-3.1-70B across 50 runs each (10 tasks $\\times$ 5 runs), we find that across models, higher consistency aligns with higher accuracy: Claude achieves the lowest variance (CV: 15.2\\%) and highest accuracy (58\\%), GPT-5 is intermediate (CV: 32.2\\%, accuracy: 32\\%), and Llama shows the highest variance (CV: 47.0\\%) with lowest accuracy (4\\%). However, within a model, consistency can amplify both correct and incorrect interpretations. Our analysis reveals a critical nuance: \\textbf{consistency amplifies outcomes rather than guaranteeing correctness}. 71\\% of Claude's failures stem from \"consistent wrong interpretation\": making the same incorrect assumption across all runs. Interestingly, GPT-5 achieves similar early strategic agreement as Claude (diverging at step 3.4 vs.\\ 3.2) but exhibits 2.1$\\times$ higher variance, suggesting that divergence timing alone does not determine consistency. These findings suggest that for production deployment, interpre",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 125.76,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/",
       "title": "Mystery AI model revealed to be Xiaomi's following suspicions it was DeepSeek V4",
       "link": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/",
@@ -5036,6 +5071,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.26076",
+      "title": "Semi-Automated Knowledge Engineering and Process Mapping for Total Airport Management",
+      "link": "https://arxiv.org/abs/2603.26076",
+      "summary": "arXiv:2603.26076v1 Announce Type: new Abstract: Documentation of airport operations is inherently complex due to extensive technical terminology, rigorous regulations, proprietary regional information, and fragmented communication across multiple stakeholders. The resulting data silos and semantic inconsistencies present a significant impediment to the Total Airport Management (TAM) initiative. This paper presents a methodological framework for constructing a domain-grounded, machine-readable Knowledge Graph (KG) through a dual-stage fusion of symbolic Knowledge Engineering (KE) and generative Large Language Models (LLMs). The framework employs a scaffolded fusion strategy in which expert-curated KE structures guide LLM prompts to facilitate the discovery of semantically aligned knowledge triples. We evaluate this methodology on the Google LangExtract library and investigate the impact of context window utilization by comparing localized segment-based inference with document-level processing. Contrary to prior empirical observations of long-context degradation in LLMs, document-level processing improves the recovery of non-linear procedural dependencies. To ensure the high-fidelity provenance required in airport operations, the proposed framework fuses a probabilistic model for discovery and a deterministic algorithm for anchoring every extraction to its ground source. This ens",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 113.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.26512",
+      "title": "CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation",
+      "link": "https://arxiv.org/abs/2603.26512",
+      "summary": "arXiv:2603.26512v1 Announce Type: new Abstract: Existing methods for text-to-CAD generation either operate in a single pass with no geometric verification or rely on lossy visual feedback that cannot resolve dimensional errors. We present CADSmith, a multi-agent pipeline that generates CadQuery code from natural language. It then undergoes an iterative refinement process through two nested correction loops: an inner loop that resolves execution errors and an outer loop grounded in programmatic geometric validation. The outer loop combines exact measurements from the OpenCASCADE kernel (bounding box dimensions, volume, solid validity) with holistic visual assessment from an independent vision-language model Judge. This provides both the numerical precision and the high-level shape awareness needed to converge on the correct geometry. The system uses retrieval-augmented generation over API documentation rather than fine-tuning, maintaining a current database as the underlying CAD library evolves. We evaluate on a custom benchmark of 100 prompts in three difficulty tiers (T1 through T3) with three ablation configurations. Against a zero-shot baseline, CADSmith achieves a 100% execution rate (up from 95%), improves the median F1 score from 0.9707 to 0.9846, the median IoU from 0.8085 to 0.9629, and reduces the mean Chamfer Distance from 28.37 to 0.74, demonstrating that closed-loop",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 113.76,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
       "title": "TikTok&#8217;s policy for AI ads isn&#8217;t working",
       "link": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
@@ -5045,6 +5104,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-28T14:00:00.000Z",
       "score": 108.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.26266",
+      "title": "GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation",
+      "link": "https://arxiv.org/abs/2603.26266",
+      "summary": "arXiv:2603.26266v1 Announce Type: new Abstract: Large vision-language models have endowed GUI agents with strong general capabilities for interface understanding and interaction. However, due to insufficient exposure to domain-specific software operation data during training, these agents exhibit significant domain bias - they lack familiarity with the specific operation workflows (planning) and UI element layouts (grounding) of particular applications, limiting their real-world task performance. In this paper, we present GUIDE (GUI Unbiasing via Instructional-Video Driven Expertise), a training-free, plug-and-play framework that resolves GUI agent domain bias by autonomously acquiring domain-specific expertise from web tutorial videos through a retrieval-augmented automated annotation pipeline. GUIDE introduces two key innovations. First, a subtitle-driven Video-RAG pipeline unlocks video semantics through subtitle analysis, performing progressive three-stage retrieval - domain classification, topic extraction, and relevance matching - to identify task-relevant tutorial videos. Second, a fully automated annotation pipeline built on an inverse dynamics paradigm feeds consecutive keyframes enhanced with UI element detection into VLMs, inferring the required planning and grounding knowledge that are injected into the agent's corresponding modules to address both manifestations of",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 101.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.25768",
+      "title": "UCAgent: An End-to-End Agent for Block-Level Functional Verification",
+      "link": "https://arxiv.org/abs/2603.25768",
+      "summary": "arXiv:2603.25768v1 Announce Type: cross Abstract: Functional verification remains a critical bottleneck in modern IC development cycles, accounting for approximately 70% of total development time in many projects. However, traditional methods, including constrained-random and formal verification, struggle to keep pace with the growing complexity of modern semiconductor designs. While recent advances in Large Language Models (LLMs) have shown promise in code generation and task automation, significant challenges hinder the realization of end-to-end functional verification automation. These challenges include (i) limited accuracy in generating Verilog/SystemVerilog verification code, (ii) the fragility of LLMs when executing complex, multi-step verification workflows, and (iii) the difficulty of maintaining verification consistency across specifications, coverage models, and test cases throughout the workflow. To address these challenges, we propose UCAgent, an end-to-end agent that automates hardware block-level functional verification based on three core mechanisms. First, we establish a pure Python verification environment using Picker and Toffee to avoid relying on LLM-generated SystemVerilog verification code. Second, we introduce a configurable 31-stage fine-grained verification workflow to guide the LLM, where each stage is verified by an automated checker. Furthermore, we",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 101.76,
       "status": "queued"
     },
     {
@@ -5132,6 +5215,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.26005",
+      "title": "AutoB2G: A Large Language Model-Driven Agentic Framework For Automated Building-Grid Co-Simulation",
+      "link": "https://arxiv.org/abs/2603.26005",
+      "summary": "arXiv:2603.26005v1 Announce Type: new Abstract: The growing availability of building operational data motivates the use of reinforcement learning (RL), which can learn control policies directly from data and cope with the complexity and uncertainty of large-scale building clusters. However, most existing simulation environments prioritize building-side performance metrics and lack systematic evaluation of grid-level impacts, while their experimental workflows still rely heavily on manual configuration and substantial programming expertise. Therefore, this paper proposes AutoB2G, an automated building-grid co-simulation framework that completes the entire simulation workflow solely based on natural-language task descriptions. The framework extends CityLearn V2 to support Building-to-Grid (B2G) interaction and adopts the large language model (LLM)-based SOCIA (Simulation Orchestration for Computational Intelligence with Agents) framework to automatically generate, execute, and iteratively refine the simulator. As LLMs lack prior knowledge of the implementation context of simulation functions, a codebase covering simulation configurations and functional modules is constructed and organized as a directed acyclic graph (DAG) to explicitly represent module dependencies and execution order, guiding the LLM to retrieve a complete executable path. Experimental results demonstrate that A",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 95.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.25758",
+      "title": "A-SelecT: Automatic Timestep Selection for Diffusion Transformer Representation Learning",
+      "link": "https://arxiv.org/abs/2603.25758",
+      "summary": "arXiv:2603.25758v1 Announce Type: cross Abstract: Diffusion models have significantly reshaped the field of generative artificial intelligence and are now increasingly explored for their capacity in discriminative representation learning. Diffusion Transformer (DiT) has recently gained attention as a promising alternative to conventional U-Net-based diffusion models, demonstrating a promising avenue for downstream discriminative tasks via generative pre-training. However, its current training efficiency and representational capacity remain largely constrained due to the inadequate timestep searching and insufficient exploitation of DiT-specific feature representations. In light of this view, we introduce Automatically Selected Timestep (A-SelecT) that dynamically pinpoints DiT's most information-rich timestep from the selected transformer feature in a single run, eliminating the need for both computationally intensive exhaustive timestep searching and suboptimal discriminative feature selection. Extensive experiments on classification and segmentation benchmarks demonstrate that DiT, empowered by A-SelecT, surpasses all prior diffusion-based attempts efficiently and effectively.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 95.76,
+      "status": "queued"
+    },
+    {
       "id": "https://faridsaid.com/blog/ia-copilote-infrastructure-it.html",
       "title": "I gave an AI SSH access to my production infrastructure – 3 months later",
       "link": "https://faridsaid.com/blog/ia-copilote-infrastructure-it.html",
@@ -5141,6 +5248,54 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-29T13:40:26.000Z",
       "score": 94.5,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.26499",
+      "title": "AIRA_2: Overcoming Bottlenecks in AI Research Agents",
+      "link": "https://arxiv.org/abs/2603.26499",
+      "summary": "arXiv:2603.26499v1 Announce Type: new Abstract: Existing research has identified three structural performance bottlenecks in AI research agents: (1) synchronous single-GPU execution constrains sample throughput, limiting the benefit of search; (2) a generalization gap where validation-based selection causes performance to degrade over extended search horizons; and (3) the limited capability of fixed, single-turn LLM operators imposes a ceiling on search performance. We introduce AIRA$_2$, which addresses these bottlenecks through three architectural choices: an asynchronous multi-GPU worker pool that increases experiment throughput linearly; a Hidden Consistent Evaluation protocol that delivers a reliable evaluation signal; and ReAct agents that dynamically scope their actions and debug interactively. On MLE-bench-30, AIRA$_2$ achieves a mean Percentile Rank of 71.8% at 24 hours - surpassing the previous best of 69.9% - and steadily improves to 76.0% at 72 hours. Ablation studies reveal that each component is necessary and that the \"overfitting\" reported in prior work was driven by evaluation noise rather than true data memorization.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 89.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.26535",
+      "title": "Stabilizing Rubric Integration Training via Decoupled Advantage Normalization",
+      "link": "https://arxiv.org/abs/2603.26535",
+      "summary": "arXiv:2603.26535v1 Announce Type: new Abstract: We propose Process-Aware Policy Optimization (PAPO), a method that integrates process-level evaluation into Group Relative Policy Optimization (GRPO) through decoupled advantage normalization, to address two limitations of existing reward designs. Outcome reward models (ORM) evaluate only final-answer correctness, treating all correct responses identically regardless of reasoning quality, and gradually lose the advantage signal as groups become uniformly correct. Process reward models (PRM) offer richer supervision, but directly using PRM scores causes reward hacking, where models exploit verbosity to inflate scores while accuracy collapses. PAPO resolves both by composing the advantage from an outcome component Aout, derived from ORM and normalized over all responses, and a process component Aproc, derived from a rubric-based PRM and normalized exclusively among correct responses. This decoupled design ensures that Aout anchors training on correctness while Aproc differentiates reasoning quality without distorting the outcome signal. Experiments across multiple model scales and six benchmarks demonstrate that PAPO consistently outperforms ORM, reaching 51.3% vs.\\ 46.3% on OlympiadBench while continuing to improve as ORM plateaus and declines.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 89.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2502.09867",
+      "title": "DesignWeaver: Dimensional Scaffolding for Text-to-Image Product Design",
+      "link": "https://arxiv.org/abs/2502.09867",
+      "summary": "arXiv:2502.09867v2 Announce Type: cross Abstract: Generative AI has enabled novice designers to quickly create professional-looking visual representations for product concepts. However, novices have limited domain knowledge that could constrain their ability to write prompts that effectively explore a product design space. To understand how experts explore and communicate about design spaces, we conducted a formative study with 12 experienced product designers and found that experts -- and their less-versed clients -- often use visual references to guide co-design discussions rather than written descriptions. These insights inspired DesignWeaver, an interface that helps novices generate prompts for a text-to-image model by surfacing key product design dimensions from generated images into a palette for quick selection. In a study with 52 novices, DesignWeaver enabled participants to craft longer prompts with more domain-specific vocabularies, resulting in more diverse, innovative product designs. However, the nuanced prompts heightened participants' expectations beyond what current text-to-image models could deliver. We discuss implications for AI-based product design support tools.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 83.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.25750",
+      "title": "Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models",
+      "link": "https://arxiv.org/abs/2603.25750",
+      "summary": "arXiv:2603.25750v1 Announce Type: cross Abstract: As the paradigm of AI shifts from text-based LLMs to Speech Language Models (SLMs), there is a growing demand for full-duplex systems capable of real-time, natural human-computer interaction. However, the development of such models is constrained by the scarcity of high-quality, multi-speaker conversational data, as existing large-scale resources are predominantly single-speaker or limited in volume. Addressing the complex dynamics of natural dialogue, such as overlapping and back-channeling remains a challenge, with standard processing pipelines suffering from diarization errors and ASR hallucinations. To bridge this gap, we present a robust and scalable open-source data processing pipeline designed for full-duplex model.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 83.76,
       "status": "queued"
     },
     {
@@ -5156,100 +5311,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27",
-      "title": "Apple will reportedly allow other AI chatbots to plug into Siri",
-      "link": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27",
-      "summary": "Siri currently has an integration with OpenAI’s ChatGPT. | Photo: Allison Johnson / The Verge Apple's iOS 27 update will allow users to choose the AI chatbot they want to link with Siri. That's according to a report from Bloomberg's Mark Gurman, who says third-party chatbots downloaded from the App Store, like Google's Gemini or Anthropic's Claude, will be able to fetch replies for Siri - similar to how the voice assistant already works with OpenAI's ChatGPT. The new system, reportedly called \"Extensions,\" will give users the ability to enable or disable the chatbots they want to connect with Siri on the iPhone, iPad, and Mac, Bloomberg reports. The upcoming integrations will also work with the standalone app Apple reportedly plans … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-26T21:31:27.000Z",
-      "score": 78.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.23714",
-      "title": "LLMs Do Not Grade Essays Like Humans",
-      "link": "https://arxiv.org/abs/2603.23714",
-      "summary": "arXiv:2603.23714v1 Announce Type: new Abstract: Large language models have recently been proposed as tools for automated essay scoring, but their agreement with human grading remains unclear. In this work, we evaluate how LLM-generated scores compare with human grades and analyze the grading behavior of several models from the GPT and Llama families in an out-of-the-box setting, without task-specific training. Our results show that agreement between LLM and human scores remains relatively weak and varies with essay characteristics. In particular, compared to human raters, LLMs tend to assign higher scores to short or underdeveloped essays, while assigning lower scores to longer essays that contain minor grammatical or spelling errors. We also find that the scores generated by LLMs are generally consistent with the feedback they generate: essays receiving more praise tend to receive higher scores, while essays receiving more criticism tend to receive lower scores. These results suggest that LLM-generated scores and feedback follow coherent patterns but rely on signals that differ from those used by human raters, resulting in limited alignment with human grading practices. Nevertheless, our work shows that LLMs produce feedback that is consistent with their grading and that they can be reliably used in supporting essay scoring.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "score": 76.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/equip-responses-api-computer-environment",
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-11T11:00:00.000Z",
-      "score": 72.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://viztools.app/",
-      "title": "Show HN: VizTools – 16 free tools for PMs and freelancers, deliberately no AI",
-      "link": "https://viztools.app/",
-      "summary": "I've been building AI products for a while. For this one I made a deliberate choice: none of the 16 tools use AI. Meeting cost calculators, freelance rate calculators, PRD generators, runway calculators, sprint retro boards — these problems don't need a language model. They need a well-designed form and correct arithmetic. Built on Nuxt 4 + Vue 3, fully static, runs in your browser. No account required to use anything. Optional Firebase auth only kicks in if you want to save output. Irony worth naming: Claude Code was my pair programmer throughout. The choice wasn't anti-AI — it was about using the right tool for the right problem. Happy to talk stack, the non-AI tradeoffs, or anything else. Comments URL: https://news.ycombinator.com/item?id=47551946 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-28T05:36:46.000Z",
-      "score": 71.95,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition",
-      "title": "Why OpenAI killed Sora",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition",
-      "summary": "On Tuesday morning, everything was business as usual at OpenAI. By the end of the day, the company had announced that it would scrap its video-generation app, Sora, and reverse plans for video generation inside ChatGPT; it would wind down a $1 billion Disney deal; it would shuffle the role of a high-level executive; and it would raise an additional $10 billion from investors, adding up to more than $120 billion total for its latest funding round. OpenAI is now in a frenzy to turn a profit, or at least lose less money. Since its launch, Sora seems to have taken up a massive amount of compute without the financial return to justify it. Indus … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-28T12:00:00.000Z",
-      "score": 70.1,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/gayawellness/anamnesis",
-      "title": "Show HN: Anamnesis – Open-source 4D strategic memory engine for AI agents",
-      "link": "https://github.com/gayawellness/anamnesis",
-      "summary": "Article URL: https://github.com/gayawellness/anamnesis Comments URL: https://news.ycombinator.com/item?id=47559504 Points: 3 # Comments: 0",
+      "id": "https://clawbank.co/",
+      "title": "Give your AI agents their own bank accounts",
+      "link": "https://clawbank.co/",
+      "summary": "Article URL: https://clawbank.co/ Comments URL: https://news.ycombinator.com/item?id=47336717 Points: 2 # Comments: 1",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-29T00:58:43.000Z",
-      "score": 69.98,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history",
-      "title": "Google is making it easier to import another AI’s memory into Gemini",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history",
-      "summary": "After Anthropic updated its tool for copying another AI's memory into Claude earlier this month, Google Gemini is rolling out new \"Import Memory\" and \"Import Chat History\" features on desktop that can help users quickly copy over everything their current AI already knows about them. To use the \"Import Memory\" tool, users copy and paste a suggested prompt from Gemini into their previous AI, then paste the output from the previous AI into Gemini, which should get Gemini caught up on their preferences. The \"Import Chat History\" feature has users request an export of all of their chats from their previous AI, which they upload to Gemini in th … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-26T21:44:37.000Z",
-      "score": 66.61,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
-      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
-      "link": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
-      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned. AI models like Anthropic’s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-17T22:30:46.000Z",
-      "score": 66.44,
-      "status": "queued"
+      "publishedAt": "2026-03-11T15:14:53.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-03-30T09:03:01.843Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://www.pantr.co/",
