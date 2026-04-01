@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-01T09:12:12.516Z",
+  "generatedAt": "2026-04-01T16:21:53.426Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume",
+      "title": "ClawRun : déploiement en une commande d'agents IA dans des microVM Firecracker avec snapshot et reprise",
+      "date": "2026-04-01",
+      "excerpt": "Déployez des agents IA isolés avec une seule commande (ex. `npx clawrun deploy`) dans des microVM Firecracker qui peuvent dormir et reprendre depuis un snapshot. Testez via Slack ou webhook, vérifiez les règles réseau et l'état persistant de l'agent.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume.jpg",
+      "tags": [
+        "IA",
+        "agents",
+        "déploiement",
+        "sécurité",
+        "Firecracker",
+        "ClawRun",
+        "microVM",
+        "orchestration"
+      ],
+      "sources": [
+        "https://clawrun.sh/?hn"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-01-okta-ceo-todd-mckinnon-urges-treating-ai-agents-as-distinct-service-identities",
       "title": "Todd McKinnon (Okta) : traiter les agents IA comme des identités de service distinctes",

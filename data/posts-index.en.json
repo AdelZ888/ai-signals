@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-01T09:12:12.515Z",
+  "generatedAt": "2026-04-01T16:21:53.425Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume",
+      "title": "ClawRun: one-command deployment of AI agents into Firecracker microVMs with snapshot & resume",
+      "date": "2026-04-01",
+      "excerpt": "Deploy AI agents with one command into isolated Firecracker microVMs that snapshot and resume. Test via Slack or webhook, verify network policies and persistent agent state.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume.jpg",
+      "tags": [
+        "clawrun",
+        "ai-agents",
+        "firecracker",
+        "snapshot-resume",
+        "sandboxing",
+        "webhooks",
+        "slack",
+        "deployment"
+      ],
+      "sources": [
+        "https://clawrun.sh/?hn"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-04-01-okta-ceo-todd-mckinnon-urges-treating-ai-agents-as-distinct-service-identities",
       "title": "Okta CEO Todd McKinnon urges treating AI agents as distinct service identities",
