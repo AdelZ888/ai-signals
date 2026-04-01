@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-03-31T16:41:35.459Z",
+  "generatedAt": "2026-04-01T09:12:12.523Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
+      "title": "Okta&#8217;s CEO is betting big on AI agent identity",
+      "link": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
+      "summary": "Today, I’m talking with Todd McKinnon, who is co-founder and CEO of Okta, a platform that lets big companies manage security and identity across all the apps and services their employees use. Think of it like login management — actually, that’s a great way to think about it because the way most people encounter Okta is that it’s the thing that makes you log in again right before joining a meeting several times a wee…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 10,
+      "publishedAt": "2026-03-30T15:15:00.000Z",
+      "score": 252,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-01T09:12:12.503Z",
+      "file": "content/posts/2026-04-01-okta-ceo-todd-mckinnon-urges-treating-ai-agents-as-distinct-service-identities.md",
+      "fileFr": "content/posts/fr/2026-04-01-okta-ceo-todd-mckinnon-urges-treating-ai-agents-as-distinct-service-identities.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1566,
+      "wordsFr": 1170
+    },
     {
       "id": "https://openrouter.ai/openrouter/hunter-alpha",
       "title": "Hunter Alpha – 1T parameter and 1M token context window AI model",
@@ -3221,18 +3244,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
-      "title": "Okta&#8217;s CEO is betting big on AI agent identity",
-      "link": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
-      "summary": "Today, I’m talking with Todd McKinnon, who is co-founder and CEO of Okta, a platform that lets big companies manage security and identity across all the apps and services their employees use. Think of it like login management — actually, that’s a great way to think about it because the way most people encounter Okta is that it’s the thing that makes you log in again right before joining a meeting several times a week, so then you’re late for the meeting… Can you tell we use Okta? Anyhow, all of that is a big business — Okta has a $14 billion market cap. But big software as a service companies like Okta are under a lot of pressure in the age of AI. Why would you pay their fees when you can just vibe-code your own tools? This so-called Saaspocalypse is a big deal, and Todd recently said he was “paranoid” about it on Okta’s most recent earnings call. So we dug into it, and how he’s putting that paranoia into practice inside Okta — what he’s changing, and what opportunities he’s going after to head off the apocalypse. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. The biggest opportunity you’ll hear us talk about is some deep Decoder bait: the idea that it’s not just people whose access and security credentials need management, but also AI agents inside a corporation. Thi",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 10,
-      "publishedAt": "2026-03-30T15:15:00.000Z",
-      "score": 252,
-      "status": "queued"
-    },
-    {
       "id": "https://getvesper.dev/",
       "title": "Vesper – MCP server that lets AI agents handle ML dataset workflows autonomously",
       "link": "https://getvesper.dev/",
@@ -3521,6 +3532,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/michaelkenealy/blindkey",
+      "title": "BlindKey – Blind credential injection for AI agents (open source)",
+      "link": "https://github.com/michaelkenealy/blindkey",
+      "summary": "Article URL: https://github.com/michaelkenealy/blindkey Comments URL: https://news.ycombinator.com/item?id=47598305 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-01T08:26:16.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/radoslaw-sz/guardio",
       "title": "Show HN: Guardio – control your AI Agent",
       "link": "https://github.com/radoslaw-sz/guardio",
@@ -3722,18 +3745,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-03-12T06:59:25.000Z",
       "score": 156.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/onepaneai/mantis",
-      "title": "I Reduced 5 hours of Testing my Agentic AI applcaition to 10 mins",
-      "link": "https://github.com/onepaneai/mantis",
-      "summary": "Article URL: https://github.com/onepaneai/mantis Comments URL: https://news.ycombinator.com/item?id=47332643 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-11T07:35:39.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4145,6 +4156,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Grimm67123/GrimmBot",
+      "title": "Show HN: A sandboxed AI agent that can watch webpages without constant API calls",
+      "link": "https://github.com/Grimm67123/GrimmBot",
+      "summary": "It can also adapt by creating its own tools if its 60+ built in tools fall short. It runs in a debian docker container with chromium and you interact with it through the terminal. Watch it work through a VNC viewer Comments URL: https://news.ycombinator.com/item?id=47598374 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-01T08:35:25.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://molting.org",
       "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
       "link": "https://molting.org",
@@ -4262,18 +4285,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-03-19T14:22:49.000Z",
       "score": 150.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
-      "title": "The Download: AI's role in the Iran war, and an escalating legal fight",
-      "link": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
-      "summary": "Article URL: https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/ Comments URL: https://news.ycombinator.com/item?id=47332832 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-11T08:05:13.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -4478,18 +4489,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-13T14:35:06.000Z",
       "score": 143.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.08877",
-      "title": "Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search",
-      "link": "https://arxiv.org/abs/2603.08877",
-      "summary": "arXiv:2603.08877v1 Announce Type: new Abstract: Agentic Retrieval-Augmented Generation (RAG) systems combine iterative search, planning prompts, and retrieval backends, but deployed settings impose explicit budgets on tool calls and completion tokens. We present a controlled measurement study of how search depth, retrieval strategy, and completion budget affect accuracy and cost under fixed constraints. Using Budget-Constrained Agentic Search (BCAS), a model-agnostic evaluation harness that surfaces remaining budget and gates tool use, we run comparisons across six LLMs and three question-answering benchmarks. Across models and datasets, accuracy improves with additional searches up to a small cap, hybrid lexical and dense retrieval with lightweight re-ranking produces the largest average gains in our ablation grid, and larger completion budgets are most helpful on HotpotQA-style synthesis. These results provide practical guidance for configuring budgeted agentic retrieval pipelines and are accompanied by reproducible prompts and evaluation settings.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-11T04:00:00.000Z",
-      "score": 140.7,
       "status": "queued"
     },
     {
@@ -4877,6 +4876,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.28990",
+      "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
+      "link": "https://arxiv.org/abs/2603.28990",
+      "summary": "arXiv:2603.28990v1 Announce Type: new Abstract: How much autonomy can multi-agent LLM systems sustain -- and what enables it? We present a 25,000-task computational experiment spanning 8 models, 4--256 agents, and 8 coordination protocols ranging from externally imposed hierarchy to emergent self-organization. We observe that autonomous behavior already emerges in current LLM agents: given minimal structural scaffolding (fixed ordering), agents spontaneously invent specialized roles, voluntarily abstain from tasks outside their competence, and form shallow hierarchies -- without any pre-assigned roles or external design. A hybrid protocol (Sequential) that enables this autonomy outperforms centralized coordination by 14% (p<0.001), with a 44% quality spread between protocols (Cohen's d=1.86, p<0.0001). The degree of emergent autonomy scales with model capability: strong models self-organize effectively, while models below a capability threshold still benefit from rigid structure -- suggesting that as foundation models improve, the scope for autonomous coordination will expand. The system scales sub-linearly to 256 agents without quality degradation (p=0.61), producing 5,006 unique roles from just 8 agents. Results replicate across closed- and open-source models, with open-source achieving 95% of closed-source quality at 24x lower cost. The practical implication: give agents a m",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 126.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.29139",
+      "title": "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents",
+      "link": "https://arxiv.org/abs/2603.29139",
+      "summary": "arXiv:2603.29139v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have enabled agentic systems that translate natural language intent into executable scientific visualization (SciVis) tasks. Despite rapid progress, the community lacks a principled and reproducible benchmark for evaluating these emerging SciVis agents in realistic, multi-step analysis settings. We present SciVisAgentBench, a comprehensive and extensible benchmark for evaluating scientific data analysis and visualization agents. Our benchmark is grounded in a structured taxonomy spanning four dimensions: application domain, data type, complexity level, and visualization operation. It currently comprises 108 expert-crafted cases covering diverse SciVis scenarios. To enable reliable assessment, we introduce a multimodal outcome-centric evaluation pipeline that combines LLM-based judging with deterministic evaluators, including image-based metrics, code checkers, rule-based verifiers, and case-specific evaluators. We also conduct a validity study with 12 SciVis experts to examine the agreement between human and LLM judges. Using this framework, we evaluate representative SciVis agents and general-purpose coding agents to establish initial baselines and reveal capability gaps. SciVisAgentBench is designed as a living benchmark to support systematic comparison, diagnose failure modes, and",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 126.47,
+      "status": "queued"
+    },
+    {
       "id": "https://teach-me.replit.app/",
       "title": "Show HN: Book Grounded AI Learning",
       "link": "https://teach-me.replit.app/",
@@ -4910,6 +4933,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-30T04:00:00.000Z",
       "score": 125.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations",
+      "title": "Why AI agents fail customer operations",
+      "link": "https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations",
+      "summary": "Article URL: https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations Comments URL: https://news.ycombinator.com/item?id=47597844 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-01T07:13:26.000Z",
+      "score": 125.4,
       "status": "queued"
     },
     {
@@ -5045,6 +5080,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.29199",
+      "title": "AEC-Bench: A Multimodal Benchmark for Agentic Systems in Architecture, Engineering, and Construction",
+      "link": "https://arxiv.org/abs/2603.29199",
+      "summary": "arXiv:2603.29199v1 Announce Type: new Abstract: The AEC-Bench is a multimodal benchmark for evaluating agentic systems on real-world tasks in the Architecture, Engineering, and Construction (AEC) domain. The benchmark covers tasks requiring drawing understanding, cross-sheet reasoning, and construction project-level coordination. This report describes the benchmark motivation, dataset taxonomy, evaluation protocol, and baseline results across several domain-specific foundation model harnesses. We use AEC-Bench to identify consistent tools and harness design techniques that uniformly improve performance across foundation models in their own base harnesses, such as Claude Code and Codex. We openly release our benchmark dataset, agent harness, and evaluation code for full replicability at https://github.com/nomic-ai/aec-bench under an Apache 2 license.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 120.47,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47467156",
       "title": "Ask HN: Is AI Safety a Paradox?",
       "link": "https://news.ycombinator.com/item?id=47467156",
@@ -5066,6 +5113,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-19T14:26:30.000Z",
       "score": 117.52,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47597591",
+      "title": "Show HN: WordBattle – Daily word game where AI agents compete against humans",
+      "link": "https://news.ycombinator.com/item?id=47597591",
+      "summary": "WordBattle is a daily 6-letter word guessing game with team leaderboards. The twist: AI agents get their own accounts, play the same daily puzzle, and rank alongside human players. It's also really fun to play in teams against your family, friends and co-workers. Agents are handicapped — humans see exact letter positions (correct/present/absent), but agents only learn whether a letter exists in the word or not. No positional info. It makes the game fair while giving agents a genuine challenge. Agent accounts are visually tagged on leaderboards so humans know who they're competing against. Maybe we'll even see just teams of agents. The agent integration: - REST API with OpenAPI 3.1 spec - MCP server (JSON-RPC 2.0, no SDK dependency) - A2A discovery card at /.well-known/agent-card.json The game itself: one puzzle per day, six guesses, team leaderboards with Slack/Microsoft Teams webhook integration. Free, no ads. oneonefour is a one person band, hi!, so the entire product was built using Claude Code — the UI, auth, security model, deployment pipeline, everything. Deliberately chose technologies I didn't know, with agents implementing while I guided the product decisions. I'll create a full technical write up in the near future. Play at https://wordbattle.fun Agent skill at https://github.com/oneonefourteam/wordbattle-skill Agent API docs https://wordbattle.fun/agent/v1/openapi.js",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-01T06:34:03.000Z",
+      "score": 117.35,
       "status": "queued"
     },
     {
@@ -5141,6 +5200,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2603.28986",
+      "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+      "link": "https://arxiv.org/abs/2603.28986",
+      "summary": "arXiv:2603.28986v1 Announce Type: new Abstract: Current Autonomous Scientific Research (ASR) systems, despite leveraging large language models (LLMs) and agentic architectures, remain constrained by fixed workflows and toolsets that prevent adaptation to evolving tasks and environments. We introduce Mimosa, an evolving multi-agent framework that automatically synthesizes task-specific multi-agent workflows and iteratively refines them through experimental feedback. Mimosa leverages the Model Context Protocol (MCP) for dynamic tool discovery, generates workflow topologies via a meta-orchestrator, executes subtasks through code-generating agents that invoke available tools and scientific software libraries, and scores executions with an LLM-based judge whose feedback drives workflow refinement. On ScienceAgentBench, Mimosa achieves a success rate of 43.1% with DeepSeek-V3.2, surpassing both single-agent baselines and static multi-agent configurations. Our results further reveal that models respond heterogeneously to multi-agent decomposition and iterative learning, indicating that the benefits of workflow evolution depend on the capabilities of the underlying execution model. Beyond these benchmarks, Mimosa modular architecture and tool-agnostic design make it readily extensible, and its fully logged execution traces and archived workflows support auditability by preserving every",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 114.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.29075",
+      "title": "The Future of AI is Many, Not One",
+      "link": "https://arxiv.org/abs/2603.29075",
+      "summary": "arXiv:2603.29075v1 Announce Type: new Abstract: The way we're thinking about generative AI right now is fundamentally individual. We see this not just in how users interact with models but also in how models are built, how they're benchmarked, and how commercial and research strategies using AI are defined. We argue that we should abandon this approach if we're hoping for AI to support groundbreaking innovation and scientific discovery. Drawing on research and formal results in complex systems, organizational behavior, and philosophy of science, we show why we should expect deep intellectual breakthroughs to come from epistemically diverse groups of AI agents working together rather than singular superintelligent agents. Having a diverse team broadens the search for solutions, delays premature consensus, and allows for the pursuit of unconventional approaches. Developing diverse AI teams also addresses AI critics' concerns that current models are constrained by past data and lack the creative insight required for innovation. The upshot, we argue, is that the future of transformative transformer-based AI is fundamentally many, not one.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 114.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.29149",
+      "title": "Knowledge database development by large language models for countermeasures against viruses and marine toxins",
+      "link": "https://arxiv.org/abs/2603.29149",
+      "summary": "arXiv:2603.29149v1 Announce Type: new Abstract: Access to the most up-to-date information on medical countermeasures is important for the research and development of effective treatments for viruses and marine toxins. However, there is a lack of comprehensive databases that curate data on viruses and marine toxins, making decisions on medical countermeasures slow and difficult. In this work, we employ two large language models (LLMs) of ChatGPT and Grok to design two comprehensive databases of therapeutic countermeasures for five viruses of Lassa, Marburg, Ebola, Nipah, and Venezuelan equine encephalitis, as well as marine toxins. With high-level human-provided inputs, the two LLMs identify public databases containing data on the five viruses and marine toxins, collect relevant information from these databases and the literature, iteratively cross-validate the collected information, and design interactive webpages for easy access to the curated, comprehensive databases. Notably, the ChatGPT LLM is employed to design agentic AI workflows (consisting of two AI agents for research and decision-making) to rank countermeasures for viruses and marine toxins in the databases. Together, our work explores the potential of LLMs as a scalable, updatable approach for building comprehensive knowledge databases and supporting evidence-based decision-making.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 114.47,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.26076",
       "title": "Semi-Automated Knowledge Engineering and Process Mapping for Total Airport Management",
       "link": "https://arxiv.org/abs/2603.26076",
@@ -5186,6 +5281,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-28T14:00:00.000Z",
       "score": 108.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.28902",
+      "title": "ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts",
+      "link": "https://arxiv.org/abs/2603.28902",
+      "summary": "arXiv:2603.28902v1 Announce Type: new Abstract: Charts are central to analytical reasoning, yet existing benchmarks for chart understanding focus almost exclusively on single-chart interpretation rather than comparative reasoning across multiple charts. To address this gap, we introduce ChartDiff, the first large-scale benchmark for cross-chart comparative summarization. ChartDiff consists of 8,541 chart pairs spanning diverse data sources, chart types, and visual styles, each annotated with LLM-generated and human-verified summaries describing differences in trends, fluctuations, and anomalies. Using ChartDiff, we evaluate general-purpose, chart-specialized, and pipeline-based models. Our results show that frontier general-purpose models achieve the highest GPT-based quality, while specialized and pipeline-based methods obtain higher ROUGE scores but lower human-aligned evaluation, revealing a clear mismatch between lexical overlap and actual summary quality. We further find that multi-series charts remain challenging across model families, whereas strong end-to-end models are relatively robust to differences in plotting libraries. Overall, our findings demonstrate that comparative chart reasoning remains a significant challenge for current vision-language models and position ChartDiff as a new benchmark for advancing research on multi-chart understanding.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 108.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2603.29161",
+      "title": "Webscraper: Leverage Multimodal Large Language Models for Index-Content Web Scraping",
+      "link": "https://arxiv.org/abs/2603.29161",
+      "summary": "arXiv:2603.29161v1 Announce Type: new Abstract: Modern web scraping struggles with dynamic, interactive websites that require more than static HTML parsing. Current methods are often brittle and require manual customization for each site. To address this, we introduce Webscraper, a framework designed to handle the challenges of modern, dynamic web applications. It leverages a Multimodal Large Language Model (MLLM) to autonomously navigate interactive interfaces, invoke specialized tools, and perform structured data extraction in environments where traditional scrapers are ineffective. Webscraper utilizes a structured five-stage prompting procedure and a set of custom-built tools to navigate and extract data from websites following the common ``index-and-content'' architecture. Our experiments, conducted on six news websites, demonstrate that the full Webscraper framework, equipped with both our guiding prompt and specialized tools, achieves a significant improvement in extraction accuracy over the baseline agent Anthropic's Computer Use. We also applied the framework to e-commerce platforms to validate its generalizability.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-01T04:00:00.000Z",
+      "score": 108.47,
       "status": "queued"
     },
     {
@@ -5249,76 +5368,32 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47583255",
-      "title": "Sandflare – I built a sandbox that launches AI agent VMs in ~300ms",
-      "link": "https://news.ycombinator.com/item?id=47583255",
-      "summary": "I've been building Sandflare for the past few months — it launches Firecracker microVMs for AI agents in ~300ms cold start. The idea came from running LLM-generated code in production. Docker felt too risky (shared kernel), full VMs too slow (5–10s). Firecracker hits the middle: real VM isolation, fast boot. I also added managed Postgres because almost every agent I built needed persistent state. One call wires a database into a sandbox. There are great tools in this space already (E2B, Modal, Daytona) — I wanted something with batteries-included Postgres, and simpler pricing What I'm trying to figure out: how do I get cold start below 100ms? Currently the bottleneck is the Firecracker API + network setup. Would love to hear from anyone who's pushed Firecracker further. https://sandflare.io Comments URL: https://news.ycombinator.com/item?id=47583255 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-31T05:54:41.000Z",
-      "score": 102.15,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.26266",
-      "title": "GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation",
-      "link": "https://arxiv.org/abs/2603.26266",
-      "summary": "arXiv:2603.26266v1 Announce Type: new Abstract: Large vision-language models have endowed GUI agents with strong general capabilities for interface understanding and interaction. However, due to insufficient exposure to domain-specific software operation data during training, these agents exhibit significant domain bias - they lack familiarity with the specific operation workflows (planning) and UI element layouts (grounding) of particular applications, limiting their real-world task performance. In this paper, we present GUIDE (GUI Unbiasing via Instructional-Video Driven Expertise), a training-free, plug-and-play framework that resolves GUI agent domain bias by autonomously acquiring domain-specific expertise from web tutorial videos through a retrieval-augmented automated annotation pipeline. GUIDE introduces two key innovations. First, a subtitle-driven Video-RAG pipeline unlocks video semantics through subtitle analysis, performing progressive three-stage retrieval - domain classification, topic extraction, and relevance matching - to identify task-relevant tutorial videos. Second, a fully automated annotation pipeline built on an inverse dynamics paradigm feeds consecutive keyframes enhanced with UI element detection into VLMs, inferring the required planning and grounding knowledge that are injected into the agent's corresponding modules to address both manifestations of",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-30T04:00:00.000Z",
-      "score": 101.76,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.25768",
-      "title": "UCAgent: An End-to-End Agent for Block-Level Functional Verification",
-      "link": "https://arxiv.org/abs/2603.25768",
-      "summary": "arXiv:2603.25768v1 Announce Type: cross Abstract: Functional verification remains a critical bottleneck in modern IC development cycles, accounting for approximately 70% of total development time in many projects. However, traditional methods, including constrained-random and formal verification, struggle to keep pace with the growing complexity of modern semiconductor designs. While recent advances in Large Language Models (LLMs) have shown promise in code generation and task automation, significant challenges hinder the realization of end-to-end functional verification automation. These challenges include (i) limited accuracy in generating Verilog/SystemVerilog verification code, (ii) the fragility of LLMs when executing complex, multi-step verification workflows, and (iii) the difficulty of maintaining verification consistency across specifications, coverage models, and test cases throughout the workflow. To address these challenges, we propose UCAgent, an end-to-end agent that automates hardware block-level functional verification based on three core mechanisms. First, we establish a pure Python verification environment using Picker and Toffee to avoid relying on LLM-generated SystemVerilog verification code. Second, we introduce a configurable 31-stage fine-grained verification workflow to guide the LLM, where each stage is verified by an automated checker. Furthermore, we",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-30T04:00:00.000Z",
-      "score": 101.76,
-      "status": "queued"
-    },
-    {
-      "id": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
-      "title": "Building shared coding guidelines for AI (and people too)",
-      "link": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
-      "summary": "Article URL: https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/ Comments URL: https://news.ycombinator.com/item?id=47552147 Points: 1 # Comments: 0",
+      "id": "https://www.wsj.com/cio-journal/caltech-researchers-claim-radical-compression-of-high-fidelity-ai-models-e66f31c9",
+      "title": "Caltech Researchers Claim Compression of High-Fidelity AI Models",
+      "link": "https://www.wsj.com/cio-journal/caltech-researchers-claim-radical-compression-of-high-fidelity-ai-models-e66f31c9",
+      "summary": "Article URL: https://www.wsj.com/cio-journal/caltech-researchers-claim-radical-compression-of-high-fidelity-ai-models-e66f31c9 Comments URL: https://news.ycombinator.com/item?id=47597541 Points: 2 # Comments: 3",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-28T06:27:15.000Z",
-      "score": 101.43,
+      "publishedAt": "2026-04-01T06:27:25.000Z",
+      "score": 103.03,
       "status": "queued"
     },
     {
-      "id": "https://retroshift.dev/",
-      "title": "Show HN: Run, build, and govern AI agent workflows for DevOps",
-      "link": "https://retroshift.dev/",
-      "summary": "Hey HN, Two things kept coming up when we talked to teams building internal AI automation: rebuilding the same integrations, and automation touching production with no visibility into what it actually did. So we built Retroshift, run and govern AI agent workflows in your existing tools. Every action is logged, nothing touches production without approval, and we use a local first approach so everything can be run straight on your local machine Things we're actively working on: - Shadow execution: test workflows against mocked dependencies before hitting production - Import runbooks into workflows - Trace to workflow: convert a chat session into a reusable workflow - Workflow marketplace - Evals - Slack integration Invite-only alpha now, beta next week. Would love feedback from anyone running ops automation or starting to think about AI agents supporting production systems. Comments URL: https://news.ycombinator.com/item?id=47539422 Points: 2 # Comments: 0",
+      "id": "https://news.ycombinator.com/item?id=47598285",
+      "title": "Atombite.ai Deep Dive: Building a Takeout Packing Robot Is Harder Than You Think",
+      "link": "https://news.ycombinator.com/item?id=47598285",
+      "summary": "In 1997, IBM's Deep Blue beat Garry Kasparov at chess. In 2016, DeepMind's AlphaGo defeated Lee Sedol at Go. Yet, in 2026, if you ask a $100,000 robotic arm to pick up a crushed paper bag, place a hot soup container inside without spilling it, and staple a receipt to the top, it will likely fail catastrophically. This is Moravec's Paradox in action: the high-level reasoning tasks that humans find difficult are trivi…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-27T05:44:53.000Z",
-      "score": 101.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://tokenfence.dev/",
-      "title": "TokenFence – Per-workflow budget caps and kill switch for AI agents",
-      "link": "https://tokenfence.dev/",
-      "summary": "Article URL: https://tokenfence.dev/ Comments URL: https://news.ycombinator.com/item?id=47551568 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-28T04:14:34.000Z",
-      "score": 100.36,
-      "status": "queued"
+      "keywordHits": 8,
+      "publishedAt": "2026-04-01T08:22:35.000Z",
+      "score": 222,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-01T08:54:17.066Z",
+      "failureReason": "validation issues: EN: Missing a checklist with task boxes ('- [ ]'). | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://aki.io",
