@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T08:56:22.110Z",
+  "generatedAt": "2026-04-02T16:34:48.711Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-02-why-posthog-started-with-an-mcp-server-before-building-a-custom-ai-agent",
+      "title": "Why PostHog started with an MCP server before building a custom AI agent",
+      "date": "2026-04-02",
+      "excerpt": "Lessons from two years at PostHog: validate agent demand by exposing a narrow, authenticated MCP server (34% of AI-created dashboards used it) before building a full agent.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-02-why-posthog-started-with-an-mcp-server-before-building-a-custom-ai-agent.jpg",
+      "tags": [
+        "ai-agents",
+        "product",
+        "MCP server",
+        "startup",
+        "engineering",
+        "validation"
+      ],
+      "sources": [
+        "https://newsletter.posthog.com/p/what-we-wish-we-knew-before-building"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume",

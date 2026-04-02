@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T08:56:22.111Z",
+  "generatedAt": "2026-04-02T16:34:48.712Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-02-why-posthog-started-with-an-mcp-server-before-building-a-custom-ai-agent",
+      "title": "Pourquoi commencer par un serveur MCP avant de créer un agent IA personnalisé — leçons pratiques",
+      "date": "2026-04-02",
+      "excerpt": "Résumé pratique (contexte US) : validez la demande pour des actions produit pilotées en langage naturel en exposant d’abord un endpoint étroit et authentifié (un « MCP server »). PostHog rapporte que 34 % des tableaux de bord créés par l’IA ont transité par leur MCP — utilisez ce signal avant d’investir dans un agent intégré complet.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-02-why-posthog-started-with-an-mcp-server-before-building-a-custom-ai-agent.jpg",
+      "tags": [
+        "MCP",
+        "IA",
+        "agents",
+        "LLM",
+        "produit",
+        "PostHog",
+        "développement"
+      ],
+      "sources": [
+        "https://newsletter.posthog.com/p/what-we-wish-we-knew-before-building"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
     },
     {
       "slug": "2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume",
