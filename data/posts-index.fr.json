@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-04-01T16:21:53.426Z",
+  "generatedAt": "2026-04-02T08:56:22.111Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-02-vesper-an-mcp-native-engine-that-discovers-validates-cleans-and-exports-agent-ready-parquetarrowjsonl",
+      "title": "Vesper : moteur natif MCP qui découvre, valide, nettoie et exporte Parquet/Arrow/JSONL prêts pour les agents",
+      "date": "2026-04-02",
+      "excerpt": "Vesper est un moteur autonome de préparation de données, natif MCP, qui découvre sources web/API/fichiers, évalue et verrouille les schémas, nettoie et fusionne les données, puis exporte des formats optimisés pour agents (Parquet, Arrow, JSONL).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-02-vesper-an-mcp-native-engine-that-discovers-validates-cleans-and-exports-agent-ready-parquetarrowjsonl.jpg",
+      "tags": [
+        "data-engine",
+        "agents",
+        "Vesper",
+        "MCP",
+        "ETL",
+        "Parquet",
+        "Arrow",
+        "JSONL"
+      ],
+      "sources": [
+        "https://getvesper.dev/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume",
       "title": "ClawRun : déploiement en une commande d'agents IA dans des microVM Firecracker avec snapshot et reprise",

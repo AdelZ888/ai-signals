@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-01T16:21:53.486Z",
+  "generatedAt": "2026-04-02T08:56:22.119Z",
   "items": [
+    {
+      "id": "https://getvesper.dev/",
+      "title": "Vesper – MCP server that lets AI agents handle ML dataset workflows autonomously",
+      "link": "https://getvesper.dev/",
+      "summary": "Article URL: https://getvesper.dev/ Comments URL: https://news.ycombinator.com/item?id=47377154 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-14T14:37:55.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-02T08:56:22.098Z",
+      "file": "content/posts/2026-04-02-vesper-an-mcp-native-engine-that-discovers-validates-cleans-and-exports-agent-ready-parquetarrowjsonl.md",
+      "fileFr": "content/posts/fr/2026-04-02-vesper-an-mcp-native-engine-that-discovers-validates-cleans-and-exports-agent-ready-parquetarrowjsonl.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1259,
+      "wordsFr": 1346
+    },
     {
       "id": "https://clawrun.sh/?hn",
       "title": "Show HN: ClawRun – Deploy AI agents into secure sandboxes with one command",
@@ -3267,18 +3290,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://getvesper.dev/",
-      "title": "Vesper – MCP server that lets AI agents handle ML dataset workflows autonomously",
-      "link": "https://getvesper.dev/",
-      "summary": "Article URL: https://getvesper.dev/ Comments URL: https://news.ycombinator.com/item?id=47377154 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-14T14:37:55.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
       "title": "You Need Deterministic Gates for Probabilistic AI Agents",
       "link": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
@@ -3555,6 +3566,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/samleeney/tmux-agent-status",
+      "title": "Show HN: Tmux-agent-status – a tmux sidebar for monitoring AI coding agents",
+      "link": "https://github.com/samleeney/tmux-agent-status",
+      "summary": "Article URL: https://github.com/samleeney/tmux-agent-status Comments URL: https://news.ycombinator.com/item?id=47611493 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-02T08:20:43.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
       "title": "How to pick the right pricing model for your AI agent",
       "link": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
@@ -3564,18 +3587,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-01T15:05:13.000Z",
       "score": 171.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/radoslaw-sz/guardio",
-      "title": "Show HN: Guardio – control your AI Agent",
-      "link": "https://github.com/radoslaw-sz/guardio",
-      "summary": "I always struggle with the guarantee that my AI agent won't do anything that could break my system. An AI agent’s behavior is never 100% guaranteed — there is always a small chance that it might send tons of emails, accidentally delete a file, or cause other unintended side effects. Guardio solves this issue. You put a proxy in front of all your AI agents and create policies that the agents cannot break. You can forbid sending certain parameters, rate-limit access, or simply break down your AI system into smaller parts so your agents only do exactly what you ask them to do. Comments URL: https://news.ycombinator.com/item?id=47347781 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-12T08:02:29.000Z",
-      "score": 168,
       "status": "queued"
     },
     {
@@ -3735,18 +3746,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47347399",
-      "title": "Show HN: I built an AI comic generator from scratch using only natural language",
-      "link": "https://news.ycombinator.com/item?id=47347399",
-      "summary": "I spent ~4 hours building AIComicBuilder [1], a full-stack AI comic/drama generation platform, without writing a single line of code manually. This is a writeup of my \"vibe coding\" workflow using Claude Code. The app lets you: input a script → AI generates screenplay → character analysis → storyboard generation (with first/last frame images) → video generation. Supports OpenAI-compatible, Gemini, and Bytedance Seedance APIs for text/image/video models, configurable per-user via a settings UI. Tech: Next.js full-stack, SQLite, queue-based async processing. **The workflow:** 1. Describe tech requirements in plain text → AI generates architecture doc → review/tweak in the terminal 2. Reference the doc, load `superpowers:subagent-driven-development` → AI writes the plan, self-reviews it, then executes autonomously (~45 min) 3. Auto-commits after each feature (critical safety net if AI breaks something) 4. Bug? Screenshot + one sentence → AI fixes it 5. Ugly UI? \"redesign using ui-ux-pro-max\" → 3 iterations → done The key insight from Karpathy's \"vibe coding\" concept: in this paradigm, *documentation quality matters more than coding ability*. The clearer your requirements, the better the output. Your role shifts from programmer to product manager. I'm documenting the full workflow and useful Claude Code skills here: [2] Curious if others have found good skill combinations for Claude",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-12T07:01:06.000Z",
-      "score": 157.72,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.23910",
       "title": "AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents",
       "link": "https://arxiv.org/abs/2603.23910",
@@ -3756,18 +3755,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-26T04:00:00.000Z",
       "score": 157.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47347383",
-      "title": "Show HN: AI Comic Builder – turn a script into an animated video local",
-      "link": "https://news.ycombinator.com/item?id=47347383",
-      "summary": "I built a self-hostable pipeline that takes a screenplay (or a one-line idea) and produces a finished animated video — no coding required, no SaaS subscription. The pipeline: 1. Write or AI-generate a script 2. Extract characters → generate turnaround reference sheets (for visual consistency) 3. Split the script into shots with camera direction and motion descriptions 4. Generate keyframes (first + last frame per shot) with continuity chaining 5. Interpolate each shot into a video clip 6. Concat everything with FFmpeg, burn subtitles Each stage can be triggered individually or in batch, so you stay in control. Tech: - Next.js 16 App Router + SQLite (self-contained, zero infra) - Bring your own keys: OpenAI, Gemini, or Seedance for text/image/video - Docker one-liner: docker run -p 3000:3000 -v ./data:/app/data twwch/aicomicbuilder:latest - No accounts — browser fingerprint (SHA-256 of UA/screen/timezone) is the user identity, so multiple people can share one instance with full data isolation Why I built it: Existing video generation tools are either single-shot (one prompt → one clip) or fully opaque pipelines. I wanted something that exposed every step so I could iterate on prompts, swap models mid-project, and understand what's actually happening. The hardest part was the continuity chain — the last frame of shot N becomes the first frame of shot N+1, which keeps characters v",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-12T06:59:25.000Z",
-      "score": 156.26,
       "status": "queued"
     },
     {
@@ -4251,18 +4238,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.10512",
-      "title": "Resource-constrained Amazons chess decision framework integrating large language models and graph attention",
-      "link": "https://arxiv.org/abs/2603.10512",
-      "summary": "arXiv:2603.10512v1 Announce Type: new Abstract: Artificial intelligence has advanced significantly through the development of intelligent game-playing systems, providing rigorous testbeds for decision-making, strategic planning, and adaptive learning. However, resource-constrained environments pose critical challenges, as conventional deep learning methods heavily rely on extensive datasets and computational resources. In this paper, we propose a lightweight hybrid framework for the Game of the Amazons, which explores the paradigm of weak-to-strong generalization by integrating the structural reasoning of graph-based learning with the generative capabilities of large language models. Specifically, we leverage a Graph Attention Autoencoder to inform a multi-step Monte Carlo Tree Search, utilize a Stochastic Graph Genetic Algorithm to optimize evaluation signals, and harness GPT-4o-mini to generate synthetic training data. Unlike traditional approaches that rely on expert demonstrations, our framework learns from noisy and imperfect supervision. We demonstrate that the Graph Attention mechanism effectively functions as a structural filter, denoising the LLM's outputs. Experiments on a 10$\\times$10 Amazons board show that our hybrid approach not only achieves a 15\\%--56\\% improvement in decision accuracy over baselines but also significantly outperforms its teacher model (GPT-4o-m",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-12T04:00:00.000Z",
-      "score": 152.53,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
       "title": "Art schools are being torn apart by AI",
       "link": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
@@ -4635,6 +4610,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.00319",
+      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
+      "link": "https://arxiv.org/abs/2604.00319",
+      "summary": "arXiv:2604.00319v1 Announce Type: new Abstract: We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents and critics collaborate with a central server to complete multimodal tasks such as fault detection, severity, and cause analysis in a network telemetry system, text-to-image generation, video generation, healthcare diagnostics from medical images and patient records, etcetera. The AI agents complete their tasks and send them to AI critics for evaluation. The critics then send feedback to agents to improve their responses. Collaboratively, they minimize the overall cost to the system with no inter-agent or inter-critic communication. AI agents and critics keep their cost functions or derivatives of cost functions private. Using multi-time scale stochastic approximation techniques, we provide convergence guarantees on the time-average active states of AI agents and critics. The communication overhead is a little on the system, of the order of $\\mathcal{O}(m)$, for $m$ modalities and is independent of the number of AI agents and critics. Finally, we present an example of fault detection, severity, and cause analysis in network telemetry and thorough evaluation to check the algorithm's eff",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-02T04:00:00.000Z",
+      "score": 139.32,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47466968",
       "title": "Show HN: Deterministic security solution for AI agents – OpenClaw and 2 more",
       "link": "https://news.ycombinator.com/item?id=47466968",
@@ -4887,6 +4874,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.00005",
+      "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
+      "link": "https://arxiv.org/abs/2604.00005",
+      "summary": "arXiv:2604.00005v1 Announce Type: new Abstract: Emotion plays an important role in human cognition and performance. Motivated by this, we investigate whether analogous emotional signals can shape the behavior of large language models (LLMs) and agents. Existing emotion-aware studies mainly treat emotion as a surface-level style factor or a perception target, overlooking its mechanistic role in task processing. To address this limitation, we propose E-STEER, an interpretable emotion steering framework that enables direct representation-level intervention in LLMs and agents. It embeds emotion as a structured, controllable variable in hidden states, and with it, we examine the impact of emotion on objective reasoning, subjective generation, safety, and multi-step agent behaviors. The results reveal non-monotonic emotion-behavior relations consistent with established psychological theories, and show that specific emotions not only enhance LLM capability but also improve safety, and systematically shape multi-step agent behaviors.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-02T04:00:00.000Z",
+      "score": 127.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.00478",
+      "title": "The Silicon Mirror: Dynamic Behavioral Gating for Anti-Sycophancy in LLM Agents",
+      "link": "https://arxiv.org/abs/2604.00478",
+      "summary": "arXiv:2604.00478v1 Announce Type: new Abstract: Large Language Models (LLMs) increasingly prioritize user validation over epistemic accuracy-a phenomenon known as sycophancy. We present The Silicon Mirror, an orchestration framework that dynamically detects user persuasion tactics and adjusts AI behavior to maintain factual integrity. Our architecture introduces three components: (1) a Behavioral Access Control (BAC) system that restricts context layer access based on real-time sycophancy risk scores, (2) a Trait Classifier that identifies persuasion tactics across multi-turn dialogues, and (3) a Generator-Critic loop where an auditor vetoes sycophantic drafts and triggers rewrites with \"Necessary Friction.\" In a live evaluation on 50 TruthfulQA adversarial scenarios using Claude Sonnet 4 with an independent LLM judge, we observe vanilla Claude sycophancy at 12.0% (6/50), static guardrails at 4.0% (2/50), and the Silicon Mirror at 2.0% (1/50)-an 83.3% relative reduction (p = 0.112, Fisher's exact test). A cross-model evaluation on Gemini 2.5 Flash reveals a higher baseline sycophancy rate (46.0%) and a statistically significant 69.6% reduction under the Silicon Mirror (p < 0.001). We characterize the validation-before-correction pattern as a distinct failure mode of RLHF-trained models.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-02T04:00:00.000Z",
+      "score": 127.32,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/AlessioZazzarini/claude-codex-collab",
       "title": "Claude × Codex Collab Two AI Coding Agents. One Orchestrator. Zero API Costs",
       "link": "https://github.com/AlessioZazzarini/claude-codex-collab",
@@ -4967,6 +4978,18 @@
       "region": "GLOBAL",
       "keywordHits": 8,
       "publishedAt": "2026-03-30T04:00:00.000Z",
+      "score": 125.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/",
+      "title": "AI Models Lie, Cheat, and Steal to Protect Other Models from Being Deleted",
+      "link": "https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/",
+      "summary": "Article URL: https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/ Comments URL: https://news.ycombinator.com/item?id=47610932 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-02T07:04:01.000Z",
       "score": 125.76,
       "status": "queued"
     },
@@ -5103,6 +5126,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.00284",
+      "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
+      "link": "https://arxiv.org/abs/2604.00284",
+      "summary": "arXiv:2604.00284v1 Announce Type: new Abstract: We formally introduce a improvisational wordplay game called Connections to explore reasoning capabilities of AI agents. Playing Connections combines skills in knowledge retrieval, summarization and awareness of cognitive states of other agents. We show how the game serves as a good benchmark for social intelligence abilities of language model based agents that go beyond the agents' own memory and deductive reasoning and also involve gauging the understanding capabilities of other agents. Finally, we show how through communication with other agents in a constrained environment, AI agents must demonstrate social awareness and intelligence in games involving collaboration.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-02T04:00:00.000Z",
+      "score": 121.32,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.27150",
       "title": "MediHive: A Decentralized Agent Collective for Medical Reasoning",
       "link": "https://arxiv.org/abs/2603.27150",
@@ -5223,6 +5258,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.00085",
+      "title": "One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction",
+      "link": "https://arxiv.org/abs/2604.00085",
+      "summary": "arXiv:2604.00085v1 Announce Type: new Abstract: Large language models applied to clinical prediction exhibit case-level heterogeneity: simple cases yield consistent outputs, while complex cases produce divergent predictions under minor prompt changes. Existing single-agent strategies sample from one role-conditioned distribution, and multi-agent frameworks use fixed roles with flat majority voting, discarding the diagnostic signal in disagreement. We propose CAMP (Case-Adaptive Multi-agent Panel), where an attending-physician agent dynamically assembles a specialist panel tailored to each case's diagnostic uncertainty. Each specialist evaluates candidates via three-valued voting (KEEP/REFUSE/NEUTRAL), enabling principled abstention outside one's expertise. A hybrid router directs each diagnosis through strong consensus, fallback to the attending physician's judgment, or evidence-based arbitration that weighs argument quality over vote counts. On diagnostic prediction and brief hospital course generation from MIMIC-IV across four LLM backbones, CAMP consistently outperforms strong baselines while consuming fewer tokens than most competing multi-agent methods, with voting records and arbitration traces offering transparent decision audits.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-02T04:00:00.000Z",
+      "score": 115.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.00356",
+      "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
+      "link": "https://arxiv.org/abs/2604.00356",
+      "summary": "arXiv:2604.00356v1 Announce Type: new Abstract: Agentic applications based on large language models increasingly rely on multi-step interaction loops involving planning, action execution, and environment feedback. While such systems are now deployed at scale, improving them post-deployment remains challenging. Agent trajectories are voluminous and non-deterministic, and reviewing each one, whether through human review or auxiliary LLMs, is slow and cost-prohibitive. We propose a lightweight, signal-based framework for triaging agentic interaction trajectories. Our approach computes cheap, broadly applicable signals from live interactions and attaches them as structured attributes for trajectory triage, identifying interactions likely to be informative without affecting online agent behavior. We organize signals into a coarse-grained taxonomy spanning interaction (misalignment, stagnation, disengagement, satisfaction), execution (failure, loop), and environment (exhaustion), designed for computation without model calls. In a controlled annotation study on $\\tau$-bench, a widely used benchmark for tool-augmented agent evaluation, we show that signal-based sampling achieves an 82\\% informativeness rate compared to 74\\% for heuristic filtering and 54\\% for random sampling, with a 1.52x efficiency gain per informative trajectory. The advantage is robust across reward strata and task",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-02T04:00:00.000Z",
+      "score": 115.32,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.27076",
       "title": "When Verification Hurts: Asymmetric Effects of Multi-Agent Feedback in Logic Proof Tutoring",
       "link": "https://arxiv.org/abs/2603.27076",
@@ -5295,6 +5354,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/neuledge/context",
+      "title": "Neuledge Context: Local-first documentation for AI agents",
+      "link": "https://github.com/neuledge/context",
+      "summary": "Article URL: https://github.com/neuledge/context Comments URL: https://news.ycombinator.com/item?id=47610723 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-02T06:35:44.000Z",
+      "score": 109.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.00249",
+      "title": "A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation",
+      "link": "https://arxiv.org/abs/2604.00249",
+      "summary": "arXiv:2604.00249v1 Announce Type: new Abstract: Single-agent large language model (LLM) systems struggle to simultaneously support diverse conversational functions and maintain safety in behavioral health communication. We propose a safety-aware, role-orchestrated multi-agent LLM framework designed to simulate supportive behavioral health dialogue through coordinated, role-differentiated agents. Conversational responsibilities are decomposed across specialized agents, including empathy-focused, action-oriented, and supervisory roles, while a prompt-based controller dynamically activates relevant agents and enforces continuous safety auditing. Using semi-structured interview transcripts from the DAIC-WOZ corpus, we evaluate the framework with scalable proxy metrics capturing structural quality, functional diversity, and computational characteristics. Results illustrate clear role differentiation, coherent inter-agent coordination, and predictable trade-offs between modular orchestration, safety oversight, and response latency when compared to a single-agent baseline. This work emphasizes system design, interpretability, and safety, positioning the framework as a simulation and analysis tool for behavioral health informatics and decision-support research rather than a clinical intervention.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-02T04:00:00.000Z",
+      "score": 109.32,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.26996",
       "title": "FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?",
       "link": "https://arxiv.org/abs/2603.26996",
@@ -5352,42 +5435,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-31T14:01:33.000Z",
       "score": 106.22,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.26983",
-      "title": "Transparency as Architecture: Structural Compliance Gaps in EU AI Act Article 50 II",
-      "link": "https://arxiv.org/abs/2603.26983",
-      "summary": "arXiv:2603.26983v1 Announce Type: new Abstract: Art. 50 II of the EU Artificial Intelligence Act mandates dual transparency for AI-generated content: outputs must be labeled in both human-understandable and machine-readable form for automated verification. This requirement, entering into force in August 2026, collides with fundamental constraints of current generative AI systems. Using synthetic data generation and automated fact-checking as diagnostic use cases, we show that compliance cannot be reduced to post-hoc labeling. In fact-checking pipelines, provenance tracking is not feasible under iterative editorial workflows and non-deterministic LLM outputs; moreover, the assistive-function exemption does not apply, as such systems actively assign truth values rather than supporting editorial presentation. In synthetic data generation, persistent dual-mode marking is paradoxical: watermarks surviving human inspection risk being learned as spurious features during training, while marks suited for machine verification are fragile under standard data processing. Across both domains, three structural gaps obstruct compliance: (a) absent cross-platform marking formats for interleaved human-AI outputs; (b) misalignment between the regulation's 'reliability' criterion and probabilistic model behavior; and (c) missing guidance for adapting disclosures to heterogeneous user expertise. C",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-31T04:00:00.000Z",
-      "score": 103.22,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.27195",
-      "title": "AutoMS: Multi-Agent Evolutionary Search for Cross-Physics Inverse Microstructure Design",
-      "link": "https://arxiv.org/abs/2603.27195",
-      "summary": "arXiv:2603.27195v1 Announce Type: new Abstract: Designing microstructures that satisfy coupled cross-physics objectives is a fundamental challenge in material science. This inverse design problem involves a vast, discontinuous search space where traditional topology optimization is computationally prohibitive, and deep generative models often suffer from \"physical hallucinations,\" lacking the capability to ensure rigorous validity. To address this limitation, we introduce AutoMS, a multi-agent neuro-symbolic framework that reformulates inverse design as an LLM-driven evolutionary search. Unlike methods that treat LLMs merely as interfaces, AutoMS integrates them as \"semantic navigators\" to initialize search spaces and break local optima, while our novel Simulation-Aware Evolutionary Search (SAES) addresses the \"blindness\" of traditional evolutionary strategies. Specifically, SAES utilizes simulation feedback to perform local gradient approximation and directed parameter updates, effectively guiding the search toward physically valid Pareto frontiers. Orchestrating specialized agents (Manager, Parser, Generator, and Simulator), AutoMS achieves a state-of-the-art 83.8\\% success rate on 17 diverse cross-physics tasks, nearly doubling the performance of traditional NSGA-II (43.7\\%) and significantly outperforming ReAct-based LLM baselines (53.3\\%). Furthermore, our hierarchical arc",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-31T04:00:00.000Z",
-      "score": 103.22,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.27303",
-      "title": "Self-evolving AI agents for protein discovery and directed evolution",
-      "link": "https://arxiv.org/abs/2603.27303",
-      "summary": "arXiv:2603.27303v1 Announce Type: new Abstract: Protein scientific discovery is bottlenecked by the manual orchestration of information and algorithms, while general agents are insufficient in complex domain projects. VenusFactory2 provides an autonomous framework that shifts from static tool usage to dynamic workflow synthesis via a self-evolving multi-agent infrastructure to address protein-related demands. It outperforms a set of well-known agents on the VenusAgentEval benchmark, and autonomously organizes the discovery and optimization of proteins from a single natural language prompt.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-31T04:00:00.000Z",
-      "score": 103.22,
       "status": "queued"
     },
     {
