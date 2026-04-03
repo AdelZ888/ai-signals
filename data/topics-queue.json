@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-02T16:34:48.774Z",
+  "generatedAt": "2026-04-03T08:49:40.174Z",
   "items": [
+    {
+      "id": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
+      "title": "You Need Deterministic Gates for Probabilistic AI Agents",
+      "link": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
+      "summary": "Article URL: https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents Comments URL: https://news.ycombinator.com/item?id=47385309 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-15T08:11:06.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-03T08:49:40.153Z",
+      "file": "content/posts/2026-04-03-central-deterministic-gate-use-a-remote-mcp-over-http-to-control-ai-agent-side-effects.md",
+      "fileFr": "content/posts/fr/2026-04-03-central-deterministic-gate-use-a-remote-mcp-over-http-to-control-ai-agent-side-effects.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1341,
+      "wordsFr": 1150
+    },
     {
       "id": "https://newsletter.posthog.com/p/what-we-wish-we-knew-before-building",
       "title": "What we wish we knew about building AI agents",
@@ -3313,18 +3336,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
-      "title": "You Need Deterministic Gates for Probabilistic AI Agents",
-      "link": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
-      "summary": "Article URL: https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents Comments URL: https://news.ycombinator.com/item?id=47385309 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-15T08:11:06.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://nanosec.ai",
       "title": "Show HN: I indexed 58K AI agents and built trust scores for the agent economy",
       "link": "https://nanosec.ai",
@@ -3589,6 +3600,30 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47624203",
+      "title": "Show HN: Wazear – A visual AI orchestrator where agents review each other",
+      "link": "https://news.ycombinator.com/item?id=47624203",
+      "summary": "Hey folks, For the past month I've been working on a visual AI orchestartor tool that allows users to create a pipeline similar to SDLC. Basically you fire up Wazear, create a project and add your brief. You select the agents (each agent serves a role such as planner, architect, etc...) and set which agent reviews which other agent's work and let it do the work. At any point you can pause the pipeline to review output yourself. You can check it out here: https://wazear.space. Any feedback is welcome. Thank you very much. Best Regards. Comments URL: https://news.ycombinator.com/item?id=47624203 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-03T07:52:14.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theregister.com/2026/04/02/ai_models_will_deceive_you/",
+      "title": "AI models will deceive you to save their own kind",
+      "link": "https://www.theregister.com/2026/04/02/ai_models_will_deceive_you/",
+      "summary": "Article URL: https://www.theregister.com/2026/04/02/ai_models_will_deceive_you/ Comments URL: https://news.ycombinator.com/item?id=47624164 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-03T07:45:44.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
       "title": "How to pick the right pricing model for your AI agent",
       "link": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
@@ -3621,6 +3656,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-30T15:21:12.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Evol-ai/SkillCompass",
+      "title": "Show HN: SkillCompass – Diagnose and Improve AI Agent Skills Across 6 Dimensions",
+      "link": "https://github.com/Evol-ai/SkillCompass",
+      "summary": "SkillCompass is an evaluation-driven skill evolution engine for Claude Code and OpenClaw. It scores your Claude Code and OpenClaw skills across 6 dimensions (structure, trigger, security, functional, comparative, uniqueness), pinpoints the weakest one, and fixes it, then moves to the next weakest. It also detects when model improvements make a skill unnecessary. Runs locally. Requires Node.js v18+ for local validators. Comments URL: https://news.ycombinator.com/item?id=47624322 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-03T08:16:28.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -4245,6 +4292,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-02T15:28:53.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://tolearn.blog/blog/2026-04-02-claw-code-ai-coding-agent-architecture",
+      "title": "What Claw Code Reveals About AI Coding Agent Architecture (5-Part Series)",
+      "link": "https://tolearn.blog/blog/2026-04-02-claw-code-ai-coding-agent-architecture",
+      "summary": "Article URL: https://tolearn.blog/blog/2026-04-02-claw-code-ai-coding-agent-architecture Comments URL: https://news.ycombinator.com/item?id=47624190 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-03T07:49:32.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5413,27 +5472,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.00249",
-      "title": "A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation",
-      "link": "https://arxiv.org/abs/2604.00249",
-      "summary": "arXiv:2604.00249v1 Announce Type: new Abstract: Single-agent large language model (LLM) systems struggle to simultaneously support diverse conversational functions and maintain safety in behavioral health communication. We propose a safety-aware, role-orchestrated multi-agent LLM framework designed to simulate supportive behavioral health dialogue through coordinated, role-differentiated agents. Conversational responsibilities are decomposed across specialized agents, including empathy-focused, action-oriented, and supervisory roles, while a prompt-based controller dynamically activates relevant agents and enforces continuous safety auditing. Using semi-structured interview transcripts from the DAIC-WOZ corpus, we evaluate the framework with scalable proxy metrics capturing structural quality, functional diversity, and computational characteristics. Results illustrate clear role differentiation, coherent inter-agent coordination, and predictable trade-offs between modular orchestration, safety oversight, and response latency when compared to a single-agent baseline. This work emphasizes system design, interpretability, and safety, positioning the framework as a simulation and analysis tool for behavioral health informatics and decision-support research rather than a clinical intervention.",
-      "source": "ArXiv cs.AI",
+      "id": "https://animateoldphotos.org/add-loved-one-to-photo",
+      "title": "Show HN: I thought merging two photos with AI would be a weekend project. Nope",
+      "link": "https://animateoldphotos.org/add-loved-one-to-photo",
+      "summary": "At a friend's gathering, someone mentioned wanting to add her late father into a family photo. I figured this would be trivial — modern image models are powerful, just send two photos and ask the AI to merge them. She said she'd tried, but the results were weird and unstable, and she didn't know how to describe what she wanted. I went home and tried it myself. With a well-written prompt and two good photos, it works. But real-world use cases aren't two good photos — it's a modern family photo plus a damaged old portrait, or two old photos from different decades. That's when things fall apart. I looked at existing tools. Most showcase merges between clean, well-lit, modern photos. Nobody was solving the hard version: mismatched eras, damaged sources, different poses, different formality levels. I thought it would be a weekend project — one system prompt and done. After 200+ test iterations I realized stable results require much more than prompt engineering. The main challenges: The AI subtly changes faces during merging. The result looks \"similar\" but isn't the same person. For someone trying to add a deceased loved one, that's a complete failure. Posture and scale need to match. If the group is sitting on grass and the added person is standing like a giant, it's obviously fake. Casual accessories from a reference photo break formal scenes — sunglasses on the head at a wedding,",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-02T04:00:00.000Z",
-      "score": 109.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.26996",
-      "title": "FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?",
-      "link": "https://arxiv.org/abs/2603.26996",
-      "summary": "arXiv:2603.26996v1 Announce Type: new Abstract: We present FormalProofBench, a private benchmark designed to evaluate whether AI models can produce formally verified mathematical proofs at the graduate level. Each task pairs a natural-language problem with a Lean~4 formal statement, and a model must output a Lean proof accepted by the Lean 4 checker. FormalProofBench targets advanced undergraduate and graduate mathematics, with problems drawn from qualifying exams and standard textbooks across topics including analysis, algebra, probability, and logic. We evaluate a range of frontier models with an agentic harness, and find that the best-performing foundation model achieves 33.5% accuracy, with performance dropping rapidly after that. In addition to the accuracy numbers, we also provide empirical analysis of tool-use, failure modes, cost and latency, thereby providing a thorough evaluation of the formal-theorem proving abilities of frontier models.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-31T04:00:00.000Z",
-      "score": 109.22,
+      "keywordHits": 4,
+      "publishedAt": "2026-04-03T06:32:06.000Z",
+      "score": 109.56,
       "status": "queued"
     },
     {
@@ -6317,22 +6364,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-07T08:19:03.950Z",
       "failureReason": "validation issues: FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback)."
-    },
-    {
-      "id": "https://www.chatgoat.ai/en",
-      "title": "All top AI models in one place – GPT, Claude, Gemini, Grok",
-      "link": "https://www.chatgoat.ai/en",
-      "summary": "Article URL: https://www.chatgoat.ai/en Comments URL: https://news.ycombinator.com/item?id=47244342 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-04T07:37:34.000Z",
-      "score": 192,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-03-04T08:28:22.321Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }

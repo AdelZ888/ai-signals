@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-04-02T16:34:48.711Z",
+  "generatedAt": "2026-04-03T08:49:40.165Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-04-03-central-deterministic-gate-use-a-remote-mcp-over-http-to-control-ai-agent-side-effects",
+      "title": "Central deterministic gate: use a remote MCP over HTTP to control AI agent side effects",
+      "date": "2026-04-03",
+      "excerpt": "Add a single deterministic gate - a remote MCP over HTTP - to approve any agent side effects. Learn how it enforces audits, reduces errors, and a Google Workspace example.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-03-central-deterministic-gate-use-a-remote-mcp-over-http-to-control-ai-agent-side-effects.jpg",
+      "tags": [
+        "agents",
+        "MCP",
+        "remote-MCP",
+        "security",
+        "compliance",
+        "best-practices"
+      ],
+      "sources": [
+        "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-02-vesper-an-mcp-native-engine-that-discovers-validates-cleans-and-exports-agent-ready-parquetarrowjsonl",
       "title": "Vesper: an MCP-native engine that discovers, validates, cleans and exports agent-ready Parquet/Arrow/JSONL",
