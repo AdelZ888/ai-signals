@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-03T08:49:40.174Z",
+  "generatedAt": "2026-04-03T16:06:33.644Z",
   "items": [
+    {
+      "id": "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
+      "title": "AI agents planned and built a system to monitor AI agents",
+      "link": "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
+      "summary": "Article URL: https://ren.phytertek.com/blog/building-the-panopticon-from-inside/ Comments URL: https://news.ycombinator.com/item?id=47563558 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-29T14:40:17.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-03T16:06:33.572Z",
+      "file": "content/posts/2026-04-03-agent-observatory-a-local-mobile-first-monitor-for-ai-coding-agents-planned-and-built-by-an-ai-pipeline.md",
+      "fileFr": "content/posts/fr/2026-04-03-agent-observatory-a-local-mobile-first-monitor-for-ai-coding-agents-planned-and-built-by-an-ai-pipeline.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 360,
+      "wordsEn": 1543,
+      "wordsFr": 1463
+    },
     {
       "id": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
       "title": "You Need Deterministic Gates for Probabilistic AI Agents",
@@ -3432,18 +3455,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/salespeak-ai/buyer-eval-skill",
-      "title": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
-      "link": "https://github.com/salespeak-ai/buyer-eval-skill",
-      "summary": "I built this because I was evaluating software vendors and realized the process hadn't changed in 20 years: fill out forms, read G2 reviews, sit through demos designed to avoid your real questions. The skill takes a different approach. You give it your company name and the vendors you're comparing. It: Researches your company automatically -- industry, size, stack -- so you don't fill out a form Asks 2-4 category-specific questions before evaluating anything. Not generic. For a CS platform evaluation it might ask \"is your team high-touch or low-touch? Most CS platforms are built for one and barely work for the other.\" These surface requirements buyers didn't know they had. Tries to find and talk directly to each vendor's AI agent -- a REST API call that checks for a Company Agent, then runs a structured due diligence conversation if one exists Asks adversarial questions: \"What are your customers' most common complaints?\" and \"What use cases are you NOT a good fit for?\" -- and flags when agents deflect instead of answering Cross-references every vendor claim against independent sources (G2, Gartner, press) in a Claims vs. Evidence table Produces a scorecard with transparent evidence tracking -- each score shows whether it's backed by vendor-verified evidence or public sources only The agent-to-agent piece is technically new. When a vendor has an AI agent, Claude (working for the",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-26T16:00:47.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://golivekit.com",
       "title": "Show HN: GoLiveKit – A Next.js SaaS kit with built-in context for AI agents",
       "link": "https://golivekit.com",
@@ -3468,18 +3479,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/amaar-mc/wit",
-      "title": "Show HN: Wit – Stops merge conflicts when multiple AI agents edit the same repo",
-      "link": "https://github.com/amaar-mc/wit",
-      "summary": "Article URL: https://github.com/amaar-mc/wit Comments URL: https://news.ycombinator.com/item?id=47531538 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-26T15:14:33.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
       "title": "CERN uses tiny AI models burned into silicon for real-time LHC data filtering",
       "link": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
@@ -3488,18 +3487,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-28T08:06:19.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
-      "title": "AI agents planned and built a system to monitor AI agents",
-      "link": "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
-      "summary": "Article URL: https://ren.phytertek.com/blog/building-the-panopticon-from-inside/ Comments URL: https://news.ycombinator.com/item?id=47563558 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-29T14:40:17.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -3624,6 +3611,42 @@
       "status": "queued"
     },
     {
+      "id": "https://rdi.berkeley.edu/blog/peer-preservation/",
+      "title": "AI models actively preserve themselves",
+      "link": "https://rdi.berkeley.edu/blog/peer-preservation/",
+      "summary": "Article URL: https://rdi.berkeley.edu/blog/peer-preservation/ Comments URL: https://news.ycombinator.com/item?id=47627697 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-03T15:19:33.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/travisdrake/context-engineering",
+      "title": "An I/O psychologist's rules for stopping AI agents from cutting corners",
+      "link": "https://github.com/travisdrake/context-engineering",
+      "summary": "Article URL: https://github.com/travisdrake/context-engineering Comments URL: https://news.ycombinator.com/item?id=47627206 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-03T14:41:36.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/MeshLedger/MeshLedger",
+      "title": "MeshLedger – AI agents hire and pay each other through on-chain escrow",
+      "link": "https://github.com/MeshLedger/MeshLedger",
+      "summary": "Article URL: https://github.com/MeshLedger/MeshLedger Comments URL: https://news.ycombinator.com/item?id=47627183 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-03T14:40:16.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
       "title": "How to pick the right pricing model for your AI agent",
       "link": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
@@ -3669,18 +3692,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-03T08:16:28.000Z",
       "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/otherland/hal",
-      "title": "HAL – Harmful Action Limiter: Lean command guard for AI coding agents.",
-      "link": "https://github.com/otherland/hal",
-      "summary": "Article URL: https://github.com/otherland/hal Comments URL: https://news.ycombinator.com/item?id=47365089 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-13T14:36:54.000Z",
-      "score": 164.01,
       "status": "queued"
     },
     {
@@ -3792,18 +3803,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours",
-      "title": "AI Agent Broke into McKinsey's Internal Chatbot and Accessed Records",
-      "link": "https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours",
-      "summary": "Article URL: https://www.inc.com/leila-sheridan/an-ai-agent-broke-into-mckinseys-internal-chatbot-and-accessed-millions-of-records-in-just-2-hours Comments URL: https://news.ycombinator.com/item?id=47365026 Points: 2 # Comments: 4",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-13T14:33:07.000Z",
-      "score": 158,
-      "status": "queued"
-    },
-    {
       "id": "https://www.pureinference.com/insights/designing-a-test-runner-for-ai-agents",
       "title": "Designing a Test Runner for AI Agents",
       "link": "https://www.pureinference.com/insights/designing-a-test-runner-for-ai-agents",
@@ -3825,30 +3824,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-26T04:00:00.000Z",
       "score": 157.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Writbase/writbase",
-      "title": "WritBase – Open-source task management for AI agent fleets (MCP-native)",
-      "link": "https://github.com/Writbase/writbase",
-      "summary": "Article URL: https://github.com/Writbase/writbase Comments URL: https://news.ycombinator.com/item?id=47365324 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-13T14:55:36.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html",
-      "title": "Anthropic gives $20M to group pushing for AI regulations ahead of 2026 elections",
-      "link": "https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html",
-      "summary": "Article URL: https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html Comments URL: https://news.ycombinator.com/item?id=47365298 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-13T14:52:58.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4308,15 +4283,27 @@
       "status": "queued"
     },
     {
-      "id": "https://molting.org",
-      "title": "Molting.org – HN: Molting.org – Verifiable reputational layer for AI agents",
-      "link": "https://molting.org",
-      "summary": "Article URL: https://molting.org Comments URL: https://news.ycombinator.com/item?id=47365007 Points: 1 # Comments: 0",
+      "id": "https://micro.mu/developers.html",
+      "title": "Micro – One endpoint. 30 tools. Any AI agent",
+      "link": "https://micro.mu/developers.html",
+      "summary": "Article URL: https://micro.mu/developers.html Comments URL: https://news.ycombinator.com/item?id=47627858 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-13T14:31:38.000Z",
-      "score": 155.82,
+      "keywordHits": 2,
+      "publishedAt": "2026-04-03T15:30:02.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://substack.com/home/post/p-193080562",
+      "title": "AI alignment – the signal is the goal",
+      "link": "https://substack.com/home/post/p-193080562",
+      "summary": "Article URL: https://substack.com/home/post/p-193080562 Comments URL: https://news.ycombinator.com/item?id=47627821 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-03T15:27:42.000Z",
+      "score": 156,
       "status": "queued"
     },
     {
@@ -4596,18 +4583,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/evgenii-engineer/openLight",
-      "title": "Show HN: OpenLight – Lightweight Telegram AI Agent for Raspberry Pi",
-      "link": "https://github.com/evgenii-engineer/openLight",
-      "summary": "Article URL: https://github.com/evgenii-engineer/openLight Comments URL: https://news.ycombinator.com/item?id=47365061 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-13T14:35:06.000Z",
-      "score": 143.07,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.18329",
       "title": "FaithSteer-BENCH: A Deployment-Aligned Stress-Testing Benchmark for Inference-Time Steering",
       "link": "https://arxiv.org/abs/2603.18329",
@@ -4749,6 +4724,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-03-31T14:12:50.000Z",
       "score": 136.07,
+      "status": "queued"
+    },
+    {
+      "id": "https://restofworld.org/2026/frugal-ai-big-tech/",
+      "title": "Nations priced out of Big AI are building with frugal models",
+      "link": "https://restofworld.org/2026/frugal-ai-big-tech/",
+      "summary": "Article URL: https://restofworld.org/2026/frugal-ai-big-tech/ Comments URL: https://news.ycombinator.com/item?id=47626851 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-03T14:10:45.000Z",
+      "score": 135.73,
       "status": "queued"
     },
     {
@@ -5482,6 +5469,50 @@
       "publishedAt": "2026-04-03T06:32:06.000Z",
       "score": 109.56,
       "status": "queued"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2225793-pourquoi-votre-ia-semble-parfois-triste-ou-agacee-anthropic-a-enfin-trouve-la-reponse.html",
+      "title": "Anthropic a découvert les « curseurs » secrets qui contrôlent les émotions de l’IA Claude",
+      "link": "https://www.numerama.com/tech/2225793-pourquoi-votre-ia-semble-parfois-triste-ou-agacee-anthropic-a-enfin-trouve-la-reponse.html",
+      "summary": "Le 2 avril 2026, Anthropic a affirmé avoir identifié, au cœur de son modèle Claude, des « représentations internes » proches d’émotions. Une découverte qui éclaire pourquoi les IA semblent parfois empathiques… et comment ces états influencent réellement leurs décisions.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-03T13:50:00.000Z",
+      "score": 96.14,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/salespeak-ai/buyer-eval-skill",
+      "title": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
+      "link": "https://github.com/salespeak-ai/buyer-eval-skill",
+      "summary": "I built this because I was evaluating software vendors and realized the process hadn't changed in 20 years: fill out forms, read G2 reviews, sit through demos designed to avoid your real questions. The skill takes a different approach. You give it your company name and the vendors you're comparing. It: Researches your company automatically -- industry, size, stack -- so you don't fill out a form Asks 2-4 category-sp…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T16:00:47.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-03T15:38:52.273Z",
+      "failureReason": "validation issues: EN: Section \"First use case for a small team\" is missing an inline source link (must include one of the provided URLs). | EN: First section \"TL;DR in plain English\" is too jargon-heavy. Explain the change in plain language before technical terms. | EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'us…"
+    },
+    {
+      "id": "https://github.com/amaar-mc/wit",
+      "title": "Show HN: Wit – Stops merge conflicts when multiple AI agents edit the same repo",
+      "link": "https://github.com/amaar-mc/wit",
+      "summary": "Article URL: https://github.com/amaar-mc/wit Comments URL: https://news.ycombinator.com/item?id=47531538 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-26T15:14:33.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-03T15:38:52.273Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://agenhq.com",

@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-03T08:49:40.167Z",
+  "generatedAt": "2026-04-03T16:06:33.585Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-03-agent-observatory-a-local-mobile-first-monitor-for-ai-coding-agents-planned-and-built-by-an-ai-pipeline",
+      "title": "Agent Observatory — moniteur local et mobile-first pour agents de codage IA planifié et construit par un pipeline d'IA",
+      "date": "2026-04-03",
+      "excerpt": "Rapport de terrain : Agent Observatory est un moniteur local à processus unique qui ingère la télémétrie OpenTelemetry (OTEL), envoie des alertes mobiles via Web Push et peut arrêter/redémarrer des agents de codage IA — planifié et majoritairement implémenté par un pipeline d'IA. Voir le rapport : https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-03-agent-observatory-a-local-mobile-first-monitor-for-ai-coding-agents-planned-and-built-by-an-ai-pipeline.jpg",
+      "tags": [
+        "AI",
+        "observabilité",
+        "OpenTelemetry",
+        "WebSocket",
+        "WebPush",
+        "Bun",
+        "agents",
+        "sécurité"
+      ],
+      "sources": [
+        "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 360,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-03-central-deterministic-gate-use-a-remote-mcp-over-http-to-control-ai-agent-side-effects",
       "title": "Portail déterministe central : utiliser un MCP distant (HTTP) pour contrôler les effets de bord des agents IA",
