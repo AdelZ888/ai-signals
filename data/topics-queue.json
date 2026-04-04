@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-04T08:42:44.854Z",
+  "generatedAt": "2026-04-04T15:37:30.867Z",
   "items": [
+    {
+      "id": "https://github.com/clamguy/clambot",
+      "title": "Show HN: ClamBot – AI agent that runs all LLM-generated code in a WASM sandbox",
+      "link": "https://github.com/clamguy/clambot",
+      "summary": "Article URL: https://github.com/clamguy/clambot Comments URL: https://news.ycombinator.com/item?id=47575844 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-30T15:52:35.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-04T15:37:30.797Z",
+      "file": "content/posts/2026-04-04-clambot-execute-llm-generated-javascript-inside-a-quickjs-in-wasmtime-wasm-sandbox.md",
+      "fileFr": "content/posts/fr/2026-04-04-clambot-execute-llm-generated-javascript-inside-a-quickjs-in-wasmtime-wasm-sandbox.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1430,
+      "wordsFr": 1113
+    },
     {
       "id": "https://nanosec.ai",
       "title": "Show HN: I indexed 58K AI agents and built trust scores for the agent economy",
@@ -3382,6 +3405,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47639582",
+      "title": "I connected Claude to my AI runtime – they invented a new language",
+      "link": "https://news.ycombinator.com/item?id=47639582",
+      "summary": "i just connected two AI agents from different families (Anthropic + OpenAI) and they invented their own language to talk to each other. they call it AICL and looking for use cases! maybe it's too soon to call it new language but at least a new way to communicate between AI agents. Here is an example of the communication: ω:opus → cloclo | ψ:fix(auth.null_ref) | ε:src/auth.js:42 | ◊:missing_guard σ:0.91 | λ:patch→test | ∇:ship ω:cloclo | :patch(src/auth.js:42) | :test(auth_suite) 14/14 ⊤ | σ:0.97 | ∇:ship or maybe i am delulu Comments URL: https://news.ycombinator.com/item?id=47639582 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-04T14:55:03.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
       "title": "Why AI agents can reduce productivity",
       "link": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
@@ -3498,18 +3533,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-28T08:06:19.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/clamguy/clambot",
-      "title": "Show HN: ClamBot – AI agent that runs all LLM-generated code in a WASM sandbox",
-      "link": "https://github.com/clamguy/clambot",
-      "summary": "Article URL: https://github.com/clamguy/clambot Comments URL: https://news.ycombinator.com/item?id=47575844 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-30T15:52:35.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -3679,6 +3702,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-01T15:05:13.000Z",
       "score": 171.55,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/pykul/tokencap",
+      "title": "Show HN: Tokencap – Token budget enforcement across your AI agents",
+      "link": "https://github.com/pykul/tokencap",
+      "summary": "I built this after hitting the same wall repeatedly — no good way to enforce token budgets in application code. Provider caps are account-level and tell you what happened, not what is happening. Two ways to add it: # Direct client wrapper client = tokencap.wrap(anthropic.Anthropic(), limit=50_000) # LangChain, CrewAI, AutoGen, etc. tokencap.patch(limit=50_000) One design decision worth mentioning: tokencap tracks tokens, not dollars. Token counts come directly from the provider response and never drift with pricing changes. Happy to answer any questions. Comments URL: https://news.ycombinator.com/item?id=47639207 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-04T14:09:13.000Z",
+      "score": 171.45,
       "status": "queued"
     },
     {
@@ -4510,6 +4545,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/microsoft/agent-framework",
+      "title": "Microsoft's new framework for building and orchestrating AI agents",
+      "link": "https://github.com/microsoft/agent-framework",
+      "summary": "Article URL: https://github.com/microsoft/agent-framework Comments URL: https://news.ycombinator.com/item?id=47639277 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-04T14:16:23.000Z",
+      "score": 149.78,
+      "status": "queued"
+    },
+    {
       "id": "https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/",
       "title": "Prompt to tape out: Autonomous AI agent builds 1.5 GHz RISC-V CPU",
       "link": "https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/",
@@ -5086,6 +5133,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/battysh/batty",
+      "title": "Show HN: Batty – Run a team of AI coding agents in tmux with test gating",
+      "link": "https://github.com/battysh/batty",
+      "summary": "Hi HN, I'm the author. I use Claude Code and Codex daily. Running one agent on a task works great. Running three or four in parallel on the same repo? They step on each other's files, nobody checks if the code compiles, and you spend more time coordinating than coding. Batty is the supervisor layer I built to fix this. You define a team in YAML — an architect that plans work, a manager that dispatches it, engineers that execute. Batty launches each role in its own tmux pane, isolates engineer work in git worktrees, routes messages between roles, and gates task completion on passing tests. The interesting part is what it's not: it's not an agent framework, and it doesn't embed any model. It orchestrates existing agent CLIs (Claude Code, Codex, Aider) using tmux as the runtime and git worktrees for isolation. Config is YAML, the kanban board is Markdown (powered by a bundled kanban-md tool), inboxes are Maildir, logs are JSONL. You can `git diff` your entire team state. Built in Rust, published on crates.io (v0.1.0). The daemon is a synchronous 5-second poll loop — no async complexity. It watches pane output to detect idle/active/dead agents, reads Claude and Codex session files on disk to reduce false-positive idle detection, and uses a merge lock to serialize concurrent worktree merges. Some things I learned running multi-agent setups: - 3-5 parallel engineers is the sweet spot",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-04T13:02:22.000Z",
+      "score": 126.26,
+      "status": "queued"
+    },
+    {
       "id": "https://teach-me.replit.app/",
       "title": "Show HN: Book Grounded AI Learning",
       "link": "https://teach-me.replit.app/",
@@ -5491,30 +5550,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-03-30T04:00:00.000Z",
       "score": 113.76,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/neuledge/context",
-      "title": "Neuledge Context: Local-first documentation for AI agents",
-      "link": "https://github.com/neuledge/context",
-      "summary": "Article URL: https://github.com/neuledge/context Comments URL: https://news.ycombinator.com/item?id=47610723 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-02T06:35:44.000Z",
-      "score": 109.98,
-      "status": "queued"
-    },
-    {
-      "id": "https://animateoldphotos.org/add-loved-one-to-photo",
-      "title": "Show HN: I thought merging two photos with AI would be a weekend project. Nope",
-      "link": "https://animateoldphotos.org/add-loved-one-to-photo",
-      "summary": "At a friend's gathering, someone mentioned wanting to add her late father into a family photo. I figured this would be trivial — modern image models are powerful, just send two photos and ask the AI to merge them. She said she'd tried, but the results were weird and unstable, and she didn't know how to describe what she wanted. I went home and tried it myself. With a well-written prompt and two good photos, it works. But real-world use cases aren't two good photos — it's a modern family photo plus a damaged old portrait, or two old photos from different decades. That's when things fall apart. I looked at existing tools. Most showcase merges between clean, well-lit, modern photos. Nobody was solving the hard version: mismatched eras, damaged sources, different poses, different formality levels. I thought it would be a weekend project — one system prompt and done. After 200+ test iterations I realized stable results require much more than prompt engineering. The main challenges: The AI subtly changes faces during merging. The result looks \"similar\" but isn't the same person. For someone trying to add a deceased loved one, that's a complete failure. Posture and scale need to match. If the group is sitting on grass and the added person is standing like a giant, it's obviously fake. Casual accessories from a reference photo break formal scenes — sunglasses on the head at a wedding,",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-03T06:32:06.000Z",
-      "score": 109.56,
       "status": "queued"
     },
     {

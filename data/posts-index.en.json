@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-04T08:42:44.845Z",
+  "generatedAt": "2026-04-04T15:37:30.808Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-04-04-clambot-execute-llm-generated-javascript-inside-a-quickjs-in-wasmtime-wasm-sandbox",
+      "title": "ClamBot: Execute LLM-generated JavaScript inside a QuickJS-in-Wasmtime WASM sandbox",
+      "date": "2026-04-04",
+      "excerpt": "A tutorial outline for ClamBot: run LLM-generated JavaScript inside a QuickJS WebAssembly module under Wasmtime. See how sandboxing limits host exposure and adds control.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-04-clambot-execute-llm-generated-javascript-inside-a-quickjs-in-wasmtime-wasm-sandbox.jpg",
+      "tags": [
+        "ClamBot",
+        "WASM",
+        "QuickJS",
+        "Wasmtime",
+        "sandboxing",
+        "LLM",
+        "JavaScript",
+        "security"
+      ],
+      "sources": [
+        "https://github.com/clamguy/clambot"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-04-nanosecond-ai-publishes-a-public-index-of-58448-agents-with-scanned-receipts-and-owner-metadata",
       "title": "NanoSecond AI publishes a public index of 58,448 agents with 'Scanned' receipts and owner metadata",
