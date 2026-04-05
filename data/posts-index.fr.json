@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-04-05T08:38:50.436Z",
+  "generatedAt": "2026-04-05T16:03:17.615Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-05-agentdebugger-local-first-debugger-for-ai-agents-with-replay-failure-memory-and-drift-detection",
+      "title": "agent_debugger : débogueur local pour agents IA avec replay, mémoire d'échecs et détection de dérive",
+      "date": "2026-04-05",
+      "excerpt": "Guide concis en français (contexte UK) pour démarrer agent_debugger localement : capture et relecture de sessions d'agent, indexation des échecs récurrents, et mise en évidence intelligente des signaux et de la dérive. Référez-vous au dépôt pour les commandes et schémas exacts.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-05-agentdebugger-local-first-debugger-for-ai-agents-with-replay-failure-memory-and-drift-detection.jpg",
+      "tags": [
+        "agent_debugger",
+        "débogage",
+        "IA",
+        "local-first",
+        "replay",
+        "détection-de-dérive",
+        "mémoire-d'échecs"
+      ],
+      "sources": [
+        "https://github.com/acailic/agent_debugger"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-05-user-reports-emergent-compact-protocol-aicl-when-anthropics-claude-and-an-openai-model-were-linked",
       "title": "Observation: protocole compact émergent (\"AICL\") entre Claude (Anthropic) et un modèle OpenAI — résumé et checklist",

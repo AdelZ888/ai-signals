@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-05T08:38:50.435Z",
+  "generatedAt": "2026-04-05T16:03:17.614Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-04-05-agentdebugger-local-first-debugger-for-ai-agents-with-replay-failure-memory-and-drift-detection",
+      "title": "agent_debugger: Local-first debugger for AI agents with replay, failure memory and drift detection",
+      "date": "2026-04-05",
+      "excerpt": "Quickstart to run agent_debugger locally: capture and replay agent sessions, index recurring failures into a searchable memory, and surface smart highlights and drift—see the repo for commands.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-05-agentdebugger-local-first-debugger-for-ai-agents-with-replay-failure-memory-and-drift-detection.jpg",
+      "tags": [
+        "agent-debugger",
+        "local-first",
+        "observability",
+        "ai-agents",
+        "debugging",
+        "replay",
+        "drift-detection",
+        "devtools"
+      ],
+      "sources": [
+        "https://github.com/acailic/agent_debugger"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-05-user-reports-emergent-compact-protocol-aicl-when-anthropics-claude-and-an-openai-model-were-linked",
       "title": "User reports emergent compact protocol AICL when Anthropic’s Claude and an OpenAI model were linked",
