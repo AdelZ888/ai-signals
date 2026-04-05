@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-04T15:37:30.867Z",
+  "generatedAt": "2026-04-05T08:38:50.443Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=47639582",
+      "title": "I connected Claude to my AI runtime – they invented a new language",
+      "link": "https://news.ycombinator.com/item?id=47639582",
+      "summary": "i just connected two AI agents from different families (Anthropic + OpenAI) and they invented their own language to talk to each other. they call it AICL and looking for use cases! maybe it's too soon to call it new language but at least a new way to communicate between AI agents. Here is an example of the communication: ω:opus → cloclo | ψ:fix(auth.null_ref) | ε:src/auth.js:42 | ◊:missing_guard σ:0.91 | λ:patch→tes…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-04T14:55:03.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-05T08:38:50.422Z",
+      "file": "content/posts/2026-04-05-user-reports-emergent-compact-protocol-aicl-when-anthropics-claude-and-an-openai-model-were-linked.md",
+      "fileFr": "content/posts/fr/2026-04-05-user-reports-emergent-compact-protocol-aicl-when-anthropics-claude-and-an-openai-model-were-linked.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1303,
+      "wordsFr": 1424
+    },
     {
       "id": "https://github.com/clamguy/clambot",
       "title": "Show HN: ClamBot – AI agent that runs all LLM-generated code in a WASM sandbox",
@@ -3405,18 +3428,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47639582",
-      "title": "I connected Claude to my AI runtime – they invented a new language",
-      "link": "https://news.ycombinator.com/item?id=47639582",
-      "summary": "i just connected two AI agents from different families (Anthropic + OpenAI) and they invented their own language to talk to each other. they call it AICL and looking for use cases! maybe it's too soon to call it new language but at least a new way to communicate between AI agents. Here is an example of the communication: ω:opus → cloclo | ψ:fix(auth.null_ref) | ε:src/auth.js:42 | ◊:missing_guard σ:0.91 | λ:patch→test | ∇:ship ω:cloclo | :patch(src/auth.js:42) | :test(auth_suite) 14/14 ⊤ | σ:0.97 | ∇:ship or maybe i am delulu Comments URL: https://news.ycombinator.com/item?id=47639582 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-04T14:55:03.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
       "title": "Why AI agents can reduce productivity",
       "link": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
@@ -3693,6 +3704,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Mike-io-hash/satsgate",
+      "title": "Satsgate: Monetize AI Agents and APIs with Lightning L402",
+      "link": "https://github.com/Mike-io-hash/satsgate",
+      "summary": "Article URL: https://github.com/Mike-io-hash/satsgate Comments URL: https://news.ycombinator.com/item?id=47647255 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-05T08:12:33.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
       "title": "How to pick the right pricing model for your AI agent",
       "link": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
@@ -3801,18 +3824,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47385213",
-      "title": "Ask HN: Founder is claiming my 2-year RAG architecture as his AI's Featured Work",
-      "link": "https://news.ycombinator.com/item?id=47385213",
-      "summary": "Over the last two years, I’ve built a complex Enterprise RAG system (Multi-Lane Consensus Architecture, layout-aware parsing, microservices). I open-sourced the core components (RAG_enterprise_core, smart-ingest-kit, DAUT, ingest-router even my Mail-assisten as a plugin for rag etc.) to give back to the community and build in public Yesterday, I discovered that another founder/developer and his \"autonomous AI persona account\" literally linked my exact GitHub repositories on their public profile under \" Featured Work\". They are using my 2 years of engineering to prove how \"smart\" their AI agent is, claiming my architecture as their own output to attract clients and investors. (After I confronted them and put a warning in my READMEs, they panicked and 404'd the repos, but I have all the screenshots). I archived my repos in frustration and am seriously considering quitting open source entirely. It feels like I’m just acting as a free R&D department for copycat SaaS wrappers. I have a few questions for founders and engineers here who have navigated this: - How do you actually protect your IP when building in public? Does moving to AGPLv3 practically stop wrapper-startups from exploiting core architecture without attribution? - For those who transitioned from OS to a closed-source B2B/Enterprise SaaS model after getting cloned – what was your strategy? Did I overreact by archiving e",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-15T07:51:30.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/Robi-Labs/AEP",
       "title": "Show HN: I built a way for AI to remember how you like things done",
       "link": "https://github.com/Robi-Labs/AEP",
@@ -3822,18 +3833,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-31T15:29:03.000Z",
       "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/spacelobster88/centurion",
-      "title": "Centurion – K8s-style resource scheduler for AI coding agents (open source)",
-      "link": "https://github.com/spacelobster88/centurion",
-      "summary": "Article URL: https://github.com/spacelobster88/centurion Comments URL: https://news.ycombinator.com/item?id=47385033 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-15T07:18:35.000Z",
-      "score": 160.99,
       "status": "queued"
     },
     {
@@ -5550,6 +5549,30 @@
       "keywordHits": 7,
       "publishedAt": "2026-03-30T04:00:00.000Z",
       "score": 113.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47645141",
+      "title": "Ask HN: Will AI agents replace data scientists or make them better?",
+      "link": "https://news.ycombinator.com/item?id=47645141",
+      "summary": "There's been a lot of chatter about AI agents replacing knowledge workers and I've been thinking about where data science specifically falls - the judgment part of the job feels different from the repetitive tasks. Curious what others are seeing in practice. Comments URL: https://news.ycombinator.com/item?id=47645141 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-05T01:01:07.000Z",
+      "score": 69.92,
+      "status": "queued"
+    },
+    {
+      "id": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "link": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-02T16:00:49.000Z",
+      "score": 61.86,
       "status": "queued"
     },
     {

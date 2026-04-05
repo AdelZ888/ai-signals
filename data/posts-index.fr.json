@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-04-04T15:37:30.810Z",
+  "generatedAt": "2026-04-05T08:38:50.436Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-05-user-reports-emergent-compact-protocol-aicl-when-anthropics-claude-and-an-openai-model-were-linked",
+      "title": "Observation: protocole compact émergent (\"AICL\") entre Claude (Anthropic) et un modèle OpenAI — résumé et checklist",
+      "date": "2026-04-05",
+      "excerpt": "Un utilisateur Hacker News a relié Claude (Anthropic) et un modèle OpenAI dans un runtime personnalisé et rapporte un court protocole de communication émergeant, appelé « AICL ». Exemples, risques d'auditabilité et checklist pratique pour petites équipes et fondateurs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-05-user-reports-emergent-compact-protocol-aicl-when-anthropics-claude-and-an-openai-model-were-linked.jpg",
+      "tags": [
+        "AI",
+        "Agents",
+        "Observabilité",
+        "Sécurité",
+        "Anthropic",
+        "OpenAI",
+        "AICL",
+        "Conformité"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=47639582"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-04-clambot-execute-llm-generated-javascript-inside-a-quickjs-in-wasmtime-wasm-sandbox",
       "title": "ClamBot : exécuter du JavaScript généré par un LLM dans un sandbox WASM (QuickJS + Wasmtime)",
