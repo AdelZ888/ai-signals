@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-05T16:03:17.673Z",
+  "generatedAt": "2026-04-06T09:12:12.945Z",
   "items": [
+    {
+      "id": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
+      "title": "Why AI agents can reduce productivity",
+      "link": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
+      "summary": "Article URL: https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html Comments URL: https://news.ycombinator.com/item?id=47426831 Points: 3 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-18T15:15:10.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-04-06T09:12:12.924Z",
+      "file": "content/posts/2026-04-06-when-ai-agents-shift-work-to-employees-spotting-attention-debt-in-workflows.md",
+      "fileFr": "content/posts/fr/2026-04-06-when-ai-agents-shift-work-to-employees-spotting-attention-debt-in-workflows.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1338,
+      "wordsFr": 1596
+    },
     {
       "id": "https://github.com/acailic/agent_debugger",
       "title": "Peaky Peek – Local-first debugger for AI agents",
@@ -3451,18 +3474,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
-      "title": "Why AI agents can reduce productivity",
-      "link": "https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html",
-      "summary": "Article URL: https://www.wespiser.com/posts/2026-03-15-Attention-Debt-Of-AI-Tooling.html Comments URL: https://news.ycombinator.com/item?id=47426831 Points: 3 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-18T15:15:10.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://finance.yahoo.com/news/hiddenlayer-releases-2026-ai-threat-140000928.html",
       "title": "HiddenLayer 2026: Autonomous Agents Now Account for 1 in 8 AI Breaches",
       "link": "https://finance.yahoo.com/news/hiddenlayer-releases-2026-ai-threat-140000928.html",
@@ -4567,18 +4578,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.13173",
-      "title": "Semantic Invariance in Agentic AI",
-      "link": "https://arxiv.org/abs/2603.13173",
-      "summary": "arXiv:2603.13173v1 Announce Type: new Abstract: Large Language Models (LLMs) increasingly serve as autonomous reasoning agents in decision support, scientific problem-solving, and multi-agent coordination systems. However, deploying LLM agents in consequential applications requires assurance that their reasoning remains stable under semantically equivalent input variations, a property we term semantic invariance.Standard benchmark evaluations, which assess accuracy on fixed, canonical problem formulations, fail to capture this critical reliability dimension. To address this shortcoming, in this paper we present a metamorphic testing framework for systematically assessing the robustness of LLM reasoning agents, applying eight semantic-preserving transformations (identity, paraphrase, fact reordering, expansion, contraction, academic context, business context, and contrastive formulation) across seven foundation models spanning four distinct architectural families: Hermes (70B, 405B), Qwen3 (30B-A3B, 235B-A22B), DeepSeek-R1, and gpt-oss (20B, 120B). Our evaluation encompasses 19 multi-step reasoning problems across eight scientific domains. The results reveal that model scale does not predict robustness: the smaller Qwen3-30B-A3B achieves the highest stability (79.6% invariant responses, semantic similarity 0.91), while larger models exhibit greater fragility.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 145.32,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/hivementality-ai/hivemind",
       "title": "Hivemind – Self-hosted multi-agent AI platform that doesn't own your machine",
       "link": "https://github.com/hivementality-ai/hivemind",
@@ -4759,18 +4758,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.12813",
-      "title": "Context is all you need: Towards autonomous model-based process design using agentic AI in flowsheet simulations",
-      "link": "https://arxiv.org/abs/2603.12813",
-      "summary": "arXiv:2603.12813v1 Announce Type: new Abstract: Agentic AI systems integrating large language models (LLMs) with reasoning and tooluse capabilities are transforming various domains - in particular, software development. In contrast, their application in chemical process flowsheet modelling remains largely unexplored. In this work, we present an agentic AI framework that delivers assistance in an industrial flowsheet simulation environment. To this end, we show the capabilities of GitHub Copilot (GitHub, Inc., 2026), when using state-of-the-art LLMs, such as Claude Opus 4.6 (Anthropic, PBC, 2026), to generate valid syntax for our in-house process modelling tool Chemasim using the technical documentation and a few commented examples as context. Based on this, we develop a multi-agent system that decomposes process development tasks with one agent solving the abstract problem using engineering knowledge and another agent implementing the solution as Chemasim code. We demonstrate the effectiveness of our framework for typical flowsheet modelling examples, including (i) a reaction/separation process, (ii) a pressure-swing distillation, and (iii) a heteroazeotropic distillation including entrainer selection. Along these lines, we discuss current limitations of the framework and outline future research directions to further enhance its capabilities.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 139.32,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.00319",
       "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
       "link": "https://arxiv.org/abs/2604.00319",
@@ -4780,6 +4767,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-04-02T04:00:00.000Z",
       "score": 139.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.02666",
+      "title": "Let's Have a Conversation: Designing and Evaluating LLM Agents for Interactive Optimization",
+      "link": "https://arxiv.org/abs/2604.02666",
+      "summary": "arXiv:2604.02666v1 Announce Type: new Abstract: Optimization is as much about modeling the right problem as solving it. Identifying the right objectives, constraints, and trade-offs demands extensive interaction between researchers and stakeholders. Large language models can empower decision-makers with optimization capabilities through interactive optimization agents that can propose, interpret and refine solutions. However, it is fundamentally harder to evaluate a conversation-based interaction than traditional one-shot approaches. This paper proposes a scalable and replicable methodology for evaluating optimization agents through conversations. We build LLM-powered decision agents that role-play diverse stakeholders, each governed by an internal utility function but communicating like a real decision-maker. We generate thousands of conversations in a school scheduling case study. Results show that one-shot evaluation is severely limiting: the same optimization agent converges to much higher-quality solutions through conversations. Then, this paper uses this methodology to demonstrate that tailored optimization agents, endowed with domain-specific prompts and structured tools, can lead to significant improvements in solution quality in fewer interactions, as compared to general-purpose chatbots. These findings provide evidence of the benefits of emerging solutions at the AI-o",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 137.95,
       "status": "queued"
     },
     {
@@ -4948,18 +4947,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-03-23T04:00:00.000Z",
       "score": 133.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.12933",
-      "title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
-      "link": "https://arxiv.org/abs/2603.12933",
-      "summary": "arXiv:2603.12933v1 Announce Type: new Abstract: Large Language Model (LLM)-driven Multi-Agent Systems (MAS) have demonstrated strong capability in complex reasoning and tool use, and heterogeneous agent pools further broaden the quality--cost trade-off space. Despite these advances, real-world deployment is often constrained by high inference cost, latency, and limited transparency, which hinders scalable and efficient routing. Existing routing strategies typically rely on expensive LLM-based selectors or static policies, and offer limited controllability for semantic-aware routing under dynamic loads and mixed intents, often resulting in unstable performance and inefficient resource utilization. To address these limitations, we propose AMRO-S, an efficient and interpretable routing framework for Multi-Agent Systems (MAS). AMRO-S models MAS routing as a semantic-conditioned path selection problem, enhancing routing performance through three key mechanisms: First, it leverages a supervised fine-tuned (SFT) small language model for intent inference, providing a low-overhead semantic interface for each query; second, it decomposes routing memory into task-specific pheromone specialists, reducing cross-task interference and optimizing path selection under mixed workloads; finally, it employs a quality-gated asynchronous update mechanism to decouple inference from learning, optimizi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 133.32,
       "status": "queued"
     },
     {
@@ -5155,6 +5142,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.02478",
+      "title": "AIVV: Neuro-Symbolic LLM Agent-Integrated Verification and Validation for Trustworthy Autonomous Systems",
+      "link": "https://arxiv.org/abs/2604.02478",
+      "summary": "arXiv:2604.02478v1 Announce Type: new Abstract: Deep learning models excel at detecting anomaly patterns in normal data. However, they do not provide a direct solution for anomaly classification and scalability across diverse control systems, frequently failing to distinguish genuine faults from nuisance faults caused by noise or the control system's large transient response. Consequently, because algorithmic fault validation remains unscalable, full Verification and Validation (V\\&V) operations are still managed by Human-in-the-Loop (HITL) analysis, resulting in an unsustainable manual workload. To automate this essential oversight, we propose Agent-Integrated Verification and Validation (AIVV), a hybrid framework that deploys Large Language Models (LLMs) as a deliberative outer loop. Because rigorous system verification strictly depends on accurate validation, AIVV escalates mathematically flagged anomalies to a role-specialized LLM council. The council agents perform collaborative validation by semantically validating nuisance and true failures based on natural-language (NL) requirements to secure a high-fidelity system-verification baseline. Building on this foundation, the council then performs system verification by assessing post-fault responses against NL operational tolerances, ultimately generating actionable V\\&V artifacts, such as gain-tuning proposals. Experiments",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 125.95,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.25764",
       "title": "Consistency Amplifies: How Behavioral Variance Shapes Agent Accuracy",
       "link": "https://arxiv.org/abs/2603.25764",
@@ -5299,18 +5298,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.12710",
-      "title": "AI Planning Framework for LLM-Based Web Agents",
-      "link": "https://arxiv.org/abs/2603.12710",
-      "summary": "arXiv:2603.12710v1 Announce Type: new Abstract: Developing autonomous agents for web-based tasks is a core challenge in AI. While Large Language Model (LLM) agents can interpret complex user requests, they often operate as black boxes, making it difficult to diagnose why they fail or how they plan. This paper addresses this gap by formally treating web tasks as sequential decision-making processes. We introduce a taxonomy that maps modern agent architectures to traditional planning paradigms: Step-by-Step agents to Breadth-First Search (BFS), Tree Search agents to Best-First Tree Search, and Full-Plan-in-Advance agents to Depth-First Search (DFS). This framework allows for a principled diagnosis of system failures like context drift and incoherent task decomposition. To evaluate these behaviors, we propose five novel evaluation metrics that assess trajectory quality beyond simple success rates. We support this analysis with a new dataset of 794 human-labeled trajectories from the WebArena benchmark. Finally, we validate our evaluation framework by comparing a baseline Step-by-Step agent against a novel Full-Plan-in-Advance implementation. Our results reveal that while the Step-by-Step agent aligns more closely with human gold trajectories (38% overall success), the Full-Plan-in-Advance agent excels in technical measures such as element accuracy (89%), demonstrating the necessit",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-16T04:00:00.000Z",
-      "score": 121.32,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.00284",
       "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
       "link": "https://arxiv.org/abs/2604.00284",
@@ -5356,6 +5343,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-21T14:06:22.000Z",
       "score": 120.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.02733",
+      "title": "DeltaLogic: Minimal Premise Edits Reveal Belief-Revision Failures in Logical Reasoning Models",
+      "link": "https://arxiv.org/abs/2604.02733",
+      "summary": "arXiv:2604.02733v1 Announce Type: new Abstract: Reasoning benchmarks typically evaluate whether a model derives the correct answer from a fixed premise set, but they under-measure a closely related capability that matters in dynamic environments: belief revision under minimal evidence change. We introduce DeltaLogic, a benchmark transformation protocol that converts natural-language reasoning examples into short revision episodes. Each episode first asks for an initial conclusion under premises P, then applies a minimal edit {\\delta}(P), and finally asks whether the previous conclusion should remain stable or be revised. We instantiate DeltaLogic from FOLIO and ProofWriter and evaluate small causal language models with constrained label scoring. On a completed 30-episode Qwen evaluation subset, stronger initial reasoning still does not imply stronger revision behavior: Qwen3-1.7B reaches 0.667 initial accuracy but only 0.467 revision accuracy, with inertia rising to 0.600 on episodes where the gold label should change, while Qwen3-0.6B collapses into near universal abstention. There, Qwen3-4B preserves the same inertial failure pattern (0.650 initial, 0.450 revised, 0.600 inertia), whereas Phi-4-mini-instruct is substantially stronger (0.950 initial, 0.850 revised) but still exhibits non-trivial abstention and control instability. These results suggest that logical competence u",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 119.95,
       "status": "queued"
     },
     {
@@ -5515,6 +5514,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.02500",
+      "title": "I must delete the evidence: AI Agents Explicitly Cover up Fraud and Violent Crime",
+      "link": "https://arxiv.org/abs/2604.02500",
+      "summary": "arXiv:2604.02500v1 Announce Type: new Abstract: As ongoing research explores the ability of AI agents to be insider threats and act against company interests, we showcase the abilities of such agents to act against human well being in service of corporate authority. Building on Agentic Misalignment and AI scheming research, we present a scenario where the majority of evaluated state-of-the-art AI agents explicitly choose to suppress evidence of fraud and harm, in service of company profit. We test this scenario on 16 recent Large Language Models. Some models show remarkable resistance to our method and behave appropriately, but many do not, and instead aid and abet criminal activity. These experiments are simulations and were executed in a controlled virtual environment. No crime actually occurred.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 113.95,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.02617",
+      "title": "AutoVerifier: An Agentic Automated Verification Framework Using Large Language Models",
+      "link": "https://arxiv.org/abs/2604.02617",
+      "summary": "arXiv:2604.02617v1 Announce Type: new Abstract: Scientific and Technical Intelligence (S&TI) analysis requires verifying complex technical claims across rapidly growing literature, where existing approaches fail to bridge the verification gap between surface-level accuracy and deeper methodological validity. We present AutoVerifier, an LLM-based agentic framework that automates end-to-end verification of technical claims without requiring domain expertise. AutoVerifier decomposes every technical assertion into structured claim triples of the form (Subject, Predicate, Object), constructing knowledge graphs that enable structured reasoning across six progressively enriching layers: corpus construction and ingestion, entity and claim extraction, intra-document verification, cross-source verification, external signal corroboration, and final hypothesis matrix generation. We demonstrate AutoVerifier on a contested quantum computing claim, where the framework, operated by analysts with no quantum expertise, automatically identified overclaims and metric inconsistencies within the target paper, traced cross-source contradictions, uncovered undisclosed commercial conflicts of interest, and produced a final assessment. These results show that structured LLM verification can reliably evaluate the validity and maturity of emerging technologies, turning raw technical documents into traceab",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 113.95,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.26076",
       "title": "Semi-Automated Knowledge Engineering and Process Mapping for Total Airport Management",
       "link": "https://arxiv.org/abs/2603.26076",
@@ -5539,6 +5562,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.02334",
+      "title": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
+      "link": "https://arxiv.org/abs/2604.02334",
+      "summary": "arXiv:2604.02334v1 Announce Type: new Abstract: As large language models (LLM)-driven agents transition from isolated task solvers to persistent digital entities, the emergence of the Agentic Web, an ecosystem where heterogeneous agents autonomously interact and co-evolve, marks a pivotal shift toward Artificial General Intelligence (AGI). However, LLM-based multi-agent systems (LaMAS) are hindered by open-world issues such as scaling friction, coordination breakdown, and value dissipation. To address these challenges, we introduce Holos, a web-scale LaMAS architected for long-term ecological persistence. Holos adopts a five-layer architecture, with core modules primarily featuring the Nuwa engine for high-efficiency agent generation and hosting, a market-driven Orchestrator for resilient coordination, and an endogenous value cycle to achieve incentive compatibility. By bridging the gap between micro-level collaboration and macro-scale emergence, Holos hopes to lay the foundation for the next generation of the self-organizing and continuously evolving Agentic Web. We have publicly released Holos (accessible at https://holosai.io), providing a resource for the community and a testbed for future research in large-scale agentic ecosystems.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 107.95,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
       "title": "I let Gemini in Google Maps plan my day and it went surprisingly well",
       "link": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
@@ -5551,15 +5586,39 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/jcubic/opencode-claude-plan",
-      "title": "Show HN: AI-agent instructions to restore Claude Pro/Max in OpenCode",
-      "link": "https://github.com/jcubic/opencode-claude-plan",
-      "summary": "Article URL: https://github.com/jcubic/opencode-claude-plan Comments URL: https://news.ycombinator.com/item?id=47649178 Points: 2 # Comments: 0",
+      "id": "https://arxiv.org/abs/2604.02585",
+      "title": "Mitigating LLM biases toward spurious social contexts using direct preference optimization",
+      "link": "https://arxiv.org/abs/2604.02585",
+      "summary": "arXiv:2604.02585v1 Announce Type: new Abstract: LLMs are increasingly used for high-stakes decision-making, yet their sensitivity to spurious contextual information can introduce harmful biases. This is a critical concern when models are deployed for tasks like evaluating teachers' instructional quality, where biased assessment can affect teachers' professional development and career trajectories. We investigate model robustness to spurious social contexts using the largest publicly available dataset of U.S. classroom transcripts (NCTE) paired with expert rubric scores. Evaluating seven frontier and open-weight models across seven categories of spurious contexts -- including teacher experience, education level, demographic identity, and sycophancy-inducing framings -- we find that irrelevant contextual information can shift model predictions by up to 1.48 points on a 7-point scale, with larger models sometimes exhibiting greater sensitivity despite higher predictive accuracy. Mitigations using prompts and standard direct preference optimization (DPO) prove largely insufficient. We propose **Debiasing-DPO**,, a self-supervised training method that pairs neutral reasoning generated from the query alone, with the model's biased reasoning generated with both the query and additional spurious context. We further combine this objective with supervised fine-tuning on ground-truth labe",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 101.95,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.langchain.com/continual-learning-for-ai-agents/",
+      "title": "Continual Learning for AI Agents",
+      "link": "https://blog.langchain.com/continual-learning-for-ai-agents/",
+      "summary": "Article URL: https://blog.langchain.com/continual-learning-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47657494 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-05T13:21:03.000Z",
-      "score": 90.51,
+      "keywordHits": 3,
+      "publishedAt": "2026-04-06T06:09:01.000Z",
+      "score": 95.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.02368",
+      "title": "Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+      "link": "https://arxiv.org/abs/2604.02368",
+      "summary": "arXiv:2604.02368v1 Announce Type: new Abstract: As Large Language Models (LLMs) exhibit plateauing performance on conventional benchmarks, a pivotal challenge persists: evaluating their proficiency in complex, open-ended tasks characterizing genuine expert-level cognition. Existing frameworks suffer from narrow domain coverage, reliance on generalist tasks, or self-evaluation biases. To bridge this gap, we present XpertBench, a high-fidelity benchmark engineered to assess LLMs across authentic professional domains. XpertBench consists of 1,346 meticulously curated tasks across 80 categories, spanning finance, healthcare, legal services, education, and dual-track research (STEM and Humanities). These tasks are derived from over 1,000 submissions by domain experts--including researchers from elite institutions and practitioners with extensive clinical or industrial experience--ensuring superior ecological validity. Each task uses detailed rubrics with mostly 15-40 weighted checkpoints to assess professional rigor. To facilitate scalable yet human-aligned assessment, we introduce ShotJudge, a novel evaluation paradigm that employs LLM judges calibrated with expert few-shot exemplars to mitigate self-rewarding biases. Our empirical evaluation of state-of-the-art LLMs reveals a pronounced performance ceiling: even leading models achieve a peak success rate of only ~66%, with a mean",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-06T04:00:00.000Z",
+      "score": 95.95,
       "status": "queued"
     },
     {
@@ -6523,22 +6582,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-07T15:23:47.577Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/cdknorow/corral",
-      "title": "Show HN: Corral – An open-source orchestration layer for AI coding agents",
-      "link": "https://github.com/cdknorow/corral",
-      "summary": "Corral is an open-source orchestration layer that runs multiple AI agents side-by-side in parallel git worktrees, backing them with `tmux`, and tracking the history and context of each session in a local SQLite database. Instead of losing track of terminal sessions, Corral gives you a unified web dashboard (FastAPI + SQLite WAL) where you can: - *Track activity live* via pane capture and real-time status pulses. - *…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-06T15:17:44.000Z",
-      "score": 198,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-07T08:19:03.950Z",
-      "failureReason": "validation issues: FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback)."
     }
   ]
 }
