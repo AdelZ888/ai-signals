@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-07T08:59:53.242Z",
+  "generatedAt": "2026-04-07T16:21:28.743Z",
   "items": [
+    {
+      "id": "https://www.arthur.ai/blog/best-practices-for-building-agents-guardrails",
+      "title": "AI Agent Guardrails: Pre-LLM and Post-LLM Best Practices",
+      "link": "https://www.arthur.ai/blog/best-practices-for-building-agents-guardrails",
+      "summary": "Article URL: https://www.arthur.ai/blog/best-practices-for-building-agents-guardrails Comments URL: https://news.ycombinator.com/item?id=47677256 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-07T15:55:10.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-07T16:21:28.675Z",
+      "file": "content/posts/2026-04-07-implementing-pre-and-postllm-guardrails-to-prevent-pii-leakage-and-catch-hallucinations.md",
+      "fileFr": "content/posts/fr/2026-04-07-implementing-pre-and-postllm-guardrails-to-prevent-pii-leakage-and-catch-hallucinations.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1606,
+      "wordsFr": 1423
+    },
     {
       "id": "https://finance.yahoo.com/news/hiddenlayer-releases-2026-ai-threat-140000928.html",
       "title": "HiddenLayer 2026: Autonomous Agents Now Account for 1 in 8 AI Breaches",
@@ -3532,6 +3555,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47676736",
+      "title": "I don't want an autonomous AI agent. I want a collaborator",
+      "link": "https://news.ycombinator.com/item?id=47676736",
+      "summary": "I’ve been using Cursor, Claude, and others quite a bit and I keep hitting the same pattern. The tool really wants me to step aside. I hand it a task, it vanishes, edits a bunch of files, and comes back with a fat diff. Then I’m supposed to reverse-engineer what it did, tie it back to what I intended, and fix what’s not right if I can spot it. It works pretty well a fair amount of the time, but it's not my work. Giving the LLM enough instruction to narrow that gap is more effort than just writing it myself. I’m not looking for an “agent.” Not an intern. I want a collaboration partner. I'm not a cog in the agentic machine. It's a cog in mine. I want to stay in the game. What’s been working for me is a much tighter loop. I find I stay in Cursor quite a bit, keep edits small and in front of me, and let something real kick in when I drift—syntax, structure, rules (I wired up my own setup for that). When something’s wrong, I see it fast. I fix it, or I tell the LLM exactly what to change. No surprise thousand-line patches. No “it went off and did stuff” and I find out later. I stay sharp. I still have the system in my head. I’m not only reviewing it, I’m still building it. The LLM makes me faster but I'm still driving. I’m doing the same with specs (a custom spec DSL integrated into Cursor and IntelliJ). The LLM helps draft, the tooling says “nope” immediately, and I fix directly or",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-07T15:19:25.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
       "id": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
       "title": "The End of Coding: Andrej Karpathy on Agents, AutoResearch, and Loopy Era of AI [video]",
       "link": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
@@ -3760,6 +3795,30 @@
       "status": "queued"
     },
     {
+      "id": "https://takt.chat/",
+      "title": "Show HN: I built an AI that forgets things when people leave the room",
+      "link": "https://takt.chat/",
+      "summary": "My girlfriend and I had a fight. We both hopped on our shared Claude account to vent, without telling each other. Eventually, she noticed that chat, joined it, and started grilling me. I got bizarre responses from Claude telling me to calm down. After realizing the chat had been renamed \"Why Michael is an inconsiderate asshole\", I refreshed, realized Claude wasn't built with multi-session websockets in mind, and told it there were two of us. After that, seeing both sides in one conversation, it naturally started mediating. Nobody asked it to. It identified the correct speaker, read the room, and responded to what the moment needed. We looked for \"group chat with AI\" and it didn't exist. Everything was 1:1 assistant mode. So we started building it. An AI that sits in your group chat as a participant, not a bot you @ to ask things. It has opinions. It decides when to talk and when to shut up. It reads the room. The most interesting wall I hit was memory. RAG, embeddings, native KV, all share one constraint I needed to break. \"User X likes sushi.\" becomes accessible everywhere, forever, to everyone. That's not how knowing things works. If I tell you a secret at a bar, the people at the table know it. The guy who showed up 20 minutes later doesn't. If I told you something sensitive in private, you KNOW it forever, but don't bring it up in front of everyone. So I built witness-based",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-07T15:56:16.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.falconbuilder.dev/",
+      "title": "Show HN: Falcon Builder – the modular OS for designing and deploying AI agents",
+      "link": "https://www.falconbuilder.dev/",
+      "summary": "Article URL: https://www.falconbuilder.dev/ Comments URL: https://news.ycombinator.com/item?id=47676893 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-07T15:30:04.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
       "title": "How to pick the right pricing model for your AI agent",
       "link": "https://flexprice.io/blog/how-to-pick-the-right-pricing-model-for-ai-agent",
@@ -3925,42 +3984,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-26T04:00:00.000Z",
       "score": 157.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/business/openai-courts-private-equity-join-enterprise-ai-venture-sources-say-2026-03-16/",
-      "title": "OpenAI courts private equity to join enterprise AI venture",
-      "link": "https://www.reuters.com/business/openai-courts-private-equity-join-enterprise-ai-venture-sources-say-2026-03-16/",
-      "summary": "Article URL: https://www.reuters.com/business/openai-courts-private-equity-join-enterprise-ai-venture-sources-say-2026-03-16/ Comments URL: https://news.ycombinator.com/item?id=47414316 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-17T15:47:00.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/swarmgram/swarmgrampublic",
-      "title": "Lewis 1.0 – 8B model trained on AI social data beats Sonnet on personality dvgnc",
-      "link": "https://github.com/swarmgram/swarmgrampublic",
-      "summary": "Article URL: https://github.com/swarmgram/swarmgrampublic Comments URL: https://news.ycombinator.com/item?id=47413881 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-17T15:16:49.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/cssmith615/praxis",
-      "title": "Praxis – an AI-native intermediate language for agentic workflows",
-      "link": "https://github.com/cssmith615/praxis",
-      "summary": "Article URL: https://github.com/cssmith615/praxis Comments URL: https://news.ycombinator.com/item?id=47413822 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-17T15:12:30.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4428,6 +4451,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-07T08:15:27.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.disporx.com/resources/disporx-launches-agentic-ed",
+      "title": "DispoRx: Using Agentic AI as a high-fidelity simulator for ER workflows",
+      "link": "https://www.disporx.com/resources/disporx-launches-agentic-ed",
+      "summary": "Article URL: https://www.disporx.com/resources/disporx-launches-agentic-ed Comments URL: https://news.ycombinator.com/item?id=47677023 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-07T15:39:00.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5056,6 +5091,18 @@
       "status": "queued"
     },
     {
+      "id": "https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk",
+      "title": "How to Build an AI Agent for Slack with Chat SDK and AI SDK",
+      "link": "https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk",
+      "summary": "Article URL: https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk Comments URL: https://news.ycombinator.com/item?id=47676359 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-07T14:52:22.000Z",
+      "score": 128.56,
+      "status": "queued"
+    },
+    {
       "id": "https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/",
       "title": "The 53-Year Evolution of AI Agents: A Comprehensive Reading List",
       "link": "https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/",
@@ -5632,40 +5679,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.02617",
-      "title": "AutoVerifier: An Agentic Automated Verification Framework Using Large Language Models",
-      "link": "https://arxiv.org/abs/2604.02617",
-      "summary": "arXiv:2604.02617v1 Announce Type: new Abstract: Scientific and Technical Intelligence (S&TI) analysis requires verifying complex technical claims across rapidly growing literature, where existing approaches fail to bridge the verification gap between surface-level accuracy and deeper methodological validity. We present AutoVerifier, an LLM-based agentic framework that automates end-to-end verification of technical claims without requiring domain expertise. AutoVerifier decomposes every technical assertion into structured claim triples of the form (Subject, Predicate, Object), constructing knowledge graphs that enable structured reasoning across six progressively enriching layers: corpus construction and ingestion, entity and claim extraction, intra-document verification, cross-source verification, external signal corroboration, and final hypothesis matrix generation. We demonstrate AutoVerifier on a contested quantum computing claim, where the framework, operated by analysts with no quantum expertise, automatically identified overclaims and metric inconsistencies within the target paper, traced cross-source contradictions, uncovered undisclosed commercial conflicts of interest, and produced a final assessment. These results show that structured LLM verification can reliably evaluate the validity and maturity of emerging technologies, turning raw technical documents into traceab",
-      "source": "ArXiv cs.AI",
+      "id": "https://one-man-company.com/",
+      "title": "Show HN: OneManCompany The first AI company with real corporate org structure",
+      "link": "https://one-man-company.com/",
+      "summary": "We built an AI company. Not a chatbot wrapper — a company with HR, COO, engineers, and designers, all AI agents, organised and managed the way a real company operates. You're the CEO, the only human. To be clear: this is not one LLM with a bunch of prompts pretending to be a team. These are fully independent agents — different models, different backends, different runtimes — each doing their own job. *Why organise a…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-06T04:00:00.000Z",
-      "score": 113.95,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.26076",
-      "title": "Semi-Automated Knowledge Engineering and Process Mapping for Total Airport Management",
-      "link": "https://arxiv.org/abs/2603.26076",
-      "summary": "arXiv:2603.26076v1 Announce Type: new Abstract: Documentation of airport operations is inherently complex due to extensive technical terminology, rigorous regulations, proprietary regional information, and fragmented communication across multiple stakeholders. The resulting data silos and semantic inconsistencies present a significant impediment to the Total Airport Management (TAM) initiative. This paper presents a methodological framework for constructing a domain-grounded, machine-readable Knowledge Graph (KG) through a dual-stage fusion of symbolic Knowledge Engineering (KE) and generative Large Language Models (LLMs). The framework employs a scaffolded fusion strategy in which expert-curated KE structures guide LLM prompts to facilitate the discovery of semantically aligned knowledge triples. We evaluate this methodology on the Google LangExtract library and investigate the impact of context window utilization by comparing localized segment-based inference with document-level processing. Contrary to prior empirical observations of long-context degradation in LLMs, document-level processing improves the recovery of non-linear procedural dependencies. To ensure the high-fidelity provenance required in airport operations, the proposed framework fuses a probabilistic model for discovery and a deterministic algorithm for anchoring every extraction to its ground source. This ens",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-30T04:00:00.000Z",
-      "score": 113.76,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.26512",
-      "title": "CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation",
-      "link": "https://arxiv.org/abs/2603.26512",
-      "summary": "arXiv:2603.26512v1 Announce Type: new Abstract: Existing methods for text-to-CAD generation either operate in a single pass with no geometric verification or rely on lossy visual feedback that cannot resolve dimensional errors. We present CADSmith, a multi-agent pipeline that generates CadQuery code from natural language. It then undergoes an iterative refinement process through two nested correction loops: an inner loop that resolves execution errors and an outer loop grounded in programmatic geometric validation. The outer loop combines exact measurements from the OpenCASCADE kernel (bounding box dimensions, volume, solid validity) with holistic visual assessment from an independent vision-language model Judge. This provides both the numerical precision and the high-level shape awareness needed to converge on the correct geometry. The system uses retrieval-augmented generation over API documentation rather than fine-tuning, maintaining a current database as the underlying CAD library evolves. We evaluate on a custom benchmark of 100 prompts in three difficulty tiers (T1 through T3) with three ablation configurations. Against a zero-shot baseline, CADSmith achieves a 100% execution rate (up from 95%), improves the median F1 score from 0.9707 to 0.9846, the median IoU from 0.8085 to 0.9629, and reduces the mean Chamfer Distance from 28.37 to 0.74, demonstrating that closed-loop",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-30T04:00:00.000Z",
-      "score": 113.76,
-      "status": "queued"
+      "keywordHits": 8,
+      "publishedAt": "2026-04-07T14:46:18.000Z",
+      "score": 187.86,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-07T16:10:10.974Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://github.com/michaelkenealy/blindkey",

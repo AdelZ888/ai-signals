@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-07T08:59:53.234Z",
+  "generatedAt": "2026-04-07T16:21:28.688Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-07-implementing-pre-and-postllm-guardrails-to-prevent-pii-leakage-and-catch-hallucinations",
+      "title": "Implémenter des garde‑fous pré‑ et post‑LLM pour éviter les fuites de PII et attraper les hallucinations",
+      "date": "2026-04-07",
+      "excerpt": "Guide pas à pas pour ajouter deux garde‑fous autour de chaque appel LLM : un pré‑LLM qui redige/filtre pour empêcher la fuite de PII et un post‑LLM qui vérifie les sorties et rattrape les hallucinations avant qu'elles n'atteignent l'utilisateur.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-07-implementing-pre-and-postllm-guardrails-to-prevent-pii-leakage-and-catch-hallucinations.jpg",
+      "tags": [
+        "IA",
+        "agents",
+        "sécurité",
+        "PII",
+        "LLM",
+        "garde‑fous",
+        "devops"
+      ],
+      "sources": [
+        "https://www.arthur.ai/blog/best-practices-for-building-agents-guardrails"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-07T08:59:53.233Z",
+  "generatedAt": "2026-04-07T16:21:28.688Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-07-implementing-pre-and-postllm-guardrails-to-prevent-pii-leakage-and-catch-hallucinations",
+      "title": "Implementing Pre‑ and Post‑LLM Guardrails to Prevent PII Leakage and Catch Hallucinations",
+      "date": "2026-04-07",
+      "excerpt": "Step-by-step guidance to add two guardrails around each LLM call: pre-LLM redaction/blocking to stop PII leakage and post-LLM verification to catch hallucinations before users see them.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-07-implementing-pre-and-postllm-guardrails-to-prevent-pii-leakage-and-catch-hallucinations.jpg",
+      "tags": [
+        "ai-agents",
+        "guardrails",
+        "llm-safety",
+        "pii-redaction",
+        "prompt-injection",
+        "hallucination-detection",
+        "observability",
+        "deployment"
+      ],
+      "sources": [
+        "https://www.arthur.ai/blog/best-practices-for-building-agents-guardrails"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-04-06-wazear-a-visual-ai-orchestrator-for-sdlc-style-pipelines-with-agent-peer-review",
