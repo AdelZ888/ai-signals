@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-04-07T16:21:28.688Z",
+  "generatedAt": "2026-04-08T08:59:01.288Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-08-sdk-style-python-real-time-engine-demoed-as-a-vplc-with-rest-and-opc-ua-integration",
+      "title": "Moteur temps réel style SDK en Python présenté comme un vPLC avec API REST et pont OPC UA",
+      "date": "2026-04-08",
+      "excerpt": "Compte rendu et recommandations pratiques d'une démo vidéo montrant un moteur temps réel Python qui se présente comme un PLC virtuel (vPLC), génère des endpoints REST automatiquement et propose un pont OPC UA ; prudence : mesures et validations nécessaires avant tout usage en écriture.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-08-sdk-style-python-real-time-engine-demoed-as-a-vplc-with-rest-and-opc-ua-integration.jpg",
+      "tags": [
+        "vPLC",
+        "OPC UA",
+        "Python",
+        "temps réel",
+        "edge",
+        "automatisation",
+        "sécurité",
+        "PLC"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=3Uc_OT2CKiE"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-04-07-hiddenlayer-2026-report-autonomous-agents-widen-ai-runtime-attack-surface-and-account-for-roughly-1-in-8-breaches",
       "title": "HiddenLayer 2026 — Les agents autonomes élargissent la surface d'attaque au runtime et représentent environ 1 violation sur 8",
