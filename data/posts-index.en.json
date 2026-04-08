@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-08T08:59:01.289Z",
+  "generatedAt": "2026-04-08T16:31:35.184Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory",
+      "title": "ALTK‑Evolve: Distilling Agent Transcripts into Reusable Guidelines for Long‑Term Memory",
+      "date": "2026-04-08",
+      "excerpt": "How ALTK‑Evolve converts agent interaction traces into short, human‑reviewed guidelines and injects only relevant rules at decision time to improve reliability on multi‑step tasks.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory.jpg",
+      "tags": [
+        "ALTK-Evolve",
+        "agents",
+        "long-term memory",
+        "on-the-job learning",
+        "Hugging Face",
+        "IBM Research",
+        "ReAct",
+        "CUGA"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/ibm-research/altk-evolve"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-04-08-sdk-style-python-real-time-engine-demoed-as-a-vplc-with-rest-and-opc-ua-integration",
       "title": "SDK-style Python real-time engine demoed as a vPLC with REST and OPC UA integration",

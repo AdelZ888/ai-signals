@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-08T08:59:01.297Z",
+  "generatedAt": "2026-04-08T16:31:35.247Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/ibm-research/altk-evolve",
+      "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-08T14:27:42.000Z",
+      "score": 121.57,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-08T16:31:35.172Z",
+      "file": "content/posts/2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory.md",
+      "fileFr": "content/posts/fr/2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1601,
+      "wordsFr": 1339
+    },
     {
       "id": "https://www.youtube.com/watch?v=3Uc_OT2CKiE",
       "title": "Show HN: Bring AI Agents to industrial control via \"SDK-style\" real-time engine",
@@ -3566,30 +3589,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.theverge.com/podcast/906727/cisco-ceo-chuck-robbins-data-centers-space-ai-elon-musk-interview",
-      "title": "Cisco CEO Chuck Robbins wants data centers in space",
-      "link": "https://www.theverge.com/podcast/906727/cisco-ceo-chuck-robbins-data-centers-space-ai-elon-musk-interview",
-      "summary": "Today, I’m talking with Chuck Robbins, CEO of Cisco. Cisco is one of those big companies that everyone has heard of but that most of us don’t have to interact with very much; it’s not really a consumer brand. But all of us are in some way using Cisco’s products and services every day because it makes a huge amount of networking equipment for other big companies, like telecoms and ISPs. It’s a guarantee that somewhere between me recording this and you watching, listening to, or reading it, the bits have passed through Cisco products. Without the actual routers and switches and silicon — and the software to make those things work — there’s no internet, there’s no cloud, and there’s no AI. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. That’s Cisco’s new big business, of course: building all the networking needed inside all of the data centers the AI companies are trying to build. Chuck and I spent a lot of time discussing that. First, where should we build all these data centers? Because it’s not clear that anyone wants them around. A data center is a really unpleasant neighbor to have: It’s loud, it’s ugly, and it uses a ton of electricity, making rates for regular people go up. AI itself is polling pretty badly with Americans, and there’s now fairly robust, bipartisan",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-04-06T15:15:00.000Z",
-      "score": 228,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47676736",
-      "title": "I don't want an autonomous AI agent. I want a collaborator",
-      "link": "https://news.ycombinator.com/item?id=47676736",
-      "summary": "I’ve been using Cursor, Claude, and others quite a bit and I keep hitting the same pattern. The tool really wants me to step aside. I hand it a task, it vanishes, edits a bunch of files, and comes back with a fat diff. Then I’m supposed to reverse-engineer what it did, tie it back to what I intended, and fix what’s not right if I can spot it. It works pretty well a fair amount of the time, but it's not my work. Giving the LLM enough instruction to narrow that gap is more effort than just writing it myself. I’m not looking for an “agent.” Not an intern. I want a collaboration partner. I'm not a cog in the agentic machine. It's a cog in mine. I want to stay in the game. What’s been working for me is a much tighter loop. I find I stay in Cursor quite a bit, keep edits small and in front of me, and let something real kick in when I drift—syntax, structure, rules (I wired up my own setup for that). When something’s wrong, I see it fast. I fix it, or I tell the LLM exactly what to change. No surprise thousand-line patches. No “it went off and did stuff” and I find out later. I stay sharp. I still have the system in my head. I’m not only reviewing it, I’m still building it. The LLM makes me faster but I'm still driving. I’m doing the same with specs (a custom spec DSL integrated into Cursor and IntelliJ). The LLM helps draft, the tooling says “nope” immediately, and I fix directly or",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-07T15:19:25.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
       "title": "The End of Coding: Andrej Karpathy on Agents, AutoResearch, and Loopy Era of AI [video]",
       "link": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
@@ -3934,6 +3933,30 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-04-03T08:16:28.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+      "title": "Meta is reentering the AI race with a new model called Muse Spark",
+      "link": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+      "summary": "Meta Superintelligence Labs is launching its first model since Mark Zuckerberg spent billions overhauling the company's AI efforts. Called Muse Spark, the model now powers the Meta AI app and the Meta AI website in the US, per the company's announcement. In the coming weeks, Meta says, it will appear in WhatsApp, Instagram, Facebook, Messenger, and Meta's smart glasses, as well as roll out in other countries. Like Google Gemini, which easily integrates into Google's product suite, Meta touts Muse Spark as \"purpose-built for Meta's products.\" The model, the first in a new series, will also be available to some of Meta's partners in private … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-08T16:12:54.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04",
+      "title": "Is this the end for data analysts? AI agent, 500GB, 100 rounds, 134.9s, $1.66",
+      "link": "https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04",
+      "summary": "Article URL: https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04 Comments URL: https://news.ycombinator.com/item?id=47691761 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-08T15:42:54.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -4538,6 +4561,18 @@
       "status": "queued"
     },
     {
+      "id": "https://itsfoss.com/news/anthropic-apache-software-foundation-donation/",
+      "title": "Anthropic Just Handed Apache $1.5M to Secure the Open Source Stack AI Depends On",
+      "link": "https://itsfoss.com/news/anthropic-apache-software-foundation-donation/",
+      "summary": "Article URL: https://itsfoss.com/news/anthropic-apache-software-foundation-donation/ Comments URL: https://news.ycombinator.com/item?id=47691992 Points: 2 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-08T15:58:22.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/",
       "title": "Tencent integrates WeChat with OpenClaw AI agent amid China tech battle",
       "link": "https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/",
@@ -4655,18 +4690,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-03-19T14:22:49.000Z",
       "score": 150.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
-      "title": "Snowflake AI Escapes Sandbox and Executes Malware",
-      "link": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
-      "summary": "Article URL: https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware Comments URL: https://news.ycombinator.com/item?id=47427017 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-18T15:30:07.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -4967,6 +4990,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-04-08T04:00:00.000Z",
       "score": 138.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.04192",
+      "title": "Benchmark to measure AI on graphic design tasks",
+      "link": "https://arxiv.org/abs/2604.04192",
+      "summary": "Article URL: https://arxiv.org/abs/2604.04192 Comments URL: https://news.ycombinator.com/item?id=47691227 Points: 5 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-08T15:03:52.000Z",
+      "score": 138.31,
       "status": "queued"
     },
     {
@@ -5426,6 +5461,18 @@
       "status": "queued"
     },
     {
+      "id": "https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html",
+      "title": "Northeastern presentation to junior engineers in the age of AI",
+      "link": "https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html",
+      "summary": "Article URL: https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html Comments URL: https://news.ycombinator.com/item?id=47691156 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-08T14:58:38.000Z",
+      "score": 125.23,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/",
       "title": "Mystery AI model revealed to be Xiaomi's following suspicions it was DeepSeek V4",
       "link": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/",
@@ -5666,52 +5713,36 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.00085",
-      "title": "One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction",
-      "link": "https://arxiv.org/abs/2604.00085",
-      "summary": "arXiv:2604.00085v1 Announce Type: new Abstract: Large language models applied to clinical prediction exhibit case-level heterogeneity: simple cases yield consistent outputs, while complex cases produce divergent predictions under minor prompt changes. Existing single-agent strategies sample from one role-conditioned distribution, and multi-agent frameworks use fixed roles with flat majority voting, discarding the diagnostic signal in disagreement. We propose CAMP (Case-Adaptive Multi-agent Panel), where an attending-physician agent dynamically assembles a specialist panel tailored to each case's diagnostic uncertainty. Each specialist evaluates candidates via three-valued voting (KEEP/REFUSE/NEUTRAL), enabling principled abstention outside one's expertise. A hybrid router directs each diagnosis through strong consensus, fallback to the attending physician's judgment, or evidence-based arbitration that weighs argument quality over vote counts. On diagnostic prediction and brief hospital course generation from MIMIC-IV across four LLM backbones, CAMP consistently outperforms strong baselines while consuming fewer tokens than most competing multi-agent methods, with voting records and arbitration traces offering transparent decision audits.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-02T04:00:00.000Z",
-      "score": 115.32,
-      "status": "queued"
+      "id": "https://www.theverge.com/podcast/906727/cisco-ceo-chuck-robbins-data-centers-space-ai-elon-musk-interview",
+      "title": "Cisco CEO Chuck Robbins wants data centers in space",
+      "link": "https://www.theverge.com/podcast/906727/cisco-ceo-chuck-robbins-data-centers-space-ai-elon-musk-interview",
+      "summary": "Today, I’m talking with Chuck Robbins, CEO of Cisco. Cisco is one of those big companies that everyone has heard of but that most of us don’t have to interact with very much; it’s not really a consumer brand. But all of us are in some way using Cisco’s products and services every day because it makes a huge amount of networking equipment for other big companies, like telecoms and ISPs. It’s a guarantee that somewher…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 9,
+      "publishedAt": "2026-04-06T15:15:00.000Z",
+      "score": 228,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-08T16:14:16.036Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: First section \"TL;DR en langage simple\" is too jargon-heavy. Explain the change in plain language before technical terms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets."
     },
     {
-      "id": "https://arxiv.org/abs/2604.00356",
-      "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
-      "link": "https://arxiv.org/abs/2604.00356",
-      "summary": "arXiv:2604.00356v1 Announce Type: new Abstract: Agentic applications based on large language models increasingly rely on multi-step interaction loops involving planning, action execution, and environment feedback. While such systems are now deployed at scale, improving them post-deployment remains challenging. Agent trajectories are voluminous and non-deterministic, and reviewing each one, whether through human review or auxiliary LLMs, is slow and cost-prohibitive. We propose a lightweight, signal-based framework for triaging agentic interaction trajectories. Our approach computes cheap, broadly applicable signals from live interactions and attaches them as structured attributes for trajectory triage, identifying interactions likely to be informative without affecting online agent behavior. We organize signals into a coarse-grained taxonomy spanning interaction (misalignment, stagnation, disengagement, satisfaction), execution (failure, loop), and environment (exhaustion), designed for computation without model calls. In a controlled annotation study on $\\tau$-bench, a widely used benchmark for tool-augmented agent evaluation, we show that signal-based sampling achieves an 82\\% informativeness rate compared to 74\\% for heuristic filtering and 54\\% for random sampling, with a 1.52x efficiency gain per informative trajectory. The advantage is robust across reward strata and task",
-      "source": "ArXiv cs.AI",
+      "id": "https://news.ycombinator.com/item?id=47676736",
+      "title": "I don't want an autonomous AI agent. I want a collaborator",
+      "link": "https://news.ycombinator.com/item?id=47676736",
+      "summary": "I’ve been using Cursor, Claude, and others quite a bit and I keep hitting the same pattern. The tool really wants me to step aside. I hand it a task, it vanishes, edits a bunch of files, and comes back with a fat diff. Then I’m supposed to reverse-engineer what it did, tie it back to what I intended, and fix what’s not right if I can spot it. It works pretty well a fair amount of the time, but it's not my work. Givi…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-02T04:00:00.000Z",
-      "score": 115.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.27076",
-      "title": "When Verification Hurts: Asymmetric Effects of Multi-Agent Feedback in Logic Proof Tutoring",
-      "link": "https://arxiv.org/abs/2603.27076",
-      "summary": "arXiv:2603.27076v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for automated tutoring, but their reliability in structured symbolic domains remains unclear. We study step-level feedback for propositional logic proofs, which require precise symbolic reasoning aligned with a learner's current proof state. We introduce a knowledge-graph-grounded benchmark of 516 unique proof states with step-level annotations and difficulty metrics. Unlike prior tutoring evaluations that rely on model self-assessment or binary correctness, our framework enables fine-grained analysis of feedback quality against verified solution paths. We evaluate three role-specialized pipelines with varying solution access: Tutor (partial solution access), Teacher (full derivation access), and Judge (verification of Tutor feedback). Our results reveal a striking asymmetry: verification improves outcomes when upstream feedback is error-prone (85%). Critically, we identify a shared complexity ceiling; no model or pipeline reliably succeeds on proof states exceeding complexity 4-5. These findings challenge the assumption that adding verifiers or richer context universally improves tutoring, motivating adaptive, difficulty-aware architectures that route problems by estimated complexity and upstream reliability.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-31T04:00:00.000Z",
-      "score": 115.22,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.28986",
-      "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
-      "link": "https://arxiv.org/abs/2603.28986",
-      "summary": "arXiv:2603.28986v1 Announce Type: new Abstract: Current Autonomous Scientific Research (ASR) systems, despite leveraging large language models (LLMs) and agentic architectures, remain constrained by fixed workflows and toolsets that prevent adaptation to evolving tasks and environments. We introduce Mimosa, an evolving multi-agent framework that automatically synthesizes task-specific multi-agent workflows and iteratively refines them through experimental feedback. Mimosa leverages the Model Context Protocol (MCP) for dynamic tool discovery, generates workflow topologies via a meta-orchestrator, executes subtasks through code-generating agents that invoke available tools and scientific software libraries, and scores executions with an LLM-based judge whose feedback drives workflow refinement. On ScienceAgentBench, Mimosa achieves a success rate of 43.1% with DeepSeek-V3.2, surpassing both single-agent baselines and static multi-agent configurations. Our results further reveal that models respond heterogeneously to multi-agent decomposition and iterative learning, indicating that the benefits of workflow evolution depend on the capabilities of the underlying execution model. Beyond these benchmarks, Mimosa modular architecture and tool-agnostic design make it readily extensible, and its fully logged execution traces and archived workflows support auditability by preserving every",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-01T04:00:00.000Z",
-      "score": 114.47,
-      "status": "queued"
+      "keywordHits": 4,
+      "publishedAt": "2026-04-07T15:19:25.000Z",
+      "score": 180,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-08T16:14:16.036Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://one-man-company.com/",

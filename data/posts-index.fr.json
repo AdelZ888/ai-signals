@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-08T08:59:01.288Z",
+  "generatedAt": "2026-04-08T16:31:35.185Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory",
+      "title": "ALTK‑Evolve : distiller les traces d'agents en directives réutilisables pour une mémoire longue durée",
+      "date": "2026-04-08",
+      "excerpt": "Comment ALTK‑Evolve transforme des trajectoires d'interaction d'agents en courtes directives relues par des humains, et n'injecte au moment de la décision que les règles pertinentes pour améliorer la fiabilité sur les tâches multi‑étapes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory.jpg",
+      "tags": [
+        "ALTK‑Evolve",
+        "mémoire longue durée",
+        "agents IA",
+        "Hugging Face",
+        "IBM Research",
+        "pipelines",
+        "mise en production",
+        "recommandations"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/ibm-research/altk-evolve"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-08-sdk-style-python-real-time-engine-demoed-as-a-vplc-with-rest-and-opc-ua-integration",
       "title": "Moteur temps réel style SDK en Python présenté comme un vPLC avec API REST et pont OPC UA",
