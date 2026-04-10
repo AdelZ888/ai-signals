@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T09:06:57.252Z",
+  "generatedAt": "2026-04-10T16:06:39.066Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-10-remembrallmcp-rust-based-persistent-vector-memory-for-ai-agents-using-postgres-pgvector-and-mcp",
+      "title": "RemembrallMCP — mémoire vectorielle persistante en Rust pour agents IA avec Postgres, pgvector et MCP",
+      "date": "2026-04-10",
+      "excerpt": "Guide pratique pour démarrer RemembrallMCP : un service en Rust qui stocke des embeddings et des métadonnées dans Postgres avec l'extension pgvector, parle le protocole MCP et permet la « recall » pour des agents IA.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-10-remembrallmcp-rust-based-persistent-vector-memory-for-ai-agents-using-postgres-pgvector-and-mcp.jpg",
+      "tags": [
+        "Rust",
+        "Postgres",
+        "pgvector",
+        "MCP",
+        "vector-database",
+        "agents-IA",
+        "déploiement",
+        "embeddings"
+      ],
+      "sources": [
+        "https://github.com/cdnsteve/remembrallmcp"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-04-09-meta-deploys-muse-spark-on-meta-ai-app-and-website-in-the-us-staged-rollout-planned-for-whatsapp-instagram-facebook-and-messenger",

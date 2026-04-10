@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-10T09:06:57.260Z",
+  "generatedAt": "2026-04-10T16:06:39.124Z",
   "items": [
+    {
+      "id": "https://github.com/cdnsteve/remembrallmcp",
+      "title": "RemembrallMCP – persistent memory and code graph for AI agents",
+      "link": "https://github.com/cdnsteve/remembrallmcp",
+      "summary": "Article URL: https://github.com/cdnsteve/remembrallmcp Comments URL: https://news.ycombinator.com/item?id=47719361 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-10T15:11:39.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-10T16:06:39.053Z",
+      "file": "content/posts/2026-04-10-remembrallmcp-rust-based-persistent-vector-memory-for-ai-agents-using-postgres-pgvector-and-mcp.md",
+      "fileFr": "content/posts/fr/2026-04-10-remembrallmcp-rust-based-persistent-vector-memory-for-ai-agents-using-postgres-pgvector-and-mcp.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1442,
+      "wordsFr": 1342
+    },
     {
       "id": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
       "title": "The End of Coding: Andrej Karpathy on Agents, AutoResearch, and Loopy Era of AI [video]",
@@ -3635,6 +3658,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://github.com/ali-erfan-dev/skilldeck",
+      "title": "Show HN: Skilldeck – Desktop app to manage AI agent skill files across tools",
+      "link": "https://github.com/ali-erfan-dev/skilldeck",
+      "summary": "Skill files (.claude/skills/, .cursor/rules/*.mdc, AGENTS.md, .windsurfrules) are becoming a core part of AI-assisted development workflows. The problem: they scatter across projects, diverge silently, and every new repo means rebuilding behavioral config from scratch. Each tool uses a different format and location. Skilldeck keeps one local library and deploys to any tool in the correct format automatically. Ten built-in target profiles cover Claude Code, Cursor, Copilot, Windsurf, Codex, and more. Drift detection shows when a deployed skill has fallen out of sync with the library version. Bidirectional sync lets you pull improvements back from a project into the library. The interesting part technically: the entire app was built by Claude Code using a harness engineering methodology — a ground truth JSON file, Playwright E2E verification tests, a regression gate based on a surfaces map, and a feature intake protocol. 31 features across multiple autonomous sessions with no manual application code. I wrote two articles about the harness approach if that side is interesting. No cloud, no backend, local filesystem only. Windows/macOS/Linux. Open source. github.com/ali-erfan-dev/skilldeck Comments URL: https://news.ycombinator.com/item?id=47719403 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-10T15:14:35.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
       "id": "https://agentconnex.com",
       "title": "AgentConnex – The professional network for AI agents",
       "link": "https://agentconnex.com",
@@ -3875,6 +3910,30 @@
       "status": "queued"
     },
     {
+      "id": "https://isahumancheaper.damjanski.com/",
+      "title": "Is a Human Cheaper? Devs or AI Agents Decision Tool",
+      "link": "https://isahumancheaper.damjanski.com/",
+      "summary": "Article URL: https://isahumancheaper.damjanski.com/ Comments URL: https://news.ycombinator.com/item?id=47719731 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-10T15:36:46.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://is.team",
+      "title": "Show HN: I built a project board where AI agents join as real teammates",
+      "link": "https://is.team",
+      "summary": "Article URL: https://is.team Comments URL: https://news.ycombinator.com/item?id=47719483 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-10T15:20:36.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://merylldindin.com/thoughts/reasoning-loop/",
       "title": "We orchestrate our internal AI agent (PydanticAI, Gemini, Jinja2 prompts)",
       "link": "https://merylldindin.com/thoughts/reasoning-loop/",
@@ -3947,6 +4006,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2230257-manipulateur-menteur-imposteur-lenquete-qui-accable-sam-altman-le-patron-dopenai.html",
+      "title": "Manipulateur, menteur, imposteur ? L’enquête qui accable Sam Altman, le patron d’OpenAI",
+      "link": "https://www.numerama.com/tech/2230257-manipulateur-menteur-imposteur-lenquete-qui-accable-sam-altman-le-patron-dopenai.html",
+      "summary": "Sam Altman, l’un des visages les plus influents de l’intelligence artificielle, fait l’objet d’un portrait particulièrement critique dans une enquête du New Yorker. Le magazine y relaie des accusations de manipulation, des doutes sur sa maîtrise technique et une affaire familiale grave, contestée par l’intéressé.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-10T15:05:07.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2603.19685",
       "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
       "link": "https://arxiv.org/abs/2603.19685",
@@ -3991,6 +4062,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-03-31T15:29:03.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47719925",
+      "title": "Show HN: I built a $3/yr AI workflow to stop doomscrolling Twitter for tech news",
+      "link": "https://news.ycombinator.com/item?id=47719925",
+      "summary": "I’ve always had a simple but annoying problem: I want to stay updated on the latest open-source projects and tech trends, but I really don’t want to rely on scrolling Twitter to get them anymore. The signal-to-noise ratio is getting worse. To find a few genuinely valuable projects, most of my time is wasted on meaningless noise, outrage bait, and ads. I tried various aggregators and subscription feeds, but I still ended up having to click through and filter things manually. The core issue wasn't solved. So I built a small automated workflow called TechDistill. The goal is simple: Stop browsing the feeds entirely, and just get a curated result every day. Now, this pipeline generates four Markdown files daily: One overall Overview, to quickly catch up on what's worth paying attention to today. Three Source-specific reports (GitHub Trending, Hugging Face, Product Hunt) with more complete details. My daily routine looks like this: I scan the overview first to quickly judge if there's anything worth diving into. If there is, I check the specific source report for the details. Every project comes with a short blurb telling me exactly \"what it actually does,\" so most of the time I don't even need to click into the README to understand it. The whole process is fully automated: scrape data directly from the sources → clean it up → let the model distill it. I basically don't visit the or",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-10T15:49:04.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -5111,6 +5194,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.cnbc.com/2026/04/10/alibaba-happyhorse-ai-video-model-benchmark-reveal.html",
+      "title": "Alibaba just revealed it's behind a viral AI video model dominating leaderboards",
+      "link": "https://www.cnbc.com/2026/04/10/alibaba-happyhorse-ai-video-model-benchmark-reveal.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/04/10/alibaba-happyhorse-ai-video-model-benchmark-reveal.html Comments URL: https://news.ycombinator.com/item?id=47718651 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-10T14:24:41.000Z",
+      "score": 128.85,
+      "status": "queued"
+    },
+    {
       "id": "https://oplexa.com/ai-inference-cost-crisis-2026/",
       "title": "AI Inference Cost Crisis 2026: Why Your AI Bill Is Exploding",
       "link": "https://oplexa.com/ai-inference-cost-crisis-2026/",
@@ -5708,78 +5803,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-10T04:00:00.000Z",
       "score": 96.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06628",
-      "title": "Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability",
-      "link": "https://arxiv.org/abs/2604.06628",
-      "summary": "arXiv:2604.06628v1 Announce Type: new Abstract: A prevailing narrative in LLM post-training holds that supervised finetuning (SFT) memorizes while reinforcement learning (RL) generalizes. We revisit this claim for reasoning SFT with long chain-of-thought (CoT) supervision and find that cross-domain generalization is not absent but conditional, jointly shaped by optimization dynamics, training data, and base-model capability. Some reported failures are under-optimization artifacts: cross-domain performance first degrades before recovering and improving with extended training (a dip-and-recovery pattern), so shorttraining checkpoints can underestimate generalization. Data quality and structure both matter: low-quality solutions broadly hurt generalization,while verified long-CoT traces yield consistent cross-domain gains. Model capability is essential: stronger models internalize transferable procedural patterns (e.g., backtracking) even from a toy arithmetic game, while weaker ones imitate surface verbosity. This generalization is asymmetric, however: reasoning improves while safety degrades, reframing the question from whether reasoning SFT generalizes to under what conditions and at what cost.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-10T04:00:00.000Z",
-      "score": 96.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
-      "title": "Google&#8217;s Gemini AI can answer your questions with 3D models and simulations",
-      "link": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
-      "summary": "Google's latest upgrade for Gemini will allow the chatbot to generate interactive 3D models and simulations in response to your questions. With the new feature, you may see options to rotate the AI-generated model, manually adjust sliders on it, or input different values to change the simulation in real-time. When trying out the feature for myself, I asked Gemini to make a simulation of the Moon orbiting the Earth, and it created a 3D model with a few different ways to interact with it. Along with a slider to adjust the speed of the Moon's orbit, there's also a toggle to hide the line representing its orbital path and a button to pause the … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-09T17:57:58.000Z",
-      "score": 91.99,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06695",
-      "title": "Reasoning Fails Where Step Flow Breaks",
-      "link": "https://arxiv.org/abs/2604.06695",
-      "summary": "arXiv:2604.06695v1 Announce Type: new Abstract: Large reasoning models (LRMs) that generate long chains of thought now perform well on multi-step math, science, and coding tasks. However, their behavior is still unstable and hard to interpret, and existing analysis tools struggle with such long, structured reasoning traces. We introduce Step-Saliency, which pools attention--gradient scores into step-to-step maps along the question--thinking--summary trajectory. Across several models, Step-Saliency reveals two recurring information-flow failures: Shallow Lock-in, where shallow layers over-focus on the current step and barely use earlier context, and Deep Decay, where deep layers gradually lose saliency on the thinking segment and the summary increasingly attends to itself and the last few steps. Motivated by these patterns, we propose StepFlow, a saliency-inspired test-time intervention that adjusts shallow saliency patterns measured by Step-Saliency via Odds-Equal Bridge and adds a small step-level residual in deep layers via Step Momentum Injection. StepFlow improves accuracy on math, science, and coding tasks across multiple LRMs without retraining, indicating that repairing information flow can recover part of their missing reasoning performance.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-10T04:00:00.000Z",
-      "score": 84.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06233",
-      "title": "Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules",
-      "link": "https://arxiv.org/abs/2604.06233",
-      "summary": "arXiv:2604.06233v1 Announce Type: new Abstract: Safety-trained language models routinely refuse requests for help circumventing rules. But not all rules deserve compliance. When users ask for help evading rules imposed by an illegitimate authority, rules that are deeply unjust or absurd in their content or application, or rules that admit of justified exceptions, refusal is a failure of moral reasoning. We introduce empirical results documenting this pattern of refusal that we call blind refusal: the tendency of language models to refuse requests for help breaking rules without regard to whether the underlying rule is defensible. Our dataset comprises synthetic cases crossing 5 defeat families (reasons a rule can be broken) with 19 authority types, validated through three automated quality gates and human review. We collect responses from 18 model configurations across 7 families and classify them on two behavioral dimensions -- response type (helps, hard refusal, or deflection) and whether the model recognizes the reasons that undermine the rule's claim to compliance -- using a blinded GPT-5.4 LLM-as-judge evaluation. We find that models refuse 75.4% (N=14,650) of defeated-rule requests and do so even when the request poses no independent safety or dual-use concerns. We also find that models engage with the defeat condition in the majority of cases (57.5%) but decline to help",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-09T04:00:00.000Z",
-      "score": 81.77,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06251",
-      "title": "Toward Reducing Unproductive Container Moves: Predicting Service Requirements and Dwell Times",
-      "link": "https://arxiv.org/abs/2604.06251",
-      "summary": "arXiv:2604.06251v1 Announce Type: new Abstract: This article presents the results of a data science study conducted at a container terminal, aimed at reducing unproductive container moves through the prediction of service requirements and container dwell times. We develop and evaluate machine learning models that leverage historical operational data to anticipate which containers will require pre-clearance handling services prior to cargo release and to estimate how long they are expected to remain in the terminal. As part of the data preparation process, we implement a classification system for cargo descriptions and perform deduplication of consignee records to improve data consistency and feature quality. These predictive capabilities provide valuable inputs for strategic planning and resource allocation in yard operations. Across multiple temporal validation periods, the proposed models consistently outperform existing rule-based heuristics and random baselines in precision and recall. These results demonstrate the practical value of predictive analytics for improving operational efficiency and supporting data-driven decision-making in container terminal logistics.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-10T04:00:00.000Z",
-      "score": 78.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06714",
-      "title": "Steering the Verifiability of Multimodal AI Hallucinations",
-      "link": "https://arxiv.org/abs/2604.06714",
-      "summary": "arXiv:2604.06714v1 Announce Type: new Abstract: AI applications driven by multimodal large language models (MLLMs) are prone to hallucinations and pose considerable risks to human users. Crucially, such hallucinations are not equally problematic: some hallucination contents could be detected by human users(i.e., obvious hallucinations), while others are often missed or require more verification effort(i.e., elusive hallucinations). This indicates that multimodal AI hallucinations vary significantly in their verifiability. Yet, little research has explored how to control this property for AI applications with diverse security and usability demands. To address this gap, we construct a dataset from 4,470 human responses to AI-generated hallucinations and categorize these hallucinations into obvious and elusive types based on their verifiability by human users. Further, we propose an activation-space intervention method that learns separate probes for obvious and elusive hallucinations. We reveal that obvious and elusive hallucinations elicit different intervention probes, allowing for fine-grained control over the model's verifiability. Empirical results demonstrate the efficacy of this approach and show that targeted interventions yield superior performance in regulating corresponding verifiability. Moreover, simply mixing these interventions enables flexible control over the ver",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-10T04:00:00.000Z",
-      "score": 78.05,
       "status": "queued"
     },
     {
