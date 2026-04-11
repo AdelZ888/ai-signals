@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-10T16:06:39.124Z",
+  "generatedAt": "2026-04-11T08:39:32.198Z",
   "items": [
+    {
+      "id": "https://github.com/ali-erfan-dev/skilldeck",
+      "title": "Show HN: Skilldeck – Desktop app to manage AI agent skill files across tools",
+      "link": "https://github.com/ali-erfan-dev/skilldeck",
+      "summary": "Skill files (.claude/skills/, .cursor/rules/*.mdc, AGENTS.md, .windsurfrules) are becoming a core part of AI-assisted development workflows. The problem: they scatter across projects, diverge silently, and every new repo means rebuilding behavioral config from scratch. Each tool uses a different format and location. Skilldeck keeps one local library and deploys to any tool in the correct format automatically. Ten bu…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-10T15:14:35.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-11T08:39:32.177Z",
+      "file": "content/posts/2026-04-11-skilldeck-a-localfirst-desktop-app-to-centralize-and-export-ai-agent-skill-files.md",
+      "fileFr": "content/posts/fr/2026-04-11-skilldeck-a-localfirst-desktop-app-to-centralize-and-export-ai-agent-skill-files.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1413,
+      "wordsFr": 1316
+    },
     {
       "id": "https://github.com/cdnsteve/remembrallmcp",
       "title": "RemembrallMCP – persistent memory and code graph for AI agents",
@@ -3658,18 +3681,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://github.com/ali-erfan-dev/skilldeck",
-      "title": "Show HN: Skilldeck – Desktop app to manage AI agent skill files across tools",
-      "link": "https://github.com/ali-erfan-dev/skilldeck",
-      "summary": "Skill files (.claude/skills/, .cursor/rules/*.mdc, AGENTS.md, .windsurfrules) are becoming a core part of AI-assisted development workflows. The problem: they scatter across projects, diverge silently, and every new repo means rebuilding behavioral config from scratch. Each tool uses a different format and location. Skilldeck keeps one local library and deploys to any tool in the correct format automatically. Ten built-in target profiles cover Claude Code, Cursor, Copilot, Windsurf, Codex, and more. Drift detection shows when a deployed skill has fallen out of sync with the library version. Bidirectional sync lets you pull improvements back from a project into the library. The interesting part technically: the entire app was built by Claude Code using a harness engineering methodology — a ground truth JSON file, Playwright E2E verification tests, a regression gate based on a surfaces map, and a feature intake protocol. 31 features across multiple autonomous sessions with no manual application code. I wrote two articles about the harness approach if that side is interesting. No cloud, no backend, local filesystem only. Windows/macOS/Linux. Open source. github.com/ali-erfan-dev/skilldeck Comments URL: https://news.ycombinator.com/item?id=47719403 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-10T15:14:35.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
       "id": "https://agentconnex.com",
       "title": "AgentConnex – The professional network for AI agents",
       "link": "https://agentconnex.com",
@@ -5803,6 +5814,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-10T04:00:00.000Z",
       "score": 96.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
+      "title": "Google’s Gemini AI can answer your questions with 3D models and simulations",
+      "link": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
+      "summary": "Google's latest upgrade for Gemini will allow the chatbot to generate interactive 3D models and simulations in response to your questions. With the new feature, you may see options to rotate the AI-generated model, manually adjust sliders on it, or input different values to change the simulation in real time. When trying out the feature for myself, I asked Gemini to make a simulation of the Moon orbiting the Earth, and it created a 3D model with a few different ways to interact with it. Along with a slider to adjust the speed of the Moon's orbit, there's also a toggle to hide the line representing its orbital path and a button to pause the … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-09T17:57:58.000Z",
+      "score": 87.11,
       "status": "queued"
     },
     {
