@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-04-12T08:45:23.004Z",
+  "generatedAt": "2026-04-12T15:52:20.349Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors",
+      "title": "Building a two-agent feedback loop with PrismerCloud to reduce repeated model errors",
+      "date": "2026-04-12",
+      "excerpt": "Step-by-step plan using the open-source PrismerCloud scaffold to run a 2-agent loop that logs short lessons and applies corrections to reduce repeated model errors. Demo in ~3h.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors.jpg",
+      "tags": [
+        "PrismerCloud",
+        "multi-agent",
+        "ai-agents",
+        "tutorial",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/Prismer-AI/PrismerCloud"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-04-12-new-yorker-investigation-and-french-coverage-question-sam-altmans-leadership-and-technical-claims",
       "title": "New Yorker Investigation and French Coverage Question Sam Altman's Leadership and Technical Claims",

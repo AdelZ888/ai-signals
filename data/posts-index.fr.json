@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-04-12T08:45:23.006Z",
+  "generatedAt": "2026-04-12T15:52:20.347Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors",
+      "title": "Boucler le retour d'information entre deux agents avec PrismerCloud pour réduire les erreurs répétées",
+      "date": "2026-04-12",
+      "excerpt": "Plan pas à pas pour utiliser le scaffold open-source PrismerCloud afin de lancer une boucle à 2 agents qui enregistre de courtes « leçons » et applique des corrections pour réduire les erreurs récurrentes des modèles. Démo possible en ~3 heures (estimation).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors.jpg",
+      "tags": [
+        "AI",
+        "agents",
+        "feedback-loop",
+        "PrismerCloud",
+        "déploiement",
+        "petite-équipe",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/Prismer-AI/PrismerCloud"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-12-new-yorker-investigation-and-french-coverage-question-sam-altmans-leadership-and-technical-claims",
       "title": "Enquête New Yorker → résumé Numerama : ce que les équipes IA doivent surveiller",
