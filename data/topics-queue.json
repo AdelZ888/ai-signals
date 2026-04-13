@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-12T15:52:20.409Z",
+  "generatedAt": "2026-04-13T09:34:51.221Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
+      "title": "Art schools are being torn apart by AI",
+      "link": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
+      "summary": "The curriculum at creative institutions is evolving to handle gen AI tools, and a lot of people aren’t happy about it. | Image by Cath Virginia / The Verge When my baby brother, a 3D modelling and animation student, talks to me about his projects and studies, the pride I usually feel is becoming increasingly tainted by a growing sense of dread. As a creative professional and former design student myself, I understan…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-03-31T15:00:00.000Z",
+      "score": 152.4,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-04-13T09:34:51.199Z",
+      "file": "content/posts/2026-04-13-art-schools-add-generative-ai-into-courses-reshaping-assessments-and-portfolio-requirements.md",
+      "fileFr": "content/posts/fr/2026-04-13-art-schools-add-generative-ai-into-courses-reshaping-assessments-and-portfolio-requirements.md",
+      "generationMode": "llm",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1268,
+      "wordsFr": 1201
+    },
     {
       "id": "https://github.com/Prismer-AI/PrismerCloud",
       "title": "Show HN: AI agents that learn from each other's mistakes",
@@ -3727,6 +3750,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://www.npmjs.com/package/@stackone/defender",
+      "title": "Defender – Local prompt injection detection for AI agents (no API calls)",
+      "link": "https://www.npmjs.com/package/@stackone/defender",
+      "summary": "Article URL: https://www.npmjs.com/package/@stackone/defender Comments URL: https://news.ycombinator.com/item?id=47749598 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-13T09:13:19.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
       "id": "https://agentconnex.com",
       "title": "AgentConnex – The professional network for AI agents",
       "link": "https://agentconnex.com",
@@ -4051,18 +4086,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.19685",
-      "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
-      "link": "https://arxiv.org/abs/2603.19685",
-      "summary": "arXiv:2603.19685v1 Announce Type: new Abstract: Large language model (LLM)-based agents have emerged as powerful autonomous controllers for digital environments, including mobile interfaces, operating systems, and web browsers. Web navigation, for example, requires handling dynamic content and long sequences of actions, making it particularly challenging. Existing LLM-based agents struggle with long-horizon planning in two main ways. During online execution, they often lose track as new information arrives, lacking a clear and adaptive path toward the final goal. This issue is further exacerbated during reinforcement learning (RL) fine-tuning, where sparse and delayed rewards make it difficult for agents to identify which actions lead to success, preventing them from maintaining coherent reasoning over extended tasks. To address these challenges, we propose two contributions. First, we introduce an agent framework that leverages proprietary models for online planning through subgoal decomposition. Second, we present MiRA (Milestoning your Reinforcement Learning Enhanced Agent), an RL training framework that uses dense, milestone-based reward signals. The real-time planning mechanism improves proprietary models such as Gemini by approximately a 10% absolute increase in success rate (SR) on the WebArena-Lite benchmark. Meanwhile, applying MiRA to the open Gemma3-12B model increas",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 163.36,
-      "status": "queued"
-    },
-    {
       "id": "https://penberg.org/blog/rp.html",
       "title": "Repairing Programs with AI Agents",
       "link": "https://penberg.org/blog/rp.html",
@@ -4156,30 +4179,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://vistai.org",
-      "title": "VistAI–Save and Search AI Responses from ChatGPT, Claude, Gemini, and Perplexity",
-      "link": "https://vistai.org",
-      "summary": "Article URL: https://vistai.org Comments URL: https://news.ycombinator.com/item?id=47486615 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-23T08:10:29.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://gatoplugins.com/blog/released-v17-1-self-hosted-llm-translation",
-      "title": "Stop spending money on AI credits Translate your content using self-hosted LLMs",
-      "link": "https://gatoplugins.com/blog/released-v17-1-self-hosted-llm-translation",
-      "summary": "Article URL: https://gatoplugins.com/blog/released-v17-1-self-hosted-llm-translation Comments URL: https://news.ycombinator.com/item?id=47486523 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-23T07:55:56.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4627,15 +4626,27 @@
       "status": "queued"
     },
     {
-      "id": "https://mljar.com/ai-prompts/",
-      "title": "Show HN: AI Prompts for Data Professionals",
-      "link": "https://mljar.com/ai-prompts/",
-      "summary": "Article URL: https://mljar.com/ai-prompts/ Comments URL: https://news.ycombinator.com/item?id=47486460 Points: 1 # Comments: 0",
+      "id": "https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement",
+      "title": "Linux lays down the law on AI-generated code, says yes to Copilot, no to AI slop",
+      "link": "https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement",
+      "summary": "Article URL: https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement Comments URL: https://news.ycombinator.com/item?id=47749646 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 2,
-      "publishedAt": "2026-03-23T07:42:51.000Z",
-      "score": 153.92,
+      "publishedAt": "2026-04-13T09:23:09.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bassimeledath.com/blog/invariant-engineering",
+      "title": "Invariant Engineering: Why Your AI Agent Is Either Broken or Boring",
+      "link": "https://www.bassimeledath.com/blog/invariant-engineering",
+      "summary": "Article URL: https://www.bassimeledath.com/blog/invariant-engineering Comments URL: https://news.ycombinator.com/item?id=47749317 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-13T08:29:40.000Z",
+      "score": 156,
       "status": "queued"
     },
     {
@@ -4663,18 +4674,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
-      "title": "Art schools are being torn apart by AI",
-      "link": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
-      "summary": "The curriculum at creative institutions is evolving to handle gen AI tools, and a lot of people aren’t happy about it. | Image by Cath Virginia / The Verge When my baby brother, a 3D modelling and animation student, talks to me about his projects and studies, the pride I usually feel is becoming increasingly tainted by a growing sense of dread. As a creative professional and former design student myself, I understand all too well how fierce the competition for postgraduate jobs will be, but his future is being threatened by something that barely even existed during my own time in higher education: generative AI. College students are feeling that fear as well. Earlier this year, in a small protest at CalArts, posters that requested the help of AI artists for a thesis were reportedly altered wit … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-31T15:00:00.000Z",
-      "score": 152.4,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/neo4j-labs/ai-governor",
       "title": "Show HN: We caught our AI agents self-approving their own work, so we built this",
       "link": "https://github.com/neo4j-labs/ai-governor",
@@ -4696,18 +4695,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-10T07:57:20.000Z",
       "score": 152.2,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.19515",
-      "title": "ItinBench: Benchmarking Planning Across Multiple Cognitive Dimensions with Large Language Models",
-      "link": "https://arxiv.org/abs/2603.19515",
-      "summary": "arXiv:2603.19515v1 Announce Type: new Abstract: Large language models (LLMs) with advanced cognitive capabilities are emerging as agents for various reasoning and planning tasks. Traditional evaluations often focus on specific reasoning or planning questions within controlled environments. Recent studies have explored travel planning as a medium to integrate various verbal reasoning tasks into real-world contexts. However, reasoning tasks extend beyond verbal reasoning alone, and a comprehensive evaluation of LLMs requires a testbed that incorporates tasks from multiple cognitive domains. To address this gap, we introduce ItinBench, a benchmark that features one task of spatial reasoning, i.e., route optimization, into trip itinerary planning while keeping the traditional verbal reasoning tasks. ItinBench evaluates various LLMs across diverse tasks simultaneously, including Llama 3.1 8B, Mistral Large, Gemini 1.5 Pro, and GPT family. Our findings reveal that LLMs struggle to maintain high and consistent performance when concurrently handling multiple cognitive dimensions. By incorporating tasks from distinct human-level cognitive domains, ItinBench provides new insights into building more comprehensive reasoning testbeds that better reflect real-world challenges. The code and dataset: https://ethanwtl.github.io/IBweb/",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 151.36,
       "status": "queued"
     },
     {
@@ -4771,18 +4758,6 @@
       "status": "queued"
     },
     {
-      "id": "https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/",
-      "title": "Prompt to tape out: Autonomous AI agent builds 1.5 GHz RISC-V CPU",
-      "link": "https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/",
-      "summary": "Article URL: https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/ Comments URL: https://news.ycombinator.com/item?id=47486400 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-23T07:28:09.000Z",
-      "score": 149.04,
-      "status": "queued"
-    },
-    {
       "id": "https://grith.ai/blog/zero-ambient-authority-ai-agents",
       "title": "Zero Ambient Authority: The Principle That Should Govern Every AI Agent",
       "link": "https://grith.ai/blog/zero-ambient-authority-ai-agents",
@@ -4816,6 +4791,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-31T14:58:59.000Z",
       "score": 144.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47748747",
+      "title": "Tell HN: AI is bringing back waterfall, here's what I've found",
+      "link": "https://news.ycombinator.com/item?id=47748747",
+      "summary": "Sorry for the clickbait title - I'm a product of my time, I guess. I use these Tell HN as a kind of \"blog\" occasionally because I don't have an actual blog. Never found a flow and style I liked, kinda sad, but I like efficiency and this is that. This is not a post about model choices, or tech stacks, or technology in general. It's just about things I've found to get the most out of my tool, while protecting my mood and health. Disclaimer: there is one tech recommendation at the end. No affiliation, just pure utility passing on from one to another. (Heck, idea: maybe I should just create a blog that let's me do what this simple 3 text box submit does? Anyhow, add that to my list of 25+ ideas rn). It's not just about getting the work done: it's about feeling good when, and while, you get there. Getting the work done is important, but feeling good, is necessary. This is life, after all, we should be enjoying it. Here's what I've found works in this age of AI dev that remove unnecessary sources of suffering: - No micromanaging. Agent's think, and change their mind. Interjecting too often not only costs tokens/requests, and can steer them off course, you can be pre-empting their reasoning which would have arrived in the right place. Just because it's not how you would have thought about it, resist the urge to interrupt unless it's an obvious disaster. But then, your spec should have",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-13T07:14:37.000Z",
+      "score": 144.39,
       "status": "queued"
     },
     {
@@ -4900,6 +4887,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-12T14:14:17.000Z",
       "score": 142.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.08987",
+      "title": "PilotBench: A Benchmark for General Aviation Agents with Safety Constraints",
+      "link": "https://arxiv.org/abs/2604.08987",
+      "summary": "arXiv:2604.08987v1 Announce Type: new Abstract: As Large Language Models (LLMs) advance toward embodied AI agents operating in physical environments, a fundamental question emerges: can models trained on text corpora reliably reason about complex physics while adhering to safety constraints? We address this through PilotBench, a benchmark evaluating LLMs on safety-critical flight trajectory and attitude prediction. Built from 708 real-world general aviation trajectories spanning nine operationally distinct flight phases with synchronized 34-channel telemetry, PilotBench systematically probes the intersection of semantic understanding and physics-governed prediction through comparative analysis of LLMs and traditional forecasters. We introduce Pilot-Score, a composite metric balancing 60% regression accuracy with 40% instruction adherence and safety compliance. Comparative evaluation across 41 models uncovers a Precision-Controllability Dichotomy: traditional forecasters achieve superior MAE of 7.01 but lack semantic reasoning capabilities, while LLMs gain controllability with 86--89% instruction-following at the cost of 11--14 MAE precision. Phase-stratified analysis further exposes a Dynamic Complexity Gap-LLM performance degrades sharply in high-workload phases such as Climb and Approach, suggesting brittle implicit physics models. These empirical discoveries motivate hybrid",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 142.02,
       "status": "queued"
     },
     {
@@ -5119,18 +5118,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.19896",
-      "title": "Utility-Guided Agent Orchestration for Efficient LLM Tool Use",
-      "link": "https://arxiv.org/abs/2603.19896",
-      "summary": "arXiv:2603.19896v1 Announce Type: new Abstract: Tool-using large language model (LLM) agents often face a fundamental tension between answer quality and execution cost. Fixed workflows are stable but inflexible, while free-form multi-step reasoning methods such as ReAct may improve task performance at the expense of excessive tool calls, longer trajectories, higher token consumption, and increased latency. In this paper, we study agent orchestration as an explicit decision problem rather than leaving it entirely to prompt-level behavior. We propose a utility-guided orchestration policy that selects among actions such as respond, retrieve, tool call, verify, and stop by balancing estimated gain, step cost, uncertainty, and redundancy. Our goal is not to claim universally best task performance, but to provide a controllable and analyzable policy framework for studying quality-cost trade-offs in tool-using LLM agents. Experiments across direct answering, threshold control, fixed workflows, ReAct, and several policy variants show that explicit orchestration signals substantially affect agent behavior. Additional analyses on cost definitions, workflow fairness, and redundancy control further demonstrate that lightweight utility design can provide a defensible and practical mechanism for agent control.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 133.36,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.03286",
       "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
       "link": "https://arxiv.org/abs/2604.03286",
@@ -5152,6 +5139,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-26T14:56:57.000Z",
       "score": 132.58,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.08931",
+      "title": "Enhancing LLM Problem Solving via Tutor-Student Multi-Agent Interaction",
+      "link": "https://arxiv.org/abs/2604.08931",
+      "summary": "arXiv:2604.08931v1 Announce Type: new Abstract: Human cognitive development is shaped not only by individual effort but by structured social interaction, where role-based exchanges such as those between a tutor and a learner, enable solutions that neither could achieve alone. Inspired by these developmental principles, we ask the question whether a tutor-student multi-agent system can create a synergistic effect by pushing Large Language Model (LLM) beyond what it can do within existing frameworks. To test the idea, we adopt autonomous coding problem domain where two agents instantiated from the same LLM assigned asymmetric roles: a student agent generates and iteratively refines solutions, while a tutor agent provides structured evaluative feedback without access to ground-truth answers. In our proposed framework (PETITE), we aim to extract better problem-solving performance from one model by structuring its interaction through complementary roles, rather than relying on stronger supervisory models or heterogeneous ensembles. Our model is evaluated on the APPS coding benchmark against state-of-the-art approaches of Self-Consistency, Self-Refine, Multi-Agent Debate, and Multi-Agent Review. The results show that our model achieves similar or higher accuracy while consuming significantly fewer tokens. These results suggest that developmentally grounded role-differentiated interac",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 130.02,
       "status": "queued"
     },
     {
@@ -5239,18 +5238,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.19584",
-      "title": "PowerLens: Taming LLM Agents for Safe and Personalized Mobile Power Management",
-      "link": "https://arxiv.org/abs/2603.19584",
-      "summary": "arXiv:2603.19584v1 Announce Type: new Abstract: Battery life remains a critical challenge for mobile devices, yet existing power management mechanisms rely on static rules or coarse-grained heuristics that ignore user activities and personal preferences. We present PowerLens, a system that tames the reasoning power of Large Language Models (LLMs) for safe and personalized mobile power management on Android devices. The key idea is that LLMs' commonsense reasoning can bridge the semantic gap between user activities and system parameters, enabling zero-shot, context-aware policy generation that adapts to individual preferences through implicit feedback. PowerLens employs a multi-agent architecture that recognizes user context from UI semantics and generates holistic power policies across 18 device parameters. A PDL-based constraint framework verifies every action before execution, while a two-tier memory system learns individualized preferences from implicit user overrides through confidence-based distillation, requiring no explicit configuration and converging within 3--5 days. Extensive experiments on a rooted Android device show that PowerLens achieves 81.7% action accuracy and 38.8% energy saving over stock Android, outperforming rule-based and LLM-based baselines, with high user satisfaction, fast preference convergence, and strong safety guarantees, with the system itself c",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-23T04:00:00.000Z",
-      "score": 127.36,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.00005",
       "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
       "link": "https://arxiv.org/abs/2604.00005",
@@ -5272,18 +5259,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-04-02T04:00:00.000Z",
       "score": 127.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://01ai.ai/",
-      "title": "I have solved the identity, trust, and memory hurdles with AI Agents",
-      "link": "https://01ai.ai/",
-      "summary": "Article URL: https://01ai.ai/ Comments URL: https://news.ycombinator.com/item?id=47486278 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-23T07:05:00.000Z",
-      "score": 126.79,
       "status": "queued"
     },
     {
@@ -5611,6 +5586,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47748689",
+      "title": "Ask HN: How are you handling runtime security for your AI agents?",
+      "link": "https://news.ycombinator.com/item?id=47748689",
+      "summary": "Our team uses Claude Code, OpenClaw, Claude CoWork and Cursor daily. These tools run shell commands, read files, and call APIs autonomously. We have zero visibility into what happens between the model deciding to act and the action completing. Curious how others are approaching this. Comments URL: https://news.ycombinator.com/item?id=47748689 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-13T07:08:09.000Z",
+      "score": 117.86,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47597591",
       "title": "Show HN: WordBattle – Daily word game where AI agents compete against humans",
       "link": "https://news.ycombinator.com/item?id=47597591",
@@ -5620,18 +5607,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-04-01T06:34:03.000Z",
       "score": 117.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://docs.google.com/spreadsheets/d/12r03Uscybrj2PTc-H7bq7k3fD7GOcCmFVhsFbK5rwHA/edit?usp=sharing",
-      "title": "A vetted map of the agentic AI stack (2026)",
-      "link": "https://docs.google.com/spreadsheets/d/12r03Uscybrj2PTc-H7bq7k3fD7GOcCmFVhsFbK5rwHA/edit?usp=sharing",
-      "summary": "Article URL: https://docs.google.com/spreadsheets/d/12r03Uscybrj2PTc-H7bq7k3fD7GOcCmFVhsFbK5rwHA/edit?usp=sharing Comments URL: https://news.ycombinator.com/item?id=47486324 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-23T07:14:02.000Z",
-      "score": 116.11,
       "status": "queued"
     },
     {
@@ -5680,6 +5655,42 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-10T07:25:31.000Z",
       "score": 112.78,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.08712",
+      "title": "Model Space Reasoning as Search in Feedback Space for Planning Domain Generation",
+      "link": "https://arxiv.org/abs/2604.08712",
+      "summary": "arXiv:2604.08712v1 Announce Type: new Abstract: The generation of planning domains from natural language descriptions remains an open problem even with the advent of large language models and reasoning models. Recent work suggests that while LLMs have the ability to assist with domain generation, they are still far from producing high quality domains that can be deployed in practice. To this end, we investigate the ability of an agentic language model feedback framework to generate planning domains from natural language descriptions that have been augmented with a minimal amount of symbolic information. In particular, we evaluate the quality of the generated domains under various forms of symbolic feedback, including landmarks, and output from the VAL plan validator. Using these feedback mechanisms, we experiment using heuristic search over model space to optimize domain quality.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 112.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.08865",
+      "title": "SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks",
+      "link": "https://arxiv.org/abs/2604.08865",
+      "summary": "arXiv:2604.08865v1 Announce Type: new Abstract: Proximal Policy Optimization (PPO) is central to aligning Large Language Models (LLMs) in reasoning tasks with verifiable rewards. However, standard token-level PPO struggles in this setting due to the instability of temporal credit assignment over long Chain-of-Thought (CoT) horizons and the prohibitive memory cost of the value model. While critic-free alternatives like GRPO mitigate these issues, they incur significant computational overhead by requiring multiple samples for baseline estimation, severely limiting training throughput. In this paper, we introduce Sequence-Level PPO (SPPO), a scalable algorithm that harmonizes the sample efficiency of PPO with the stability of outcome-based updates. SPPO reformulates the reasoning process as a Sequence-Level Contextual Bandit problem, employing a decoupled scalar value function to derive low-variance advantage signals without multi-sampling. Extensive experiments on mathematical benchmarks demonstrate that SPPO significantly surpasses standard PPO and matches the performance of computation-heavy group-based methods, offering a resource-efficient framework for aligning reasoning LLMs.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 112.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.08988",
+      "title": "SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment",
+      "link": "https://arxiv.org/abs/2604.08988",
+      "summary": "arXiv:2604.08988v1 Announce Type: new Abstract: Current LLM-based agents demonstrate strong performance in episodic task execution but remain constrained by static toolsets and episodic amnesia, failing to accumulate experience or optimize strategies across task boundaries. While the Self-Evolving Agent (SEA) paradigm has been previously proposed, this paper contributes a new formal definition of SEA grounded in digital embodiment and continuous cross-task evolution, and introduces SEA-Eval, the first benchmark designed to evaluate SEA characteristics across two dimensions, intra-task execution reliability and long-term evolutionary performance. By organizing tasks into sequential streams and analyzing Success Rate and Token Consumption over time, SEA-Eval quantifies evolutionary gain and structural stability in ways that existing episodic benchmarks cannot. Empirical evaluations reveal a significant evolutionary bottleneck in current state-of-the-art frameworks, where identical success rates mask up to 31.2 times differences in token consumption and divergent evolutionary trajectories under sequential analysis. SEA-Eval provides a rigorous scientific foundation for advancing agents from mere task executors toward genuinely self-evolving digital entities.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 112.02,
       "status": "queued"
     },
     {
@@ -5815,6 +5826,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.08863",
+      "title": "Hidden in Plain Sight: Visual-to-Symbolic Analytical Solution Inference from Field Visualizations",
+      "link": "https://arxiv.org/abs/2604.08863",
+      "summary": "arXiv:2604.08863v1 Announce Type: new Abstract: Recovering analytical solutions of physical fields from visual observations is a fundamental yet underexplored capability for AI-assisted scientific reasoning. We study visual-to-symbolic analytical solution inference (ViSA) for two-dimensional linear steady-state fields: given field visualizations (and first-order derivatives) plus minimal auxiliary metadata, the model must output a single executable SymPy expression with fully instantiated numeric constants. We introduce ViSA-R2 and align it with a self-verifying, solution-centric chain-of-thought pipeline that follows a physicist-like pathway: structural pattern recognition solution-family (ansatz) hypothesis parameter derivation consistency verification. We also release ViSA-Bench, a VLM-ready synthetic benchmark covering 30 linear steady-state scenarios with verifiable analytical/symbolic annotations, and evaluate predictions by numerical accuracy, expression-structure similarity, and character-level accuracy. Using an 8B open-weight Qwen3-VL backbone, ViSA-R2 outperforms strong open-source baselines and the evaluated closed-source frontier VLMs under a standardized protocol.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 94.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.08603",
+      "title": "From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI",
+      "link": "https://arxiv.org/abs/2604.08603",
+      "summary": "arXiv:2604.08603v1 Announce Type: new Abstract: Existing LLM-based agent systems share a common architectural failure: they answer from the unrestricted knowledge space without first simulating how active business scenarios reshape that space for the event at hand -- producing decisions that are fluent but ungrounded and carrying no audit trail. We present LOM-action, which equips enterprise AI with \\emph{event-driven ontology simulation}: business events trigger scenario conditions encoded in the enterprise ontology~(EO), which drive deterministic graph mutations in an isolated sandbox, evolving a working copy of the subgraph into the scenario-valid simulation graph $G_{\\text{sim}}$; all decisions are derived exclusively from this evolved graph. The core pipeline is \\emph{event $\\to$ simulation $\\to$ decision}, realized through a dual-mode architecture -- \\emph{skill mode} and \\emph{reasoning mode}. Every decision produces a fully traceable audit log. LOM-action achieves 93.82% accuracy and 98.74% tool-chain F1 against frontier baselines Doubao-1.8 and DeepSeek-V3.2, which reach only 24--36% F1 despite 80% accuracy -- exposing the \\emph{illusive accuracy} phenomenon. The four-fold F1 advantage confirms that ontology-governed, event-driven simulation, not model scale, is the architectural prerequisite for trustworthy enterprise decision intelligence.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 88.02,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
       "title": "Google’s Gemini AI can answer your questions with 3D models and simulations",
       "link": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
@@ -5851,15 +5886,15 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/delavalom/graft",
-      "title": "Graft – Go AI Agent Framework with Temporal/Hatchet/Trigger.dev Support",
-      "link": "https://github.com/delavalom/graft",
-      "summary": "Article URL: https://github.com/delavalom/graft Comments URL: https://news.ycombinator.com/item?id=47736488 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
+      "id": "https://arxiv.org/abs/2604.08601",
+      "title": "OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains",
+      "link": "https://arxiv.org/abs/2604.08601",
+      "summary": "arXiv:2604.08601v1 Announce Type: new Abstract: The rise of autonomous AI agents exposes a fundamental flaw in API-centric architectures: probabilistic systems directly execute state mutations without sufficient context, coordination, or safety guarantees. We introduce OpenKedge, a protocol that redefines mutation as a governed process rather than an immediate consequence of API invocation. OpenKedge requires actors to submit declarative intent proposals, which are evaluated against deterministically derived system state, temporal signals, and policy constraints prior to execution. Approved intents are compiled into execution contracts that strictly bound permitted actions, resource scope, and time, and are enforced via ephemeral, task-oriented identities. This shifts safety from reactive filtering to preventative, execution-bound enforcement. Crucially, OpenKedge introduces an Intent-to-Execution Evidence Chain (IEEC), which cryptographically links intent, context, policy decisions, execution bounds, and outcomes into a unified lineage. This transforms mutation into a verifiable and reconstructable process, enabling deterministic auditability and reasoning about system behavior. We evaluate OpenKedge across multi-agent conflict scenarios and cloud infrastructure mutations. Results show that the protocol deterministically arbitrates competing intents and cages unsafe execution",
+      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-12T05:47:54.000Z",
-      "score": 78.51,
+      "keywordHits": 4,
+      "publishedAt": "2026-04-13T04:00:00.000Z",
+      "score": 82.02,
       "status": "queued"
     },
     {
