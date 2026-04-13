@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T09:34:51.213Z",
+  "generatedAt": "2026-04-13T16:19:10.207Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "SOCIETY",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks",
+      "title": "IA de chat de groupe avec mémoire fondée sur les témoins pour réduire les fuites de confidentialité",
+      "date": "2026-04-13",
+      "excerpt": "Apprenez à concevoir un participant IA pour chat de groupe qui « lit la pièce » et n'utilise que les faits vus par les personnes présentes. Inclut design, étapes de prototype, et compromis de confidentialité (inspiré par takt.chat).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks.jpg",
+      "tags": [
+        "ia",
+        "chat-de-groupe",
+        "confidentialite",
+        "memorie",
+        "takt",
+        "produit",
+        "developpement"
+      ],
+      "sources": [
+        "https://takt.chat/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
     },
     {
       "slug": "2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T09:34:51.212Z",
+  "generatedAt": "2026-04-13T16:19:10.206Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "SOCIETY",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks",
+      "title": "Group-Chat AI with Witness-Based Memory to Reduce Accidental Privacy Leaks",
+      "date": "2026-04-13",
+      "excerpt": "Learn how to build a group-chat AI that 'reads the room' and stores facts only for users who witnessed them. Includes design, prototype steps, and privacy trade-offs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks.jpg",
+      "tags": [
+        "group-chat",
+        "privacy",
+        "witness-memory",
+        "memory",
+        "tutorial",
+        "takt",
+        "RAG",
+        "embeddings"
+      ],
+      "sources": [
+        "https://takt.chat/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors",

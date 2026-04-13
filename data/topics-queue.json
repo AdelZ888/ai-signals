@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-13T09:34:51.221Z",
+  "generatedAt": "2026-04-13T16:19:10.259Z",
   "items": [
+    {
+      "id": "https://takt.chat/",
+      "title": "Show HN: I built an AI that forgets things when people leave the room",
+      "link": "https://takt.chat/",
+      "summary": "My girlfriend and I had a fight. We both hopped on our shared Claude account to vent, without telling each other. Eventually, she noticed that chat, joined it, and started grilling me. I got bizarre responses from Claude telling me to calm down. After realizing the chat had been renamed \"Why Michael is an inconsiderate asshole\", I refreshed, realized Claude wasn't built with multi-session websockets in mind, and tol…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-07T15:56:16.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-13T16:19:10.192Z",
+      "file": "content/posts/2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks.md",
+      "fileFr": "content/posts/fr/2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1575,
+      "wordsFr": 1795
+    },
     {
       "id": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
       "title": "Art schools are being torn apart by AI",
@@ -3750,15 +3773,15 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.npmjs.com/package/@stackone/defender",
-      "title": "Defender – Local prompt injection detection for AI agents (no API calls)",
-      "link": "https://www.npmjs.com/package/@stackone/defender",
-      "summary": "Article URL: https://www.npmjs.com/package/@stackone/defender Comments URL: https://news.ycombinator.com/item?id=47749598 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
+      "id": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "title": "Microsoft is testing OpenClaw-like AI bots for 365 Copilot",
+      "link": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "summary": "Microsoft is looking into ways it can integrate OpenClaw-style features into 365 Copilot, according to a report from The Information. The test reportedly comes as part of efforts to make its 365 Copilot AI assistant \"run autonomously around the clock\" while completing tasks on behalf of users. Omar Shahine, Microsoft's corporate vice president, confirmed to The Information that the company is \"exploring the potential of technologies like OpenClaw in an enterprise context.\" OpenClaw is an open-source platform that allows users to create AI-powered agents that run locally on a user's device. The platform rose in popularity earlier this year, … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 4,
-      "publishedAt": "2026-04-13T09:13:19.000Z",
-      "score": 192,
+      "publishedAt": "2026-04-13T15:41:09.000Z",
+      "score": 180,
       "status": "queued"
     },
     {
@@ -3918,18 +3941,6 @@
       "status": "queued"
     },
     {
-      "id": "https://takt.chat/",
-      "title": "Show HN: I built an AI that forgets things when people leave the room",
-      "link": "https://takt.chat/",
-      "summary": "My girlfriend and I had a fight. We both hopped on our shared Claude account to vent, without telling each other. Eventually, she noticed that chat, joined it, and started grilling me. I got bizarre responses from Claude telling me to calm down. After realizing the chat had been renamed \"Why Michael is an inconsiderate asshole\", I refreshed, realized Claude wasn't built with multi-session websockets in mind, and told it there were two of us. After that, seeing both sides in one conversation, it naturally started mediating. Nobody asked it to. It identified the correct speaker, read the room, and responded to what the moment needed. We looked for \"group chat with AI\" and it didn't exist. Everything was 1:1 assistant mode. So we started building it. An AI that sits in your group chat as a participant, not a bot you @ to ask things. It has opinions. It decides when to talk and when to shut up. It reads the room. The most interesting wall I hit was memory. RAG, embeddings, native KV, all share one constraint I needed to break. \"User X likes sushi.\" becomes accessible everywhere, forever, to everyone. That's not how knowing things works. If I tell you a secret at a bar, the people at the table know it. The guy who showed up 20 minutes later doesn't. If I told you something sensitive in private, you KNOW it forever, but don't bring it up in front of everyone. So I built witness-based",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-07T15:56:16.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.falconbuilder.dev/",
       "title": "Show HN: Falcon Builder – the modular OS for designing and deploying AI agents",
       "link": "https://www.falconbuilder.dev/",
@@ -3998,6 +4009,42 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-04-10T15:20:36.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://reposit.bot/",
+      "title": "Reposit: Collective Intelligence for AI Agents",
+      "link": "https://reposit.bot/",
+      "summary": "Article URL: https://reposit.bot/ Comments URL: https://news.ycombinator.com/item?id=47753703 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-13T15:44:47.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://agentcall.co",
+      "title": "I built an API for AI agents that handles phone numbers, SMS, OTP and voice",
+      "link": "https://agentcall.co",
+      "summary": "Article URL: https://agentcall.co Comments URL: https://news.ycombinator.com/item?id=47753589 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-13T15:38:05.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theregister.com/2026/04/12/ai_open_weights_models/",
+      "title": "The AI divide putting open weights models in spotlight",
+      "link": "https://www.theregister.com/2026/04/12/ai_open_weights_models/",
+      "summary": "Article URL: https://www.theregister.com/2026/04/12/ai_open_weights_models/ Comments URL: https://news.ycombinator.com/item?id=47753483 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-13T15:31:57.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -4086,18 +4133,6 @@
       "status": "queued"
     },
     {
-      "id": "https://penberg.org/blog/rp.html",
-      "title": "Repairing Programs with AI Agents",
-      "link": "https://penberg.org/blog/rp.html",
-      "summary": "Article URL: https://penberg.org/blog/rp.html Comments URL: https://news.ycombinator.com/item?id=47490375 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-23T14:53:36.000Z",
-      "score": 163.12,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/Robi-Labs/AEP",
       "title": "Show HN: I built a way for AI to remember how you like things done",
       "link": "https://github.com/Robi-Labs/AEP",
@@ -4179,18 +4214,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.alcazarsec.com/tech/posts/openclaw-vs-nemoclaw",
-      "title": "What is the best agentic AI today?",
-      "link": "https://blog.alcazarsec.com/tech/posts/openclaw-vs-nemoclaw",
-      "summary": "Article URL: https://blog.alcazarsec.com/tech/posts/openclaw-vs-nemoclaw Comments URL: https://news.ycombinator.com/item?id=47490731 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-23T15:19:45.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4646,6 +4669,42 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-13T08:29:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://gitmore.io",
+      "title": "AI agent for querying and understanding Git activity in real time",
+      "link": "https://gitmore.io",
+      "summary": "Article URL: https://gitmore.io Comments URL: https://news.ycombinator.com/item?id=47754156 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-13T16:08:53.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.techradar.com/pro/linux-rules-on-using-ai-generated-code-copilot-is-ok-but-humans-must-take-full-responsibility-for-the-contribution",
+      "title": "Linux rules on using AI-code: Copilot is OK, humans to take full responsibility",
+      "link": "https://www.techradar.com/pro/linux-rules-on-using-ai-generated-code-copilot-is-ok-but-humans-must-take-full-responsibility-for-the-contribution",
+      "summary": "Article URL: https://www.techradar.com/pro/linux-rules-on-using-ai-generated-code-copilot-is-ok-but-humans-must-take-full-responsibility-for-the-contribution Comments URL: https://news.ycombinator.com/item?id=47754042 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-13T16:02:11.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/prathyushnallamothu/nexus",
+      "title": "I'm building an AI agent that learns from every task",
+      "link": "https://github.com/prathyushnallamothu/nexus",
+      "summary": "Article URL: https://github.com/prathyushnallamothu/nexus Comments URL: https://news.ycombinator.com/item?id=47753939 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-13T15:56:48.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5334,18 +5393,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.youtube.com/watch?v=MQW3vYVqEPk",
-      "title": "Agentic AI. Demystified",
-      "link": "https://www.youtube.com/watch?v=MQW3vYVqEPk",
-      "summary": "Article URL: https://www.youtube.com/watch?v=MQW3vYVqEPk Comments URL: https://news.ycombinator.com/item?id=47490194 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-23T14:39:37.000Z",
-      "score": 126.04,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.02478",
       "title": "AIVV: Neuro-Symbolic LLM Agent-Integrated Verification and Validation for Trustworthy Autonomous Systems",
       "link": "https://arxiv.org/abs/2604.02478",
@@ -5862,40 +5909,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.specsource.ai",
-      "title": "Show HN: SpecSource – AI That Writes Linear Specs from Sentry, GitHub, & Slack",
-      "link": "https://www.specsource.ai",
-      "summary": "Hi HN, I'm Antoni. I built SpecSource to automate the tedious research you do for every new Linear ticket - matching with Sentry errors, finding the relevant code, searching Slack for context, checking for duplicates in Linear. You connect your ticketing system like Linear to tools like Sentry, GitHub, Slack, and when a new ticket comes in, an AI agent cross-references everything and writes a structured specification. Takes about 30 seconds. The output works well as input for AI coding agents too. Free tier: 100 credits/month (enough for ~20 tickets in my experience). Pro: $10/month for 1,000 credits. Happy to answer questions about the approach or architecture :) Comments URL: https://news.ycombinator.com/item?id=47739077 Points: 2 # Comments: 2",
+      "id": "https://www.npmjs.com/package/@stackone/defender",
+      "title": "Defender – Local prompt injection detection for AI agents (no API calls)",
+      "link": "https://www.npmjs.com/package/@stackone/defender",
+      "summary": "Article URL: https://www.npmjs.com/package/@stackone/defender Comments URL: https://news.ycombinator.com/item?id=47749598 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-12T12:54:37.000Z",
-      "score": 86.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/mensfeld/code-on-incus",
-      "title": "Code on Incus: Security-Hardened Container Runtime for AI Coding Agents",
-      "link": "https://github.com/mensfeld/code-on-incus",
-      "summary": "Article URL: https://github.com/mensfeld/code-on-incus Comments URL: https://news.ycombinator.com/item?id=47736206 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-12T04:39:42.000Z",
-      "score": 84.3,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.08601",
-      "title": "OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains",
-      "link": "https://arxiv.org/abs/2604.08601",
-      "summary": "arXiv:2604.08601v1 Announce Type: new Abstract: The rise of autonomous AI agents exposes a fundamental flaw in API-centric architectures: probabilistic systems directly execute state mutations without sufficient context, coordination, or safety guarantees. We introduce OpenKedge, a protocol that redefines mutation as a governed process rather than an immediate consequence of API invocation. OpenKedge requires actors to submit declarative intent proposals, which are evaluated against deterministically derived system state, temporal signals, and policy constraints prior to execution. Approved intents are compiled into execution contracts that strictly bound permitted actions, resource scope, and time, and are enforced via ephemeral, task-oriented identities. This shifts safety from reactive filtering to preventative, execution-bound enforcement. Crucially, OpenKedge introduces an Intent-to-Execution Evidence Chain (IEEC), which cryptographically links intent, context, policy decisions, execution bounds, and outcomes into a unified lineage. This transforms mutation into a verifiable and reconstructable process, enabling deterministic auditability and reasoning about system behavior. We evaluate OpenKedge across multi-agent conflict scenarios and cloud infrastructure mutations. Results show that the protocol deterministically arbitrates competing intents and cages unsafe execution",
-      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-04-13T04:00:00.000Z",
-      "score": 82.02,
-      "status": "queued"
+      "publishedAt": "2026-04-13T09:13:19.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-13T16:13:18.910Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://github.com/Mike-io-hash/satsgate",
