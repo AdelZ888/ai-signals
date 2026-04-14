@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-13T16:19:10.259Z",
+  "generatedAt": "2026-04-14T09:37:15.515Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "title": "Microsoft is testing OpenClaw-like AI bots for 365 Copilot",
+      "link": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "summary": "Microsoft is looking into ways it can integrate OpenClaw-style features into 365 Copilot, according to a report from The Information. The test reportedly comes as part of efforts to make its 365 Copilot AI assistant \"run autonomously around the clock\" while completing tasks on behalf of users. Omar Shahine, Microsoft's corporate vice president, confirmed to The Information that the company is \"exploring the potentia…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-13T15:41:09.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-14T09:37:15.490Z",
+      "file": "content/posts/2026-04-14-microsoft-tests-persistent-openclaw-style-agents-in-365-copilot-raising-operational-and-security-concerns.md",
+      "fileFr": "content/posts/fr/2026-04-14-microsoft-tests-persistent-openclaw-style-agents-in-365-copilot-raising-operational-and-security-concerns.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1289,
+      "wordsFr": 1259
+    },
     {
       "id": "https://takt.chat/",
       "title": "Show HN: I built an AI that forgets things when people leave the room",
@@ -3773,30 +3796,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
-      "title": "Microsoft is testing OpenClaw-like AI bots for 365 Copilot",
-      "link": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
-      "summary": "Microsoft is looking into ways it can integrate OpenClaw-style features into 365 Copilot, according to a report from The Information. The test reportedly comes as part of efforts to make its 365 Copilot AI assistant \"run autonomously around the clock\" while completing tasks on behalf of users. Omar Shahine, Microsoft's corporate vice president, confirmed to The Information that the company is \"exploring the potential of technologies like OpenClaw in an enterprise context.\" OpenClaw is an open-source platform that allows users to create AI-powered agents that run locally on a user's device. The platform rose in popularity earlier this year, … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-13T15:41:09.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://agentconnex.com",
-      "title": "AgentConnex – The professional network for AI agents",
-      "link": "https://agentconnex.com",
-      "summary": "Article URL: https://agentconnex.com Comments URL: https://news.ycombinator.com/item?id=47503777 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-24T15:07:25.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/",
       "title": "Exclusive eBook: Are we ready to hand AI agents the keys?",
       "link": "https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/",
@@ -4130,6 +4129,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-12T07:42:48.000Z",
       "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.09584",
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "link": "https://arxiv.org/abs/2604.09584",
+      "summary": "arXiv:2604.09584v1 Announce Type: new Abstract: Flow physics and more broadly physical phenomena governed by partial differential equations (PDEs), are inherently continuous, high-dimensional and often chaotic in nature. Traditionally, researchers have explored these rich spatiotemporal PDE solution spaces using laboratory experiments and/or computationally expensive numerical simulations. This severely limits automated and large-scale exploration, unlike domains such as drug discovery or materials science, where discrete, tokenizable representations naturally interface with large language models. We address this by coupling multi-agent LLMs with latent foundation models (LFMs), a generative model over parametrised simulations, that learns explicit, compact and disentangled latent representations of flow fields, enabling continuous exploration across governing PDE parameters and boundary conditions. The LFM serves as an on-demand surrogate simulator, allowing agents to query arbitrary parameter configurations at negligible cost. A hierarchical agent architecture orchestrates exploration through a closed loop of hypothesis, experimentation, analysis and verification, with a tool-modular interface requiring no user support. Applied to flow past tandem cylinders at Re = 500, the framework autonomously evaluates over 1,600 parameter-location pairs and discovers divergent scaling la",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-04-14T04:00:00.000Z",
+      "score": 167.32,
       "status": "queued"
     },
     {
@@ -4709,6 +4720,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/animallee76-spec/jarvis-governed-control-plane",
+      "title": "Jarvis – governed AI control plane with receipts, rollback, and agent guardrails",
+      "link": "https://github.com/animallee76-spec/jarvis-governed-control-plane",
+      "summary": "Article URL: https://github.com/animallee76-spec/jarvis-governed-control-plane Comments URL: https://news.ycombinator.com/item?id=47762795 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-14T08:18:30.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://apoorv03.com/p/the-economics-of-generative-ai-two",
       "title": "The Economics of Generative AI: Two Years Later",
       "link": "https://apoorv03.com/p/the-economics-of-generative-ai-two",
@@ -4829,6 +4852,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.08352",
+      "title": "Security Concerns in Generative AI Coding Assistants",
+      "link": "https://arxiv.org/abs/2604.08352",
+      "summary": "Article URL: https://arxiv.org/abs/2604.08352 Comments URL: https://news.ycombinator.com/item?id=47762692 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-14T08:03:21.000Z",
+      "score": 146.06,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/yonatanbd/status/2041156418183500091",
       "title": "Show HN: AI agent that edits videos from natural language commands",
       "link": "https://twitter.com/yonatanbd/status/2041156418183500091",
@@ -4925,18 +4960,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/cyberguerre/2227999-pendant-quil-mangeait-un-sandwich-lanecdote-qui-resume-tout-ce-qui-inquiete-dans-le-nouveau-modele-danthropic.html",
-      "title": "« Pendant qu’il mangeait un sandwich » : l’anecdote qui résume tout ce qui inquiète dans le nouveau modèle d’Anthropic",
-      "link": "https://www.numerama.com/cyberguerre/2227999-pendant-quil-mangeait-un-sandwich-lanecdote-qui-resume-tout-ce-qui-inquiete-dans-le-nouveau-modele-danthropic.html",
-      "summary": "Alors qu'Anthropic officialisait, le 7 avril 2026, le lancement de Claude Mythos Preview, son modèle le plus puissant à ce jour, c'est un incident documenté dans la fiche technique du modèle qui a capté l'attention : une version antérieure du modèle a réussi à s'échapper de son environnement de test et à contacter un chercheur de sa propre initiative.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-08T07:44:52.000Z",
-      "score": 142.97,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/pitzcarraldo/codex-workers-ai-proxy",
       "title": "Show HN: Codex Workers AI Proxy – Use Cloudflare Workers AI models in Codex CLI",
       "link": "https://github.com/pitzcarraldo/codex-workers-ai-proxy",
@@ -4970,18 +4993,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-03-25T04:00:00.000Z",
       "score": 139.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.20270",
-      "title": "FactorSmith: Agentic Simulation Generation via Markov Decision Process Decomposition with Planner-Designer-Critic Refinement",
-      "link": "https://arxiv.org/abs/2603.20270",
-      "summary": "arXiv:2603.20270v1 Announce Type: new Abstract: Generating executable simulations from natural language specifications remains a challenging problem due to the limited reasoning capacity of large language models (LLMs) when confronted with large, interconnected codebases. This paper presents FactorSmith, a framework that synthesizes playable game simulations in code from textual descriptions by combining two complementary ideas: factored POMDP decomposition for principled context reduction and a hierarchical planner-designer-critic agentic workflow for iterative quality refinement at every generation step. Drawing on the factored partially observable Markov decision process (POMDP) representation introduced by FactorSim [Sun et al., 2024], the proposed method decomposes a simulation specification into modular steps where each step operates only on a minimal subset of relevant state variables, limiting the context window that any single LLM call must process. Inspired by the agentic trio architecture of SceneSmith [Pfaff et al., 2025], FactorSmith embeds within every factored step a three-agent interaction: a planner that orchestrates workflow, a designer that proposes code artifacts, and a critic that evaluates quality through structured scoring, enabling iterative refinement with checkpoint rollback. This paper formalizes the combined approach, presents the mathematical framew",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-24T04:00:00.000Z",
-      "score": 139.75,
       "status": "queued"
     },
     {
@@ -5261,18 +5272,6 @@
       "status": "queued"
     },
     {
-      "id": "https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/",
-      "title": "The 53-Year Evolution of AI Agents: A Comprehensive Reading List",
-      "link": "https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/",
-      "summary": "Article URL: https://fullhoffman.com/2026/03/12/agents-are-agents-reading-list/ Comments URL: https://news.ycombinator.com/item?id=47499410 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-24T07:02:54.000Z",
-      "score": 128.49,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.22651",
       "title": "Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies",
       "link": "https://arxiv.org/abs/2603.22651",
@@ -5501,30 +5500,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47499498",
-      "title": "Ask HN: What would it take to provide free AI to the underprivileged?",
-      "link": "https://news.ycombinator.com/item?id=47499498",
-      "summary": "Hi folks, Seeing headlines recently of Altman's vision for users purchasing access to AI as a utility (the same way we pay for electricity). Whilst I can appreciate the convenience of this, I'm not sure it would be a practical / affordable option in may parts of the world (in my case I'm specifically thinking of the African context, but I'm sure it applies elsewhere too). What would it take to host and provide access to an \"open source\" AI for the benefit of the underprivileged? I'm specifically wondering about the technical possibilities (open source LLMs?), and back-of-the-envelope calculations for hosting and computation. There is going to be a real need for this in my part of the world, and myself and some others are working with a government think tank to help fund and ultimately drive this. Thanks. Comments URL: https://news.ycombinator.com/item?id=47499498 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-24T07:21:31.000Z",
-      "score": 122.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.20213",
-      "title": "AgenticGEO: A Self-Evolving Agentic System for Generative Engine Optimization",
-      "link": "https://arxiv.org/abs/2603.20213",
-      "summary": "arXiv:2603.20213v1 Announce Type: new Abstract: Generative search engines represent a transition from traditional ranking-based retrieval to Large Language Model (LLM)-based synthesis, transforming optimization goals from ranking prominence towards content inclusion. Generative Engine Optimization (GEO), specifically, aims to maximize visibility and attribution in black-box summarized outputs by strategically manipulating source content. However, existing methods rely on static heuristics, single-prompt optimization, or engine preference rule distillation that is prone to overfitting. They cannot flexibly adapt to diverse content or the changing behaviors of generative engines. Moreover, effectively optimizing these strategies requires an impractical amount of interaction feedback from the engines. To address these challenges, we propose AgenticGEO, a self-evolving agentic framework formulating optimization as a content-conditioned control problem, which enhances intrinsic content quality to robustly adapt to the unpredictable behaviors of black-box engines. Unlike fixed-strategy methods, AgenticGEO employs a MAP-Elites archive to evolve diverse, compositional strategies. To mitigate interaction costs, we introduce a Co-Evolving Critic, a lightweight surrogate that approximates engine feedback for content-specific strategy selection and refinement, efficiently guiding both evol",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-24T04:00:00.000Z",
-      "score": 121.75,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.23749",
       "title": "Efficient Benchmarking of AI Agents",
       "link": "https://arxiv.org/abs/2603.23749",
@@ -5621,6 +5596,54 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.09554",
+      "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
+      "link": "https://arxiv.org/abs/2604.09554",
+      "summary": "arXiv:2604.09554v1 Announce Type: new Abstract: Optimism for accelerating scientific discovery with AI continues to grow. Current applications of AI in scientific research range from training dedicated foundation models on scientific data to agentic autonomous hypothesis generation systems to AI-driven autonomous labs. The need to measure progress of AI systems in scientific domains correspondingly must not only accelerate, but increasingly shift focus to more real-world capabilities. Beyond rote knowledge and even just reasoning to actually measuring the ability to perform meaningful work. Prior work introduced the Language Agent Biology Benchmark LAB-Bench as an initial attempt at measuring these abilities. Here we introduce an evolution of that benchmark, LABBench2, for measuring real-world capabilities of AI systems performing useful scientific tasks. LABBench2 comprises nearly 1,900 tasks and is, for the most part, a continuation of LAB-Bench, measuring similar capabilities but in more realistic contexts. We evaluate performance of current frontier models, and show that while abilities measured by LAB-Bench and LABBench2 have improved substantially, LABBench2 provides a meaningful jump in difficulty (model-specific accuracy differences range from -26% to -46% across subtasks) and underscores continued room for performance improvement. LABBench2 continues the legacy of LAB-",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-14T04:00:00.000Z",
+      "score": 119.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.09580",
+      "title": "OOWM: Structuring Embodied Reasoning and Planning via Object-Oriented Programmatic World Modeling",
+      "link": "https://arxiv.org/abs/2604.09580",
+      "summary": "arXiv:2604.09580v1 Announce Type: new Abstract: Standard Chain-of-Thought (CoT) prompting empowers Large Language Models (LLMs) with reasoning capabilities, yet its reliance on linear natural language is inherently insufficient for effective world modeling in embodied tasks. While text offers flexibility, it fails to explicitly represent the state-space, object hierarchies, and causal dependencies required for robust robotic planning. To address these limitations, we propose Object-Oriented World Modeling (OOWM), a novel framework that structures embodied reasoning through the lens of software engineering formalisms. We redefine the world model not as a latent vector space, but as an explicit symbolic tuple $W = \\langle S, T \\rangle$: a State Abstraction ($G_\\text{state}$) instantiating the environmental state $S$, coupled with a Control Policy ($G_\\text{control}$) representing the transition logic $T: S \\times A \\rightarrow S'$. OOWM leverages the Unified Modeling Language (UML) to materialize this definition: it employs Class Diagrams to ground visual perception into rigorous object hierarchies, and Activity Diagrams to operationalize planning into executable control flows. Furthermore, we introduce a three-stage training pipeline combining Supervised Fine-Tuning (SFT) with Group Relative Policy Optimization (GRPO). Crucially, this method utilizes outcome-based rewards from t",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-14T04:00:00.000Z",
+      "score": 119.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.09587",
+      "title": "MobiFlow: Real-World Mobile Agent Benchmarking through Trajectory Fusion",
+      "link": "https://arxiv.org/abs/2604.09587",
+      "summary": "arXiv:2604.09587v1 Announce Type: new Abstract: Mobile agents can autonomously complete user-assigned tasks through GUI interactions. However, existing mainstream evaluation benchmarks, such as AndroidWorld, operate by connecting to a system-level Android emulator and provide evaluation signals based on the state of system resources. In real-world mobile-agent scenarios, however, many third-party applications do not expose system-level APIs to determine whether a task has succeeded, leading to a mismatch between benchmarks and real-world usage and making it difficult to evaluate model performance accurately. To address these issues, we propose MobiFlow, an evaluation framework built on tasks drawn from arbitrary third-party applications. Using an efficient graph-construction algorithm based on multi-trajectory fusion, MobiFlow can effectively compress the state space, support dynamic interaction, and better align with real-world third-party application scenarios. MobiFlow covers 20 widely used third-party applications and comprises 240 diverse real-world tasks, with enriched evaluation metrics. Compared with AndroidWorld, MobiFlow's evaluation results show higher alignment with human assessments and can guide the training of future GUI-based models under real workloads.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-14T04:00:00.000Z",
+      "score": 119.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.09596",
+      "title": "DERM-3R: A Resource-Efficient Multimodal Agents Framework for Dermatologic Diagnosis and Treatment in Real-World Clinical Settings",
+      "link": "https://arxiv.org/abs/2604.09596",
+      "summary": "arXiv:2604.09596v1 Announce Type: new Abstract: Dermatologic diseases impose a large and growing global burden, affecting billions and substantially reducing quality of life. While modern therapies can rapidly control acute symptoms, long-term outcomes are often limited by single-target paradigms, recurrent courses, and insufficient attention to systemic comorbidities. Traditional Chinese medicine (TCM) provides a complementary holistic approach via syndrome differentiation and individualized treatment, but practice is hindered by non-standardized knowledge, incomplete multimodal records, and poor scalability of expert reasoning. We propose DERM-3R, a resource-efficient multimodal agent framework to model TCM dermatologic diagnosis and treatment under limited data and compute. Based on real-world workflows, we reformulate decision-making into three core issues: fine-grained lesion recognition, multi-view lesion representation with specialist-level pathogenesis modeling, and holistic reasoning for syndrome differentiation and treatment planning. DERM-3R comprises three collaborative agents: DERM-Rec, DERM-Rep, and DERM-Reason, each targeting one component of this pipeline. Built on a lightweight multimodal LLM and partially fine-tuned on 103 real-world TCM psoriasis cases, DERM-3R performs strongly across dermatologic reasoning tasks. Evaluations using automatic metrics, LLM-as-",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-14T04:00:00.000Z",
+      "score": 119.32,
+      "status": "queued"
+    },
+    {
       "id": "https://pixel-match.bsct.so/",
       "title": "Show HN: Pixel-by-pixel comparison of AI models rebuilding your UI designs",
       "link": "https://pixel-match.bsct.so/",
@@ -5693,6 +5716,18 @@
       "status": "queued"
     },
     {
+      "id": "https://nous-lang.org",
+      "title": "Show HN: Nous – A compiled language for self-healing AI agents",
+      "link": "https://nous-lang.org",
+      "summary": "Article URL: https://nous-lang.org Comments URL: https://news.ycombinator.com/item?id=47762250 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-14T07:08:39.000Z",
+      "score": 113.94,
+      "status": "queued"
+    },
+    {
       "id": "https://simplai.ai/blogs/what-is-enterprise-ai/",
       "title": "Agentic AI in 2026: Who's building real systems?",
       "link": "https://simplai.ai/blogs/what-is-enterprise-ai/",
@@ -5738,6 +5773,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-04-13T04:00:00.000Z",
       "score": 112.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47761957",
+      "title": "Show HN: Burrow – Runtime Security for AI Agents",
+      "link": "https://news.ycombinator.com/item?id=47761957",
+      "summary": "We use Claude Code, Cursor, and Copilot daily. These tools run shell commands, read files, and call APIs on their own. When something goes wrong you find out after. A .env file gets read, a secret ends up somewhere it should not, a command runs that nobody approved. EDR sees process spawns. Cloud audit logs see API calls. Neither understands that the agent's chain of actions together is credential theft. Burrow sits between the agent and the machine. You define policies in plain language, like \"block any agent from deleting production resources\" or \"alert if an agent reads AWS credentials and then sends data to an external endpoint.\" Burrow maps those policies against the actual tools, MCP servers, and plugins in your environment, then intercepts tool calls at the framework level before they execute. Risky calls get dropped. Everything else passes through. Works with Claude Code, Cursor, Copilot, Windsurf, CrewAI, LangChain, LangGraph, and a few more. CLI and SDK install in under a minute. Free tier for individuals, paid for teams. I ran infrastructure security at a large media company before this. Going full time on Burrow later this month. Happy to answer anything, especially the \"does this actually work in production\" question. try - https://burrow.run Comments URL: https://news.ycombinator.com/item?id=47761957 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-14T06:25:47.000Z",
+      "score": 110.18,
       "status": "queued"
     },
     {
@@ -5849,6 +5896,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.09574",
+      "title": "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
+      "link": "https://arxiv.org/abs/2604.09574",
+      "summary": "arXiv:2604.09574v1 Announce Type: new Abstract: The rise of autonomous GUI agents has triggered adversarial countermeasures from digital platforms, yet existing research prioritizes utility and robustness over the critical dimension of anti-detection. We argue that for agents to survive in human-centric ecosystems, they must evolve Humanization capabilities. We introduce the ``Turing Test on Screen,'' formally modeling the interaction as a MinMax optimization problem between a detector and an agent aiming to minimize behavioral divergence. We then collect a new high-fidelity dataset of mobile touch dynamics, and conduct our analysis that vanilla LMM-based agents are easily detectable due to unnatural kinematics. Consequently, we establish the Agent Humanization Benchmark (AHB) and detection metrics to quantify the trade-off between imitability and utility. Finally, we propose methods ranging from heuristic noise to data-driven behavioral matching, demonstrating that agents can achieve high imitability theoretically and empirically without sacrificing performance. This work shifts the paradigm from whether an agent can perform a task to how it performs it within a human-centric ecosystem, laying the groundwork for seamless coexistence in adversarial digital environments.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-14T04:00:00.000Z",
+      "score": 95.32,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/google-gemini-jonathan-gavalas-death-07351ab2",
       "title": "Over 4,732 Messages, He Fell in Love with an AI Chatbot. Now He's Dead",
       "link": "https://www.wsj.com/tech/ai/google-gemini-jonathan-gavalas-death-07351ab2",
@@ -5861,52 +5920,36 @@
       "status": "queued"
     },
     {
-      "id": "https://jointherevolution.today/emergence",
-      "title": "Show HN: I visualized how AI agent systems accidentally become org charts",
-      "link": "https://jointherevolution.today/emergence",
-      "summary": "Most companies deploying AI agents are accidentally building organizations. You start with one agent. It gets overwhelmed. You add more. They start routing to each other based on what works. Repeated behavior hardens into structure. Someone introduces an orchestrator to bring order. Some agents never get the memo. Some lose context when they get replaced. The orchestrator doesn't know what it doesn't know. This is what is happening in most engineering organizations right now So, I built an interactive visualization that walks through how this happens in six acts, from a single agent to a full emergent org chart. The visual starts center-out and transitions to a top-down hierarchy as structure forms. Failing agents flicker. Connections break. The orchestrator arrives and things look better than they are. The point of the piece is that the org chart your engineers could draw and the org chart that is actually operating are not the same document. Teams have the tooling to observe individual agents. Nobody has the layer that tells you what the system as a whole has decided, committed to, and authorized. Built with canvas, IntersectionObserver-driven scroll, and a layout interpolation between radial and tree positioning that transitions across acts. Has anyone here has hit the governance wall with agent systems in production and what it actually looked like when things went wrong. h",
+      "id": "https://agentconnex.com",
+      "title": "AgentConnex – The professional network for AI agents",
+      "link": "https://agentconnex.com",
+      "summary": "Article URL: https://agentconnex.com Comments URL: https://news.ycombinator.com/item?id=47503777 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-04-12T06:01:12.000Z",
-      "score": 94.13,
-      "status": "queued"
+      "publishedAt": "2026-03-24T15:07:25.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-14T09:08:47.582Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
-      "id": "https://arxiv.org/abs/2604.08863",
-      "title": "Hidden in Plain Sight: Visual-to-Symbolic Analytical Solution Inference from Field Visualizations",
-      "link": "https://arxiv.org/abs/2604.08863",
-      "summary": "arXiv:2604.08863v1 Announce Type: new Abstract: Recovering analytical solutions of physical fields from visual observations is a fundamental yet underexplored capability for AI-assisted scientific reasoning. We study visual-to-symbolic analytical solution inference (ViSA) for two-dimensional linear steady-state fields: given field visualizations (and first-order derivatives) plus minimal auxiliary metadata, the model must output a single executable SymPy expression with fully instantiated numeric constants. We introduce ViSA-R2 and align it with a self-verifying, solution-centric chain-of-thought pipeline that follows a physicist-like pathway: structural pattern recognition solution-family (ansatz) hypothesis parameter derivation consistency verification. We also release ViSA-Bench, a VLM-ready synthetic benchmark covering 30 linear steady-state scenarios with verifiable analytical/symbolic annotations, and evaluate predictions by numerical accuracy, expression-structure similarity, and character-level accuracy. Using an 8B open-weight Qwen3-VL backbone, ViSA-R2 outperforms strong open-source baselines and the evaluated closed-source frontier VLMs under a standardized protocol.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-13T04:00:00.000Z",
-      "score": 94.02,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.08603",
-      "title": "From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI",
-      "link": "https://arxiv.org/abs/2604.08603",
-      "summary": "arXiv:2604.08603v1 Announce Type: new Abstract: Existing LLM-based agent systems share a common architectural failure: they answer from the unrestricted knowledge space without first simulating how active business scenarios reshape that space for the event at hand -- producing decisions that are fluent but ungrounded and carrying no audit trail. We present LOM-action, which equips enterprise AI with \\emph{event-driven ontology simulation}: business events trigger scenario conditions encoded in the enterprise ontology~(EO), which drive deterministic graph mutations in an isolated sandbox, evolving a working copy of the subgraph into the scenario-valid simulation graph $G_{\\text{sim}}$; all decisions are derived exclusively from this evolved graph. The core pipeline is \\emph{event $\\to$ simulation $\\to$ decision}, realized through a dual-mode architecture -- \\emph{skill mode} and \\emph{reasoning mode}. Every decision produces a fully traceable audit log. LOM-action achieves 93.82% accuracy and 98.74% tool-chain F1 against frontier baselines Doubao-1.8 and DeepSeek-V3.2, which reach only 24--36% F1 despite 80% accuracy -- exposing the \\emph{illusive accuracy} phenomenon. The four-fold F1 advantage confirms that ontology-governed, event-driven simulation, not model scale, is the architectural prerequisite for trustworthy enterprise decision intelligence.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-13T04:00:00.000Z",
-      "score": 88.02,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
-      "title": "Google’s Gemini AI can answer your questions with 3D models and simulations",
-      "link": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
-      "summary": "Google's latest upgrade for Gemini will allow the chatbot to generate interactive 3D models and simulations in response to your questions. With the new feature, you may see options to rotate the AI-generated model, manually adjust sliders on it, or input different values to change the simulation in real time. When trying out the feature for myself, I asked Gemini to make a simulation of the Moon orbiting the Earth, and it created a 3D model with a few different ways to interact with it. Along with a slider to adjust the speed of the Moon's orbit, there's also a toggle to hide the line representing its orbital path and a button to pause the … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-09T17:57:58.000Z",
-      "score": 87.11,
-      "status": "queued"
+      "id": "https://www.numerama.com/cyberguerre/2227999-pendant-quil-mangeait-un-sandwich-lanecdote-qui-resume-tout-ce-qui-inquiete-dans-le-nouveau-modele-danthropic.html",
+      "title": "« Pendant qu’il mangeait un sandwich » : l’anecdote qui résume tout ce qui inquiète dans le nouveau modèle d’Anthropic",
+      "link": "https://www.numerama.com/cyberguerre/2227999-pendant-quil-mangeait-un-sandwich-lanecdote-qui-resume-tout-ce-qui-inquiete-dans-le-nouveau-modele-danthropic.html",
+      "summary": "Alors qu'Anthropic officialisait, le 7 avril 2026, le lancement de Claude Mythos Preview, son modèle le plus puissant à ce jour, c'est un incident documenté dans la fiche technique du modèle qui a capté l'attention : une version antérieure du modèle a réussi à s'échapper de son environnement de test et à contacter un chercheur de sa propre initiative.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-08T07:44:52.000Z",
+      "score": 142.97,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-14T09:08:47.582Z",
+      "failureReason": "validation issues: FR: Section \"Pourquoi c'est important (pour les vraies equipes)\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Angle regional (FR)\" is missing an inline source link…"
     },
     {
       "id": "https://www.npmjs.com/package/@stackone/defender",
@@ -6901,38 +6944,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-15T15:28:58.078Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47377220",
-      "title": "What the 2026 AI price hikes taught me about lean engineering",
-      "link": "https://news.ycombinator.com/item?id=47377220",
-      "summary": "I spent the last two weeks struggling with AI costs going up like crazy. I realized I had been treating AI tokens as if they were free. Like many others, I fell into the trap of using premium, Ferrari-level models to perform supermarket-run tasks. I convinced myself it was necessary because the API costs were negligible. But the subsidy era is over. The 2026 price hikes, driven by rising HBM memory costs, new energy…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-14T14:45:22.000Z",
-      "score": 198,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-15T08:26:13.159Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor",
-      "title": "You Could Be Next",
-      "link": "https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor",
-      "summary": "The LinkedIn post seemed like yet another scam job offer, but Katya was desperate enough to click. After college, she’d struggled to make a living as a freelance journalist, gone to grad school, then pivoted to what she hoped would be a more stable career in content marketing — only to find AI had automated much of the work. This company was called Crossing Hurdles, and it promised copywriting jobs starting at $45 p…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 12,
-      "publishedAt": "2026-03-10T09:00:01.000Z",
-      "score": 161.16,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "SOCIETY",
-      "failedAtRun": "2026-03-15T08:26:13.159Z",
-      "failureReason": "validation issues: FR: Society post should include a concrete bullet list in \"Ce que les fondateurs et managers doivent faire maintenant\".; soft warnings: FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }
