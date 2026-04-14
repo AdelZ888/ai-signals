@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T09:37:15.504Z",
+  "generatedAt": "2026-04-14T16:16:24.861Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-14-provision-real-sim-numbers-smsotp-webhooks-and-ai-voice-calls-for-ai-agents",
+      "title": "Provision real SIM numbers, SMS/OTP webhooks, and AI voice calls for AI agents",
+      "date": "2026-04-14",
+      "excerpt": "Step-by-step guide to give each AI agent its own real phone number: provision a SIM via API, receive SMS/OTP at a webhook, and run AI voice calls that return transcripts.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-14-provision-real-sim-numbers-smsotp-webhooks-and-ai-voice-calls-for-ai-agents.jpg",
+      "tags": [
+        "agentcall",
+        "ai-agents",
+        "telephony",
+        "sms",
+        "otp",
+        "voice",
+        "webhooks",
+        "api"
+      ],
+      "sources": [
+        "https://agentcall.co"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-04-13-art-schools-add-generative-ai-into-courses-reshaping-assessments-and-portfolio-requirements",
