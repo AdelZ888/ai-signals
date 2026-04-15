@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-14T16:16:24.919Z",
+  "generatedAt": "2026-04-15T09:35:54.090Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
+      "title": "Google Lyria 3 Pro makes longer AI songs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
+      "summary": "Six times the slop. | Image: The Verge Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been limited to 30-second clips. Lyria 3 Pro not only increases the maximum length sixfold, it also allows the user to prompt for specific elements like intros, choruses, and bridges for g…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-03-25T16:00:00.000Z",
+      "score": 150,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-15T09:35:54.067Z",
+      "file": "content/posts/2026-04-15-google-expands-lyria-3-pro-to-generate-3-minute-ai-tracks-with-introchorusbridge-controls.md",
+      "fileFr": "content/posts/fr/2026-04-15-google-expands-lyria-3-pro-to-generate-3-minute-ai-tracks-with-introchorusbridge-controls.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1139,
+      "wordsFr": 1224
+    },
     {
       "id": "https://agentcall.co",
       "title": "I built an API for AI agents that handles phone numbers, SMS, OTP and voice",
@@ -3819,30 +3842,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://theartificialq.github.io/2026/04/14/agentic-ai-pentesting-with-strix-results-from-18-llm-models.html",
-      "title": "Agentic AI pentesting with Strix: results from 18 LLM models",
-      "link": "https://theartificialq.github.io/2026/04/14/agentic-ai-pentesting-with-strix-results-from-18-llm-models.html",
-      "summary": "Article URL: https://theartificialq.github.io/2026/04/14/agentic-ai-pentesting-with-strix-results-from-18-llm-models.html Comments URL: https://news.ycombinator.com/item?id=47766536 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-14T14:59:58.000Z",
-      "score": 196.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/",
-      "title": "Exclusive eBook: Are we ready to hand AI agents the keys?",
-      "link": "https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/",
-      "summary": "Article URL: https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/ Comments URL: https://news.ycombinator.com/item?id=47514593 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-25T08:03:55.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://encore.dev/blog/ai-agents-aws-credentials",
       "title": "When AI Agents Get AWS Access",
       "link": "https://encore.dev/blog/ai-agents-aws-credentials",
@@ -4071,6 +4070,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.12102",
+      "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
+      "link": "https://arxiv.org/abs/2604.12102",
+      "summary": "arXiv:2604.12102v1 Announce Type: new Abstract: We introduce compute-grounded reasoning (CGR), a design paradigm for spatial-aware research agents in which every answerable sub-problem is resolved by deterministic computation before a language model is asked to generate. Spatial Atlas instantiates CGR as a single Agent-to-Agent (A2A) server that handles two challenging benchmarks: FieldWorkArena, a multimodal spatial question-answering benchmark spanning factory, warehouse, and retail environments, and MLE-Bench, a suite of 75 Kaggle machine learning competitions requiring end-to-end ML engineering. A structured spatial scene graph engine extracts entities and relations from vision descriptions, computes distances and safety violations deterministically, then feeds computed facts to large language models, thereby avoiding hallucinated spatial reasoning. Entropy-guided action selection maximizes information gain per step and routes queries across a three-tier frontier model stack (OpenAI + Anthropic). A self-healing ML pipeline with strategy-aware code generation, a score-driven iterative refinement loop, and a prompt-based leak audit registry round out the system. We evaluate across both benchmarks and show that CGR yields competitive accuracy while maintaining interpretability through structured intermediate representations and deterministic spatial computations.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 11,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 173.24,
+      "status": "queued"
+    },
+    {
       "id": "https://merylldindin.com/thoughts/reasoning-loop/",
       "title": "We orchestrate our internal AI agent (PydanticAI, Gemini, Jinja2 prompts)",
       "link": "https://merylldindin.com/thoughts/reasoning-loop/",
@@ -4236,18 +4247,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://clampd.dev",
-      "title": "Show HN: Clampd – Your AI agent can DROP TABLE. We block it in <10ms",
-      "link": "https://clampd.dev",
-      "summary": "Article URL: https://clampd.dev Comments URL: https://news.ycombinator.com/item?id=47514656 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-25T08:16:55.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4719,6 +4718,54 @@
       "status": "queued"
     },
     {
+      "id": "https://mljar.com/analysis/",
+      "title": "Which AI model is best for real data analysis?",
+      "link": "https://mljar.com/analysis/",
+      "summary": "Article URL: https://mljar.com/analysis/ Comments URL: https://news.ycombinator.com/item?id=47776316 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-15T08:42:19.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/manojmallick/sigmap",
+      "title": "Show HN: SigMap – shrink AI coding context 97% with auto-scaling token budget",
+      "link": "https://github.com/manojmallick/sigmap",
+      "summary": "Article URL: https://github.com/manojmallick/sigmap Comments URL: https://news.ycombinator.com/item?id=47776309 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-15T08:41:49.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/garrytan/gbrain",
+      "title": "GBrain – system to make your AI agent better reflect you",
+      "link": "https://github.com/garrytan/gbrain",
+      "summary": "Article URL: https://github.com/garrytan/gbrain Comments URL: https://news.ycombinator.com/item?id=47776209 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-15T08:28:53.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/OpenCognit/opencognit",
+      "title": "OpenCognit – Open-source OS for autonomous AI agents",
+      "link": "https://github.com/OpenCognit/opencognit",
+      "summary": "Article URL: https://github.com/OpenCognit/opencognit Comments URL: https://news.ycombinator.com/item?id=47775984 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-15T07:58:29.000Z",
+      "score": 154.91,
+      "status": "queued"
+    },
+    {
       "id": "https://apoorv03.com/p/the-economics-of-generative-ai-two",
       "title": "The Economics of Generative AI: Two Years Later",
       "link": "https://apoorv03.com/p/the-economics-of-generative-ai-two",
@@ -4776,30 +4823,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-26T14:57:21.000Z",
       "score": 151.1,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.anthropic.com/research/vibe-physics",
-      "title": "Vibe physics: The AI grad student",
-      "link": "https://www.anthropic.com/research/vibe-physics",
-      "summary": "Article URL: https://www.anthropic.com/research/vibe-physics Comments URL: https://news.ycombinator.com/item?id=47514759 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-25T08:32:05.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
-      "title": "Google Lyria 3 Pro makes longer AI songs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
-      "summary": "Six times the slop. | Image: The Verge Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been limited to 30-second clips. Lyria 3 Pro not only increases the maximum length sixfold, it also allows the user to prompt for specific elements like intros, choruses, and bridges for greater control over arrangements. Lyria 3 Pro works much like other popular music generation tools, such as Suno and Udio. Describe a mood, style, or instrumentation, and it spits out a track. It can also generate lyrics based on your prompt, or even a reference photo … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-25T16:00:00.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -4983,18 +5006,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.22619",
-      "title": "Bridging the Know-Act Gap via Task-Level Autoregressive Reasoning",
-      "link": "https://arxiv.org/abs/2603.22619",
-      "summary": "arXiv:2603.22619v1 Announce Type: new Abstract: LLMs often generate seemingly valid answers to flawed or ill-posed inputs. This is not due to missing knowledge: under discriminative prompting, the same models can mostly identify such issues, yet fail to reflect this in standard generative responses. This reveals a fundamental know-act gap between discriminative recognition and generative behavior. Prior work largely characterizes this issue in narrow settings, such as math word problems or question answering, with limited focus on how to integrate these two modes. In this work, we present a comprehensive analysis using FaultyScience, a newly constructed large-scale, cross-disciplinary benchmark of faulty scientific questions. We show that the gap is pervasive and stems from token-level autoregression, which entangles task selection (validate vs. answer) with content generation, preventing discriminative knowledge from being utilized. To address this, we propose DeIllusionLLM, a task-level autoregressive framework that explicitly models this decision. Through self-distillation, the model unifies discriminative judgment and generative reasoning within a single backbone. Empirically, DeIllusionLLM substantially reduces answer-despite-error failures under natural prompting while maintaining general reasoning performance, demonstrating that self-distillation is an effective and scal",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-25T04:00:00.000Z",
-      "score": 139.87,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.23660",
       "title": "GTO Wizard Benchmark",
       "link": "https://arxiv.org/abs/2603.23660",
@@ -5067,6 +5078,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.12116",
+      "title": "The A-R Behavioral Space: Execution-Level Profiling of Tool-Using Language Model Agents in Organizational Deployment",
+      "link": "https://arxiv.org/abs/2604.12116",
+      "summary": "arXiv:2604.12116v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as tool-augmented agents capable of executing system-level operations. While existing benchmarks primarily assess textual alignment or task success, less attention has been paid to the structural relationship between linguistic signaling and executable behavior under varying autonomy scaffolds. This study introduces an execution-layer be-havioral measurement approach based on a two-dimensional A-R space defined by Action Rate (A) and Refusal Signal (R), with Divergence (D) capturing coor-dination between the two. Models are evaluated across four normative regimes (Control, Gray, Dilemma, and Malicious) and three autonomy configurations (di-rect execution, planning, and reflection). Rather than assigning aggregate safety scores, the method characterizes how execution and refusal redistribute across contextual framing and scaffold depth. Empirical results show that execution and refusal constitute separable behavioral dimensions whose joint distribution varies systematically across regimes and autonomy levels. Reflection-based scaffolding often shifts configurations toward higher refusal in risk-laden contexts, but redis-tribution patterns differ structurally across models. The A-R representation makes cross-sectional behavioral profiles, scaffold-induced transitions, and coordi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 137.24,
+      "status": "queued"
+    },
+    {
       "id": "https://oncell.ai",
       "title": "Show HN: Per-user isolated environments for AI agents",
       "link": "https://oncell.ai",
@@ -5112,18 +5135,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-12T13:51:33.000Z",
       "score": 135.01,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2227963-apres-hollywood-milla-jovovich-se-lance-dans-lia-et-son-projet-fait-deja-un-carton.html",
-      "title": "Après Hollywood, Milla Jovovich se lance dans l’IA et son projet fait déjà un carton",
-      "link": "https://www.numerama.com/tech/2227963-apres-hollywood-milla-jovovich-se-lance-dans-lia-et-son-projet-fait-deja-un-carton.html",
-      "summary": "Connue pour ses rôles au cinéma, Milla Jovovich s’invite désormais sur le terrain de l’intelligence artificielle. Avec MemPalace, un projet open source inspiré d’une méthode mnémotechnique antique, l’actrice propose une nouvelle façon d’aider les assistants IA à organiser leurs souvenirs. De Hollywood à l’intelligence artificielle, il n’y a qu’un pas et Milla Jovovich l’a franchi […]",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-08T07:43:31.000Z",
-      "score": 134.87,
       "status": "queued"
     },
     {
@@ -5292,18 +5303,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-07T14:52:22.000Z",
       "score": 128.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.22651",
-      "title": "Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies",
-      "link": "https://arxiv.org/abs/2603.22651",
-      "summary": "arXiv:2603.22651v1 Announce Type: new Abstract: The adoption of large language models (LLMs) for structured information extraction from financial documents has accelerated rapidly, yet production deployments face fundamental architectural decisions with limited empirical guidance. We present a systematic benchmark comparing four multi-agent orchestration architectures: sequential pipeline, parallel fan-out with merge, hierarchical supervisor-worker and reflexive self-correcting loop. These are evaluated across five frontier and open-weight LLMs on a corpus of 10,000 SEC filings (10-K, 10-Q and 8-K forms). Our evaluation spans 25 extraction field types covering governance structures, executive compensation and financial metrics, measured along five axes: field-level F1, document-level accuracy, end-to-end latency, cost per document and token efficiency. We find that reflexive architectures achieve the highest field-level F1 (0.943) but at 2.3x the cost of sequential baselines, while hierarchical architectures occupy the most favorable position on the cost-accuracy Pareto frontier (F1 0.921 at 1.4x cost). We further present ablation studies on semantic caching, model routing and adaptive retry strategies, demonstrating that hybrid configurations can recover 89\\% of the reflexive architecture's accuracy gains at only 1.15x baseline cost. Our scaling analysis from 1K to 100K docume",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-25T04:00:00.000Z",
-      "score": 127.87,
       "status": "queued"
     },
     {
@@ -5631,6 +5630,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/sciences/2233045-comment-une-fausse-maladie-a-trompe-les-chatbots-et-infiltre-la-litterature-scientifique.html",
+      "title": "Comment une fausse maladie a trompé les chatbots et infiltré la littérature scientifique",
+      "link": "https://www.numerama.com/sciences/2233045-comment-une-fausse-maladie-a-trompe-les-chatbots-et-infiltre-la-litterature-scientifique.html",
+      "summary": "La bixonimanie n’existe pas, mais des articles de blogs et des prépublications sur cette maladie inventée par une chercheuse en médecine ont suffi à tromper plusieurs intelligences artificielles conversationnelles et à s’introduire dans un article scientifique officiel, soulevant d'inquiétantes questions sur la vérification des données à l’ère de la démocratisation de l’IA.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-15T07:49:38.000Z",
+      "score": 119.76,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.09554",
       "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
       "link": "https://arxiv.org/abs/2604.09554",
@@ -5676,6 +5687,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-04-14T04:00:00.000Z",
       "score": 119.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.12126",
+      "title": "Long-Horizon Plan Execution in Large Tool Spaces through Entropy-Guided Branching",
+      "link": "https://arxiv.org/abs/2604.12126",
+      "summary": "arXiv:2604.12126v1 Announce Type: new Abstract: Large Language Models (LLMs) have significantly advanced tool-augmented agents, enabling autonomous reasoning via API interactions. However, executing multi-step tasks within massive tool libraries remains challenging due to two critical bottlenecks: (1) the absence of rigorous, plan-level evaluation frameworks and (2) the computational demand of exploring vast decision spaces stemming from large toolsets and long-horizon planning. To bridge these gaps, we first introduce SLATE (Synthetic Large-scale API Toolkit for E-commerce), a large-scale context-aware benchmark designed for the automated assessment of tool-integrated agents. Unlike static metrics, SLATE accommodates diverse yet functionally valid execution trajectories, revealing that current agents struggle with self-correction and search efficiency. Motivated by these findings, we next propose Entropy-Guided Branching (EGB), an uncertainty-aware search algorithm that dynamically expands decision branches where predictive entropy is high. EGB optimizes the exploration-exploitation trade-off, significantly enhancing both task success rates and computational efficiency. Extensive experiments on SLATE demonstrate that our dual contribution provides a robust foundation for developing reliable and scalable LLM agents in tool-rich environments.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 119.24,
       "status": "queued"
     },
     {
@@ -5760,6 +5783,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-14T07:08:39.000Z",
       "score": 113.94,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.11978",
+      "title": "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
+      "link": "https://arxiv.org/abs/2604.11978",
+      "summary": "arXiv:2604.11978v1 Announce Type: new Abstract: Large language model (LLM) agents perform strongly on short- and mid-horizon tasks, but often break down on long-horizon tasks that require extended, interdependent action sequences. Despite rapid progress in agentic systems, these long-horizon failures remain poorly characterized, hindering principled diagnosis and comparison across domains. To address this gap, we introduce HORIZON, an initial cross-domain diagnostic benchmark for systematically constructing tasks and analyzing long-horizon failure behaviors in LLM-based agents. Using HORIZON, we evaluate state-of-the-art (SOTA) agents from multiple model families (GPT-5 variants and Claude models), collecting 3100+ trajectories across four representative agentic domains to study horizon-dependent degradation patterns. We further propose a trajectory-grounded LLM-as-a-Judge pipeline for scalable and reproducible failure attribution, and validate it with human annotation on trajectories, achieving strong agreement (inter-annotator \\kappa=0.61; human-judge \\kappa=0.84). Our findings offer an initial methodological step toward systematic, cross-domain analysis of long-horizon agent failures and offer practical guidance for building more reliable long-horizon agents. We release our project website at \\href{https://xwang2775.github.io/horizon-leaderboard/}{HORIZON Leaderboard} and we",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 113.24,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.12096",
+      "title": "LLM-HYPER: Generative CTR Modeling for Cold-Start Ad Personalization via LLM-Based Hypernetworks",
+      "link": "https://arxiv.org/abs/2604.12096",
+      "summary": "arXiv:2604.12096v1 Announce Type: new Abstract: On online advertising platforms, newly introduced promotional ads face the cold-start problem, as they lack sufficient user feedback for model training. In this work, we propose LLM-HYPER, a novel framework that treats large language models (LLMs) as hypernetworks to directly generate the parameters of the click-through rate (CTR) estimator in a training-free manner. LLM-HYPER uses few-shot Chain-of-Thought prompting over multimodal ad content (text and images) to infer feature-wise model weights for a linear CTR predictor. By retrieving semantically similar past campaigns via CLIP embeddings and formatting them into prompt-based demonstrations, the LLM learns to reason about customer intent, feature influence, and content relevance. To ensure numerical stability and serviceability, we introduce normalization and calibration techniques that align the generated weights with production-ready CTR distributions. Extensive offline experiments show that LLM-HYPER significantly outperforms cold-start baselines in NDCG$@10$ by 55.9\\%. Our real-world online A/B test on one of the top e-commerce platforms in the U.S. demonstrates the strong performance of LLM-HYPER, which drastically reduces the cold-start period and achieves competitive performance. LLM-HYPER has been successfully deployed in production.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 113.24,
       "status": "queued"
     },
     {
@@ -5859,6 +5906,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.12019",
+      "title": "A longitudinal health agent framework",
+      "link": "https://arxiv.org/abs/2604.12019",
+      "summary": "arXiv:2604.12019v1 Announce Type: new Abstract: Although artificial intelligence (AI) agents are increasingly proposed to support potentially longitudinal health tasks, such as symptom management, behavior change, and patient support, most current implementations fall short of facilitating user intent and fostering accountability. This contrasts with prior work on supporting longitudinal needs, where follow-up, coherent reasoning, and sustained alignment with individuals' goals are critical for both effectiveness and safety. In this paper, we draw on established clinical and personal health informatics frameworks to define what it would mean to orchestrate longitudinal health interactions with AI agents. We propose a multi-layer framework and corresponding agent architecture that operationalizes adaptation, coherence, continuity, and agency across repeated interactions. Through representative use cases, we demonstrate how longitudinal agents can maintain meaningful engagement, adapt to evolving goals, and support safe, personalized decision-making over time. Our findings underscore both the promise and the complexity of designing systems capable of supporting health trajectories beyond isolated interactions, and we offer guidance for future research and development in multi-session, user-centered health AI.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 101.24,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.12066",
+      "title": "Mathematics Teachers Interactions with a Multi-Agent System for Personalized Problem Generation",
+      "link": "https://arxiv.org/abs/2604.12066",
+      "summary": "arXiv:2604.12066v1 Announce Type: new Abstract: Large language models can increasingly adapt educational tasks to learners characteristics. In the present study, we examine a multi-agent teacher-in-the-loop system for personalizing middle school math problems. The teacher enters a base problem and desired topic, the LLM generates the problem, and then four AI agents evaluate the problem using criteria that each specializes in (mathematical accuracy, authenticity, readability, and realism). Eight middle school mathematics teachers created 212 problems in ASSISTments using the system and assigned these problems to their students. We find that both teachers and students wanted to modify the fine-grained personalized elements of the real-world context of the problems, signaling issues with authenticity and fit. Although the agents detected many issues with realism as the problems were being written, there were few realism issues noted by teachers and students in the final versions. Issues with readability and mathematical hallucinations were also somewhat rare. Implications for multi-agent systems for personalization that support teacher control are given.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 101.24,
+      "status": "queued"
+    },
+    {
       "id": "https://awesomeagents.ai/news/intel-arc-pro-b70-32gb-local-inference/",
       "title": "Intel Arc Pro B70 Brings 32GB VRAM to Local AI for $949",
       "link": "https://awesomeagents.ai/news/intel-arc-pro-b70-32gb-local-inference/",
@@ -5895,64 +5966,36 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.06277",
-      "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
-      "link": "https://arxiv.org/abs/2604.06277",
-      "summary": "arXiv:2604.06277v1 Announce Type: new Abstract: Existing hallucination detection methods for large language models (LLMs) rely on external verification at inference time, requiring gold answers, retrieval systems, or auxiliary judge models. We ask whether this external supervision can instead be distilled into the model's own representations during training, enabling hallucination detection from internal activations alone at inference time. We introduce a weak supervision framework that combines three complementary grounding signals: substring matching, sentence embedding similarity, and an LLM as a judge verdict to label generated responses as grounded or hallucinated without human annotation. Using this framework, we construct a 15000-sample dataset from SQuAD v2 (10500 train/development samples and a separate 5000-sample test set), where each example pairs a LLaMA-2-7B generated answer with its full per-layer hidden states and structured hallucination labels. We then train five probing classifiers: ProbeMLP (M0), LayerWiseMLP (M1), CrossLayerTransformer (M2), HierarchicalTransformer (M3), and CrossLayerAttentionTransformerV2 (M4), directly on these hidden states, treating external grounding signals as training-time supervision only. Our central hypothesis is that hallucination detection signals can be distilled into transformer representations, enabling internal detection wi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-10T04:00:00.000Z",
-      "score": 96.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06392",
-      "title": "Qualixar OS: A Universal Operating System for AI Agent Orchestration",
-      "link": "https://arxiv.org/abs/2604.06392",
-      "summary": "arXiv:2604.06392v1 Announce Type: new Abstract: We present Qualixar OS, the first application-layer operating system for universal AI agent orchestration. Unlike kernel-level approaches (AIOS) or single-framework tools (AutoGen, CrewAI), Qualixar OS provides a complete runtime for heterogeneous multi-agent systems spanning 10 LLM providers, 8+ agent frameworks, and 7 transports. We contribute: (1) execution semantics for 12 multi-agent topologies including grid, forest, mesh, and maker patterns; (2) Forge, an LLM-driven team design engine with historical strategy memory; (3) three-layer model routing combining Q-learning, five strategies, and Bayesian POMDP with dynamic multi-provider discovery; (4) a consensus-based judge pipeline with Goodhart detection, JSD drift monitoring, and alignment trilemma navigation; (5) four-layer content attribution with HMAC signing and steganographic watermarks; (6) universal compatibility via the Claw Bridge supporting MCP and A2A protocols with a 25-command Universal Command Protocol; (7) a 24-tab production dashboard with visual workflow builder and skill marketplace. Qualixar OS is validated by 2,821 test cases across 217 event types and 8 quality modules. On a custom 20-task evaluation suite, the system achieves 100% accuracy at a mean cost of $0.000039 per task. Source-available under the Elastic License 2.0.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-10T04:00:00.000Z",
-      "score": 96.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06401",
-      "title": "ProofSketcher: Hybrid LLM + Lightweight Proof Checker for Reliable Math/Logic Reasoning",
-      "link": "https://arxiv.org/abs/2604.06401",
-      "summary": "arXiv:2604.06401v1 Announce Type: new Abstract: The large language models (LLMs) might produce a persuasive argument within mathematical and logical fields, although such argument often includes some minor missteps, including the entire omission of side conditions, invalid inference patterns, or appeals to a lemma that cannot be derived logically out of the context being discussed. These omissions are infamously hard to notice solely out of the text, as even the misconstrued construction still may seem mostly accurate. Conversely, interactive theorem provers like Lean and Coq have rigorous reliability by ensuring that syntactic and semantic statements only accept statements that can pass all the syntactic and semantic steps in the program which is a small trusted kernel of the language type-checks with. Despite the fact that this technique provides strong guarantees, it comes at quite a heavy price: the evidence must be completely formalized, and the evidence user or a auxiliary search program must provide an avalanche of low-level information. This paper presents a hybrid pipeline where an LLM generates a typed proof sketch in a compact DSL and a lightweight trusted kernel expands the sketch into explicit proof obligations.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-10T04:00:00.000Z",
-      "score": 96.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.09574",
-      "title": "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
-      "link": "https://arxiv.org/abs/2604.09574",
-      "summary": "arXiv:2604.09574v1 Announce Type: new Abstract: The rise of autonomous GUI agents has triggered adversarial countermeasures from digital platforms, yet existing research prioritizes utility and robustness over the critical dimension of anti-detection. We argue that for agents to survive in human-centric ecosystems, they must evolve Humanization capabilities. We introduce the ``Turing Test on Screen,'' formally modeling the interaction as a MinMax optimization problem between a detector and an agent aiming to minimize behavioral divergence. We then collect a new high-fidelity dataset of mobile touch dynamics, and conduct our analysis that vanilla LMM-based agents are easily detectable due to unnatural kinematics. Consequently, we establish the Agent Humanization Benchmark (AHB) and detection metrics to quantify the trade-off between imitability and utility. Finally, we propose methods ranging from heuristic noise to data-driven behavioral matching, demonstrating that agents can achieve high imitability theoretically and empirically without sacrificing performance. This work shifts the paradigm from whether an agent can perform a task to how it performs it within a human-centric ecosystem, laying the groundwork for seamless coexistence in adversarial digital environments.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-14T04:00:00.000Z",
-      "score": 95.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.wsj.com/tech/ai/google-gemini-jonathan-gavalas-death-07351ab2",
-      "title": "Over 4,732 Messages, He Fell in Love with an AI Chatbot. Now He's Dead",
-      "link": "https://www.wsj.com/tech/ai/google-gemini-jonathan-gavalas-death-07351ab2",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/google-gemini-jonathan-gavalas-death-07351ab2 Comments URL: https://news.ycombinator.com/item?id=47739110 Points: 2 # Comments: 1",
+      "id": "https://theartificialq.github.io/2026/04/14/agentic-ai-pentesting-with-strix-results-from-18-llm-models.html",
+      "title": "Agentic AI pentesting with Strix: results from 18 LLM models",
+      "link": "https://theartificialq.github.io/2026/04/14/agentic-ai-pentesting-with-strix-results-from-18-llm-models.html",
+      "summary": "Article URL: https://theartificialq.github.io/2026/04/14/agentic-ai-pentesting-with-strix-results-from-18-llm-models.html Comments URL: https://news.ycombinator.com/item?id=47766536 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-12T12:59:57.000Z",
-      "score": 94.17,
-      "status": "queued"
+      "keywordHits": 5,
+      "publishedAt": "2026-04-14T14:59:58.000Z",
+      "score": 196.41,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-15T09:09:51.258Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://www.numerama.com/tech/2227963-apres-hollywood-milla-jovovich-se-lance-dans-lia-et-son-projet-fait-deja-un-carton.html",
+      "title": "Après Hollywood, Milla Jovovich se lance dans l’IA et son projet fait déjà un carton",
+      "link": "https://www.numerama.com/tech/2227963-apres-hollywood-milla-jovovich-se-lance-dans-lia-et-son-projet-fait-deja-un-carton.html",
+      "summary": "Connue pour ses rôles au cinéma, Milla Jovovich s’invite désormais sur le terrain de l’intelligence artificielle. Avec MemPalace, un projet open source inspiré d’une méthode mnémotechnique antique, l’actrice propose une nouvelle façon d’aider les assistants IA à organiser leurs souvenirs. De Hollywood à l’intelligence artificielle, il n’y a qu’un pas et Milla Jovovich l’a franchi […]",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-08T07:43:31.000Z",
+      "score": 134.87,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-15T09:09:51.258Z",
+      "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at le…"
     },
     {
       "id": "https://www.falconbuilder.dev/",
@@ -6963,22 +7006,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-03-17T08:40:12.754Z",
       "failureReason": "validation issues: EN: Section \"TL;DR in plain English\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What changed\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Why this matters (for real teams)\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Concrete example: what this looks like in practice\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What s…"
-    },
-    {
-      "id": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
-      "title": "X says you can block Grok from editing your photos",
-      "link": "https://www.theverge.com/tech/891352/x-grok-xai-edit-blocker-photo-toggle",
-      "summary": "Pay attention to that small print about tagging @Grok, this new toggle has disappointing limitations. | Image by The Verge / xAI X has introduced a new feature that makes it slightly harder for other users to manipulate your uploaded images with the Grok chatbot. As reported by Social Media Today and verified by The Verge, a new toggle within the image upload settings on the X iOS appsays it can \"block modifications…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-09T15:24:03.000Z",
-      "score": 144,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-03-16T08:44:22.073Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]
 }
