@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T09:35:54.082Z",
+  "generatedAt": "2026-04-15T16:19:54.789Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "series": "model-release-brief",
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-15-tag-driven-expressive-speech-with-gemini-31-flash-tts-a-minimal-pipeline-for-reusable-style-presets",
+      "title": "Parole expressive pilotée par balises avec Gemini 3.1 Flash TTS : pipeline minimal pour presets de style réutilisables",
+      "date": "2026-04-15",
+      "excerpt": "Guide pratique pour exploiter les balises de style d’un TTS expressif (annonce DeepMind). Mapper des presets réutilisables à des balises, automatiser la génération, stocker l’audio + métadonnées et organiser un panel d’écoute.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-15-tag-driven-expressive-speech-with-gemini-31-flash-tts-a-minimal-pipeline-for-reusable-style-presets.jpg",
+      "tags": [
+        "TTS",
+        "Gemini",
+        "DeepMind",
+        "speech",
+        "AI",
+        "développement",
+        "UK",
+        "startup"
+      ],
+      "sources": [
+        "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {

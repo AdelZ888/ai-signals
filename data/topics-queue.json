@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-15T09:35:54.090Z",
+  "generatedAt": "2026-04-15T16:19:54.839Z",
   "items": [
+    {
+      "id": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "link": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-15T16:03:19.000Z",
+      "score": 168,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-15T16:19:54.775Z",
+      "file": "content/posts/2026-04-15-tag-driven-expressive-speech-with-gemini-31-flash-tts-a-minimal-pipeline-for-reusable-style-presets.md",
+      "fileFr": "content/posts/fr/2026-04-15-tag-driven-expressive-speech-with-gemini-31-flash-tts-a-minimal-pipeline-for-reusable-style-presets.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1431,
+      "wordsFr": 1233
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
       "title": "Google Lyria 3 Pro makes longer AI songs",
@@ -3842,30 +3865,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://encore.dev/blog/ai-agents-aws-credentials",
-      "title": "When AI Agents Get AWS Access",
-      "link": "https://encore.dev/blog/ai-agents-aws-credentials",
-      "summary": "Article URL: https://encore.dev/blog/ai-agents-aws-credentials Comments URL: https://news.ycombinator.com/item?id=47518906 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-25T15:43:21.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing",
-      "title": "AI coding agents are running on your machines – Do you know what they're doing?",
-      "link": "https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing",
-      "summary": "Article URL: https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing Comments URL: https://news.ycombinator.com/item?id=47518773 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-25T15:33:20.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://golivekit.com",
       "title": "Show HN: GoLiveKit – A Next.js SaaS kit with built-in context for AI agents",
       "link": "https://golivekit.com",
@@ -4070,6 +4069,66 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47780915",
+      "title": "Ask HN: Non AI Contributor on Project Teams",
+      "link": "https://news.ycombinator.com/item?id=47780915",
+      "summary": "Once upon a time, we deployed a project to production and it seemed to have lots of bugs - some involving pagination not working on ui of all things. So many features felt flaky. As the team lead who reviews everyones PR and was also in charge of the deployment and monitoring, it created a lot of work for me because I had to fix every hotbug - a case in point was a pagination not working on some page or other. During some of these fixes, I felt my knowledge of the codebase wasn't as it ought to be especially since I didn't participate as much. Also, there were a lot of code that was so much more complex that I felt it will be if a human had written it - I felt my review was lacking in some capacity as well. For a while I struggled reviewing PRs that turned out to be miniature ai slops. And of course, under pressure of meeting deadlines and other things you end up merging PRs that just worked via click-testing without actually reviewing the code. In the end, I felt the codebased lacked a team member that truly understood all that was going on the way it would've been if we all coded by hand. Since I was the least contributing member of actual code, I decided I will no longer use any coding tools on the codebase - not even autocomplete from copilot. Since that decision, I've felt my knowledge of the codebase increase and I see the codebase from an entirely different perspective t",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-15T15:54:37.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://coldverdict.com/share/078a7c83082c",
+      "title": "Why build on a single AI provider despite the risk? 3 AI models debated it",
+      "link": "https://coldverdict.com/share/078a7c83082c",
+      "summary": "Article URL: https://coldverdict.com/share/078a7c83082c Comments URL: https://news.ycombinator.com/item?id=47780821 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-15T15:49:41.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.nature.com/articles/d41586-026-00697-4",
+      "title": "AI disease-prediction models were trained on dubious data",
+      "link": "https://www.nature.com/articles/d41586-026-00697-4",
+      "summary": "Article URL: https://www.nature.com/articles/d41586-026-00697-4 Comments URL: https://news.ycombinator.com/item?id=47780680 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-15T15:41:40.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/stephenchilcote-gauntlet/leftglove",
+      "title": "LeftGlove – MCP server that makes websites usable by AI agents (npx leftglove)",
+      "link": "https://github.com/stephenchilcote-gauntlet/leftglove",
+      "summary": "Article URL: https://github.com/stephenchilcote-gauntlet/leftglove Comments URL: https://news.ycombinator.com/item?id=47780671 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-15T15:41:08.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://choon.app",
+      "title": "Show HN: I built an AI music tagger for DJs, fusing metadata, audio DSP, and ML",
+      "link": "https://choon.app",
+      "summary": "Built this for myself. I DJ, throw parties in Portland, and my digital library is 10k tracks and unmanageable. Tagging everything was a nonstarter. Project started as a Python script that fed track metadata into ChatGPT. Worked surprisingly well for something so basic. Friends kept asking me to run their libraries through it, and eventually I built a real app around it. The core insight: no single signal is enough. Metadata lookups miss obscure tracks. Audio analysis alone lacks context. LLMs alone hallucinate. So the app combines them: * Metadata cross-referenced against a 200M record Discogs-based DB for known releases * A Mac companion app for managing library / tagging / syncing to Rekordbox * Python DSP that analyzes audio directly (BPM, harmonic content, energy) * A trained ML model for obscure tracks the main databases don't cover * Multiple AI models handling different classification dimensions * Four tag dimensions: genre (50+ sub-genres), region, era, vibe * Syncs to Rekordbox's My Tag system so you can filter on CDJs mid-set Genre, region, and era are solid. Vibe is still a work in progress. Classifying how a track functions in a set (peak time vs after hours vs hypnotic) is fundamentally different from classifying what it is. Decent but not where I want it yet. No audio ever leaves the machine, only metadata. Credit-based pricing, no subscriptions, priced quite reas",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-15T15:38:11.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.12102",
       "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
       "link": "https://arxiv.org/abs/2604.12102",
@@ -4214,18 +4273,6 @@
       "status": "queued"
     },
     {
-      "id": "https://grith.ai/blog/claude-auto-mode-removes-prompts-not-risk",
-      "title": "AI agents are now deciding what's safe to run (Claude Auto Mode)",
-      "link": "https://grith.ai/blog/claude-auto-mode-removes-prompts-not-risk",
-      "summary": "Article URL: https://grith.ai/blog/claude-auto-mode-removes-prompts-not-risk Comments URL: https://news.ycombinator.com/item?id=47518116 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-25T14:52:11.000Z",
-      "score": 158.5,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2603.23910",
       "title": "AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents",
       "link": "https://arxiv.org/abs/2603.23910",
@@ -4247,30 +4294,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://refreshmiami.com/news/the-new-american-dream-may-come-with-a-broker-a-balance-sheet-and-now-an-ai-copilot/",
-      "title": "New American dream may come with a broker, a balance sheet and now an AI copilot",
-      "link": "https://refreshmiami.com/news/the-new-american-dream-may-come-with-a-broker-a-balance-sheet-and-now-an-ai-copilot/",
-      "summary": "Article URL: https://refreshmiami.com/news/the-new-american-dream-may-come-with-a-broker-a-balance-sheet-and-now-an-ai-copilot/ Comments URL: https://news.ycombinator.com/item?id=47519193 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-25T16:00:37.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/oguzbilgic/kern-ai",
-      "title": "Show HN: Kern – open-source AI Agent with built in Agent-to-Agent communication",
-      "link": "https://github.com/oguzbilgic/kern-ai",
-      "summary": "Article URL: https://github.com/oguzbilgic/kern-ai Comments URL: https://news.ycombinator.com/item?id=47518952 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-25T15:45:58.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4754,6 +4777,18 @@
       "status": "queued"
     },
     {
+      "id": "https://thoughts.jock.pl/p/how-to-build-your-first-ai-agent-beginners-guide-2026",
+      "title": "I built my first AI agent (and what I got wrong)",
+      "link": "https://thoughts.jock.pl/p/how-to-build-your-first-ai-agent-beginners-guide-2026",
+      "summary": "Article URL: https://thoughts.jock.pl/p/how-to-build-your-first-ai-agent-beginners-guide-2026 Comments URL: https://news.ycombinator.com/item?id=47780314 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-15T15:16:48.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/OpenCognit/opencognit",
       "title": "OpenCognit – Open-source OS for autonomous AI agents",
       "link": "https://github.com/OpenCognit/opencognit",
@@ -4871,6 +4906,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-03-30T14:54:02.000Z",
       "score": 148.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "summary": "Gemini 3.1 Flash TTS is now available across Google products.",
+      "source": "Google AI Blog",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-15T15:00:00.000Z",
+      "score": 147.55,
       "status": "queued"
     },
     {
@@ -5135,18 +5182,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-12T13:51:33.000Z",
       "score": 135.01,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-tourism-ai-chatbot-explora-9.7139199",
-      "title": "New Brunswick unveils new AI chatbot for tourists, but not without errors",
-      "link": "https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-tourism-ai-chatbot-explora-9.7139199",
-      "summary": "Article URL: https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-tourism-ai-chatbot-explora-9.7139199 Comments URL: https://news.ycombinator.com/item?id=47518180 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-25T14:57:05.000Z",
-      "score": 134.72,
       "status": "queued"
     },
     {
@@ -5964,6 +5999,22 @@
       "publishedAt": "2026-04-12T05:46:29.000Z",
       "score": 96.15,
       "status": "queued"
+    },
+    {
+      "id": "https://github.com/saffron-health/libretto",
+      "title": "Show HN: Libretto – Making AI browser automations deterministic",
+      "link": "https://github.com/saffron-health/libretto",
+      "summary": "Libretto (https://libretto.sh) is a Skill+CLI that makes it easy for your coding agent to generate deterministic browser automations and debug existing ones. Key shift is going from “give an agent a prompt at runtime and hope it figures things out” to: “Use coding agents to generate real scripts you can inspect, run, and debug”. Here’s a demo: https://www.youtube.com/watch?v=0cDpIntmHAM. Docs start at https://libret…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-15T15:57:54.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-15T16:04:36.454Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://theartificialq.github.io/2026/04/14/agentic-ai-pentesting-with-strix-results-from-18-llm-models.html",

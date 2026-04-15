@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T09:35:54.081Z",
+  "generatedAt": "2026-04-15T16:19:54.788Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-15-tag-driven-expressive-speech-with-gemini-31-flash-tts-a-minimal-pipeline-for-reusable-style-presets",
+      "title": "Tag-driven expressive speech with Gemini 3.1 Flash TTS: a minimal pipeline for reusable style presets",
+      "date": "2026-04-15",
+      "excerpt": "Practical guide to Gemini 3.1 Flash TTS's granular audio tags: map reusable style presets to tags, automate tagged generation, store audio and metadata, and run a listening panel.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-15-tag-driven-expressive-speech-with-gemini-31-flash-tts-a-minimal-pipeline-for-reusable-style-presets.jpg",
+      "tags": [
+        "Gemini",
+        "Flash TTS",
+        "TTS",
+        "text-to-speech",
+        "speech synthesis",
+        "DeepMind",
+        "developer-guide",
+        "audio"
+      ],
+      "sources": [
+        "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-04-14-microsoft-tests-persistent-openclaw-style-agents-in-365-copilot-raising-operational-and-security-concerns",
