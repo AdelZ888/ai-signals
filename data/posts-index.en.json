@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T09:18:51.277Z",
+  "generatedAt": "2026-04-16T16:56:08.803Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "model-release-brief",
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-16-leftglove-an-mcp-server-npx-that-wraps-shiftlefter-for-agent-and-human-web-exploration",
+      "title": "LeftGlove — an MCP server (npx) that wraps ShiftLefter for agent and human web exploration",
+      "date": "2026-04-16",
+      "excerpt": "Setup LeftGlove locally with npx to run an MCP server that wraps ShiftLefter, surfacing pages, forms and interactions for agents and humans to review, annotate, and export.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-16-leftglove-an-mcp-server-npx-that-wraps-shiftlefter-for-agent-and-human-web-exploration.jpg",
+      "tags": [
+        "leftglove",
+        "shiftlefter",
+        "mcp",
+        "npx",
+        "agents",
+        "web-ui",
+        "testing",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/stephenchilcote-gauntlet/leftglove"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
