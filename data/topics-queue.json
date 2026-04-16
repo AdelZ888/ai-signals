@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-15T16:19:54.839Z",
+  "generatedAt": "2026-04-16T09:18:51.288Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2232225-non-francois-ruffin-une-ia-nest-pas-un-economiste.html",
+      "title": "Non, François Ruffin, une IA n’est pas un économiste",
+      "link": "https://www.numerama.com/tech/2232225-non-francois-ruffin-une-ia-nest-pas-un-economiste.html",
+      "summary": "Après Bernie Sanders, c’est au tour de François Ruffin de mettre l’intelligence artificielle en scène. Dans une vidéo diffusée ce 14 avril 2026, le député interroge le chatbot Claude sur le traumatisme industriel du Nord. Problème : en croyant obtenir un diagnostic, l'élu ne fait qu'écouter l'écho de son propre discours.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-14T14:53:44.000Z",
+      "score": 133.4,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-16T09:18:51.265Z",
+      "file": "content/posts/2026-04-16-francois-ruffins-filmed-exchange-with-claude-highlights-limits-of-llm-demos-for-economic-claims.md",
+      "fileFr": "content/posts/fr/2026-04-16-francois-ruffins-filmed-exchange-with-claude-highlights-limits-of-llm-demos-for-economic-claims.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1407,
+      "wordsFr": 1011
+    },
     {
       "id": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
       "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
@@ -4273,18 +4296,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.23910",
-      "title": "AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents",
-      "link": "https://arxiv.org/abs/2603.23910",
-      "summary": "arXiv:2603.23910v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) suggest strong potential for automating analog circuit design. Yet most LLM-based approaches rely on a single-model loop of generation, diagnosis, and correction, which favors succinct summaries over domain-specific insight and suffers from context attrition that erases critical technical details. To address these limitations, we propose AnalogAgent, a training-free agentic framework that integrates an LLM-based multi-agent system (MAS) with self-evolving memory (SEM) for analog circuit design automation. AnalogAgent coordinates a Code Generator, Design Optimizer, and Knowledge Curator to distill execution feedback into an adaptive playbook in SEM and retrieve targeted guidance for subsequent generation, enabling cross-task transfer without additional expert feedback, databases, or libraries. Across established benchmarks, AnalogAgent achieves 92% Pass@1 with Gemini and 97.4% Pass@1 with GPT-5. Moreover, with compact models (e.g., Qwen-8B), it yields a +48.8% average Pass@1 gain across tasks and reaches 72.1% Pass@1 overall, indicating that AnalogAgent substantially strengthens open-weight models for high-quality analog circuit design automation.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 157.43,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47704539",
       "title": "Best Open Source Offline AI Agent",
       "link": "https://news.ycombinator.com/item?id=47704539",
@@ -4789,6 +4800,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.youtube.com/watch?v=B1bLRzSlH2k",
+      "title": "We built an AI patch network agent that maps Class A surfaces from sketches",
+      "link": "https://www.youtube.com/watch?v=B1bLRzSlH2k",
+      "summary": "Article URL: https://www.youtube.com/watch?v=B1bLRzSlH2k Comments URL: https://news.ycombinator.com/item?id=47790521 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-16T09:07:00.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/OpenCognit/opencognit",
       "title": "OpenCognit – Open-source OS for autonomous AI agents",
       "link": "https://github.com/OpenCognit/opencognit",
@@ -5053,18 +5076,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.23660",
-      "title": "GTO Wizard Benchmark",
-      "link": "https://arxiv.org/abs/2603.23660",
-      "summary": "arXiv:2603.23660v1 Announce Type: new Abstract: We introduce GTO Wizard Benchmark, a public API and standardized evaluation framework for benchmarking algorithms in Heads-Up No-Limit Texas Hold'em (HUNL). The benchmark evaluates agents against GTO Wizard AI, a state-of-the-art superhuman poker agent that approximates Nash Equilibria, and defeated Slumbot, the 2018 Annual Computer Poker Competition champion and previous strongest publicly accessible HUNL benchmark, by $19.4$ $\\pm$ $4.1$ bb/100. Variance is a fundamental challenge in poker evaluation; we address this by integrating AIVAT, a provably unbiased variance reduction technique that achieves equivalent statistical significance with ten times fewer hands than naive Monte Carlo evaluation. We conduct a comprehensive benchmarking study of state-of-the-art large language models under zero-shot conditions, including GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro, Grok 4, and others. Initial results and analysis reveal dramatic progress in LLM reasoning over recent years, yet all models remain far below the baseline established by our benchmark. Qualitative analysis reveals clear opportunities for improvement, including representation and the ability to reason over hidden states. This benchmark provides researchers with a precise and quantifiable setting to evaluate advances in planning and reasoning in multi-agent systems with part",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 139.43,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.00319",
       "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
       "link": "https://arxiv.org/abs/2604.00319",
@@ -5209,54 +5220,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.23610",
-      "title": "Environment Maps: Structured Environmental Representations for Long-Horizon Agents",
-      "link": "https://arxiv.org/abs/2603.23610",
-      "summary": "arXiv:2603.23610v1 Announce Type: new Abstract: Although large language models (LLMs) have advanced rapidly, robust automation of complex software workflows remains an open problem. In long-horizon settings, agents frequently suffer from cascading errors and environmental stochasticity; a single misstep in a dynamic interface can lead to task failure, resulting in hallucinations or trial-and-error. This paper introduces $\\textit{Environment Maps}$: a persistent, agent-agnostic representation that mitigates these failures by consolidating heterogeneous evidence, such as screen recordings and execution traces, into a structured graph. The representation consists of four core components: (1) Contexts (abstracted locations), (2) Actions (parameterized affordances), (3) Workflows (observed trajectories), and (4) Tacit Knowledge (domain definitions and reusable procedures). We evaluate this framework on the WebArena benchmark across five domains. Agents equipped with environment maps achieve a 28.2% success rate, nearly doubling the performance of baselines limited to session-bound context (14.2%) and outperforming agents that have access to the raw trajectory data used to generate the environment maps (23.3%). By providing a structured interface between the model and the environment, Environment Maps establish a persistent foundation for long-horizon planning that is human-interpret",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 133.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.23638",
-      "title": "Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments",
-      "link": "https://arxiv.org/abs/2603.23638",
-      "summary": "arXiv:2603.23638v1 Announce Type: new Abstract: Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. Unlike short-horizon reactive decisions, allocation requires committing scarce resources over time while balancing competing objectives and preserving flexibility for future needs. We introduce EnterpriseArena, the first benchmark for evaluating agents on long-horizon enterprise resource allocation. It instantiates CFO-style decision-making in a 132-month enterprise simulator combining firm-level financial data, anonymized business documents, macroeconomic and industry signals, and expert-validated operating rules. The environment is partially observable and reveals the state only through budgeted organizational tools, forcing agents to trade off information acquisition against conserving scarce resources. Experiments on eleven advanced LLMs show that this setting remains highly challenging: only 16% of runs survive the full horizon, and larger models do not reliably outperform smaller ones. These results identify long-horizon resource allocation under uncertainty as a distinct capability gap for current LLM agents.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 133.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.23964",
-      "title": "From Pixels to Digital Agents: An Empirical Study on the Taxonomy and Technological Trends of Reinforcement Learning Environments",
-      "link": "https://arxiv.org/abs/2603.23964",
-      "summary": "arXiv:2603.23964v1 Announce Type: new Abstract: The remarkable progress of reinforcement learning (RL) is intrinsically tied to the environments used to train and evaluate artificial agents. Moving beyond traditional qualitative reviews, this work presents a large-scale, data-driven empirical investigation into the evolution of RL environments. By programmatically processing a massive corpus of academic literature and rigorously distilling over 2,000 core publications, we propose a quantitative methodology to map the transition from isolated physical simulations to generalist, language-driven foundation agents. Implementing a novel, multi-dimensional taxonomy, we systematically analyze benchmarks against diverse application domains and requisite cognitive capabilities. Our automated semantic and statistical analysis reveals a profound, data-verified paradigm shift: the bifurcation of the field into a \"Semantic Prior\" ecosystem dominated by Large Language Models (LLMs) and a \"Domain-Specific Generalization\" ecosystem. Furthermore, we characterize the \"cognitive fingerprints\" of these distinct domains to uncover the underlying mechanisms of cross-task synergy, multi-domain interference, and zero-shot generalization. Ultimately, this study offers a rigorous, quantitative roadmap for designing the next generation of Embodied Semantic Simulators, bridging the gap between continuous",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 133.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2232225-non-francois-ruffin-une-ia-nest-pas-un-economiste.html",
-      "title": "Non, François Ruffin, une IA n’est pas un économiste",
-      "link": "https://www.numerama.com/tech/2232225-non-francois-ruffin-une-ia-nest-pas-un-economiste.html",
-      "summary": "Après Bernie Sanders, c’est au tour de François Ruffin de mettre l’intelligence artificielle en scène. Dans une vidéo diffusée ce 14 avril 2026, le député interroge le chatbot Claude sur le traumatisme industriel du Nord. Problème : en croyant obtenir un diagnostic, l'élu ne fait qu'écouter l'écho de son propre discours.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-14T14:53:44.000Z",
-      "score": 133.4,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.03286",
       "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
       "link": "https://arxiv.org/abs/2604.03286",
@@ -5341,18 +5304,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.23840",
-      "title": "VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents",
-      "link": "https://arxiv.org/abs/2603.23840",
-      "summary": "arXiv:2603.23840v1 Announce Type: new Abstract: With the growing demand for intelligent in-vehicle experiences, vehicle-based agents are evolving from simple assistants to long-term companions. This evolution requires agents to continuously model multi-user preferences and make reliable decisions in the face of inter-user preference conflicts and changing habits over time. However, existing benchmarks are largely limited to single-user, static question-answer settings, failing to capture the temporal evolution of preferences and the multi-user, tool-interactive nature of real vehicle environments. To address this gap, we introduce VehicleMemBench, a multi-user long-context memory benchmark built on an executable in-vehicle simulation environment. The benchmark evaluates tool use and memory by comparing the post-action environment state with a predefined target state, enabling objective and reproducible evaluation without LLM-based or human scoring. VehicleMemBench includes 23 tool modules, and each sample contains over 80 historical memory events. Experiments show that powerful models perform well on direct instruction tasks but struggle in scenarios involving memory evolution, particularly when user preferences change dynamically. Even advanced memory systems struggle to handle domain-specific memory requirements in this environment. These findings highlight the need for more",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 127.43,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.00005",
       "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
       "link": "https://arxiv.org/abs/2604.00005",
@@ -5434,18 +5385,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-04T13:02:22.000Z",
       "score": 126.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://teach-me.replit.app/",
-      "title": "Show HN: Book Grounded AI Learning",
-      "link": "https://teach-me.replit.app/",
-      "summary": "I constantly ask Gemini/ChatGPT/Claude about books on a certain topic, then ask the llm to give me a summary of the book its chapters - this helps me: 1. keep the llm grounded as a real expert (instead of saying pretend to be an engineering expert, give it a distributed systems book and then ask opinions on it) 2. helps me discover and buy books! Once i go through book concepts and chat with llm about it, i'm more convinced to buy it and dig deeper on low level on it So i built an app through Replit on it, try it on https://teach-me.replit.app/ Cheers! Comments URL: https://news.ycombinator.com/item?id=47527523 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-26T07:17:35.000Z",
-      "score": 126.21,
       "status": "queued"
     },
     {
@@ -5554,18 +5493,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-03-28T07:10:25.000Z",
       "score": 122.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.23749",
-      "title": "Efficient Benchmarking of AI Agents",
-      "link": "https://arxiv.org/abs/2603.23749",
-      "summary": "arXiv:2603.23749v1 Announce Type: new Abstract: Evaluating AI agents on comprehensive benchmarks is expensive because each evaluation requires interactive rollouts with tool use and multi-step reasoning. We study whether small task subsets can preserve agent rankings at substantially lower cost. Unlike static language model benchmarks, agent evaluation is subject to scaffold-driven distribution shift, since performance depends on the framework wrapping the underlying model. Across eight benchmarks, 33 agent scaffolds, and 70+ model configurations, we find that absolute score prediction degrades under this shift, while rank-order prediction remains stable. Exploiting this asymmetry, we propose a simple optimization-free protocol: evaluate new agents only on tasks with intermediate historical pass rates (30-70%). This mid-range difficulty filter, motivated by Item Response Theory, reduces the number of evaluation tasks by 44-70% while maintaining high rank fidelity under scaffold and temporal shifts. It provides more reliable rankings than random sampling, which exhibits high variance across seeds, and outperforms greedy task selection under distribution shift. These results suggest that reliable leaderboard ranking does not require full-benchmark evaluation.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-26T04:00:00.000Z",
-      "score": 121.43,
       "status": "queued"
     },
     {
@@ -5998,6 +5925,114 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-12T05:46:29.000Z",
       "score": 96.15,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.11969",
+      "title": "Narrative-Driven Paper-to-Slide Generation via ArcDeck",
+      "link": "https://arxiv.org/abs/2604.11969",
+      "summary": "arXiv:2604.11969v1 Announce Type: new Abstract: We introduce ArcDeck, a multi-agent framework that formulates paper-to-slide generation as a structured narrative reconstruction task. Unlike existing methods that directly summarize raw text into slides, ArcDeck explicitly models the source paper's logical flow. It first parses the input to construct a discourse tree and establish a global commitment document, ensuring the high-level intent is preserved. These structural priors then guide an iterative multi-agent refinement process, where specialized agents iteratively critique and revise the presentation outline before rendering the final visual layouts and designs. To evaluate our approach, we also introduce ArcBench, a newly curated benchmark of academic paper-slide pairs. Experimental results demonstrate that explicit discourse modeling, combined with role-specific agent coordination, significantly improves the narrative flow and logical coherence of the generated presentations.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-16T04:00:00.000Z",
+      "score": 95.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.12016",
+      "title": "Identity as Attractor: Geometric Evidence for Persistent Agent Architecture in LLM Activation Space",
+      "link": "https://arxiv.org/abs/2604.12016",
+      "summary": "arXiv:2604.12016v1 Announce Type: new Abstract: Large language models map semantically related prompts to similar internal representations -- a phenomenon interpretable as attractor-like dynamics. We ask whether the identity document of a persistent cognitive agent (its cognitive_core) exhibits analogous attractor-like behavior. We present a controlled experiment on Llama 3.1 8B Instruct, comparing hidden states of an original cognitive_core (Condition A), seven paraphrases (Condition B), and seven structurally matched controls (Condition C). Mean-pooled states at layers 8, 16, and 24 show that paraphrases converge to a tighter cluster than controls (Cohen's d > 1.88, p < 10^{-27}, Bonferroni-corrected). Replication on Gemma 2 9B confirms cross-architecture generalizability. Ablations suggest the effect is primarily semantic rather than structural, and that structural completeness appears necessary to reach the attractor region. An exploratory experiment shows that reading a scientific description of the agent shifts internal state toward the attractor -- closer than a sham preprint -- distinguishing knowing about an identity from operating as that identity. These results provide representational evidence that agent identity documents induce attractor-like geometry in LLM activation space.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-16T04:00:00.000Z",
+      "score": 95.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.12034",
+      "title": "Memory as Metabolism: A Design for Companion Knowledge Systems",
+      "link": "https://arxiv.org/abs/2604.12034",
+      "summary": "arXiv:2604.12034v1 Announce Type: new Abstract: Retrieval-Augmented Generation remains the dominant pattern for giving LLMs persistent memory, but a visible cluster of personal wiki-style memory architectures emerged in April 2026 -- design proposals from Karpathy, MemPalace, and LLM Wiki v2 that compile knowledge into an interlinked artifact for long-term use by a single user. They sit alongside production memory systems that the major labs have shipped for over a year, and an active academic lineage including MemGPT, Generative Agents, Mem0, Zep, A-Mem, MemMachine, SleepGate, and Second Me. Within a 2026 landscape of emerging governance frameworks for agent context and memory -- including Context Cartography and MemOS -- this paper proposes a companion-specific governance profile: a set of normative obligations, a time-structured procedural rule, and testable conformance invariants for the specific failure mode of entrenchment under user-coupled drift in single-user knowledge wikis built on the LLM wiki pattern. The design principle is that personal LLM memory is a companion system: its job is to mirror the user on operational dimensions (working vocabulary, load-bearing structure, continuity of context) and compensate on epistemic failure modes (entrenchment, suppression of contradicting evidence, Kuhnian ossification). Five operations implement this split -- TRIAGE, DECAY,",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-16T04:00:00.000Z",
+      "score": 95.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/EdoardoBambini/Agent-Armor-Iaga",
+      "title": "Show HN: Agent Armor, a Rust runtime that enforces policies on AI agent actions",
+      "link": "https://github.com/EdoardoBambini/Agent-Armor-Iaga",
+      "summary": "Article URL: https://github.com/EdoardoBambini/Agent-Armor-Iaga Comments URL: https://news.ycombinator.com/item?id=47789627 Points: 4 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-16T07:03:19.000Z",
+      "score": 93.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.nvidia.com/en-us/solutions/quantum-computing/ising/",
+      "title": "Nvidia Ising – Open AI Models for Quantum Computing",
+      "link": "https://www.nvidia.com/en-us/solutions/quantum-computing/ising/",
+      "summary": "Article URL: https://www.nvidia.com/en-us/solutions/quantum-computing/ising/ Comments URL: https://news.ycombinator.com/item?id=47789224 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-16T06:01:23.000Z",
+      "score": 92.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://srajangupta.substack.com/p/where-is-my-agentlock-file",
+      "title": "Shouldn't we have an agent.lock file for AI coding agents?",
+      "link": "https://srajangupta.substack.com/p/where-is-my-agentlock-file",
+      "summary": "Article URL: https://srajangupta.substack.com/p/where-is-my-agentlock-file Comments URL: https://news.ycombinator.com/item?id=47789205 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-16T05:58:36.000Z",
+      "score": 91.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://quadric.ai/blog/mcp-ai-coding-assistant",
+      "title": "Teaching AI Agents to Speak Hardware",
+      "link": "https://quadric.ai/blog/mcp-ai-coding-assistant",
+      "summary": "Article URL: https://quadric.ai/blog/mcp-ai-coding-assistant Comments URL: https://news.ycombinator.com/item?id=47789196 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-16T05:57:25.000Z",
+      "score": 91.56,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.11914",
+      "title": "Self-Monitoring Benefits from Structural Integration: Lessons from Metacognition in Continuous-Time Multi-Timescale Agents",
+      "link": "https://arxiv.org/abs/2604.11914",
+      "summary": "arXiv:2604.11914v1 Announce Type: new Abstract: Self-monitoring capabilities -- metacognition, self-prediction, and subjective duration -- are often proposed as useful additions to reinforcement learning agents. But do they actually help? We investigate this question in a continuous-time multi-timescale agent operating in predator-prey survival environments of varying complexity, including a 2D partially observable variant. We first show that three self-monitoring modules, implemented as auxiliary-loss add-ons to a multi-timescale cortical hierarchy, provide no statistically significant benefit across 20 random seeds, 1D and 2D predator-prey environments with standard and non-stationary variants, and training horizons up to 50,000 steps. Diagnosing the failure, we find the modules collapse to near-constant outputs (confidence std < 0.006, attention allocation std < 0.011) and the subjective duration mechanism shifts the discount factor by less than 0.03%. Policy sensitivity analysis confirms the agent's decisions are unaffected by module outputs in this design. We then show that structurally integrating the module outputs -- using confidence to gate exploration, surprise to trigger workspace broadcasts, and self-model predictions as policy input -- produces a medium-large improvement over the add-on approach (Cohen's d = 0.62, p = 0.06, paired) in a non-stationary environment.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-16T04:00:00.000Z",
+      "score": 83.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.11924",
+      "title": "GoodPoint: Learning Constructive Scientific Paper Feedback from Author Responses",
+      "link": "https://arxiv.org/abs/2604.11924",
+      "summary": "arXiv:2604.11924v1 Announce Type: new Abstract: While LLMs hold significant potential to transform scientific research, we advocate for their use to augment and empower researchers rather than to automate research without human oversight. To this end, we study constructive feedback generation, the task of producing targeted, actionable feedback that helps authors improve both their research and its presentation. In this work, we operationalize the effectiveness of feedback along two author-centric axes-validity and author action. We first curate GoodPoint-ICLR, a dataset of 19K ICLR papers with reviewer feedback annotated along both dimensions using author responses. Building on this, we introduce GoodPoint, a training recipe that leverages success signals from author responses through fine-tuning on valid and actionable feedback, together with preference optimization on both real and synthetic preference pairs. Our evaluation on a benchmark of 1.2K ICLR papers shows that a GoodPoint-trained Qwen3-8B improves the predicted success rate by 83.7% over the base model and sets a new state-of-the-art among LLMs of similar size in feedback matching on a golden human feedback set, even surpassing Gemini-3-flash in precision. We further validate these findings through an expert human study, demonstrating that GoodPoint consistently delivers higher practical value as perceived by author",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-16T04:00:00.000Z",
+      "score": 83.29,
       "status": "queued"
     },
     {
@@ -7025,38 +7060,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-18T16:07:32.558Z",
       "failureReason": "validation issues: EN: Missing section: TL;DR in plain English | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
-      "title": "Yahoo CEO Jim Lanzone on reviving the web&#8217;s homepage",
-      "link": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
-      "summary": "Today, I’m talking with Jim Lanzone, who is the CEO of Yahoo. It’s basically impossible to sum up the Yahoo story, but the short version of it is that a long time ago Yahoo paid Google to run the search box on its website, and basically everything has gone sideways since. You’ll hear Jim refer to that deal as Yahoo’s original sin, actually. After a long series of mergers and spinouts and an extremely odd moment wher…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-16T15:00:00.000Z",
-      "score": 219.08,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-03-17T08:40:12.754Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://www.numerama.com/cyberguerre/2211161-cetait-une-question-de-temps-les-sms-darnaques-sont-desormais-accompagnes-de-photo-generees-par-ia.html",
-      "title": "C’était une question de temps, les SMS d’arnaques sont désormais accompagnés de photo générées par IA",
-      "link": "https://www.numerama.com/cyberguerre/2211161-cetait-une-question-de-temps-les-sms-darnaques-sont-desormais-accompagnes-de-photo-generees-par-ia.html",
-      "summary": "Depuis plusieurs jours, des internautes signalent une nouvelle campagne de phishing par SMS ciblant des numéros français. Sa particularité : elle s'appuie sur une photo générée par intelligence artificielle pour tenter de tromper ses victimes.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-17T07:04:27.000Z",
-      "score": 105.19,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-03-17T08:40:12.754Z",
-      "failureReason": "validation issues: EN: Section \"TL;DR in plain English\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What changed\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Why this matters (for real teams)\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Concrete example: what this looks like in practice\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What s…"
     }
   ]
 }
