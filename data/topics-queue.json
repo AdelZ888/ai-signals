@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-16T16:56:08.860Z",
+  "generatedAt": "2026-04-17T09:19:43.016Z",
   "items": [
+    {
+      "id": "https://www.numerama.com/tech/2234439-anthropic-devoile-claude-opus-4-7-le-nouveau-meilleur-modele-du-marche.html",
+      "title": "Anthropic dévoile Claude Opus 4.7, le nouveau meilleur modèle du marché",
+      "link": "https://www.numerama.com/tech/2234439-anthropic-devoile-claude-opus-4-7-le-nouveau-meilleur-modele-du-marche.html",
+      "summary": "Le 16 avril 2026, Anthropic a dévoilé Claude Opus 4.7, une nouvelle version de son modèle orientée vers les tâches complexes et l’usage « agentique ». Plus performant que son prédécesseur, il sert aussi de terrain de test pour de nouveaux garde-fous en cybersécurité.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-16T16:17:18.000Z",
+      "score": 162,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-17T09:19:42.994Z",
+      "file": "content/posts/2026-04-17-anthropics-claude-opus-47-agentic-tuning-higher-swe-bench-score-and-glasswing-security-trials.md",
+      "fileFr": "content/posts/fr/2026-04-17-anthropics-claude-opus-47-agentic-tuning-higher-swe-bench-score-and-glasswing-security-trials.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1233,
+      "wordsFr": 1229
+    },
     {
       "id": "https://github.com/stephenchilcote-gauntlet/leftglove",
       "title": "LeftGlove – MCP server that makes websites usable by AI agents (npx leftglove)",
@@ -3911,6 +3934,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://szilard.github.io/xgboost-autoresearch/",
+      "title": "Optimizing XGBoost Machine Learning Models with AI Agents",
+      "link": "https://szilard.github.io/xgboost-autoresearch/",
+      "summary": "Article URL: https://szilard.github.io/xgboost-autoresearch/ Comments URL: https://news.ycombinator.com/item?id=47803617 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-17T08:12:56.000Z",
+      "score": 228,
+      "status": "queued"
+    },
+    {
       "id": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
       "title": "CERN uses tiny AI models burned into silicon for real-time LHC data filtering",
       "link": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
@@ -4295,15 +4330,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2234439-anthropic-devoile-claude-opus-4-7-le-nouveau-meilleur-modele-du-marche.html",
-      "title": "Anthropic dévoile Claude Opus 4.7, le nouveau meilleur modèle du marché",
-      "link": "https://www.numerama.com/tech/2234439-anthropic-devoile-claude-opus-4-7-le-nouveau-meilleur-modele-du-marche.html",
-      "summary": "Le 16 avril 2026, Anthropic a dévoilé Claude Opus 4.7, une nouvelle version de son modèle orientée vers les tâches complexes et l’usage « agentique ». Plus performant que son prédécesseur, il sert aussi de terrain de test pour de nouveaux garde-fous en cybersécurité.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T16:17:18.000Z",
-      "score": 162,
+      "id": "https://arxiv.org/abs/2604.13888",
+      "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
+      "link": "https://arxiv.org/abs/2604.13888",
+      "summary": "arXiv:2604.13888v1 Announce Type: new Abstract: The integration of Large Language Models (LLMs) into Geographic Information Systems (GIS) marks a paradigm shift toward autonomous spatial analysis. However, evaluating these LLM-based agents remains challenging due to the complex, multi-step nature of geospatial workflows. Existing benchmarks primarily rely on static text or code matching, neglecting dynamic runtime feedback and the multimodal nature of spatial outputs. To address this gap, we introduce GeoAgentBench (GABench), a dynamic and interactive evaluation benchmark tailored for tool-augmented GIS agents. GABench provides a realistic execution sandbox integrating 117 atomic GIS tools, encompassing 53 typical spatial analysis tasks across 6 core GIS domains. Recognizing that precise parameter configuration is the primary determinant of execution success in dynamic GIS environments, we designed the Parameter Execution Accuracy (PEA) metric, which utilizes a \"Last-Attempt Alignment\" strategy to quantify the fidelity of implicit parameter inference. Complementing this, a Vision-Language Model (VLM) based verification is proposed to assess data-spatial accuracy and cartographic style adherence. Furthermore, to address the frequent task failures caused by parameter misalignments and runtime anomalies, we developed a novel agent architecture, Plan-and-React, that mimics expert c",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 161.36,
       "status": "queued"
     },
     {
@@ -4328,18 +4363,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://hexaco-agent.vercel.app/",
-      "title": "How Well Does My AI Agent Know Me?",
-      "link": "https://hexaco-agent.vercel.app/",
-      "summary": "Article URL: https://hexaco-agent.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=47540121 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-27T08:11:15.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -4835,6 +4858,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/cyberguerre/2234691-claude-opus-4-7-est-arrive-avec-un-formulaire-qui-dit-tout-de-la-strategie-cyber-danthropic.html",
+      "title": "Claude Opus 4.7 est arrivé… avec un formulaire qui dit tout de la stratégie cyber d’Anthropic",
+      "link": "https://www.numerama.com/cyberguerre/2234691-claude-opus-4-7-est-arrive-avec-un-formulaire-qui-dit-tout-de-la-strategie-cyber-danthropic.html",
+      "summary": "Le 16 avril 2026, Anthropic annonçait le déploiement de son nouveau modèle Claude Opus 4.7. Au-delà des annonces de performances, ce lancement s'accompagne d'un formulaire de vérification qui révèle en creux comment Anthropic entend gérer les usages en cybersécurité de ses modèles grand public.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-17T08:38:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.13759",
+      "title": "The cognitive companion: a lightweight parallel monitoring architecture for detecting and recovering from reasoning degradation in LLM agents",
+      "link": "https://arxiv.org/abs/2604.13759",
+      "summary": "arXiv:2604.13759v1 Announce Type: new Abstract: Large language model (LLM) agents on multi-step tasks suffer reasoning degradation, looping, drift, stuck states, at rates up to 30% on hard tasks. Current solutions include hard step limits (abrupt) or LLM-as-judge monitoring (10-15% overhead per step). This paper introduces the Cognitive Companion, a parallel monitoring architecture with two implementations: an LLM-based Companion and a novel zero-overhead Probe-based Companion. We report a three-batch feasibility study centered on Gemma 4 E4B, with an additional exploratory small-model analysis on Qwen 2.5 1.5B and Llama 3.2 1B. In our experiments, the LLM-based Companion reduced repetition on loop-prone tasks by 52-62% with approximately 11% overhead. The Probe-based Companion, trained on hidden states from layer 28, showed a mean effect size of +0.471 at zero measured inference overhead; its strongest probe result achieved cross-validated AUROC 0.840 on a small proxy-labeled dataset. A key empirical finding is that companion benefit appears task-type dependent: companions are most helpful on loop-prone and open-ended tasks, while effects are neutral or negative on more structured tasks. Our small-model experiments also suggest a possible scale boundary: companions did not improve the measured quality proxy on 1B-1.5B models, even when interventions fired. Overall, the paper s",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 155.36,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/OpenCognit/opencognit",
       "title": "OpenCognit – Open-source OS for autonomous AI agents",
       "link": "https://github.com/OpenCognit/opencognit",
@@ -5291,6 +5338,18 @@
       "status": "queued"
     },
     {
+      "id": "https://engineering.flexcompute.com/articles/autoresearch-photonic-design/",
+      "title": "Can AI agents autonomously design components on photonic chips?",
+      "link": "https://engineering.flexcompute.com/articles/autoresearch-photonic-design/",
+      "summary": "Article URL: https://engineering.flexcompute.com/articles/autoresearch-photonic-design/ Comments URL: https://news.ycombinator.com/item?id=47803381 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-17T07:29:26.000Z",
+      "score": 126.92,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.03356",
       "title": "Evaluating Artificial Intelligence Through a Christian Understanding of Human Flourishing",
       "link": "https://arxiv.org/abs/2604.03356",
@@ -5423,6 +5482,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.13531",
+      "title": "RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management",
+      "link": "https://arxiv.org/abs/2604.13531",
+      "summary": "arXiv:2604.13531v1 Announce Type: new Abstract: Graphical User Interface (GUI) agents show strong capabilities for automating web tasks, but existing interactive benchmarks primarily target benign, predictable consumer environments. Their effectiveness in high-stakes, investigative domains such as authentic e-commerce risk management remains underexplored. To bridge this gap, we present RiskWebWorld, the first highly realistic interactive benchmark for evaluating GUI agents in e-commerce risk management. RiskWebWorld features 1,513 tasks sourced from production risk-control pipelines across 8 core domains, and captures the authentic challenges of risk operations on uncooperative websites, partially environmental hijackments. To support scalable evaluation and agentic reinforcement learning (RL), we further build a Gymnasium-compliant infrastructure that decouples policy planning from environment mechanics. Our evaluation across diverse models reveals a dramatic capability gap: top-tier generalist models achieve 49.1% success, while specialized open-weights GUI models lag at near-total failure. This highlights that foundation model scale currently matters more than zero-shot interface grounding in long-horizon professional tasks. We also demonstrate the viability of our infrastructure through agentic RL, which improves open-source models by 16.2%. These results position RiskWebW",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 125.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.13757",
+      "title": "Rethinking AI Hardware: A Three-Layer Cognitive Architecture for Autonomous Agents",
+      "link": "https://arxiv.org/abs/2604.13757",
+      "summary": "arXiv:2604.13757v1 Announce Type: new Abstract: The next generation of autonomous AI systems will be constrained not only by model capability, but by how intelligence is structured across heterogeneous hardware. Current paradigms -- cloud-centric AI, on-device inference, and edge-cloud pipelines -- treat planning, reasoning, and execution as a monolithic process, leading to unnecessary latency, energy consumption, and fragmented behavioral continuity. We introduce the Tri-Spirit Architecture, a three-layer cognitive framework that decomposes intelligence into planning (Super Layer), reasoning (Agent Layer), and execution (Reflex Layer), each mapped to distinct compute substrates and coordinated via an asynchronous message bus. We formalize the system with a parameterized routing policy, a habit-compilation mechanism that promotes repeated reasoning paths into zero-inference execution policies, a convergent memory model, and explicit safety constraints. We evaluate the architecture in a reproducible simulation of 2000 synthetic tasks against cloud-centric and edge-only baselines. Tri-Spirit reduces mean task latency by 75.6 percent and energy consumption by 71.1 percent, while decreasing LLM invocations by 30 percent and enabling 77.6 percent offline task completion. These results suggest that cognitive decomposition, rather than model scaling alone, is a primary driver of syste",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 125.36,
+      "status": "queued"
+    },
+    {
       "id": "https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html",
       "title": "Northeastern presentation to junior engineers in the age of AI",
       "link": "https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html",
@@ -5432,6 +5515,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-08T14:58:38.000Z",
       "score": 125.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/NickCirv/engram",
+      "title": "Engram – context spine for AI coding agents, 88% proven token savings",
+      "link": "https://github.com/NickCirv/engram",
+      "summary": "Article URL: https://github.com/NickCirv/engram Comments URL: https://news.ycombinator.com/item?id=47803155 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-17T06:50:23.000Z",
+      "score": 124.25,
       "status": "queued"
     },
     {
@@ -5579,6 +5674,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.13488",
+      "title": "Towards Scalable Lightweight GUI Agents via Multi-role Orchestration",
+      "link": "https://arxiv.org/abs/2604.13488",
+      "summary": "arXiv:2604.13488v1 Announce Type: new Abstract: Autonomous Graphical User Interface (GUI) agents powered by Multimodal Large Language Models (MLLMs) enable digital automation on end-user devices. While scaling both parameters and data has yielded substantial gains, advanced methods still suffer from prohibitive deployment costs on resource-constrained devices. When facing complex in-the-wild scenarios, lightweight GUI agents are bottlenecked by limited capacity and poor task scalability under end-to-end episodic learning, impeding adaptation to multi-agent systems (MAS), while training multiple skill-specific experts remains costly. Can we strike an effective trade-off in this cost-scalability dilemma, enabling lightweight MLLMs to participate in realistic GUI workflows? To address these challenges, we propose the LAMO framework, which endows a lightweight MLLM with GUI-specific knowledge and task scalability, allowing multi-role orchestration to expand its capability boundary for GUI automation. LAMO combines role-oriented data synthesis with a two-stage training recipe: (i) supervised fine-tuning with Perplexity-Weighted Cross-Entropy optimization for knowledge distillation and visual perception enhancement, and (ii) reinforcement learning for role-oriented cooperative exploration. With LAMO, we develop a task-scalable native GUI agent, LAMO-3B, supporting monolithic executio",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 119.36,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.09554",
       "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
       "link": "https://arxiv.org/abs/2604.09554",
@@ -5675,18 +5782,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.23539",
-      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
-      "link": "https://arxiv.org/abs/2603.23539",
-      "summary": "arXiv:2603.23539v1 Announce Type: new Abstract: We show that PLDR-LLMs pretrained at self-organized criticality exhibit reasoning at inference time. The characteristics of PLDR-LLM deductive outputs at criticality is similar to second-order phase transitions. At criticality, the correlation length diverges, and the deductive outputs attain a metastable steady state. The steady state behaviour suggests that deductive outputs learn representations equivalent to scaling functions, universality classes and renormalization groups from the training dataset, leading to generalization and reasoning capabilities in the process. We can then define an order parameter from the global statistics of the model's deductive output parameters at inference. The reasoning capabilities of a PLDR-LLM is better when its order parameter is close to zero at criticality. This observation is supported by the benchmark scores of the models trained at near-criticality and sub-criticality. Our results provide a self-contained explanation on how reasoning manifests in large language models, and the ability to reason can be quantified solely from global model parameter values of the deductive outputs at steady state, without any need for evaluation of curated benchmark datasets through inductive output for reasoning and comprehension.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "score": 115.7,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.06562",
       "title": "On Emotion-Sensitive Decision Making of Small Language Model Agents",
       "link": "https://arxiv.org/abs/2604.06562",
@@ -5720,6 +5815,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-14T07:08:39.000Z",
       "score": 113.94,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.13151",
+      "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+      "link": "https://arxiv.org/abs/2604.13151",
+      "summary": "arXiv:2604.13151v1 Announce Type: new Abstract: Language Model (LM) agents are increasingly used in complex open-ended decision-making tasks, from AI coding to physical AI. A core requirement in these settings is the ability to both explore the problem space and exploit acquired knowledge effectively. However, systematically distinguishing and quantifying exploration and exploitation from observed actions without access to the agent's internal policy remains challenging. To address this, we design controllable environments inspired by practical embodied AI scenarios. Each environment consists of a partially observable 2D grid map and an unknown task Directed Acyclic Graph (DAG). The map generation can be programmatically adjusted to emphasize exploration or exploitation difficulty. To enable policy-agnostic evaluation, we design a metric to quantify exploration and exploitation errors from agent's actions. We evaluate a variety of frontier LM agents and find that even state-of-the-art models struggle on our task, with different models exhibiting distinct failure modes. We further observe that reasoning models solve the task more effectively and show both exploration and exploitation can be significantly improved through minimal harness engineering. We release our code \\href{https://github.com/jjj-madison/measurable-explore-exploit}{here}.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 113.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.13392",
+      "title": "ReSS: Learning Reasoning Models for Tabular Data Prediction via Symbolic Scaffold",
+      "link": "https://arxiv.org/abs/2604.13392",
+      "summary": "arXiv:2604.13392v1 Announce Type: new Abstract: Tabular data remains prevalent in high-stakes domains such as healthcare and finance, where predictive models are expected to provide both high accuracy and faithful, human-understandable reasoning. While symbolic models offer verifiable logic, they lack semantic expressiveness. Meanwhile, general-purpose LLMs often require specialized fine-tuning to master domain-specific tabular reasoning. To address the dual challenges of scalable data curation and reasoning consistency, we propose ReSS, a systematic framework that bridges symbolic and neural reasoning models. ReSS leverages a decision-tree model to extract instance-level decision paths as symbolic scaffolds. These scaffolds, alongside input features and labels, guide an LLM to generate grounded natural-language reasoning that strictly adheres to the underlying decision logic. The resulting high-quality dataset is used to fine-tune a pretrained LLM into a specialized tabular reasoning model, further enhanced by a scaffold-invariant data augmentation strategy to improve generalization and explainability. To rigorously assess faithfulness, we introduce quantitative metrics including hallucination rate, explanation necessity, and explanation sufficiency. Experimental results on medical and financial benchmarks demonstrate that ReSS-trained models improve traditional decision trees",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 113.36,
       "status": "queued"
     },
     {
@@ -5843,6 +5962,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.13318",
+      "title": "WebXSkill: Skill Learning for Autonomous Web Agents",
+      "link": "https://arxiv.org/abs/2604.13318",
+      "summary": "arXiv:2604.13318v1 Announce Type: new Abstract: Autonomous web agents powered by large language models (LLMs) have shown promise in completing complex browser tasks, yet they still struggle with long-horizon workflows. A key bottleneck is the grounding gap in existing skill formulations: textual workflow skills provide natural language guidance but cannot be directly executed, while code-based skills are executable but opaque to the agent, offering no step-level understanding for error recovery or adaptation. We introduce WebXSkill, a framework that bridges this gap with executable skills, each pairing a parameterized action program with step-level natural language guidance, enabling both direct execution and agent-driven adaptation. WebXSkill operates in three stages: skill extraction mines reusable action subsequences from readily available synthetic agent trajectories and abstracts them into parameterized skills, skill organization indexes skills into a URL-based graph for context-aware retrieval, and skill deployment exposes two complementary modes, grounded mode for fully automated multi-step execution and guided mode where skills serve as step-by-step instructions that the agent follows with its native planning. On WebArena and WebVoyager, WebXSkill improves task success rate by up to 9.8 and 12.9 points over the baseline, respectively, demonstrating the effectiveness of",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 107.36,
+      "status": "queued"
+    },
+    {
       "id": "https://www.mountaineagle.net/articles/display/the-model-is-not-the-product-harnesses-not-intelligence-will-define-the-next-phase-of-ai/",
       "title": "The Model Is Not the Product: Harnesses Will Define the Next Phase of AI",
       "link": "https://www.mountaineagle.net/articles/display/the-model-is-not-the-product-harnesses-not-intelligence-will-define-the-next-phase-of-ai/",
@@ -5915,99 +6046,39 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.11969",
-      "title": "Narrative-Driven Paper-to-Slide Generation via ArcDeck",
-      "link": "https://arxiv.org/abs/2604.11969",
-      "summary": "arXiv:2604.11969v1 Announce Type: new Abstract: We introduce ArcDeck, a multi-agent framework that formulates paper-to-slide generation as a structured narrative reconstruction task. Unlike existing methods that directly summarize raw text into slides, ArcDeck explicitly models the source paper's logical flow. It first parses the input to construct a discourse tree and establish a global commitment document, ensuring the high-level intent is preserved. These structural priors then guide an iterative multi-agent refinement process, where specialized agents iteratively critique and revise the presentation outline before rendering the final visual layouts and designs. To evaluate our approach, we also introduce ArcBench, a newly curated benchmark of academic paper-slide pairs. Experimental results demonstrate that explicit discourse modeling, combined with role-specific agent coordination, significantly improves the narrative flow and logical coherence of the generated presentations.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-16T04:00:00.000Z",
-      "score": 95.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.12016",
-      "title": "Identity as Attractor: Geometric Evidence for Persistent Agent Architecture in LLM Activation Space",
-      "link": "https://arxiv.org/abs/2604.12016",
-      "summary": "arXiv:2604.12016v1 Announce Type: new Abstract: Large language models map semantically related prompts to similar internal representations -- a phenomenon interpretable as attractor-like dynamics. We ask whether the identity document of a persistent cognitive agent (its cognitive_core) exhibits analogous attractor-like behavior. We present a controlled experiment on Llama 3.1 8B Instruct, comparing hidden states of an original cognitive_core (Condition A), seven paraphrases (Condition B), and seven structurally matched controls (Condition C). Mean-pooled states at layers 8, 16, and 24 show that paraphrases converge to a tighter cluster than controls (Cohen's d > 1.88, p < 10^{-27}, Bonferroni-corrected). Replication on Gemma 2 9B confirms cross-architecture generalizability. Ablations suggest the effect is primarily semantic rather than structural, and that structural completeness appears necessary to reach the attractor region. An exploratory experiment shows that reading a scientific description of the agent shifts internal state toward the attractor -- closer than a sham preprint -- distinguishing knowing about an identity from operating as that identity. These results provide representational evidence that agent identity documents induce attractor-like geometry in LLM activation space.",
+      "id": "https://arxiv.org/abs/2604.13180",
+      "title": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
+      "link": "https://arxiv.org/abs/2604.13180",
+      "summary": "arXiv:2604.13180v1 Announce Type: new Abstract: Recent advances in agentic AI have enabled increasingly autonomous workflows, but existing systems still face substantial challenges in achieving reliable deployment in real-world scientific research. In this work, we present a safe, lightweight, and user-friendly agentic framework for the autonomous execution of well-defined scientific tasks. The framework combines an isolated execution environment, a three-layer agent loop, and a self-assessing do-until mechanism to ensure safe and reliable operation while effectively leveraging large language models of varying capability levels. By focusing on structured tasks with clearly defined context and stopping criteria, the framework supports end-to-end automation with minimal human intervention, enabling researchers to offload routine workloads and devote more effort to creative activities and open-ended scientific inquiry.",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 5,
-      "publishedAt": "2026-04-16T04:00:00.000Z",
-      "score": 95.29,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 95.36,
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.12034",
-      "title": "Memory as Metabolism: A Design for Companion Knowledge Systems",
-      "link": "https://arxiv.org/abs/2604.12034",
-      "summary": "arXiv:2604.12034v1 Announce Type: new Abstract: Retrieval-Augmented Generation remains the dominant pattern for giving LLMs persistent memory, but a visible cluster of personal wiki-style memory architectures emerged in April 2026 -- design proposals from Karpathy, MemPalace, and LLM Wiki v2 that compile knowledge into an interlinked artifact for long-term use by a single user. They sit alongside production memory systems that the major labs have shipped for over a year, and an active academic lineage including MemGPT, Generative Agents, Mem0, Zep, A-Mem, MemMachine, SleepGate, and Second Me. Within a 2026 landscape of emerging governance frameworks for agent context and memory -- including Context Cartography and MemOS -- this paper proposes a companion-specific governance profile: a set of normative obligations, a time-structured procedural rule, and testable conformance invariants for the specific failure mode of entrenchment under user-coupled drift in single-user knowledge wikis built on the LLM wiki pattern. The design principle is that personal LLM memory is a companion system: its job is to mirror the user on operational dimensions (working vocabulary, load-bearing structure, continuity of context) and compensate on epistemic failure modes (entrenchment, suppression of contradicting evidence, Kuhnian ossification). Five operations implement this split -- TRIAGE, DECAY,",
+      "id": "https://arxiv.org/abs/2604.13206",
+      "title": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
+      "link": "https://arxiv.org/abs/2604.13206",
+      "summary": "arXiv:2604.13206v1 Announce Type: new Abstract: As Large Language Models (LLMs) are increasingly integrated into agentic workflows, their unpredictability stemming from numerical instability has emerged as a critical reliability issue. While recent studies have demonstrated the significant downstream effects of these instabilities, the root causes and underlying mechanisms remain poorly understood. In this paper, we present a rigorous analysis of how unpredictability is rooted in the finite numerical precision of floating-point representations, tracking how rounding errors propagate, amplify, or dissipate through Transformer computation layers. Specifically, we identify a chaotic \"avalanche effect\" in the early layers, where minor perturbations trigger binary outcomes: either rapid amplification or complete attenuation. Beyond specific error instances, we demonstrate that LLMs exhibit universal, scale-dependent chaotic behaviors characterized by three distinct regimes: 1) a stable regime, where perturbations fall below an input-dependent threshold and vanish, resulting in constant outputs; 2) a chaotic regime, where rounding errors dominate and drive output divergence; and 3) a signal-dominated regime, where true input variations override numerical noise. We validate these findings extensively across multiple datasets and model architectures.",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-16T04:00:00.000Z",
-      "score": 95.29,
+      "keywordHits": 5,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 95.36,
       "status": "queued"
     },
     {
-      "id": "https://github.com/EdoardoBambini/Agent-Armor-Iaga",
-      "title": "Show HN: Agent Armor, a Rust runtime that enforces policies on AI agent actions",
-      "link": "https://github.com/EdoardoBambini/Agent-Armor-Iaga",
-      "summary": "Article URL: https://github.com/EdoardoBambini/Agent-Armor-Iaga Comments URL: https://news.ycombinator.com/item?id=47789627 Points: 4 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-16T07:03:19.000Z",
-      "score": 93.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.nvidia.com/en-us/solutions/quantum-computing/ising/",
-      "title": "Nvidia Ising – Open AI Models for Quantum Computing",
-      "link": "https://www.nvidia.com/en-us/solutions/quantum-computing/ising/",
-      "summary": "Article URL: https://www.nvidia.com/en-us/solutions/quantum-computing/ising/ Comments URL: https://news.ycombinator.com/item?id=47789224 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T06:01:23.000Z",
-      "score": 92.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://srajangupta.substack.com/p/where-is-my-agentlock-file",
-      "title": "Shouldn't we have an agent.lock file for AI coding agents?",
-      "link": "https://srajangupta.substack.com/p/where-is-my-agentlock-file",
-      "summary": "Article URL: https://srajangupta.substack.com/p/where-is-my-agentlock-file Comments URL: https://news.ycombinator.com/item?id=47789205 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T05:58:36.000Z",
-      "score": 91.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://quadric.ai/blog/mcp-ai-coding-assistant",
-      "title": "Teaching AI Agents to Speak Hardware",
-      "link": "https://quadric.ai/blog/mcp-ai-coding-assistant",
-      "summary": "Article URL: https://quadric.ai/blog/mcp-ai-coding-assistant Comments URL: https://news.ycombinator.com/item?id=47789196 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T05:57:25.000Z",
-      "score": 91.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.11914",
-      "title": "Self-Monitoring Benefits from Structural Integration: Lessons from Metacognition in Continuous-Time Multi-Timescale Agents",
-      "link": "https://arxiv.org/abs/2604.11914",
-      "summary": "arXiv:2604.11914v1 Announce Type: new Abstract: Self-monitoring capabilities -- metacognition, self-prediction, and subjective duration -- are often proposed as useful additions to reinforcement learning agents. But do they actually help? We investigate this question in a continuous-time multi-timescale agent operating in predator-prey survival environments of varying complexity, including a 2D partially observable variant. We first show that three self-monitoring modules, implemented as auxiliary-loss add-ons to a multi-timescale cortical hierarchy, provide no statistically significant benefit across 20 random seeds, 1D and 2D predator-prey environments with standard and non-stationary variants, and training horizons up to 50,000 steps. Diagnosing the failure, we find the modules collapse to near-constant outputs (confidence std < 0.006, attention allocation std < 0.011) and the subjective duration mechanism shifts the discount factor by less than 0.03%. Policy sensitivity analysis confirms the agent's decisions are unaffected by module outputs in this design. We then show that structurally integrating the module outputs -- using confidence to gate exploration, surprise to trigger workspace broadcasts, and self-model predictions as policy input -- produces a medium-large improvement over the add-on approach (Cohen's d = 0.62, p = 0.06, paired) in a non-stationary environment.",
+      "id": "https://arxiv.org/abs/2604.13395",
+      "title": "Quantifying and Understanding Uncertainty in Large Reasoning Models",
+      "link": "https://arxiv.org/abs/2604.13395",
+      "summary": "arXiv:2604.13395v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) have recently demonstrated significant improvements in complex reasoning. While quantifying generation uncertainty in LRMs is crucial, traditional methods are often insufficient because they do not provide finite-sample guarantees for reasoning-answer generation. Conformal prediction (CP) stands out as a distribution-free and model-agnostic methodology that constructs statistically rigorous uncertainty sets. However, existing CP methods ignore the logical connection between the reasoning trace and the final answer. Additionally, prior studies fail to interpret the origins of uncertainty coverage for LRMs as they typically overlook the specific training factors driving valid reasoning. Notably, it is challenging to disentangle reasoning quality from answer correctness when quantifying uncertainty, while simultaneously establishing theoretical guarantees for computationally efficient explanation methods. To address these challenges, we first propose a novel methodology that quantifies uncertainty in the reasoning-answer structure with statistical guarantees. Subsequently, we develop a unified example-to-step explanation framework using Shapley values that identifies a provably sufficient subset of training examples and their key reasoning steps to preserve the guarantees. We also provide theoretical ana",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-04-16T04:00:00.000Z",
-      "score": 83.29,
+      "publishedAt": "2026-04-17T04:00:00.000Z",
+      "score": 95.36,
       "status": "queued"
     },
     {
