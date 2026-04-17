@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-17T09:19:43.016Z",
+  "generatedAt": "2026-04-17T16:27:48.913Z",
   "items": [
+    {
+      "id": "https://choon.app",
+      "title": "Show HN: I built an AI music tagger for DJs, fusing metadata, audio DSP, and ML",
+      "link": "https://choon.app",
+      "summary": "Built this for myself. I DJ, throw parties in Portland, and my digital library is 10k tracks and unmanageable. Tagging everything was a nonstarter. Project started as a Python script that fed track metadata into ChatGPT. Worked surprisingly well for something so basic. Friends kept asking me to run their libraries through it, and eventually I built a real app around it. The core insight: no single signal is enough.…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-15T15:38:11.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-17T16:27:48.842Z",
+      "file": "content/posts/2026-04-17-choon-on-device-ai-tagger-for-rekordbox-that-combines-discogs-metadata-audio-analysis-and-ml.md",
+      "fileFr": "content/posts/fr/2026-04-17-choon-on-device-ai-tagger-for-rekordbox-that-combines-discogs-metadata-audio-analysis-and-ml.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1710,
+      "wordsFr": 1218
+    },
     {
       "id": "https://www.numerama.com/tech/2234439-anthropic-devoile-claude-opus-4-7-le-nouveau-meilleur-modele-du-marche.html",
       "title": "Anthropic dévoile Claude Opus 4.7, le nouveau meilleur modèle du marché",
@@ -4126,18 +4149,6 @@
       "status": "queued"
     },
     {
-      "id": "https://choon.app",
-      "title": "Show HN: I built an AI music tagger for DJs, fusing metadata, audio DSP, and ML",
-      "link": "https://choon.app",
-      "summary": "Built this for myself. I DJ, throw parties in Portland, and my digital library is 10k tracks and unmanageable. Tagging everything was a nonstarter. Project started as a Python script that fed track metadata into ChatGPT. Worked surprisingly well for something so basic. Friends kept asking me to run their libraries through it, and eventually I built a real app around it. The core insight: no single signal is enough. Metadata lookups miss obscure tracks. Audio analysis alone lacks context. LLMs alone hallucinate. So the app combines them: * Metadata cross-referenced against a 200M record Discogs-based DB for known releases * A Mac companion app for managing library / tagging / syncing to Rekordbox * Python DSP that analyzes audio directly (BPM, harmonic content, energy) * A trained ML model for obscure tracks the main databases don't cover * Multiple AI models handling different classification dimensions * Four tag dimensions: genre (50+ sub-genres), region, era, vibe * Syncs to Rekordbox's My Tag system so you can filter on CDJs mid-set Genre, region, and era are solid. Vibe is still a work in progress. Classifying how a track functions in a set (peak time vs after hours vs hypnotic) is fundamentally different from classifying what it is. Decent but not where I want it yet. No audio ever leaves the machine, only metadata. Credit-based pricing, no subscriptions, priced quite reas",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-15T15:38:11.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/tech/913202/gemini-personal-intelligence-images-nano-banana",
       "title": "Gemini can now pull from Google Photos to generate personalized images",
       "link": "https://www.theverge.com/tech/913202/gemini-personal-intelligence-images-nano-banana",
@@ -4170,6 +4181,30 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-04-16T16:03:04.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://moodle.com/news/field-notes-when-ai-agents-show-up-to-class/",
+      "title": "When AI agents show up to class",
+      "link": "https://moodle.com/news/field-notes-when-ai-agents-show-up-to-class/",
+      "summary": "Article URL: https://moodle.com/news/field-notes-when-ai-agents-show-up-to-class/ Comments URL: https://news.ycombinator.com/item?id=47807033 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-17T15:32:06.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://platform.uno/blog/the-new-economics-of-wpf-migration-why-ai-agents-changed-the-math/",
+      "title": "The New Economics of WPF Migration: Why AI Agents Changed the Math",
+      "link": "https://platform.uno/blog/the-new-economics-of-wpf-migration-why-ai-agents-changed-the-math/",
+      "summary": "Article URL: https://platform.uno/blog/the-new-economics-of-wpf-migration-why-ai-agents-changed-the-math/ Comments URL: https://news.ycombinator.com/item?id=47806852 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-17T15:16:21.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -4351,6 +4386,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-04-02T14:39:03.000Z",
       "score": 159.91,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cio.com/article/4155404/ai-token-freeloaders-are-coming-for-your-customer-support-chatbot.html",
+      "title": "AI token freeloaders are coming for your customer support chatbot",
+      "link": "https://www.cio.com/article/4155404/ai-token-freeloaders-are-coming-for-your-customer-support-chatbot.html",
+      "summary": "Article URL: https://www.cio.com/article/4155404/ai-token-freeloaders-are-coming-for-your-customer-support-chatbot.html Comments URL: https://news.ycombinator.com/item?id=47806594 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-17T14:53:04.000Z",
+      "score": 159.76,
       "status": "queued"
     },
     {
@@ -4866,6 +4913,42 @@
       "region": "FR",
       "keywordHits": 2,
       "publishedAt": "2026-04-17T08:38:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+      "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+      "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to dozens of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and \"encourage customers to add more food to their orders,\" according to The Wall Street Journal. Following a test last year, Dairy Queen is widely launching the tech built by Presto, an AI company that already works with chains like Carl's Jr., Hardee's, Taco John's, and Fazoli's. In 2023, a report from Bloomberg revealed that Presto's AI drive-thrus may actually be assisted by human workers based in locations like the Philippines. Presto's chatbot … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-17T15:46:37.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
+      "title": "Rethinking AI TCO: Why Cost per Token Is the Only Metric That Matters",
+      "link": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
+      "summary": "Article URL: https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/ Comments URL: https://news.ycombinator.com/item?id=47806816 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-17T15:13:02.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/cliver-project/CLIver",
+      "title": "Cliver-project/CLIver: General-purpose AI agent for your terminal",
+      "link": "https://github.com/cliver-project/CLIver",
+      "summary": "Article URL: https://github.com/cliver-project/CLIver Comments URL: https://news.ycombinator.com/item?id=47806713 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-17T15:03:18.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5458,18 +5541,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
-      "title": "Treating enterprise AI as an operating layer",
-      "link": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
-      "summary": "There’s a fault line running through enterprise AI, and it’s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks—GPT versus Gemini, reasoning scores, and marginal capability gains. But in practice, the more durable advantage is structural: who owns the operating layer where intelligence is applied, governed, and improved.…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-16T13:00:00.000Z",
-      "score": 125.51,
-      "status": "queued"
-    },
-    {
       "id": "https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations",
       "title": "Why AI agents fail customer operations",
       "link": "https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations",
@@ -5527,6 +5598,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-04-17T06:50:23.000Z",
       "score": 124.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.sdxcentral.com/control-plane/ai-agents-hire-meatbags-as-the-perils-of-chaos-thrive-in-silicon-valley/",
+      "title": "AI agents hire meatbags as the perils of chaos thrive in Silicon Valley",
+      "link": "https://www.sdxcentral.com/control-plane/ai-agents-hire-meatbags-as-the-perils-of-chaos-thrive-in-silicon-valley/",
+      "summary": "Article URL: https://www.sdxcentral.com/control-plane/ai-agents-hire-meatbags-as-the-perils-of-chaos-thrive-in-silicon-valley/ Comments URL: https://news.ycombinator.com/item?id=47806210 Points: 4 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-17T14:17:56.000Z",
+      "score": 123.76,
       "status": "queued"
     },
     {
@@ -5998,88 +6081,36 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.12066",
-      "title": "Mathematics Teachers Interactions with a Multi-Agent System for Personalized Problem Generation",
-      "link": "https://arxiv.org/abs/2604.12066",
-      "summary": "arXiv:2604.12066v1 Announce Type: new Abstract: Large language models can increasingly adapt educational tasks to learners characteristics. In the present study, we examine a multi-agent teacher-in-the-loop system for personalizing middle school math problems. The teacher enters a base problem and desired topic, the LLM generates the problem, and then four AI agents evaluate the problem using criteria that each specializes in (mathematical accuracy, authenticity, readability, and realism). Eight middle school mathematics teachers created 212 problems in ASSISTments using the system and assigned these problems to their students. We find that both teachers and students wanted to modify the fine-grained personalized elements of the real-world context of the problems, signaling issues with authenticity and fit. Although the agents detected many issues with realism as the problems were being written, there were few realism issues noted by teachers and students in the final versions. Issues with readability and mathematical hallucinations were also somewhat rare. Implications for multi-agent systems for personalization that support teacher control are given.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-15T04:00:00.000Z",
-      "score": 101.24,
-      "status": "queued"
-    },
-    {
-      "id": "https://awesomeagents.ai/news/intel-arc-pro-b70-32gb-local-inference/",
-      "title": "Intel Arc Pro B70 Brings 32GB VRAM to Local AI for $949",
-      "link": "https://awesomeagents.ai/news/intel-arc-pro-b70-32gb-local-inference/",
-      "summary": "Article URL: https://awesomeagents.ai/news/intel-arc-pro-b70-32gb-local-inference/ Comments URL: https://news.ycombinator.com/item?id=47736529 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-12T05:55:35.000Z",
-      "score": 98.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.veltrixcollective.com/research/cost-first-agent-architecture",
-      "title": "How HN: $2/Day AI – How we run an autonomous agent on a hard budget",
-      "link": "https://www.veltrixcollective.com/research/cost-first-agent-architecture",
-      "summary": "Article URL: https://www.veltrixcollective.com/research/cost-first-agent-architecture Comments URL: https://news.ycombinator.com/item?id=47714558 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
+      "id": "https://huggingface.co/blog/nvidia/gr00t-n1-7",
+      "title": "NVIDIA Isaac GR00T N1.7: Open Reasoning VLA Model for Humanoid Robots",
+      "link": "https://huggingface.co/blog/nvidia/gr00t-n1-7",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
       "keywordHits": 2,
-      "publishedAt": "2026-04-10T07:02:17.000Z",
-      "score": 97.53,
-      "status": "queued"
+      "publishedAt": "2026-04-17T15:45:10.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-17T16:01:10.053Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
-      "id": "https://www.reuters.com/world/india/indias-tcs-beats-fourth-quarter-revenue-view-2026-04-09/",
-      "title": "India's TCS tops estimates, says new AI models did not dent services demand",
-      "link": "https://www.reuters.com/world/india/indias-tcs-beats-fourth-quarter-revenue-view-2026-04-09/",
-      "summary": "Article URL: https://www.reuters.com/world/india/indias-tcs-beats-fourth-quarter-revenue-view-2026-04-09/ Comments URL: https://news.ycombinator.com/item?id=47736480 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-12T05:46:29.000Z",
-      "score": 96.15,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.13180",
-      "title": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
-      "link": "https://arxiv.org/abs/2604.13180",
-      "summary": "arXiv:2604.13180v1 Announce Type: new Abstract: Recent advances in agentic AI have enabled increasingly autonomous workflows, but existing systems still face substantial challenges in achieving reliable deployment in real-world scientific research. In this work, we present a safe, lightweight, and user-friendly agentic framework for the autonomous execution of well-defined scientific tasks. The framework combines an isolated execution environment, a three-layer agent loop, and a self-assessing do-until mechanism to ensure safe and reliable operation while effectively leveraging large language models of varying capability levels. By focusing on structured tasks with clearly defined context and stopping criteria, the framework supports end-to-end automation with minimal human intervention, enabling researchers to offload routine workloads and devote more effort to creative activities and open-ended scientific inquiry.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-17T04:00:00.000Z",
-      "score": 95.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.13206",
-      "title": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
-      "link": "https://arxiv.org/abs/2604.13206",
-      "summary": "arXiv:2604.13206v1 Announce Type: new Abstract: As Large Language Models (LLMs) are increasingly integrated into agentic workflows, their unpredictability stemming from numerical instability has emerged as a critical reliability issue. While recent studies have demonstrated the significant downstream effects of these instabilities, the root causes and underlying mechanisms remain poorly understood. In this paper, we present a rigorous analysis of how unpredictability is rooted in the finite numerical precision of floating-point representations, tracking how rounding errors propagate, amplify, or dissipate through Transformer computation layers. Specifically, we identify a chaotic \"avalanche effect\" in the early layers, where minor perturbations trigger binary outcomes: either rapid amplification or complete attenuation. Beyond specific error instances, we demonstrate that LLMs exhibit universal, scale-dependent chaotic behaviors characterized by three distinct regimes: 1) a stable regime, where perturbations fall below an input-dependent threshold and vanish, resulting in constant outputs; 2) a chaotic regime, where rounding errors dominate and drive output divergence; and 3) a signal-dominated regime, where true input variations override numerical noise. We validate these findings extensively across multiple datasets and model architectures.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-17T04:00:00.000Z",
-      "score": 95.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.13395",
-      "title": "Quantifying and Understanding Uncertainty in Large Reasoning Models",
-      "link": "https://arxiv.org/abs/2604.13395",
-      "summary": "arXiv:2604.13395v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) have recently demonstrated significant improvements in complex reasoning. While quantifying generation uncertainty in LRMs is crucial, traditional methods are often insufficient because they do not provide finite-sample guarantees for reasoning-answer generation. Conformal prediction (CP) stands out as a distribution-free and model-agnostic methodology that constructs statistically rigorous uncertainty sets. However, existing CP methods ignore the logical connection between the reasoning trace and the final answer. Additionally, prior studies fail to interpret the origins of uncertainty coverage for LRMs as they typically overlook the specific training factors driving valid reasoning. Notably, it is challenging to disentangle reasoning quality from answer correctness when quantifying uncertainty, while simultaneously establishing theoretical guarantees for computationally efficient explanation methods. To address these challenges, we first propose a novel methodology that quantifies uncertainty in the reasoning-answer structure with statistical guarantees. Subsequently, we develop a unified example-to-step explanation framework using Shapley values that identifies a provably sufficient subset of training examples and their key reasoning steps to preserve the guarantees. We also provide theoretical ana",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-17T04:00:00.000Z",
-      "score": 95.36,
-      "status": "queued"
+      "id": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
+      "title": "Treating enterprise AI as an operating layer",
+      "link": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
+      "summary": "There’s a fault line running through enterprise AI, and it’s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks—GPT versus Gemini, reasoning scores, and marginal capability gains. But in practice, the more durable advantage is structural: who owns the operating layer where intelligence is applied, governed, and improved.…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-16T13:00:00.000Z",
+      "score": 125.51,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-17T16:01:10.053Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://github.com/AntonioTF5/soul-spec",
@@ -7138,38 +7169,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-03-19T08:30:50.129Z",
       "failureReason": "validation issues: EN: Section \"TL;DR in plain English\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What changed\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Why this matters (for real teams)\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Concrete example: what this looks like in practice\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What s…"
-    },
-    {
-      "id": "https://github.com/fwdai/reticle",
-      "title": "Show HN: Reticle – Postman for AI Agents",
-      "link": "https://github.com/fwdai/reticle",
-      "summary": "I’ve been building a lot with LLMs lately and kept thinking: why doesn’t this tool exist? The workflow usually ends up being: write some code, run it, tweak a prompt, add logs just to understand what actually happened. It works in some cases, breaks in others, and it’s hard to see why. You also want to know that changing a prompt or model didn’t quietly break everything. Reticle puts the whole loop in one place. You…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-17T15:57:22.000Z",
-      "score": 222,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-18T16:07:32.558Z",
-      "failureReason": "validation issues: FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://github.com/frntn/planckclaw",
-      "title": "Show HN: PlanckClaw an AI agent in 6832 bytes of x86-64 assembly",
-      "link": "https://github.com/frntn/planckclaw",
-      "summary": "I built an AI agent that fits in 6,832 bytes. The entire runtime (binary, bridges, tools, config) is ~23 KB. PlanckClaw is written in x86-64 assembly (obviously AI assisted code generation for this one) and uses only 7 Linux syscalls. No libc, no allocator, no runtime. The binary is a pure router: it reads messages from named pipes, asks another pipe what tools exist, builds a JSON prompt, writes it to a third pipe,…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-18T15:07:09.000Z",
-      "score": 203.27,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-18T16:07:32.558Z",
-      "failureReason": "validation issues: EN: Missing section: TL;DR in plain English | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }

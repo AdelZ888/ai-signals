@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T09:19:43.007Z",
+  "generatedAt": "2026-04-17T16:27:48.855Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-17-choon-on-device-ai-tagger-for-rekordbox-that-combines-discogs-metadata-audio-analysis-and-ml",
+      "title": "Choon: on-device AI tagger for Rekordbox that combines Discogs metadata, audio analysis and ML",
+      "date": "2026-04-17",
+      "excerpt": "Choon auto-tags Rekordbox libraries by combining Discogs-backed metadata lookups, local audio DSP and small ML models. Privacy-first: audio never leaves your Mac.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-17-choon-on-device-ai-tagger-for-rekordbox-that-combines-discogs-metadata-audio-analysis-and-ml.jpg",
+      "tags": [
+        "AI",
+        "music-tech",
+        "DSP",
+        "ML",
+        "Rekordbox",
+        "metadata",
+        "Discogs",
+        "LLM"
+      ],
+      "sources": [
+        "https://choon.app"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-04-16-francois-ruffins-filmed-exchange-with-claude-highlights-limits-of-llm-demos-for-economic-claims",
