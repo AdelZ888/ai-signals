@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T08:45:47.298Z",
+  "generatedAt": "2026-04-18T15:44:31.198Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-04-18-vakra-benchmark-reproducible-execution-traces-for-diagnosing-multi-step-agent-tool-use",
+      "title": "VAKRA : un benchmark exécutable pour diagnostiquer l'utilisation multi‑étapes d'outils par des agents",
+      "date": "2026-04-18",
+      "excerpt": "Guide localisé pour faire tourner VAKRA — un benchmark exécutable (8 000+ APIs locales, 62 domaines) — capturer des traces d'exécution complètes, reproduire des pannes multi‑étapes et améliorer des agents pas à pas.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-18-vakra-benchmark-reproducible-execution-traces-for-diagnosing-multi-step-agent-tool-use.jpg",
+      "tags": [
+        "VAKRA",
+        "benchmark",
+        "agents",
+        "traçage",
+        "débogage",
+        "Hugging Face",
+        "IBM Research",
+        "API chaining"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-04-17-anthropics-claude-opus-47-agentic-tuning-higher-swe-bench-score-and-glasswing-security-trials",
