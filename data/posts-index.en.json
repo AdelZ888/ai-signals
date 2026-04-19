@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T08:49:48.755Z",
+  "generatedAt": "2026-04-19T15:50:38.213Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-19-stack-a-control-plane-for-ai-agents-with-cryptographic-passports-encrypted-handoffs-and-kmsprotected-credentials",
+      "title": "STACK: a control plane for AI agents with cryptographic passports, encrypted handoffs, and KMS‑protected credentials",
+      "date": "2026-04-19",
+      "excerpt": "Hands-on guide to STACK, a control plane that gives agents cryptographic passports, KMS-encrypted credentials, and detectors that can revoke access and produce a hash-chained audit trail.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-19-stack-a-control-plane-for-ai-agents-with-cryptographic-passports-encrypted-handoffs-and-kmsprotected-credentials.jpg",
+      "tags": [
+        "AI agents",
+        "security",
+        "control plane",
+        "KMS",
+        "passports",
+        "encrypted handoffs",
+        "detectors",
+        "audit"
+      ],
+      "sources": [
+        "https://getstack.run/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
     },
     {
       "slug": "2026-04-18-anthropics-claude-opus-47-adds-a-cyber-verification-form-to-govern-security-related-uses",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-19T08:49:48.764Z",
+  "generatedAt": "2026-04-19T15:50:38.270Z",
   "items": [
+    {
+      "id": "https://getstack.run/",
+      "title": "Show HN: Stack – the control plane for AI agents",
+      "link": "https://getstack.run/",
+      "summary": "Dear diary, this is my story: I'd been sharing MCP configs with other devs at work a lot - templates in shared repos, credentials in Bitwarden, everyone cowboying their own env vars. That's a lot of manual wiring and lack of any real control, so there was already a problem statement forming in my mind. Then three weeks ago I was putting my kids to sleep and reading about Jensen Huang saying every company will run 10…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-16T16:03:04.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-19T15:50:38.200Z",
+      "file": "content/posts/2026-04-19-stack-a-control-plane-for-ai-agents-with-cryptographic-passports-encrypted-handoffs-and-kmsprotected-credentials.md",
+      "fileFr": "content/posts/fr/2026-04-19-stack-a-control-plane-for-ai-agents-with-cryptographic-passports-encrypted-handoffs-and-kmsprotected-credentials.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1767,
+      "wordsFr": 1401
+    },
     {
       "id": "https://www.theverge.com/tech/913202/gemini-personal-intelligence-images-nano-banana",
       "title": "Gemini can now pull from Google Photos to generate personalized images",
@@ -4206,30 +4229,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/fwgadmin/mnemo",
-      "title": "Mnemo – a local-first notepad that acts as memory for AI agents",
-      "link": "https://github.com/fwgadmin/mnemo",
-      "summary": "Article URL: https://github.com/fwgadmin/mnemo Comments URL: https://news.ycombinator.com/item?id=47795586 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T16:14:23.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://getstack.run/",
-      "title": "Show HN: Stack – the control plane for AI agents",
-      "link": "https://getstack.run/",
-      "summary": "Dear diary, this is my story: I'd been sharing MCP configs with other devs at work a lot - templates in shared repos, credentials in Bitwarden, everyone cowboying their own env vars. That's a lot of manual wiring and lack of any real control, so there was already a problem statement forming in my mind. Then three weeks ago I was putting my kids to sleep and reading about Jensen Huang saying every company will run 100 agents per employee, and the math started mathing. That evening I kept thinking about what agents actually need to operate in the real world and eventually landed on the same answer as every spy movie ever: basically, a passport suitable for the mission and clever drop-off locations. So I built STACK. True story. - The passport: a signed JWT (EdDSA) that proves which agent is acting, who authorized it, and what it's allowed to do. Works offline - any service can verify it without calling STACK. Agents can delegate to sub-agents but the scope ever only narrows. Max 4 hops. - The drop-off: is an encrypted handoff between agents. Agent A drops off a package with a JSON schema contract, encryption at rest, and a TTL. Agent B collects it, the custody transfers, and the payload gets deleted. Neither agent needs to trust the other. Just like in the movies! All credentials are KMS-encrypted. In proxy mode they are injected at the network boundary so the agents can make API",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T16:03:04.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://moodle.com/news/field-notes-when-ai-agents-show-up-to-class/",
       "title": "When AI agents show up to class",
       "link": "https://moodle.com/news/field-notes-when-ai-agents-show-up-to-class/",
@@ -4467,30 +4466,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/",
-      "title": "OpenAI drops AI video tool Sora, startling Disney, sources say",
-      "link": "https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/",
-      "summary": "Article URL: https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/ Comments URL: https://news.ycombinator.com/item?id=47563616 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-29T14:45:17.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
-      "title": "Generative AI Can Harm Learning (2024)",
-      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
-      "summary": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486 Comments URL: https://news.ycombinator.com/item?id=47563519 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-29T14:35:49.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5694,18 +5669,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says",
-      "title": "Number of AI chatbots ignoring human instructions increasing, study says",
-      "link": "https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says",
-      "summary": "Article URL: https://www.theguardian.com/technology/2026/mar/27/number-of-ai-chatbots-ignoring-human-instructions-increasing-study-says Comments URL: https://news.ycombinator.com/item?id=47563281 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-29T14:09:15.000Z",
-      "score": 122.94,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.00284",
       "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
       "link": "https://arxiv.org/abs/2604.00284",
@@ -5895,6 +5858,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-10T07:07:46.000Z",
       "score": 118.56,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47823995",
+      "title": "Show HN: Scan domain for llms.txt LLMs-full.txt AI aware SEO tool",
+      "link": "https://news.ycombinator.com/item?id=47823995",
+      "summary": "Hi! Been working on DialtoneApp, a free domain scanning tool to see how your site does with all the new rules for AI SEO. Also known as AEO (Answer Engine Optimization) or GEO (Generative Engine Optimization) the A can also stand for \"Agent\"! It's a whole new world out there and we haven't even gotten to agents.json files and the new \"b2b\" (bot to bot) commerce part. But there are some standards starting to take shape with llms.txt and using things like: https://dialtoneapp.com/top-sites.md\"> on all your html pages to have this other markdown version. We list the top 300 sites in terms of how well they follow all the new rules. You are welcome to scan your domain and see how you score. Still playing with the pricing but starting with a $9.00/month USD membership which will give a much deeper scan and continuous monitoring + support. https://dialtoneapp.com/ Happy AI SEOing. Comments URL: https://news.ycombinator.com/item?id=47823995 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-19T13:01:05.000Z",
+      "score": 118.13,
       "status": "queued"
     },
     {
@@ -6162,6 +6137,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.engadget.com/gaming/panic-says-the-playdate-catalog-wont-accept-games-made-with-generative-ai-160615022.html",
+      "title": "Panic says the Playdate Catalog won't accept games made with generative AI",
+      "link": "https://www.engadget.com/gaming/panic-says-the-playdate-catalog-wont-accept-games-made-with-generative-ai-160615022.html",
+      "summary": "Article URL: https://www.engadget.com/gaming/panic-says-the-playdate-catalog-wont-accept-games-made-with-generative-ai-160615022.html Comments URL: https://news.ycombinator.com/item?id=47824055 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-19T13:11:25.000Z",
+      "score": 85.41,
+      "status": "queued"
+    },
+    {
       "id": "https://kennethreitz.org/essays/2026-04-17-the_digital_ouija_effect",
       "title": "The Digital Ouija Effect – Emergent Behavior in AI Models",
       "link": "https://kennethreitz.org/essays/2026-04-17-the_digital_ouija_effect",
@@ -6172,6 +6159,50 @@
       "publishedAt": "2026-04-18T04:11:53.000Z",
       "score": 81.06,
       "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+      "title": "OpenAI’s big Codex update is a direct shot at Claude Code",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+      "summary": "Codex can control apps on your desktop like Tic Tac Toe. | Image: OpenAI OpenAI is beefing up its agentic coding and development system, Codex, with a suite of updates that let it use your computer, generate images, and remember from past experiences. The package of updates comes as OpenAI's rivalry with Anthropic intensifies, following the stellar successes of Claude Code and OpenAI aggressively shifting resources to catch up. Codex will now be able to operate desktop apps on your computer, OpenAI says in a blog post announcing the update. It can work in the background, meaning it won't interfere with your own work in other apps, and multiple agents can work in parallel. For developers, OpenAI says, \"this is he … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-16T17:00:00.000Z",
+      "score": 73.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/fwgadmin/mnemo",
+      "title": "Mnemo – a local-first notepad that acts as memory for AI agents",
+      "link": "https://github.com/fwgadmin/mnemo",
+      "summary": "Article URL: https://github.com/fwgadmin/mnemo Comments URL: https://news.ycombinator.com/item?id=47795586 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-16T16:14:23.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-19T15:37:10.515Z",
+      "failureReason": "validation issues: FR: Missing at least one markdown table (decision frame or comparison). | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "title": "The next evolution of the Agents SDK",
+      "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-15T10:00:00.000Z",
+      "score": 73.18,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-19T15:37:10.515Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://huggingface.co/blog/nvidia/gr00t-n1-7",
@@ -7197,22 +7228,6 @@
       "targetRegion": "US",
       "editorialTemplate": "ANALYSIS",
       "failedAtRun": "2026-03-21T08:20:31.770Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://twitter.com/whp_wessel/status/2029933535369343195",
-      "title": "Show HN: I built an opinionated AI agent to respond to EU consultations",
-      "link": "https://twitter.com/whp_wessel/status/2029933535369343195",
-      "summary": "I built Commento, an AI agent that acts as an automated lobbyist. It tracks open public policy consultations in the EU and the Netherlands, and automatically drafts and submits responses advocating for pro-growth, pro-creative destruction policies. The positions are grounded in frameworks like the Draghi Report, the Wennink Report, and the Dutch National AI Deltaplan. The pipeline consists of 4 steps: Discover: Craw…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-09T08:17:49.000Z",
-      "score": 180,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-20T15:42:11.747Z",
       "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
