@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-20T09:58:29.733Z",
+  "generatedAt": "2026-04-20T16:27:22.693Z",
   "items": [
+    {
+      "id": "https://mailto.bot",
+      "title": "Show HN: Mailto.Bot – Email API for AI agents with native MCP support",
+      "link": "https://mailto.bot",
+      "summary": "Article URL: https://mailto.bot Comments URL: https://news.ycombinator.com/item?id=47836003 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-20T15:46:50.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-20T16:27:22.622Z",
+      "file": "content/posts/2026-04-20-mailtobot-instant-mailboxes-and-mcp-enabled-email-api-for-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-04-20-mailtobot-instant-mailboxes-and-mcp-enabled-email-api-for-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1642,
+      "wordsFr": 1553
+    },
     {
       "id": "https://www.numerama.com/tech/2235649-claude-design-le-nouveau-seisme-danthropic-qui-fait-trembler-les-geants-du-design.html",
       "title": "Claude Design : Le nouveau séisme d’Anthropic qui fait trembler les géants du design",
@@ -4084,18 +4107,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.infoq.com/news/2026/03/android-appfunctions-agents/",
-      "title": "Google Unveils AppFunctions to Connect AI Agents and Android Apps",
-      "link": "https://www.infoq.com/news/2026/03/android-appfunctions-agents/",
-      "summary": "Article URL: https://www.infoq.com/news/2026/03/android-appfunctions-agents/ Comments URL: https://news.ycombinator.com/item?id=47575811 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-30T15:49:41.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://bandarra.me/posts/webmcp-tools-as-skills",
       "title": "AI Agents and WebMCP: Tools as Self-Loading Skills",
       "link": "https://bandarra.me/posts/webmcp-tools-as-skills",
@@ -4300,6 +4311,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
+      "title": "Anthropic's Mythos AI model sparks fears of turbocharged hacking",
+      "link": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
+      "summary": "Article URL: https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/ Comments URL: https://news.ycombinator.com/item?id=47836234 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-20T16:03:00.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.12102",
       "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
       "link": "https://arxiv.org/abs/2604.12102",
@@ -4348,6 +4371,18 @@
       "status": "queued"
     },
     {
+      "id": "https://skillcatalog.dev",
+      "title": "Show HN: SkillCatalog, a Git-native skill manager for AI coding tools",
+      "link": "https://skillcatalog.dev",
+      "summary": "AI coding tools like Claude Code, Cursor, and Codex read instructions from files on disk: .claude/skills/, .cursor/skills/, .agents/skills/. These files shape how each tool behaves. On a team of ten engineers working across several repositories, managing them by hand breaks down fast. I built SkillCatalog to solve this without a SaaS dependency. Skills live in Git repositories the team already controls. The desktop app provides authoring, organization, and delivery on top of Git. Access control is Git access. There is no server to run and no data leaves the machine unless you push it. The model is different from Microsoft's APM, which takes a package-manager approach (declare in apm.yml, everyone installs the same set). I think skills are closer to editor preferences than packages: there is a shared team baseline, but individuals layer their own selections on top. A project profile might install the team's backend bundle for everyone, while one engineer adds a personal stack for performance profiling and another adds one for accessibility auditing. Neither edits the shared catalog. Catalogs contain skills (Markdown with frontmatter) that compose into stacks (ordered lists of skills) that compose into bundles (ordered lists of stacks). Profiles pick what gets delivered. Home profiles apply everywhere; project profiles inherit from them with project-specific selections taking pri",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-20T15:08:04.000Z",
+      "score": 171.31,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.15951",
       "title": "Integrating Graphs, Large Language Models, and Agents: Reasoning and Retrieval",
       "link": "https://arxiv.org/abs/2604.15951",
@@ -4357,18 +4392,6 @@
       "keywordHits": 10,
       "publishedAt": "2026-04-20T04:00:00.000Z",
       "score": 170.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://thenewstack.io/soloio-agentevals-evaluates-ai-agents/",
-      "title": "Solo.io launches agentevals to solve agentic AI's \"biggest unsolved problem\"",
-      "link": "https://thenewstack.io/soloio-agentevals-evaluates-ai-agents/",
-      "summary": "Article URL: https://thenewstack.io/soloio-agentevals-evaluates-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47575458 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-30T15:21:12.000Z",
-      "score": 168,
       "status": "queued"
     },
     {
@@ -4420,6 +4443,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2236385-chatgpt-en-panne-loutil-ia-ne-repond-plus-gemini-copilot-et-claude-aussi-en-difficulte.html",
+      "title": "ChatGPT en panne : l’outil IA ne répond plus, Gemini, Copilot et Claude aussi en difficulté",
+      "link": "https://www.numerama.com/tech/2236385-chatgpt-en-panne-loutil-ia-ne-repond-plus-gemini-copilot-et-claude-aussi-en-difficulte.html",
+      "summary": "Plusieurs outils d'intelligence artificielle générative rencontrent des soucis de fonctionnement en ce lundi 20 avril 2026.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-20T15:23:36.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.09584",
       "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
       "link": "https://arxiv.org/abs/2604.09584",
@@ -4429,6 +4464,18 @@
       "keywordHits": 10,
       "publishedAt": "2026-04-14T04:00:00.000Z",
       "score": 167.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://mikiships.github.io/agentkit-cli/",
+      "title": "Show HN: Agentkit-CLI, one canonical context file for AI coding agents",
+      "link": "https://mikiships.github.io/agentkit-cli/",
+      "summary": "Article URL: https://mikiships.github.io/agentkit-cli/ Comments URL: https://news.ycombinator.com/item?id=47835369 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-20T15:04:15.000Z",
+      "score": 164.44,
       "status": "queued"
     },
     {
@@ -4516,6 +4563,18 @@
       "status": "queued"
     },
     {
+      "id": "https://cloudpresser.com/writing/observability-for-ai-agents",
+      "title": "Observability for AI Agents",
+      "link": "https://cloudpresser.com/writing/observability-for-ai-agents",
+      "summary": "Article URL: https://cloudpresser.com/writing/observability-for-ai-agents Comments URL: https://news.ycombinator.com/item?id=47835337 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-20T15:01:18.000Z",
+      "score": 159.66,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47704539",
       "title": "Best Open Source Offline AI Agent",
       "link": "https://news.ycombinator.com/item?id=47704539",
@@ -4525,30 +4584,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.windowscentral.com/software-apps/microsofts-ai-slop-is-infecting-github-copilot-is-now-injecting-ads-into-pull-requests",
-      "title": "MSFT AI slop infecting GitHub – Copilot is now injecting ads into pull requests",
-      "link": "https://www.windowscentral.com/software-apps/microsofts-ai-slop-is-infecting-github-copilot-is-now-injecting-ads-into-pull-requests",
-      "summary": "Article URL: https://www.windowscentral.com/software-apps/microsofts-ai-slop-is-infecting-github-copilot-is-now-injecting-ads-into-pull-requests Comments URL: https://news.ycombinator.com/item?id=47575708 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-30T15:40:35.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://chromewebstore.google.com/detail/prompt-helix/ffjppocigpeamhokbpnknlplkbccjpin",
-      "title": "Prompt Helix – Ask AI about any webpage without copy-pasting context",
-      "link": "https://chromewebstore.google.com/detail/prompt-helix/ffjppocigpeamhokbpnknlplkbccjpin",
-      "summary": "Article URL: https://chromewebstore.google.com/detail/prompt-helix/ffjppocigpeamhokbpnknlplkbccjpin Comments URL: https://news.ycombinator.com/item?id=47575289 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-30T15:07:21.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5128,18 +5163,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47575353",
-      "title": "Show HN: AI Spotlight for Your Computer (natural language search for files)",
-      "link": "https://news.ycombinator.com/item?id=47575353",
-      "summary": "Hi HN, I built SEARCH WIZARD — a tool that lets you search your computer using natural language. Traditional file search only works if you remember the filename. But most of the time we remember things like: \"the screenshot where I was in a meeting\" \"the PDF about transformers\" \"notes about machine learning\" Smart Search indexes your files and lets you search by meaning instead of filename. Currently supports: - Images - Videos - Audio - Documents Example query: \"old photo where a man is looking at a monitor\" The system retrieves the correct file instantly. Everything runs locally except embeddings. I'm looking for feedback on: - indexing approaches - privacy concerns - features you'd want in a tool like this GitHub: https://github.com/deepanmpc/SMART-SEARCH Demo: https://deepanmpc.github.io/SMART-SEARCH/ Comments URL: https://news.ycombinator.com/item?id=47575353 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-30T15:13:29.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/microsoft/agent-framework",
       "title": "Microsoft's new framework for building and orchestrating AI agents",
       "link": "https://github.com/microsoft/agent-framework",
@@ -5161,18 +5184,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-14T14:52:25.000Z",
       "score": 149.73,
-      "status": "queued"
-    },
-    {
-      "id": "https://grith.ai/blog/zero-ambient-authority-ai-agents",
-      "title": "Zero Ambient Authority: The Principle That Should Govern Every AI Agent",
-      "link": "https://grith.ai/blog/zero-ambient-authority-ai-agents",
-      "summary": "Article URL: https://grith.ai/blog/zero-ambient-authority-ai-agents Comments URL: https://news.ycombinator.com/item?id=47575138 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-30T14:54:02.000Z",
-      "score": 148.41,
       "status": "queued"
     },
     {
@@ -5401,18 +5412,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-14T14:54:25.000Z",
       "score": 134.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/liuhaotian2024-prog/ystar-bridge-labs",
-      "title": "What Happens When You Tell AI Agents the Rules but Don't Enforce Them",
-      "link": "https://github.com/liuhaotian2024-prog/ystar-bridge-labs",
-      "summary": "Article URL: https://github.com/liuhaotian2024-prog/ystar-bridge-labs Comments URL: https://news.ycombinator.com/item?id=47574916 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-30T14:36:06.000Z",
-      "score": 134.32,
       "status": "queued"
     },
     {
@@ -6218,6 +6217,34 @@
       "publishedAt": "2026-04-20T04:00:00.000Z",
       "score": 104.68,
       "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.15839",
+      "title": "Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4",
+      "link": "https://arxiv.org/abs/2604.15839",
+      "summary": "arXiv:2604.15839v1 Announce Type: new Abstract: Most ATP benchmarks embed the final answer within the formal statement -- a convention we call \"Easy Mode\" -- a design that simplifies the task relative to what human competitors face and may lead to optimistic estimates of model capability. We call the stricter, more realistic setting \"Hard Mode\": the system must independently discover the answer before constructing a formal proof. To enable Hard Mode research, we make two contributions. First, we release MiniF2F-Hard and FIMO-Hard, expert-reannotated Hard Mode variants of two widely-used ATP benchmarks. Second, we introduce Discover And Prove (DAP), an agentic framework that uses LLM natural-language reasoning with explicit self-reflection to discover answers, then rewrites Hard Mode statements into Easy Mode ones for existing ATP provers. DAP sets the state of the art: on CombiBench it raises solved problems from 7 (previous SOTA, Pass@16) to 10; on PutnamBench it is the first system to formally prove 36 theorems in Hard Mode -- while simultaneously revealing that state-of-the-art LLMs exceed 80% answer accuracy on the same problems where formal provers manage under 10%, exposing a substantial gap that Hard Mode benchmarks are uniquely suited to measure.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-20T04:00:00.000Z",
+      "score": 87.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/orgs/Gyrus-Dev/repositories",
+      "title": "Show HN: Gyrus :Open-Source AI Agents for Snowflake, SQL and Postgres",
+      "link": "https://github.com/orgs/Gyrus-Dev/repositories",
+      "summary": "I wanted a way to get the power of a multi agent system, handling everything from schema design to security hardening, without the \"API tax.\" That’s why I built Gyrus. It's a suite of open source, self hosted agentic frameworks: Frosty for Snowflake, Zeus for SQL Server, and Mick for Postgres.The core philosophy is total control: you host it, you own the credentials, and you choose the model. I am also updating the…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-20T15:56:53.000Z",
+      "score": 210,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-20T16:09:28.371Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://github.com/fwgadmin/mnemo",
@@ -7196,38 +7223,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-23T08:43:55.616Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47374335",
-      "title": "MemX – my AI agent remembers I hate capsicum on pizza",
-      "link": "https://news.ycombinator.com/item?id=47374335",
-      "summary": "Like everyone else in 2025 who thought “just slap a vector DB on it” would create a coherent long-term agent, I watched my Python sidekick slowly turn into a forgetful goldfish with hoarding issues. Classic failure mode: User (day 1): “My favorite editor is VSCode” User (day 47): “Actually switched to Cursor” Agent (day 92): “You love VSCode, right?” Or the memory index slowly becoming this: User prefers Python User…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-14T07:54:36.000Z",
-      "score": 180,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-21T15:26:00.875Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://github.com/luislopez1212/Nemilia",
-      "title": "Show HN: Nemilia – multi-agent AI workspace in a single HTML file, no back end",
-      "link": "https://github.com/luislopez1212/Nemilia",
-      "summary": "A full multi-agent AI workspace in a single HTML file. No backend. No install. No build step. No account. You own the entire runtime — open it in a browser and it works. That's not a constraint. That's the point. Nemilia is built around the idea of AI sovereignty — your agents, your workflows, your data, your keys, all running on your machine. Nothing phoned home, nothing locked to a platform, nothing that breaks wh…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-03-05T06:47:11.000Z",
-      "score": 178.26,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-21T15:26:00.875Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }

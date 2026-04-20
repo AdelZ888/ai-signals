@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T09:58:29.724Z",
+  "generatedAt": "2026-04-20T16:27:22.635Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-20-mailtobot-instant-mailboxes-and-mcp-enabled-email-api-for-ai-agents",
+      "title": "Mailto.Bot: Instant mailboxes and MCP-enabled email API for AI agents",
+      "date": "2026-04-20",
+      "excerpt": "Guide to Mailto.Bot: create instant mailboxes with one POST, receive emails via webhooks or MCP, and prototype agent-driven email workflows without DNS or SMTP management.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-20-mailtobot-instant-mailboxes-and-mcp-enabled-email-api-for-ai-agents.jpg",
+      "tags": [
+        "email",
+        "email-api",
+        "MCP",
+        "AI-agents",
+        "webhooks",
+        "integration",
+        "tutorial",
+        "mailto.bot"
+      ],
+      "sources": [
+        "https://mailto.bot"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-04-19-gemini-personal-intelligence-uses-google-photos-and-nano-banana-2-to-personalize-image-generation",
