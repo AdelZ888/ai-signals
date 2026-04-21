@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T09:30:06.207Z",
+  "generatedAt": "2026-04-21T16:21:54.931Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "SOCIETY",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-21-minimal-computegrounded-reasoning-agent-deterministic-scenegraph-and-entropyguided-routing",
+      "title": "Prototype CGR minimal — Spatial Atlas : agent spatial avec calculs déterministes",
+      "date": "2026-04-21",
+      "excerpt": "Guide pratique en français (contexte UK) pour construire un prototype « Compute‑Grounded Reasoning » inspiré de Spatial Atlas (arXiv:2604.12102). Séparez les calculs spatiaux déterministes de la génération linguistique pour réduire les hallucinations et garder une piste d'audit.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-21-minimal-computegrounded-reasoning-agent-deterministic-scenegraph-and-entropyguided-routing.jpg",
+      "tags": [
+        "CGR",
+        "Spatial Atlas",
+        "scene-graph",
+        "LLM",
+        "sécurité",
+        "UK",
+        "IA",
+        "prototype"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2604.12102"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T09:30:06.205Z",
+  "generatedAt": "2026-04-21T16:21:54.930Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "SOCIETY",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-21-minimal-computegrounded-reasoning-agent-deterministic-scenegraph-and-entropyguided-routing",
+      "title": "Minimal Compute‑Grounded Reasoning Agent: Deterministic Scene‑Graph and Entropy‑Guided Routing",
+      "date": "2026-04-21",
+      "excerpt": "Prototype a Spatial Atlas CGR agent: deterministic scene‑graph computations (distances, safety checks) feed an LLM, reducing spatial hallucination and enabling entropy‑guided routing.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-21-minimal-computegrounded-reasoning-agent-deterministic-scenegraph-and-entropyguided-routing.jpg",
+      "tags": [
+        "spatial-ai",
+        "agents",
+        "compute-grounded-reasoning",
+        "scene-graph",
+        "benchmarks",
+        "FieldWorkArena",
+        "MLE-Bench",
+        "A2A"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2604.12102"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-04-20-anthropic-launches-claude-design-to-generate-editable-high-fidelity-ui-prototypes-and-export-runnable-code",

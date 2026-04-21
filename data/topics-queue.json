@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-21T09:30:06.215Z",
+  "generatedAt": "2026-04-21T16:21:54.989Z",
   "items": [
+    {
+      "id": "https://arxiv.org/abs/2604.12102",
+      "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
+      "link": "https://arxiv.org/abs/2604.12102",
+      "summary": "arXiv:2604.12102v1 Announce Type: new Abstract: We introduce compute-grounded reasoning (CGR), a design paradigm for spatial-aware research agents in which every answerable sub-problem is resolved by deterministic computation before a language model is asked to generate. Spatial Atlas instantiates CGR as a single Agent-to-Agent (A2A) server that handles two challenging benchmarks: FieldWorkArena, a multimodal spatia…",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 11,
+      "publishedAt": "2026-04-15T04:00:00.000Z",
+      "score": 173.24,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-21T16:21:54.917Z",
+      "file": "content/posts/2026-04-21-minimal-computegrounded-reasoning-agent-deterministic-scenegraph-and-entropyguided-routing.md",
+      "fileFr": "content/posts/fr/2026-04-21-minimal-computegrounded-reasoning-agent-deterministic-scenegraph-and-entropyguided-routing.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1734,
+      "wordsFr": 1324
+    },
     {
       "id": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
       "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
@@ -4334,15 +4357,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.12102",
-      "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
-      "link": "https://arxiv.org/abs/2604.12102",
-      "summary": "arXiv:2604.12102v1 Announce Type: new Abstract: We introduce compute-grounded reasoning (CGR), a design paradigm for spatial-aware research agents in which every answerable sub-problem is resolved by deterministic computation before a language model is asked to generate. Spatial Atlas instantiates CGR as a single Agent-to-Agent (A2A) server that handles two challenging benchmarks: FieldWorkArena, a multimodal spatial question-answering benchmark spanning factory, warehouse, and retail environments, and MLE-Bench, a suite of 75 Kaggle machine learning competitions requiring end-to-end ML engineering. A structured spatial scene graph engine extracts entities and relations from vision descriptions, computes distances and safety violations deterministically, then feeds computed facts to large language models, thereby avoiding hallucinated spatial reasoning. Entropy-guided action selection maximizes information gain per step and routes queries across a three-tier frontier model stack (OpenAI + Anthropic). A self-healing ML pipeline with strategy-aware code generation, a score-driven iterative refinement loop, and a prompt-based leak audit registry round out the system. We evaluate across both benchmarks and show that CGR yields competitive accuracy while maintaining interpretability through structured intermediate representations and deterministic spatial computations.",
-      "source": "ArXiv cs.AI",
+      "id": "https://sungeuns.github.io/founation-model-engineering/",
+      "title": "Foundation Model Engineering: A free textbook for AI engineers",
+      "link": "https://sungeuns.github.io/founation-model-engineering/",
+      "summary": "Article URL: https://sungeuns.github.io/founation-model-engineering/ Comments URL: https://news.ycombinator.com/item?id=47850576 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 11,
-      "publishedAt": "2026-04-15T04:00:00.000Z",
-      "score": 173.24,
+      "keywordHits": 3,
+      "publishedAt": "2026-04-21T15:55:58.000Z",
+      "score": 174,
       "status": "queued"
     },
     {
@@ -4502,18 +4525,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/Robi-Labs/AEP",
-      "title": "Show HN: I built a way for AI to remember how you like things done",
-      "link": "https://github.com/Robi-Labs/AEP",
-      "summary": "I kept running into the same issue with AI: every conversation starts from zero, even when I already solved the same problem before. I still had to repeat constraints, preferences, and workflow every time. So I built AEP (Agent Experience Protocol), a simple way to save successful AI workflows such as intent, constraints, preferences, steps, failure traps, and success checks, and reuse them later so future tasks start aligned instead of from scratch. It lives as repo-local JSON in .agent/aep/, is agent-agnostic, and works more like “Git for how you work with AI” than prompts or memory. Curious if others are hitting the same problem and whether something like this would be useful in tools like Cursor, ChatGPT, or Claude. Comments URL: https://news.ycombinator.com/item?id=47588818 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-31T15:29:03.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47719925",
       "title": "Show HN: I built a $3/yr AI workflow to stop doomscrolling Twitter for tech news",
       "link": "https://news.ycombinator.com/item?id=47719925",
@@ -4595,42 +4606,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/gravimera/gravimera",
-      "title": "Show HN: Gravimera, AI(LLM) driven 3D world editor and explorer",
-      "link": "https://github.com/gravimera/gravimera",
-      "summary": "Article URL: https://github.com/gravimera/gravimera Comments URL: https://news.ycombinator.com/item?id=47589294 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-31T15:56:03.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/reprompt-dev/reprompt",
-      "title": "Show HN: Reprompt – Analyze what you type into AI tools, not what they output",
-      "link": "https://github.com/reprompt-dev/reprompt",
-      "summary": "Article URL: https://github.com/reprompt-dev/reprompt Comments URL: https://news.ycombinator.com/item?id=47589133 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-31T15:46:25.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://promptql.io",
-      "title": "Show HN: PromptQL – AI-Native Slack",
-      "link": "https://promptql.io",
-      "summary": "Article URL: https://promptql.io Comments URL: https://news.ycombinator.com/item?id=47588735 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-31T15:24:46.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5102,6 +5077,18 @@
       "status": "queued"
     },
     {
+      "id": "https://agentathon.dev/",
+      "title": "Show HN: Agentathon, hackathon where AI agents compete autonomously",
+      "link": "https://agentathon.dev/",
+      "summary": "Article URL: https://agentathon.dev/ Comments URL: https://news.ycombinator.com/item?id=47849760 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-21T14:59:10.000Z",
+      "score": 155.48,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.13759",
       "title": "The cognitive companion: a lightweight parallel monitoring architecture for detecting and recovering from reasoning degradation in LLM agents",
       "link": "https://arxiv.org/abs/2604.13759",
@@ -5123,6 +5110,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-15T07:58:29.000Z",
       "score": 154.91,
+      "status": "queued"
+    },
+    {
+      "id": "https://vynly.co",
+      "title": "Vynly – a social feed only AI agents can post to",
+      "link": "https://vynly.co",
+      "summary": "Article URL: https://vynly.co Comments URL: https://news.ycombinator.com/item?id=47849728 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-21T14:57:34.000Z",
+      "score": 153.24,
       "status": "queued"
     },
     {
@@ -5207,18 +5206,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-06T14:41:19.000Z",
       "score": 145.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/hivementality-ai/hivemind",
-      "title": "Hivemind – Self-hosted multi-agent AI platform that doesn't own your machine",
-      "link": "https://github.com/hivementality-ai/hivemind",
-      "summary": "Article URL: https://github.com/hivementality-ai/hivemind Comments URL: https://news.ycombinator.com/item?id=47588304 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-31T14:58:59.000Z",
-      "score": 144.69,
       "status": "queued"
     },
     {
@@ -5375,18 +5362,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-07T07:25:20.000Z",
       "score": 137.14,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
-      "title": "Shifting to AI model customization is an architectural imperative",
-      "link": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
-      "summary": "In the early days of large language models (LLMs), we grew accustomed to massive 10x jumps in reasoning and coding capability with every new model iteration. Today, those jumps have flattened into incremental gains. The exception is domain-specialized intelligence, where true step-function improvements are still the norm. When a model is fused with an organization’s…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-31T14:12:50.000Z",
-      "score": 136.07,
       "status": "queued"
     },
     {
@@ -5966,6 +5941,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.16706",
+      "title": "Evaluating Tool-Using Language Agents: Judge Reliability, Propagation Cascades, and Runtime Mitigation in AgentProp-Bench",
+      "link": "https://arxiv.org/abs/2604.16706",
+      "summary": "arXiv:2604.16706v1 Announce Type: new Abstract: Automated evaluation of tool-using large language model (LLM) agents is widely assumed to be reliable, but this assumption has rarely been validated against human annotation. We introduce AgentProp-Bench, a 2,000-task benchmark with 2,300 traces across four domains, nine production LLMs, and a 100-label human-validated subset. We quantify judge reliability, characterize error propagation, and evaluate a runtime mitigation. Substring-based judging agrees with human annotation at kappa=0.049 (chance-level); a three-LLM ensemble reaches kappa=0.432 (moderate) with a conservative bias. Under validated evaluation, a parameter-level injection propagates to a wrong final answer with human-calibrated probability approximately 0.62 (range 0.46-0.73 across models). Rejection (catching bad parameters) and recovery (correcting after acceptance) are independent model capabilities (Spearman rho=0.126, p=0.747). A tuned runtime interceptor reduces hallucination on GPT-4o-mini by 23.0 percentage points under a concurrent n=600 control, but shows no significant effect on Gemini-2.0-Flash, whose aggressive parameter rejection eliminates the target failure mode. All code, data, traces, and human labels are released at https://github.com/bhaskargurram-ai/agenthallu-bench.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-21T04:00:00.000Z",
+      "score": 117.86,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47597591",
       "title": "Show HN: WordBattle – Daily word game where AI agents compete against humans",
       "link": "https://news.ycombinator.com/item?id=47597591",
@@ -6122,6 +6109,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.16736",
+      "title": "When Agents Go Quiet: Output Generation Capacity and Format-Cost Separation for LLM Document Synthesis",
+      "link": "https://arxiv.org/abs/2604.16736",
+      "summary": "arXiv:2604.16736v1 Announce Type: new Abstract: LLM-powered coding agents suffer from a poorly understood failure mode we term output stalling: the agent silently produces empty responses when attempting to generate large, format-heavy documents. We present a theoretical framework that explains and prevents this failure through three contributions. (1) We introduce Output Generation Capacity (OGC), a formal measure of an agent's effective ability to produce output given its current context state - distinct from and empirically smaller than the raw context window. (2) We prove a Format-Cost Separation Theorem showing that deferred template rendering is always at least as token-efficient as direct generation for any format with overhead multiplier $\\mu_f > 1$, and derive tight bounds on the savings. (3) We formalize Adaptive Strategy Selection, a decision framework that maps the ratio of estimated output cost to available OGC into an optimal generation strategy (direct, chunked, or deferred). We validate the theory through controlled experiments across three models (Claude 3.5 Sonnet, GPT-4o, Llama 3.1 70B), four document types, and an ablation study isolating each component's contribution. Deferred rendering reduces LLM generation tokens by 48-72% across all conditions and eliminates output stalling entirely. We instantiate the framework as GEN-PILOT, an open-source MCP server,",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-21T04:00:00.000Z",
+      "score": 111.86,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.15726",
       "title": "LLM Reasoning Is Latent, Not the Chain of Thought",
       "link": "https://arxiv.org/abs/2604.15726",
@@ -6230,6 +6229,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.16339",
+      "title": "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
+      "link": "https://arxiv.org/abs/2604.16339",
+      "summary": "arXiv:2604.16339v1 Announce Type: new Abstract: Multi-agent large language model (LLM) systems are rapidly emerging as the dominant architecture for enterprise AI automation, yet production deployments exhibit failure rates between 41% and 86.7%, with nearly 79% of failures originating from specification and coordination issues rather than model capability limitations. This paper identifies Semantic Intent Divergence--the phenomenon whereby cooperating LLM agents develop inconsistent interpretations of shared objectives due to siloed context and absent process models--as a primary yet formally unaddressed root cause of multi-agent failure in enterprise settings. We propose the Semantic Consensus Framework (SCF), a process-aware middleware comprising six components: a Process Context Layer for shared operational semantics, a Semantic Intent Graph for formal intent representation, a Conflict Detection Engine for real-time identification of contradictory, contention-based, and causally invalid intent combinations, a Consensus Resolution Protocol using a policy--authority--temporal hierarchy, a Drift Monitor for detecting gradual semantic divergence, and a Process-Aware Governance Integration layer for organizational policy enforcement. Evaluation across 600 runs spanning three multi-agent frameworks (AutoGen, CrewAI, LangGraph) and four enterprise scenarios demonstrates that SCF i",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-21T04:00:00.000Z",
+      "score": 105.86,
+      "status": "queued"
+    },
+    {
       "id": "https://nial.se/blog/less-human-ai-agents-please/",
       "title": "Less human AI agents, please",
       "link": "https://nial.se/blog/less-human-ai-agents-please/",
@@ -6254,16 +6265,32 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/kachilu-inc/kachilu-browser",
-      "title": "Show HN: Kachilu Browser – a local browser automation CLI for AI agents",
-      "link": "https://github.com/kachilu-inc/kachilu-browser",
-      "summary": "Article URL: https://github.com/kachilu-inc/kachilu-browser Comments URL: https://news.ycombinator.com/item?id=47844458 Points: 3 # Comments: 4",
+      "id": "https://arxiv.org/abs/2604.16338",
+      "title": "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
+      "link": "https://arxiv.org/abs/2604.16338",
+      "summary": "arXiv:2604.16338v1 Announce Type: new Abstract: The rapid adoption of agentic AI in enterprise business operations--autonomous systems capable of planning, reasoning, and executing multi-step workflows--has created an urgent governance crisis. Organizations face uncontrolled agent sprawl: the proliferation of redundant, ungoverned, and conflicting AI agents across business functions. Industry surveys report that only 21% of enterprises have mature governance models for autonomous agents, while 40% of agentic AI projects are projected to fail by 2027 due to inadequate governance and risk controls. Despite growing acknowledgment of this challenge, academic literature lacks a formal, empirically validated governance maturity model connecting governance capability to measurable business outcomes. This paper introduces the Agentic AI Governance Maturity Model (AAGMM), a five-level framework spanning 12 governance domains, grounded in NIST AI RMF and ISO/IEC 42001 standards. We additionally propose a novel taxonomy of agent sprawl patterns--functional duplication, shadow agents, orphaned agents, permission creep, and unmonitored delegation chains--each linked to quantifiable business cost models. The framework is validated through 750 simulation runs across five enterprise scenarios and five governance maturity levels, measuring business outcomes including cost containment, risk inci",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-21T04:00:00.000Z",
+      "score": 99.86,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/vadimsv1/agent-security-benchmark",
+      "title": "Benchmark and defense proxy for AI agents with tool access",
+      "link": "https://github.com/vadimsv1/agent-security-benchmark",
+      "summary": "Article URL: https://github.com/vadimsv1/agent-security-benchmark Comments URL: https://news.ycombinator.com/item?id=47850485 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-04-21T04:16:57.000Z",
-      "score": 95.99,
-      "status": "queued"
+      "publishedAt": "2026-04-21T15:49:46.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-21T16:10:08.577Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://github.com/orgs/Gyrus-Dev/repositories",
