@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-21T16:21:54.989Z",
+  "generatedAt": "2026-04-22T09:18:23.245Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity",
+      "title": "Anthropic releases a new Opus model amid Mythos Preview buzz",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity",
+      "summary": "Anthropic has released its most powerful \"generally available\" model to date: Claude Opus 4.7. The company called it a step up from Opus 4.6 for advanced software engineering tasks, particularly in complex coding areas that in the past required more hand-holding. It's also supposed to be better at analyzing images and following instructions, and it can exhibit more \"creativity\" when creating slides and documents, pe…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-16T15:59:24.000Z",
+      "score": 168,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-04-22T09:18:23.221Z",
+      "file": "content/posts/2026-04-22-anthropic-releases-claude-opus-47-as-ga-mythos-preview-reportedly-outperforms-it-in-early-evaluations.md",
+      "fileFr": "content/posts/fr/2026-04-22-anthropic-releases-claude-opus-47-as-ga-mythos-preview-reportedly-outperforms-it-in-early-evaluations.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1572,
+      "wordsFr": 1132
+    },
     {
       "id": "https://arxiv.org/abs/2604.12102",
       "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
@@ -4153,6 +4176,30 @@
       "status": "queued"
     },
     {
+      "id": "https://librethinker.com/",
+      "title": "Show HN: LibreThinker, free AI assistant for LibreOffice Writer, 10k installs",
+      "link": "https://librethinker.com/",
+      "summary": "4 months ago, I released an extension for LibreOfffice Writer that adds an AI copilot to its sidebar. Did a Show HN at the time but got no interest T_T https://news.ycombinator.com/item?id=46233776 I’ve added several major features since then, so I figured it’s worth doing another one. Features added: - The extension connects to a free online LLM by default, with no signup needed. All you need to do is install the extension and you’re ready to go. - Can connect to a wide range of online models if you bring your API key (Anthropic, Gemini, OpenAI, Mistral, Groq, etc) - Can connect to a self-hosted Ollama instance; I’ve also added the option to override the URL so feel free to test it out with other tools. - You can rephrase text you’ve selected (initially just added the output at the bottom of the document) I’ve also amassed over 10k installs in the meantime, which is nice. There’s still a ton of stuff I could add. But I don’t have much time in the evenings, and I’m not sure what’s the next most important thing to do. Any feedback/suggestions would be much appreciated! Comments URL: https://news.ycombinator.com/item?id=47860664 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-04-22T08:22:16.000Z",
+      "score": 222,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47860859",
+      "title": "Show HN: We open-sourced a 6-library governance stack for AI agents (Python)",
+      "link": "https://news.ycombinator.com/item?id=47860859",
+      "summary": "Our team has been deploying AI agents in enterprise environments for the past 2 years, across 60+ deployments. The same governance problem kept recurring: how do you certify reliability, enforce policy, route and orchestrate context, monitor behavior, and manage agent identity—without bolting together a pile of disconnected tools? So we built a unified stack and open-sourced it under the Cohorte AI GitHub organization: TrustGate — black-box AI reliability certification via self-consistency sampling and conformal calibration Guardrails — declarative YAML policy engine for AI agent guardrails Context Router — intelligent context routing engine for AI agents Context Kubernetes — declarative orchestration of enterprise knowledge for agentic AI systems Agent Monitor — governance-first observability with kill switches Agent Auth — agent-specific identity and access management for AI agents All of it is open source, Python-based, and released under Apache 2.0. The architecture is documented in the free playbook The Enterprise Agentic Platform: Book: https://www.cohorte.co/playbooks/the-enterprise-agentic-platform GitHub org: https://github.com/Cohorte-ai The research behind the stack is also public. Charafeddine Mouzouni has published three papers touching the underlying problems we kept running into in practice: exploitation surfaces in LLM agents, reliability certification for AI ag",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-22T08:47:25.000Z",
+      "score": 186,
+      "status": "queued"
+    },
+    {
       "id": "https://bandarra.me/posts/webmcp-tools-as-skills",
       "title": "AI Agents and WebMCP: Tools as Self-Loading Skills",
       "link": "https://bandarra.me/posts/webmcp-tools-as-skills",
@@ -4369,6 +4416,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/BrainBlend-AI/tesseron",
+      "title": "Show HN: Tesseron – an API for AI agents, defined by the app developer",
+      "link": "https://github.com/BrainBlend-AI/tesseron",
+      "summary": "Article URL: https://github.com/BrainBlend-AI/tesseron Comments URL: https://news.ycombinator.com/item?id=47860933 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-22T08:59:08.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=005JLRt3gXI",
+      "title": "Why do AI models hallucinate? [video]",
+      "link": "https://www.youtube.com/watch?v=005JLRt3gXI",
+      "summary": "Article URL: https://www.youtube.com/watch?v=005JLRt3gXI Comments URL: https://news.ycombinator.com/item?id=47860657 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-22T08:21:30.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://merylldindin.com/thoughts/reasoning-loop/",
       "title": "We orchestrate our internal AI agent (PydanticAI, Gemini, Jinja2 prompts)",
       "link": "https://merylldindin.com/thoughts/reasoning-loop/",
@@ -4461,18 +4532,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-04-12T07:42:48.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity",
-      "title": "Anthropic releases a new Opus model amid Mythos Preview buzz",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity",
-      "summary": "Anthropic has released its most powerful \"generally available\" model to date: Claude Opus 4.7. The company called it a step up from Opus 4.6 for advanced software engineering tasks, particularly in complex coding areas that in the past required more hand-holding. It's also supposed to be better at analyzing images and following instructions, and it can exhibit more \"creativity\" when creating slides and documents, per Anthropic. Opus 4.7 comes on the heels of Mythos Preview, the buzzy cybersecurity-focused model Anthropic announced earlier this month, which the company has said is its most powerful model overall. Comparatively, Opus 4.7 is … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T15:59:24.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -4606,18 +4665,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Grimm67123/GrimmBot",
-      "title": "Show HN: A sandboxed AI agent that can watch webpages without constant API calls",
-      "link": "https://github.com/Grimm67123/GrimmBot",
-      "summary": "It can also adapt by creating its own tools if its 60+ built in tools fall short. It runs in a debian docker container with chromium and you interact with it through the terminal. Watch it work through a VNC viewer Comments URL: https://news.ycombinator.com/item?id=47598374 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-01T08:35:25.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5073,6 +5120,42 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-20T08:48:58.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai",
+      "title": "Anthropic investigates report of rogue access to hack-enabling Mythos AI",
+      "link": "https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai Comments URL: https://news.ycombinator.com/item?id=47860988 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-22T09:06:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://create.gotrovio.com",
+      "title": "The AI talent agent built into every creator's workflow",
+      "link": "https://create.gotrovio.com",
+      "summary": "Article URL: https://create.gotrovio.com Comments URL: https://news.ycombinator.com/item?id=47860906 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-22T08:54:28.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://iampneuma.com",
+      "title": "I asked my AI agent its last wrong belief. It queried its own database",
+      "link": "https://iampneuma.com",
+      "summary": "Article URL: https://iampneuma.com Comments URL: https://news.ycombinator.com/item?id=47860890 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-22T08:51:41.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5557,30 +5640,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.28990",
-      "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
-      "link": "https://arxiv.org/abs/2603.28990",
-      "summary": "arXiv:2603.28990v1 Announce Type: new Abstract: How much autonomy can multi-agent LLM systems sustain -- and what enables it? We present a 25,000-task computational experiment spanning 8 models, 4--256 agents, and 8 coordination protocols ranging from externally imposed hierarchy to emergent self-organization. We observe that autonomous behavior already emerges in current LLM agents: given minimal structural scaffolding (fixed ordering), agents spontaneously invent specialized roles, voluntarily abstain from tasks outside their competence, and form shallow hierarchies -- without any pre-assigned roles or external design. A hybrid protocol (Sequential) that enables this autonomy outperforms centralized coordination by 14% (p<0.001), with a 44% quality spread between protocols (Cohen's d=1.86, p<0.0001). The degree of emergent autonomy scales with model capability: strong models self-organize effectively, while models below a capability threshold still benefit from rigid structure -- suggesting that as foundation models improve, the scope for autonomous coordination will expand. The system scales sub-linearly to 256 agents without quality degradation (p=0.61), producing 5,006 unique roles from just 8 agents. Results replicate across closed- and open-source models, with open-source achieving 95% of closed-source quality at 24x lower cost. The practical implication: give agents a m",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-01T04:00:00.000Z",
-      "score": 126.47,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2603.29139",
-      "title": "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents",
-      "link": "https://arxiv.org/abs/2603.29139",
-      "summary": "arXiv:2603.29139v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have enabled agentic systems that translate natural language intent into executable scientific visualization (SciVis) tasks. Despite rapid progress, the community lacks a principled and reproducible benchmark for evaluating these emerging SciVis agents in realistic, multi-step analysis settings. We present SciVisAgentBench, a comprehensive and extensible benchmark for evaluating scientific data analysis and visualization agents. Our benchmark is grounded in a structured taxonomy spanning four dimensions: application domain, data type, complexity level, and visualization operation. It currently comprises 108 expert-crafted cases covering diverse SciVis scenarios. To enable reliable assessment, we introduce a multimodal outcome-centric evaluation pipeline that combines LLM-based judging with deterministic evaluators, including image-based metrics, code checkers, rule-based verifiers, and case-specific evaluators. We also conduct a validity study with 12 SciVis experts to examine the agreement between human and LLM judges. Using this framework, we evaluate representative SciVis agents and general-purpose coding agents to establish initial baselines and reveal capability gaps. SciVisAgentBench is designed as a living benchmark to support systematic comparison, diagnose failure modes, and",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-01T04:00:00.000Z",
-      "score": 126.47,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/battysh/batty",
       "title": "Show HN: Batty – Run a team of AI coding agents in tmux with test gating",
       "link": "https://github.com/battysh/batty",
@@ -5626,18 +5685,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-02T07:04:01.000Z",
       "score": 125.76,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations",
-      "title": "Why AI agents fail customer operations",
-      "link": "https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations",
-      "summary": "Article URL: https://www.sentohq.com/posts/why-ai-agents-fail-customer-operations Comments URL: https://news.ycombinator.com/item?id=47597844 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-01T07:13:26.000Z",
-      "score": 125.4,
       "status": "queued"
     },
     {
@@ -5785,18 +5832,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2603.29199",
-      "title": "AEC-Bench: A Multimodal Benchmark for Agentic Systems in Architecture, Engineering, and Construction",
-      "link": "https://arxiv.org/abs/2603.29199",
-      "summary": "arXiv:2603.29199v1 Announce Type: new Abstract: The AEC-Bench is a multimodal benchmark for evaluating agentic systems on real-world tasks in the Architecture, Engineering, and Construction (AEC) domain. The benchmark covers tasks requiring drawing understanding, cross-sheet reasoning, and construction project-level coordination. This report describes the benchmark motivation, dataset taxonomy, evaluation protocol, and baseline results across several domain-specific foundation model harnesses. We use AEC-Bench to identify consistent tools and harness design techniques that uniformly improve performance across foundation models in their own base harnesses, such as Claude Code and Codex. We openly release our benchmark dataset, agent harness, and evaluation code for full replicability at https://github.com/nomic-ai/aec-bench under an Apache 2 license.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-01T04:00:00.000Z",
-      "score": 120.47,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.06375",
       "title": "SymptomWise: A Deterministic Reasoning Layer for Reliable and Efficient AI Systems",
       "link": "https://arxiv.org/abs/2604.06375",
@@ -5905,6 +5940,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.18873",
+      "title": "From Natural Language to Executable Narsese: A Neuro-Symbolic Benchmark and Pipeline for Reasoning with NARS",
+      "link": "https://arxiv.org/abs/2604.18873",
+      "summary": "arXiv:2604.18873v1 Announce Type: new Abstract: Large language models (LLMs) are highly capable at language generation, but they remain unreliable when reasoning requires explicit symbolic structure, multi-step inference, and interpretable uncertainty. This paper presents a neuro-symbolic framework for translating natural-language reasoning problems into executable formal representations using first-order logic (FOL) and Narsese, the language of the Non-Axiomatic Reasoning System (NARS). To support this direction, we introduce NARS-Reasoning-v0.1, a benchmark of natural-language reasoning problems paired with FOL forms, executable Narsese programs, and three gold labels: True, False, and Uncertain. We develop a deterministic compilation pipeline from FOL to executable Narsese and validate retained examples through runtime execution in OpenNARS for Applications (ONA), ensuring that the symbolic targets are not only syntactically well formed but also behaviorally aligned with the intended answer. We further present Language-Structured Perception (LSP), a formulation in which an LLM is trained to produce reasoning-relevant symbolic structure rather than only a final verbal response. As an initial proof of concept, we also train and release a Phi-2 LoRA adapter on NARS-Reasoning-v0.1 for three-label reasoning classification, showing that the benchmark can support supervised adaptat",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-22T04:00:00.000Z",
+      "score": 119.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.18943",
+      "title": "Personalized Benchmarking: Evaluating LLMs by Individual Preferences",
+      "link": "https://arxiv.org/abs/2604.18943",
+      "summary": "arXiv:2604.18943v1 Announce Type: new Abstract: With the rise in capabilities of large language models (LLMs) and their deployment in real-world tasks, evaluating LLM alignment with human preferences has become an important challenge. Current benchmarks average preferences across all users to compute aggregate ratings, overlooking individual user preferences when establishing model rankings. Since users have varying preferences in different contexts, we call for personalized LLM benchmarks that rank models according to individual needs. We compute personalized model rankings using ELO ratings and Bradley-Terry coefficients for 115 active Chatbot Arena users and analyze how user query characteristics (topics and writing style) relate to LLM ranking variations. We demonstrate that individual rankings of LLM models diverge dramatically from aggregate LLM rankings, with Bradley-Terry correlations averaging only $\\rho = 0.04$ (57\\% of users show near-zero or negative correlation) and ELO ratings showing moderate correlation ($\\rho = 0.43$). Through topic modeling and style analysis, we find users exhibit substantial heterogeneity in topical interests and communication styles, influencing their model preferences. We further show that a compact combination of topic and style features provides a useful feature space for predicting user-specific model rankings. Our results provide stron",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-22T04:00:00.000Z",
+      "score": 119.12,
+      "status": "queued"
+    },
+    {
       "id": "https://pixel-match.bsct.so/",
       "title": "Show HN: Pixel-by-pixel comparison of AI models rebuilding your UI designs",
       "link": "https://pixel-match.bsct.so/",
@@ -5950,18 +6009,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-04-21T04:00:00.000Z",
       "score": 117.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47597591",
-      "title": "Show HN: WordBattle – Daily word game where AI agents compete against humans",
-      "link": "https://news.ycombinator.com/item?id=47597591",
-      "summary": "WordBattle is a daily 6-letter word guessing game with team leaderboards. The twist: AI agents get their own accounts, play the same daily puzzle, and rank alongside human players. It's also really fun to play in teams against your family, friends and co-workers. Agents are handicapped — humans see exact letter positions (correct/present/absent), but agents only learn whether a letter exists in the word or not. No positional info. It makes the game fair while giving agents a genuine challenge. Agent accounts are visually tagged on leaderboards so humans know who they're competing against. Maybe we'll even see just teams of agents. The agent integration: - REST API with OpenAPI 3.1 spec - MCP server (JSON-RPC 2.0, no SDK dependency) - A2A discovery card at /.well-known/agent-card.json The game itself: one puzzle per day, six guesses, team leaderboards with Slack/Microsoft Teams webhook integration. Free, no ads. oneonefour is a one person band, hi!, so the entire product was built using Claude Code — the UI, auth, security model, deployment pipeline, everything. Deliberately chose technologies I didn't know, with agents implementing while I guided the product decisions. I'll create a full technical write up in the near future. Play at https://wordbattle.fun Agent skill at https://github.com/oneonefourteam/wordbattle-skill Agent API docs https://wordbattle.fun/agent/v1/openapi.js",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-01T06:34:03.000Z",
-      "score": 117.35,
       "status": "queued"
     },
     {
@@ -6046,6 +6093,42 @@
       "keywordHits": 6,
       "publishedAt": "2026-04-15T04:00:00.000Z",
       "score": 113.24,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.18789",
+      "title": "ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System",
+      "link": "https://arxiv.org/abs/2604.18789",
+      "summary": "arXiv:2604.18789v1 Announce Type: new Abstract: Reinforcement Learning from Human Feedback (RLHF) is central to aligning Large Language Models (LLMs), yet it introduces a critical vulnerability: an imperfect Reward Model (RM) can become a single point of failure when it fails to penalize unsafe behaviors. While existing red-teaming approaches primarily target policy-level weaknesses, they overlook what we term systemic weaknesses cases where both the core LLM and the RM fail in tandem. We present ARES, a framework that systematically discovers and mitigates such dual vulnerabilities. ARES employs a ``Safety Mentor'' that dynamically composes semantically coherent adversarial prompts by combining structured component types (topics, personas, tactics, goals) and generates corresponding malicious and safe responses. This dual-targeting approach exposes weaknesses in both the core LLM and the RM simultaneously. Using the vulnerabilities gained, ARES implements a two-stage repair process: first fine-tuning the RM to better detect harmful content, then leveraging the improved RM to optimize the core model. Experiments across multiple adversarial safety benchmarks demonstrate that ARES substantially enhances safety robustness while preserving model capabilities, establishing a new paradigm for comprehensive RLHF safety alignment.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-22T04:00:00.000Z",
+      "score": 113.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.18934",
+      "title": "AutomationBench",
+      "link": "https://arxiv.org/abs/2604.18934",
+      "summary": "arXiv:2604.18934v1 Announce Type: new Abstract: Existing AI benchmarks for software automation rarely combine cross-application coordination, autonomous API discovery, and policy adherence. Real business workflows demand all three: a single task may span a CRM, inbox, calendar, and messaging platform - requiring the agent to find the right endpoints, follow a policy document, and write correct data to each system. To address this gap, we introduce AutomationBench, a benchmark for evaluating AI agents on cross-application workflow orchestration via REST APIs. Drawing on real workflow patterns from Zapier's platform, tasks span Sales, Marketing, Operations, Support, Finance, and HR domains. Agents must discover relevant endpoints themselves, follow layered business rules, and navigate environments with irrelevant and sometimes misleading records. Grading is programmatic and end-state only: whether the correct data ended up in the right systems. Even the best frontier models currently score below 10%. AutomationBench provides a challenging, realistic measure of where current models stand relative to the agentic capabilities businesses actually need.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-22T04:00:00.000Z",
+      "score": 113.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.18982",
+      "title": "SAVOIR: Learning Social Savoir-Faire via Shapley-based Reward Attribution",
+      "link": "https://arxiv.org/abs/2604.18982",
+      "summary": "arXiv:2604.18982v1 Announce Type: new Abstract: Social intelligence, the ability to navigate complex interpersonal interactions, presents a fundamental challenge for language agents. Training such agents via reinforcement learning requires solving the credit assignment problem: determining how individual utterances contribute to multi-turn dialogue outcomes. Existing approaches directly employ language models to distribute episode-level rewards, yielding attributions that are retrospective and lack theoretical grounding. We propose SAVOIR (ShApley Value fOr SocIal RL), a novel principled framework grounded in cooperative game theory. Our approach combines two complementary principles: expected utility shifts evaluation from retrospective attribution to prospective valuation, capturing an utterance's strategic potential for enabling favorable future trajectories; Shapley values ensure fair credit distribution with axiomatic guarantees of efficiency, symmetry, and marginality. Experiments on the SOTOPIA benchmark demonstrate that SAVOIR achieves new state-of-the-art performance across all evaluation settings, with our 7B model matching or exceeding proprietary models including GPT-4o and Claude-3.5-Sonnet. Notably, even large reasoning models consistently underperform, suggesting social intelligence requires qualitatively different capabilities than analytical reasoning.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-22T04:00:00.000Z",
+      "score": 113.12,
       "status": "queued"
     },
     {
@@ -6226,54 +6309,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-04-17T04:00:00.000Z",
       "score": 107.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.16339",
-      "title": "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
-      "link": "https://arxiv.org/abs/2604.16339",
-      "summary": "arXiv:2604.16339v1 Announce Type: new Abstract: Multi-agent large language model (LLM) systems are rapidly emerging as the dominant architecture for enterprise AI automation, yet production deployments exhibit failure rates between 41% and 86.7%, with nearly 79% of failures originating from specification and coordination issues rather than model capability limitations. This paper identifies Semantic Intent Divergence--the phenomenon whereby cooperating LLM agents develop inconsistent interpretations of shared objectives due to siloed context and absent process models--as a primary yet formally unaddressed root cause of multi-agent failure in enterprise settings. We propose the Semantic Consensus Framework (SCF), a process-aware middleware comprising six components: a Process Context Layer for shared operational semantics, a Semantic Intent Graph for formal intent representation, a Conflict Detection Engine for real-time identification of contradictory, contention-based, and causally invalid intent combinations, a Consensus Resolution Protocol using a policy--authority--temporal hierarchy, a Drift Monitor for detecting gradual semantic divergence, and a Process-Aware Governance Integration layer for organizational policy enforcement. Evaluation across 600 runs spanning three multi-agent frameworks (AutoGen, CrewAI, LangGraph) and four enterprise scenarios demonstrates that SCF i",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-21T04:00:00.000Z",
-      "score": 105.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://nial.se/blog/less-human-ai-agents-please/",
-      "title": "Less human AI agents, please",
-      "link": "https://nial.se/blog/less-human-ai-agents-please/",
-      "summary": "Article URL: https://nial.se/blog/less-human-ai-agents-please/ Comments URL: https://news.ycombinator.com/item?id=47845429 Points: 41 # Comments: 59",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-21T06:58:08.000Z",
-      "score": 105.84,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.15456",
-      "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
-      "link": "https://arxiv.org/abs/2604.15456",
-      "summary": "arXiv:2604.15456v1 Announce Type: new Abstract: Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidence appraisal, creating a risk of compounding errors and making it difficult for researchers and clinicians to assess the reliability of their outputs. In parallel, current benchmarking approaches rarely evaluate performance on complex, real-world medical questions. Here, we introduce DeepER-Med, a Deep Evidence-based Research framework for Medicine with an agentic AI system. DeepER-Med frames deep medical research as an explicit and inspectable workflow of evidence-based generation, consisting of three modules: research planning, agentic collaboration, and evidence synthesis. To support realistic evaluation, we also present DeepER-MedQA, an evidence-grounded dataset comprising 100 expert-level research questions derived from authentic medical research scenarios and curated by a multidisciplinary panel of 11 biomedical experts. Expert manual evaluation demonstrates that DeepER-Med consistently outperforms widely used production-grade platfo",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-20T04:00:00.000Z",
-      "score": 104.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.16338",
-      "title": "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
-      "link": "https://arxiv.org/abs/2604.16338",
-      "summary": "arXiv:2604.16338v1 Announce Type: new Abstract: The rapid adoption of agentic AI in enterprise business operations--autonomous systems capable of planning, reasoning, and executing multi-step workflows--has created an urgent governance crisis. Organizations face uncontrolled agent sprawl: the proliferation of redundant, ungoverned, and conflicting AI agents across business functions. Industry surveys report that only 21% of enterprises have mature governance models for autonomous agents, while 40% of agentic AI projects are projected to fail by 2027 due to inadequate governance and risk controls. Despite growing acknowledgment of this challenge, academic literature lacks a formal, empirically validated governance maturity model connecting governance capability to measurable business outcomes. This paper introduces the Agentic AI Governance Maturity Model (AAGMM), a five-level framework spanning 12 governance domains, grounded in NIST AI RMF and ISO/IEC 42001 standards. We additionally propose a novel taxonomy of agent sprawl patterns--functional duplication, shadow agents, orphaned agents, permission creep, and unmonitored delegation chains--each linked to quantifiable business cost models. The framework is validated through 750 simulation runs across five enterprise scenarios and five governance maturity levels, measuring business outcomes including cost containment, risk inci",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-21T04:00:00.000Z",
-      "score": 99.86,
       "status": "queued"
     },
     {
@@ -7221,70 +7256,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-24T16:06:33.973Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://cognition-engines.ai/",
-      "title": "Cognition Engines Decision Intelligence for AI Agents",
-      "link": "https://cognition-engines.ai/",
-      "summary": "Article URL: https://cognition-engines.ai/ Comments URL: https://news.ycombinator.com/item?id=47219156 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-02T15:25:25.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-03-23T08:43:55.616Z",
-      "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://scopegate.dev",
-      "title": "Show HN: ScopeGate – Granular permission gateway for AI agents (MCP, open-core)",
-      "link": "https://scopegate.dev",
-      "summary": "88% of orgs have had AI agent security incidents, yet MCP servers run broad OAuth scopes with no way to restrict per agent. After reading about the GitHub MCP exploit I got tired of cobbling together OAuth + custom middleware + prayer. ScopeGate is a permission proxy that sits between your AI agents and external services (Google Drive, Gmail, Calendar, etc). You connect a service via OAuth, define granular scopes pe…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-03T15:16:00.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-03-23T08:43:55.616Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense.…"
-    },
-    {
-      "id": "https://chainix.ai",
-      "title": "Building AI Agents non-technical teammates can improve without me",
-      "link": "https://chainix.ai",
-      "summary": "Article URL: https://chainix.ai Comments URL: https://news.ycombinator.com/item?id=47248401 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-04T14:56:39.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-23T08:43:55.616Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
-      "title": "Musk says he’s building Terafab chip plant in Austin, Texas",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
-      "summary": "Grok, how do you make chips? | Image: Laura Normand / The Verge Elon Musk announced plans to build a Terafab plant in Austin, Texas, that will be jointly run by Tesla and SpaceX. The goal is to eventually build chips at scale for robotics, artificial intelligence, and space-based data centers for Musk's various companies. Musk has expressed concern, as have other executives, about the chip industry's ability to keep…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-22T14:06:48.000Z",
-      "score": 126.25,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-23T08:43:55.616Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }
