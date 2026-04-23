@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T09:29:03.865Z",
+  "generatedAt": "2026-04-23T16:56:01.873Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-04-23-tesseron-typescript-sdk-and-mcp-websocket-gateway-to-expose-typed-web-app-actions-to-ai-agents",
+      "title": "Tesseron : SDK TypeScript et passerelle WebSocket MCP pour exposer des actions typées aux agents IA",
+      "date": "2026-04-23",
+      "excerpt": "Tesseron est présenté comme un SDK TypeScript open‑source et une passerelle WebSocket compatible MCP pour exposer des actions typées de votre application web aux agents IA. Ce guide francophone, orienté UK, explique l'idée, les usages pratiques et propose une feuille de route pragmatique — en distinguant ce qui est confirmé dans le dépôt et ce qui reste une hypothèse.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-23-tesseron-typescript-sdk-and-mcp-websocket-gateway-to-expose-typed-web-app-actions-to-ai-agents.jpg",
+      "tags": [
+        "tesseron",
+        "TypeScript",
+        "WebSocket",
+        "MCP",
+        "SDK",
+        "agents-IA",
+        "open-source",
+        "développement"
+      ],
+      "sources": [
+        "https://github.com/BrainBlend-AI/tesseron"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-04-22-anthropic-releases-claude-opus-47-as-ga-mythos-preview-reportedly-outperforms-it-in-early-evaluations",

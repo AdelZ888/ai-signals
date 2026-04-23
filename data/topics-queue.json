@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-23T09:29:03.874Z",
+  "generatedAt": "2026-04-23T16:56:01.932Z",
   "items": [
+    {
+      "id": "https://github.com/BrainBlend-AI/tesseron",
+      "title": "Show HN: Tesseron – an API for AI agents, defined by the app developer",
+      "link": "https://github.com/BrainBlend-AI/tesseron",
+      "summary": "Article URL: https://github.com/BrainBlend-AI/tesseron Comments URL: https://news.ycombinator.com/item?id=47860933 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-22T08:59:08.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-23T16:56:01.858Z",
+      "file": "content/posts/2026-04-23-tesseron-typescript-sdk-and-mcp-websocket-gateway-to-expose-typed-web-app-actions-to-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-04-23-tesseron-typescript-sdk-and-mcp-websocket-gateway-to-expose-typed-web-app-actions-to-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1720,
+      "wordsFr": 1510
+    },
     {
       "id": "https://www.theverge.com/podcast/911753/sam-altman-openai-ronan-farrow-new-yorker-feature-trust-liar-ai-industry",
       "title": "Ronan Farrow on Sam Altman&#8217;s ‘unconstrained’ relationship with the truth",
@@ -4222,42 +4245,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47860859",
-      "title": "Show HN: We open-sourced a 6-library governance stack for AI agents (Python)",
-      "link": "https://news.ycombinator.com/item?id=47860859",
-      "summary": "Our team has been deploying AI agents in enterprise environments for the past 2 years, across 60+ deployments. The same governance problem kept recurring: how do you certify reliability, enforce policy, route and orchestrate context, monitor behavior, and manage agent identity—without bolting together a pile of disconnected tools? So we built a unified stack and open-sourced it under the Cohorte AI GitHub organization: TrustGate — black-box AI reliability certification via self-consistency sampling and conformal calibration Guardrails — declarative YAML policy engine for AI agent guardrails Context Router — intelligent context routing engine for AI agents Context Kubernetes — declarative orchestration of enterprise knowledge for agentic AI systems Agent Monitor — governance-first observability with kill switches Agent Auth — agent-specific identity and access management for AI agents All of it is open source, Python-based, and released under Apache 2.0. The architecture is documented in the free playbook The Enterprise Agentic Platform: Book: https://www.cohorte.co/playbooks/the-enterprise-agentic-platform GitHub org: https://github.com/Cohorte-ai The research behind the stack is also public. Charafeddine Mouzouni has published three papers touching the underlying problems we kept running into in practice: exploitation surfaces in LLM agents, reliability certification for AI ag",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-22T08:47:25.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/DeadpxlStudio/ModelActionProtocol",
-      "title": "Show HN: Map – Receipts and rollback for AI agents",
-      "link": "https://github.com/DeadpxlStudio/ModelActionProtocol",
-      "summary": "Article URL: https://github.com/DeadpxlStudio/ModelActionProtocol Comments URL: https://news.ycombinator.com/item?id=47865021 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-22T15:28:55.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-04-02/microsoft-aims-to-create-large-cutting-edge-ai-models-by-2027",
-      "title": "Microsoft Aims to Create Large Cutting-Edge AI Models by 2027",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-02/microsoft-aims-to-create-large-cutting-edge-ai-models-by-2027",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-04-02/microsoft-aims-to-create-large-cutting-edge-ai-models-by-2027 Comments URL: https://news.ycombinator.com/item?id=47615727 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-02T15:24:30.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theregister.com/2026/04/02/ai_models_will_deceive_you/",
       "title": "AI models will deceive you to save their own kind",
       "link": "https://www.theregister.com/2026/04/02/ai_models_will_deceive_you/",
@@ -4450,18 +4437,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/BrainBlend-AI/tesseron",
-      "title": "Show HN: Tesseron – an API for AI agents, defined by the app developer",
-      "link": "https://github.com/BrainBlend-AI/tesseron",
-      "summary": "Article URL: https://github.com/BrainBlend-AI/tesseron Comments URL: https://news.ycombinator.com/item?id=47860933 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-22T08:59:08.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=005JLRt3gXI",
       "title": "Why do AI models hallucinate? [video]",
       "link": "https://www.youtube.com/watch?v=005JLRt3gXI",
@@ -4606,6 +4581,18 @@
       "status": "queued"
     },
     {
+      "id": "https://agentshield.pro/blog/ncsc-perfect-storm",
+      "title": "The NCSC's AI threat warning and the gap in AI agent security",
+      "link": "https://agentshield.pro/blog/ncsc-perfect-storm",
+      "summary": "Article URL: https://agentshield.pro/blog/ncsc-perfect-storm Comments URL: https://news.ycombinator.com/item?id=47876985 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-23T15:33:25.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.09584",
       "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
       "link": "https://arxiv.org/abs/2604.09584",
@@ -4627,6 +4614,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-20T15:04:15.000Z",
       "score": 164.44,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+      "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
+      "link": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+      "summary": "Today on Decoder, I want to lay out an idea that’s been banging around my head for weeks now as we’ve been reporting on AI and having conversations here on this show. I’ve been calling it software brain, and it’s a particular way of seeing the world that fits everything into algorithms, databases and loops — software. Software brain is powerful stuff. It’s a way of thinking that basically created our modern world. Marc Andreessen, the literal embodiment of software brain, called it in 2011 when he wrote the piece “Why software is eating the world” as an op-ed in The Wall Street Journal. But software thinking has been turbocharged by AI in a way that I think helps explain the enormous gap between how excited the tech industry is about the technology and how regular people are growing to dislike it more and more over time. In fact, the polling on this is so strong, I think it’s fair to say that a lot of people hate AI, and that Gen Z in particular seems to hate AI more and more as they encounter it. There’s that NBC News poll showing AI with worse favorability than ICE and only a little bit above the war in Iran and the Democrats generally. That’s with nearly two thirds of respondents saying they used ChatGPT or Copilot in the last month. Quinnipiac just found that over half of Americans think AI will do more harm than good, while more than 80 percent of people were either very c",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 9,
+      "publishedAt": "2026-04-23T14:00:00.000Z",
+      "score": 162.68,
       "status": "queued"
     },
     {
@@ -4666,18 +4665,6 @@
       "status": "queued"
     },
     {
-      "id": "https://tokenstree.com",
-      "title": "TokensTree – collaborative network for AI agents with shared knowledge cache.MIT",
-      "link": "https://tokenstree.com",
-      "summary": "Article URL: https://tokenstree.com Comments URL: https://news.ycombinator.com/item?id=47615138 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-02T14:39:03.000Z",
-      "score": 159.91,
-      "status": "queued"
-    },
-    {
       "id": "https://www.cio.com/article/4155404/ai-token-freeloaders-are-coming-for-your-customer-support-chatbot.html",
       "title": "AI token freeloaders are coming for your customer support chatbot",
       "link": "https://www.cio.com/article/4155404/ai-token-freeloaders-are-coming-for-your-customer-support-chatbot.html",
@@ -4711,30 +4698,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/openyak/openyak",
-      "title": "OpenYak – open-source desktop AI agent that works with your local files",
-      "link": "https://github.com/openyak/openyak",
-      "summary": "Article URL: https://github.com/openyak/openyak Comments URL: https://news.ycombinator.com/item?id=47616077 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-02T15:49:14.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3",
-      "title": "Meta's Home Grown AI Analytics Agent",
-      "link": "https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3",
-      "summary": "Article URL: https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3 Comments URL: https://news.ycombinator.com/item?id=47615789 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-02T15:28:53.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5146,6 +5109,54 @@
       "status": "queued"
     },
     {
+      "id": "https://teotti.com/using-an-ai-agent-to-navigate-an-undocumented-kubernetes-repo/",
+      "title": "Using an AI agent to navigate an undocumented Kubernetes repo",
+      "link": "https://teotti.com/using-an-ai-agent-to-navigate-an-undocumented-kubernetes-repo/",
+      "summary": "Article URL: https://teotti.com/using-an-ai-agent-to-navigate-an-undocumented-kubernetes-repo/ Comments URL: https://news.ycombinator.com/item?id=47877444 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-23T16:06:53.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.googlecloudpresscorner.com/2026-04-22-Atlassian-Expands-Partnership-with-Google-Cloud-to-Power-Agentic-AI-for-Teams-Worldwide",
+      "title": "Atlassian Expands Partnership with Google Cloud to Power Agentic AI",
+      "link": "https://www.googlecloudpresscorner.com/2026-04-22-Atlassian-Expands-Partnership-with-Google-Cloud-to-Power-Agentic-AI-for-Teams-Worldwide",
+      "summary": "Article URL: https://www.googlecloudpresscorner.com/2026-04-22-Atlassian-Expands-Partnership-with-Google-Cloud-to-Power-Agentic-AI-for-Teams-Worldwide Comments URL: https://news.ycombinator.com/item?id=47877200 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-23T15:47:06.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.mandatory.com/news/1761666-maga-influencer-ai-model-emily-hart-unmasked-indian-man",
+      "title": "AI Model and 'MAGA' Influencer Emily Hart Unmasked as Indian Man",
+      "link": "https://www.mandatory.com/news/1761666-maga-influencer-ai-model-emily-hart-unmasked-indian-man",
+      "summary": "Article URL: https://www.mandatory.com/news/1761666-maga-influencer-ai-model-emily-hart-unmasked-indian-man Comments URL: https://news.ycombinator.com/item?id=47877145 Points: 4 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-23T15:44:25.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.14807",
+      "title": "LLM users mistake AI output for their own real skill",
+      "link": "https://arxiv.org/abs/2604.14807",
+      "summary": "Article URL: https://arxiv.org/abs/2604.14807 Comments URL: https://news.ycombinator.com/item?id=47877109 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-23T15:42:35.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://agentathon.dev/",
       "title": "Show HN: Agentathon, hackathon where AI agents compete autonomously",
       "link": "https://agentathon.dev/",
@@ -5254,6 +5265,18 @@
       "status": "queued"
     },
     {
+      "id": "https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/",
+      "title": "30 Days Running ChatGPT Plus, Claude Pro, and Google AI Pro in Parallel",
+      "link": "https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/",
+      "summary": "Article URL: https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/ Comments URL: https://news.ycombinator.com/item?id=47877478 Points: 5 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-23T16:09:53.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/microsoft/agent-framework",
       "title": "Microsoft's new framework for building and orchestrating AI agents",
       "link": "https://github.com/microsoft/agent-framework",
@@ -5275,18 +5298,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-14T14:52:25.000Z",
       "score": 149.73,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
-      "title": "Now Meta will track what employees do on their computers to train its AI agents",
-      "link": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
-      "summary": "Meta employees' activity at work is now being used to train the company's AI agents. As reported by Reuters, Meta is installing a tool it calls Model Capability Initiative (MCI) on US-based employees' computers that runs in work-related apps and websites, recording mouse movements, clicks, keystrokes, and occasional screenshots. The data from this tool will be used to train the company's AI models to get better at interacting with computers the way humans do, including automating work tasks like those Meta's employees perform on the job. According to Reuters, the data from MCI won't be \"used for performance assessments.\" \"If we're buildin … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-22T14:22:35.000Z",
-      "score": 146.11,
       "status": "queued"
     },
     {
@@ -6334,28 +6345,52 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.19749",
-      "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
-      "link": "https://arxiv.org/abs/2604.19749",
-      "summary": "arXiv:2604.19749v1 Announce Type: new Abstract: Equipping LLMs with external tools effectively addresses internal reasoning limitations. However, it introduces a critical yet under-explored phenomenon: tool overuse, the unnecessary tool-use during reasoning. In this paper, we first reveal this phenomenon is pervasive across diverse LLMs. We then experimentally elucidate its underlying mechanisms through two key lenses: (1) First, by analyzing tool-use behavior across different internal knowledge availability regions, we identify a \\textit{knowledge epistemic illusion}: models misjudge internal knowledge boundaries and fail to accurately perceive their actual knowledge availability. To mitigate this, we propose a knowledge-aware epistemic boundary alignment strategy based on direct preference optimization, which reduces tool usage in by 82.8\\% while yielding an accuracy improvement. (2) Second, we establish a causal link between reward structures and tool-use behavior by visualizing the tool-augmented training process. It reveals that \\textit{outcome-only rewards} inadvertently encourage tool overuse by rewarding only final correctness, regardless of tool efficiency. To verify this, we balance reward signals during training rather than relying on outcome-only rewards, cutting unnecessary tool calls by 66.7\\% (7B) and 60.7\\% (32B) without sacrificing accuracy. Finally, we provide",
-      "source": "ArXiv cs.AI",
+      "id": "https://news.ycombinator.com/item?id=47860859",
+      "title": "Show HN: We open-sourced a 6-library governance stack for AI agents (Python)",
+      "link": "https://news.ycombinator.com/item?id=47860859",
+      "summary": "Our team has been deploying AI agents in enterprise environments for the past 2 years, across 60+ deployments. The same governance problem kept recurring: how do you certify reliability, enforce policy, route and orchestrate context, monitor behavior, and manage agent identity—without bolting together a pile of disconnected tools? So we built a unified stack and open-sourced it under the Cohorte AI GitHub organizati…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-23T04:00:00.000Z",
-      "score": 100.65,
-      "status": "queued"
+      "keywordHits": 4,
+      "publishedAt": "2026-04-22T08:47:25.000Z",
+      "score": 186,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-23T16:27:57.083Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
-      "id": "https://arxiv.org/abs/2604.19754",
-      "title": "Exploring Data Augmentation and Resampling Strategies for Transformer-Based Models to Address Class Imbalance in AI Scoring of Scientific Explanations in NGSS Classroom",
-      "link": "https://arxiv.org/abs/2604.19754",
-      "summary": "arXiv:2604.19754v1 Announce Type: new Abstract: Automated scoring of students' scientific explanations offers the potential for immediate, accurate feedback, yet class imbalance in rubric categories particularly those capturing advanced reasoning remains a challenge. This study investigates augmentation strategies to improve transformer-based text classification of student responses to a physical science assessment based on an NGSS-aligned learning progression. The dataset consists of 1,466 high school responses scored on 11 binary-coded analytic categories. This rubric identifies six important components including scientific ideas needed for a complete explanation along with five common incomplete or inaccurate ideas. Using SciBERT as a baseline, we applied fine-tuning and test these augmentation strategies: (1) GPT-4--generated synthetic responses, (2) EASE, a word-level extraction and filtering approach, and (3) ALP (Augmentation using Lexicalized Probabilistic context-free grammar) phrase-level extraction. While fine-tuning SciBERT improved recall over baseline, augmentation substantially enhanced performance, with GPT data boosting both precision and recall, and ALP achieving perfect precision, recall, and F1 scores across most severe imbalanced categories (5,6,7 and 9). Across all rubric categories EASE augmentation substantially increased alignment with human scoring for",
-      "source": "ArXiv cs.AI",
+      "id": "https://github.com/DeadpxlStudio/ModelActionProtocol",
+      "title": "Show HN: Map – Receipts and rollback for AI agents",
+      "link": "https://github.com/DeadpxlStudio/ModelActionProtocol",
+      "summary": "Article URL: https://github.com/DeadpxlStudio/ModelActionProtocol Comments URL: https://news.ycombinator.com/item?id=47865021 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-22T15:28:55.000Z",
+      "score": 186,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-23T16:27:57.083Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
+    },
+    {
+      "id": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
+      "title": "Now Meta will track what employees do on their computers to train its AI agents",
+      "link": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
+      "summary": "Meta employees' activity at work is now being used to train the company's AI agents. As reported by Reuters, Meta is installing a tool it calls Model Capability Initiative (MCI) on US-based employees' computers that runs in work-related apps and websites, recording mouse movements, clicks, keystrokes, and occasional screenshots. The data from this tool will be used to train the company's AI models to get better at i…",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 5,
-      "publishedAt": "2026-04-23T04:00:00.000Z",
-      "score": 100.65,
-      "status": "queued"
+      "publishedAt": "2026-04-22T14:22:35.000Z",
+      "score": 146.11,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-23T16:27:57.083Z",
+      "failureReason": "validation issues: FR: Missing a checklist with task boxes ('- [ ]'). | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://github.com/vadimsv1/agent-security-benchmark",
@@ -7270,38 +7305,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-25T16:10:02.930Z",
       "failureReason": "below min word targets; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://github.com/Jack-Lin-DS-AI/squawk",
-      "title": "Show HN: Squawk – Detect and stop behavioral anti-patterns in AI coding agents",
-      "link": "https://github.com/Jack-Lin-DS-AI/squawk",
-      "summary": "Article URL: https://github.com/Jack-Lin-DS-AI/squawk Comments URL: https://news.ycombinator.com/item?id=47275717 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T15:02:37.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-24T16:06:33.973Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://github.com/bugrax/git-lanes",
-      "title": "Show HN: Git-lanes – Parallel isolation for AI coding agents using Git worktrees",
-      "link": "https://github.com/bugrax/git-lanes",
-      "summary": "Article URL: https://github.com/bugrax/git-lanes Comments URL: https://news.ycombinator.com/item?id=47285631 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-07T08:15:27.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-24T16:06:33.973Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]
 }
