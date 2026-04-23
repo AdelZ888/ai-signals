@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-22T16:20:34.470Z",
+  "generatedAt": "2026-04-23T09:29:03.874Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/podcast/911753/sam-altman-openai-ronan-farrow-new-yorker-feature-trust-liar-ai-industry",
+      "title": "Ronan Farrow on Sam Altman&#8217;s ‘unconstrained’ relationship with the truth",
+      "link": "https://www.theverge.com/podcast/911753/sam-altman-openai-ronan-farrow-new-yorker-feature-trust-liar-ai-industry",
+      "summary": "Today on Decoder, I’m talking with Ronan Farrow, one of the biggest stars of investigative reporting working today. He broke the Harvey Weinstein story, among many, many others. And just last week, he and co-author Andrew Marantz published an incredible deep-dive feature in The New Yorker about OpenAI CEO Sam Altman, his trustworthiness, and the rise of OpenAI itself. One note before we go any further here —The New…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 9,
+      "publishedAt": "2026-04-16T14:00:00.000Z",
+      "score": 164.43,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-04-23T09:29:03.850Z",
+      "file": "content/posts/2026-04-23-ronan-farrow-on-the-new-yorkers-sam-altman-report-credibility-risks-and-verification-lessons-for-founders.md",
+      "fileFr": "content/posts/fr/2026-04-23-ronan-farrow-on-the-new-yorkers-sam-altman-report-credibility-risks-and-verification-lessons-for-founders.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1431,
+      "wordsFr": 1197
+    },
     {
       "id": "https://librethinker.com/",
       "title": "Show HN: LibreThinker, free AI assistant for LibreOffice Writer, 10k installs",
@@ -4607,18 +4630,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/podcast/911753/sam-altman-openai-ronan-farrow-new-yorker-feature-trust-liar-ai-industry",
-      "title": "Ronan Farrow on Sam Altman&#8217;s ‘unconstrained’ relationship with the truth",
-      "link": "https://www.theverge.com/podcast/911753/sam-altman-openai-ronan-farrow-new-yorker-feature-trust-liar-ai-industry",
-      "summary": "Today on Decoder, I’m talking with Ronan Farrow, one of the biggest stars of investigative reporting working today. He broke the Harvey Weinstein story, among many, many others. And just last week, he and co-author Andrew Marantz published an incredible deep-dive feature in The New Yorker about OpenAI CEO Sam Altman, his trustworthiness, and the rise of OpenAI itself. One note before we go any further here —The New Yorker published that story and Ronan and I had this conversation before we knew the full extent of the attacks on Altman’s home, so you won’t hear us talk about that directly. But just to say it, I think violence of any kind is unacceptable, these attacks on Sam were unacceptable, and that the kind of helplessness that people feel, which leads to this kind of violence, is itself unacceptable, and it’s worth a lot more scrutiny from both the industry and our political leaders. I hope that’s clear. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. All that said, there is a lot swirling around Altman that’s fair game for rigorous reporting — the kind of reporting Ronan and Andrew set out to do. Thanks to the popularity of ChatGPT, Altman has emerged as the most visible figurehead of the AI industry, having turned a once nonprofit research lab into an almost tril",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-04-16T14:00:00.000Z",
-      "score": 164.43,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47719925",
       "title": "Show HN: I built a $3/yr AI workflow to stop doomscrolling Twitter for tech news",
       "link": "https://news.ycombinator.com/item?id=47719925",
@@ -5387,18 +5398,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.00319",
-      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
-      "link": "https://arxiv.org/abs/2604.00319",
-      "summary": "arXiv:2604.00319v1 Announce Type: new Abstract: We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents and critics collaborate with a central server to complete multimodal tasks such as fault detection, severity, and cause analysis in a network telemetry system, text-to-image generation, video generation, healthcare diagnostics from medical images and patient records, etcetera. The AI agents complete their tasks and send them to AI critics for evaluation. The critics then send feedback to agents to improve their responses. Collaboratively, they minimize the overall cost to the system with no inter-agent or inter-critic communication. AI agents and critics keep their cost functions or derivatives of cost functions private. Using multi-time scale stochastic approximation techniques, we provide convergence guarantees on the time-average active states of AI agents and critics. The communication overhead is a little on the system, of the order of $\\mathcal{O}(m)$, for $m$ modalities and is independent of the number of AI agents and critics. Finally, we present an example of fault detection, severity, and cause analysis in network telemetry and thorough evaluation to check the algorithm's eff",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-02T04:00:00.000Z",
-      "score": 139.32,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.04937",
       "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
       "link": "https://arxiv.org/abs/2604.04937",
@@ -5432,6 +5431,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-04-09T04:00:00.000Z",
       "score": 138.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2238609-meta-entraine-ses-ia-avec-les-clics-et-frappes-au-clavier-de-ses-salaries.html",
+      "title": "Meta entraîne ses IA avec les clics et frappes au clavier de ses salariés",
+      "link": "https://www.numerama.com/tech/2238609-meta-entraine-ses-ia-avec-les-clics-et-frappes-au-clavier-de-ses-salaries.html",
+      "summary": "Meta déploie aux États-Unis un nouvel outil interne capable d’enregistrer les clics, mouvements de souris et frappes au clavier de ses salariés pour entraîner ses modèles d’intelligence artificielle. Cette initiative s’inscrit dans une stratégie plus large visant à automatiser davantage le travail en interne grâce à des agents d’IA.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-23T07:57:56.000Z",
+      "score": 138,
       "status": "queued"
     },
     {
@@ -5519,6 +5530,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.19758",
+      "title": "ThermoQA: A Three-Tier Benchmark for Evaluating Thermodynamic Reasoning in Large Language Models",
+      "link": "https://arxiv.org/abs/2604.19758",
+      "summary": "arXiv:2604.19758v1 Announce Type: new Abstract: We present ThermoQA, a benchmark of 293 open-ended engineering thermodynamics problems in three tiers: property lookups (110 Q), component analysis (101 Q), and full cycle analysis (82 Q). Ground truth is computed programmatically from CoolProp 7.2.0, covering water, R-134a, and variable-cp air. Six frontier LLMs are evaluated across three independent runs each. The composite leaderboard is led by Claude Opus 4.6 (94.1%), GPT-5.4 (93.1%), and Gemini 3.1 Pro (92.5%). Cross-tier degradation ranges from 2.8 pp (Opus) to 32.5 pp (MiniMax), confirming that property memorization does not imply thermodynamic reasoning. Supercritical water, R-134a refrigerant, and combined-cycle gas turbine analysis serve as natural discriminators with 40-60 pp performance spreads. Multi-run sigma ranges from +/-0.1% to +/-2.5%, quantifying reasoning consistency as a distinct evaluation axis. Dataset and code are open-source at https://huggingface.co/datasets/olivenet/thermoqa",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-23T04:00:00.000Z",
+      "score": 130.65,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/heygen-com/hyperframes",
       "title": "Hyperframes – AI Video Creation for Agents",
       "link": "https://github.com/heygen-com/hyperframes",
@@ -5603,30 +5626,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.00005",
-      "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
-      "link": "https://arxiv.org/abs/2604.00005",
-      "summary": "arXiv:2604.00005v1 Announce Type: new Abstract: Emotion plays an important role in human cognition and performance. Motivated by this, we investigate whether analogous emotional signals can shape the behavior of large language models (LLMs) and agents. Existing emotion-aware studies mainly treat emotion as a surface-level style factor or a perception target, overlooking its mechanistic role in task processing. To address this limitation, we propose E-STEER, an interpretable emotion steering framework that enables direct representation-level intervention in LLMs and agents. It embeds emotion as a structured, controllable variable in hidden states, and with it, we examine the impact of emotion on objective reasoning, subjective generation, safety, and multi-step agent behaviors. The results reveal non-monotonic emotion-behavior relations consistent with established psychological theories, and show that specific emotions not only enhance LLM capability but also improve safety, and systematically shape multi-step agent behaviors.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-02T04:00:00.000Z",
-      "score": 127.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.00478",
-      "title": "The Silicon Mirror: Dynamic Behavioral Gating for Anti-Sycophancy in LLM Agents",
-      "link": "https://arxiv.org/abs/2604.00478",
-      "summary": "arXiv:2604.00478v1 Announce Type: new Abstract: Large Language Models (LLMs) increasingly prioritize user validation over epistemic accuracy-a phenomenon known as sycophancy. We present The Silicon Mirror, an orchestration framework that dynamically detects user persuasion tactics and adjusts AI behavior to maintain factual integrity. Our architecture introduces three components: (1) a Behavioral Access Control (BAC) system that restricts context layer access based on real-time sycophancy risk scores, (2) a Trait Classifier that identifies persuasion tactics across multi-turn dialogues, and (3) a Generator-Critic loop where an auditor vetoes sycophantic drafts and triggers rewrites with \"Necessary Friction.\" In a live evaluation on 50 TruthfulQA adversarial scenarios using Claude Sonnet 4 with an independent LLM judge, we observe vanilla Claude sycophancy at 12.0% (6/50), static guardrails at 4.0% (2/50), and the Silicon Mirror at 2.0% (1/50)-an 83.3% relative reduction (p = 0.112, Fisher's exact test). A cross-model evaluation on Gemini 2.5 Flash reveals a higher baseline sycophancy rate (46.0%) and a statistically significant 69.6% reduction under the Silicon Mirror (p < 0.001). We characterize the validation-before-correction pattern as a distinct failure mode of RLHF-trained models.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-02T04:00:00.000Z",
-      "score": 127.32,
-      "status": "queued"
-    },
-    {
       "id": "https://engineering.flexcompute.com/articles/autoresearch-photonic-design/",
       "title": "Can AI agents autonomously design components on photonic chips?",
       "link": "https://engineering.flexcompute.com/articles/autoresearch-photonic-design/",
@@ -5699,18 +5698,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/",
-      "title": "AI Models Lie, Cheat, and Steal to Protect Other Models from Being Deleted",
-      "link": "https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/",
-      "summary": "Article URL: https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/ Comments URL: https://news.ycombinator.com/item?id=47610932 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-02T07:04:01.000Z",
-      "score": 125.76,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.13531",
       "title": "RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management",
       "link": "https://arxiv.org/abs/2604.13531",
@@ -5744,6 +5731,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-08T14:58:38.000Z",
       "score": 125.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.19775",
+      "title": "From Actions to Understanding: Conformal Interpretability of Temporal Concepts in LLM Agents",
+      "link": "https://arxiv.org/abs/2604.19775",
+      "summary": "arXiv:2604.19775v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed as autonomous agents capable of reasoning, planning, and acting within interactive environments. Despite their growing capability to perform multi-step reasoning and decision-making tasks, internal mechanisms guiding their sequential behavior remain opaque. This paper presents a framework for interpreting the temporal evolution of concepts in LLM agents through a step-wise conformal lens. We introduce the conformal interpretability framework for temporal tasks, which combines step-wise reward modeling with conformal prediction to statistically label model's internal representation at each step as successful or failing. Linear probes are then trained on these representations to identify directions of temporal concepts - latent directions in the model's activation space that correspond to consistent notions of success, failure or reasoning drift. Experimental results on two simulated interactive environments, namely ScienceWorld and AlfWorld, demonstrate that these temporal concepts are linearly separable, revealing interpretable structures aligned with task success. We further show preliminary results on improving an LLM agent's performance by leveraging the proposed framework for steering the identified successful directions inside the model. The proposed approach, thus, offer",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-23T04:00:00.000Z",
+      "score": 124.65,
       "status": "queued"
     },
     {
@@ -5804,18 +5803,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-20T08:24:23.000Z",
       "score": 121.95,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.00284",
-      "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
-      "link": "https://arxiv.org/abs/2604.00284",
-      "summary": "arXiv:2604.00284v1 Announce Type: new Abstract: We formally introduce a improvisational wordplay game called Connections to explore reasoning capabilities of AI agents. Playing Connections combines skills in knowledge retrieval, summarization and awareness of cognitive states of other agents. We show how the game serves as a good benchmark for social intelligence abilities of language model based agents that go beyond the agents' own memory and deductive reasoning and also involve gauging the understanding capabilities of other agents. Finally, we show how through communication with other agents in a constrained environment, AI agents must demonstrate social awareness and intelligence in games involving collaboration.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-02T04:00:00.000Z",
-      "score": 121.32,
       "status": "queued"
     },
     {
@@ -6179,6 +6166,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.19789",
+      "title": "From Data to Theory: Autonomous Large Language Model Agents for Materials Science",
+      "link": "https://arxiv.org/abs/2604.19789",
+      "summary": "arXiv:2604.19789v1 Announce Type: new Abstract: We present an autonomous large language model (LLM) agent for end-to-end, data-driven materials theory development. The model can choose an equation form, generate and run its own code, and test how well the theory matches the data without human intervention. The framework combines step-by-step reasoning with expert-supplied tools, allowing the agent to adjust its approach as needed while keeping a clear record of its decisions. For well-established materials relationships such as the Hall-Petch equation and Paris law, the agent correctly identifies the governing equation and makes reliable predictions on new datasets. For more specialized relationships, such as Kuhn's equation for the HOMO-LUMO gap of conjugated molecules as a function of length, performance depends more strongly on the underlying model, with GPT-5 showing better recovery of the correct equation. Beyond known theories, the agent can also suggest new predictive relationships, illustrated here by a strain-dependent law for changes in the HOMO-LUMO gap. At the same time, the results show that careful validation remains essential, because the agent can still return incorrect, incomplete, or inconsistent equations even when the numerical fit appears strong. Overall, these results highlight both the promise and the current limitations of autonomous LLM agents for AI-as",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-23T04:00:00.000Z",
+      "score": 112.65,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.08712",
       "title": "Model Space Reasoning as Search in Feedback Space for Planning Domain Generation",
       "link": "https://arxiv.org/abs/2604.08712",
@@ -6332,6 +6331,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-04-17T04:00:00.000Z",
       "score": 107.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.19749",
+      "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
+      "link": "https://arxiv.org/abs/2604.19749",
+      "summary": "arXiv:2604.19749v1 Announce Type: new Abstract: Equipping LLMs with external tools effectively addresses internal reasoning limitations. However, it introduces a critical yet under-explored phenomenon: tool overuse, the unnecessary tool-use during reasoning. In this paper, we first reveal this phenomenon is pervasive across diverse LLMs. We then experimentally elucidate its underlying mechanisms through two key lenses: (1) First, by analyzing tool-use behavior across different internal knowledge availability regions, we identify a \\textit{knowledge epistemic illusion}: models misjudge internal knowledge boundaries and fail to accurately perceive their actual knowledge availability. To mitigate this, we propose a knowledge-aware epistemic boundary alignment strategy based on direct preference optimization, which reduces tool usage in by 82.8\\% while yielding an accuracy improvement. (2) Second, we establish a causal link between reward structures and tool-use behavior by visualizing the tool-augmented training process. It reveals that \\textit{outcome-only rewards} inadvertently encourage tool overuse by rewarding only final correctness, regardless of tool efficiency. To verify this, we balance reward signals during training rather than relying on outcome-only rewards, cutting unnecessary tool calls by 66.7\\% (7B) and 60.7\\% (32B) without sacrificing accuracy. Finally, we provide",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-23T04:00:00.000Z",
+      "score": 100.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.19754",
+      "title": "Exploring Data Augmentation and Resampling Strategies for Transformer-Based Models to Address Class Imbalance in AI Scoring of Scientific Explanations in NGSS Classroom",
+      "link": "https://arxiv.org/abs/2604.19754",
+      "summary": "arXiv:2604.19754v1 Announce Type: new Abstract: Automated scoring of students' scientific explanations offers the potential for immediate, accurate feedback, yet class imbalance in rubric categories particularly those capturing advanced reasoning remains a challenge. This study investigates augmentation strategies to improve transformer-based text classification of student responses to a physical science assessment based on an NGSS-aligned learning progression. The dataset consists of 1,466 high school responses scored on 11 binary-coded analytic categories. This rubric identifies six important components including scientific ideas needed for a complete explanation along with five common incomplete or inaccurate ideas. Using SciBERT as a baseline, we applied fine-tuning and test these augmentation strategies: (1) GPT-4--generated synthetic responses, (2) EASE, a word-level extraction and filtering approach, and (3) ALP (Augmentation using Lexicalized Probabilistic context-free grammar) phrase-level extraction. While fine-tuning SciBERT improved recall over baseline, augmentation substantially enhanced performance, with GPT data boosting both precision and recall, and ALP achieving perfect precision, recall, and F1 scores across most severe imbalanced categories (5,6,7 and 9). Across all rubric categories EASE augmentation substantially increased alignment with human scoring for",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-23T04:00:00.000Z",
+      "score": 100.65,
       "status": "queued"
     },
     {
