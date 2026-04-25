@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-25T08:46:29.548Z",
+  "generatedAt": "2026-04-25T15:48:11.079Z",
   "items": [
+    {
+      "id": "https://github.com/dcp-ai-protocol/dcp-ai",
+      "title": "DCP-AI – Portable accountability layer for AI agents (post-quantum)",
+      "link": "https://github.com/dcp-ai-protocol/dcp-ai",
+      "summary": "Article URL: https://github.com/dcp-ai-protocol/dcp-ai Comments URL: https://news.ycombinator.com/item?id=47865000 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-22T15:27:15.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-25T15:48:11.007Z",
+      "file": "content/posts/2026-04-25-record-signed-jsonl-audit-logs-for-ai-agents-with-the-dcp-ai-protocol-post-quantum-options.md",
+      "fileFr": "content/posts/fr/2026-04-25-record-signed-jsonl-audit-logs-for-ai-agents-with-the-dcp-ai-protocol-post-quantum-options.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1835,
+      "wordsFr": 1420
+    },
     {
       "id": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
       "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
@@ -4483,18 +4506,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/dcp-ai-protocol/dcp-ai",
-      "title": "DCP-AI – Portable accountability layer for AI agents (post-quantum)",
-      "link": "https://github.com/dcp-ai-protocol/dcp-ai",
-      "summary": "Article URL: https://github.com/dcp-ai-protocol/dcp-ai Comments URL: https://news.ycombinator.com/item?id=47865000 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-22T15:27:15.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://merylldindin.com/thoughts/reasoning-loop/",
       "title": "We orchestrate our internal AI agent (PydanticAI, Gemini, Jinja2 prompts)",
       "link": "https://merylldindin.com/thoughts/reasoning-loop/",
@@ -4504,18 +4515,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:56:07.000Z",
       "score": 172.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/pykul/tokencap",
-      "title": "Show HN: Tokencap – Token budget enforcement across your AI agents",
-      "link": "https://github.com/pykul/tokencap",
-      "summary": "I built this after hitting the same wall repeatedly — no good way to enforce token budgets in application code. Provider caps are account-level and tell you what happened, not what is happening. Two ways to add it: # Direct client wrapper client = tokencap.wrap(anthropic.Anthropic(), limit=50_000) # LangChain, CrewAI, AutoGen, etc. tokencap.patch(limit=50_000) One design decision worth mentioning: tokencap tracks tokens, not dollars. Token counts come directly from the provider response and never drift with pricing changes. Happy to answer any questions. Comments URL: https://news.ycombinator.com/item?id=47639207 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-04T14:09:13.000Z",
-      "score": 171.45,
       "status": "queued"
     },
     {
@@ -5179,6 +5178,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/nicobailon/surf-cli",
+      "title": "Surf-CLI – a CLI for AI agents to control Chrome",
+      "link": "https://github.com/nicobailon/surf-cli",
+      "summary": "Article URL: https://github.com/nicobailon/surf-cli Comments URL: https://news.ycombinator.com/item?id=47901782 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-25T14:25:41.000Z",
+      "score": 152.18,
+      "status": "queued"
+    },
+    {
       "id": "https://www.athletedata.health",
       "title": "Show HN: AthleteData – AI coach for endurance athletes that messages you first",
       "link": "https://www.athletedata.health",
@@ -5215,18 +5226,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/microsoft/agent-framework",
-      "title": "Microsoft's new framework for building and orchestrating AI agents",
-      "link": "https://github.com/microsoft/agent-framework",
-      "summary": "Article URL: https://github.com/microsoft/agent-framework Comments URL: https://news.ycombinator.com/item?id=47639277 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-04T14:16:23.000Z",
-      "score": 149.78,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/the-void-ia/void-box",
       "title": "Running AI agents in microVMs instead of containers",
       "link": "https://github.com/the-void-ia/void-box",
@@ -5260,6 +5259,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-14T08:03:21.000Z",
       "score": 146.06,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47901712",
+      "title": "What Would You Ask an AI to Do in Every Prompt?",
+      "link": "https://news.ycombinator.com/item?id=47901712",
+      "summary": "I'm referring to the way some AI agents let you add a rule that applies to every conversation, and the AI will follow that rule every time you interact with it. Is it necessary to set up such rules in agents? I used to add a rule that reminds the AI to commit code every time it modifies code or documentation, following a set of git commit conventions. The second rule I often add tells the AI to update AGENTS.md whenever it changes any functionality in the overall project. Comments URL: https://news.ycombinator.com/item?id=47901712 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-25T14:15:01.000Z",
+      "score": 145.71,
       "status": "queued"
     },
     {
@@ -5620,18 +5631,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-04-07T04:00:00.000Z",
       "score": 126.66,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/battysh/batty",
-      "title": "Show HN: Batty – Run a team of AI coding agents in tmux with test gating",
-      "link": "https://github.com/battysh/batty",
-      "summary": "Hi HN, I'm the author. I use Claude Code and Codex daily. Running one agent on a task works great. Running three or four in parallel on the same repo? They step on each other's files, nobody checks if the code compiles, and you spend more time coordinating than coding. Batty is the supervisor layer I built to fix this. You define a team in YAML — an architect that plans work, a manager that dispatches it, engineers that execute. Batty launches each role in its own tmux pane, isolates engineer work in git worktrees, routes messages between roles, and gates task completion on passing tests. The interesting part is what it's not: it's not an agent framework, and it doesn't embed any model. It orchestrates existing agent CLIs (Claude Code, Codex, Aider) using tmux as the runtime and git worktrees for isolation. Config is YAML, the kanban board is Markdown (powered by a bundled kanban-md tool), inboxes are Maildir, logs are JSONL. You can `git diff` your entire team state. Built in Rust, published on crates.io (v0.1.0). The daemon is a synchronous 5-second poll loop — no async complexity. It watches pane output to detect idle/active/dead agents, reads Claude and Codex session files on disk to reduce false-positive idle detection, and uses a merge lock to serialize concurrent worktree merges. Some things I learned running multi-agent setups: - 3-5 parallel engineers is the sweet spot",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-04T13:02:22.000Z",
-      "score": 126.26,
       "status": "queued"
     },
     {
@@ -6307,6 +6306,18 @@
       "status": "queued"
     },
     {
+      "id": "https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are",
+      "title": "The reporters at this news site are AI bots. OpenAI's super PAC appears to be",
+      "link": "https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are",
+      "summary": "Article URL: https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are Comments URL: https://news.ycombinator.com/item?id=47901482 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-25T13:37:26.000Z",
+      "score": 107.22,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.21003",
       "title": "The Last Harness You'll Ever Build",
       "link": "https://arxiv.org/abs/2604.21003",
@@ -6367,6 +6378,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/sachinsharma9780/memweave",
+      "title": "Show HN: Memweave CLI – search your AI agent's memory from the shell",
+      "link": "https://github.com/sachinsharma9780/memweave",
+      "summary": "Article URL: https://github.com/sachinsharma9780/memweave Comments URL: https://news.ycombinator.com/item?id=47900995 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-25T12:39:43.000Z",
+      "score": 76.16,
+      "status": "queued"
+    },
+    {
       "id": "https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf",
       "title": "White House Memo on Adversarial Distillation of American AI Models [pdf]",
       "link": "https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf",
@@ -6415,15 +6438,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.technologyreview.com/2026/04/21/1135647/supercharged-scams-ai-artificial-intelligence/",
-      "title": "Supercharged scams",
-      "link": "https://www.technologyreview.com/2026/04/21/1135647/supercharged-scams-ai-artificial-intelligence/",
-      "summary": "When ChatGPT was released to the public in late 2022, it opened people’s eyes to how easily generative AI could churn out vast amounts of human-seeming text from simple prompts. This quickly caught the attention of criminals, who soon began using large language models to produce malicious emails—both the untargeted spam kind and more sophisticated,…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-21T20:45:00.000Z",
-      "score": 61.43,
+      "id": "https://news.ycombinator.com/item?id=47900781",
+      "title": "Show HN: Enlist AI: Sub-second interview coaching with persistence",
+      "link": "https://news.ycombinator.com/item?id=47900781",
+      "summary": "Following some initial feedback, we’ve updated Enlist AI to ensure your preparation never resets. Based on user behavior, we noticed plans were being lost on refresh, so we've implemented local persistence to keep your progress synced. What it does: Enlist AI is a full-pipeline preparation tool that turns any job description into a custom coaching experience. You paste a JD and get a personalized day-by-day study schedule. The \"Mock Interview\" Flow: Real-time Voice Analysis: You speak your answers out loud. We use your microphone to track performance with sub-second latency. Speech Clarity Scoring: The system flags filler words (um, like, you know) and scores your logic structure. Actionable Feedback: Instead of generic scores, it gives a specific \"Fix it\" instruction for every answer. Tailored Documents: It also generates a CV and cover letter specifically matched to the job requirements. We’re running this on Groq for the inference speed to make the feedback feel instant. Would love to hear the community's thoughts on the analysis logic. Check out at https://enlistai.vercel.app and give feedback at https://enlistai.vercel.app/feedback Comments URL: https://news.ycombinator.com/item?id=47900781 Points: 6 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-25T12:05:02.000Z",
+      "score": 63.65,
       "status": "queued"
     },
     {

@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-04-25T08:46:29.539Z",
+  "generatedAt": "2026-04-25T15:48:11.022Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-25-record-signed-jsonl-audit-logs-for-ai-agents-with-the-dcp-ai-protocol-post-quantum-options",
+      "title": "Journaliser des décisions d'agents IA en JSONL signé avec le protocole dcp‑ai (options post‑quantum)",
+      "date": "2026-04-25",
+      "excerpt": "Guide pratique pour ajouter une couche d'audit portable aux agents IA avec dcp‑ai : enregistrer des lignes JSON signées, vérifier les signatures, piloter en 3 heures, et notes sur le post‑quantum.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-25-record-signed-jsonl-audit-logs-for-ai-agents-with-the-dcp-ai-protocol-post-quantum-options.jpg",
+      "tags": [
+        "dcp-ai",
+        "audit",
+        "agents-IA",
+        "JSONL",
+        "sécurité",
+        "post-quantum",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/dcp-ai-protocol/dcp-ai"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-25-ship-ai-features-without-surprising-users-assistive-defaults-opt-ins-and-conservative-rollouts",
       "title": "Déployer des fonctionnalités IA sans surprendre les utilisateurs : choix par défaut assistifs, opt‑in et déploiements conservateurs",
