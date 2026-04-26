@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-26T08:57:08.233Z",
+  "generatedAt": "2026-04-26T15:55:19.041Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-26-hermes-agent-installer-and-first-run-guide-for-macos-linux-wsl2-and-termux",
+      "title": "Hermes Agent : guide d'installation et premier démarrage pour macOS, Linux, WSL2 et Termux",
+      "date": "2026-04-26",
+      "excerpt": "Guide indépendant en français qui explique comment choisir macOS, Linux, WSL2 ou Termux, lancer l'installateur officiel en une ligne, recharger le shell et exécuter les commandes post-install essentielles pour vérifier Hermes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-26-hermes-agent-installer-and-first-run-guide-for-macos-linux-wsl2-and-termux.jpg",
+      "tags": [
+        "hermes-agent",
+        "installation",
+        "AI",
+        "devops",
+        "macOS",
+        "Linux",
+        "WSL2",
+        "Termux"
+      ],
+      "sources": [
+        "https://ai-hermes-agent.com/install"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 30,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-04-26-meta-deploys-model-capability-initiative-to-log-employee-ui-actions-for-internal-ai-agents",
       "title": "Meta enregistre clics et frappes pour entraîner ses agents internes — risques, emplois exposés et actions immédiates",

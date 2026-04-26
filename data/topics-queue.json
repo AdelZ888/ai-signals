@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-26T08:57:08.243Z",
+  "generatedAt": "2026-04-26T15:55:19.096Z",
   "items": [
+    {
+      "id": "https://ai-hermes-agent.com/install",
+      "title": "Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
+      "link": "https://ai-hermes-agent.com/install",
+      "summary": "This is an independent Hermes Agent install guide I put together for the part that usually gets skipped after \"run this command.\" What I wanted was one place that shows the environment choice first, then the official installer path, then the first commands people usually need right after install. The practical routes here are macOS, Linux, WSL2, and Termux. The flow is intentionally narrow: choose the host, run the…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-22T15:52:27.000Z",
+      "score": 168,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-26T15:55:19.026Z",
+      "file": "content/posts/2026-04-26-hermes-agent-installer-and-first-run-guide-for-macos-linux-wsl2-and-termux.md",
+      "fileFr": "content/posts/fr/2026-04-26-hermes-agent-installer-and-first-run-guide-for-macos-linux-wsl2-and-termux.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 30,
+      "wordsEn": 1808,
+      "wordsFr": 1417
+    },
     {
       "id": "https://www.numerama.com/tech/2238609-meta-entraine-ses-ia-avec-les-clics-et-frappes-au-clavier-de-ses-salaries.html",
       "title": "Meta entraîne ses IA avec les clics et frappes au clavier de ses salariés",
@@ -4541,30 +4564,6 @@
       "status": "queued"
     },
     {
-      "id": "https://skillcatalog.dev",
-      "title": "Show HN: SkillCatalog, a Git-native skill manager for AI coding tools",
-      "link": "https://skillcatalog.dev",
-      "summary": "AI coding tools like Claude Code, Cursor, and Codex read instructions from files on disk: .claude/skills/, .cursor/skills/, .agents/skills/. These files shape how each tool behaves. On a team of ten engineers working across several repositories, managing them by hand breaks down fast. I built SkillCatalog to solve this without a SaaS dependency. Skills live in Git repositories the team already controls. The desktop app provides authoring, organization, and delivery on top of Git. Access control is Git access. There is no server to run and no data leaves the machine unless you push it. The model is different from Microsoft's APM, which takes a package-manager approach (declare in apm.yml, everyone installs the same set). I think skills are closer to editor preferences than packages: there is a shared team baseline, but individuals layer their own selections on top. A project profile might install the team's backend bundle for everyone, while one engineer adds a personal stack for performance profiling and another adds one for accessibility auditing. Neither edits the shared catalog. Catalogs contain skills (Markdown with frontmatter) that compose into stacks (ordered lists of skills) that compose into bundles (ordered lists of stacks). Profiles pick what gets delivered. Home profiles apply everywhere; project profiles inherit from them with project-specific selections taking pri",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-20T15:08:04.000Z",
-      "score": 171.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.15951",
-      "title": "Integrating Graphs, Large Language Models, and Agents: Reasoning and Retrieval",
-      "link": "https://arxiv.org/abs/2604.15951",
-      "summary": "arXiv:2604.15951v1 Announce Type: new Abstract: Generative AI, particularly Large Language Models, increasingly integrates graph-based representations to enhance reasoning, retrieval, and structured decision-making. Despite rapid advances, there remains limited clarity regarding when, why, where, and what types of graph-LLM integrations are most appropriate across applications. This survey provides a concise, structured overview of the design choices underlying the integration of graphs with LLMs. We categorize existing methods based on their purpose (reasoning, retrieval, generation, recommendation), graph modality (knowledge graphs, scene graphs, interaction graphs, causal graphs, dependency graphs), and integration strategies (prompting, augmentation, training, or agent-based use). By mapping representative works across domains such as cybersecurity, healthcare, materials science, finance, robotics, and multimodal environments, we highlight the strengths, limitations, and best-fit scenarios for each technique. This survey aims to offer researchers a practical guide for selecting the most suitable graph-LLM approach depending on task requirements, data characteristics, and reasoning complexity.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-04-20T04:00:00.000Z",
-      "score": 170.68,
-      "status": "queued"
-    },
-    {
       "id": "https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04",
       "title": "Is this the end for data analysts? AI agent, 500GB, 100 rounds, 134.9s, $1.66",
       "link": "https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04",
@@ -4585,18 +4584,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-04-12T07:42:48.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://ai-hermes-agent.com/install",
-      "title": "Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
-      "link": "https://ai-hermes-agent.com/install",
-      "summary": "This is an independent Hermes Agent install guide I put together for the part that usually gets skipped after \"run this command.\" What I wanted was one place that shows the environment choice first, then the official installer path, then the first commands people usually need right after install. The practical routes here are macOS, Linux, WSL2, and Termux. The flow is intentionally narrow: choose the host, run the official installer command, reload the shell, then continue into commands like hermes, hermes model, hermes setup, hermes gateway, hermes doctor, and hermes update while keeping the official docs and GitHub close for verification. AI Hermes Agent is independent, is not the official Hermes Agent website, is not owned or endorsed by Nous Research, does not host or run Hermes Agent, and does not provide an online chat demo, account system, subscription, credits, API access, or managed runtime. If you try it, I would especially like feedback on whether the environment choice and the post-install steps are clear enough, and where the guide still leaves too much implied. Comments URL: https://news.ycombinator.com/item?id=47865412 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-22T15:52:27.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -5330,18 +5317,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-22T15:57:00.000Z",
       "score": 144,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theregister.com/2026/04/05/ai_agents_liability/",
-      "title": "AI agents promise to 'run the business,' but who is liable if things go wrong?",
-      "link": "https://www.theregister.com/2026/04/05/ai_agents_liability/",
-      "summary": "Article URL: https://www.theregister.com/2026/04/05/ai_agents_liability/ Comments URL: https://news.ycombinator.com/item?id=47649667 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-05T14:13:06.000Z",
-      "score": 143.96,
       "status": "queued"
     },
     {
@@ -6365,6 +6340,18 @@
       "status": "queued"
     },
     {
+      "id": "https://octopal.ca/",
+      "title": "Octopal: Powerful AI agents without blind trust",
+      "link": "https://octopal.ca/",
+      "summary": "Article URL: https://octopal.ca/ Comments URL: https://news.ycombinator.com/item?id=47910134 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-26T13:23:43.000Z",
+      "score": 106.26,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
       "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
       "link": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
@@ -6401,6 +6388,18 @@
       "status": "queued"
     },
     {
+      "id": "https://dirac.run/posts/hash-anchors-myers-diff-single-token",
+      "title": "Hash anchors and Myers diff and single-token anchors: 60% cheaper AI code edits",
+      "link": "https://dirac.run/posts/hash-anchors-myers-diff-single-token",
+      "summary": "Article URL: https://dirac.run/posts/hash-anchors-myers-diff-single-token Comments URL: https://news.ycombinator.com/item?id=47910295 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-26T13:46:11.000Z",
+      "score": 98.45,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/TheMidasProj/status/2047692328396034490",
       "title": "The reporters at this news site are AI bots. OpenAI's super PAC is funding it",
       "link": "https://twitter.com/TheMidasProj/status/2047692328396034490",
@@ -6410,6 +6409,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-26T06:43:14.000Z",
       "score": 93.15,
+      "status": "queued"
+    },
+    {
+      "id": "https://webagentbridge.com",
+      "title": "WAB Web Agent Bridge -An Open-Source OS for AI Agents",
+      "link": "https://webagentbridge.com",
+      "summary": "Article URL: https://webagentbridge.com Comments URL: https://news.ycombinator.com/item?id=47909323 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-26T11:06:24.000Z",
+      "score": 80.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47909866",
+      "title": "Show HN: UseMoney AI: AI Copilot for Retail Investors of India",
+      "link": "https://news.ycombinator.com/item?id=47909866",
+      "summary": "Stock market research and stocks/MFs comparison for all available indian stocks and MFs. Connect with a broker and do a deep dive to find out weak points in your portfolio, plan retirement using the FIRE calculator and much more. Would love to get the initial feedback: https://usemoney.ai/ Comments URL: https://news.ycombinator.com/item?id=47909866 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-26T12:42:42.000Z",
+      "score": 76.27,
       "status": "queued"
     },
     {
@@ -6449,28 +6472,36 @@
       "status": "queued"
     },
     {
-      "id": "https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf",
-      "title": "White House Memo on Adversarial Distillation of American AI Models [pdf]",
-      "link": "https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf",
-      "summary": "Article URL: https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf Comments URL: https://news.ycombinator.com/item?id=47897604 Points: 6 # Comments: 1",
+      "id": "https://skillcatalog.dev",
+      "title": "Show HN: SkillCatalog, a Git-native skill manager for AI coding tools",
+      "link": "https://skillcatalog.dev",
+      "summary": "AI coding tools like Claude Code, Cursor, and Codex read instructions from files on disk: .claude/skills/, .cursor/skills/, .agents/skills/. These files shape how each tool behaves. On a team of ten engineers working across several repositories, managing them by hand breaks down fast. I built SkillCatalog to solve this without a SaaS dependency. Skills live in Git repositories the team already controls. The desktop…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-25T00:53:13.000Z",
-      "score": 69.39,
-      "status": "queued"
+      "keywordHits": 4,
+      "publishedAt": "2026-04-20T15:08:04.000Z",
+      "score": 171.31,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-26T15:41:30.483Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
-      "id": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
-      "title": "AI needs a strong data fabric to deliver business value",
-      "link": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
-      "summary": "Artificial intelligence is moving quickly in the enterprise, from experimentation to everyday use. Organizations are deploying copilots, agents, and predictive systems across finance, supply chains, human resources, and customer operations. By the end of 2025, half of companies used AI in at least three business functions, according to a recent survey. But as AI becomes…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-22T10:05:06.000Z",
-      "score": 67.7,
-      "status": "queued"
+      "id": "https://arxiv.org/abs/2604.15951",
+      "title": "Integrating Graphs, Large Language Models, and Agents: Reasoning and Retrieval",
+      "link": "https://arxiv.org/abs/2604.15951",
+      "summary": "arXiv:2604.15951v1 Announce Type: new Abstract: Generative AI, particularly Large Language Models, increasingly integrates graph-based representations to enhance reasoning, retrieval, and structured decision-making. Despite rapid advances, there remains limited clarity regarding when, why, where, and what types of graph-LLM integrations are most appropriate across applications. This survey provides a concise, struct…",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-04-20T04:00:00.000Z",
+      "score": 170.68,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-26T15:41:30.483Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://news.ycombinator.com/item?id=47860859",
