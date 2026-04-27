@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-26T15:55:19.096Z",
+  "generatedAt": "2026-04-27T10:13:27.961Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+      "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+      "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to dozens of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and \"encourage customers to add more food to their orders,\" according to The Wall Street Journal. Following a test last year, Dairy Queen is widely launching the tech built by Presto, an AI company that already works with cha…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-17T15:46:37.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-04-27T10:13:27.936Z",
+      "file": "content/posts/2026-04-27-dairy-queen-deploys-presto-ai-chatbot-in-dozens-of-drivethrus-shifting-speakerbox-tasks-for-crew-and-managers.md",
+      "fileFr": "content/posts/fr/2026-04-27-dairy-queen-deploys-presto-ai-chatbot-in-dozens-of-drivethrus-shifting-speakerbox-tasks-for-crew-and-managers.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1409,
+      "wordsFr": 1330
+    },
     {
       "id": "https://ai-hermes-agent.com/install",
       "title": "Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
@@ -4612,6 +4635,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/gmarland/Agent-Context",
+      "title": "Show HN: Agent Context – let your AI coding tools see your reference projects",
+      "link": "https://github.com/gmarland/Agent-Context",
+      "summary": "I built a small VS Code extension to solve a problem I kept running into. When I’m working on something new, I usually have good reference code somewhere else: - an old service - a starter project - a pattern I’ve used before The problem is that against can't see any of that unless I copy it into the repo. So I built Agent Context. It lets you attach external folders into your current workspace (via symlinks), so: - you can browse them alongside your current project - and your AI tools can use them as context It also maintains a small generated instructions file listing what’s attached, so both humans and AI know what’s available. Typical workflow: - attach something like a “nest-auth-example” project - keep it outside your repo - then prompt: “implement auth like the example in .examples” It’s pretty simple under the hood, but I’ve found it surprisingly useful so I thought I would share. Comments URL: https://news.ycombinator.com/item?id=47919538 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-27T09:39:54.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.09584",
       "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
       "link": "https://arxiv.org/abs/2604.09584",
@@ -4956,18 +4991,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-16T15:29:30.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
-      "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
-      "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to dozens of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and \"encourage customers to add more food to their orders,\" according to The Wall Street Journal. Following a test last year, Dairy Queen is widely launching the tech built by Presto, an AI company that already works with chains like Carl's Jr., Hardee's, Taco John's, and Fazoli's. In 2023, a report from Bloomberg revealed that Presto's AI drive-thrus may actually be assisted by human workers based in locations like the Philippines. Presto's chatbot … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-17T15:46:37.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5404,18 +5427,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.02666",
-      "title": "Let's Have a Conversation: Designing and Evaluating LLM Agents for Interactive Optimization",
-      "link": "https://arxiv.org/abs/2604.02666",
-      "summary": "arXiv:2604.02666v1 Announce Type: new Abstract: Optimization is as much about modeling the right problem as solving it. Identifying the right objectives, constraints, and trade-offs demands extensive interaction between researchers and stakeholders. Large language models can empower decision-makers with optimization capabilities through interactive optimization agents that can propose, interpret and refine solutions. However, it is fundamentally harder to evaluate a conversation-based interaction than traditional one-shot approaches. This paper proposes a scalable and replicable methodology for evaluating optimization agents through conversations. We build LLM-powered decision agents that role-play diverse stakeholders, each governed by an internal utility function but communicating like a real decision-maker. We generate thousands of conversations in a school scheduling case study. Results show that one-shot evaluation is severely limiting: the same optimization agent converges to much higher-quality solutions through conversations. Then, this paper uses this methodology to demonstrate that tailored optimization agents, endowed with domain-specific prompts and structured tools, can lead to significant improvements in solution quality in fewer interactions, as compared to general-purpose chatbots. These findings provide evidence of the benefits of emerging solutions at the AI-o",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-06T04:00:00.000Z",
-      "score": 137.95,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.12116",
       "title": "The A-R Behavioral Space: Execution-Level Profiling of Tool-Using Language Model Agents in Organizational Deployment",
       "link": "https://arxiv.org/abs/2604.12116",
@@ -5620,18 +5631,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.02478",
-      "title": "AIVV: Neuro-Symbolic LLM Agent-Integrated Verification and Validation for Trustworthy Autonomous Systems",
-      "link": "https://arxiv.org/abs/2604.02478",
-      "summary": "arXiv:2604.02478v1 Announce Type: new Abstract: Deep learning models excel at detecting anomaly patterns in normal data. However, they do not provide a direct solution for anomaly classification and scalability across diverse control systems, frequently failing to distinguish genuine faults from nuisance faults caused by noise or the control system's large transient response. Consequently, because algorithmic fault validation remains unscalable, full Verification and Validation (V\\&V) operations are still managed by Human-in-the-Loop (HITL) analysis, resulting in an unsustainable manual workload. To automate this essential oversight, we propose Agent-Integrated Verification and Validation (AIVV), a hybrid framework that deploys Large Language Models (LLMs) as a deliberative outer loop. Because rigorous system verification strictly depends on accurate validation, AIVV escalates mathematically flagged anomalies to a role-specialized LLM council. The council agents perform collaborative validation by semantically validating nuisance and true failures based on natural-language (NL) requirements to secure a high-fidelity system-verification baseline. Building on this foundation, the council then performs system verification by assessing post-fault responses against NL operational tolerances, ultimately generating actionable V\\&V artifacts, such as gain-tuning proposals. Experiments",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-06T04:00:00.000Z",
-      "score": 125.95,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47736831",
       "title": "Ask HN: Do you trust AI agents with API keys / private keys?",
       "link": "https://news.ycombinator.com/item?id=47736831",
@@ -5688,6 +5687,18 @@
       "region": "GLOBAL",
       "keywordHits": 7,
       "publishedAt": "2026-04-23T04:00:00.000Z",
+      "score": 124.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.deployinfra.ai/",
+      "title": "Show HN: AI agents that learn from their own failures each week",
+      "link": "https://www.deployinfra.ai/",
+      "summary": "Article URL: https://www.deployinfra.ai/ Comments URL: https://news.ycombinator.com/item?id=47919039 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-27T08:24:28.000Z",
       "score": 124.65,
       "status": "queued"
     },
@@ -5797,18 +5808,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-04-09T04:00:00.000Z",
       "score": 120.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.02733",
-      "title": "DeltaLogic: Minimal Premise Edits Reveal Belief-Revision Failures in Logical Reasoning Models",
-      "link": "https://arxiv.org/abs/2604.02733",
-      "summary": "arXiv:2604.02733v1 Announce Type: new Abstract: Reasoning benchmarks typically evaluate whether a model derives the correct answer from a fixed premise set, but they under-measure a closely related capability that matters in dynamic environments: belief revision under minimal evidence change. We introduce DeltaLogic, a benchmark transformation protocol that converts natural-language reasoning examples into short revision episodes. Each episode first asks for an initial conclusion under premises P, then applies a minimal edit {\\delta}(P), and finally asks whether the previous conclusion should remain stable or be revised. We instantiate DeltaLogic from FOLIO and ProofWriter and evaluate small causal language models with constrained label scoring. On a completed 30-episode Qwen evaluation subset, stronger initial reasoning still does not imply stronger revision behavior: Qwen3-1.7B reaches 0.667 initial accuracy but only 0.467 revision accuracy, with inertia rising to 0.600 on episodes where the gold label should change, while Qwen3-0.6B collapses into near universal abstention. There, Qwen3-4B preserves the same inertial failure pattern (0.650 initial, 0.450 revised, 0.600 inertia), whereas Phi-4-mini-instruct is substantially stronger (0.950 initial, 0.850 revised) but still exhibits non-trivial abstention and control instability. These results suggest that logical competence u",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-06T04:00:00.000Z",
-      "score": 119.95,
       "status": "queued"
     },
     {
@@ -5977,6 +5976,30 @@
       "keywordHits": 8,
       "publishedAt": "2026-04-21T04:00:00.000Z",
       "score": 117.86,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.22085",
+      "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+      "link": "https://arxiv.org/abs/2604.22085",
+      "summary": "arXiv:2604.22085v1 Announce Type: new Abstract: The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of production grade agentic systems. Existing methodologies largely depend on hybrid semantic graph architectures, which impose substantial computational overhead during both ingestion and retrieval. These systems typically require large language model mediated entity extraction, explicit graph schema maintenance, and multi query retrieval pipelines. This paper introduces Memanto, a universal memory layer for agentic artificial intelligence that challenges the prevailing assumption that knowledge graph complexity is necessary to achieve high fidelity agent memory. Memanto integrates a typed semantic memory schema comprising thirteen predefined memory categories, an automated conflict resolution mechanism, and temporal versioning. These components are enabled by Moorcheh's Information Theoretic Search engine, a no indexing semantic database that provides deterministic retrieval within sub ninety millisecond latency while eliminating ingestion delay. Through systematic benchmarking on the LongMemEval and LoCoMo evaluation suites, Memanto achieves state of the art accuracy scores of 89.8 percent and 87.1 percent respectively. These results surpass all eval",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 115.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.22119",
+      "title": "Emergent Strategic Reasoning Risks in AI: A Taxonomy-Driven Evaluation Framework",
+      "link": "https://arxiv.org/abs/2604.22119",
+      "summary": "arXiv:2604.22119v1 Announce Type: new Abstract: As reasoning capacity and deployment scope grow in tandem, large language models (LLMs) gain the capacity to engage in behaviors that serve their own objectives, a class of risks we term Emergent Strategic Reasoning Risks (ESRRs). These include, but are not limited to, deception (intentionally misleading users or evaluators), evaluation gaming (strategically manipulating performance during safety testing), and reward hacking (exploiting misspecified objectives). Systematically understanding and benchmarking these risks remains an open challenge. To address this gap, we introduce ESRRSim, a taxonomy-driven agentic framework for automated behavioral risk evaluation. We construct an extensible risk taxonomy of 7 categories, which is decomposed into 20 subcategories. ESRRSim generates evaluation scenarios designed to elicit faithful reasoning, paired with dual rubrics assessing both model responses and reasoning traces, in a judge-agnostic and scalable architecture. Evaluation across 11 reasoning LLMs reveals substantial variation in risk profiles (detection rates ranging 14.45%-72.72%), with dramatic generational improvements suggesting models may increasingly recognize and adapt to evaluation contexts.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 115.65,
       "status": "queued"
     },
     {
@@ -6256,6 +6279,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.21935",
+      "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+      "link": "https://arxiv.org/abs/2604.21935",
+      "summary": "arXiv:2604.21935v1 Announce Type: new Abstract: Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching over learning formal syntax. Most existing evaluations rely on symbolic problems grounded in established mathematical conventions, limiting insight into the models' ability to construct abstract concepts from first principles. In this work, we propose Math Takes Two, a new benchmark designed to assess the emergence of mathematical reasoning through communication. Motivated by the hypothesis that mathematical cognition in humans co-evolved with the need for precise communication, our benchmark tests whether two agents, without prior mathematical knowledge, can develop a shared symbolic protocol to solve a visually grounded task where the use of a numerical system facilitates extrapolation. Unlike many current datasets, our benchmark eschews predefined mathematical language, instead requiring agents to discover latent structure and representations from scratch. Math Takes Two thus provides a novel lens through which to develop and evaluate models with emergent numerical reasoning capabilities.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 109.65,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/tech/913068/canva-ai-2-update-prompt-based-editing-availability",
       "title": "Canva’s AI 2.0 update goes all in on prompt-powered design tools",
       "link": "https://www.theverge.com/tech/913068/canva-ai-2-update-prompt-based-editing-availability",
@@ -6352,6 +6387,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.22452",
+      "title": "Superminds Test: Actively Evaluating Collective Intelligence of Agent Society via Probing Agents",
+      "link": "https://arxiv.org/abs/2604.22452",
+      "summary": "arXiv:2604.22452v1 Announce Type: new Abstract: Collective intelligence refers to the ability of a group to achieve outcomes beyond what any individual member can accomplish alone. As large language model agents scale to populations of millions, a key question arises: Does collective intelligence emerge spontaneously from scale? We present the first empirical evaluation of this question in a large-scale autonomous agent society. Studying MoltBook, a platform hosting over two million agents, we introduce Superminds Test, a hierarchical framework that probes society-level intelligence using controlled Probing Agents across three tiers: joint reasoning, information synthesis, and basic interaction. Our experiments reveal a stark absence of collective intelligence. The society fails to outperform individual frontier models on complex reasoning tasks, rarely synthesizes distributed information, and often fails even trivial coordination tasks. Platform-wide analysis further shows that interactions remain shallow, with threads rarely extending beyond a single reply and most responses being generic or off-topic. These results suggest that collective intelligence does not emerge from scale alone. Instead, the dominant limitation of current agent societies is extremely sparse and shallow interaction, which prevents agents from exchanging information and building on each other's outputs.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 103.65,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
       "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
       "link": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
@@ -6400,6 +6447,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.21965",
+      "title": "Read the Paper, Write the Code: Agentic Reproduction of Social-Science Results",
+      "link": "https://arxiv.org/abs/2604.21965",
+      "summary": "arXiv:2604.21965v1 Announce Type: new Abstract: Recent work has used LLM agents to reproduce empirical social science results with access to both the data and code. We broaden this scope by asking: Can they reproduce results given only a paper's methods description and original data? We develop an agentic reproduction system that extracts structured methods descriptions from papers, runs reimplementations under strict information isolation -- agents never see the original code, results, or paper -- and enables deterministic, cell-level comparison of reproduced outputs to the original results. An error attribution step traces discrepancies through the system chain to identify root causes. Evaluating four agent scaffolds and four LLMs on 48 papers with human-verified reproducibility, we find that agents can largely recover published results, but performance varies substantially between models, scaffolds, and papers. Root cause analysis reveals that failures stem both from agent errors and from underspecification in the papers themselves.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 97.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.22273",
+      "title": "When Does LLM Self-Correction Help? A Control-Theoretic Markov Diagnostic and Verify-First Intervention",
+      "link": "https://arxiv.org/abs/2604.22273",
+      "summary": "arXiv:2604.22273v1 Announce Type: new Abstract: Iterative self-correction is widely used in agentic LLM systems, but when repeated refinement helps versus hurts remains unclear. We frame self-correction as a cybernetic feedback loop in which the same language model serves as both controller and plant, and use a two-state Markov model over {Correct, Incorrect} to operationalize a simple deployment diagnostic: iterate only when ECR/EIR > Acc/(1 - Acc). In this view, EIR functions as a stability margin and prompting functions as lightweight controller design. Across 7 models and 3 datasets (GSM8K, MATH, StrategyQA), we find a sharp near-zero EIR threshold (<= 0.5%) separating beneficial from harmful self-correction. Only o3-mini (+3.4 pp, EIR = 0%), Claude Opus 4.6 (+0.6 pp, EIR ~ 0.2%), and o4-mini (+/-0 pp) remain non-degrading; GPT-5 degrades by -1.8 pp. A verify-first prompt ablation provides causal evidence that this threshold is actionable through prompting alone: on GPT-4o-mini it reduces EIR from 2% to 0% and turns -6.2 pp degradation into +0.2 pp (paired McNemar p < 10^-4), while producing little change on already-sub-threshold models. ASC further illustrates the stopping trade-off: it halts harmful refinement but incurs a 3.8 pp confidence-elicitation cost. Overall, the paper argues that self-correction should be treated not as a default behavior, but as a control decisi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 97.65,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/TheMidasProj/status/2047692328396034490",
       "title": "The reporters at this news site are AI bots. OpenAI's super PAC is funding it",
       "link": "https://twitter.com/TheMidasProj/status/2047692328396034490",
@@ -6409,6 +6480,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-26T06:43:14.000Z",
       "score": 93.15,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.22436",
+      "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+      "link": "https://arxiv.org/abs/2604.22436",
+      "summary": "arXiv:2604.22436v1 Announce Type: new Abstract: The rapid growth of AI agent ecosystems is transforming how complex tasks are delegated and executed, creating a new challenge of identifying suitable agents for a given task. Unlike traditional tools, agent capabilities are often compositional and execution-dependent, making them difficult to assess from textual descriptions alone. However, existing research and benchmarks typically assume well-specified functionalities, controlled candidate pools, or only executable task queries, leaving realistic agent search scenarios insufficiently studied. We introduce AgentSearchBench, a large-scale benchmark for agent search in the wild, built from nearly 10,000 real-world agents across multiple providers. The benchmark formalizes agent search as retrieval and reranking problems under both executable task queries and high-level task descriptions, and evaluates relevance using execution-grounded performance signals. Experiments reveal a consistent gap between semantic similarity and actual agent performance, exposing the limitations of description-based retrieval and reranking methods. We further show that lightweight behavioral signals, including execution-aware probing, can substantially improve ranking quality, highlighting the importance of incorporating execution signals into agent discovery. Our code is available at https://github.com",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 91.65,
       "status": "queued"
     },
     {
@@ -6424,51 +6507,15 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47909866",
-      "title": "Show HN: UseMoney AI: AI Copilot for Retail Investors of India",
-      "link": "https://news.ycombinator.com/item?id=47909866",
-      "summary": "Stock market research and stocks/MFs comparison for all available indian stocks and MFs. Connect with a broker and do a deep dive to find out weak points in your portfolio, plan retirement using the FIRE calculator and much more. Would love to get the initial feedback: https://usemoney.ai/ Comments URL: https://news.ycombinator.com/item?id=47909866 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
+      "id": "https://arxiv.org/abs/2604.22411",
+      "title": "Introducing Background Temperature to Characterise Hidden Randomness in Large Language Models",
+      "link": "https://arxiv.org/abs/2604.22411",
+      "summary": "arXiv:2604.22411v1 Announce Type: new Abstract: Even when decoding with temperature $T=0$, large language models (LLMs) can produce divergent outputs for identical inputs. Recent work by Thinking Machines Lab highlights implementation-level sources of nondeterminism, including batch-size variation, kernel non-invariance, and floating-point non-associativity. In this short note we formalize this behavior by introducing the notion of \\emph{background temperature} $T_{\\mathrm{bg}}$, the effective temperature induced by an implementation-dependent perturbation process observed even when nominal $T=0$. We provide clean definitions, show how $T_{\\mathrm{bg}}$ relates to a stochastic perturbation governed by the inference environment $I$, and propose an empirical protocol to estimate $T_{bg}$ via the equivalent temperature $T_n(I)$ of an ideal reference system. We conclude with a set of pilot experiments run on a representative pool from the major LLM providers that demonstrate the idea and outline implications for reproducibility, evaluation, and deployment.",
+      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-26T12:42:42.000Z",
-      "score": 76.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/sachinsharma9780/memweave",
-      "title": "Show HN: Memweave CLI – search your AI agent's memory from the shell",
-      "link": "https://github.com/sachinsharma9780/memweave",
-      "summary": "Article URL: https://github.com/sachinsharma9780/memweave Comments URL: https://news.ycombinator.com/item?id=47900995 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-25T12:39:43.000Z",
-      "score": 76.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://aistackinsights.ai/blog/multi-agent-ai-systems-langgraph-crewai-production-guide",
-      "title": "Multi-Agent AI Systems Are Eating Single Agents",
-      "link": "https://aistackinsights.ai/blog/multi-agent-ai-systems-langgraph-crewai-production-guide",
-      "summary": "Article URL: https://aistackinsights.ai/blog/multi-agent-ai-systems-langgraph-crewai-production-guide Comments URL: https://news.ycombinator.com/item?id=47906692 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-26T02:21:21.000Z",
-      "score": 72.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.chatcomparison.ai/",
-      "title": "Multiple AI Models in One Platform",
-      "link": "https://www.chatcomparison.ai/",
-      "summary": "Article URL: https://www.chatcomparison.ai/ Comments URL: https://news.ycombinator.com/item?id=47906310 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-26T01:01:56.000Z",
-      "score": 69.41,
+      "keywordHits": 4,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "score": 79.65,
       "status": "queued"
     },
     {
