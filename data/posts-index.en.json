@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T10:16:23.370Z",
+  "generatedAt": "2026-04-28T17:08:55.694Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-28-nvidia-nemotron-3-nano-omni-a-single-model-for-long-context-documents-audio-and-video-agents",
+      "title": "NVIDIA Nemotron 3 Nano Omni: a single model for long-context documents, audio and video agents",
+      "date": "2026-04-28",
+      "excerpt": "Nemotron 3 Nano Omni offers long-context multimodal reasoning for documents, images, audio and video. BF16/FP8/NVFP4 checkpoints are on Hugging Face; the post includes a compact smoke-test and setup.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-28-nvidia-nemotron-3-nano-omni-a-single-model-for-long-context-documents-audio-and-video-agents.jpg",
+      "tags": [
+        "Nemotron",
+        "NVIDIA",
+        "multimodal",
+        "documents",
+        "audio",
+        "video",
+        "Hugging Face",
+        "agents"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-04-27-dairy-queen-deploys-presto-ai-chatbot-in-dozens-of-drivethrus-shifting-speakerbox-tasks-for-crew-and-managers",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-28T10:16:23.380Z",
+  "generatedAt": "2026-04-28T17:08:55.758Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-28T15:58:57.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-28T17:08:55.680Z",
+      "file": "content/posts/2026-04-28-nvidia-nemotron-3-nano-omni-a-single-model-for-long-context-documents-audio-and-video-agents.md",
+      "fileFr": "content/posts/fr/2026-04-28-nvidia-nemotron-3-nano-omni-a-single-model-for-long-context-documents-audio-and-video-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1620,
+      "wordsFr": 1509
+    },
     {
       "id": "https://www.bbc.com/news/articles/c8x7kxjgq9xo?at_medium=RSS&at_campaign=rss",
       "title": "Trump family's crypto firm sued over alleged 'extortion'",
@@ -4609,6 +4632,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.ragnerock.com",
+      "title": "Show HN: Ragnerock, an AI data analysis tool",
+      "link": "https://www.ragnerock.com",
+      "summary": "Hi HN, I’m Matt Mahowald, and together with my cofounder John, we’re launching the public beta of Ragnerock today. As a data scientist, you spend the majority of your time wrangling data. Even though you might have a set of techniques and tricks you like to use, how exactly you treat a particular source of data tends to be fairly bespoke, so you end up writing custom logic each time. Ragnerock was born from the observation that modern LLMs can be used to automate a lot of the grunt work involved in this process, while still allowing for fully customizable pipelines. What’s more, by leveraging techniques like constrained decoding, it’s possible to provide a unified query interface regardless of the data source - bridging raw data sources like text and images with your existing structured data living in your databases. Ragnerock has four main components: - A workflow designer that lets you build LLM-driven data processing and analysis pipelines - A job orchestration layer that runs those workflows - A query interface which lets you inspect the results of those workflows with plain SQL - A notebook system which is 100% API-compatible with Jupyter and runs on your existing kernels, so you can easily pull data into your existing environments and analyses Ragnerock also supports bring-your-own AI (OpenAI, Anthropic, and Google APIs), databases, and blob storage, so you can join with",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-28T16:33:55.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://zspreadsheet.com",
+      "title": "Show HN: Create Professional Excel Files with AI Agents",
+      "link": "https://zspreadsheet.com",
+      "summary": "Article URL: https://zspreadsheet.com Comments URL: https://news.ycombinator.com/item?id=47936503 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-28T16:17:20.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/manojbajaj95/authsome",
+      "title": "Authsome – open-source local auth proxy for AI agents",
+      "link": "https://github.com/manojbajaj95/authsome",
+      "summary": "Article URL: https://github.com/manojbajaj95/authsome Comments URL: https://news.ycombinator.com/item?id=47936190 Points: 4 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-28T15:52:37.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://merylldindin.com/thoughts/reasoning-loop/",
       "title": "We orchestrate our internal AI agent (PydanticAI, Gemini, Jinja2 prompts)",
       "link": "https://merylldindin.com/thoughts/reasoning-loop/",
@@ -4762,18 +4821,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.disporx.com/resources/disporx-launches-agentic-ed",
-      "title": "DispoRx: Using Agentic AI as a high-fidelity simulator for ER workflows",
-      "link": "https://www.disporx.com/resources/disporx-launches-agentic-ed",
-      "summary": "Article URL: https://www.disporx.com/resources/disporx-launches-agentic-ed Comments URL: https://news.ycombinator.com/item?id=47677023 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-07T15:39:00.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5157,6 +5204,18 @@
       "region": "US",
       "keywordHits": 2,
       "publishedAt": "2026-04-27T15:50:29.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "title": "Claude can now plug directly into Photoshop, Blender, and Ableton",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "summary": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creative Cloud apps, Affinity, Blender, Ableton, Autodesk, and more. This marks the company's latest efforts to break into the creative industry following its launch of Claude Design earlier this month. The new connectors - which enable Claude to access apps, retrieve data, and take actions within connected services - are \"designed to make it easier to use Claude for creative work,\" according to Anthropic, and can be used for specific functions in each app. The Adobe for creativity connector can draw fr … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-28T16:49:08.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5566,18 +5625,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-10T14:24:41.000Z",
       "score": 128.85,
-      "status": "queued"
-    },
-    {
-      "id": "https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk",
-      "title": "How to Build an AI Agent for Slack with Chat SDK and AI SDK",
-      "link": "https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk",
-      "summary": "Article URL: https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk Comments URL: https://news.ycombinator.com/item?id=47676359 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-07T14:52:22.000Z",
-      "score": 128.56,
       "status": "queued"
     },
     {
@@ -6529,40 +6576,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.23090",
-      "title": "Towards Automated Ontology Generation from Unstructured Text: A Multi-Agent LLM Approach",
-      "link": "https://arxiv.org/abs/2604.23090",
-      "summary": "arXiv:2604.23090v1 Announce Type: new Abstract: Automatically generating formal ontologies from unstructured natural language remains a central challenge in knowledge engineering. While large language models (LLMs) show promise, it remains unclear which architectural design choices drive generation quality and why current approaches fail. We present a controlled experimental study using domain-specific insurance contracts to investigate these questions. We first establish a single-agent LLM baseline, identifying key failure modes such as poor Ontology Design Pattern compliance, structural redundancy, and ineffective iterative repair. We then introduce a multi-agent architecture that decomposes ontology construction into four artifact-driven roles: Domain Expert, Manager, Coder, and Quality Assurer. We evaluate performance across architectural quality (via a panel of heterogeneous LLM judges) and functional usability (via competency question driven SPARQL evaluation with complementary retrieval augmented generation based assessment). Results show that the multi-agent approach significantly improves structural quality and modestly enhances queryability, with gains driven primarily by front-loaded planning. These findings highlight planning-first, artifact-driven generation as a promising and more auditable path toward scalable automated ontology engineering.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 91.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.22436",
-      "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
-      "link": "https://arxiv.org/abs/2604.22436",
-      "summary": "arXiv:2604.22436v1 Announce Type: new Abstract: The rapid growth of AI agent ecosystems is transforming how complex tasks are delegated and executed, creating a new challenge of identifying suitable agents for a given task. Unlike traditional tools, agent capabilities are often compositional and execution-dependent, making them difficult to assess from textual descriptions alone. However, existing research and benchmarks typically assume well-specified functionalities, controlled candidate pools, or only executable task queries, leaving realistic agent search scenarios insufficiently studied. We introduce AgentSearchBench, a large-scale benchmark for agent search in the wild, built from nearly 10,000 real-world agents across multiple providers. The benchmark formalizes agent search as retrieval and reranking problems under both executable task queries and high-level task descriptions, and evaluates relevance using execution-grounded performance signals. Experiments reveal a consistent gap between semantic similarity and actual agent performance, exposing the limitations of description-based retrieval and reranking methods. We further show that lightweight behavioral signals, including execution-aware probing, can substantially improve ranking quality, highlighting the importance of incorporating execution signals into agent discovery. Our code is available at https://github.com",
-      "source": "ArXiv cs.AI",
+      "id": "https://github.com/wiserautomation/SupraWall",
+      "title": "SupraWall – Runtime Policy Enforcement for AI Agents",
+      "link": "https://github.com/wiserautomation/SupraWall",
+      "summary": "Article URL: https://github.com/wiserautomation/SupraWall Comments URL: https://news.ycombinator.com/item?id=47936317 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-04-27T04:00:00.000Z",
-      "score": 91.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2241185-musk-v-altman-tout-ce-quil-faut-savoir-sur-le-proces-qui-pourrait-renverser-openai.html",
-      "title": "Musk v. Altman : tout ce qu’il faut savoir sur le procès qui pourrait renverser OpenAI",
-      "link": "https://www.numerama.com/tech/2241185-musk-v-altman-tout-ce-quil-faut-savoir-sur-le-proces-qui-pourrait-renverser-openai.html",
-      "summary": "Le procès très médiatisé entre Elon Musk et Sam Altman débute le 27 avril 2026 aux États-Unis. Elon Musk reproche à OpenAI, qu'il a cofondée, d'avoir trahi sa mission originelle en devenant une entreprise obsédée par les profits et un partenaire de Microsoft. Le milliardaire a abandonné ses accusations de fraude, mais espère toujours faire dérailler l'entreprise derrière ChatGPT.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-27T14:09:53.000Z",
-      "score": 88.87,
-      "status": "queued"
+      "publishedAt": "2026-04-28T16:03:55.000Z",
+      "score": 186,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-04-28T16:50:58.043Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://thenewstack.io/persistent-ai-agents-compared/",
@@ -7379,70 +7406,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-03-30T09:03:01.843Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://www.pantr.co/",
-      "title": "Show HN: Pantr AI Creative Studio",
-      "link": "https://www.pantr.co/",
-      "summary": "Most AI image tools are becoming super powerful, but complicated. > More models > More settings > More prompt tricks We think creative tools should go the other direction. We’re building Pantr AI, a visual-first AI workspace where you generate images from references on a canvas. We believe in: Less options. More intuition. We just opened the beta and are looking for designers, creatives, and people making social con…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-14T14:37:48.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-29T15:32:05.317Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/ashishgituser/bunkervm",
-      "title": "BunkerVM – Run AI agents in isolated Firecracker microVM sandboxes",
-      "link": "https://github.com/ashishgituser/bunkervm",
-      "summary": "Article URL: https://github.com/ashishgituser/bunkervm Comments URL: https://news.ycombinator.com/item?id=47377050 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-14T14:28:00.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-29T15:32:05.317Z",
-      "failureReason": "validation issues: FR: Tutorial missing a concrete config artifact (YAML/JSON/.env/Dockerfile)."
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47385090",
-      "title": "Zirco.ai – AI employee for dental front desk operations",
-      "link": "https://news.ycombinator.com/item?id=47385090",
-      "summary": "Hi HN, I'm building Zirco.ai — an AI administrative employee for dental practices. The problem: dental front desks spend 2–3 hours every day manually verifying insurance benefits through carrier portals. On top of that, they're handling inbound scheduling calls, sending reminders, coordinating referrals, and managing new patient intake — all manually, all repetitive, all expensive. A single front desk employee costs…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-15T07:30:26.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-29T15:32:05.317Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
-      "title": "Wikipedia bans AI-generated articles",
-      "link": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
-      "summary": "Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate \"several of Wikipedia's core content policies\" as the reason for the ban. The change applies to the English version of Wikipedia and will still allow editors to use AI in certain scenarios. That includes using large l…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-26T15:02:52.000Z",
-      "score": 146.94,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-29T15:32:05.317Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

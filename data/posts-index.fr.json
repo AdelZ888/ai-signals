@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T10:16:23.371Z",
+  "generatedAt": "2026-04-28T17:08:55.695Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-04-28-nvidia-nemotron-3-nano-omni-a-single-model-for-long-context-documents-audio-and-video-agents",
+      "title": "NVIDIA Nemotron 3 Nano Omni : un modèle omni‑modal pour documents, audio et vidéo en contexte long",
+      "date": "2026-04-28",
+      "excerpt": "Nemotron 3 Nano Omni est annoncé par NVIDIA comme un modèle omni‑modal capable de raisonner sur de longs contextes multimodaux (documents, images, audio, vidéo). Des checkpoints BF16, FP8 et NVFP4 sont fournis sur Hugging Face ; cet article propose un guide pragmatique pour un test rapide et une intégration initiale.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-28-nvidia-nemotron-3-nano-omni-a-single-model-for-long-context-documents-audio-and-video-agents.jpg",
+      "tags": [
+        "IA",
+        "multimodal",
+        "NVIDIA",
+        "Nemotron",
+        "inférence",
+        "documents",
+        "audio",
+        "vidéo"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
