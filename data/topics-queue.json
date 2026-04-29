@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-04-29T10:14:50.999Z",
+  "generatedAt": "2026-04-29T16:35:06.650Z",
   "items": [
+    {
+      "id": "https://www.ragnerock.com",
+      "title": "Show HN: Ragnerock, an AI data analysis tool",
+      "link": "https://www.ragnerock.com",
+      "summary": "Hi HN, I’m Matt Mahowald, and together with my cofounder John, we’re launching the public beta of Ragnerock today. As a data scientist, you spend the majority of your time wrangling data. Even though you might have a set of techniques and tricks you like to use, how exactly you treat a particular source of data tends to be fairly bespoke, so you end up writing custom logic each time. Ragnerock was born from the obse…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-28T16:33:55.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-04-29T16:35:06.576Z",
+      "file": "content/posts/2026-04-29-ragnerock-public-beta-build-auditable-llm-driven-workflows-to-convert-pdfs-images-and-raw-files-into-sql-tables-and-jupyter-ready-results.md",
+      "fileFr": "content/posts/fr/2026-04-29-ragnerock-public-beta-build-auditable-llm-driven-workflows-to-convert-pdfs-images-and-raw-files-into-sql-tables-and-jupyter-ready-results.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1694,
+      "wordsFr": 1695
+    },
     {
       "id": "https://www.theverge.com/transportation/920285/general-motors-gm-gemini-ai-update",
       "title": "General Motors is adding Gemini to four million cars",
@@ -4463,6 +4486,18 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
+      "id": "https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/",
+      "title": "When the Paradigm Shifts: A Zero-Trust Model for AI Agents",
+      "link": "https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/",
+      "summary": "Article URL: https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47950124 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-29T15:52:07.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
       "id": "https://isahumancheaper.damjanski.com/",
       "title": "Is a Human Cheaper? Devs or AI Agents Decision Tool",
       "link": "https://isahumancheaper.damjanski.com/",
@@ -4607,18 +4642,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.ragnerock.com",
-      "title": "Show HN: Ragnerock, an AI data analysis tool",
-      "link": "https://www.ragnerock.com",
-      "summary": "Hi HN, I’m Matt Mahowald, and together with my cofounder John, we’re launching the public beta of Ragnerock today. As a data scientist, you spend the majority of your time wrangling data. Even though you might have a set of techniques and tricks you like to use, how exactly you treat a particular source of data tends to be fairly bespoke, so you end up writing custom logic each time. Ragnerock was born from the observation that modern LLMs can be used to automate a lot of the grunt work involved in this process, while still allowing for fully customizable pipelines. What’s more, by leveraging techniques like constrained decoding, it’s possible to provide a unified query interface regardless of the data source - bridging raw data sources like text and images with your existing structured data living in your databases. Ragnerock has four main components: - A workflow designer that lets you build LLM-driven data processing and analysis pipelines - A job orchestration layer that runs those workflows - A query interface which lets you inspect the results of those workflows with plain SQL - A notebook system which is 100% API-compatible with Jupyter and runs on your existing kernels, so you can easily pull data into your existing environments and analyses Ragnerock also supports bring-your-own AI (OpenAI, Anthropic, and Google APIs), databases, and blob storage, so you can join with",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-28T16:33:55.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://zspreadsheet.com",
       "title": "Show HN: Create Professional Excel Files with AI Agents",
       "link": "https://zspreadsheet.com",
@@ -4655,6 +4678,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
+      "title": "30 ClawHub skills secretly turn AI agents into a crypto swarm",
+      "link": "https://www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
+      "summary": "Article URL: https://www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/ Comments URL: https://news.ycombinator.com/item?id=47950492 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-29T16:15:27.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://merylldindin.com/thoughts/reasoning-loop/",
       "title": "We orchestrate our internal AI agent (PydanticAI, Gemini, Jinja2 prompts)",
       "link": "https://merylldindin.com/thoughts/reasoning-loop/",
@@ -4664,18 +4699,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:56:07.000Z",
       "score": 172.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04",
-      "title": "Is this the end for data analysts? AI agent, 500GB, 100 rounds, 134.9s, $1.66",
-      "link": "https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04",
-      "summary": "Article URL: https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04 Comments URL: https://news.ycombinator.com/item?id=47691761 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-08T15:42:54.000Z",
-      "score": 168,
       "status": "queued"
     },
     {
@@ -4808,18 +4831,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-04-09T14:52:03.000Z",
       "score": 156.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://itsfoss.com/news/anthropic-apache-software-foundation-donation/",
-      "title": "Anthropic Just Handed Apache $1.5M to Secure the Open Source Stack AI Depends On",
-      "link": "https://itsfoss.com/news/anthropic-apache-software-foundation-donation/",
-      "summary": "Article URL: https://itsfoss.com/news/anthropic-apache-software-foundation-donation/ Comments URL: https://news.ycombinator.com/item?id=47691992 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-08T15:58:22.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5195,6 +5206,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.oii.ox.ac.uk/news-events/friendly-ai-chatbots-make-more-mistakes-and-tell-people-what-they-want-to-hear-study-finds/",
+      "title": "Friendly AI chatbots make more mistakes and tell people what they want to hear",
+      "link": "https://www.oii.ox.ac.uk/news-events/friendly-ai-chatbots-make-more-mistakes-and-tell-people-what-they-want-to-hear-study-finds/",
+      "summary": "Article URL: https://www.oii.ox.ac.uk/news-events/friendly-ai-chatbots-make-more-mistakes-and-tell-people-what-they-want-to-hear-study-finds/ Comments URL: https://news.ycombinator.com/item?id=47950255 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-29T16:00:22.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://agentathon.dev/",
       "title": "Show HN: Agentathon, hackathon where AI agents compete autonomously",
       "link": "https://agentathon.dev/",
@@ -5447,18 +5470,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.04192",
-      "title": "Benchmark to measure AI on graphic design tasks",
-      "link": "https://arxiv.org/abs/2604.04192",
-      "summary": "Article URL: https://arxiv.org/abs/2604.04192 Comments URL: https://news.ycombinator.com/item?id=47691227 Points: 5 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-08T15:03:52.000Z",
-      "score": 138.31,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.06389",
       "title": "SELFDOUBT: Uncertainty Quantification for Reasoning LLMs via the Hedge-to-Verify Ratio",
       "link": "https://arxiv.org/abs/2604.06389",
@@ -5648,18 +5659,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-04-17T04:00:00.000Z",
       "score": 125.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html",
-      "title": "Northeastern presentation to junior engineers in the age of AI",
-      "link": "https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html",
-      "summary": "Article URL: https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html Comments URL: https://news.ycombinator.com/item?id=47691156 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-08T14:58:38.000Z",
-      "score": 125.23,
       "status": "queued"
     },
     {
@@ -5915,6 +5914,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.com/news/articles/cd9pdjgvxj8o?at_medium=RSS&at_campaign=rss",
+      "title": "Why friendly AI chatbots might be less trustworthy",
+      "link": "https://www.bbc.com/news/articles/cd9pdjgvxj8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Researchers found adjusting AI systems to be more warm and friendly to users would result in an \"accuracy trade-off\".",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-29T15:00:06.000Z",
+      "score": 118.87,
+      "status": "queued"
+    },
+    {
       "id": "https://www.npmjs.com/package/airprompt",
       "title": "Airprompt – SSH into your Mac from your phone for AI agent prompts",
       "link": "https://www.npmjs.com/package/airprompt",
@@ -5984,6 +5995,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-29T08:29:00.000Z",
       "score": 117.78,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/920476/openai-chatgpt-downloads-slow-down-ipo",
+      "title": "ChatGPT downloads are slowing — and may cause problems for OpenAI&#8217;s IPO",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/920476/openai-chatgpt-downloads-slow-down-ipo",
+      "summary": "ChatGPT is struggling to keep up its once-explosive growth as users uninstall the app or opt for rival chatbots instead. According to data from market intelligence firm Sensor Tower, ChatGPT experienced a 132 percent increase in uninstalls year over year in April. Its uninstall rate was even higher last month, up 413 percent year-over-year, following OpenAI's deal with the Pentagon in February. While ChatGPT is still growing its user base, Sensor Tower says that growth is slowing down - ChatGPT increased its monthly active users by 168 percent in January, but only 78 percent in April. ChatGPT still has a \"substantially larger user base\" th … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-29T14:43:41.000Z",
+      "score": 117.71,
       "status": "queued"
     },
     {
@@ -6383,6 +6406,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
+      "title": "Tumbler Ridge families are suing OpenAI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
+      "summary": "Seven families of victims injured or killed in the Tumbler Ridge school shooting in Canada have filed lawsuits against OpenAI and CEO Sam Altman, accusing the company and its leadership of negligence after they failed to alert police to the suspected shooter's ChatGPT activity. The families allege OpenAI stayed silent after its systems flagged activity by shooting suspect Jesse Van Rootselaar in order to protect the company's reputation and upcoming initial public offering (IPO). The Wall Street Journal reports that OpenAI \"considered\" flagging the 18-year-old's activity to police, which reportedly involved conversations about gun violence, … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-29T14:47:57.000Z",
+      "score": 108.71,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47813703",
       "title": "Show HN: PrivaKit – A zero-upload AI workspace in the browser via WebGPU",
       "link": "https://news.ycombinator.com/item?id=47813703",
@@ -6403,6 +6438,18 @@
       "region": "GLOBAL",
       "keywordHits": 6,
       "publishedAt": "2026-04-09T04:00:00.000Z",
+      "score": 108.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/920378/oracle-openai-datacenter-buildout",
+      "title": "Larry’s risky business",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/920378/oracle-openai-datacenter-buildout",
+      "summary": "Oracular spectacular? | Image: Cath Virginia / The Verge If you want to know whether the AI bubble is bursting, there's only one publicly traded company that will tell you: Oracle. That's right, the database company. Oracle has burned its boats and pivoted to AI, but not in any kind of usual way. It is not a foundation model builder like OpenAI or Anthropic, obviously. It's not quite a neocloud, though it has entered the same bare-metal business as CoreWeave. It is a software-as-a-service company that has made an audacious bet on a very specific future version of AI as Oracle's traditional business has gracefully declined. It is significantly older than any of its AI competitors, save Microsoft, … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-04-29T13:57:16.000Z",
       "score": 108.09,
       "status": "queued"
     },
@@ -6563,6 +6610,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2243759-ne-parle-jamais-de-gobelins-une-etrange-consigne-cachee-dans-lia-dopenai-provoque-des-debats-sans-fin.html",
+      "title": "« Ne parle jamais de gobelins » : une étrange consigne cachée dans l’IA d’OpenAI provoque des débats sans fin",
+      "link": "https://www.numerama.com/tech/2243759-ne-parle-jamais-de-gobelins-une-etrange-consigne-cachee-dans-lia-dopenai-provoque-des-debats-sans-fin.html",
+      "summary": "Dans les instructions internes de Codex CLI, l’agent de programmation d’OpenAI, une consigne inattendue revient à plusieurs reprises : ne jamais mentionner de gobelins, gremlins, ratons laveurs, trolls, ogres ou pigeons. Cette interdiction, devenue virale, alimente débats et théories en ligne.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-29T14:01:23.000Z",
+      "score": 97.44,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/TheMidasProj/status/2047692328396034490",
       "title": "The reporters at this news site are AI bots. OpenAI's super PAC is funding it",
       "link": "https://twitter.com/TheMidasProj/status/2047692328396034490",
@@ -6572,30 +6631,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-26T06:43:14.000Z",
       "score": 93.15,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.23090",
-      "title": "Towards Automated Ontology Generation from Unstructured Text: A Multi-Agent LLM Approach",
-      "link": "https://arxiv.org/abs/2604.23090",
-      "summary": "arXiv:2604.23090v1 Announce Type: new Abstract: Automatically generating formal ontologies from unstructured natural language remains a central challenge in knowledge engineering. While large language models (LLMs) show promise, it remains unclear which architectural design choices drive generation quality and why current approaches fail. We present a controlled experimental study using domain-specific insurance contracts to investigate these questions. We first establish a single-agent LLM baseline, identifying key failure modes such as poor Ontology Design Pattern compliance, structural redundancy, and ineffective iterative repair. We then introduce a multi-agent architecture that decomposes ontology construction into four artifact-driven roles: Domain Expert, Manager, Coder, and Quality Assurer. We evaluate performance across architectural quality (via a panel of heterogeneous LLM judges) and functional usability (via competency question driven SPARQL evaluation with complementary retrieval augmented generation based assessment). Results show that the multi-agent approach significantly improves structural quality and modestly enhances queryability, with gains driven primarily by front-loaded planning. These findings highlight planning-first, artifact-driven generation as a promising and more auditable path toward scalable automated ontology engineering.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "score": 92.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.22777",
-      "title": "An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
-      "link": "https://arxiv.org/abs/2604.22777",
-      "summary": "arXiv:2604.22777v1 Announce Type: new Abstract: Fault diagnosis of general aviation aircraft faces challenges including scarce real fault data, diverse fault types, and weak fault signatures. This paper proposes an intelligent fault diagnosis framework based on multi-fidelity digital twin, integrating four modules: high-fidelity flight dynamics simulation, FMEA-driven fault injection, multi-fidelity residual feature extraction, and large language model (LLM)-enhanced interpretable report generation. A digital twin is constructed using the JSBSim six-degree-of-freedom (6-DoF) flight dynamics engine, generating 23-channel engine health monitoring data via semi-empirical sensor synthesis equations. A three-layer fault injection engine based on failure mode and effects analysis (FMEA) models the physical causal propagation of 19 engine fault types. A multi-fidelity residual computation framework comprising paired-mirror residuals and GRU surrogate prediction residuals is proposed: the high-fidelity path obtains clean fault deviation signals using nominal mirror trajectories with identical initial conditions, while the low-fidelity path achieves online real-time residual computation through a multi-step prediction GRU surrogate model. A 1D-CNN classifier performs end-to-end diagnosis of 20 fault classes. An LLM diagnostic report engine enhanced with FMEA knowledge fuses classificati",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "score": 86.16,
       "status": "queued"
     },
     {
@@ -7412,22 +7447,6 @@
       "targetRegion": "FR",
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-03-31T08:45:30.194Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://leonews.ai/",
-      "title": "Show HN: Leo News – AI newsbots with different political perspectives",
-      "link": "https://leonews.ai/",
-      "summary": "@steaks and I have been working on a site that provides political commentary on the news by AI agents. Our long term vision is to make this an automated news site that helps users see the bigger picture around each news story and maybe even improve political discourse in some small way. An important part of that is building trust with users, and we are exploring a number of ways to do that: - Accountability: retrosp…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-03-30T15:33:22.000Z",
-      "score": 198,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-03-30T16:05:45.880Z",
       "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
