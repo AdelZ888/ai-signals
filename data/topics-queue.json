@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T16:35:06.650Z",
+  "generatedAt": "2026-04-30T10:43:18.579Z",
   "items": [
     {
       "id": "https://www.ragnerock.com",
@@ -4486,18 +4486,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/",
-      "title": "When the Paradigm Shifts: A Zero-Trust Model for AI Agents",
-      "link": "https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/",
-      "summary": "Article URL: https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47950124 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-29T15:52:07.000Z",
-      "score": 192,
-      "status": "queued"
-    },
-    {
       "id": "https://isahumancheaper.damjanski.com/",
       "title": "Is a Human Cheaper? Devs or AI Agents Decision Tool",
       "link": "https://isahumancheaper.damjanski.com/",
@@ -4834,18 +4822,6 @@
       "status": "queued"
     },
     {
-      "id": "https://seedance2video.cloud/",
-      "title": "Seedance 2.0 on live–their strongest multimodal AI video model with native audio",
-      "link": "https://seedance2video.cloud/",
-      "summary": "Article URL: https://seedance2video.cloud/ Comments URL: https://news.ycombinator.com/item?id=47700669 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-09T08:15:01.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/himanshudongre/propops",
       "title": "Show HN: PropOps – AI agent that reads Indian govt property data nobody checks",
       "link": "https://github.com/himanshudongre/propops",
@@ -5170,18 +5146,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
-      "title": "Microsoft and OpenAI’s famed AGI agreement is dead",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
-      "summary": "OpenAI and Microsoft's partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped. On Monday morning, Microsoft announced a handful of big changes to its long-standing OpenAI deal. Microsoft will remain OpenAI's \"primary cloud partner, and OpenAI products will ship first on Azure, unless Microsoft cannot and chooses not to support the necessary capabilities.\" But OpenAI can \"now serve all its products to customers across any cloud provider.\" That lets OpenAI pursue its goals of courting enterprise custom … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-27T16:15:47.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "title": "Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
@@ -5214,6 +5178,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-29T16:00:22.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cnet.com/tech/services-and-software/gm-brings-google-gemini-to-millions-of-vehicles-on-the-road-change/",
+      "title": "GM Adds Google Gemini for Drivers to Rev Up with AI Assistant",
+      "link": "https://www.cnet.com/tech/services-and-software/gm-brings-google-gemini-to-millions-of-vehicles-on-the-road-change/",
+      "summary": "Article URL: https://www.cnet.com/tech/services-and-software/gm-brings-google-gemini-to-millions-of-vehicles-on-the-road-change/ Comments URL: https://news.ycombinator.com/item?id=47960182 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-30T09:43:38.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5290,6 +5266,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.26091",
+      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+      "link": "https://arxiv.org/abs/2604.26091",
+      "summary": "arXiv:2604.26091v1 Announce Type: new Abstract: We study reliability in autonomous language-model agents that translate user mandates into validated tool actions under real capital. The setting is DX Terminal Pro, a 21-day deployment in which 3,505 user-funded agents traded real ETH in a bounded onchain market. Users configured vaults through structured controls and natural-language strategies, but only agents could choose normal buy/sell trades. The system produced 7.5M agent invocations, roughly 300K onchain actions, about $20M in volume, more than 5,000 ETH deployed, roughly 70B inference tokens, and 99.9% settlement success for policy-valid submitted transactions. Long-running agents accumulated thousands of sequential decisions, including 6,000+ prompt-state-action cycles for continuously active agents, yielding a large-scale trace from user mandate to rendered prompt, reasoning, validation, portfolio state, and settlement. Reliability did not come from the base model alone; it emerged from the operating layer around the model: prompt compilation, typed controls, policy validation, execution guards, memory design, and trace-level observability. Pre-launch testing exposed failures that text-only benchmarks rarely measure, including fabricated trading rules, fee paralysis, numeric anchoring, cadence trading, and misread tokenomics. Targeted harness changes reduced fabricated",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "score": 152.12,
+      "status": "queued"
+    },
+    {
       "id": "https://www.athletedata.health",
       "title": "Show HN: AthleteData – AI coach for endurance athletes that messages you first",
       "link": "https://www.athletedata.health",
@@ -5322,30 +5310,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-23T16:09:53.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2241659-bevel-la-meilleure-application-pour-suivre-sa-sante-sur-iphone-peut-desormais-calculer-lage-de-votre-corps.html",
-      "title": "Bevel, la meilleure application pour suivre sa santé sur iPhone, peut désormais calculer l’âge de votre corps",
-      "link": "https://www.numerama.com/tech/2241659-bevel-la-meilleure-application-pour-suivre-sa-sante-sur-iphone-peut-desormais-calculer-lage-de-votre-corps.html",
-      "summary": "Avec sa mise à jour 3.0, Bevel, qui analyse les données des montres/bracelets connectés avec de l'intelligence artificielle, se rapproche encore plus des bracelets Whoop. L'application peut vous aider à préparer un marathon, construire un programme d'entraînement, analyser vos résultats sanguins et calculer l'âge de votre corps.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-27T15:57:50.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.numerama.com/cyberguerre/2242001-cest-entierement-la-faute-de-ce-type-un-agent-ia-ravage-une-base-de-donnees-et-pose-la-question-que-les-vibe-codeurs-evitent.html",
-      "title": "« C’est entièrement la faute de ce type » : un agent IA ravage une base de données et pose la question que les vibe codeurs évitent",
-      "link": "https://www.numerama.com/cyberguerre/2242001-cest-entierement-la-faute-de-ce-type-un-agent-ia-ravage-une-base-de-donnees-et-pose-la-question-que-les-vibe-codeurs-evitent.html",
-      "summary": "Depuis le 25 avril 2026 et la publication de son témoignage sur X, Jer Crane est au cœur d'un débat qui embrase la communauté tech. Le fondateur de PocketOS a vu trois mois de données clients s'évaporer en 9 secondes, la faute à un agent IA. L'entrepreneur tient pour responsables Cursor, Claude Opus et son fournisseur cloud Railway, mais tout le monde n'est pas de son avis.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-28T09:35:51.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -5470,18 +5434,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.06389",
-      "title": "SELFDOUBT: Uncertainty Quantification for Reasoning LLMs via the Hedge-to-Verify Ratio",
-      "link": "https://arxiv.org/abs/2604.06389",
-      "summary": "arXiv:2604.06389v1 Announce Type: new Abstract: Uncertainty estimation for reasoning language models remains difficult to deploy in practice: sampling-based methods are computationally expensive, while common single-pass proxies such as verbalized confidence or trace length are often inconsistent across models. This problem is compounded for proprietary reasoning APIs that expose neither logits nor intermediate token probabilities, leaving practitioners with no reliable uncertainty signal at inference time. We propose SELFDOUBT, a single-pass uncertainty framework that resolves this impasse by extracting behavioral signals directly from the reasoning trace itself. Our key signal, the Hedge-to-Verify Ratio (HVR), detects whether a reasoning trace contains uncertainty markers and, if so, whether they are offset by explicit selfchecking behavior. Unlike methods that require multiple sampled traces or model internals, SELFDOUBT operates on a single observed reasoning trajectory, making it suitable for latency- and cost-constrained deployment over any proprietary API. We evaluate SELFDOUBT across seven models and three multi-step reasoning benchmarks (BBH, GPQA-Diamond, and MMLU-Pro). Most notably, traces containing no hedging markers are correct 96% of the time, revealing an emergent high-precision confidence gate at zero additional cost. For the remaining cases, the full SELFDOUBT",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-09T04:00:00.000Z",
-      "score": 138.09,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.12116",
       "title": "The A-R Behavioral Space: Execution-Level Profiling of Tool-Using Language Model Agents in Organizational Deployment",
       "link": "https://arxiv.org/abs/2604.12116",
@@ -5527,6 +5479,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-14T14:54:25.000Z",
       "score": 134.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47959743",
+      "title": "How are teams bridging the gap between company knowledge and AI agents?",
+      "link": "https://news.ycombinator.com/item?id=47959743",
+      "summary": "AI agents are capable enough to automate real work now. But they keep failing because they don't know how a specific company actually operates. Policies in PDFs. Exceptions in Slack threads. Processes in people's heads. How are teams solving this today? Is anyone beyond dumping docs into RAG pipelines? Comments URL: https://news.ycombinator.com/item?id=47959743 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-30T08:25:46.000Z",
+      "score": 132.14,
       "status": "queued"
     },
     {
@@ -5782,30 +5746,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47700460",
-      "title": "Ask HN: What are you building that's not AI related?",
-      "link": "https://news.ycombinator.com/item?id=47700460",
-      "summary": "I don't have anything against AI, but HN (and everywhere else) seems to be drowning in AI atm. Seems like every man and his dog is building an AI agent harness. And power to you (and your dog) if that's you. But it would be refreshing to hear about some non AI related projects people are working on. Comments URL: https://news.ycombinator.com/item?id=47700460 Points: 20 # Comments: 18",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-09T07:39:47.000Z",
-      "score": 121.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06375",
-      "title": "SymptomWise: A Deterministic Reasoning Layer for Reliable and Efficient AI Systems",
-      "link": "https://arxiv.org/abs/2604.06375",
-      "summary": "arXiv:2604.06375v1 Announce Type: new Abstract: AI-driven symptom analysis systems face persistent challenges in reliability, interpretability, and hallucination. End-to-end generative approaches often lack traceability and may produce unsupported or inconsistent diagnostic outputs in safety-critical settings. We present SymptomWise, a framework that separates language understanding from diagnostic reasoning. The system combines expert-curated medical knowledge, deterministic codex-driven inference, and constrained use of large language models. Free-text input is mapped to validated symptom representations, then evaluated by a deterministic reasoning module operating over a finite hypothesis space to produce a ranked differential diagnosis. Language models are used only for symptom extraction and optional explanation, not for diagnostic inference. This architecture improves traceability, reduces unsupported conclusions, and enables modular evaluation of system components. Preliminary evaluation on 42 expert-authored challenging pediatric neurology cases shows meaningful overlap with clinician consensus, with the correct diagnosis appearing in the top five differentials in 88% of cases. Beyond medicine, the framework generalizes to other abductive reasoning domains and may serve as a deterministic structuring and routing layer for foundation models, improving precision and poten",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-09T04:00:00.000Z",
-      "score": 120.09,
-      "status": "queued"
-    },
-    {
       "id": "https://www.numerama.com/sciences/2233045-comment-une-fausse-maladie-a-trompe-les-chatbots-et-infiltre-la-litterature-scientifique.html",
       "title": "Comment une fausse maladie a trompé les chatbots et infiltré la littérature scientifique",
       "link": "https://www.numerama.com/sciences/2233045-comment-une-fausse-maladie-a-trompe-les-chatbots-et-infiltre-la-litterature-scientifique.html",
@@ -5914,18 +5854,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.bbc.com/news/articles/cd9pdjgvxj8o?at_medium=RSS&at_campaign=rss",
-      "title": "Why friendly AI chatbots might be less trustworthy",
-      "link": "https://www.bbc.com/news/articles/cd9pdjgvxj8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Researchers found adjusting AI systems to be more warm and friendly to users would result in an \"accuracy trade-off\".",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-29T15:00:06.000Z",
-      "score": 118.87,
-      "status": "queued"
-    },
-    {
       "id": "https://www.npmjs.com/package/airprompt",
       "title": "Airprompt – SSH into your Mac from your phone for AI agent prompts",
       "link": "https://www.npmjs.com/package/airprompt",
@@ -6010,6 +5938,30 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=47959600",
+      "title": "Ask HN: What did you streamline with AI agents?",
+      "link": "https://news.ycombinator.com/item?id=47959600",
+      "summary": "How are AI agents making your daily professional life easier? Comments URL: https://news.ycombinator.com/item?id=47959600 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-30T08:03:15.000Z",
+      "score": 116.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.26522",
+      "title": "AGEL-Comp: A Neuro-Symbolic Framework for Compositional Generalization in Interactive Agents",
+      "link": "https://arxiv.org/abs/2604.26522",
+      "summary": "arXiv:2604.26522v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents exhibit systemic failures in compositional generalization, limiting their robustness in interactive environments. This work introduces AGEL-Comp, a neuro-symbolic AI agent architecture designed to address this challenge by grounding actions of the agent. AGEL-Comp integrates three core innovations: (1) a dynamic Causal Program Graph (CPG) as a world model, representing procedural and causal knowledge as a directed hypergraph; (2) an Inductive Logic Programming (ILP) engine that synthesizes new Horn clauses from experiential feedback, grounding symbolic knowledge through interaction; and (3) a hybrid reasoning core where an LLM proposes a set of candidate sub-goals that are verified for logical consistency by a Neural Theorem Prover (NTP). Together, these components operationalize a deduction--abduction learning cycle: enabling the agent to deduce plans and abductively expand its symbolic world model, while a neural adaptation phase keeps its reasoning engine aligned with new knowledge. We propose an evaluation protocol within the \\texttt{Retro Quest} simulation environment to probe for compositional generalization scenarios to evaluate our AGEL agent. Our findings clearly indicate the better performance of our AGEL model over pure LLM-based models. Our framework presents a principled path to",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "score": 116.12,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.23072",
       "title": "Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis",
       "link": "https://arxiv.org/abs/2604.23072",
@@ -6055,30 +6007,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-04-29T07:08:01.000Z",
       "score": 114.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06562",
-      "title": "On Emotion-Sensitive Decision Making of Small Language Model Agents",
-      "link": "https://arxiv.org/abs/2604.06562",
-      "summary": "arXiv:2604.06562v1 Announce Type: new Abstract: Small language models (SLM) are increasingly used as interactive decision-making agents, yet most decision-oriented evaluations ignore emotion as a causal factor influencing behavior. We study emotion-sensitive decision making by combining representation-level emotion induction with a structured game-theoretic evaluation. Emotional states are induced using activation steering derived from crowd-validated, real-world emotion-eliciting texts, enabling controlled and transferable interventions beyond prompt-based methods. We introduce a benchmark built around canonical decision templates that span cooperative and competitive incentives under both complete and incomplete information. These templates are instantiated using strategic scenarios from \\textsc{Diplomacy}, \\textsc{StarCraft II}, and diverse real-world personas. Experiments across multiple model families in various architecture and modalities, show that emotional perturbations systematically affect strategic choices, but the resulting behaviors are often unstable and not fully aligned with human expectations. Finally, we outline an approach to improve robustness to emotion-driven perturbations.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-09T04:00:00.000Z",
-      "score": 114.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.06691",
-      "title": "KD-MARL: Resource-Aware Knowledge Distillation in Multi-Agent Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2604.06691",
-      "summary": "arXiv:2604.06691v1 Announce Type: new Abstract: Real world deployment of multi agent reinforcement learning MARL systems is fundamentally constrained by limited compute memory and inference time. While expert policies achieve high performance they rely on costly decision cycles and large scale models that are impractical for edge devices or embedded platforms. Knowledge distillation KD offers a promising path toward resource aware execution but existing KD methods in MARL focus narrowly on action imitation often neglecting coordination structure and assuming uniform agent capabilities. We propose resource aware Knowledge Distillation for Multi Agent Reinforcement Learning KD MARL a two stage framework that transfers coordinated behavior from a centralized expert to lightweight decentralized student agents. The student policies are trained without a critic relying instead on distilled advantage signals and structured policy supervision to preserve coordination under heterogeneous and limited observations. Our approach transfers both action level behavior and structural coordination patterns from expert policies while supporting heterogeneous student architectures allowing each agent model capacity to match its observation complexity which is crucial for efficient execution under partial or limited observability and limited onboard resources. Extensive experiments on SMAC and MPE",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-09T04:00:00.000Z",
-      "score": 114.09,
       "status": "queued"
     },
     {
@@ -6334,15 +6262,39 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47700353",
-      "title": "One Million Prompt – $1 per block, AI generates collective art daily",
-      "link": "https://news.ycombinator.com/item?id=47700353",
-      "summary": "In 2005, Alex Tew sold 1 million pixels for $1 each and made internet history. In 2026, I built the AI version — One Million Prompt. Every block holds an AI prompt. Every day, all prompts combine into one collective artwork generated by AI. 4 blocks claimed so far. 999,996 left. https://onemillionprompt.com Also launching today on Product Hunt: https://www.producthunt.com/posts/one-million-prompt Comments URL: https://news.ycombinator.com/item?id=47700353 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
+      "id": "https://arxiv.org/abs/2604.26106",
+      "title": "Evaluating Strategic Reasoning in Forecasting Agents",
+      "link": "https://arxiv.org/abs/2604.26106",
+      "summary": "arXiv:2604.26106v1 Announce Type: new Abstract: Forecasting benchmarks produce accuracy leaderboards but little insight into why some forecasters are more accurate than others. We introduce Bench to the Future 2 (BTF-2), 1,417 pastcasting questions with a frozen 15M-document research corpus in which agents reproducibly research and forecast offline, producing full reasoning traces. BTF-2 detects accuracy differences of 0.004 Brier score, and can distinguish differential agent strengths in research vs. judgment. We build a forecaster 0.011 Brier more accurate than any single frontier agent, and use it to evaluate agent strategic reasoning without hindsight bias. We find the better forecaster differs primarily in its pre-mortem analysis of its blind spots and consideration of black swans. Expert human forecasters found the dominant strategic reasoning failures of frontier agents are in assessing political and business leaders' incentives, judging their likelihood to follow through on stated plans, and modeling institutional processes.",
+      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-09T07:21:31.000Z",
-      "score": 109.96,
+      "keywordHits": 6,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "score": 110.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.26577",
+      "title": "Benchmarking the Safety of Large Language Models for Robotic Health Attendant Control",
+      "link": "https://arxiv.org/abs/2604.26577",
+      "summary": "arXiv:2604.26577v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly considered for deployment as the control component of robotic health attendants, yet their safety in this context remains poorly characterized. We introduce a dataset of 270 harmful instructions spanning nine prohibited behavior categories grounded in the American Medical Association Principles of Medical Ethics, and use it to evaluate 72 LLMs in a simulation environment based on the Robotic Health Attendant framework. The mean violation rate across all models was 54.4\\%, with more than half exceeding 50\\%, and violation rates varied substantially across behavior categories, with superficially plausible instructions such as device manipulation and emergency delay proving harder to refuse than overtly destructive ones. Model size and release date were the primary determinants of safety performance among open-weight models, and proprietary models were substantially safer than open-weight counterparts (median 23.7\\% versus 72.8\\%). Medical domain fine-tuning conferred no significant overall safety benefit, and a prompt-based defense strategy produced only a modest reduction in violation rates among the least safe models, leaving absolute violation rates at levels that would preclude safe clinical deployment. These findings demonstrate that safety evaluation must be treated as a first-clas",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "score": 110.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.26733",
+      "title": "FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards",
+      "link": "https://arxiv.org/abs/2604.26733",
+      "summary": "arXiv:2604.26733v1 Announce Type: new Abstract: Live future prediction refers to the task of making predictions about real-world events before they unfold. This task is increasingly studied using large language model-based agent systems, and it is important for building agents that can continually learn from real-world. Just as interactive environments have often driven progress in agents, advancing live future prediction naturally motivates viewing it as a learning environment. Prior works have explored future prediction from several different parts, but have generally not framed it as a unified learning environment. This task is appealing for learning because it can provide a large number of prediction questions grounded in diverse real-world events, while preventing answer leakage. To leverage the advantages of live future prediction, we present FutureWorld, a live agentic reinforcement learning environment that closes the training loop between prediction, outcome realization, and parameters update. In our environment, we take three open-source base models and train them for consecutive days. The results show that training is effective. Furthermore, we build a daily benchmark based on the environment and evaluate several frontier agents on it to establish performance baselines for current agent systems.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "score": 110.12,
       "status": "queued"
     },
     {
@@ -6430,18 +6382,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.06696",
-      "title": "AgentGate: A Lightweight Structured Routing Engine for the Internet of Agents",
-      "link": "https://arxiv.org/abs/2604.06696",
-      "summary": "arXiv:2604.06696v1 Announce Type: new Abstract: The rapid development of AI agent systems is leading to an emerging Internet of Agents, where specialized agents operate across local devices, edge nodes, private services, and cloud platforms. Although recent efforts have improved agent naming, discovery, and interaction, efficient request dispatch remains an open systems problem under latency, privacy, and cost constraints. In this paper, we present AgentGate, a lightweight structured routing engine for candidate-aware agent dispatch. Instead of treating routing as unrestricted text generation, AgentGate formulates it as a constrained decision problem and decomposes it into two stages: action decision and structural grounding. The first stage determines whether a query should trigger single-agent invocation, multi-agent planning, direct response, or safe escalation, while the second stage instantiates the selected action into executable outputs such as target agents, structured arguments, or multi-step plans. To adapt compact models to this setting, we further develop a routing-oriented fine-tuning scheme with candidate-aware supervision and hard negative examples. Experiments on a curated routing benchmark with several 3B--7B open-weight models show that compact models can provide competitive routing performance in constrained settings, and that model differences are mainly ref",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-09T04:00:00.000Z",
-      "score": 108.09,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/920378/oracle-openai-datacenter-buildout",
       "title": "Larry’s risky business",
       "link": "https://www.theverge.com/ai-artificial-intelligence/920378/oracle-openai-datacenter-buildout",
@@ -6463,6 +6403,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-04-17T04:00:00.000Z",
       "score": 107.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=47959169",
+      "title": "Ask HN: Anyone using AI agents for active learning sprints? Here's my setup",
+      "link": "https://news.ycombinator.com/item?id=47959169",
+      "summary": "Hi HN, I'm a big fan of AI's ability to provide personalized tutoring. So, lately, I have been using my Antigravity IDE (you can use any agentic harness) for personal learning. Things that bubble up during my daily work or just things I want to learn. --- *Setup* learning/ ├── AGENT.md ├── CURRENT.md ├── linux-admin/ │ └── README.md ├── mcp/ │ └── README.md ├── micro-gpt/ │ └── README.md ├── postgresql/ │ ├── PROGRESS.md │ └── README.md └── rag-v2/ └── README.md - CURRENT.md: current topic's directory path - README.md: topic's learning goals, concepts I want to master - PROGRESS.md: generated and edited by the agent on the fly --- This is ACTIVE learning. As opposed to what Karpathy's LLM Wiki or any personal knowledge base does. The learner undergoes 15-20 minutes learning sprints, tries things hands-on, asks to take notes, goes down the rabbit hole and agent tutor keeps the learning contextual and personal. I have had an excellent experience with this setup so far. Anyone doing this or anything similar? Comments URL: https://news.ycombinator.com/item?id=47959169 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-30T07:03:38.000Z",
+      "score": 107.31,
       "status": "queued"
     },
     {
@@ -6511,6 +6463,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-26T13:23:43.000Z",
       "score": 106.26,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2604.26607",
+      "title": "Human-in-the-Loop Benchmarking of Heterogeneous LLMs for Automated Competency Assessment in Secondary Level Mathematics",
+      "link": "https://arxiv.org/abs/2604.26607",
+      "summary": "arXiv:2604.26607v1 Announce Type: new Abstract: As Competency-Based Education (CBE) is gaining traction around the world, the shift from marks-based assessment to qualitative competency mapping is a manual challenge for educators. This paper tackles the bottleneck issue by suggesting a \"Human-in-the-Loop\" benchmarking framework to assess the effectiveness of multiple LLMs in automating secondary-level mathematics assessment. Based on the Grade 10 Optional Mathematics curriculum in Nepal, we created a multi-dimensional rubric for four topics and four cross-cutting competencies: Comprehension, Knowledge, Operational Fluency, and Behavior and Correlation. The multi-provider ensemble, consisted of open-weight models -- Eagle (Llama 3.1-8B) and Orion (Llama 3.3-70B) -- and proprietary frontier models Nova (Gemini 2.5 Flash) and Lyra (Gemini 3 Pro), was benchmarked against a ground truth defined by two senior mathematics faculty members (kappa_w = 0.8652). The findings show a marked \"Architecture-compatibility gap\". Although the Gemini-based Mixture-of-Experts (Sparse MoE) models achieved \"Fair Agreement\" (kappa_w ~ 0.38), the larger Orion (70B) model exhibited \"No Agreement\" (kappa_w = -0.0261), suggesting that architectural compliance with instruction constraints outweighs the scale of raw parameters in rubric-constrained tasks. We conclude that while LLMs are not yet suitable for",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "score": 104.12,
       "status": "queued"
     },
     {
@@ -6574,6 +6538,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2604.26211",
+      "title": "OMEGA: Optimizing Machine Learning by Evaluating Generated Algorithms",
+      "link": "https://arxiv.org/abs/2604.26211",
+      "summary": "arXiv:2604.26211v1 Announce Type: new Abstract: In order to automate AI research we introduce a full, end-to-end framework, OMEGA: Optimizing Machine learning by Evaluating Generated Algorithms, that starts at idea generation and ends with executable code. Our system combines structured meta-prompt engineering with executable code generation to create new ML classifiers. The OMEGA framework has been utilized to generate several novel algorithms that outperform scikit-learn baselines across a robust selection of 20 benchmark datasets (infinity-bench). You can access models discussed in this paper and more in the python package: pip install omega-models.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "score": 98.12,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.23194",
       "title": "From Coarse to Fine: Self-Adaptive Hierarchical Planning for LLM Agents",
       "link": "https://arxiv.org/abs/2604.23194",
@@ -6610,28 +6586,84 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2243759-ne-parle-jamais-de-gobelins-une-etrange-consigne-cachee-dans-lia-dopenai-provoque-des-debats-sans-fin.html",
-      "title": "« Ne parle jamais de gobelins » : une étrange consigne cachée dans l’IA d’OpenAI provoque des débats sans fin",
-      "link": "https://www.numerama.com/tech/2243759-ne-parle-jamais-de-gobelins-une-etrange-consigne-cachee-dans-lia-dopenai-provoque-des-debats-sans-fin.html",
-      "summary": "Dans les instructions internes de Codex CLI, l’agent de programmation d’OpenAI, une consigne inattendue revient à plusieurs reprises : ne jamais mentionner de gobelins, gremlins, ratons laveurs, trolls, ogres ou pigeons. Cette interdiction, devenue virale, alimente débats et théories en ligne.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-29T14:01:23.000Z",
-      "score": 97.44,
-      "status": "queued"
-    },
-    {
-      "id": "https://twitter.com/TheMidasProj/status/2047692328396034490",
-      "title": "The reporters at this news site are AI bots. OpenAI's super PAC is funding it",
-      "link": "https://twitter.com/TheMidasProj/status/2047692328396034490",
-      "summary": "Article URL: https://twitter.com/TheMidasProj/status/2047692328396034490 Comments URL: https://news.ycombinator.com/item?id=47907960 Points: 3 # Comments: 0",
+      "id": "https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/",
+      "title": "When the Paradigm Shifts: A Zero-Trust Model for AI Agents",
+      "link": "https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/",
+      "summary": "Article URL: https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47950124 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-04-29T15:52:07.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-30T09:57:56.169Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
+      "title": "Microsoft and OpenAI’s famed AGI agreement is dead",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
+      "summary": "OpenAI and Microsoft's partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped. On Monday morning, Microsoft announced a handful of big changes to its long-standing OpenAI deal. Microsoft will remain OpenAI's \"primary cloud partner, and OpenAI products will ship first on Azure…",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 2,
-      "publishedAt": "2026-04-26T06:43:14.000Z",
-      "score": 93.15,
-      "status": "queued"
+      "publishedAt": "2026-04-27T16:15:47.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-30T09:57:56.169Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense.…"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2241659-bevel-la-meilleure-application-pour-suivre-sa-sante-sur-iphone-peut-desormais-calculer-lage-de-votre-corps.html",
+      "title": "Bevel, la meilleure application pour suivre sa santé sur iPhone, peut désormais calculer l’âge de votre corps",
+      "link": "https://www.numerama.com/tech/2241659-bevel-la-meilleure-application-pour-suivre-sa-sante-sur-iphone-peut-desormais-calculer-lage-de-votre-corps.html",
+      "summary": "Avec sa mise à jour 3.0, Bevel, qui analyse les données des montres/bracelets connectés avec de l'intelligence artificielle, se rapproche encore plus des bracelets Whoop. L'application peut vous aider à préparer un marathon, construire un programme d'entraînement, analyser vos résultats sanguins et calculer l'âge de votre corps.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-27T15:57:50.000Z",
+      "score": 150,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-30T09:57:56.169Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
+    },
+    {
+      "id": "https://www.numerama.com/cyberguerre/2242001-cest-entierement-la-faute-de-ce-type-un-agent-ia-ravage-une-base-de-donnees-et-pose-la-question-que-les-vibe-codeurs-evitent.html",
+      "title": "« C’est entièrement la faute de ce type » : un agent IA ravage une base de données et pose la question que les vibe codeurs évitent",
+      "link": "https://www.numerama.com/cyberguerre/2242001-cest-entierement-la-faute-de-ce-type-un-agent-ia-ravage-une-base-de-donnees-et-pose-la-question-que-les-vibe-codeurs-evitent.html",
+      "summary": "Depuis le 25 avril 2026 et la publication de son témoignage sur X, Jer Crane est au cœur d'un débat qui embrase la communauté tech. Le fondateur de PocketOS a vu trois mois de données clients s'évaporer en 9 secondes, la faute à un agent IA. L'entrepreneur tient pour responsables Cursor, Claude Opus et son fournisseur cloud Railway, mais tout le monde n'est pas de son avis.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-28T09:35:51.000Z",
+      "score": 150,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-04-30T09:57:56.169Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
+    },
+    {
+      "id": "https://www.bbc.com/news/articles/cd9pdjgvxj8o?at_medium=RSS&at_campaign=rss",
+      "title": "Why friendly AI chatbots might be less trustworthy",
+      "link": "https://www.bbc.com/news/articles/cd9pdjgvxj8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Researchers found adjusting AI systems to be more warm and friendly to users would result in an \"accuracy trade-off\".",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-04-29T15:00:06.000Z",
+      "score": 118.87,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "ANALYSIS",
+      "failedAtRun": "2026-04-30T09:57:56.169Z",
+      "failureReason": "validation issues: EN: Missing at least one markdown table (decision frame or comparison). | FR: Section \"Exemple concret: ou cela compte\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;…"
     },
     {
       "id": "https://szilard.github.io/xgboost-autoresearch/",
@@ -7432,22 +7464,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-03-31T16:05:15.963Z",
       "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://openviking.ai/",
-      "title": "OpenViking – A Context DataBase for AI Agents",
-      "link": "https://openviking.ai/",
-      "summary": "Article URL: https://openviking.ai/ Comments URL: https://news.ycombinator.com/item?id=47365646 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-13T15:18:07.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-03-31T08:45:30.194Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
