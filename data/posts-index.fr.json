@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-04-29T16:35:06.591Z",
+  "generatedAt": "2026-04-30T16:41:06.259Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-04-30-graphos-local-first-governance-and-visual-debugger-for-langgraph-agents",
+      "title": "GraphOS : gouvernance local-first et débogueur visuel pour agents LangGraph",
+      "date": "2026-04-30",
+      "excerpt": "Guide pas-à‑pas pour lancer GraphOS en local afin de capturer et inspecter des traces d'agents LangGraph, détecter des erreurs de prompt ou d'outils, et déboguer en privé avant un déploiement en cloud.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-04-30-graphos-local-first-governance-and-visual-debugger-for-langgraph-agents.jpg",
+      "tags": [
+        "GraphOS",
+        "LangGraph",
+        "MCP",
+        "observabilité",
+        "gouvernance",
+        "IA",
+        "développement",
+        "débogage local"
+      ],
+      "sources": [
+        "https://github.com/ahmedbutt2015/graphos"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-04-29-gm-to-deploy-googles-gemini-assistant-via-over-the-air-updates-to-about-4-million-2022-cadillac-chevrolet-buick-and-gmc-vehicles",
       "title": "GM déploie l'assistant Google Gemini par OTA sur ~4 millions de véhicules MY2022+ (Cadillac, Chevrolet, Buick, GMC)",
