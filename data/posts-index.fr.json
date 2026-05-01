@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T09:38:44.256Z",
+  "generatedAt": "2026-05-01T16:08:28.241Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-01-seg-convert-binaries-into-structured-json-recon-reports-for-ctfs-and-automation",
+      "title": "seg : convertir des binaires en rapports JSON structurés pour CTFs et automatisation",
+      "date": "2026-05-01",
+      "excerpt": "Guide pas-à-pas pour seg : transformer un fichier binaire en un rapport JSON structuré à stocker, indexer ou fournir à des agents IA, pipelines CI ou collègues — avec une checklist pratique.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-01-seg-convert-binaries-into-structured-json-recon-reports-for-ctfs-and-automation.jpg",
+      "tags": [
+        "seg",
+        "binaries",
+        "recon",
+        "security",
+        "automation",
+        "CTF",
+        "UK",
+        "développement"
+      ],
+      "sources": [
+        "https://github.com/pwnwriter/seg"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

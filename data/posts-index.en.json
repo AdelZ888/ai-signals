@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T09:38:44.255Z",
+  "generatedAt": "2026-05-01T16:08:28.242Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-01-seg-convert-binaries-into-structured-json-recon-reports-for-ctfs-and-automation",
+      "title": "seg: Convert binaries into structured JSON recon reports for CTFs and automation",
+      "date": "2026-05-01",
+      "excerpt": "Step-by-step guide to seg: convert a program binary into a single structured JSON report you can store, index, or feed to AI agents, CI pipelines, or teammates—plus a practical checklist.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-01-seg-convert-binaries-into-structured-json-recon-reports-for-ctfs-and-automation.jpg",
+      "tags": [
+        "seg",
+        "binary-analysis",
+        "ctf",
+        "recon",
+        "ai-agents",
+        "security-tools",
+        "tutorial",
+        "json-reports"
+      ],
+      "sources": [
+        "https://github.com/pwnwriter/seg"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
