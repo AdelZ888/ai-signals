@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-05-01T16:08:28.242Z",
+  "generatedAt": "2026-05-02T09:09:36.689Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-02-aws-strands-agents-an-agent-to-tool-design-that-cut-llm-token-use-by-96percent",
+      "title": "AWS Strands Agents: an agent-to-tool design that cut LLM token use by ~96%",
+      "date": "2026-05-02",
+      "excerpt": "An AWS Strands Agents design moved extraction, summarization and caching out of prompts into deterministic tools, cutting measured LLM token use by ~96% and lowering costs, privacy risk.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-02-aws-strands-agents-an-agent-to-tool-design-that-cut-llm-token-use-by-96percent.jpg",
+      "tags": [
+        "AWS",
+        "Strands",
+        "agents",
+        "token-usage",
+        "cost-optimization",
+        "LLM-ops",
+        "privacy",
+        "tooling"
+      ],
+      "sources": [
+        "https://thenewstack.io/strands-agents-tool-design/"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-05-01-musk-v-openai-trial-tests-the-companys-public-benefit-governance-and-risks-for-products-using-chatgpt",
       "title": "Musk v. OpenAI: trial tests the company's public-benefit governance and risks for products using ChatGPT",

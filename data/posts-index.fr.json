@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-05-01T16:08:28.241Z",
+  "generatedAt": "2026-05-02T09:09:36.690Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-02-aws-strands-agents-an-agent-to-tool-design-that-cut-llm-token-use-by-96percent",
+      "title": "AWS Strands Agents : conception agent→outil qui a réduit l’utilisation de tokens LLM d’environ 96%",
+      "date": "2026-05-02",
+      "excerpt": "Résumé et guide pratique pour équipes et développeurs : l’approche « agent→outil » de Strands externalise l’extraction et la synthèse hors des prompts, réduisant fortement l’usage mesuré de tokens et améliorant coût, testabilité et protection des données. Source : thenewstack.io/strands-agents-tool-design",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-02-aws-strands-agents-an-agent-to-tool-design-that-cut-llm-token-use-by-96percent.jpg",
+      "tags": [
+        "IA",
+        "agents",
+        "LLM",
+        "optimisation",
+        "coûts",
+        "vie privée",
+        "UK",
+        "ingénierie"
+      ],
+      "sources": [
+        "https://thenewstack.io/strands-agents-tool-design/"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-05-01-musk-v-openai-trial-tests-the-companys-public-benefit-governance-and-risks-for-products-using-chatgpt",
       "title": "Musk contre OpenAI : le procès teste la gouvernance à finalité publique de l'entreprise et les risques pour les produits utilisant ChatGPT",
