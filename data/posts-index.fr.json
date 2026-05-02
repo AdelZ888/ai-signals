@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-05-02T09:09:36.690Z",
+  "generatedAt": "2026-05-02T16:27:02.855Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-02-agentic-exploration-of-pde-parameter-spaces-with-latent-foundation-models-multiagent-llms-in-a-tandemcylinder-case-study",
+      "title": "Exploration agentique d'espaces de PDE avec des modèles fondamentaux latents — guide pratique (d'après arXiv:2604.09584)",
+      "date": "2026-05-02",
+      "excerpt": "Traduction et adaptation en français du pattern présenté dans arXiv:2604.09584 : associer un modèle fondamental latent (LFM) — un surrogate génératif compact pour simulations paramétrées — à une orchestration multi‑agent pour explorer automatiquement des espaces de solutions de PDE à coût réduit.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-02-agentic-exploration-of-pde-parameter-spaces-with-latent-foundation-models-multiagent-llms-in-a-tandemcylinder-case-study.jpg",
+      "tags": [
+        "LFMs",
+        "PDE",
+        "surrogate",
+        "LLM",
+        "multi-agent",
+        "CFD",
+        "exploration automatique",
+        "arXiv:2604.09584"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2604.09584"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 480,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-02-aws-strands-agents-an-agent-to-tool-design-that-cut-llm-token-use-by-96percent",
       "title": "AWS Strands Agents : conception agent→outil qui a réduit l’utilisation de tokens LLM d’environ 96%",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-02T09:09:36.700Z",
+  "generatedAt": "2026-05-02T16:27:02.906Z",
   "items": [
+    {
+      "id": "https://arxiv.org/abs/2604.09584",
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "link": "https://arxiv.org/abs/2604.09584",
+      "summary": "arXiv:2604.09584v1 Announce Type: new Abstract: Flow physics and more broadly physical phenomena governed by partial differential equations (PDEs), are inherently continuous, high-dimensional and often chaotic in nature. Traditionally, researchers have explored these rich spatiotemporal PDE solution spaces using laboratory experiments and/or computationally expensive numerical simulations. This severely limits autom…",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-04-14T04:00:00.000Z",
+      "score": 167.32,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-02T16:27:02.839Z",
+      "file": "content/posts/2026-05-02-agentic-exploration-of-pde-parameter-spaces-with-latent-foundation-models-multiagent-llms-in-a-tandemcylinder-case-study.md",
+      "fileFr": "content/posts/fr/2026-05-02-agentic-exploration-of-pde-parameter-spaces-with-latent-foundation-models-multiagent-llms-in-a-tandemcylinder-case-study.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 480,
+      "wordsEn": 1590,
+      "wordsFr": 1456
+    },
     {
       "id": "https://thenewstack.io/strands-agents-tool-design/",
       "title": "Cut AI token usage by 96%?",
@@ -4722,18 +4745,6 @@
       "status": "queued"
     },
     {
-      "id": "https://robotomail.com",
-      "title": "Show HN: Email for AI Agents",
-      "link": "https://robotomail.com",
-      "summary": "Every AI agent should be able to handle email, but all the existing options sucked. So I built Robotomail. One API call. Real mailbox. Full send and receive. Let me know what you think? Comments URL: https://news.ycombinator.com/item?id=47976245 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-01T15:54:30.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=47737029",
       "title": "Ask HN: Agentic AI just makes me sad",
       "link": "https://news.ycombinator.com/item?id=47737029",
@@ -4758,18 +4769,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/gmarland/Agent-Context",
-      "title": "Show HN: Agent Context – let your AI coding tools see your reference projects",
-      "link": "https://github.com/gmarland/Agent-Context",
-      "summary": "I built a small VS Code extension to solve a problem I kept running into. When I’m working on something new, I usually have good reference code somewhere else: - an old service - a starter project - a pattern I’ve used before The problem is that against can't see any of that unless I copy it into the repo. So I built Agent Context. It lets you attach external folders into your current workspace (via symlinks), so: - you can browse them alongside your current project - and your AI tools can use them as context It also maintains a small generated instructions file listing what’s attached, so both humans and AI know what’s available. Typical workflow: - attach something like a “nest-auth-example” project - keep it outside your repo - then prompt: “implement auth like the example in .examples” It’s pretty simple under the hood, but I’ve found it surprisingly useful so I thought I would share. Comments URL: https://news.ycombinator.com/item?id=47919538 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-27T09:39:54.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
       "id": "https://www.numerama.com/tech/2235401-au-fait-pourquoi-claude-sappelle-claude.html",
       "title": "Au fait, pourquoi l’IA Claude d’Anthropic s’appelle Claude ?",
       "link": "https://www.numerama.com/tech/2235401-au-fait-pourquoi-claude-sappelle-claude.html",
@@ -4779,18 +4778,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-01T09:01:00.000Z",
       "score": 168,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.09584",
-      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
-      "link": "https://arxiv.org/abs/2604.09584",
-      "summary": "arXiv:2604.09584v1 Announce Type: new Abstract: Flow physics and more broadly physical phenomena governed by partial differential equations (PDEs), are inherently continuous, high-dimensional and often chaotic in nature. Traditionally, researchers have explored these rich spatiotemporal PDE solution spaces using laboratory experiments and/or computationally expensive numerical simulations. This severely limits automated and large-scale exploration, unlike domains such as drug discovery or materials science, where discrete, tokenizable representations naturally interface with large language models. We address this by coupling multi-agent LLMs with latent foundation models (LFMs), a generative model over parametrised simulations, that learns explicit, compact and disentangled latent representations of flow fields, enabling continuous exploration across governing PDE parameters and boundary conditions. The LFM serves as an on-demand surrogate simulator, allowing agents to query arbitrary parameter configurations at negligible cost. A hierarchical agent architecture orchestrates exploration through a closed loop of hypothesis, experimentation, analysis and verification, with a tool-modular interface requiring no user support. Applied to flow past tandem cylinders at Re = 500, the framework autonomously evaluates over 1,600 parameter-location pairs and discovers divergent scaling la",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-04-14T04:00:00.000Z",
-      "score": 167.32,
       "status": "queued"
     },
     {
@@ -5186,18 +5173,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-04-23T15:42:35.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
-      "title": "Claude can now plug directly into Photoshop, Blender, and Ableton",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
-      "summary": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creative Cloud apps, Affinity, Blender, Ableton, Autodesk, and more. This marks the company's latest efforts to break into the creative industry following its launch of Claude Design earlier this month. The new connectors - which enable Claude to access apps, retrieve data, and take actions within connected services - are \"designed to make it easier to use Claude for creative work,\" according to Anthropic, and can be used for specific functions in each app. The Adobe for creativity connector can draw fr … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-28T16:49:08.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -6726,6 +6701,66 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2235391-au-fait-pourquoi-anthropic-sappelle-anthropic.html",
+      "title": "Au fait, pourquoi Anthropic s’appelle Anthropic ?",
+      "link": "https://www.numerama.com/tech/2235391-au-fait-pourquoi-anthropic-sappelle-anthropic.html",
+      "summary": "Anthropic. Derrière ce nom un peu austère se cache en réalité toute une vision de l’intelligence artificielle : une technologie pensée avant tout dans son rapport à l’humain, et non comme une simple démonstration de puissance.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-02T12:02:00.000Z",
+      "score": 80.22,
+      "status": "queued"
+    },
+    {
+      "id": "https://robotomail.com",
+      "title": "Show HN: Email for AI Agents",
+      "link": "https://robotomail.com",
+      "summary": "Every AI agent should be able to handle email, but all the existing options sucked. So I built Robotomail. One API call. Real mailbox. Full send and receive. Let me know what you think? Comments URL: https://news.ycombinator.com/item?id=47976245 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-01T15:54:30.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-02T15:45:27.973Z",
+      "failureReason": "below min word targets; validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://github.com/gmarland/Agent-Context",
+      "title": "Show HN: Agent Context – let your AI coding tools see your reference projects",
+      "link": "https://github.com/gmarland/Agent-Context",
+      "summary": "I built a small VS Code extension to solve a problem I kept running into. When I’m working on something new, I usually have good reference code somewhere else: - an old service - a starter project - a pattern I’ve used before The problem is that against can't see any of that unless I copy it into the repo. So I built Agent Context. It lets you attach external folders into your current workspace (via symlinks), so: -…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-27T09:39:54.000Z",
+      "score": 168,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-02T15:45:27.973Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3…"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "title": "Claude can now plug directly into Photoshop, Blender, and Ableton",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "summary": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creative Cloud apps, Affinity, Blender, Ableton, Autodesk, and more. This marks the company's latest efforts to break into t…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-28T16:49:08.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-02T15:45:27.973Z",
+      "failureReason": "validation issues: FR: Missing at least one markdown table (decision frame or comparison). | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
       "id": "https://www.bbc.com/news/articles/c5y9wen5z8ro?at_medium=RSS&at_campaign=rss",
       "title": "OpenAI tells ChatGPT models to stop talking about goblins",
       "link": "https://www.bbc.com/news/articles/c5y9wen5z8ro?at_medium=RSS&at_campaign=rss",
@@ -7476,38 +7511,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-04-03T15:38:52.273Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://agenhq.com",
-      "title": "Show HN: Agen: spin up unlimited parallel AI coding agents in the cloud",
-      "link": "https://agenhq.com",
-      "summary": "AI changed the way we code, but we're still using the old processes, and we've become the bottleneck, the AI is waiting for us - to reply, to open our laptops, to review the code, and so on. We're building the future of AI software development. The agents are autonomous, they run in sandboxes, automatically fix the pipelines, and deliver you the final, working code. You can use live preview to see the changes they m…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-23T15:07:33.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-02T16:00:58.156Z",
-      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"Fir…"
-    },
-    {
-      "id": "https://proofshot.argil.io/",
-      "title": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
-      "link": "https://proofshot.argil.io/",
-      "summary": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors. So I built a CLI that lets the agent open a browser, interact with the page, record what happens, and collect any errors. Then it bundles everything — video, screenshots, logs — into a…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-24T07:46:46.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-02T16:00:58.156Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

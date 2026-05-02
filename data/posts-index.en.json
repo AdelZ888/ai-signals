@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-05-02T09:09:36.689Z",
+  "generatedAt": "2026-05-02T16:27:02.853Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-02-agentic-exploration-of-pde-parameter-spaces-with-latent-foundation-models-multiagent-llms-in-a-tandemcylinder-case-study",
+      "title": "Agentic Exploration of PDE Parameter Spaces with Latent Foundation Models — Multi‑Agent LLMs in a Tandem‑Cylinder Case Study",
+      "date": "2026-05-02",
+      "excerpt": "Shows latent foundation models as low-cost simulators paired with multi-agent LLMs to explore PDE spaces - demonstrated on tandem-cylinder flow (Re=500) with 1,600+ evals.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-02-agentic-exploration-of-pde-parameter-spaces-with-latent-foundation-models-multiagent-llms-in-a-tandemcylinder-case-study.jpg",
+      "tags": [
+        "PDE",
+        "latent-models",
+        "surrogate-sim",
+        "multi-agent-LLM",
+        "fluid-dynamics",
+        "tandem-cylinder",
+        "case-study"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2604.09584"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 480,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-05-02-aws-strands-agents-an-agent-to-tool-design-that-cut-llm-token-use-by-96percent",
       "title": "AWS Strands Agents: an agent-to-tool design that cut LLM token use by ~96%",
