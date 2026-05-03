@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T09:33:13.399Z",
+  "generatedAt": "2026-05-03T15:55:28.135Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-03-smarttune-cli-a-repeatable-local-workflow-for-analyzing-ardupilot-betaflight-and-px4-flight-logs",
+      "title": "SmartTune CLI : un workflow local reproductible pour analyser les logs de vol (ArduPilot, Betaflight, PX4) — contexte UK",
+      "date": "2026-05-03",
+      "excerpt": "Guide pas à pas pour exécuter SmartTune CLI localement afin d'analyser des logs de vol ArduPilot, Betaflight et PX4. Workflow reproductible et traçable qui produit rapports de tuning et artefacts — adapté aux petites équipes et fondateurs au Royaume‑Uni.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-03-smarttune-cli-a-repeatable-local-workflow-for-analyzing-ardupilot-betaflight-and-px4-flight-logs.jpg",
+      "tags": [
+        "smarttune",
+        "flight-logs",
+        "ArduPilot",
+        "Betaflight",
+        "PX4",
+        "CLI",
+        "drones",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/raylanlin/smarttune-cli"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-05-02-agentic-exploration-of-pde-parameter-spaces-with-latent-foundation-models-multiagent-llms-in-a-tandemcylinder-case-study",
