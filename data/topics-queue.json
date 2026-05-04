@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-04T10:13:54.505Z",
+  "generatedAt": "2026-05-04T17:03:32.235Z",
   "items": [
+    {
+      "id": "https://github.com/daintreehq/daintree",
+      "title": "Daintreehq/daintree: A delegation environment for orchestrating AI coding agents",
+      "link": "https://github.com/daintreehq/daintree",
+      "summary": "Article URL: https://github.com/daintreehq/daintree Comments URL: https://news.ycombinator.com/item?id=48006433 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-04T09:36:36.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-04T17:03:32.159Z",
+      "file": "content/posts/2026-05-04-daintree-run-ai-coding-agents-per-git-worktree-with-integrated-terminals-and-workflow-hooks.md",
+      "fileFr": "content/posts/fr/2026-05-04-daintree-run-ai-coding-agents-per-git-worktree-with-integrated-terminals-and-workflow-hooks.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1743,
+      "wordsFr": 1413
+    },
     {
       "id": "https://www.numerama.com/tech/2241967-ne-vendez-plus-de-logiciels-et-remplacez-vos-employes-le-nouveau-dogme-des-startups-de-la-silicon-valley.html",
       "title": "Ne vendez plus de logiciels et remplacez vos employés : le nouveau dogme des startups de la Silicon Valley",
@@ -4670,18 +4693,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://www.theregister.com/2026/04/12/ai_open_weights_models/",
-      "title": "The AI divide putting open weights models in spotlight",
-      "link": "https://www.theregister.com/2026/04/12/ai_open_weights_models/",
-      "summary": "Article URL: https://www.theregister.com/2026/04/12/ai_open_weights_models/ Comments URL: https://news.ycombinator.com/item?id=47753483 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-13T15:31:57.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.nature.com/articles/d41586-026-00697-4",
       "title": "AI disease-prediction models were trained on dubious data",
       "link": "https://www.nature.com/articles/d41586-026-00697-4",
@@ -4802,18 +4813,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/daintreehq/daintree",
-      "title": "Daintreehq/daintree: A delegation environment for orchestrating AI coding agents",
-      "link": "https://github.com/daintreehq/daintree",
-      "summary": "Article URL: https://github.com/daintreehq/daintree Comments URL: https://news.ycombinator.com/item?id=48006433 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-04T09:36:36.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/latitude-dev/eval-skills",
       "title": "Evals Skills for AI Agents",
       "link": "https://github.com/latitude-dev/eval-skills",
@@ -4834,6 +4833,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-05-04T09:20:33.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/gregario/the-rouge",
+      "title": "Show HN: The Rouge is my attempt at an AI product factory",
+      "link": "https://github.com/gregario/the-rouge",
+      "summary": "I named the Rouge after Ford's River Rouge complex, it took in raw materials and popped out Model A's at the other end. I've been trying to build the AI equivalent; ideas come in one end, and an MVP pops out the other. It has a UI to manage projects and the \"catalogue\" of capabilities the Rouge has to build with. Building a project has two phases: Spec involves some or all of the following, depending on how big the project is: brainstorming, competitive research, taste evaluation, specs (writes up the user stories the loop tackles one at a time), infrastructure decisions (for the foundation step), design system, legal docs, marketing copy. Each of these disciplines has its own prompt, outputs, and quality gates. Build is then an autonomous build/evaluate/fix loop until it ships. I took inspiration from Karpathy's autoresearch for the build loop. Rouge takes one story at a time, builds it, and then tests it when built. The work is tracked on disk between these loops. The tests are external browser QA, cross-checking specs are completed so the individual LLM doesn't judge itself, the external checks do. There's a fix loop if something breaks so it fixes itself before progressing to the next story and escalates to the user if it can't fix itself. At the end, it uses a gstack inspired skill to do a product walk (without the specs) and give blind feedback in the way a first customer",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-04T16:29:14.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -4943,42 +4954,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-02T07:46:30.000Z",
       "score": 156.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://gitmore.io",
-      "title": "AI agent for querying and understanding Git activity in real time",
-      "link": "https://gitmore.io",
-      "summary": "Article URL: https://gitmore.io Comments URL: https://news.ycombinator.com/item?id=47754156 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-13T16:08:53.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.techradar.com/pro/linux-rules-on-using-ai-generated-code-copilot-is-ok-but-humans-must-take-full-responsibility-for-the-contribution",
-      "title": "Linux rules on using AI-code: Copilot is OK, humans to take full responsibility",
-      "link": "https://www.techradar.com/pro/linux-rules-on-using-ai-generated-code-copilot-is-ok-but-humans-must-take-full-responsibility-for-the-contribution",
-      "summary": "Article URL: https://www.techradar.com/pro/linux-rules-on-using-ai-generated-code-copilot-is-ok-but-humans-must-take-full-responsibility-for-the-contribution Comments URL: https://news.ycombinator.com/item?id=47754042 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-13T16:02:11.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/prathyushnallamothu/nexus",
-      "title": "I'm building an AI agent that learns from every task",
-      "link": "https://github.com/prathyushnallamothu/nexus",
-      "summary": "Article URL: https://github.com/prathyushnallamothu/nexus Comments URL: https://news.ycombinator.com/item?id=47753939 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-13T15:56:48.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5306,6 +5281,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.404media.co/literacy-in-future-technologies-artificial-intelligence-act-adam-schiff-mike-rounds/",
+      "title": "OpenAI, Google, and Microsoft Back Bill to Fund 'AI Literacy' in Schools",
+      "link": "https://www.404media.co/literacy-in-future-technologies-artificial-intelligence-act-adam-schiff-mike-rounds/",
+      "summary": "Article URL: https://www.404media.co/literacy-in-future-technologies-artificial-intelligence-act-adam-schiff-mike-rounds/ Comments URL: https://news.ycombinator.com/item?id=48010774 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-04T16:21:38.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://aidemos.atmeta.com/tribev2/",
+      "title": "Tribe v2: An AI Model of the Human Brain, Predicting Neural Responses",
+      "link": "https://aidemos.atmeta.com/tribev2/",
+      "summary": "Article URL: https://aidemos.atmeta.com/tribev2/ Comments URL: https://news.ycombinator.com/item?id=48010585 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-04T16:11:46.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
+      "title": "OpenAI Finalizes $10B Joint Venture with PE Firms to Deploy AI",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai Comments URL: https://news.ycombinator.com/item?id=48010578 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-04T16:11:28.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
       "title": "AI chatbots need 'deception mode'",
       "link": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
@@ -5534,6 +5545,18 @@
       "status": "queued"
     },
     {
+      "id": "https://bhavyagupta.dev/posts/llm-document-extractors-fixed-point",
+      "title": "LLM-first document AI is missing a 50-year-old CS technique",
+      "link": "https://bhavyagupta.dev/posts/llm-document-extractors-fixed-point",
+      "summary": "Article URL: https://bhavyagupta.dev/posts/llm-document-extractors-fixed-point Comments URL: https://news.ycombinator.com/item?id=48010017 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-04T15:34:23.000Z",
+      "score": 137.42,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.12116",
       "title": "The A-R Behavioral Space: Execution-Level Profiling of Tool-Using Language Model Agents in Organizational Deployment",
       "link": "https://arxiv.org/abs/2604.12116",
@@ -5591,6 +5614,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-14T14:54:25.000Z",
       "score": 134.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/gangtao/AgentPitch/",
+      "title": "Show HN: A Soccer Game Simulator Played by AI Agent",
+      "link": "https://github.com/gangtao/AgentPitch/",
+      "summary": "Article URL: https://github.com/gangtao/AgentPitch/ Comments URL: https://news.ycombinator.com/item?id=48009970 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-04T15:32:02.000Z",
+      "score": 134.17,
       "status": "queued"
     },
     {
@@ -5843,18 +5878,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-04-14T14:43:12.000Z",
       "score": 121.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
-      "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
-      "summary": "The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's xAI, and the startup Reflection, allowing the agency to use their AI tools in classified settings, according to an announcement on Friday. At the same time, the Defense Department has left out Anthropic - which it previously used for classified information - after declaring it a supply-chain risk. This builds upon deals with OpenAI and xAI, which have already reached agreements with the Pentagon for the \"lawful\" use of their AI systems. A report from The Information suggests Google has struck a similar agreement. As noted by The Wall Street Journal, Mi … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-01T14:09:56.000Z",
-      "score": 121.17,
       "status": "queued"
     },
     {
@@ -6374,6 +6397,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/shark-auth/shark",
+      "title": "Show HN: SharkAuth – Auth server for AI agent delegation",
+      "link": "https://github.com/shark-auth/shark",
+      "summary": "Article URL: https://github.com/shark-auth/shark Comments URL: https://news.ycombinator.com/item?id=48009669 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-04T15:07:51.000Z",
+      "score": 109.82,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.23178",
       "title": "Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines",
       "link": "https://arxiv.org/abs/2604.23178",
@@ -6638,6 +6673,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "title": "Building a new enterprise AI services company with Blackstone, H&F, and Goldman",
+      "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "summary": "Article URL: https://www.anthropic.com/news/enterprise-ai-services-company Comments URL: https://news.ycombinator.com/item?id=48009638 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-04T15:04:59.000Z",
+      "score": 101.72,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
       "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
       "link": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
@@ -6782,40 +6829,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
-      "title": "AI music is flooding streaming services — but who wants it?",
-      "link": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on how AI is changing music and the music industry, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The use of generative AI in pop music started almost as a gimmick. There was a sense of experimentalism to 2018's I AM AI by Taryn Southern and 2019's Proto by Holly Herndon, albums that were created with significant assistance from AI. Others got in on the action too, exploring the outer limits of tools like Google's Magenta and even training their own mod … Read the full story at The Verge.",
+      "id": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+      "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+      "summary": "The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's xAI, and the startup Reflection, allowing the agency to use their AI tools in classified settings, according to an announcement on Friday. At the same time, the Defense Department has left out Anthropic - which it previously used for classified information - after declaring it a supply-chain risk. This builds upon deals with Op…",
       "source": "The Verge AI",
       "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-05-03T12:00:00.000Z",
-      "score": 73.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.tokenando.ai",
-      "title": "Specialised Intelligence Platform for the Business and Economics of AI",
-      "link": "https://www.tokenando.ai",
-      "summary": "Article URL: https://www.tokenando.ai Comments URL: https://news.ycombinator.com/item?id=48005560 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-04T07:06:48.000Z",
-      "score": 70.39,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/choco",
-      "title": "Choco automates food distribution with AI agents",
-      "link": "https://openai.com/index/choco",
-      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-27T00:00:00.000Z",
-      "score": 66.75,
-      "status": "queued"
+      "publishedAt": "2026-05-01T14:09:56.000Z",
+      "score": 121.17,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-04T16:45:24.054Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://reposit.bot/",

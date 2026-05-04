@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-05-04T10:13:54.495Z",
+  "generatedAt": "2026-05-04T17:03:32.174Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-04-daintree-run-ai-coding-agents-per-git-worktree-with-integrated-terminals-and-workflow-hooks",
+      "title": "Daintree — exécuter des agents de codage IA par worktree git avec terminaux intégrés et hooks de workflow",
+      "date": "2026-05-04",
+      "excerpt": "Daintree exécute des agents de codage IA (Claude, Gemini, Codex) dans des git worktrees isolés, injecte le contexte de fichiers et fournit un terminal intégré plus des hooks de workflow pour des changements sûrs et examinables.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-04-daintree-run-ai-coding-agents-per-git-worktree-with-integrated-terminals-and-workflow-hooks.jpg",
+      "tags": [
+        "IA",
+        "agents",
+        "git",
+        "worktree",
+        "Daintree",
+        "devops",
+        "sécurité"
+      ],
+      "sources": [
+        "https://github.com/daintreehq/daintree"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-04-y-combinators-2026-rfs-build-ai-native-services-that-replace-human-providers-and-sell-outcomes",
       "title": "RFS 2026 de Y Combinator : construire des services AI‑native qui remplacent des prestataires humains et vendre des résultats",
