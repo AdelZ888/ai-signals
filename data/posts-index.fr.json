@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T10:40:07.458Z",
+  "generatedAt": "2026-05-05T16:50:42.217Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps",
+      "title": "The Rouge — un workflow open-source build→evaluate→fix pour livrer des MVPs IA",
+      "date": "2026-05-05",
+      "excerpt": "Présentation du dépôt The Rouge : un workflow open-source qui transforme des idées en récits MVP via une phase de spécification et des boucles répétables build→evaluate→fix avec contrôles externes et règles d'escalade.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps.jpg",
+      "tags": [
+        "IA",
+        "workflow",
+        "MVP",
+        "open-source",
+        "développement itératif",
+        "évaluation"
+      ],
+      "sources": [
+        "https://github.com/gregario/the-rouge"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-05-04-daintree-run-ai-coding-agents-per-git-worktree-with-integrated-terminals-and-workflow-hooks",

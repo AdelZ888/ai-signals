@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-05T10:40:07.468Z",
+  "generatedAt": "2026-05-05T16:50:42.279Z",
   "items": [
+    {
+      "id": "https://github.com/gregario/the-rouge",
+      "title": "Show HN: The Rouge is my attempt at an AI product factory",
+      "link": "https://github.com/gregario/the-rouge",
+      "summary": "I named the Rouge after Ford's River Rouge complex, it took in raw materials and popped out Model A's at the other end. I've been trying to build the AI equivalent; ideas come in one end, and an MVP pops out the other. It has a UI to manage projects and the \"catalogue\" of capabilities the Rouge has to build with. Building a project has two phases: Spec involves some or all of the following, depending on how big the…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-04T16:29:14.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-05T16:50:42.202Z",
+      "file": "content/posts/2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps.md",
+      "fileFr": "content/posts/fr/2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1530,
+      "wordsFr": 1552
+    },
     {
       "id": "https://www.numerama.com/tech/2245675-chatgpt-gemini-et-claude-auraient-explique-comment-creer-des-armes-biologiques.html",
       "title": "ChatGPT, Gemini et Claude auraient expliqué comment créer des armes biologiques",
@@ -4824,18 +4847,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/latitude-dev/eval-skills",
-      "title": "Evals Skills for AI Agents",
-      "link": "https://github.com/latitude-dev/eval-skills",
-      "summary": "Article URL: https://github.com/latitude-dev/eval-skills Comments URL: https://news.ycombinator.com/item?id=48006381 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-04T09:27:48.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=IOoLqw4n4_g",
       "title": "Are AI agents a scam? [video]",
       "link": "https://www.youtube.com/watch?v=IOoLqw4n4_g",
@@ -4848,18 +4859,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/gregario/the-rouge",
-      "title": "Show HN: The Rouge is my attempt at an AI product factory",
-      "link": "https://github.com/gregario/the-rouge",
-      "summary": "I named the Rouge after Ford's River Rouge complex, it took in raw materials and popped out Model A's at the other end. I've been trying to build the AI equivalent; ideas come in one end, and an MVP pops out the other. It has a UI to manage projects and the \"catalogue\" of capabilities the Rouge has to build with. Building a project has two phases: Spec involves some or all of the following, depending on how big the project is: brainstorming, competitive research, taste evaluation, specs (writes up the user stories the loop tackles one at a time), infrastructure decisions (for the foundation step), design system, legal docs, marketing copy. Each of these disciplines has its own prompt, outputs, and quality gates. Build is then an autonomous build/evaluate/fix loop until it ships. I took inspiration from Karpathy's autoresearch for the build loop. Rouge takes one story at a time, builds it, and then tests it when built. The work is tracked on disk between these loops. The tests are external browser QA, cross-checking specs are completed so the individual LLM doesn't judge itself, the external checks do. There's a fix loop if something breaks so it fixes itself before progressing to the next story and escalates to the user if it can't fix itself. At the end, it uses a gstack inspired skill to do a product walk (without the specs) and give blind feedback in the way a first customer",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-04T16:29:14.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/alex-reysa/pm-go",
       "title": "Turn a feature spec into reviewed, merged code with bounded AI agents",
       "link": "https://github.com/alex-reysa/pm-go",
@@ -4868,6 +4867,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-05-05T08:59:40.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.ft.com/content/c4435dd4-00c0-4270-aab9-3c7ce1ae45f6",
+      "title": "Google, xAI and Microsoft agree to US national security reviews of new AI models",
+      "link": "https://www.ft.com/content/c4435dd4-00c0-4270-aab9-3c7ce1ae45f6",
+      "summary": "Article URL: https://www.ft.com/content/c4435dd4-00c0-4270-aab9-3c7ce1ae45f6 Comments URL: https://news.ycombinator.com/item?id=48024043 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-05T15:40:33.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -4917,6 +4928,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-20T15:04:15.000Z",
       "score": 164.44,
+      "status": "queued"
+    },
+    {
+      "id": "https://docs.vennio.app",
+      "title": "Vennio – scheduling API for developers and AI agents (MCP-native)",
+      "link": "https://docs.vennio.app",
+      "summary": "Article URL: https://docs.vennio.app Comments URL: https://news.ycombinator.com/item?id=48023716 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-05T15:18:08.000Z",
+      "score": 163.08,
       "status": "queued"
     },
     {
@@ -4980,6 +5003,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.youtube.com/watch?v=C-6Zo1JvZkE",
+      "title": "AI inference infrastructure built on small and nano models",
+      "link": "https://www.youtube.com/watch?v=C-6Zo1JvZkE",
+      "summary": "Article URL: https://www.youtube.com/watch?v=C-6Zo1JvZkE Comments URL: https://news.ycombinator.com/item?id=48023479 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-05T15:01:49.000Z",
+      "score": 159.46,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47984321",
       "title": "Ask HN: Should AI agents have their own legal entities?",
       "link": "https://news.ycombinator.com/item?id=47984321",
@@ -4989,30 +5024,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-02T07:46:30.000Z",
       "score": 156.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://stripepartners.substack.com/p/this-months-frame-using-actor-network",
-      "title": "Using Actor Network Theory to rethink work in the age of generative AI",
-      "link": "https://stripepartners.substack.com/p/this-months-frame-using-actor-network",
-      "summary": "Article URL: https://stripepartners.substack.com/p/this-months-frame-using-actor-network Comments URL: https://news.ycombinator.com/item?id=47767333 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-14T15:55:44.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://aichatspot.online/ai-agent-security-vulnerabilities-risks-attacks-and-protection-strategies/",
-      "title": "AI Agent Security Vulnerabilities: Risks, Attacks, and Protection Strategies",
-      "link": "https://aichatspot.online/ai-agent-security-vulnerabilities-risks-attacks-and-protection-strategies/",
-      "summary": "Article URL: https://aichatspot.online/ai-agent-security-vulnerabilities-risks-attacks-and-protection-strategies/ Comments URL: https://news.ycombinator.com/item?id=47766739 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-14T15:14:26.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5352,6 +5363,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/zhangfengcdt/memoir",
+      "title": "Memoir – Git for AI agent memory, with a Claude Code plugin",
+      "link": "https://github.com/zhangfengcdt/memoir",
+      "summary": "Article URL: https://github.com/zhangfengcdt/memoir Comments URL: https://news.ycombinator.com/item?id=48024243 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-05T15:54:54.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://apps.apple.com/us/app/unsnooze-challenge-alarm-clock/id6758871228",
+      "title": "App I made to make waking up more fun (not an Agentic AI B2B SaaS startup)",
+      "link": "https://apps.apple.com/us/app/unsnooze-challenge-alarm-clock/id6758871228",
+      "summary": "Article URL: https://apps.apple.com/us/app/unsnooze-challenge-alarm-clock/id6758871228 Comments URL: https://news.ycombinator.com/item?id=48024191 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-05T15:51:49.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
       "title": "AI chatbots need 'deception mode'",
       "link": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
@@ -5448,6 +5483,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.sap.com/2026/05/sap-to-acquire-dremio-unify-sap-and-non-sap-data-power-agentic-ai/",
+      "title": "SAP to Acquire Dremio to Unify SAP and Non-SAP Data to Power Agentic AI",
+      "link": "https://news.sap.com/2026/05/sap-to-acquire-dremio-unify-sap-and-non-sap-data-power-agentic-ai/",
+      "summary": "Article URL: https://news.sap.com/2026/05/sap-to-acquire-dremio-unify-sap-and-non-sap-data-power-agentic-ai/ Comments URL: https://news.ycombinator.com/item?id=48023793 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-05T15:22:08.000Z",
+      "score": 152.11,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/pmarca/status/2051374498994364529",
       "title": "Current AI Custom Prompt",
       "link": "https://twitter.com/pmarca/status/2051374498994364529",
@@ -5496,15 +5543,15 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/the-void-ia/void-box",
-      "title": "Running AI agents in microVMs instead of containers",
-      "link": "https://github.com/the-void-ia/void-box",
-      "summary": "Article URL: https://github.com/the-void-ia/void-box Comments URL: https://news.ycombinator.com/item?id=47766432 Points: 2 # Comments: 1",
+      "id": "https://susam.net/inverse-laws-of-robotics.html",
+      "title": "Three Inverse Laws of AI",
+      "link": "https://susam.net/inverse-laws-of-robotics.html",
+      "summary": "Article URL: https://susam.net/inverse-laws-of-robotics.html Comments URL: https://news.ycombinator.com/item?id=48023861 Points: 48 # Comments: 12",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-14T14:52:25.000Z",
-      "score": 149.73,
+      "keywordHits": 2,
+      "publishedAt": "2026-05-05T15:27:18.000Z",
+      "score": 150,
       "status": "queued"
     },
     {
@@ -5556,18 +5603,6 @@
       "status": "queued"
     },
     {
-      "id": "https://broodlink.ai",
-      "title": "Broodlink – Multi-agent AI orchestration built for governance, in Rust",
-      "link": "https://broodlink.ai",
-      "summary": "Article URL: https://broodlink.ai Comments URL: https://news.ycombinator.com/item?id=47766551 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-14T15:00:50.000Z",
-      "score": 143.79,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.27151",
       "title": "Step-level Optimization for Efficient Computer-use Agents",
       "link": "https://arxiv.org/abs/2604.27151",
@@ -5577,6 +5612,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-05-01T04:00:00.000Z",
       "score": 142.14,
+      "status": "queued"
+    },
+    {
+      "id": "https://darkmatterhub.ai",
+      "title": "DarkMatter: Tamper-evident audit trail for AI agent decisions",
+      "link": "https://darkmatterhub.ai",
+      "summary": "Article URL: https://darkmatterhub.ai Comments URL: https://news.ycombinator.com/item?id=48023688 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-05T15:15:48.000Z",
+      "score": 141.35,
       "status": "queued"
     },
     {
@@ -5661,18 +5708,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "score": 134.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.wsj.com/tech/ai/coreweave-anthropic-form-ai-cloud-agreement-13021a5b",
-      "title": "CoreWeave, Anthropic Form AI Cloud Agreement",
-      "link": "https://www.wsj.com/tech/ai/coreweave-anthropic-form-ai-cloud-agreement-13021a5b",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/coreweave-anthropic-form-ai-cloud-agreement-13021a5b Comments URL: https://news.ycombinator.com/item?id=47766458 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-14T14:54:25.000Z",
-      "score": 134.35,
       "status": "queued"
     },
     {
@@ -5952,18 +5987,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/cjchanh/fleet-watch",
-      "title": "Show HN: Fleet Watch – preflight guard for local AI inference on Apple Silicon",
-      "link": "https://github.com/cjchanh/fleet-watch",
-      "summary": "Article URL: https://github.com/cjchanh/fleet-watch Comments URL: https://news.ycombinator.com/item?id=47766303 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-14T14:43:12.000Z",
-      "score": 121.28,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.13488",
       "title": "Towards Scalable Lightweight GUI Agents via Multi-role Orchestration",
       "link": "https://arxiv.org/abs/2604.13488",
@@ -6093,6 +6116,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-04-30T04:00:00.000Z",
       "score": 116.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/924063/openai-phone-rumors-2027-ming-chi-kuo",
+      "title": "OpenAI is reportedly launching a phone for ChatGPT",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/924063/openai-phone-rumors-2027-ming-chi-kuo",
+      "summary": "OpenAI's first hardware product might be a phone instead of a mysterious Jony Ive gadget. As reported by MacRumors, supply chain analyst Ming-Chi Kuo shared details about the rumored phone, claiming OpenAI is \"fast-tracking\" it and aiming to start mass production in early 2027. According to Kuo, the phone will run on a \"customized version of the [MediaTek] Dimensity 9600,\" which is expected to launch this fall and follow up the Dimensity 9500 currently powering phones like the Vivo X300 Pro and the Oppo Find X9 Pro. The custom chip's \"headline spec\" will be its image signal processor (ISP), which will have \"enhanced HDR\" that Kuo says wi … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-05T14:54:00.000Z",
+      "score": 115.89,
       "status": "queued"
     },
     {
@@ -6792,6 +6827,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/923974/ai-car-design-codex-vergecast",
+      "title": "What an AI-designed car looks like",
+      "link": "https://www.theverge.com/podcast/923974/ai-car-design-codex-vergecast",
+      "summary": "The cars rolling off production lines right now are filled with old ideas. From beginning to end, the creation of a new vehicle can take five years or longer - which is plenty of time for a lot of tastes, politics, and gas prices to change. That's one reason car manufacturers are so enthusiastic about the potential for AI to help speed up certain parts of the process, from model-making to wind-tunneling. LLMs could be poised to change the way we get around. Verge subscribers, don't forget you get exclusive access to ad-free Vergecast wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. On this episode of T … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-05T13:42:18.000Z",
+      "score": 86.49,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.00412",
       "title": "Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling",
       "link": "https://arxiv.org/abs/2605.00412",
@@ -6814,6 +6861,38 @@
       "publishedAt": "2026-05-03T12:03:47.000Z",
       "score": 86.21,
       "status": "queued"
+    },
+    {
+      "id": "https://github.com/latitude-dev/eval-skills",
+      "title": "Evals Skills for AI Agents",
+      "link": "https://github.com/latitude-dev/eval-skills",
+      "summary": "Article URL: https://github.com/latitude-dev/eval-skills Comments URL: https://news.ycombinator.com/item?id=48006381 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-04T09:27:48.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-05T16:24:10.272Z",
+      "failureReason": "validation issues: EN: First section \"TL;DR in plain English\" is too jargon-heavy. Explain the change in plain language before technical terms. | EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: First section \"TL;DR en langage simple\" is too jargon-heavy. Explain the change in plain language before technical terms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier ca…"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/924017/google-microsoft-xai-government-review",
+      "title": "Google, Microsoft, and xAI will allow the US government to review their new AI models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/924017/google-microsoft-xai-government-review",
+      "summary": "Google DeepMind, Microsoft, and Elon Musk's xAI have agreed to allow the US government to review new AI models before they're released to the public. In an announcement on Tuesday, the Commerce Department's Center for AI Standards and Innovation (CAISI) says it will work with the AI companies to perform \"pre-deployment evaluations and targeted research to better assess frontier AI capabilities.\" CAISI, which started…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-05T14:26:59.000Z",
+      "score": 139.46,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-05T16:24:10.272Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://www.nature.com/articles/d41586-026-00697-4",
@@ -7646,54 +7725,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-04-07T16:10:10.974Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/michaelkenealy/blindkey",
-      "title": "BlindKey – Blind credential injection for AI agents (open source)",
-      "link": "https://github.com/michaelkenealy/blindkey",
-      "summary": "Article URL: https://github.com/michaelkenealy/blindkey Comments URL: https://news.ycombinator.com/item?id=47598305 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-01T08:26:16.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-05T15:33:09.353Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://github.com/AmerSarhan/darce-cli",
-      "title": "Darce – AI coding agent for your terminal, any model, 14 kB",
-      "link": "https://github.com/AmerSarhan/darce-cli",
-      "summary": "Article URL: https://github.com/AmerSarhan/darce-cli Comments URL: https://news.ycombinator.com/item?id=47602373 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-01T15:40:32.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-05T15:33:09.353Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://github.com/samleeney/tmux-agent-status",
-      "title": "Show HN: Tmux-agent-status – a tmux sidebar for monitoring AI coding agents",
-      "link": "https://github.com/samleeney/tmux-agent-status",
-      "summary": "Article URL: https://github.com/samleeney/tmux-agent-status Comments URL: https://news.ycombinator.com/item?id=47611493 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-02T08:20:43.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-05T15:33:09.353Z",
-      "failureReason": "validation issues: EN: Tutorial missing a concrete config artifact (YAML/JSON/.env/Dockerfile).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

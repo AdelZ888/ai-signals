@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T10:40:07.456Z",
+  "generatedAt": "2026-05-05T16:50:42.219Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps",
+      "title": "The Rouge — an open-source build→evaluate→fix workflow for shipping AI MVPs",
+      "date": "2026-05-05",
+      "excerpt": "Walkthrough of The Rouge repo: an open-source workflow that turns ideas into MVP stories via a spec phase and repeatable build→evaluate→fix loops with external checks and escalation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps.jpg",
+      "tags": [
+        "the-rouge",
+        "ai-product-factory",
+        "iterative-development",
+        "autoresearch",
+        "llm-workflows",
+        "qa",
+        "open-source",
+        "prompt-engineering"
+      ],
+      "sources": [
+        "https://github.com/gregario/the-rouge"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
