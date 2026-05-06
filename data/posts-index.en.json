@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T10:32:33.561Z",
+  "generatedAt": "2026-05-06T17:09:02.041Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-06-postbrain-team-focused-long-term-memory-for-ai-coding-agents-postgresql-pgvector",
+      "title": "Postbrain: team-focused long-term memory for AI coding agents (PostgreSQL + pg_vector)",
+      "date": "2026-05-06",
+      "excerpt": "Practical guide to running Postbrain locally: a team long-term memory for AI coding agents with PostgreSQL and pg_vector. Covers setup, scopes, artifacts and promotion rules.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-06-postbrain-team-focused-long-term-memory-for-ai-coding-agents-postgresql-pgvector.jpg",
+      "tags": [
+        "postbrain",
+        "postgresql",
+        "pg_vector",
+        "ai-agents",
+        "long-term-memory",
+        "team-collaboration",
+        "open-source",
+        "developer-tools"
+      ],
+      "sources": [
+        "https://github.com/simplyblock/postbrain"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-05-05-new-york-times-investigation-chatgpt-gemini-and-claude-sometimes-returned-step-by-step-guidance-for-creating-and-dispersing-biological-agents",
