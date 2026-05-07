@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-07T10:24:51.509Z",
+  "generatedAt": "2026-05-07T16:58:38.834Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
+      "title": "OpenClaw and Claude can put your AI-generated podcasts in Spotify",
+      "link": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
+      "summary": "Save to Spotify is a new command-line tool designed specifically for AI agents like OpenClaw, Claude Code, or OpenAI Codex. If you're the kind of person who collects research on a topic, then feeds it through their AI of choice to create audio summaries and personal podcasts, this lets you save them right alongside the latest episode of The Vergecast and Welcome to Night Vale on Spotify. To set it up, you need to do…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-07T14:15:40.000Z",
+      "score": 112.67,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-07T16:58:38.751Z",
+      "file": "content/posts/2026-05-07-save-to-spotify-cli-lets-openclaw-and-claude-upload-aigenerated-podcast-episodes.md",
+      "fileFr": "content/posts/fr/2026-05-07-save-to-spotify-cli-lets-openclaw-and-claude-upload-aigenerated-podcast-episodes.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1370,
+      "wordsFr": 1296
+    },
     {
       "id": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
       "title": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens",
@@ -4808,18 +4831,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48047428",
-      "title": "Ask HN: Real life autonomous AI Agents",
-      "link": "https://news.ycombinator.com/item?id=48047428",
-      "summary": "Is there a place where I can read real use cases / actual deployments of AI Agents? The internet is flooded with examples similar to below but these in my head are not true AI Agents right? 1. If email arrives with pdf, check pdf for invoice information and put it in a google sheet is not a AI Agent? Its a workflow that now has llm call as a node 2. Check my google search console and suggest ideas for SEO - This again is a cron job (run every xhrs), collate information and feed it into a llm to generate ideas. This is a workflow as well. 3. personal assistants - I ask for information and llm figures out which tool to call and gets it and writes to a database perhaps coding agents which do some stuff autonoumously when prompted is a good example. Is there a compilation of real use case anywhere online? Comments URL: https://news.ycombinator.com/item?id=48047428 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-07T09:51:08.000Z",
-      "score": 198,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=48047444",
       "title": "Show HN: Desktop Agent Center – Local AI Automation via Hotkeys",
       "link": "https://news.ycombinator.com/item?id=48047444",
@@ -5132,6 +5143,18 @@
       "status": "queued"
     },
     {
+      "id": "https://statewright.ai/",
+      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+      "link": "https://statewright.ai/",
+      "summary": "Article URL: https://statewright.ai/ Comments URL: https://news.ycombinator.com/item?id=48050749 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-07T15:40:17.000Z",
+      "score": 157.34,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47984321",
       "title": "Ask HN: Should AI agents have their own legal entities?",
       "link": "https://news.ycombinator.com/item?id=47984321",
@@ -5141,18 +5164,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-02T07:46:30.000Z",
       "score": 156.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.axios.com/2026/04/16/anthropic-claude-power-user-complaints",
-      "title": "Anthropic's AI downgrade stings power users",
-      "link": "https://www.axios.com/2026/04/16/anthropic-claude-power-user-complaints",
-      "summary": "Article URL: https://www.axios.com/2026/04/16/anthropic-claude-power-user-complaints Comments URL: https://news.ycombinator.com/item?id=47794717 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-16T15:29:30.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5500,6 +5511,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-07T09:34:34.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://slowmist.medium.com/behind-the-grok-exploitation-an-analysis-of-ai-agent-permission-chain-abuse-4d832d1bfc73",
+      "title": "Behind the Grok exploitation: an analysis of AI agent permission chain abuse",
+      "link": "https://slowmist.medium.com/behind-the-grok-exploitation-an-analysis-of-ai-agent-permission-chain-abuse-4d832d1bfc73",
+      "summary": "Article URL: https://slowmist.medium.com/behind-the-grok-exploitation-an-analysis-of-ai-agent-permission-chain-abuse-4d832d1bfc73 Comments URL: https://news.ycombinator.com/item?id=48051251 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-07T16:20:16.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5909,6 +5932,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-04-30T08:25:46.000Z",
       "score": 132.14,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/ReviewStage/stage-cli",
+      "title": "Show HN: Stage CLI – a tool to make reading your AI generated changes easier",
+      "link": "https://github.com/ReviewStage/stage-cli",
+      "summary": "Hey HN! We're Charles and Dean. A few weeks ago we posted about Stage, a code review tool that guides you through reading a PR step by step - https://news.ycombinator.com/item?id=47796818. We got a lot of great feedback but also heard from many people that they wanted to have the chapters experience even before opening a PR… so we built the Stage CLI as the local, open-source version that anyone can try. Here’s a quick demo video: https://www.tella.tv/video/stage-cli-demo-f55q It works with any coding agent of your choice. The skill instructs the agent to read your current branch’s changes, break them down into separate logical chapters, and open them in a local browser. We’ve found that reading changes this way is a lot easier for us than reading them in an IDE or other similar CLI tools, which present diffs to you in repository tree order. You can see a few examples of what it feels like here: https://stagereview.app/explore. Try it out and let us know what you think! Would love to hear any feedback :) Comments URL: https://news.ycombinator.com/item?id=48050732 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-07T15:38:36.000Z",
+      "score": 130.9,
       "status": "queued"
     },
     {
@@ -6692,18 +6727,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/913068/canva-ai-2-update-prompt-based-editing-availability",
-      "title": "Canva’s AI 2.0 update goes all in on prompt-powered design tools",
-      "link": "https://www.theverge.com/tech/913068/canva-ai-2-update-prompt-based-editing-availability",
-      "summary": "Canva has overhauled its design and workspace suite as it attempts to become the ultimate centralized hub for AI-powered content creation. The platform announced its Canva AI 2.0 update today, introducing updated tools and new prompt-based editing capabilities that allow users to make or adjust their work by describing what they want to create to Canva's AI assistant in their own words. The update includes a new orchestration layer for Canva's AI models that lets creatives and marketers access the platform's entire suite of tools from a single, unified conversational interface. That means users can ask the chatbot to perform actions like \"c … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-16T13:07:09.000Z",
-      "score": 108.8,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
       "title": "Tumbler Ridge families are suing OpenAI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
@@ -6860,6 +6883,18 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/parloa",
+      "title": "Parloa builds service agents customers want to talk to",
+      "link": "https://openai.com/index/parloa",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-07T11:00:00.000Z",
+      "score": 104.58,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.00245",
       "title": "ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts",
       "link": "https://arxiv.org/abs/2605.00245",
@@ -6932,28 +6967,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
-      "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
-      "summary": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday, saying that the open-source model can compete with leading closed-source systems from US rivals including Anthropic, Google, and OpenAI. DeepSeek says V4 marks a major improvement over prior models, especially in coding, a capability that has become central to AI agents and helped drive the success of tools like ChatGPT Codex and Claude Code. The release is also a milestone for China's chip industry, with DeepSeek explicitly highlighting compatibility with domestic Huawei technology. The release comes a year after DeepSeek rattl … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-24T09:45:30.000Z",
-      "score": 101.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.20972",
-      "title": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
-      "link": "https://arxiv.org/abs/2604.20972",
-      "summary": "arXiv:2604.20972v1 Announce Type: new Abstract: Content moderation systems are typically evaluated by measuring agreement with human labels. In rule-governed environments this assumption fails: multiple decisions may be logically consistent with the governing policy, and agreement metrics penalize valid decisions while mischaracterizing ambiguity as error - a failure mode we term the Agreement Trap. We formalize evaluation as policy-grounded correctness and introduce the Defensibility Index (DI) and Ambiguity Index (AI). To estimate reasoning stability without additional audit passes, we introduce the Probabilistic Defensibility Signal (PDS), derived from audit-model token logprobs. We harness LLM reasoning traces as a governance signal rather than a classification output by deploying the audit model not to decide whether content violates policy, but to verify whether a proposed decision is logically derivable from the governing rule hierarchy. We validate the framework on 193,000+ Reddit moderation decisions across multiple communities and evaluation cohorts, finding a 33-46.6 percentage-point gap between agreement-based and policy-grounded metrics, with 79.8-80.6% of the model's false negatives corresponding to policy-grounded decisions rather than true errors. We further show that measured ambiguity is driven by rule specificity: auditing 37,286 identical decisions under thr",
-      "source": "ArXiv cs.AI",
+      "id": "https://news.ycombinator.com/item?id=48047428",
+      "title": "Ask HN: Real life autonomous AI Agents",
+      "link": "https://news.ycombinator.com/item?id=48047428",
+      "summary": "Is there a place where I can read real use cases / actual deployments of AI Agents? The internet is flooded with examples similar to below but these in my head are not true AI Agents right? 1. If email arrives with pdf, check pdf for invoice information and put it in a google sheet is not a AI Agent? Its a workflow that now has llm call as a node 2. Check my google search console and suggest ideas for SEO - This aga…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-24T04:00:00.000Z",
-      "score": 100.32,
-      "status": "queued"
+      "keywordHits": 5,
+      "publishedAt": "2026-05-07T09:51:08.000Z",
+      "score": 198,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-07T16:49:59.346Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://ahrussell.com/writing/costanza/",
@@ -7881,22 +7908,6 @@
       "targetRegion": "UK",
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-04-08T16:14:16.036Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://one-man-company.com/",
-      "title": "Show HN: OneManCompany The first AI company with real corporate org structure",
-      "link": "https://one-man-company.com/",
-      "summary": "We built an AI company. Not a chatbot wrapper — a company with HR, COO, engineers, and designers, all AI agents, organised and managed the way a real company operates. You're the CEO, the only human. To be clear: this is not one LLM with a bunch of prompts pretending to be a team. These are fully independent agents — different models, different backends, different runtimes — each doing their own job. *Why organise a…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-07T14:46:18.000Z",
-      "score": 187.86,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-07T16:10:10.974Z",
       "failureReason": "insufficient source snapshots (0/1)"
     }
   ]

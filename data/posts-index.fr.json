@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T10:24:51.500Z",
+  "generatedAt": "2026-05-07T16:58:38.767Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-07-save-to-spotify-cli-lets-openclaw-and-claude-upload-aigenerated-podcast-episodes",
+      "title": "Le CLI « Save to Spotify » permet à OpenClaw et Claude d’uploader des épisodes de podcast générés par IA sur Spotify",
+      "date": "2026-05-07",
+      "excerpt": "Un nouvel outil en ligne de commande permet à des agents d’IA (OpenClaw, Claude) de téléverser directement des épisodes audio générés vers une émission Spotify — guide de configuration, étapes de sécurité et conseils de test pour petites équipes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-07-save-to-spotify-cli-lets-openclaw-and-claude-upload-aigenerated-podcast-episodes.jpg",
+      "tags": [
+        "podcast",
+        "spotify",
+        "ia",
+        "cli",
+        "automation",
+        "startup",
+        "développeurs"
+      ],
+      "sources": [
+        "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
