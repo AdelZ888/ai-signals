@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-05-06T17:09:02.041Z",
+  "generatedAt": "2026-05-07T10:24:51.498Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3",
+      "title": "Gemma 4 adds Multi‑Token Prediction (MTP) — speculative decoding can speed generation up to 3×",
+      "date": "2026-05-07",
+      "excerpt": "Gemma 4 adds experimental Multi-Token Prediction (MTP), using speculative decoding to predict multiple tokens and deliver up to 3× faster generation with no reported quality loss.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3.jpg",
+      "tags": [
+        "Gemma 4",
+        "Google",
+        "speculative decoding",
+        "MTP",
+        "model release",
+        "local AI",
+        "performance",
+        "Apache-2.0"
+      ],
+      "sources": [
+        "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-06-gpt-55-instant-becomes-chatgpt-default-vendor-reports-525percent-fewer-incorrect-assertions-and-a-visible-controllable-memory",
       "title": "GPT-5.5 Instant becomes ChatGPT default; vendor reports 52.5% fewer incorrect assertions and a visible, controllable memory",

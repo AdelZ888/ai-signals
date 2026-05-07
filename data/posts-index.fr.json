@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-05-06T17:09:02.043Z",
+  "generatedAt": "2026-05-07T10:24:51.500Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3",
+      "title": "Gemma 4 ajoute la Multi‑Token Prediction (MTP) — le décodage spéculatif peut accélérer la génération jusqu’à 3×",
+      "date": "2026-05-07",
+      "excerpt": "Google a publié des drafters expérimentaux Multi‑Token Prediction (MTP) pour Gemma 4 : un décodage spéculatif qui prédit plusieurs tokens à la fois et qui, d’après Google, peut accélérer la génération jusqu’à 3× sans perte de qualité signalée. Traduction et guide pratique pour petites équipes, fondateurs et développeurs (contexte US).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3.jpg",
+      "tags": [
+        "gemma4",
+        "mtp",
+        "speculative-decoding",
+        "local-ai",
+        "inference",
+        "google",
+        "ai-deployment"
+      ],
+      "sources": [
+        "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-05-06-gpt-55-instant-becomes-chatgpt-default-vendor-reports-525percent-fewer-incorrect-assertions-and-a-visible-controllable-memory",
       "title": "GPT-5.5 Instant : ce que les équipes FR doivent savoir — fiabilité, mémoire visible, et plan d'action",

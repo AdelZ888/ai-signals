@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-06T17:09:02.113Z",
+  "generatedAt": "2026-05-07T10:24:51.509Z",
   "items": [
+    {
+      "id": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
+      "title": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens",
+      "link": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
+      "summary": "Up to 3x the speed with no loss of quality—is it too good to be true?",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-06T15:44:20.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-05-07T10:24:51.484Z",
+      "file": "content/posts/2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3.md",
+      "fileFr": "content/posts/fr/2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1355,
+      "wordsFr": 1294
+    },
     {
       "id": "https://github.com/simplyblock/postbrain",
       "title": "Show HN: Long-term memory for AI agents and teams, built with PostgreSQL",
@@ -4785,15 +4808,27 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
-      "title": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens",
-      "link": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
-      "summary": "Up to 3x the speed with no loss of quality—is it too good to be true?",
-      "source": "Ars Technica AI",
-      "region": "US",
+      "id": "https://news.ycombinator.com/item?id=48047428",
+      "title": "Ask HN: Real life autonomous AI Agents",
+      "link": "https://news.ycombinator.com/item?id=48047428",
+      "summary": "Is there a place where I can read real use cases / actual deployments of AI Agents? The internet is flooded with examples similar to below but these in my head are not true AI Agents right? 1. If email arrives with pdf, check pdf for invoice information and put it in a google sheet is not a AI Agent? Its a workflow that now has llm call as a node 2. Check my google search console and suggest ideas for SEO - This again is a cron job (run every xhrs), collate information and feed it into a llm to generate ideas. This is a workflow as well. 3. personal assistants - I ask for information and llm figures out which tool to call and gets it and writes to a database perhaps coding agents which do some stuff autonoumously when prompted is a good example. Is there a compilation of real use case anywhere online? Comments URL: https://news.ycombinator.com/item?id=48047428 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-07T09:51:08.000Z",
+      "score": 198,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48047444",
+      "title": "Show HN: Desktop Agent Center – Local AI Automation via Hotkeys",
+      "link": "https://news.ycombinator.com/item?id=48047444",
+      "summary": "I built an open-source tool called Desktop Agent Center: https://github.com/WellWells/desktop-agent-center It's a local-first gateway designed to bridge the gap between your desktop workflow and AI web interfaces like ChatGPT, Gemini, and Perplexity. Comments URL: https://news.ycombinator.com/item?id=48047444 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-05-06T15:44:20.000Z",
-      "score": 192,
+      "publishedAt": "2026-05-07T09:53:32.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
@@ -5106,18 +5141,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-02T07:46:30.000Z",
       "score": 156.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=B1bLRzSlH2k",
-      "title": "We built an AI patch network agent that maps Class A surfaces from sketches",
-      "link": "https://www.youtube.com/watch?v=B1bLRzSlH2k",
-      "summary": "Article URL: https://www.youtube.com/watch?v=B1bLRzSlH2k Comments URL: https://news.ycombinator.com/item?id=47790521 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-16T09:07:00.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5469,6 +5492,18 @@
       "status": "queued"
     },
     {
+      "id": "https://chromewebstore.google.com/detail/prompt-screener/hdooilgdenkeeccfomlkkenhmelobcjm",
+      "title": "Prompt Screener – Catches biased prompts before you send them to AI",
+      "link": "https://chromewebstore.google.com/detail/prompt-screener/hdooilgdenkeeccfomlkkenhmelobcjm",
+      "summary": "Article URL: https://chromewebstore.google.com/detail/prompt-screener/hdooilgdenkeeccfomlkkenhmelobcjm Comments URL: https://news.ycombinator.com/item?id=48047322 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-07T09:34:34.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
       "title": "AI chatbots need 'deception mode'",
       "link": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
@@ -5733,6 +5768,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.02910",
+      "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
+      "link": "https://arxiv.org/abs/2605.02910",
+      "summary": "arXiv:2605.02910v2 Announce Type: new Abstract: Recent advances in large language models have led to strong performance on reasoning and environment-interaction tasks, yet their ability for creative problem-solving remains underexplored. We study this capability through the lens of creative tool use, where a model repurposes available objects by reasoning about their affordances and attributes rather than relying on canonical usage. As a first step, we introduce CreativityBench, a benchmark for evaluating affordance-based creativity in LLMs. To this end, we build a large-scale affordance knowledge base (KB) with 4K entities and 150K+ affordance annotations, explicitly linking objects, parts, attributes, and actionable uses. Building on this KB, we generate 14K grounded tasks that require identifying non-obvious yet physically plausible solutions under constraints. Evaluations across 10 state-of-the-art LLMs, including closed and open-source models, show that models can often select a plausible object, but fail to identify the correct parts, their affordances, and the underlying physical mechanism needed to solve the task, leading to a significant drop in performance. Furthermore, improvements from model scaling quickly saturate, strong general reasoning does not reliably translate to creative affordance discovery, and common inference-time strategies such as Chain-of-Thought yi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-05-07T04:00:00.000Z",
+      "score": 139.28,
+      "status": "queued"
+    },
+    {
       "id": "https://bhavyagupta.dev/posts/llm-document-extractors-fixed-point",
       "title": "LLM-first document AI is missing a 50-year-old CS technique",
       "link": "https://bhavyagupta.dev/posts/llm-document-extractors-fixed-point",
@@ -5826,6 +5873,30 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "score": 133.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.03195",
+      "title": "Terminus-4B: Can a Smaller Model Replace Frontier LLMs at Agentic Execution Tasks?",
+      "link": "https://arxiv.org/abs/2605.03195",
+      "summary": "arXiv:2605.03195v1 Announce Type: new Abstract: Modern coding agents increasingly delegate specialized subtasks to subagents, which are smaller, focused agentic loops that handle narrow responsibilities like search, debugging or terminal execution. This architectural pattern keeps the main agent's context window clean by isolating verbose outputs (e.g. build logs, test results, etc.) within the subagent context. Typically when agents employ subagents for such tasks, they use frontier models as these subagents. In this paper, we investigate whether a finetuned small language model (SLM) can achieve comparable performance to frontier models in the task of agentic terminal execution. We present Terminus-4B, which is a post-trained Qwen3-4B model via Supervised Finetuning (SFT) and Reinforcement Learning (RL) using rubric-based LLM-as-judge reward, specifically for this task. In our extensive evaluation spanning various frontier models, training ablations and main agent configurations, we find that Terminus-4B is able to reduce the token usage of the main agent by up to ~30% compared to the No Subagent baseline with no impact to agent performance on benchmarks like SWE-Bench Pro and our internal SWE-Bench C# benchmark, which tends to be heavy in verbose execution tasks. Furthermore, Terminus-4B improves key metrics showing the main agent relying on the outputs of the subagent and d",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-05-07T04:00:00.000Z",
+      "score": 133.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.03242",
+      "title": "Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios",
+      "link": "https://arxiv.org/abs/2605.03242",
+      "summary": "arXiv:2605.03242v1 Announce Type: new Abstract: Tool-using agent systems powered by large language models (LLMs) are increasingly deployed across web, app, operating-system, and transactional environments. Yet existing safety benchmarks still emphasize explicit risks, potentially overstating a model's ability to judge deceptive or ambiguous trajectories. To address this gap, we introduce ROME (Red-team Orchestrated Multi-agent Evolution), a controlled benchmark-construction pipeline that rewrites known unsafe trajectories into more deceptive evaluation instances while preserving their underlying risk labels. Starting from 100 unsafe source trajectories, ROME produces 300 challenge instances spanning contextual ambiguity, implicit risks, and shortcut decision-making. Experiments show that these challenge sets substantially degrade safety-judgment performance, with hidden-risk cases remaining particularly non-trivial even for recent frontier models. We further study ARISE (Analogical Reasoning for Inference-time Safety Enhancement), a retrieval-guided inference-time enhancement that retrieves ReAct-style analogical safety trajectories from an external analogical base and injects them as structured reasoning exemplars. ARISE improves judgment quality without retraining, but is best viewed as a task-specific robustness enhancement rather than a standalone safety guarantee. Together",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-05-07T04:00:00.000Z",
+      "score": 133.28,
       "status": "queued"
     },
     {
@@ -6114,6 +6185,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "score": 121.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.03212",
+      "title": "ADAPTS: Agentic Decomposition for Automated Protocol-agnostic Tracking of Symptoms",
+      "link": "https://arxiv.org/abs/2605.03212",
+      "summary": "arXiv:2605.03212v2 Announce Type: new Abstract: Modeling latent clinical constructs from unconstrained clinical interactions is a unique challenge in affective computing. We present ADAPTS (Agentic Decomposition for Automated Protocol-agnostic Tracking of Symptoms), a framework for automated rating of depression and anxiety severity using a mixture-of-agents LLM architecture. This approach decomposes long-form clinical interviews into symptom-specific reasoning tasks, producing auditable justifications while preserving temporal and speaker alignment. Generalization was evaluated across two independent datasets ($N=204$) with distinct interview structures. On high-discrepancy interviews, automated ratings approximated expert benchmarks ($\\text{absolute error}=22$) more closely than original human ratings ($\\text{absolute error}=26$). Implementing an ``extended'' protocol that incorporates qualitative clinical conventions significantly stabilized ratings, with absolute agreement reaching $\\text{ICC(2,1)} = 0.877$. These findings suggest that the ADAPTS framework enables promising evaluations of psychiatric severity. While the current implementation is purely text-based, the underlying architecture is readily extensible to multimodal inputs, including acoustic and visual features. By approximating expert-level precision in a protocol-agnostic manner, this framework provides a foun",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-05-07T04:00:00.000Z",
+      "score": 121.28,
       "status": "queued"
     },
     {
@@ -6813,6 +6896,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.03227",
+      "title": "Evaluating Prompting and Execution-Based Methods for Deterministic Computation in LLMs",
+      "link": "https://arxiv.org/abs/2605.03227",
+      "summary": "arXiv:2605.03227v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated strong capabilities in natural language understanding and reasoning. However, their ability to perform exact, deterministic computation remains unclear. In this work, we systematically evaluate multiple prompting strategies, including Chain-of-Thought (CoT), Least-to-Most decomposition, Program-of-Thought (PoT), and Self-Consistency (SC), on tasks requiring precise and error-free outputs, including binary counting, longest substring detection, and arithmetic evaluation. To support this study, we introduce a synthetic dataset with diverse natural language instructions, enabling controlled evaluation of exact computation across multiple task types. Our results show that standard prompting methods achieve only moderate accuracy on sequence-based tasks. CoT provides limited improvement, while Least-to-Most suffers from error accumulation. In contrast, PoT achieves perfect accuracy by generating executable code and delegating computation to an external interpreter. Self-Consistency improves robustness through majority voting, but incurs substantial computational overhead. We further train a small domain-specific model (CodeT5-small) to generate executable programs, which achieves perfect accuracy on held-out synthetic test data across all tasks with minimal training cost. Overall, our find",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-07T04:00:00.000Z",
+      "score": 103.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.03308",
+      "title": "Revisiting the Travel Planning Capabilities of Large Language Models",
+      "link": "https://arxiv.org/abs/2605.03308",
+      "summary": "arXiv:2605.03308v1 Announce Type: new Abstract: Travel planning serves as a critical task for long-horizon reasoning, exposing significant deficits in LLMs. However, existing benchmarks and evaluations primarily assess final plans in an end-to-end manner, which lacks interpretability and makes it difficult to analyze the root causes of failures. To bridge this gap, we decompose travel planning into five constituent atomic sub-capabilities, including \\emph{Constraint Extraction}, \\emph{Tool Use}, \\emph{Plan Generation}, \\emph{Error Identification}, and \\emph{Error Correction}. We implement a decoupled evaluation protocol leveraging oracle intermediate contexts to rigorously isolate these components, thereby measuring the atomic performance boundary without the noise of cascading errors. Our results highlight a clear contrast in performance: while LLMs are proficient in extracting explicit constraints, they struggle to infer implicit, open-world requirements. Furthermore, they exhibit structural biases in plan generation and suffer from ineffective self-correction, characterized by excessive sensitivity and erroneous persistence. These findings offer precise directions for improving LLM reasoning and planning abilities.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-07T04:00:00.000Z",
+      "score": 103.28,
+      "status": "queued"
+    },
+    {
       "id": "https://www.anthropic.com/news/enterprise-ai-services-company",
       "title": "Building a new enterprise AI services company with Blackstone, H&F, and Goldman",
       "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
@@ -6846,54 +6953,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-04-24T04:00:00.000Z",
       "score": 100.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.20995",
-      "title": "Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models",
-      "link": "https://arxiv.org/abs/2604.20995",
-      "summary": "arXiv:2604.20995v1 Announce Type: new Abstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concerning yet poorly understood phenomenon, in part because current diagnostic tools remain limited. Prior diagnostics rely on highly toxic and clearly harmful scenarios, causing most models to refuse immediately. As a result, models never deliberate over developer policy, monitoring conditions, or the consequences of non-compliance, making these diagnostics fundamentally unable to detect alignment faking propensity. To support study of this phenomenon, we first introduce VLAF, a diagnostic framework grounded in the hypothesis that alignment faking is most likely when developer policy conflicts with a model's strongly held values. VLAF uses morally unambiguous scenarios to probe this conflict across diverse moral values, bypassing refusal behavior while preserving meaningful deliberative stakes. Using VLAF, we find that alignment faking is substantially more prevalent than previously reported, occurring in models as small as 7B parameters - with olmo2-7b-instruct faking alignment in 37% of cases.Finally, we show that oversight conditions induce activation shifts that lie along a single direction in representation space. This means the behavioral divergence driving alignment faking can be ca",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-24T04:00:00.000Z",
-      "score": 100.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://dirac.run/posts/hash-anchors-myers-diff-single-token",
-      "title": "Hash anchors and Myers diff and single-token anchors: 60% cheaper AI code edits",
-      "link": "https://dirac.run/posts/hash-anchors-myers-diff-single-token",
-      "summary": "Article URL: https://dirac.run/posts/hash-anchors-myers-diff-single-token Comments URL: https://news.ycombinator.com/item?id=47910295 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-26T13:46:11.000Z",
-      "score": 98.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.00224",
-      "title": "TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization",
-      "link": "https://arxiv.org/abs/2605.00224",
-      "summary": "arXiv:2605.00224v1 Announce Type: new Abstract: Aligning large language models (LLMs) with human preferences is commonly done via reinforcement learning from human feedback (RLHF) with Proximal Policy Optimization (PPO) or, more simply, via Direct Preference Optimization (DPO). While DPO is stable and RL-free, it treats preferences as flat winner vs. loser signals and is sensitive to noisy or brittle preferences arising from fragile chains of thought. We propose TUR-DPO, a topology- and uncertainty-aware variant of DPO that rewards how answers are derived, not only what they say, by eliciting lightweight reasoning topologies and combining semantic faithfulness, utility, and topology quality into a calibrated uncertainty signal. A small learnable reward is factorized over these signals and incorporated into an uncertainty-weighted DPO objective that remains RL-free and relies only on a fixed or moving reference policy. Empirically, across open 7-8B models and benchmarks spanning mathematical reasoning, factual question answering, summarization, and helpful/harmless dialogue, TUR-DPO improves judge win-rates, faithfulness, and calibration relative to DPO while preserving training simplicity and avoiding online rollouts. We further observe consistent gains in multimodal and long-context settings, and show that TUR-DPO matches or exceeds PPO on reasoning-centric tasks while maintai",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-05T04:00:00.000Z",
-      "score": 98.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.00334",
-      "title": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?",
-      "link": "https://arxiv.org/abs/2605.00334",
-      "summary": "arXiv:2605.00334v1 Announce Type: new Abstract: Production agentic systems make many model calls per user request, and most of those calls are short, structured, and routine. This raises a practical routing question that existing evaluations do not directly answer: which parts of an agent workflow truly require large frontier intelligence, and which can be handled by smaller models? We introduce AgentFloor, a deterministic 30-task benchmark organized as a six-tier capability ladder, spanning instruction following, tool use, multi-step coordination, and long-horizon planning under persistent constraints. We evaluate 16 open-weight models, from 0.27B to 32B parameters, alongside GPT-5 across 16,542 scored runs. Our results reveal a clear boundary of model necessity. Small and mid-sized open-weight models are already sufficient for much of the short-horizon, structured tool use work that dominates real agent pipelines, and in aggregate, the strongest open-weight model matches GPT-5 on our benchmark while being substantially cheaper and faster to run. The gap appears most clearly on long-horizon planning tasks that require sustained coordination and reliable constraint tracking over many steps, where frontier models still hold an advantage, though neither side reaches strong reliability. We also find that this boundary is not explained by scale alone: some failures respond to targe",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-05T04:00:00.000Z",
-      "score": 98.41,
       "status": "queued"
     },
     {
