@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T09:44:14.564Z",
+  "generatedAt": "2026-05-08T16:20:34.440Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-08-pilot-guide-for-raiyanyahyakit-testing-shared-ai-context-across-editor-browser-mail-terminal-and-agents",
+      "title": "Pilot guide for raiyanyahya/kit: testing shared AI context across editor, browser, mail, terminal and agents",
+      "date": "2026-05-08",
+      "excerpt": "Practical runbook to pilot raiyanyahya/kit—an open-source bundle (editor, browser, mail, terminal, agents). Step-by-step setup, metrics and short pilot to measure reduced context switching.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-08-pilot-guide-for-raiyanyahyakit-testing-shared-ai-context-across-editor-browser-mail-terminal-and-agents.jpg",
+      "tags": [
+        "ai",
+        "agents",
+        "developer-tools",
+        "open-source",
+        "tutorial",
+        "productivity",
+        "workspace"
+      ],
+      "sources": [
+        "https://github.com/raiyanyahya/kit"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3",

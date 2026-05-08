@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T09:44:14.565Z",
+  "generatedAt": "2026-05-08T16:20:34.442Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-08-pilot-guide-for-raiyanyahyakit-testing-shared-ai-context-across-editor-browser-mail-terminal-and-agents",
+      "title": "Guide pilote pour raiyanyahya/kit : tester un contexte IA partagé entre éditeur, navigateur, mail, terminal et agents",
+      "date": "2026-05-08",
+      "excerpt": "Runbook pratique pour piloter raiyanyahya/kit — un bundle open-source (éditeur, navigateur, mail, terminal, agents). Guide pas à pas pour installation locale, métriques à mesurer et petit pilote pour réduire les changements de contexte.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-08-pilot-guide-for-raiyanyahyakit-testing-shared-ai-context-across-editor-browser-mail-terminal-and-agents.jpg",
+      "tags": [
+        "IA",
+        "pilotage",
+        "open-source",
+        "devtools",
+        "LLM",
+        "kit",
+        "rai yanyahya"
+      ],
+      "sources": [
+        "https://github.com/raiyanyahya/kit"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
     },
     {
       "slug": "2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3",
