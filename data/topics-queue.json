@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-08T16:20:34.502Z",
+  "generatedAt": "2026-05-09T09:19:38.383Z",
   "items": [
+    {
+      "id": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
+      "title": "Anthropic's Mythos AI model sparks fears of turbocharged hacking",
+      "link": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
+      "summary": "Article URL: https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/ Comments URL: https://news.ycombinator.com/item?id=47836234 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-20T16:03:00.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-05-09T09:19:38.356Z",
+      "file": "content/posts/2026-05-09-anthropics-mythos-finds-vulnerabilities-and-generates-exploits-prompting-security-and-policy-concern.md",
+      "fileFr": "content/posts/fr/2026-05-09-anthropics-mythos-finds-vulnerabilities-and-generates-exploits-prompting-security-and-policy-concern.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1430,
+      "wordsFr": 1176
+    },
     {
       "id": "https://github.com/raiyanyahya/kit",
       "title": "Show HN: Editor, Browser, Terminal, Mail, Agents. AI Sharing Context",
@@ -4877,30 +4900,6 @@
       "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
     },
     {
-      "id": "https://keshro.com",
-      "title": "Show HN: Keshro, plan and execute migrations with AI agents",
-      "link": "https://keshro.com",
-      "summary": "Article URL: https://keshro.com Comments URL: https://news.ycombinator.com/item?id=47831770 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-20T08:54:47.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
-      "title": "Anthropic's Mythos AI model sparks fears of turbocharged hacking",
-      "link": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
-      "summary": "Article URL: https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/ Comments URL: https://news.ycombinator.com/item?id=47836234 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-20T16:03:00.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://sungeuns.github.io/founation-model-engineering/",
       "title": "Foundation Model Engineering: A free textbook for AI engineers",
       "link": "https://sungeuns.github.io/founation-model-engineering/",
@@ -5090,18 +5089,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-05T15:18:08.000Z",
       "score": 163.08,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47814007",
-      "title": "Helpmate-Live, Social and AI Chat with Built-In CRM for WordPress",
-      "link": "https://news.ycombinator.com/item?id=47814007",
-      "summary": "Reduce up to 97% of repetitive support questions and 70% of multichannel workload using one powerful WordPress plugin that unifies AI Chatbot, Live Chat, CRM, Appointments, Booking, and automation for Facebook, Instagram, and WhatsApp, along with lead capture and sales automation. Paid version: https://helpmate.chat/ Free version available here: https://wordpress.org/plugins/helpmate-ai-chatbot/ Comments URL: https://news.ycombinator.com/item?id=47814007 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-18T07:44:35.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -6737,18 +6724,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47813703",
-      "title": "Show HN: PrivaKit – A zero-upload AI workspace in the browser via WebGPU",
-      "link": "https://news.ycombinator.com/item?id=47813703",
-      "summary": "Hi HN, I'm the builder. I realized that using cloud AI APIs for sensitive workflows—like transcribing board meetings, OCRing employment contracts, or cleaning up ID photos—is a massive privacy liability. So I built a client-side workspace using transformers.js, Whisper, and WebGPU. Everything runs locally. You can turn on Airplane Mode after the initial model load, and it still transcribes and extracts text perfectly. To keep myself honest, I wrote a technical audit of how the data flows (or rather, doesn't flow). My only backend is a tiny 2-core node in Singapore running self-hosted Plausible analytics: [https://gist.github.com/ygx2378/3275b333504c6a9def50ef531b54...] I'm still learning the ropes of browser-based memory management, so I'd love your feedback on how the models load on your specific GPUs! Comments URL: https://news.ycombinator.com/item?id=47813703 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-18T06:49:26.000Z",
-      "score": 108.33,
-      "status": "queued"
-    },
-    {
       "id": "https://telegram.org/blog/ai-bot-revolution-11-new-features",
       "title": "Telegram Adds Guest AI Bots, Bot-to-Bot Chats, Chat Automation",
       "link": "https://telegram.org/blog/ai-bot-revolution-11-new-features",
@@ -6893,6 +6868,18 @@
       "status": "queued"
     },
     {
+      "id": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
+      "title": "All my clients wanted a carousel, now it's an AI chatbot",
+      "link": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
+      "summary": "Article URL: https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md Comments URL: https://news.ycombinator.com/item?id=48072720 Points: 72 # Comments: 23",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-09T07:23:40.000Z",
+      "score": 105,
+      "status": "queued"
+    },
+    {
       "id": "https://openai.com/index/parloa",
       "title": "Parloa builds service agents customers want to talk to",
       "link": "https://openai.com/index/parloa",
@@ -7023,6 +7010,46 @@
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "score": 89.64,
       "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+      "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models",
+      "link": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+      "summary": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into bankrolling the company. Along the way, he warned that AI could destroy us all and sat through…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-01T22:08:19.000Z",
+      "score": 72.67,
+      "status": "queued"
+    },
+    {
+      "id": "https://mesmacosta.medium.com/google-cloud/from-idea-to-execution-building-an-ai-powered-ide-companion-app-with-antigravity-and-gemini-3-1-60ae10bfd913",
+      "title": "Building an AI-Powered IDE Companion App",
+      "link": "https://mesmacosta.medium.com/google-cloud/from-idea-to-execution-building-an-ai-powered-ide-companion-app-with-antigravity-and-gemini-3-1-60ae10bfd913",
+      "summary": "Article URL: https://mesmacosta.medium.com/google-cloud/from-idea-to-execution-building-an-ai-powered-ide-companion-app-with-antigravity-and-gemini-3-1-60ae10bfd913 Comments URL: https://news.ycombinator.com/item?id=48072188 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-09T05:52:08.000Z",
+      "score": 66.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://keshro.com",
+      "title": "Show HN: Keshro, plan and execute migrations with AI agents",
+      "link": "https://keshro.com",
+      "summary": "Article URL: https://keshro.com Comments URL: https://news.ycombinator.com/item?id=47831770 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-20T08:54:47.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-05-09T09:08:02.395Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://news.ycombinator.com/item?id=48047444",
