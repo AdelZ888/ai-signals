@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T09:29:00.673Z",
+  "generatedAt": "2026-05-10T16:05:54.977Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "tooling-deep-dive",
       "difficulty": "intermediate",
       "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-10-vennio-api-v140-implement-availability-queries-direct-bookings-and-webhooks-for-apps-and-ai-agents",
+      "title": "Vennio API v1.4.0 — implement availability queries, direct bookings and webhooks for apps and AI agents",
+      "date": "2026-05-10",
+      "excerpt": "Use Vennio API v1.4.0 to query multi-calendar availability, create bookings (including Stripe-paid flows), and handle booking.created webhooks—get a working flow in ~60–90 minutes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-10-vennio-api-v140-implement-availability-queries-direct-bookings-and-webhooks-for-apps-and-ai-agents.jpg",
+      "tags": [
+        "Vennio",
+        "scheduling",
+        "calendar",
+        "API",
+        "webhooks",
+        "Stripe",
+        "MCP",
+        "integrations"
+      ],
+      "sources": [
+        "https://docs.vennio.app"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
