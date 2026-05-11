@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-05-11T11:07:39.275Z",
+  "generatedAt": "2026-05-11T17:43:32.924Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-11-implement-deterministic-passfail-completion-checks-for-ai-coding-agents-using-donespec",
+      "title": "Mettre en place des contrôles PASS/FAIL déterministes pour agents IA avec DoneSpec",
+      "date": "2026-05-11",
+      "excerpt": "Utilisez DoneSpec pour transformer des sorties d'agents ambiguës en validateurs PASS/FAIL déterministes, ce qui permet de bloquer en CI, automatiser des retries et mesurer le taux de succès.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-11-implement-deterministic-passfail-completion-checks-for-ai-coding-agents-using-donespec.jpg",
+      "tags": [
+        "DoneSpec",
+        "validation déterministe",
+        "agents IA",
+        "CI",
+        "observabilité",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/xryv/DoneSpec"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-11-why-llms-hallucinate-product-fixes-triage-grounding-and-monitoring",
       "title": "Pourquoi les LLM « hallucinent » — fixes produit : triage, ancrage et monitoring",

@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-05-11T11:07:39.277Z",
+  "generatedAt": "2026-05-11T17:43:32.923Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-11-implement-deterministic-passfail-completion-checks-for-ai-coding-agents-using-donespec",
+      "title": "Implement deterministic PASS/FAIL completion checks for AI coding agents using DoneSpec",
+      "date": "2026-05-11",
+      "excerpt": "Use DoneSpec to convert ambiguous agent outputs into deterministic PASS/FAIL validators, enabling CI gating, automated retries, and measurable pass-rate observability.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-11-implement-deterministic-passfail-completion-checks-for-ai-coding-agents-using-donespec.jpg",
+      "tags": [
+        "DoneSpec",
+        "AI agents",
+        "validation",
+        "testing",
+        "CI",
+        "developer-tools"
+      ],
+      "sources": [
+        "https://github.com/xryv/DoneSpec"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-11-why-llms-hallucinate-product-fixes-triage-grounding-and-monitoring",
       "title": "Why LLMs hallucinate — product fixes: triage, grounding and monitoring",
