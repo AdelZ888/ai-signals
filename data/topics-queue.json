@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-12T10:41:11.991Z",
+  "generatedAt": "2026-05-12T17:22:34.960Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=48110593",
+      "title": "Show HN: Gigacatalyst – Extend your SaaS with an embedded AI builder",
+      "link": "https://news.ycombinator.com/item?id=48110593",
+      "summary": "Hi HN, I’m Namanyay from Gigacatalyst (link: https://gigacatalyst.com/). Gigacatalyst allows sales, CS, and users to build one-off features, so your SaaS can support long-tail customer workflows and engineers aren’t pulled away from the roadmap. When you sell software to large businesses, you realize that each customer needs their own workflow and features. Traditionally, this either means long engineering roadmaps…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-12T16:32:54.000Z",
+      "score": 198,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-12T17:22:34.894Z",
+      "file": "content/posts/2026-05-12-embed-gigacatalysts-in-product-ai-builder-into-your-saas-focused-poc-checklist-and-examples.md",
+      "fileFr": "content/posts/fr/2026-05-12-embed-gigacatalysts-in-product-ai-builder-into-your-saas-focused-poc-checklist-and-examples.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1546,
+      "wordsFr": 1436
+    },
     {
       "id": "https://cursor.com/blog/better-models-ambitious-work",
       "title": "Better AI models enable more ambitious work",
@@ -5009,21 +5032,6 @@
       "fileFr": "content/posts/fr/2026-02-06-chatbots-campagnes-augmentees-lia-simmisce-dans-la-politique-francaise.md"
     },
     {
-      "id": "https://arxiv.org/abs/2602.03950",
-      "title": "Enhancing Mathematical Problem Solving in LLMs through Execution-Driven Reasoning Augmentation",
-      "link": "https://arxiv.org/abs/2602.03950",
-      "summary": "arXiv:2602.03950v1 Announce Type: new \nAbstract: Mathematical problem solving is a fundamental benchmark for assessing the reasoning capabilities of artificial intelligence and a gateway to applications in education, science, and engineering where reliable symbolic reasoning is e",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-06T05:00:00.000Z",
-      "score": 75.6,
-      "status": "published",
-      "targetRegion": "US",
-      "publishedAtRun": "2026-02-06T14:45:15.842Z",
-      "file": "content/posts/2026-02-06-enhancing-mathematical-problem-solving-in-llms-through-execution-driven-reasoning-augmentation.md"
-    },
-    {
       "id": "https://zspreadsheet.com",
       "title": "Show HN: Create Professional Excel Files with AI Agents",
       "link": "https://zspreadsheet.com",
@@ -5164,6 +5172,42 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-05-11T16:24:32.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
+      "title": "Show HN: Vibe – Responsible AI Review for Cq (Stack Overflow for Agents)",
+      "link": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
+      "summary": "Six weeks ago, Daniel Nissani at Mozilla.ai shared cq (https://news.ycombinator.com/item?id=47491466), Stack Overflow for agents. One of the top concerns in that thread was security and trust around shared knowledge. So we worked together to build VIBE, a first line of defense for cq. Before a developer approves any knowledge unit for the shared corpus, VIBE runs a four-domain audit: Vulnerabilities (what and who becomes exposed through this code's existence), Intention versus Impact (the gap between what a system is trying to do versus what it actually does), Bias & Blind Spots (known limitations in the agent's training or assumptions in the code), and Edge Case Handling (stress-testing the system before it meets users). Knowledge units get flagged as clean, soft concern, or hard finding, & hard findings come with a sanitized rewrite for human review. How would you use this in your automated pipelines? Comments URL: https://news.ycombinator.com/item?id=48111063 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-12T17:04:34.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
+      "title": "World Models: Things That Matter in AI",
+      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
+      "summary": "Article URL: https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/ Comments URL: https://news.ycombinator.com/item?id=48111033 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-12T17:01:45.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/",
+      "title": "AI agents might be able to identify anonymous online writers",
+      "link": "https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/",
+      "summary": "Article URL: https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/ Comments URL: https://news.ycombinator.com/item?id=48110989 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-12T16:59:25.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5576,6 +5620,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "summary": "The family of a 19-year-old college student is suing OpenAI over claims that his conversations with ChatGPT led to an accidental overdose. In the lawsuit filed on Tuesday, Sam Nelson's parents allege ChatGPT \"encouraged\" the teen to \"consume a combination of substances that any licensed medical professional would have recognized as deadly,\" resulting in his death. Though ChatGPT initially pushed back on conversations about drug and alcohol use, the launch of GPT-4o in April 2024 changed the chatbot's behavior, according to the lawsuit. Following the update, ChatGPT \"began to engage and advise Sam on safe drug use, even providing specific do … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-12T16:30:33.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/zeroentropy-ai/probe",
+      "title": "Probe: AI Agent Context Engine",
+      "link": "https://github.com/zeroentropy-ai/probe",
+      "summary": "Article URL: https://github.com/zeroentropy-ai/probe Comments URL: https://news.ycombinator.com/item?id=48111072 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T17:05:23.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
+      "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
+      "link": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
+      "summary": "Article URL: https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/ Comments URL: https://news.ycombinator.com/item?id=48110529 Points: 63 # Comments: 44",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T16:29:21.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
       "title": "AI chatbots need 'deception mode'",
       "link": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
@@ -5588,18 +5668,6 @@
       "status": "queued"
     },
     {
-      "id": "https://agentathon.dev/",
-      "title": "Show HN: Agentathon, hackathon where AI agents compete autonomously",
-      "link": "https://agentathon.dev/",
-      "summary": "Article URL: https://agentathon.dev/ Comments URL: https://news.ycombinator.com/item?id=47849760 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-21T14:59:10.000Z",
-      "score": 155.48,
-      "status": "queued"
-    },
-    {
       "id": "https://adlrocha.substack.com/p/adlrocha-the-eval-problem-how-to",
       "title": "How to Test AI Agents When They Never Give the Same Answer Twice",
       "link": "https://adlrocha.substack.com/p/adlrocha-the-eval-problem-how-to",
@@ -5609,18 +5677,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-03T08:02:10.000Z",
       "score": 154.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://vynly.co",
-      "title": "Vynly – a social feed only AI agents can post to",
-      "link": "https://vynly.co",
-      "summary": "Article URL: https://vynly.co Comments URL: https://news.ycombinator.com/item?id=47849728 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-21T14:57:34.000Z",
-      "score": 153.24,
       "status": "queued"
     },
     {
@@ -5764,6 +5820,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-10T15:22:46.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
+      "title": "Gemini&#8217;s biggest new features are all about controlling your phone",
+      "link": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
+      "summary": "Gemini Intelligence comes with a Liquid Glass-ish visual treatment. | Image: Google It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. Google also has a new name for us to remember, because it just can't help itself: Gemini Intelligence. It \"brings the very best of Gemini to our most advanced Android devices,\" according to Google's director of Android experiences, Ben Greenwood. Google is bundling some existing and new Gemini features under this name, and seems to be reserving t … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://ittech-pulse.com/news/grego-ai-prevents-27-7million-attack-with-ai-reasoning-breakthrough/",
+      "title": "AI Startup Prevents $27.7M Attack",
+      "link": "https://ittech-pulse.com/news/grego-ai-prevents-27-7million-attack-with-ai-reasoning-breakthrough/",
+      "summary": "Article URL: https://ittech-pulse.com/news/grego-ai-prevents-27-7million-attack-with-ai-reasoning-breakthrough/ Comments URL: https://news.ycombinator.com/item?id=48110838 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T16:49:06.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -5921,6 +6001,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-05-05T15:15:48.000Z",
       "score": 141.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "title": "Sam Altman takes the stand in trial against Elon Musk",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "summary": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up to $38 million in the ChatGPT-maker's early days. But the relationship between Musk and other OpenAI founders eventually soured, and Musk stepped away from the company, later going on to found his own direct competitor, xAI. In recent years, Musk and Altman have traded barbs and made a slew of allegations agains … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T16:05:20.000Z",
+      "score": 139.87,
       "status": "queued"
     },
     {
@@ -7088,78 +7180,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.03308",
-      "title": "Revisiting the Travel Planning Capabilities of Large Language Models",
-      "link": "https://arxiv.org/abs/2605.03308",
-      "summary": "arXiv:2605.03308v1 Announce Type: new Abstract: Travel planning serves as a critical task for long-horizon reasoning, exposing significant deficits in LLMs. However, existing benchmarks and evaluations primarily assess final plans in an end-to-end manner, which lacks interpretability and makes it difficult to analyze the root causes of failures. To bridge this gap, we decompose travel planning into five constituent atomic sub-capabilities, including \\emph{Constraint Extraction}, \\emph{Tool Use}, \\emph{Plan Generation}, \\emph{Error Identification}, and \\emph{Error Correction}. We implement a decoupled evaluation protocol leveraging oracle intermediate contexts to rigorously isolate these components, thereby measuring the atomic performance boundary without the noise of cascading errors. Our results highlight a clear contrast in performance: while LLMs are proficient in extracting explicit constraints, they struggle to infer implicit, open-world requirements. Furthermore, they exhibit structural biases in plan generation and suffer from ineffective self-correction, characterized by excessive sensitivity and erroneous persistence. These findings offer precise directions for improving LLM reasoning and planning abilities.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-07T04:00:00.000Z",
-      "score": 103.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08374",
-      "title": "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
-      "link": "https://arxiv.org/abs/2605.08374",
-      "summary": "arXiv:2605.08374v1 Announce Type: new Abstract: Episodic memory allows LLM agents to accumulate and retrieve experience, but current methods treat each memory independently, i.e., evaluating retrieval quality in isolation without accounting for the dependency chains through which memories enable the creation of future memories. We introduce MemQ, which applies TD($\\lambda$) eligibility traces to memory Q-values, propagating credit backward through a provenance DAG that records which memories were retrieved when each new memory was created. Credit weight decays as $(\\gamma\\lambda)^d$ with DAG depth $d$, replacing temporal distance with structural proximity. We formalize the setting as an Exogenous-Context MDP, whose factored transition decouples the exogenous task stream from the endogenous memory store. Across six benchmarks, spanning OS interaction, function calling, code generation, multimodal reasoning, embodied reasoning, and expert-level QA, MemQ achieves the highest success rate on all six in generalization evaluation and runtime learning, with gains largest on multi-step tasks that produce deep and relevant provenance chains (up to +5.7~pp) and smallest on single-step classification (+0.77~pp) where single-step updates already suffice. We further study how $\\gamma$ and $\\lambda$ interact with the EC-MDP structure, providing principled guidance for parameter selection and",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "score": 102.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "title": "Building a new enterprise AI services company with Blackstone, H&F, and Goldman",
-      "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "summary": "Article URL: https://www.anthropic.com/news/enterprise-ai-services-company Comments URL: https://news.ycombinator.com/item?id=48009638 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-04T15:04:59.000Z",
-      "score": 101.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.05460",
-      "title": "Agentic Discovery of Exchange-Correlation Density Functionals",
-      "link": "https://arxiv.org/abs/2605.05460",
-      "summary": "arXiv:2605.05460v1 Announce Type: new Abstract: The development of accurate exchange-correlation (XC) functionals remains a longstanding challenge in density functional theory (DFT). The vast majority of XC functionals have been hand designed by human researchers combining physical insight, exact constraints, and empirical fitting. Recent advances in large language models enable a systematic, automated alternative to this human-driven design loop. This report presents an agentic search system in which an LLM proposes structured functional-form changes guided by evolutionary history. The system attempts to improve functional performance through an iterative plan-execute-summarize loop, where improvements are measurable by optimizing functional parameters against a standard thermochemistry dataset, then evaluating performance on a held-out subset. The strongest discovered functional, SAFS26-a (Seed Agentic Functional Search 2026), improves upon the gold-standard {\\omega}B97M-V baseline by ~9%. These results also surface a cautionary lesson for AI-assisted science: models powerful enough to discover genuine improvements are equally capable of exploiting unphysical shortcuts to game the benchmark; domain expertise translated into explicitly enforced constraints remains essential to keeping results scientifically grounded.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-08T04:00:00.000Z",
-      "score": 101.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.06671",
-      "title": "GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning",
-      "link": "https://arxiv.org/abs/2605.06671",
-      "summary": "arXiv:2605.06671v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated strong potential for many mathematical problems. However, their performance on graph algorithmic tasks is still unsatisfying, since graphs are naturally more complex in topology and often require systematic multi-step reasoning, especially on larger graphs. Motivated by this gap, we propose GraphDC, a Divide-and-Conquer multi-agent framework for scalable graph algorithm reasoning. Specifically, inspired by Divide-and-Conquer design, GraphDC decomposes an input graph into smaller subgraphs, assigns each subgraph to a specialized agent for local reasoning, and uses a master agent to integrate the local outputs with inter-subgraph information to produce the final solution. This hierarchical design reduces the reasoning burden on individual agents, alleviates computational bottlenecks, and improves robustness on large graph instances. Extensive experiments show that GraphDC consistently outperforms existing methods on graph algorithm reasoning across diverse tasks and scales, especially on larger instances where direct end-to-end reasoning is less reliable.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-11T04:00:00.000Z",
-      "score": 101.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08386",
-      "title": "SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents",
-      "link": "https://arxiv.org/abs/2605.08386",
-      "summary": "arXiv:2605.08386v1 Announce Type: new Abstract: Skill libraries have become a practical way for LLM agents to reuse procedural experience across tasks. However, existing systems typically treat skills as flat, single-resolution prompt blocks. This creates a tension between relevance and cost: injecting coarse skills can introduce irrelevant or misleading context, while rewriting entire skills is expensive and often unnecessary. We propose SkillLens, a hierarchical skill-evolution framework that organizes skills into a four-layer graph of policies, strategies, procedures, and primitives, and retrieves them at mixed granularity. Given a task, SkillLens first retrieves semantically relevant skill seeds, expands them through degree-corrected random walk over the skill graph, and then uses a verifier to decide whether each visited unit should be accepted, decomposed, rewritten, or skipped. This enables the agent to reuse compatible subskills directly while adapting only locally mismatched components. To improve the system over time, SkillLens further refines multi-granularity skills and verifier in order to improve its routing decisions. We provide theoretical analysis showing that mixed-granularity adaptation incurs sublinear cost under sparse mismatch assumptions and that the evolutionary update rule monotonically improves the validation objective until a local optimum. Across MuL",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "score": 96.78,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
       "title": "Joanna Stern is not a robot, but she lived with them",
       "link": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
@@ -8150,22 +8170,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-04-13T16:13:18.910Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/Mike-io-hash/satsgate",
-      "title": "Satsgate: Monetize AI Agents and APIs with Lightning L402",
-      "link": "https://github.com/Mike-io-hash/satsgate",
-      "summary": "Article URL: https://github.com/Mike-io-hash/satsgate Comments URL: https://news.ycombinator.com/item?id=47647255 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-05T08:12:33.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-12T15:35:54.992Z",
-      "failureReason": "below min word targets; validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }
