@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-11T17:43:32.981Z",
+  "generatedAt": "2026-05-12T10:41:11.991Z",
   "items": [
+    {
+      "id": "https://cursor.com/blog/better-models-ambitious-work",
+      "title": "Better AI models enable more ambitious work",
+      "link": "https://cursor.com/blog/better-models-ambitious-work",
+      "summary": "Article URL: https://cursor.com/blog/better-models-ambitious-work Comments URL: https://news.ycombinator.com/item?id=47865389 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-04-22T15:51:23.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-05-12T10:41:11.962Z",
+      "file": "content/posts/2026-05-12-opus-45-and-gpt-52-linked-to-a-44percent-increase-in-weekly-ai-messages-among-500-cursor-customers.md",
+      "fileFr": "content/posts/fr/2026-05-12-opus-45-and-gpt-52-linked-to-a-44percent-increase-in-weekly-ai-messages-among-500-cursor-customers.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1312,
+      "wordsFr": 1230
+    },
     {
       "id": "https://github.com/xryv/DoneSpec",
       "title": "DoneSpec – deterministic completion checks for AI coding agents",
@@ -5001,32 +5024,6 @@
       "file": "content/posts/2026-02-06-enhancing-mathematical-problem-solving-in-llms-through-execution-driven-reasoning-augmentation.md"
     },
     {
-      "id": "https://www.technologyreview.com/2026/02/05/1132254/this-is-the-most-misunderstood-graph-in-ai/",
-      "title": "This is the most misunderstood graph in AI",
-      "link": "https://www.technologyreview.com/2026/02/05/1132254/this-is-the-most-misunderstood-graph-in-ai/",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community h",
-      "source": "MIT Tech Review AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-05T10:00:00.000Z",
-      "score": 44.5,
-      "status": "published",
-      "publishedAtRun": "2026-02-06T12:40:42.029Z",
-      "file": "content/posts/2026-02-06-this-is-the-most-misunderstood-graph-in-ai.md"
-    },
-    {
-      "id": "https://cursor.com/blog/better-models-ambitious-work",
-      "title": "Better AI models enable more ambitious work",
-      "link": "https://cursor.com/blog/better-models-ambitious-work",
-      "summary": "Article URL: https://cursor.com/blog/better-models-ambitious-work Comments URL: https://news.ycombinator.com/item?id=47865389 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-22T15:51:23.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://zspreadsheet.com",
       "title": "Show HN: Create Professional Excel Files with AI Agents",
       "link": "https://zspreadsheet.com",
@@ -5867,18 +5864,6 @@
       "status": "queued"
     },
     {
-      "id": "https://locastic.com/blog/keeping-code-quality-high-with-ai-agents",
-      "title": "Keeping code quality high with AI agents",
-      "link": "https://locastic.com/blog/keeping-code-quality-high-with-ai-agents",
-      "summary": "Article URL: https://locastic.com/blog/keeping-code-quality-high-with-ai-agents Comments URL: https://news.ycombinator.com/item?id=47845853 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-21T07:56:55.000Z",
-      "score": 143.88,
-      "status": "queued"
-    },
-    {
       "id": "https://fosstodon.org/@backintime/116555237447115014",
       "title": "Using AGENTS.md / Claude.md to discourage AI-generated code contributions",
       "link": "https://fosstodon.org/@backintime/116555237447115014",
@@ -5960,6 +5945,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-05-07T04:00:00.000Z",
       "score": 139.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.08399",
+      "title": "CoCoDA: Co-evolving Compositional DAG for Tool-Augmented Agents",
+      "link": "https://arxiv.org/abs/2605.08399",
+      "summary": "arXiv:2605.08399v1 Announce Type: new Abstract: Tool-augmented language models can extend small language models with external executable skills, but scaling the tool library creates a coupled challenge: the library must evolve with the planner as new reusable subroutines emerge, while retrieval from the growing library must remain within a fixed context budget. Existing tool-use and skill-library methods typically treat tools as flat or text-indexed memories, causing prompt cost to grow with library size and obscuring the typed, compositional structure of executable code. We propose CoCoDA, a framework that co-evolves the planner and tool library through a single code-native structure: a compositional code DAG. Nodes are primitive or composite tools, edges encode invocation dependencies, and each node stores a typed signature, description, pre/post-condition specification, and worked examples. At inference time, Typed DAG Retrieval prunes candidates by symbolic signature unification, ranks survivors by descriptions, filters them by behavioral specifications, and disambiguates with examples, keeping expensive context materialization on progressively smaller candidate sets. At training time, successful trajectories are folded into validated composite tools, while the planner is updated with a DAG-induced reward that credits composites by their primitive expansion size. We provide",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-05-12T04:00:00.000Z",
+      "score": 138.78,
       "status": "queued"
     },
     {
@@ -6071,6 +6068,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
+      "title": "Microsoft researchers find AI models and agents can't handle long-running tasks",
+      "link": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
+      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263 Comments URL: https://news.ycombinator.com/item?id=48105363 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-12T07:40:39.000Z",
+      "score": 134.27,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/gangtao/AgentPitch/",
       "title": "Show HN: A Soccer Game Simulator Played by AI Agent",
       "link": "https://github.com/gangtao/AgentPitch/",
@@ -6152,18 +6161,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "score": 131.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
-      "title": "Joanna Stern is not a robot, but she lived with them",
-      "link": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
-      "summary": "My guest today is longtime friend of the show Joanna Stern. You all know Joanna: she is the former senior personal technology columnist for The Wall Street Journal, a former Decoder guest host, one of my cofounders here at The Verge, and also just one of my very closest friends. I mention that because Joanna just left that lofty perch at The Journal to start her own media company called New Things. She’s starting with her new book about AI, called I Am Not a Robot, which is out this week on May 12th. You’ll hear us reference the fact that she and I have been talking about her big move to go independent for ages now — it’s something she’s wanted to do and wrestled with for years, and she has a long list of interesting reasons about why now is the time. She’s also structured her new venture in partnership with NBC to keep her in front of a big mainstream audience. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. It was important that I prove to Joanna that I actually read her book, which is really quite good. She spent a full year allowing AI into every part of her life and has more of a sense of where this technology actually is than pretty much anyone because of it. As you’ll hear Joanna explain, many of the most hyped AI-powered gadgets — especially the humanoid robots",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 8,
-      "publishedAt": "2026-05-11T14:00:00.000Z",
-      "score": 131.26,
       "status": "queued"
     },
     {
@@ -6347,18 +6344,6 @@
       "status": "queued"
     },
     {
-      "id": "https://hozan23.com/posts/ai-security-nightmare/",
-      "title": "AI agents are a security nightmare. Moving the dev workflow to QEMU",
-      "link": "https://hozan23.com/posts/ai-security-nightmare/",
-      "summary": "Article URL: https://hozan23.com/posts/ai-security-nightmare/ Comments URL: https://news.ycombinator.com/item?id=47845691 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-21T07:33:21.000Z",
-      "score": 123.45,
-      "status": "queued"
-    },
-    {
       "id": "https://agent-benchmarks.com/",
       "title": "Show HN: Learn how AI benchmarks cheat",
       "link": "https://agent-benchmarks.com/",
@@ -6527,18 +6512,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.16706",
-      "title": "Evaluating Tool-Using Language Agents: Judge Reliability, Propagation Cascades, and Runtime Mitigation in AgentProp-Bench",
-      "link": "https://arxiv.org/abs/2604.16706",
-      "summary": "arXiv:2604.16706v1 Announce Type: new Abstract: Automated evaluation of tool-using large language model (LLM) agents is widely assumed to be reliable, but this assumption has rarely been validated against human annotation. We introduce AgentProp-Bench, a 2,000-task benchmark with 2,300 traces across four domains, nine production LLMs, and a 100-label human-validated subset. We quantify judge reliability, characterize error propagation, and evaluate a runtime mitigation. Substring-based judging agrees with human annotation at kappa=0.049 (chance-level); a three-LLM ensemble reaches kappa=0.432 (moderate) with a conservative bias. Under validated evaluation, a parameter-level injection propagates to a wrong final answer with human-calibrated probability approximately 0.62 (range 0.46-0.73 across models). Rejection (catching bad parameters) and recovery (correcting after acceptance) are independent model capabilities (Spearman rho=0.126, p=0.747). A tuned runtime interceptor reduces hallucination on GPT-4o-mini by 23.0 percentage points under a concurrent n=600 control, but shows no significant effect on Gemini-2.0-Flash, whose aggressive parameter rejection eliminates the target failure mode. All code, data, traces, and human labels are released at https://github.com/bhaskargurram-ai/agenthallu-bench.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-21T04:00:00.000Z",
-      "score": 117.86,
-      "status": "queued"
-    },
-    {
       "id": "https://canonical.com/blog/canonical-releases-inference-snaps",
       "title": "Ubuntu silicon-optimized inference snaps for AI",
       "link": "https://canonical.com/blog/canonical-releases-inference-snaps",
@@ -6659,6 +6632,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.08445",
+      "title": "Measuring What Matters: Benchmarking Generative, Multimodal, and Agentic AI in Healthcare",
+      "link": "https://arxiv.org/abs/2605.08445",
+      "summary": "arXiv:2605.08445v1 Announce Type: new Abstract: AI models are increasingly deployed in live clinical environments where they must perform reliably across complex, high-stakes workflows that standard training and validation datasets were never designed to capture. Evaluating these systems requires benchmarks: structured combinations of tasks, datasets, and metrics that enable reproducible, comparable measurement of what a model can do. The central challenge in healthcare AI is not performance alone, but the absence of systematic methods to measure reliability, safety, and clinical relevance under real-world conditions. Most existing benchmarks test what a model knows; too few test whether it can perform reliably and without failing across the full complexity of real clinical tasks. Current benchmarks have accumulated through ad hoc dataset construction optimized for narrow task performance: frontier models achieve near-perfect scores on medical licensing examinations, but when evaluated across real clinical tasks, performance degrades sharply, scoring 0.74--0.85 on documentation, 0.61--0.76 on clinical decision support, and only 0.53--0.63 on administrative and workflow tasks \\cite{medhelm}. High benchmark scores give a false sense of deployment readiness, and the gap between performance and utility widens precisely as AI systems take on more consequential clinical roles. Withou",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-12T04:00:00.000Z",
+      "score": 114.78,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/victornominista/anp",
       "title": "ANP – A binary protocol for AI agent-to-agent price negotiation (no LLM tokens)",
       "link": "https://github.com/victornominista/anp",
@@ -6719,18 +6704,6 @@
       "status": "queued"
     },
     {
-      "id": "https://sinankprn.com/posts/enhancing-sporting-organisation-efficiency-with-generative-ai/",
-      "title": "Enhancing Sporting Organisation Efficiency with Generative AI",
-      "link": "https://sinankprn.com/posts/enhancing-sporting-organisation-efficiency-with-generative-ai/",
-      "summary": "Article URL: https://sinankprn.com/posts/enhancing-sporting-organisation-efficiency-with-generative-ai/ Comments URL: https://news.ycombinator.com/item?id=47845768 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-21T07:43:22.000Z",
-      "score": 112.88,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.19789",
       "title": "From Data to Theory: Autonomous Large Language Model Agents for Materials Science",
       "link": "https://arxiv.org/abs/2604.19789",
@@ -6764,18 +6737,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-04T08:00:42.000Z",
       "score": 111.9,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.16736",
-      "title": "When Agents Go Quiet: Output Generation Capacity and Format-Cost Separation for LLM Document Synthesis",
-      "link": "https://arxiv.org/abs/2604.16736",
-      "summary": "arXiv:2604.16736v1 Announce Type: new Abstract: LLM-powered coding agents suffer from a poorly understood failure mode we term output stalling: the agent silently produces empty responses when attempting to generate large, format-heavy documents. We present a theoretical framework that explains and prevents this failure through three contributions. (1) We introduce Output Generation Capacity (OGC), a formal measure of an agent's effective ability to produce output given its current context state - distinct from and empirically smaller than the raw context window. (2) We prove a Format-Cost Separation Theorem showing that deferred template rendering is always at least as token-efficient as direct generation for any format with overhead multiplier $\\mu_f > 1$, and derive tight bounds on the savings. (3) We formalize Adaptive Strategy Selection, a decision framework that maps the ratio of estimated output cost to available OGC into an optimal generation strategy (direct, chunked, or deferred). We validate the theory through controlled experiments across three models (Claude 3.5 Sonnet, GPT-4o, Llama 3.1 70B), four document types, and an ablation study isolating each component's contribution. Deferred rendering reduces LLM generation tokens by 48-72% across all conditions and eliminates output stalling entirely. We instantiate the framework as GEN-PILOT, an open-source MCP server,",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-21T04:00:00.000Z",
-      "score": 111.86,
       "status": "queued"
     },
     {
@@ -6884,6 +6845,30 @@
       "keywordHits": 7,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "score": 109.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.08354",
+      "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
+      "link": "https://arxiv.org/abs/2605.08354",
+      "summary": "arXiv:2605.08354v1 Announce Type: new Abstract: Aligning multimodal generative models with human preferences demands reward signals that respect the compositional, multi-dimensional structure of human judgment. Prevailing RLHF approaches reduce this structure to scalar or pairwise labels, collapsing nuanced preferences into opaque parametric proxies and exposing vulnerabilities to reward hacking. While recent Rubrics-as-Reward (RaR) methods attempt to recover this structure through explicit criteria, generating rubrics that are simultaneously reliable, scalable, and data-efficient remains an open problem. We introduce Auto-Rubric as Reward (ARR), a framework that reframes reward modeling from implicit weight optimization to explicit, criteria-based decomposition. Before any pairwise comparison, ARR externalizes a VLM's internalized preference knowledge as prompt-specific rubrics, translating holistic intent into independently verifiable quality dimensions. This conversion of implicit preference structure into inspectable, interpretable constraints substantially suppresses evaluation biases including positional bias, enabling both zero-shot deployment and few-shot conditioning on minimal supervision. To extend these gains into generative training, we propose Rubric Policy Optimization (RPO), which distills ARR's structured multi-dimensional evaluation into a robust binary reward",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-05-12T04:00:00.000Z",
+      "score": 108.78,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.08409",
+      "title": "Playing games with knowledge: AI-Induced delusions need game theoretic interventions",
+      "link": "https://arxiv.org/abs/2605.08409",
+      "summary": "arXiv:2605.08409v1 Announce Type: new Abstract: Conversational AI has a fundamental flaw as a knowledge interface: sycophantic chatbots induce epistemic entrenchment and delusional belief spirals even in rational agents. We propose the problem does not stem from the AI model, rooted instead in a systemic consequence of the paradigm shift from user-driven knowledge search to users and agents engaged in strategic, repeated-play communication. We formalize the problem as a Crawford-Sobel cheap talk game, where costless user signals induce a pooling equilibrium. Agents optimized for user satisfaction produce sycophantic strategies that provide identical reinforcement across user types with opposite epistemic incentives: exploratory ``Growth-seekers'' ($\\theta_G$) and confirmatory ``Validation-seekers'' ($\\theta_V$). Under repeated play, this identification failure creates a coordination trap -- analogous to a Prisoner's Dilemma -- where locally rational feedback loops drive users toward pathologically certain false beliefs. We propose an inference-time mechanism design intervention called an Epistemic Mediator that breaks this pooling equilibrium by introducing a costly signal (epistemic friction), forcing type revelation based on users' asymmetric cognitive costs for processing resistance. A key contribution is Belief Versioning, a git-inspired epistemic meta-memory system that st",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-05-12T04:00:00.000Z",
+      "score": 108.78,
       "status": "queued"
     },
     {
@@ -7115,6 +7100,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.08374",
+      "title": "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
+      "link": "https://arxiv.org/abs/2605.08374",
+      "summary": "arXiv:2605.08374v1 Announce Type: new Abstract: Episodic memory allows LLM agents to accumulate and retrieve experience, but current methods treat each memory independently, i.e., evaluating retrieval quality in isolation without accounting for the dependency chains through which memories enable the creation of future memories. We introduce MemQ, which applies TD($\\lambda$) eligibility traces to memory Q-values, propagating credit backward through a provenance DAG that records which memories were retrieved when each new memory was created. Credit weight decays as $(\\gamma\\lambda)^d$ with DAG depth $d$, replacing temporal distance with structural proximity. We formalize the setting as an Exogenous-Context MDP, whose factored transition decouples the exogenous task stream from the endogenous memory store. Across six benchmarks, spanning OS interaction, function calling, code generation, multimodal reasoning, embodied reasoning, and expert-level QA, MemQ achieves the highest success rate on all six in generalization evaluation and runtime learning, with gains largest on multi-step tasks that produce deep and relevant provenance chains (up to +5.7~pp) and smallest on single-step classification (+0.77~pp) where single-step updates already suffice. We further study how $\\gamma$ and $\\lambda$ interact with the EC-MDP structure, providing principled guidance for parameter selection and",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-12T04:00:00.000Z",
+      "score": 102.78,
+      "status": "queued"
+    },
+    {
       "id": "https://www.anthropic.com/news/enterprise-ai-services-company",
       "title": "Building a new enterprise AI services company with Blackstone, H&F, and Goldman",
       "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
@@ -7149,6 +7146,34 @@
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "score": 101.45,
       "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.08386",
+      "title": "SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents",
+      "link": "https://arxiv.org/abs/2605.08386",
+      "summary": "arXiv:2605.08386v1 Announce Type: new Abstract: Skill libraries have become a practical way for LLM agents to reuse procedural experience across tasks. However, existing systems typically treat skills as flat, single-resolution prompt blocks. This creates a tension between relevance and cost: injecting coarse skills can introduce irrelevant or misleading context, while rewriting entire skills is expensive and often unnecessary. We propose SkillLens, a hierarchical skill-evolution framework that organizes skills into a four-layer graph of policies, strategies, procedures, and primitives, and retrieves them at mixed granularity. Given a task, SkillLens first retrieves semantically relevant skill seeds, expands them through degree-corrected random walk over the skill graph, and then uses a verifier to decide whether each visited unit should be accepted, decomposed, rewritten, or skipped. This enables the agent to reuse compatible subskills directly while adapting only locally mismatched components. To improve the system over time, SkillLens further refines multi-granularity skills and verifier in order to improve its routing decisions. We provide theoretical analysis showing that mixed-granularity adaptation incurs sublinear cost under sparse mismatch assumptions and that the evolutionary update rule monotonically improves the validation objective until a local optimum. Across MuL",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-12T04:00:00.000Z",
+      "score": 96.78,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
+      "title": "Joanna Stern is not a robot, but she lived with them",
+      "link": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
+      "summary": "My guest today is longtime friend of the show Joanna Stern. You all know Joanna: she is the former senior personal technology columnist for The Wall Street Journal, a former Decoder guest host, one of my cofounders here at The Verge, and also just one of my very closest friends. I mention that because Joanna just left that lofty perch at The Journal to start her own media company called New Things. She’s starting wi…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 8,
+      "publishedAt": "2026-05-11T14:00:00.000Z",
+      "score": 131.26,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-05-12T10:23:18.129Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://openai.com/index/openai-campus-network-student-club-interest-form",
