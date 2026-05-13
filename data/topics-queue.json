@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-13T10:21:21.600Z",
+  "generatedAt": "2026-05-13T17:26:40.850Z",
   "items": [
+    {
+      "id": "https://github.com/officeos-co/officeos",
+      "title": "OfficeOS: Open-source infrastructure for scaling and managing AI agents",
+      "link": "https://github.com/officeos-co/officeos",
+      "summary": "Article URL: https://github.com/officeos-co/officeos Comments URL: https://news.ycombinator.com/item?id=48097109 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-11T16:24:32.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-13T17:26:40.772Z",
+      "file": "content/posts/2026-05-13-officeos-quickstart-run-locally-and-prepare-a-small-scale-rollout-of-open-source-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-05-13-officeos-quickstart-run-locally-and-prepare-a-small-scale-rollout-of-open-source-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1364,
+      "wordsFr": 1444
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
       "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
@@ -5023,22 +5046,6 @@
       "wordsFr": 924
     },
     {
-      "id": "https://openai.com/index/retiring-gpt-4o-and-older-models",
-      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
-      "link": "https://openai.com/index/retiring-gpt-4o-and-older-models",
-      "summary": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-01-29T00:00:00.000Z",
-      "score": 36.58,
-      "status": "published",
-      "targetRegion": "US",
-      "publishedAtRun": "2026-02-06T15:14:11.915Z",
-      "file": "content/posts/2026-02-06-retiring-gpt-4o-gpt-41-gpt-41-mini-and-openai-o4-mini-in-chatgpt.md",
-      "fileFr": "content/posts/fr/2026-02-06-retiring-gpt-4o-gpt-41-gpt-41-mini-and-openai-o4-mini-in-chatgpt.md"
-    },
-    {
       "id": "https://zspreadsheet.com",
       "title": "Show HN: Create Professional Excel Files with AI Agents",
       "link": "https://zspreadsheet.com",
@@ -5167,18 +5174,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-05-11T16:48:31.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/officeos-co/officeos",
-      "title": "OfficeOS: Open-source infrastructure for scaling and managing AI agents",
-      "link": "https://github.com/officeos-co/officeos",
-      "summary": "Article URL: https://github.com/officeos-co/officeos Comments URL: https://news.ycombinator.com/item?id=48097109 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-11T16:24:32.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5759,30 +5754,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.athletedata.health",
-      "title": "Show HN: AthleteData – AI coach for endurance athletes that messages you first",
-      "link": "https://www.athletedata.health",
-      "summary": "Im a triathlete and the data for my training lives in 6 apps: Garmin, Strava, WHOOP, Intervals.icu, Wahoo, Withings, Apple Health, sometimes Hevy. Every morning Id eyeball a few of them and make a call on whether to do the planned session. For the past month I have been building a thing that does this for me, and got it to the point where I use it myself every day. It OAuths into whatever platforms you connect, reconciles the activities (tbh harder than it sounds — same ride shows up in Strava, Garmin, and Wahoo with different timestamps and rounding), computes daily load and readiness, and proactively messages you over Telegram or Whatsapp when something matters. Stack is straightforward: Typescript all the way, Postgres, an agent loop running on Claude (via Bedrock) with tool access to all your data + my computed metrics: zones, CTL/ATL/TSB, power/pace curves, anomaly detection on HRV and RHR, etc Two things that were harder than expected: 1. Garmins API only exposes the last 90 days. So for anyone with Garmin as their primary device, you have to backfill from Strava and stitch the two together. Strava has full history but misses some fields (e.g. HR-based TSS only — no power). Wahoo and intervals.icu fill different gaps. The dedup pipeline is ugly and I'd welcome feedback from anyone who has solved this better. 2. Deciding when to message vs. stay silent is entirely a produc",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-22T15:39:10.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=47864818",
-      "title": "Anyone see AI tool for interior design of room with just photos?",
-      "link": "https://news.ycombinator.com/item?id=47864818",
-      "summary": "I'm looking for AI tools (free is better, but I'm willing to pay) to be able to take photos with phone of my room, and have it come up with redesigned layouts either on its own or with prompts. Does this exist? I tried to use Claude, ChatGPT and other tools to do this but it couldn't even come close, even if I drew out detailed floor plans for the dimensions combined with photos from many angles. Comments URL: https://news.ycombinator.com/item?id=47864818 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-22T15:15:34.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/",
       "title": "30 Days Running ChatGPT Plus, Claude Pro, and Google AI Pro in Parallel",
       "link": "https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/",
@@ -5851,6 +5822,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-12T16:49:06.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+      "title": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
+      "link": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+      "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it also uses end-to-end encryption, which Meta recently removed from Instagram DMs: \"Other apps have introduced incognito-style modes, but they can still see the questions coming in and the answers going out. Incognito Chat with Meta AI is truly private, meaning no one - not even Meta - can read your conversations.\" Google … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-13T16:45:43.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -6971,6 +6954,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2252897-halupedia-ce-site-est-un-wikipedia-avec-100-dhallucinations-ia.html",
+      "title": "« Halupédia » : ce site est un Wikipédia avec 100 % d’hallucinations IA",
+      "link": "https://www.numerama.com/tech/2252897-halupedia-ce-site-est-un-wikipedia-avec-100-dhallucinations-ia.html",
+      "summary": "Et si Wikipédia était entièrement alimenté par des hallucinations d’IA ? C’est précisément le concept d’Halupédia, une encyclopédie open source où chaque article est généré à la volée par un modèle d’intelligence artificielle.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-13T15:49:22.000Z",
+      "score": 107.07,
+      "status": "queued"
+    },
+    {
       "id": "https://jackpritz.com/blog/what-are-llms-and-generative-ai-good-at",
       "title": "Article: What are LLMs and Generative AI good at",
       "link": "https://jackpritz.com/blog/what-are-llms-and-generative-ai-good-at",
@@ -7184,6 +7179,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "score": 91.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.08415",
+      "title": "Political Plasticity: An Analysis of Ideological Adaptability in Large Language Models",
+      "link": "https://arxiv.org/abs/2605.08415",
+      "summary": "arXiv:2605.08415v1 Announce Type: new Abstract: Since the advent of Large Language Models (LLMs), a significant area of research has focused on their intrinsic biases, particularly in political discourse. This study investigates a different but related concept, \"political plasticity\", which is defined as the capacity of models to adapt their responses based on the user supplied context. To analyze this, a testing framework was developed using an expanded corpus of 200 politically-oriented questions across economic and personal freedom axes, based on a prior framework by Lester (1996). The study explored several methods to induce political bias, including simplified and topic-based system prompts, as well as user prompts with few-shot examples. The results show that while system prompts were largely ineffective, user prompts successfully elicited significant ideological shifts, particularly along the Economic Freedom axis in larger and newer models. Through a validation experiment, we examined whether models answer questionnaires by recognizing the underlying question format. Inverting the sense of the questions revealed unexpected, counter-intuitive shifts in most models, suggesting potential data leakage. Finally, we also analyzed how model plasticity varies when the experiment is conducted in different languages. The results reveal subtle yet notable shifts across each of the",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "score": 81.04,
       "status": "queued"
     },
     {
@@ -8161,22 +8168,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-04-14T09:08:47.582Z",
       "failureReason": "validation issues: FR: Section \"Pourquoi c'est important (pour les vraies equipes)\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Angle regional (FR)\" is missing an inline source link…"
-    },
-    {
-      "id": "https://www.npmjs.com/package/@stackone/defender",
-      "title": "Defender – Local prompt injection detection for AI agents (no API calls)",
-      "link": "https://www.npmjs.com/package/@stackone/defender",
-      "summary": "Article URL: https://www.npmjs.com/package/@stackone/defender Comments URL: https://news.ycombinator.com/item?id=47749598 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-13T09:13:19.000Z",
-      "score": 192,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-13T16:13:18.910Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
