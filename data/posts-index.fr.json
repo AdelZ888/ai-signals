@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T10:12:12.816Z",
+  "generatedAt": "2026-05-14T17:07:56.578Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge",
+      "title": "Intégrer VIBE✓ à cq : revue pré‑approbation en quatre domaines pour la connaissance partagée des agents",
+      "date": "2026-05-14",
+      "excerpt": "Ajoutez une étape légère de pré‑approbation VIBE✓ à cq (propose + /cq:reflect) pour repérer vulnérabilités, biais, fuites de secrets et cas limites. Ce guide, localisé pour le contexte UK, explique l'idée en langage simple puis donne des pistes d'implémentation pratiques (les parties techniques et exemples sont marquées comme hypothèses quand elles ne figurent pas dans l'annonce originale).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge.jpg",
+      "tags": [
+        "cq",
+        "VIBE",
+        "sécurité",
+        "revue-humaine",
+        "IA",
+        "CI",
+        "confidentialité"
+      ],
+      "sources": [
+        "https://blog.mozilla.ai/first-line-of-defense-for-cq/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-05-13-officeos-quickstart-run-locally-and-prepare-a-small-scale-rollout-of-open-source-ai-agents",

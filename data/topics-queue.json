@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-14T10:12:12.826Z",
+  "generatedAt": "2026-05-14T17:07:56.645Z",
   "items": [
+    {
+      "id": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
+      "title": "Show HN: Vibe – Responsible AI Review for Cq (Stack Overflow for Agents)",
+      "link": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
+      "summary": "Six weeks ago, Daniel Nissani at Mozilla.ai shared cq (https://news.ycombinator.com/item?id=47491466), Stack Overflow for agents. One of the top concerns in that thread was security and trust around shared knowledge. So we worked together to build VIBE, a first line of defense for cq. Before a developer approves any knowledge unit for the shared corpus, VIBE runs a four-domain audit: Vulnerabilities (what and who be…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-12T17:04:34.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-14T17:07:56.562Z",
+      "file": "content/posts/2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge.md",
+      "fileFr": "content/posts/fr/2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1758,
+      "wordsFr": 1465
+    },
     {
       "id": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
       "title": "Gemini&#8217;s biggest new features are all about controlling your phone",
@@ -5031,25 +5054,6 @@
       "wordsFr": 1590
     },
     {
-      "id": "https://www.bbc.com/news/articles/ce3edyx74jko?at_medium=RSS&at_campaign=rss",
-      "title": "ChatGPT boss ridiculed for online 'tantrum' over rival's Super Bowl ad",
-      "link": "https://www.bbc.com/news/articles/ce3edyx74jko?at_medium=RSS&at_campaign=rss",
-      "summary": "Commenters said Altman's lengthy post shows \"a nerve was well and truly hit\" by Anthropic's advert.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-05T12:36:32.000Z",
-      "score": 28.48,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-06T15:24:40.392Z",
-      "file": "content/posts/2026-02-06-chatgpt-boss-ridiculed-for-online-tantrum-over-rivals-super-bowl-ad.md",
-      "fileFr": "content/posts/fr/2026-02-06-chatgpt-boss-ridiculed-for-online-tantrum-over-rivals-super-bowl-ad.md",
-      "wordsEn": 970,
-      "wordsFr": 923
-    },
-    {
       "id": "https://zspreadsheet.com",
       "title": "Show HN: Create Professional Excel Files with AI Agents",
       "link": "https://zspreadsheet.com",
@@ -5182,18 +5186,6 @@
       "status": "queued"
     },
     {
-      "id": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
-      "title": "Show HN: Vibe – Responsible AI Review for Cq (Stack Overflow for Agents)",
-      "link": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
-      "summary": "Six weeks ago, Daniel Nissani at Mozilla.ai shared cq (https://news.ycombinator.com/item?id=47491466), Stack Overflow for agents. One of the top concerns in that thread was security and trust around shared knowledge. So we worked together to build VIBE, a first line of defense for cq. Before a developer approves any knowledge unit for the shared corpus, VIBE runs a four-domain audit: Vulnerabilities (what and who becomes exposed through this code's existence), Intention versus Impact (the gap between what a system is trying to do versus what it actually does), Bias & Blind Spots (known limitations in the agent's training or assumptions in the code), and Edge Case Handling (stress-testing the system before it meets users). Knowledge units get flagged as clean, soft concern, or hard finding, & hard findings come with a sanitized rewrite for human review. How would you use this in your automated pipelines? Comments URL: https://news.ycombinator.com/item?id=48111063 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-12T17:04:34.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
       "title": "World Models: Things That Matter in AI",
       "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
@@ -5230,15 +5222,15 @@
       "status": "queued"
     },
     {
-      "id": "https://agentshield.pro/blog/ncsc-perfect-storm",
-      "title": "The NCSC's AI threat warning and the gap in AI agent security",
-      "link": "https://agentshield.pro/blog/ncsc-perfect-storm",
-      "summary": "Article URL: https://agentshield.pro/blog/ncsc-perfect-storm Comments URL: https://news.ycombinator.com/item?id=47876985 Points: 1 # Comments: 0",
+      "id": "https://blog.fidelramos.net/software/how-i-sandbox-ai-agents",
+      "title": "How I Sandbox My AI Agents",
+      "link": "https://blog.fidelramos.net/software/how-i-sandbox-ai-agents",
+      "summary": "Article URL: https://blog.fidelramos.net/software/how-i-sandbox-ai-agents Comments URL: https://news.ycombinator.com/item?id=48137863 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-04-23T15:33:25.000Z",
-      "score": 168,
+      "publishedAt": "2026-05-14T16:45:36.000Z",
+      "score": 174,
       "status": "queued"
     },
     {
@@ -5323,54 +5315,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-13T09:09:48.000Z",
       "score": 156.1,
-      "status": "queued"
-    },
-    {
-      "id": "https://teotti.com/using-an-ai-agent-to-navigate-an-undocumented-kubernetes-repo/",
-      "title": "Using an AI agent to navigate an undocumented Kubernetes repo",
-      "link": "https://teotti.com/using-an-ai-agent-to-navigate-an-undocumented-kubernetes-repo/",
-      "summary": "Article URL: https://teotti.com/using-an-ai-agent-to-navigate-an-undocumented-kubernetes-repo/ Comments URL: https://news.ycombinator.com/item?id=47877444 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-23T16:06:53.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.googlecloudpresscorner.com/2026-04-22-Atlassian-Expands-Partnership-with-Google-Cloud-to-Power-Agentic-AI-for-Teams-Worldwide",
-      "title": "Atlassian Expands Partnership with Google Cloud to Power Agentic AI",
-      "link": "https://www.googlecloudpresscorner.com/2026-04-22-Atlassian-Expands-Partnership-with-Google-Cloud-to-Power-Agentic-AI-for-Teams-Worldwide",
-      "summary": "Article URL: https://www.googlecloudpresscorner.com/2026-04-22-Atlassian-Expands-Partnership-with-Google-Cloud-to-Power-Agentic-AI-for-Teams-Worldwide Comments URL: https://news.ycombinator.com/item?id=47877200 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-23T15:47:06.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.mandatory.com/news/1761666-maga-influencer-ai-model-emily-hart-unmasked-indian-man",
-      "title": "AI Model and 'MAGA' Influencer Emily Hart Unmasked as Indian Man",
-      "link": "https://www.mandatory.com/news/1761666-maga-influencer-ai-model-emily-hart-unmasked-indian-man",
-      "summary": "Article URL: https://www.mandatory.com/news/1761666-maga-influencer-ai-model-emily-hart-unmasked-indian-man Comments URL: https://news.ycombinator.com/item?id=47877145 Points: 4 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-23T15:44:25.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.14807",
-      "title": "LLM users mistake AI output for their own real skill",
-      "link": "https://arxiv.org/abs/2604.14807",
-      "summary": "Article URL: https://arxiv.org/abs/2604.14807 Comments URL: https://news.ycombinator.com/item?id=47877109 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-23T15:42:35.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5674,6 +5618,18 @@
       "status": "queued"
     },
     {
+      "id": "https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/",
+      "title": "Conductor: Deterministic orchestration for multi-agent AI workflows",
+      "link": "https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/",
+      "summary": "Article URL: https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/ Comments URL: https://news.ycombinator.com/item?id=48137833 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-14T16:42:46.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
       "title": "AI chatbots need 'deception mode'",
       "link": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
@@ -5782,18 +5738,6 @@
       "status": "queued"
     },
     {
-      "id": "https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/",
-      "title": "30 Days Running ChatGPT Plus, Claude Pro, and Google AI Pro in Parallel",
-      "link": "https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/",
-      "summary": "Article URL: https://virtualuncle.com/chatgpt-vs-claude-vs-gemini/ Comments URL: https://news.ycombinator.com/item?id=47877478 Points: 5 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-23T16:09:53.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://susam.net/inverse-laws-of-robotics.html",
       "title": "Three Inverse Laws of AI",
       "link": "https://susam.net/inverse-laws-of-robotics.html",
@@ -5878,6 +5822,18 @@
       "status": "queued"
     },
     {
+      "id": "https://syfi.cs.washington.edu/blog/2026-05-12-introducing-vibeserve/",
+      "title": "Let AI Agents Write Your Serving Stack with VibeServe",
+      "link": "https://syfi.cs.washington.edu/blog/2026-05-12-introducing-vibeserve/",
+      "summary": "Article URL: https://syfi.cs.washington.edu/blog/2026-05-12-introducing-vibeserve/ Comments URL: https://news.ycombinator.com/item?id=48137104 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-14T15:44:18.000Z",
+      "score": 148.15,
+      "status": "queued"
+    },
+    {
       "id": "https://onlytech.boo/incident/pocketos-ai-fiasco-lesson-in-automation-access-mokdojol",
       "title": "PocketOS AI Fiasco – Lesson in Automation Access",
       "link": "https://onlytech.boo/incident/pocketos-ai-fiasco-lesson-in-automation-access-mokdojol",
@@ -5947,6 +5903,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-04-25T14:15:01.000Z",
       "score": 145.71,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48136879",
+      "title": "Show HN: 1-800-CODER, macOS app where you call an AI developer to edit your page",
+      "link": "https://news.ycombinator.com/item?id=48136879",
+      "summary": "Sharing a small Mac app I built around OpenAI’s gpt-realtime-2 model. You call up a voice coding agent and talk to it like you’d talk to a freelancer (\"make the hero tighter, put a product image on the right, that one's too big\"). You can even point at things on your webpage and say “remove this” or “make that bold”. Pointing feels like a killer feature. It pushes the conversation bandwidth way up, and feels just like working with a real person over a screen share. Video demo: https://youtu.be/RteRVM7BSps Github URL: https://github.com/abi/1-800-CODER How is pointing implemented? GPT-Realtime-2 only supports image inputs (unlike Gemini Live which also supports video inputs). So, the app sends a screenshot including the cursor when the model emits a speech_stopped event. That way, the agent always has a fresh visual before it replies. Limitations: - GPT-Realtime-2 is okay at front-end changes, probably at a GPT-4o level. Small modifications like copy changes, adding/removing elements, formatting updates work really well at low latency. In fact, for these types of changes, this might be my ideal interface. But if you wanted this app to be more useful for larger changes or generating UI from scratch, you’d want to hook up a subagent system that runs a smarter model like GPT 5.5 or Claude Opus. - GPT-Realtime-2 is expensive. The good news though is that bandwidth is really high her",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-14T15:29:26.000Z",
+      "score": 144.83,
       "status": "queued"
     },
     {
@@ -7186,6 +7154,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.clyra.cc/lab/",
+      "title": "Show HN: An interactive map of hidden AI dev agent action paths",
+      "link": "https://www.clyra.cc/lab/",
+      "summary": "Article URL: https://www.clyra.cc/lab/ Comments URL: https://news.ycombinator.com/item?id=48136496 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-14T15:05:44.000Z",
+      "score": 98.59,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.08386",
       "title": "SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents",
       "link": "https://arxiv.org/abs/2605.08386",
@@ -7195,6 +7175,30 @@
       "keywordHits": 5,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "score": 97.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
+      "link": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+      "summary": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: “Capability now, control later.” Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-14T13:00:00.000Z",
+      "score": 83.91,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.12674",
+      "title": "Revealing Interpretable Failure Modes of VLMs",
+      "link": "https://arxiv.org/abs/2605.12674",
+      "summary": "arXiv:2605.12674v1 Announce Type: new Abstract: Vision-Language Models (VLMs) are increasingly used in safety-critical applications because of their broad reasoning capabilities and ability to generalize with minimal task-specific engineering. Despite these advantages, they can exhibit catastrophic failures in specific real-world situations, constituting failure modes. We introduce REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. We define a failure mode as a composition of interpretable, domain-relevant concepts-such as pedestrian proximity or adverse weather conditions-under which a target VLM consistently behaves incorrectly. Identifying such failures requires searching over an exponentially large discrete combinatorial space. To address this challenge, REVELIO combines two search procedures: a diversity-aware beam search that efficiently maps the failure landscape, and a Gaussian-process Thompson Sampling strategy that enables broader exploration of complex failure modes. We apply REVELIO to autonomous driving and indoor robotics domains, uncovering previously unreported vulnerabilities in state-of-the-art VLMs. In driving environments, the models often demonstrate weak spatial grounding and fail to account for major obstructions, leading to recommendations that would result in simulated crashes. In indoor robotics tasks, VLMs either m",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-05-14T04:00:00.000Z",
+      "score": 75.22,
       "status": "queued"
     },
     {
@@ -8124,22 +8128,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-04-15T09:09:51.258Z",
       "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at le…"
-    },
-    {
-      "id": "https://www.falconbuilder.dev/",
-      "title": "Show HN: Falcon Builder – the modular OS for designing and deploying AI agents",
-      "link": "https://www.falconbuilder.dev/",
-      "summary": "Article URL: https://www.falconbuilder.dev/ Comments URL: https://news.ycombinator.com/item?id=47676893 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-07T15:30:04.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-14T16:07:39.812Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }

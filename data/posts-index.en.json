@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T10:12:12.814Z",
+  "generatedAt": "2026-05-14T17:07:56.577Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge",
+      "title": "Integrating VIBE✓ into cq: a four-domain pre-approval review for shared agent knowledge",
+      "date": "2026-05-14",
+      "excerpt": "Add a lightweight VIBE✓ pre-approval step to cq that flags vulnerabilities, intent-impact gaps, bias, and edge cases. Learn the checklist, CI gate pattern, and approval rules.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge.jpg",
+      "tags": [
+        "cq",
+        "vibe",
+        "responsible-ai",
+        "agents",
+        "security",
+        "checklist",
+        "pipeline",
+        "mozilla.ai"
+      ],
+      "sources": [
+        "https://blog.mozilla.ai/first-line-of-defense-for-cq/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-05-13-officeos-quickstart-run-locally-and-prepare-a-small-scale-rollout-of-open-source-ai-agents",
