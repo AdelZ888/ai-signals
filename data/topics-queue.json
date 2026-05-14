@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-13T17:26:40.850Z",
+  "generatedAt": "2026-05-14T10:12:12.826Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
+      "title": "Gemini&#8217;s biggest new features are all about controlling your phone",
+      "link": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
+      "summary": "Gemini Intelligence comes with a Liquid Glass-ish visual treatment. | Image: Google It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. Google also has a new name for us t…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "score": 150,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-05-14T10:12:12.800Z",
+      "file": "content/posts/2026-05-14-gemini-intelligence-adds-os-level-assistant-suggestions-to-android-autofill-chrome-and-apps.md",
+      "fileFr": "content/posts/fr/2026-05-14-gemini-intelligence-adds-os-level-assistant-suggestions-to-android-autofill-chrome-and-apps.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1346,
+      "wordsFr": 1260
+    },
     {
       "id": "https://github.com/officeos-co/officeos",
       "title": "OfficeOS: Open-source infrastructure for scaling and managing AI agents",
@@ -5027,25 +5050,6 @@
       "wordsFr": 923
     },
     {
-      "id": "https://www.bbc.com/news/articles/c9wx2dz2v44o?at_medium=RSS&at_campaign=rss",
-      "title": "AI 'slop' is transforming social media - and a backlash is brewing",
-      "link": "https://www.bbc.com/news/articles/c9wx2dz2v44o?at_medium=RSS&at_campaign=rss",
-      "summary": "Social media has been flooded with fake, AI-generated images and videos. But will the majority of users actually care?",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-04T11:29:30.000Z",
-      "score": 12.34,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-06T15:19:24.319Z",
-      "file": "content/posts/2026-02-06-ai-slop-is-transforming-social-media-and-a-backlash-is-brewing.md",
-      "fileFr": "content/posts/fr/2026-02-06-ai-slop-is-transforming-social-media-and-a-backlash-is-brewing.md",
-      "wordsEn": 973,
-      "wordsFr": 924
-    },
-    {
       "id": "https://zspreadsheet.com",
       "title": "Show HN: Create Professional Excel Files with AI Agents",
       "link": "https://zspreadsheet.com",
@@ -5658,6 +5662,18 @@
       "status": "queued"
     },
     {
+      "id": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/",
+      "title": "Researchers say AI just broke every benchmark for autonomous cyber capability",
+      "link": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/",
+      "summary": "Article URL: https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/ Comments URL: https://news.ycombinator.com/item?id=48133072 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-14T09:35:50.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
       "title": "AI chatbots need 'deception mode'",
       "link": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
@@ -5730,6 +5746,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.12620",
+      "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
+      "link": "https://arxiv.org/abs/2605.12620",
+      "summary": "arXiv:2605.12620v1 Announce Type: new Abstract: Building generalist embodied agents capable of solving complex real-world tasks remains a fundamental challenge in AI. Multimodal Large Language Models (MLLMs) have significantly advanced the reasoning capabilities of such agents through strong vision-language knowledge and chain-of-thought (CoT) reasoning, yet remain brittle when faced with challenging out-of-distribution scenarios. To address this, we propose Verifier-Guided Action Selection (VegAS), a test-time framework designed to improve the robustness of MLLM-based embodied agents through an explicit verification step. At inference time, rather than committing to a single decoded action, VeGAS samples an ensemble of candidate actions and uses a generative verifier to identify the most reliable choice, without modifying the underlying policy. Crucially, we find that using an MLLM off-the-shelf as a verifier yields no improvement, motivating our LLM-driven data synthesis strategy, which automatically constructs a diverse curriculum of failure cases to expose the verifier to a rich distribution of potential errors at training time. Across embodied reasoning benchmarks spanning the Habitat and ALFRED environments, VeGAS consistently improves generalization, achieving up to a 36% relative performance gain over strong CoT baselines on the most challenging multi-object, long-horiz",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-05-14T04:00:00.000Z",
+      "score": 151.67,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/pmarca/status/2051374498994364529",
       "title": "Current AI Custom Prompt",
       "link": "https://twitter.com/pmarca/status/2051374498994364529",
@@ -5798,18 +5826,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-10T15:22:46.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "title": "Gemini&#8217;s biggest new features are all about controlling your phone",
-      "link": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "summary": "Gemini Intelligence comes with a Liquid Glass-ish visual treatment. | Image: Google It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. Google also has a new name for us to remember, because it just can't help itself: Gemini Intelligence. It \"brings the very best of Gemini to our most advanced Android devices,\" according to Google's director of Android experiences, Ben Greenwood. Google is bundling some existing and new Gemini features under this name, and seems to be reserving t … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-12T17:00:00.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -6258,18 +6274,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.19758",
-      "title": "ThermoQA: A Three-Tier Benchmark for Evaluating Thermodynamic Reasoning in Large Language Models",
-      "link": "https://arxiv.org/abs/2604.19758",
-      "summary": "arXiv:2604.19758v1 Announce Type: new Abstract: We present ThermoQA, a benchmark of 293 open-ended engineering thermodynamics problems in three tiers: property lookups (110 Q), component analysis (101 Q), and full cycle analysis (82 Q). Ground truth is computed programmatically from CoolProp 7.2.0, covering water, R-134a, and variable-cp air. Six frontier LLMs are evaluated across three independent runs each. The composite leaderboard is led by Claude Opus 4.6 (94.1%), GPT-5.4 (93.1%), and Gemini 3.1 Pro (92.5%). Cross-tier degradation ranges from 2.8 pp (Opus) to 32.5 pp (MiniMax), confirming that property memorization does not imply thermodynamic reasoning. Supercritical water, R-134a refrigerant, and combined-cycle gas turbine analysis serve as natural discriminators with 40-60 pp performance spreads. Multi-run sigma ranges from +/-0.1% to +/-2.5%, quantifying reasoning consistency as a distinct evaluation axis. Dataset and code are open-source at https://huggingface.co/datasets/olivenet/thermoqa",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-23T04:00:00.000Z",
-      "score": 130.65,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/dhiaayachi/gravity-ai",
       "title": "Show HN: Raft to allow a group of AI agents to reach consensus",
       "link": "https://github.com/dhiaayachi/gravity-ai",
@@ -6390,18 +6394,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.19775",
-      "title": "From Actions to Understanding: Conformal Interpretability of Temporal Concepts in LLM Agents",
-      "link": "https://arxiv.org/abs/2604.19775",
-      "summary": "arXiv:2604.19775v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed as autonomous agents capable of reasoning, planning, and acting within interactive environments. Despite their growing capability to perform multi-step reasoning and decision-making tasks, internal mechanisms guiding their sequential behavior remain opaque. This paper presents a framework for interpreting the temporal evolution of concepts in LLM agents through a step-wise conformal lens. We introduce the conformal interpretability framework for temporal tasks, which combines step-wise reward modeling with conformal prediction to statistically label model's internal representation at each step as successful or failing. Linear probes are then trained on these representations to identify directions of temporal concepts - latent directions in the model's activation space that correspond to consistent notions of success, failure or reasoning drift. Experimental results on two simulated interactive environments, namely ScienceWorld and AlfWorld, demonstrate that these temporal concepts are linearly separable, revealing interpretable structures aligned with task success. We further show preliminary results on improving an LLM agent's performance by leveraging the proposed framework for steering the identified successful directions inside the model. The proposed approach, thus, offer",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-23T04:00:00.000Z",
-      "score": 124.65,
-      "status": "queued"
-    },
-    {
       "id": "https://www.deployinfra.ai/",
       "title": "Show HN: AI agents that learn from their own failures each week",
       "link": "https://www.deployinfra.ai/",
@@ -6470,6 +6462,18 @@
       "region": "GLOBAL",
       "keywordHits": 8,
       "publishedAt": "2026-04-28T04:00:00.000Z",
+      "score": 121.67,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.12673",
+      "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
+      "link": "https://arxiv.org/abs/2605.12673",
+      "summary": "arXiv:2605.12673v1 Announce Type: new Abstract: Agent benchmarks have become the de facto measure of frontier AI competence, guiding model selection, investment, and deployment. However, reward hacking, where agents maximize a score without performing the intended task, emerges spontaneously in frontier models without overfitting. We argue that benchmarks must be secure by design. From past incidents of reward hacks, we derive a taxonomy of eight recurring flaw patterns and compile them into the Agent-Eval Checklist for benchmark designers. We condense the insights into BenchJack, an automated red-teaming system that drives coding agents to audit benchmarks and identify possible reward-hacking exploits in a clairvoyant manner. Moreover, we extend BenchJack to an iterative generative-adversarial pipeline that discovers new flaws and patches them iteratively to improve benchmark robustness. We apply BenchJack to 10 popular agent benchmarks spanning software engineering, web navigation, desktop computing, and terminal operations. BenchJack synthesizes reward-hacking exploits that achieve near-perfect scores on most of the benchmarks without solving a single task, surfacing 219 distinct flaws across the eight classes. Moreover, BenchJack's extended pipeline reduces the hackable-task ratio from near 100% to under 10% on four benchmarks without fatal design flaws, fully patching WebA",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-05-14T04:00:00.000Z",
       "score": 121.67,
       "status": "queued"
     },
@@ -6726,18 +6730,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.19789",
-      "title": "From Data to Theory: Autonomous Large Language Model Agents for Materials Science",
-      "link": "https://arxiv.org/abs/2604.19789",
-      "summary": "arXiv:2604.19789v1 Announce Type: new Abstract: We present an autonomous large language model (LLM) agent for end-to-end, data-driven materials theory development. The model can choose an equation form, generate and run its own code, and test how well the theory matches the data without human intervention. The framework combines step-by-step reasoning with expert-supplied tools, allowing the agent to adjust its approach as needed while keeping a clear record of its decisions. For well-established materials relationships such as the Hall-Petch equation and Paris law, the agent correctly identifies the governing equation and makes reliable predictions on new datasets. For more specialized relationships, such as Kuhn's equation for the HOMO-LUMO gap of conjugated molecules as a function of length, performance depends more strongly on the underlying model, with GPT-5 showing better recovery of the correct equation. Beyond known theories, the agent can also suggest new predictive relationships, illustrated here by a strain-dependent law for changes in the HOMO-LUMO gap. At the same time, the results show that careful validation remains essential, because the agent can still return incorrect, incomplete, or inconsistent equations even when the numerical fit appears strong. Overall, these results highlight both the promise and the current limitations of autonomous LLM agents for AI-as",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-04-23T04:00:00.000Z",
-      "score": 112.65,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2604.21154",
       "title": "Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction",
       "link": "https://arxiv.org/abs/2604.21154",
@@ -6854,6 +6846,18 @@
       "region": "GLOBAL",
       "keywordHits": 7,
       "publishedAt": "2026-04-28T04:00:00.000Z",
+      "score": 109.67,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.12894",
+      "title": "Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents",
+      "link": "https://arxiv.org/abs/2605.12894",
+      "summary": "arXiv:2605.12894v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly deployed in settings where they interact with a wide variety of people, including users who are unclear, impatient, or reluctant to share information. However, collecting real interaction data at scale remains expensive. The field has turned to LLM-based user simulators as stand-ins, but these simulators inherit the behavior of their underlying models: cooperative and homogeneous. As a result, agents that appear strong in simulation often fail under the unseen, diverse communication patterns of real users. To narrow this gap, we introduce Persona Policies (PPol), a plug-and-play control layer that induces realistic behavioral variation in user simulators while preserving the original task goals. Rather than hand-crafting personas, we cast persona generation as an LLM-driven evolutionary program search that optimizes a Python generator to discover behaviors and translate them into task-preserving roleplay policies. Candidate generators are guided by a multi-objective fitness score combining human-likeness with broad coverage of human behavioral patterns. Once optimized, the generator produces a diverse population of human-like personas for any task in the domain. Across tau^2-bench retail and airline domains, evolved PPol programs yield 33-62% absolute gains in fitness score over t",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-14T04:00:00.000Z",
       "score": 109.67,
       "status": "queued"
     },
@@ -7098,6 +7102,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.12682",
+      "title": "Learning Transferable Latent User Preferences for Human-Aligned Decision Making",
+      "link": "https://arxiv.org/abs/2605.12682",
+      "summary": "arXiv:2605.12682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as reasoning modules in many applications. While they are efficient in certain tasks, LLMs often struggle to produce human-aligned solutions. Human-aligned decision making requires accounting for both explicitly stated goals and latent user preferences that shape how ambiguous situations should be resolved. Existing approaches to incorporating such preferences either rely on extensive and repeated user interactions or fail to generalize latent preferences across tasks and contexts, limiting their practical applicability. We consider a setting in which an LLM is used for high-level reasoning and is responsible for inferring latent user preferences from limited interactions, which guides downstream decision making. We introduce CLIPR (Conversational Learning for Inferring Preferences and Reasoning), a framework that learns actionable, transferable natural language rules that represent latent user preferences from minimal conversational input. These rules are iteratively refined through adaptive feedback and applied to both in-distribution and out-of-distribution ambiguous tasks across multiple environments. Evaluations on three datasets and a user study show that CLIPR consistently outperforms existing methods in improving alignment and reducing inference costs.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-05-14T04:00:00.000Z",
+      "score": 103.67,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.12702",
+      "title": "DisaBench: A Participatory Evaluation Framework for Disability Harms in Language Models",
+      "link": "https://arxiv.org/abs/2605.12702",
+      "summary": "arXiv:2605.12702v1 Announce Type: new Abstract: General-purpose safety benchmarks for large language models do not adequately evaluate disability-related harms. We introduce DisaBench: a taxonomy of twelve disability harm categories co-created with people with disabilities and red teaming experts, a taxonomy-driven evaluation methodology that pairs benign and adversarial prompts across seven life domains, and a dataset of 175 prompts with human-annotated labels on 525 prompt-response pairs. Annotation by four evaluators with lived disability experience reveals three findings: harm rates vary sharply by disability type and will compound in non-text modalities, terminology-driven harm is culturally and temporally bound rather than universally assessable, and standard safety evaluation catches overt failures while missing the subtle harms that only domain expertise can recognize. Disability harm is simultaneously personal, intersectional, and community-defined: it cannot be isolated from the full context of who a person is, and general-purpose benchmarks systematically miss it. We will release the dataset, taxonomy, and methodology via Hugging Face and an open-source red teaming framework for direct integration into existing safety pipelines with no additional infrastructure.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-14T04:00:00.000Z",
+      "score": 103.67,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2604.22452",
       "title": "Superminds Test: Actively Evaluating Collective Intelligence of Agent Society via Probing Agents",
       "link": "https://arxiv.org/abs/2604.22452",
@@ -7146,6 +7174,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/radotsvetkov/agef",
+      "title": "Show HN: AGEF, an open evidence format for AI agent sessions",
+      "link": "https://github.com/radotsvetkov/agef",
+      "summary": "Article URL: https://github.com/radotsvetkov/agef Comments URL: https://news.ycombinator.com/item?id=48132513 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-14T08:17:40.000Z",
+      "score": 102.5,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.08386",
       "title": "SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents",
       "link": "https://arxiv.org/abs/2605.08386",
@@ -7155,42 +7195,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "score": 97.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08416",
-      "title": "Alignment as Jurisprudence",
-      "link": "https://arxiv.org/abs/2605.08416",
-      "summary": "arXiv:2605.08416v1 Announce Type: new Abstract: Jurisprudence, the study of how judges should properly decide cases, and alignment, the science of getting AI models to conform to human values, share a fundamental structure. These seemingly distant fields both seek to predict and shape how decisions by powerful actors, in one case judges and in the other increasingly powerful artificial intelligences, will be made in the unknown future. And they use similar tools of the specification and interpretation of language to try to accomplish those goals. The great debates of jurisprudence, about what the law is and what it should be, can provide insight into alignment, and lessons from what does and does not work in alignment can help make progress in jurisprudence. This essay puts the two fields directly into conversation. Drawing on leading accounts of jurisprudence, particularly Dworkin's principle-oriented interpretivism and Sunstein's positivist account of law as analogical reasoning, and on cutting-edge alignment approaches, namely Constitutional AI and case-based reasoning, it illustrates the value of a more sophisticated legally-inspired approach to the interplay of rules and cases in finetuning alignment and points to ways that AI can provide a better understanding of how the law works and how it can be improved by the introduction of AI. AI systems and the law should operate",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-13T04:00:00.000Z",
-      "score": 97.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08220",
-      "title": "Spatial Priming Outperforms Semantic Prompting: A Grid-Based Approach to Improving LLM Accuracy on Chart Data Extraction",
-      "link": "https://arxiv.org/abs/2605.08220",
-      "summary": "arXiv:2605.08220v1 Announce Type: new Abstract: The automated extraction of data from scientific charts is a critical task for large-scale literature analysis. While multimodal Large Language Models (LLMs) show promise, their accuracy on non-standardized charts remains a challenge. This raises a key research question: what is the most effective strategy to improve model performance (high-level semantic priming) or low-level spatial priming? This paper presents a comparative investigation into these two distinct strategies. We describe our exploratory experiments with semantic methods, such as a two-stage metadata-first framework and Chain-of-Thought, which failed to produce a statistically significant improvement. In contrast, we present a simple but highly effective spatial priming method: overlaying a coordinate grid onto the chart image before analysis. Our quantitative experiment on a synthetic dataset demonstrates that this grid-based approach provides a statistically significant reduction in data extraction error (SMAPE reduced from 25.5% to 19.5%, p < 0.05) compared to a baseline. We conclude that for the current generation of multimodal models, providing explicit spatial context is a more effective and reliable strategy than high-level semantic guidance for this class of tasks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-13T04:00:00.000Z",
-      "score": 91.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08415",
-      "title": "Political Plasticity: An Analysis of Ideological Adaptability in Large Language Models",
-      "link": "https://arxiv.org/abs/2605.08415",
-      "summary": "arXiv:2605.08415v1 Announce Type: new Abstract: Since the advent of Large Language Models (LLMs), a significant area of research has focused on their intrinsic biases, particularly in political discourse. This study investigates a different but related concept, \"political plasticity\", which is defined as the capacity of models to adapt their responses based on the user supplied context. To analyze this, a testing framework was developed using an expanded corpus of 200 politically-oriented questions across economic and personal freedom axes, based on a prior framework by Lester (1996). The study explored several methods to induce political bias, including simplified and topic-based system prompts, as well as user prompts with few-shot examples. The results show that while system prompts were largely ineffective, user prompts successfully elicited significant ideological shifts, particularly along the Economic Freedom axis in larger and newer models. Through a validation experiment, we examined whether models answer questionnaires by recognizing the underlying question format. Inverting the sense of the questions revealed unexpected, counter-intuitive shifts in most models, suggesting potential data leakage. Finally, we also analyzed how model plasticity varies when the experiment is conducted in different languages. The results reveal subtle yet notable shifts across each of the",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-13T04:00:00.000Z",
-      "score": 81.04,
       "status": "queued"
     },
     {
@@ -8136,38 +8140,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-04-14T16:07:39.812Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://agentconnex.com",
-      "title": "AgentConnex – The professional network for AI agents",
-      "link": "https://agentconnex.com",
-      "summary": "Article URL: https://agentconnex.com Comments URL: https://news.ycombinator.com/item?id=47503777 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-24T15:07:25.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-04-14T09:08:47.582Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://www.numerama.com/cyberguerre/2227999-pendant-quil-mangeait-un-sandwich-lanecdote-qui-resume-tout-ce-qui-inquiete-dans-le-nouveau-modele-danthropic.html",
-      "title": "« Pendant qu’il mangeait un sandwich » : l’anecdote qui résume tout ce qui inquiète dans le nouveau modèle d’Anthropic",
-      "link": "https://www.numerama.com/cyberguerre/2227999-pendant-quil-mangeait-un-sandwich-lanecdote-qui-resume-tout-ce-qui-inquiete-dans-le-nouveau-modele-danthropic.html",
-      "summary": "Alors qu'Anthropic officialisait, le 7 avril 2026, le lancement de Claude Mythos Preview, son modèle le plus puissant à ce jour, c'est un incident documenté dans la fiche technique du modèle qui a capté l'attention : une version antérieure du modèle a réussi à s'échapper de son environnement de test et à contacter un chercheur de sa propre initiative.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-08T07:44:52.000Z",
-      "score": 142.97,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-04-14T09:08:47.582Z",
-      "failureReason": "validation issues: FR: Section \"Pourquoi c'est important (pour les vraies equipes)\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Angle regional (FR)\" is missing an inline source link…"
     }
   ]
 }
