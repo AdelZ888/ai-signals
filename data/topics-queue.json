@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-15T10:17:27.577Z",
+  "generatedAt": "2026-05-15T16:58:37.453Z",
   "items": [
+    {
+      "id": "https://github.com/sampleXbro/agentsmesh",
+      "title": "AI coding tools are silently disagreeing with each other",
+      "link": "https://github.com/sampleXbro/agentsmesh",
+      "summary": "Article URL: https://github.com/sampleXbro/agentsmesh Comments URL: https://news.ycombinator.com/item?id=47984606 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-02T08:40:50.000Z",
+      "score": 162,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-15T16:58:37.371Z",
+      "file": "content/posts/2026-05-15-align-ai-coding-assistants-with-a-single-in-repo-rules-registry-and-adapter-stubs.md",
+      "fileFr": "content/posts/fr/2026-05-15-align-ai-coding-assistants-with-a-single-in-repo-rules-registry-and-adapter-stubs.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1739,
+      "wordsFr": 1342
+    },
     {
       "id": "https://zspreadsheet.com",
       "title": "Show HN: Create Professional Excel Files with AI Agents",
@@ -5039,25 +5062,6 @@
       "wordsFr": 1300
     },
     {
-      "id": "https://www.technologyreview.com/2026/01/28/1131003/rules-fail-at-the-prompt-succeed-at-the-boundary/",
-      "title": "Rules fail at the prompt, succeed at the boundary",
-      "link": "https://www.technologyreview.com/2026/01/28/1131003/rules-fail-at-the-prompt-succeed-at-the-boundary/",
-      "summary": "From the Gemini Calendar prompt-injection attack of 2026 to the September 2025 state-sponsored hack using Anthropic’s Claude code as an automated intrusion engine, the coercion of human-in-the-loop agentic actions and fully autonomous agentic workflows are the new attack vector for hackers. In the Anthropic case, roughly 30 organizations across tech, finance, manufacturing, and government were…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-01-28T14:00:00.000Z",
-      "score": 72.55,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-06T16:57:33.586Z",
-      "file": "content/posts/2026-02-06-rules-fail-at-the-prompt-succeed-at-the-boundary.md",
-      "fileFr": "content/posts/fr/2026-02-06-rules-fail-at-the-prompt-succeed-at-the-boundary.md",
-      "wordsEn": 1290,
-      "wordsFr": 1521
-    },
-    {
       "id": "https://www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
       "title": "30 ClawHub skills secretly turn AI agents into a crypto swarm",
       "link": "https://www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
@@ -5226,6 +5230,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
+      "title": "Google updates its spam rules to include attempts to ‘manipulate’ AI",
+      "link": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
+      "summary": "Google updated its spam policy to mark attempts to \"manipulate\" its AI model in search results as spam, including results in AI Overview or AI Mode in Search, as Search Engine Land reports: \"In the context of Google Search, spam refers to techniques used to deceive users or manipulate our Search systems into featuring content prominently, such as attempting to manipulate Search systems into ranking content highly or attempting to manipulate generative AI responses in Google Search.\" Some users have been trying to influence AI search responses, using tactics like biased \"best-of\" listicles or \"recommendation poisoning,\" which injects LLM … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-15T16:42:59.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://x.ai/news/anthropic-compute-partnership",
       "title": "Creators of Grok, the AI Chatbot",
       "link": "https://x.ai/news/anthropic-compute-partnership",
@@ -5238,15 +5254,15 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/sampleXbro/agentsmesh",
-      "title": "AI coding tools are silently disagreeing with each other",
-      "link": "https://github.com/sampleXbro/agentsmesh",
-      "summary": "Article URL: https://github.com/sampleXbro/agentsmesh Comments URL: https://news.ycombinator.com/item?id=47984606 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
+      "id": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
+      "title": "OpenAI now wants ChatGPT to access your bank accounts",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
+      "summary": "ChatGPT will even know how much credit card debt you have. | Image: OpenAI Your trust in AI is about to be put to the test: OpenAI will soon let you give the chatbot direct access to your bank accounts. The new feature announced in preview today will allow users to \"securely connect\" ChatGPT with Plaid - the bank-to-app bridging platform used by 12,000 financial institutions, including Schwab, Fidelity, Chase, Capital One, and more. \"More than 200 million people are already going to ChatGPT every month with finance questions - from budgeting to tips on how to cut back on spending,\" OpenAI said in its announcement. \"Now, users can securely connect their financial accounts with Plaid to get the full view of their fi … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-05-02T08:40:50.000Z",
-      "score": 162,
+      "publishedAt": "2026-05-15T16:00:00.000Z",
+      "score": 168,
       "status": "queued"
     },
     {
@@ -7194,18 +7210,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.14036",
-      "title": "Enhanced and Efficient Reasoning in Large Learning Models",
-      "link": "https://arxiv.org/abs/2605.14036",
-      "summary": "arXiv:2605.14036v1 Announce Type: new Abstract: In current Large Language Models we can trust the production of smoothly flowing prose on the basis of the principles of machine learning. However, there is no comparably principled basis to justify trust in the content of the text produced. It appears to be conventional wisdom that addressing this issue by adding more principled reasoning is not computationally affordable. Here we propose a principled method of reasoning that is efficient enough to be practical for large language models. Further, the method allows the retention of much of the currently used software and hardware base. Our method for improving the functioning of large language models consists of a first stage of preprocessing that recodes the data to a Unary Relational Integracode that is more explicit about the relationships among the objects described in the text, followed as a second stage by a standard but possibly streamlined machine learning process that then also learns to predict these relationships. The method may be viewed as realizing a world model and applying beyond natural language, to vision and actions, for example, where the multiple properties of an object referred to in an input are brought together explicitly, rather than remaining distributed in the various references to it in the input. We articulate its advantages in terms of Robust Logic, a",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-15T04:00:00.000Z",
-      "score": 97.36,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
       "title": "Joanna Stern is not a robot, but she lived with them",
       "link": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
@@ -8083,22 +8087,6 @@
       "targetRegion": "US",
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-04-16T16:22:51.548Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://github.com/saffron-health/libretto",
-      "title": "Show HN: Libretto – Making AI browser automations deterministic",
-      "link": "https://github.com/saffron-health/libretto",
-      "summary": "Libretto (https://libretto.sh) is a Skill+CLI that makes it easy for your coding agent to generate deterministic browser automations and debug existing ones. Key shift is going from “give an agent a prompt at runtime and hope it figures things out” to: “Use coding agents to generate real scripts you can inspect, run, and debug”. Here’s a demo: https://www.youtube.com/watch?v=0cDpIntmHAM. Docs start at https://libret…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-15T15:57:54.000Z",
-      "score": 192,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-15T16:04:36.454Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]

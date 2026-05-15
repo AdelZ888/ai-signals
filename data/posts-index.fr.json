@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-05-15T10:17:27.565Z",
+  "generatedAt": "2026-05-15T16:58:37.388Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-15-align-ai-coding-assistants-with-a-single-in-repo-rules-registry-and-adapter-stubs",
+      "title": "Aligner les assistants de codage IA avec un registre canonique dans le dépôt et des stubs d'adaptateur",
+      "date": "2026-05-15",
+      "excerpt": "Montre comment un registre canonique dans le dépôt, des stubs d'adaptateur légers et un harnais déterministe permettent à différents assistants de codage IA d'exécuter les mêmes commandes, produisant des modifications cohérentes et auditées.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-15-align-ai-coding-assistants-with-a-single-in-repo-rules-registry-and-adapter-stubs.jpg",
+      "tags": [
+        "IA",
+        "assistants",
+        "agents",
+        "développement",
+        "CI",
+        "automatisation"
+      ],
+      "sources": [
+        "https://github.com/sampleXbro/agentsmesh"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-15-zspreadsheet-generate-production-ready-xlsx-workbooks-with-formulas-charts-and-pivots-from-plain-english-prompts",
       "title": "zSpreadSheet — générer des classeurs .xlsx prêts pour la production (formules, graphiques, pivots) depuis des instructions en langage naturel",

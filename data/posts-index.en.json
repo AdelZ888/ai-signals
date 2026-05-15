@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-05-15T10:17:27.564Z",
+  "generatedAt": "2026-05-15T16:58:37.386Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-15-align-ai-coding-assistants-with-a-single-in-repo-rules-registry-and-adapter-stubs",
+      "title": "Align AI coding assistants with a single in-repo rules registry and adapter stubs",
+      "date": "2026-05-15",
+      "excerpt": "Show how an in-repo canonical registry plus thin adapter scripts and a deterministic harness make different AI coding assistants follow the same commands, enabling auditable consistent edits.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-15-align-ai-coding-assistants-with-a-single-in-repo-rules-registry-and-adapter-stubs.jpg",
+      "tags": [
+        "ai",
+        "agents",
+        "developer-tools",
+        "governance",
+        "workflow",
+        "ops",
+        "agentsmesh"
+      ],
+      "sources": [
+        "https://github.com/sampleXbro/agentsmesh"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-05-15-zspreadsheet-generate-production-ready-xlsx-workbooks-with-formulas-charts-and-pivots-from-plain-english-prompts",
       "title": "zSpreadSheet — generate production-ready .xlsx workbooks with formulas, charts and pivots from plain-English prompts",
