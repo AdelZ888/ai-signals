@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-05-15T16:58:37.386Z",
+  "generatedAt": "2026-05-16T09:27:32.807Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-16-ai-ml-gpu-bench-a-lightweight-harness-to-compare-cpu-and-gpu-for-python-ml-training-and-local-llm-inference",
+      "title": "ai-ml-gpu-bench: a lightweight harness to compare CPU and GPU for Python ML training and local LLM inference",
+      "date": "2026-05-16",
+      "excerpt": "Guide to albedan/ai-ml-gpu-bench: clone a small harness to time Python ML training and local LLM inference on CPU vs GPU and export metrics to compare latency and cost.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-16-ai-ml-gpu-bench-a-lightweight-harness-to-compare-cpu-and-gpu-for-python-ml-training-and-local-llm-inference.jpg",
+      "tags": [
+        "benchmarking",
+        "gpu",
+        "cpu",
+        "llm",
+        "machine-learning",
+        "mlops",
+        "open-source",
+        "performance"
+      ],
+      "sources": [
+        "https://github.com/albedan/ai-ml-gpu-bench"
+      ],
+      "category": "Model Breakdowns",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-15-align-ai-coding-assistants-with-a-single-in-repo-rules-registry-and-adapter-stubs",
       "title": "Align AI coding assistants with a single in-repo rules registry and adapter stubs",
