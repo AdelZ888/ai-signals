@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T11:50:02.205Z",
+  "generatedAt": "2026-05-18T17:55:18.148Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,31 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-18-run-stagewise-locally-and-wire-an-agentic-ide-to-zai-deepseek-or-moonshot",
+      "title": "Exécuter Stagewise en local et connecter un IDE agentif à Z.ai, DeepSeek ou Moonshot",
+      "date": "2026-05-18",
+      "excerpt": "Checklist concise pour cloner Stagewise, ajouter des secrets locaux et démarrer un prototype agentif connecté à des backends payants (Z.ai, DeepSeek, Moonshot). Consultez le README du dépôt pour les commandes exactes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-18-run-stagewise-locally-and-wire-an-agentic-ide-to-zai-deepseek-or-moonshot.jpg",
+      "tags": [
+        "stagewise",
+        "local-dev",
+        "agentic-IDE",
+        "IA",
+        "prompt-engineering",
+        "développement"
+      ],
+      "sources": [
+        "https://github.com/stagewise-io/stagewise/blob/main/README.md"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
