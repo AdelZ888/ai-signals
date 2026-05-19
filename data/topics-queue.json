@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-18T17:55:18.215Z",
+  "generatedAt": "2026-05-19T10:59:14.897Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
+      "title": "Gemini is in danger of going full Copilot",
+      "link": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
+      "summary": "I actually use the Gemini app quite a bit on my phone, but let’s not get carried away. Gemini has a creep problem. A few years ago, that little sparkle icon started showing up in all of our Google apps. Gemini in your inbox! Gemini in your Google Drive! It was slow at first, and easy enough to tune out, but something has changed in the past few months. Gemini is creeping. It's showing up in all kinds of places at a…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-19T10:30:00.000Z",
+      "score": 168,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-05-19T10:59:14.870Z",
+      "file": "content/posts/2026-05-19-googles-gemini-sparkle-appearing-across-gmail-docs-and-drive-rollout-guidance-for-product-teams.md",
+      "fileFr": "content/posts/fr/2026-05-19-googles-gemini-sparkle-appearing-across-gmail-docs-and-drive-rollout-guidance-for-product-teams.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1247,
+      "wordsFr": 1025
+    },
     {
       "id": "https://github.com/stagewise-io/stagewise/blob/main/README.md",
       "title": "Show HN: Stagewise – Agentic IDE for Your Z.ai/DeepSeek/Moonshot Subscription",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1044
     },
     {
-      "id": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 today. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.2 achieves the top reported score for industry benchmarks like GPQA-Diamond, AIME 2025 and Tau2 Telecom. On leading benchmarks targeting Read Article",
-      "source": "NVIDIA Blog",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2025-12-11T19:19:57.000Z",
-      "score": 60.09,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-07T18:27:05.231Z",
-      "file": "content/posts/2025-12-11-prototyping-multi-node-pretraining-and-staged-inference-on-nvidia-hopper-and-gb200-nvl72.md",
-      "fileFr": "content/posts/fr/2025-12-11-prototyping-multi-node-pretraining-and-staged-inference-on-nvidia-hopper-and-gb200-nvl72.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1480,
-      "wordsFr": 1476
-    },
-    {
       "id": "https://www.theregister.com/ai-ml/2026/05/17/how-ai-agent-harnesses-like-openclaw-are-changing-llms-inference-and-cpus/5241530",
       "title": "AI agent harnesses like OpenClaw are changing LLMs, inference, and CPUs",
       "link": "https://www.theregister.com/ai-ml/2026/05/17/how-ai-agent-harnesses-like-openclaw-are-changing-llms-inference-and-cpus/5241530",
@@ -5554,6 +5554,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.youtube.com/watch?v=4tB8uzY__uk",
+      "title": "AdminForth – Open-source admin framework with a built-in AI agent [video]",
+      "link": "https://www.youtube.com/watch?v=4tB8uzY__uk",
+      "summary": "Article URL: https://www.youtube.com/watch?v=4tB8uzY__uk Comments URL: https://news.ycombinator.com/item?id=48191585 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-19T10:35:50.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/hymhub/skill-indexer",
+      "title": "An open question about how AI agent skills should be distributed",
+      "link": "https://github.com/hymhub/skill-indexer",
+      "summary": "Article URL: https://github.com/hymhub/skill-indexer Comments URL: https://news.ycombinator.com/item?id=48191582 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-19T10:35:39.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
       "title": "AI chatbots need 'deception mode'",
       "link": "https://www.computerworld.com/article/4165733/ai-chatbots-need-deception-mode.html",
@@ -5730,6 +5754,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-18T16:51:22.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://bito.ai/benchmarks/swe-bench-pro-evaluation/",
+      "title": "Bito's AI Architect Boosts Claude Opus's task success rate by 35%",
+      "link": "https://bito.ai/benchmarks/swe-bench-pro-evaluation/",
+      "summary": "Article URL: https://bito.ai/benchmarks/swe-bench-pro-evaluation/ Comments URL: https://news.ycombinator.com/item?id=48191369 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-19T10:02:03.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -6238,18 +6274,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.23027",
-      "title": "A Systematic Approach for Large Language Models Debugging",
-      "link": "https://arxiv.org/abs/2604.23027",
-      "summary": "arXiv:2604.23027v1 Announce Type: new Abstract: Large language models (LLMs) have become central to modern AI workflows, powering applications from open-ended text generation to complex agent-based reasoning. However, debugging these models remains a persistent challenge due to their opaque and probabilistic nature and the difficulty of diagnosing errors across diverse tasks and settings. This paper introduces a systematic approach for LLM debugging that treats models as observable systems, providing structured, model-agnostic methods from issue detection to model refinement. By unifying evaluation, interpretability, and error-analysis practices, our approach enables practitioners to iteratively diagnose model weaknesses, refine prompts and model parameters, and adapt data for fine-tuning or assessment, while remaining effective in contexts where standardized benchmarks and evaluation criteria are lacking. We argue that such a structured methodology not only accelerates troubleshooting but also fosters reproducibility, transparency, and scalability in the deployment of LLM-based systems.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 127.67,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2605.01101",
       "title": "Virtual Speech Therapist: A Clinician-in-the-Loop AI Speech Therapy Agent for Personalized and Supervised Therapy",
       "link": "https://arxiv.org/abs/2605.01101",
@@ -6334,6 +6358,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.16638",
+      "title": "TTE-Flash: Accelerating Reasoning-based Multimodal Representations via Think-Then-Embed Tokens",
+      "link": "https://arxiv.org/abs/2605.16638",
+      "summary": "arXiv:2605.16638v1 Announce Type: new Abstract: Recent research has demonstrated that Universal Multimodal Embedding (UME) benefits significantly from Chain-of-Thought (CoT) reasoning. In this paradigm, a generative model produces explicit reasoning traces for a multimodal query, with the final representation extracted from an embedding token attending to both the query and the reasoning. Despite its effectiveness, the computational overhead of generating explicit CoT traces is often prohibitive. In this work, we propose replacing explicit CoT with latent think tokens, which are interpreted as latent variables that can produce explicit CoT traces as observed variables. By optimizing think tokens using CoT generation loss and subsequent embedding tokens using contrastive loss, we produce high-performance, reasoning-aware representations at a constant inference cost. Our study investigates two key architectural designs: 1) how think and embeddings tokens should be extracted from the same LLM backbone. 2) how the tokens should be trained as two dependent tasks. We introduce TTE-Flash-2B, a reasoning-aware multimodal representation model that outperforms its explicit-CoT counterpart on the MMEB-v2 benchmark, while producing latent think tokens that are interpretable both textually and visually. Furthermore, zero-shot evaluation across 15 video datasets reveals scaling behavior as t",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "score": 125.42,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/alias8818/enoch-agentic-research-system",
       "title": "Show HN: Enoch – Control Plane for Autonomous AI Research",
       "link": "https://github.com/alias8818/enoch-agentic-research-system",
@@ -6379,30 +6415,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "score": 122.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.23002",
-      "title": "FormalScience: Scalable Human-in-the-Loop Autoformalisation of Science with Agentic Code Generation in Lean",
-      "link": "https://arxiv.org/abs/2604.23002",
-      "summary": "arXiv:2604.23002v1 Announce Type: new Abstract: Formalising informal mathematical reasoning into formally verifiable code is a significant challenge for large language models. In scientific fields such as physics, domain-specific machinery (\\textit{e.g.} Dirac notation, vector calculus) imposes additional formalisation challenges that modern LLMs and agentic approaches have yet to tackle. To aid autoformalisation in scientific domains, we present FormalScience; a domain-agnostic human-in-the-loop agentic pipeline that enables a single domain expert (without deep formal language experience) to produce \\textit{syntactically correct} and \\textit{semantically aligned} formal proofs of informal reasoning for low economic cost. Applying FormalScience to physics, we construct FormalPhysics, a dataset of 200 university-level (LaTeX) physics problems and solutions (primarily quantum mechanics and electromagnetism), along with their Lean4 formal representations. Compared to existing formal math benchmarks, FormalPhysics achieves perfect formal validity and exhibits greater statement complexity. We evaluate open-source models and proprietary systems on a statement autoformalisation task on our dataset via zero-shot prompting, self-refinement with error feedback, and a novel multi-stage agentic approach, and explore autoformalisation limitations in modern LLM-based approaches. We provide t",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 121.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.23057",
-      "title": "Don't Make the LLM Read the Graph: Make the Graph Think",
-      "link": "https://arxiv.org/abs/2604.23057",
-      "summary": "arXiv:2604.23057v1 Announce Type: new Abstract: We investigate whether explicit belief graphs improve LLM performance in cooperative multi-agent reasoning. Through 3,000+ controlled trials across four LLM families in the cooperative card game Hanabi, we establish four findings. First, integration architecture determines whether belief graphs provide value: as prompt context, graphs are decorative for strong models and beneficial only for weak models on 2nd-order Theory of Mind (80% vs 10%, p<0.0001, OR=36.0); when graphs gate action selection through ranked shortlists, they become structurally essential even for strong models (100% vs 20% on 2nd-order ToM, p<0.001). Second, we identify \"Planner Defiance,\" a model-family-specific failure where LLMs override correct planner recommendations at partial competence (90% override, replicated N=20); Gemini models show near-zero defiance while Llama 70B shows 90%, and models distinguish factual context (deferred to) from advisory recommendations (overridden). Third, full-game evidence confirms inter-agent conventions (+128% over baseline, p=0.003) outperform all single-agent interventions, and individual belief-graph components must be combined to produce gains. Fourth, preliminary scaling analysis (N=10/cell, exploratory) suggests graph depth has diminishing returns: shallow graphs provide the best cost-benefit ratio, while deeper ToM",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 121.67,
       "status": "queued"
     },
     {
@@ -6514,6 +6526,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.16309",
+      "title": "ANNEAL: Adapting LLM Agents via Governed Symbolic Patch Learning",
+      "link": "https://arxiv.org/abs/2605.16309",
+      "summary": "arXiv:2605.16309v1 Announce Type: new Abstract: LLM-based agents can recover from individual execution errors, yet they repeatedly fail on the same fault when the underlying process knowledge--operator schemas, preconditions, and constraints--remains unrepaired. Existing self-evolving approaches address this gap by updating prompts, memory, or model weights, but none directly repair the symbolic structures that encode how tasks are executed, and few provide the governance guarantees required for safe deployment. We introduce ANNEAL, a neuro-symbolic agent that converts recurring failures into governed symbolic edits of a process knowledge graph without modifying foundation model weights. Its core mechanism, Failure-Driven Knowledge Acquisition (FDKA), localizes the responsible operator, synthesizes a typed patch through constrained LLM generation, and validates the proposal via multi-dimensional scoring, symbolic guardrails, and canary testing before commit. Every accepted edit carries full provenance and deterministic rollback capability. Across four domains and 27 multi-seed runs, ANNEAL is the only evaluated system that commits persistent structural repairs--strong baselines such as ReAct and Reflexion achieve high episodic recovery yet retain 72-100% holdout failure rates on recurring faults, whereas ANNEAL reduces these to 0% in the tested recurring-failure settings. Ablat",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "score": 119.42,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47971901",
       "title": "Ask HN: Bedrock,Vertex AI etc. Support Anthropic Models",
       "link": "https://news.ycombinator.com/item?id=47971901",
@@ -6598,15 +6622,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.23072",
-      "title": "Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis",
-      "link": "https://arxiv.org/abs/2604.23072",
-      "summary": "arXiv:2604.23072v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly tasked with complex real-world analysis (e.g., in financial forecasting, scientific discovery), yet their reasoning suffers from stochastic instability and lacks a verifiable, compositional structure. To address this, we introduce Analytica, a novel agent architecture built on the principle of Soft Propositional Reasoning (SPR). SPR reframes complex analysis as a structured process of estimating the soft truth values of different outcome propositions, allowing us to formally model and minimize the estimation error in terms of its bias and variance. Analytica operationalizes this through a parallel, divide-and-conquer framework that systematically reduces both sources of error. To reduce bias, problems are first decomposed into a tree of subpropositions, and tool-equipped LLM grounder agents are employed, including a novel Jupyter Notebook agent for data-driven analysis, that help to validate and score facts. To reduce variance, Analytica recursively synthesizes these grounded leaves using robust linear models that average out stochastic noise with superior efficiency, scalability, and enable interactive \"what-if\" scenario analysis. Our theoretical and empirical results on economic, financial, and political forecasting tasks show that Analytica improves 15.84% accuracy on average o",
-      "source": "ArXiv cs.AI",
+      "id": "https://digiday.com/media/the-economist-prepares-for-a-two-track-internet-one-for-humans-and-one-for-ai-agents/",
+      "title": "The Economist prepares for a two‑track Web: one for humans one for AI agents",
+      "link": "https://digiday.com/media/the-economist-prepares-for-a-two-track-internet-one-for-humans-and-one-for-ai-agents/",
+      "summary": "Article URL: https://digiday.com/media/the-economist-prepares-for-a-two-track-internet-one-for-humans-and-one-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=48190930 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 115.67,
+      "keywordHits": 3,
+      "publishedAt": "2026-05-19T08:56:31.000Z",
+      "score": 115.66,
       "status": "queued"
     },
     {
@@ -6703,6 +6727,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-01T14:16:51.000Z",
       "score": 113.8,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.16552",
+      "title": "From Prompts to Protocols: An AI Agent for Laboratory Automation",
+      "link": "https://arxiv.org/abs/2605.16552",
+      "summary": "arXiv:2605.16552v1 Announce Type: new Abstract: Automating science laboratories enables faster, safer, more accurate, and more reproducible execution of protocols, accelerating the discovery and testing of new materials, drugs, and more. However, setting up and running autonomous labs requires coordinating numerous instruments and robots, forcing scientists to write code, manage configuration files, and navigate complex software infrastructure. We present an AI agent architecture that integrates large language models with laboratory orchestration, enabling scientists to interactively create and monitor automated lab protocols using natural language. Integrated into the Experiment Orchestration System (EOS), the AI agent operates under an agentic loop with automated validation and error correction, and supports the complete experimental lifecycle: creating protocols, running and monitoring both protocols and closed-loop optimization campaigns, and analyzing results. A visual graph editor renders protocols as interactive node-based diagrams synchronized with the AI agent's protocol representation, enabling seamless alternation between AI-assisted and manual protocol construction. Evaluated on three simulated automated labs spanning chemistry, biology, and materials science, the AI agent achieves a 97% first-attempt protocol generation success rate and an order of magnitude reduct",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "score": 113.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.16675",
+      "title": "LinAlg-Bench: A Forensic Benchmark Revealing Structural Failure Modes in LLM Mathematical Reasoning",
+      "link": "https://arxiv.org/abs/2605.16675",
+      "summary": "arXiv:2605.16675v1 Announce Type: new Abstract: We introduce LinAlg-Bench, a diagnostic benchmark evaluating 10 frontier large language models on structured linear algebra computation across a strict dimensional gradient of 3x3, 4x4, and 5x5 matrices. Spanning 9 task types and 660 SymPy-certified problems, the benchmark exhaustively evaluates 6,600 model outputs. Beyond binary accuracy, LinAlg-Bench introduces a three-stage automated forensic pipeline classifying 1,156 failures into ten primary error tags with fine-grained subtypes, revealing that LLM mathematical failure is not random but structurally constrained by algorithm type and matrix dimension. Our central finding is a sharp behavioral threshold at 4x4 scale: below it, models fail through execution errors -- sign tracking failures, arithmetic drift, and parity errors; above it, failure transitions to computational abandonment, with models fabricating responses through tool roleplay, constraint-consistent confabulation, and structured hallucination rather than attempting computation. This fabrication-to-abandonment transition is near-universal across all model tiers and architectures, suggesting a working memory limit rather than a knowledge gap, supported by three scale-emergent error types absent at 3x3 but present at 4x4 and 5x5. We further show that solution strategy rigidity is a near-perfect predictor of 5x5 deter",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "score": 113.42,
       "status": "queued"
     },
     {
@@ -6814,42 +6862,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2604.23178",
-      "title": "Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines",
-      "link": "https://arxiv.org/abs/2604.23178",
-      "summary": "arXiv:2604.23178v1 Announce Type: new Abstract: LLM-as-a-Judge has become the dominant paradigm for evaluating language model outputs, yet LLM judges exhibit systematic biases that compromise evaluation reliability. We present a comprehensive empirical study comparing nine debiasing strategies across five judge models from four provider families (Google, Anthropic, OpenAI, Meta), three benchmarks (MT-Bench n=400, LLMBar n=200, custom n=225), and four bias types. Our key findings: (1) Style bias is the dominant bias (0.76-0.92 across all models), far exceeding position bias (<= 0.04), yet has received minimal research attention. (2) All models show a conciseness preference on expansion pairs, but truncation controls confirm they correctly distinguish quality from length (0.92-1.00 accuracy), suggesting quality-sensitive evaluation rather than a simple length bias. (3) Debiasing is beneficial but model-dependent: the combined budget strategy significantly improves Claude Sonnet 4 by +11.2 pp (p < 0.0001), with directionally positive trends for other models. Only 2 of 20 non-baseline configurations show decreased agreement. We release our evaluation framework, controlled dataset, and all experimental artifacts at https://github.com/sksoumik/llm-as-judge.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 109.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.23198",
-      "title": "StoryTR: Narrative-Centric Video Temporal Retrieval with Theory of Mind Reasoning",
-      "link": "https://arxiv.org/abs/2604.23198",
-      "summary": "arXiv:2604.23198v1 Announce Type: new Abstract: Current video moment retrieval excels at action-centric tasks but struggles with narrative content. Models can see \\textit{what is happening} but fail to reason \\textit{why it matters}. This semantic gap stems from the lack of \\textbf{Theory of Mind (ToM)}: the cognitive ability to infer implicit intentions, mental states, and narrative causality from surface-level observations. We introduce \\textbf{StoryTR}, the first video moment retrieval benchmark requiring ToM reasoning, comprising 8.1k samples from narrative short-form videos (shorts/reels). These videos present an ideal testbed. Their high information density encodes meaning through subtle multimodal cues. For instance, a glance paired with a sigh carries entirely different semantics than the glance alone. Yet multimodal perception alone is insufficient; ToM is required to decode that a character ``smiling'' may actually be ``concealing hostility.'' To teach models this reasoning capability, we propose an \\textbf{Agentic Data Pipeline} that generates training data with explicit three-tier ToM chains (intent decoding, narrative reasoning, boundary localization). Experiments reveal the severity of the reasoning gap: Gemini-3.0-Pro achieves only 0.53 Avg IoU on StoryTR. However, our 7B \\textbf{Shorts-Moment} model, trained on ToM-guided data, improves +15.1\\% relative IoU over",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 109.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.23210",
-      "title": "Discovering Agentic Safety Specifications from 1-Bit Danger Signals",
-      "link": "https://arxiv.org/abs/2604.23210",
-      "summary": "arXiv:2604.23210v1 Announce Type: new Abstract: Can large language model agents discover hidden safety objectives through experience alone? We introduce EPO-Safe (Experiential Prompt Optimization for Safe Agents), a framework where an LLM iteratively generates action plans, receives sparse binary danger warnings, and evolves a natural language behavioral specification through reflection. Unlike standard LLM reflection methods that rely on rich textual feedback (e.g., compiler errors or detailed environment responses), EPO-Safe demonstrates that LLMs can perform safety reasoning from a strictly impoverished signal in structured, low-dimensional environments: the agent never observes the hidden performance function $R^*$, only a single bit per timestep indicating that an action was unsafe. We evaluate on five AI Safety Gridworlds (Leike et al., 2017) and five text-based scenario analogs where visible reward $R$ may diverge from $R^*$. EPO-Safe discovers safe behavior within 1-2 rounds (5-15 episodes), producing human-readable specifications with correct explanatory hypotheses about hazards (e.g., \"X cells are directionally hazardous: entering from the north is dangerous\"). Critically, we show that standard reward-driven reflection actively degrades safety: agents reflecting on reward alone use the loop to justify and accelerate reward hacking, proving that reflection must be pair",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-04-28T04:00:00.000Z",
-      "score": 109.67,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2605.12894",
       "title": "Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents",
       "link": "https://arxiv.org/abs/2605.12894",
@@ -6859,6 +6871,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-05-14T04:00:00.000Z",
       "score": 109.67,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.exoplatform.com/blog/introducing-exo-mcp-server-secure-ai-integrations-digital-workplace/",
+      "title": "eXo MCP server: expose workplace tools to AI agents with OAuth",
+      "link": "https://www.exoplatform.com/blog/introducing-exo-mcp-server-secure-ai-integrations-digital-workplace/",
+      "summary": "Article URL: https://www.exoplatform.com/blog/introducing-exo-mcp-server-secure-ai-integrations-digital-workplace/ Comments URL: https://news.ycombinator.com/item?id=48190824 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-19T08:43:27.000Z",
+      "score": 109.45,
       "status": "queued"
     },
     {
@@ -6946,6 +6970,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2605.16265",
+      "title": "AgentWall: A Runtime Safety Layer for Local AI Agents",
+      "link": "https://arxiv.org/abs/2605.16265",
+      "summary": "arXiv:2605.16265v1 Announce Type: new Abstract: The safety of autonomous AI agents is increasingly recognized as a critical open problem. As agents transition from passive text generators to active actors capable of executing shell commands, modifying files, calling APIs, and browsing the web, the consequences of unsafe or adversarially manipulated behavior become immediate and tangible. Existing AI safety work has focused primarily on model alignment and input filtering, but these approaches do not address what happens at the moment an agent's intent becomes a real action on a real machine. This gap is especially acute in local environments, where developers run agents against their own filesystems, credentials, and infrastructure with little runtime control. This paper introduces AgentWall, a runtime safety and observability layer for local AI agents. AgentWall intercepts every proposed agent action before it reaches the host environment, evaluates it against an explicit declarative policy, requires human approval for sensitive operations, and records a complete execution trail for audit and replay. It is implemented as a policy-enforcing MCP proxy and native OpenClaw plugin, working across Claude Desktop, Cursor, Windsurf, Claude Code, and OpenClaw with a single install command. We present the design, architecture, threat model, and policy model of AgentWall, and demonstrate",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "score": 107.42,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47959169",
       "title": "Ask HN: Anyone using AI agents for active learning sprints? Here's my setup",
       "link": "https://news.ycombinator.com/item?id=47959169",
@@ -6978,6 +7014,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-05-09T13:36:23.000Z",
+      "score": 107.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theparliamentmagazine.eu/news/article/anthropic-shuts-the-eu-out-of-its-most-advanced-cyber-ai-model",
+      "title": "Anthropic shuts the EU out of its most advanced cyber AI model",
+      "link": "https://www.theparliamentmagazine.eu/news/article/anthropic-shuts-the-eu-out-of-its-most-advanced-cyber-ai-model",
+      "summary": "Article URL: https://www.theparliamentmagazine.eu/news/article/anthropic-shuts-the-eu-out-of-its-most-advanced-cyber-ai-model Comments URL: https://news.ycombinator.com/item?id=48190771 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-19T08:37:29.000Z",
       "score": 107.02,
       "status": "queued"
     },
@@ -7159,18 +7207,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "score": 103.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.03227",
-      "title": "Evaluating Prompting and Execution-Based Methods for Deterministic Computation in LLMs",
-      "link": "https://arxiv.org/abs/2605.03227",
-      "summary": "arXiv:2605.03227v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated strong capabilities in natural language understanding and reasoning. However, their ability to perform exact, deterministic computation remains unclear. In this work, we systematically evaluate multiple prompting strategies, including Chain-of-Thought (CoT), Least-to-Most decomposition, Program-of-Thought (PoT), and Self-Consistency (SC), on tasks requiring precise and error-free outputs, including binary counting, longest substring detection, and arithmetic evaluation. To support this study, we introduce a synthetic dataset with diverse natural language instructions, enabling controlled evaluation of exact computation across multiple task types. Our results show that standard prompting methods achieve only moderate accuracy on sequence-based tasks. CoT provides limited improvement, while Least-to-Most suffers from error accumulation. In contrast, PoT achieves perfect accuracy by generating executable code and delegating computation to an external interpreter. Self-Consistency improves robustness through majority voting, but incurs substantial computational overhead. We further train a small domain-specific model (CodeT5-small) to generate executable programs, which achieves perfect accuracy on held-out synthetic test data across all tasks with minimal training cost. Overall, our find",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-07T04:00:00.000Z",
-      "score": 103.28,
       "status": "queued"
     },
     {
