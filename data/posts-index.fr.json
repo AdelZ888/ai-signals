@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T10:59:14.885Z",
+  "generatedAt": "2026-05-19T17:54:34.123Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm",
+      "title": "Interfaces IA centrées sur la tâche : alternatives pratiques au paradigme chatbot-first",
+      "date": "2026-05-19",
+      "excerpt": "Un guide pratique et localisé expliquant pourquoi une interface centrée sur la tâche peut être préférable à un chatbot généraliste, et comment prototyper et déployer une telle solution avec provenance, vérifications et métriques de déploiement (d'après https://arxiv.org/abs/2605.07896).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm.jpg",
+      "tags": [
+        "IA",
+        "interfaces",
+        "produit",
+        "PM",
+        "dev",
+        "startups",
+        "auditabilité"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2605.07896"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-05-18-geminis-reflection-level-toggle-tests-slower-more-deliberate-replies-to-reduce-hallucinations",

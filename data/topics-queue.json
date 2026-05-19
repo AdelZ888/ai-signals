@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-19T10:59:14.897Z",
+  "generatedAt": "2026-05-19T17:54:34.184Z",
   "items": [
+    {
+      "id": "https://arxiv.org/abs/2605.07896",
+      "title": "What if AI systems weren't chatbots?",
+      "link": "https://arxiv.org/abs/2605.07896",
+      "summary": "Article URL: https://arxiv.org/abs/2605.07896 Comments URL: https://news.ycombinator.com/item?id=48119749 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-13T09:39:41.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-19T17:54:34.107Z",
+      "file": "content/posts/2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm.md",
+      "fileFr": "content/posts/fr/2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1255,
+      "wordsFr": 1399
+    },
     {
       "id": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
       "title": "Gemini is in danger of going full Copilot",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1238
     },
     {
-      "id": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
-      "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
-      "link": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
-      "summary": "Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2.",
-      "source": "Google DeepMind News",
-      "region": "UK",
-      "keywordHits": 3,
-      "publishedAt": "2025-12-16T10:14:24.000Z",
-      "score": 48.09,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-07T18:30:22.913Z",
-      "file": "content/posts/2025-12-16-gemma-scope-2-expands-open-interpretability-and-reproducible-traces-across-the-gemma-3-family.md",
-      "fileFr": "content/posts/fr/2025-12-16-gemma-scope-2-expands-open-interpretability-and-reproducible-traces-across-the-gemma-3-family.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1502,
-      "wordsFr": 1044
-    },
-    {
       "id": "https://www.theregister.com/ai-ml/2026/05/17/how-ai-agent-harnesses-like-openclaw-are-changing-llms-inference-and-cpus/5241530",
       "title": "AI agent harnesses like OpenClaw are changing LLMs, inference, and CPUs",
       "link": "https://www.theregister.com/ai-ml/2026/05/17/how-ai-agent-harnesses-like-openclaw-are-changing-llms-inference-and-cpus/5241530",
@@ -5238,6 +5238,30 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-05-18T11:02:29.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48196435",
+      "title": "Ask HN: Are advances in AI going to push Linux to a micro-kernel?",
+      "link": "https://news.ycombinator.com/item?id=48196435",
+      "summary": "This is something that has been bouncing around my head for the past couple weeks with the flood of security related news around Mythos and the number of 0days being found. Microkernels, unikernals, hardware-enforced capabilities are all technical approaches to limit the attack surface area and blast radius of bugs. They seen to have had limited penetrate the current Linux-based VM / Container / VPC provider stacks a lot of us (most of us?) are using for production environments. The huge Linux ecosystem it's probably more of a driving factor than overall performance at this point, the Linux performance compared to systems that use these approaches was a driver in the past. If the pace of advancement in using LLMs and coding agents to find and exploit bugs continues, do you think that Linux will need to adapt the approaches it uses to be able to limit the impact of bugs in drivers and other ancillary code? Do you think that alternative approaches like Unikernals will be a beneficiary of the advancement instead? Or do you think Linux just has too much developer manpower and ecosystem strength that is will mostly just adapt through the \"rough patch\" but remain mostly unchanged structurally afterwards? Interested, hear what other people think could be a reasonable response if LLMs continue to get better at finding and exploiting software bugs. Comments URL: https://news.ycombinator",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-19T17:33:10.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html",
+      "title": "Anthropic hires OpenAI co-founder Andrej Karpathy, former Tesla AI leader",
+      "link": "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html Comments URL: https://news.ycombinator.com/item?id=48196118 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-19T17:08:32.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5470,18 +5494,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/zeroentropy-ai/probe",
-      "title": "Probe: AI Agent Context Engine",
-      "link": "https://github.com/zeroentropy-ai/probe",
-      "summary": "Article URL: https://github.com/zeroentropy-ai/probe Comments URL: https://news.ycombinator.com/item?id=48111072 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-12T17:05:23.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
       "link": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
@@ -5490,18 +5502,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-12T16:29:21.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.07896",
-      "title": "What if AI systems weren't chatbots?",
-      "link": "https://arxiv.org/abs/2605.07896",
-      "summary": "Article URL: https://arxiv.org/abs/2605.07896 Comments URL: https://news.ycombinator.com/item?id=48119749 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-13T09:39:41.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5574,6 +5574,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-19T10:35:39.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/mekickdemons-creator/libro-vendergood",
+      "title": "Vendergood: Reconstructing a 1905 constructed language for AI agent cognition",
+      "link": "https://github.com/mekickdemons-creator/libro-vendergood",
+      "summary": "Article URL: https://github.com/mekickdemons-creator/libro-vendergood Comments URL: https://news.ycombinator.com/item?id=48195866 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-19T16:50:16.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -7186,28 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.14049",
-      "title": "Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning",
-      "link": "https://arxiv.org/abs/2605.14049",
-      "summary": "arXiv:2605.14049v1 Announce Type: new Abstract: The growing adoption of large language models in legal practice brings both significant promise and serious risk. Legal professionals stand to benefit from AI that can reason over contracts, draft documents, and analyze sources at scale, yet the high-stakes nature of legal work demands a level of rigor that current AI systems do not provide. The central problem is not simply that LLMs hallucinate facts and references; it is that they systematically draw inferences that go beyond what the source text actually supports, presenting assumption-laden conclusions as if they were logically grounded. This proposal presents a neuro-symbolic approach to legal AI that combines the expressive power of large language models with the rigor of formal verification, aiming to make AI-assisted legal reasoning both capable and trustworthy, thus reducing the burden of manual verification without sacrificing the accountability that legal practice demands.",
-      "source": "ArXiv cs.AI",
+      "id": "https://github.com/zeroentropy-ai/probe",
+      "title": "Probe: AI Agent Context Engine",
+      "link": "https://github.com/zeroentropy-ai/probe",
+      "summary": "Article URL: https://github.com/zeroentropy-ai/probe Comments URL: https://news.ycombinator.com/item?id=48111072 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-15T04:00:00.000Z",
-      "score": 103.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08374",
-      "title": "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
-      "link": "https://arxiv.org/abs/2605.08374",
-      "summary": "arXiv:2605.08374v2 Announce Type: new Abstract: Episodic memory allows LLM agents to accumulate and retrieve experience, but current methods treat each memory independently, i.e., evaluating retrieval quality in isolation without accounting for the dependency chains through which memories enable the creation of future memories. We introduce MemQ, which applies TD($\\lambda$) eligibility traces to memory Q-values, propagating credit backward through a provenance DAG that records which memories were retrieved when each new memory was created. Credit weight decays as $(\\gamma\\lambda)^d$ with DAG depth $d$, replacing temporal distance with structural proximity. We formalize the setting as an Exogenous-Context MDP, whose factored transition decouples the exogenous task stream from the endogenous memory store. Across six benchmarks, spanning OS interaction, function calling, code generation, multimodal reasoning, embodied reasoning, and expert-level QA, MemQ achieves the highest success rate on all six in generalization evaluation and runtime learning, with gains largest on multi-step tasks that produce deep and relevant provenance chains (up to +5.7~pp) and smallest on single-step classification (+0.77~pp) where single-step updates already suffice. We further study how $\\gamma$ and $\\lambda$ interact with the EC-MDP structure, providing principled guidance for parameter selection and",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-13T04:00:00.000Z",
-      "score": 103.31,
-      "status": "queued"
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T17:05:23.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-19T17:37:38.769Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: The first half of t…"
     },
     {
       "id": "https://github.com/Doorman11991/smallcode",
@@ -8152,38 +8156,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-04-20T16:09:28.371Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://github.com/fwgadmin/mnemo",
-      "title": "Mnemo – a local-first notepad that acts as memory for AI agents",
-      "link": "https://github.com/fwgadmin/mnemo",
-      "summary": "Article URL: https://github.com/fwgadmin/mnemo Comments URL: https://news.ycombinator.com/item?id=47795586 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T16:14:23.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-19T15:37:10.515Z",
-      "failureReason": "validation issues: FR: Missing at least one markdown table (decision frame or comparison). | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "title": "The next evolution of the Agents SDK",
-      "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-04-15T10:00:00.000Z",
-      "score": 73.18,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-04-19T15:37:10.515Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }

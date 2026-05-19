@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T10:59:14.887Z",
+  "generatedAt": "2026-05-19T17:54:34.121Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm",
+      "title": "Task-Focused AI Interfaces: Practical Alternatives to the Chatbot-First Paradigm",
+      "date": "2026-05-19",
+      "excerpt": "Shows how the chatbot-default reshapes social, legal and environmental systems. Presents a practical guide and 3‑hour prototype for task-focused AI with provenance, checks, and rollout metrics.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm.jpg",
+      "tags": [
+        "AI design",
+        "interfaces",
+        "chatbots",
+        "HCI",
+        "governance",
+        "accountability",
+        "deployment",
+        "provenance"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2605.07896"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
