@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-19T17:54:34.184Z",
+  "generatedAt": "2026-05-20T10:46:56.812Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "title": "Sam Altman takes the stand in trial against Elon Musk",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "summary": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up to $38 million in the ChatGPT-maker's early days. But the relationship between Musk…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-12T16:05:20.000Z",
+      "score": 139.87,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-05-20T10:46:56.784Z",
+      "file": "content/posts/2026-05-20-sam-altman-testifies-in-musk-v-altman-trial-immediate-preservation-and-communications-steps-for-small-ai-teams.md",
+      "fileFr": "content/posts/fr/2026-05-20-sam-altman-testifies-in-musk-v-altman-trial-immediate-preservation-and-communications-steps-for-small-ai-teams.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1206,
+      "wordsFr": 1253
+    },
     {
       "id": "https://arxiv.org/abs/2605.07896",
       "title": "What if AI systems weren't chatbots?",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1260
     },
     {
-      "id": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
-      "link": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intelligence,” Huang said. “What that means is some $10 trillion Read Article",
-      "source": "NVIDIA Blog",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-01-05T23:30:18.000Z",
-      "score": 60.15,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-07T18:33:35.108Z",
-      "file": "content/posts/2026-01-05-nvidia-rubin-and-alpamayo-six-chip-production-ai-platform-and-open-reasoning-models-for-autonomy.md",
-      "fileFr": "content/posts/fr/2026-01-05-nvidia-rubin-and-alpamayo-six-chip-production-ai-platform-and-open-reasoning-models-for-autonomy.md",
-      "generationMode": "llm",
-      "series": "founder-notes",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1849,
-      "wordsFr": 1238
-    },
-    {
       "id": "https://www.theregister.com/ai-ml/2026/05/17/how-ai-agent-harnesses-like-openclaw-are-changing-llms-inference-and-cpus/5241530",
       "title": "AI agent harnesses like OpenClaw are changing LLMs, inference, and CPUs",
       "link": "https://www.theregister.com/ai-ml/2026/05/17/how-ai-agent-harnesses-like-openclaw-are-changing-llms-inference-and-cpus/5241530",
@@ -5262,6 +5262,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-05-19T17:08:32.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://professorgoose.com/?version=2.0",
+      "title": "Show HN: I fixed my AI goose tutor to stop punishing understanding",
+      "link": "https://professorgoose.com/?version=2.0",
+      "summary": "a few weeks ago, I built professor goose, a socratic ai tutor built around the feynman idea that if you can’t explain it, you don’t understand it. the way professor goose works specifically is you pick a topic, rubber duck at a 3d goose, and instead of answering it asks follow up questions until it understands. that begs the question, how does the goose know it has understood? that’s when I thought of an understanding bar - always available to the user to help visualize how much the goose understands you, 0 -> 100%. the original logic powering the understanding bar went something like this: every turn, id send the convo to an llm and ask it to return a number 0-100 , with a rubric of brackets to make the output less volatile. 0-10 meant no real understanding. 11-20 named , but empty. 21-35 meant a partial understanding, and so on, up to 93-100 for the goose understanding your topic exceptionally. this approach worked. mostly. until I started looking at what came back once real users tested the goose. two testers were explaining the basic way a cpu works. the first used textbook style definition, (fetch, decode , execute etc) and got a final understanding of 87% after a couple turns. the second used a real world example of a chef, linking it to concepts of a cpu. same level of understanding, expressed differently. the second tester got a score of 36. id built the opposite of wha",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-20T10:30:15.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5782,6 +5794,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.actuia.com/actualite/celonis-rachete-ikigai-labs-le-mit-entre-au-capital-contre-une-licence-de-brevets/",
+      "title": "Celonis rachète Ikigai Labs, le MIT entre au capital contre une licence de brevets",
+      "link": "https://www.actuia.com/actualite/celonis-rachete-ikigai-labs-le-mit-entre-au-capital-contre-une-licence-de-brevets/",
+      "summary": "Celonis a annoncé le 12 mai 2026, depuis Munich, le lancement du Celonis Context Model (CCM) et, dans le même communiqué, la signature d'un accord définitif en vue de l'acqu...",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-20T10:30:31.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.19127",
+      "title": "POLAR-Bench: A Diagnostic Benchmark for Privacy-Utility Trade-offs in LLM Agents",
+      "link": "https://arxiv.org/abs/2605.19127",
+      "summary": "arXiv:2605.19127v1 Announce Type: new Abstract: LLM agents increasingly have access to private user data and act on the user's behalf when interacting with third-party systems. The user defines what may and must not be shared, and the agent must robustly follow that intent even when third-party systems behave adversarially. We introduce POLAR-Bench (Policy-aware adversarial Benchmark), in which a trusted model with a privacy policy and a task converses with a third-party model that adversarially probes for both task-relevant and protected attributes. Across 10 domains and 7,852 samples, we score privacy and utility by deterministic set-membership and vary privacy policy dimension and attack strategy along two orthogonal axes, producing a 5 times 5 diagnostic surface per model. Our results reveal a sharp split: current frontier models withhold over 99% of protected attributes, while smaller open-weight models in the 1--30B range, the class users most commonly run as their own trusted agent on-device or via private inference, score notably worse, with the weakest leaking over half. POLAR-Bench thus localizes where each model's intent-following breaks down, providing a foothold for privacy alignment where it matters most.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-05-20T04:00:00.000Z",
+      "score": 149.94,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.05413",
       "title": "From History to State: Constant-Context Skill Learning for LLM Agents",
       "link": "https://arxiv.org/abs/2605.05413",
@@ -5971,18 +6007,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-05-17T14:04:41.000Z",
       "score": 140.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
-      "title": "Sam Altman takes the stand in trial against Elon Musk",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
-      "summary": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up to $38 million in the ChatGPT-maker's early days. But the relationship between Musk and other OpenAI founders eventually soured, and Musk stepped away from the company, later going on to found his own direct competitor, xAI. In recent years, Musk and Altman have traded barbs and made a slew of allegations agains … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-12T16:05:20.000Z",
-      "score": 139.87,
       "status": "queued"
     },
     {
@@ -6478,6 +6502,30 @@
       "status": "queued"
     },
     {
+      "id": "https://domainalot.substack.com/p/the-great-domain-illusion-why-legacy",
+      "title": "The Expired Domain Trap: Why Legacy SEO Metrics Fail in the Age of AI Agents",
+      "link": "https://domainalot.substack.com/p/the-great-domain-illusion-why-legacy",
+      "summary": "Article URL: https://domainalot.substack.com/p/the-great-domain-illusion-why-legacy Comments URL: https://news.ycombinator.com/item?id=48204875 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-20T08:52:35.000Z",
+      "score": 120.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.19035",
+      "title": "Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On",
+      "link": "https://arxiv.org/abs/2605.19035",
+      "summary": "arXiv:2605.19035v1 Announce Type: new Abstract: The rapid advancement of Large Language Models has given rise to autonomous LLM-based agents capable of complex reasoning and execution. As these agents transition from isolated operation to collaborative ecosystems, we witness the emergence of the Agent-to-Agent (A2A) network, a paradigm where heterogeneous agents autonomously coordinate to solve multi-step tasks. While these networks may offer better task performance compared to simply using one agent to complete the entire task, they introduce systemic vulnerabilities, such as adversarial composition, semantic misalignment, and cascading operational failures, that existing agent alignment techniques cannot address. In this vision paper, we argue that the trustworthiness of A2A networks cannot be fully guaranteed via retrofitting on existing protocols that are largely designed for individual agents. Rather, it must be architected from the very beginning of the A2A coordination framework. We present a comprehensive conceptual framework that situates trust in A2A systems through four design pillars.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-05-20T04:00:00.000Z",
+      "score": 119.94,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.05386",
       "title": "BALAR : A Bayesian Agentic Loop for Active Reasoning",
       "link": "https://arxiv.org/abs/2605.05386",
@@ -6550,6 +6598,18 @@
       "status": "queued"
     },
     {
+      "id": "https://autoagentprotocol.org/",
+      "title": "Auto Agent Protocol – an A2A vertical for AI agents buying cars",
+      "link": "https://autoagentprotocol.org/",
+      "summary": "Article URL: https://autoagentprotocol.org/ Comments URL: https://news.ycombinator.com/item?id=48204856 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-20T08:51:07.000Z",
+      "score": 119.28,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=47971901",
       "title": "Ask HN: Bedrock,Vertex AI etc. Support Anthropic Models",
       "link": "https://news.ycombinator.com/item?id=47971901",
@@ -6559,18 +6619,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-05-01T06:49:00.000Z",
       "score": 118.1,
-      "status": "queued"
-    },
-    {
-      "id": "https://canonical.com/blog/canonical-releases-inference-snaps",
-      "title": "Ubuntu silicon-optimized inference snaps for AI",
-      "link": "https://canonical.com/blog/canonical-releases-inference-snaps",
-      "summary": "Article URL: https://canonical.com/blog/canonical-releases-inference-snaps Comments URL: https://news.ycombinator.com/item?id=47945595 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-29T08:29:00.000Z",
-      "score": 117.78,
       "status": "queued"
     },
     {
@@ -6715,18 +6763,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-05-12T04:00:00.000Z",
       "score": 114.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/victornominista/anp",
-      "title": "ANP – A binary protocol for AI agent-to-agent price negotiation (no LLM tokens)",
-      "link": "https://github.com/victornominista/anp",
-      "summary": "Article URL: https://github.com/victornominista/anp Comments URL: https://news.ycombinator.com/item?id=47945051 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-29T07:08:01.000Z",
-      "score": 114.6,
       "status": "queued"
     },
     {
@@ -7166,30 +7202,6 @@
       "title": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
       "link": "https://arxiv.org/abs/2605.13850",
       "summary": "arXiv:2605.13850v1 Announce Type: new Abstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows -- while cognitive science surveys focus on cognitive function -- what the agent does. Neither axis alone disambiguates architecturally distinct systems: the same Orchestrator-Workers topology can implement Plan-and-Execute, Hierarchical Delegation, or Adversarial Verification -- three patterns with fundamentally different failure modes and design trade-offs. We propose a two-dimensional classification that combines (1) a Cognitive Function axis with seven categories (Context Engineering, Memory, Reasoning, Action, Reflection, Collaboration, Governance) and (2) an Execution Topology axis with six structural archetypes (Chain, Route, Parallel, Orchestrate, Loop, Hierarchy). The resulting 7x6 matrix identifies 27 named patterns, 13 with original names. We demonstrate orthogonality through systematic cross-axis analysis, define eight representative patterns in detail, and validate descriptive coverage across four real-world domains (financial lending, legal due diligence, network operations, healthcare triage). Cross-domain analysis yields five empirical laws of pattern selection governing the relationship between environmental constraints (time",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-15T04:00:00.000Z",
-      "score": 103.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.13851",
-      "title": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
-      "link": "https://arxiv.org/abs/2605.13851",
-      "summary": "arXiv:2605.13851v1 Announce Type: new Abstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of orchestrator invisibility have never been empirically tested. We conducted a preregistered 3x2 experiment (365 runs, 5 agents per run) crossing three organizational structures (visible leader, invisible orchestrator, flat) with two alignment conditions (base, heavy), using Claude Sonnet 4.5. Four confirmatory findings and one pilot observation emerged. First, invisible orchestration elevated collective dissociation relative to visible leadership (Hedges' g = +0.975 [0.481, 1.548], p = .001). Second, the orchestrator itself showed maximal dissociation (paired d = +3.56 vs. workers within the same run), retreating into private monologue while reducing public speech -- a reversal of the talk-dominance pattern observed in visible leaders. Third, workers unaware of the orchestrator were nonetheless contaminated (d = +0.50), with increased behavioral heterogeneity (d = +1.93). Fourth, behavioral output (code review with three embedded errors) remained at ceiling (ETR_any = 100%) across all conditions: internal-state distortion was entirely invisible to output-based evaluation. Fifth, Llama 3.3 70B pilot data showed reading-fidelity collapse in mu",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-15T04:00:00.000Z",
-      "score": 103.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.14004",
-      "title": "Conditional Attribute Estimation with Autoregressive Sequence Models",
-      "link": "https://arxiv.org/abs/2605.14004",
-      "summary": "arXiv:2605.14004v1 Announce Type: new Abstract: Generative models are often trained with a next-token prediction objective, yet many downstream applications require the ability to estimate or control sequence-level properties. Next-token prediction can lead to overfitting of local patterns during training, underfitting of global structure, and requires significant downstream modifications or expensive sampling to guide or predict the global attributes of generated samples at inference time. Here, we introduce Conditional Attribute Transformers, a novel method for jointly estimating the next-token probability and the value of an attribute conditional on each potential next token selection. This framework enables three critical capabilities within a single forward pass, without modification of the input sequence: (1) per-token credit assignment across an entire sequence, by identifying how each token in a sequence is associated with an attribute's value; (2) counterfactual analysis, by quantifying attribute differences conditional on alternative next token choices; (3) steerable generation, by decoding sequences based on a combination of next-token and attribute likelihoods. Our approach achieves state of the art performance on sparse reward tasks, improves next-token prediction at sufficient model sizes, estimates attribute probabilities orders of magnitude faster than sampling,",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 6,
