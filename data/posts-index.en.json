@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-05-23T09:48:41.858Z",
+  "generatedAt": "2026-05-23T16:10:15.159Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-23-aws-infrastructure-patterns-for-foundation-model-training-and-inference",
+      "title": "AWS infrastructure patterns for foundation-model training and inference",
+      "date": "2026-05-23",
+      "excerpt": "Practical AWS blueprint for foundation-model training and inference: combine accelerator-backed compute, high-bandwidth network, durable object storage, Slurm/EKS orchestration, and metrics.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-23-aws-infrastructure-patterns-for-foundation-model-training-and-inference.jpg",
+      "tags": [
+        "AWS",
+        "foundation-models",
+        "distributed-training",
+        "inference",
+        "orchestration",
+        "Slurm",
+        "Kubernetes",
+        "storage"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/amazon/foundation-model-building-blocks"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-23-proton-pass-for-ai-agents-a-privacy-first-password-manager-for-unattended-agent-credentials",
       "title": "Proton Pass for AI agents — a privacy-first password manager for unattended agent credentials",

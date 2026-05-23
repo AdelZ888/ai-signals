@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-05-23T09:48:41.860Z",
+  "generatedAt": "2026-05-23T16:10:15.160Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-23-aws-infrastructure-patterns-for-foundation-model-training-and-inference",
+      "title": "Patrons d'infrastructure AWS pour l'entraînement et l'inférence de modèles fondamentaux",
+      "date": "2026-05-23",
+      "excerpt": "Un guide pratique (localisé pour la France) qui réunit compute accéléré, réseau haute-bande passante et stockage distribué, avec orchestration et observabilité : pattern minimal réutilisable pour petites équipes et fondateurs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-23-aws-infrastructure-patterns-for-foundation-model-training-and-inference.jpg",
+      "tags": [
+        "IA",
+        "Infrastructure",
+        "AWS",
+        "MLOps",
+        "Modèles fondamentaux",
+        "Observabilité"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/amazon/foundation-model-building-blocks"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-05-23-proton-pass-for-ai-agents-a-privacy-first-password-manager-for-unattended-agent-credentials",
       "title": "Proton Pass pour agents IA — gestion des secrets axée confidentialité (contexte UK)",
