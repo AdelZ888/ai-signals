@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-24T09:53:44.066Z",
+  "generatedAt": "2026-05-24T16:08:13.454Z",
   "items": [
+    {
+      "id": "https://arxiv.org/abs/2605.07012",
+      "title": "Exploring the \"Banality\" of Deception in Generative AI",
+      "link": "https://arxiv.org/abs/2605.07012",
+      "summary": "Article URL: https://arxiv.org/abs/2605.07012 Comments URL: https://news.ycombinator.com/item?id=48119720 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-13T09:34:51.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-24T16:08:13.377Z",
+      "file": "content/posts/2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist.md",
+      "fileFr": "content/posts/fr/2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1836,
+      "wordsFr": 1430
+    },
     {
       "id": "https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai",
       "title": "You can now remix other people’s YouTube Shorts with AI",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1464
     },
     {
-      "id": "https://arxiv.org/abs/2602.04248",
-      "title": "Empirical-MCTS: Continuous Agent Evolution via Dual-Experience Monte Carlo Tree Search",
-      "link": "https://arxiv.org/abs/2602.04248",
-      "summary": "arXiv:2602.04248v1 Announce Type: new Abstract: Inference-time scaling strategies, particularly Monte Carlo Tree Search (MCTS), have significantly enhanced the reasoning capabilities of Large Language Models (LLMs). However, current approaches remain predominantly stateless, discarding successful reasoning patterns after each problem instance and failing to mimic the empirical accumulation of wisdom characteristic o…",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-02-06T05:00:00.000Z",
-      "score": 137.89,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "ANALYSIS",
-      "publishedAtRun": "2026-02-07T19:05:50.256Z",
-      "file": "content/posts/2026-02-06-empirical-mcts-dual-loop-mcts-with-evolving-meta-prompts-and-a-global-memory-agent.md",
-      "fileFr": "content/posts/fr/2026-02-06-empirical-mcts-dual-loop-mcts-with-evolving-meta-prompts-and-a-global-memory-agent.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "advanced",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1510,
-      "wordsFr": 1332
-    },
-    {
       "id": "https://www.youtube.com/watch?v=IOoLqw4n4_g",
       "title": "Are AI agents a scam? [video]",
       "link": "https://www.youtube.com/watch?v=IOoLqw4n4_g",
@@ -5290,18 +5290,6 @@
       "status": "queued"
     },
     {
-      "id": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610",
-      "title": "Agents League: The Esports-Inspired Hackathon Where AI Agents Battle for Glory",
-      "link": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610",
-      "summary": "Article URL: https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610 Comments URL: https://news.ycombinator.com/item?id=48237867 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-22T16:10:42.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://x.ai/news/anthropic-compute-partnership",
       "title": "Creators of Grok, the AI Chatbot",
       "link": "https://x.ai/news/anthropic-compute-partnership",
@@ -5502,18 +5490,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-05-12T16:29:21.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.07012",
-      "title": "Exploring the \"Banality\" of Deception in Generative AI",
-      "link": "https://arxiv.org/abs/2605.07012",
-      "summary": "Article URL: https://arxiv.org/abs/2605.07012 Comments URL: https://news.ycombinator.com/item?id=48119720 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-13T09:34:51.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -6223,6 +6199,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "score": 133.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://stripe.dev/blog/ai-steering-experiments",
+      "title": "You can't whisper at an AI agent",
+      "link": "https://stripe.dev/blog/ai-steering-experiments",
+      "summary": "Article URL: https://stripe.dev/blog/ai-steering-experiments Comments URL: https://news.ycombinator.com/item?id=48257684 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-24T14:46:57.000Z",
+      "score": 133.45,
       "status": "queued"
     },
     {
@@ -7138,6 +7126,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model Comments URL: https://news.ycombinator.com/item?id=48257410 Points: 43 # Comments: 42",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-24T14:09:33.000Z",
+      "score": 100.7,
+      "status": "queued"
+    },
+    {
       "id": "https://www.scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says",
       "title": "China behind in LLM race but it can still win in AI, ex-Tencent AI lead says",
       "link": "https://www.scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says",
@@ -7198,16 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-22T00:00:00.000Z",
-      "score": 75.56,
-      "status": "queued"
+      "id": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610",
+      "title": "Agents League: The Esports-Inspired Hackathon Where AI Agents Battle for Glory",
+      "link": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610",
+      "summary": "Article URL: https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610 Comments URL: https://news.ycombinator.com/item?id=48237867 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-22T16:10:42.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-24T16:00:51.347Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://arstechnica.com/google/2026/05/buckle-up-google-is-set-to-remake-search-with-agentic-ai-in-2026/",

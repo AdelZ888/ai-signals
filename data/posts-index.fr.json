@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-05-24T09:53:44.055Z",
+  "generatedAt": "2026-05-24T16:08:13.394Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist",
+      "title": "Détecter et atténuer la « déception banale » dans l’IA générative : checklist rapide d’audit et de déploiement",
+      "date": "2026-05-24",
+      "excerpt": "Guide pratique en français pour repérer les petites manipulations intégrées (nudges) dans les expériences d’IA générative et déployer des contre-mesures légères : audit rapide, étiquettes de provenance, confirmation explicite et déploiement canari. Basé sur la notion de « banal deception » (Narwane et al., CHI'26) et complété par des heuristiques opérationnelles.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist.jpg",
+      "tags": [
+        "IA générative",
+        "UX",
+        "sécurité",
+        "audit",
+        "banal deception",
+        "CHI'26",
+        "petites équipes",
+        "produit"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2605.07012"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-24-youtube-adds-reimagine-to-shorts-gemini-omni-can-restyle-or-insert-people-creators-can-opt-out",
       "title": "YouTube ajoute « Reimagine » aux Shorts — Gemini Omni peut restyler ou insérer des personnes ; les créateurs peuvent refuser",

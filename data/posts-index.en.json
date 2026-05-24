@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-05-24T09:53:44.057Z",
+  "generatedAt": "2026-05-24T16:08:13.392Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist",
+      "title": "Detecting and mitigating 'banal deception' in generative AI: a rapid audit and rollout checklist",
+      "date": "2026-05-24",
+      "excerpt": "A practical guide to spot subtle AI nudges—run a 30–120 minute audit, add provenance labels and a confirmation tap, then roll changes in a 5–20% canary with clear abort rules.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist.jpg",
+      "tags": [
+        "deception",
+        "generative-ai",
+        "hci",
+        "ux",
+        "dark-patterns",
+        "audit",
+        "checklist",
+        "safety"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2605.07012"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
+    },
     {
       "slug": "2026-05-24-youtube-adds-reimagine-to-shorts-gemini-omni-can-restyle-or-insert-people-creators-can-opt-out",
       "title": "YouTube adds 'Reimagine' to Shorts — Gemini Omni can restyle or insert people; creators can opt out",
