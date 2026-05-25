@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-05-24T16:08:13.394Z",
+  "generatedAt": "2026-05-25T11:51:59.198Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-25-google-ai-overview-intermittently-returns-conversational-or-empty-responses-for-queries-such-as-disregard",
+      "title": "Google AI Overview: réponses conversationnelles ou vides pour certains termes (ex. « disregard ») — que faire pour les petites équipes US",
+      "date": "2026-05-25",
+      "excerpt": "Le panneau AI Overview de Google Search peut parfois renvoyer une réponse de type conversationnel ou un résultat vide pour certaines requêtes (ex. « disregard »), ce qui casse les UIs qui attendent un résumé structuré. Capturer preuves et signaler au fournisseur.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-25-google-ai-overview-intermittently-returns-conversational-or-empty-responses-for-queries-such-as-disregard.jpg",
+      "tags": [
+        "Google",
+        "Search",
+        "IA",
+        "Observabilité",
+        "Ops",
+        "Startups",
+        "US"
+      ],
+      "sources": [
+        "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist",
       "title": "Détecter et atténuer la « déception banale » dans l’IA générative : checklist rapide d’audit et de déploiement",
