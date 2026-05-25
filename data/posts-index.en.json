@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T11:51:59.196Z",
+  "generatedAt": "2026-05-25T17:12:35.125Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-25-musts-a-ci-validation-loop-that-blocks-merging-of-ai-created-pull-requests-until-validators-pass",
+      "title": "Musts — A CI validation loop that blocks merging of AI-created pull requests until validators pass",
+      "date": "2026-05-25",
+      "excerpt": "Practical Musts guide: configure a fast CI validation loop (lint, tests, commands) so AI-opened pull requests are blocked from merging until checks pass. Includes setup and rollout tips.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-25-musts-a-ci-validation-loop-that-blocks-merging-of-ai-created-pull-requests-until-validators-pass.jpg",
+      "tags": [
+        "ai-agents",
+        "validation",
+        "ci",
+        "open-source",
+        "testing",
+        "devtools",
+        "developer-experience"
+      ],
+      "sources": [
+        "https://github.com/bitomule/musts"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

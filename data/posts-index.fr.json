@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T11:51:59.198Z",
+  "generatedAt": "2026-05-25T17:12:35.128Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-05-25-musts-a-ci-validation-loop-that-blocks-merging-of-ai-created-pull-requests-until-validators-pass",
+      "title": "Musts — boucle de validation CI qui bloque les PR créées par l'IA jusqu'à validation",
+      "date": "2026-05-25",
+      "excerpt": "Guide pratique Musts : configurez une boucle de validation CI rapide (lint, tests, commandes) pour empêcher les pull requests ouvertes par des agents IA d'être mergées tant que les contrôles n'ont pas réussi. Inclut installation, exemples et conseils de déploiement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-25-musts-a-ci-validation-loop-that-blocks-merging-of-ai-created-pull-requests-until-validators-pass.jpg",
+      "tags": [
+        "CI",
+        "validation",
+        "IA",
+        "pull-requests",
+        "GitHub Actions",
+        "DevOps"
+      ],
+      "sources": [
+        "https://github.com/bitomule/musts"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist",
