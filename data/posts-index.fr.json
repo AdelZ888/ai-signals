@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T11:44:35.317Z",
+  "generatedAt": "2026-05-29T18:30:24.743Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-05-29-reproduce-itbenchaa-sre-evaluations-and-produce-auditready-json-reports",
+      "title": "Reproduire les évaluations ITBench‑AA SRE et produire des rapports JSON prêts pour l'audit",
+      "date": "2026-05-29",
+      "excerpt": "Tutoriel reproductible pour exécuter les tâches SRE d'ITBench‑AA et produire des rapports JSON prêts pour l'audit (accuracy, avg_turns, false_positive_rate, task_count). Les modèles de pointe ont obtenu moins de 50 %.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-29-reproduce-itbenchaa-sre-evaluations-and-produce-auditready-json-reports.jpg",
+      "tags": [
+        "ITBench‑AA",
+        "SRE",
+        "benchmark",
+        "IA",
+        "LLM",
+        "reproductibilité",
+        "HuggingFace",
+        "IBM"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/ibm-research/itbench-aa"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-05-28-seven-ai-agent-frameworks-compared-prototyping-speed-execution-durability-and-provider-lockin-may-2026",

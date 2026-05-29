@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-05-29T11:44:35.326Z",
+  "generatedAt": "2026-05-29T18:30:24.802Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-27T17:20:29.000Z",
+      "score": 74.46,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-05-29T18:30:24.725Z",
+      "file": "content/posts/2026-05-29-reproduce-itbenchaa-sre-evaluations-and-produce-auditready-json-reports.md",
+      "fileFr": "content/posts/fr/2026-05-29-reproduce-itbenchaa-sre-evaluations-and-produce-auditready-json-reports.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1638,
+      "wordsFr": 1397
+    },
     {
       "id": "https://www.numerama.com/tech/2262343-anthropic-pese-desormais-lequivalent-de-la-16e-entreprise-mondiale-sans-etre-en-bourse.html",
       "title": "Anthropic pèse désormais l’équivalent de la 16e entreprise mondiale, sans être en Bourse",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1306
     },
     {
-      "id": "https://arxiv.org/abs/2602.03955",
-      "title": "AgentArk: Distilling Multi-Agent Intelligence into a Single LLM Agent",
-      "link": "https://arxiv.org/abs/2602.03955",
-      "summary": "arXiv:2602.03955v1 Announce Type: new \nAbstract: While large language model (LLM) multi-agent systems achieve superior reasoning performance through iterative debate, practical deployment is limited by their high computational cost and error propagation. This paper proposes Agent",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-06T05:00:00.000Z",
-      "score": 65.6,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "ANALYSIS",
-      "publishedAtRun": "2026-02-07T19:32:07.824Z",
-      "file": "content/posts/2026-02-06-agentark-turning-multi-agent-debate-into-single-agent-capabilities-via-hierarchical-distillation.md",
-      "fileFr": "content/posts/fr/2026-02-06-agentark-turning-multi-agent-debate-into-single-agent-capabilities-via-hierarchical-distillation.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1315,
-      "wordsFr": 1281
-    },
-    {
       "id": "https://lowdefy.com/articles/lowdefy-agents/",
       "title": "Show HN: AI Agents in 30 Lines of YAML: Lowdefy v5.3",
       "link": "https://lowdefy.com/articles/lowdefy-agents/",
@@ -5254,6 +5254,18 @@
       "status": "queued"
     },
     {
+      "id": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "title": "Robinhood now lets your AI agents trade stocks",
+      "link": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "summary": "Article URL: https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/ Comments URL: https://news.ycombinator.com/item?id=48326659 Points: 26 # Comments: 20",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-29T17:46:27.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
       "title": "What Sudoku Reveals About AI Reasoning Architectures and the Future",
       "link": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
@@ -5302,18 +5314,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48312377",
-      "title": "Ask HN: What Is an \"AI Engineer\"?",
-      "link": "https://news.ycombinator.com/item?id=48312377",
-      "summary": "I'm seeing an enormous contingency of my LinkedIn connections change their titles to \"AI Engineer.\" I know for a fact that they're not working on any models or even AI workflows, they're just building apps and backends using AI tools like Claude. Is that what \"AI Engineer\" means nowadays? Is that what companies are looking for when they open recs for \"AI Engineer\"? Should I be marketing myself as an \"AI Engineer\" just because I'm very efficient using modern AI tooling to build good non-AI software? Comments URL: https://news.ycombinator.com/item?id=48312377 Points: 4 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-28T17:26:50.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/podcast/929940/rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai",
       "title": "Rivian’s software chief thinks you don&#8217;t need CarPlay or buttons",
       "link": "https://www.theverge.com/podcast/929940/rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai",
@@ -5326,15 +5326,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.lawfaremedia.org/article/mythos-fallout--u.s.-government-weighs-ai-model-regulation",
-      "title": "Mythos Fallout, U.S. Government Weighs AI Model Regulation",
-      "link": "https://www.lawfaremedia.org/article/mythos-fallout--u.s.-government-weighs-ai-model-regulation",
-      "summary": "Article URL: https://www.lawfaremedia.org/article/mythos-fallout--u.s.-government-weighs-ai-model-regulation Comments URL: https://news.ycombinator.com/item?id=48064418 Points: 2 # Comments: 0",
+      "id": "https://sinceyouarrived.world/taken/agents",
+      "title": "Show HN: A page that hides a sentence for AI and lets you check if it came back",
+      "link": "https://sinceyouarrived.world/taken/agents",
+      "summary": "The premise is web pages have two readers, people and the AI reading for people. Web pages can now be written more for the AI and less for people. It’s a companion to an earlier page about browser fingerprinting. (https://news.ycombinator.com/item?id=48062178) On my page, the there’s a planted phrase for AI. As the site gets crawled, you can see if this phrase is ever returned by any AI summarizing the page. So there’s a couple things you can do on my page: 1. Ask any AI to summarize the URL, and check if the planted phrase has been read. 2. Create a short-lived link and paste into any chat. You will see which crawler reads it first, before anyone ever actually opens or clicks on the link. 3. Generate your own planted phrase and leave it for the next crawler. On this page, I also look at one example, composio.dev/hermes which serves a block of instructions specifically for AI agents. It’s not malicious, and it’s good marketing but shows that web pages can now be created and written for two very different audiences. Comments URL: https://news.ycombinator.com/item?id=48326123 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-08T15:19:48.000Z",
-      "score": 156,
+      "keywordHits": 3,
+      "publishedAt": "2026-05-29T17:10:07.000Z",
+      "score": 158.27,
       "status": "queued"
     },
     {
@@ -5530,15 +5530,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
-      "title": "Claude’s new model is more ‘honest’ when it messes up",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
-      "summary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic, it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they sometimes jump to conclusions, confidently presenting their work as making progress despite thin evidence.\" The AI lab claims that early testers have found that Opus 4.8 \"is more likely to flag uncertainties about its work and less likely to make unsupported claims.\" In the company's evaluations, Opus 4.8 is \"around 4x less likely than its predeces … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-28T17:00:00.000Z",
-      "score": 154.81,
+      "id": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
+      "title": "New Study Reveals the Manipulative 'Dark Patterns' of AI Chatbots",
+      "link": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
+      "summary": "Article URL: https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/ Comments URL: https://news.ycombinator.com/item?id=48326151 Points: 9 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-29T17:11:26.000Z",
+      "score": 154.79,
       "status": "queued"
     },
     {
@@ -5563,18 +5563,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-25T15:54:05.000Z",
       "score": 153.4,
-      "status": "queued"
-    },
-    {
-      "id": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
-      "title": "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
-      "link": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
-      "summary": "Article URL: https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/ Comments URL: https://news.ycombinator.com/item?id=48064166 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-08T14:58:50.000Z",
-      "score": 151.69,
       "status": "queued"
     },
     {
@@ -5794,18 +5782,6 @@
       "status": "queued"
     },
     {
-      "id": "https://zenixos.org/essay/03-the-breath-of-intelligence",
-      "title": "The Breath of Intelligence: What emerges between AI reasoning cycles",
-      "link": "https://zenixos.org/essay/03-the-breath-of-intelligence",
-      "summary": "Article URL: https://zenixos.org/essay/03-the-breath-of-intelligence Comments URL: https://news.ycombinator.com/item?id=48064272 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-08T15:06:59.000Z",
-      "score": 145.83,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=48136879",
       "title": "Show HN: 1-800-CODER, macOS app where you call an AI developer to edit your page",
       "link": "https://news.ycombinator.com/item?id=48136879",
@@ -5850,6 +5826,18 @@
       "region": "FR",
       "keywordHits": 2,
       "publishedAt": "2026-05-29T10:49:38.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
+      "title": "Tech companies desperately want to film you doing chores",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
+      "summary": "This week, an AI training startup called Shift said it would clean New Yorkers' homes for free. It has plans to expand into other cities as well, including London, and looking around my flat, I get the appeal. But there's a catch. There's always a catch. In exchange for the cleaning, Shift wants footage of its cleaners at work: scrubbing dishes, wiping counters, dusting tables, mopping floors. It wants everything. Video of all the boring domestic labor we'd happily outsource if we could - and that robotics companies are racing to teach machines to do so they can sell us something to do it for us. That's harder than it sounds. Unlike cha … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-29T17:37:43.000Z",
       "score": 144,
       "status": "queued"
     },
@@ -5911,18 +5899,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-05-28T04:00:00.000Z",
       "score": 142.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.cosmonic.com/engineering/aiops-and-agentic-ai-security-in-a-componentized-world/",
-      "title": "Sandboxing AIOps and Agentic AI Security",
-      "link": "https://blog.cosmonic.com/engineering/aiops-and-agentic-ai-security-in-a-componentized-world/",
-      "summary": "Article URL: https://blog.cosmonic.com/engineering/aiops-and-agentic-ai-security-in-a-componentized-world/ Comments URL: https://news.ycombinator.com/item?id=48064236 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-08T15:04:20.000Z",
-      "score": 141.57,
       "status": "queued"
     },
     {
@@ -5998,18 +5974,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/readdle/spark-cli-skills",
-      "title": "Spark CLI: local, multi-provider email access for AI agents",
-      "link": "https://github.com/readdle/spark-cli-skills",
-      "summary": "Article URL: https://github.com/readdle/spark-cli-skills Comments URL: https://news.ycombinator.com/item?id=48064000 Points: 5 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-08T14:45:33.000Z",
-      "score": 136.77,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/agentpatterns-ai/website",
       "title": "Agentic AI Patterns",
       "link": "https://github.com/agentpatterns-ai/website",
@@ -6043,18 +6007,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-28T04:00:00.000Z",
       "score": 136.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.08525",
-      "title": "Ads in AI Chatbots? An Analysis of How LLMs Navigate Conflicts of Interest",
-      "link": "https://arxiv.org/abs/2604.08525",
-      "summary": "Article URL: https://arxiv.org/abs/2604.08525 Comments URL: https://news.ycombinator.com/item?id=48063983 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-08T14:44:05.000Z",
-      "score": 135.4,
       "status": "queued"
     },
     {
@@ -6247,6 +6199,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-19T04:00:00.000Z",
       "score": 125.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://prezlo.io/",
+      "title": "Show HN: Prezlo – We built an API that tells AI agent whether to trust an expert",
+      "link": "https://prezlo.io/",
+      "summary": "Article URL: https://prezlo.io/ Comments URL: https://news.ycombinator.com/item?id=48325814 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-29T16:51:01.000Z",
+      "score": 124.86,
       "status": "queued"
     },
     {
@@ -6802,18 +6766,6 @@
       "status": "queued"
     },
     {
-      "id": "https://telegram.org/blog/ai-bot-revolution-11-new-features",
-      "title": "Telegram Adds Guest AI Bots, Bot-to-Bot Chats, Chat Automation",
-      "link": "https://telegram.org/blog/ai-bot-revolution-11-new-features",
-      "summary": "Article URL: https://telegram.org/blog/ai-bot-revolution-11-new-features Comments URL: https://news.ycombinator.com/item?id=48063819 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-08T14:32:41.000Z",
-      "score": 108.11,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2605.20189",
       "title": "SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation",
       "link": "https://arxiv.org/abs/2605.20189",
@@ -7078,6 +7030,18 @@
       "status": "queued"
     },
     {
+      "id": "https://tomtunguz.com/ai-model-inflation/",
+      "title": "The Unsustainable AI Subsidy",
+      "link": "https://tomtunguz.com/ai-model-inflation/",
+      "summary": "Article URL: https://tomtunguz.com/ai-model-inflation/ Comments URL: https://news.ycombinator.com/item?id=48325259 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-05-29T16:17:13.000Z",
+      "score": 92.7,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.23926",
       "title": "How Much Thinking is Enough? Quantifying and Understanding Redundancy in LLM Reasoning",
       "link": "https://arxiv.org/abs/2605.23926",
@@ -7184,6 +7148,74 @@
       "publishedAt": "2026-05-26T04:00:00.000Z",
       "score": 80.62,
       "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/warp",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "link": "https://openai.com/index/warp",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "score": 73.81,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "score": 72.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2605.28902",
+      "title": "Orthogonal Concept Erasure for Diffusion Models",
+      "link": "https://arxiv.org/abs/2605.28902",
+      "summary": "arXiv:2605.28902v1 Announce Type: new Abstract: Concept erasure has emerged as a promising approach to mitigate undesired or unsafe content in diffusion models, yet existing methods still face significant limitations. While training-based methods are effective, their high computational cost limits scalability. Editing-based methods are more efficient and deployment-friendly, yet they struggle to simultaneously achieve precise concept erasure and preserve overall generative capacity. We identify this core limitation of the editing-based methods as reliance on additive parameter updates. Our empirical analysis reveals that concept semantics primarily depend on neuron direction rather than neuron magnitude, while overall generative capacity relies on the angular geometry of neurons. As additive updates inherently entangle direction, magnitude, and angular geometry, they inevitably introduce unintended interference between concept erasure and overall generation performance. To address this, we propose Orthogonal Concept Erasure (OCE), which reformulates editing-based erasure as multiplicative parameter updates from a geometric perspective. Specifically, OCE applies layer-wise orthogonal transformations derived from a closed-form solution to the parameters, enabling precise concept erasure while preserving the neuron magnitude and angular geometry. Furthermore, to address conflictin",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "score": 68.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48312377",
+      "title": "Ask HN: What Is an \"AI Engineer\"?",
+      "link": "https://news.ycombinator.com/item?id=48312377",
+      "summary": "I'm seeing an enormous contingency of my LinkedIn connections change their titles to \"AI Engineer.\" I know for a fact that they're not working on any models or even AI workflows, they're just building apps and backends using AI tools like Claude. Is that what \"AI Engineer\" means nowadays? Is that what companies are looking for when they open recs for \"AI Engineer\"? Should I be marketing myself as an \"AI Engineer\" ju…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-28T17:26:50.000Z",
+      "score": 162,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-29T18:12:04.368Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
+      "title": "Claude’s new model is more ‘honest’ when it messes up",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
+      "summary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic, it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they sometimes jump to conclusions, confidently presenting their work as making progress despite thin evidence.\" The AI lab cla…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-05-28T17:00:00.000Z",
+      "score": 154.81,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-05-29T18:12:04.368Z",
+      "failureReason": "validation issues: FR: Section \"TL;DR en langage simple\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Ce que vous allez construire et pourquoi c'est utile\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Avant de commencer (temps, cout, prerequis)\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Installation et implementation pas a pas\" is missing an inline source link (must include one of…"
     },
     {
       "id": "https://streetai.org/blog/escrow-for-ai-agents.html",
