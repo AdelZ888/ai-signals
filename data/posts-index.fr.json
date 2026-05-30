@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-05-30T10:18:55.985Z",
+  "generatedAt": "2026-05-30T16:12:33.835Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-05-30-conductor-yaml-first-deterministic-orchestration-for-reproducible-multi-agent-ai-workflows",
+      "title": "Conductor : orchestration déterministe YAML‑first pour workflows multi‑agents IA",
+      "date": "2026-05-30",
+      "excerpt": "Guide pratique (contexte Royaume‑Uni) expliquant Conductor — un CLI open‑source de Microsoft — qui encode l'orchestration multi‑agent en YAML et Jinja2 pour obtenir des exécutions reproductibles et plus faciles à tester. Comprend exemple minimal, étapes d'installation, dépannage et checklist de mise en production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-30-conductor-yaml-first-deterministic-orchestration-for-reproducible-multi-agent-ai-workflows.jpg",
+      "tags": [
+        "Conductor",
+        "orchestration",
+        "multi-agent",
+        "YAML",
+        "Jinja2",
+        "IA",
+        "open-source",
+        "devops"
+      ],
+      "sources": [
+        "https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-30-youtube-demo-reveals-browser-player-with-experimentflags-sandbox-before-adopting-for-agent-driven-automation",
       "title": "Démo YouTube montre un player navigateur avec EXPERIMENT_FLAGS — sandbox avant adoption pour automatisation pilotée par agents",

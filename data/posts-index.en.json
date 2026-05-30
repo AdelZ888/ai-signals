@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-05-30T10:18:55.984Z",
+  "generatedAt": "2026-05-30T16:12:33.832Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-05-30-conductor-yaml-first-deterministic-orchestration-for-reproducible-multi-agent-ai-workflows",
+      "title": "Conductor: YAML-first deterministic orchestration for reproducible multi-agent AI workflows",
+      "date": "2026-05-30",
+      "excerpt": "Learn how Conductor uses YAML and Jinja2 to make multi-agent AI workflows deterministic and reproducible, reducing latency and making routing, branching, and testing explicit.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-30-conductor-yaml-first-deterministic-orchestration-for-reproducible-multi-agent-ai-workflows.jpg",
+      "tags": [
+        "conductor",
+        "multi-agent-ai",
+        "deterministic-orchestration",
+        "YAML",
+        "Jinja2",
+        "CLI",
+        "open-source",
+        "GitHub"
+      ],
+      "sources": [
+        "https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-05-30-youtube-demo-reveals-browser-player-with-experimentflags-sandbox-before-adopting-for-agent-driven-automation",
       "title": "YouTube demo reveals browser player with EXPERIMENT_FLAGS — sandbox before adopting for agent-driven automation",
