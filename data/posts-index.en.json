@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T10:24:42.373Z",
+  "generatedAt": "2026-05-31T16:20:58.872Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 8
+    },
+    {
+      "slug": "2026-05-31-compress-macos-screenshots-and-copy-compressed-images-to-the-clipboard-for-ai-coding-uis",
+      "title": "Compress macOS screenshots and copy compressed images to the clipboard for AI coding UIs",
+      "date": "2026-05-31",
+      "excerpt": "How to use or build mgranados/screenshotter on macOS to compress screenshots and copy the result to the clipboard—reducing upload bytes and token costs when pasting into AI coding UIs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-31-compress-macos-screenshots-and-copy-compressed-images-to-the-clipboard-for-ai-coding-uis.jpg",
+      "tags": [
+        "macOS",
+        "screenshots",
+        "compression",
+        "clipboard",
+        "ai-agents",
+        "bandwidth",
+        "open-source",
+        "cost-savings"
+      ],
+      "sources": [
+        "https://github.com/mgranados/screenshotter"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 20,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-05-30-conductor-yaml-first-deterministic-orchestration-for-reproducible-multi-agent-ai-workflows",

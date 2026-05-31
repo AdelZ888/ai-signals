@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T10:24:42.375Z",
+  "generatedAt": "2026-05-31T16:20:58.874Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "series": "tooling-deep-dive",
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-05-31-compress-macos-screenshots-and-copy-compressed-images-to-the-clipboard-for-ai-coding-uis",
+      "title": "Compresser les captures d’écran macOS et copier l’image compressée dans le presse‑papier pour des UIs d’IA",
+      "date": "2026-05-31",
+      "excerpt": "Comment utiliser ou construire l’outil macOS mgranados/screenshotter pour compresser des captures d’écran et copier le résultat dans le presse‑papier — réduction des octets à transférer et des coûts liés aux tokens lors du collage dans des interfaces d’IA pour le code.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-05-31-compress-macos-screenshots-and-copy-compressed-images-to-the-clipboard-for-ai-coding-uis.jpg",
+      "tags": [
+        "macOS",
+        "images",
+        "automatisation",
+        "productivité",
+        "développeurs",
+        "open-source",
+        "presse-papiers",
+        "IA"
+      ],
+      "sources": [
+        "https://github.com/mgranados/screenshotter"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 20,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
