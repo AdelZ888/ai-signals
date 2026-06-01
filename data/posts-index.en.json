@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T14:05:24.303Z",
+  "generatedAt": "2026-06-01T20:09:35.784Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-01-prototype-vision-to-action-demos-using-nvidia-cosmos-3-omnimodal-world-model",
+      "title": "Prototype vision-to-action demos using NVIDIA Cosmos 3 omnimodal world model",
+      "date": "2026-06-01",
+      "excerpt": "How to run NVIDIA Cosmos 3 to prototype vision-to-action demos: give an image or short clip plus a prompt and get text reasoning or pixel-space robot trajectories. Includes code.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-01-prototype-vision-to-action-demos-using-nvidia-cosmos-3-omnimodal-world-model.jpg",
+      "tags": [
+        "cosmos3",
+        "omnimodal",
+        "world-models",
+        "multimodal",
+        "robotics",
+        "vision-language",
+        "NVIDIA",
+        "tutorial"
+      ],
+      "sources": [
+        "https://research.nvidia.com/labs/cosmos-lab/cosmos3/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-05-31-coinsignal-benchmark-accuracy-hit-rate-and-calibration-across-13-crypto-prediction-models",

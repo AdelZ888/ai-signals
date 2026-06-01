@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T14:05:24.306Z",
+  "generatedAt": "2026-06-01T20:09:35.786Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-01-prototype-vision-to-action-demos-using-nvidia-cosmos-3-omnimodal-world-model",
+      "title": "Prototyper des démos vision→action avec le modèle omnimodal NVIDIA Cosmos 3",
+      "date": "2026-06-01",
+      "excerpt": "Guide pratique (UK) pour exécuter Cosmos 3 : donner une image ou un court clip + un prompt, obtenir du raisonnement en texte ou des trajectoires en pixels pour robot. Inclut étapes d'installation, démos et conseils de sécurité.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-01-prototype-vision-to-action-demos-using-nvidia-cosmos-3-omnimodal-world-model.jpg",
+      "tags": [
+        "NVIDIA",
+        "Cosmos 3",
+        "omnimodal",
+        "vision",
+        "robotique",
+        "IA",
+        "prototype",
+        "UK"
+      ],
+      "sources": [
+        "https://research.nvidia.com/labs/cosmos-lab/cosmos3/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
