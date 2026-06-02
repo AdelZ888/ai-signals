@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-01T20:09:35.843Z",
+  "generatedAt": "2026-06-02T12:04:51.960Z",
   "items": [
+    {
+      "id": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
+      "title": "Rehumanizing global health care with agentic AI",
+      "link": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
+      "summary": "The global health care sector is under increasing strain. Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it’s getting worse.…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T11:23:34.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-06-02T12:04:51.932Z",
+      "file": "content/posts/2026-06-02-reducing-clerical-burden-with-agentic-ai-while-preserving-clinician-oversight.md",
+      "fileFr": "content/posts/fr/2026-06-02-reducing-clerical-burden-with-agentic-ai-while-preserving-clinician-oversight.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1282,
+      "wordsFr": 1056
+    },
     {
       "id": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/",
       "title": "Cosmos 3: Omnimodal World Models for Physical AI",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1614
     },
     {
-      "id": "https://arxiv.org/abs/2602.04101",
-      "title": "Interfaze: The Future of AI is built on Task-Specific Small Models",
-      "link": "https://arxiv.org/abs/2602.04101",
-      "summary": "arXiv:2602.04101v1 Announce Type: new \nAbstract: We present Interfaze, a system that treats modern LLM applications as a problem of building and acting over context, not just picking the right monolithic model. Instead of a single transformer, we combine (i) a stack of heterogene",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-06T05:00:00.000Z",
-      "score": 55.6,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-07T19:58:27.829Z",
-      "file": "content/posts/2026-02-06-prototyping-interfaze-building-a-multimodal-perception-context-construction-and-action-stack-for-task-specific-small-models.md",
-      "fileFr": "content/posts/fr/2026-02-06-prototyping-interfaze-building-a-multimodal-perception-context-construction-and-action-stack-for-task-specific-small-models.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1499,
-      "wordsFr": 1442
-    },
-    {
       "id": "https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/",
       "title": "AI agents might be able to identify anonymous online writers",
       "link": "https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/",
@@ -5650,6 +5650,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
+      "title": "Instagram AI chatbot tricked by hackers to give access to others' accounts",
+      "link": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Some reports have linked the incident to recent cases of high-profile Instagram accounts being hijacked.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T11:40:02.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://old.reddit.com/r/AIProgrammingHardware/comments/1tumela/comprehensive_2026_gpu_review_for_ai_inference/",
+      "title": "A 2026 GPU Review for AI Inference. Based on Online Soures",
+      "link": "https://old.reddit.com/r/AIProgrammingHardware/comments/1tumela/comprehensive_2026_gpu_review_for_ai_inference/",
+      "summary": "Article URL: https://old.reddit.com/r/AIProgrammingHardware/comments/1tumela/comprehensive_2026_gpu_review_for_ai_inference/ Comments URL: https://news.ycombinator.com/item?id=48368636 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T11:08:12.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
       "title": "New Study Reveals the Manipulative 'Dark Patterns' of AI Chatbots",
       "link": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
@@ -5974,18 +5998,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.08399",
-      "title": "CoCoDA: Co-evolving Compositional DAG for Tool-Augmented Agents",
-      "link": "https://arxiv.org/abs/2605.08399",
-      "summary": "arXiv:2605.08399v1 Announce Type: new Abstract: Tool-augmented language models can extend small language models with external executable skills, but scaling the tool library creates a coupled challenge: the library must evolve with the planner as new reusable subroutines emerge, while retrieval from the growing library must remain within a fixed context budget. Existing tool-use and skill-library methods typically treat tools as flat or text-indexed memories, causing prompt cost to grow with library size and obscuring the typed, compositional structure of executable code. We propose CoCoDA, a framework that co-evolves the planner and tool library through a single code-native structure: a compositional code DAG. Nodes are primitive or composite tools, edges encode invocation dependencies, and each node stores a typed signature, description, pre/post-condition specification, and worked examples. At inference time, Typed DAG Retrieval prunes candidates by symbolic signature unification, ranks survivors by descriptions, filters them by behavioral specifications, and disambiguates with examples, keeping expensive context materialization on progressively smaller candidate sets. At training time, successful trajectories are folded into validated composite tools, while the planner is updated with a DAG-induced reward that credits composites by their primitive expansion size. We provide",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "score": 138.78,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/barvhaim/llm-learning-path",
       "title": "Structured LLM Learning Path, from Zero to AI Researcher, 8-Phase Curriculum",
       "link": "https://github.com/barvhaim/llm-learning-path",
@@ -6055,18 +6067,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-28T04:00:00.000Z",
       "score": 136.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
-      "title": "Microsoft researchers find AI models and agents can't handle long-running tasks",
-      "link": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
-      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263 Comments URL: https://news.ycombinator.com/item?id=48105363 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-12T07:40:39.000Z",
-      "score": 134.27,
       "status": "queued"
     },
     {
@@ -6406,6 +6406,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.numerama.com/tech/2264839-il-fabrique-un-canon-laser-pilote-par-lia-pour-carboniser-les-moustiques-de-son-salon.html",
+      "title": "Il fabrique un canon laser piloté par l’IA pour carboniser les moustiques de son salon",
+      "link": "https://www.numerama.com/tech/2264839-il-fabrique-un-canon-laser-pilote-par-lia-pour-carboniser-les-moustiques-de-son-salon.html",
+      "summary": "Face au fléau des moustiques, un ingénieur a troqué la traditionnelle tapette contre un projet étonnant : une tourelle laser automatisée et guidée par une intelligence artificielle pour pulvériser les insectes en plein vol. Une arme digne de la science-fiction, mais bien réelle.",
+      "source": "Numerama IA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T10:40:23.000Z",
+      "score": 117.92,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.15215",
       "title": "SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces",
       "link": "https://arxiv.org/abs/2605.15215",
@@ -6427,6 +6439,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "score": 117.77,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.00240",
+      "title": "MindZero: Learning Online Mental Reasoning With Zero Annotations",
+      "link": "https://arxiv.org/abs/2606.00240",
+      "summary": "arXiv:2606.00240v1 Announce Type: new Abstract: Effective real-world assistance requires AI agents with robust Theory of Mind (ToM): inferring human mental states from their behavior. Despite recent advances, several key challenges remain, including (1) online inference with robust uncertainty updates over multiple hypotheses; (2) efficient reasoning suitable for real-time assistance; and (3) the lack of ground-truth mental state annotations in real-world domains. We address these challenges by introducing MindZero, a self-supervised reinforcement learning framework that trains multimodal large language models (MLLMs) for efficient and robust online mental reasoning. During training, the model is rewarded for generating mental state hypotheses that maximize the likelihood of observed actions estimated by a planner, similar to model-based ToM reasoning. This method thus eliminates the need for explicit mental state annotations. After training, MindZero internalizes model-based reasoning into fast single-pass inference. We evaluate MindZero against baselines across challenging mental reasoning and AI assistance tasks in gridworld and household domains. We found that LLMs alone are insufficient; model-based methods improve accuracy but are slow, costly, and limited by backbone MLLM capacity. In contrast, MindZero enhances MLLMs' intrinsic ToM ability and significantly outperforms",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "score": 117.09,
       "status": "queued"
     },
     {
@@ -6499,18 +6523,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-05-25T15:35:41.000Z",
       "score": 115.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08445",
-      "title": "Measuring What Matters: Benchmarking Generative, Multimodal, and Agentic AI in Healthcare",
-      "link": "https://arxiv.org/abs/2605.08445",
-      "summary": "arXiv:2605.08445v1 Announce Type: new Abstract: AI models are increasingly deployed in live clinical environments where they must perform reliably across complex, high-stakes workflows that standard training and validation datasets were never designed to capture. Evaluating these systems requires benchmarks: structured combinations of tasks, datasets, and metrics that enable reproducible, comparable measurement of what a model can do. The central challenge in healthcare AI is not performance alone, but the absence of systematic methods to measure reliability, safety, and clinical relevance under real-world conditions. Most existing benchmarks test what a model knows; too few test whether it can perform reliably and without failing across the full complexity of real clinical tasks. Current benchmarks have accumulated through ad hoc dataset construction optimized for narrow task performance: frontier models achieve near-perfect scores on medical licensing examinations, but when evaluated across real clinical tasks, performance degrades sharply, scoring 0.74--0.85 on documentation, 0.61--0.76 on clinical decision support, and only 0.53--0.63 on administrative and workflow tasks \\cite{medhelm}. High benchmark scores give a false sense of deployment readiness, and the gap between performance and utility widens precisely as AI systems take on more consequential clinical roles. Withou",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "score": 114.78,
       "status": "queued"
     },
     {
@@ -6778,30 +6790,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.08354",
-      "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
-      "link": "https://arxiv.org/abs/2605.08354",
-      "summary": "arXiv:2605.08354v1 Announce Type: new Abstract: Aligning multimodal generative models with human preferences demands reward signals that respect the compositional, multi-dimensional structure of human judgment. Prevailing RLHF approaches reduce this structure to scalar or pairwise labels, collapsing nuanced preferences into opaque parametric proxies and exposing vulnerabilities to reward hacking. While recent Rubrics-as-Reward (RaR) methods attempt to recover this structure through explicit criteria, generating rubrics that are simultaneously reliable, scalable, and data-efficient remains an open problem. We introduce Auto-Rubric as Reward (ARR), a framework that reframes reward modeling from implicit weight optimization to explicit, criteria-based decomposition. Before any pairwise comparison, ARR externalizes a VLM's internalized preference knowledge as prompt-specific rubrics, translating holistic intent into independently verifiable quality dimensions. This conversion of implicit preference structure into inspectable, interpretable constraints substantially suppresses evaluation biases including positional bias, enabling both zero-shot deployment and few-shot conditioning on minimal supervision. To extend these gains into generative training, we propose Rubric Policy Optimization (RPO), which distills ARR's structured multi-dimensional evaluation into a robust binary reward",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "score": 108.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.08409",
-      "title": "Playing games with knowledge: AI-Induced delusions need game theoretic interventions",
-      "link": "https://arxiv.org/abs/2605.08409",
-      "summary": "arXiv:2605.08409v1 Announce Type: new Abstract: Conversational AI has a fundamental flaw as a knowledge interface: sycophantic chatbots induce epistemic entrenchment and delusional belief spirals even in rational agents. We propose the problem does not stem from the AI model, rooted instead in a systemic consequence of the paradigm shift from user-driven knowledge search to users and agents engaged in strategic, repeated-play communication. We formalize the problem as a Crawford-Sobel cheap talk game, where costless user signals induce a pooling equilibrium. Agents optimized for user satisfaction produce sycophantic strategies that provide identical reinforcement across user types with opposite epistemic incentives: exploratory ``Growth-seekers'' ($\\theta_G$) and confirmatory ``Validation-seekers'' ($\\theta_V$). Under repeated play, this identification failure creates a coordination trap -- analogous to a Prisoner's Dilemma -- where locally rational feedback loops drive users toward pathologically certain false beliefs. We propose an inference-time mechanism design intervention called an Epistemic Mediator that breaks this pooling equilibrium by introducing a costly signal (epistemic friction), forcing type revelation based on users' asymmetric cognitive costs for processing resistance. A key contribution is Belief Versioning, a git-inspired epistemic meta-memory system that st",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "score": 108.78,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2605.20189",
       "title": "SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation",
       "link": "https://arxiv.org/abs/2605.20189",
@@ -7042,6 +7030,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.00103",
+      "title": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games",
+      "link": "https://arxiv.org/abs/2606.00103",
+      "summary": "arXiv:2606.00103v1 Announce Type: new Abstract: We introduce a multi-turn interactive framework for reasoning evaluation that treats reasoning as active evidence acquisition and belief updating. Wherein, LLMs receive only the task rules, must issue targeted queries to a hidden environment, integrate partial observations over time, and decide when to submit a final answer. Beyond standard success rate and interaction efficiency, we evaluate contextual robustness under controlled contextual perturbations, and metacognitive adaptation through counterfactual revision and necessity judgment. We instantiate the framework as a benchmark of 474 executable games, each evaluated under five fixed configuration search spaces corresponding to five difficulty levels, and evaluate a broad set of frontier LLMs. Results show that the benchmark is highly discriminative, exposing large differences not only in success rate but also in interaction efficiency. Moreover, we empirically show that contextual perturbations cause moderate but consistent declines, whereas counterfactual revision and necessity judgment lead to much larger drops.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "score": 99.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.00138",
+      "title": "A Multi-AI-agent Framework Enabling End-to-end Finite Element Analysis for Solid Mechanics Problems",
+      "link": "https://arxiv.org/abs/2606.00138",
+      "summary": "arXiv:2606.00138v1 Announce Type: new Abstract: Finite element analysis (FEA) is the most important numerical approach for solid mechanics. Challenges of FEA include a steep learning curve for entry-level users and potential false simulations due to incorrect definitions of key simulation components, such as boundary conditions, load cases, and solution variables. Years of engineering experience are usually necessary for real-world problem-solving. To address these issues, we present AbaqusAgent, a multi-agent framework grounded in large language models (LLMs) for solid mechanics analyses. AbaqusAgent is developed to facilitate analysis case generation and execution using Abaqus, one of the most widely used FEA packages, by turning users' natural-language instructions into executed FEA analyses and result visualization. AbaqusAgent is composed of six agents, including interpreter, architect, input writer, runner, reviewer, and visualizer agents, encompassing all the essential pre-processing and post-processing steps of standard FEA analyses. A wide variety of 50 solid mechanics problems have been successfully validated, achieving an overall success rate of 86%. Beyond improving the efficiency of FEA for solid mechanics problems and lowering the barrier to computational mechanics education, AbaqusAgent advances the human-simulation interaction paradigm and enables integration wi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "score": 99.09,
+      "status": "queued"
+    },
+    {
       "id": "https://autolang.vercel.app/docs/philosophy-vision",
       "title": "Show HN: A lightweight compiler for untrusted AI Agent scripts",
       "link": "https://autolang.vercel.app/docs/philosophy-vision",
@@ -7126,6 +7138,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.00017",
+      "title": "MindGames Arena Generalization Track: In2AI Solution with Delayed Per-Step Reward Attribution",
+      "link": "https://arxiv.org/abs/2606.00017",
+      "summary": "arXiv:2606.00017v1 Announce Type: new Abstract: Training language model agents for multi-agent strategic interaction presents a core difficulty: the quality of any action may depend on future events that never materialize, on moves that violate game rules, or on decisions made by other players. Standard reinforcement learning assumes that rewards can be assigned at each step, but this assumption fails in settings where outcomes are entangled across time and agents. We introduce delayed per-step reward attribution with eligibility gating, an episode lifecycle and postprocessing pipeline that computes rewards only at episode end, propagates them back to originating steps according to task-specific semantics, and excludes steps that lack valid dependent information from training. Together with asynchronous rollout generation via vLLM's continuous batching, curriculum-based opponent sampling, and multi-level stratified batch construction, this approach enables stable, sample-efficient RL training in multi-agent environments. We evaluate on the MindGames Arena benchmark at NeurIPS 2025, where a single 8-billion-parameter open-source model trained with our method matched or surpassed substantially larger proprietary systems, including GPT-5, in head-to-head play and took first place in both the Open (unrestricted) and Efficient (<=8B parameters) tracks.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "score": 93.09,
+      "status": "queued"
+    },
+    {
       "id": "https://tomtunguz.com/ai-model-inflation/",
       "title": "The Unsustainable AI Subsidy",
       "link": "https://tomtunguz.com/ai-model-inflation/",
@@ -7174,27 +7198,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.bbc.com/news/articles/cm2p3j6lvn7o?at_medium=RSS&at_campaign=rss",
-      "title": "UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI",
-      "link": "https://www.bbc.com/news/articles/cm2p3j6lvn7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Nine banks have been offered access to GPT 5.5 Cyber, as fierce rival Anthropic has blocked previews of its tool.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T17:07:20.000Z",
-      "score": 91.02,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.30785",
-      "title": "Learning Agent-Compatible Context Management for Long-Horizon Tasks",
-      "link": "https://arxiv.org/abs/2605.30785",
-      "summary": "arXiv:2605.30785v1 Announce Type: new Abstract: LLM agents increasingly face long-horizon tasks such as web search and deep research in real-world applications, where accumulated context can cause long-context degradation and reasoning failures. Prior work mitigates this through context management with agent-side context control or fixed strategies such as summarization, which require training the agent itself for adaptation - making it impractical for closed-source agents and ignoring that different agents may require different strategies. We introduce Adaptive Context Management (AdaCoM), which trains an external LLM to manage the context of a frozen agent through flexible modification actions and end-to-end reinforcement learning. Across diverse agents on web search and deep research benchmarks, AdaCoM substantially improves performance by preserving task constraints and progress while pruning stale content. The learned strategies reveal a Fidelity-Reliability Trade-off: agents with higher vanilla ReAct performance benefit from higher-fidelity context preservation, whereas lower-performing agents require more aggressive compression to stay within a reliable reasoning regime. Transfer experiments show that AdaCoM generalizes most effectively across agents with similar capability (measured by vanilla ReAct performance), suggesting a practical path toward reusable context manag",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "score": 90.7,
+      "id": "https://www.actuia.com/actualite/le-preprint-expgraph-propose-une-memoire-en-graphe-auto-evolutif-pour-agents-llm/",
+      "title": "Le préprint ExpGraph propose une mémoire en graphe auto-évolutif pour agents LLM",
+      "link": "https://www.actuia.com/actualite/le-preprint-expgraph-propose-une-memoire-en-graphe-auto-evolutif-pour-agents-llm/",
+      "summary": "Un préprint déposé sur arXiv le 29 mai 2026, baptisé ExpGraph, défend qu'un agent fondé sur un grand modèle de langage peut accumuler de l'exp&eac...",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-02T07:23:26.000Z",
+      "score": 92.32,
       "status": "queued"
     },
     {
@@ -8140,54 +8152,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-05-04T16:45:24.054Z",
       "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://reposit.bot/",
-      "title": "Reposit: Collective Intelligence for AI Agents",
-      "link": "https://reposit.bot/",
-      "summary": "Article URL: https://reposit.bot/ Comments URL: https://news.ycombinator.com/item?id=47753703 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-13T15:44:47.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-03T09:13:37.234Z",
-      "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://www.numerama.com/tech/2235401-au-fait-pourquoi-claude-sappelle-claude.html",
-      "title": "Au fait, pourquoi l’IA Claude d’Anthropic s’appelle Claude ?",
-      "link": "https://www.numerama.com/tech/2235401-au-fait-pourquoi-claude-sappelle-claude.html",
-      "summary": "Pourquoi le chatbot d'Anthropic porte-t-il un prénom complètement oublié par les Français ?",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-01T09:01:00.000Z",
-      "score": 168,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-03T09:13:37.234Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://www.theverge.com/tech/921210/microsoft-openai-partnership-divorce-notepad",
-      "title": "Here&#8217;s how the new Microsoft and OpenAI deal breaks down",
-      "link": "https://www.theverge.com/tech/921210/microsoft-openai-partnership-divorce-notepad",
-      "summary": "Microsoft's relationship with OpenAI has always been complicated, so I expected the close partnership-turned-situationship to end in tears. After all, executive disagreements, rearranged contracts, and frustrations over AI infrastructure have all regularly been part of the partnership, creating plenty of tension along the way. But against all odds, Microsoft and OpenAI divorced this week in a way that looks strangel…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-30T16:00:00.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-03T09:13:37.234Z",
-      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms."
     }
   ]
 }
