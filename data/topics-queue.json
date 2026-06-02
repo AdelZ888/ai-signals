@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-02T12:04:51.960Z",
+  "generatedAt": "2026-06-02T18:52:36.038Z",
   "items": [
+    {
+      "id": "https://github.com/a-streetcoder/agent-deck",
+      "title": "Agent Code – open-source Mac app for managing AI coding agents",
+      "link": "https://github.com/a-streetcoder/agent-deck",
+      "summary": "Article URL: https://github.com/a-streetcoder/agent-deck Comments URL: https://news.ycombinator.com/item?id=48361456 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-01T19:27:44.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-02T18:52:35.956Z",
+      "file": "content/posts/2026-06-02-agent-deck-on-macos-set-up-and-run-a-single-staging-agent-from-the-repository.md",
+      "fileFr": "content/posts/fr/2026-06-02-agent-deck-on-macos-set-up-and-run-a-single-staging-agent-from-the-repository.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1652,
+      "wordsFr": 1398
+    },
     {
       "id": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
       "title": "Rehumanizing global health care with agentic AI",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1444
     },
     {
-      "id": "https://arxiv.org/abs/2602.04003",
-      "title": "When AI Persuades: Adversarial Explanation Attacks on Human Trust in AI-Assisted Decision Making",
-      "link": "https://arxiv.org/abs/2602.04003",
-      "summary": "arXiv:2602.04003v1 Announce Type: new \nAbstract: Most adversarial threats in artificial intelligence target the computational behavior of models rather than the humans who rely on them. Yet modern AI systems increasingly operate within human decision loops, where users interpret",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 0,
-      "publishedAt": "2026-02-06T05:00:00.000Z",
-      "score": 45.6,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "ANALYSIS",
-      "publishedAtRun": "2026-02-07T20:01:44.770Z",
-      "file": "content/posts/2026-02-06-adversarial-explanation-attacks-how-llm-framing-preserves-user-trust-in-incorrect-outputs.md",
-      "fileFr": "content/posts/fr/2026-02-06-adversarial-explanation-attacks-how-llm-framing-preserves-user-trust-in-incorrect-outputs.md",
-      "generationMode": "llm",
-      "series": "founder-notes",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1428,
-      "wordsFr": 1614
-    },
-    {
-      "id": "https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/",
-      "title": "AI agents might be able to identify anonymous online writers",
-      "link": "https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/",
-      "summary": "Article URL: https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/ Comments URL: https://news.ycombinator.com/item?id=48110989 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-12T16:59:25.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.socialcrawl.dev/developers",
       "title": "AI agents that need real social context",
       "link": "https://www.socialcrawl.dev/developers",
@@ -5290,14 +5278,14 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/a-streetcoder/agent-deck",
-      "title": "Agent Code – open-source Mac app for managing AI coding agents",
-      "link": "https://github.com/a-streetcoder/agent-deck",
-      "summary": "Article URL: https://github.com/a-streetcoder/agent-deck Comments URL: https://news.ycombinator.com/item?id=48361456 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
+      "id": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "title": "Trump signs executive order to review AI models before they’re released",
+      "link": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "summary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this innovation with overly burdensome regulation,\" but that it also recognizes new AI capabilities come with security risks. Accordingly, it directs several federal agencies to come up with a framework to \"assess the advanced cyber capabilities of AI models\" before they're releas … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-06-01T19:27:44.000Z",
+      "publishedAt": "2026-06-02T18:33:42.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5386,6 +5374,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=48373593",
+      "title": "AI Goal: Senior Software Engineer",
+      "link": "https://news.ycombinator.com/item?id=48373593",
+      "summary": "Context: Working as a senior software engineer in one of the big techs. One of the goals for senior engineers in my organization is to identify and implement AI initiatives. I'm already familiar with and actively using MCPs, AI agents, plugins etc. While they've been useful, it feels like most people in my company are already working on this. I was curious whether your organization has built or adopted any AI powered tools, workflows, or use cases that have delivered meaningful business value and could potentially be adapted by other organizations as well. Comments URL: https://news.ycombinator.com/item?id=48373593 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-02T17:47:23.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/Abloatai/ablo",
       "title": "Context is essential for AI agents, but I think shared state is the next problem",
       "link": "https://github.com/Abloatai/ablo",
@@ -5407,18 +5407,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-29T17:10:07.000Z",
       "score": 158.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
-      "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
-      "link": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
-      "summary": "Article URL: https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/ Comments URL: https://news.ycombinator.com/item?id=48110529 Points: 63 # Comments: 44",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-12T16:29:21.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5674,6 +5662,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
+      "title": "Ubuntu 26.04 is the OS for the AI agentic era, says Canonical's Shuttleworth",
+      "link": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
+      "summary": "Article URL: https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/ Comments URL: https://news.ycombinator.com/item?id=48373674 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T17:52:43.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
       "title": "New Study Reveals the Manipulative 'Dark Patterns' of AI Chatbots",
       "link": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
@@ -5683,6 +5683,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-05-29T17:11:26.000Z",
       "score": 154.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+      "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
+      "link": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+      "summary": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge concept. The desk concept is an Amazon Echo Show-like device that unlocks with facial recognition and provides access to AI agents. The badge concept is a wearable, the type of badge you'd typically use to access a work building. It has a camera and a fingerprint scanner, which can wake an AI agent wi … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-02T17:31:02.000Z",
+      "score": 154.47,
       "status": "queued"
     },
     {
@@ -5743,18 +5755,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-05-17T14:56:19.000Z",
       "score": 150.7,
-      "status": "queued"
-    },
-    {
-      "id": "https://ittech-pulse.com/news/grego-ai-prevents-27-7million-attack-with-ai-reasoning-breakthrough/",
-      "title": "AI Startup Prevents $27.7M Attack",
-      "link": "https://ittech-pulse.com/news/grego-ai-prevents-27-7million-attack-with-ai-reasoning-breakthrough/",
-      "summary": "Article URL: https://ittech-pulse.com/news/grego-ai-prevents-27-7million-attack-with-ai-reasoning-breakthrough/ Comments URL: https://news.ycombinator.com/item?id=48110838 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-12T16:49:06.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -5862,6 +5862,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-01T18:59:11.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
+      "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
+      "link": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
+      "summary": "Much like Google, Microsoft is launching its own version of OpenClaw. Microsoft Scout is an always-on assistant that integrates into Microsoft 365 apps like Outlook, OneDrive, and Microsoft Teams, allowing businesses to assign a virtual assistant to employees to help with organizing calendars, expense reporting, email drafts, and much more. Unlike Copilot that lives inside Microsoft 365 apps, Microsoft Scout can see and do a lot more. \"This is a personal assistant, it's the first real personal assistant we've offered customers,\" explains Omar Shahine, corporate vice president of Microsoft Scout, in an interview with The Verge. \"I think it's … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T18:00:00.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html",
+      "title": "Microsoft Announces AI Autopilot",
+      "link": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html",
+      "summary": "Article URL: https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html Comments URL: https://news.ycombinator.com/item?id=48374079 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T18:19:27.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -5986,6 +6010,18 @@
       "status": "queued"
     },
     {
+      "id": "https://metabrain.eu",
+      "title": "Show HN: MetaBrain – A local document memory for AI agents",
+      "link": "https://metabrain.eu",
+      "summary": "Hello there HN I experimented with agentic coding recently and I felt the need to track more contextual data by project. Also I felt the need to be able to go beyond the 1D chat to communicate with agents. So I created a local document memory, that is discoverable by agents themselves. The CLI is designed to be easy to pick up by agents. It allows humans to collaborate too by reading / searching / editing documents in the store. I have a Mac native GUI in the review process, I hope it will show up in the App Store soon. You can try it easily, instructions here: https://metabrain.eu/ Here is the GitHub https://github.com/OpenCow42/metaBrain The project is also an experiment for me to build some swift project truly cross platform (Mac / Linux / Windows) It is open-sourced with the same license as LevelDB that I wrapped in swift to do this project. The agents (and humans) can retrieve content quickly with a search, allowing to re-injecting specific knowledge in a specific context during agentic work. It’s funny, I’ve thought of \"inference rule base\" as something of a derelict idea of the old functional expert systems. Now that I start working with agents I feel more and more the need to go pick previously working solutions dynamically in such a base. I’d be happy to get feedback. Product fit wise, would this be useful to you or is this just me who is happy with it ? Finally I had",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-02T17:03:09.000Z",
+      "score": 141.38,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=48169029",
       "title": "Show HN: Gonfire – Assess how candidates think and steer AI coding agents",
       "link": "https://news.ycombinator.com/item?id=48169029",
@@ -6019,6 +6055,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-05-29T10:08:52.000Z",
       "score": 138.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/",
+      "title": "Microsoft launches Project Solara, device platform for AI",
+      "link": "https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/",
+      "summary": "Article URL: https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/ Comments URL: https://news.ycombinator.com/item?id=48373217 Points: 8 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-02T17:23:08.000Z",
+      "score": 137.32,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/gtamir02-png/cve-ai-agent/blob/main/README.md",
+      "title": "AI Vulnerability Intelligence Agent Converts CVEs to Actionable Security Reports",
+      "link": "https://github.com/gtamir02-png/cve-ai-agent/blob/main/README.md",
+      "summary": "Article URL: https://github.com/gtamir02-png/cve-ai-agent/blob/main/README.md Comments URL: https://news.ycombinator.com/item?id=48373280 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T17:27:11.000Z",
+      "score": 136.72,
       "status": "queued"
     },
     {
@@ -6211,6 +6271,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-01T18:33:14.000Z",
       "score": 124.33,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
+      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
+      "link": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
+      "summary": "Microsoft’s annual developer conference is kicking off on June 2nd in San Francisco with the keynote presentation streaming live at 12:30PM ET / 9:30AM PT, and we will be following along here with everything as it’s announced. The Verge’s Tom Warren reports that we can expect to hear about new AI models and agentic OpenClaw-like tools, plus a Copilot “super app” to go along with some of the major changes to Windows 11 that have already started appearing. Microsoft just announced the new Surface Laptop Ultra, powered by Nvidia’s RTX Spark, so there could be more Windows on ARM news in store. Follow along here for the latest news and updates. Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing Microsoft Scout is a new AI personal assistant built on OpenClaw Microsoft launches its Command Line blog during Build 2026. Microsoft makes it more secure to run OpenClaw on Windows. Microsoft’s Project Solara is an OS for AI agent gadgets Microsoft’s AI agent OS: Project Solara. Nvidia’s CEO dials into Build. The new Surface mini PC is here. Build kicks off with Windows. Microsoft created the mini Surface dev box that Qualcomm couldn’t Microsoft’s new developer-optimized Windows embraces Linux even more Microsoft’s first advanced reasoning AI is here Microsoft Build 2026 is about to begin. How to watch Microsoft’s Build 2026 conference Microsoft to unveil new AI mo",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-02T15:59:58.000Z",
+      "score": 123.37,
       "status": "queued"
     },
     {
@@ -6475,6 +6547,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-05-25T15:36:46.000Z",
       "score": 116.22,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theregister.com/ai-and-ml/2026/06/02/intel-and-pals-cram-36864-cpu-cores-into-a-100kw-rack-while-chasing-the-agentic-ai-dragon/5249917",
+      "title": "Intel and pals cram 36,864 CPU cores into a 100kW rack while chasing AI dragon",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/02/intel-and-pals-cram-36864-cpu-cores-into-a-100kw-rack-while-chasing-the-agentic-ai-dragon/5249917",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/06/02/intel-and-pals-cram-36864-cpu-cores-into-a-100kw-rack-while-chasing-the-agentic-ai-dragon/5249917 Comments URL: https://news.ycombinator.com/item?id=48373129 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-02T17:14:39.000Z",
+      "score": 115.7,
       "status": "queued"
     },
     {
@@ -7114,100 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.27570",
-      "title": "LaneRoPE: Positional Encoding for Collaborative Parallel Reasoning and Generation",
-      "link": "https://arxiv.org/abs/2605.27570",
-      "summary": "arXiv:2605.27570v1 Announce Type: new Abstract: Parallel LLM test-time scaling techniques (e.g., best-of-$N$) require drawing $N>1$ sequences conditioned on the same input prompt. These methods boost accuracy while exploiting the computational efficiency of batching $N$ generations. However, each sequence in the batch is traditionally generated independently and hence does not reuse intermediate generations, computations, or observations from other sequences. In this paper, we propose LaneRoPE to enable coordination and collaboration among $N>1$ sequences at generation time. LaneRoPE involves two key ideas: (a) an inter-sequence attention mask to make sampling of sequences dependent on one another; and (b) a RoPE extension that injects positional information that captures relative positions between tokens, both within and outside a particular sequence. We evaluate our approach on mathematical reasoning tasks and find promising results: LaneRoPE enables collaboration among sequences, yielding additional accuracy gains under limited generated sequence length. Importantly, since LaneRoPE enables coordination with minimal changes to the underlying LLM architecture and introduces a negligible overhead at inference time, it is appealing to rapidly incorporate parallel reasoning into existing LLM inference pipelines.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
+      "id": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+      "title": "Microsoft’s first advanced reasoning AI is here",
+      "link": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+      "summary": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According to Microsoft, MAI-Thinking-1 is a \"medium-sized model\" tha…",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 6,
-      "publishedAt": "2026-05-28T04:00:00.000Z",
-      "score": 94.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.23074",
-      "title": "PathCal: State-Aware Reflection-Marker Calibration for Efficient Reasoning",
-      "link": "https://arxiv.org/abs/2605.23074",
-      "summary": "arXiv:2605.23074v1 Announce Type: new Abstract: The emergence of Large Reasoning Language Models (LRMs) has paved the way for tackling complex reasoning tasks through test-time scaling by generating long-form Chain-of-Thought (CoT) trajectories during inference. Meanwhile, these trajectories often contain explicit reflection markers such as ``wait'', ``but'', and ``alternatively'', signaling hesitation, revision, and the consideration of alternative explorations, respectively. Recent studies on test-time control leverage such markers as lightweight handles for steering reasoning, typically treating them as a single coarse-grained category rather than distinguishing their distinct functional roles. In this paper, we conduct type-wise suppression and fixed-prefix intervention, revealing that reflection markers differ not only in their functional roles but also in when they exert the greatest influence. Specifically, different marker classes affect accuracy and generation length in distinct ways, and marker choices are most consequential before the model settles into a stable reasoning trajectory. Motivated by these findings, we introduce PathCal, a novel training-free decoding controller that calibrates reasoning paths by distinguishing marker types and intervening only at locally uncertain states. At each decoding step, PathCal utilizes the distribution over reflection-markers t",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-25T04:00:00.000Z",
-      "score": 93.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.00017",
-      "title": "MindGames Arena Generalization Track: In2AI Solution with Delayed Per-Step Reward Attribution",
-      "link": "https://arxiv.org/abs/2606.00017",
-      "summary": "arXiv:2606.00017v1 Announce Type: new Abstract: Training language model agents for multi-agent strategic interaction presents a core difficulty: the quality of any action may depend on future events that never materialize, on moves that violate game rules, or on decisions made by other players. Standard reinforcement learning assumes that rewards can be assigned at each step, but this assumption fails in settings where outcomes are entangled across time and agents. We introduce delayed per-step reward attribution with eligibility gating, an episode lifecycle and postprocessing pipeline that computes rewards only at episode end, propagates them back to originating steps according to task-specific semantics, and excludes steps that lack valid dependent information from training. Together with asynchronous rollout generation via vLLM's continuous batching, curriculum-based opponent sampling, and multi-level stratified batch construction, this approach enables stable, sample-efficient RL training in multi-agent environments. We evaluate on the MindGames Arena benchmark at NeurIPS 2025, where a single 8-billion-parameter open-source model trained with our method matched or surpassed substantially larger proprietary systems, including GPT-5, in head-to-head play and took first place in both the Open (unrestricted) and Efficient (<=8B parameters) tracks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "score": 93.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://tomtunguz.com/ai-model-inflation/",
-      "title": "The Unsustainable AI Subsidy",
-      "link": "https://tomtunguz.com/ai-model-inflation/",
-      "summary": "Article URL: https://tomtunguz.com/ai-model-inflation/ Comments URL: https://news.ycombinator.com/item?id=48325259 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-29T16:17:13.000Z",
-      "score": 92.7,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.23926",
-      "title": "How Much Thinking is Enough? Quantifying and Understanding Redundancy in LLM Reasoning",
-      "link": "https://arxiv.org/abs/2605.23926",
-      "summary": "arXiv:2605.23926v1 Announce Type: new Abstract: Reasoning-capable large language models solve hard problems by emitting long chains of thought, paying heavily in latency, GPU time, and energy. Casual inspection of their traces reveals extensive reformulation, verification, and circular self-reflection, yet how much of this deliberation is actually necessary has never been measured at scale or explained from first principles. This paper closes both gaps. We formalise reasoning redundancy directly in terms of the reasoning model itself: the redundancy of a correct trace is the largest fraction of its trailing segmented steps that can be truncated while $\\pi$, forced to terminate thinking and emit a final answer, still produces the correct answer. A large-scale quantification across four frontier reasoning models and two mathematical benchmarks shows that step-level redundancy is consistently high -- between 61% and 93% across the 8 (model, benchmark) conditions we study, with the median critical prefix equal to a single segmented step in six of the eight conditions -- that the finding is robust to the choice of judge family, and that although $\\rho$ decreases with problem difficulty on MATH-500, all four models remain substantially redundant ($\\rho \\in [46\\%, 85\\%]$) even on the hardest Level-5 problems. We then prove that this redundancy is a structural consequence of length-agn",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "score": 92.62,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.23939",
-      "title": "DRIVE: Modeling Skills at the Reasoning and Interaction Levels for Web Agents under Continual Learning",
-      "link": "https://arxiv.org/abs/2605.23939",
-      "summary": "arXiv:2605.23939v1 Announce Type: new Abstract: Web agents require both high-level reasoning (for task decomposition) and low-level interactions (for page elements manipulation) to conduct different tasks. However, these knowledge types differ fundamentally: reasoning knowledge (e.g., booking a flight requires first searching for routes) is abstract and transferable across websites, while interaction knowledge (e.g., clicking the Search button at a specific coordinate on Site A) depends heavily on page-specific contexts. Existing methods store experiences uniformly. This creates a dilemma: abstract representations lose executability on concrete pages, while concrete representations fail to generalize across domains. This entanglement limits capability accumulation: on new websites, agents either fail to recognize reusable task logic due to surface-level differences or attempt infeasible actions from outdated page structures. To disentangle them, we propose DRIVE, a dual-level skill modeling framework separating historical experience into natural language reasoning skills, which capture transferable task logic, and programmatic interaction skills, grounding abstract actions to executable operations. A scene-aware coordination mechanism adaptively retrieves and invokes these dual-level skills based on task semantics. DRIVE also uses skill-level reflection to identify hierarchy-sp",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "score": 92.62,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.23941",
-      "title": "MEMOR-E: In-Context and Fine-Tuned LLM Personalization for Alzheimer's Assistive Robotics",
-      "link": "https://arxiv.org/abs/2605.23941",
-      "summary": "arXiv:2605.23941v1 Announce Type: new Abstract: Alzheimer's disease is a neurodegenerative disorder marked by progressive declines in memory and language that reduce independence in daily life, motivating socially assistive robotic support. This paper presents MEMOR-E, a mobile quadruped robot with an interactive tablet interface that assists patients and caregivers through medication reminders, routine guidance, memory oriented interactions, and companionship. We evaluated the feasibility of fine tuning large language models (LLMs) to emulate stage consistent cognitive behavior and interpret responses across standard neuropsychological language tasks, using audio transcriptions from 235 Alzheimer's patients and synthetically generated healthy controls. We also report findings on using in context learning (ICL) in LLMs, where a second LLM produced domain and severity level cognitive error summaries. Our results show that MEMOR-E can generate stage aware, non diagnostic cognitive summaries that support personalized assistive interactions, while explainable AI mechanisms translate model outputs into transparent, human readable evidence to enable caregiver oversight and trustworthy human robot interaction.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "score": 92.62,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/le-preprint-expgraph-propose-une-memoire-en-graphe-auto-evolutif-pour-agents-llm/",
-      "title": "Le préprint ExpGraph propose une mémoire en graphe auto-évolutif pour agents LLM",
-      "link": "https://www.actuia.com/actualite/le-preprint-expgraph-propose-une-memoire-en-graphe-auto-evolutif-pour-agents-llm/",
-      "summary": "Un préprint déposé sur arXiv le 29 mai 2026, baptisé ExpGraph, défend qu'un agent fondé sur un grand modèle de langage peut accumuler de l'exp&eac...",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-02T07:23:26.000Z",
-      "score": 92.32,
-      "status": "queued"
+      "publishedAt": "2026-06-02T18:12:44.000Z",
+      "score": 204,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-02T18:38:41.788Z",
+      "failureReason": "validation issues: FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect",

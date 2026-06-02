@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-02T12:04:51.949Z",
+  "generatedAt": "2026-06-02T18:52:35.974Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-02-agent-deck-on-macos-set-up-and-run-a-single-staging-agent-from-the-repository",
+      "title": "Agent Deck sur macOS : configurer et lancer un agent de staging depuis le dépôt",
+      "date": "2026-06-02",
+      "excerpt": "Guide ciblé Mac (contexte UK) pour cloner a-streetcoder/agent-deck et exécuter un agent de staging unique (suggestions de labels pour issues). Inclut contrôles de sécurité, gestion des secrets, estimation de temps et plan pilote de 7 jours.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-02-agent-deck-on-macos-set-up-and-run-a-single-staging-agent-from-the-repository.jpg",
+      "tags": [
+        "agent-deck",
+        "agents",
+        "macOS",
+        "staging",
+        "IA",
+        "automatisation",
+        "guide",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/a-streetcoder/agent-deck"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-02-reducing-clerical-burden-with-agentic-ai-while-preserving-clinician-oversight",
       "title": "Réduire la charge administrative avec des agents IA tout en gardant la supervision clinique",
