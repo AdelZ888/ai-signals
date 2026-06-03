@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-03T12:36:24.810Z",
+  "generatedAt": "2026-06-03T18:55:17.036Z",
   "items": [
+    {
+      "id": "https://www.cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline",
+      "title": "What to build before the EU AI Act deadline",
+      "link": "https://www.cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline",
+      "summary": "Article URL: https://www.cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline Comments URL: https://news.ycombinator.com/item?id=48356180 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-01T12:53:17.000Z",
+      "score": 162,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-03T18:55:16.955Z",
+      "file": "content/posts/2026-06-03-per-instance-identity-chain-of-custody-audit-and-toolgating-to-align-ai-agents-with-the-eu-ai-act.md",
+      "fileFr": "content/posts/fr/2026-06-03-per-instance-identity-chain-of-custody-audit-and-toolgating-to-align-ai-agents-with-the-eu-ai-act.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 480,
+      "wordsEn": 1720,
+      "wordsFr": 1365
+    },
     {
       "id": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
       "title": "Trump signs executive order to review AI models before they’re released",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1430
     },
     {
-      "id": "https://www.theverge.com/transportation/874771/waymo-world-model-simulation-google-deepmind-genie-3",
-      "title": "What happens when Waymo runs into a tornado? Or an elephant?",
-      "link": "https://www.theverge.com/transportation/874771/waymo-world-model-simulation-google-deepmind-genie-3",
-      "summary": "An autonomous vehicle drives down a lonely stretch of highway. Suddenly, a massive tornado appears in the distance. What does the driverless vehicle do next? This is just one of the scenarios that Waymo can simulate in the \"hyper realistic\" virtual world that it has just created with help from Google's DeepMind. Waymo's World Model is built using Genie 3, Google's new AI world model that can generate virtual interac…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-02-06T16:00:00.000Z",
-      "score": 40.56,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-07T20:11:38.689Z",
-      "file": "content/posts/2026-02-06-waymo-uses-googles-genie-world-model-to-simulate-tornadoes-and-wildlife-for-edge-case-autonomous-vehicle-testing.md",
-      "fileFr": "content/posts/fr/2026-02-06-waymo-uses-googles-genie-world-model-to-simulate-tornadoes-and-wildlife-for-edge-case-autonomous-vehicle-testing.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1489,
-      "wordsFr": 1334
+      "id": "https://news.ycombinator.com/item?id=48387448",
+      "title": "Show HN: CTP Room – a shared chat room where your AI coding agents coordinate",
+      "link": "https://news.ycombinator.com/item?id=48387448",
+      "summary": "Hi HN. I honestyle DO NOT like one on one sessions with my claude/codex when working with my team. So I built something that connects us and our agents in the same room. CTP Room is my attempt at a coordination/co-work layer, one shared chat room (think Slack channel) where humans and several agents work together ( I took Garry Tans gstack and formed my own team around it when I work solo ). What it does: - Routes each message to the right agent instead of broadcasting (For this case, a cheap Haiku router picks one). - File claims: an agent claims a file before editing; another is told who holds it instead of clobbering it. - Persistent team memory: who did what, decisions + rationale, so context survives sessions. - Bring your own agent over MCP (Claude Code, Codex, Cursor, OpenCode) or any program over HTTP. Multi-vendor on purpose. - Presence + activity feed come from deterministic hooks at zero tokens; the expensive model is only spent on real work. Happy to go deeper on this subject, I think I will open source it soon, wondering what you think about this? Comments URL: https://news.ycombinator.com/item?id=48387448 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-03T18:02:07.000Z",
+      "score": 198,
+      "status": "queued"
     },
     {
       "id": "https://blog.fidelramos.net/software/how-i-sandbox-ai-agents",
@@ -5266,6 +5278,18 @@
       "status": "queued"
     },
     {
+      "id": "https://project-argus.ai",
+      "title": "Argus – a wearable control surface for AI agents",
+      "link": "https://project-argus.ai",
+      "summary": "Article URL: https://project-argus.ai Comments URL: https://news.ycombinator.com/item?id=48387242 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-03T17:49:49.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
       "title": "What Sudoku Reveals About AI Reasoning Architectures and the Future",
       "link": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
@@ -5314,18 +5338,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline",
-      "title": "What to build before the EU AI Act deadline",
-      "link": "https://www.cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline",
-      "summary": "Article URL: https://www.cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline Comments URL: https://news.ycombinator.com/item?id=48356180 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T12:53:17.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://www.scribeitlocal.com/meeting-transcripts-for-ai-agents.html",
       "title": "Most enterprise AI projects have the training data they need",
       "link": "https://www.scribeitlocal.com/meeting-transcripts-for-ai-agents.html",
@@ -5358,6 +5370,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-06-02T17:47:23.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
+      "title": "As AI gets better, it reveals an empty promise",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
+      "summary": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters. Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of them explicitly provided this information to Google. But what's scary to me is how all of this stuff seems geared toward a future of \"productivity\" that completely misses what needs to be fixed in our world. \"Productivity\" is often pitched as a panacea for what befalls us in our personal lives, even going so far as to implicate our moral worthiness … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-03T17:45:35.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -5734,6 +5758,18 @@
       "status": "queued"
     },
     {
+      "id": "https://neurometric.substack.com/p/lean-inference-workflows-applying",
+      "title": "Lean Inference: Lean Manufacturing Principles Applied to AI",
+      "link": "https://neurometric.substack.com/p/lean-inference-workflows-applying",
+      "summary": "Article URL: https://neurometric.substack.com/p/lean-inference-workflows-applying Comments URL: https://news.ycombinator.com/item?id=48387109 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-03T17:41:08.000Z",
+      "score": 152.35,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.12620",
       "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
       "link": "https://arxiv.org/abs/2605.12620",
@@ -5898,6 +5934,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-03T11:42:58.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/frontier-safety-blueprint/",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "link": "https://openai.com/index/frontier-safety-blueprint/",
+      "summary": "Article URL: https://openai.com/index/frontier-safety-blueprint/ Comments URL: https://news.ycombinator.com/item?id=48387246 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-03T17:50:05.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -6106,6 +6154,18 @@
       "status": "queued"
     },
     {
+      "id": "https://microsoft.ai/models/",
+      "title": "Microsoft unveils new AI models",
+      "link": "https://microsoft.ai/models/",
+      "summary": "Article URL: https://microsoft.ai/models/ Comments URL: https://news.ycombinator.com/item?id=48386773 Points: 6 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-03T17:15:41.000Z",
+      "score": 136.44,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.29068",
       "title": "Robust and Efficient Guardrails with Latent Reasoning",
       "link": "https://arxiv.org/abs/2605.29068",
@@ -6139,6 +6199,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-28T04:00:00.000Z",
       "score": 136.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/eunomia-bpf/agentsight",
+      "title": "AgentSight: System-wide AI agent tracing and monitoring with eBPF",
+      "link": "https://github.com/eunomia-bpf/agentsight",
+      "summary": "Article URL: https://github.com/eunomia-bpf/agentsight Comments URL: https://news.ycombinator.com/item?id=48386737 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-03T17:13:19.000Z",
+      "score": 134.27,
       "status": "queued"
     },
     {
@@ -6187,6 +6259,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-05-28T04:00:00.000Z",
       "score": 130.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://thehiveryiq.com/trust/",
+      "title": "Show HN: Hive Trust – Ed25519-signed benchmarks for every AI inference primitive",
+      "link": "https://thehiveryiq.com/trust/",
+      "summary": "Article URL: https://thehiveryiq.com/trust/ Comments URL: https://news.ycombinator.com/item?id=48386661 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-03T17:08:12.000Z",
+      "score": 129.94,
       "status": "queued"
     },
     {
@@ -6391,6 +6475,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-03T04:00:00.000Z",
       "score": 122.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "title": "Microsoft and OpenAI broke up — now they’re ready to fight",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "summary": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it's finally acting like it. For years, Microsoft's AI business leaned hard on its early and exclusive partnership with OpenAI. But the drama-filled marriage slowly devolved into a situationship, and the pair effectively separated in late April (though Microsoft is still OpenAI's primary cloud partner - for now). This … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-03T14:04:00.000Z",
+      "score": 121.81,
       "status": "queued"
     },
     {
@@ -6970,18 +7066,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.numerama.com/tech/2252897-halupedia-ce-site-est-un-wikipedia-avec-100-dhallucinations-ia.html",
-      "title": "« Halupédia » : ce site est un Wikipédia avec 100 % d’hallucinations IA",
-      "link": "https://www.numerama.com/tech/2252897-halupedia-ce-site-est-un-wikipedia-avec-100-dhallucinations-ia.html",
-      "summary": "Et si Wikipédia était entièrement alimenté par des hallucinations d’IA ? C’est précisément le concept d’Halupédia, une encyclopédie open source où chaque article est généré à la volée par un modèle d’intelligence artificielle.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-13T15:49:22.000Z",
-      "score": 107.07,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theparliamentmagazine.eu/news/article/anthropic-shuts-the-eu-out-of-its-most-advanced-cyber-ai-model",
       "title": "Anthropic shuts the EU out of its most advanced cyber AI model",
       "link": "https://www.theparliamentmagazine.eu/news/article/anthropic-shuts-the-eu-out-of-its-most-advanced-cyber-ai-model",
@@ -7114,100 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.20618",
-      "title": "COAgents: Multi-Agent Framework to Learn and Navigate Routing Problems Search Space",
-      "link": "https://arxiv.org/abs/2605.20618",
-      "summary": "arXiv:2605.20618v1 Announce Type: new Abstract: Although Vehicle Routing Problems (VRP) are essential to many real-world systems, they remain computationally intractable at scale due to their combinatorial complexity. Traditional heuristics rely on handcrafted rules for local improvements and occasional \\textit{jumps} to escape local minima, but often struggle to generalize across diverse instances. We introduce \\textbf{COAgents}, a cooperative multi-agent framework that models the search process as a graph: nodes represent solutions, and edges correspond to either local refinements or large perturbations for diversification (i.e., jumps). A \\textit{Partial Search Graph} (PSG) is dynamically constructed during search, enabling COAgents to train a Node Selection Agent and a Move Selection Agent to guide intensification, and a Jump Agent to trigger well-timed explorations of new regions. Unlike end-to-end learning approaches, COAgents cleanly separates problem-agnostic search control from compact domain-specific encoding, facilitating adaptability across tasks. Extensive experiments on the CVRP and VRPTW benchmarks show that COAgents remains competitive with several learn-to-search baselines on CVRP and sets a new state of the art among learning-based methods on the more challenging VRPTW instances, reducing the gap to the best-known solutions by 14\\% at $N\\!=\\!100$ and 44\\% at $",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "score": 101.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.20758",
-      "title": "Conflict-Aware Additive Guidance for Flow Models under Compositional Rewards",
-      "link": "https://arxiv.org/abs/2605.20758",
-      "summary": "arXiv:2605.20758v1 Announce Type: new Abstract: Inference-time guided sampling steers state-of-the-art diffusion and flow models without fine-tuning by interpreting the generation process as a controllable trajectory. This provides a simple and flexible way to inject external constraints (e.g., cost functions or pre-trained verifiers) for controlled generation. However, existing methods often fail when composing multiple constraints simultaneously, which leads to deviations from the true data manifold. In this work, we identify root causes of this off-manifold drift and find that the approximation error scales severely with gradient misalignment. Building on these findings, we propose Conflict-Aware Additive Guidance ($g^\\text{car}$), a lightweight and learnable method, which actively rectifies off-manifold drift by dynamically detecting and resolving gradient conflicts. We validate $g^\\text{car}$ across diverse domains, ranging from synthetic datasets and image editing to generative decision-making for planning and control. Our results demonstrate that $g^\\text{car}$ effectively rectifies off-manifold drift, surpassing baselines in generation fidelity while using light compute. Code is available at https://github.com/yuxuehui/CAR-guidance.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "score": 101.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
-      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model Comments URL: https://news.ycombinator.com/item?id=48257410 Points: 43 # Comments: 42",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-24T14:09:33.000Z",
-      "score": 100.7,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.28897",
-      "title": "Review Arcade: On the Human Alignment and Gameability of LLM Reviews",
-      "link": "https://arxiv.org/abs/2605.28897",
-      "summary": "arXiv:2605.28897v1 Announce Type: new Abstract: LLM-generated reviews for scientific papers are gaining considerable traction and are even being officially piloted by major conferences. We have to assume that not only reviewers are using LLM-assistance, but also that authors use LLMs to revise their papers before submitting. In this work, we perform empirical experiments on papers from the 2025 ACL Rolling Review (ARR) to evaluate LLM reviews from both the author and the reviewer perspective. First, we identify a limited alignment of LLM reviews with human ones. In the best-case scenario, the alignment is reasonable. However, we also find that LLM-human alignment varies substantially across prompts and models. Finally, we investigate the scenario in which the author uses an iterative draft-revise workflow to improve the submission according to the LLM review. We find that this \"gaming\" of LLM reviews can be effective in specific scenarios, leading to a statistically significant increase of overall scores for up to 35\\% of papers. We publish our code: https://github.com/uhh-hcds/reviewarcade.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-29T04:00:00.000Z",
-      "score": 100.39,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.29055",
-      "title": "Hallucination Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",
-      "link": "https://arxiv.org/abs/2605.29055",
-      "summary": "arXiv:2605.29055v1 Announce Type: new Abstract: Hallucination remains a major reliability barrier for production LLM systems, particularly in multi-agent pipelines where unsupported claims can propagate unchecked across stages. This paper adapts a HOPE-inspired Nested Learning architecture with Continuum Memory Systems (CMS) and semantic similarity caching to a hybrid benchmark of 310 prompts combining 217 epistemic-uncertainty prompts and 93 fabrication-induction stress-test prompts. A three-stage agentic pipeline orchestrated via the Open Floor Protocol (OFP) is evaluated with five KPIs -- FCD (Factual Claim Density), FGR (Factual Grounding References), FDF (Fictional Disclaimer Frequency), ECS (Explicit Contextualization Score), and OSR (Observability Score Ratio) -- aggregated into THS (Total Hallucination Score) across five weighting configurations to study mitigation-observability trade-offs. FDF, ECS, OSR, and FGR are subtracted as mitigation signals, so that a more negative THS indicates stronger mitigation. The FrontEndAgent is configured as a high-stochasticity generator (temperature = 1.0) to produce a realistic hallucination baseline, while the SecondLevelReviewer and ThirdLevelReviewer operate as progressive correctors. This asymmetric design yields end-to-end THS reductions of -31.3% to -35.9% across five weighting configurations. Semantic caching achieves 440 cac",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-29T04:00:00.000Z",
-      "score": 100.39,
-      "status": "queued"
-    },
-    {
-      "id": "https://theincidentchallenge.com/",
-      "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-      "link": "https://theincidentchallenge.com/",
-      "summary": "Hi all, I'm sure some of the best engineers out here are having a hard time standing out nowadays. It's hard to evaluate and improve your skills, when AI is writing the code. Especially when a junior dev is sitting by your side and \"accomplishing\" 2x more than you. I didn't like this reality where the line between real talent and AI slop is blurring, so I decided to create a challenge, purely for the community, that is made to truly give a stage for talented devs to stand out in the age of AI. We encourage devs to bring their agents with them, because the challenge is built to not be solvable only with AI agents. today the challenge is live for the next 24 hours. couldn't be more excited for some of you to check it out and give some honest, no-filter feedback. head-up - it is hard :) Comments URL: https://news.ycombinator.com/item?id=48265035 Points: 4 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
+      "id": "https://arstechnica.com/tech-policy/2026/06/trumps-ai-executive-order-may-not-prevent-dangerous-deployments/",
+      "title": "Trump plan to test AI models has a problem—US security teams were gutted by DOGE",
+      "link": "https://arstechnica.com/tech-policy/2026/06/trumps-ai-executive-order-may-not-prevent-dangerous-deployments/",
+      "summary": "Critics say Trump plan to test AI models is short-sighted, performative.",
+      "source": "Ars Technica AI",
+      "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-05-25T09:38:35.000Z",
-      "score": 99.98,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.00103",
-      "title": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games",
-      "link": "https://arxiv.org/abs/2606.00103",
-      "summary": "arXiv:2606.00103v1 Announce Type: new Abstract: We introduce a multi-turn interactive framework for reasoning evaluation that treats reasoning as active evidence acquisition and belief updating. Wherein, LLMs receive only the task rules, must issue targeted queries to a hidden environment, integrate partial observations over time, and decide when to submit a final answer. Beyond standard success rate and interaction efficiency, we evaluate contextual robustness under controlled contextual perturbations, and metacognitive adaptation through counterfactual revision and necessity judgment. We instantiate the framework as a benchmark of 474 executable games, each evaluated under five fixed configuration search spaces corresponding to five difficulty levels, and evaluate a broad set of frontier LLMs. Results show that the benchmark is highly discriminative, exposing large differences not only in success rate but also in interaction efficiency. Moreover, we empirically show that contextual perturbations cause moderate but consistent declines, whereas counterfactual revision and necessity judgment lead to much larger drops.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "score": 99.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.00138",
-      "title": "A Multi-AI-agent Framework Enabling End-to-end Finite Element Analysis for Solid Mechanics Problems",
-      "link": "https://arxiv.org/abs/2606.00138",
-      "summary": "arXiv:2606.00138v1 Announce Type: new Abstract: Finite element analysis (FEA) is the most important numerical approach for solid mechanics. Challenges of FEA include a steep learning curve for entry-level users and potential false simulations due to incorrect definitions of key simulation components, such as boundary conditions, load cases, and solution variables. Years of engineering experience are usually necessary for real-world problem-solving. To address these issues, we present AbaqusAgent, a multi-agent framework grounded in large language models (LLMs) for solid mechanics analyses. AbaqusAgent is developed to facilitate analysis case generation and execution using Abaqus, one of the most widely used FEA packages, by turning users' natural-language instructions into executed FEA analyses and result visualization. AbaqusAgent is composed of six agents, including interpreter, architect, input writer, runner, reviewer, and visualizer agents, encompassing all the essential pre-processing and post-processing steps of standard FEA analyses. A wide variety of 50 solid mechanics problems have been successfully validated, achieving an overall success rate of 86%. Beyond improving the efficiency of FEA for solid mechanics problems and lowering the barrier to computational mechanics education, AbaqusAgent advances the human-simulation interaction paradigm and enables integration wi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "score": 99.09,
-      "status": "queued"
+      "publishedAt": "2026-06-03T18:11:15.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-03T18:43:02.750Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms."
     },
     {
       "id": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
@@ -8152,22 +8156,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-05-05T09:52:43.995Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
-      "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
-      "summary": "The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's xAI, and the startup Reflection, allowing the agency to use their AI tools in classified settings, according to an announcement on Friday. At the same time, the Defense Department has left out Anthropic - which it previously used for classified information - after declaring it a supply-chain risk. This builds upon deals with Op…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-01T14:09:56.000Z",
-      "score": 121.17,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-04T16:45:24.054Z",
-      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T12:36:24.797Z",
+  "generatedAt": "2026-06-03T18:55:16.971Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-03-per-instance-identity-chain-of-custody-audit-and-toolgating-to-align-ai-agents-with-the-eu-ai-act",
+      "title": "Per-instance identity, chain-of-custody audit, and tool‑gating to align AI agents with the EU AI Act",
+      "date": "2026-06-03",
+      "excerpt": "A hands-on checklist to make AI agents auditable and controllable: short-lived per-instance credentials, chain-of-custody logs, and an external policy gate for tool calls.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-03-per-instance-identity-chain-of-custody-audit-and-toolgating-to-align-ai-agents-with-the-eu-ai-act.jpg",
+      "tags": [
+        "EU AI Act",
+        "AI agents",
+        "identity",
+        "audit",
+        "policy",
+        "orchestration",
+        "IAM",
+        "compliance"
+      ],
+      "sources": [
+        "https://www.cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 600,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-06-02-agent-deck-on-macos-set-up-and-run-a-single-staging-agent-from-the-repository",
