@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T11:16:37.128Z",
+  "generatedAt": "2026-06-04T17:53:58.884Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "SOCIETY",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-04-prototype-a-minimal-android-agent-gadget-inspired-by-microsofts-project-solara",
+      "title": "Prototype a minimal Android agent gadget inspired by Microsoft's Project Solara",
+      "date": "2026-06-04",
+      "excerpt": "Guide to prototype a minimal Android agent gadget: wake on camera or biometric unlock, on-device auth, and route queries to local or cloud LLMs — informed by Microsoft's Project Solara.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-04-prototype-a-minimal-android-agent-gadget-inspired-by-microsofts-project-solara.jpg",
+      "tags": [
+        "project-solara",
+        "microsoft",
+        "ai-agents",
+        "agent-gadgets",
+        "android",
+        "edge-devices",
+        "privacy",
+        "prototype"
+      ],
+      "sources": [
+        "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
