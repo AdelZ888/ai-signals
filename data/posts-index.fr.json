@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T11:24:59.799Z",
+  "generatedAt": "2026-06-05T17:22:34.973Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-05-prototype-a-hybrid-on-devicecloud-ai-workflow-for-laptops",
+      "title": "Prototyper un workflow IA hybride local/cloud pour ordinateurs portables",
+      "date": "2026-06-05",
+      "excerpt": "Guide pas à pas pour un prototype hybride minimal : exécuter de petits modèles d’IA localement sur un portable, basculer vers une API cloud pour les requêtes lourdes, et mesurer latence, taux de basculement et coût.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-05-prototype-a-hybrid-on-devicecloud-ai-workflow-for-laptops.jpg",
+      "tags": [
+        "IA",
+        "on-device",
+        "hybride",
+        "prototype",
+        "développeur",
+        "fondateur",
+        "petite-équipe",
+        "laptop"
+      ],
+      "sources": [
+        "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-06-04-assistant-ais-like-googles-spark-speed-scheduling-and-drafting-but-dont-fix-structural-workplace-problems",
