@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-06T10:00:11.511Z",
+  "generatedAt": "2026-06-06T16:30:48.008Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "title": "Microsoft and OpenAI broke up — now they’re ready to fight",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "summary": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it's finally acting like it. For years, Microsoft's AI business leaned hard on its early an…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-03T14:04:00.000Z",
+      "score": 121.81,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-06T16:30:47.936Z",
+      "file": "content/posts/2026-06-06-microsoft-builds-ai-push-and-the-openai-split-practical-resilience-steps-for-product-teams.md",
+      "fileFr": "content/posts/fr/2026-06-06-microsoft-builds-ai-push-and-the-openai-split-practical-resilience-steps-for-product-teams.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1713,
+      "wordsFr": 1712
+    },
     {
       "id": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
       "title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1002
     },
     {
-      "id": "https://github.com/asterai-io/asterbot",
-      "title": "Show HN: Asterbot, AI agent where every capability is a sandboxed WASM component",
-      "link": "https://github.com/asterai-io/asterbot",
-      "summary": "Asterbot is a modular AI agent where every capability, such as web search, memory, LLM provider, is a swappable WASM component, sandboxed via WASI. Components only have access to what you explicitly grant (e.g. a single directory). They're written in any language (Rust, Go, Python, JS) and pulled from the asterai registry. Under the hood, asterai is a WASM component model registry and runtime built on wasmtime. You…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-10T15:51:38.000Z",
-      "score": 192,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-10T16:11:43.036Z",
-      "file": "content/posts/2026-02-10-asterbot-an-ai-agent-built-from-sandboxed-swappable-wasm-components.md",
-      "fileFr": "content/posts/fr/2026-02-10-asterbot-an-ai-agent-built-from-sandboxed-swappable-wasm-components.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1486,
-      "wordsFr": 1233
-    },
-    {
-      "id": "https://tokkeycc.com",
-      "title": "TokkeyCC – OpenAI-compatible API for 100 AI models, .22 per 1M tokens",
-      "link": "https://tokkeycc.com",
-      "summary": "Article URL: https://tokkeycc.com Comments URL: https://news.ycombinator.com/item?id=48400900 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-04T16:23:51.000Z",
-      "score": 177.93,
-      "status": "queued"
-    },
-    {
       "id": "https://ai.actingweb.io/",
       "title": "Show HN: I built an easy to manage, sharable personal memory for my AI agents",
       "link": "https://ai.actingweb.io/",
@@ -5290,18 +5278,6 @@
       "status": "queued"
     },
     {
-      "id": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
-      "title": "What Sudoku Reveals About AI Reasoning Architectures and the Future",
-      "link": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
-      "summary": "Article URL: https://logicalintelligence.com/blog/energy-based-model-sudoku-demo Comments URL: https://news.ycombinator.com/item?id=48160890 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-16T15:09:24.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
       "id": "https://techthreedots.com/google-makes-gemini-3-5-flash-the-default-ai-model-for-billions-of-users",
       "title": "Google makes Gemini 3.5 Flash the default AI model for billions of users",
       "link": "https://techthreedots.com/google-makes-gemini-3-5-flash-the-default-ai-model-for-billions-of-users",
@@ -5362,30 +5338,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48373593",
-      "title": "AI Goal: Senior Software Engineer",
-      "link": "https://news.ycombinator.com/item?id=48373593",
-      "summary": "Context: Working as a senior software engineer in one of the big techs. One of the goals for senior engineers in my organization is to identify and implement AI initiatives. I'm already familiar with and actively using MCPs, AI agents, plugins etc. While they've been useful, it feels like most people in my company are already working on this. I was curious whether your organization has built or adopted any AI powered tools, workflows, or use cases that have delivered meaningful business value and could potentially be adapted by other organizations as well. Comments URL: https://news.ycombinator.com/item?id=48373593 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-02T17:47:23.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Kaya-suites/Kaya-Suites",
-      "title": "Show HN: Kaya Suites – An AI Native Knowledge Base",
-      "link": "https://github.com/Kaya-suites/Kaya-Suites",
-      "summary": "I'm really interested in this idea of generating a knowledge base that's native for agents as well as humans. I'm pretty much inspired by Den's [https://www.producthunt.com/products/den] product and I want to generate something akin to it that is open-sourced as well. I hypothesize that, in the near future, with AI agents collaborating with human agents, there will be a need for a centralized storage of information that AI agents and human agents could use as a reference for their organizational and work activities. As for the direction of my project so far, I'm keen on checking on whether I'm actually working on a decent problem right now or whether I should pivot to something else. Feel free to provide some feedback. I'd love to hear it. Comments URL: https://news.ycombinator.com/item?id=48410745 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-05T11:01:56.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/Abloatai/ablo",
       "title": "Context is essential for AI agents, but I think shared state is the next problem",
       "link": "https://github.com/Abloatai/ablo",
@@ -5431,18 +5383,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-04T16:35:37.000Z",
       "score": 156.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/microsoft/AI-Engineering-Coach",
-      "title": "Show HN: Strava for AI coding – analytics on your Copilot/Claude/Codex usage",
-      "link": "https://github.com/microsoft/AI-Engineering-Coach",
-      "summary": "Article URL: https://github.com/microsoft/AI-Engineering-Coach Comments URL: https://news.ycombinator.com/item?id=48161004 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-16T15:23:41.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5794,6 +5734,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.openclacky.com/engineering/cache-invalidation-surface",
+      "title": "Every AI Agent Feature Is a Cache Invalidation Surface",
+      "link": "https://www.openclacky.com/engineering/cache-invalidation-surface",
+      "summary": "Article URL: https://www.openclacky.com/engineering/cache-invalidation-surface Comments URL: https://news.ycombinator.com/item?id=48426050 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-06T15:38:12.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -5851,6 +5803,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-25T15:54:05.000Z",
       "score": 153.4,
+      "status": "queued"
+    },
+    {
+      "id": "https://twitter.com/jenzhuscott/status/2063032701087883647",
+      "title": "Agentic AI spurred a boom in mobile apps, but they aren't gaining traction",
+      "link": "https://twitter.com/jenzhuscott/status/2063032701087883647",
+      "summary": "Article URL: https://twitter.com/jenzhuscott/status/2063032701087883647 Comments URL: https://news.ycombinator.com/item?id=48425761 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-06T15:03:45.000Z",
+      "score": 152.57,
       "status": "queued"
     },
     {
@@ -6466,18 +6430,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
-      "link": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-      "summary": "Microsoft’s annual developer conference is kicking off on June 2nd in San Francisco with the keynote presentation streaming live at 12:30PM ET / 9:30AM PT, and we will be following along here with everything as it’s announced. The Verge’s Tom Warren reports that we can expect to hear about new AI models and agentic OpenClaw-like tools, plus a Copilot “super app” to go along with some of the major changes to Windows 11 that have already started appearing. Microsoft just announced the new Surface Laptop Ultra, powered by Nvidia’s RTX Spark, so there could be more Windows on ARM news in store. Follow along here for the latest news and updates. Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing Microsoft Scout is a new AI personal assistant built on OpenClaw Microsoft launches its Command Line blog during Build 2026. Microsoft makes it more secure to run OpenClaw on Windows. Microsoft’s Project Solara is an OS for AI agent gadgets Microsoft’s AI agent OS: Project Solara. Nvidia’s CEO dials into Build. The new Surface mini PC is here. Build kicks off with Windows. Microsoft created the mini Surface dev box that Qualcomm couldn’t Microsoft’s new developer-optimized Windows embraces Linux even more Microsoft’s first advanced reasoning AI is here Microsoft Build 2026 is about to begin. How to watch Microsoft’s Build 2026 conference Microsoft to unveil new AI mo",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-02T15:59:58.000Z",
-      "score": 123.37,
-      "status": "queued"
-    },
-    {
       "id": "https://www.pcmag.com/news/adobe-canva-capcut-are-coming-to-gemini-to-help-you-edit-ai-creations",
       "title": "Adobe, Canva, CapCut Are Coming to Gemini to Help You Edit AI Creations",
       "link": "https://www.pcmag.com/news/adobe-canva-capcut-are-coming-to-gemini-to-help-you-edit-ai-creations",
@@ -6487,18 +6439,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-05-22T09:19:10.000Z",
       "score": 123.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://derogab.com/2026/05/15/AI-Tools-Not-Replacements/",
-      "title": "AI Agents Are Tools, Not Replacements",
-      "link": "https://derogab.com/2026/05/15/AI-Tools-Not-Replacements/",
-      "summary": "Article URL: https://derogab.com/2026/05/15/AI-Tools-Not-Replacements/ Comments URL: https://news.ycombinator.com/item?id=48160452 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-16T14:13:53.000Z",
-      "score": 122.92,
       "status": "queued"
     },
     {
@@ -6595,18 +6535,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-03T04:00:00.000Z",
       "score": 122.13,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
-      "title": "Microsoft and OpenAI broke up — now they’re ready to fight",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
-      "summary": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it's finally acting like it. For years, Microsoft's AI business leaned hard on its early and exclusive partnership with OpenAI. But the drama-filled marriage slowly devolved into a situationship, and the pair effectively separated in late April (though Microsoft is still OpenAI's primary cloud partner - for now). This … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-03T14:04:00.000Z",
-      "score": 121.81,
       "status": "queued"
     },
     {
@@ -6835,18 +6763,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-19T08:56:31.000Z",
       "score": 115.66,
-      "status": "queued"
-    },
-    {
-      "id": "https://fortune.com/2026/04/23/goldman-sachs-ai-world-model-missing-link/",
-      "title": "The world model that every AI godfather is racing to figure out",
-      "link": "https://fortune.com/2026/04/23/goldman-sachs-ai-world-model-missing-link/",
-      "summary": "Article URL: https://fortune.com/2026/04/23/goldman-sachs-ai-world-model-missing-link/ Comments URL: https://news.ycombinator.com/item?id=48160562 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-16T14:27:38.000Z",
-      "score": 115.37,
       "status": "queued"
     },
     {
@@ -7196,6 +7112,118 @@
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "score": 106.39,
       "status": "queued"
+    },
+    {
+      "id": "https://kuber.studio/blog/AI/Roblox-Released-the-Biggest-AI-World-Model-in-Gaming.-Everyone-Hates-It.",
+      "title": "Roblox Released the Biggest AI World Model in Gaming. Everyone Hates It",
+      "link": "https://kuber.studio/blog/AI/Roblox-Released-the-Biggest-AI-World-Model-in-Gaming.-Everyone-Hates-It.",
+      "summary": "Article URL: https://kuber.studio/blog/AI/Roblox-Released-the-Biggest-AI-World-Model-in-Gaming.-Everyone-Hates-It. Comments URL: https://news.ycombinator.com/item?id=48425289 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-06T14:06:36.000Z",
+      "score": 96.55,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "title": "Meta made its own AI-generated clickbait news feed",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "summary": "An AI-generated image of the royal family featuring two Queen Elizabeth IIs. | Image: Meta AI Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and as questionable as you'd expect from AI-created works. The Meta AI app first launched in April 2025 with its focus on a public \"Discover\" feed that showed AI-generated images and conversations from other users (who frequently seemed unaware that they were being made public). That's all disappeared. The app now has a standard chatbot interface, … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-06T14:00:00.000Z",
+      "score": 87.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.05382",
+      "title": "Synthetic Contrastive Reasoning for Multi-Table Q&A",
+      "link": "https://arxiv.org/abs/2606.05382",
+      "summary": "arXiv:2606.05382v1 Announce Type: new Abstract: Multi-table question answering requires models to retrieve relevant evidence, link schemas, and perform compositional reasoning across relational tables. Existing multi-table Q&A resources typically provide questions and final answers but lack reasoning supervision that explains how answers are derived. To address this gap, we construct a synthetic contrastive reasoning-trace dataset for MMQA by generating validated positive traces and plausible negative traces with heterogeneous LLMs. We then use the resulting preference pairs to fine-tune open-weight LLMs with Contrastive Preference Optimization (CPO). Across Qwen3-14B, Mistral-8B, and Llama-3.1-8B, CPO achieves absolute average improvements over Q&A supervised fine-tuning ranging from 9.7%-16.3%, with gains up to 21 percentage points on MMQA. Ablations show that heterogeneous positive and negative trace generators strengthen the contrastive signal, and automated as well as human evaluations indicate that the generated pairs are largely faithful, coherent, and meaningfully contrastive.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "score": 75.92,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-01T10:00:00.000Z",
+      "score": 72.95,
+      "status": "queued"
+    },
+    {
+      "id": "https://tokkeycc.com",
+      "title": "TokkeyCC – OpenAI-compatible API for 100 AI models, .22 per 1M tokens",
+      "link": "https://tokkeycc.com",
+      "summary": "Article URL: https://tokkeycc.com Comments URL: https://news.ycombinator.com/item?id=48400900 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-04T16:23:51.000Z",
+      "score": 177.93,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-06T16:05:32.071Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48373593",
+      "title": "AI Goal: Senior Software Engineer",
+      "link": "https://news.ycombinator.com/item?id=48373593",
+      "summary": "Context: Working as a senior software engineer in one of the big techs. One of the goals for senior engineers in my organization is to identify and implement AI initiatives. I'm already familiar with and actively using MCPs, AI agents, plugins etc. While they've been useful, it feels like most people in my company are already working on this. I was curious whether your organization has built or adopted any AI powere…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-02T17:47:23.000Z",
+      "score": 162,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-06T16:05:32.071Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://github.com/Kaya-suites/Kaya-Suites",
+      "title": "Show HN: Kaya Suites – An AI Native Knowledge Base",
+      "link": "https://github.com/Kaya-suites/Kaya-Suites",
+      "summary": "I'm really interested in this idea of generating a knowledge base that's native for agents as well as humans. I'm pretty much inspired by Den's [https://www.producthunt.com/products/den] product and I want to generate something akin to it that is open-sourced as well. I hypothesize that, in the near future, with AI agents collaborating with human agents, there will be a need for a centralized storage of information…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-05T11:01:56.000Z",
+      "score": 162,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-06T16:05:32.071Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
+      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
+      "link": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
+      "summary": "Microsoft’s annual developer conference is kicking off on June 2nd in San Francisco with the keynote presentation streaming live at 12:30PM ET / 9:30AM PT, and we will be following along here with everything as it’s announced. The Verge’s Tom Warren reports that we can expect to hear about new AI models and agentic OpenClaw-like tools, plus a Copilot “super app” to go along with some of the major changes to Windows…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-02T15:59:58.000Z",
+      "score": 123.37,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-06T16:05:32.071Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and…"
     },
     {
       "id": "https://news.ycombinator.com/item?id=48387448",

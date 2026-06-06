@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T10:00:11.500Z",
+  "generatedAt": "2026-06-06T16:30:47.951Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-06-microsoft-builds-ai-push-and-the-openai-split-practical-resilience-steps-for-product-teams",
+      "title": "Microsoft Build's AI push and the OpenAI split: practical resilience steps for product teams",
+      "date": "2026-06-06",
+      "excerpt": "At Build, Microsoft unveiled agents and in-house reasoning models. This short guide helps teams build a compact resilience plan - adapter service, top-API mapping, and a 10-minute failover.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-06-microsoft-builds-ai-push-and-the-openai-split-practical-resilience-steps-for-product-teams.jpg",
+      "tags": [
+        "microsoft",
+        "openai",
+        "ai-strategy",
+        "ai-agents",
+        "product-roadmap",
+        "cloud",
+        "resilience",
+        "security"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-06-05-instagrams-ai-support-chatbot-exploited-to-change-account-recovery-emails-meta-says-issue-fixed",
