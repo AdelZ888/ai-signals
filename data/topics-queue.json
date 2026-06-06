@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-05T17:22:35.028Z",
+  "generatedAt": "2026-06-06T10:00:11.511Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+      "title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
+      "link": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+      "summary": "Meta's AI support chatbot helped hackers hijack Instagram accounts, as reported earlier by 404 Media. In a video shared on Telegram, a hacker shows how they could take over an account by asking Meta's chatbot to switch the email associated with someone else's profile and then reset the password. The issue, which Meta says has since been patched, cropped up around the same time Barack Obama's White House account on I…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-01T19:20:47.000Z",
+      "score": 150,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-06-06T10:00:11.474Z",
+      "file": "content/posts/2026-06-06-attackers-exploited-metas-ai-support-chatbot-to-swap-instagram-recovery-emails-and-hijack-accounts.md",
+      "fileFr": "content/posts/fr/2026-06-06-attackers-exploited-metas-ai-support-chatbot-to-swap-instagram-recovery-emails-and-hijack-accounts.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1359,
+      "wordsFr": 1469
+    },
     {
       "id": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
       "title": "This is your laptop… on AI",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1233
     },
     {
-      "id": "https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs",
-      "title": "Siemens CEO Roland Busch’s mission to automate everything",
-      "link": "https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs",
-      "summary": "Today, I’m talking with Roland Busch, who is the CEO of Siemens. Siemens is one of those absolutely giant, extremely important, but fairly opaque companies we love to dig into on Decoder. At a very basic, reductive level, Siemens makes the hardware and software that allow other companies to run and automate their stuff. Everyone has seen the Siemens logo somewhere, whether it’s under the hood of their cars, stamped…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 11,
-      "publishedAt": "2026-02-09T15:00:00.000Z",
-      "score": 252,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-10T08:44:51.211Z",
-      "file": "content/posts/2026-02-10-blueprint-for-a-scoped-factory-to-erp-automation-pilot-inspired-by-siemens-ceo-roland-busch.md",
-      "fileFr": "content/posts/fr/2026-02-10-blueprint-for-a-scoped-factory-to-erp-automation-pilot-inspired-by-siemens-ceo-roland-busch.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1523,
-      "wordsFr": 1332
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48387448",
-      "title": "Show HN: CTP Room – a shared chat room where your AI coding agents coordinate",
-      "link": "https://news.ycombinator.com/item?id=48387448",
-      "summary": "Hi HN. I honestyle DO NOT like one on one sessions with my claude/codex when working with my team. So I built something that connects us and our agents in the same room. CTP Room is my attempt at a coordination/co-work layer, one shared chat room (think Slack channel) where humans and several agents work together ( I took Garry Tans gstack and formed my own team around it when I work solo ). What it does: - Routes each message to the right agent instead of broadcasting (For this case, a cheap Haiku router picks one). - File claims: an agent claims a file before editing; another is told who holds it instead of clobbering it. - Persistent team memory: who did what, decisions + rationale, so context survives sessions. - Bring your own agent over MCP (Claude Code, Codex, Cursor, OpenCode) or any program over HTTP. Multi-vendor on purpose. - Presence + activity feed come from deterministic hooks at zero tokens; the expensive model is only spent on real work. Happy to go deeper on this subject, I think I will open source it soon, wondering what you think about this? Comments URL: https://news.ycombinator.com/item?id=48387448 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-03T18:02:07.000Z",
-      "score": 198,
-      "status": "queued"
-    },
-    {
       "id": "https://tokkeycc.com",
       "title": "TokkeyCC – OpenAI-compatible API for 100 AI models, .22 per 1M tokens",
       "link": "https://tokkeycc.com",
@@ -5782,6 +5770,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.com/news/articles/cm2p3j6lvn7o",
+      "title": "UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI",
+      "link": "https://www.bbc.com/news/articles/cm2p3j6lvn7o",
+      "summary": "Article URL: https://www.bbc.com/news/articles/cm2p3j6lvn7o Comments URL: https://news.ycombinator.com/item?id=48423114 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-06T09:35:04.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/radotsvetkov/akmon",
+      "title": "Show HN: Akmon, verify what an AI agent did offline using only OpenSSL",
+      "link": "https://github.com/radotsvetkov/akmon",
+      "summary": "Article URL: https://github.com/radotsvetkov/akmon Comments URL: https://news.ycombinator.com/item?id=48423037 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-06T09:24:14.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -5938,18 +5950,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
-      "title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
-      "link": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
-      "summary": "Meta's AI support chatbot helped hackers hijack Instagram accounts, as reported earlier by 404 Media. In a video shared on Telegram, a hacker shows how they could take over an account by asking Meta's chatbot to switch the email associated with someone else's profile and then reset the password. The issue, which Meta says has since been patched, cropped up around the same time Barack Obama's White House account on Instagram was hacked. On Sunday, users noticed that the @obamawhitehouse account began posting images containing Iranian propaganda. Hackers appeared to have hijacked the Instagram accounts belonging to the US Space Force Chief Ma … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-01T19:20:47.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=48361292",
       "title": "The AI tool discovery problem",
       "link": "https://news.ycombinator.com/item?id=48361292",
@@ -6043,6 +6043,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-05T16:15:47.000Z",
       "score": 149.93,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48422809",
+      "title": "Tell HN: Pearl's \"useful\" PoW AI mining is vaporware",
+      "link": "https://news.ycombinator.com/item?id=48422809",
+      "summary": "Hi folks, to further inflate GPU prices through stupidity and greed, it seems that right now certain entities are trying to resurrect the GPU mining craze. They are trying to reinvent PoW as something useful through AI compute, but it seems that what they ended up with is just snake oil and vaporware. There is circumstantial evidence that, among others, NVIDIA and Together AI are behind it in one way or another. Together AI hosts LLM inference on their own GPUs. Together AI subsidizes this inference from the profits of $PRL (Pearl), but miners with their GPUs in the Pearl network are not running actual inference. They are running useless PoW in an AI trench coat. \"Useful\" is snake oil, but more wasted compute, more greed, and higher prices are very real. Comments URL: https://news.ycombinator.com/item?id=48422809 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-06T08:45:40.000Z",
+      "score": 148.2,
       "status": "queued"
     },
     {
@@ -6271,18 +6283,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-03T17:13:19.000Z",
       "score": 134.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.flyingpenguin.com/why-stanford-says-ai-agents-become-marxist/",
-      "title": "Why Stanford Says AI Agents Become Marxist",
-      "link": "https://www.flyingpenguin.com/why-stanford-says-ai-agents-become-marxist/",
-      "summary": "Article URL: https://www.flyingpenguin.com/why-stanford-says-ai-agents-become-marxist/ Comments URL: https://news.ycombinator.com/item?id=48157845 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-16T07:50:57.000Z",
-      "score": 134.08,
       "status": "queued"
     },
     {
@@ -6526,6 +6526,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.05256",
+      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
+      "link": "https://arxiv.org/abs/2606.05256",
+      "summary": "arXiv:2606.05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated accounts engaging users in live debate. After public disclosure, Reddit authorized moderators to release an archive of the AI-generated comments, creating a rare opportunity to examine how large language models operated in an identity-rich deliberative forum without disclosure. We conduct a structured content analysis of this corpus, evaluating identity performance, authority signaling, alignment strategies, and activation of cognitive heuristics. Identity targeting or adoption appears in over two-thirds of comments, alignment moves and authority claims in nearly all of them, and cognitive-bias triggers -- particularly confirmation bias, representativeness, and availability -- in the large majority. These patterns co-occur systematically, composing a rhetorical architecture calibrated for persuasive efficiency rather than authentic deliberative participation. Compared against human-authored CMV counter-arguments, the agents inverted the typical distribution on every dimension: denser authority use, more adversarial alignment, and heavier reliance on external citation over experiential gro",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "score": 122.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.05342",
+      "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
+      "link": "https://arxiv.org/abs/2606.05342",
+      "summary": "arXiv:2606.05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searching for alternatives, or otherwise trying to force progress. This is the wrong approach for many long-running tasks, which are better served by a strategy of sustained attention. Instead, agents should monitor an environment, notice when an external event makes progress possible, then respond promptly without wasting resources while waiting. To measure progress on this class of tasks, we introduce SentinelBench, an open-source benchmark for time-evolving monitoring tasks. SentinelBench contains 100 tasks across 10 synthetic web environments, including email, calendars, finance, professional networking, and entertainment. Each environment exposes a live web interface and replays a scripted sequence of events, requiring agents to navigate and reason about web pages whose state shifts underfoot. SentinelBench measures task completion, reaction time, and resource use, exposing the tradeoff between responsiveness and cost. We report results across three models and two browser-agent harnesses, establishing performance baselines for future comparison and demonstrating how agent design choices can dramatically impact key metrics. Together, these r",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "score": 122.36,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.02802",
       "title": "ChatHealthAI: Aligning Electronic Health Record Representations with Large Language Models for Grounded Clinical Reasoning",
       "link": "https://arxiv.org/abs/2606.02802",
@@ -6754,6 +6778,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.05304",
+      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+      "link": "https://arxiv.org/abs/2606.05304",
+      "summary": "arXiv:2606.05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands' resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at https://github.com/iNLP-Lab/PACT.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "score": 116.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.05404",
+      "title": "Harnessing Generalist Agents for Contextualized Time Series",
+      "link": "https://arxiv.org/abs/2606.05404",
+      "summary": "arXiv:2606.05404v1 Announce Type: new Abstract: Time series are often embedded in rich contexts that are essential for holistic modeling. Moreover, real-world practitioners often require end-to-end workflows for analyzing temporal dynamics, where widely studied tasks such as forecasting are only one step in a broader solution loop. While generalist AI agents offer a promising interface for such workflows under complex contexts, they still operate primarily in textual spaces that are not fully aligned with structured temporal signals. In this work, we introduce TimeClaw, an agentic harness framework for time series that equips generalist LLM agents with the time series-native runtime support needed for contextualized temporal reasoning. TimeClaw integrates executable temporal tools for grounded and auditable analysis, experience-driven capability evolution for creating reusable analytical routines, and episodic multimodal memory for retrieving relevant reasoning traces. Together, these components unlock harnessed open-ended temporal reasoning with contextual information. Extensive evaluation on multiple benchmarks covering diverse tasks across energy, finance, weather, traffic, and other real-world domains demonstrates improved performance of TimeClaw. Code is available at https://github.com/iDEA-iSAIL-Lab-UIUC/TimeClaw.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "score": 116.36,
+      "status": "queued"
+    },
+    {
       "id": "https://www.forbes.com/sites/aliciapark/2026/05/25/anthropic-billionaire-cofounder-joins-pope-leo-warns-ai-job-losses-will-spark-moral-imperative-of-historic-proportions/",
       "title": "Anthropic Cofounder Joins Pope Leo, Warns of AI Job Losses",
       "link": "https://www.forbes.com/sites/aliciapark/2026/05/25/anthropic-billionaire-cofounder-joins-pope-leo-warns-ai-job-losses-will-spark-moral-imperative-of-historic-proportions/",
@@ -6931,18 +6979,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-05-28T04:00:00.000Z",
       "score": 112.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.denv.it/posts/goodbye-travel-agents-hello-ai-agents/",
-      "title": "Goodbye Travel Agents, Hello AI Agents",
-      "link": "https://blog.denv.it/posts/goodbye-travel-agents-hello-ai-agents/",
-      "summary": "Article URL: https://blog.denv.it/posts/goodbye-travel-agents-hello-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=48157638 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-16T07:16:41.000Z",
-      "score": 111.98,
       "status": "queued"
     },
     {
@@ -7162,52 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.29027",
-      "title": "Mind Your Tone: Does Tone Alter LLM Performance?",
-      "link": "https://arxiv.org/abs/2605.29027",
-      "summary": "arXiv:2605.29027v1 Announce Type: new Abstract: The use of Large Language Models (LLMs) is proliferating, yet their performance is observed to vary based on prompting styles and tones. In this study, we investigate both whether and how tonal variations in prompts lead to disparate LLM accuracy for objective multiple-choice questions. We use two datasets: a 50-base question dataset with five tone variants and a 570-base question MMLU subset spanning 57 subjects with seven tone variants. Experiments were conducted to evaluate the performance of four cost-efficient, popular LLMs: ChatGPT-4o, ChatGPT-5-nano, Gemini 2.5 Flash, and Gemini 2.5 Flash Lite. Across models, tonal effects are systematic but highly model-dependent. Some models show small, yet statistically significant, shifts, while others exhibit large accuracy swings across tones. Further, we identify subject-level differences in tone sensitivity and present a routing framework to explain how tones may attune internal reasoning modes. Our findings caution users against assuming tone-robust reliability in LLM deployments.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-05-29T04:00:00.000Z",
-      "score": 106.39,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.15204",
-      "title": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
-      "link": "https://arxiv.org/abs/2605.15204",
-      "summary": "arXiv:2605.15204v1 Announce Type: new Abstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent execution as a constrained state machine. SDOF operates through two primary defensive layers, implemented by three components: (1) an Online-RLHF Specialized Intent Router trained via Generative Reward Modeling (GRPO) and (2) a StateAwareDispatcher with GoalStage finite-automaton checks and precondition/postcondition SkillRegistry validation for auditable execution control. On a recruitment system backed by the Beisen iTalent platform (6000+ enterprises), 185 expert-curated scenarios trigger 1671 live API calls. Our GSPO-aligned 7B Intent Router achieves higher joint accuracy than zero-shot GPT-4o on this FSM-constrained adversarial routing benchmark (80.9% versus 48.9%). In end-to-end execution, SDOF reaches 86.5% task completion (95% confidence interval 80.8 to 90.7) and blocks all 22 operations in the injection, illegal HR subset. Under a broader message-level blocking audit, SDOF attains precision 100% and recall 88%, expert agreement kappa=0.94. A separate evaluation on 960 SGD-derived dialogues spanning 8 service domains surfaces 201 stage-order conflicts under our FSM mapping,",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
-      "score": 105.77,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
-      "title": "Google Search’s AI evolution includes more ads",
-      "link": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
-      "summary": "Some ads will have chatbots built in. | Image: Google Google's AI-powered Search era apparently also extends to its ads. Now, when you search for a product, Google's Gemini AI chatbot will surface relevant items and generate a \"custom explainer\" about why you should purchase a specific one. The update comes just one day after Google revealed a new Search box for larger, more conversational queries, along with a focus on AI-generated results. In an example shared by Google, someone searching for a \"compact espresso pod machine\" might see a Nespresso Vertuo Up under a \"Sponsored Product\" label, alongside an AI-generated description saying: For a quality machine, look for capsule compatibility … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-20T16:00:00.000Z",
-      "score": 105.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://tech.yahoo.com/ai/claude/articles/researchers-let-ai-models-run-070300865.html",
-      "title": "Researchers let AI models run a simulated society; Claude safest, Grok extinct",
-      "link": "https://tech.yahoo.com/ai/claude/articles/researchers-let-ai-models-run-070300865.html",
-      "summary": "Article URL: https://tech.yahoo.com/ai/claude/articles/researchers-let-ai-models-run-070300865.html Comments URL: https://news.ycombinator.com/item?id=48336092 Points: 3 # Comments: 1",
+      "id": "https://news.ycombinator.com/item?id=48387448",
+      "title": "Show HN: CTP Room – a shared chat room where your AI coding agents coordinate",
+      "link": "https://news.ycombinator.com/item?id=48387448",
+      "summary": "Hi HN. I honestyle DO NOT like one on one sessions with my claude/codex when working with my team. So I built something that connects us and our agents in the same room. CTP Room is my attempt at a coordination/co-work layer, one shared chat room (think Slack channel) where humans and several agents work together ( I took Garry Tans gstack and formed my own team around it when I work solo ). What it does: - Routes e…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-30T13:42:21.000Z",
-      "score": 104.75,
-      "status": "queued"
+      "keywordHits": 5,
+      "publishedAt": "2026-06-03T18:02:07.000Z",
+      "score": 198,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-06-06T09:53:33.904Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://openai.com/index/endava-frontiers",
