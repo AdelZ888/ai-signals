@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-08T12:36:26.932Z",
+  "generatedAt": "2026-06-08T18:00:47.230Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-08-how-viktor-uses-prompt-caching-and-byte-stable-prefixes-to-cut-agent-thread-costs",
+      "title": "How Viktor uses prompt caching and byte-stable prefixes to cut agent-thread costs",
+      "date": "2026-06-08",
+      "excerpt": "Viktor turns repeated thread history into cheap cache reads with byte-stable prefixes, SDK tools, append-only logs and in-cache compaction — a 40-step thread fell from $11.35 to $2.07.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-08-how-viktor-uses-prompt-caching-and-byte-stable-prefixes-to-cut-agent-thread-costs.jpg",
+      "tags": [
+        "prompt-caching",
+        "agent-threads",
+        "cost-optimization",
+        "llm-ops",
+        "token-economics",
+        "architecture",
+        "compaction",
+        "viktor"
+      ],
+      "sources": [
+        "https://viktor.com/blog/how-we-built-viktor-around-prompt-caching"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-08-microsoft-scout-an-openclaw-based-cross-app-personal-assistant-for-microsoft-365-teams",
       "title": "Microsoft Scout — an OpenClaw-based, cross-app personal assistant for Microsoft 365 teams",
