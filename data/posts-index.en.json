@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-06-09T11:07:00.311Z",
+  "generatedAt": "2026-06-09T17:39:49.905Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-09-kirograph-local-semantic-index-and-lookup-service-for-code-symbols",
+      "title": "KiroGraph: Local semantic index and lookup service for code symbols",
+      "date": "2026-06-09",
+      "excerpt": "Run KiroGraph locally to build an on-disk semantic index and a small HTTP lookup service. Speed symbol and usage queries, reduce repeated tool calls, and keep code fully local.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-09-kirograph-local-semantic-index-and-lookup-service-for-code-symbols.jpg",
+      "tags": [
+        "KiroGraph",
+        "knowledge-graph",
+        "local-first",
+        "developer-tools",
+        "semantic-indexing",
+        "symbol-lookup",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/davide-desio-eleva/kirograph"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-09-mustafa-suleyman-on-ai-at-work-which-tasks-will-change-first-and-how-to-run-short-pilots",
       "title": "Mustafa Suleyman on AI at work: which tasks will change first and how to run short pilots",

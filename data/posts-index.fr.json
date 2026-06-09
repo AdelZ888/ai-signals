@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-06-09T11:07:00.314Z",
+  "generatedAt": "2026-06-09T17:39:49.908Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-09-kirograph-local-semantic-index-and-lookup-service-for-code-symbols",
+      "title": "KiroGraph : index sémantique local et service de recherche pour symboles de code",
+      "date": "2026-06-09",
+      "excerpt": "Exécutez KiroGraph localement pour construire un index sémantique sur disque et un petit service HTTP de recherche. Accélérez les requêtes de symboles et usages, réduisez les appels répétés aux outils et gardez votre code entièrement local (contexte UK et petites équipes).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-09-kirograph-local-semantic-index-and-lookup-service-for-code-symbols.jpg",
+      "tags": [
+        "kirograph",
+        "index sémantique",
+        "code local",
+        "développement",
+        "IA",
+        "UK",
+        "petites équipes"
+      ],
+      "sources": [
+        "https://github.com/davide-desio-eleva/kirograph"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-09-mustafa-suleyman-on-ai-at-work-which-tasks-will-change-first-and-how-to-run-short-pilots",
       "title": "Mustafa Suleyman sur l'IA au travail : quelles tâches changeront d'abord et comment lancer des pilotes courts",
