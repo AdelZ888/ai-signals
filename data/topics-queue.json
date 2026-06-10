@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-10T11:36:19.529Z",
+  "generatedAt": "2026-06-10T18:02:57.604Z",
   "items": [
+    {
+      "id": "https://publora.com",
+      "title": "Show HN: Publora – One API/MCP for AI agents to post across 10 social networks",
+      "link": "https://publora.com",
+      "summary": "Article URL: https://publora.com Comments URL: https://news.ycombinator.com/item?id=48474574 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-10T11:14:23.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-10T18:02:57.523Z",
+      "file": "content/posts/2026-06-10-publora-a-single-rest-api-to-publish-and-schedule-posts-across-10-social-networks-with-mcp-agent-support.md",
+      "fileFr": "content/posts/fr/2026-06-10-publora-a-single-rest-api-to-publish-and-schedule-posts-across-10-social-networks-with-mcp-agent-support.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1587,
+      "wordsFr": 1505
+    },
     {
       "id": "https://hty.sh/",
       "title": "Show HN: Headless terminal in zig allows AI agents to use interactive CLIs",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1189
     },
     {
-      "id": "https://margindash.com/",
-      "title": "Show HN: MarginDash – See which AI customers are profitable",
-      "link": "https://margindash.com/",
-      "summary": "I built MarginDash because I couldn't answer a basic question: which of my customers actually make me money after AI costs? My Stripe dashboard showed revenue going up. My OpenAI bills showed costs going up faster. I had no way to connect the two at the customer level. MarginDash is a few line SDK integration (TypeScript, Python, or REST) that tracks model usage per customer and connects it to revenue — either throu…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-13T08:21:46.000Z",
-      "score": 222,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-14T15:28:19.135Z",
-      "file": "content/posts/2026-02-14-integrate-margindash-for-per-customer-ai-pandl-with-sdk-stripe-sync-and-a-cost-simulator.md",
-      "fileFr": "content/posts/fr/2026-02-14-integrate-margindash-for-per-customer-ai-pandl-with-sdk-stripe-sync-and-a-cost-simulator.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1599,
-      "wordsFr": 1463
-    },
-    {
       "id": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
       "title": "Anthropic releases its first Mythos-class model Claude Fable",
       "link": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
@@ -5278,18 +5278,6 @@
       "status": "queued"
     },
     {
-      "id": "https://publora.com",
-      "title": "Show HN: Publora – One API/MCP for AI agents to post across 10 social networks",
-      "link": "https://publora.com",
-      "summary": "Article URL: https://publora.com Comments URL: https://news.ycombinator.com/item?id=48474574 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-10T11:14:23.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
       "title": "Can tech companies learn to love cheaper AI models?",
       "link": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
@@ -5323,6 +5311,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-04T09:52:00.000Z",
       "score": 170.06,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
+      "link": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "summary": "Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled out Claude Fable 5 to its GitHub Copilot and Foundry customers, I'm told the model isn't available in the model picker that Microsoft employees use for internal versions of GitHub Copilot. All other Claude models are still available internally at Microsoft, because they operate under Zero Data Retention (ZDR) rules. I understand that Microsoft ha … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-10T16:50:23.000Z",
+      "score": 168.49,
       "status": "queued"
     },
     {
@@ -5419,42 +5419,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-04T16:35:37.000Z",
       "score": 156.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.herlein.com/post/ai-inference-costs-reality-check/",
-      "title": "AI Inference Costs: The Wake-Up Call for 2026 and 2027",
-      "link": "https://blog.herlein.com/post/ai-inference-costs-reality-check/",
-      "summary": "Article URL: https://blog.herlein.com/post/ai-inference-costs-reality-check/ Comments URL: https://news.ycombinator.com/item?id=48211362 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-20T17:46:15.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://pypi.org/project/sentience-governor/0.2.5.1/",
-      "title": "Show HN: Sentience – governance that carries across AI agent sessions",
-      "link": "https://pypi.org/project/sentience-governor/0.2.5.1/",
-      "summary": "Article URL: https://pypi.org/project/sentience-governor/0.2.5.1/ Comments URL: https://news.ycombinator.com/item?id=48211033 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-20T17:21:51.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://substack.norabble.com/p/ai-safety-is-underfunded-by-design",
-      "title": "AI Safety Is Underfunded by Design: Model for Incentive-Aligned AI Safety Policy",
-      "link": "https://substack.norabble.com/p/ai-safety-is-underfunded-by-design",
-      "summary": "Article URL: https://substack.norabble.com/p/ai-safety-is-underfunded-by-design Comments URL: https://news.ycombinator.com/item?id=48210821 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-20T17:07:44.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5758,6 +5722,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.youtube.com/watch?v=wykPErJ8M-8",
+      "title": "WWDC26: Run local agentic AI on the Mac using MLX [video]",
+      "link": "https://www.youtube.com/watch?v=wykPErJ8M-8",
+      "summary": "Article URL: https://www.youtube.com/watch?v=wykPErJ8M-8 Comments URL: https://news.ycombinator.com/item?id=48479626 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-10T17:25:33.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -5974,6 +5950,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
+      "title": "Google won’t just admit it’s feeding YouTube creators to its music AI",
+      "link": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
+      "summary": "A group of independent musicians is suing Google claiming it trained Lyria on their uploads. | Image: Cath Virginia / The Verge If you've uploaded a song to YouTube, Google almost certainly considers your video fair game for training its Lyria music AI, it just won't admit it right now. A group of independent musicians is suing Google, claiming that it illegally used songs they uploaded to YouTube to train its Lyria 3 model. Google has filed a motion to dismiss the case, saying: Their lawsuit is based on the unsupported hypothesis that Google trained on their specific works. Even accepting their untested allegations as fact, the Complaint cannot stand. Plaintiffs each granted YouTube, and Google - which provides the service-a broad license to use the uploaded con … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-10T17:20:36.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://roganov.me/blog/token-irresponsibility/",
+      "title": "You can't fix a broken process by bolting AI on top of it",
+      "link": "https://roganov.me/blog/token-irresponsibility/",
+      "summary": "Article URL: https://roganov.me/blog/token-irresponsibility/ Comments URL: https://news.ycombinator.com/item?id=48479782 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-10T17:34:57.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
       "title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
       "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
@@ -6115,6 +6115,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-08T16:46:34.000Z",
       "score": 139.22,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.faridfadaie.com/2026/06/10/ai-voice-agent-architecture/",
+      "title": "AI Voice Agent Architecture: How Real-Time Conversational Systems Work",
+      "link": "https://www.faridfadaie.com/2026/06/10/ai-voice-agent-architecture/",
+      "summary": "Article URL: https://www.faridfadaie.com/2026/06/10/ai-voice-agent-architecture/ Comments URL: https://news.ycombinator.com/item?id=48479045 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-10T16:46:44.000Z",
+      "score": 138.82,
       "status": "queued"
     },
     {
@@ -6514,6 +6526,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/agentcarousel/agentcarousel",
+      "title": "Show HN: AgentCarousel – behavioral tests for AI agents, with signed evidence",
+      "link": "https://github.com/agentcarousel/agentcarousel",
+      "summary": "Article URL: https://github.com/agentcarousel/agentcarousel Comments URL: https://news.ycombinator.com/item?id=48478508 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-10T16:12:07.000Z",
+      "score": 122.81,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.23931",
       "title": "BODHI: Precise OS Kernel Specification Inference",
       "link": "https://arxiv.org/abs/2605.23931",
@@ -6670,6 +6694,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.vanta.com/resources/vanta-ai-quality-evaluation-maturity-model",
+      "title": "The Vanta AI Quality Eval Maturity Model",
+      "link": "https://www.vanta.com/resources/vanta-ai-quality-evaluation-maturity-model",
+      "summary": "Article URL: https://www.vanta.com/resources/vanta-ai-quality-evaluation-maturity-model Comments URL: https://news.ycombinator.com/item?id=48478761 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-10T16:28:14.000Z",
+      "score": 117.33,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.00240",
       "title": "MindZero: Learning Online Mental Reasoning With Zero Annotations",
       "link": "https://arxiv.org/abs/2606.00240",
@@ -6823,6 +6859,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-07T14:42:38.000Z",
       "score": 113.39,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.reuters.com/legal/transactional/global-watchdog-calls-tighter-controls-agentic-ai-finance-2026-06-10/",
+      "title": "Global watchdog calls for tighter controls on agentic AI in finance",
+      "link": "https://www.reuters.com/legal/transactional/global-watchdog-calls-tighter-controls-agentic-ai-finance-2026-06-10/",
+      "summary": "Article URL: https://www.reuters.com/legal/transactional/global-watchdog-calls-tighter-controls-agentic-ai-finance-2026-06-10/ Comments URL: https://news.ycombinator.com/item?id=48478665 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-10T16:22:30.000Z",
+      "score": 112.39,
       "status": "queued"
     },
     {
@@ -7159,54 +7207,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-07T08:37:03.000Z",
       "score": 99.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.06523",
-      "title": "Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory",
-      "link": "https://arxiv.org/abs/2606.06523",
-      "summary": "arXiv:2606.06523v1 Announce Type: new Abstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence. Despite recent advances in LLMs' agentic capabilities, most agent systems still lack formal methods for specifying, verifying, and debugging their workflow and execution trajectories. This challenge mirrors a long-standing problem in mathematics, where the ambiguity of natural languages (NLs) motivates the development of formal languages (FLs). Inspired by this paradigm, we propose **Lean4Agent**, to the best of our knowledge, the first framework that uses Lean4, a dependent-type FL to model and verify agent behavior. **Lean4Agent** launches **FormalAgentLib**, an extensible Lean4 library for formally modeling and verifying agent workflows' semantic consistency under explicit assumptions, and enabling localization of execution-time failures revealed by trajectories. Building on **FormalAgentLib**, we further develop **LeanEvolve**, which applies results in **FormalAgentLib** to revise workflows to enhance its capability. Extensive experiments on a hard problem subset of SWE-Bench-Verified and a subset of ELAIP-Bench across 5 leading LLMs indicate that the verification-passing workflows outperform the failing ones by an average of **11.94%**, and **LeanEvolve** further improves SWE performance b",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "score": 98.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.06787",
-      "title": "AdMem: Advanced Memory for Task-solving Agents",
-      "link": "https://arxiv.org/abs/2606.06787",
-      "summary": "arXiv:2606.06787v1 Announce Type: new Abstract: Large Language Models (LLMs) show promise as tool-using agents but remain limited in long-horizon tasks that require remembering, organizing, and reusing knowledge. Prior memory approaches aim to resolve the situation, but mainly focus on storing factual information. Recent work on procedural memory improves task reuse, yet often reduces to replaying past successes without addressing failure cases or online scalability. We introduce a unified and automatic memory framework that integrates semantic, episodic, and procedural memory in a bi-level design combining short-term and long-term stores. A multi-agent architecture with actor, memory, and critic agents enables automatic memory generation, reward annotation, and adaptive retrieval. Long-term memory is managed through reward-based evaluation, merging, and pruning, ensuring scalability and continual improvement. Experiments across various environments show that our approach improves robustness and success on long multi-turn tasks compared to existing baselines. This work highlights the importance of comprehensive, adaptive memory for advancing LLM-based agents.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "score": 98.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://kuber.studio/blog/AI/Roblox-Released-the-Biggest-AI-World-Model-in-Gaming.-Everyone-Hates-It.",
-      "title": "Roblox Released the Biggest AI World Model in Gaming. Everyone Hates It",
-      "link": "https://kuber.studio/blog/AI/Roblox-Released-the-Biggest-AI-World-Model-in-Gaming.-Everyone-Hates-It.",
-      "summary": "Article URL: https://kuber.studio/blog/AI/Roblox-Released-the-Biggest-AI-World-Model-in-Gaming.-Everyone-Hates-It. Comments URL: https://news.ycombinator.com/item?id=48425289 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-06T14:06:36.000Z",
-      "score": 96.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.07577",
-      "title": "OmniMem: Perturbation-aware Memory Compression for Streaming Audio-Visual LLMs",
-      "link": "https://arxiv.org/abs/2606.07577",
-      "summary": "arXiv:2606.07577v1 Announce Type: new Abstract: Audio-visual large language models (LLMs) hold strong promise for long-form video understanding, yet their long-video inference is fundamentally limited by the linear growth of video tokens and key-value (KV) caches. We present OmniMem, a memory-efficient streaming framework designed specifically for audio-visual LLMs. Unlike existing compression methods that treat all tokens uniformly, OmniMem introduces a modality-aware memory allocation strategy that separately manages visual and audio contexts, addressing the severe token imbalance between the two modalities. OmniMem further preserves informative and non-redundant KV states through perturbation-aware memory selection, enabling compact memory without sacrificing long-range understanding. To strengthen compression under realistic deployment constraints, we also explore budget-aware fine-tuning, which encourages the model to consolidate useful information into retained memory. Experiments on VideoMME Long, LVBench, and LVOmniBench with video-SALMONN 2+ and Qwen-2.5-Omni show that OmniMem consistently improves over strong training-free compression baselines by 2-4% absolute accuracy under the same memory budgets, with an additional 1-2% gain after fine-tuning.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "score": 95.51,
       "status": "queued"
     },
     {
@@ -8024,22 +8024,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-05-12T10:23:18.129Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "title": "OpenAI Campus Network: Student club interest form",
-      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-11T10:00:00.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-11T17:24:14.663Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

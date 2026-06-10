@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T11:36:19.517Z",
+  "generatedAt": "2026-06-10T18:02:57.541Z",
   "locale": "en",
   "posts": [
     {
@@ -28,6 +28,33 @@
       "timeToImplementMinutes": 60,
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-10-publora-a-single-rest-api-to-publish-and-schedule-posts-across-10-social-networks-with-mcp-agent-support",
+      "title": "Publora: a single REST API to publish and schedule posts across 10 social networks with MCP agent support",
+      "date": "2026-06-10",
+      "excerpt": "Publora provides a single REST publishing API: one HTTPS POST and one API key to publish or schedule posts across 10 networks, with MCP agent support and 3 free accounts.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-10-publora-a-single-rest-api-to-publish-and-schedule-posts-across-10-social-networks-with-mcp-agent-support.jpg",
+      "tags": [
+        "publora",
+        "social-media",
+        "api",
+        "ai-agents",
+        "mcp",
+        "scheduling",
+        "integration",
+        "tutorial"
+      ],
+      "sources": [
+        "https://publora.com"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-06-09-kirograph-local-semantic-index-and-lookup-service-for-code-symbols",
