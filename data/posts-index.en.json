@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-09T17:39:49.905Z",
+  "generatedAt": "2026-06-10T11:36:19.517Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-10-hty-persistent-pty-sessions-let-ai-agents-drive-interactive-clis",
+      "title": "hty: persistent PTY sessions let AI agents drive interactive CLIs",
+      "date": "2026-06-10",
+      "excerpt": "hty exposes interactive programs through persistent PTY sessions so AI agents can snapshot the rendered terminal and send keystrokes—letting agents drive editors, auth flows, and wizards.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-10-hty-persistent-pty-sessions-let-ai-agents-drive-interactive-clis.jpg",
+      "tags": [
+        "hty",
+        "ai-agents",
+        "cli",
+        "pty",
+        "sessions",
+        "automation",
+        "devtools",
+        "security"
+      ],
+      "sources": [
+        "https://hty.sh/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-09-kirograph-local-semantic-index-and-lookup-service-for-code-symbols",
       "title": "KiroGraph: Local semantic index and lookup service for code symbols",

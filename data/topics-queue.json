@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-09T17:39:49.968Z",
+  "generatedAt": "2026-06-10T11:36:19.529Z",
   "items": [
+    {
+      "id": "https://hty.sh/",
+      "title": "Show HN: Headless terminal in zig allows AI agents to use interactive CLIs",
+      "link": "https://hty.sh/",
+      "summary": "Article URL: https://hty.sh/ Comments URL: https://news.ycombinator.com/item?id=48210994 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-05-20T17:18:39.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-06-10T11:36:19.501Z",
+      "file": "content/posts/2026-06-10-hty-persistent-pty-sessions-let-ai-agents-drive-interactive-clis.md",
+      "fileFr": "content/posts/fr/2026-06-10-hty-persistent-pty-sessions-let-ai-agents-drive-interactive-clis.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1429,
+      "wordsFr": 1222
+    },
     {
       "id": "https://github.com/davide-desio-eleva/kirograph",
       "title": "KiroGraph: Local code knowledge graph for AI, optimized for token efficiency",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1463
     },
     {
-      "id": "https://www.numerama.com/tech/2177979-pourquoi-mistral-ai-investit-12-milliard-deuros-dans-un-data-center-en-suede.html",
-      "title": "Pourquoi Mistral AI investit 1,2 milliard d’euros dans un data center en Suède ?",
-      "link": "https://www.numerama.com/tech/2177979-pourquoi-mistral-ai-investit-12-milliard-deuros-dans-un-data-center-en-suede.html",
-      "summary": "Mistral AI s'allie à l'entreprise suédoise EcoDataCenter pour mettre au point un centre de données en Suède au nom de la souveraineté européenne en matière d'intelligence artificielle. Un projet qui souffre cependant d'une limite : la provenance des GPU.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-12T07:32:10.000Z",
-      "score": 145.26,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-14T08:23:18.384Z",
-      "file": "content/posts/2026-02-14-mistral-ai-invests-euro12b-with-ecodatacenter-in-sweden-nvidia-vera-rubin-gpus-limit-a-fully-european-hardware-stack.md",
-      "fileFr": "content/posts/fr/2026-02-14-mistral-ai-invests-euro12b-with-ecodatacenter-in-sweden-nvidia-vera-rubin-gpus-limit-a-fully-european-hardware-stack.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1514,
-      "wordsFr": 1517
-    },
-    {
       "id": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
       "title": "Anthropic releases its first Mythos-class model Claude Fable",
       "link": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
@@ -5071,30 +5071,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-06-09T17:00:00.000Z",
       "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://professorgoose.com/?version=2.0",
-      "title": "Show HN: I fixed my AI goose tutor to stop punishing understanding",
-      "link": "https://professorgoose.com/?version=2.0",
-      "summary": "a few weeks ago, I built professor goose, a socratic ai tutor built around the feynman idea that if you can’t explain it, you don’t understand it. the way professor goose works specifically is you pick a topic, rubber duck at a 3d goose, and instead of answering it asks follow up questions until it understands. that begs the question, how does the goose know it has understood? that’s when I thought of an understanding bar - always available to the user to help visualize how much the goose understands you, 0 -> 100%. the original logic powering the understanding bar went something like this: every turn, id send the convo to an llm and ask it to return a number 0-100 , with a rubric of brackets to make the output less volatile. 0-10 meant no real understanding. 11-20 named , but empty. 21-35 meant a partial understanding, and so on, up to 93-100 for the goose understanding your topic exceptionally. this approach worked. mostly. until I started looking at what came back once real users tested the goose. two testers were explaining the basic way a cpu works. the first used textbook style definition, (fetch, decode , execute etc) and got a final understanding of 87% after a couple turns. the second used a real world example of a chef, linking it to concepts of a cpu. same level of understanding, expressed differently. the second tester got a score of 36. id built the opposite of wha",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-20T10:30:15.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://hty.sh/",
-      "title": "Show HN: Headless terminal in zig allows AI agents to use interactive CLIs",
-      "link": "https://hty.sh/",
-      "summary": "Article URL: https://hty.sh/ Comments URL: https://news.ycombinator.com/item?id=48210994 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-20T17:18:39.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -5298,6 +5274,42 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-06-09T10:41:14.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://publora.com",
+      "title": "Show HN: Publora – One API/MCP for AI agents to post across 10 social networks",
+      "link": "https://publora.com",
+      "summary": "Article URL: https://publora.com Comments URL: https://news.ycombinator.com/item?id=48474574 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-10T11:14:23.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+      "title": "Can tech companies learn to love cheaper AI models?",
+      "link": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+      "summary": "Article URL: https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/ Comments URL: https://news.ycombinator.com/item?id=48474426 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-10T10:55:59.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/bilalnaseer/wsp-wordpress-mcp",
+      "title": "WSP WordPress MCP – Connect AI Coding Agents to WordPress",
+      "link": "https://github.com/bilalnaseer/wsp-wordpress-mcp",
+      "summary": "Article URL: https://github.com/bilalnaseer/wsp-wordpress-mcp Comments URL: https://news.ycombinator.com/item?id=48474367 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-10T10:48:12.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5962,18 +5974,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.19127",
-      "title": "POLAR-Bench: A Diagnostic Benchmark for Privacy-Utility Trade-offs in LLM Agents",
-      "link": "https://arxiv.org/abs/2605.19127",
-      "summary": "arXiv:2605.19127v1 Announce Type: new Abstract: LLM agents increasingly have access to private user data and act on the user's behalf when interacting with third-party systems. The user defines what may and must not be shared, and the agent must robustly follow that intent even when third-party systems behave adversarially. We introduce POLAR-Bench (Policy-aware adversarial Benchmark), in which a trusted model with a privacy policy and a task converses with a third-party model that adversarially probes for both task-relevant and protected attributes. Across 10 domains and 7,852 samples, we score privacy and utility by deterministic set-membership and vary privacy policy dimension and attack strategy along two orthogonal axes, producing a 5 times 5 diagnostic surface per model. Our results reveal a sharp split: current frontier models withhold over 99% of protected attributes, while smaller open-weight models in the 1--30B range, the class users most commonly run as their own trusted agent on-device or via private inference, score notably worse, with the weakest leaking over half. POLAR-Bench thus localizes where each model's intent-following breaks down, providing a foothold for privacy alignment where it matters most.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-05-20T04:00:00.000Z",
-      "score": 149.94,
-      "status": "queued"
-    },
-    {
       "id": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
       "title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
       "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
@@ -6067,6 +6067,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-05-28T04:00:00.000Z",
       "score": 142.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.10209",
+      "title": "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
+      "link": "https://arxiv.org/abs/2606.10209",
+      "summary": "arXiv:2606.10209v1 Announce Type: new Abstract: Large language models deployed as autonomous agents for enterprise workflows face a key challenge: verbose tool responses from enterprise systems can cause context overflow, stale-state errors, and high inference cost. We study this problem in automated expense itemization in Microsoft Dynamics 365 Finance and Operations using Model Context Protocol tools. We evaluate four GPT-5 configurations on a 50-task hotel expense benchmark: no user model, full conversation history, context pruned to the last 5 tool call/response pairs, and pruning with automated summarization. Results are averaged across 5 independent runs, with the user model held constant for the context-engineering comparison. The no-user-model baseline achieves only 8.0% complete itemization. Full-context retention improves completion to 71.0%, but consumes 1,480,996 tokens and 14.56 hours per benchmark. Pruning to the last 5 tool calls improves completion to 79.0% while reducing token use to 535,274 and runtime to 5.39 hours. Adding summarization achieves the best result: 91.6% complete itemization and 99.64% average amount itemized, with 553,374 tokens and 5.79 hours. We further report confidence intervals, effect-size analysis, sensitivity over pruning and summary windows, failure analysis, results across five expense types grouped into three categories, and cross-mo",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "score": 141.99,
       "status": "queued"
     },
     {
@@ -6622,30 +6634,6 @@
       "status": "queued"
     },
     {
-      "id": "https://domainalot.substack.com/p/the-great-domain-illusion-why-legacy",
-      "title": "The Expired Domain Trap: Why Legacy SEO Metrics Fail in the Age of AI Agents",
-      "link": "https://domainalot.substack.com/p/the-great-domain-illusion-why-legacy",
-      "summary": "Article URL: https://domainalot.substack.com/p/the-great-domain-illusion-why-legacy Comments URL: https://news.ycombinator.com/item?id=48204875 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-20T08:52:35.000Z",
-      "score": 120.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.19035",
-      "title": "Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On",
-      "link": "https://arxiv.org/abs/2605.19035",
-      "summary": "arXiv:2605.19035v1 Announce Type: new Abstract: The rapid advancement of Large Language Models has given rise to autonomous LLM-based agents capable of complex reasoning and execution. As these agents transition from isolated operation to collaborative ecosystems, we witness the emergence of the Agent-to-Agent (A2A) network, a paradigm where heterogeneous agents autonomously coordinate to solve multi-step tasks. While these networks may offer better task performance compared to simply using one agent to complete the entire task, they introduce systemic vulnerabilities, such as adversarial composition, semantic misalignment, and cascading operational failures, that existing agent alignment techniques cannot address. In this vision paper, we argue that the trustworthiness of A2A networks cannot be fully guaranteed via retrofitting on existing protocols that are largely designed for individual agents. Rather, it must be architected from the very beginning of the A2A coordination framework. We present a comprehensive conceptual framework that situates trust in A2A systems through four design pillars.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-05-20T04:00:00.000Z",
-      "score": 119.94,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2605.20530",
       "title": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents",
       "link": "https://arxiv.org/abs/2605.20530",
@@ -6658,18 +6646,6 @@
       "status": "queued"
     },
     {
-      "id": "https://autoagentprotocol.org/",
-      "title": "Auto Agent Protocol – an A2A vertical for AI agents buying cars",
-      "link": "https://autoagentprotocol.org/",
-      "summary": "Article URL: https://autoagentprotocol.org/ Comments URL: https://news.ycombinator.com/item?id=48204856 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-20T08:51:07.000Z",
-      "score": 119.28,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2605.28965",
       "title": "Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes",
       "link": "https://arxiv.org/abs/2605.28965",
@@ -6679,6 +6655,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "score": 118.39,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.10044",
+      "title": "Business World Model",
+      "link": "https://arxiv.org/abs/2606.10044",
+      "summary": "arXiv:2606.10044v1 Announce Type: new Abstract: Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services. However, the transformative potential of AI extends beyond automating predefined tasks: it lies in enabling intelligent systems to plan, optimize, and execute business initiatives from high-level strategic objectives. This paper introduces the concept and architecture of a business world model (BWM), a world model specialized for business and organizational environments. Inspired by world models in artificial intelligence, cognitive science, and control theory, a BWM encodes business states, dynamics, constraints, objectives, and feasible action space to support autonomous decision-making. We propose a business-semantics-centric formulation in which business states, dynamics and actions are linked to key business entities. Within this framework, agents can simulate alternative action sequences, estimate their effects on future business outcomes, and evaluate trade-offs under uncertainty. The proposed architecture integrates semantic data representations, probabilistic machine learning models, deterministic business rules, and explicit action space into a coherent structure for planning and counterfactual reasoning. Although its individual components are not new, the contribution of BWM lies in organizing",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "score": 117.99,
       "status": "queued"
     },
     {
@@ -6886,6 +6874,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.10334",
+      "title": "Self-Distillation Policy Optimization via Visual Feedback: Bridging Code and Visual Artifacts",
+      "link": "https://arxiv.org/abs/2606.10334",
+      "summary": "arXiv:2606.10334v1 Announce Type: new Abstract: Code-generating large language models (LLMs) increasingly produce visual artifacts such as charts, web pages, and slides by writing programs that are executed by non-differentiable renderers, committing to code before observing the render. As a result, otherwise executable code often yields artifacts with visually salient defects, including overlapping elements, clipped text, broken alignment, low contrast, and overflow. We study visual-feedback self-distillation for code-generated visual artifacts. We propose Visual-SDPO, a self-distillation policy-optimization framework that treats rendered visual feedback as privileged context for a weight-sharing teacher and distills this feedback into a coding student. To make supervision spatially targeted rather than uniform, we introduce Visual-Grounded Code Credit Weighting, which traces each detected defect back to the code statements responsible for the affected elements and amplifies the distillation signal on those statements. A sequence-level GRPO (Group Relative Policy Optimization) term complements the dense token-level objective by rewarding executable, visually high-quality rollouts, while failed executions remain learnable through the self-distillation path by passing execution errors as privileged context to the teacher. We instantiate Visual-SDPO for chart, web/UI, and slide g",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "score": 111.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48473925",
+      "title": "Show HN: SeaTicket – Resolve GitHub Issues Using AI Agent",
+      "link": "https://news.ycombinator.com/item?id=48473925",
+      "summary": "https://seaticket.ai/github-issues-resolving/ Comments URL: https://news.ycombinator.com/item?id=48473925 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-10T09:54:59.000Z",
+      "score": 111.64,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.22883",
       "title": "Energy per Successful Goal: Goal-Level Energy Accounting for Agentic AI Systems",
       "link": "https://arxiv.org/abs/2605.22883",
@@ -7078,6 +7090,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.10254",
+      "title": "RealMath-Eval: Why SOTA Judges Struggle with Real Human Reasoning",
+      "link": "https://arxiv.org/abs/2606.10254",
+      "summary": "arXiv:2606.10254v1 Announce Type: new Abstract: While Large Language Models (LLMs) have achieved near-perfect performance in \\emph{solving} high-school mathematics, their ability to \\emph{evaluate} the diverse reasoning processes of real human students remains under-examined. To bridge this gap, we introduce \\textbf{RealMath-Eval}, a rigorously annotated benchmark of 224 real-world exam responses from high schools. Our initial evaluation reveals that even state-of-the-art LLM judges struggle significantly on this task, exhibiting a high Mean Squared Error ($\\sim$2.96) against expert human grading. To probe a plausible explanation, we contrast this performance with a control setting where the same judges evaluate synthetic LLM-generated solutions. We identify a stark ``Evaluation Gap'': judges are considerably more accurate and consistent on synthetic text (MSE $\\sim$1.17) but struggle to generalize to authentic student reasoning. Through semantic embedding analysis, we find that synthetic errors suffer from a ``structural collapse'' into predictable, low-dimensional linear subspaces, whereas human errors form a more diverse error space. Furthermore, generative probability probes suggest that human reasoning involves significantly higher information-theoretic surprisal, indicating that student reasoning transitions are more out-of-distribution for current models. Finally, we fin",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "score": 105.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.10286",
+      "title": "Sim2Schedule: A Simulator-Guided LLM Framework for Autonomous Open-Pit Mine Scheduling",
+      "link": "https://arxiv.org/abs/2606.10286",
+      "summary": "arXiv:2606.10286v1 Announce Type: new Abstract: Open-pit mine scheduling is a critical process for maximizing economic return under complex geotechnical and operational constraints. While Mixed-Integer Linear Programming (MILP) provides mathematically optimal baselines, its exponential computational complexity and inability to adapt in real time limit its practical deployment in dynamic industrial environments. This work introduces a simulator-driven Large Language Model (LLM) scheduling framework in which the LLM acts as an autonomous decision-making agent, guided at each step by a custom simulator that encodes geotechnical precedence, extraction-processing coupling, and dynamic capacity constraints directly into the action generation mechanism. Operating entirely zero-shot within a closed, data-secure environment, the framework produces complete, interpretable extraction and processing schedules without cloud-based inference, domain-specific fine-tuning, or retraining. To provide a trustworthy performance benchmark, a novel MILP formulation is developed that incorporates realistic operational and geotechnical constraints. Evaluated across mining instances of varying scale and time periods, the LLM-based framework recovers between 94\\% and 99\\% of the MILP optimal NPV while scaling linearly in computation time. These results position simulator-constrained LLM agents as a pract",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "score": 105.99,
+      "status": "queued"
+    },
+    {
       "id": "https://www.turingpost.com/p/mario-rodriguez-github-ai-coding-agents-copilot",
       "title": "GitHub's CPO on AI Coding Agents, Macro-Delegation, and the Future of Developers",
       "link": "https://www.turingpost.com/p/mario-rodriguez-github-ai-coding-agents-copilot",
@@ -7099,6 +7135,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "score": 101.51,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.10314",
+      "title": "Mobility Anomaly Generation using LLM-Driven Behavior with Kinematic Constraints",
+      "link": "https://arxiv.org/abs/2606.10314",
+      "summary": "arXiv:2606.10314v1 Announce Type: new Abstract: Although the study of human trajectory anomalies is critical for advancing spatial data mining, empirical research remains severely hindered by a pervasive lack of ground-truth datasets. Despite the availability of several real-world and simulated human trajectory collections, these datasets exclusively capture normal mobility patterns and lack annotated anomalies. This specific scarcity is fundamentally driven by the inherent statistical rarity of anomalous events, precluding the feasibility of conventional observational methods. Compounding this challenge, the systematic acquisition of large-scale mobility data is strictly bottlenecked by prohibitive costs and stringent privacy regulations. To overcome these fundamental limitations and establish a reliable human trajectory anomalies dataset with annotated ground truth, we introduce a novel, end-to-end generative framework designed to synthesize realistic trajectory anomalies at scale. Our architecture bridges the gap between purely synthetic mobility data and complex real-world physical constraints by operating directly on baseline simulated trajectories. We employ Large Language Model (LLM) agents to systematically inject semantically meaningful behavioral anomalies such as irregular out-of-distribution check-ins and skipped routine visits. To ensure rigorous spatial validity,",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "score": 99.99,
       "status": "queued"
     },
     {
@@ -7159,42 +7207,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "score": 95.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.07718",
-      "title": "A case study of evaluating AI agents on a neuroscience data-to-discovery pipeline",
-      "link": "https://arxiv.org/abs/2606.07718",
-      "summary": "arXiv:2606.07718v1 Announce Type: new Abstract: Agentic AI tools offer a promising path to automating software development bottlenecks in scientific research pipelines, particularly for stages that take domain experts days to months to build, where scientists care about correctness and robustness, not implementation details. We present an empirical study of general-purpose coding agents on a fly optogenetics data-to-discovery pipeline. We assess agents on tasks substantially larger than existing benchmarks, datasets orders of magnitude bigger, and evaluation criteria grounded in domain expert standards. We show that agents can solve several individual pipeline stages, suggesting stage-level automation is tractable. By analyzing agents' code iterations, we show that they struggle most when there is not a pre-defined criterion to iterate on, and they must instead use their scientific judgment to assess their current solution, a key open challenge. Mirroring scientific practice, they sometimes attempt visual inspection of intermediate outputs for self-evaluation, but largely fail to interpret what they see or act on it appropriately. Solving the end-to-end pipeline correctly requires stringing together successes across all pipeline stages, and this is beyond agents' current abilities. We identify challenges largely absent from existing benchmarks, including computational resource",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "score": 95.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.07819",
-      "title": "Joint Structural Pruning and Mixed-Precision Quantization for LLM Compression",
-      "link": "https://arxiv.org/abs/2606.07819",
-      "summary": "arXiv:2606.07819v1 Announce Type: new Abstract: Recently, the efficiency of Large Language Models (LLMs) deployment has become a critical concern in practical applications. While post-training quantization (PTQ) and structural pruning are established techniques for reducing memory footprint and inference latency, most existing PTQ approaches optimize quantization errors on a per-layer basis, overlooking how errors accumulate and propagate through the network, often resulting in suboptimal solutions. Traditional pipelines also tend to apply pruning and quantization in isolation or sequentially, further compounding sub-optimality. We introduce a novel end-to-end framework that addresses these limitations in two key ways. First, we propose a novel mixed-precision PTQ strategy that directly minimizes global error propagation across the entire model, rather than isolating layer-wise errors. Building on this, we develop a novel joint optimization approach that simultaneously learns structural pruning decisions and mixed-precision quantization policies within a unified search space. Extensive experiments show that, at ultra-low precisions (1-3 bits), our quantization method reduces WikiText perplexity by up to 21% compared to state-of-the-art (SoTA) weight-activation quantization baselines. Against leading weight-only quantization methods, it achieves up to 59% and 85% lower perplexit",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "score": 95.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.06519",
-      "title": "SafeGene: Reusable Adapters for Transferable Safety Alignment",
-      "link": "https://arxiv.org/abs/2606.06519",
-      "summary": "arXiv:2606.06519v1 Announce Type: new Abstract: Open-weight LLMs are increasingly fine-tuned into customized assistants, but downstream fine-tuning can weaken safety alignment and make models more vulnerable to malicious prompts, even when the training data is not intentionally harmful. This creates a recurring safety recovery problem as target models are repeatedly updated with new task data or user interactions. We propose SafeGene, a reusable safety-adapter module designed for cross-task reuse within each architecture-compatible model family. Rather than treating safety recovery as a model-specific repair step, SafeGene treats safety capability as an independent, reusable adapter representation decoupled from task-specific updates. This representation is obtained from aligned--degraded model discrepancies, refined into task-transferable safety vectors through data-aware layer selection, and expressed in each downstream task-adapted model via few-shot layer-wise coefficient recalibration. Experiments across multiple model families, downstream tasks, and safety judges show that SafeGene-enhanced models reduce harmful response rates while maintaining downstream performance, outperforming representative safe adaptation methods in safety--utility trade-off.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "score": 92.37,
       "status": "queued"
     },
     {
@@ -8028,38 +8040,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-05-11T17:24:14.663Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://sungeuns.github.io/founation-model-engineering/",
-      "title": "Foundation Model Engineering: A free textbook for AI engineers",
-      "link": "https://sungeuns.github.io/founation-model-engineering/",
-      "summary": "Article URL: https://sungeuns.github.io/founation-model-engineering/ Comments URL: https://news.ycombinator.com/item?id=47850576 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-21T15:55:58.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-11T10:52:36.974Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
-      "title": "Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure",
-      "link": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
-      "summary": "OpenAI CEO Sam Altman and Microsoft CTO Kevin Scott. | Image: Getty Images When OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI partnership. Court documents from the ongoing Musk v. Altman trial have provided a rare look at the communications between Microsoft's top executives about investing in OpenAI and fears…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-08T15:25:02.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-11T10:52:36.974Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }
