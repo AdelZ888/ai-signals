@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-06-10T18:02:57.541Z",
+  "generatedAt": "2026-06-11T18:27:32.831Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-11-wsp-wordpress-mcp-connector-to-mediate-ai-coding-agents-with-wordpress",
+      "title": "wsp-wordpress-mcp: Connector to mediate AI coding agents with WordPress",
+      "date": "2026-06-11",
+      "excerpt": "Step-by-step guide to deploy the open-source wsp-wordpress-mcp connector that mediates AI coding agents for WordPress, centralizing authentication, logging, and staged rollout checks.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-11-wsp-wordpress-mcp-connector-to-mediate-ai-coding-agents-with-wordpress.jpg",
+      "tags": [
+        "wordpress",
+        "ai-agents",
+        "github",
+        "integration",
+        "deployment",
+        "developer-workflow"
+      ],
+      "sources": [
+        "https://github.com/bilalnaseer/wsp-wordpress-mcp"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-10-hty-persistent-pty-sessions-let-ai-agents-drive-interactive-clis",
       "title": "hty: persistent PTY sessions let AI agents drive interactive CLIs",
