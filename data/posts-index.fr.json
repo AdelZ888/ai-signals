@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-12T17:46:30.842Z",
+  "generatedAt": "2026-06-13T16:46:23.313Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-13-verify-ai-agent-session-integrity-offline-with-akmon-and-openssl",
+      "title": "Vérifier l'intégrité d'une session d'agent IA en local avec Akmon et OpenSSL",
+      "date": "2026-06-13",
+      "excerpt": "Akmon propose une couche d'evidence tamper‑evident (preuve inviolable) pour signer une session d'agent IA (JSON + signature détachée) et vérifier son intégrité hors ligne avec OpenSSL, sans cloud ni lock‑in.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-13-verify-ai-agent-session-integrity-offline-with-akmon-and-openssl.jpg",
+      "tags": [
+        "akmon",
+        "OpenSSL",
+        "sécurité",
+        "audit",
+        "agents IA",
+        "POC",
+        "preuve",
+        "vérification"
+      ],
+      "sources": [
+        "https://github.com/radotsvetkov/akmon"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-06-12-45-minute-audit-to-verify-claims-that-elon-musk-exceeded-dollar1-trillion-after-spacexs-spcx-ipo",
       "title": "Audit de 45 minutes pour vérifier la revendication selon laquelle Elon Musk a dépassé 1 000 milliards $ après l'IPO SPCX de SpaceX",
