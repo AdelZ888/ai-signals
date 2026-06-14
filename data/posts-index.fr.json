@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:58:23.976Z",
+  "generatedAt": "2026-06-14T16:26:43.362Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-14-tribeca-2026-studios-train-custom-visual-models-on-owned-concept-art-for-consistent-cinematic-visuals",
+      "title": "Tribeca 2026 — Construire un pipeline d’IA visuelle entraîné sur le concept art studio pour des visuels cinématographiques cohérents",
+      "date": "2026-06-14",
+      "excerpt": "Compte rendu et guide: au Tribeca Film Festival 2026, des équipes qui ont entraîné de petits modèles visuels sur des assets appartenant aux studios ont obtenu des visuels cinématographiques plus cohérents qu’avec des modèles publics et des prompts. Ce guide explique comment prototyper un pipeline auditable, gérer la propriété des assets et introduire une revue humaine avant production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-14-tribeca-2026-studios-train-custom-visual-models-on-owned-concept-art-for-consistent-cinematic-visuals.jpg",
+      "tags": [
+        "IA",
+        "vision",
+        "studio",
+        "workflow",
+        "propriété-intellectuelle",
+        "Tribeca2026",
+        "modèles-personnalisés",
+        "prototypage"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-06-13-verify-ai-agent-session-integrity-offline-with-akmon-and-openssl",

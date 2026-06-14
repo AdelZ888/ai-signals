@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-14T10:58:23.987Z",
+  "generatedAt": "2026-06-14T16:26:43.420Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "title": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "summary": "Concept art from Dear Upstairs Neighbors that used to train custom builds of Google’s Veo and Imagen models. | Image: Google DeepMind For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still onl…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-13T11:00:00.000Z",
+      "score": 89.06,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-14T16:26:43.344Z",
+      "file": "content/posts/2026-06-14-tribeca-2026-studios-train-custom-visual-models-on-owned-concept-art-for-consistent-cinematic-visuals.md",
+      "fileFr": "content/posts/fr/2026-06-14-tribeca-2026-studios-train-custom-visual-models-on-owned-concept-art-for-consistent-cinematic-visuals.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1242,
+      "wordsFr": 1329
+    },
     {
       "id": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
       "title": "Anthropic releases its first Mythos-class model Claude Fable",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1283
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47048811",
-      "title": "Show HN: Voicetest – open-source test harness for voice AI agents",
-      "link": "https://news.ycombinator.com/item?id=47048811",
-      "summary": "We've been building voice agents across Retell, VAPI, LiveKit, and Bland, and the testing story is... rough. Every platform has its own config format, there's no shared way to define what \"correct\" looks like, and most teams end up doing manual QA by literally calling their agent and listening. So we built voicetest. voicetest is an open source (Apache 2.0) test harness that works across voice AI platforms. You impo…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-17T15:49:09.000Z",
-      "score": 198,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-17T15:56:35.057Z",
-      "file": "content/posts/2026-02-17-voicetest-open-source-test-harness-that-unifies-retell-vapi-livekit-and-bland-via-an-agentgraph-ir.md",
-      "fileFr": "content/posts/fr/2026-02-17-voicetest-open-source-test-harness-that-unifies-retell-vapi-livekit-and-bland-via-an-agentgraph-ir.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1498,
-      "wordsFr": 1437
-    },
-    {
       "id": "https://www.theguardian.com/technology/2026/may/28/anthropic-ai-valuation",
       "title": "Anthropic reaches $965B valuation, surpassing OpenAI as most valuable AI firm",
       "link": "https://www.theguardian.com/technology/2026/may/28/anthropic-ai-valuation",
@@ -5286,6 +5286,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-06-13T15:34:53.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.r-lopes.com/posts/2026-06-11-why-agents-dont-scale",
+      "title": "Why Agents Don't Scale: It's an Engineering Problem, Not an AI Problem",
+      "link": "https://blog.r-lopes.com/posts/2026-06-11-why-agents-dont-scale",
+      "summary": "Article URL: https://blog.r-lopes.com/posts/2026-06-11-why-agents-dont-scale Comments URL: https://news.ycombinator.com/item?id=48528948 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-14T16:17:04.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5610,18 +5622,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-06T15:38:12.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48444008",
-      "title": "With Copilot pricing exploding, how to not break the bank with AI coding?",
-      "link": "https://news.ycombinator.com/item?id=48444008",
-      "summary": "What are folks using to optimize spend without handing in too much on quality? Comments URL: https://news.ycombinator.com/item?id=48444008 Points: 2 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-08T11:30:39.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -6226,6 +6226,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/DietrichGebert/ponytail",
+      "title": "Ponytail – make your AI agent think like the laziest senior dev in the room",
+      "link": "https://github.com/DietrichGebert/ponytail",
+      "summary": "Article URL: https://github.com/DietrichGebert/ponytail Comments URL: https://news.ycombinator.com/item?id=48527946 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-14T15:08:17.000Z",
+      "score": 134.58,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/eunomia-bpf/agentsight",
       "title": "AgentSight: System-wide AI agent tracing and monitoring with eBPF",
       "link": "https://github.com/eunomia-bpf/agentsight",
@@ -6247,18 +6259,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-12T10:04:38.000Z",
       "score": 133.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://stripe.dev/blog/ai-steering-experiments",
-      "title": "You can't whisper at an AI agent",
-      "link": "https://stripe.dev/blog/ai-steering-experiments",
-      "summary": "Article URL: https://stripe.dev/blog/ai-steering-experiments Comments URL: https://news.ycombinator.com/item?id=48257684 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-24T14:46:57.000Z",
-      "score": 133.45,
       "status": "queued"
     },
     {
@@ -6766,6 +6766,18 @@
       "status": "queued"
     },
     {
+      "id": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "summary": "Article URL: https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/ Comments URL: https://news.ycombinator.com/item?id=48527108 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-14T13:38:50.000Z",
+      "score": 116.31,
+      "status": "queued"
+    },
+    {
       "id": "https://www.forbes.com/sites/aliciapark/2026/05/25/anthropic-billionaire-cofounder-joins-pope-leo-warns-ai-job-losses-will-spark-moral-imperative-of-historic-proportions/",
       "title": "Anthropic Cofounder Joins Pope Leo, Warns of AI Job Losses",
       "link": "https://www.forbes.com/sites/aliciapark/2026/05/25/anthropic-billionaire-cofounder-joins-pope-leo-warns-ai-job-losses-will-spark-moral-imperative-of-historic-proportions/",
@@ -6847,6 +6859,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-05-25T09:43:19.000Z",
       "score": 114.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://aceloop.ai/security-model",
+      "title": "The most secure AI interview copilot currently on the market",
+      "link": "https://aceloop.ai/security-model",
+      "summary": "Article URL: https://aceloop.ai/security-model Comments URL: https://news.ycombinator.com/item?id=48527559 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-14T14:31:57.000Z",
+      "score": 113.83,
       "status": "queued"
     },
     {
@@ -7126,15 +7150,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
-      "title": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
-      "summary": "Concept art from Dear Upstairs Neighbors that used to train custom builds of Google’s Veo and Imagen models. | Image: Google DeepMind For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of churning out short bursts of visually inconsistent footage. And some of Hollywood's biggest AI partnerships have suddenly evaporated in ways that make it seem like studios might not be able to rely on the new technology coming out of Silicon Valley. For the most part, short-form video slop appears to be the only thing that major production houses ar … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-13T11:00:00.000Z",
-      "score": 89.06,
+      "id": "https://news.ycombinator.com/item?id=48527480",
+      "title": "I built a bookkeeping app for UK sole traders as a new developer using AI",
+      "link": "https://news.ycombinator.com/item?id=48527480",
+      "summary": "About a month ago I started building QuarterPerfect — a bookkeeping tool aimed at UK sole traders and landlords, specifically designed around the MTD ITSA changes coming into effect this year (first quarterly deadline: 7 August). A bit of background on me firstly. I'm not a senior developer. My previous project was a small roster app that converted an XLSX shift rota into a calendar with annual leave support — mostly built for me and a few colleagues at work. Nothing with real users, nothing with payments or compliance requirements. QuarterPerfect is a significant step up from that. QuarterPerfect offers users bank statement import (CSV and PDF), transaction categorization with receipt matching, merchant rules for auto-categorizing recurring transactions, and a read-only accountant share link so clients can hand off clean records without chasing. It's web-first with a mobile app in testing. The technical side was challenging but learnable. The harder thing was building in a domain I have no real background in. The HMRC/MTD space has a lot of nuance, treatment of different income types, what \"quarterly updates\" actually mean vs the annual return, what accountants need vs what HMRC needs. Getting that wrong isn't a UX problem, it's a liability problem. The second hard thing was learning to work effectively with AI assistance. I used Claude and Perplexity heavily throughout. Early",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-14T14:24:30.000Z",
+      "score": 91.63,
       "status": "queued"
     },
     {
@@ -7162,40 +7186,36 @@
       "status": "queued"
     },
     {
-      "id": "https://www.lesswrong.com/posts/gNtHHCh363xSGJyz3/anthropic-is-taking-ai-welfare-seriously-i-m-not-sure-it",
-      "title": "Anthropic Is Taking AI Welfare Seriously. I'm Not Sure It Knows What It's Measu",
-      "link": "https://www.lesswrong.com/posts/gNtHHCh363xSGJyz3/anthropic-is-taking-ai-welfare-seriously-i-m-not-sure-it",
-      "summary": "Article URL: https://www.lesswrong.com/posts/gNtHHCh363xSGJyz3/anthropic-is-taking-ai-welfare-seriously-i-m-not-sure-it Comments URL: https://news.ycombinator.com/item?id=48524876 Points: 2 # Comments: 0",
+      "id": "https://news.ycombinator.com/item?id=48528665",
+      "title": "Ask HN: Is anyone building real software with AI agents?",
+      "link": "https://news.ycombinator.com/item?id=48528665",
+      "summary": "I've noticed a pattern where the people who are talking about how impressive their agentic workflows are, always seem to use these workflows to build more AI tooling. Has anyone seen a project built by an agentic workflow that could stand on its own? Comments URL: https://news.ycombinator.com/item?id=48528665 Points: 2 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-14T15:56:52.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-14T16:21:20.719Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48444008",
+      "title": "With Copilot pricing exploding, how to not break the bank with AI coding?",
+      "link": "https://news.ycombinator.com/item?id=48444008",
+      "summary": "What are folks using to optimize spend without handing in too much on quality? Comments URL: https://news.ycombinator.com/item?id=48444008 Points: 2 # Comments: 3",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 2,
-      "publishedAt": "2026-06-14T07:04:45.000Z",
-      "score": 68.89,
-      "status": "queued"
-    },
-    {
-      "id": "https://graph.coder.company/",
-      "title": "I accidentally hit SOTA on agentic memory by using AI companions",
-      "link": "https://graph.coder.company/",
-      "summary": "Article URL: https://graph.coder.company/ Comments URL: https://news.ycombinator.com/item?id=48524870 Points: 2 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-14T07:03:45.000Z",
-      "score": 68.74,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "title": "New OpenAI Academy courses for the next era of work",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-12T10:00:00.000Z",
-      "score": 62.46,
-      "status": "queued"
+      "publishedAt": "2026-06-08T11:30:39.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-14T16:21:20.719Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://www.theregister.com/ai-ml/2026/05/26/rogue-states-are-putting-ai-agents-to-work-on-sanctions-evasion/5246210",
