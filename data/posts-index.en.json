@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T13:53:07.681Z",
+  "generatedAt": "2026-06-15T19:09:48.247Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-15-implement-a-webhook-approval-gate-for-ai-agents-and-zapier",
+      "title": "Implement a webhook approval gate for AI agents and Zapier",
+      "date": "2026-06-15",
+      "excerpt": "Build a small webhook 'gate' that intercepts AI agent calls to Zapier, pauses risky automations for human approval, records immutable audit logs, and applies a decision table.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-15-implement-a-webhook-approval-gate-for-ai-agents-and-zapier.jpg",
+      "tags": [
+        "agents",
+        "governance",
+        "webhook",
+        "Zapier",
+        "Orka",
+        "approval",
+        "audit",
+        "tutorial"
+      ],
+      "sources": [
+        "https://orka.ia.br/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-06-14-anthropic-releases-claude-fable-5-first-public-mythos-class-model-with-engineered-response-blocking",

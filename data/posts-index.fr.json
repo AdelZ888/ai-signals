@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T13:53:07.683Z",
+  "generatedAt": "2026-06-15T19:09:48.249Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-15-implement-a-webhook-approval-gate-for-ai-agents-and-zapier",
+      "title": "Implémenter une passerelle d'approbation webhook pour agents IA et Zapier",
+      "date": "2026-06-15",
+      "excerpt": "Construisez une petite « porte » webhook entre vos agents IA et Zapier : interceptez les actions, suspendez les automatisations à risque pour approbation humaine, conservez des logs immuables et appliquez une table de décision. Inspiré du concept d'Operational Control Layer présenté par Orka (https://orka.ia.br/).",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-15-implement-a-webhook-approval-gate-for-ai-agents-and-zapier.jpg",
+      "tags": [
+        "IA",
+        "agents",
+        "webhooks",
+        "gouvernance",
+        "Orka",
+        "Zapier",
+        "sécurité",
+        "observabilité"
+      ],
+      "sources": [
+        "https://orka.ia.br/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-06-14-anthropic-releases-claude-fable-5-first-public-mythos-class-model-with-engineered-response-blocking",
