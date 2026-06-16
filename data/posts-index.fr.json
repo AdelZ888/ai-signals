@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-06-15T19:09:48.249Z",
+  "generatedAt": "2026-06-16T19:03:18.618Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-16-zehn-zig-cli-to-fuzzy-search-and-reopen-prompts-across-claude-codex-pi-and-opencode-histories",
+      "title": "Zehn : CLI en Zig pour recherche floue et réouverture de prompts dans les historiques Claude, Codex, Pi et Opencode",
+      "date": "2026-06-16",
+      "excerpt": "Zehn est un petit outil CLI écrit en Zig qui lit les historiques de Claude, Codex, Pi et Opencode, normalise et déduplicate les prompts, puis propose une recherche floue à la manière de fzf et restaure la session d'origine.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-16-zehn-zig-cli-to-fuzzy-search-and-reopen-prompts-across-claude-codex-pi-and-opencode-histories.jpg",
+      "tags": [
+        "Zig",
+        "CLI",
+        "recherche floue",
+        "historique d'agents",
+        "productivité",
+        "AI"
+      ],
+      "sources": [
+        "https://www.al3rez.com/building-zehn"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-15-anthropic-valued-at-dollar965bn-after-dollar65bn-funding-round-overtaking-openai",
       "title": "Anthropic valorisée à 965 milliards $ après une levée de 65 milliards $ — ce que doivent faire les équipes UK",

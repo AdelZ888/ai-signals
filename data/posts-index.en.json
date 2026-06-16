@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-06-15T19:09:48.247Z",
+  "generatedAt": "2026-06-16T19:03:18.616Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-16-zehn-zig-cli-to-fuzzy-search-and-reopen-prompts-across-claude-codex-pi-and-opencode-histories",
+      "title": "Zehn: Zig CLI to fuzzy-search and reopen prompts across Claude, Codex, Pi and Opencode histories",
+      "date": "2026-06-16",
+      "excerpt": "Zehn is a small Zig CLI that reads Claude, Codex, Pi and Opencode histories, normalizes and deduplicates prompts, then offers an fzf-style fuzzy search that reopens the original session.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-16-zehn-zig-cli-to-fuzzy-search-and-reopen-prompts-across-claude-codex-pi-and-opencode-histories.jpg",
+      "tags": [
+        "zehn",
+        "zig",
+        "cli",
+        "fuzzy-search",
+        "agent-history",
+        "fzf",
+        "sqlite"
+      ],
+      "sources": [
+        "https://www.al3rez.com/building-zehn"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-06-15-anthropic-valued-at-dollar965bn-after-dollar65bn-funding-round-overtaking-openai",
       "title": "Anthropic valued at $965bn after $65bn funding round, overtaking OpenAI",

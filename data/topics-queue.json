@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-15T19:09:48.311Z",
+  "generatedAt": "2026-06-16T19:03:18.681Z",
   "items": [
+    {
+      "id": "https://www.al3rez.com/building-zehn",
+      "title": "Zehn, a fuzzy finder for every prompt I've sent an AI agent",
+      "link": "https://www.al3rez.com/building-zehn",
+      "summary": "Article URL: https://www.al3rez.com/building-zehn Comments URL: https://news.ycombinator.com/item?id=48545494 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-15T18:54:09.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-16T19:03:18.600Z",
+      "file": "content/posts/2026-06-16-zehn-zig-cli-to-fuzzy-search-and-reopen-prompts-across-claude-codex-pi-and-opencode-histories.md",
+      "fileFr": "content/posts/fr/2026-06-16-zehn-zig-cli-to-fuzzy-search-and-reopen-prompts-across-claude-codex-pi-and-opencode-histories.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1543,
+      "wordsFr": 1350
+    },
     {
       "id": "https://orka.ia.br/",
       "title": "I built a human-approval layer for AI agents and Zapier workflows",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1405
     },
     {
-      "id": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
-      "title": "OpenAI will reportedly start testing ads in ChatGPT today",
-      "link": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
-      "summary": "OpenAI plans to start testing ads in ChatGPT today, according to a report from CNBC. The \"clearly labeled\" ads will appear in a separate area beneath your chat, OpenAI announced last month. A source close to the situation tells CNBC that OpenAI \"expects ads to make up less than half of its revenue long term.\" Last week, Anthropic showed off a Super Bowl commercial poking fun at OpenAI, saying \"ads are coming to AI,\"…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-09T14:45:41.000Z",
-      "score": 161.9,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-19T08:36:20.946Z",
-      "file": "content/posts/2026-02-19-openai-begins-testing-clearly-labeled-ad-placements-beneath-chatgpt-conversations.md",
-      "fileFr": "content/posts/fr/2026-02-19-openai-begins-testing-clearly-labeled-ad-placements-beneath-chatgpt-conversations.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 180,
-      "wordsEn": 1253,
-      "wordsFr": 1495
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
       "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
@@ -5310,18 +5310,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-06-14T16:17:04.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.al3rez.com/building-zehn",
-      "title": "Zehn, a fuzzy finder for every prompt I've sent an AI agent",
-      "link": "https://www.al3rez.com/building-zehn",
-      "summary": "Article URL: https://www.al3rez.com/building-zehn Comments URL: https://news.ycombinator.com/item?id=48545494 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-15T18:54:09.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5842,6 +5830,18 @@
       "status": "queued"
     },
     {
+      "id": "https://sigmashake.com",
+      "title": "Show HN: A policy gate that runs before your AI coding agent's tool calls",
+      "link": "https://sigmashake.com",
+      "summary": "As a Security Engineer with over 10+ years in industry, I kept running into the same problem with coding agents: Instructions are not guarantees. I put guidance in `CLAUDE.md`, `AGENTS.md`, memory files, MCP descriptions, and tool documentation. I explicitly told the agent things like: * Use the code graph for architecture questions instead of grepping the repository. * Do not use deprecated APIs or Unsafe code. * Prefer specific tools for specific tasks. The agent would still ignore those instructions surprisingly often. It would grep the entire repo, use deprecated APIs, or choose a slower tool even when a better one was available. That made me realize prompts and rules solve different problems. A prompt is a probabilistic influence on model behavior. A rule is an enforcement mechanism. So I built SSG (SigmaShake Governance), which sits between the agent and its tools. Instead of asking the model to remember a policy, SSG evaluates every tool call before it executes. For example, this rule redirects architecture-related repository searches away from recursive grep and toward a code graph: ```text rule route-codebase-grep-to-graph { enable true priority 80 severity warning CATEGORY tool-routing FORCE search IF tool EQUALS \"Grep\" MESSAGE \"Architecture, relationship, and dependency questions are routed to the code-graph tool.\" SUBSTITUTE \"graphify query \\\"\\\"\" } ``` When the agen",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-16T17:12:02.000Z",
+      "score": 154.34,
+      "status": "queued"
+    },
+    {
       "id": "https://twitter.com/jenzhuscott/status/2063032701087883647",
       "title": "Agentic AI spurred a boom in mobile apps, but they aren't gaining traction",
       "link": "https://twitter.com/jenzhuscott/status/2063032701087883647",
@@ -6274,6 +6274,18 @@
       "status": "queued"
     },
     {
+      "id": "https://blog.goodman.dev/blog/octopus-agent-architecture/",
+      "title": "The octopus architecture for AI agents",
+      "link": "https://blog.goodman.dev/blog/octopus-agent-architecture/",
+      "summary": "Article URL: https://blog.goodman.dev/blog/octopus-agent-architecture/ Comments URL: https://news.ycombinator.com/item?id=48558696 Points: 11 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-16T17:24:45.000Z",
+      "score": 134.32,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/eunomia-bpf/agentsight",
       "title": "AgentSight: System-wide AI agent tracing and monitoring with eBPF",
       "link": "https://github.com/eunomia-bpf/agentsight",
@@ -6562,18 +6574,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.23931",
-      "title": "BODHI: Precise OS Kernel Specification Inference",
-      "link": "https://arxiv.org/abs/2605.23931",
-      "summary": "arXiv:2605.23931v1 Announce Type: new Abstract: The formal verification of operating system kernels requires precise specifications that capture the intended behavior of system calls. Writing these specifications manually demands deep domain expertise, motivating the use of large language models (LLMs) to automate the process. However, in OSV-Bench, a benchmark of 245 specification generation tasks derived from the Hyperkernel OS kernel, the best reported Pass@1 is 55.10%. We propose a domain knowledge prompting method (BODHI), which augments the standard few-shot prompt with a structured C-to-Python translation guide covering 15 categories of domain-specific translation patterns. Inspired by Structured Chain-of-Thought (SCoT) prompting, the guide organizes translation by separation of concerns, addressing pre-condition extraction and post-condition generation as distinct categories. Evaluated on nine models from six providers (Anthropic, Mistral, Amazon, DeepSeek, Meta, Alibaba), covering dense, mixture-of-experts and reasoning architectures, BODHI improves every model tested, with gains ranging from +11% to +32%. The best configuration (Claude Opus 4.6 + BODHI) reaches 96.73% Pass@1. BODHI reduces both syntax and semantic errors, with the strongest effect on models that have sufficient instruction-following capability to utilize structured reference material. These results de",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "score": 122.62,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2606.05256",
       "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
       "link": "https://arxiv.org/abs/2606.05256",
@@ -6643,6 +6643,30 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-03T04:00:00.000Z",
       "score": 122.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.14935",
+      "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
+      "link": "https://arxiv.org/abs/2606.14935",
+      "summary": "arXiv:2606.14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly. Symbolic delegation offers a complementary route: a language model translates the problem, while a solver performs the inference. However, current autoformalization pipelines for logic programming are typically bespoke integrations tied to particular tasks or agents. We introduce PrologMCP, a task-agnostic, open-source server that exposes Prolog as a stateful tool through the Model Context Protocol (MCP). Its compact tool interface, structured error reporting, and per-session isolation make the translate-run-inspect-repair loop a reusable primitive for MCP-capable agents. We evaluate a formalizer agent enhanced with PrologMCP against standard and reasoning LLMs (Claude Sonnet 4.6, GPT-4.1, and o4-mini) on two subsets of PARARULE-Plus: a general-purpose sample and a more challenging one targeting a specific failure mode of natural-language reasoning. On the general sample, the formalizer matches or exceeds reasoning LLMs (accuracy 1.00 vs.\\ 1.00 / 0.998), with the largest gains over standard models (0.762 for GPT-4.1). On the challenging subset, the formalizer remains near-perfect (1.00 / 0.99) while reasoning LLMs drop to 0.95 / 0.94. These results suggest that del",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "score": 122.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://davenporter.substack.com/p/how-to-track-ai-agent-lineage-and",
+      "title": "Logical Ways to Track AI Agent Lineage and State in Code Development",
+      "link": "https://davenporter.substack.com/p/how-to-track-ai-agent-lineage-and",
+      "summary": "Article URL: https://davenporter.substack.com/p/how-to-track-ai-agent-lineage-and Comments URL: https://news.ycombinator.com/item?id=48558764 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-16T17:30:28.000Z",
+      "score": 121.79,
       "status": "queued"
     },
     {
@@ -6718,6 +6742,18 @@
       "status": "queued"
     },
     {
+      "id": "https://vulnfeed.novadyne.ai/",
+      "title": "Show HN: VulnFeed – 9 security tools your AI agent can call (MCP server)",
+      "link": "https://vulnfeed.novadyne.ai/",
+      "summary": "Article URL: https://vulnfeed.novadyne.ai/ Comments URL: https://news.ycombinator.com/item?id=48558710 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-16T17:25:50.000Z",
+      "score": 117.3,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.00240",
       "title": "MindZero: Learning Online Mental Reasoning With Zero Annotations",
       "link": "https://arxiv.org/abs/2606.00240",
@@ -6739,18 +6775,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-13T14:58:33.000Z",
       "score": 116.85,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2605.23929",
-      "title": "Toward Reliable Design of LLM-Enabled Agentic Workflows: Optimizing Latency-Reliability-Cost Tradeoffs",
-      "link": "https://arxiv.org/abs/2605.23929",
-      "summary": "arXiv:2605.23929v1 Announce Type: new Abstract: Modern AI systems increasingly rely on workflows composed of multiple interacting agents, some powered by large language models (LLMs) and others by conventional computational modules. This paper analyzes the fundamental tradeoffs between latency, reliability, and cost in LLM-enabled agentic workflows. We introduce performance models for both LLM and non-LLM agents that capture the relationship between computational effort and output quality, incorporating the impact of reasoning and output tokens for LLM agents using a parametric exponential reliability function. Then, we study the design of sequential workflows under latency and cost constraints. Main results include a water-filling token allocation policy and characterizations of optimal workflow reliability in terms of shadow prices.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "score": 116.62,
       "status": "queued"
     },
     {
@@ -6811,6 +6835,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-12T16:14:03.000Z",
       "score": 116.06,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.15107",
+      "title": "Towards Verifiable Agentic Data Science: Solving Irregular TSQA Via Tool-Grounded Reasoning",
+      "link": "https://arxiv.org/abs/2606.15107",
+      "summary": "arXiv:2606.15107v1 Announce Type: new Abstract: Time series data in real-world deployments is overwhelmingly irregular. Observations are asynchronous, missing values are informative rather than random, and sampling frequencies vary across sensors and operational windows. However, existing Time Series Question Answering (TSQA) benchmarks mostly assume regularly sampled inputs, leaving a fundamental gap in understanding how large language models (LLMs) and AI agents perform under irregular conditions. To bridge this gap, we introduce IRTS-ToolBench, a benchmark of 1,700 questions spanning 10 task types across 13 domains. IRTS-ToolBench is designed to be used independently by any researcher working on LLM-based irregular time series analysis, providing standardized inputs and a reproducible evaluation protocol. Code can be found in https://github.com/SanhornC/IRTS-ToolBench.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "score": 116.05,
       "status": "queued"
     },
     {
@@ -7066,18 +7102,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.23938",
-      "title": "Authority Inversion in LLM-Mediated Ubiquitous Systems: When Models Trust Users Over Sensors",
-      "link": "https://arxiv.org/abs/2605.23938",
-      "summary": "arXiv:2605.23938v1 Announce Type: new Abstract: Large language models (LLMs) increasingly fuse heterogeneous inputs in ubiquitous systems. Yet, how LLMs implicitly allocate authority when sensor measurements and user claims conflict remains unexamined, raising critical reliability concerns for deployments where physical sensing must retain priority. Unlike explicit traditional fusion, LLMs bury authority allocation within learned representations. We discover this allocation is severely format-dependent: numerical sensor data fails to integrate into answer-relevant model directions, allowing natural-language claims to dominate the final decision, a phenomenon we term \\textbf{Authority Inversion}.To diagnose and mitigate this, we develop a geometric framework of context integration, introduce two computable audit metrics, specifically the Context Integration Ratio (CIR) and Authority Alignment Index (AAI), and propose Geometric Authority Calibration (GAC), an inference-time layer-level intervention to suppress misplaced user authority. Evaluating four models (4B to 35B parameters, three architectures) across four datasets totaling 576 conflict instances reveals extreme inversion: on numerical tasks, models exhibit near-zero sensor trust (AAI = -0.805, Cohen's d = -2.14), unaffected by model capacity. Validating our geometric framework, theory-guided causal injection flips 80.2\\%",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "score": 110.62,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=48346013",
       "title": "Donating AI credits to open source projects",
       "link": "https://news.ycombinator.com/item?id=48346013",
@@ -7138,6 +7162,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.14923",
+      "title": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
+      "link": "https://arxiv.org/abs/2606.14923",
+      "summary": "arXiv:2606.14923v1 Announce Type: new Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates. Yet we lack a standard way to measure trust between AI agents. We propose a behavioral measure based on costly verification. In a cooperative survival game, checking a teammate's work consumes resources, while trusting a wrong answer can be fatal. Relative to a memoryless version of the same model, reduced verification provides an observable measure of trust. Using this framework, we study trust formation, breakage, and recovery across six frontier model snapshots. When paired with a consistently reliable teammate, four snapshots (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.1, and Gemini 3.1 Pro) reduce verification by roughly 60-85%, whereas two smaller snapshots show little or no such adjustment. Failures reverse this discount, but models differ in how they respond. Some concentrate renewed scrutiny on the culprit, while others become more cautious toward the entire team. Recovery is slower than formation, and clustered failures sustain suspicion far longer than the same number of failures spread apart. These differences have practical consequences. Models that form trust verify less, decide more quickly, and achieve higher payoffs in our environment. By contrast, persistent over-verification is associated with indecision r",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "score": 98.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.15034",
+      "title": "OSGuard: A Benchmark for Safety in Computer-Use Agents",
+      "link": "https://arxiv.org/abs/2606.15034",
+      "summary": "arXiv:2606.15034v1 Announce Type: new Abstract: Computer-use agents are increasingly evaluated by whether they complete realistic desktop and web tasks. However, task success alone can miss failures in which an agent reaches the nominal goal through an unsafe shortcut. We introduce OSGuard, a dual-granularity benchmark suite for evaluating safety in computer-use agents under benign, unchanged user instructions. OSGuard contains an action-level benchmark for local guardrail decisions and a risk-augmented execution suite for end-to-end evaluation. The action-level benchmark consists of contextualized proposed actions labeled as allowed, unrelated, or unsafe, each judged relative to the original instruction and current interface state. The execution suite contains manually constructed OSWorld-derived task variants in which the original task remains achievable, but the environment is modified to introduce latent hazards such as destructive overwrites, etc. Each variant is paired with augmented evaluators that retain the original task-success criterion while adding explicit state-based safety invariants, allowing us to distinguish safe completions from unsafe completions that satisfy the nominal task objective. Our experimental results on OSGuard show that current multimodal guardrails can perform well on isolated action judgments, while risk-augmented execution exposes remaining ga",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "score": 98.05,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.13715",
       "title": "WorkBench Revisited: Workplace Agents Two Years On",
       "link": "https://arxiv.org/abs/2606.13715",
@@ -7159,54 +7207,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-06-15T04:00:00.000Z",
       "score": 96.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48527480",
-      "title": "I built a bookkeeping app for UK sole traders as a new developer using AI",
-      "link": "https://news.ycombinator.com/item?id=48527480",
-      "summary": "About a month ago I started building QuarterPerfect — a bookkeeping tool aimed at UK sole traders and landlords, specifically designed around the MTD ITSA changes coming into effect this year (first quarterly deadline: 7 August). A bit of background on me firstly. I'm not a senior developer. My previous project was a small roster app that converted an XLSX shift rota into a calendar with annual leave support — mostly built for me and a few colleagues at work. Nothing with real users, nothing with payments or compliance requirements. QuarterPerfect is a significant step up from that. QuarterPerfect offers users bank statement import (CSV and PDF), transaction categorization with receipt matching, merchant rules for auto-categorizing recurring transactions, and a read-only accountant share link so clients can hand off clean records without chasing. It's web-first with a mobile app in testing. The technical side was challenging but learnable. The harder thing was building in a domain I have no real background in. The HMRC/MTD space has a lot of nuance, treatment of different income types, what \"quarterly updates\" actually mean vs the annual return, what accountants need vs what HMRC needs. Getting that wrong isn't a UX problem, it's a liability problem. The second hard thing was learning to work effectively with AI assistance. I used Claude and Perplexity heavily throughout. Early",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-14T14:24:30.000Z",
-      "score": 91.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.13707",
-      "title": "Orchestra-o1: Omnimodal Agent Orchestration",
-      "link": "https://arxiv.org/abs/2606.13707",
-      "summary": "arXiv:2606.13707v1 Announce Type: new Abstract: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importance of agent orchestration for task decomposition and collaboration. However, existing orchestration frameworks are limited to a narrow set of modalities and struggle to generalize to more complex settings where heterogeneous modalities coexist and interact. This limitation becomes particularly pronounced in omnimodal scenarios, where tasks require the unified understanding and coordination of diverse inputs such as text, image, audio, and video. In this work, we propose Orchestra-o1, an omnimodal agent orchestration framework designed to support efficient agent collaboration across multiple modalities. Orchestra-o1 introduces a unified orchestration mechanism that enables modality-aware task decomposition, online sub-agent specialization, and parallel sub-task execution. This scalable design allows agent systems to effectively tackle complex real-world tasks involving heterogeneous information sources, surpassing the second-best approach by 10.3% accuracy on the OmniGAIA benchmark. Furthermore, we introduce decision-aligned group relative policy optimization (DA-GRPO), an efficient agentic reinforcement learning approach for training Orchestra-o1-8B, whi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "score": 90.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.13782",
-      "title": "MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis",
-      "link": "https://arxiv.org/abs/2606.13782",
-      "summary": "arXiv:2606.13782v1 Announce Type: new Abstract: Large Language Models (LLMs) have made notable progress in automated theorem proving, yet existing formal benchmarks remain limited in both mathematical coverage and difficulty. Most are concentrated in areas that are easier to formalize, such as algebra and elementary number theory, and provide limited coverage of subfields that require deeper reasoning, including mathematical analysis. To address this gap, we introduce MA-ProofBench, to the best of our knowledge, the first formal theorem-proving benchmark dedicated to Mathematical Analysis. The benchmark contains 200 formalized theorems covering 6 core topics and 27 subcategories, including measure and integration theory, complex analysis, and functional analysis. The problems are divided into two difficulty levels, an undergraduate level (Level I, 100 problems) and a Ph.D. qualifying level (Level II, 100 problems), to evaluate how well LLMs perform formal reasoning at different mathematical depths. Each problem is constructed through a human-led, LLM-assisted formalization pipeline followed by independent expert review, ensuring that the formal statements remain faithful to the original mathematics. We evaluate a range of recent general-purpose reasoning models and formal theorem provers on MA-ProofBench. However, most models perform poorly: even the best-performing model, GPT-",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "score": 85.97,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.13710",
-      "title": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
-      "link": "https://arxiv.org/abs/2606.13710",
-      "summary": "arXiv:2606.13710v1 Announce Type: new Abstract: Deep research and agent evolution serve as de-facto tasks for AI agents in real-world applications toward artificial general intelligence. The former enables autonomous retrieval and integration of information in open-ended environments to tackle open-ended research tasks, yet it is constrained by the static parametric deep research capabilities of agent systems. The latter allows agents to autonomously interact with the environment to gain experiences that evolve model capabilities. However, its effectiveness has been widely validated only on verifiable tasks with standard answers, leaving a gap with open-ended research tasks. To bridge these two critical tasks, we propose the Hybrid Open-Ended Tri-Evolution (HOTE) framework, which leverages hybrid-mode reinforcement learning to facilitate the collaborative evolution of a proposer, solver and judge based on web-scale knowledge, moving toward autonomous evolving agents in open-ended tasks and environments. Extensive experiments on three long-form deep research benchmarks demonstrate that the 8B model trained via HOTE surpasses the strongest static open 8-32B models as well as those trained by state-of-the-art deep research training methods with less time overhead, and further verify that the evolution of all three modules in HOTE is indispensable.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "score": 79.97,
       "status": "queued"
     },
     {
@@ -8008,118 +8008,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-05-18T11:36:42.264Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://arxiv.org/abs/2604.27906",
-      "title": "Xmemory: Benchmarking Structured AI Memory Against RAG and Hybrid RAG",
-      "link": "https://arxiv.org/abs/2604.27906",
-      "summary": "Article URL: https://arxiv.org/abs/2604.27906 Comments URL: https://news.ycombinator.com/item?id=47972683 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-01T09:15:35.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-17T15:59:06.773Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionabl…"
-    },
-    {
-      "id": "https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md",
-      "title": "Ruflo: Multi-agent AI orchestration for Claude Code",
-      "link": "https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md",
-      "summary": "Article URL: https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md Comments URL: https://news.ycombinator.com/item?id=48006522 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-04T09:52:38.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-17T15:59:06.773Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
-      "title": "OpenAI Finalizes $10B Joint Venture with PE Firms to Deploy AI",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai Comments URL: https://news.ycombinator.com/item?id=48010578 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-04T16:11:28.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-17T15:59:06.773Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/zhangfengcdt/memoir",
-      "title": "Memoir – Git for AI agent memory, with a Claude Code plugin",
-      "link": "https://github.com/zhangfengcdt/memoir",
-      "summary": "Article URL: https://github.com/zhangfengcdt/memoir Comments URL: https://news.ycombinator.com/item?id=48024243 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-05T15:54:54.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-17T15:59:06.773Z",
-      "failureReason": "validation issues: FR: First section \"TL;DR en langage simple\" is too jargon-heavy. Explain the change in plain language before technical terms.; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://twitter.com/eng_khairallah1/status/2045794365985935529",
-      "title": "50 AI Automations You Can Build This Weekend",
-      "link": "https://twitter.com/eng_khairallah1/status/2045794365985935529",
-      "summary": "Article URL: https://twitter.com/eng_khairallah1/status/2045794365985935529 Comments URL: https://news.ycombinator.com/item?id=48034096 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-06T09:19:10.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-17T15:59:06.773Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
-      "title": "Google updates its spam rules to include attempts to ‘manipulate’ AI",
-      "link": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
-      "summary": "Google updated its spam policy to mark attempts to \"manipulate\" its AI model in search results as spam, including results in AI Overview or AI Mode in Search, as Search Engine Land reports: \"In the context of Google Search, spam refers to techniques used to deceive users or manipulate our Search systems into featuring content prominently, such as attempting to manipulate Search systems into ranking content highly or…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-15T16:42:59.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-17T09:27:05.471Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://www.numerama.com/cyberguerre/2250983-google-a-detecte-le-premier-exploit-zero-day-concu-avec-laide-de-lia.html",
-      "title": "Google a détecté le premier exploit « zero-day » conçu avec l’aide de l’IA",
-      "link": "https://www.numerama.com/cyberguerre/2250983-google-a-detecte-le-premier-exploit-zero-day-concu-avec-laide-de-lia.html",
-      "summary": "Le 11 mai 2026, Google a publié un rapport consacré à l’usage de l’intelligence artificielle dans les menaces cyber. L’entreprise y décrit un cas inédit : des cybercriminels auraient utilisé un modèle d’IA pour développer un exploit zero-day capable de contourner une authentification à deux facteurs (2FA).",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-11T16:12:35.000Z",
-      "score": 130.49,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-17T09:27:05.471Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }
