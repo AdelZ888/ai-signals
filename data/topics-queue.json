@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-16T19:03:18.681Z",
+  "generatedAt": "2026-06-17T12:16:19.930Z",
   "items": [
+    {
+      "id": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic to meet White House over AI tool suspension",
+      "link": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&at_campaign=rss",
+      "summary": "The sudden meeting was called after Anthropic had to block users from just-released AI models.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-15T18:44:26.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-06-17T12:16:19.902Z",
+      "file": "content/posts/2026-06-17-anthropic-to-meet-commerce-and-white-house-officials-after-pausing-public-access-to-fablemythos-5.md",
+      "fileFr": "content/posts/fr/2026-06-17-anthropic-to-meet-commerce-and-white-house-officials-after-pausing-public-access-to-fablemythos-5.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1446,
+      "wordsFr": 1373
+    },
     {
       "id": "https://www.al3rez.com/building-zehn",
       "title": "Zehn, a fuzzy finder for every prompt I've sent an AI agent",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1714
     },
     {
-      "id": "https://drift.marquis.codes/",
-      "title": "Show HN: Drift – Real-time codebase health dashboard with AI-powered fixing (Go)",
-      "link": "https://drift.marquis.codes/",
-      "summary": "I built drift, a terminal tool that monitors code health in real-time across 8 languages (Go, TypeScript, Python, Rust, Java, Ruby, PHP, C#). It tracks cyclomatic complexity, dependency freshness, architecture boundary violations, and dead code — all in a live TUI dashboard. The interesting part: `drift fix` calls GitHub Copilot CLI programmatically to suggest refactorings. It extracts the function source, builds a…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-12T15:25:47.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-19T15:55:48.135Z",
-      "file": "content/posts/2026-02-19-run-and-extend-drift-live-tui-codehealth-dashboard-go-ast-analysis-and-copilotdriven-fixes.md",
-      "fileFr": "content/posts/fr/2026-02-19-run-and-extend-drift-live-tui-codehealth-dashboard-go-ast-analysis-and-copilotdriven-fixes.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1479,
-      "wordsFr": 1405
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
       "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
@@ -5070,18 +5070,6 @@
       "region": "US",
       "keywordHits": 4,
       "publishedAt": "2026-06-15T18:10:27.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&at_campaign=rss",
-      "title": "Anthropic to meet White House over AI tool suspension",
-      "link": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&at_campaign=rss",
-      "summary": "The sudden meeting was called after Anthropic had to block users from just-released AI models.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-15T18:44:26.000Z",
       "score": 180,
       "status": "queued"
     },
@@ -5446,6 +5434,18 @@
       "status": "queued"
     },
     {
+      "id": "https://huall.dev",
+      "title": "Huall, autonomous AI agents",
+      "link": "https://huall.dev",
+      "summary": "Article URL: https://huall.dev Comments URL: https://news.ycombinator.com/item?id=48568582 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-17T11:00:20.000Z",
+      "score": 157.6,
+      "status": "queued"
+    },
+    {
       "id": "https://wexio.io/blog/best-chatbot-small-business",
       "title": "Why chatbot AI costs vary 20x for the same job: pricing model, not the tool",
       "link": "https://wexio.io/blog/best-chatbot-small-business",
@@ -5794,6 +5794,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/marketingskills/open-source-growth",
+      "title": "Show HN: AI Agent Skills to Grow Your Open Source Project",
+      "link": "https://github.com/marketingskills/open-source-growth",
+      "summary": "A set of skills to use with Claude Code, Opencode, Codex, etc to help make your open source project more popular. Comments URL: https://news.ycombinator.com/item?id=48568942 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-17T11:41:45.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://orbitsuite.cloud",
+      "title": "Show HN: OrbitSuite – Deterministic infrastructure for AI agent fleets",
+      "link": "https://orbitsuite.cloud",
+      "summary": "Article URL: https://orbitsuite.cloud Comments URL: https://news.ycombinator.com/item?id=48568909 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-17T11:37:59.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -6007,6 +6031,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-09T16:08:43.000Z",
       "score": 149.37,
+      "status": "queued"
+    },
+    {
+      "id": "https://takes.jamesomalley.co.uk/p/build-gemini-build",
+      "title": "How the UK government is using AI to speed up the planning system",
+      "link": "https://takes.jamesomalley.co.uk/p/build-gemini-build",
+      "summary": "Article URL: https://takes.jamesomalley.co.uk/p/build-gemini-build Comments URL: https://news.ycombinator.com/item?id=48568646 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-17T11:09:00.000Z",
+      "score": 148.36,
       "status": "queued"
     },
     {
@@ -6394,6 +6430,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.17459",
+      "title": "Can LLMs Be CEOs? Benchmarking Strategic Resource Reallocation with Multi-Role Agent Simulation",
+      "link": "https://arxiv.org/abs/2606.17459",
+      "summary": "arXiv:2606.17459v1 Announce Type: new Abstract: Evaluating the decision-making capabilities of large language models (LLMs) is a growing research priority, yet existing benchmarks focus on isolated cognitive tasks such as reasoning, knowledge retrieval, and economic rationality in stylized settings. These evaluations overlook the defining challenge of real executive decision-making: integrating conflicting recommendations from specialized stakeholders under information asymmetry, organizational constraints, and temporal dependencies. We introduce \\textsc{CEO-Bench}, a multi-agent benchmark that evaluates LLMs on CEO-level strategic resource reallocation -- the process of redirecting capital across business units in a multi-round, constraint-rich organizational environment. In \\textsc{CEO-Bench}, LLM agents receive conflicting advice from four role-conditioned C-suite advisors (CFO, CTO, COO, CMO), each with private signals and distinct priorities, and must synthesize these into a concrete allocation plan evaluated along four dimensions: role integration, conditional boldness, history-sensitive judgment, and plan validity. Experiments across five frontier models on 13 scenarios reveal that all models achieve high structural validity but diverge sharply on strategic calibration -- the hardest capability layer. We identify systematic failure modes including single-advisor capture,",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "score": 128.7,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.06741",
       "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
       "link": "https://arxiv.org/abs/2606.06741",
@@ -6682,6 +6730,18 @@
       "status": "queued"
     },
     {
+      "id": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-17T10:18:05.000Z",
+      "score": 118.42,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2605.28965",
       "title": "Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes",
       "link": "https://arxiv.org/abs/2605.28965",
@@ -6898,6 +6958,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=48568372",
+      "title": "Ask HN: Does your mind drift while waiting for AI prompts to finish?",
+      "link": "https://news.ycombinator.com/item?id=48568372",
+      "summary": "I've been a software engineer for 9 years now, and I noticed a very new weirdness in my workflows. Once I finish the architecture of a project and i have my context engineering prompt ready, I hit SEND, and then is just void lol. I have realized that between that time of waiting till AI is done, my mind drifts, I go use other apps, search random stuff and if AI fucks things up I go back and forth supervising it. I feel like this whole experience has generated some kind of fatigue and comes with a lot of cognitive overload. Do you folks face that too? How is it affecting you ? Comments URL: https://news.ycombinator.com/item?id=48568372 Points: 1 # Comments: 11",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-17T10:37:09.000Z",
+      "score": 113.69,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.07805",
       "title": "Beyond Goodhart's Law: A Dynamic Benchmark for Evaluating Compliance in Multi-Agent Systems",
       "link": "https://arxiv.org/abs/2606.07805",
@@ -7090,6 +7162,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.17454",
+      "title": "Dissecting model behavior through agent trajectories",
+      "link": "https://arxiv.org/abs/2606.17454",
+      "summary": "arXiv:2606.17454v1 Announce Type: new Abstract: AI agent performance is not just a modeling problem, it is fundamentally a systems problem. The advanced capabilities of models are realized through agent harnesses. Therefore, a gap between model assumptions and harness behavior can easily prevent the model's full capabilities from translating into agent performance. We formalize this as the `intent-execution' gap: the mismatch between what the model intends and what the harness executes, and vice versa. We argue that minimizing this intent-execution gap is as important as other aspects of harness design such as tools and execution loops. To illustrate the impact of this harness-model alignment, we develop a simple and customizable harness called `Simple Strands Agent' (SSA). SSA aims to find the bulk of common patterns which generalize across different model families (such as Claude, Gemini, GPT, Grok, Qwen), as well as a small number of model-specific preferences. We make two contributions: (i) we $\\textbf{reproduce or improve on the pass@1}$ performance reported by diverse model-provider families on popular agentic benchmarks (SWE-Pro, SWE-Verified and Terminal-Bench-2), and (ii) building on an $\\textbf{analysis of 138k trajectories generated by SSA}$, we look beyond the $\\texttt{pass@1}$ numbers which tend to be relatively even across frontier models. By representing agent tr",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "score": 110.7,
+      "status": "queued"
+    },
+    {
       "id": "https://aic-ai-lab.site/login",
       "title": "Show HN: AI Sandbox based on FEP now online – no LLM",
       "link": "https://aic-ai-lab.site/login",
@@ -7123,90 +7207,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "score": 110.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
-      "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
-      "link": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
-      "summary": "Article URL: https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup Comments URL: https://news.ycombinator.com/item?id=48336233 Points: 256 # Comments: 242",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-30T13:56:34.000Z",
-      "score": 110.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.02812",
-      "title": "Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection",
-      "link": "https://arxiv.org/abs/2606.02812",
-      "summary": "arXiv:2606.02812v1 Announce Type: new Abstract: Modeling patient trajectories from longitudinal electronic health records (EHRs) requires reasoning over sparse, noisy, and long-context multimodal sequences. Existing LLM-based multi-agent systems address context length but process patients in isolation, failing to mirror how clinicians leverage accumulated experience from similar prior cases. We present Traj-Evolve, a self-evolving multi-agent system with two complementary evolving mechanisms. First, an Experience Pool (ExPool) acts as a non-parametric memory, indexing rejection-sampled reasoning traces to retrieve similar patients as few-shot contexts. Second, multi-agent reinforcement learning (MARL) via reward-ranked fine-tuning parametrically optimizes inter-agent and agent-memory collaboration. A leave-one-out cross-retrieval strategy unifies the two, aligning training- and inference-time behavior under retrieval augmentation. On a lung cancer prediction task utilizing up to five years of multimodal EHRs, Traj-Evolve outperforms 9 strong baselines on the overall population and a challenging never-smoker population. Analysis of the evolving dynamics highlights three key findings: (1) expanding the ExPool shifts optimal retrieval from diverse to specific samples; (2) under MARL, the manager agent's prediction loss converges quickly while the worker agents' temporal reasoning",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "score": 110.13,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.nature.com/articles/s41591-026-04431-5?brid=YWdncwFKdLH5ne5BLVS2Tb5UQSQa&utm_id=97757_v0_s00_e0_tv2_a1demone7v434p",
-      "title": "General-purpose large language models outperform specialized clinical AI",
-      "link": "https://www.nature.com/articles/s41591-026-04431-5?brid=YWdncwFKdLH5ne5BLVS2Tb5UQSQa&utm_id=97757_v0_s00_e0_tv2_a1demone7v434p",
-      "summary": "Article URL: https://www.nature.com/articles/s41591-026-04431-5?brid=YWdncwFKdLH5ne5BLVS2Tb5UQSQa&utm_id=97757_v0_s00_e0_tv2_a1demone7v434p Comments URL: https://news.ycombinator.com/item?id=48525281 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-14T08:19:34.000Z",
-      "score": 103.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.14923",
-      "title": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
-      "link": "https://arxiv.org/abs/2606.14923",
-      "summary": "arXiv:2606.14923v1 Announce Type: new Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates. Yet we lack a standard way to measure trust between AI agents. We propose a behavioral measure based on costly verification. In a cooperative survival game, checking a teammate's work consumes resources, while trusting a wrong answer can be fatal. Relative to a memoryless version of the same model, reduced verification provides an observable measure of trust. Using this framework, we study trust formation, breakage, and recovery across six frontier model snapshots. When paired with a consistently reliable teammate, four snapshots (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.1, and Gemini 3.1 Pro) reduce verification by roughly 60-85%, whereas two smaller snapshots show little or no such adjustment. Failures reverse this discount, but models differ in how they respond. Some concentrate renewed scrutiny on the culprit, while others become more cautious toward the entire team. Recovery is slower than formation, and clustered failures sustain suspicion far longer than the same number of failures spread apart. These differences have practical consequences. Models that form trust verify less, decide more quickly, and achieve higher payoffs in our environment. By contrast, persistent over-verification is associated with indecision r",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "score": 98.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.15034",
-      "title": "OSGuard: A Benchmark for Safety in Computer-Use Agents",
-      "link": "https://arxiv.org/abs/2606.15034",
-      "summary": "arXiv:2606.15034v1 Announce Type: new Abstract: Computer-use agents are increasingly evaluated by whether they complete realistic desktop and web tasks. However, task success alone can miss failures in which an agent reaches the nominal goal through an unsafe shortcut. We introduce OSGuard, a dual-granularity benchmark suite for evaluating safety in computer-use agents under benign, unchanged user instructions. OSGuard contains an action-level benchmark for local guardrail decisions and a risk-augmented execution suite for end-to-end evaluation. The action-level benchmark consists of contextualized proposed actions labeled as allowed, unrelated, or unsafe, each judged relative to the original instruction and current interface state. The execution suite contains manually constructed OSWorld-derived task variants in which the original task remains achievable, but the environment is modified to introduce latent hazards such as destructive overwrites, etc. Each variant is paired with augmented evaluators that retain the original task-success criterion while adding explicit state-based safety invariants, allowing us to distinguish safe completions from unsafe completions that satisfy the nominal task objective. Our experimental results on OSGuard show that current multimodal guardrails can perform well on isolated action judgments, while risk-augmented execution exposes remaining ga",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "score": 98.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.13715",
-      "title": "WorkBench Revisited: Workplace Agents Two Years On",
-      "link": "https://arxiv.org/abs/2606.13715",
-      "summary": "arXiv:2606.13715v1 Announce Type: new Abstract: The best agent on WorkBench in March 2024, GPT-4, completed 43% of tasks and took an unintended harmful action, such as emailing the wrong person, on 26% of them. We re-visit the benchmark in June 2026 and find that the best agent to date, Claude Opus 4.8, completes 89% and takes an unintended harmful action on 2.5%. Aside from this considerable progress in frontier agent performance, three things stand out. First, capability and safety go together on WorkBench rather than trade off, so the models that finish the most tasks also do the least unintended damage. Second, while several classes of error have been totally eliminated, frontier models still make some basic mistakes that occasionally result in irreversible harm, such as sending an email to the wrong person. Third, the rise of open-weight models has drastically lowered costs for a performance level that was previously only accessible to proprietary models, while frontier costs have stayed relatively stable. We release an updated version of the benchmark with data and code quality improvements, new model scores, and analysis of agent progress on WorkBench since 2024.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "score": 96.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.13815",
-      "title": "Poker Arena: Multi-Axis Profiling of Strategic Reasoning and Memory in LLMs",
-      "link": "https://arxiv.org/abs/2606.13815",
-      "summary": "arXiv:2606.13815v1 Announce Type: new Abstract: Strategic reasoning under uncertainty underpins consequential decisions in negotiation, finance, and policy, but prevailing game-play benchmarks collapse heterogeneous reasoning dimensions into a single scalar, leaving the capability structure of frontier LLMs unexamined. We introduce Poker Arena, a no-limit Texas Hold'em tournament platform that couples a three-layer memory architecture (within-hand, session, and cross-session) with a nine-axis cognitive profile decomposing strategic reasoning into interpretable dimensions such as bet-sizing calibration and positional awareness. We evaluate seven frontier models across 50 sessions of 1,000 hands and a controlled memory ablation; tournament chips and aggregate axis score order the field differently: Claude Opus 4.6 wins +$15,730 chips with 14 first-place finishes, yet ranks only fifth of seven on mean axis score, while persistent memory helps some models and hurts others. These findings show that multi-axis evaluation surfaces capability structure that scalar leaderboards systematically misrank, with cross-dimensional consistency outweighing peak performance on any single axis.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "score": 96.29,
       "status": "queued"
     },
     {
@@ -7992,22 +7992,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-05-18T17:29:11.945Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of th…"
-    },
-    {
-      "id": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
-      "title": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
-      "link": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
-      "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it also uses end-to-end encryption, which Meta recently removed from Instagram DMs: \"Other apps have…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-13T16:45:43.000Z",
-      "score": 150,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-18T11:36:42.264Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }
