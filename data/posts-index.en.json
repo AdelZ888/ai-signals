@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T12:16:19.917Z",
+  "generatedAt": "2026-06-17T17:54:37.140Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-17-orgforge-seeded-reproducible-synthetic-corporate-datasets-for-testing-ai-agents",
+      "title": "OrgForge: Seeded, reproducible synthetic corporate datasets for testing AI agents",
+      "date": "2026-06-17",
+      "excerpt": "Use OrgForge to create seeded, reproducible synthetic corporate datasets (JSON/CSV) for testing AI agent workflows — run quick small scenarios or larger stress tests without real PII.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-17-orgforge-seeded-reproducible-synthetic-corporate-datasets-for-testing-ai-agents.jpg",
+      "tags": [
+        "synthetic-data",
+        "orgforge",
+        "ai-agents",
+        "evaluation",
+        "dataset-generation",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/aeriesec/orgforge"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
     },
     {
       "slug": "2026-06-16-zehn-zig-cli-to-fuzzy-search-and-reopen-prompts-across-claude-codex-pi-and-opencode-histories",

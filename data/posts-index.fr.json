@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T12:16:19.920Z",
+  "generatedAt": "2026-06-17T17:54:37.142Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-17-orgforge-seeded-reproducible-synthetic-corporate-datasets-for-testing-ai-agents",
+      "title": "OrgForge : jeux de données d’entreprise synthétiques, amorcés et reproductibles pour tester des agents IA",
+      "date": "2026-06-17",
+      "excerpt": "Utilisez OrgForge pour générer localement des jeux de données d’entreprise synthétiques (JSON/CSV) avec seed reproductible. Utile pour valider des workflows d’agents IA, faire des tests rapides ou des tests de charge sans exposer de PII réelle.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-17-orgforge-seeded-reproducible-synthetic-corporate-datasets-for-testing-ai-agents.jpg",
+      "tags": [
+        "orgforge",
+        "données-synthétiques",
+        "tests",
+        "ia",
+        "python",
+        "devops",
+        "small-teams"
+      ],
+      "sources": [
+        "https://github.com/aeriesec/orgforge"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
