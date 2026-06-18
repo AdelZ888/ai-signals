@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-18T11:57:29.212Z",
+  "generatedAt": "2026-06-18T18:07:17.906Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents",
+      "title": "Deploying LeRobot-format Datasets from the Hugging Face Hub to Physical Robots with Strands Agents",
+      "date": "2026-06-18",
+      "excerpt": "Walkthrough showing how Strands Robots composes LeRobot AgentTools to take LeRobot-format demos on Hugging Face Hub through simulation, rollout gating and a supervised canary on real robots.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents.jpg",
+      "tags": [
+        "Strands",
+        "LeRobot",
+        "Hugging Face Hub",
+        "robotics",
+        "sim-to-real",
+        "datasets",
+        "agents",
+        "AWS"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-06-18-white-house-demand-to-block-foreign-access-to-anthropics-fable-and-mythos-highlights-need-for-nonus-ai-options",
       "title": "White House demand to block foreign access to Anthropic’s Fable and Mythos highlights need for non‑US AI options",

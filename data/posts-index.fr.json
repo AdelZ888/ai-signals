@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-18T11:57:29.215Z",
+  "generatedAt": "2026-06-18T18:07:17.908Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents",
+      "title": "Déployer des jeux de données au format LeRobot du Hub Hugging Face vers des robots physiques avec Strands Agents",
+      "date": "2026-06-18",
+      "excerpt": "Guide traduit et localisé montrant comment Strands Robots compose des AgentTools LeRobot pour prendre des démonstrations au format LeRobot sur Hugging Face Hub, les évaluer en simulation, appliquer une porte de déploiement et exécuter un canari supervisé sur du matériel réel.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents.jpg",
+      "tags": [
+        "robotique",
+        "Strands",
+        "LeRobot",
+        "Hugging Face",
+        "simulation",
+        "déploiement",
+        "SDK",
+        "sécurité"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-18-white-house-demand-to-block-foreign-access-to-anthropics-fable-and-mythos-highlights-need-for-nonus-ai-options",
       "title": "Anthropic, accès bloqué et souveraineté : ce que les équipes doivent retenir",

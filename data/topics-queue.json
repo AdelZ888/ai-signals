@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-18T11:57:29.224Z",
+  "generatedAt": "2026-06-18T18:07:17.972Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-17T10:18:05.000Z",
+      "score": 118.42,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-18T18:07:17.889Z",
+      "file": "content/posts/2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents.md",
+      "fileFr": "content/posts/fr/2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1709,
+      "wordsFr": 1485
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
       "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
@@ -5039,27 +5062,28 @@
       "wordsFr": 1728
     },
     {
-      "id": "https://www.bbc.com/news/articles/cn4gq352w89o?at_medium=RSS&at_campaign=rss",
-      "title": "Tumbler Ridge suspect's ChatGPT account banned before shooting",
-      "link": "https://www.bbc.com/news/articles/cn4gq352w89o?at_medium=RSS&at_campaign=rss",
-      "summary": "OpenAI said the account's activity did not meet the threshold to flag it to authorities when it was identified.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-21T07:30:32.000Z",
-      "score": 144,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-21T08:24:36.169Z",
-      "file": "content/posts/2026-02-21-openai-says-chatgpt-account-tied-to-tumbler-ridge-suspect-was-banned-in-june-2025-but-not-reported-to-police.md",
-      "fileFr": "content/posts/fr/2026-02-21-openai-says-chatgpt-account-tied-to-tumbler-ridge-suspect-was-banned-in-june-2025-but-not-reported-to-police.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1355,
-      "wordsFr": 1114
+      "id": "https://marketplace.visualstudio.com/items?itemName=sdevries.prompt-foundry",
+      "title": "Show HN: Prompt Foundry-tasks with focused context + instructions = sharper AI",
+      "link": "https://marketplace.visualstudio.com/items?itemName=sdevries.prompt-foundry",
+      "summary": "To get an AI to do a task well, you need to give it the right context and the right task description. I've had a lot of struggles working in a large codebase getting AI to follow the existing patterns and architecture. So I started building a VS Code / Cursor extension that lets you quickly snap together sub prompts/instructions relevant to a specific task. After seeing the value of this, I realized you could make those sub prompts more customizable by using a liquid syntax engine. That worked fine for a few days, until the original context blocks got stale as the project progressed. I wrote an MCP server that can update those blocks, creating a feedback loop. A few days later I added an amend option too, so the AI can write a log and decision record as it goes. At this point I realized there were a lot of opportunities here: my AI isn't spending the first 5 minutes doing research, I've got better control over my context window, there's less irrelevant data leaking in from my agents.md file when I switch repos, I can write prompt groups for separate workflows, and so on. The last blocker for me was that I actually use Claude Code and not VS Code much anymore. So I figured out how to hook into the external editor command to open a TUI directly from CC and write a prompt from there. Now I'm happy to finally share it after spending the last 5 months perfecting it. Would love for y",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-18T17:08:33.000Z",
+      "score": 180,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Providex-AI/rootsign",
+      "title": "Show HN: Tamper-evident audit logs for LangChain/Crew AI agents",
+      "link": "https://github.com/Providex-AI/rootsign",
+      "summary": "I have been running into the same problems recently instrumenting my LangChain and CrewAI agent pipelines. If something goes wrong with a tool call, there was no way to way to prove what the agent did, in what order, and whether the logs have been modified. Observability platforms like LangSmith and Langfuse are great at optimizing for agent behavior, tokens and costs but they do not produce legally defensible and auditable artifacts. That's the reason why I decided to build RootSign, an SDK that instruments your CrewAI and LangGraph agents and produces cryptographic audit logs for CrewAI and LangGraph agents. RootSign adds a cryptographic hash chain to every tool call. If any record is modified after the fact, \"rootsign verify\" detects it. What it does: - SHA-256 hash chain across every Action record in a session - Human-in-the-loop checkpoints with Approval records for certain agent actions - PII redacted before hashing (StandardPIIConfig out of the box) - Works with LangGraph and CrewAI — AutoGen coming soon - Local first (Postgres + Timescale) — no cloud dependency What it doesn't do (yet): compliance dashboard, cloud backend, policy engine, all on the roadmap. Please try it out on the Github repo, contributions and feedback are always welcome. Comments URL: https://news.ycombinator.com/item?id=48588177 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-18T16:52:51.000Z",
+      "score": 175.65,
+      "status": "queued"
     },
     {
       "id": "https://crabbox.sh/features/pond.html",
@@ -5298,6 +5322,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-06-18T10:55:32.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/anthony-chaudhary/dos-kernel",
+      "title": "Show HN: DOS – a referee between AI agents that doesn't believe their \"done\"",
+      "link": "https://github.com/anthony-chaudhary/dos-kernel",
+      "summary": "Article URL: https://github.com/anthony-chaudhary/dos-kernel Comments URL: https://news.ycombinator.com/item?id=48588950 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-18T17:52:32.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5830,6 +5866,30 @@
       "status": "queued"
     },
     {
+      "id": "https://sfconservancy.org/llm-gen-ai/",
+      "title": "Facing LLM-Gen-AI in FOSS",
+      "link": "https://sfconservancy.org/llm-gen-ai/",
+      "summary": "Article URL: https://sfconservancy.org/llm-gen-ai/ Comments URL: https://news.ycombinator.com/item?id=48588585 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-18T17:22:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/livekit/eot-bench",
+      "title": "Eot-bench: Open benchmark suite for end-of-turn detection in voice AI",
+      "link": "https://github.com/livekit/eot-bench",
+      "summary": "Article URL: https://github.com/livekit/eot-bench Comments URL: https://news.ycombinator.com/item?id=48588475 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-18T17:14:14.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -6058,6 +6118,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.apa.org/pubs/reports/chatbots-mental-health-2026",
+      "title": "Patients are bringing AI to therapy",
+      "link": "https://www.apa.org/pubs/reports/chatbots-mental-health-2026",
+      "summary": "Article URL: https://www.apa.org/pubs/reports/chatbots-mental-health-2026 Comments URL: https://news.ycombinator.com/item?id=48588728 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-18T17:33:42.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
       "title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
       "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
@@ -6187,6 +6259,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-06-02T17:03:09.000Z",
       "score": 141.38,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6",
+      "title": "Google just lost one of its biggest AI names to OpenAI",
+      "link": "https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6",
+      "summary": "Article URL: https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6 Comments URL: https://news.ycombinator.com/item?id=48588137 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-18T16:48:57.000Z",
+      "score": 139.5,
       "status": "queued"
     },
     {
@@ -6778,15 +6862,15 @@
       "status": "queued"
     },
     {
-      "id": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-17T10:18:05.000Z",
-      "score": 118.42,
+      "id": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
+      "title": "Who decides when AI is too dangerous?",
+      "link": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
+      "summary": "On today’s episode of Decoder, my guest is Hayden Field, senior AI reporter for The Verge. Often when Hayden comes on the show, it’s because something has gone wrong in the world of AI. Last weekend, that something was a pretty intense mix of Anthropic, the Trump administration, and Anthropic’s new AI model, Fable 5. On Friday, not even a week since Anthropic released Fable to the public, the US government said it was imposing export controls on the new model, as well as the underlying Mythos model that Fable is based on. Those controls restricted foreign nationals, even those working for Anthropic in the United States, from accessing these models. Anthropic then took Fable and Mythos offline for everyone, because the company said it was worried it would not be able to restrict access and reasonably comply with the order otherwise. As you might imagine, this is all a giant mess. Hayden actually just published a fantastic play-by-play on The Verge about how this all went down last Friday and the scramble through the weekend from both sides to figure out what exactly happened and how it might get resolved. So I wanted her to come on and just walk me through the timeline and what it all means. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. The situation is ongoing. As of",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-18T14:00:00.000Z",
+      "score": 120.19,
       "status": "queued"
     },
     {
@@ -7123,78 +7207,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "score": 111.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.12747",
-      "title": "Prefill Awareness in Large Language Models",
-      "link": "https://arxiv.org/abs/2606.12747",
-      "summary": "arXiv:2606.12747v1 Announce Type: new Abstract: Safety-relevant studies of language models, including alignment and jailbreaking evaluations and AI control protocols, often rely on prefilling model outputs. If AI models can recognize and act on the fact their prior assistant messages have been inserted or edited, the effectiveness and validity of these methods could be compromised. We investigate whether frontier language models can distinguish between tampered and untampered assistant-side context, a capability we call prefill awareness. To do so, we construct a binary preference benchmark across three prefill mechanisms, filtering for cases where models show consistent stances. We find that frontier models show substantial prefill awareness: Claude Opus 4.5 detects prefills opposing its preferences in 9-35% of cases with a 0% false positive rate when prompted; additionally, models often revert towards baseline behavior without explicitly reporting that the prefill was foreign. Controlled ablations later also show that detection and resistance rely on different cues, where stylistic mismatch mainly affects whether models flag a prefill as foreign, while preference mismatch mainly affects whether they revert toward their baseline answer. We also examine more realistic agentic settings such as misalignment-continuation evaluations and SWE-bench trajectories, where frontier model",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "score": 111.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48473925",
-      "title": "Show HN: SeaTicket – Resolve GitHub Issues Using AI Agent",
-      "link": "https://news.ycombinator.com/item?id=48473925",
-      "summary": "https://seaticket.ai/github-issues-resolving/ Comments URL: https://news.ycombinator.com/item?id=48473925 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-10T09:54:59.000Z",
-      "score": 111.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.18557",
-      "title": "DeFAb: A Verifiable Benchmark for Defeasible Abduction in Foundation Models",
-      "link": "https://arxiv.org/abs/2606.18557",
-      "summary": "arXiv:2606.18557v1 Announce Type: new Abstract: A rule-based logic solver resolves every instance in our benchmark in under 50 microseconds with 100% accuracy; the best frontier language model reaches 65% at best and drops to 23.5% under rendering-robust evaluation (worst case over four surface renderings). We introduce DeFAb (Defeasible Abduction Benchmark), a dataset and generation pipeline that converts four decades of publicly funded knowledge bases into formally grounded instances for defeasible abduction: constructing hypotheses that explain anomalies by overriding defaults while preserving unrelated expectations. Because every hypothesis must pass polynomial-time checks for valid derivation, conservativity, and minimality, DeFAb makes logical rigor the instrument for measuring creativity and theoretical reasoning, scoring the disciplined construction of theory revisions rather than fluent but theory-destroying prose. The pipeline pairs taxonomic hierarchies (OpenCyc, YAGO, Wikidata) with behavioral property graphs (ConceptNet, UMLS) to produce 372,648+ instances across 33.75M materialized rules from 18 sources, in three levels with polynomial-time verifiable gold standards. Four frontier models do not reliably internalize defeasible reasoning: rendering-robust Level 2 accuracy is 7.8-23.5%; chain-of-thought variance (~36 pp) exceeds any inter-model gap; and a matched con",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "score": 111.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.18947",
-      "title": "Decoupling Search from Reasoning: A Vendor-Agnostic Grounding Architecture for LLM Agents",
-      "link": "https://arxiv.org/abs/2606.18947",
-      "summary": "arXiv:2606.18947v1 Announce Type: new Abstract: Production LLM agents increasingly depend on real-time search, yet native search grounding bundles retrieval policy, provider choice, evidence injection, cost, latency, and generation behavior behind a single model-provider boundary. This coupling makes grounding hard to inspect, tune, reuse, or port, and can trigger Search-Induced Verbosity that breaks strict output contracts. We present Decoupled Search Grounding (DSG), a vendor-agnostic boundary that moves grounding outside the reasoning model through an MCP-compatible gateway, exposing provider routing, source-aware context rendering, configured fallback, retrieval-depth control, and exact plus semantic caching as first-class controls. Across five frontier models on SimpleQA, FreshQA, and HotpotQA, native search leads on recency-sensitive FreshQA, but DSG exposes a stronger frontier when control matters: on SimpleQA it nearly matches native accuracy (86.1% vs. 87.7%) at 91% lower search cost, preserves concise answer contracts, and reaches a 99.4% warm-cache hit rate with 68% lower latency. Deployed as a shared production grounding layer for large-scale agentic workloads with interchangeable models, DSG matches or slightly exceeds native-search accuracy on an e-commerce query-understanding (QIU) workload while cutting search cost by over 98%. Real-time grounding is best treate",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "score": 111.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus",
-      "title": "Amazon develops a warehouse robot workers can speak to",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus",
-      "summary": "The design hasn’t changed much from the original Proteus, which was announced in 2022. | Image: Amazon Amazon has announced a new version of its fully autonomous warehouse robot, Proteus, that will can interact using language instead of code. The expanded capabilities come as part of a growing pivot toward automation as the e-commerce giant replaces its human workers with robots. Amazon says the AI-powered upgrade means its human employees can assign the robot tasks in the same way they'd communicate with colleagues. Previously, workers would need to use specialized software to direct the floor-level, tortoise-like systems, which are designed for heavy lifting and moving large carts throughout Amazon's warehouses. \"You tell it what needs to … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-04T09:31:14.000Z",
-      "score": 110.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48583140",
-      "title": "AI Tokenmaxxing and Hypomania",
-      "link": "https://news.ycombinator.com/item?id=48583140",
-      "summary": "Been thinking about the whole ‘tokenmaxxing’ thing going on within companies. Couldn’t shake the feeling that it has all the symptoms of a mass hypomania. Now that ideas are churned, validated, and even built at the speed of thought, it feels there’s a huge surplus of energy that keeps competing in a rapidly changing tech landscape and fuelling this towards a full blown mania. It’s deeply alarming to even think about the downstream effects of the whole collective cementing a new baseline, forcing a cascade effect on society into a severe dissociation. I'd love to understand HN folks thoughts here. Do you folks notice this pattern inside your orgs? Comments URL: https://news.ycombinator.com/item?id=48583140 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-18T09:59:48.000Z",
-      "score": 104.8,
       "status": "queued"
     },
     {
@@ -7932,22 +7944,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-05-21T10:58:06.855Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://github.com/zeroentropy-ai/probe",
-      "title": "Probe: AI Agent Context Engine",
-      "link": "https://github.com/zeroentropy-ai/probe",
-      "summary": "Article URL: https://github.com/zeroentropy-ai/probe Comments URL: https://news.ycombinator.com/item?id=48111072 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-12T17:05:23.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-19T17:37:38.769Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: The first half of t…"
     }
   ]
 }
