@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-18T18:07:17.906Z",
+  "generatedAt": "2026-06-19T18:13:06.402Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-19-rootsign-cryptographic-tamper-evident-audit-logs-for-crewai-and-langgraph-agents",
+      "title": "RootSign: cryptographic tamper-evident audit logs for CrewAI and LangGraph agents",
+      "date": "2026-06-19",
+      "excerpt": "RootSign instruments CrewAI and LangGraph agents to produce cryptographic, tamper-evident audit logs (SHA-256 chain), with human approval checkpoints, PII redaction, and local Postgres storage.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-19-rootsign-cryptographic-tamper-evident-audit-logs-for-crewai-and-langgraph-agents.jpg",
+      "tags": [
+        "rootsign",
+        "audit-logs",
+        "tamper-evidence",
+        "crewai",
+        "langgraph",
+        "cryptography",
+        "open-source",
+        "postgres"
+      ],
+      "sources": [
+        "https://github.com/Providex-AI/rootsign"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents",
       "title": "Deploying LeRobot-format Datasets from the Hugging Face Hub to Physical Robots with Strands Agents",

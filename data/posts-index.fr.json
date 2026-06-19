@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-06-18T18:07:17.908Z",
+  "generatedAt": "2026-06-19T18:13:06.404Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-19-rootsign-cryptographic-tamper-evident-audit-logs-for-crewai-and-langgraph-agents",
+      "title": "RootSign : journaux d'audit infalsifiables pour agents IA (open-source)",
+      "date": "2026-06-19",
+      "excerpt": "RootSign est une bibliothèque open-source pour la journalisation infalsifiable des décisions et actions d'agents IA (provenance). Hypothèses : le dépôt peut contenir des intégrations pour CrewAI/LangGraph, un enchaînement de hachage cryptographique (ex. SHA‑256), checkpoints d'approbation humaine, redaction PII et un stockage local Postgres — à vérifier dans le dépôt.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-19-rootsign-cryptographic-tamper-evident-audit-logs-for-crewai-and-langgraph-agents.jpg",
+      "tags": [
+        "RootSign",
+        "audit",
+        "provenance",
+        "sécurité",
+        "agents IA",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/Providex-AI/rootsign"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-06-18-deploying-lerobot-format-datasets-from-the-hugging-face-hub-to-physical-robots-with-strands-agents",
       "title": "Déployer des jeux de données au format LeRobot du Hub Hugging Face vers des robots physiques avec Strands Agents",
