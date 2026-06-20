@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:31:50.117Z",
+  "generatedAt": "2026-06-20T16:35:38.524Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "SOCIETY",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-20-velxio-v300-set-up-a-1-3-hour-local-loop-for-ai-assisted-circuit-design-and-emulation",
+      "title": "Velxio v3.0.0 — Boucle locale 1–3 heures pour conception assistée par IA et émulation",
+      "date": "2026-06-20",
+      "excerpt": "Guide compact pour Velxio v3.0.0 : cloner la release, lancer l’émulateur inclus, effectuer des itérations assistées par IA en 1–3 heures en archivant netlist, log d’émulation et une décision en une ligne.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-20-velxio-v300-set-up-a-1-3-hour-local-loop-for-ai-assisted-circuit-design-and-emulation.jpg",
+      "tags": [
+        "velxio",
+        "v3.0.0",
+        "émulation",
+        "IA",
+        "netlist",
+        "guide",
+        "CI",
+        "small-teams"
+      ],
+      "sources": [
+        "https://github.com/davidmonterocrespo24/velxio/releases/tag/v3.0.0"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-06-19-rootsign-cryptographic-tamper-evident-audit-logs-for-crewai-and-langgraph-agents",
