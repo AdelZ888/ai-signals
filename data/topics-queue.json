@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-19T18:13:06.464Z",
+  "generatedAt": "2026-06-20T10:31:50.127Z",
   "items": [
+    {
+      "id": "https://www.bbc.com/news/articles/ceqdrw2yy3vo?at_medium=RSS&at_campaign=rss",
+      "title": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
+      "link": "https://www.bbc.com/news/articles/ceqdrw2yy3vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Amazon founder, who now has robotics and space travel companies, thinks AI will create a labour shortage.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-17T16:37:41.000Z",
+      "score": 131.02,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-06-20T10:31:50.098Z",
+      "file": "content/posts/2026-06-20-bezos-at-vivatech-ai-may-increase-labour-demand-as-prometheus-scales-manufacturing-task-level-guidance-for-workers-and-managers.md",
+      "fileFr": "content/posts/fr/2026-06-20-bezos-at-vivatech-ai-may-increase-labour-demand-as-prometheus-scales-manufacturing-task-level-guidance-for-workers-and-managers.md",
+      "generationMode": "llm",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1354,
+      "wordsFr": 1309
+    },
     {
       "id": "https://github.com/Providex-AI/rootsign",
       "title": "Show HN: Tamper-evident audit logs for LangChain/Crew AI agents",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1386
     },
     {
-      "id": "https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo",
-      "title": "Money no longer matters to AI’s top talent",
-      "link": "https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo",
-      "summary": "Today on Decoder we’re going to talk about the war for AI talent. Right now, the hottest job market on the planet is for AI researchers. The vast majority of these people are concentrated into a small number of hugely valuable, extremely fast-growing companies in the San Francisco Bay Area. Nowadays, such companies are paying some of the highest salaries in the history of the tech industry to poach researchers from…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-19T15:00:00.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "SOCIETY",
-      "publishedAtRun": "2026-02-22T08:25:22.241Z",
-      "file": "content/posts/2026-02-22-ai-researchers-prioritize-mission-and-safety-over-pay-hiring-and-retention-actions-for-founders.md",
-      "fileFr": "content/posts/fr/2026-02-22-ai-researchers-prioritize-mission-and-safety-over-pay-hiring-and-retention-actions-for-founders.md",
-      "generationMode": "llm",
-      "series": "founder-notes",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1628,
-      "wordsFr": 1479
-    },
-    {
-      "id": "https://shivekkhurana.com/blog/coding-agent-dopamine/",
-      "title": "AI coding agents ships at the cost of intuition and taste",
-      "link": "https://shivekkhurana.com/blog/coding-agent-dopamine/",
-      "summary": "Article URL: https://shivekkhurana.com/blog/coding-agent-dopamine/ Comments URL: https://news.ycombinator.com/item?id=48334363 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-30T09:33:05.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://nocodefunctions.com/blog/three-flavors-agentic-coding/",
-      "title": "Three flavors of coding with AI agents",
-      "link": "https://nocodefunctions.com/blog/three-flavors-agentic-coding/",
-      "summary": "Article URL: https://nocodefunctions.com/blog/three-flavors-agentic-coding/ Comments URL: https://news.ycombinator.com/item?id=48334332 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-30T09:27:02.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
       "title": "AI models are free, private, and will never say 'no'",
       "link": "https://www.npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
@@ -5347,18 +5323,6 @@
       "keywordHits": 12,
       "publishedAt": "2026-06-15T14:00:00.000Z",
       "score": 167.77,
-      "status": "queued"
-    },
-    {
-      "id": "https://ai-org.net/",
-      "title": "Show HN: AI-org – org-mode powered by AI",
-      "link": "https://ai-org.net/",
-      "summary": "Hey guys. I made an attempt at using AI agents to help organize your tasks and life. I liked orgmode before AI. But just wondered how it could look with AI. So I created ai-org, a non-taken name it seems. It's an opencode fork with a custom org agenda task view. (and a simple file browser). (wouldn't be possible without opencode team, truly what a great MIT licensed product) The template includes an AGENTS.md and accompany file structure to the effect of: matt@mbp:~/doc/dev/pro/ai-org/template $ tree -L 1 projects/ duties/ resources/ archive/ goals.org ideas.org scratch.org todo.org AGENTS.md HUMAN.md It's been a fun experiment, would love to hear any thoughts, thank you. https://ai-org.net/ Comments URL: https://news.ycombinator.com/item?id=48334157 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-30T08:59:47.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -6442,18 +6406,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.bbc.com/news/articles/ceqdrw2yy3vo?at_medium=RSS&at_campaign=rss",
-      "title": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
-      "link": "https://www.bbc.com/news/articles/ceqdrw2yy3vo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Amazon founder, who now has robotics and space travel companies, thinks AI will create a labour shortage.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-17T16:37:41.000Z",
-      "score": 131.02,
-      "status": "queued"
-    },
-    {
       "id": "https://thehiveryiq.com/trust/",
       "title": "Show HN: Hive Trust – Ed25519-signed benchmarks for every AI inference primitive",
       "link": "https://thehiveryiq.com/trust/",
@@ -7150,6 +7102,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.19588",
+      "title": "Analyzing the Narration Gap in LLM-Solver Loops",
+      "link": "https://arxiv.org/abs/2606.19588",
+      "summary": "arXiv:2606.19588v1 Announce Type: new Abstract: Formal tools such as SAT and SMT solvers are increasingly embedded in language model reasoning pipelines when a safety or security critical question can be formulated in logic. Unlike chain of thought whose steps are sampled from the model distribution without formal guarantee, a solver produces a sound and independently verifiable answer. However, the soundness guarantee can be lost in the interaction between the solver and the model. The hybrid pipeline has three components: formalizing the question, deciding it, and narrating the result. Prior work has studied the formalization and decision, but not narration, which is the step that turns a formal tool's output into the user answer. To fill the narration gap, we first model the LLM-solver loop as a verified decision procedure. We further evaluate five open-sourced models under prompt injection, and we find certificate gating makes the solver verdict sound, while an adversary can invert a verified conclusion across phrasings and channels. We study the mitigation through hardened prompt that reduces injection significantly but cannot eliminate it and still suffers under adaptive attack. Combining the formal analysis and empirical studies, we show in the LLM-solver loop, robustness does not reach to the answer that the user finally reads.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-20T04:00:00.000Z",
+      "score": 96.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://getstayup.app",
+      "title": "Show HN: StayUp – keep a Mac awake (lid closed) while AI agents are working",
+      "link": "https://getstayup.app",
+      "summary": "Article URL: https://getstayup.app Comments URL: https://news.ycombinator.com/item?id=48607172 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-20T07:36:45.000Z",
+      "score": 96.51,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.19509",
       "title": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
       "link": "https://arxiv.org/abs/2606.19509",
@@ -7186,6 +7162,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/P156HAM/logslim",
+      "title": "Logslim – compact test/build output before your AI agent reads it",
+      "link": "https://github.com/P156HAM/logslim",
+      "summary": "Article URL: https://github.com/P156HAM/logslim Comments URL: https://news.ycombinator.com/item?id=48607333 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-20T08:13:20.000Z",
+      "score": 90.23,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.19501",
       "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
       "link": "https://arxiv.org/abs/2606.19501",
@@ -7195,6 +7183,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-06-19T04:00:00.000Z",
       "score": 86.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://huggingface.co/blog/is-it-agentic-enough",
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "score": 74.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.19469",
+      "title": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
+      "link": "https://arxiv.org/abs/2606.19469",
+      "summary": "arXiv:2606.19469v1 Announce Type: new Abstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how completely they cover the current guidelines and how that coverage shifts when the guidelines are restructured. We address this with a human-in-the-loop pipeline that measures a program's coverage of an external body of knowledge, applied longitudinally to one accredited BSc in Computer Science against Computer Science Curricula 2013 (CS2013) and 2023 (CS2023). The pipeline represents the program and each guideline as structured corpora, generates candidate course-to-knowledge-unit matches by semantic retrieval, and confirms them through human judgment under an explicit coverage definition. Of seven benchmarked retrievers, a reciprocal-rank-fusion ensemble was strongest, and a reputed long-context model underperformed a small sentence model, so retriever choice must be measured. Both maps were validated by an independent second rater (Cohen's kappa 0.64 for CS2023, 0.69 for CS2013). The program covers 49.7% of CS2023 and 50.9% of CS2013 knowledge units, near-constant across a decade. Extending the same retrieve-then-confirm design to competency articulation and cognitive depth shows that the program articulates the competency for ~88% of covered units under eac",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-20T04:00:00.000Z",
+      "score": 72.65,
       "status": "queued"
     },
     {
