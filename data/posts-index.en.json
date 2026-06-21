@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-20T16:35:38.522Z",
+  "generatedAt": "2026-06-21T17:14:40.733Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-21-measuring-how-open-models-use-your-libraries-a-reproducible-agent-benchmark",
+      "title": "Measuring how open models use your libraries: a reproducible agent benchmark",
+      "date": "2026-06-21",
+      "excerpt": "Build a repeatable harness that records agents' plan steps, API calls, retries, tokens, wall time and cost to reveal friction points in your library and guide rollout decisions.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-21-measuring-how-open-models-use-your-libraries-a-reproducible-agent-benchmark.jpg",
+      "tags": [
+        "agents",
+        "benchmarking",
+        "open-models",
+        "tooling",
+        "huggingface",
+        "evaluation",
+        "pi-agent",
+        "observability"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/is-it-agentic-enough"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-20-bezos-at-vivatech-ai-may-increase-labour-demand-as-prometheus-scales-manufacturing-task-level-guidance-for-workers-and-managers",
       "title": "Bezos at VivaTech: AI may increase labour demand as Prometheus scales manufacturing — task-level guidance for workers and managers",
