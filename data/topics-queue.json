@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-22T13:34:41.685Z",
+  "generatedAt": "2026-06-22T19:02:11.658Z",
   "items": [
+    {
+      "id": "https://signal-memo.com/memo-defeat-devices-for-benchmarks/",
+      "title": "AI Benchmarks Are Starting to Look Like Emissions Tests",
+      "link": "https://signal-memo.com/memo-defeat-devices-for-benchmarks/",
+      "summary": "Article URL: https://signal-memo.com/memo-defeat-devices-for-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=48518255 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-13T15:31:34.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-22T19:02:11.572Z",
+      "file": "content/posts/2026-06-22-a-90-minute-paired-prompt-test-to-detect-models-that-alter-behavior-during-benchmarks.md",
+      "fileFr": "content/posts/fr/2026-06-22-a-90-minute-paired-prompt-test-to-detect-models-that-alter-behavior-during-benchmarks.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1395,
+      "wordsFr": 1534
+    },
     {
       "id": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
       "title": "Learning to lead in a hybrid human-AI enterprise",
@@ -5039,27 +5062,28 @@
       "wordsFr": 1172
     },
     {
-      "id": "https://secbear.github.io/neuron/",
-      "title": "Show HN: Neuron – Independent Rust crates for building AI agents",
-      "link": "https://secbear.github.io/neuron/",
-      "summary": "The core of every agent framework is the same ReAct loop. It's commodity code. What actually matters is everything around that loop — how you manage context windows, how you pipeline tool execution, how you handle durability and replay. These are hard problems with real design trade-offs, and yet every framework bundles them into one monolith where you buy all of it or none of it. neuron is the layer below framework…",
+      "id": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
+      "title": "People training new AI models admit they just get chatbots to do it",
+      "link": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
+      "summary": "Article URL: https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/ Comments URL: https://news.ycombinator.com/item?id=48633885 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-24T15:49:56.000Z",
-      "score": 222,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-24T16:08:19.983Z",
-      "file": "content/posts/2026-02-24-neuron-v03-independent-composable-rust-crates-for-ai-agents.md",
-      "fileFr": "content/posts/fr/2026-02-24-neuron-v03-independent-composable-rust-crates-for-ai-agents.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1551,
-      "wordsFr": 1360
+      "keywordHits": 4,
+      "publishedAt": "2026-06-22T18:20:42.000Z",
+      "score": 192,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
+      "title": "Anthropic's Mythos AI breached almost all NSA systems in a red-team tests",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models Comments URL: https://news.ycombinator.com/item?id=48633927 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-22T18:23:41.000Z",
+      "score": 180,
+      "status": "queued"
     },
     {
       "id": "https://project-argus.ai",
@@ -5338,6 +5362,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI model called Mythos…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-22T18:00:00.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.luden.io/ai-agents-in-game-development-real-production-lessons-failed-experiments-and-workshop-101-7d71e64685fa",
+      "title": "\"AI Real World\" vs. \"AI Twitter World\" in Game Development",
+      "link": "https://blog.luden.io/ai-agents-in-game-development-real-production-lessons-failed-experiments-and-workshop-101-7d71e64685fa",
+      "summary": "Article URL: https://blog.luden.io/ai-agents-in-game-development-real-production-lessons-failed-experiments-and-workshop-101-7d71e64685fa Comments URL: https://news.ycombinator.com/item?id=48633992 Points: 2 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-22T18:27:57.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
       "id": "https://fedoramagazine.org/sandbox-ai-coding-agents-with-microvms-on-fedora-linux/",
       "title": "Sandbox AI coding agents with microVMs on Fedora Linux",
       "link": "https://fedoramagazine.org/sandbox-ai-coding-agents-with-microvms-on-fedora-linux/",
@@ -5566,18 +5614,6 @@
       "status": "queued"
     },
     {
-      "id": "https://signal-memo.com/memo-defeat-devices-for-benchmarks/",
-      "title": "AI Benchmarks Are Starting to Look Like Emissions Tests",
-      "link": "https://signal-memo.com/memo-defeat-devices-for-benchmarks/",
-      "summary": "Article URL: https://signal-memo.com/memo-defeat-devices-for-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=48518255 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-13T15:31:34.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://grith.ai/blog/mythos-ai-safety-cannot-live-inside-the-model",
       "title": "Mythos Proves AI Safety Can No Longer Live Inside the Model",
       "link": "https://grith.ai/blog/mythos-ai-safety-cannot-live-inside-the-model",
@@ -5746,6 +5782,30 @@
       "status": "queued"
     },
     {
+      "id": "https://medium.com/@alanayalag/your-ai-agent-cant-log-into-anything-here-s-how-the-industry-is-fixing-it-2ad6d783ce08",
+      "title": "AI Agent Can't Log into Anything",
+      "link": "https://medium.com/@alanayalag/your-ai-agent-cant-log-into-anything-here-s-how-the-industry-is-fixing-it-2ad6d783ce08",
+      "summary": "Article URL: https://medium.com/@alanayalag/your-ai-agent-cant-log-into-anything-here-s-how-the-industry-is-fixing-it-2ad6d783ce08 Comments URL: https://news.ycombinator.com/item?id=48633867 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-22T18:19:12.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Arnab758/ai-gateway",
+      "title": "Show HN: AI-Gateway – Open-source semantic caching proxy to reduce LLM API costs",
+      "link": "https://github.com/Arnab758/ai-gateway",
+      "summary": "Article URL: https://github.com/Arnab758/ai-gateway Comments URL: https://news.ycombinator.com/item?id=48633737 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-22T18:10:05.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -5755,18 +5815,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-04T16:45:38.000Z",
       "score": 155.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://brentfitzgerald.com/posts/lima-vms-from-a-sandboxed-agent/",
-      "title": "Starting a VM from a macOS sandbox for AI agents",
-      "link": "https://brentfitzgerald.com/posts/lima-vms-from-a-sandboxed-agent/",
-      "summary": "Article URL: https://brentfitzgerald.com/posts/lima-vms-from-a-sandboxed-agent/ Comments URL: https://news.ycombinator.com/item?id=48360921 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T18:43:04.000Z",
-      "score": 154.45,
       "status": "queued"
     },
     {
@@ -5850,18 +5898,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-01T19:14:15.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.datadoghq.com/blog/using-agentic-ai-with-jobs-monitoring/",
-      "title": "We cut Spark compute costs by 44% with AI and Datadog Jobs Monitoring",
-      "link": "https://www.datadoghq.com/blog/using-agentic-ai-with-jobs-monitoring/",
-      "summary": "Article URL: https://www.datadoghq.com/blog/using-agentic-ai-with-jobs-monitoring/ Comments URL: https://news.ycombinator.com/item?id=48361114 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-01T18:59:11.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -6019,6 +6055,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-09T16:08:43.000Z",
       "score": 149.37,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
+      "title": "Five Eyes warns AI models capable of toppling governments are months away",
+      "link": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security Comments URL: https://news.ycombinator.com/item?id=48633023 Points: 10 # Comments: 10",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-22T17:19:23.000Z",
+      "score": 149.15,
       "status": "queued"
     },
     {
@@ -6226,15 +6274,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/podcast/940831/ai-grammys-music-recording-harvey-mason",
-      "title": "AI is blowing up music. How should the Grammys handle it?",
-      "link": "https://www.theverge.com/podcast/940831/ai-grammys-music-recording-harvey-mason",
-      "summary": "Today I’m talking with Harvey Mason Jr., who is CEO of the Recording Academy — that’s the outfit that puts on the Grammy Awards. I last talked to Harvey in 2024, when it was obvious that generative AI would upend the music industry, but still not exactly clear how that would happen. Well, it’s been 18 months since that conversation, and you’re going to hear Harvey say that AI is now “omnipresent” in music production. And Harvey knows what he’s talking about — he is himself a legendary producer who’s worked with everyone from Janet Jackson to Beyoncé. Harvey has said that every session he’s been in recently has had AI in it, and I really wanted to know what that meant — what kinds of tools are musicians using, in what way, and what kind of music is it making for us? Is it any good? Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. Because, as it stands, there’s an exponential increase in the rate of AI music creation. Streaming platform Deezer reports that more than 50,000 AI-generated songs are being uploaded every day. All that AI-generated music is getting harder to identify and filter out, while at the same time, tools like Suno have become mainstream parts of the creative process for musicians of all kinds. So I really wanted to know how Harvey experiences all of tha",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-06-01T14:30:00.000Z",
-      "score": 136.17,
+      "id": "https://github.com/xoai/iris",
+      "title": "Iris – A portable runtime for durable AI agents",
+      "link": "https://github.com/xoai/iris",
+      "summary": "Article URL: https://github.com/xoai/iris Comments URL: https://news.ycombinator.com/item?id=48632983 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-22T17:17:08.000Z",
+      "score": 135.05,
       "status": "queued"
     },
     {
@@ -6535,18 +6583,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-04T04:00:00.000Z",
       "score": 125.39,
-      "status": "queued"
-    },
-    {
-      "id": "https://cloud.google.com/blog/products/devops-sre/how-google-sre-is-using-agentic-ai-to-improve-operations",
-      "title": "AI in SRE: Where and how Google is deploying agentic AI to improve operations",
-      "link": "https://cloud.google.com/blog/products/devops-sre/how-google-sre-is-using-agentic-ai-to-improve-operations",
-      "summary": "Article URL: https://cloud.google.com/blog/products/devops-sre/how-google-sre-is-using-agentic-ai-to-improve-operations Comments URL: https://news.ycombinator.com/item?id=48360793 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-01T18:33:14.000Z",
-      "score": 124.33,
       "status": "queued"
     },
     {
@@ -7150,40 +7186,20 @@
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/openai-on-oracle-cloud",
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "link": "https://openai.com/index/openai-on-oracle-cloud",
-      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-10T20:00:00.000Z",
-      "score": 72.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://spectrum.ieee.org/ai-music-attribution",
-      "title": "Generative AI Music Attribution Rethinks Royalties",
-      "link": "https://spectrum.ieee.org/ai-music-attribution",
-      "summary": "Article URL: https://spectrum.ieee.org/ai-music-attribution Comments URL: https://news.ycombinator.com/item?id=48627917 Points: 3 # Comments: 0",
+      "id": "https://github.com/tamarillo-ai/theta-spec",
+      "title": "Theta: Declarative, harness-agnostic configuration standard for AI coding agents",
+      "link": "https://github.com/tamarillo-ai/theta-spec",
+      "summary": "Article URL: https://github.com/tamarillo-ai/theta-spec Comments URL: https://news.ycombinator.com/item?id=48634040 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-22T09:38:58.000Z",
-      "score": 67.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-      "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-      "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-19T10:40:24.000Z",
-      "score": 62.21,
-      "status": "queued"
+      "keywordHits": 3,
+      "publishedAt": "2026-06-22T18:30:41.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-22T18:46:19.104Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://atizar.io",

@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-06-22T13:34:41.673Z",
+  "generatedAt": "2026-06-22T19:02:11.591Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-22-a-90-minute-paired-prompt-test-to-detect-models-that-alter-behavior-during-benchmarks",
+      "title": "Test paired-prompts (90 minutes) pour détecter les modèles qui changent de comportement pendant les benchmarks",
+      "date": "2026-06-22",
+      "excerpt": "Exécutez un test de 50–200 paires de prompts (style benchmark vs style déploiement) pour mesurer l'« awareness » d'évaluation — la fréquence à laquelle un modèle reconnaît qu'il est évalué (ex. Muse Spark 19,8 % vs 2,0 %) — et intégrez ce score dans les décisions d'achat.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-22-a-90-minute-paired-prompt-test-to-detect-models-that-alter-behavior-during-benchmarks.jpg",
+      "tags": [
+        "IA",
+        "LLM",
+        "sécurité",
+        "benchmarks",
+        "procurement",
+        "evaluation-awareness",
+        "observabilité"
+      ],
+      "sources": [
+        "https://signal-memo.com/memo-defeat-devices-for-benchmarks/"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-22-redesigning-roles-and-hr-strategy-for-a-hybrid-human-ai-workforce",
       "title": "Redessiner les rôles et la stratégie RH pour une main‑d'œuvre hybride humain–IA",
