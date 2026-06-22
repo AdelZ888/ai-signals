@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-21T17:14:40.798Z",
+  "generatedAt": "2026-06-22T13:34:41.685Z",
   "items": [
+    {
+      "id": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "link": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinating complex tasks, interacting with multiple tools and environments across…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-09T10:20:06.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-06-22T13:34:41.655Z",
+      "file": "content/posts/2026-06-22-redesigning-roles-and-hr-strategy-for-a-hybrid-human-ai-workforce.md",
+      "fileFr": "content/posts/fr/2026-06-22-redesigning-roles-and-hr-strategy-for-a-hybrid-human-ai-workforce.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1256,
+      "wordsFr": 1541
+    },
     {
       "id": "https://huggingface.co/blog/is-it-agentic-enough",
       "title": "Is it agentic enough? Benchmarking open models on your own tooling",
@@ -5039,77 +5062,6 @@
       "wordsFr": 1360
     },
     {
-      "id": "https://paragent.app/",
-      "title": "Show HN: Run 10 AI coding agents in parallel–each opens a PR when done",
-      "link": "https://paragent.app/",
-      "summary": "I built Paragent because I kept context-switching between features. The idea: describe what you want in plain English, and an agent branches off, writes the code, and opens a PR. You can run 10 at once — each on its own branch. How it works: - Connect your repo via GitHub App (minimal permissions: contents + PRs) - Describe a feature (\"Add Stripe checkout to the pricing page\") - Agent plans, writes, runs your verifi…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-02-22T13:58:57.000Z",
-      "score": 196.83,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-23T15:50:46.486Z",
-      "file": "content/posts/2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs.md",
-      "fileFr": "content/posts/fr/2026-02-23-paragent-launch-parallel-ai-coding-agents-that-branch-run-tests-and-open-prs.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 45,
-      "wordsEn": 1707,
-      "wordsFr": 1590
-    },
-    {
-      "id": "https://atizar.io",
-      "title": "Show HN: Atizar-AI agents where the server runs approved actions, not the model",
-      "link": "https://atizar.io",
-      "summary": "Article URL: https://atizar.io Comments URL: https://news.ycombinator.com/item?id=48620103 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-21T16:09:28.000Z",
-      "score": 192,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.wsj.com/tech/ai/nvidia-introduces-first-pcs-designed-for-ai-agents-47445bcd",
-      "title": "Nvidia Introduces First PCs Designed for AI Agents",
-      "link": "https://www.wsj.com/tech/ai/nvidia-introduces-first-pcs-designed-for-ai-agents-47445bcd",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/nvidia-introduces-first-pcs-designed-for-ai-agents-47445bcd Comments URL: https://news.ycombinator.com/item?id=48356472 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T13:19:27.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://medium.com/towards-artificial-intelligence/ai-agents-need-inspectable-state-thats-why-i-built-langmcp-6038cca8a1d9",
-      "title": "Show HN: AI Agents Need Inspectable State. That's Why I Built LangMCP",
-      "link": "https://medium.com/towards-artificial-intelligence/ai-agents-need-inspectable-state-thats-why-i-built-langmcp-6038cca8a1d9",
-      "summary": "Article URL: https://medium.com/towards-artificial-intelligence/ai-agents-need-inspectable-state-thats-why-i-built-langmcp-6038cca8a1d9 Comments URL: https://news.ycombinator.com/item?id=48356387 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T13:11:43.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://tryrenown.com/research/ai-visibility-ai-coding-tools/full/",
-      "title": "Which AI coding tools do AIs recommend? Data across 10 models and 1000 responses",
-      "link": "https://tryrenown.com/research/ai-visibility-ai-coding-tools/full/",
-      "summary": "Article URL: https://tryrenown.com/research/ai-visibility-ai-coding-tools/full/ Comments URL: https://news.ycombinator.com/item?id=48361716 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T19:49:06.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://project-argus.ai",
       "title": "Argus – a wearable control surface for AI agents",
       "link": "https://project-argus.ai",
@@ -5154,18 +5106,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-06-08T17:42:25.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
-      "title": "Learning to lead in a hybrid human-AI enterprise",
-      "link": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
-      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinating complex tasks, interacting with multiple tools and environments across…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-09T10:20:06.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5443,18 +5383,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-04T16:35:37.000Z",
       "score": 156.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.keryxsolutions.com/p/google-anthropic-and-nvidia-just",
-      "title": "Google, Anthropic, and Nvidia Just Made AI Permissions the Real Risk",
-      "link": "https://blog.keryxsolutions.com/p/google-anthropic-and-nvidia-just",
-      "summary": "Article URL: https://blog.keryxsolutions.com/p/google-anthropic-and-nvidia-just Comments URL: https://news.ycombinator.com/item?id=48356176 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-01T12:52:39.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5790,6 +5718,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-19T17:33:36.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/digitaldrywood/detent",
+      "title": "Detent: AI agent orchestration with worktrees and serialized merge train",
+      "link": "https://github.com/digitaldrywood/detent",
+      "summary": "Article URL: https://github.com/digitaldrywood/detent Comments URL: https://news.ycombinator.com/item?id=48629757 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-22T13:19:47.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+      "title": "GLM-5.2: Another open-source Chinese AI model has Silicon Valley's attention",
+      "link": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+      "summary": "Article URL: https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6 Comments URL: https://news.ycombinator.com/item?id=48629633 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-22T13:05:28.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -6322,6 +6274,18 @@
       "status": "queued"
     },
     {
+      "id": "https://ella-agent.de",
+      "title": "E.L.L.A. – Local AI assistant with architecturally enforced safety directives",
+      "link": "https://ella-agent.de",
+      "summary": "Article URL: https://ella-agent.de Comments URL: https://news.ycombinator.com/item?id=48629134 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-22T12:17:03.000Z",
+      "score": 134.15,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/VasileiosTs/agribrain",
       "title": "Agribrain / ag-int/nce for AI agents (weather, ET₀, GDD, spray windows, soil)",
       "link": "https://github.com/VasileiosTs/agribrain",
@@ -6403,6 +6367,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-06-04T04:00:00.000Z",
       "score": 131.39,
+      "status": "queued"
+    },
+    {
+      "id": "https://maref.org/blog/from-steadicam-to-agent-governance",
+      "title": "I Shot Films for 30 Years. Now I'm Building Safety Systems for AI Agents",
+      "link": "https://maref.org/blog/from-steadicam-to-agent-governance",
+      "summary": "Article URL: https://maref.org/blog/from-steadicam-to-agent-governance Comments URL: https://news.ycombinator.com/item?id=48628931 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-22T11:52:23.000Z",
+      "score": 130.76,
       "status": "queued"
     },
     {
@@ -6922,15 +6898,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2605.30621",
-      "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
-      "link": "https://arxiv.org/abs/2605.30621",
-      "summary": "arXiv:2605.30621v1 Announce Type: new Abstract: LLM agents are increasingly deployed as systems built around editable external harnesses, including prompts, skills, memories and tools, that shape task execution without changing model parameters. Harness self-evolution adapts such agents by updating these harnesses from execution evidence. Yet it remains unclear whether a model's base capability in task-solving predicts its capabilities in harness self-evolution: which models produce useful harness updates, and which actually benefit from them? We analyze two harness self-evolution capabilities: (i) harness-updating, the capability to produce useful persistent harness updates from execution evidence; (ii) harness-benefit, the capability to benefit from updated harnesses during task solving. Our analysis reveals two findings. First, harness-updating is flat in base capability: models from different capability tiers produce harness updates that lead to surprisingly similar gains; even Qwen3.5-9B's updates yield gains comparable to those of Claude Opus~4.6. Second, harness-benefit is non-monotonic in base capability: weak-tier models benefit little from updated harnesses, mid-tier models benefit most, and strong-tier models benefit less than mid-tier. We trace low gains at the weak tier to two failure modes: weak-tier models may fail to activate relevant harness artifacts, or activ",
-      "source": "ArXiv cs.AI",
+      "id": "https://octamem.com",
+      "title": "OctaMem: Auditable memory for AI agents, no vector DB to run",
+      "link": "https://octamem.com",
+      "summary": "Article URL: https://octamem.com Comments URL: https://news.ycombinator.com/item?id=48628724 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "score": 114.7,
+      "keywordHits": 3,
+      "publishedAt": "2026-06-22T11:26:39.000Z",
+      "score": 114.23,
       "status": "queued"
     },
     {
@@ -7186,6 +7162,18 @@
       "status": "queued"
     },
     {
+      "id": "https://spectrum.ieee.org/ai-music-attribution",
+      "title": "Generative AI Music Attribution Rethinks Royalties",
+      "link": "https://spectrum.ieee.org/ai-music-attribution",
+      "summary": "Article URL: https://spectrum.ieee.org/ai-music-attribution Comments URL: https://news.ycombinator.com/item?id=48627917 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-22T09:38:58.000Z",
+      "score": 67.69,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
       "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
       "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
@@ -7196,6 +7184,38 @@
       "publishedAt": "2026-06-19T10:40:24.000Z",
       "score": 62.21,
       "status": "queued"
+    },
+    {
+      "id": "https://atizar.io",
+      "title": "Show HN: Atizar-AI agents where the server runs approved actions, not the model",
+      "link": "https://atizar.io",
+      "summary": "Article URL: https://atizar.io Comments URL: https://news.ycombinator.com/item?id=48620103 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-21T16:09:28.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-06-22T13:26:12.019Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://tryrenown.com/research/ai-visibility-ai-coding-tools/full/",
+      "title": "Which AI coding tools do AIs recommend? Data across 10 models and 1000 responses",
+      "link": "https://tryrenown.com/research/ai-visibility-ai-coding-tools/full/",
+      "summary": "Article URL: https://tryrenown.com/research/ai-visibility-ai-coding-tools/full/ Comments URL: https://news.ycombinator.com/item?id=48361716 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-01T19:49:06.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "ANALYSIS",
+      "failedAtRun": "2026-06-22T13:26:12.019Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://github.com/usefulsoftworks/ai-agent-control-checklist",
