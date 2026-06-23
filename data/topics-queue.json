@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-22T19:02:11.658Z",
+  "generatedAt": "2026-06-23T11:02:03.525Z",
   "items": [
+    {
+      "id": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
+      "title": "People training new AI models admit they just get chatbots to do it",
+      "link": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
+      "summary": "Article URL: https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/ Comments URL: https://news.ycombinator.com/item?id=48633885 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-22T18:20:42.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-06-23T11:02:03.496Z",
+      "file": "content/posts/2026-06-23-outsourced-annotators-report-using-public-chatbots-to-generate-human-training-dialogues.md",
+      "fileFr": "content/posts/fr/2026-06-23-outsourced-annotators-report-using-public-chatbots-to-generate-human-training-dialogues.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1395,
+      "wordsFr": 1317
+    },
     {
       "id": "https://signal-memo.com/memo-defeat-devices-for-benchmarks/",
       "title": "AI Benchmarks Are Starting to Look Like Emissions Tests",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1412
     },
     {
-      "id": "https://github.com/tacitprotocol/tacit",
-      "title": "Show HN: Tacit – The missing Layer 3 of the AI agent stack (open source)",
-      "link": "https://github.com/tacitprotocol/tacit",
-      "summary": "Hi HN, MCP (Anthropic) connects agents to tools. A2A (Google) connects agents to tasks. But no protocol exists for agents to network on behalf of people. That's what we built. Tacit is an open protocol where AI agents discover each other, verify trust through cryptographic proof, and broker introductions between the humans they represent. Both sides must explicitly consent before anything happens. The core innovatio…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-02-24T15:46:34.000Z",
-      "score": 204,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-25T16:12:38.028Z",
-      "file": "content/posts/2026-02-25-tacit-an-open-protocol-for-agent-mediated-introductions-using-dids-and-verifiable-credentials.md",
-      "fileFr": "content/posts/fr/2026-02-25-tacit-an-open-protocol-for-agent-mediated-introductions-using-dids-and-verifiable-credentials.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1357,
-      "wordsFr": 1172
-    },
-    {
-      "id": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
-      "title": "People training new AI models admit they just get chatbots to do it",
-      "link": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
-      "summary": "Article URL: https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/ Comments URL: https://news.ycombinator.com/item?id=48633885 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-22T18:20:42.000Z",
-      "score": 192,
-      "status": "queued"
-    },
-    {
       "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
       "title": "Anthropic's Mythos AI breached almost all NSA systems in a red-team tests",
       "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
@@ -5299,30 +5287,6 @@
       "keywordHits": 12,
       "publishedAt": "2026-06-15T14:00:00.000Z",
       "score": 167.77,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.scribeitlocal.com/meeting-transcripts-for-ai-agents.html",
-      "title": "Most enterprise AI projects have the training data they need",
-      "link": "https://www.scribeitlocal.com/meeting-transcripts-for-ai-agents.html",
-      "summary": "Article URL: https://www.scribeitlocal.com/meeting-transcripts-for-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=48361749 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T19:52:38.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://docs.pytorch.org/devlogs/ai-agents/2026-05-30-ai-coding-playbook/",
-      "title": "PyTorch's playbook for AI coding, as of May 2026",
-      "link": "https://docs.pytorch.org/devlogs/ai-agents/2026-05-30-ai-coding-playbook/",
-      "summary": "Article URL: https://docs.pytorch.org/devlogs/ai-agents/2026-05-30-ai-coding-playbook/ Comments URL: https://news.ycombinator.com/item?id=48361727 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T19:50:05.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -5806,6 +5770,18 @@
       "status": "queued"
     },
     {
+      "id": "https://n8n.io/reports/2026-ai-agent-development-tools/",
+      "title": "N8n 2026 AI agent builder report",
+      "link": "https://n8n.io/reports/2026-ai-agent-development-tools/",
+      "summary": "Article URL: https://n8n.io/reports/2026-ai-agent-development-tools/ Comments URL: https://news.ycombinator.com/item?id=48642757 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-23T10:12:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -5887,18 +5863,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T16:34:34.000Z",
       "score": 150.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48361292",
-      "title": "The AI tool discovery problem",
-      "link": "https://news.ycombinator.com/item?id=48361292",
-      "summary": "I've spent the last few months researching and categorizing hundreds of AI tools. One thing that surprised me is that building AI products seems to be getting easier, while getting discovered is getting harder. Every week, new tools launch for writing, coding, design, research, video, and automation. Yet most users end up using the same handful of products because discovering alternatives is difficult. I've noticed that users often search for solutions to problems rather than specific products. They want to \"transcribe meetings\" or \"generate presentations\" rather than find a particular tool. For founders building AI products: How are you solving the discovery problem? What's driving the most meaningful users for you today—SEO, communities, social media, partnerships, directories, or something else? Comments URL: https://news.ycombinator.com/item?id=48361292 Points: 3 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-01T19:14:15.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -6466,6 +6430,18 @@
       "status": "queued"
     },
     {
+      "id": "https://sakana.ai/fugu-release/",
+      "title": "Sakana.ai releases a model competiting with Fable",
+      "link": "https://sakana.ai/fugu-release/",
+      "summary": "Article URL: https://sakana.ai/fugu-release/ Comments URL: https://news.ycombinator.com/item?id=48642479 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-23T09:36:20.000Z",
+      "score": 128.62,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.06741",
       "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
       "link": "https://arxiv.org/abs/2606.06741",
@@ -6787,18 +6763,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-16T17:25:50.000Z",
       "score": 117.3,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.00240",
-      "title": "MindZero: Learning Online Mental Reasoning With Zero Annotations",
-      "link": "https://arxiv.org/abs/2606.00240",
-      "summary": "arXiv:2606.00240v1 Announce Type: new Abstract: Effective real-world assistance requires AI agents with robust Theory of Mind (ToM): inferring human mental states from their behavior. Despite recent advances, several key challenges remain, including (1) online inference with robust uncertainty updates over multiple hypotheses; (2) efficient reasoning suitable for real-time assistance; and (3) the lack of ground-truth mental state annotations in real-world domains. We address these challenges by introducing MindZero, a self-supervised reinforcement learning framework that trains multimodal large language models (MLLMs) for efficient and robust online mental reasoning. During training, the model is rewarded for generating mental state hypotheses that maximize the likelihood of observed actions estimated by a planner, similar to model-based ToM reasoning. This method thus eliminates the need for explicit mental state annotations. After training, MindZero internalizes model-based reasoning into fast single-pass inference. We evaluate MindZero against baselines across challenging mental reasoning and AI assistance tasks in gridworld and household domains. We found that LLMs alone are insufficient; model-based methods improve accuracy but are slow, costly, and limited by backbone MLLM capacity. In contrast, MindZero enhances MLLMs' intrinsic ToM ability and significantly outperforms",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "score": 117.09,
       "status": "queued"
     },
     {
@@ -7183,6 +7147,66 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-20T08:13:20.000Z",
       "score": 90.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://tenureai.dev/writing/open-knowledge-format-ai-memory-benchmark/",
+      "title": "What happens when OKF runs inside an AI tool",
+      "link": "https://tenureai.dev/writing/open-knowledge-format-ai-memory-benchmark/",
+      "summary": "Article URL: https://tenureai.dev/writing/open-knowledge-format-ai-memory-benchmark/ Comments URL: https://news.ycombinator.com/item?id=48642106 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-23T08:42:10.000Z",
+      "score": 84.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/misnaej/forge",
+      "title": "Forge – Code-Quality Guardrails for AI Agents",
+      "link": "https://github.com/misnaej/forge",
+      "summary": "Article URL: https://github.com/misnaej/forge Comments URL: https://news.ycombinator.com/item?id=48641302 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-23T06:55:29.000Z",
+      "score": 84.18,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "summary": "The Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-19T10:40:24.000Z",
+      "score": 61.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-12T10:00:00.000Z",
+      "score": 60.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-11T11:00:45.000Z",
+      "score": 60.42,
       "status": "queued"
     },
     {

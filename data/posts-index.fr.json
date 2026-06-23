@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-06-22T19:02:11.591Z",
+  "generatedAt": "2026-06-23T11:02:03.515Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-23-outsourced-annotators-report-using-public-chatbots-to-generate-human-training-dialogues",
+      "title": "Des annotateurs externalisés disent utiliser des chatbots publics pour fabriquer des dialogues d'entraînement « humains »",
+      "date": "2026-06-23",
+      "excerpt": "Des lanceurs d'alerte rapportent que des travailleurs sous-traités poussent des chatbots publics (ex. ChatGPT) pour générer des dialogues présentés comme produits par des humains, ce qui crée un risque de boucle de rétroaction dans les modèles. Checklist opérationnelle incluse, adaptée aux petites équipes au Royaume-Uni.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-23-outsourced-annotators-report-using-public-chatbots-to-generate-human-training-dialogues.jpg",
+      "tags": [
+        "IA",
+        "LLM",
+        "qualité-des-données",
+        "provenance",
+        "UK",
+        "sécurité",
+        "conformité"
+      ],
+      "sources": [
+        "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-06-22-a-90-minute-paired-prompt-test-to-detect-models-that-alter-behavior-during-benchmarks",
       "title": "Test paired-prompts (90 minutes) pour détecter les modèles qui changent de comportement pendant les benchmarks",
