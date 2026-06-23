@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-23T11:02:03.525Z",
+  "generatedAt": "2026-06-23T17:21:46.752Z",
   "items": [
+    {
+      "id": "https://github.com/almakit/alma",
+      "title": "Show HN: Your self, in every light - a local-first MCP self model for AI agents",
+      "link": "https://github.com/almakit/alma",
+      "summary": "Article URL: https://github.com/almakit/alma Comments URL: https://news.ycombinator.com/item?id=48647761 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-23T16:49:55.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-23T17:21:46.675Z",
+      "file": "content/posts/2026-06-23-almakitalma-a-localfirst-mcp-self-profile-for-ondevice-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-06-23-almakitalma-a-localfirst-mcp-self-profile-for-ondevice-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1441,
+      "wordsFr": 1628
+    },
     {
       "id": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
       "title": "People training new AI models admit they just get chatbots to do it",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1310
     },
     {
-      "id": "https://apps.apple.com/us/app/rewrite-text-ai-writing-tool/id6758913519",
-      "title": "Show HN: Rewrite Text – On-Device AI Writing Tool for iOS",
-      "link": "https://apps.apple.com/us/app/rewrite-text-ai-writing-tool/id6758913519",
-      "summary": "Hi HN, I built a small iOS app that performs text rewriting and summarization entirely on-device using Apple’s Foundation Models (iOS 18+). Most AI writing tools rely on cloud APIs. That introduces API costs, privacy concerns, and infrastructure overhead. I wanted to explore what it looks like to build a useful AI writing utility with: - no backend - no external APIs - no server costs - fully offline support The app…",
+      "id": "https://news.ycombinator.com/item?id=48647957",
+      "title": "Show HN: OpenUser: Self-hosted user-persona tester for AI coding agents",
+      "link": "https://news.ycombinator.com/item?id=48647957",
+      "summary": "Recent hype about loop engineering made me realize that im missing one thing, and that is an agent that should be doing my job at the end of my loop: real user test i developing a huge b2b ecommerce project codebase. and for every new feature or fixes my job is always to test it on the browser. yuck. so i have made some research and there is TestSprite, but its not what i really want, i cant even self host it. so i built OpenUser. now i just engineer the loop with simple prompt: complete {feature} and use /openuser to test it. it store user persona, struggle, checkpoints, console logs, network logs. the agent has access to all and just fix everything. this is the real replacement of me at the end of the loop. everything runs locally, with any coding agents and model. try it: https://github.com/manalkaff/openuser npx openuser-cli Comments URL: https://news.ycombinator.com/item?id=48647957 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-02-26T07:27:59.000Z",
-      "score": 197.57,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-26T08:45:09.218Z",
-      "file": "content/posts/2026-02-26-rewrite-text-ios-app-that-rewrites-summarizes-and-extracts-key-points-locally-with-apple-foundation-models.md",
-      "fileFr": "content/posts/fr/2026-02-26-rewrite-text-ios-app-that-rewrites-summarizes-and-extracts-key-points-locally-with-apple-foundation-models.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 360,
-      "wordsEn": 1632,
-      "wordsFr": 1412
+      "keywordHits": 5,
+      "publishedAt": "2026-06-23T17:03:16.000Z",
+      "score": 198,
+      "status": "queued"
     },
     {
       "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
@@ -5230,6 +5242,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
+      "title": "GDM: When AI agents meet [video]",
+      "link": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
+      "summary": "Article URL: https://www.youtube.com/watch?v=V04bm-3d6EQ Comments URL: https://news.ycombinator.com/item?id=48647775 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-23T16:51:17.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
       "title": "France's OVHcloud plans frontier AI models to become Europe's second LLM player",
       "link": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
@@ -5395,18 +5419,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-04T16:35:37.000Z",
       "score": 156.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://old.reddit.com/r/AIProgrammingHardware/comments/1tumela/comprehensive_2026_gpu_review_for_ai_inference/",
-      "title": "A 2026 GPU Review for AI Inference. Based on Online Soures",
-      "link": "https://old.reddit.com/r/AIProgrammingHardware/comments/1tumela/comprehensive_2026_gpu_review_for_ai_inference/",
-      "summary": "Article URL: https://old.reddit.com/r/AIProgrammingHardware/comments/1tumela/comprehensive_2026_gpu_review_for_ai_inference/ Comments URL: https://news.ycombinator.com/item?id=48368636 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-02T11:08:12.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5782,6 +5794,18 @@
       "status": "queued"
     },
     {
+      "id": "https://openaca.dev/blog/your-agent-risk-is-in-the-composition/",
+      "title": "AI agent security needs a composition graph, not just an SBOM",
+      "link": "https://openaca.dev/blog/your-agent-risk-is-in-the-composition/",
+      "summary": "Article URL: https://openaca.dev/blog/your-agent-risk-is-in-the-composition/ Comments URL: https://news.ycombinator.com/item?id=48647802 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-23T16:53:47.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -6118,18 +6142,6 @@
       "status": "queued"
     },
     {
-      "id": "https://metabrain.eu",
-      "title": "Show HN: MetaBrain – A local document memory for AI agents",
-      "link": "https://metabrain.eu",
-      "summary": "Hello there HN I experimented with agentic coding recently and I felt the need to track more contextual data by project. Also I felt the need to be able to go beyond the 1D chat to communicate with agents. So I created a local document memory, that is discoverable by agents themselves. The CLI is designed to be easy to pick up by agents. It allows humans to collaborate too by reading / searching / editing documents in the store. I have a Mac native GUI in the review process, I hope it will show up in the App Store soon. You can try it easily, instructions here: https://metabrain.eu/ Here is the GitHub https://github.com/OpenCow42/metaBrain The project is also an experiment for me to build some swift project truly cross platform (Mac / Linux / Windows) It is open-sourced with the same license as LevelDB that I wrapped in swift to do this project. The agents (and humans) can retrieve content quickly with a search, allowing to re-injecting specific knowledge in a specific context during agentic work. It’s funny, I’ve thought of \"inference rule base\" as something of a derelict idea of the old functional expert systems. Now that I start working with agents I feel more and more the need to go pick previously working solutions dynamically in such a base. I’d be happy to get feedback. Product fit wise, would this be useful to you or is this just me who is happy with it ? Finally I had",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-02T17:03:09.000Z",
-      "score": 141.38,
-      "status": "queued"
-    },
-    {
       "id": "https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6",
       "title": "Google just lost one of its biggest AI names to OpenAI",
       "link": "https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6",
@@ -6346,6 +6358,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/",
+      "title": "Why AI tokens will send your enterprise cloud bill sky-high again",
+      "link": "https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/",
+      "summary": "Article URL: https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/ Comments URL: https://news.ycombinator.com/item?id=48647103 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-23T16:01:39.000Z",
+      "score": 131.79,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
       "title": "Apple is embracing the fantasy of AI photo editing",
       "link": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
@@ -6535,6 +6559,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-06-15T04:00:00.000Z",
       "score": 126.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48647045",
+      "title": "Ask HN: Best prompt to show that AI isn't ready to take over",
+      "link": "https://news.ycombinator.com/item?id=48647045",
+      "summary": "Claude: please give me a list of famous cars named after fish, like the Plymouth Barracuda for example. Comments URL: https://news.ycombinator.com/item?id=48647045 Points: 4 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-23T15:56:42.000Z",
+      "score": 125.87,
       "status": "queued"
     },
     {
@@ -6874,18 +6910,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theregister.com/ai-and-ml/2026/06/02/intel-and-pals-cram-36864-cpu-cores-into-a-100kw-rack-while-chasing-the-agentic-ai-dragon/5249917",
-      "title": "Intel and pals cram 36,864 CPU cores into a 100kW rack while chasing AI dragon",
-      "link": "https://www.theregister.com/ai-and-ml/2026/06/02/intel-and-pals-cram-36864-cpu-cores-into-a-100kw-rack-while-chasing-the-agentic-ai-dragon/5249917",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/06/02/intel-and-pals-cram-36864-cpu-cores-into-a-100kw-rack-while-chasing-the-agentic-ai-dragon/5249917 Comments URL: https://news.ycombinator.com/item?id=48373129 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-02T17:14:39.000Z",
-      "score": 115.7,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/pssah4/stigmergy",
       "title": "N8n-style tool chains for AI agents – custom design, or reinforced by what works",
       "link": "https://github.com/pssah4/stigmergy",
@@ -7174,40 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-      "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-      "summary": "The Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-19T10:40:24.000Z",
-      "score": 61.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "title": "New OpenAI Academy courses for the next era of work",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-12T10:00:00.000Z",
-      "score": 60.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
-      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
-      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
-      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-11T11:00:45.000Z",
-      "score": 60.42,
-      "status": "queued"
+      "id": "https://compilr.dev/",
+      "title": "Show HN: Compilr.dev, multi LLM AI workspace",
+      "link": "https://compilr.dev/",
+      "summary": "Hi, over the past 6+ months I have built an ecosystem (libraries, CLI, Desktop) of tools to build or use AI agents. Depending on how close or not close you are with coding, you may lean towards the libraries (compilr-dev/agents and compilr-dev/agents-coding) to build your own AI Agents; you may use the CLI to manage your project and run your agents in the terminal when working, for example in VS Code or you may use…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-23T17:11:51.000Z",
+      "score": 204,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-23T17:16:50.742Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://github.com/tamarillo-ai/theta-spec",
@@ -8040,22 +8044,6 @@
       "editorialTemplate": "SOCIETY",
       "failedAtRun": "2026-05-25T11:42:47.503Z",
       "failureReason": "below min word targets; soft warnings: EN: First section \"TL;DR (jobs + people, plain English)\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR (emploi + personnes, langage simple)\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610",
-      "title": "Agents League: The Esports-Inspired Hackathon Where AI Agents Battle for Glory",
-      "link": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610",
-      "summary": "Article URL: https://techcommunity.microsoft.com/blog/azuredevcommunityblog/agents-league-the-esports-inspired-hackathon-where-ai-agents-battle-for-glory/4521610 Comments URL: https://news.ycombinator.com/item?id=48237867 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-22T16:10:42.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-24T16:00:51.347Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
