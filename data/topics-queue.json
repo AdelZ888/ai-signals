@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-24T11:02:40.496Z",
+  "generatedAt": "2026-06-24T17:11:15.386Z",
   "items": [
+    {
+      "id": "https://github.com/sammysltd/euromesh",
+      "title": "Show HN: Can Europe train a frontier AI model on the compute it owns?",
+      "link": "https://github.com/sammysltd/euromesh",
+      "summary": "Article URL: https://github.com/sammysltd/euromesh Comments URL: https://news.ycombinator.com/item?id=48541014 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-15T13:31:09.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-24T17:11:15.305Z",
+      "file": "content/posts/2026-06-24-audit-playbook-using-euromesh-to-assess-if-europes-public-datacenters-can-train-a-frontier-ai-model.md",
+      "fileFr": "content/posts/fr/2026-06-24-audit-playbook-using-euromesh-to-assess-if-europes-public-datacenters-can-train-a-frontier-ai-model.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1552,
+      "wordsFr": 1497
+    },
     {
       "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
       "title": "Anthropic's Mythos AI breached almost all NSA systems in a red-team tests",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1225
     },
     {
-      "id": "https://www.numerama.com/tech/2188871-les-profils-terrifiants-des-ia-quand-elles-ont-des-armes-nucleaires-entre-les-mains.html",
-      "title": "Fou, faucon calculateur et Dr Jekyll et M. Hyde : les profils terrifiants des IA quand elles ont des armes nucléaires",
-      "link": "https://www.numerama.com/tech/2188871-les-profils-terrifiants-des-ia-quand-elles-ont-des-armes-nucleaires-entre-les-mains.html",
-      "summary": "Dans le film culte Wargames, un supercalculateur menaçait de lancer une guerre nucléaire. En 2026, la réalité dresse un constat tout aussi plus inquiétant : placées aux commandes de simulations géopolitiques, les intelligences artificielles de pointe comme GPT-5.2 ou Gemini 3 Flash choisissent l'escalade atomique dans 95 % des cas.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-02-27T08:25:18.000Z",
-      "score": 150,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-02-27T08:36:52.323Z",
-      "file": "content/posts/2026-02-27-gpt-52-gemini-3-and-claude-sonnet-4-often-recommended-nuclear-escalation-in-2026-wargame-simulations.md",
-      "fileFr": "content/posts/fr/2026-02-27-gpt-52-gemini-3-and-claude-sonnet-4-often-recommended-nuclear-escalation-in-2026-wargame-simulations.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1304,
-      "wordsFr": 1219
+      "id": "https://news.ycombinator.com/item?id=48661860",
+      "title": "Ask HN: Best AI Gateway?",
+      "link": "https://news.ycombinator.com/item?id=48661860",
+      "summary": "What AI gateways work well? We currently use Anthropic's router directly for our AI agent (on val.town) but are considering adding OpenRouter or the Vercel AI Gateway, or something else entirely. I know little about gateways except that they seem to be the new VS Code forks (i.e. everyone is doing it). My cursory research tells me that OpenRouter has the most models/providers, but charges a 5.5% pay-as-you-go platform fee (we pass-through inference costs to customers) and doesn't support features like prompt caching. We're mostly a Cloudflare shop, and I learned minutes ago that they, too, have an AI gateway--but so far the \"Best LLM Gateway 2026\" type articles I've found are published by...companies with a gateway Comments URL: https://news.ycombinator.com/item?id=48661860 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-24T15:59:03.000Z",
+      "score": 213.05,
+      "status": "queued"
     },
     {
       "id": "https://project-argus.ai",
@@ -5230,6 +5242,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+      "title": "Figma now has AI motion graphics and shader tools",
+      "link": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+      "summary": "Figma has unveiled some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI. Part of this is a reimagined canvas that's now optimized for full-stack development, according to Figma, bringing teams, AI agents, tools, and materials \"together in one place.\" Notable callouts include coding layers that let you tweak the code of your projects without leaving the Figma Design canvas, and AI-generated motion graphics effects, which allow you to make animations and transition effects by simply describing them to Figma's chatbot interface. You c … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-24T16:15:00.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://uberninja.co/",
+      "title": "Show HN: (Spotlight/Raycast for Web Search not local) && (compare AI responses)",
+      "link": "https://uberninja.co/",
+      "summary": "Hi My name is Daniel, indie dev for the last 25+ years, based outside Boston. You probably haven’t heard of me and I don’t have much to show on LinkedIn bc I’ve suffered from an extreme case of Fibromyalgia my whole life (aka daily migraines, severe cramping, searing nerve pain, panic attacks, anxiety, depression) But I digress..... When I wasn’t too busy having lots of pain, I built Über Ninja. Its a desktop app (Mac/Windows) that lets you prompt multiple AI models side-by-side without copy/paste. I was tired of AI errors & hallucinations and wanted an easier way to verify responses. In addition, Über Ninja also lets you do Web search from a global hotkey. There's tons of sites across 18 categories like shopping, jobs, flights and hotels. You can also multi-search multiple sites at once. I know it might be a little confusing since the app does two different things -- do you think I should split it into two separate apps or leave them together? Anyways, here's a quick demo right above the fold on my homepage: >>> https://uberninja.co https://news.ycombinator.com/item?id=48662208 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-24T16:24:43.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
       "title": "France's OVHcloud plans frontier AI models to become Europe's second LLM player",
       "link": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
@@ -5371,30 +5407,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-04T16:35:37.000Z",
       "score": 156.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports",
-      "title": "Introducing Search Generative AI Performance Reports in Google Search Console",
-      "link": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports",
-      "summary": "Article URL: https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports Comments URL: https://news.ycombinator.com/item?id=48382897 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-03T12:06:02.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.nbcboston.com/news/local/study-finds-ai-chatbots-frequently-miss-possible-diagnoses/3953915/",
-      "title": "Study finds AI chatbots frequently miss possible diagnoses",
-      "link": "https://www.nbcboston.com/news/local/study-finds-ai-chatbots-frequently-miss-possible-diagnoses/3953915/",
-      "summary": "Article URL: https://www.nbcboston.com/news/local/study-finds-ai-chatbots-frequently-miss-possible-diagnoses/3953915/ Comments URL: https://news.ycombinator.com/item?id=48382771 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-03T11:49:14.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5550,18 +5562,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-14T10:00:55.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/sammysltd/euromesh",
-      "title": "Show HN: Can Europe train a frontier AI model on the compute it owns?",
-      "link": "https://github.com/sammysltd/euromesh",
-      "summary": "Article URL: https://github.com/sammysltd/euromesh Comments URL: https://news.ycombinator.com/item?id=48541014 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-15T13:31:09.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5839,18 +5839,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T16:34:34.000Z",
       "score": 150.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theregister.com/ai-and-ml/2026/06/02/trump-ai-executive-order-sets-30-day-frontier-model-review/5250322",
-      "title": "Trump's AI E-(I)-O could let feds pick winners and losers",
-      "link": "https://www.theregister.com/ai-and-ml/2026/06/02/trump-ai-executive-order-sets-30-day-frontier-model-review/5250322",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/06/02/trump-ai-executive-order-sets-30-day-frontier-model-review/5250322 Comments URL: https://news.ycombinator.com/item?id=48382713 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-03T11:42:58.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -6238,6 +6226,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+      "title": "OpenAI reveals its first AI processor: Jalapeño",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+      "summary": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalapeño, is designed to power current and future large language models, according to an announcement on Wednesday. Jalapeño is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI inference, models process a user's request to run an agent like Codex or offer a response from ChatGPT, while AI training involves a model consuming vast amounts of data to inform its responses. It comes just nine months after OpenAI revealed that it would team up with Br … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-24T14:36:47.000Z",
+      "score": 132.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/ai-creed/ai-whisper",
+      "title": "Show HN: AI-whisper – two real coding agent CLIs, one implements, one reviews",
+      "link": "https://github.com/ai-creed/ai-whisper",
+      "summary": "Article URL: https://github.com/ai-creed/ai-whisper Comments URL: https://news.ycombinator.com/item?id=48661711 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-24T15:49:37.000Z",
+      "score": 132.95,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/guyweissman/agentstore",
       "title": "Show HN: AgentStore – a self-hosted datastore for AI agent teams",
       "link": "https://github.com/guyweissman/agentstore",
@@ -6331,18 +6343,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-22T11:52:23.000Z",
       "score": 130.76,
-      "status": "queued"
-    },
-    {
-      "id": "https://thehiveryiq.com/trust/",
-      "title": "Show HN: Hive Trust – Ed25519-signed benchmarks for every AI inference primitive",
-      "link": "https://thehiveryiq.com/trust/",
-      "summary": "Article URL: https://thehiveryiq.com/trust/ Comments URL: https://news.ycombinator.com/item?id=48386661 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-03T17:08:12.000Z",
-      "score": 129.94,
       "status": "queued"
     },
     {
@@ -7160,6 +7160,46 @@
       "publishedAt": "2026-06-23T08:42:10.000Z",
       "score": 84.59,
       "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24145",
+      "title": "T2D-Bench: Evidence-Gated Evaluation of LLM Outputs for Type 2 Diabetes Using a Multi-Layer Clinical-Lifestyle Knowledge Graph",
+      "link": "https://arxiv.org/abs/2606.24145",
+      "summary": "arXiv:2606.24145v1 Announce Type: new Abstract: Large language models (LLMs) can produce clinically fluent recommendations for type 2 diabetes while failing to satisfy guideline constraints or explicitly justify lifestyle-related glycemic claims. We present T2D-Bench, a reproducible benchmark and evidence-gated evaluation framework for testing whether LLM outputs satisfy explicit, graph-checkable evidence requirements. T2D-Bench is built on a multi-layer clinical-lifestyle knowledge graph that combines a biomedical spine (UMLS, DrugBank, SIDER), computable ADA Standards of Care rules, and lifestyle knowledge connected through a mechanistic bridge to glycemic laboratory effects. Across 100 structured vignettes spanning diagnosis, medication safety, and adversarial lifestyle conflicts, baseline outputs failed benchmark-defined evidence-path checks in 35% of cases for GPT-4o-mini and 33% for GPT-4o. The evidence gate detects unsupported omissions and uses constrained revision to bring outputs into verifier-level compliance with benchmark-defined evidence requirements. These results show that computable evidence constraints can make unsupported clinical omissions explicit, measurable, and correctable in diabetes-focused LLM outputs.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 75.18,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24099",
+      "title": "Exploring Academic Influence of Algorithms by Co-occurrence Network Based on Full-text of Academic Papers",
+      "link": "https://arxiv.org/abs/2606.24099",
+      "summary": "arXiv:2606.24099v1 Announce Type: new Abstract: Algorithms have become central to scientific research in the era of artificial intelligence (AI). Although algorithm mentions in papers are often used to indicate popularity and influence, existing studies usually evaluate individual algorithms in isolation and pay limited attention to the collective influence formed through their interconnections. This study constructs large-scale algorithm co-occurrence networks in natural language processing (NLP) based on the full text of academic papers and investigates algorithm influence from a network perspective. Using deep learning models, we extract algorithm entities and build overall, cumulative, and annual co-occurrence networks. We analyze their structural characteristics and apply multiple centrality measures to assess the group influence of algorithms across the whole field and over time. The results show that algorithm networks display typical features of complex networks, with increasingly dense connections developing over approximately two decades. Classic, high-performing algorithms and those located at the intersections of different research periods tend to have high popularity, control, centrality, and balanced influence. When the influence of an algorithm declines, it usually loses its core network position first, followed by weaker associations with other algorithms. This",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 69.18,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-24T06:00:00.000Z",
+      "score": 82.85,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-24T17:03:55.117Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://news.ycombinator.com/item?id=48657403",
@@ -8024,54 +8064,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-05-26T17:55:18.955Z",
       "failureReason": "validation issues: EN: Section \"TL;DR in plain English\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What you will build and why it helps\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Before you start (time, cost, prerequisites)\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Step-by-step setup and implementation\" is missing an inline source link (must include one of the provided URLs).…"
-    },
-    {
-      "id": "https://hackobar.com/",
-      "title": "Show HN: Hackobar – One feed for AI news",
-      "link": "https://hackobar.com/",
-      "summary": "Hey HN, Out of frustration of keeping up with AI news, I built hackobar. It fetches the AI realted news from mmuliple sources such as HN, arxiv, github trending repos, huggingface, many ai subreddits, twitter handles that cover AI, Tech news outelts, major ai lab blogs and of course the numerous AI news letters that are growing by day. GitHub trending repos isn't \"news\" but as an engineer it matters. you can't read…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-25T16:02:57.000Z",
-      "score": 191.27,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-25T17:06:32.599Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.ft.com/content/c4435dd4-00c0-4270-aab9-3c7ce1ae45f6",
-      "title": "Google, xAI and Microsoft agree to US national security reviews of new AI models",
-      "link": "https://www.ft.com/content/c4435dd4-00c0-4270-aab9-3c7ce1ae45f6",
-      "summary": "Article URL: https://www.ft.com/content/c4435dd4-00c0-4270-aab9-3c7ce1ae45f6 Comments URL: https://news.ycombinator.com/item?id=48024043 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-05T15:40:33.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-25T11:42:47.503Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2259707-finalement-lia-coute-plus-cher-quun-humain-la-dure-realite-financiere-qui-rattrape-microsoft.html",
-      "title": "Finalement, l’IA coûte plus cher qu’un humain : la dure réalité financière qui rattrape Microsoft",
-      "link": "https://www.numerama.com/tech/2259707-finalement-lia-coute-plus-cher-quun-humain-la-dure-realite-financiere-qui-rattrape-microsoft.html",
-      "summary": "Selon un article publié par The Verge à la mi-mai 2026, Microsoft aurait commencé à annuler la plupart de ses licences Claude Code. D’après des sources internes citées par le média américain, l’entreprise estimerait que certains usages d’agents IA coûtent désormais plus cher que le travail humain.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-25T11:35:00.000Z",
-      "score": 162,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "SOCIETY",
-      "failedAtRun": "2026-05-25T11:42:47.503Z",
-      "failureReason": "below min word targets; soft warnings: EN: First section \"TL;DR (jobs + people, plain English)\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR (emploi + personnes, langage simple)\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

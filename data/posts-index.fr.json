@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T11:02:40.484Z",
+  "generatedAt": "2026-06-24T17:11:15.324Z",
   "locale": "fr",
   "posts": [
     {
@@ -23,6 +23,33 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-06-24-audit-playbook-using-euromesh-to-assess-if-europes-public-datacenters-can-train-a-frontier-ai-model",
+      "title": "Manuel d'audit : utiliser euromesh pour estimer si les centres de données publics européens (y compris le Royaume‑Uni) peuvent entraîner un modèle d'IA de pointe",
+      "date": "2026-06-24",
+      "excerpt": "Un playbook de quatre heures (prototype) qui transforme le snapshot euromesh en un inventaire, un estimateur à 3 scénarios de GPU‑heures et une checklist décisionnelle d'une page pour juger si le calcul public européen suffit. Le repo de départ : https://github.com/sammysltd/euromesh",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-24-audit-playbook-using-euromesh-to-assess-if-europes-public-datacenters-can-train-a-frontier-ai-model.jpg",
+      "tags": [
+        "euromesh",
+        "audit",
+        "IA",
+        "datacenters",
+        "GPU",
+        "souverainete",
+        "UK",
+        "petites-equipes"
+      ],
+      "sources": [
+        "https://github.com/sammysltd/euromesh"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

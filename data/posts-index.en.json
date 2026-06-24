@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T11:02:40.486Z",
+  "generatedAt": "2026-06-24T17:11:15.321Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-24-audit-playbook-using-euromesh-to-assess-if-europes-public-datacenters-can-train-a-frontier-ai-model",
+      "title": "Audit playbook: using euromesh to assess if Europe's public datacenters can train a frontier AI model",
+      "date": "2026-06-24",
+      "excerpt": "A four-hour playbook that turns the euromesh snapshot into an inventory, a 3-scenario GPU-hour estimator and a one-page decision checklist to judge if Europe’s public compute suffices.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-24-audit-playbook-using-euromesh-to-assess-if-europes-public-datacenters-can-train-a-frontier-ai-model.jpg",
+      "tags": [
+        "euromesh",
+        "europe",
+        "datacenters",
+        "gpu",
+        "ai-infrastructure",
+        "sovereign-ai",
+        "feasibility",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/sammysltd/euromesh"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-06-23-almakitalma-a-localfirst-mcp-self-profile-for-ondevice-ai-agents",
