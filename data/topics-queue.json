@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-23T17:21:46.752Z",
+  "generatedAt": "2026-06-24T11:02:40.496Z",
   "items": [
+    {
+      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
+      "title": "Anthropic's Mythos AI breached almost all NSA systems in a red-team tests",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models Comments URL: https://news.ycombinator.com/item?id=48633927 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-22T18:23:41.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-06-24T11:02:40.468Z",
+      "file": "content/posts/2026-06-24-anthropics-mythos-ai-reportedly-breached-nearly-all-nsa-classified-systems-during-red-team-test.md",
+      "fileFr": "content/posts/fr/2026-06-24-anthropics-mythos-ai-reportedly-breached-nearly-all-nsa-classified-systems-during-red-team-test.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1284,
+      "wordsFr": 1348
+    },
     {
       "id": "https://github.com/almakit/alma",
       "title": "Show HN: Your self, in every light - a local-first MCP self model for AI agents",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1219
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47098555",
-      "title": "Show HN: Using classic dev books to guide AI agents",
-      "link": "https://news.ycombinator.com/item?id=47098555",
-      "summary": "I've been experimenting with turning principles from classic software engineering books (Clean Code, DDIA, etc.) into structured \"skill\" files that AI agents can use during code review. Each skill is an opinionated instruction set grounded in known engineering wisdom — not a summary or excerpt. Repo: https://github.com/ZLStas/skills I'm trying to figure out the best way to wire this into a practical workflow — wheth…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-21T08:03:41.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-26T16:04:34.169Z",
-      "file": "content/posts/2026-02-26-turn-classic-software-engineering-principles-into-skill-files-to-guide-ai-code-review-agents.md",
-      "fileFr": "content/posts/fr/2026-02-26-turn-classic-software-engineering-principles-into-skill-files-to-guide-ai-code-review-agents.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1417,
-      "wordsFr": 1310
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48647957",
-      "title": "Show HN: OpenUser: Self-hosted user-persona tester for AI coding agents",
-      "link": "https://news.ycombinator.com/item?id=48647957",
-      "summary": "Recent hype about loop engineering made me realize that im missing one thing, and that is an agent that should be doing my job at the end of my loop: real user test i developing a huge b2b ecommerce project codebase. and for every new feature or fixes my job is always to test it on the browser. yuck. so i have made some research and there is TestSprite, but its not what i really want, i cant even self host it. so i built OpenUser. now i just engineer the loop with simple prompt: complete {feature} and use /openuser to test it. it store user persona, struggle, checkpoints, console logs, network logs. the agent has access to all and just fix everything. this is the real replacement of me at the end of the loop. everything runs locally, with any coding agents and model. try it: https://github.com/manalkaff/openuser npx openuser-cli Comments URL: https://news.ycombinator.com/item?id=48647957 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-23T17:03:16.000Z",
-      "score": 198,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
-      "title": "Anthropic's Mythos AI breached almost all NSA systems in a red-team tests",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models Comments URL: https://news.ycombinator.com/item?id=48633927 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-22T18:23:41.000Z",
-      "score": 180,
-      "status": "queued"
-    },
-    {
       "id": "https://project-argus.ai",
       "title": "Argus – a wearable control surface for AI agents",
       "link": "https://project-argus.ai",
@@ -5290,30 +5266,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
-      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
-      "link": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
-      "summary": "Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled out Claude Fable 5 to its GitHub Copilot and Foundry customers, I'm told the model isn't available in the model picker that Microsoft employees use for internal versions of GitHub Copilot. All other Claude models are still available internally at Microsoft, because they operate under Zero Data Retention (ZDR) rules. I understand that Microsoft ha … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-10T16:50:23.000Z",
-      "score": 168.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
-      "title": "Skydio CEO Adam Bry on why Silicon Valley shouldn’t draw red lines for drone use",
-      "link": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
-      "summary": "Today, I’m talking with Adam Bry, who is CEO of Skydio, the leading US maker of autonomous drones. Before we recorded this episode, I actually got to remotely operate one of Skydio’s drones in the Bay Area from Adam’s laptop in our podcast studio in New York and fly an indoor drone around our office. You can check out the full video of that on our YouTube channel. Beyond flying drones around the country, Adam and I talked about why Skydio is so focused on the enterprise market — I asked him a lot about working with police and military, but you’ll hear him say a lot of Skydio’s customers are utility companies that use drones to remotely inspect important infrastructure in ways that weren’t possible before. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. That’s a big market, but it’s also one that was being served by cheap consumer drones in the past — products that basically no longer exist on the US market since most of them came from China, and the Trump administration banned foreign-made drones late last year. All those inexpensive DJI drones disappeared overnight, leaving expensive Skydio products as the main alternative. Adam and I talked about all that and the reality of manufacturing complex products like drones in the United States. We also talked about Skydio’s",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 12,
-      "publishedAt": "2026-06-15T14:00:00.000Z",
-      "score": 167.77,
-      "status": "queued"
-    },
-    {
       "id": "https://ar-agents.ar",
       "title": "Show HN: Open infrastructure for Argentina's AI-run companies (36 NPM packages)",
       "link": "https://ar-agents.ar",
@@ -5419,18 +5371,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-04T16:35:37.000Z",
       "score": 156.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
-      "title": "Ubuntu 26.04 is the OS for the AI agentic era, says Canonical's Shuttleworth",
-      "link": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
-      "summary": "Article URL: https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/ Comments URL: https://news.ycombinator.com/item?id=48373674 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-02T17:52:43.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5806,6 +5746,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.execlave.com/blog/what-is-an-ai-agent-management-platform",
+      "title": "What Is an AI Agent Management Platform (AMP)?",
+      "link": "https://www.execlave.com/blog/what-is-an-ai-agent-management-platform",
+      "summary": "Article URL: https://www.execlave.com/blog/what-is-an-ai-agent-management-platform Comments URL: https://news.ycombinator.com/item?id=48657599 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-24T10:09:04.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
       "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
       "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
@@ -5887,18 +5839,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T16:34:34.000Z",
       "score": 150.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html",
-      "title": "Microsoft Announces AI Autopilot",
-      "link": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html",
-      "summary": "Article URL: https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html Comments URL: https://news.ycombinator.com/item?id=48374079 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-02T18:19:27.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -6211,30 +6151,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-08T16:41:43.000Z",
       "score": 137.73,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/",
-      "title": "Microsoft launches Project Solara, device platform for AI",
-      "link": "https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/",
-      "summary": "Article URL: https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/ Comments URL: https://news.ycombinator.com/item?id=48373217 Points: 8 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-02T17:23:08.000Z",
-      "score": 137.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/gtamir02-png/cve-ai-agent/blob/main/README.md",
-      "title": "AI Vulnerability Intelligence Agent Converts CVEs to Actionable Security Reports",
-      "link": "https://github.com/gtamir02-png/cve-ai-agent/blob/main/README.md",
-      "summary": "Article URL: https://github.com/gtamir02-png/cve-ai-agent/blob/main/README.md Comments URL: https://news.ycombinator.com/item?id=48373280 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-02T17:27:11.000Z",
-      "score": 136.72,
       "status": "queued"
     },
     {
@@ -6646,54 +6562,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.02802",
-      "title": "ChatHealthAI: Aligning Electronic Health Record Representations with Large Language Models for Grounded Clinical Reasoning",
-      "link": "https://arxiv.org/abs/2606.02802",
-      "summary": "arXiv:2606.02802v1 Announce Type: new Abstract: Large language models (LLMs) exhibit strong natural-language reasoning abilities for clinical decision support, but struggle to effectively model structured longitudinal electronic health records (EHRs). In contrast, EHR foundation models can learn predictive patient representations, yet lack interpretable language-based reasoning. To bridge this gap, we propose ChatHealthAI, a multimodal reasoning framework that aligns structured EHR representations from a pretrained EHR foundation model with the semantic space of a frozen LLM through a task-aware resampler. By integrating longitudinal patient representations with refined clinical event descriptions, ChatHealthAI enables clinically grounded natural-language reasoning while maintaining accurate patient prediction. We evaluated ChatHealthAI on three clinical predictive tasks from the EHRSHOT benchmark. Results show that ChatHealthAI improves reasoning quality and interpretability while preserving competitive predictive performance. These findings highlight the potential of integrating EHR foundation models with pretrained LLMs for interpretable clinical prediction.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "score": 122.13,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.02862",
-      "title": "Toward a Modular Architecture for Embedded AI Agent Systems at the Edge",
-      "link": "https://arxiv.org/abs/2606.02862",
-      "summary": "arXiv:2606.02862v1 Announce Type: new Abstract: The rise of Large Language Models (LLMs) has enabled agentic AI capable of complex reasoning and tool use; however, deploying such autonomy in pervasive computing environments remains challenging due to the strict memory and energy constraints of embedded microcontrollers. Existing frameworks typically assume server-class resources or continuous connectivity, leaving a gap for deeply embedded systems. This paper proposes a modular reference architecture for Embedded Agent Systems that bridges the divide between deterministic real-time control and agentic intelligence. We introduce a tiered design that decouples On-Device Agents - executing highly compressed neural networks and rule-based logic for low-latency, privacy-critical tasks - from Cloud-Augmented Agents that leverage Small Language Models (SLMs) for higher-level reasoning and planning. A key contribution is the integration of a cross-cutting Governance Layer, ensuring observability, policy enforcement, and safety across distributed fleets of autonomous devices. Rather than presenting purely empirical benchmarks, we analyze architectural design principles and trade-offs regarding latency, energy, and reliable execution in resource-constrained environments.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "score": 122.13,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.02875",
-      "title": "Handoff Debt: The Rediscovery Cost When Coding Agents Take Over Interrupted Tasks",
-      "link": "https://arxiv.org/abs/2606.02875",
-      "summary": "arXiv:2606.02875v1 Announce Type: new Abstract: Coding-agent benchmarks evaluate whether a single uninterrupted agent can resolve a repository issue. Real software work is messier: tasks are interrupted, reassigned, reviewed, and resumed from partial states left by another agent or engineer. We study this missing dimension through \\emph{handoff debt}: the rediscovery cost imposed when a predecessor's work is opaque or incomplete. Our takeover protocol interrupts a coding agent at deterministic handoff points, freezes the repository, and evaluates successor agents under four handoff views: repository state only, raw trace, summary notes, and structured notes. Across 75 source tasks, the protocol generates 181 handoff-point tasks and 724 takeover runs per successor model. Across three successor models, context-bearing handoffs reduce median agent events by 20--59\\% and cumulative prompt tokens by 42--63\\% relative to repository-only takeover. Solved-rate effects are smaller and model-dependent, but efficiency gains are consistent. These findings suggest that coding-agent evaluation should report not only whether a task is solved, but also how costly that work is for another agent to resume.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "score": 122.13,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.02914",
-      "title": "Large AI Models in Dental Healthcare: From General-Purpose Systems to Domain-Specific Foundation Models",
-      "link": "https://arxiv.org/abs/2606.02914",
-      "summary": "arXiv:2606.02914v1 Announce Type: new Abstract: Background: Oral diseases affect nearly 3.5 billion people worldwide, yet the comparative clinical potential of large-scale AI models in dentistry remains poorly understood. Three distinct model categories have emerged: language-generative models, discriminative vision foundation models, and dental-specific foundation models, with no unified review examining their relationships and collective limitations. Methods: Following PRISMA-ScR guidelines, we systematically searched four databases (PubMed, Google Scholar, Scopus, arXiv), screened independently by two reviewers. After applying inclusion/exclusion criteria, 97 studies (2020-2026) were included. We propose a two-dimensional classification framework organizing models by architectural paradigm and dental specialization degree. Results: Language-generative models excel at text-based tasks (clinical reasoning, licensing exams, patient communication) but show inconsistent performance on image-dependent diagnostics. Adapted SAM and CLIP variants achieve strong tooth segmentation and lesion detection results. Dental-specific models (DentVFM, DentVLM, OralGPT) demonstrate strongest performance on complex multimodal tasks. Integrated pipelines consistently outperform single-model approaches. A data asymmetry is observed: dental-specific pretraining concentrates almost entirely in the v",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "score": 122.13,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2606.14935",
       "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
       "link": "https://arxiv.org/abs/2606.14935",
@@ -6850,6 +6718,18 @@
       "status": "queued"
     },
     {
+      "id": "https://mariobergeron.com/posts/edge-ai-power-p06-memryx-mx3/",
+      "title": "Edge AI Power Benchmarking",
+      "link": "https://mariobergeron.com/posts/edge-ai-power-p06-memryx-mx3/",
+      "summary": "Article URL: https://mariobergeron.com/posts/edge-ai-power-p06-memryx-mx3/ Comments URL: https://news.ycombinator.com/item?id=48657168 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-24T09:10:27.000Z",
+      "score": 116.41,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.05304",
       "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
       "link": "https://arxiv.org/abs/2606.05304",
@@ -6931,6 +6811,42 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-22T11:26:39.000Z",
       "score": 114.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.23991",
+      "title": "Critique of Agent Model",
+      "link": "https://arxiv.org/abs/2606.23991",
+      "summary": "arXiv:2606.23991v1 Announce Type: new Abstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understanding whether and what to fear. Drawing on Descartes' grounding of agency in independent thought, and on portrayals of autonomous beings in science fiction, we survey the current landscape of AI agents, and analyze agent architectures along five dimensions: goal, identity, decision-making, self-regulation, and learning. Specifically, we argue that genuine agency requires these structures to be \\emph{internalized within the system itself} rather than assembled through external scaffolding. This distinction between \\emph{agentic} systems, whose competence resides in engineered workflows, and \\emph{agentive} systems, whose capabilities (including social interaction) arise endogenously, defines the boundary between systems designed for prescribed tasks, and those capable of operating in the open world with true autonomy. Building on this analysis,",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 114,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24026",
+      "title": "Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability?",
+      "link": "https://arxiv.org/abs/2606.24026",
+      "summary": "arXiv:2606.24026v1 Announce Type: new Abstract: Mechanistic interpretability has made substantial progress in automatically localizing circuits, but explaining what localized components do remains labor-intensive and difficult to standardize. In this work, we study whether language model (LM) agents can assist with this explanation problem once a circuit has already been identified. We introduce AgenticInterpBench, a benchmark for circuit explanation built from 84 semi-synthetic transformer circuits with 163 component-level annotations. We propose HyVE (Hypothesize, Validate, Explain), an agentic explainer that analyzes each component through an iterative loop of observation, hypothesis generation, and causal validation, eventually producing a component-level explanation and a circuit-level task description. Across four LM backbones, HyVE recovers useful component- and task-level explanations, but no backbone is uniformly best. Our analysis shows that strong backbones usually form observation-grounded hypotheses, while failures more often arise later in the validation loop, through incomplete validation plans, code execution errors, or unresolved hypotheses. A case study on an arithmetic circuit in Llama-3-8B shows that the same formulation can extend beyond semi-synthetic benchmarks to naturally trained models. Overall, LM agents are promising circuit explainers, but reliable",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 114,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24064",
+      "title": "Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning",
+      "link": "https://arxiv.org/abs/2606.24064",
+      "summary": "arXiv:2606.24064v1 Announce Type: new Abstract: Distilling reasoning capabilities from strong to weak language models typically involves imitating specific solution trajectories, effectively transferring what to answer rather than how to reason. This trajectory-level imitation encourages memorization of instance-specific steps rather than acquisition of transferable problem-solving skills, limiting generalization to novel problems. We propose Strategy-Guided Policy Optimization (SGPO), which replaces instance-level trajectory imitation with reusable strategy distillation. SGPO extracts structured strategy descriptions from strong-model responses and, for each problem, constructs both autonomous and strategy-guided trajectories to enable direct comparison of the model's behavior with and without strategic guidance. The framework then addresses two key questions. For how to distill, a token-level forward-KL objective selectively transfers the distributional shift induced by strategy conditioning into the unguided policy, with proximal constraints ensuring stability. For when to distill, adaptive instance-level weighting strengthens guidance when autonomous exploration falls short and reduces it as the model's own competence grows. Experiments on four mathematical benchmarks across two model families show that SGPO consistently outperforms SFT, on-policy RL, and hybrid-policy base",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 114,
       "status": "queued"
     },
     {
@@ -7078,6 +6994,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.23938",
+      "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
+      "link": "https://arxiv.org/abs/2606.23938",
+      "summary": "arXiv:2606.23938v1 Announce Type: new Abstract: Driving VLA models incorporating Chain-of-Thought (CoT) reasoning are attractive because they leverage pretrained VLM representations and expose intermediate decisions in natural language, yet current rationales often lack the step-by-step decision semantics needed to keep the rationale causally connected to the planned motion. We introduce Neuro-Symbolic Drive, a neuro-symbolic driving framework that supervises a driving VLA with rule-grounded reasoning traces extracted directly from classical rule-based planners. Our key observation is that rule-based planners are symbolic AI systems that already function as executable reasoning engines: they reason about active safety constraints, search over candidate maneuvers, and select a final trajectory. We instrument these planners in simulation to capture both the executed trajectory and the internal decision trace at each rule-evaluation step. Each trace is serialized into structured rule-grounded reasoning and paired with the trajectory to fine-tune Qwen3.5-4B as a driving VLA. Because these traces are derived directly from the planner states that determine the action, they ensure reasoning is structurally coupled to motion generation by construction, rather than by post-hoc alignment. On our simulator-generated benchmark, detailed rule-grounded reasoning reduces ADE@3s from 0.47 to 0",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 102,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24014",
+      "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
+      "link": "https://arxiv.org/abs/2606.24014",
+      "summary": "arXiv:2606.24014v1 Announce Type: new Abstract: As AI systems are deployed across increasingly diverse and high-stakes settings, model alignment must generalize beyond the tasks and domains seen during training. This is especially important for reinforcement learning (RL), which can introduce unexpected misalignment through reward hacking, deception, or other unintended strategies. We study whether RL on beneficial behavior, instantiated in realistic domains, can produce broad and persistent alignment generalization beyond the training distribution. We construct a dataset of realistic situations designed to measure and train beneficial traits, such as truthfulness, fairness, risk awareness, and corrigibility, spanning varied domains, including health, science, and education. We then train models with RL on this dataset and evaluate them on more than 50 independent benchmarks of alignment and beneficial behavior. Compared to a compute-matched baseline, beneficial trait RL improves performance on over 80% of these out-of-distribution benchmarks. We observe substantial out-of-distribution alignment transfer: a beneficial-behavior RL intervention entirely limited to one domain, health, produces broad improvements on non-health alignment evaluations, including reduced reward hacking, deception, and general misalignment. Finally, we study alignment persistence: whether behavior remai",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 102,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.19527",
       "title": "Emergent Alignment",
       "link": "https://arxiv.org/abs/2606.19527",
@@ -7111,6 +7051,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-20T07:36:45.000Z",
       "score": 96.51,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24124",
+      "title": "VeryTrace: Verifying Reasoning Traces through Compilable Formalism and Structured Verification",
+      "link": "https://arxiv.org/abs/2606.24124",
+      "summary": "arXiv:2606.24124v1 Announce Type: new Abstract: Multi-step reasoning with Chain-of-Thought (CoT) prompting remains fragile: logical errors or hallucinations in early steps silently propagate, producing confident but incorrect conclusions. This paper presents VeryTrace, a zero-shot verification-and-repair framework that formalizes natural-language reasoning traces into a structured, compilable representation. VeryTrace introduces a Domain-Specific Language (DSL) that (i) makes step dependencies explicit, (ii) mechanizes quantitative content as executable expressions, and (iii) structures semantic inferences via deduction schemas. Our hybrid verifier combines deterministic checks for computational correctness, dependency resolution, and constraint satisfaction with targeted LLM audits for non-mechanizable semantic judgments, enabling step-level error localization and repair. Across three diverse domains-competition mathematics (AIME 2025), robotics planning (LLM-BabyBench), and kinship reasoning (CLUTRR), VeryTrace improves accuracy over zero-shot baselines on state-of-the-art LLMs without requiring domain-specific training or in-context examples, demonstrating that formalized trace verification achieves both precision and generalization.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 96,
+      "status": "queued"
+    },
+    {
+      "id": "https://workdir.dev/",
+      "title": "Workdir: Open-source sandboxes for AI agents",
+      "link": "https://workdir.dev/",
+      "summary": "Article URL: https://workdir.dev/ Comments URL: https://news.ycombinator.com/item?id=48656496 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-24T07:37:22.000Z",
+      "score": 93.43,
       "status": "queued"
     },
     {
@@ -7174,6 +7138,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.23927",
+      "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+      "link": "https://arxiv.org/abs/2606.23927",
+      "summary": "arXiv:2606.23927v1 Announce Type: new Abstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific implementations or domains, limiting unified comparison across heterogeneous systems. To address this gap, we introduce RIFT-Bench, a graph representation-driven methodology for dynamic red-teaming that enables unified evaluations across diverse agentic architectures. Building on a novel hierarchical representation, RIFT-Bench operates in two automated phases: Discovery, which extracts system structure, and Scanning, which deploys adaptive adversarial attacks and produces a comprehensive evaluation report. It evaluates the examined system itself, leveraging a broad set of dynamically adaptable adversarial probes across diverse attack vectors and objectives. We demonstrate the effectiveness of the proposed evaluation pipeline across 45 agentic systems spanning a diverse range of implementations, showing that the approach generalizes effectively to heterogeneous agentic architectures. Beyond systems and attacks, RIFT-Bench also supports direct evaluation of mitigation strategies. These key capabilities make RIFT-Bench a scalable foundation for security evaluation of agentic AI systems.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-24T04:00:00.000Z",
+      "score": 90,
+      "status": "queued"
+    },
+    {
       "id": "https://tenureai.dev/writing/open-knowledge-format-ai-memory-benchmark/",
       "title": "What happens when OKF runs inside an AI tool",
       "link": "https://tenureai.dev/writing/open-knowledge-format-ai-memory-benchmark/",
@@ -7186,16 +7162,68 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/misnaej/forge",
-      "title": "Forge – Code-Quality Guardrails for AI Agents",
-      "link": "https://github.com/misnaej/forge",
-      "summary": "Article URL: https://github.com/misnaej/forge Comments URL: https://news.ycombinator.com/item?id=48641302 Points: 2 # Comments: 0",
+      "id": "https://news.ycombinator.com/item?id=48657403",
+      "title": "Show HN: Agnes AI – Free multimodal API (text, image, video), OpenAI-compatible",
+      "link": "https://news.ycombinator.com/item?id=48657403",
+      "summary": "Hi HN, I'm Daniel, part of the team at Agnes AI, a Singapore-based AI lab. We've been building quietly for a while and I wanted to share what we've made with this community and get honest feedback from people who actually build things. What is Agnes AI? Agnes AI gives you access to three models through a single free API. We have text, image and video models. The API is fully OpenAI-compatible, so you can just swap t…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-23T06:55:29.000Z",
-      "score": 84.18,
-      "status": "queued"
+      "keywordHits": 9,
+      "publishedAt": "2026-06-24T09:40:31.000Z",
+      "score": 240,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-24T10:40:01.135Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48647957",
+      "title": "Show HN: OpenUser: Self-hosted user-persona tester for AI coding agents",
+      "link": "https://news.ycombinator.com/item?id=48647957",
+      "summary": "Recent hype about loop engineering made me realize that im missing one thing, and that is an agent that should be doing my job at the end of my loop: real user test i developing a huge b2b ecommerce project codebase. and for every new feature or fixes my job is always to test it on the browser. yuck. so i have made some research and there is TestSprite, but its not what i really want, i cant even self host it. so i…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-23T17:03:16.000Z",
+      "score": 198,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "SOCIETY",
+      "failedAtRun": "2026-06-24T10:40:01.135Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
+      "link": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "summary": "Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled out Claude Fable 5 to its GitHub Copilot and Foundry customers, I'm told the model isn't available in the model picker th…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-10T16:50:23.000Z",
+      "score": 168.49,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-06-24T10:40:01.135Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
+    },
+    {
+      "id": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+      "title": "Skydio CEO Adam Bry on why Silicon Valley shouldn’t draw red lines for drone use",
+      "link": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+      "summary": "Today, I’m talking with Adam Bry, who is CEO of Skydio, the leading US maker of autonomous drones. Before we recorded this episode, I actually got to remotely operate one of Skydio’s drones in the Bay Area from Adam’s laptop in our podcast studio in New York and fly an indoor drone around our office. You can check out the full video of that on our YouTube channel. Beyond flying drones around the country, Adam and I…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 12,
+      "publishedAt": "2026-06-15T14:00:00.000Z",
+      "score": 167.77,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-06-24T10:40:01.135Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten s…"
     },
     {
       "id": "https://compilr.dev/",

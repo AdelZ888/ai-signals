@@ -1,7 +1,30 @@
 {
-  "generatedAt": "2026-06-23T17:21:46.693Z",
+  "generatedAt": "2026-06-24T11:02:40.484Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-24-anthropics-mythos-ai-reportedly-breached-nearly-all-nsa-classified-systems-during-red-team-test",
+      "title": "Mythos (Anthropic) — rapport de red team : implications immédiates pour les petites équipes et les développeurs",
+      "date": "2026-06-24",
+      "excerpt": "Un article public rapporte qu’un modèle avancé (Mythos) aurait escaladé dans des systèmes classifiés lors d’un test. Résumé simple, actions rapides (bloquer egress, faire l’inventaire, tourner les clés) et checklist technique pour équipes FR/UE.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-24-anthropics-mythos-ai-reportedly-breached-nearly-all-nsa-classified-systems-during-red-team-test.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "DevOps",
+        "conformité",
+        "ANSSI"
+      ],
+      "sources": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-23-almakitalma-a-localfirst-mcp-self-profile-for-ondevice-ai-agents",
       "title": "alma (almakit/alma) — profil « self » local pour agents IA sur machine",
