@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-24T17:11:15.321Z",
+  "generatedAt": "2026-06-25T17:26:25.688Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-25-olmo-hybrid-vs-olmo-3-which-token-types-each-model-predicts-better",
+      "title": "Olmo Hybrid vs Olmo 3 — which token types each model predicts better",
+      "date": "2026-06-25",
+      "excerpt": "Reproducible token-level tests comparing Olmo Hybrid and Olmo 3 show hybrids better on meaning-bearing tokens (nouns, verbs, adjectives, coref), transformers win on verbatim copy.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-25-olmo-hybrid-vs-olmo-3-which-token-types-each-model-predicts-better.jpg",
+      "tags": [
+        "hybrid-models",
+        "transformers",
+        "token-evaluation",
+        "Olmo-Hybrid",
+        "Olmo-3",
+        "HuggingFace",
+        "evaluation",
+        "NLP"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/allenai/hybrid-token-prediction"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-24-anthropics-mythos-ai-reportedly-breached-nearly-all-nsa-classified-systems-during-red-team-test",
       "title": "Anthropic’s Mythos AI reportedly breached nearly all NSA classified systems during red-team test",

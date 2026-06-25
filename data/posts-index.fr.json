@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-24T17:11:15.324Z",
+  "generatedAt": "2026-06-25T17:26:25.685Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-25-olmo-hybrid-vs-olmo-3-which-token-types-each-model-predicts-better",
+      "title": "Olmo Hybrid vs Olmo 3 — quels types de tokens chaque modèle prédit mieux",
+      "date": "2026-06-25",
+      "excerpt": "Tests reproductibles au niveau des tokens montrant que les modèles hybrides (Olmo Hybrid) sont meilleurs sur les tokens qui portent du sens (noms, verbes, adjectifs, coréférence) tandis que le transformer (Olmo 3) garde l'avantage sur la copie littérale.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-25-olmo-hybrid-vs-olmo-3-which-token-types-each-model-predicts-better.jpg",
+      "tags": [
+        "hybrides",
+        "transformers",
+        "évaluation",
+        "NLP",
+        "HuggingFace",
+        "Olmo",
+        "MLops",
+        "benchmark"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/allenai/hybrid-token-prediction"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
+    },
     {
       "slug": "2026-06-24-anthropics-mythos-ai-reportedly-breached-nearly-all-nsa-classified-systems-during-red-team-test",
       "title": "Mythos (Anthropic) — rapport de red team : implications immédiates pour les petites équipes et les développeurs",

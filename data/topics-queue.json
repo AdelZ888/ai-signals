@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-24T17:11:15.386Z",
+  "generatedAt": "2026-06-25T17:26:25.744Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "title": "Which tokens does a hybrid model predict better?",
+      "link": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-25T16:11:42.000Z",
+      "score": 155.9,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-25T17:26:25.670Z",
+      "file": "content/posts/2026-06-25-olmo-hybrid-vs-olmo-3-which-token-types-each-model-predicts-better.md",
+      "fileFr": "content/posts/fr/2026-06-25-olmo-hybrid-vs-olmo-3-which-token-types-each-model-predicts-better.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1448,
+      "wordsFr": 1818
+    },
     {
       "id": "https://github.com/sammysltd/euromesh",
       "title": "Show HN: Can Europe train a frontier AI model on the compute it owns?",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1293
     },
     {
-      "id": "https://github.com/apidog/mailcat",
-      "title": "Show HN: MailCat – Email service for AI agents (open-source)",
-      "link": "https://github.com/apidog/mailcat",
-      "summary": "Hi HN, I built MailCat because my AI agents kept getting stuck at \"please verify your email.\" The key insight: if your AI agent can read documentation, it can set itself up. Just paste this into Claude Code, OpenClaw, or any AI agent: \"Read https://mailcat.ai/skill.md and set up a MailCat mailbox for yourself. Save the token securely.\" What it does: - Instant mailbox creation via API - Verification codes auto-extrac…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-21T14:36:35.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-27T15:48:41.991Z",
-      "file": "content/posts/2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1.md",
-      "fileFr": "content/posts/fr/2026-02-27-self-host-mailcat-instant-ephemeral-mailboxes-for-ai-agents-cloudflare-workers-d1.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 20,
-      "wordsEn": 1632,
-      "wordsFr": 1225
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=48661860",
       "title": "Ask HN: Best AI Gateway?",
       "link": "https://news.ycombinator.com/item?id=48661860",
@@ -5071,18 +5071,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-06-24T15:59:03.000Z",
       "score": 213.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://project-argus.ai",
-      "title": "Argus – a wearable control surface for AI agents",
-      "link": "https://project-argus.ai",
-      "summary": "Article URL: https://project-argus.ai Comments URL: https://news.ycombinator.com/item?id=48387242 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-03T17:49:49.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -5266,6 +5254,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/",
+      "title": "How to curate observability data for AI agents",
+      "link": "https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/",
+      "summary": "Article URL: https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=48675760 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-25T16:25:41.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
       "title": "France's OVHcloud plans frontier AI models to become Europe's second LLM player",
       "link": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
@@ -5287,18 +5287,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-15T12:45:17.000Z",
       "score": 173.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://research.dimensioncap.com/p/on-training-data-for-bio-ai-models",
-      "title": "Training Data for Bio AI Models",
-      "link": "https://research.dimensioncap.com/p/on-training-data-for-bio-ai-models",
-      "summary": "Article URL: https://research.dimensioncap.com/p/on-training-data-for-bio-ai-models Comments URL: https://news.ycombinator.com/item?id=48396340 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-04T09:52:00.000Z",
-      "score": 170.06,
       "status": "queued"
     },
     {
@@ -5374,18 +5362,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-ceo-sam-altman-admits-ai-token-costs-are-becoming-a-huge-issue-company-seeks-improved-value-as-overspending-becomes-a-meme",
-      "title": "OpenAI CEO Sam Altman admits AI token costs are becoming 'an issue'",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-ceo-sam-altman-admits-ai-token-costs-are-becoming-a-huge-issue-company-seeks-improved-value-as-overspending-becomes-a-meme",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-ceo-sam-altman-admits-ai-token-costs-are-becoming-a-huge-issue-company-seeks-improved-value-as-overspending-becomes-a-meme Comments URL: https://news.ycombinator.com/item?id=48401101 Points: 7 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-04T16:36:50.000Z",
-      "score": 158.5,
-      "status": "queued"
-    },
-    {
       "id": "https://huall.dev",
       "title": "Huall, autonomous AI agents",
       "link": "https://huall.dev",
@@ -5395,18 +5371,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T11:00:20.000Z",
       "score": 157.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://wexio.io/blog/best-chatbot-small-business",
-      "title": "Why chatbot AI costs vary 20x for the same job: pricing model, not the tool",
-      "link": "https://wexio.io/blog/best-chatbot-small-business",
-      "summary": "Article URL: https://wexio.io/blog/best-chatbot-small-business Comments URL: https://news.ycombinator.com/item?id=48401083 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-04T16:35:37.000Z",
-      "score": 156.69,
       "status": "queued"
     },
     {
@@ -5758,15 +5722,39 @@
       "status": "queued"
     },
     {
-      "id": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
-      "title": "Overview of Canada's National Artificial Intelligence Strategy: AI for All",
-      "link": "https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy",
-      "summary": "Article URL: https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy Comments URL: https://news.ycombinator.com/item?id=48401218 Points: 2 # Comments: 1",
+      "id": "https://zunagen.com/",
+      "title": "Show HN: Engineer AI system full DataIQ pipeline choice u model Start training",
+      "link": "https://zunagen.com/",
+      "summary": "Article URL: https://zunagen.com/ Comments URL: https://news.ycombinator.com/item?id=48676126 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 2,
-      "publishedAt": "2026-06-04T16:45:38.000Z",
-      "score": 155.8,
+      "publishedAt": "2026-06-25T16:51:01.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/Treasury-Technologies-Inc/treasurybench",
+      "title": "Show HN: TreasuryBench – an open benchmark for personal-finance AI advice",
+      "link": "https://github.com/Treasury-Technologies-Inc/treasurybench",
+      "summary": "Article URL: https://github.com/Treasury-Technologies-Inc/treasurybench Comments URL: https://news.ycombinator.com/item?id=48676009 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-25T16:43:08.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/alitariq4589/ci-medic",
+      "title": "Show HN: CI-medic – open-source AI triage for failed CI runs (any CI, any model)",
+      "link": "https://github.com/alitariq4589/ci-medic",
+      "summary": "Article URL: https://github.com/alitariq4589/ci-medic Comments URL: https://news.ycombinator.com/item?id=48675935 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-25T16:37:33.000Z",
+      "score": 156,
       "status": "queued"
     },
     {
@@ -5791,18 +5779,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-06T15:03:45.000Z",
       "score": 152.57,
-      "status": "queued"
-    },
-    {
-      "id": "https://neurometric.substack.com/p/lean-inference-workflows-applying",
-      "title": "Lean Inference: Lean Manufacturing Principles Applied to AI",
-      "link": "https://neurometric.substack.com/p/lean-inference-workflows-applying",
-      "summary": "Article URL: https://neurometric.substack.com/p/lean-inference-workflows-applying Comments URL: https://news.ycombinator.com/item?id=48387109 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-03T17:41:08.000Z",
-      "score": 152.35,
       "status": "queued"
     },
     {
@@ -5839,18 +5815,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T16:34:34.000Z",
       "score": 150.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/frontier-safety-blueprint/",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "link": "https://openai.com/index/frontier-safety-blueprint/",
-      "summary": "Article URL: https://openai.com/index/frontier-safety-blueprint/ Comments URL: https://news.ycombinator.com/item?id=48387246 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-03T17:50:05.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -6142,15 +6106,15 @@
       "status": "queued"
     },
     {
-      "id": "https://microsoft.ai/models/",
-      "title": "Microsoft unveils new AI models",
-      "link": "https://microsoft.ai/models/",
-      "summary": "Article URL: https://microsoft.ai/models/ Comments URL: https://news.ycombinator.com/item?id=48386773 Points: 6 # Comments: 0",
+      "id": "https://tabularis.dev/",
+      "title": "Tabularis: Open-source desktop SQL client your AI agent can use",
+      "link": "https://tabularis.dev/",
+      "summary": "Article URL: https://tabularis.dev/ Comments URL: https://news.ycombinator.com/item?id=48675373 Points: 3 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-03T17:15:41.000Z",
-      "score": 136.44,
+      "keywordHits": 2,
+      "publishedAt": "2026-06-25T16:00:13.000Z",
+      "score": 136.68,
       "status": "queued"
     },
     {
@@ -6187,18 +6151,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-16T17:24:45.000Z",
       "score": 134.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/eunomia-bpf/agentsight",
-      "title": "AgentSight: System-wide AI agent tracing and monitoring with eBPF",
-      "link": "https://github.com/eunomia-bpf/agentsight",
-      "summary": "Article URL: https://github.com/eunomia-bpf/agentsight Comments URL: https://news.ycombinator.com/item?id=48386737 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-03T17:13:19.000Z",
-      "score": 134.27,
       "status": "queued"
     },
     {
@@ -6298,6 +6250,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.visualbuild.me",
+      "title": "Show HN: Use AI once to build the automation, then run it with $0 in AI",
+      "link": "https://www.visualbuild.me",
+      "summary": "Automation Skill Builder has the built-in advanced feature to enable recording, parameterized executable generation and verification, and it can work in AI-free mode in consistant manner Comments URL: https://news.ycombinator.com/item?id=48675319 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-25T15:56:20.000Z",
+      "score": 131.49,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
       "title": "Apple is embracing the fantasy of AI photo editing",
       "link": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
@@ -6307,30 +6271,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-09T16:13:14.000Z",
       "score": 131.47,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.04037",
-      "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
-      "link": "https://arxiv.org/abs/2606.04037",
-      "summary": "arXiv:2606.04037v1 Announce Type: new Abstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We propose an ontology-grounded verification framework combining three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a Trust Certificate carrying a machine-verifiable attestation with graduated deployment verdicts (Approved, Conditional, Rejected). A controlled pilot across four regulated industries (Fintech, Banking, Insurance, and Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam, generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation (G4) achieved 48.3% regulatory coverage versus 33.1% for the persona-based baseline (corrected p = .0006) and the highest domain specificity (4.77/5.0; p = 2e-6). The cov",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "score": 131.39,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.04202",
-      "title": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
-      "link": "https://arxiv.org/abs/2606.04202",
-      "summary": "arXiv:2606.04202v1 Announce Type: new Abstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation. Effective coordination in these settings requires agents to communicate, share information and make decisions under uncertainty. We introduce SMAC-Talk, a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. The environment has several key features such as decentralized control, partial observability and long-horizon decision making. SMAC-Talk includes a natural language communication channel which is used to probe agent coordination and trust. We use this communication channel to construct different evaluation scenarios, including settings with an embedded deceptive communicator that tries to disrupt and deceive allies through communication alone. We provide three agents for benchmarking using 4 models from the Qwen3.5 family and study how reasoning structure, memory and model scale affect coordination between agents. We release SMAC-Talk as an open benchmark to support the research community in developing and evaluating LLM agents in cooperative multi-agent settings.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "score": 131.39,
       "status": "queued"
     },
     {
@@ -6499,18 +6439,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "score": 125.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.04296",
-      "title": "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
-      "link": "https://arxiv.org/abs/2606.04296",
-      "summary": "arXiv:2606.04296v1 Announce Type: new Abstract: As autonomous AI agents move from conversational systems to long-horizon software execution, runtime safety layers that decide when to interrupt an agent have become essential. We study this timing problem using a continuous 18-dimensional affective-dynamics engine (HEART) as a diagnostic probe, evaluating four intervention trigger families - absolute state thresholds, composite state-action patterns, regex reasoning-feature extraction, and zero-shot LLM-as-judge - against human-annotated intervention points on SWE-bench-Verified debugging traces. We report three findings. First, a State Saturation Trap: agents show no recovery signal under sustained difficulty, so modeled frustration quickly crosses the threshold and stays at its maximum, converting threshold-on-state triggers from moment detectors into near-constant indicators that fire on 39-83% of actions across five trajectories. Second, a capability-and-context floor for LLM judges: a small model (gpt-5.4-mini) never fires, while frontier and cross-vendor models escape the zero-firing floor only with full-trajectory context, and even then reach only F1 0.17-0.40 at up to 90x the cost. Third, and most importantly, the supervised target is not reproducible among humans: three trained annotators using one rubric on a 56-action trajectory agree on where to intervene only slightl",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "score": 125.39,
       "status": "queued"
     },
     {
@@ -7184,6 +7112,106 @@
       "publishedAt": "2026-06-24T04:00:00.000Z",
       "score": 69.18,
       "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/how-agents-are-transforming-work",
+      "title": "How agents are transforming work",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-25T02:00:00.000Z",
+      "score": 67.9,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24047",
+      "title": "Ensemble Feature Selection and Harris Hawks Optimization for Explainable Mental Health Risk Prediction in Female Sex Workers",
+      "link": "https://arxiv.org/abs/2606.24047",
+      "summary": "arXiv:2606.24047v1 Announce Type: new Abstract: One of the significant mental health issues affecting female sex workers (FSWs) is mental disorders, especially depression. Exposure to violence, stigma, and economic hardship further increases their psychological risk. Current machine learning (ML) models are typically ineffective at capturing the high-dimensional and complex risk patterns that exist in this marginalized group. This paper suggests a hybrid predictive model that merges an ensemble feature selection strategy using ANOVA and mutual information and Harris Hawks optimization-tuned logistic regression and represents a new application of swarm intelligence to predict mental health in vulnerable groups. The explainable AI (XAI) methods can be used to understand the factors of trauma associated with model predictions. When applied to a group of 3,005 FSWs, it can be seen that the proposed model is more effective than traditional classifiers, with an accuracy of 95.78%, an F1 score of 95.77%, and an AUC of 0.96, and identifying post-traumatic stress, client-related violence, and occupational factors as major contributors to depression. This work bridges the gaps between conventional and ML approaches to develop an XAI tool that enables vulnerable groups to receive early assistance, evidence-based targeted psychosocial care, and health planning.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "score": 63.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "summary": "The Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-19T10:40:24.000Z",
+      "score": 60.8,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-11T11:00:45.000Z",
+      "score": 60.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
+      "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
+      "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
+      "summary": "En 2026 le jumeau numérique évolue d'une réplique virtuelle vers une couche d'exploitation des infrastructures critiques, intégrant IA, capteurs, drones, LiDAR, edge et agents logiciels. Des démonstrations d'Orange à VivaTech et des initiatives publiques (JUNN, Destination Earth) montrent la maturation des cas d'usage vers la supervision, la maintenance et la résilience opérationnelle. La question centrale devient quelles décisions opérationnelles confier à ces systèmes.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-25T12:04:40.000Z",
+      "score": 59.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
+      "title": "Ford had to hire back former engineers to fix mistakes made by its automated systems",
+      "link": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
+      "summary": "To celebrate its new status as No. 1 in JD Power's initial quality ranking among mainstream automakers, Ford is opening up about the challenges it has faced in recent years, especially around its reliance on automated systems in production and design. It turns out that those automated systems were not as robust as previously assumed, requiring Ford to hire experienced technicians - sometimes bringing back former employees - to correct errors made by the company's robots. In Ford's view, AI is both powerful and prone to pitfalls. Its effectiveness depends entirely on the quality of the data used to train the AI models. In addition, the auto … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "score": 59.1,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.24010",
+      "title": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
+      "link": "https://arxiv.org/abs/2606.24010",
+      "summary": "arXiv:2606.24010v1 Announce Type: new Abstract: Multi-agent systems are widely used in safety-critical applications that require coordinated behavior under strict safety constraints. Existing approaches face a fundamental trade-off: learning-based methods achieve strong empirical performance but lack theoretical safety guarantees, while control-theoretic methods enforce safety but often lead to overly conservative and inefficient behaviors. We propose a hierarchical multi-agent reinforcement learning framework that enforces hard safety constraints under mild assumptions at low level via a constraint manifold, while enabling effective coordination through high-level policy learning. Our approach provides theoretical safety guarantees in the multi-agent setting and yields stationary learning dynamics, thereby enabling stable and efficient training. Empirically, our method achieves competitive performance while maintaining nearly perfect safety rates, and generalizes effectively to varying numbers of agents and obstacles.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "score": 57.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "title": "Repositioning retail for the AI era",
+      "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-25T14:22:59.000Z",
+      "score": 84.67,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-25T17:11:45.717Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
