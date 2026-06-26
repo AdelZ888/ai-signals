@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-26T10:49:46.365Z",
+  "generatedAt": "2026-06-26T17:15:52.248Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-26-a-curation-first-pipeline-to-prepare-traces-logs-and-metrics-for-ai-debugging-agents",
+      "title": "Pipeline « curation-first » pour préparer traces, logs et métriques aux agents de debugging IA",
+      "date": "2026-06-26",
+      "excerpt": "Guide pratique pour transformer traces, logs et métriques en « packages d'incident » compacts afin que les agents d'IA raisonnent au lieu de filtrer du bruit — avec pratiques sûres en lecture seule et validation humaine.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-26-a-curation-first-pipeline-to-prepare-traces-logs-and-metrics-for-ai-debugging-agents.jpg",
+      "tags": [
+        "IA",
+        "observabilité",
+        "debugging",
+        "curation",
+        "traces",
+        "logs",
+        "metrics",
+        "small-teams"
+      ],
+      "sources": [
+        "https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-26-figma-introduces-ai-motion-graphics-shader-tools-and-editable-code-layers-on-the-design-canvas",
       "title": "Figma : motion graphics pilotés par IA, outils de shader et couches de code éditables sur le canvas Design",

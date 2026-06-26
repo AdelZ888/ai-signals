@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-26T10:49:46.376Z",
+  "generatedAt": "2026-06-26T17:15:52.309Z",
   "items": [
+    {
+      "id": "https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/",
+      "title": "How to curate observability data for AI agents",
+      "link": "https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/",
+      "summary": "Article URL: https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=48675760 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-25T16:25:41.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-26T17:15:52.231Z",
+      "file": "content/posts/2026-06-26-a-curation-first-pipeline-to-prepare-traces-logs-and-metrics-for-ai-debugging-agents.md",
+      "fileFr": "content/posts/fr/2026-06-26-a-curation-first-pipeline-to-prepare-traces-logs-and-metrics-for-ai-debugging-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1379,
+      "wordsFr": 1453
+    },
     {
       "id": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
       "title": "Figma now has AI motion graphics and shader tools",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1095
     },
     {
-      "id": "https://github.com/M2Dr3g0n/kremis",
-      "title": "Show HN: Kremis – Graph-based memory for AI agents with no hidden state (Rust)",
-      "link": "https://github.com/M2Dr3g0n/kremis",
-      "summary": "Hi HN — I built Kremis, a deterministic graph engine designed as a memory substrate for AI agents. Written in Rust, development was heavily AI-assisted. The core idea: agent memory should be inspectable, deterministic, and honest. - Same input → same output. No randomness, no floating-point in core. - Every query result traces back to a concrete graph path — no hidden state. - Zero pre-loaded knowledge. All structur…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-02-15T14:25:03.000Z",
-      "score": 185.17,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-02-28T15:48:13.763Z",
-      "file": "content/posts/2026-02-28-getting-started-with-kremis-v031-build-and-smoke-test-a-deterministic-graph-memory-for-ai-agents-rust.md",
-      "fileFr": "content/posts/fr/2026-02-28-getting-started-with-kremis-v031-build-and-smoke-test-a-deterministic-graph-memory-for-ai-agents-rust.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1524,
-      "wordsFr": 1523
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=48661860",
       "title": "Ask HN: Best AI Gateway?",
       "link": "https://news.ycombinator.com/item?id=48661860",
@@ -5071,6 +5071,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-06-24T15:59:03.000Z",
       "score": 213.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "summary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagship; Terra, a medium-tier model for \"high-volume work\"; and Luna, a \"fast and affordable\" everyday model. OpenAI says it's especially skilled at coding, cybersecurity, and biology, as well as staying focused during long-horizon agentic AI tasks. Per million tokens, GPT-5.6 Sol is priced at $5 input / $30 output (nearly half the cost of Anthropic's Claude Fable 5, which is $10 input / $5 … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-26T17:00:00.000Z",
+      "score": 204,
       "status": "queued"
     },
     {
@@ -5242,18 +5254,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/",
-      "title": "How to curate observability data for AI agents",
-      "link": "https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/",
-      "summary": "Article URL: https://www.multiplayer.app/blog/how-to-curate-observability-data-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=48675760 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-25T16:25:41.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
       "title": "France's OVHcloud plans frontier AI models to become Europe's second LLM player",
       "link": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
@@ -5359,42 +5359,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T11:00:20.000Z",
       "score": 157.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown/",
-      "title": "Anthropic proposes a global slowdown of AI development",
-      "link": "https://www.engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown/",
-      "summary": "Article URL: https://www.engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown/ Comments URL: https://news.ycombinator.com/item?id=48415428 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-05T17:10:59.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
-      "title": "The Download: AI hacking beyond Mythos, and chatbots' impact on our brains",
-      "link": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
-      "summary": "Article URL: https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/ Comments URL: https://news.ycombinator.com/item?id=48415306 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-05T17:02:07.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks",
-      "title": "Anthropic urges AI development 'pause' and conversation about risks",
-      "link": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks",
-      "summary": "Article URL: https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks Comments URL: https://news.ycombinator.com/item?id=48414904 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-05T16:35:20.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5722,6 +5686,30 @@
       "status": "queued"
     },
     {
+      "id": "https://ads.gitlawb.com",
+      "title": "Getting AI credits for reading ads while your coding agent is doing its thing",
+      "link": "https://ads.gitlawb.com",
+      "summary": "Article URL: https://ads.gitlawb.com Comments URL: https://news.ycombinator.com/item?id=48688552 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-26T16:28:37.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://cacm.acm.org/opinion/hidden-prompts-in-manuscripts-exploit-ai-assisted-peer-review/",
+      "title": "Prompts in Manuscripts Exploit AI-Assisted Peer Review",
+      "link": "https://cacm.acm.org/opinion/hidden-prompts-in-manuscripts-exploit-ai-assisted-peer-review/",
+      "summary": "Article URL: https://cacm.acm.org/opinion/hidden-prompts-in-manuscripts-exploit-ai-assisted-peer-review/ Comments URL: https://news.ycombinator.com/item?id=48688319 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-26T16:11:25.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://sigmashake.com",
       "title": "Show HN: A policy gate that runs before your AI coding agent's tool calls",
       "link": "https://sigmashake.com",
@@ -5878,18 +5866,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
-      "title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
-      "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
-      "summary": "Article URL: https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media Comments URL: https://news.ycombinator.com/item?id=48414607 Points: 4 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-05T16:15:47.000Z",
-      "score": 149.93,
-      "status": "queued"
-    },
-    {
       "id": "https://redqueen.sh/",
       "title": "Red Queen – deterministic orchestration for AI coding agents",
       "link": "https://redqueen.sh/",
@@ -6007,6 +5983,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-06-10T04:00:00.000Z",
       "score": 141.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/outbound-hold-agent-python",
+      "title": "Outbound hold agent that pauses AI runtime while waiting on hold",
+      "link": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/outbound-hold-agent-python",
+      "summary": "Article URL: https://github.com/team-telnyx/telnyx-code-examples/tree/main/outbound-hold-agent-python Comments URL: https://news.ycombinator.com/item?id=48688082 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-26T15:51:26.000Z",
+      "score": 140.6,
       "status": "queued"
     },
     {
@@ -7006,6 +6994,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "title": "Anthropic&#8217;s Mythos mess is only getting worse",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "summary": "It's been two weeks since Anthropic took its Mythos-class models offline after a Friday evening ultimatum from the Trump administration. The company sprang into action immediately, sending a barrage of executives to Washington, DC. But updates have been suspiciously lacking, with no resolution in sight. Anthropic declined to comment multiple times this week about the state of the talks, saying there was no news to share. But the lack of news is the story here. After 14 days of high-intensity negotiations, nobody knows when or if Anthropic's most powerful AI models will come back, let alone whether President Trump could expand his order to m … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-26T14:07:03.000Z",
+      "score": 95.57,
+      "status": "queued"
+    },
+    {
       "id": "https://workdir.dev/",
       "title": "Workdir: Open-source sandboxes for AI agents",
       "link": "https://workdir.dev/",
@@ -7174,40 +7174,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.24145",
-      "title": "T2D-Bench: Evidence-Gated Evaluation of LLM Outputs for Type 2 Diabetes Using a Multi-Layer Clinical-Lifestyle Knowledge Graph",
-      "link": "https://arxiv.org/abs/2606.24145",
-      "summary": "arXiv:2606.24145v1 Announce Type: new Abstract: Large language models (LLMs) can produce clinically fluent recommendations for type 2 diabetes while failing to satisfy guideline constraints or explicitly justify lifestyle-related glycemic claims. We present T2D-Bench, a reproducible benchmark and evidence-gated evaluation framework for testing whether LLM outputs satisfy explicit, graph-checkable evidence requirements. T2D-Bench is built on a multi-layer clinical-lifestyle knowledge graph that combines a biomedical spine (UMLS, DrugBank, SIDER), computable ADA Standards of Care rules, and lifestyle knowledge connected through a mechanistic bridge to glycemic laboratory effects. Across 100 structured vignettes spanning diagnosis, medication safety, and adversarial lifestyle conflicts, baseline outputs failed benchmark-defined evidence-path checks in 35% of cases for GPT-4o-mini and 33% for GPT-4o. The evidence gate detects unsupported omissions and uses constrained revision to bring outputs into verifier-level compliance with benchmark-defined evidence requirements. These results show that computable evidence constraints can make unsupported clinical omissions explicit, measurable, and correctable in diabetes-focused LLM outputs.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "score": 75.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.26348",
-      "title": "What We are Missing in Multimodal LLM Evaluation?",
-      "link": "https://arxiv.org/abs/2606.26348",
-      "summary": "arXiv:2606.26348v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) can process diverse inputs, e.g., text, images, audio, and video, and generate textual responses. While their capabilities have advanced rapidly, evaluation of such models has not kept pace. Most existing evaluation benchmarks are limited to isolated tasks and reveal little about whether a model integrates information across modalities. We examine current means for evaluating MLLMs and review the existing benchmark taxonomy to identify gaps, including temporal-spatial coherence, physical world understanding, multimodal consistency, and selective attention. Addressing these gaps is essential for measuring real progress in multimodal intelligence and exposing capability boundaries.",
-      "source": "ArXiv cs.AI",
+      "id": "https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/",
+      "title": "Benchmarking AI Gateways: GoModel vs. LiteLLM vs. Portkey vs. Bifrost",
+      "link": "https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/",
+      "summary": "Article URL: https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/ Comments URL: https://news.ycombinator.com/item?id=48688213 Points: 2 # Comments: 2",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "score": 71.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "summary": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&A that it would release GPT-5.6 in limited preview form - granting access only to a small group of enterprise customers - in compliance with a request from the federal government. During that preview period, the Trump administration itself would reportedly approve access for customers on a case-by-case basis. It's a more favorable deal than the Trump administration gave OpenAI rival Anthropic … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-25T21:57:06.000Z",
-      "score": 69.4,
-      "status": "queued"
+      "publishedAt": "2026-06-26T16:04:02.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-26T17:00:17.304Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
