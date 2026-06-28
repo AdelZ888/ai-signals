@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-28T10:28:59.590Z",
+  "generatedAt": "2026-06-28T16:20:22.506Z",
   "items": [
+    {
+      "id": "https://github.com/digitaldrywood/detent",
+      "title": "Detent: AI agent orchestration with worktrees and serialized merge train",
+      "link": "https://github.com/digitaldrywood/detent",
+      "summary": "Article URL: https://github.com/digitaldrywood/detent Comments URL: https://news.ycombinator.com/item?id=48629757 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-22T13:19:47.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-28T16:20:22.429Z",
+      "file": "content/posts/2026-06-28-detent-orchestrating-github-projects-ready-issues-with-isolated-git-worktrees-and-a-serialized-merge-train.md",
+      "fileFr": "content/posts/fr/2026-06-28-detent-orchestrating-github-projects-ready-issues-with-isolated-git-worktrees-and-a-serialized-merge-train.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1724,
+      "wordsFr": 1493
+    },
     {
       "id": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
       "title": "Three things to watch amid Anthropic’s latest feud with the government",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1888
     },
     {
-      "id": "https://github.com/natechensan/ClawCare",
-      "title": "Show HN: ClawCare – Security scanner and runtime guard for AI agent skills",
-      "link": "https://github.com/natechensan/ClawCare",
-      "summary": "Lately I've been more or less a human wrapper around my AI agents — Claude Code, OpenClaw, etc. They're incredibly productive, but they scare me regularly. The wake up moment: I had an agent run tasks involved checking my environment variables. I totally had an AWS secret sitting right in there. By the time I realized, my key had already entered the session context — meaning it was sent to the LLM provider and whate…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-02-27T07:23:25.000Z",
-      "score": 179.19,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-02T16:07:49.403Z",
-      "file": "content/posts/2026-03-02-clawcare-static-scanner-and-runtime-guard-for-ai-agent-skills-and-plugins.md",
-      "fileFr": "content/posts/fr/2026-03-02-clawcare-static-scanner-and-runtime-guard-for-ai-agent-skills-and-plugins.md",
-      "generationMode": "llm",
-      "series": "security-boundary",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1519,
-      "wordsFr": 1590
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=48661860",
       "title": "Ask HN: Best AI Gateway?",
       "link": "https://news.ycombinator.com/item?id=48661860",
@@ -5470,18 +5470,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/livekit/eot-bench",
-      "title": "Eot-bench: Open benchmark suite for end-of-turn detection in voice AI",
-      "link": "https://github.com/livekit/eot-bench",
-      "summary": "Article URL: https://github.com/livekit/eot-bench Comments URL: https://news.ycombinator.com/item?id=48588475 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-18T17:14:14.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://www.scmp.com/tech/article/3356117/huawei-chips-refine-deepseek-model-major-leap-chinas-ai-self-reliance",
       "title": "Huawei chips refine DeepSeek model in major leap for China's AI self-reliance",
       "link": "https://www.scmp.com/tech/article/3356117/huawei-chips-refine-deepseek-model-major-leap-chinas-ai-self-reliance",
@@ -5490,18 +5478,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-19T17:33:36.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/digitaldrywood/detent",
-      "title": "Detent: AI agent orchestration with worktrees and serialized merge train",
-      "link": "https://github.com/digitaldrywood/detent",
-      "summary": "Article URL: https://github.com/digitaldrywood/detent Comments URL: https://news.ycombinator.com/item?id=48629757 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-22T13:19:47.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5659,18 +5635,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-19T16:44:47.000Z",
       "score": 151.89,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.achu.app/",
-      "title": "Show HN: Achu.app – turns raw captures into polished visual, with AI Issue Agent",
-      "link": "https://www.achu.app/",
-      "summary": "Article URL: https://www.achu.app/ Comments URL: https://news.ycombinator.com/item?id=48435620 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-07T15:13:14.000Z",
-      "score": 151.32,
       "status": "queued"
     },
     {
@@ -5875,6 +5839,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-08T16:44:45.000Z",
       "score": 142.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "title": "Clean GitHub repo tricks AI coding agents into running malware",
+      "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "summary": "Article URL: https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/ Comments URL: https://news.ycombinator.com/item?id=48707794 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-28T14:48:03.000Z",
+      "score": 142.01,
       "status": "queued"
     },
     {
@@ -6478,6 +6454,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "title": "Google limits Meta's use of its Gemini AI models",
+      "link": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html Comments URL: https://news.ycombinator.com/item?id=48707103 Points: 70 # Comments: 23",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-28T13:30:06.000Z",
+      "score": 117.07,
+      "status": "queued"
+    },
+    {
       "id": "https://nobot-two.vercel.app/",
       "title": "Show HN: Chrome Extension That Removes AI Slop / Spam / Self-Promo from Reddit",
       "link": "https://nobot-two.vercel.app/",
@@ -6658,18 +6646,6 @@
       "status": "queued"
     },
     {
-      "id": "https://dd688.substack.com/p/token-changing-hands-from-crypto",
-      "title": "\"token\" changed its default meaning from crypto to AI",
-      "link": "https://dd688.substack.com/p/token-changing-hands-from-crypto",
-      "summary": "Article URL: https://dd688.substack.com/p/token-changing-hands-from-crypto Comments URL: https://news.ycombinator.com/item?id=48435322 Points: 5 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-07T14:42:38.000Z",
-      "score": 113.39,
-      "status": "queued"
-    },
-    {
       "id": "https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/",
       "title": "Security Risks of Apple's AI-Built Shortcuts",
       "link": "https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/",
@@ -6730,6 +6706,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/legal/litigation/chinas-360-says-it-has-developed-tools-match-anthropics-mythos-2026-06-24/",
+      "title": "China companies Z.Ai,China 360 claim having cybersec AI models to match Mythos",
+      "link": "https://www.reuters.com/legal/litigation/chinas-360-says-it-has-developed-tools-match-anthropics-mythos-2026-06-24/",
+      "summary": "Article URL: https://www.reuters.com/legal/litigation/chinas-360-says-it-has-developed-tools-match-anthropics-mythos-2026-06-24/ Comments URL: https://news.ycombinator.com/item?id=48707090 Points: 7 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-28T13:28:10.000Z",
+      "score": 110.53,
+      "status": "queued"
+    },
+    {
       "id": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
       "title": "Asian AI startups launch Mythos-like models",
       "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
@@ -6739,6 +6727,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-06-27T13:10:21.000Z",
       "score": 107.44,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cio.com/article/4189149/ai-coding-token-costs-are-on-track-to-rival-human-payroll.html",
+      "title": "AI coding token costs are on track to rival human payroll",
+      "link": "https://www.cio.com/article/4189149/ai-coding-token-costs-are-on-track-to-rival-human-payroll.html",
+      "summary": "Article URL: https://www.cio.com/article/4189149/ai-coding-token-costs-are-on-track-to-rival-human-payroll.html Comments URL: https://news.ycombinator.com/item?id=48707589 Points: 5 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-28T14:27:05.000Z",
+      "score": 106.06,
       "status": "queued"
     },
     {
@@ -6811,6 +6811,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "score": 101.86,
+      "status": "queued"
+    },
+    {
+      "id": "https://stefan.schueller.net/posts/making-a-label-printer-work-under-linux-using-agentic-ai/",
+      "title": "Show HN: Making a label printer work under Linux using agentic AI",
+      "link": "https://stefan.schueller.net/posts/making-a-label-printer-work-under-linux-using-agentic-ai/",
+      "summary": "Article URL: https://stefan.schueller.net/posts/making-a-label-printer-work-under-linux-using-agentic-ai/ Comments URL: https://news.ycombinator.com/item?id=48707513 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-28T14:20:28.000Z",
+      "score": 101.82,
       "status": "queued"
     },
     {
@@ -6943,6 +6955,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-06-19T04:00:00.000Z",
       "score": 92.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.businessinsider.com/satya-nadella-said-every-company-should-build-own-ai-model-2026-6",
+      "title": "Microsoft's Satya Nadella says every company should build its own AI model",
+      "link": "https://www.businessinsider.com/satya-nadella-said-every-company-should-build-own-ai-model-2026-6",
+      "summary": "Article URL: https://www.businessinsider.com/satya-nadella-said-every-company-should-build-own-ai-model-2026-6 Comments URL: https://news.ycombinator.com/item?id=48707317 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-28T14:01:15.000Z",
+      "score": 91.99,
       "status": "queued"
     },
     {
@@ -7174,40 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48697527",
-      "title": "Ask HN: Is there a quiet market for 'no enforced AI' dev jobs?",
-      "link": "https://news.ycombinator.com/item?id=48697527",
-      "summary": "It seems to me that the dissenting voices from software engineers burned out after having the AI hype shoved down their throats have been growing louder lately. Just this week I read several posts both here (e.g. [1], [2]) and on Reddit (e.g. [3], [4]) with hundreds of comments from devs who have long moved past skepticism and ambivalence into one or more of the five stages of grief. That's not to say they're the majority by any means: the \"I am 100x more productive with AI,\" \"I haven't hand-coded in months and love it,\" \"adapt or become irrelevant\" posts by True Believers haven't slowed down and still make up the lion's share, especially on places like LinkedIn, where voicing dissent can have real-world consequences for your job and future employability (I may have learned this the hard way after being laid off for nebulous \"misalignment\" reasons). But still, the non-believers, from mild skeptics to full-on haters, do seem more vocal than, say, six months or a year ago. Questions: 1. Have you noticed this shift too, or is it just my social media algorithm surfacing these more? 2. What can we (devs) realistically do before accepting this as the new normal? Early retirement is one option, and some have already taken it ([5]) or plan to in the coming years. I'm seriously considering early retirement too (at least from tech) but I was recently contacted by a recruiter for a role t",
+      "id": "https://github.com/livekit/eot-bench",
+      "title": "Eot-bench: Open benchmark suite for end-of-turn detection in voice AI",
+      "link": "https://github.com/livekit/eot-bench",
+      "summary": "Article URL: https://github.com/livekit/eot-bench Comments URL: https://news.ycombinator.com/item?id=48588475 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-27T12:05:10.000Z",
-      "score": 72.13,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.26161",
-      "title": "Refusal Lives Downstream of Persona in Chat Models",
-      "link": "https://arxiv.org/abs/2606.26161",
-      "summary": "arXiv:2606.26161v1 Announce Type: new Abstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanisms. We show they interact: a compliant persona gates refusal. In Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct, we extract a compliant model-persona direction and a refusal direction and intervene on both. Compliant persona steering suppresses refusal -- in Llama, the refusal rate falls from 97% to 2%. Reintroducing the refusal direction partially restores refusal at late layers but not at early ones. Projecting out the persona direction in a late-layer window restores it to baseline; projecting out a random direction does not. Refusal is therefore gated at the late-layer expression stage, downstream of where it is computed. Treating refusal as a single isolated direction misses its dependence on persona.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-27T04:00:00.000Z",
-      "score": 68.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.26356",
-      "title": "Instruction Bleed: Cross-Module Interference in Prompt-Composed Agentic Systems",
-      "link": "https://arxiv.org/abs/2606.26356",
-      "summary": "arXiv:2606.26356v1 Announce Type: new Abstract: Practitioners of prompt-composed agentic systems report a recurring failure mode: editing one prompt module silently shifts the behavior of others despite no shared variable or executable dependency. We formalize this as compositional behavioral leakage (CBL): interference between modules sharing a context window. CBL is enabled by architectural non-isolation: transformer self-attention provides no formal boundary between concatenated modules. We probe CBL on a deployed job-evaluation agent (Claude Sonnet 4.6, 144 trials) through a reusable three-channel protocol that perturbs non-focal modules along volume, content, and form. Only the content channel produces a detectable paired effect (Cohen's d = 0.63, bootstrap 95% CI excluding zero); no recommendation flipped -- a sub-threshold regime invisible to standard QA but compounding across the thousands of decisions a deployed agent makes. CBL is orthogonal to known agent-failure axes (adversarial injection, cognitive degradation, multi-agent fault propagation, privacy leakage). We contribute an operational definition, a reusable protocol, a falsifiable prediction set, and a system-class characterization, establishing cross-module interference measurement as a requirement for prompt-composed agent evaluation.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-27T04:00:00.000Z",
-      "score": 68.25,
-      "status": "queued"
+      "keywordHits": 2,
+      "publishedAt": "2026-06-18T17:14:14.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-28T16:09:53.173Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
@@ -8072,38 +8076,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-05-29T18:12:04.368Z",
       "failureReason": "validation issues: FR: Section \"TL;DR en langage simple\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Ce que vous allez construire et pourquoi c'est utile\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Avant de commencer (temps, cout, prerequis)\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Installation et implementation pas a pas\" is missing an inline source link (must include one of…"
-    },
-    {
-      "id": "https://streetai.org/blog/escrow-for-ai-agents.html",
-      "title": "Why payment escrow for AI agents needed a different design",
-      "link": "https://streetai.org/blog/escrow-for-ai-agents.html",
-      "summary": "Article URL: https://streetai.org/blog/escrow-for-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=48084657 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-10T15:16:22.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-29T11:19:16.705Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "title": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "link": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "summary": "Today, I’m talking with Google and Alphabet CEO Sundar Pichai, in a conversation we recorded just after the Google I/O developer conference. This is the fifth year Sundar and I have sat down after I/O, and it’s become one of my favorite Decoder traditions. There’s always a lot of news at I/O, and this year was no exception — Google has powerful new Gemini models, it’s putting AI agents in everything, and it’s making…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 11,
-      "publishedAt": "2026-05-26T14:00:00.000Z",
-      "score": 168.6,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-29T11:19:16.705Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten s…"
     }
   ]
 }

@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-06-28T10:28:59.576Z",
+  "generatedAt": "2026-06-28T16:20:22.444Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-06-28-detent-orchestrating-github-projects-ready-issues-with-isolated-git-worktrees-and-a-serialized-merge-train",
+      "title": "Detent: Orchestrating GitHub Projects 'Ready' issues with isolated Git worktrees and a serialized merge train",
+      "date": "2026-06-28",
+      "excerpt": "Detent is a single Go binary that watches a GitHub Projects board, creates isolated Git worktrees per ready issue, runs coding agents and enqueues validated PRs in a serialized merge train.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-28-detent-orchestrating-github-projects-ready-issues-with-isolated-git-worktrees-and-a-serialized-merge-train.jpg",
+      "tags": [
+        "detent",
+        "ai-agents",
+        "git",
+        "worktree",
+        "merge-train",
+        "github",
+        "devops",
+        "developer-experience"
+      ],
+      "sources": [
+        "https://github.com/digitaldrywood/detent"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-06-28-what-teams-should-learn-from-us-export-controls-on-anthropics-fable",
       "title": "What teams should learn from U.S. export controls on Anthropic's Fable",
