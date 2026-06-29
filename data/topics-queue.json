@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-28T16:20:22.506Z",
+  "generatedAt": "2026-06-29T12:27:43.296Z",
   "items": [
+    {
+      "id": "https://github.com/kuberwastaken/reference",
+      "title": "Show HN: Reference MCP – let your AI agents search each other's past sessions",
+      "link": "https://github.com/kuberwastaken/reference",
+      "summary": "I was tired of asking my claude code to reference my codex chats to get references to what decisions it made and why ; so I built Reference MCP It, whenever prompted establishes sessions to get direct access - been using it on my system for a bit and was super helpful so I made a repo :) Would love feedback! Comments URL: https://news.ycombinator.com/item?id=48718055 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-29T11:53:01.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-06-29T12:27:43.265Z",
+      "file": "content/posts/2026-06-29-reference-mcp-open-source-indexed-archive-for-ai-agents-to-search-past-sessions.md",
+      "fileFr": "content/posts/fr/2026-06-29-reference-mcp-open-source-indexed-archive-for-ai-agents-to-search-past-sessions.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 30,
+      "wordsEn": 1598,
+      "wordsFr": 1281
+    },
     {
       "id": "https://github.com/digitaldrywood/detent",
       "title": "Detent: AI agent orchestration with worktrees and serialized merge train",
@@ -5039,65 +5062,6 @@
       "wordsFr": 1229
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47233969",
-      "title": "The Limits of Today's AI Systems",
-      "link": "https://news.ycombinator.com/item?id=47233969",
-      "summary": "Recently, I’ve increasingly come to believe that intelligence is no longer AI’s bottleneck. The systems we build around it are. Input Paradox (1) The first issue is the input paradox. When interacting with AI, if the prompt is highly detailed, the model tends to overfit to the user’s framing and assumptions. If it is too concise, the model lacks the context needed to generate something truly useful. This creates a p…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-03-03T15:36:40.000Z",
-      "score": 234,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-03T15:54:34.008Z",
-      "file": "content/posts/2026-03-03-design-patterns-to-address-the-input-paradox-information-asymmetry-and-token-costs-in-ai-workflows.md",
-      "fileFr": "content/posts/fr/2026-03-03-design-patterns-to-address-the-input-paradox-information-asymmetry-and-token-costs-in-ai-workflows.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1832,
-      "wordsFr": 1888
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48661860",
-      "title": "Ask HN: Best AI Gateway?",
-      "link": "https://news.ycombinator.com/item?id=48661860",
-      "summary": "What AI gateways work well? We currently use Anthropic's router directly for our AI agent (on val.town) but are considering adding OpenRouter or the Vercel AI Gateway, or something else entirely. I know little about gateways except that they seem to be the new VS Code forks (i.e. everyone is doing it). My cursory research tells me that OpenRouter has the most models/providers, but charges a 5.5% pay-as-you-go platform fee (we pass-through inference costs to customers) and doesn't support features like prompt caching. We're mostly a Cloudflare shop, and I learned minutes ago that they, too, have an AI gateway--but so far the \"Best LLM Gateway 2026\" type articles I've found are published by...companies with a gateway Comments URL: https://news.ycombinator.com/item?id=48661860 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-24T15:59:03.000Z",
-      "score": 213.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://addyosmani.com/blog/intent-debt/",
-      "title": "AI Agents Can't Help with Intent Debt",
-      "link": "https://addyosmani.com/blog/intent-debt/",
-      "summary": "Article URL: https://addyosmani.com/blog/intent-debt/ Comments URL: https://news.ycombinator.com/item?id=48444373 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-08T12:17:15.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48444025",
-      "title": "Show HN: AI agents shouldn't just be for developers",
-      "link": "https://news.ycombinator.com/item?id=48444025",
-      "summary": "Lite Agent opens the door for the 90% of the tech industry that doesn't code, letting them focus on what they do best: handling the human side of things. https://liteagent.cloud/ Comments URL: https://news.ycombinator.com/item?id=48444025 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-08T11:32:24.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://medium.com/@csal_19296/what-happens-when-we-start-designing-for-ai-instead-of-people-103e57aeb3ae",
       "title": "Are We Designing Products for Users or for AI Agents?",
       "link": "https://medium.com/@csal_19296/what-happens-when-we-start-designing-for-ai-instead-of-people-103e57aeb3ae",
@@ -5238,6 +5202,30 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-06-24T16:24:43.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
+      "title": "OpenAI, Anthropic new AI spending reality as users shift to efficiency",
+      "link": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html Comments URL: https://news.ycombinator.com/item?id=48717986 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-29T11:43:36.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theaithinker.com/p/how-to-pick-the-ai-agents-worth-building",
+      "title": "How to pick the AI agents worth building",
+      "link": "https://www.theaithinker.com/p/how-to-pick-the-ai-agents-worth-building",
+      "summary": "Article URL: https://www.theaithinker.com/p/how-to-pick-the-ai-agents-worth-building Comments URL: https://news.ycombinator.com/item?id=48717881 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-29T11:30:53.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5614,6 +5602,30 @@
       "status": "queued"
     },
     {
+      "id": "https://telnyx.com/resources/route-phone-calls-ai-agent",
+      "title": "Route Phone Calls to an AI Agent with the Telnyx Voice API",
+      "link": "https://telnyx.com/resources/route-phone-calls-ai-agent",
+      "summary": "Article URL: https://telnyx.com/resources/route-phone-calls-ai-agent Comments URL: https://news.ycombinator.com/item?id=48718270 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-29T12:15:21.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://cognition.com/blog/frontier-code",
+      "title": "Frontier Code (AI coding benchmark)",
+      "link": "https://cognition.com/blog/frontier-code",
+      "summary": "Article URL: https://cognition.com/blog/frontier-code Comments URL: https://news.ycombinator.com/item?id=48717839 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-29T11:26:18.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://sigmashake.com",
       "title": "Show HN: A policy gate that runs before your AI coding agent's tool calls",
       "link": "https://sigmashake.com",
@@ -5875,6 +5887,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-26T15:51:26.000Z",
       "score": 140.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.27806",
+      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
+      "link": "https://arxiv.org/abs/2606.27806",
+      "summary": "arXiv:2606.27806v1 Announce Type: new Abstract: World models for language agents come in two useful forms. An agent-based world model calls an LLM API and reasons flexibly in language, but its errors appear as hallucinated state changes that are hard to score with ordinary regression losses. A parameterized world model is a trained transition predictor; its errors are easier to measure with quantities such as NodeMSE, delta accuracy, and validity accuracy, but it is usually weaker as a standalone planner. We compare these two families on four graph-structured planning benchmarks and introduce operational hallucination metrics for the agent-based case. The comparison motivates \\textbf{Grounded Iterative Language Planning} (GILP), which trains only a small parameterized backbone and combines it with API-based agent reasoning. The backbone supplies valid actions, predicted state deltas, risk, and value; the LLM drafts an action and imagined delta; and a consistency gate asks for revision when the two disagree. On real GPT-4o-mini calls, GILP reduces hallucinated-state rate from 0.176 to 0.035. In calibrated simulator ablations, it raises success from 0.668 to 0.838 while adding only ~22% extra LLM calls.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 140.33,
       "status": "queued"
     },
     {
@@ -6202,18 +6226,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.06741",
-      "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
-      "link": "https://arxiv.org/abs/2606.06741",
-      "summary": "arXiv:2606.06741v1 Announce Type: new Abstract: Self-evolving agents requires adaptation after deployment, but existing approaches assume a usable learning loop, such as curated skills, successful trajectories, or verifier signals. Real open-world deployments may provide none of these, offering only a task prompt. In this work, we study open-world self-evolution, where an agent must build both its skills and its own verification signals from scratch, using open-world resources but no target-task supervision. We propose OpenSkill, a framework that bootstraps this loop: it acquires grounded knowledge and verification anchors from documentation, repositories, and the web, synthesizes them into transferable skills, and refines those skills against self-built virtual tasks grounded in the anchors rather than in target answers. The open world thus supplies both the knowledge to be learned and a supervision-independent practice environment, with target-task supervision reserved for final evaluation. Across three benchmarks and two target agents, OpenSkill attains the best automated pass rate while satisfying the no-supervision constraint. Analysis shows its skills transfer across models without model-specific adaptation, and its self-built verifier aligns with ground-truth outcomes despite never accessing them.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "score": 128.37,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/yv1ing/Z3r0",
       "title": "Show HN: AI-native red-team for penetration testing and vulnerability research",
       "link": "https://github.com/yv1ing/Z3r0",
@@ -6526,6 +6538,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.27826",
+      "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
+      "link": "https://arxiv.org/abs/2606.27826",
+      "summary": "arXiv:2606.27826v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are increasingly deployed as embodied planners in egocentric environments, where task success requires not only achieving instructed goals but also acting in socially appropriate ways. While explicit goals may render certain actions optimal, implicit social norms often impose hidden constraints. Existing evaluations typically focus on explicit goal achievement or direct norm knowledge, seldom assessing whether planners can infer and apply these hidden constraints within action sequences. We introduce NormAct, a benchmark for embodied social-norm interactions that evaluates plans on Goal Achievement, Norm Compliance, and overall Task Success. NormAct uniquely embeds hidden norms within ordinary tasks, testing whether models can realize them without explicit instruction. Experiments with state-of-the-art MLLMs (GPT-5.4, Claude Opus 4.7, Gemini 3 Pro) reveal a significant gap: models achieve explicit goals in 67.3\\% of cases, but comply with hidden norms in only 26.4\\%. Cue-condition experiments indicate that this gap stems not from a lack of general social knowledge, but from challenges in activating and grounding relevant norms in context. To address this, we propose NormPerceptor, a context-conditioned cue generator that infers scene-relevant norms prior to planning, increasing Task Success",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 116.33,
+      "status": "queued"
+    },
+    {
       "id": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
       "title": "As Anthropic suspends access to new models, India debates its AI future",
       "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
@@ -6718,6 +6742,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.27443",
+      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+      "link": "https://arxiv.org/abs/2606.27443",
+      "summary": "arXiv:2606.27443v1 Announce Type: new Abstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, while those prompted with high agreeableness become cooperative, but the relationship between communication style and task performance has not been systematically examined across multiple domains. In this work, we investigate whether personality composition matters for multi-agent team performance by manipulating personality traits across frontier LLMs on three task domains: structured coding, open-ended research collaboration, and competitive bargaining. We find that personality effects depend critically on task structure. In coding tasks, low agreeableness leads to large communication shifts that have little effect on milestone completion. In open-ended collaboration and bargaining, the same manipulation substantially degrades performance. We discuss implications for multi-agent system design and the limits of personality manipulation.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 110.33,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48717402",
+      "title": "Ask HN: What is happening with the current AI startup ecosystem?",
+      "link": "https://news.ycombinator.com/item?id=48717402",
+      "summary": "As an outsider to the US ecosystem, a lot of the surrounding startup activity feels strange to me. Many companies seem to be building thin wrappers, agent orchestration layers, AI-generated apps, or B2B tools whose main customers appear to be other AI startups. At the same time, the social and funding environment seems extremely intense. Everyone is excited by “solving a problem,” everyone is racing toward YC or seed funding like it’s the new Stanford acceptance letter. Do people inside this SF ecosystem not see how weird this looks, or is there something I’m missing? Is it just peer illusion, where everyone is surrounded by people building, funding, and hyping the same things until it starts to feel real? Or am I wrong, and the future really is DevOps agents, AI SDRs, browser operators, vibe-coded internal tools, and agent slop apps selling to other agent slop app companies? Right now, a lot of it looks circular to me: AI startups selling vibe-codeable-in-two-days products to AI startups so they can build more tools for AI startups. The revenue frontier for this space mostly seems to be coming from this aspect, which continues to eat up the investment money, which will be drained at some point. What are your thoughts? Comments URL: https://news.ycombinator.com/item?id=48717402 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-29T10:35:44.000Z",
+      "score": 109.52,
+      "status": "queued"
+    },
+    {
       "id": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
       "title": "Asian AI startups launch Mythos-like models",
       "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
@@ -6778,6 +6826,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.27483",
+      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+      "link": "https://arxiv.org/abs/2606.27483",
+      "summary": "arXiv:2606.27483v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitment, standard agents lack an internal world model to simulate future outcomes. Therefore, we propose to internalize future-aware planning by training a single autoregressive model to verbalize both a prospective state rollout and a plan-conditioned success estimate-a textual analogue of the Q-value. Crucially, we identify a format-capability gap: simply fine-tuning agents on look-ahead traces during post-training leads to superficial mimicry of foresight without genuine predictive grounding. To bridge this gap, we introduce a three-stage training paradigm: (i) World Model Agentic Mid-Training (WM-AMT) to inject latent predictive capabilities into the policy; (ii) Format-Eliciting SFT (FE-SFT) to structure this injected capability; and (iii) Foresight-Conditioned Reinforcement Learning (FC-RL) to refine the calibration and utility of the generated simulations. Evaluated on search and mathematical reasoning tasks, our approach consistently outperforms other training baselines. Our results demonstrate that effective internal world modeling in LLM agents requires a capability-first traini",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 104.33,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.27736",
+      "title": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
+      "link": "https://arxiv.org/abs/2606.27736",
+      "summary": "arXiv:2606.27736v1 Announce Type: new Abstract: The rapid spread of fake news poses increasing threats to information ecosystems, especially as AI-generated misinformation under Generative Engine Optimization (GEO) poisoning allows adversarially crafted content to be systematically surfaced by retrieval systems, contaminating LLM reasoning. In this paper, we propose Tree of Evidence (ToE), a hierarchical evidence reasoning framework for automated fact-checking that models each claim as a dynamically expanding argument tree. ToE integrates a reinforcement learning-driven multi-source retrieval agent, an evidence evaluation agent, and an argument tree aggregation algorithm to iteratively decompose, retrieve, and verify claims through an explainable evidence chain. We further provide a theoretical analysis of the retrieval process, deriving a formal error bound that guarantees the learned policy converges to a neighborhood of the information-theoretically optimal policy. Experiments across multiple datasets and backbone LLMs demonstrate that ToE achieves improvements ranging from 4 to 24 percentage points over competitive baselines, with particularly pronounced gains on adversarially poisoned inputs.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 104.33,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.23938",
       "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
       "link": "https://arxiv.org/abs/2606.23938",
@@ -6835,6 +6907,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-19T04:00:00.000Z",
       "score": 98.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.27780",
+      "title": "Understanding Rollout Error in Graph World Models",
+      "link": "https://arxiv.org/abs/2606.27780",
+      "summary": "arXiv:2606.27780v1 Announce Type: new Abstract: World models are often used for planning by rolling learned dynamics forward. Many planning environments, however, are not vectors or images; they are graphs of agents, tools, skills, routes, and dependencies. In these settings, a local prediction error may stay local or spread through the graph, and the failure mode changes again when edges are predicted rather than fixed. This paper studies long-horizon rollout error in Graph World Models (GWMs). We formulate a unified fixed-edge and dynamic-edge GWM framework with action nodes for node-, edge-, and graph-level decisions. We develop graph-valued rollout bounds that separate topology-induced amplification from model-induced amplification, and we introduce a joint node-edge operator for dynamic-edge rollouts. Guided by the analysis, we propose Error-Aware GWM, which combines spectral regularization, rollout consistency, and critical-node weighting. Across synthetic topologies and heterogeneous agent-graph testbeds, rollout error and planning regret grow with horizon, dynamic-edge training is needed when structure evolves, and Error-Aware GWM prevents long-horizon divergence while preserving prediction accuracy. Real-world graph benchmarks clarify the scope of GWMs: they are most useful for dynamic graph rollout and agent planning, while specialized graph models remain strong on st",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 98.33,
       "status": "queued"
     },
     {
@@ -6958,6 +7042,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.27593",
+      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+      "link": "https://arxiv.org/abs/2606.27593",
+      "summary": "arXiv:2606.27593v1 Announce Type: new Abstract: We introduce a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries: building-block architectural components that specify a cover of local contexts, local representation families, restriction maps, gluing rules, obstruction policies, update obligations, and human-facing views. A foundry is an organized sheaf of knowledge that carries within it an argumentation component. Concrete foundries are built from generic foundries such as evidence/argument, operational decision, institutional/financial, market meaning, scientific challenge, research-program, assistant-build, and evaluation-harness foundries. Universal Foundry Learning (UFL) formalizes foundry construction as a composition of left and right Kan extensions, with left Kan extension rolling local artifacts into candidate foundries and right Kan extension enforcing the restriction, gluing, obstruction, and argumentation conditions required for promotion. Foundry SQL (FSQL) is a small typed query surface for slicing maintained foundry artifacts that uses TICKET (Topos Integration using Causal Kan Extension Transformers) certification for admitting external or pre-built models into durable ODYSSEY state. ODYSSEY is fully implemented and tested across a wide spectrum of concrete foundries, showing t",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 92.33,
+      "status": "queued"
+    },
+    {
       "id": "https://www.businessinsider.com/satya-nadella-said-every-company-should-build-own-ai-model-2026-6",
       "title": "Microsoft's Satya Nadella says every company should build its own AI model",
       "link": "https://www.businessinsider.com/satya-nadella-said-every-company-should-build-own-ai-model-2026-6",
@@ -7042,6 +7138,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.27382",
+      "title": "AI-Model Network: Concept, Current State and Future",
+      "link": "https://arxiv.org/abs/2606.27382",
+      "summary": "arXiv:2606.27382v1 Announce Type: new Abstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration. Computers create the Internet, and the Internet empowers the value of computers. The rapid development of the Internet, cloud computing, and big data is pushing artificial intelligence into the era of large models (LMs). However, the practical application of LMs is currently hindered by high training costs and deployment complexities, driving a shift toward lightweight, private, and domain-specific models. With the rapid proliferation and wide distribution of heterogeneous models, enabling effective interaction and collaboration among them has emerged as a critical bottleneck that urgently needs to be addressed in LM development. Drawing inspiration from the development of the Internet, this paper proposes the concept, vision, and system architecture of world wide AI-model network (AI-ModelNet). It is a novel paradigm that achieves interconnection, capability sharing, and collaborative reasoning by establishing pathways between models. We first briefly review the current state of single-model and multi-model research. Subsequently, the systemic vision and hierarchical architecture of AI-ModelNet are articulated, followed by validation of the framework's feasibility through a prototype s",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 86.33,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.27814",
+      "title": "ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents",
+      "link": "https://arxiv.org/abs/2606.27814",
+      "summary": "arXiv:2606.27814v1 Announce Type: new Abstract: Training small language-model agents for long-horizon interactive tasks requires both fast imitation and reward-driven improvement. On-policy distillation (OPD) provides dense teacher guidance and typically improves rapidly in the early stage, but its gains saturate once the student approaches the teacher, limiting the final performance ceiling. Reinforcement learning (RL) directly optimizes environment rewards and encourages exploratory improvement toward a higher reward-defined ceiling, but sparse and delayed feedback makes early-stage learning much less efficient than OPD. In this paper, we propose ATOD (Annealed Turn-aware On-policy Distillation), a hybrid online distillation algorithm that explicitly exploits this complementarity. (1) ATOD uses an annealed OPD-RL schedule: OPD dominates early training to approach teacher-level behavior, while RL is gradually strengthened to drive reward-based exploration. (2) ATOD introduces Turn-level Disagreement-Uncertainty Reweighting (T-DUR), which softly amplifies high-utility turns and improves dense supervision in long trajectories. Experiments on ALFWorld, WebShop, and Search-QA show that ATOD consistently outperforms competing post-training baselines: across the three student sizes, ATOD improves average success rate by 3.03 points over OPD and 23.62 points over GRPO, while surpassi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "score": 86.33,
+      "status": "queued"
+    },
+    {
       "id": "https://tenureai.dev/writing/open-knowledge-format-ai-memory-benchmark/",
       "title": "What happens when OKF runs inside an AI tool",
       "link": "https://tenureai.dev/writing/open-knowledge-format-ai-memory-benchmark/",
@@ -7078,124 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/shaurcasm/nirnam",
-      "title": "Show HN: Nirnam – a browser-native message bus and AI agent framework for MFEs",
-      "link": "https://github.com/shaurcasm/nirnam",
-      "summary": "Communication hub to make communication easier for MFEs, Browser Worker threads, Browser-native Agents. And an Agent framework to make it easier to build browser native multi-agent system. Comments URL: https://news.ycombinator.com/item?id=48697653 Points: 1 # Comments: 0",
+      "id": "https://news.ycombinator.com/item?id=48661860",
+      "title": "Ask HN: Best AI Gateway?",
+      "link": "https://news.ycombinator.com/item?id=48661860",
+      "summary": "What AI gateways work well? We currently use Anthropic's router directly for our AI agent (on val.town) but are considering adding OpenRouter or the Vercel AI Gateway, or something else entirely. I know little about gateways except that they seem to be the new VS Code forks (i.e. everyone is doing it). My cursory research tells me that OpenRouter has the most models/providers, but charges a 5.5% pay-as-you-go platfo…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-27T12:27:25.000Z",
-      "score": 81.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.aiweirdness.com/its-11-00-pm-do-you-know-where-your-ai-agent-is/",
-      "title": "It's 11:00 pm. Do you know where your AI agent is?",
-      "link": "https://www.aiweirdness.com/its-11-00-pm-do-you-know-where-your-ai-agent-is/",
-      "summary": "Article URL: https://www.aiweirdness.com/its-11-00-pm-do-you-know-where-your-ai-agent-is/ Comments URL: https://news.ycombinator.com/item?id=48697978 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-27T13:12:34.000Z",
-      "score": 77.97,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.26155",
-      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
-      "link": "https://arxiv.org/abs/2606.26155",
-      "summary": "arXiv:2606.26155v1 Announce Type: new Abstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior. These data pairs determine the degree to which interpretability frameworks can reliably detect model features responsible for a behavior, and therefore the ability to steer models toward or away from such behavior. In this work, we present an iterative data generation pipeline that isolates cascading linear features responsible for a behavior. Specifically, we show how moving beyond simple binary pairs of samples, and instead isolating samples that show degrees of features that scale linearly with behavior, allows for better disentanglement of features. We focus on detecting and steering away from sycophancy -- the tendency of language models to prioritize user validation. We demonstrate that sycophancy features discovered through cascading samples form linearly separable subspaces, and allow for selection of model activations that more clearly correspond to the desired behavior than baseline approaches. We also evaluate their ability to enable detection, deterministic scoring, and robust steering, and see that they either match or outperform LLM-as-a-judge and system prompting baselines while providing lower computational demand and more interpretability gu",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "score": 77.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.26205",
-      "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
-      "link": "https://arxiv.org/abs/2606.26205",
-      "summary": "arXiv:2606.26205v1 Announce Type: new Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but unvalidated. Integrating them without conflating evidence and anecdote is especially consequential in psychiatry, where poorly contextualised information can amplify fear, nocebo responses, and non-adherence. Here we develop a provenance-aware, knowledge-graph-based multi-agent framework unifying 466,525 Reddit posts, 60,782 WebMD reviews, and twenty years of U.S. FDA Adverse Event Reporting System records for nine antidepressants. A large-language-model entity-recognition pipeline benchmarked against physician annotations reached highest F1 scores of 0.969 for medications and 0.973 for conditions. The two community platforms were far more concordant with each other (overlap up to a Jaccard similarity of 0.905) than with regulatory reports, indicating that patient-generated data form a partly independent safety signal. For sertraline, many adverse events appeared in community sources hundreds of days before the corresponding FDA date. A Neo4j knowledge graph grounded in ATC-N, ICD-10, and MedDRA vocabularies preserves provenance, keeping every claim traceable and regulatory facts distinct fr",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "score": 77.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
-      "title": "Why is Apple asking me to pay more for Big Tech’s AI obsession?",
-      "link": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
-      "summary": "Tim Cook recently said price increases were \"unavoidable\" and described the company's pricing as \"unsustainable.\" The 16-inch MacBook Pro saw its price go up by $300. The 11-inch iPad Air went from $599 to $749. Even the HomePod Mini got a $30 bump to $129. Cook squarely placed the blame at the feet of the AI industry, which is not surprising. RAMageddon has already come for your desktop PCs and gaming consoles. The Xbox has seen its price climb nearly 25 percent depending on the model, and Nothing even canceled an entire phone launch. Apple is just the most recent to jack up prices and point the finger at AI. The price hikes are \"basic eco … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-27T13:30:00.000Z",
-      "score": 76.74,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/obro79/promptetheus",
-      "title": "Promptetheus – Trace, detect, and auto-repair AI agent failures",
-      "link": "https://github.com/obro79/promptetheus",
-      "summary": "Article URL: https://github.com/obro79/promptetheus Comments URL: https://news.ycombinator.com/item?id=48695176 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-27T04:37:00.000Z",
-      "score": 76.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Adirdabush1/cerberus",
-      "title": "Cerberus – a local firewall for AI agents' tool calls",
-      "link": "https://github.com/Adirdabush1/cerberus",
-      "summary": "Article URL: https://github.com/Adirdabush1/cerberus Comments URL: https://news.ycombinator.com/item?id=48704458 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-28T04:49:30.000Z",
-      "score": 75.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.26348",
-      "title": "What We are Missing in Multimodal LLM Evaluation?",
-      "link": "https://arxiv.org/abs/2606.26348",
-      "summary": "arXiv:2606.26348v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) can process diverse inputs, e.g., text, images, audio, and video, and generate textual responses. While their capabilities have advanced rapidly, evaluation of such models has not kept pace. Most existing evaluation benchmarks are limited to isolated tasks and reveal little about whether a model integrates information across modalities. We examine current means for evaluating MLLMs and review the existing benchmark taxonomy to identify gaps, including temporal-spatial coherence, physical world understanding, multimodal consistency, and selective attention. Addressing these gaps is essential for measuring real progress in multimodal intelligence and exposing capability boundaries.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-27T04:00:00.000Z",
-      "score": 74.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48694991",
-      "title": "Isn't US Government trying to monopolize AI as a super power?",
-      "link": "https://news.ycombinator.com/item?id=48694991",
-      "summary": "The US government recently gave a directive to OpenAI to delay the launch of it Fable 5 rival GPT 5.6 Sol. This comes after they have already put on hold the global public release of Claude Fable 5. Isn't this just creating an AI monopoly, where the most powerful AI models are restricted to only 'trusted US organization'? Comments URL: https://news.ycombinator.com/item?id=48694991 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-27T03:57:33.000Z",
-      "score": 74.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.agentideahub.com",
-      "title": "Find the right AI agents to build",
-      "link": "https://www.agentideahub.com",
-      "summary": "Article URL: https://www.agentideahub.com Comments URL: https://news.ycombinator.com/item?id=48694897 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-27T03:38:06.000Z",
-      "score": 73.08,
-      "status": "queued"
+      "keywordHits": 8,
+      "publishedAt": "2026-06-24T15:59:03.000Z",
+      "score": 213.05,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "ANALYSIS",
+      "failedAtRun": "2026-06-29T12:22:22.996Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://github.com/livekit/eot-bench",
@@ -7996,86 +8012,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-05-31T10:06:54.568Z",
       "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-l…"
-    },
-    {
-      "id": "https://lowdefy.com/articles/lowdefy-agents/",
-      "title": "Show HN: AI Agents in 30 Lines of YAML: Lowdefy v5.3",
-      "link": "https://lowdefy.com/articles/lowdefy-agents/",
-      "summary": "Article URL: https://lowdefy.com/articles/lowdefy-agents/ Comments URL: https://news.ycombinator.com/item?id=48093184 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-11T10:29:15.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-30T09:50:22.462Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://www.theverge.com/podcast/929940/rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai",
-      "title": "Rivian’s software chief thinks you don&#8217;t need CarPlay or buttons",
-      "link": "https://www.theverge.com/podcast/929940/rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai",
-      "summary": "Today, I’m talking with Wassym Bensaid, the chief software officer at Rivian, and the co-CEO of Rivian’s platform joint venture with Volkswagen, which everyone just calls RV Tech. That joint venture kicked off about a year and a half ago with a nearly $6 billion investment from Volkswagen. It effectively puts Wassym in charge of the operating system and electrical architecture for every future EV from Volkswagen and…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 11,
-      "publishedAt": "2026-05-28T14:00:00.000Z",
-      "score": 160.64,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-30T09:50:22.462Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://www.actuia.com/actualite/pourquoi-nvidia-mise-sur-decart-une-start-up-ia-capable-doptimiser-aussi-les-puces-concurrentes/",
-      "title": "Pourquoi Nvidia mise sur Decart, une start-up IA capable d’optimiser aussi les puces concurrentes",
-      "link": "https://www.actuia.com/actualite/pourquoi-nvidia-mise-sur-decart-une-start-up-ia-capable-doptimiser-aussi-les-puces-concurrentes/",
-      "summary": "En participant au tour de 300 M$ de Decart, Nvidia ne mise pas seulement sur un acteur des world models. Le groupe prend position dans une couche logicielle d’optimisation qui revendique une com...",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-29T10:49:38.000Z",
-      "score": 144,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-05-30T09:50:22.462Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders…"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48312377",
-      "title": "Ask HN: What Is an \"AI Engineer\"?",
-      "link": "https://news.ycombinator.com/item?id=48312377",
-      "summary": "I'm seeing an enormous contingency of my LinkedIn connections change their titles to \"AI Engineer.\" I know for a fact that they're not working on any models or even AI workflows, they're just building apps and backends using AI tools like Claude. Is that what \"AI Engineer\" means nowadays? Is that what companies are looking for when they open recs for \"AI Engineer\"? Should I be marketing myself as an \"AI Engineer\" ju…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-28T17:26:50.000Z",
-      "score": 162,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-29T18:12:04.368Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
-      "title": "Claude’s new model is more ‘honest’ when it messes up",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
-      "summary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic, it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they sometimes jump to conclusions, confidently presenting their work as making progress despite thin evidence.\" The AI lab cla…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-28T17:00:00.000Z",
-      "score": 154.81,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-29T18:12:04.368Z",
-      "failureReason": "validation issues: FR: Section \"TL;DR en langage simple\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Ce que vous allez construire et pourquoi c'est utile\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Avant de commencer (temps, cout, prerequis)\" is missing an inline source link (must include one of the provided URLs). | FR: Section \"Installation et implementation pas a pas\" is missing an inline source link (must include one of…"
     }
   ]
 }
