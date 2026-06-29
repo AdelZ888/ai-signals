@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-06-29T12:27:43.285Z",
+  "generatedAt": "2026-06-29T17:50:04.452Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-06-29-deploy-ai-gateway-an-open-source-semantic-caching-reverse-proxy-to-reduce-llm-api-costs",
+      "title": "Déployer AI-Gateway : un reverse proxy open-source à mise en cache sémantique pour réduire les coûts LLM",
+      "date": "2026-06-29",
+      "excerpt": "Guide pour lancer AI-Gateway, un reverse proxy open-source qui implémente une mise en cache sémantique devant les API LLM. Le dépôt indique un objectif de réduction des coûts API/tokens d'environ 40–70%. Le guide couvre checklist d'installation, vérification et conseils de déploiement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-29-deploy-ai-gateway-an-open-source-semantic-caching-reverse-proxy-to-reduce-llm-api-costs.jpg",
+      "tags": [
+        "AI",
+        "LLM",
+        "reverse-proxy",
+        "semantic-caching",
+        "open-source",
+        "devops"
+      ],
+      "sources": [
+        "https://github.com/Arnab758/ai-gateway"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-06-29-reference-mcp-open-source-indexed-archive-for-ai-agents-to-search-past-sessions",
       "title": "Reference MCP : archive indexée open-source pour que des agents IA consultent des sessions passées",
