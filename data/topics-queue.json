@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-30T11:02:00.043Z",
+  "generatedAt": "2026-06-30T17:24:10.610Z",
   "items": [
+    {
+      "id": "https://github.com/Treasury-Technologies-Inc/treasurybench",
+      "title": "Show HN: TreasuryBench – an open benchmark for personal-finance AI advice",
+      "link": "https://github.com/Treasury-Technologies-Inc/treasurybench",
+      "summary": "Article URL: https://github.com/Treasury-Technologies-Inc/treasurybench Comments URL: https://news.ycombinator.com/item?id=48676009 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-25T16:43:08.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-06-30T17:24:10.523Z",
+      "file": "content/posts/2026-06-30-run-treasurybench-set-up-a-repeatable-benchmark-for-personal-finance-ai-assistants.md",
+      "fileFr": "content/posts/fr/2026-06-30-run-treasurybench-set-up-a-repeatable-benchmark-for-personal-finance-ai-assistants.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1261,
+      "wordsFr": 1192
+    },
     {
       "id": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
       "title": "Google won’t just admit it’s feeding YouTube creators to its music AI",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1391
     },
     {
-      "id": "https://github.com/rivradev/recite-agent-skill",
-      "title": "Show HN: Recite – I built an Skill and MCP so my AI agent does my bookkeeping",
-      "link": "https://github.com/rivradev/recite-agent-skill",
-      "summary": "Hi HN, I’m an indie dev, and as my tech stack grew, so did the number of SaaS subscriptions and invoices. Every month, I’d get a chaotic pile of PDFs and image receipts. I absolutely hate bookkeeping. It breaks my flow state, and honestly, the last thing I want to do on a weekend is open an Excel spreadsheet to manually input tax data. So I built Recite. Originally, it was just a simple web app that used vision mode…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-04T15:32:56.000Z",
-      "score": 192,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-05T08:40:03.213Z",
-      "file": "content/posts/2026-03-05-recite-agent-skill-and-mcp-server-to-parse-receipts-rename-files-and-generate-csv-ledger.md",
-      "fileFr": "content/posts/fr/2026-03-05-recite-agent-skill-and-mcp-server-to-parse-receipts-rename-files-and-generate-csv-ledger.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1514,
-      "wordsFr": 1335
-    },
-    {
       "id": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
       "title": "The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic",
       "link": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
@@ -5178,6 +5178,30 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-06-29T11:43:36.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://vanta.shanev.ai",
+      "title": "Show HN: Vanta – Markdown notes for iPhone with on-device AI",
+      "link": "https://vanta.shanev.ai",
+      "summary": "Vanta is a Markdown notes app for iPhone, built around on-device AI organization and GTD (Getting Things Done). I use Obsidian with Claude on desktop, and wanted a similar but automated flow on mobile. This started out as an experiment with Apple's local Foundation models which turned out to be genuinely useful for me. The local models are used to clean up messy dictation, format Markdown, and categorize your inbox using GTD principles. Maybe one day it'll do your todos for you too :) Import and sync your existing Obsidian vault on Github, or start with a new one. iCloud Drive sync is included. App Store: https://apps.apple.com/app/id6777781490 Comments URL: https://news.ycombinator.com/item?id=48735191 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-30T16:32:50.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.moderntreasury.com/journal/reducing-feedback-latency-with-local-ci-for-developers-and-ai-agents",
+      "title": "Reducing Feedback Latency with Local CI for Developers and AI Agents",
+      "link": "https://www.moderntreasury.com/journal/reducing-feedback-latency-with-local-ci-for-developers-and-ai-agents",
+      "summary": "Article URL: https://www.moderntreasury.com/journal/reducing-feedback-latency-with-local-ci-for-developers-and-ai-agents Comments URL: https://news.ycombinator.com/item?id=48735105 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-30T16:29:16.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5434,18 +5458,6 @@
       "status": "queued"
     },
     {
-      "id": "https://n8n.io/reports/2026-ai-agent-development-tools/",
-      "title": "N8n 2026 AI agent builder report",
-      "link": "https://n8n.io/reports/2026-ai-agent-development-tools/",
-      "summary": "Article URL: https://n8n.io/reports/2026-ai-agent-development-tools/ Comments URL: https://news.ycombinator.com/item?id=48642757 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-23T10:12:40.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://openaca.dev/blog/your-agent-risk-is-in-the-composition/",
       "title": "AI agent security needs a composition graph, not just an SBOM",
       "link": "https://openaca.dev/blog/your-agent-risk-is-in-the-composition/",
@@ -5466,30 +5478,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-06-24T10:09:04.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://zunagen.com/",
-      "title": "Show HN: Engineer AI system full DataIQ pipeline choice u model Start training",
-      "link": "https://zunagen.com/",
-      "summary": "Article URL: https://zunagen.com/ Comments URL: https://news.ycombinator.com/item?id=48676126 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-25T16:51:01.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Treasury-Technologies-Inc/treasurybench",
-      "title": "Show HN: TreasuryBench – an open benchmark for personal-finance AI advice",
-      "link": "https://github.com/Treasury-Technologies-Inc/treasurybench",
-      "summary": "Article URL: https://github.com/Treasury-Technologies-Inc/treasurybench Comments URL: https://news.ycombinator.com/item?id=48676009 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-25T16:43:08.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5590,6 +5578,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/ChatbotXIO/ChatbotX",
+      "title": "ChatbotX – Open-source omnichannel AI marketing platform",
+      "link": "https://github.com/ChatbotXIO/ChatbotX",
+      "summary": "Article URL: https://github.com/ChatbotXIO/ChatbotX Comments URL: https://news.ycombinator.com/item?id=48734683 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-30T16:04:46.000Z",
+      "score": 153.45,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=48600462",
       "title": "AI-gateway product that cuts LLM API TOKEN costs by 40-70%",
       "link": "https://news.ycombinator.com/item?id=48600462",
@@ -5611,18 +5611,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T16:34:34.000Z",
       "score": 150.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48463576",
-      "title": "Ask HN: How are you preserving your skills while using AI?",
-      "link": "https://news.ycombinator.com/item?id=48463576",
-      "summary": "I'm a senior engineer at [Big Company], and AI tools are ever-present. There's no mandate that you need to use them, but they are so readily available that most people do anyways. There's a lot of society level concerns with AI, but on a personal level, I'm starting to slowly feel less skilled than I used to be. I can certainly do more, but I understand less. The \"Prompt-Then-Review\" loop of coding harnesses (Claude Code, Codex, Pi, OpenCode, Amp, etc.) just simply do not encourage mastery in the same way as shaping the code yourself. Sure, you can argue you're \"thinking at a higher abstraction\". But what happens when that abstraction fails? as abstractions often do. It's not a fast process this skill erasure. I'm not magically losing my ability to code overnight. However, it feels like rust. Slowly eroding the pillars until they give. This tool (currently) needs a skilled hand to guide correctly. However using the tool feels like it degrades the skilled hand. This negative feedback loop I find truly concerning from both the ability to make a living in software and the ramifications on software quality writ large. So, I ask HN. How is the community protecting their skills? especially when actively using AI. Comments URL: https://news.ycombinator.com/item?id=48463576 Points: 3 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-09T16:45:54.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -5695,18 +5683,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-20T15:25:44.000Z",
       "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://redqueen.sh/",
-      "title": "Red Queen – deterministic orchestration for AI coding agents",
-      "link": "https://redqueen.sh/",
-      "summary": "Article URL: https://redqueen.sh/ Comments URL: https://news.ycombinator.com/item?id=48462957 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-09T16:08:43.000Z",
-      "score": 149.37,
       "status": "queued"
     },
     {
@@ -6058,18 +6034,6 @@
       "status": "queued"
     },
     {
-      "id": "https://cloud.google.com/blog/products/containers-kubernetes/gke-inference-gateway-prefix-caching-accelerates-ai-inference",
-      "title": "GKE Inference Gateway delivers up to 92% faster AI responses",
-      "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-inference-gateway-prefix-caching-accelerates-ai-inference",
-      "summary": "Article URL: https://cloud.google.com/blog/products/containers-kubernetes/gke-inference-gateway-prefix-caching-accelerates-ai-inference Comments URL: https://news.ycombinator.com/item?id=48462961 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-09T16:09:03.000Z",
-      "score": 131.79,
-      "status": "queued"
-    },
-    {
       "id": "https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/",
       "title": "Why AI tokens will send your enterprise cloud bill sky-high again",
       "link": "https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/",
@@ -6094,18 +6058,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
-      "title": "Apple is embracing the fantasy of AI photo editing",
-      "link": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
-      "summary": "Apple’s feature showcase at WWDC 2026 didn’t flag which if these “photographs” are real or created with its new AI fakery. | Images by Apple / compiled by The Verge Apple used to question whether generative AI-powered editing features were worth the risk of distorting our perceptions of the world. Now it seems Apple no longer believes that photos should accurately capture reality. At WWDC 2026, the company announced a host of new AI-powered photo editing tools. They give users effortless powers of manipulating images that Apple still refers to as \"photos.\" Two years ago, Apple launched Clean Up - an AI-powered object removal tool in Apple's Photo app that's similar to the Magic Eraser feature in Google Photos. At the time, Apple software chief Craig Federighi said that it was important for the company … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-09T16:13:14.000Z",
-      "score": 131.47,
-      "status": "queued"
-    },
-    {
       "id": "https://maref.org/blog/from-steadicam-to-agent-governance",
       "title": "I Shot Films for 30 Years. Now I'm Building Safety Systems for AI Agents",
       "link": "https://maref.org/blog/from-steadicam-to-agent-governance",
@@ -6115,6 +6067,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-22T11:52:23.000Z",
       "score": 130.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://fastreact.dev/",
+      "title": "Show HN: FastReact – FastAPI and React Starter Kit for AI SaaS",
+      "link": "https://fastreact.dev/",
+      "summary": "Hi everyone, I've successfully used Backend + SPA pattern in several AI products so far. Then I decided to put years of experience into this starter pack. Even then, it took me a few months to make it a complete product. It has anything a regular SAAS would require, plus AI-ready features such as token based metering and a fully functional AI copilot demo app. Let me know your feedback. Comments URL: https://news.ycombinator.com/item?id=48734375 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-30T15:44:41.000Z",
+      "score": 130.47,
       "status": "queued"
     },
     {
@@ -6154,42 +6118,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/yv1ing/Z3r0",
-      "title": "Show HN: AI-native red-team for penetration testing and vulnerability research",
-      "link": "https://github.com/yv1ing/Z3r0",
-      "summary": "AI-native red-team workbench for authorized penetration testing and vulnerability research, with specialist agents, sandboxed tooling, evidence records, and replayable timelines. Comments URL: https://news.ycombinator.com/item?id=48462840 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-09T16:00:46.000Z",
-      "score": 128.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.computerworld.com/article/4182531/trumps-new-ai-order-hallucinations-arent-just-for-llms.html",
-      "title": "Trump's new AI order – hallucinations aren't just for LLMs",
-      "link": "https://www.computerworld.com/article/4182531/trumps-new-ai-order-hallucinations-arent-just-for-llms.html",
-      "summary": "Article URL: https://www.computerworld.com/article/4182531/trumps-new-ai-order-hallucinations-arent-just-for-llms.html Comments URL: https://news.ycombinator.com/item?id=48462909 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-09T16:06:02.000Z",
-      "score": 128.1,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.hauser.io/i-gave-an-ai-agent-its-own-computer-and-it-changed-how-i-see-the-future-of-saas/",
-      "title": "My New Coworker Is an AI Agent with Its Own Computer",
-      "link": "https://www.hauser.io/i-gave-an-ai-agent-its-own-computer-and-it-changed-how-i-see-the-future-of-saas/",
-      "summary": "Article URL: https://www.hauser.io/i-gave-an-ai-agent-its-own-computer-and-it-changed-how-i-see-the-future-of-saas/ Comments URL: https://news.ycombinator.com/item?id=48462904 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-09T16:05:48.000Z",
-      "score": 127.82,
-      "status": "queued"
-    },
-    {
       "id": "https://www.archytasdigital.com/",
       "title": "Show HN: A Free AI Visibility Tracker",
       "link": "https://www.archytasdigital.com/",
@@ -6199,18 +6127,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-30T09:33:57.000Z",
       "score": 127.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/wyattmattoe/Image-to-font-extractor",
-      "title": "Show HN: Tool to extract AI-generated fonts from image sheets into TTFs",
-      "link": "https://github.com/wyattmattoe/Image-to-font-extractor",
-      "summary": "I couldn't find a tool for this so i made it myself. It’s an agent-ready image-to-font extractor: image in, known character order in, TTF/SVG/manifest/contact sheet/preview out. Comments URL: https://news.ycombinator.com/item?id=48462964 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-09T16:09:40.000Z",
-      "score": 126.59,
       "status": "queued"
     },
     {
@@ -6259,6 +6175,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-23T15:56:42.000Z",
       "score": 125.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://keepp.link/keepp-skill/SKILL.md",
+      "title": "Show HN: Let your AI agent manage your link in bio",
+      "link": "https://keepp.link/keepp-skill/SKILL.md",
+      "summary": "Keepp, is not just a link in bio. It is a landing page for all the creators and small businesses. Along with socials and links, it supports cards with customizable actions to show case things you sell and recommend. With and AI agent it becomes much easier to manage. Let it edit it automatically when you run promos, you have updates and never worry about it being outdated. Comments URL: https://news.ycombinator.com/item?id=48734386 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-30T15:45:20.000Z",
+      "score": 125.18,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/busabase/busabase",
+      "title": "Show HN: Busabase – an approval-first database and knowledge base for AI agents",
+      "link": "https://github.com/busabase/busabase",
+      "summary": "Article URL: https://github.com/busabase/busabase Comments URL: https://news.ycombinator.com/item?id=48734021 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-30T15:21:50.000Z",
+      "score": 123.07,
       "status": "queued"
     },
     {
@@ -6415,6 +6355,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-06-28T13:30:06.000Z",
       "score": 117.07,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/LoganYangBo/rh-trading-agent",
+      "title": "An AI trading desk built as a team of sub-agents (Claude Code and Robinhood MCP)",
+      "link": "https://github.com/LoganYangBo/rh-trading-agent",
+      "summary": "Article URL: https://github.com/LoganYangBo/rh-trading-agent Comments URL: https://news.ycombinator.com/item?id=48733849 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-30T15:11:46.000Z",
+      "score": 116.99,
       "status": "queued"
     },
     {
@@ -6982,6 +6934,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/world/china/chinas-meituan-says-new-ai-model-trained-domestic-chips-2026-06-30/",
+      "title": "Chinese delivery firm Meituan's new AI model trained on domestic chips",
+      "link": "https://www.reuters.com/world/china/chinas-meituan-says-new-ai-model-trained-domestic-chips-2026-06-30/",
+      "summary": "Article URL: https://www.reuters.com/world/china/chinas-meituan-says-new-ai-model-trained-domestic-chips-2026-06-30/ Comments URL: https://news.ycombinator.com/item?id=48733893 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-30T15:14:40.000Z",
+      "score": 100.63,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.19527",
       "title": "Emergent Alignment",
       "link": "https://arxiv.org/abs/2606.19527",
@@ -7196,6 +7160,62 @@
       "publishedAt": "2026-06-20T08:13:20.000Z",
       "score": 90.23,
       "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "score": 77.53,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.28683",
+      "title": "Aristotelian Virtue Profiling of LLMs through Ethical Dilemmas",
+      "link": "https://arxiv.org/abs/2606.28683",
+      "summary": "arXiv:2606.28683v1 Announce Type: new Abstract: Large Language Models (LLMs) often face ethical tradeoffs in which several responses may be defensible but express different priorities, such as fairness, honesty, courage, or restraint. We introduce VirtueMap, a framework for describing these patterns through an Aristotelian virtue-ethics lens. Instead of asking for a single correct answer, VirtueMap asks humans or LLMs to rank all five responses to each of seven general, non-lethal, non-political, and non-religious ethical dilemmas. To define the reference orderings used for scoring, we first proposed, for each dilemma and virtue, an ordering of the five responses from most to least expressive of that virtue. We then collected more than 100 respondent evaluations per ordering and retained it as operational ground truth only when at least 95% confirmed it. Rankings are scored against these retained orderings using normalized Borda alignment, yielding profiles over Practical Wisdom, Justice, Truthfulness, Courage, and Temperance. We apply VirtueMap to nine LLM families in a repeated-run evaluation and find high mean rank consistency (90.3%), with the largest differences appearing on Courage, Temperance, and Justice. We also release an interactive website that computes profiles locally in the browser and compares respondents with measured LLM profiles.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-06-30T04:00:00.000Z",
+      "score": 75.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://n8n.io/reports/2026-ai-agent-development-tools/",
+      "title": "N8n 2026 AI agent builder report",
+      "link": "https://n8n.io/reports/2026-ai-agent-development-tools/",
+      "summary": "Article URL: https://n8n.io/reports/2026-ai-agent-development-tools/ Comments URL: https://news.ycombinator.com/item?id=48642757 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-23T10:12:40.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-30T17:06:06.219Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://zunagen.com/",
+      "title": "Show HN: Engineer AI system full DataIQ pipeline choice u model Start training",
+      "link": "https://zunagen.com/",
+      "summary": "Article URL: https://zunagen.com/ Comments URL: https://news.ycombinator.com/item?id=48676126 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-06-25T16:51:01.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-06-30T17:06:06.219Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
@@ -7996,38 +8016,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-06-01T13:27:07.741Z",
       "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis). | FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences…"
-    },
-    {
-      "id": "https://github.com/esamattis/mitmwall",
-      "title": "Show HN: Egress WAF to limit AI agents and NPM malware based on mitmproxy",
-      "link": "https://github.com/esamattis/mitmwall",
-      "summary": "Article URL: https://github.com/esamattis/mitmwall Comments URL: https://news.ycombinator.com/item?id=48344357 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-31T09:52:23.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-31T16:07:46.112Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://openai.com/index/warp",
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "link": "https://openai.com/index/warp",
-      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "score": 73.81,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-05-31T16:07:46.112Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }

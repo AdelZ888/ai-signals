@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T11:02:00.031Z",
+  "generatedAt": "2026-06-30T17:24:10.539Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-30-run-treasurybench-set-up-a-repeatable-benchmark-for-personal-finance-ai-assistants",
+      "title": "Run TreasuryBench: set up a repeatable benchmark for personal-finance AI assistants",
+      "date": "2026-06-30",
+      "excerpt": "Step-by-step guide to set up TreasuryBench, a repeatable benchmark that tests personal-finance AI assistants with synthetic personas, saves run metadata, and makes comparisons auditable.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-30-run-treasurybench-set-up-a-repeatable-benchmark-for-personal-finance-ai-assistants.jpg",
+      "tags": [
+        "benchmarks",
+        "personal-finance",
+        "ai-evaluation",
+        "open-source",
+        "treasurybench",
+        "tutorial",
+        "tooling"
+      ],
+      "sources": [
+        "https://github.com/Treasury-Technologies-Inc/treasurybench"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {

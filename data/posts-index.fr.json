@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T11:02:00.034Z",
+  "generatedAt": "2026-06-30T17:24:10.542Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-06-30-run-treasurybench-set-up-a-repeatable-benchmark-for-personal-finance-ai-assistants",
+      "title": "Exécuter TreasuryBench : mettre en place un benchmark répétable pour assistants IA en finance personnelle",
+      "date": "2026-06-30",
+      "excerpt": "Guide pas à pas pour installer TreasuryBench (référentiel GitHub) : configurer une évaluation répétable d'assistants en finance personnelle avec personas synthétiques, lancer des runs pilotes, et sauvegarder des métadonnées pour reproductibilité et comparaisons.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-06-30-run-treasurybench-set-up-a-repeatable-benchmark-for-personal-finance-ai-assistants.jpg",
+      "tags": [
+        "IA",
+        "benchmark",
+        "finance-personnelle",
+        "devops",
+        "startup",
+        "développeurs"
+      ],
+      "sources": [
+        "https://github.com/Treasury-Technologies-Inc/treasurybench"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
