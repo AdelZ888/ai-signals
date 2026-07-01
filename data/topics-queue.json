@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-30T17:24:10.610Z",
+  "generatedAt": "2026-07-01T11:28:39.541Z",
   "items": [
+    {
+      "id": "https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/",
+      "title": "AI agents that quickly estimate electronic devices' carbon footprints",
+      "link": "https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/",
+      "summary": "Article URL: https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/ Comments URL: https://news.ycombinator.com/item?id=48506561 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-12T16:59:30.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-07-01T11:28:39.510Z",
+      "file": "content/posts/2026-07-01-uw-ai-agents-estimate-electronics-manufacturing-carbon-footprints-in-about-one-minute.md",
+      "fileFr": "content/posts/fr/2026-07-01-uw-ai-agents-estimate-electronics-manufacturing-carbon-footprints-in-about-one-minute.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1565,
+      "wordsFr": 1177
+    },
     {
       "id": "https://github.com/Treasury-Technologies-Inc/treasurybench",
       "title": "Show HN: TreasuryBench – an open benchmark for personal-finance AI advice",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1258
     },
     {
-      "id": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
-      "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
-      "link": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-05T14:16:49.000Z",
-      "score": 112.43,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-05T16:04:24.448Z",
-      "file": "content/posts/2026-03-05-deploying-vision-language-action-models-on-nxp-imx95-dataset-recording-policy-fine-tuning-and-latency-aware-on-device-optimizations.md",
-      "fileFr": "content/posts/fr/2026-03-05-deploying-vision-language-action-models-on-nxp-imx95-dataset-recording-policy-fine-tuning-and-latency-aware-on-device-optimizations.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 480,
-      "wordsEn": 1719,
-      "wordsFr": 1391
-    },
-    {
-      "id": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
-      "title": "The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic",
-      "link": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b Comments URL: https://news.ycombinator.com/item?id=48502556 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-12T11:07:54.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/",
-      "title": "AI agents that quickly estimate electronic devices' carbon footprints",
-      "link": "https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/",
-      "summary": "Article URL: https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/ Comments URL: https://news.ycombinator.com/item?id=48506561 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-12T16:59:30.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.realitykernel.dev/",
       "title": "Show HN: Reality Kernel – A causal containment sandbox for autonomous AI agents",
       "link": "https://www.realitykernel.dev/",
@@ -5770,18 +5746,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.10209",
-      "title": "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
-      "link": "https://arxiv.org/abs/2606.10209",
-      "summary": "arXiv:2606.10209v1 Announce Type: new Abstract: Large language models deployed as autonomous agents for enterprise workflows face a key challenge: verbose tool responses from enterprise systems can cause context overflow, stale-state errors, and high inference cost. We study this problem in automated expense itemization in Microsoft Dynamics 365 Finance and Operations using Model Context Protocol tools. We evaluate four GPT-5 configurations on a 50-task hotel expense benchmark: no user model, full conversation history, context pruned to the last 5 tool call/response pairs, and pruning with automated summarization. Results are averaged across 5 independent runs, with the user model held constant for the context-engineering comparison. The no-user-model baseline achieves only 8.0% complete itemization. Full-context retention improves completion to 71.0%, but consumes 1,480,996 tokens and 14.56 hours per benchmark. Pruning to the last 5 tool calls improves completion to 79.0% while reducing token use to 535,274 and runtime to 5.39 hours. Adding summarization achieves the best result: 91.6% complete itemization and 99.64% average amount itemized, with 553,374 tokens and 5.79 hours. We further report confidence intervals, effect-size analysis, sensitivity over pruning and summary windows, failure analysis, results across five expense types grouped into three categories, and cross-mo",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "score": 141.99,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/outbound-hold-agent-python",
       "title": "Outbound hold agent that pauses AI runtime while waiting on hold",
       "link": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/outbound-hold-agent-python",
@@ -6070,6 +6034,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.30906",
+      "title": "Investigating Multi-Agent Deliberation in Law",
+      "link": "https://arxiv.org/abs/2606.30906",
+      "summary": "arXiv:2606.30906v1 Announce Type: new Abstract: Artificial Intelligence is increasingly applied to the field of law, and has the potential to increase access to justice. One particular movement that is gaining traction is that of agentic AI, wherein AI agents, based on Large Language Models (LLMs) can take autonomous actions. In particular, multi-agent approaches in the legal domain remain largely unexplored. In this paper, we investigate multi-agent deliberation methods for legal reasoning tasks using LLMs. We explore multi-agent deliberation (MAD) and introduce two novel multi-agent frameworks inspired by courtroom procedures and legal argumentation. Our experiments on both legal and non-legal benchmarks reveal that multi-agent frameworks achieve comparable overall performance to baseline large language models, but produce significantly distinct answers. Notably, these approaches can successfully solve cases that the baseline fails to address, and vice versa. We conduct a qualitative evaluation and highlight scenarios where multi-agent frameworks outperform monolithic approaches. For example, multi-agent approaches appear better suited for answering questions that require critical thinking from multiple perspectives. Our work positions multi-agent systems as a promising direction for AI in the legal domain, while demonstrating the potential of law-inspired multi-agent approac",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 130.49,
+      "status": "queued"
+    },
+    {
       "id": "https://fastreact.dev/",
       "title": "Show HN: FastReact – FastAPI and React Starter Kit for AI SaaS",
       "link": "https://fastreact.dev/",
@@ -6271,18 +6247,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "score": 119.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.10044",
-      "title": "Business World Model",
-      "link": "https://arxiv.org/abs/2606.10044",
-      "summary": "arXiv:2606.10044v1 Announce Type: new Abstract: Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services. However, the transformative potential of AI extends beyond automating predefined tasks: it lies in enabling intelligent systems to plan, optimize, and execute business initiatives from high-level strategic objectives. This paper introduces the concept and architecture of a business world model (BWM), a world model specialized for business and organizational environments. Inspired by world models in artificial intelligence, cognitive science, and control theory, a BWM encodes business states, dynamics, constraints, objectives, and feasible action space to support autonomous decision-making. We propose a business-semantics-centric formulation in which business states, dynamics and actions are linked to key business entities. Within this framework, agents can simulate alternative action sequences, estimate their effects on future business outcomes, and evaluate trade-offs under uncertainty. The proposed architecture integrates semantic data representations, probabilistic machine learning models, deterministic business rules, and explicit action space into a coherent structure for planning and counterfactual reasoning. Although its individual components are not new, the contribution of BWM lies in organizing",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "score": 117.99,
       "status": "queued"
     },
     {
@@ -6610,18 +6574,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.10334",
-      "title": "Self-Distillation Policy Optimization via Visual Feedback: Bridging Code and Visual Artifacts",
-      "link": "https://arxiv.org/abs/2606.10334",
-      "summary": "arXiv:2606.10334v1 Announce Type: new Abstract: Code-generating large language models (LLMs) increasingly produce visual artifacts such as charts, web pages, and slides by writing programs that are executed by non-differentiable renderers, committing to code before observing the render. As a result, otherwise executable code often yields artifacts with visually salient defects, including overlapping elements, clipped text, broken alignment, low contrast, and overflow. We study visual-feedback self-distillation for code-generated visual artifacts. We propose Visual-SDPO, a self-distillation policy-optimization framework that treats rendered visual feedback as privileged context for a weight-sharing teacher and distills this feedback into a coding student. To make supervision spatially targeted rather than uniform, we introduce Visual-Grounded Code Credit Weighting, which traces each detected defect back to the code statements responsible for the affected elements and amplifies the distillation signal on those statements. A sequence-level GRPO (Group Relative Policy Optimization) term complements the dense token-level objective by rewarding executable, visually high-quality rollouts, while failed executions remain learnable through the self-distillation path by passing execution errors as privileged context to the teacher. We instantiate Visual-SDPO for chart, web/UI, and slide g",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "score": 111.99,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2606.12616",
       "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
       "link": "https://arxiv.org/abs/2606.12616",
@@ -6727,6 +6679,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-06-27T13:10:21.000Z",
       "score": 107.44,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.30970",
+      "title": "AgentBound: Verifiable Behavioral Governance for Autonomous AI Agents",
+      "link": "https://arxiv.org/abs/2606.30970",
+      "summary": "arXiv:2606.30970v1 Announce Type: new Abstract: Autonomous AI agents increasingly perform consequential actions on behalf of human principals, including financial transactions, external communications, and enterprise workflows. Existing agent infrastructure relies on identity federation and delegated authorization to authenticate workloads and control resource access, but it cannot determine whether an authorized action should be executed under the current behavioral and operational context. We present AgentBound, a runtime governance framework that provides verifiable behavioral oversight for autonomous AI agents. AgentBound evaluates each proposed action using three independent authorities: delegated authorization, owner-signed behavioral constitutions, and site action contracts. Their judgments are conservatively composed through a formal decision model to determine whether an action should be permitted, reviewed, or denied before execution. To provide accountability, AgentBound generates cryptographically verifiable governance receipts that bind every action to the exact delegation, policy, and semantic artifacts governing the decision, enabling independent replay verification and policy provenance. The framework also introduces standing delegation for long-running agents, allowing periodic workloads to operate under continuously refreshed governance policies while preservi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 106.49,
       "status": "queued"
     },
     {
@@ -6946,6 +6910,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.30863",
+      "title": "Beyond expert users: agents should help users construct preferences, not just elicit them",
+      "link": "https://arxiv.org/abs/2606.30863",
+      "summary": "arXiv:2606.30863v1 Announce Type: new Abstract: Agents typically assume an expert user -- one with well-formed preferences about what they want -- and default to clarifying questions whenever the task is underspecified. We argue this assumption is unrealistic. Users often lack the domain knowledge to have completely specified preferences; if asked about their preference on some feature, the user may be unable to answer without the agent helping the user to learn some domain knowledge needed to form a preference for that feature, e.g., via examples or explanations. To formalize these principles, we draw on the Search-Experience-Credence framework from Information Economics to introduce CoPref, a model of how users construct preferences based on agent dialog actions. We then study these ideas concretely in agentic recommender systems, proposing CoShop, an interactive benchmark. In CoShop, an agent converses with and makes recommendations for a CoPref user. The agent's performance depends on whether it can help the user gain the knowledge needed to specify the task well. Evaluating five frontier models, we find that no agent exceeds 56% accuracy on CoShop despite five turns of interaction. Failures stem not from agents' ability to find items, but from how little the interaction expands what users know about what they want.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 100.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.30911",
+      "title": "Why Solve It Twice? Hierarchical Accumulation of Skills for Transfer-Efficient ML Engineering",
+      "link": "https://arxiv.org/abs/2606.30911",
+      "summary": "arXiv:2606.30911v1 Announce Type: new Abstract: ML engineering agents waste compute rediscovering known techniques because every competition is a cold start. We present HASTE, a hierarchical multi-agent system that organizes cross-competition knowledge into three scope tiers (global, domain, and competition-specific), each coupled to a matching agent level. An orchestrator coordinates domain specialists and promotes learning between tiers via LLM-driven abstraction. A controlled ablation provides evidence for scoped loading: holding a 159-skill inventory constant across 8 competitions, tiered loading achieves a 100% medal rate while flat loading reaches only 62.5%, the same medal rate as loading no skills, and consumes 2x the output tokens. On the full MLE-Bench Lite benchmark (22 Kaggle competitions), HASTE reaches a medal rate of 77.3% using Claude Sonnet 4.6 at 12h per competition. In a cold-start run, the system begins with no accumulated skills. In warm-start runs, it reloads skills learned from earlier competitions, using only global and domain-level skills for transfer across competitions. Warm starts use 52% fewer refinement iterations, and the fraction of proposed changes kept by the agent rises from 42% at low inventory to 85% once 50+ skills are available. These results suggest that better knowledge organization can partly substitute for model strength and compute bu",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 100.49,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.19527",
       "title": "Emergent Alignment",
       "link": "https://arxiv.org/abs/2606.19527",
@@ -7066,6 +7054,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2606.30840",
+      "title": "Contrastive Reflection for Iterative Prompt Optimization",
+      "link": "https://arxiv.org/abs/2606.30840",
+      "summary": "arXiv:2606.30840v1 Announce Type: new Abstract: LLM agents are becoming central to information retrieval: they issue retrieval queries, synthesize answers, and increasingly serve as judges for IR evaluation. Improving the prompts that control these agents is an optimization problem, but in applied IR settings it often looks less like blind search and more like debugging. Engineers need to know which behavior failed, which nearby behavior still worked, what distinguishes the two, and whether a prompt edit improves held-out quality without introducing regressions. We present Contrastive Reflection, an iterative prompt-optimization framework for agentic IR workflows. The framework starts from a task-centric quality definition: QA agents expose retrieval or reasoning traces, and grading agents expose dimension-level scores and rationales. These structured traces are used to identify error-anchored behavioral slices, add nearby successful examples from the same region, and ask a Teacher LLM to propose a targeted prompt edit. Candidate edits are accepted only when validation performance improves, optionally subject to regression checks. We instantiate the framework with a tree-based slice selector, but the contribution is the contrastive reflection loop rather than the tree itself. On a public HotpotQA retrieval-augmented QA setup, one tree-selected contrastive repair improves held-o",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 94.49,
+      "status": "queued"
+    },
+    {
       "id": "https://workdir.dev/",
       "title": "Workdir: Open-source sandboxes for AI agents",
       "link": "https://workdir.dev/",
@@ -7162,28 +7162,56 @@
       "status": "queued"
     },
     {
-      "id": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "title": "Agriculture is ready for AI, but its data isn’t",
-      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "score": 77.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.28683",
-      "title": "Aristotelian Virtue Profiling of LLMs through Ethical Dilemmas",
-      "link": "https://arxiv.org/abs/2606.28683",
-      "summary": "arXiv:2606.28683v1 Announce Type: new Abstract: Large Language Models (LLMs) often face ethical tradeoffs in which several responses may be defensible but express different priorities, such as fairness, honesty, courage, or restraint. We introduce VirtueMap, a framework for describing these patterns through an Aristotelian virtue-ethics lens. Instead of asking for a single correct answer, VirtueMap asks humans or LLMs to rank all five responses to each of seven general, non-lethal, non-political, and non-religious ethical dilemmas. To define the reference orderings used for scoring, we first proposed, for each dilemma and virtue, an ordering of the five responses from most to least expressive of that virtue. We then collected more than 100 respondent evaluations per ordering and retained it as operational ground truth only when at least 95% confirmed it. Rankings are scored against these retained orderings using normalized Borda alignment, yielding profiles over Practical Wisdom, Justice, Truthfulness, Courage, and Temperance. We apply VirtueMap to nine LLM families in a repeated-run evaluation and find high mean rank consistency (90.3%), with the largest differences appearing on Courage, Temperance, and Justice. We also release an interactive website that computes profiles locally in the browser and compares respondents with measured LLM profiles.",
+      "id": "https://arxiv.org/abs/2606.30953",
+      "title": "Neuro-Bayesian-Symbolic Residual Attention Shallow Network: Explainable Deep Learning for Cybersecurity Risk Assessment",
+      "link": "https://arxiv.org/abs/2606.30953",
+      "summary": "arXiv:2606.30953v1 Announce Type: new Abstract: We introduce the Neuro-Bayesian-Symbolic Residual Attention Shallow Network (NBS-RASN), a hybrid neural architecture for explainable cybersecurity risk assessment in open-source ecosystems. Unlike deep models that trade interpretability for accuracy, our shallow network encodes domain knowledge, causal reasoning, and expert judgment as differentiable components. It uses 80 interpretable neurons across 12 layers, including a gatekeeper that enforces five epistemological axioms - precision, causality, falsifiability, transparency, and completeness - as hard constraints before propagation. Despite limited depth, the network exhibits deep-learning traits via residual attention and feedback loops, learning complex risk patterns without becoming a black box. It produces fully decomposable scores: a deterministic weighted component plus an expert adjustment, with each adjustment traceable to named amplifiers (blast radius, propagation speed, structural nature, default exposure, exploitation pattern, institutional criticality). We validate on 20 open-source projects covering all OWASP Top 10:2025 categories and language risk classes, achieving confidence scores of 0.79-0.97, and show that explainability is guaranteed by design, not by a training algorithm. This challenges the assumption that deep learning requires deep networks, proving t",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 5,
-      "publishedAt": "2026-06-30T04:00:00.000Z",
-      "score": 75.16,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 88.49,
       "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.30997",
+      "title": "A Three-Phase Foundation Model for Tax-Aware Personalized Portfolio Management",
+      "link": "https://arxiv.org/abs/2606.30997",
+      "summary": "arXiv:2606.30997v1 Announce Type: new Abstract: We present a three-phase deep reinforcement learning system for personalized portfolio management that addresses three limitations shared by all prior financial RL work: 1) ticker lock-in, 2) monolithic objectives , and 3) static user models. Phase 1 pretrains a ticker-identity-free cross asset encoder via self-supervised learning on a multi-asset corpus, augmented by a frozen parallel branch using Chronos, a T5-based time series foundation model, fused via a learned gating mechanism. To our knowledge, this is the first application of a time series foundation model to portfolio management RL. The encoder generalizes to any publicly traded asset via a 50-dimensional observable metadata vector that requires no retraining for new tickers. Phase 2 fine-tunes a MoE (Mixture of Experts) portfolio actor critic with PPO under an objective-conditioned reward that simultaneously serves six distinct investment goals sampled per episode: short-term alpha, short-term gain, long-term gain, capital preservation, tax-loss harvesting, and long-term-gains-only. A MoE architecture assigns each objective to a specialized expert head (momentum, growth, defensive, tax-aware), and a learned intent router blends experts based on the active objective and current market regime, which eliminates cross-objective gradient conflict. Phase 3 adds a lightweight",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 88.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.30850",
+      "title": "BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation",
+      "link": "https://arxiv.org/abs/2606.30850",
+      "summary": "arXiv:2606.30850v1 Announce Type: new Abstract: Large language models (LLMs) are typically deployed in multi-turn conversations, where each turn provides new evidence that should reduce epistemic uncertainty about their environment. Acting rationally then requires inferring the unobserved quantities that govern it and updating beliefs about them as evidence accumulates. Yet most evaluations only score the model's final-turn answer in a single-turn format, leaving this process unexamined. We ask how closely LLMs' belief updates match those of a rational Bayesian reasoner in multi-turn settings, and introduce BayesBench, a suite of simulation environments that probe this across three progressively complex tasks: (i) Bayesian estimation, where the model infers an unknown parameter from sequential evidence; (ii) Bayesian prediction, where the model turns inferred beliefs about a latent variable into outcome forecasts; and (iii) latent-framed Bayesian prediction, where observations are filtered through a user-persona framing, requiring joint inference over the latent state and the persona. Across seven LLMs (3B--70B), scaling improves latent inference and evidence accumulation, with updates occasionally matching the Bayesian posterior. However, these gains do not reliably carry over to downstream prediction, exposing a gap between inferring latent structure and using it to rationall",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-01T04:00:00.000Z",
+      "score": 82.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
+      "title": "The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic",
+      "link": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b Comments URL: https://news.ycombinator.com/item?id=48502556 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-12T11:07:54.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-07-01T11:16:44.776Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://n8n.io/reports/2026-ai-agent-development-tools/",
