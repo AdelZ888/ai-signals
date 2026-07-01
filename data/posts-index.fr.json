@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-01T11:28:39.529Z",
+  "generatedAt": "2026-07-01T17:21:29.994Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-01-ci-medic-deploy-a-privacy-first-vendor-agnostic-ai-to-summarize-failed-ci-runs",
+      "title": "CI-medic : Déployer une IA « privacy-first » et vendor-agnostic pour résumer les runs CI échoués",
+      "date": "2026-07-01",
+      "excerpt": "CI-medic génère des résumés courts des runs CI échoués, masque les secrets et suggère des étapes suivantes. Déploiement single-repo en 60–120 minutes (hypothèse) ; explorez les compromis local vs API.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-01-ci-medic-deploy-a-privacy-first-vendor-agnostic-ai-to-summarize-failed-ci-runs.jpg",
+      "tags": [
+        "CI",
+        "IA",
+        "DevOps",
+        "open-source",
+        "confidentialite",
+        "triage",
+        "automation"
+      ],
+      "sources": [
+        "https://github.com/alitariq4589/ci-medic"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-07-01-uw-ai-agents-estimate-electronics-manufacturing-carbon-footprints-in-about-one-minute",
       "title": "Agents IA de l’UW estimant rapidement l’empreinte carbone de fabrication des appareils électroniques (contexte UK)",
