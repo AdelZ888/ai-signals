@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-01T17:21:29.994Z",
+  "generatedAt": "2026-07-02T10:40:24.018Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-02-why-production-agents-fail-at-scale-guardrails-enterprise-data-and-resilient-orchestration",
+      "title": "Pourquoi les agents en production échouent à l'échelle : garde‑fous, données d’entreprise et orchestration résiliente",
+      "date": "2026-07-02",
+      "excerpt": "Rafael Lopes soutient que l’échec de la mise à l’échelle des agents est d’abord un problème d’ingénierie — il faut des garde‑fous déterministes, des connecteurs pour données non structurées et une orchestration résiliente.",
+      "tags": [
+        "agents",
+        "production-ai",
+        "ingénierie",
+        "observabilité",
+        "GDPR",
+        "UK",
+        "sécurité"
+      ],
+      "sources": [
+        "https://blog.r-lopes.com/posts/2026-06-11-why-agents-dont-scale"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-01-ci-medic-deploy-a-privacy-first-vendor-agnostic-ai-to-summarize-failed-ci-runs",
       "title": "CI-medic : Déployer une IA « privacy-first » et vendor-agnostic pour résumer les runs CI échoués",

@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-07-01T17:21:29.991Z",
+  "generatedAt": "2026-07-02T10:40:24.015Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-02-why-production-agents-fail-at-scale-guardrails-enterprise-data-and-resilient-orchestration",
+      "title": "Why production agents fail at scale: guardrails, enterprise data, and resilient orchestration",
+      "date": "2026-07-02",
+      "excerpt": "Rafael Lopes argues scaling agents breaks on engineering, not LLM limits: build deterministic guardrails, connectors for unstructured enterprise data, and resilient orchestration.",
+      "tags": [
+        "agents",
+        "scaling",
+        "production-ai",
+        "engineering",
+        "orchestration",
+        "data-integration",
+        "observability",
+        "SRE"
+      ],
+      "sources": [
+        "https://blog.r-lopes.com/posts/2026-06-11-why-agents-dont-scale"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-01-ci-medic-deploy-a-privacy-first-vendor-agnostic-ai-to-summarize-failed-ci-runs",
       "title": "CI-medic: Deploy a privacy-first, vendor-agnostic AI to summarize failed CI runs",
