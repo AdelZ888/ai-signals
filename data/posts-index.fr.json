@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-07-02T10:40:24.018Z",
+  "generatedAt": "2026-07-02T16:55:09.008Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-02-ghbrk-run-git-and-the-github-cli-for-ai-agents-without-sharing-ssh-keys-or-tokens",
+      "title": "ghbrk : exécuter git et le CLI GitHub pour des agents IA sans partager de clés SSH ni tokens",
+      "date": "2026-07-02",
+      "excerpt": "Déployez ghbrk, un broker d'identifiants en Rust qui permet à des agents IA d'exécuter git et la CLI GitHub sans exposer de clés SSH ou de tokens API. Le broker s'appuie sur une politique possédée par root et centralise les journaux.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-02-ghbrk-run-git-and-the-github-cli-for-ai-agents-without-sharing-ssh-keys-or-tokens.jpg",
+      "tags": [
+        "ghbrk",
+        "sécurité",
+        "GitHub",
+        "agents IA",
+        "devops",
+        "Rust"
+      ],
+      "sources": [
+        "https://github.com/marconae/ghbrk"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-02-why-production-agents-fail-at-scale-guardrails-enterprise-data-and-resilient-orchestration",
       "title": "Pourquoi les agents en production échouent à l'échelle : garde‑fous, données d’entreprise et orchestration résiliente",
