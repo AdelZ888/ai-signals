@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-02T16:55:09.072Z",
+  "generatedAt": "2026-07-03T10:37:53.237Z",
   "items": [
+    {
+      "id": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
+      "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
+      "link": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
+      "summary": "US lifts curbs on Anthropic’s advanced Fable and Mythos models.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-01T16:44:18.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-07-03T10:37:53.207Z",
+      "file": "content/posts/2026-07-03-us-lifts-export-curbs-on-anthropics-fable-5-and-restores-mythos-5-access-with-new-safeguards.md",
+      "fileFr": "content/posts/fr/2026-07-03-us-lifts-export-curbs-on-anthropics-fable-5-and-restores-mythos-5-access-with-new-safeguards.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1158,
+      "wordsFr": 1193
+    },
     {
       "id": "https://github.com/marconae/ghbrk",
       "title": "Show HN: Ghbrk – Let AI agents run Git/gh without exposing SSH keys/API tokens",
@@ -5039,38 +5062,15 @@
       "wordsFr": 1231
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47276142",
-      "title": "Validation pipeline that blocks AI-generated files with schema errors",
-      "link": "https://news.ycombinator.com/item?id=47276142",
-      "summary": "Every time I used an LLM to generate structured knowledge files, the output would drift — wrong enum values, missing fields, dates in the wrong format, tags as strings instead of arrays. The files looked fine until something downstream broke: a Dataview query returning nothing, a CI check failing, a search index corrupting. The standard fix is post-hoc validation — check after writing, fix manually. That doesn't sca…",
+      "id": "https://news.ycombinator.com/item?id=48772872",
+      "title": "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI",
+      "link": "https://news.ycombinator.com/item?id=48772872",
+      "summary": "I run GrowthSpree, a B2B SaaS marketing agency, selling into the US and Europe. Six months ago we made a bet that the agency model itself was broken for the AI era, so we tore ours down and rebuilt it. This is what we did and what actually happened. The bet: become the first truly AI-native marketing agency. Not an agency that \"uses AI tools\" by bolting ChatGPT onto a 2015 workflow, but one where AI is wired into how we find demand, win clients, and run delivery. We rebuilt the operating model, not just the toolbar. The context that matters: we have worked with 300+ B2B SaaS companies, but we'd been stuck between $500K and $800K ARR for two years. Plateaued. Then in the six months since the rebuild we went to $1.5M, almost entirely in the US and Europe, where we had no brand. Clients now include Datahub, PriceLabs, Hasura, Rocketlane, Proton AG, Spoke and more. What changed: 1. We bet on AEO over SEO. Buyers now ask an LLM before they ask Google. So we built our own Answer Engine Optimization engine in-house and pointed it at how models actually retrieve, rank, and cite sources. It became our primary channel for demand capture and trust-building in markets where nobody knew us. Being the answer the model gives is the new being on page one, and it compounds. 2. We dogfood our own GTM. The motion we sell clients is the one that grew us. It's cohort-led ABM: we build tight account",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-06T15:28:46.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-07T15:31:58.090Z",
-      "file": "content/posts/2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors.md",
-      "fileFr": "content/posts/fr/2026-03-07-commit-gated-validation-pipeline-to-prevent-ai-generated-schema-errors.md",
-      "generationMode": "llm",
-      "series": "security-boundary",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 180,
-      "wordsEn": 1736,
-      "wordsFr": 1682
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-      "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
-      "link": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-      "summary": "US lifts curbs on Anthropic’s advanced Fable and Mythos models.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-01T16:44:18.000Z",
-      "score": 192,
+      "keywordHits": 6,
+      "publishedAt": "2026-07-03T09:24:59.000Z",
+      "score": 196.38,
       "status": "queued"
     },
     {
@@ -5287,18 +5287,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T11:00:20.000Z",
       "score": 157.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://whatisagenticai.net/quiz/",
-      "title": "Show HN: Which AI agent are you?",
-      "link": "https://whatisagenticai.net/quiz/",
-      "summary": "Article URL: https://whatisagenticai.net/quiz/ Comments URL: https://news.ycombinator.com/item?id=48494173 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-11T18:09:11.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5806,6 +5794,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.actuia.com/actualite/fonds-souverain-de-lia-ce-que-la-proposition-daltman-revele-du-rapport-etat-industrie-americain/",
+      "title": "Fonds souverain de l'IA : ce que la proposition d'Altman révèle du rapport État-industrie américain",
+      "link": "https://www.actuia.com/actualite/fonds-souverain-de-lia-ce-que-la-proposition-daltman-revele-du-rapport-etat-industrie-americain/",
+      "summary": "Le Financial Times rapporte qu'OpenAI a proposé de céder 5 % de son capital au gouvernement américain et invite ses rivaux à faire de même. Cette proposition esquisse l'idée d'un fonds souverain de l'IA et met en lumière une conception du lien État‑industrie différente de la voie européenne, pertinente pour la gouvernance des technologies critiques.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-03T09:22:16.000Z",
+      "score": 143.3,
+      "status": "queued"
+    },
+    {
       "id": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
       "title": "Clean GitHub repo tricks AI coding agents into running malware",
       "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
@@ -5878,18 +5878,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.tokens4breakfast.app",
-      "title": "Track tokens and AI Subscriptions across major AI platforms",
-      "link": "https://www.tokens4breakfast.app",
-      "summary": "Article URL: https://www.tokens4breakfast.app Comments URL: https://news.ycombinator.com/item?id=48502211 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-12T10:24:23.000Z",
-      "score": 138.36,
-      "status": "queued"
-    },
-    {
       "id": "https://machinelearningmastery.com/ai-agent-tool-design-what-works-and-what-doesnt/",
       "title": "AI Agent Tool Design: What Works and What Doesn't",
       "link": "https://machinelearningmastery.com/ai-agent-tool-design-what-works-and-what-doesnt/",
@@ -5914,6 +5902,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.actuia.com/actualite/washington-retablit-fable-5-mais-le-risque-de-dependance-aux-modeles-americains-demeure-entier/",
+      "title": "Washington rétablit Fable 5, mais le risque de dépendance aux modèles américains demeure entier",
+      "link": "https://www.actuia.com/actualite/washington-retablit-fable-5-mais-le-risque-de-dependance-aux-modeles-americains-demeure-entier/",
+      "summary": "Anthropic a remis en service Claude Fable 5 le 1er juillet 2026, après la levée par le département américain du Commerce des contrôles à l'export imposés mi-juin. Cette réactivation clôt l'incident immédiat mais met en lumière le risque persistant de dépendance des organisations européennes aux modèles d'IA américains.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-03T09:19:00.000Z",
+      "score": 137.76,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.28747",
       "title": "Self-Supervised Theorem Discovery in a Formal Axiomatic System",
       "link": "https://arxiv.org/abs/2606.28747",
@@ -5923,6 +5923,18 @@
       "keywordHits": 10,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "score": 137.65,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/anthropic-un-tiers-du-capital-risque-mondial-du-trimestre-ce-quil-reste-a-leurope/",
+      "title": "Anthropic, un tiers du capital-risque mondial du trimestre : ce qu'il reste à l'Europe",
+      "link": "https://www.actuia.com/actualite/anthropic-un-tiers-du-capital-risque-mondial-du-trimestre-ce-quil-reste-a-leurope/",
+      "summary": "Le capital‑risque mondial a atteint un record de 510 milliards de dollars au 1er semestre 2026, mais l'IA a capté plus de 70 % des investissements au deuxième trimestre. Anthropic a attiré près d'un tiers des flux et deux tiers des capitaux sont allés aux États‑Unis, posant la question des perspectives de financement pour l'Europe et la France.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-03T09:18:55.000Z",
+      "score": 137.63,
       "status": "queued"
     },
     {
@@ -6007,18 +6019,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-22T12:17:03.000Z",
       "score": 134.15,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/VasileiosTs/agribrain",
-      "title": "Agribrain / ag-int/nce for AI agents (weather, ET₀, GDD, spray windows, soil)",
-      "link": "https://github.com/VasileiosTs/agribrain",
-      "summary": "Article URL: https://github.com/VasileiosTs/agribrain Comments URL: https://news.ycombinator.com/item?id=48502078 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-12T10:04:38.000Z",
-      "score": 133.92,
       "status": "queued"
     },
     {
@@ -6274,6 +6274,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.01465",
+      "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
+      "link": "https://arxiv.org/abs/2607.01465",
+      "summary": "arXiv:2607.01465v1 Announce Type: new Abstract: Large language models are trained to predict the next token, not to act inside a specific API. In niche enterprise SaaS workflows -- where success means hitting the right endpoint with the right nested arguments in the right order -- this objective mismatch shows up as silent failures: dropped required fields, hallucinated tools, or early stops after a single read. We ask whether Reinforcement Learning with Verifiable Rewards (RLVR), applied directly in the target environment, closes the gap. As a proof of concept we build a suite of five synthetic environments emulating the Jira REST v3 and Confluence v2 APIs at schema fidelity; rewards are computed entirely from the tool-call trace, with no live API, no learned judge, and no human label in the loop. Scoring prompted Qwen3-1.7B and Qwen3.5-4B on the same checkers that drive GRPO training, we find that on the four scenarios whose rewards are non-degenerate the RL-trained policy lifts average reward from a 4B-baseline range of 0.35--0.92 to 0.95--1.00, with the largest single gain on Confluence page creation ($0.35 \\rightarrow 1.00$). We position this as a preliminary step toward outcome-optimised small models for niche enterprise APIs, and foreground two limitations a workshop reader should weigh: hand-crafting verifiable rewards does not scale beyond the handful of endpoints repo",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "score": 120.66,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.00436",
       "title": "PHREEQC-MCQ-200: A Diagnostic Benchmark for Tool-Augmented Scientific Simulator Agents",
       "link": "https://arxiv.org/abs/2607.00436",
@@ -6331,30 +6343,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-17T16:27:00.000Z",
       "score": 117.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.12451",
-      "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
-      "link": "https://arxiv.org/abs/2606.12451",
-      "summary": "arXiv:2606.12451v1 Announce Type: new Abstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval addresses this by encoding each tool as a virtual token appended to the LLM vocabulary, fine-tuned in two stages (memorization then retrieval SFT) to use the LLM as a retriever, achieving strong performance on standard ToolBench retrieval benchmarks. Yet these benchmarks use verbose, fully-specified queries, and their evaluation applies constrained decoding that restricts outputs to valid token paths, neither reveals whether the model actually understands its tools. We introduce \\textbf{ToolSense}, an open-source LLM-powered diagnostic framework that takes any tool catalog as input and automatically generates three benchmarks: a Realistic Retrieval Benchmark (RRB) with queries at three ambiguity tiers, an MCQ probing benchmark, and a QA probing benchmark. Applying ToolSense to ToolBench (~47k tools) and evaluating five parametric model training configurations reveals a knowledge-retrieval dissociation: on RRB queries, several configurations collapse by ~50-64 percentage points compared to fully-specified ToolBench benchmarks, falling below the embedding-model baseline. Additionally, d",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "score": 117.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.12674",
-      "title": "Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
-      "link": "https://arxiv.org/abs/2606.12674",
-      "summary": "arXiv:2606.12674v1 Announce Type: new Abstract: Compact language models (LMs) reduce cost, latency, and deployment risk for tool agents. Yet MCP-style tool use requires more than isolated function calling: an agent must discover tools from live catalogs, satisfy schemas, preserve dependencies across intermediate outputs, and ground final responses in executed evidence. Small planners often generate plausible workflow graphs that fail under tool resolution, parameter validation, dependency tracking, or execution. We argue that this failure mode is poorly handled by small-corpus distillation. A few hundred teacher traces can teach workflow format, but rarely cover the recovery behavior needed to repair failed plans over changing tool catalogs. We introduce Evoflux, an inference-time evolutionary search method that treats compact tool use as the repair of executable tool workflows. It evolves typed workflow graphs through structured edits, execution feedback, adaptive intensity, meta-guided redesign, and diversity pruning. On held-out MCP-Bench tasks spanning live MCP servers and 250 tools, Evoflux raises execution feasibility from roughly 3% to 17-24% across small planners. In contrast, SFT and SFT+DPO on the same search-mined data match, underperform, or collapse below zero-shot performance; ReAct reaches higher peaks, but with higher variance and token cost. These results show",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "score": 117.83,
       "status": "queued"
     },
     {
@@ -6502,6 +6490,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.01436",
+      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+      "link": "https://arxiv.org/abs/2607.01436",
+      "summary": "arXiv:2607.01436v1 Announce Type: new Abstract: Diffusion language models, which generate text by denoising a token canvas bidirectionally instead of emitting tokens left to right, have become competitive with autoregressive (AR) generation. Medical foundation models, however, remain almost entirely autoregressive. We adapt a mixture-of-experts diffusion language model, DiffusionGemma-26B, and benchmark it against its same-size AR sibling Gemma-4-26B under an identical LoRA recipe on medical visual question answering datasets, scored by a verbosity-robust LLM judge. Diffusion matches or exceeds AR on all of them, and the finetuned model (3.8B active) is competitive with frontier vision-language models; its decoding is also 3.5-4.4x faster. Beyond this parity, the diffusion model offers a drafting capability AR lacks: any-order infill. Because the canvas is denoised bidirectionally, a radiologist can fix report fragments and have the model fill the text between them, an operation inherent to diffusion but not to autoregression, which is subpar at it. This suits real reports, which are often terse or inconsistent across clinicians and institutions.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "score": 114.66,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.00457",
       "title": "Multi-scale Mixture of World Models for Embodied Agents in Evolving Environments",
       "link": "https://arxiv.org/abs/2607.00457",
@@ -6646,30 +6646,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.12616",
-      "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
-      "link": "https://arxiv.org/abs/2606.12616",
-      "summary": "arXiv:2606.12616v1 Announce Type: new Abstract: Closed-loop driving simulators typically populate their environments with non-ego traffic agents that behave largely the same way, produced either by rule-based traffic managers or by learned models trained toward a single behavioral mode. Recent work introduces style variation through post-hoc labels on observational data or LLM-inferred reward weights, but these signals act as proxies for what a style should reward rather than demonstrations of humans explicitly asked to drive in that style. We introduce PersonaDrive, a pipeline that conditions a vision-language-action (VLA) driving agent on retrieved demonstrations from a style-instructed human driving dataset, in which participants drive CARLA leaderboard routes under aggressive, neutral, and conservative instructions on a driver-in-the-loop rig. The pipeline has three stages: (i) offline triplet mining over per-style human driving data using a combined image-text similarity score; (ii) training a lightweight retrieval head that fuses frozen visual features with a small control encoder over per-style databases; and (iii) fine-tuning a single VLA backbone to treat retrieved context points as in-context behavioral demonstrations during waypoint prediction. At inference, the same backbone is conditioned on any style by swapping which per-style database the retrieval head queries,",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "score": 111.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.12657",
-      "title": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation",
-      "link": "https://arxiv.org/abs/2606.12657",
-      "summary": "arXiv:2606.12657v1 Announce Type: new Abstract: Human mobility data is important for transportation, urban planning, and epidemic control, but large-scale trajectory collection is often costly and privacy-constrained, motivating realistic synthetic trajectory generation. Existing LLM-based generators typically rely on either prompt engineering, which preserves zero-shot reasoning but lacks fine-grained spatiotemporal grounding, or trajectory-level fine-tuning, which improves statistical precision but incurs substantial computational cost and may weaken general reasoning. We propose TrajGenAgent, a semantic-aware hierarchical LLM-agent framework for human mobility trajectory generation without model fine-tuning. TrajGenAgent uses a two-stage orchestrator-worker design: an LLM first synthesizes an individual- and weekday-conditioned activity chain from historical evidence via in-context learning, and a deterministic workflow then grounds each activity into a complete visit using personalized POI retrieval, distance-aware location selection, kinematics-aware travel-time propagation, and LLM-based duration estimation. To evaluate realism beyond aggregate spatiotemporal statistics, we introduce an anomaly-detection-based evaluation framework using two complementary detectors to assess behavioral and semantic plausibility. Experiments on benchmark and large-scale simulation datasets",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "score": 111.83,
-      "status": "queued"
-    },
-    {
       "id": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
       "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
       "link": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
@@ -6715,6 +6691,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-29T10:35:44.000Z",
       "score": 109.52,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.01531",
+      "title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
+      "link": "https://arxiv.org/abs/2607.01531",
+      "summary": "arXiv:2607.01531v1 Announce Type: new Abstract: Learning how an environment behaves from interaction is central to building agents that adapt to unfamiliar tasks. World models learned with deep networks are flexible but data-hungry and transfer poorly beyond their training distribution. Program-synthesized world models, written as source code by LLMs and refined through counterexample-guided inductive synthesis (CEGIS), are instead data-efficient and reusable, yet they have been demonstrated mainly on structured-state worlds with a given object vocabulary, and a single program search does not scale to pixel-rendered environments whose object structure must be hypothesized flexibly. We introduce OPINE-World, an LLM agent that learns an object-centric programmatic world model online from interaction. OPINE-World couples two cooperating agents in a loop of hypothesis and test, one acting in the environment and one synthesizing the model in code with replay verification and model-based planning, and it steers exploration with a Bayesian measure of object-type adequacy we call ontology error. We evaluate OPINE-World on ARC-AGI-3, a benchmark for skill-acquisition efficiency in which the object vocabulary, the goal, and the action semantics are withheld. OPINE-World solves 20 of 25 games without per-game training and reaches an action-efficiency score of 78.4 against the human baseli",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "score": 108.66,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.01584",
+      "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation",
+      "link": "https://arxiv.org/abs/2607.01584",
+      "summary": "arXiv:2607.01584v1 Announce Type: new Abstract: Large language models have recently been explored for scientific hypothesis generation, but most prior work relies on unstructured literature and free-form textual claims. We present a pipeline for Earth observation that grounds hypothesis generation directly in the NASA Earth Observation Knowledge Graph. A heterogeneous graph neural network trained on historical co-usage relations ranks candidate dataset pairings, and a three-agent LLM pipeline filters, generates, and evaluates structured research hypotheses. Applied to 1,475 NASA datasets, the system produces 160 hypotheses spanning multiple Earth-science domains, including ecohydrology, glaciology, aerosol--cloud interactions, vegetation phenology, and stratospheric chemistry. Model-predicted novel dataset pairings are rated nearly as plausible as held-out real co-usages from the literature, indicating that the pipeline surfaces scientifically coherent yet unexplored combinations. A 2*2*2 factorial experiment across GPT-5.2 and Claude Sonnet 4.6 shows that hypothesis rankings remain stable, while absolute scores depend strongly on judge identity, highlighting limitations of single-judge LLM evaluation.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "score": 108.66,
       "status": "queued"
     },
     {
@@ -6862,6 +6862,18 @@
       "status": "queued"
     },
     {
+      "id": "https://digitvest.com/en",
+      "title": "We sell digital assets built on AI-powered business models",
+      "link": "https://digitvest.com/en",
+      "summary": "Article URL: https://digitvest.com/en Comments URL: https://news.ycombinator.com/item?id=48772198 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-03T07:58:32.000Z",
+      "score": 102.89,
+      "status": "queued"
+    },
+    {
       "id": "https://www.fastcompany.com/91565321/amazon-is-taking-human-out-of-hr-ai-chatbot-app-aza",
       "title": "Amazon's brutal AI-centric app-ification of HR",
       "link": "https://www.fastcompany.com/91565321/amazon-is-taking-human-out-of-hr-ai-chatbot-app-aza",
@@ -6871,6 +6883,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-29T15:57:13.000Z",
       "score": 102.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.01511",
+      "title": "Revisiting Chain-of-Thought Reasoning under Limited Supervision: Semi-supervised Chain-of-Thought Learning",
+      "link": "https://arxiv.org/abs/2607.01511",
+      "summary": "arXiv:2607.01511v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning has emerged as an effective approach for activating latent reasoning capabilities in large language models. However, most existing CoT methods use reasoning chains mainly as inference-time prompts, while the generated reasoning traces are rarely reused as semi-supervised learning signals. In this report, we define \\textbf{Semi-supervised Chain-of-Thought Learning} and propose \\textbf{Semi-CoT}, a simple framework that uses unlabeled questions to construct pseudo reasoning supervision. Semi-CoT samples multiple pseudo-CoTs for each unlabeled question, estimates answer-level semantic entropy, and selects low-entropy reasoning chains as reliable pseudo-CoT demonstrations. This extends the self-training view of CoT from inference-time refinement to semi-supervised pseudo-supervision. Pilot experiments on AQuA, SVAMP, GSM8K, and MultiArith show that the entropy gate selects high-precision pseudo-CoTs, with pseudo-answer precision ranging from $91.36\\%$ to $100\\%$. Semi-CoT also gives small gains on SVAMP and GSM8K, while AQuA shows negative transfer and MultiArith reaches a ceiling. These results suggest that unlabeled questions can provide reliable pseudo reasoning signals, but their effective use still requires stronger demonstration selection or student training.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "score": 102.66,
       "status": "queued"
     },
     {
@@ -7174,40 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://workdir.dev/",
-      "title": "Workdir: Open-source sandboxes for AI agents",
-      "link": "https://workdir.dev/",
-      "summary": "Article URL: https://workdir.dev/ Comments URL: https://news.ycombinator.com/item?id=48656496 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
+      "id": "https://www.actuia.com/actualite/ce-que-poppy-lia-generative-de-la-californie-apprend-a-ladministration-europeenne/",
+      "title": "Ce que Poppy, l'IA générative de la Californie, apprend à l'administration européenne",
+      "link": "https://www.actuia.com/actualite/ce-que-poppy-lia-generative-de-la-californie-apprend-a-ladministration-europeenne/",
+      "summary": "À compter du 1er juillet 2026, la Californie généralise Poppy, une plateforme d'IA générative conçue par et pour ses agents publics. La mise en œuvre met l'accent sur l'absence de fuite de données et l'indépendance vis-à-vis d'un fournisseur unique, un modèle opérationnel dont les administrations française et européenne peuvent tirer des enseignements concrets.",
+      "source": "ActuIA",
+      "region": "FR",
       "keywordHits": 3,
-      "publishedAt": "2026-06-24T07:37:22.000Z",
-      "score": 93.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.19509",
-      "title": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
-      "link": "https://arxiv.org/abs/2606.19509",
-      "summary": "arXiv:2606.19509v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to structured clinical data, yet whether they can recognize the limits of their own knowledge on such tasks remains unexplored. We study this question through the lens of cross-model attribution divergence with the goal of reducing epistemic uncertainty for structured tasks, comparing Qwen 2.5 7B and XGBoost on a prediction task via attribution divergence analysis. We report four findings. First, LLM verbalized confidence is epistemically vacuous, it outputs a near-constant (0.856-0.937) regardless of whether accuracy is 49% or 75.3%, tracking prompt format rather than prediction quality. Second, the LLM exhibits an inverse difficulty effect: accuracy drops to 64.8% when XGBoost is 99% correct, but matches XGBoost (73.8% vs. 73.1%) when it is moderately uncertain. Third, few-shot examples and SHAP-derived feature evidence are orthogonal, super-additive interventions: they reduce the Attribution Disagreement Score (ADS) from 1.54 to 0.38 and improve accuracy from 49% to 75.3% without training. Fourth, a cross-model calibrator that determined LLM reliability using attribution divergence signals reduces expected calibration error from 0.254 to 0.080, replacing uninformative verbalized confidence with patient-specific reliability estimates, without accessing model internals or requ",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-19T04:00:00.000Z",
-      "score": 92.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.19607",
-      "title": "Which Pairs to Compare for LLM Post-Training?",
-      "link": "https://arxiv.org/abs/2606.19607",
-      "summary": "arXiv:2606.19607v1 Announce Type: new Abstract: Preference-based post-training has become a central paradigm for aligning language models. A common data-collection strategy is to generate a small set of completions for each prompt and label the resulting comparison pairs. However, human preference labels are often much more expensive than generating additional completions, suggesting a different use of the same labeling budget: generate a larger pool of completions, but label only the most informative comparison pairs. This paper studies which pairs should be compared in preference-based post-training. We formulate comparison curation as a sampling-design problem and evaluate designs by the quality of the final policy under the preference-based post-training objective. We instantiate this framework for Direct Preference Optimization (DPO), analyzing how the choice of labeled pairs propagates through DPO training to downstream policy performance. Our main results provide matching upper and lower bounds on the post-training optimality gap of the DPO-trained policy. The bounds show that comparison selection affects downstream performance through a single design-dependent information matrix, which links label allocation to parameter estimation error and policy suboptimality. This yields an explicit optimization criterion for budgeted comparison curation and motivates practical samp",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-19T04:00:00.000Z",
-      "score": 92.59,
-      "status": "queued"
+      "publishedAt": "2026-07-03T09:19:00.000Z",
+      "score": 143.76,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-07-03T10:25:49.337Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://www.realitykernel.dev/",
@@ -7976,22 +7980,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-06-03T18:43:02.750Z",
       "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms."
-    },
-    {
-      "id": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "title": "Microsoft’s first advanced reasoning AI is here",
-      "link": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "summary": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According to Microsoft, MAI-Thinking-1 is a \"medium-sized model\" tha…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-02T18:12:44.000Z",
-      "score": 204,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-02T18:38:41.788Z",
-      "failureReason": "validation issues: FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]
 }
