@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T10:05:46.091Z",
+  "generatedAt": "2026-07-04T16:19:34.892Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-04-attach-causaris-mcp-to-record-and-manage-ai-coding-agent-actions-in-a-git-repository",
+      "title": "Attacher le MCP de Causari pour enregistrer et gérer les actions d'agents IA dans un dépôt git",
+      "date": "2026-07-04",
+      "excerpt": "Guide pour attacher le MCP (Micro Causality Proxy) de Causari à un agent de codage IA afin que les prompts, les identifiants de modèle, les lectures/écritures de fichiers et le raisonnement soient enregistrés avec une provenance causale bidirectionnelle pour tracer, revenir en arrière et bisecter.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-04-attach-causaris-mcp-to-record-and-manage-ai-coding-agent-actions-in-a-git-repository.jpg",
+      "tags": [
+        "causari",
+        "MCP",
+        "provenance",
+        "agents-IA",
+        "auditabilité",
+        "devops",
+        "sécurité"
+      ],
+      "sources": [
+        "https://github.com/croviatrust/causari"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T10:05:46.088Z",
+  "generatedAt": "2026-07-04T16:19:34.889Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-04-attach-causaris-mcp-to-record-and-manage-ai-coding-agent-actions-in-a-git-repository",
+      "title": "Attach Causari's MCP to record and manage AI coding agent actions in a git repository",
+      "date": "2026-07-04",
+      "excerpt": "Guide to attach Causari's MCP to an AI coding agent so prompts, model IDs, file reads/writes and reasoning are recorded with bidirectional causal provenance for trace, revert and bisect.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-04-attach-causaris-mcp-to-record-and-manage-ai-coding-agent-actions-in-a-git-repository.jpg",
+      "tags": [
+        "ai-agents",
+        "developer-tools",
+        "provenance",
+        "causari",
+        "git",
+        "observability",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/croviatrust/causari"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-03-openais-5percent-equity-offer-and-the-sovereign-ai-fund-implications-for-us-state-industry-relations",
