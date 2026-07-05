@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-07-04T16:19:34.889Z",
+  "generatedAt": "2026-07-05T16:16:22.695Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-05-route-inbound-pstn-calls-to-an-ai-agent-using-telnyx-call-control",
+      "title": "Route Inbound PSTN Calls to an AI Agent Using Telnyx Call Control",
+      "date": "2026-07-05",
+      "excerpt": "Follow a webhook-driven Call Control loop to answer inbound Telnyx numbers, insert ASR/AI inference, then speak or hang up—includes a Flask sample and minimal answer→speak→hangup flow.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-05-route-inbound-pstn-calls-to-an-ai-agent-using-telnyx-call-control.jpg",
+      "tags": [
+        "telnyx",
+        "voice-ai",
+        "call-control",
+        "webhook",
+        "python",
+        "flask",
+        "pstn",
+        "tts"
+      ],
+      "sources": [
+        "https://telnyx.com/resources/route-phone-calls-ai-agent"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-07-04-anthropic-reactivated-claude-fable-5-on-july-1-after-us-export-controls-eu-reliance-on-us-hosted-models-highlighted",
       "title": "Anthropic reactivated Claude Fable 5 on July 1 after U.S. export controls; EU reliance on US-hosted models highlighted",
