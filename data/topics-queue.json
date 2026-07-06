@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-06T12:05:22.175Z",
+  "generatedAt": "2026-07-06T17:56:41.410Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-30T18:32:50.000Z",
+      "score": 72.84,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-06T17:56:41.328Z",
+      "file": "content/posts/2026-07-06-scarfbench-evaluating-ai-agents-on-spring-jakarta-ee-and-quarkus-migrations.md",
+      "fileFr": "content/posts/fr/2026-07-06-scarfbench-evaluating-ai-agents-on-spring-jakarta-ee-and-quarkus-migrations.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1501,
+      "wordsFr": 1368
+    },
     {
       "id": "https://uberninja.co/",
       "title": "Show HN: (Spotlight/Raycast for Web Search not local) && (compare AI responses)",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1166
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47310740",
-      "title": "How do you track and optimize your AI API spend?",
-      "link": "https://news.ycombinator.com/item?id=47310740",
-      "summary": "Running several projects that collectively hit $2k+/mo in API costs across OpenAI, Anthropic,& AWS Bedrock. Started doing monthly audits then found I was overspending by about 60%. Biggest wins so far: Model routing cut costs 55% with no quality loss on final output Prompt compression saved 70% on my most called endpoint Request deduplication on retries eliminated 15% of wasted calls Caching semantically similar que…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-03-09T15:56:28.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-10T16:11:38.897Z",
-      "file": "content/posts/2026-03-10-audit-and-lightweight-controls-to-reduce-multi-provider-llm-api-spend.md",
-      "fileFr": "content/posts/fr/2026-03-10-audit-and-lightweight-controls-to-reduce-multi-provider-llm-api-spend.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 480,
-      "wordsEn": 1608,
-      "wordsFr": 1617
-    },
-    {
       "id": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
       "title": "OpenAI, Anthropic new AI spending reality as users shift to efficiency",
       "link": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
@@ -5122,6 +5122,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/iOfficeAI/OfficeCLI",
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "link": "https://github.com/iOfficeAI/OfficeCLI",
+      "summary": "Article URL: https://github.com/iOfficeAI/OfficeCLI Comments URL: https://news.ycombinator.com/item?id=48807225 Points: 9 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-06T16:47:44.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
       "title": "France's OVHcloud plans frontier AI models to become Europe's second LLM player",
       "link": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
@@ -5131,18 +5143,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-06-17T16:37:48.000Z",
       "score": 173.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.gov.uk/government/case-studies/when-ai-leaves-the-lab-testing-frontier-models-in-government-cyber-defence",
-      "title": "When AI Leaves the Lab: Testing Frontier Models in Government Cyber Defence",
-      "link": "https://www.gov.uk/government/case-studies/when-ai-leaves-the-lab-testing-frontier-models-in-government-cyber-defence",
-      "summary": "Article URL: https://www.gov.uk/government/case-studies/when-ai-leaves-the-lab-testing-frontier-models-in-government-cyber-defence Comments URL: https://news.ycombinator.com/item?id=48540441 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-15T12:45:17.000Z",
-      "score": 173.05,
       "status": "queued"
     },
     {
@@ -5194,18 +5194,6 @@
       "status": "queued"
     },
     {
-      "id": "https://fedoramagazine.org/sandbox-ai-coding-agents-with-microvms-on-fedora-linux/",
-      "title": "Sandbox AI coding agents with microVMs on Fedora Linux",
-      "link": "https://fedoramagazine.org/sandbox-ai-coding-agents-with-microvms-on-fedora-linux/",
-      "summary": "Article URL: https://fedoramagazine.org/sandbox-ai-coding-agents-with-microvms-on-fedora-linux/ Comments URL: https://news.ycombinator.com/item?id=48540375 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-15T12:38:16.000Z",
-      "score": 160.68,
-      "status": "queued"
-    },
-    {
       "id": "https://huall.dev",
       "title": "Huall, autonomous AI agents",
       "link": "https://huall.dev",
@@ -5215,30 +5203,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-17T11:00:20.000Z",
       "score": 157.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.internetruleslab.com/black-mirror-survey",
-      "title": "Generative AI and Ethical Speculation",
-      "link": "https://www.internetruleslab.com/black-mirror-survey",
-      "summary": "Article URL: https://www.internetruleslab.com/black-mirror-survey Comments URL: https://news.ycombinator.com/item?id=48540795 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-15T13:14:51.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.nature.com/articles/s41591-026-04431-5",
-      "title": "General-purpose LLMs outperform specialized clinical AI tools",
-      "link": "https://www.nature.com/articles/s41591-026-04431-5",
-      "summary": "Article URL: https://www.nature.com/articles/s41591-026-04431-5 Comments URL: https://news.ycombinator.com/item?id=48540754 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-15T13:11:36.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5731,18 +5695,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-01T16:02:43.000Z",
       "score": 138.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://machinelearningmastery.com/ai-agent-tool-design-what-works-and-what-doesnt/",
-      "title": "AI Agent Tool Design: What Works and What Doesn't",
-      "link": "https://machinelearningmastery.com/ai-agent-tool-design-what-works-and-what-doesnt/",
-      "summary": "Article URL: https://machinelearningmastery.com/ai-agent-tool-design-what-works-and-what-doesnt/ Comments URL: https://news.ycombinator.com/item?id=48540345 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-15T12:35:12.000Z",
-      "score": 138.04,
       "status": "queued"
     },
     {
@@ -6478,18 +6430,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/",
-      "title": "Security Risks of Apple's AI-Built Shortcuts",
-      "link": "https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/",
-      "summary": "Article URL: https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/ Comments URL: https://news.ycombinator.com/item?id=48544553 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-15T17:36:26.000Z",
-      "score": 113.24,
-      "status": "queued"
-    },
-    {
       "id": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
       "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
       "link": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
@@ -7208,6 +7148,70 @@
       "publishedAt": "2026-07-06T08:40:29.000Z",
       "score": 73.04,
       "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/how-agents-are-transforming-work",
+      "title": "How agents are transforming work",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-25T02:00:00.000Z",
+      "score": 60.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "score": 54.8,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "title": "AI agents are not your “coworkers”",
+      "link": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-29T18:00:00.000Z",
+      "score": 54.72,
+      "status": "queued"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
+      "title": "AI coding agents taught robots how to install GPUs and cut zip ties",
+      "link": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
+      "summary": "Nvidia's self-improvement program for robots enlists teams of AI coding agents.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-17T19:25:19.000Z",
+      "score": 54.26,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/zenml-io/kitaru",
+      "title": "Show HN: Record, replay, and improve AI agents in production",
+      "link": "https://github.com/zenml-io/kitaru",
+      "summary": "At the AI Engineering World's Fair a big part of the conversation was to nail the self improvement loop. Our take on this is to record state of the agent execution with a durable runtime, then allow users to replay from state checkpoints and run 'what-if' experiments. It's OSS and free to use. Would love some feedback from the community. Comments URL: https://news.ycombinator.com/item?id=48807786 Points: 1 # Comment…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-06T17:26:17.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-07-06T17:42:28.118Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://wwww.khwand.com",
@@ -7960,70 +7964,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-06-07T16:15:41.434Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler w…"
-    },
-    {
-      "id": "https://tokkeycc.com",
-      "title": "TokkeyCC – OpenAI-compatible API for 100 AI models, .22 per 1M tokens",
-      "link": "https://tokkeycc.com",
-      "summary": "Article URL: https://tokkeycc.com Comments URL: https://news.ycombinator.com/item?id=48400900 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-06-04T16:23:51.000Z",
-      "score": 177.93,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-06T16:05:32.071Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48373593",
-      "title": "AI Goal: Senior Software Engineer",
-      "link": "https://news.ycombinator.com/item?id=48373593",
-      "summary": "Context: Working as a senior software engineer in one of the big techs. One of the goals for senior engineers in my organization is to identify and implement AI initiatives. I'm already familiar with and actively using MCPs, AI agents, plugins etc. While they've been useful, it feels like most people in my company are already working on this. I was curious whether your organization has built or adopted any AI powere…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-02T17:47:23.000Z",
-      "score": 162,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-06T16:05:32.071Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/Kaya-suites/Kaya-Suites",
-      "title": "Show HN: Kaya Suites – An AI Native Knowledge Base",
-      "link": "https://github.com/Kaya-suites/Kaya-Suites",
-      "summary": "I'm really interested in this idea of generating a knowledge base that's native for agents as well as humans. I'm pretty much inspired by Den's [https://www.producthunt.com/products/den] product and I want to generate something akin to it that is open-sourced as well. I hypothesize that, in the near future, with AI agents collaborating with human agents, there will be a need for a centralized storage of information…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-05T11:01:56.000Z",
-      "score": 162,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-06T16:05:32.071Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
-      "link": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-      "summary": "Microsoft’s annual developer conference is kicking off on June 2nd in San Francisco with the keynote presentation streaming live at 12:30PM ET / 9:30AM PT, and we will be following along here with everything as it’s announced. The Verge’s Tom Warren reports that we can expect to hear about new AI models and agentic OpenClaw-like tools, plus a Copilot “super app” to go along with some of the major changes to Windows…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-02T15:59:58.000Z",
-      "score": 123.37,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-06T16:05:32.071Z",
-      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and…"
     }
   ]
 }
