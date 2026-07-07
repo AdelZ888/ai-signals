@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T10:57:11.856Z",
+  "generatedAt": "2026-07-07T17:20:36.808Z",
   "locale": "en",
   "posts": [
     {
@@ -28,6 +28,33 @@
       "timeToImplementMinutes": 30,
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-07-wayflow-an-embeddable-visual-workflow-editor-with-a-built-in-runtime",
+      "title": "Wayflow — an embeddable visual workflow editor with a built-in runtime",
+      "date": "2026-07-07",
+      "excerpt": "Drop a full visual workflow workspace into your web app with one call. Edit a JSON graph users can run in-browser or on your server - includes LLM, branching, human-in-loop and custom nodes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-07-wayflow-an-embeddable-visual-workflow-editor-with-a-built-in-runtime.jpg",
+      "tags": [
+        "wayflow",
+        "visual-workflow-editor",
+        "runtime",
+        "embeddable",
+        "llm",
+        "human-in-the-loop",
+        "open-source",
+        "developer"
+      ],
+      "sources": [
+        "https://wayflow.build/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-06-scarfbench-evaluating-ai-agents-on-spring-jakarta-ee-and-quarkus-migrations",

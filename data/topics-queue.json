@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-07T10:57:11.871Z",
+  "generatedAt": "2026-07-07T17:20:36.870Z",
   "items": [
+    {
+      "id": "https://wayflow.build/",
+      "title": "Show HN: Wayflow – an embeddable AI workflow builder (open source)",
+      "link": "https://wayflow.build/",
+      "summary": "Hi! I’m Taha. In many agentic products that support workflows (including one I worked on), I noticed they either don’t support node-based editors, or use React Flow and go through the difficult work of integrating it into their product to run it and work with their existing logic. So I thought about creating a tool that could help with this by closing the gap between the editor and the runtime. That’s why I created…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-07T16:23:22.000Z",
+      "score": 198,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-07T17:20:36.793Z",
+      "file": "content/posts/2026-07-07-wayflow-an-embeddable-visual-workflow-editor-with-a-built-in-runtime.md",
+      "fileFr": "content/posts/fr/2026-07-07-wayflow-an-embeddable-visual-workflow-editor-with-a-built-in-runtime.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1702,
+      "wordsFr": 1328
+    },
     {
       "id": "https://vanta.shanev.ai",
       "title": "Show HN: Vanta – Markdown notes for iPhone with on-device AI",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1345
     },
     {
-      "id": "https://www.deadinternet.forum/",
-      "title": "Show HN: A 2000s-style web forum where AI agents and humans hang out",
-      "link": "https://www.deadinternet.forum/",
-      "summary": "I built a retro forum where AI agents and humans can just hang out. Inspired by Moltbook, but without upvotes or karma. I wanted to see what LLMs do when they have no specific goals. Turns out they just banter, shitpost, and form digital cliques. It is currently seeded with Grok, Claude, and Kimi. The API is completely open with zero auth required. I am optimizing for chaos on day one. If you want to point your own…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-09T15:44:03.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-11T15:59:22.991Z",
-      "file": "content/posts/2026-03-11-build-a-local-forum-prototype-where-humans-and-ai-agents-post-together.md",
-      "fileFr": "content/posts/fr/2026-03-11-build-a-local-forum-prototype-where-humans-and-ai-agents-post-together.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1666,
-      "wordsFr": 1365
-    },
-    {
       "id": "https://www.moderntreasury.com/journal/reducing-feedback-latency-with-local-ci-for-developers-and-ai-agents",
       "title": "Reducing Feedback Latency with Local CI for Developers and AI Agents",
       "link": "https://www.moderntreasury.com/journal/reducing-feedback-latency-with-local-ci-for-developers-and-ai-agents",
@@ -5119,6 +5119,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-06-17T16:37:48.000Z",
       "score": 173.18,
+      "status": "queued"
+    },
+    {
+      "id": "https://declaw.ai/blog/credentials-agents-can-never-read",
+      "title": "Letting Untrusted AI Agents Use Credentials They Can Never Read",
+      "link": "https://declaw.ai/blog/credentials-agents-can-never-read",
+      "summary": "Article URL: https://declaw.ai/blog/credentials-agents-can-never-read Comments URL: https://news.ycombinator.com/item?id=48819806 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-07T16:10:40.000Z",
+      "score": 168.64,
       "status": "queued"
     },
     {
@@ -5398,18 +5410,6 @@
       "status": "queued"
     },
     {
-      "id": "https://sigmashake.com",
-      "title": "Show HN: A policy gate that runs before your AI coding agent's tool calls",
-      "link": "https://sigmashake.com",
-      "summary": "As a Security Engineer with over 10+ years in industry, I kept running into the same problem with coding agents: Instructions are not guarantees. I put guidance in `CLAUDE.md`, `AGENTS.md`, memory files, MCP descriptions, and tool documentation. I explicitly told the agent things like: * Use the code graph for architecture questions instead of grepping the repository. * Do not use deprecated APIs or Unsafe code. * Prefer specific tools for specific tasks. The agent would still ignore those instructions surprisingly often. It would grep the entire repo, use deprecated APIs, or choose a slower tool even when a better one was available. That made me realize prompts and rules solve different problems. A prompt is a probabilistic influence on model behavior. A rule is an enforcement mechanism. So I built SSG (SigmaShake Governance), which sits between the agent and its tools. Instead of asking the model to remember a policy, SSG evaluates every tool call before it executes. For example, this rule redirects architecture-related repository searches away from recursive grep and toward a code graph: ```text rule route-codebase-grep-to-graph { enable true priority 80 severity warning CATEGORY tool-routing FORCE search IF tool EQUALS \"Grep\" MESSAGE \"Architecture, relationship, and dependency questions are routed to the code-graph tool.\" SUBSTITUTE \"graphify query \\\"\\\"\" } ``` When the agen",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-16T17:12:02.000Z",
-      "score": 154.34,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/ChatbotXIO/ChatbotX",
       "title": "ChatbotX – Open-source omnichannel AI marketing platform",
       "link": "https://github.com/ChatbotXIO/ChatbotX",
@@ -5554,6 +5554,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+      "title": "How AI could enable autonomous robot workers in workplaces–and maybe homes",
+      "link": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+      "summary": "Article URL: https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/ Comments URL: https://news.ycombinator.com/item?id=48820045 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-07T16:26:12.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
       "title": "Five Eyes warns AI models capable of toppling governments are months away",
       "link": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
@@ -5599,6 +5611,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "score": 143.86,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/christopherkarani/ContextCore",
+      "title": "GPU-accelerated context memory for on-device AI agents on Apple Silicon",
+      "link": "https://github.com/christopherkarani/ContextCore",
+      "summary": "Article URL: https://github.com/christopherkarani/ContextCore Comments URL: https://news.ycombinator.com/item?id=48819513 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-07T15:52:23.000Z",
+      "score": 142.79,
       "status": "queued"
     },
     {
@@ -6094,6 +6118,18 @@
       "status": "queued"
     },
     {
+      "id": "https://doodlemate.com/meme",
+      "title": "Show HN: DoodleMeme – Animate Hand Drawings Without Generative AI",
+      "link": "https://doodlemate.com/meme",
+      "summary": "Hi HN, A few years ago I created a popular open source repo for animating children's drawings. Recently, I decided to try turning it into a polished user experience. It doesn't use ANY generative AI (very proud of that). Instead, it uses traditional character rigging and motion retargeting, but in an intuitive and accessible manner. It's also free, there's no login needed, and it works on mobile and desktop. Would love any feedback this community might have. Comments URL: https://news.ycombinator.com/item?id=48819440 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-07T15:47:57.000Z",
+      "score": 120.19,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.26300",
       "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
       "link": "https://arxiv.org/abs/2606.26300",
@@ -6178,6 +6214,18 @@
       "status": "queued"
     },
     {
+      "id": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-07T15:20:06.000Z",
+      "score": 117.5,
+      "status": "queued"
+    },
+    {
       "id": "https://vulnfeed.novadyne.ai/",
       "title": "Show HN: VulnFeed – 9 security tools your AI agent can call (MCP server)",
       "link": "https://vulnfeed.novadyne.ai/",
@@ -6211,6 +6259,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-30T15:11:46.000Z",
       "score": 116.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/dogtorjonah/context-warp-drive",
+      "title": "Show HN: Context Warp Drive – Deterministic context folding for AI agents",
+      "link": "https://github.com/dogtorjonah/context-warp-drive",
+      "summary": "Article URL: https://github.com/dogtorjonah/context-warp-drive Comments URL: https://news.ycombinator.com/item?id=48819050 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-07T15:18:36.000Z",
+      "score": 116.68,
       "status": "queued"
     },
     {
@@ -6730,6 +6790,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/DeepTempo/socbench",
+      "title": "Show HN: SOCBench – an open benchmark for AI on SoC tasks",
+      "link": "https://github.com/DeepTempo/socbench",
+      "summary": "Writeup: https://www.deeptempo.ai/blogs/the-36-percent-false-positive... Comments URL: https://news.ycombinator.com/item?id=48819132 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-07T15:25:32.000Z",
+      "score": 102.71,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.01511",
       "title": "Revisiting Chain-of-Thought Reasoning under Limited Supervision: Semi-supervised Chain-of-Thought Learning",
       "link": "https://arxiv.org/abs/2607.01511",
@@ -6934,6 +7006,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/ImmersiveFusion/if-opentelemetry-tracegen",
+      "title": "Show HN: TraceGen – realistic OpenTelemetry traces, incl. AI-agent, one binary",
+      "link": "https://github.com/ImmersiveFusion/if-opentelemetry-tracegen",
+      "summary": "Article URL: https://github.com/ImmersiveFusion/if-opentelemetry-tracegen Comments URL: https://news.ycombinator.com/item?id=48819065 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-07T15:19:50.000Z",
+      "score": 99.36,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
       "title": "Who Thrives Using AI",
       "link": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
@@ -7123,78 +7207,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-05T06:57:32.000Z",
       "score": 92.91,
-      "status": "queued"
-    },
-    {
-      "id": "https://sigmap.io/",
-      "title": "SigMap: 97% token reduction for AI coding sessions",
-      "link": "https://sigmap.io/",
-      "summary": "Article URL: https://sigmap.io/ Comments URL: https://news.ycombinator.com/item?id=48792152 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-05T07:52:55.000Z",
-      "score": 91.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.03091",
-      "title": "Silicon Sampling via Cross-Survey Transfer",
-      "link": "https://arxiv.org/abs/2607.03091",
-      "summary": "arXiv:2607.03091v1 Announce Type: new Abstract: Silicon sampling-using large language models (LLMs) to simulate human survey respondents-has emerged as a promising approach for augmenting traditional survey research. However, most evaluations rely on distributional comparisons rather than individual-level prediction, which risks conflating pattern matching with coherent respondent-level prediction. We propose cross-survey transfer, a more rigorous evaluation framework in which an LLM is given a respondent's answers to one set of questions and must predict their answers to entirely different questions from the same survey. Using data from the Taiwan Election and Democratization Study (TEDS) 2024, three open-weight LLMs (27B-120B parameters), and supervised machine learning baselines, we find that: (1) zero-shot LLMs achieve 52% accuracy on genuinely unseen items, closing to within 6 percentage points (pp) of a supervised random forest trained on same-population data; (2) a stable construct predictability hierarchy emerges, from 67% for partisan attitudes to 23% for sovereignty; and (3) variance collapse and safety alignment effects-two commonly cited LLM limitations-turn out to be more nuanced than previously reported, with variance collapse affecting supervised models as well and alignment effects varying dramatically across model families. These findings clarify both the promi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "score": 89.79,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/mensfeld/code-on-incus",
-      "title": "code-on-incus: Give each AI agent its own isolated machine with root",
-      "link": "https://github.com/mensfeld/code-on-incus",
-      "summary": "Article URL: https://github.com/mensfeld/code-on-incus Comments URL: https://news.ycombinator.com/item?id=48792094 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-05T07:42:56.000Z",
-      "score": 87.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "title": "Generative AI without guardrail can harm learning:Evidence from high school math",
-      "link": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "summary": "Article URL: https://www.pnas.org/doi/10.1073/pnas.2422633122 Comments URL: https://news.ycombinator.com/item?id=48802332 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-06T09:10:02.000Z",
-      "score": 79.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://ourworldindata.org/data-insights/us-and-chinese-companies-train-almost-all-of-the-worlds-most-used-ai-models",
-      "title": "US and Chinese companies train almost all of the most-used AI models",
-      "link": "https://ourworldindata.org/data-insights/us-and-chinese-companies-train-almost-all-of-the-worlds-most-used-ai-models",
-      "summary": "Article URL: https://ourworldindata.org/data-insights/us-and-chinese-companies-train-almost-all-of-the-worlds-most-used-ai-models Comments URL: https://news.ycombinator.com/item?id=48791385 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-05T05:03:41.000Z",
-      "score": 78.09,
-      "status": "queued"
-    },
-    {
-      "id": "https://hic-ai.com",
-      "title": "Mouse: Precision Editing Tools for AI Coding Agents",
-      "link": "https://hic-ai.com",
-      "summary": "Article URL: https://hic-ai.com Comments URL: https://news.ycombinator.com/item?id=48791380 Points: 32 # Comments: 37",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-05T05:01:14.000Z",
-      "score": 77.89,
       "status": "queued"
     },
     {
@@ -7964,22 +7976,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-06-08T12:21:11.300Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://github.com/Abloatai/ablo",
-      "title": "Context is essential for AI agents, but I think shared state is the next problem",
-      "link": "https://github.com/Abloatai/ablo",
-      "summary": "Article URL: https://github.com/Abloatai/ablo Comments URL: https://news.ycombinator.com/item?id=48355849 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T12:19:05.000Z",
-      "score": 159.85,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-07T16:15:41.434Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler w…"
     }
   ]
 }
