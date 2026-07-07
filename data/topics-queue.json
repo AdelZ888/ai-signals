@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-06T17:56:41.410Z",
+  "generatedAt": "2026-07-07T10:57:11.871Z",
   "items": [
+    {
+      "id": "https://vanta.shanev.ai",
+      "title": "Show HN: Vanta – Markdown notes for iPhone with on-device AI",
+      "link": "https://vanta.shanev.ai",
+      "summary": "Vanta is a Markdown notes app for iPhone, built around on-device AI organization and GTD (Getting Things Done). I use Obsidian with Claude on desktop, and wanted a similar but automated flow on mobile. This started out as an experiment with Apple's local Foundation models which turned out to be genuinely useful for me. The local models are used to clean up messy dictation, format Markdown, and categorize your inbox…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-30T16:32:50.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-07-07T10:57:11.840Z",
+      "file": "content/posts/2026-07-07-vanta-iphone-markdown-notes-with-ondevice-ai-and-a-native-gtd-workflow.md",
+      "fileFr": "content/posts/fr/2026-07-07-vanta-iphone-markdown-notes-with-ondevice-ai-and-a-native-gtd-workflow.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 30,
+      "wordsEn": 1327,
+      "wordsFr": 1237
+    },
     {
       "id": "https://huggingface.co/blog/ibm-research/scarfbench",
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1365
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
-      "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
-      "summary": "Meta is acquiring Moltbook, a Reddit-like platform where AI agents can make and comment on posts, as first reported by Axios. In a statement to The Verge, Meta spokesperson Matthew Tye confirmed the Moltbook team will join Meta Superintelligence Labs as the company looks for \"new ways for AI agents to work for people and businesses.\" Matt Schlict and Ben Parr launched Moltbook earlier this year, offering a \"social\"…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-10T15:22:17.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-03-11T08:55:36.013Z",
-      "file": "content/posts/2026-03-11-meta-acquires-moltbook-bringing-a-reddit-like-ai-agent-network-into-meta-superintelligence-labs.md",
-      "fileFr": "content/posts/fr/2026-03-11-meta-acquires-moltbook-bringing-a-reddit-like-ai-agent-network-into-meta-superintelligence-labs.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1384,
-      "wordsFr": 1166
-    },
-    {
-      "id": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
-      "title": "OpenAI, Anthropic new AI spending reality as users shift to efficiency",
-      "link": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
-      "summary": "Article URL: https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html Comments URL: https://news.ycombinator.com/item?id=48717986 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-29T11:43:36.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://vanta.shanev.ai",
-      "title": "Show HN: Vanta – Markdown notes for iPhone with on-device AI",
-      "link": "https://vanta.shanev.ai",
-      "summary": "Vanta is a Markdown notes app for iPhone, built around on-device AI organization and GTD (Getting Things Done). I use Obsidian with Claude on desktop, and wanted a similar but automated flow on mobile. This started out as an experiment with Apple's local Foundation models which turned out to be genuinely useful for me. The local models are used to clean up messy dictation, format Markdown, and categorize your inbox using GTD principles. Maybe one day it'll do your todos for you too :) Import and sync your existing Obsidian vault on Github, or start with a new one. iCloud Drive sync is included. App Store: https://apps.apple.com/app/id6777781490 Comments URL: https://news.ycombinator.com/item?id=48735191 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-30T16:32:50.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.moderntreasury.com/journal/reducing-feedback-latency-with-local-ci-for-developers-and-ai-agents",
       "title": "Reducing Feedback Latency with Local CI for Developers and AI Agents",
       "link": "https://www.moderntreasury.com/journal/reducing-feedback-latency-with-local-ci-for-developers-and-ai-agents",
@@ -5974,6 +5950,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.02686",
+      "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
+      "link": "https://arxiv.org/abs/2607.02686",
+      "summary": "arXiv:2607.02686v1 Announce Type: new Abstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural candidates for guidance from small language models (SLMs) that carry broad reasoning priors. Yet integrating SLM guidance into this setting has proven difficult: across all test environments, vanilla uncertainty-gated approaches achieve an overwrite rate at or near zero, meaning the SLM almost never contributes an independent action. We trace this failure to the bare egocentric prompt, which provides insufficient context for genuine reasoning, and identify it as a context problem rather than a capacity problem. We propose ASK+, which supplies the SLM with trajectory-aware context (a partially revealed map, visited positions, and action history) and structured chain-of-thought reasoning, converting it from a passive redundancy check into a more informative consultant that occasionally corrects the policy. We further establish that the predictive entropy signal used for selective querying measures action uncertainty rather than state uncertainty and remains informative in POMDPs, making uncertainty-gated assistance viable beyond fully observable settings. The stateful prompt drives substantial gains: on DoorKey, where vanilla ASK matches PPO (both 89%), ASK+ reaches 93% success; on FourRooms, success climbs fro",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 125.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.03162",
+      "title": "APeB: Benchmarking Personalization Ability of Large Language Model Agents",
+      "link": "https://arxiv.org/abs/2607.03162",
+      "summary": "arXiv:2607.03162v1 Announce Type: new Abstract: LLM-powered agents struggle with personalization when users issue raw, underspecified queries. In this setting, agents must infer latent intent, extract preferences from noisy interaction histories, and select among competing alternatives. Existing benchmarks rarely test this capability, as they often rely on user-refined queries or simplified histories. We introduce personalized product search (PPS), a testbed for agentic personalization under raw queries and diverse histories. We construct Agent Personalized Benchmark (APeB) from action logs, pairing underspecified intents with rich histories and user-viewed candidate items. Evaluating state-of-the-art LLMs with multi-step agent workflows, we find that models handle explicit queries well but struggle with early-stage queries requiring intent and preference discovery. Rubric analysis attributes this gap mainly to ineffective history use. A simple history-aware query-refinement pipeline, VQRA, yields consistent gains, highlighting the need for dedicated history-utilization modules in personalized agents.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 125.79,
+      "status": "queued"
+    },
+    {
       "id": "https://keepp.link/keepp-skill/SKILL.md",
       "title": "Show HN: Let your AI agent manage your link in bio",
       "link": "https://keepp.link/keepp-skill/SKILL.md",
@@ -6007,18 +6007,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-30T15:21:50.000Z",
       "score": 123.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.14935",
-      "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
-      "link": "https://arxiv.org/abs/2606.14935",
-      "summary": "arXiv:2606.14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly. Symbolic delegation offers a complementary route: a language model translates the problem, while a solver performs the inference. However, current autoformalization pipelines for logic programming are typically bespoke integrations tied to particular tasks or agents. We introduce PrologMCP, a task-agnostic, open-source server that exposes Prolog as a stateful tool through the Model Context Protocol (MCP). Its compact tool interface, structured error reporting, and per-session isolation make the translate-run-inspect-repair loop a reusable primitive for MCP-capable agents. We evaluate a formalizer agent enhanced with PrologMCP against standard and reasoning LLMs (Claude Sonnet 4.6, GPT-4.1, and o4-mini) on two subsets of PARARULE-Plus: a general-purpose sample and a more challenging one targeting a specific failure mode of natural-language reasoning. On the general sample, the formalizer matches or exceeds reasoning LLMs (accuracy 1.00 vs.\\ 1.00 / 0.998), with the largest gains over standard models (0.762 for GPT-4.1). On the challenging subset, the formalizer remains near-perfect (1.00 / 0.99) while reasoning LLMs drop to 0.95 / 0.94. These results suggest that del",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "score": 122.05,
       "status": "queued"
     },
     {
@@ -6115,6 +6103,42 @@
       "keywordHits": 8,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "score": 119.86,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.02879",
+      "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+      "link": "https://arxiv.org/abs/2607.02879",
+      "summary": "arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified in the query. However, real clinical scenarios often require multiple calculators for joint evaluation, nested-scale calculation, and fuzzy queries that do not directly specify the target calculator. To this end, we propose a new medical calculation benchmark, MedCalc-Pro, which covers three progressively challenging task settings: single-calculator, multi-calculator, and nested-calculator calculation settings. MedCalc-Pro contains 2,268 real-world clinical cases, covering 77 medical calculators across 14 clinical departments. Meanwhile, to address the limited performance of existing frameworks and methods in complex clinical scenarios, we further propose a more generalizable agent framework that supports multi-tool selection and nested-tool calling, while suppressing parameter error propagation through structured validation and evidence review. We conduct systematic comparisons across open-source, closed-source, and medical-specialized LLMs, and the results show that our framework achieves the best performance across all three task settings. This work provides a new benchmark and method for evaluating",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 119.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.02914",
+      "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+      "link": "https://arxiv.org/abs/2607.02914",
+      "summary": "arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strategies mitigate harmful content generation but systematically fail to serve legitimate user needs, often withholding information that could safely and constructively address the underlying intent of sensitive queries. Building upon the constructive safety paradigm pioneered by Oyster-I, which moves beyond blanket refusal toward thoughtful, response-oriented safety alignment, we identify two critical limitations of its Supervised Fine-Tuning (SFT)-based scheme: insufficient safety generalization to out-of-distribution scenarios and a phenomenon we term safety chain-of-thought (CoT) over-generalization, wherein safety-oriented reasoning patterns are excessively applied to benign queries, degrading helpfulness and user experience. To address these limitations, we propose Oyster-II, a reinforcement learning (RL)-based constructive safety alignment framework that adopts a Zero-RL paradigm combined with a multi-stage reinforcement learning strategy.Evaluated across extensive benchmarks, Oyster-II comprehensively surpasses both Qwen3-14B and its predecessor Oyster-I on safety dimensions, achie",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 119.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.02975",
+      "title": "Evaluating Generative Agents with Actions Grounded in Socially Distributed Task Environments using Incognita",
+      "link": "https://arxiv.org/abs/2607.02975",
+      "summary": "arXiv:2607.02975v1 Announce Type: new Abstract: Effective agency in social environments depends on when an agent seeks knowledge, when it acts, and whether its actions are justified by acquired information. Existing grounded benchmarks provide executable actions, persistent state, and verifiable outcomes, while social simulation environments provide rich interaction among language agents. We study an evaluation setting that combines these requirements. We define socially distributed task environments as interactive environments where task-relevant knowledge is partitioned across role-isolated participants and consequential actions are accessible only through them. Communication serves as exploration over role-partitioned knowledge, while grounded action serves as exploitation over environment state. We introduce Incognita, a Concordia-based framework that separates social interaction from grounded execution. The evaluated agent routes messages to a user or specialist entities; specialists mediate admissible operations; a deterministic sub-environment executes accepted operations over a canonical state; and an offline evaluator scores outcomes with inherited rewards. Incognita-Retail transforms tau-bench retail into a multi-entity environment while preserving final-state reward semantics. We evaluate three generative agent models on 18 tasks stratified by social breadth, with 54",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 119.79,
       "status": "queued"
     },
     {
@@ -6262,18 +6286,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.15107",
-      "title": "Towards Verifiable Agentic Data Science: Solving Irregular TSQA Via Tool-Grounded Reasoning",
-      "link": "https://arxiv.org/abs/2606.15107",
-      "summary": "arXiv:2606.15107v1 Announce Type: new Abstract: Time series data in real-world deployments is overwhelmingly irregular. Observations are asynchronous, missing values are informative rather than random, and sampling frequencies vary across sensors and operational windows. However, existing Time Series Question Answering (TSQA) benchmarks mostly assume regularly sampled inputs, leaving a fundamental gap in understanding how large language models (LLMs) and AI agents perform under irregular conditions. To bridge this gap, we introduce IRTS-ToolBench, a benchmark of 1,700 questions spanning 10 task types across 13 domains. IRTS-ToolBench is designed to be used independently by any researcher working on LLM-based irregular time series analysis, providing standardized inputs and a reproducible evaluation protocol. Code can be found in https://github.com/SanhornC/IRTS-ToolBench.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "score": 116.05,
-      "status": "queued"
-    },
-    {
       "id": "https://taskpeace.com/",
       "title": "Show HN: TaskPeace – a task queue my AI coding agents pull work from over MCP",
       "link": "https://taskpeace.com/",
@@ -6367,6 +6379,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-06-24T04:00:00.000Z",
       "score": 114,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.02846",
+      "title": "Object-Centric Environment Modeling for Agentic Tasks",
+      "link": "https://arxiv.org/abs/2607.02846",
+      "summary": "arXiv:2607.02846v1 Announce Type: new Abstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to maintain, validate, and reuse as interactions grow. Recent symbolic approaches learn executable skills or programmatic world models, yet often store local procedures or assume simplified dynamics. We propose Object-Centric Environment Modeling (OCM), which organizes experience into an executable object-centric environment model. OCM maintains two connected code bases: object knowledge, which defines environment entities and mechanisms as Python classes, and procedure knowledge, which records reusable interaction patterns that must import and use the object model. OCM works in an online setting: after each episode, OCM reflects on the trajectory, updates both knowledge bases, and verifies that all procedures execute against the updated object model. During future interaction, the agent uses progressive knowledge disclosure to inspect compact code signatures first and read source code only when needed. Experiments show that OCM achieves the best average rank across benchmarks and reduces invalid actions, demonstrating that agents can benefit from building object-centric environment models.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 113.79,
       "status": "queued"
     },
     {
@@ -6766,6 +6790,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.02542",
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "link": "https://arxiv.org/abs/2607.02542",
+      "summary": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, video-based world modeling, or action generation, while cascaded pipelines that first synthesize future observations and then infer actions can introduce interface bottlenecks and compound prediction errors. We present iFLYTEK-Embodied-Omni, a unified multimodal foundation model that jointly models vision(videos and images), language, and action within a single Omni framework. Its modality-specific visual-language, video-generation, and action-generation components communicate through shared multimodal self-attention. This design establishes brain-cerebellum collaboration: the vision-language modeland video generation model form a high-level brain for instruction understanding, task planning, progress tracking, and future visual-state prediction, whereas the action generation modelserves as a low-level cerebellum that directly converts planned subgoals and shared multimodal context into executable action chunks. To develop these capabilities, we combine action-annotated and action-free embodied videos from human demonstrations and robot interactions with embodied reasoning, embodied pe",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 101.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.03015",
+      "title": "Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents",
+      "link": "https://arxiv.org/abs/2607.03015",
+      "summary": "arXiv:2607.03015v1 Announce Type: new Abstract: Forecasting future events has attracted growing attention as a testbed for general-purpose AI. A natural way to ground this evaluation is let the models trade in the prediction markets. Trading, however, requires more than forecasting. Moreover, recent benchmarks report a substantial gap between calibrated probability scores and the trading results. We propose Raven-Agent, to the best of our knowledge, the first autonomous trading agent for prediction markets. On a controlled replay over an archived decision set, our architecture achieves the only positive return and the only positive risk-adjusted return among all tested policies. We have released our code in https://github.com/Alchemist-X/predict-raven .",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 101.79,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.28374",
       "title": "Recursive Self-Evolving Agents via Held-Out Selection",
       "link": "https://arxiv.org/abs/2606.28374",
@@ -7018,6 +7066,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.02983",
+      "title": "Reinforcement Learning for Evidence-Seeking Diagnostic Reasoning with Large Language Models",
+      "link": "https://arxiv.org/abs/2607.02983",
+      "summary": "arXiv:2607.02983v1 Announce Type: new Abstract: Recent reasoning-centric Large Language Models (LLMs) have made significant strides, yet they predominantly operate on a passive-inference pattern that assumes complete information. In contrast, real-world clinical intelligence is inherently an iterative investigative process requiring strategic evidence acquisition. To bridge this gap, we formalize medical diagnosis as an Iterative Evidence-Seeking Task. We leverage Reinforcement Learning with Verifiable Rewards (RLVR) to elicit intrinsic reasoning within a closed-loop environment, guided by a novel suite of rewards that enforce diagnostic precision and examination consistency. To facilitate this, we introduce the Retrieval-Augmented Generation-based Examination Simulator (RAGES), a high-fidelity clinical oracle that provides realistic, knowledge-grounded follow-up evidence. Empirical results across diverse datasets demonstrate that our framework enables LLMs to transition from passive responders to autonomous assistants. Notably, our model demonstrates comparable performance to larger and reasoning-enhanced baselines, while RAGES proves superior to vanilla LLMs in generating biologically plausible clinical feedback.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 95.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.03025",
+      "title": "Human-Centric Reflective Architecture for Human-AI Collaborative Decision-Making",
+      "link": "https://arxiv.org/abs/2607.03025",
+      "summary": "arXiv:2607.03025v1 Announce Type: new Abstract: The use of Large Language Models (LLMs) across diverse areas of human activity-ranging from everyday tasks to safety-critical applications-aims to enhance decision-making effectiveness with minimal human feedback. Concurrently, it seeks to align decisions with human expectations, preferences, and needs while mitigating risks associated with AI non-determinism. However, humans frequently over- or under-rely on AI recommendations, and current AI systems remain poorly calibrated to human expectations. To address these challenges, we introduce a human-AI collaborative decision-making framework designed to augment human capabilities and align AI agents with human preferences and expectations. Specifically, this paper (a) formulates the collaborative decision-making task as a stochastic game between an AI agent and a human player, and (b) proposes the Human-Centric Reflective Architecture (HCRA), which integrates human-calibrated models with reinforcement learning agents that leverage linguistic feedback in an iterative, reflective process. Evaluation results demonstrate that HCRA enhances decision-making effectiveness and delivers high-quality recommendations.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 95.79,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.28707",
       "title": "BV-Blend: Uncertainty-Weighted Historical Baselines for Stable Critic-Free RL with Verifiable Rewards",
       "link": "https://arxiv.org/abs/2606.28707",
@@ -7063,6 +7135,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-05T07:52:55.000Z",
       "score": 91.53,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.03091",
+      "title": "Silicon Sampling via Cross-Survey Transfer",
+      "link": "https://arxiv.org/abs/2607.03091",
+      "summary": "arXiv:2607.03091v1 Announce Type: new Abstract: Silicon sampling-using large language models (LLMs) to simulate human survey respondents-has emerged as a promising approach for augmenting traditional survey research. However, most evaluations rely on distributional comparisons rather than individual-level prediction, which risks conflating pattern matching with coherent respondent-level prediction. We propose cross-survey transfer, a more rigorous evaluation framework in which an LLM is given a respondent's answers to one set of questions and must predict their answers to entirely different questions from the same survey. Using data from the Taiwan Election and Democratization Study (TEDS) 2024, three open-weight LLMs (27B-120B parameters), and supervised machine learning baselines, we find that: (1) zero-shot LLMs achieve 52% accuracy on genuinely unseen items, closing to within 6 percentage points (pp) of a supervised random forest trained on same-population data; (2) a stable construct predictability hierarchy emerges, from 67% for partisan attitudes to 23% for sovereignty; and (3) variance collapse and safety alignment effects-two commonly cited LLM limitations-turn out to be more nuanced than previously reported, with variance collapse affecting supervised models as well and alignment effects varying dramatically across model families. These findings clarify both the promi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "score": 89.79,
       "status": "queued"
     },
     {
@@ -7114,88 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48802246",
-      "title": "Ask HN: What is your go-to prompt to prove AI can be wrong?",
-      "link": "https://news.ycombinator.com/item?id=48802246",
-      "summary": "Just over-heard one of our seniors trying to explain to a new intern that AI can actually be wrong, no matter how much its answers sound very eloquent and well-structured. I was wondering what question/prompt everyone uses to prove so to others. I assume it depends on each person's expertise, or some people ask about a fact that is well-known as having been a victim of the mandela effect. P.S. As a non-native speaker, I was about to pass my submission through AI to improve text clarity and understandability, but after remembering some comments about prefering the original text, I decided against it :) Comments URL: https://news.ycombinator.com/item?id=48802246 Points: 1 # Comments: 1",
+      "id": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
+      "title": "OpenAI, Anthropic new AI spending reality as users shift to efficiency",
+      "link": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html Comments URL: https://news.ycombinator.com/item?id=48717986 Points: 3 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-06T08:56:48.000Z",
-      "score": 76.44,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-      "title": "JadePuffer ransomware used AI agent to automate entire attack",
-      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-      "summary": "Article URL: https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/ Comments URL: https://news.ycombinator.com/item?id=48793941 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-05T12:55:11.000Z",
-      "score": 73.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.24937",
-      "title": "The Hitchhiker's Guide to Agentic AI",
-      "link": "https://arxiv.org/abs/2606.24937",
-      "summary": "Article URL: https://arxiv.org/abs/2606.24937 Comments URL: https://news.ycombinator.com/item?id=48802156 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-06T08:40:29.000Z",
-      "score": 73.04,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/how-agents-are-transforming-work",
-      "title": "How agents are transforming work",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-25T02:00:00.000Z",
-      "score": 60.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "title": "Agriculture is ready for AI, but its data isn’t",
-      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "score": 54.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-      "title": "AI agents are not your “coworkers”",
-      "link": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-06-29T18:00:00.000Z",
-      "score": 54.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
-      "title": "AI coding agents taught robots how to install GPUs and cut zip ties",
-      "link": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
-      "summary": "Nvidia's self-improvement program for robots enlists teams of AI coding agents.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-17T19:25:19.000Z",
-      "score": 54.26,
-      "status": "queued"
+      "publishedAt": "2026-06-29T11:43:36.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-07-07T10:44:38.221Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://github.com/zenml-io/kitaru",
