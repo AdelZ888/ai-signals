@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-07-07T17:20:36.808Z",
+  "generatedAt": "2026-07-08T10:12:50.219Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-08-tarit-rust-vmm-hypervisor-and-lightweight-orchestrator-for-self-hosted-ai-agent-sandboxes",
+      "title": "Tarit: rust-vmm hypervisor and lightweight orchestrator for self-hosted AI-agent sandboxes",
+      "date": "2026-07-08",
+      "excerpt": "Tarit pairs a rust-vmm hypervisor and lightweight orchestrator to run self-hosted AI-agent sandboxes. Repo claims warm-pool acquire p99 ≈35ms and snapshot resume ≈80ms. See QUICKSTART.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-08-tarit-rust-vmm-hypervisor-and-lightweight-orchestrator-for-self-hosted-ai-agent-sandboxes.jpg",
+      "tags": [
+        "sandboxing",
+        "hypervisor",
+        "self-hosted",
+        "ai-agents",
+        "rust",
+        "orchestration",
+        "rust-vmm"
+      ],
+      "sources": [
+        "https://github.com/instavm/tarit"
+      ],
+      "category": "Model Breakdowns",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-07-vanta-iphone-markdown-notes-with-ondevice-ai-and-a-native-gtd-workflow",
       "title": "Vanta: iPhone Markdown notes with on‑device AI and a native GTD workflow",

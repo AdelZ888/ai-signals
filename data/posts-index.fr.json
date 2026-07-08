@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-07T17:20:36.811Z",
+  "generatedAt": "2026-07-08T10:12:50.222Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-08-tarit-rust-vmm-hypervisor-and-lightweight-orchestrator-for-self-hosted-ai-agent-sandboxes",
+      "title": "Tarit : hyperviseur rust-vmm et orchestrateur léger pour sandboxes d'agents IA auto‑hébergés (contexte UK)",
+      "date": "2026-07-08",
+      "excerpt": "Présentation et guide pratique pour équipes réduites — Tarit combine primitives rust‑vmm et un orchestrateur minimal pour exécuter sandboxes VM rapides destinées à agents IA auto‑hébergés. Vérifier localement les performances via le QUICKSTART avant tout déploiement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-08-tarit-rust-vmm-hypervisor-and-lightweight-orchestrator-for-self-hosted-ai-agent-sandboxes.jpg",
+      "tags": [
+        "Tarit",
+        "rust-vmm",
+        "hyperviseur",
+        "sandbox",
+        "IA",
+        "orchestration",
+        "auto-hébergement",
+        "sécurité"
+      ],
+      "sources": [
+        "https://github.com/instavm/tarit"
+      ],
+      "category": "Model Breakdowns",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-07-vanta-iphone-markdown-notes-with-ondevice-ai-and-a-native-gtd-workflow",
       "title": "Vanta : notes Markdown iPhone avec IA locale et workflow GTD natif",
