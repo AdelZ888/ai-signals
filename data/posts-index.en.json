@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T10:59:00.847Z",
+  "generatedAt": "2026-07-09T17:36:17.434Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-09-ved-test-running-a-self-hosted-offline-voice-assistant-on-a-12gb-class-consumer-gpu",
+      "title": "Ved-Test: Running a Self-hosted Offline Voice Assistant on a 12GB-class Consumer GPU",
+      "date": "2026-07-09",
+      "excerpt": "Step-by-step guide to Ved-Test on GitHub for a self-hosted, offline voice assistant. Walk through a 2-4 hour POC, per-endpoint setup, costs and multi-room plans.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-09-ved-test-running-a-self-hosted-offline-voice-assistant-on-a-12gb-class-consumer-gpu.jpg",
+      "tags": [
+        "ved",
+        "voice-assistant",
+        "self-hosted",
+        "offline-ai",
+        "multimodal",
+        "on-device",
+        "llm",
+        "home-automation"
+      ],
+      "sources": [
+        "https://github.com/Krish6190/Ved-Test"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

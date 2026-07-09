@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T10:59:00.848Z",
+  "generatedAt": "2026-07-09T17:36:17.437Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-09-ved-test-running-a-self-hosted-offline-voice-assistant-on-a-12gb-class-consumer-gpu",
+      "title": "Ved-Test : exécuter un assistant vocal auto-hébergé hors-ligne sur un GPU grand public (~12 Go)",
+      "date": "2026-07-09",
+      "excerpt": "Guide pas à pas pour le dépôt GitHub Ved-Test (https://github.com/Krish6190/Ved-Test) : comment évaluer et démarrer un proof‑of‑concept d’assistant vocal auto‑hébergé et hors‑ligne. Vérifiez toujours le README du dépôt pour les commandes et fichiers exacts.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-09-ved-test-running-a-self-hosted-offline-voice-assistant-on-a-12gb-class-consumer-gpu.jpg",
+      "tags": [
+        "Ved-Test",
+        "assistant-vocal",
+        "auto-hébergé",
+        "hors-ligne",
+        "GPU",
+        "POC",
+        "IA",
+        "développeurs"
+      ],
+      "sources": [
+        "https://github.com/Krish6190/Ved-Test"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-07-08-tarit-rust-vmm-hypervisor-and-lightweight-orchestrator-for-self-hosted-ai-agent-sandboxes",
