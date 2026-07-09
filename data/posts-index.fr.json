@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-08T10:12:50.222Z",
+  "generatedAt": "2026-07-09T10:59:00.848Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-09-jamdesk-ai-score-chrome-extension-triage-ai-readability-issues-in-documentation",
+      "title": "Analyse pratique de l’extension JamDesk « AI Score » (Chrome) — triage des problèmes de lisibilité AI dans la doc",
+      "date": "2026-07-09",
+      "excerpt": "Analyse et recommandations pour petites équipes : la fiche publique sur le Chrome Web Store confirme l’existence de l’extension JamDesk « AI Score ». Traitez son score comme un signal de triage — utile pour prioriser des tests humains et des runs d’agents — mais pas comme une preuve suffisante pour appliquer automatiquement des modifications en production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-09-jamdesk-ai-score-chrome-extension-triage-ai-readability-issues-in-documentation.jpg",
+      "tags": [
+        "AI",
+        "documentation",
+        "chrome-extension",
+        "triage",
+        "small-teams",
+        "sécurité",
+        "ops",
+        "agent"
+      ],
+      "sources": [
+        "https://chromewebstore.google.com/detail/jamdesk-ai-score/mhihkkgpcbmapmojnakhjfhjmiagkhlj"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-08-tarit-rust-vmm-hypervisor-and-lightweight-orchestrator-for-self-hosted-ai-agent-sandboxes",
       "title": "Tarit : hyperviseur rust-vmm et orchestrateur léger pour sandboxes d'agents IA auto‑hébergés (contexte UK)",
