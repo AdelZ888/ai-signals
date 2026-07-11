@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-11T09:28:33.327Z",
+  "generatedAt": "2026-07-11T16:04:33.984Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-11-reproduce-and-extend-brendenehlersdiplomacy-ai-quick-reproducible-diplomacy-agent-runs-and-artifact-collection",
+      "title": "Reproduire et étendre brendenehlers/diplomacy-ai : exécutions rapides et reproductibles d'agents Diplomacy avec collecte d'artéfacts",
+      "date": "2026-07-11",
+      "excerpt": "Guide pas à pas (contexte Royaume‑Uni) pour cloner et exécuter les démos de brendenehlers/diplomacy-ai, sauvegarder des logs reproductibles, collecter les historiques de coups et comparer des configurations d'agents.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-11-reproduce-and-extend-brendenehlersdiplomacy-ai-quick-reproducible-diplomacy-agent-runs-and-artifact-collection.jpg",
+      "tags": [
+        "IA",
+        "reproductibilité",
+        "Python",
+        "agents",
+        "diplomacy",
+        "développement",
+        "petite-équipe"
+      ],
+      "sources": [
+        "https://github.com/brendenehlers/diplomacy-ai"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-07-11-skillsaw-linter-for-files-that-steer-ai-coding-agents",
       "title": "Skillsaw : linter pour les fichiers qui pilotent des agents IA",
