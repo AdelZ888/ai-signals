@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-07-10T17:24:32.205Z",
+  "generatedAt": "2026-07-11T09:28:33.324Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-11-skillsaw-linter-for-files-that-steer-ai-coding-agents",
+      "title": "Skillsaw: Linter for files that steer AI coding agents",
+      "date": "2026-07-11",
+      "excerpt": "Open-source linter for files that steer AI coding agents (skills, CLAUDE.md). It flags vague instructions, contradictions, embedded secrets, and can auto-fix many issues.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-11-skillsaw-linter-for-files-that-steer-ai-coding-agents.jpg",
+      "tags": [
+        "agents",
+        "linting",
+        "developer-tools",
+        "ci",
+        "ops",
+        "security"
+      ],
+      "sources": [
+        "https://skillsaw.org/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-07-10-sveltechatkit-sveltekit-based-ai-chat-ui-with-interchangeable-openai-dify-and-n8n-adapters",
       "title": "SvelteChatKit: SvelteKit-based AI chat UI with interchangeable OpenAI, Dify and n8n adapters",

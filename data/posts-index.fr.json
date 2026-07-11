@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-07-10T17:24:32.208Z",
+  "generatedAt": "2026-07-11T09:28:33.327Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-11-skillsaw-linter-for-files-that-steer-ai-coding-agents",
+      "title": "Skillsaw : linter pour les fichiers qui pilotent des agents IA",
+      "date": "2026-07-11",
+      "excerpt": "Skillsaw est un linter open-source ciblé sur les fichiers texte qui pilotent des agents de développement (skills, plugins, CLAUDE.md, AGENTS.md). Il détecte langage vague, contradictions, « attention dead zones » et problèmes structurels, et propose des corrections automatisées déterministes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-11-skillsaw-linter-for-files-that-steer-ai-coding-agents.jpg",
+      "tags": [
+        "AI",
+        "outillage",
+        "lint",
+        "agents",
+        "CI",
+        "skillsaw",
+        "sécurité",
+        "devops"
+      ],
+      "sources": [
+        "https://skillsaw.org/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-10-sveltechatkit-sveltekit-based-ai-chat-ui-with-interchangeable-openai-dify-and-n8n-adapters",
       "title": "SvelteChatKit : UI de chat IA basée sur SvelteKit — guide pratique",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-10T17:24:32.268Z",
+  "generatedAt": "2026-07-11T09:28:33.339Z",
   "items": [
+    {
+      "id": "https://skillsaw.org/",
+      "title": "Skillsaw: Lints the files that steer your AI coding agents",
+      "link": "https://skillsaw.org/",
+      "summary": "Article URL: https://skillsaw.org/ Comments URL: https://news.ycombinator.com/item?id=48776718 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-03T16:13:25.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-07-11T09:28:33.306Z",
+      "file": "content/posts/2026-07-11-skillsaw-linter-for-files-that-steer-ai-coding-agents.md",
+      "fileFr": "content/posts/fr/2026-07-11-skillsaw-linter-for-files-that-steer-ai-coding-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1397,
+      "wordsFr": 1102
+    },
     {
       "id": "https://github.com/kristofers322/SvelteChatKit",
       "title": "SvelteChatKit: Provider agnostic AI chat UI for OpenAI, Dify, n8n, and others",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1341
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47365599",
-      "title": "Show HN: A 3-line wrapper that enforces deterministic security for AI agents",
-      "link": "https://news.ycombinator.com/item?id=47365599",
-      "summary": "If you are building AI agents with frameworks like browser-use, LangChain, or OpenClaw, you've likely hit the \"blast radius\" problem. A misconfigured prompt or hallucination can cause an agent to navigate to a phishing domain, expose an API key, or confidently claim a task succeeded when it actually clicked a disabled button. The standard fix right now is \"LLM-as-a-judge\"—taking a screenshot after the fact and askin…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-03-13T15:14:40.000Z",
-      "score": 222,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-14T08:33:05.850Z",
-      "file": "content/posts/2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions.md",
-      "fileFr": "content/posts/fr/2026-03-14-predicate-secure-3-5-line-python-wrapper-for-fail-closed-deterministic-pre-and-post-verification-of-ai-agent-actions.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1545,
-      "wordsFr": 1369
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
       "title": "OpenAI rolls out GPT-5.6 after government green light — and announces ‘ChatGPT Work’",
       "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
@@ -5071,18 +5071,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-09T17:00:00.000Z",
       "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://skillsaw.org/",
-      "title": "Skillsaw: Lints the files that steer your AI coding agents",
-      "link": "https://skillsaw.org/",
-      "summary": "Article URL: https://skillsaw.org/ Comments URL: https://news.ycombinator.com/item?id=48776718 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-03T16:13:25.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -5146,18 +5134,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48601097",
-      "title": "Ask HN: What is the coolest tech progress outside AI?",
-      "link": "https://news.ycombinator.com/item?id=48601097",
-      "summary": "AI and agents are taking up most of the oxygen lately. What recent non-AI technology progress are you excited about, and why? Comments URL: https://news.ycombinator.com/item?id=48601097 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-19T17:47:05.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
       "id": "https://jacobee.netlify.app/",
       "title": "Show HN: Jacobi–IDE for Abaqus subroutine with analytical tests and AI diagnosis",
       "link": "https://jacobee.netlify.app/",
@@ -5179,18 +5155,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-06-22T18:27:57.000Z",
       "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.scmp.com/tech/article/3356117/huawei-chips-refine-deepseek-model-major-leap-chinas-ai-self-reliance",
-      "title": "Huawei chips refine DeepSeek model in major leap for China's AI self-reliance",
-      "link": "https://www.scmp.com/tech/article/3356117/huawei-chips-refine-deepseek-model-major-leap-chinas-ai-self-reliance",
-      "summary": "Article URL: https://www.scmp.com/tech/article/3356117/huawei-chips-refine-deepseek-model-major-leap-chinas-ai-self-reliance Comments URL: https://news.ycombinator.com/item?id=48600938 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-19T17:33:36.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -7160,6 +7124,94 @@
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "score": 86.98,
       "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "title": "Separating signal from noise in coding evaluations",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "score": 61.76,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-09T20:22:28.000Z",
+      "score": 57.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "source": "Google AI Blog",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-07T08:54:00.000Z",
+      "score": 55.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "score": 54.46,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "title": "AI agents are not your “coworkers”",
+      "link": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-06-29T18:00:00.000Z",
+      "score": 54.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "score": 50.71,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
+      "title": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+      "link": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
+      "summary": "Apple said in a Friday lawsuit that OpenAI’s nascent hardware business is “rotten to its core.”",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-10T22:54:16.000Z",
+      "score": 47.57,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-07-11T09:16:30.483Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders…"
     },
     {
       "id": "https://cognition.com/blog/frontier-code",
