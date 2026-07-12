@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-11T16:04:33.984Z",
+  "generatedAt": "2026-07-12T09:52:07.097Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-12-flurryports-mcp-redesign-making-polling-payloads-agents-will-use",
+      "title": "Refonte MCP de FlurryPORT : rendre le polling utile pour les agents IA",
+      "date": "2026-07-12",
+      "excerpt": "Expériences de FlurryPORT montrant que les agents de codage ignorent les surfaces MCP/stdio trop maigres. Ajoutez des résumés humains, actions explicites, métadonnées de quota/burst et conservation des signatures de webhook pour augmenter l'utilisation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-12-flurryports-mcp-redesign-making-polling-payloads-agents-will-use.jpg",
+      "tags": [
+        "IA",
+        "MCP",
+        "webhooks",
+        "FlurryPORT",
+        "provenance",
+        "développement",
+        "startups",
+        "UK"
+      ],
+      "sources": [
+        "https://blog.spill.coffee/p/trust-the-harbor-pilot"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 5
+    },
     {
       "slug": "2026-07-11-reproduce-and-extend-brendenehlersdiplomacy-ai-quick-reproducible-diplomacy-agent-runs-and-artifact-collection",
       "title": "Reproduire et étendre brendenehlers/diplomacy-ai : exécutions rapides et reproductibles d'agents Diplomacy avec collecte d'artéfacts",
