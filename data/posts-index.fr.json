@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T09:52:07.097Z",
+  "generatedAt": "2026-07-12T16:16:51.201Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-07-12-reproducing-the-neutrality-project-release-01-pipeline-to-assess-ai-political-neutrality",
+      "title": "Reproduire la Release 01 du Neutrality Project : pipeline pour évaluer la neutralité politique des IA",
+      "date": "2026-07-12",
+      "excerpt": "Guide pour reproduire la Release 01 du Neutrality Project : exécuter des modèles sur 6 axes politiques, mesurer moyennes par axe, taux de refus et intervalles de confiance à 95 %.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-12-reproducing-the-neutrality-project-release-01-pipeline-to-assess-ai-political-neutrality.jpg",
+      "tags": [
+        "neutralité",
+        "benchmark",
+        "pipeline",
+        "modèles",
+        "reproductibilité",
+        "sécurité",
+        "audit"
+      ],
+      "sources": [
+        "https://neutralityproject.org/results.html"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-07-11-reproduce-and-extend-brendenehlersdiplomacy-ai-quick-reproducible-diplomacy-agent-runs-and-artifact-collection",

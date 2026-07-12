@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T09:52:07.094Z",
+  "generatedAt": "2026-07-12T16:16:51.198Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-12-reproducing-the-neutrality-project-release-01-pipeline-to-assess-ai-political-neutrality",
+      "title": "Reproducing the Neutrality Project Release 01: pipeline to assess AI political neutrality",
+      "date": "2026-07-12",
+      "excerpt": "Guide to reproduce the Neutrality Project Release 01: run 18 models on six political axes, record per-axis means, refusal rates, and 95% confidence intervals.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-12-reproducing-the-neutrality-project-release-01-pipeline-to-assess-ai-political-neutrality.jpg",
+      "tags": [
+        "ai",
+        "benchmarking",
+        "neutrality",
+        "ethics",
+        "evaluation",
+        "mlops",
+        "tutorial",
+        "open-data"
+      ],
+      "sources": [
+        "https://neutralityproject.org/results.html"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-11-reproduce-and-extend-brendenehlersdiplomacy-ai-quick-reproducible-diplomacy-agent-runs-and-artifact-collection",
