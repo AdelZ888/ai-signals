@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T11:18:48.200Z",
+  "generatedAt": "2026-07-13T17:20:31.321Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-13-set-up-chatbotx-locally-3-hour-guide-to-a-self-hosted-ai-marketing-flow",
+      "title": "Installer ChatbotX en local : guide 3 heures pour un flux marketing IA auto‑hébergé",
+      "date": "2026-07-13",
+      "excerpt": "Checklist pratique pour lancer une instance développeur de ChatbotX, configurer un flux minimal de capture de leads (accueil → contact → webhook), tester des intégrations et évaluer la préparation à la production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-13-set-up-chatbotx-locally-3-hour-guide-to-a-self-hosted-ai-marketing-flow.jpg",
+      "tags": [
+        "ChatbotX",
+        "self-hosting",
+        "IA",
+        "guide",
+        "développeurs",
+        "lead-capture"
+      ],
+      "sources": [
+        "https://github.com/ChatbotXIO/ChatbotX"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
