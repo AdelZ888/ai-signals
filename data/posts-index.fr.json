@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:07:38.603Z",
+  "generatedAt": "2026-07-14T16:38:15.289Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "SOCIETY",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-14-embed-a-stateful-ai-agent-in-flutter-with-memex-labdartagentcore-and-lifecycle-hooks",
+      "title": "Intégrer un agent d'IA stateful dans Flutter avec memex-lab/dart_agent_core et hooks de cycle de vie",
+      "date": "2026-07-14",
+      "excerpt": "Guide pratique pour ajouter un agent d'IA stateful à des applications Flutter avec memex-lab/dart_agent_core. Apprenez la planification, l'appel d'outils, le streaming de sorties partielles et la délégation à des sous-agents.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-14-embed-a-stateful-ai-agent-in-flutter-with-memex-labdartagentcore-and-lifecycle-hooks.jpg",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Agents",
+        "IA",
+        "stateful",
+        "memex-lab",
+        "dart_agent_core"
+      ],
+      "sources": [
+        "https://github.com/memex-lab/dart_agent_core"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

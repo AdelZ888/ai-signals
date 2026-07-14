@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-14T10:07:38.614Z",
+  "generatedAt": "2026-07-14T16:38:15.349Z",
   "items": [
+    {
+      "id": "https://github.com/memex-lab/dart_agent_core",
+      "title": "Show HN: Dart_agent_core – Run AI agents in Flutter apps with lifecycle hooks",
+      "link": "https://github.com/memex-lab/dart_agent_core",
+      "summary": "Article URL: https://github.com/memex-lab/dart_agent_core Comments URL: https://news.ycombinator.com/item?id=48758624 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-02T09:14:29.000Z",
+      "score": 151.93,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-14T16:38:15.269Z",
+      "file": "content/posts/2026-07-14-embed-a-stateful-ai-agent-in-flutter-with-memex-labdartagentcore-and-lifecycle-hooks.md",
+      "fileFr": "content/posts/fr/2026-07-14-embed-a-stateful-ai-agent-in-flutter-with-memex-labdartagentcore-and-lifecycle-hooks.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1526,
+      "wordsFr": 1451
+    },
     {
       "id": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
       "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1059
     },
     {
-      "id": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
-      "title": "Bringing the power of Personal Intelligence to more people",
-      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
-      "summary": "We're expanding Personal Intelligence across AI Mode in Search, the Gemini app and Gemini in Chrome.",
-      "source": "Google AI Blog",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-17T16:00:00.000Z",
-      "score": 144,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-17T16:15:57.791Z",
-      "file": "content/posts/2026-03-17-how-to-pilot-personal-intelligence-for-small-teams-across-ai-mode-in-search-the-gemini-app-and-chrome.md",
-      "fileFr": "content/posts/fr/2026-03-17-how-to-pilot-personal-intelligence-for-small-teams-across-ai-mode-in-search-the-gemini-app-and-chrome.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1595,
-      "wordsFr": 1320
-    },
-    {
       "id": "https://declaw.ai/blog/credentials-agents-can-never-read",
       "title": "Letting Untrusted AI Agents Use Credentials They Can Never Read",
       "link": "https://declaw.ai/blog/credentials-agents-can-never-read",
@@ -5095,18 +5095,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-09T09:40:36.000Z",
       "score": 166.21,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.09713",
-      "title": "Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction",
-      "link": "https://arxiv.org/abs/2607.09713",
-      "summary": "arXiv:2607.09713v1 Announce Type: new Abstract: A key step toward autonomous industrial operation is the ability to create and reconfigure control policies from natural-language requirement specifications, with minimal or no manual redesign. In this setting, policy generation by AI agents can be a credible path when paired with a plant-aware validator (e.g., a digital twin) that can check generated candidate actions before execution. However, practical deployment is constrained by inference latency and compute footprint: large cloud-based models are often too slow, opaque, or data-sensitive for edge closed-loop use. This work investigates whether a compact Small Language Model (SLM) can be retrained for control reasoning and embedded in a validator-guided correction loop. We use a Qwen2.5-1.5B model aligned via Group Relative Policy Optimization (GRPO), combined with (i) an action agent, (ii) a symbolic/digital-twin-style validation layer, and (iii) a reprompting agent that iteratively steers outputs toward valid actions. In randomized thermal-control simulations (30 experiments with 500 steps each), the framework achieves 91.5% average action-alignment accuracy (86.3%--100% across cases) at 3.84\\,s mean inference latency. Under symbolic re-mapping, it maintains a 95% in-range rate, indicating robust physical regulation despite reduced token-level agreement. These results suppo",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-07-14T04:00:00.000Z",
-      "score": 158.82,
       "status": "queued"
     },
     {
@@ -5338,6 +5326,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+      "title": "Spotify is now an AI chatbot, too",
+      "link": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+      "summary": "This is what the “Talk to Spotify” chatbox (left) looks like on the homepage. | Image: Spotify Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the chatbot by typing your request in the familiar AI text box, or by selecting the mic symbol and speaking. Amazon Music introduced a similar feature last year when it integrated Alexa Plus into the service. Spotify's chatbot goes a step beyond providing AI-powered recommendations and general trivia, however, because it references your playlists, favor … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-14T15:47:36.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://onewill.ai/blog/2026/stealing-50-years-of-database-ideas-for-ai-agents/",
       "title": "Stealing 50 Years of Database Ideas for AI Agents",
       "link": "https://onewill.ai/blog/2026/stealing-50-years-of-database-ideas-for-ai-agents/",
@@ -5347,18 +5347,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-01T15:59:20.000Z",
       "score": 152.02,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/memex-lab/dart_agent_core",
-      "title": "Show HN: Dart_agent_core – Run AI agents in Flutter apps with lifecycle hooks",
-      "link": "https://github.com/memex-lab/dart_agent_core",
-      "summary": "Article URL: https://github.com/memex-lab/dart_agent_core Comments URL: https://news.ycombinator.com/item?id=48758624 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-02T09:14:29.000Z",
-      "score": 151.93,
       "status": "queued"
     },
     {
@@ -5479,6 +5467,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-08T15:32:49.000Z",
       "score": 146.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.oodle.ai/product/agent-observability",
+      "title": "Show HN: Oodle.ai – $10 per million agent traces",
+      "link": "https://www.oodle.ai/product/agent-observability",
+      "summary": "Hi HN, we're Kiran and Vijay! Over the past two years, we have built a columnar storage engine for observability: logs, metrics, and traces. Today, it's exciting for us to show what we've built on top of that foundation: LLM Agent Observability. Given how non-deterministic agents are, storing all traces without sampling was critical for us. But these traces tend to be in the MBs, sometimes GBs - we needed to store them inexpensively. We also needed the queries and analyses to be fast. To meet both these goals, we store them in S3 in our own parquet-like file format, and query them using AWS Lambda. Since we process each span of every trace, instead of running LLM-based evals on each, we first analyze them using deterministic techniques. We detect tool failures, retries, loops, abnormal token usage, latency regressions, schema violations, sentiment, and other production signals. We've written more about the approach here: https://blog.oodle.ai/you-cant-sample-your-way-to-reliable-a... The combination of our own engine, no sampling, and deterministic processing before LLM-for-evals allows us to price at $10 per million traces, provide sub-second p99 query latency, and have healthy margins. Before building this, we used Langfuse for our own agent observability, which was 6x more expensive. Still super early, and rough around some edges, we would love your questions and feedback! C",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-14T14:36:28.000Z",
+      "score": 145.74,
       "status": "queued"
     },
     {
@@ -5794,18 +5794,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/",
-      "title": "Why AI tokens will send your enterprise cloud bill sky-high again",
-      "link": "https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/",
-      "summary": "Article URL: https://www.zdnet.com/article/why-ai-tokens-will-send-enterprise-cloud-bill-sky-high/ Comments URL: https://news.ycombinator.com/item?id=48647103 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-23T16:01:39.000Z",
-      "score": 131.79,
-      "status": "queued"
-    },
-    {
       "id": "https://www.visualbuild.me",
       "title": "Show HN: Use AI once to build the automation, then run it with $0 in AI",
       "link": "https://www.visualbuild.me",
@@ -5923,18 +5911,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-13T09:09:07.000Z",
       "score": 125.88,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48647045",
-      "title": "Ask HN: Best prompt to show that AI isn't ready to take over",
-      "link": "https://news.ycombinator.com/item?id=48647045",
-      "summary": "Claude: please give me a list of famous cars named after fish, like the Plymouth Barracuda for example. Comments URL: https://news.ycombinator.com/item?id=48647045 Points: 4 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-23T15:56:42.000Z",
-      "score": 125.87,
       "status": "queued"
     },
     {
@@ -6247,6 +6223,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-02T14:57:04.000Z",
       "score": 118.7,
+      "status": "queued"
+    },
+    {
+      "id": "https://agent-coherence.dev/blog/silent-data-loss-taxonomy/",
+      "title": "The silent-data-loss taxonomy: four ways an AI agent's write disappears",
+      "link": "https://agent-coherence.dev/blog/silent-data-loss-taxonomy/",
+      "summary": "Article URL: https://agent-coherence.dev/blog/silent-data-loss-taxonomy/ Comments URL: https://news.ycombinator.com/item?id=48907757 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-14T14:46:46.000Z",
+      "score": 118.44,
       "status": "queued"
     },
     {
@@ -6874,6 +6862,18 @@
       "status": "queued"
     },
     {
+      "id": "https://agentic.tracebit.com/context-bombs/",
+      "title": "Context Bombs: stopping AI attackers in their tracks",
+      "link": "https://agentic.tracebit.com/context-bombs/",
+      "summary": "Article URL: https://agentic.tracebit.com/context-bombs/ Comments URL: https://news.ycombinator.com/item?id=48907610 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-14T14:36:20.000Z",
+      "score": 103.64,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.05690",
       "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents",
       "link": "https://arxiv.org/abs/2607.05690",
@@ -7184,6 +7184,38 @@
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "score": 98.82,
       "status": "queued"
+    },
+    {
+      "id": "https://github.com/Dream-Mosaic/orbital-pai",
+      "title": "Show HN: Orbital PAI a personal AI assistant",
+      "link": "https://github.com/Dream-Mosaic/orbital-pai",
+      "summary": "It's a personal assistant I've been working on for myself and my house. So it's very much designed around my wants but I think it's pretty cool. A not cool thing is it's using mostly cloud AI services but that just lets me work on it quickly without dealing with what local models to run problem. I also think it should be easy to hack, so if you wanted to run local models, change the interface or just use the interfa…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-14T15:28:55.000Z",
+      "score": 162,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-07-14T16:14:08.072Z",
+      "failureReason": "validation issues: FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms."
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.09713",
+      "title": "Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction",
+      "link": "https://arxiv.org/abs/2607.09713",
+      "summary": "arXiv:2607.09713v1 Announce Type: new Abstract: A key step toward autonomous industrial operation is the ability to create and reconfigure control policies from natural-language requirement specifications, with minimal or no manual redesign. In this setting, policy generation by AI agents can be a credible path when paired with a plant-aware validator (e.g., a digital twin) that can check generated candidate actions…",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "score": 158.82,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-07-14T16:14:08.072Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The fir…"
     },
     {
       "id": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
@@ -8048,54 +8080,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-06-18T11:44:28.191Z",
       "failureReason": "validation issues: EN: Section \"TL;DR in plain English\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What changed\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Why this matters (for real teams)\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Concrete example: what this looks like in practice\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"What s…"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48528665",
-      "title": "Ask HN: Is anyone building real software with AI agents?",
-      "link": "https://news.ycombinator.com/item?id=48528665",
-      "summary": "I've noticed a pattern where the people who are talking about how impressive their agentic workflows are, always seem to use these workflows to build more AI tooling. Has anyone seen a project built by an agentic workflow that could stand on its own? Comments URL: https://news.ycombinator.com/item?id=48528665 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-14T15:56:52.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-14T16:21:20.719Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48444008",
-      "title": "With Copilot pricing exploding, how to not break the bank with AI coding?",
-      "link": "https://news.ycombinator.com/item?id=48444008",
-      "summary": "What are folks using to optimize spend without handing in too much on quality? Comments URL: https://news.ycombinator.com/item?id=48444008 Points: 2 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-08T11:30:39.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-14T16:21:20.719Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theregister.com/ai-ml/2026/05/26/rogue-states-are-putting-ai-agents-to-work-on-sanctions-evasion/5246210",
-      "title": "Rogue states are putting AI agents to work on sanctions evasion",
-      "link": "https://www.theregister.com/ai-ml/2026/05/26/rogue-states-are-putting-ai-agents-to-work-on-sanctions-evasion/5246210",
-      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/26/rogue-states-are-putting-ai-agents-to-work-on-sanctions-evasion/5246210 Comments URL: https://news.ycombinator.com/item?id=48283035 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-26T17:40:28.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-06-14T10:43:41.610Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }
