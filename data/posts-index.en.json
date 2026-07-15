@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:56:11.174Z",
+  "generatedAt": "2026-07-15T16:30:05.031Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-15-geospatial-foundation-models-adaptation-strategies-and-llm-orchestration-for-satellite-imagery",
+      "title": "Geospatial Foundation Models: adaptation strategies and LLM orchestration for satellite imagery",
+      "date": "2026-07-15",
+      "excerpt": "How Geospatial Foundation Models let teams skip costly pretraining: compare finetuning vs vision–language zero‑shot, and see how LLMs can orchestrate imagery analysis.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-15-geospatial-foundation-models-adaptation-strategies-and-llm-orchestration-for-satellite-imagery.jpg",
+      "tags": [
+        "geospatial",
+        "geospatial-foundation-models",
+        "pretraining",
+        "vision-language",
+        "finetuning",
+        "LLM-orchestration",
+        "MLOps",
+        "agentic-reasoning"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2607.12177"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-14-alleged-requests-for-unreleased-apple-prototypes-in-openai-interviews-actions-hiring-hardware-and-security-teams-should-take",

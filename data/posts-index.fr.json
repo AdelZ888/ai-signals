@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:56:11.176Z",
+  "generatedAt": "2026-07-15T16:30:05.034Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-15-geospatial-foundation-models-adaptation-strategies-and-llm-orchestration-for-satellite-imagery",
+      "title": "GeoFMs et orchestration par LLM : prototype pratique pour équipes réduites",
+      "date": "2026-07-15",
+      "excerpt": "Guide pratique en français pour prototyper une chaîne d'analyse d'images satellitaires en s'appuyant sur des Geospatial Foundation Models (GeoFMs) et un LLM orchestrateur. Explications simples d'abord, puis détails techniques et checklist de mise en production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-15-geospatial-foundation-models-adaptation-strategies-and-llm-orchestration-for-satellite-imagery.jpg",
+      "tags": [
+        "GeoFM",
+        "vision par ordinateur",
+        "IA géospatiale",
+        "LLM",
+        "opérations ML",
+        "prototype"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2607.12177"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
     },
     {
       "slug": "2026-07-14-alleged-requests-for-unreleased-apple-prototypes-in-openai-interviews-actions-hiring-hardware-and-security-teams-should-take",
