@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-14T16:38:15.286Z",
+  "generatedAt": "2026-07-15T09:56:11.174Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-15-egress-proxy-credential-injection-keeping-vault-secrets-out-of-ai-agent-sandboxes",
+      "title": "Egress-proxy credential injection: keeping vault secrets out of AI agent sandboxes",
+      "date": "2026-07-15",
+      "excerpt": "Store secrets in a write-only vault, expose only placeholder references inside agent VMs, and let an external egress proxy attach real credentials to outbound requests.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-15-egress-proxy-credential-injection-keeping-vault-secrets-out-of-ai-agent-sandboxes.jpg",
+      "tags": [
+        "security",
+        "agents",
+        "credentials",
+        "vault",
+        "egress-proxy",
+        "sandboxing",
+        "firecracker",
+        "declaw"
+      ],
+      "sources": [
+        "https://declaw.ai/blog/credentials-agents-can-never-read"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-14-alleged-requests-for-unreleased-apple-prototypes-in-openai-interviews-actions-hiring-hardware-and-security-teams-should-take",
       "title": "Alleged requests for unreleased Apple prototypes in OpenAI interviews — actions hiring, hardware and security teams should take",

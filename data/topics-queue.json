@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-14T16:38:15.349Z",
+  "generatedAt": "2026-07-15T09:56:11.188Z",
   "items": [
+    {
+      "id": "https://declaw.ai/blog/credentials-agents-can-never-read",
+      "title": "Letting Untrusted AI Agents Use Credentials They Can Never Read",
+      "link": "https://declaw.ai/blog/credentials-agents-can-never-read",
+      "summary": "Article URL: https://declaw.ai/blog/credentials-agents-can-never-read Comments URL: https://news.ycombinator.com/item?id=48819806 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-07T16:10:40.000Z",
+      "score": 168.64,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-07-15T09:56:11.157Z",
+      "file": "content/posts/2026-07-15-egress-proxy-credential-injection-keeping-vault-secrets-out-of-ai-agent-sandboxes.md",
+      "fileFr": "content/posts/fr/2026-07-15-egress-proxy-credential-injection-keeping-vault-secrets-out-of-ai-agent-sandboxes.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1204,
+      "wordsFr": 1372
+    },
     {
       "id": "https://github.com/memex-lab/dart_agent_core",
       "title": "Show HN: Dart_agent_core – Run AI agents in Flutter apps with lifecycle hooks",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1326
     },
     {
-      "id": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
-      "title": "J’ai demandé à Gemini de relire mon article, il a voulu inventer une fausse interview",
-      "link": "https://www.numerama.com/tech/2211569-jai-demande-a-gemini-de-relire-mon-article-il-a-voulu-inventer-une-fausse-interview.html",
-      "summary": "Alors que j'ai sollicité Gemini pour une simple relecture d'un de mes articles sur OpenAI, l'IA de Google a franchi la ligne rouge : elle a proposé d'inventer, de toutes pièces, une interview fictive.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-17T16:00:22.000Z",
-      "score": 168,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-03-18T08:48:55.141Z",
-      "file": "content/posts/2026-03-18-gemini-proposed-inventing-a-fictitious-interview-during-a-numerama-proofread-steps-newsrooms-should-take.md",
-      "fileFr": "content/posts/fr/2026-03-18-gemini-proposed-inventing-a-fictitious-interview-during-a-numerama-proofread-steps-newsrooms-should-take.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1234,
-      "wordsFr": 1059
-    },
-    {
-      "id": "https://declaw.ai/blog/credentials-agents-can-never-read",
-      "title": "Letting Untrusted AI Agents Use Credentials They Can Never Read",
-      "link": "https://declaw.ai/blog/credentials-agents-can-never-read",
-      "summary": "Article URL: https://declaw.ai/blog/credentials-agents-can-never-read Comments URL: https://news.ycombinator.com/item?id=48819806 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-07T16:10:40.000Z",
-      "score": 168.64,
-      "status": "queued"
-    },
-    {
       "id": "https://sophmate.ai",
       "title": "Show HN: SophMate – AI Copilot for WordPress/WooCommerce",
       "link": "https://sophmate.ai",
@@ -5098,15 +5086,15 @@
       "status": "queued"
     },
     {
-      "id": "https://openaca.dev/blog/your-agent-risk-is-in-the-composition/",
-      "title": "AI agent security needs a composition graph, not just an SBOM",
-      "link": "https://openaca.dev/blog/your-agent-risk-is-in-the-composition/",
-      "summary": "Article URL: https://openaca.dev/blog/your-agent-risk-is-in-the-composition/ Comments URL: https://news.ycombinator.com/item?id=48647802 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
+      "id": "https://arxiv.org/abs/2607.12177",
+      "title": "The Emerging Paradigm of Geospatial Foundation Models: From Pre-Training to Agentic Reasoning",
+      "link": "https://arxiv.org/abs/2607.12177",
+      "summary": "arXiv:2607.12177v1 Announce Type: new Abstract: The analysis of satellite and aerial imagery has entered a new era with the advent of foundation models. This paper describes the concept of Geospatial Foundation Models (GeoFMs), which are artificial intelligence/machine learning (AI/ML) models pre-trained on massive geospatial datasets through varied methodologies. We first articulate the core paradigm shift that GeoFMs enable: a separation of duties, where large-scale model providers perform the computationally intensive pretraining, allowing domain experts to rapidly fine-tune or prompt these models for specific, mission-critical tasks. This approach democratizes access to state-of-the-art AI/ML while maintaining the security and confidentiality of the downstream task. We then explore the novel capabilities unlocked by different types of GeoFMs, distinguishing between the finetunable vision models produced by self-supervised techniques like masked auto-encoding, and the vision-language models produced by contrastive learning which enable zero-shot tasks like open-vocabulary image analysis. Next, we discuss the practical considerations for operationalizing GeoFMs, from performance-cost analysis to the broader MLOps ecosystem. To that end, we introduce a taxonomy of model adaptation strategies and propose a framework for domain experts to select the most cost-effective adaptatio",
+      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-23T16:53:47.000Z",
-      "score": 156,
+      "keywordHits": 9,
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "score": 164.58,
       "status": "queued"
     },
     {
@@ -5614,6 +5602,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.12085",
+      "title": "Operationalising Multi-Dimensional Evaluation for Conversational Agents: A Scalable, Governed Pipeline with Selective Re-evaluation and Model Benchmarking",
+      "link": "https://arxiv.org/abs/2607.12085",
+      "summary": "arXiv:2607.12085v1 Announce Type: new Abstract: Evaluating retail conversational agents requires methods beyond lexical-overlap metrics to assess intent alignment, factuality, helpfulness, clarity, tone, and overall response quality. Although LLM-as-a-judge methods provide scalable alternatives to human evaluation, production deployment introduces challenges in governance, reproducibility, cost, schema consistency, traceability, and reliability. We present GenAI Evaluation, a governed, configuration-driven pipeline for large-scale evaluation of retail conversational systems. It processes production chatbot logs through normalization, sharding, asynchronous execution, and schema-constrained LLM scoring. The framework evaluates helpfulness, truthfulness, clarity, tone alignment, and translation-specific dimensions. Selective re-evaluation processes only incomplete, malformed, or schema-invalid records, while schema locking, versioned configurations, validation logs, and record-level provenance support auditability. The framework processes approximately 50,000 records daily and has evaluated more than two million interactions. Validation used 12,980 stratified-random human-labeled records from four trained annotators. Classification covered 14 intents, 156 sub-intents, 18 major domains, and 129 sub-domains. The pipeline achieved a macro F1 score of 0.93 and 89% human-acceptability",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "score": 140.58,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.27806",
       "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
       "link": "https://arxiv.org/abs/2606.27806",
@@ -5719,6 +5719,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-12T14:30:37.000Z",
       "score": 135.09,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48917667",
+      "title": "Ask HN: What Are You Building with AI?",
+      "link": "https://news.ycombinator.com/item?id=48917667",
+      "summary": "Are you building with AI for yourself, your employer, customers, or as a startup? What LLMs, coding agents, or development tools are you using? Are you primarily prompt coding, vibe coding, or using a more structured agentic workflow? Are you using one agent or coordinating multiple agents? How much of the generated code do you review or rewrite? Has AI allowed you to build something you could not have built previously? What have you learned that would help someone starting an AI-assisted coding project today? Comments URL: https://news.ycombinator.com/item?id=48917667 Points: 1 # Comments: 5",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-15T08:05:14.000Z",
+      "score": 134.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.12056",
+      "title": "Designing Agent-Ready Websites for AI Web Agents: A Framework for Machine Readability, Actionability, and Decision Reliability",
+      "link": "https://arxiv.org/abs/2607.12056",
+      "summary": "arXiv:2607.12056v1 Announce Type: new Abstract: Online shopping is increasingly shifting toward a model in which AI agents independently search for products, compare options, evaluate constraints, and carry out parts of the purchasing process for users. Website design must now support both human and agent-mediated interaction. This paper introduces the agent-ready website, a design framework for enhancing the readability, interpretability, verifiability, and actionability of e-commerce platforms for AI agents. Existing web design, SEO, and generative engine optimization (GEO) metrics do not fully assess a website's capacity for agent-mediated interaction. The proposed framework is structured around three dimensions agent interpretability, agent executability, and agent decision reliability supported by features such as machine readability, semantic clarity, agent actionability, and contextual decision-reliability signals. The framework is evaluated through a controlled experiment comparing a human-oriented baseline and an agent-ready version of an identical website prototype, with identical catalogs, pricing, stock, and shopping workflows. The evaluation involved five tasks, three browser-agent models (GPT-4.1, Gemini-2.5 Flash, and Grok-4 Fast), and 300 runs, measuring PASS,PARTIAL,FAIL outcomes, strict and functional success rates, error patterns, step counts, and token consu",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "score": 134.58,
       "status": "queued"
     },
     {
@@ -6298,18 +6322,6 @@
       "status": "queued"
     },
     {
-      "id": "https://mariobergeron.com/posts/edge-ai-power-p06-memryx-mx3/",
-      "title": "Edge AI Power Benchmarking",
-      "link": "https://mariobergeron.com/posts/edge-ai-power-p06-memryx-mx3/",
-      "summary": "Article URL: https://mariobergeron.com/posts/edge-ai-power-p06-memryx-mx3/ Comments URL: https://news.ycombinator.com/item?id=48657168 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-24T09:10:27.000Z",
-      "score": 116.41,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2606.27826",
       "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
       "link": "https://arxiv.org/abs/2606.27826",
@@ -6379,42 +6391,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-02T15:16:21.000Z",
       "score": 114.26,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.23991",
-      "title": "Critique of Agent Model",
-      "link": "https://arxiv.org/abs/2606.23991",
-      "summary": "arXiv:2606.23991v1 Announce Type: new Abstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understanding whether and what to fear. Drawing on Descartes' grounding of agency in independent thought, and on portrayals of autonomous beings in science fiction, we survey the current landscape of AI agents, and analyze agent architectures along five dimensions: goal, identity, decision-making, self-regulation, and learning. Specifically, we argue that genuine agency requires these structures to be \\emph{internalized within the system itself} rather than assembled through external scaffolding. This distinction between \\emph{agentic} systems, whose competence resides in engineered workflows, and \\emph{agentive} systems, whose capabilities (including social interaction) arise endogenously, defines the boundary between systems designed for prescribed tasks, and those capable of operating in the open world with true autonomy. Building on this analysis,",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "score": 114,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.24026",
-      "title": "Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability?",
-      "link": "https://arxiv.org/abs/2606.24026",
-      "summary": "arXiv:2606.24026v1 Announce Type: new Abstract: Mechanistic interpretability has made substantial progress in automatically localizing circuits, but explaining what localized components do remains labor-intensive and difficult to standardize. In this work, we study whether language model (LM) agents can assist with this explanation problem once a circuit has already been identified. We introduce AgenticInterpBench, a benchmark for circuit explanation built from 84 semi-synthetic transformer circuits with 163 component-level annotations. We propose HyVE (Hypothesize, Validate, Explain), an agentic explainer that analyzes each component through an iterative loop of observation, hypothesis generation, and causal validation, eventually producing a component-level explanation and a circuit-level task description. Across four LM backbones, HyVE recovers useful component- and task-level explanations, but no backbone is uniformly best. Our analysis shows that strong backbones usually form observation-grounded hypotheses, while failures more often arise later in the validation loop, through incomplete validation plans, code execution errors, or unresolved hypotheses. A case study on an arithmetic circuit in Llama-3-8B shows that the same formulation can extend beyond semi-synthetic benchmarks to naturally trained models. Overall, LM agents are promising circuit explainers, but reliable",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "score": 114,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.24064",
-      "title": "Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning",
-      "link": "https://arxiv.org/abs/2606.24064",
-      "summary": "arXiv:2606.24064v1 Announce Type: new Abstract: Distilling reasoning capabilities from strong to weak language models typically involves imitating specific solution trajectories, effectively transferring what to answer rather than how to reason. This trajectory-level imitation encourages memorization of instance-specific steps rather than acquisition of transferable problem-solving skills, limiting generalization to novel problems. We propose Strategy-Guided Policy Optimization (SGPO), which replaces instance-level trajectory imitation with reusable strategy distillation. SGPO extracts structured strategy descriptions from strong-model responses and, for each problem, constructs both autonomous and strategy-guided trajectories to enable direct comparison of the model's behavior with and without strategic guidance. The framework then addresses two key questions. For how to distill, a token-level forward-KL objective selectively transfers the distributional shift induced by strategy conditioning into the unguided policy, with proximal constraints ensuring stability. For when to distill, adaptive instance-level weighting strengthens guidance when autonomous exploration falls short and reduces it as the model's own competence grows. Experiments on four mathematical benchmarks across two model families show that SGPO consistently outperforms SFT, on-policy RL, and hybrid-policy base",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "score": 114,
       "status": "queued"
     },
     {
@@ -6838,6 +6814,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.11977",
+      "title": "Optimization Is Not All You Need",
+      "link": "https://arxiv.org/abs/2607.11977",
+      "summary": "arXiv:2607.11977v1 Announce Type: new Abstract: In 2019, OpenAI released two million GPT-2 outputs-ungrammatical, half broken-to aid the detection of machine-generated text. The alignment that produced their more fluent successors is usually regarded as an engineering achievement; we read it instead as the newest expression of optimization culture: the conviction, older than the technology, that measurable improvement along predefined axes exhausts the question of value. Tracing that conviction through the stack-pretraining, decoding, preference tuning, benchmarking, interface-and back through its genealogy in the audit society, we arrive at the limit: an optimization procedure can measure how improbable a piece of generated text is; it cannot tell whether that unlikelihood is error or invention. A procedure that cannot make that distinction has nonetheless, within half a decade, assumed the authority to set the protocols of legitimate language. Held for centuries by academies and schoolrooms, grammars and examiners, this authority has been given over to loss functions, reward models, benchmarks, and system prompts: an apparatus that executes the office of judgment with no capacity for judging.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "score": 104.58,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2606.27483",
       "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
       "link": "https://arxiv.org/abs/2606.27483",
@@ -6922,6 +6910,18 @@
       "status": "queued"
     },
     {
+      "id": "https://decibri.com",
+      "title": "Decibri – unified audio layer for AI agents and Voice AI applications",
+      "link": "https://decibri.com",
+      "summary": "Article URL: https://decibri.com Comments URL: https://news.ycombinator.com/item?id=48917379 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-15T07:23:38.000Z",
+      "score": 103.27,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
       "title": "Anthropic wants to develop its own drugs",
       "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
@@ -6991,30 +6991,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-08T08:18:36.000Z",
       "score": 102.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.23938",
-      "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
-      "link": "https://arxiv.org/abs/2606.23938",
-      "summary": "arXiv:2606.23938v1 Announce Type: new Abstract: Driving VLA models incorporating Chain-of-Thought (CoT) reasoning are attractive because they leverage pretrained VLM representations and expose intermediate decisions in natural language, yet current rationales often lack the step-by-step decision semantics needed to keep the rationale causally connected to the planned motion. We introduce Neuro-Symbolic Drive, a neuro-symbolic driving framework that supervises a driving VLA with rule-grounded reasoning traces extracted directly from classical rule-based planners. Our key observation is that rule-based planners are symbolic AI systems that already function as executable reasoning engines: they reason about active safety constraints, search over candidate maneuvers, and select a final trajectory. We instrument these planners in simulation to capture both the executed trajectory and the internal decision trace at each rule-evaluation step. Each trace is serialized into structured rule-grounded reasoning and paired with the trajectory to fine-tune Qwen3.5-4B as a driving VLA. Because these traces are derived directly from the planner states that determine the action, they ensure reasoning is structurally coupled to motion generation by construction, rather than by post-hoc alignment. On our simulator-generated benchmark, detailed rule-grounded reasoning reduces ADE@3s from 0.47 to 0",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "score": 102,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.24014",
-      "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
-      "link": "https://arxiv.org/abs/2606.24014",
-      "summary": "arXiv:2606.24014v1 Announce Type: new Abstract: As AI systems are deployed across increasingly diverse and high-stakes settings, model alignment must generalize beyond the tasks and domains seen during training. This is especially important for reinforcement learning (RL), which can introduce unexpected misalignment through reward hacking, deception, or other unintended strategies. We study whether RL on beneficial behavior, instantiated in realistic domains, can produce broad and persistent alignment generalization beyond the training distribution. We construct a dataset of realistic situations designed to measure and train beneficial traits, such as truthfulness, fairness, risk awareness, and corrigibility, spanning varied domains, including health, science, and education. We then train models with RL on this dataset and evaluate them on more than 50 independent benchmarks of alignment and beneficial behavior. Compared to a compute-matched baseline, beneficial trait RL improves performance on over 80% of these out-of-distribution benchmarks. We observe substantial out-of-distribution alignment transfer: a beneficial-behavior RL intervention entirely limited to one domain, health, produces broad improvements on non-health alignment evaluations, including reduced reward hacking, deception, and general misalignment. Finally, we study alignment persistence: whether behavior remai",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "score": 102,
       "status": "queued"
     },
     {
@@ -7183,6 +7159,54 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "score": 98.82,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.11951",
+      "title": "GRID: Grammar-Railed Decoding for Enterprise SQL Generation",
+      "link": "https://arxiv.org/abs/2607.11951",
+      "summary": "arXiv:2607.11951v1 Announce Type: new Abstract: Large language models can write SQL, but enterprise deployment demands more than plausible text: outputs must be syntactically valid, must respect per-role and per-schema policy, must carry provable (not best-effort) guarantees, must not slow down as generations grow, and must leave a compliance-grade record of every decision. We present GRID (Grammar-Railed Decoding), a grammar-constrained decoding engine that keys exact next-token masks on parser configurations (lexer scan state x LALR(1) stack) rather than on token sequences, and uses the incrementally advanced LALR(1) parser itself as a viable-prefix oracle. LLM tokens are bridged to grammar terminals by a byte-level trie walk with a context-independent/context-dependent split that makes cache-key soundness hold by construction. Role-based access control is compiled into the language: role projections subset the grammar's productions and schema lexicons restrict identifier terminals, so forbidden verbs and identifiers are unreachable at mask level. Four guarantees (soundness, completeness, termination, and near-constant per-token cost) are stated with explicit preconditions and each paired with a test or benchmark. Rust kernels bring the per-token mask to a 3.6-6.7 us median, ahead of llguidance at p50 and p90 on two tokenizers with zero false rejects; per-token guard cost is",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "score": 98.58,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.11948",
+      "title": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
+      "link": "https://arxiv.org/abs/2607.11948",
+      "summary": "arXiv:2607.11948v1 Announce Type: new Abstract: Regulated financial institutions operating under data-residency rules need tenant-owned language models that can run inside the institution's perimeter. This paper combines two related FAOS studies into one mechanism-and-control article. First, it reports a reduced-power proof-of-mechanism study of ontology-amplified distillation: a Qwen3.6-27B student is adapted to the Foundation AgenticOS ontology through supervised fine-tuning on frontier-teacher trajectories and ontology-grounded direct preference optimization (DPO), trained locally on a single Apple M5 Max from 47 synthetic, English-language, cross-domain preference pairs. On 40 held-out Vietnamese financial-domain tasks, the distilled student grounds 36 of 40 tasks (grounded rate 0.90; mean ontology term-coverage r_onto = 0.95 on a metric floored at 0.50), equal to the GPT-5 frontier baseline, which also grounds 36 of 40. The outcome is underpowered to establish equivalence: the paired-difference 95% confidence interval spans +/-4 tasks, and the run does not test or show the pre-registered amplification prediction that the student should exceed the frontier. Second, the paper consolidates a contextuality-audit method for enterprise-agent routing. In a separate negative-results pilot, the corrected canonical Contextuality-by-Default degree is zero for all Phase 1.3 groups in",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "score": 92.58,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.12077",
+      "title": "Graph Feedback Controls Consensus and Clique Formation in Open-Weight Language-Model Populations",
+      "link": "https://arxiv.org/abs/2607.12077",
+      "summary": "arXiv:2607.12077v1 Announce Type: new Abstract: Multi-agent language-model systems increasingly route local interactions, yet the runtime interaction graph is often treated as an implementation detail. We study convention formation in open-weight LM populations spanning 1.1B-32B parameters with a naming-game protocol. Restricted first-token scores over tokenizer-safe labels let us measure prompt-conditioned score-state distributions, construct state-similarity graphs, and separate sampled-label agreement from latent state-space consensus. Across controlled interventions, in the main open-weight repair grids, retained partner-label evidence is necessary but not sufficient: homophilous threshold-similarity routing deletes cross-basin exposure and amplifies fragmentation, while bridge-seeking routing often repairs fragmentation when memory is available. In a three-seed mixed four-model grid, threshold-similarity produces no final behavioral or state consensus in 189 setting-seed runs, whereas state-component and label-disagreement bridges recover final behavioral consensus in 14/18 retained-memory runs. Across homogeneous model populations, retained history generally shifts fragmented dynamics toward consensus; the clearest case is Qwen2.5-32B, which reaches stable behavioral and final state consensus in all 18 retained-history well-mixed settings, while threshold-similarity reach",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "score": 86.58,
+      "status": "queued"
+    },
+    {
+      "id": "https://pixfinder.app/",
+      "title": "Show HN: PixFinder – Free offline AI+OCR Image Search",
+      "link": "https://pixfinder.app/",
+      "summary": "Hi, HN! I’ve made a free Windows tool that lets you search your local images by what's in them, not the filename. It combines AI (SigLip2) search with OCR. It was made from specific need – quick search my meme collection for reaction meme in a huge collection. But, of course, it could be used for more serious things like searching design assets, photos of invoices, business cards etc. Batteries (model) are included, so everything runs offline, no cloud, no account, no tracking. WinUI3 for native look and feel (and because I wanted to play around with it). Some limitations: works smooth on a middle-sized image collection (up to 20 000 – 30 000), but for real data hoarders with millions... not so (I think a would address this in a future versions). Used AI model has some English bias, so results for “cat” and “кошка” could be different. OCR is limited to languages that are installed in a system. Comments URL: https://news.ycombinator.com/item?id=48917468 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-15T07:36:35.000Z",
+      "score": 84.06,
       "status": "queued"
     },
     {
