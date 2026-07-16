@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-15T16:30:05.031Z",
+  "generatedAt": "2026-07-16T10:04:50.167Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-16-legacy-vpns-vs-hundreds-of-ai-agents-operational-failures-and-identityaware-fixes",
+      "title": "Legacy VPNs vs. Hundreds of AI Agents: Operational Failures and Identity‑Aware Fixes",
+      "date": "2026-07-16",
+      "excerpt": "Legacy VPNs expect long-lived human users. Hundreds of short-lived AI agents can exhaust ports, overload gateways and hide per-agent identity. Practical identity-aware fixes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-16-legacy-vpns-vs-hundreds-of-ai-agents-operational-failures-and-identityaware-fixes.jpg",
+      "tags": [
+        "vpn",
+        "ai-agents",
+        "zero-trust",
+        "ztna",
+        "service-mesh",
+        "mTLS",
+        "networking",
+        "security"
+      ],
+      "sources": [
+        "https://thenewstack.io/unified-access-ai-agents/"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-15-egress-proxy-credential-injection-keeping-vault-secrets-out-of-ai-agent-sandboxes",
       "title": "Egress-proxy credential injection: keeping vault secrets out of AI agent sandboxes",

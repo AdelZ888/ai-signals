@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-15T16:30:05.100Z",
+  "generatedAt": "2026-07-16T10:04:50.181Z",
   "items": [
+    {
+      "id": "https://thenewstack.io/unified-access-ai-agents/",
+      "title": "What happens when your VPN meets 200 AI agents",
+      "link": "https://thenewstack.io/unified-access-ai-agents/",
+      "summary": "Article URL: https://thenewstack.io/unified-access-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=48923046 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-15T16:11:19.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-07-16T10:04:50.150Z",
+      "file": "content/posts/2026-07-16-legacy-vpns-vs-hundreds-of-ai-agents-operational-failures-and-identityaware-fixes.md",
+      "fileFr": "content/posts/fr/2026-07-16-legacy-vpns-vs-hundreds-of-ai-agents-operational-failures-and-identityaware-fixes.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1201,
+      "wordsFr": 1346
+    },
     {
       "id": "https://arxiv.org/abs/2607.12177",
       "title": "The Emerging Paradigm of Geospatial Foundation Models: From Pre-Training to Agentic Reasoning",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1484
     },
     {
-      "id": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
-      "title": "The future of code is exciting and terrifying",
-      "link": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
-      "summary": "Suddenly it seems like everyone's a coder. Or, at the very least, like they play one in the Claude Code app. But even for the seasoned pros, the act of software development is changing fast - many people are writing less code themselves and instead spending their time managing agents and projects. So what does all that change mean, both for the code and the people who make it? Verge subscribers, don't forget you get…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-17T15:16:47.000Z",
-      "score": 144,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-03-19T08:58:31.012Z",
-      "file": "content/posts/2026-03-19-when-agents-replace-boilerplate-shifting-engineering-to-orchestration-testing-and-safety.md",
-      "fileFr": "content/posts/fr/2026-03-19-when-agents-replace-boilerplate-shifting-engineering-to-orchestration-testing-and-safety.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1276,
-      "wordsFr": 1274
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
       "title": "OpenAI finally launches hardware… for Codex",
       "link": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
@@ -5071,18 +5071,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-15T16:00:00.000Z",
       "score": 180,
-      "status": "queued"
-    },
-    {
-      "id": "https://thenewstack.io/unified-access-ai-agents/",
-      "title": "What happens when your VPN meets 200 AI agents",
-      "link": "https://thenewstack.io/unified-access-ai-agents/",
-      "summary": "Article URL: https://thenewstack.io/unified-access-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=48923046 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-15T16:11:19.000Z",
-      "score": 174,
       "status": "queued"
     },
     {
@@ -5806,6 +5794,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.13285",
+      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
+      "link": "https://arxiv.org/abs/2607.13285",
+      "summary": "arXiv:2607.13285v1 Announce Type: new Abstract: The capability of a modern AI agent depends not only on its foundation model but also on its harness, which constructs prompts, manages state, invokes tools, and coordinates execution. As models, APIs, environments, and requirements evolve, the harness must be continually modified. Before such a change can be made, a developer or coding agent must identify all code locations that implement the target behavior. This is difficult because production harnesses are large, tightly coupled, and behaviorally distributed, while modification requests describe what the system should do and repositories are organized by files and modules. Code search, repository indexing, and long-context processing ease inspection, but still leave this behavior-to-code mapping to be recovered by hand. Behavior localization is therefore a central bottleneck in harness evolution. We introduce the Harness Handbook, a behavior-centric representation synthesized automatically from a harness codebase via static analysis and LLM-assisted structuring, linking each behavior to its corresponding source. We also introduce Behavior-Guided Progressive Disclosure (BGPD), which guides agents from high-level behaviors to relevant implementation details and verifies candidate locations against the current source. On diverse modification requests from two open-source harnesse",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "score": 134.21,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.05573",
       "title": "Foundation Models for Automatic CAD Generation",
       "link": "https://arxiv.org/abs/2607.05573",
@@ -6358,6 +6358,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.13115",
+      "title": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
+      "link": "https://arxiv.org/abs/2607.13115",
+      "summary": "arXiv:2607.13115v1 Announce Type: new Abstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence representations under-specify key graph-topological cues. We propose a modular Context-Augmented Prompting framework that enables agentic tool use at inference time: a trained GNN expert model provides a predictive hint with confidence, and a GNN extracts an instance-specific explanatory subgraph (e.g., a subgraph SMILES and an accompanying explanatory paragraph). We evaluate three commonly used SLMs on MUTAG and Tox21 under five prompting configurations ranging from SMILES-only to using all available tools at hand. Across two datasets, enriching prompts with graph-derived context yields substantial accuracy gains, often exceeding 25% relative improvement and up to 74% on Tox21. We further validate the functional relevance of the extracted motifs via a necessity-based edge-drop intervention. Despite the observed gains, a persistent gap remains to specialized GNN models, highlighting both the value and limits of text-conditioned reasoning for molecular structure.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "score": 116.21,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/qualtyco/api-doctor",
       "title": "Show HN: OSS Tests to Fix AI Gen Code. 110 Test for Major API – Supabase, Auth0",
       "link": "https://github.com/qualtyco/api-doctor",
@@ -6874,6 +6886,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.13049",
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "link": "https://arxiv.org/abs/2607.13049",
+      "summary": "arXiv:2607.13049v1 Announce Type: new Abstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spinal cord, remains a primary bottleneck to scalable Embodied AI. Hence, we propose SPINE (Scalable Physical Integration with ageNtic Expertise): an agentic framework for systematically debugging and deploying bimanual robots with minimal robotics expertise. SPINE's harness comprises two orchestrated multi-agent workflows: a profile builder that creates robot-specific context, and a debugger that cycles through diagnosis, repair, and validation until teleoperation works. Across seven DOBOT X-Trainer debugging scenarios, a robotics novice using SPINE outperformed human operators using Claude Code with the same reference materials, but without SPINE's structured workflow, improving operationalization success from 75% to 100% and reducing mean time-to-teleoperation from 16 min 45 s to 13 min 47 s. On AgileX PiPER, a distinct ROS/CAN bimanual arm, SPINE resolved all 10 implanted bugs, versus 9 out of 10 for the expert baseline, in nearly the same amount of time. Together, these results show that SPINE can transfer across bimanual platforms, reduce dependence on expert calibration, and move embodied AI closer to",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "score": 104.21,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.13069",
+      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
+      "link": "https://arxiv.org/abs/2607.13069",
+      "summary": "arXiv:2607.13069v1 Announce Type: new Abstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a black-box, step-level test of premise dependency: we intervene on a single premise by substituting its target predicate with a fresh symbol, re-run the model, and check whether each reasoning step's normalized conclusion (canonical predicate form) changes. We evaluate on ProntoQA, a synthetic multi-hop deductive reasoning benchmark with gold proof trees, where step-level premise dependencies are known. Applied to 50 ProntoQA problems with GPT-4o, our method achieves F1 = 0.806 on detecting proof-tree dependencies (F1 = 0.885 on predicate-determining dependencies; Recall = 100%), significantly outperforming a self-consistency baseline (F1 = 0.343; 95% bootstrap CIs non-overlapping). We further identify that 66% of correctly-solved problems contain at least one aligned step insensitive to a direct proof-tree dependency under consistent substitution -- all involving entity-introduction premises, a documented blind spot of the consistent-substitution evaluator -- a \"right answer, wrong reasoning\" signal invisible to passive methods. All audit certificates, raw outputs, and reproduction scripts are available in a public GitHub repository, and we",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "score": 104.21,
+      "status": "queued"
+    },
+    {
       "id": "https://agentic.tracebit.com/context-bombs/",
       "title": "Context Bombs: stopping AI attackers in their tracks",
       "link": "https://agentic.tracebit.com/context-bombs/",
@@ -7171,42 +7207,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "score": 98.82,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.09739",
-      "title": "Coresets Before Score Sets: Evaluation-Unsupervised Prompt Subset Selection for LLM Benchmarks",
-      "link": "https://arxiv.org/abs/2607.09739",
-      "summary": "arXiv:2607.09739v1 Announce Type: new Abstract: We study LLM benchmark coreset selection: selecting a small subset of prompts over multiple benchmarks whose induced model scores and rankings approximate those obtained from the full benchmark suite. In evaluation-unsupervised benchmark coreset selection (our approach), the selection algorithm uses no model evaluation outcomes, and operates on a fine granularity by producing subsets of prompts over multiple benchmarks rather than producing a sub-collection of entire benchmarks. We use submodular subset selection, and we develop and evaluate many different submodular functions for this purpose, including determinantal point process (DPP) based approaches, submodular mutual information functions, and facility location-based functions. On a new large-scale suite of 35 heterogeneous benchmarks spanning five different capability categories, 18 frontier LLMs, and over 61K prompts, we find that the facility location (FL) function operating exclusively on inexpensive semantic prompt embeddings preserves LLM scores better than twelve separate score-based and diversity-based baselines, across a range of coreset budgets. Moreover, we show our proposed objective is not limited to the evaluation-unsupervised regime: in the setting where only a handful of whole benchmarks must be selected and a large amount of model scores are available, the s",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-14T04:00:00.000Z",
-      "score": 98.82,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11951",
-      "title": "GRID: Grammar-Railed Decoding for Enterprise SQL Generation",
-      "link": "https://arxiv.org/abs/2607.11951",
-      "summary": "arXiv:2607.11951v1 Announce Type: new Abstract: Large language models can write SQL, but enterprise deployment demands more than plausible text: outputs must be syntactically valid, must respect per-role and per-schema policy, must carry provable (not best-effort) guarantees, must not slow down as generations grow, and must leave a compliance-grade record of every decision. We present GRID (Grammar-Railed Decoding), a grammar-constrained decoding engine that keys exact next-token masks on parser configurations (lexer scan state x LALR(1) stack) rather than on token sequences, and uses the incrementally advanced LALR(1) parser itself as a viable-prefix oracle. LLM tokens are bridged to grammar terminals by a byte-level trie walk with a context-independent/context-dependent split that makes cache-key soundness hold by construction. Role-based access control is compiled into the language: role projections subset the grammar's productions and schema lexicons restrict identifier terminals, so forbidden verbs and identifiers are unreachable at mask level. Four guarantees (soundness, completeness, termination, and near-constant per-token cost) are stated with explicit preconditions and each paired with a test or benchmark. Rust kernels bring the per-token mask to a 3.6-6.7 us median, ahead of llguidance at p50 and p90 on two tokenizers with zero false rejects; per-token guard cost is",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "score": 98.58,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11948",
-      "title": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
-      "link": "https://arxiv.org/abs/2607.11948",
-      "summary": "arXiv:2607.11948v1 Announce Type: new Abstract: Regulated financial institutions operating under data-residency rules need tenant-owned language models that can run inside the institution's perimeter. This paper combines two related FAOS studies into one mechanism-and-control article. First, it reports a reduced-power proof-of-mechanism study of ontology-amplified distillation: a Qwen3.6-27B student is adapted to the Foundation AgenticOS ontology through supervised fine-tuning on frontier-teacher trajectories and ontology-grounded direct preference optimization (DPO), trained locally on a single Apple M5 Max from 47 synthetic, English-language, cross-domain preference pairs. On 40 held-out Vietnamese financial-domain tasks, the distilled student grounds 36 of 40 tasks (grounded rate 0.90; mean ontology term-coverage r_onto = 0.95 on a metric floored at 0.50), equal to the GPT-5 frontier baseline, which also grounds 36 of 40. The outcome is underpowered to establish equivalence: the paired-difference 95% confidence interval spans +/-4 tasks, and the run does not test or show the pre-registered amplification prediction that the student should exceed the frontier. Second, the paper consolidates a contextuality-audit method for enterprise-agent routing. In a separate negative-results pilot, the corrected canonical Contextuality-by-Default degree is zero for all Phase 1.3 groups in",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "score": 92.58,
       "status": "queued"
     },
     {
