@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T10:04:50.167Z",
+  "generatedAt": "2026-07-16T16:26:33.255Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-16-traceforce-yc-s26-agent-and-browser-extension-to-monitor-ai-apps-and-map-mcp-endpoints-on-company-devices",
+      "title": "Traceforce (YC S26): Agent and browser extension to monitor AI apps and map MCP endpoints on company devices",
+      "date": "2026-07-16",
+      "excerpt": "Install Traceforce's agent + browser extension on a small set of devices to map AI apps and their MCP endpoints, see devices in ~30 minutes, and run mcp-xray.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-16-traceforce-yc-s26-agent-and-browser-extension-to-monitor-ai-apps-and-map-mcp-endpoints-on-company-devices.jpg",
+      "tags": [
+        "traceforce",
+        "ai-security",
+        "endpoint-security",
+        "mcp",
+        "mcp-xray",
+        "yc-s26",
+        "show-hn",
+        "startup"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=48936384"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-07-15-egress-proxy-credential-injection-keeping-vault-secrets-out-of-ai-agent-sandboxes",

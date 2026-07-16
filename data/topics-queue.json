@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-16T10:04:50.181Z",
+  "generatedAt": "2026-07-16T16:26:33.326Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=48936384",
+      "title": "Show HN: Traceforce (YC S26) – Secure AI apps, one device at a time",
+      "link": "https://news.ycombinator.com/item?id=48936384",
+      "summary": "Hey HN, we’re Xia and Varun, the founders of Traceforce (https://www.traceforce.ai/). Traceforce provides visibility and control over AI apps such as ChatGPT, Claude etc directly on all devices (laptops, sandboxes, virtual machines) by discovering not just which apps are being used but also how they are connected to other data sources via MCPs. We also have an open-source dynamic MCP pentesting tool https://github.c…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-16T16:03:26.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-16T16:26:33.238Z",
+      "file": "content/posts/2026-07-16-traceforce-yc-s26-agent-and-browser-extension-to-monitor-ai-apps-and-map-mcp-endpoints-on-company-devices.md",
+      "fileFr": "content/posts/fr/2026-07-16-traceforce-yc-s26-agent-and-browser-extension-to-monitor-ai-apps-and-map-mcp-endpoints-on-company-devices.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1504,
+      "wordsFr": 1428
+    },
     {
       "id": "https://thenewstack.io/unified-access-ai-agents/",
       "title": "What happens when your VPN meets 200 AI agents",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1387
     },
     {
-      "id": "https://news.ycombinator.com/item?id=47426730",
-      "title": "Show HN: A 30-minute course to get up to speed on how AI agents work",
-      "link": "https://news.ycombinator.com/item?id=47426730",
-      "summary": "9 short lessons, ~60 lines of Python. Each adds one concept — tool calling, memory, state, policy gates, self-scheduling — until you see the full agent stack. The core loop is just a while loop. That's AgentExecutor. That's what the frameworks do. Runs in the browser (Pyodide). No setup, no signup. Mock mode works instantly, or plug in a free Groq API key for live LLM responses. Open source: https://github.com/ahumb…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-18T15:09:07.000Z",
-      "score": 186,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-19T16:03:09.022Z",
-      "file": "content/posts/2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python.md",
-      "fileFr": "content/posts/fr/2026-03-19-tour-of-agents-9-lesson-browser-run-course-that-implements-a-minimal-ai-agent-in-60-lines-of-python.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "beginner",
-      "timeToImplementMinutes": 30,
-      "wordsEn": 1411,
-      "wordsFr": 1484
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
       "title": "OpenAI finally launches hardware… for Codex",
       "link": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
@@ -5095,6 +5095,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-09T09:40:36.000Z",
       "score": 166.21,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/totalumlabs/ai-app-builder-open",
+      "title": "Show HN: Open-source AI app builder you can embed into your own SaaS",
+      "link": "https://github.com/totalumlabs/ai-app-builder-open",
+      "summary": "We just open sourced a first class our AI web app builder. Instead of using another hosted AI coding platform, you can fork this project and build your own AI app builder, fully customized and running under your own brand. It includes: Next.js + TypeScript AI chat with streaming Artifact generation File explorer Code editor Live preview Databases Sandboxes to be used by AI agents Versions Responsive production-ready UI And a lot more... The only required dependency is the Totalum API, which exposes the AI generation engine through a simple REST API. You can replace or extend the backend however you want. It's designed for developers, SaaS companies and agencies that want to: Build their own AI app builder Add AI app generation to an existing product Create a white label AI builder Customize every part of the UI and workflow Self host the frontend We use the same frontend in production, and decided to open source it so others don't have to start from scratch. Repository: https://github.com/totalumlabs/ai-app-builder-open I'd love feedback, feature requests, or ideas from the HN community. Comments URL: https://news.ycombinator.com/item?id=48936225 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-16T15:52:43.000Z",
+      "score": 162,
       "status": "queued"
     },
     {
@@ -5338,6 +5350,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/chattymin/PokeTokenBar",
+      "title": "Show HN: PokeTokenBar – Raise a Pokémon with your AI token usage",
+      "link": "https://github.com/chattymin/PokeTokenBar",
+      "summary": "Article URL: https://github.com/chattymin/PokeTokenBar Comments URL: https://news.ycombinator.com/item?id=48936171 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-16T15:48:35.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://onewill.ai/blog/2026/stealing-50-years-of-database-ideas-for-ai-agents/",
       "title": "Stealing 50 Years of Database Ideas for AI Agents",
       "link": "https://onewill.ai/blog/2026/stealing-50-years-of-database-ideas-for-ai-agents/",
@@ -5347,6 +5371,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-01T15:59:20.000Z",
       "score": 152.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/democr-ai/democrai",
+      "title": "Show HN: Democr.ai – self-hosted agentic AI runtime with audit and RBAC",
+      "link": "https://github.com/democr-ai/democrai",
+      "summary": "Article URL: https://github.com/democr-ai/democrai Comments URL: https://news.ycombinator.com/item?id=48935704 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-16T15:13:52.000Z",
+      "score": 151.03,
       "status": "queued"
     },
     {
@@ -5446,6 +5482,30 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "title": "Why teens deserve access to safe AI",
+      "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "link": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "summary": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing the app just months later. Over the past few years, Google has been adding new features to the app to help organize and make sense of your notes, such as the ability to summarize them as AI podcasts, narrated slideshows, and TikTok-style clips. It recently started letting users connect their notebooks to the … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.09076",
       "title": "Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls",
       "link": "https://arxiv.org/abs/2607.09076",
@@ -5467,6 +5527,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-13T16:08:48.000Z",
       "score": 149.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+      "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
+      "link": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+      "summary": "Article URL: https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model Comments URL: https://news.ycombinator.com/item?id=48935687 Points: 8 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-16T15:13:00.000Z",
+      "score": 149.46,
       "status": "queued"
     },
     {
@@ -5734,18 +5806,6 @@
       "status": "queued"
     },
     {
-      "id": "https://tabularis.dev/",
-      "title": "Tabularis: Open-source desktop SQL client your AI agent can use",
-      "link": "https://tabularis.dev/",
-      "summary": "Article URL: https://tabularis.dev/ Comments URL: https://news.ycombinator.com/item?id=48675373 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-25T16:00:13.000Z",
-      "score": 136.68,
-      "status": "queued"
-    },
-    {
       "id": "https://agentmint.net/",
       "title": "Show HN: Agent Legibility Analyzer see if AI shopping agents can read your store",
       "link": "https://agentmint.net/",
@@ -5839,18 +5899,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-07-04T13:35:19.000Z",
       "score": 133.38,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.visualbuild.me",
-      "title": "Show HN: Use AI once to build the automation, then run it with $0 in AI",
-      "link": "https://www.visualbuild.me",
-      "summary": "Automation Skill Builder has the built-in advanced feature to enable recording, parameterized executable generation and verification, and it can work in AI-free mode in consistant manner Comments URL: https://news.ycombinator.com/item?id=48675319 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-25T15:56:20.000Z",
-      "score": 131.49,
       "status": "queued"
     },
     {
@@ -6550,6 +6598,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=48935371",
+      "title": "I'd prefer to avoid AI comments on Reddit and HN",
+      "link": "https://news.ycombinator.com/item?id=48935371",
+      "summary": "We're all experiencing it. Are you replying to AI right now? So I was thinking. The LLMs solve problems. Compulsively. I'm wondering about leaving problems behind in comments that are slightly human-time-consuming. If the comment-replier solves it then blergh you're chatting with AI. If the entity didn't detect the puzzle or couldn't be arsed solving it, then hey maybe you're talking with a real person. Ok, any measure like this is only temporarily effective. I'm trying it out with a reddit thread. Someone replied to me with something unfriendly. And their comment history appears incendiary. Might just be a person, or might be a robot. But I've left a super-basic puzzle (poorly) hidden in my response. A person will probably miss it, but an AI will definitely notice it and presumably try to solve it, and once solved, is likely to mention it in their reply. Perhaps. Note: there is no puzzle in this post. Promise. More just an exploration in strategy. Comments URL: https://news.ycombinator.com/item?id=48935371 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-16T14:48:21.000Z",
+      "score": 111.72,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.08018",
       "title": "Concretized Proposition Prompting Resolves Composition-Knowledge Dichotomy in Large Language Models",
       "link": "https://arxiv.org/abs/2607.08018",
@@ -7147,66 +7207,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "score": 101.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.28696",
-      "title": "COMPASS: Grounding Composition-Intent Guidance in Unified Multimodal Models",
-      "link": "https://arxiv.org/abs/2606.28696",
-      "summary": "arXiv:2606.28696v1 Announce Type: new Abstract: Composition is a high-level visual intent that governs where subjects are placed and how a scene is organized, yet current unified multimodal models remain unreliable at fine-grained composition recognition and struggle to turn such intent into controllable generation. We present COMPASS, the first unified multimodal framework that grounds composition-intent control in a single system spanning both composition perception and composition-guided generation, with a shared expert token $\\tau_c$ as the central intent anchor. On the perception side, COMPASS injects composition expertise into an MoE backbone in a minimally invasive manner and distills the inferred intent into $\\tau_c$. On the generation side, COMPASS reuses $\\tau_c$ as a global conditioning signal that steers the denoising trajectory, effectively converting passive composition analysis into explicit layout control. To support systematic instruction-following composition learning and evaluation at scale, we construct Comp-11, a large-scale dataset with an 11-class taxonomy and reasoning-augmented annotations. Extensive experiments show that COMPASS substantially improves category-level composition understanding and delivers more composition-consistent, prompt-faithful generation than strong baselines.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-30T04:00:00.000Z",
-      "score": 101.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.08774",
-      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
-      "link": "https://arxiv.org/abs/2607.08774",
-      "summary": "arXiv:2607.08774v1 Announce Type: new Abstract: Reliability in large language model (LLM) systems is typically framed as a function of model capability. We challenge this by demonstrating that reliability is significantly influenced by \\emph{inference-time control} -- the computational layer governing task framing and context selection. We introduce \\emph{CogniConsole}, an architectural instantiation that externalizes this control into a structured interface combining programmatic coordination with bounded prompt-based reasoning. Through \\emph{controllability-oriented probes} ($N=489$) in a multi-step interactive environment, we show that increasing structural scaffolding -- from unstructured to fully scaffolded -- \\textbf{systematically reduces output variance and failure rates under a fixed model architecture}. Our results indicate that many observed failure modes, such as context drift and inconsistent constraint adherence, arise from under-specified control rather than insufficient capability. This work provides an empirical basis for treating inference-time control as a first-class abstraction, opening new directions for designing and evaluating LLM systems beyond scaling alone.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-13T04:00:00.000Z",
-      "score": 101.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.09403",
-      "title": "Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review",
-      "link": "https://arxiv.org/abs/2607.09403",
-      "summary": "arXiv:2607.09403v1 Announce Type: new Abstract: Worldbuilding, the construction of coherent fictional worlds, is a foundational task in game design and literary creation. Large Language Models (LLMs) offer new possibilities for automated content generation, but their application to worldbuilding faces three challenges: context explosion that grows linearly with the building process, the tension between creative diversity and content consistency, and the absence of automated quality assurance. This paper presents AutoWorldBuilder, a multi-agent collaborative system that addresses these challenges through five integrated components: a structured concept network with conflict detection; a DAG-based hybrid batch scheduler that groups tasks by semantic locality; a four-layer context compression mechanism achieving approximately 90% token reduction; an iterative review system with specialized Auditor agents that improves proposal pass rates from 42% to over 85%; and a skill-driven agent architecture supporting zero-code extension with differentiated temperature configuration. Two experiments across 20 diverse worldbuilding tasks, using GPT-OSS 120B and DeepSeek v3.2 as LLM backends, demonstrate a 95.0% success rate. The system generated 56-103 self-consistent concepts per world in 18-31 minutes with zero-conflict delivery. The architectural patterns validated here, including layer-as",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-13T04:00:00.000Z",
-      "score": 101.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://neverswipe.ai",
-      "title": "Show HN: Neverswipe – your AI agent dates so you don't swipe",
-      "link": "https://neverswipe.ai",
-      "summary": "Article URL: https://neverswipe.ai Comments URL: https://news.ycombinator.com/item?id=48903487 Points: 3 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-14T07:52:12.000Z",
-      "score": 99.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.09706",
-      "title": "YUKTI: From Natural-Language Situations to Robust, Verifiable Decisions An Uncertainty-Typed Proposition IR, Assumption-Robust Pareto Frontiers, and a Regret Certificate",
-      "link": "https://arxiv.org/abs/2607.09706",
-      "summary": "arXiv:2607.09706v1 Announce Type: new Abstract: Language models turn a worded situation into a numeric plan, and the dominant pipelines (NL4Opt, OptiMUS, ORLM, OR-LLM-Agent) commit to a single objective and point-valued coefficients, then solve once. For decisions that allocate real budget, effort, or clinical attention, that confidence is the failure mode: every objectified number is an assumption, and a plan optimal only if the guesses are exactly right is fragile -- mimicry of computation. YUKTI changes the target of autoformulation. Its representation is a typed-proposition graph whose relationships carry shape priors, coefficient uncertainty, and provenance. YUKTI routes each stage to an exact, nonlinear, or evolutionary solver; couples stages by a distributional Pareto hand-off; and introduces Assumption-Robust Pareto Frontiers (ARPF), resampling assumptions (including structural epsilon-contamination) to score how often each action survives (rho). We prove a bound making rho an exact factor of decision regret, add auditable traceability, and synthesize a benchmark-faithful data foundation when none exists (SRJANA). We validate three ways: under controlled misspecification the robust compromise cuts mean and tail regret by over 90% versus a naive point plan; on a regulated commercial decision we optimize inside a lawful action space and price the downside in euros; and on",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-14T04:00:00.000Z",
-      "score": 98.82,
       "status": "queued"
     },
     {

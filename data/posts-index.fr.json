@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T10:04:50.170Z",
+  "generatedAt": "2026-07-16T16:26:33.257Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-16-traceforce-yc-s26-agent-and-browser-extension-to-monitor-ai-apps-and-map-mcp-endpoints-on-company-devices",
+      "title": "Traceforce (YC S26) : agent et extension pour repérer les applis IA et cartographier les endpoints MCP sur les appareils d’entreprise",
+      "date": "2026-07-16",
+      "excerpt": "Guide pratique (UK) pour démarrer un PoC avec Traceforce : installer l’agent et l’extension navigateur sur quelques postes, vérifier l’apparition des appareils (~30 minutes d’après l’annonce) et utiliser l’outil open‑source mcp‑xray pour scanner des MCP en environnement de test.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-16-traceforce-yc-s26-agent-and-browser-extension-to-monitor-ai-apps-and-map-mcp-endpoints-on-company-devices.jpg",
+      "tags": [
+        "Traceforce",
+        "sécurité",
+        "IA",
+        "MCP",
+        "mcp-xray",
+        "pilot",
+        "privacy",
+        "UK"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=48936384"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
