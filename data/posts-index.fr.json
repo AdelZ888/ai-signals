@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T09:17:42.723Z",
+  "generatedAt": "2026-07-18T16:19:48.077Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "series": "agent-playbook",
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-18-poketokenbar-run-a-local-demo-that-maps-ai-token-counts-to-pokemon-style-states",
+      "title": "PokeTokenBar : démo locale pour mapper les tokens d'IA en états façon Pokémon",
+      "date": "2026-07-18",
+      "excerpt": "Guide compact pour exécuter localement PokeTokenBar — une démo open-source qui transforme le comptage de tokens IA en états visuels façon Pokémon, utile pour petites équipes qui veulent visualiser l'utilisation sans exposer les chiffres de facturation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-18-poketokenbar-run-a-local-demo-that-maps-ai-token-counts-to-pokemon-style-states.jpg",
+      "tags": [
+        "IA",
+        "tokens",
+        "open-source",
+        "démo",
+        "visualisation",
+        "startup",
+        "développement"
+      ],
+      "sources": [
+        "https://github.com/chattymin/PokeTokenBar"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T09:17:42.721Z",
+  "generatedAt": "2026-07-18T16:19:48.081Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-18-poketokenbar-run-a-local-demo-that-maps-ai-token-counts-to-pokemon-style-states",
+      "title": "PokeTokenBar: Run a local demo that maps AI token counts to Pokémon-style states",
+      "date": "2026-07-18",
+      "excerpt": "A compact how-to to run PokeTokenBar locally. This open-source demo maps AI token counts to Pokémon-style states, letting small teams visualize usage without exposing raw billing.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-18-poketokenbar-run-a-local-demo-that-maps-ai-token-counts-to-pokemon-style-states.jpg",
+      "tags": [
+        "PokeTokenBar",
+        "github",
+        "open-source",
+        "ai",
+        "tokens",
+        "gamification",
+        "developer-tools",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/chattymin/PokeTokenBar"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-17-fine-tune-diffusers-format-image-and-short-video-models-with-nvidia-nemo-automodel",
