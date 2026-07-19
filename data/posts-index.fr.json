@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-07-18T16:19:48.077Z",
+  "generatedAt": "2026-07-19T16:04:52.127Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-19-1passwords-browser-integration-lets-claude-autofill-logins-without-exposing-passwords",
+      "title": "L’intégration 1Password permet à Claude d’auto-remplir des identifiants sans exposer les mots de passe",
+      "date": "2026-07-19",
+      "excerpt": "Résumé pratique : Anthropic Claude peut demander à l’extension navigateur 1Password de remplir des identifiants pour accomplir des tâches authentifiées sans recevoir les mots de passe en clair. Guide de mise en place, risques et checklist pour petites équipes et développeurs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-19-1passwords-browser-integration-lets-claude-autofill-logins-without-exposing-passwords.jpg",
+      "tags": [
+        "1Password",
+        "Claude",
+        "Anthropic",
+        "sécurité",
+        "automatisation",
+        "startups",
+        "dev",
+        "browser-extensions"
+      ],
+      "sources": [
+        "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-18-openai-and-work-louder-launch-codex-micro-a-limited-run-button-pad-for-managing-codex-agents",
       "title": "OpenAI et Work Louder lancent Codex Micro — un pavé de boutons en édition limitée pour piloter les agents Codex",
