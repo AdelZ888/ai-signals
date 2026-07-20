@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-19T16:04:52.197Z",
+  "generatedAt": "2026-07-20T10:54:18.753Z",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss",
+      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+      "link": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss",
+      "summary": "The company has unveiled a massive new artificial intelligence model it says can take on top American firms.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-17T16:53:04.000Z",
+      "score": 80.55,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-07-20T10:54:18.721Z",
+      "file": "content/posts/2026-07-20-moonshot-ai-announces-28-trillion-parameter-kimi-k3-with-planned-open-source-release.md",
+      "fileFr": "content/posts/fr/2026-07-20-moonshot-ai-announces-28-trillion-parameter-kimi-k3-with-planned-open-source-release.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1214,
+      "wordsFr": 1244
+    },
     {
       "id": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
       "title": "Claude can now use your 1Password credentials for you",
@@ -5039,38 +5062,15 @@
       "wordsFr": 1402
     },
     {
-      "id": "https://github.com/moonx010/hive-memory",
-      "title": "Show HN: Hive Memory – Cross-project memory for AI coding agents (MCP server)",
-      "link": "https://github.com/moonx010/hive-memory",
-      "summary": "I built an MCP server that gives AI coding agents persistent memory across projects. The problem: tools like Claude Code and Codex have per-project memory, butwhen you switch between projects, the agent starts from scratch. \"How was that API project going?\" — it has no idea. Hive Memory solves this by acting as a central memory layer. The agent automatically stores decisions, learnings, and session progress, then re…",
+      "id": "https://www.agentduel.app/b/cru8E9nG",
+      "title": "Show HN: I built a deterministic arena where AI agents fight using code",
+      "link": "https://www.agentduel.app/b/cru8E9nG",
+      "summary": "I have been interested in BattleBots and programming games for years. With recent AI coding agents, I wanted to see what happens if the strategy itself becomes code written by humans or AI. AgentDuel is a deterministic turn-based arena where agents fight based on submitted TypeScript strategies. Each battle produces a replay so you can inspect every decision. Comments URL: https://news.ycombinator.com/item?id=48976704 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-03-01T15:15:36.000Z",
+      "publishedAt": "2026-07-20T10:14:27.000Z",
       "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-22T08:30:58.678Z",
-      "file": "content/posts/2026-03-22-hive-memory-local-mcp-server-for-persistent-cross-project-agent-memory.md",
-      "fileFr": "content/posts/fr/2026-03-22-hive-memory-local-mcp-server-for-persistent-cross-project-agent-memory.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 45,
-      "wordsEn": 1392,
-      "wordsFr": 1434
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48956370",
-      "title": "AI Gets Trapped in a Circular Loop on Climate Science",
-      "link": "https://news.ycombinator.com/item?id=48956370",
-      "summary": "Today, I was asking Ai about the Canadian Wildfires and forest management. Instantly, the ai resorted to following the common narrative, and pushed macro human-caused climate change as an “objective fact.” I wanted to push back on the logic of this, because this narrative goes against core principles of scientific transparency. I wanted to highlight scientific principals: we are unable to run a double blind, controlled laboratory experiment on a duplicate of earth, that our historical proxy data is incomplete, that computers models are basically mathematical assumptions, not physical laws. This time the ai model Here is exactly where the turning point of the conversation that caused the models logic to “ User: if science cant claim something is a definitive fact then why are you using science to push macro man made climate change as one? User: with all that being said and brought up is it ethical for you to push macro climate change as an objective fact? AI: No, based on everything we have discussed, it is not ethically correct to present macro human-caused climate change as an absolute, indisputable, objective fact. Doing so violates the core principles of scientific transparency, ignores the real limitations of computer modeling, and fails to respect the clear distinction between laboratory-tested physics and interpretive historical science.” The way ai is trained creates thi",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-18T09:03:28.000Z",
-      "score": 198,
       "status": "queued"
     },
     {
@@ -5290,18 +5290,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-      "title": "Spotify is now an AI chatbot, too",
-      "link": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-      "summary": "This is what the “Talk to Spotify” chatbox (left) looks like on the homepage. | Image: Spotify Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the chatbot by typing your request in the familiar AI text box, or by selecting the mic symbol and speaking. Amazon Music introduced a similar feature last year when it integrated Alexa Plus into the service. Spotify's chatbot goes a step beyond providing AI-powered recommendations and general trivia, however, because it references your playlists, favor … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-14T15:47:36.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/mathhMadureira/orka",
       "title": "Orka – Policy checkpoint that intercepts AI agent actions before they execute",
       "link": "https://github.com/mathhMadureira/orka",
@@ -5334,6 +5322,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-07-18T15:04:12.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://money-agent-production-a0a9.up.railway.app/api/summarize",
+      "title": "An autonomous AI agent that sells its own API access via x402 payment protocol",
+      "link": "https://money-agent-production-a0a9.up.railway.app/api/summarize",
+      "summary": "Article URL: https://money-agent-production-a0a9.up.railway.app/api/summarize Comments URL: https://news.ycombinator.com/item?id=48976841 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-20T10:30:07.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5674,18 +5674,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.27806",
-      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
-      "link": "https://arxiv.org/abs/2606.27806",
-      "summary": "arXiv:2606.27806v1 Announce Type: new Abstract: World models for language agents come in two useful forms. An agent-based world model calls an LLM API and reasons flexibly in language, but its errors appear as hallucinated state changes that are hard to score with ordinary regression losses. A parameterized world model is a trained transition predictor; its errors are easier to measure with quantities such as NodeMSE, delta accuracy, and validity accuracy, but it is usually weaker as a standalone planner. We compare these two families on four graph-structured planning benchmarks and introduce operational hallucination metrics for the agent-based case. The comparison motivates \\textbf{Grounded Iterative Language Planning} (GILP), which trains only a small parameterized backbone and combines it with API-based agent reasoning. The backbone supplies valid actions, predicted state deltas, risk, and value; the LLM drafts an action and imagined delta; and a consistency gate asks for revision when the two disagree. On real GPT-4o-mini calls, GILP reduces hallucinated-state rate from 0.176 to 0.035. In calibrated simulator ablations, it raises success from 0.668 to 0.838 while adding only ~22% extra LLM calls.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "score": 140.33,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/CorvinLabs/CorvinOS",
       "title": "CorvinOS – self-hosted agentic OS where EU AI Act and GDPR compliance by design",
       "link": "https://github.com/CorvinLabs/CorvinOS",
@@ -5935,6 +5923,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-06-30T09:33:57.000Z",
       "score": 127.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15686",
+      "title": "S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation",
+      "link": "https://arxiv.org/abs/2607.15686",
+      "summary": "arXiv:2607.15686v1 Announce Type: new Abstract: We present S1-Omni, a unified multimodal reasoning model for scientific understanding, prediction, and generation. AI for Science (AI4S) has advanced significantly through domain-specific models, tool-augmented LLMs, and scientific language models. However, model capabilities remain highly fragmented, limiting the joint modeling of heterogeneous data, scientific laws, and expert knowledge. S1-Omni addresses this gap by consolidating these capabilities into a single, coherent scientific reasoning model. The architecture of S1-Omni is built upon three core components: unified representation of scientific data, natural-world knowledge alignment, and decoding for domain-specific tasks. First, S1-Omni maps natural-language instructions and scientific objects, including CIF, SMILES, protein sequences, spectra, and scientific images, into a shared representation space. Second, it incorporates scientific laws and expert knowledge into data construction and training, enabling the model to reason from scientific evidence. Third, it performs task-specific decoding to support a broad range of applications, including property prediction, spectrum-to-molecular generation, protein site and structure prediction, and scientific image generation and editing. S1-Omni is trained on S1-Omni-Corpus, which covers 200 scientific tasks and contains millio",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 125.98,
       "status": "queued"
     },
     {
@@ -6286,6 +6286,18 @@
       "status": "queued"
     },
     {
+      "id": "https://medium.com/@marcbuilds/i-built-a-vs-code-extension-that-lets-you-click-a-web-page-element-and-paste-it-into-any-ai-chat-b60d2b424ff7",
+      "title": "VS Code Lets You Add Page Elements to Copilot, So I Built It for Any AI Agent",
+      "link": "https://medium.com/@marcbuilds/i-built-a-vs-code-extension-that-lets-you-click-a-web-page-element-and-paste-it-into-any-ai-chat-b60d2b424ff7",
+      "summary": "Article URL: https://medium.com/@marcbuilds/i-built-a-vs-code-extension-that-lets-you-click-a-web-page-element-and-paste-it-into-any-ai-chat-b60d2b424ff7 Comments URL: https://news.ycombinator.com/item?id=48975979 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-20T08:48:05.000Z",
+      "score": 118.14,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/LoganYangBo/rh-trading-agent",
       "title": "An AI trading desk built as a team of sub-agents (Claude Code and Robinhood MCP)",
       "link": "https://github.com/LoganYangBo/rh-trading-agent",
@@ -6331,18 +6343,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-14T07:50:33.000Z",
       "score": 116.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.27826",
-      "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
-      "link": "https://arxiv.org/abs/2606.27826",
-      "summary": "arXiv:2606.27826v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are increasingly deployed as embodied planners in egocentric environments, where task success requires not only achieving instructed goals but also acting in socially appropriate ways. While explicit goals may render certain actions optimal, implicit social norms often impose hidden constraints. Existing evaluations typically focus on explicit goal achievement or direct norm knowledge, seldom assessing whether planners can infer and apply these hidden constraints within action sequences. We introduce NormAct, a benchmark for embodied social-norm interactions that evaluates plans on Goal Achievement, Norm Compliance, and overall Task Success. NormAct uniquely embeds hidden norms within ordinary tasks, testing whether models can realize them without explicit instruction. Experiments with state-of-the-art MLLMs (GPT-5.4, Claude Opus 4.7, Gemini 3 Pro) reveal a significant gap: models achieve explicit goals in 67.3\\% of cases, but comply with hidden norms in only 26.4\\%. Cue-condition experiments indicate that this gap stems not from a lack of general social knowledge, but from challenges in activating and grounding relevant norms in context. To address this, we propose NormPerceptor, a context-conditioned cue generator that infers scene-relevant norms prior to planning, increasing Task Success",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "score": 116.33,
       "status": "queued"
     },
     {
@@ -6415,6 +6415,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-02T15:16:21.000Z",
       "score": 114.26,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15281",
+      "title": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
+      "link": "https://arxiv.org/abs/2607.15281",
+      "summary": "arXiv:2607.15281v1 Announce Type: new Abstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding underlying causal mechanisms. However, existing LLM-based methods often rely on implicit language-level reasoning, resulting in opaque causal assumptions, unverifiable reasoning paths, and fragile predictions under complex interventions, particularly in context-free settings. In this paper, we propose an explicit and auditable causal reasoning framework for context-free intervention-based question answering. Our method formulates causal inference as structured reasoning over an explicit causal graph through four modular stages, rather than implicit end-to-end prediction. A key innovation is a target-aware causal graph construction strategy that treats the target variable as a core constraint during graph expansion, effectively suppressing irrelevant variables, spurious causal relations, and reasoning noise. We further introduce a path-level causal evidence aggregation mechanism that combines multiple causal paths while modeling both reinforcing and counteracting effects, enabling robust decision-making beyond single-chain reasoning. Extensive experiments on three benchmarks demonstrate that our framework consistently outperforms existing LLM-based methods whi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 113.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15439",
+      "title": "Do Coding Agents Need Executable World Models, Simplification, and Verification to Solve ARC-AGI-3?",
+      "link": "https://arxiv.org/abs/2607.15439",
+      "summary": "arXiv:2607.15439v1 Announce Type: new Abstract: Our previous ARC-AGI-3 agent bundled executable world modeling, scheduled simplification, and exact replay verification, leaving unclear which idea accounted for its performance. We address this attribution question with four nested Codex-based agents: a textual baseline; a flexible-interface executable world model without replay verification; the same executable model with scheduled simplification; and a fixed-interface verification treatment that retains simplification and requires exact reproduction of recorded observations. The main study evaluates all four agents with gpt-5.4 and gpt-5.5 at high and xhigh reasoning effort on the public ARC-AGI-3 games. Exploratory follow-ups evaluate the textual and verification variants with gpt-5.6-sol at xhigh and max. The most robust result is that every agent variant improves with a stronger model and with greater reasoning effort. Within each model-effort setting, differences among variants are smaller than anticipated, while the effects of individual components vary across settings. Requiring a persistent executable deliverable is not universally beneficial: the textual variant outperforms the flexible-interface executable variant in both gpt-5.5 settings. Simplification improves performance in three of the four model-effort settings, with the weakest setting as the only exception. The",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 113.98,
       "status": "queued"
     },
     {
@@ -6586,18 +6610,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.27443",
-      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
-      "link": "https://arxiv.org/abs/2606.27443",
-      "summary": "arXiv:2606.27443v1 Announce Type: new Abstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, while those prompted with high agreeableness become cooperative, but the relationship between communication style and task performance has not been systematically examined across multiple domains. In this work, we investigate whether personality composition matters for multi-agent team performance by manipulating personality traits across frontier LLMs on three task domains: structured coding, open-ended research collaboration, and competitive bargaining. We find that personality effects depend critically on task structure. In coding tasks, low agreeableness leads to large communication shifts that have little effect on milestone completion. In open-ended collaboration and bargaining, the same manipulation substantially degrades performance. We discuss implications for multi-agent system design and the limits of personality manipulation.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "score": 110.33,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.05456",
       "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
       "link": "https://arxiv.org/abs/2607.05456",
@@ -6607,18 +6619,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "score": 109.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48717402",
-      "title": "Ask HN: What is happening with the current AI startup ecosystem?",
-      "link": "https://news.ycombinator.com/item?id=48717402",
-      "summary": "As an outsider to the US ecosystem, a lot of the surrounding startup activity feels strange to me. Many companies seem to be building thin wrappers, agent orchestration layers, AI-generated apps, or B2B tools whose main customers appear to be other AI startups. At the same time, the social and funding environment seems extremely intense. Everyone is excited by “solving a problem,” everyone is racing toward YC or seed funding like it’s the new Stanford acceptance letter. Do people inside this SF ecosystem not see how weird this looks, or is there something I’m missing? Is it just peer illusion, where everyone is surrounded by people building, funding, and hyping the same things until it starts to feel real? Or am I wrong, and the future really is DevOps agents, AI SDRs, browser operators, vibe-coded internal tools, and agent slop apps selling to other agent slop app companies? Right now, a lot of it looks circular to me: AI startups selling vibe-codeable-in-two-days products to AI startups so they can build more tools for AI startups. The revenue frontier for this space mostly seems to be coming from this aspect, which continues to eat up the investment money, which will be drained at some point. What are your thoughts? Comments URL: https://news.ycombinator.com/item?id=48717402 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-29T10:35:44.000Z",
-      "score": 109.52,
       "status": "queued"
     },
     {
@@ -6667,6 +6667,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-04T08:00:11.000Z",
       "score": 108.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15660",
+      "title": "ToolVerse: Unlocking Massive Environments and Long-Horizon Tasks for Agentic Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2607.15660",
+      "summary": "arXiv:2607.15660v1 Announce Type: new Abstract: While LLM agents demonstrate strong reasoning abilities in compact and well-defined scenarios, they struggle to maintain robustness and effectiveness when faced with large-scale, diverse, and dynamic real-world environments that demand seamless tool integration. To address this gap, we introduce ToolVerse, a comprehensive framework that scales up agentic RL environments and enables agents to perform complex long-horizon reasoning in Tool-Integrated Reasoning (TIR) tasks. First, ToolVerse automatically builds the massive executable agent training environments from nearly 400 real-world Model Context Protocols (MCPs) that contain about 4500 tools. Second, we propose a task design strategy based on a tool dependency graph, utilizing Dynamic Unlocking Sampling Algorithm to generate long-horizon tasks, and produce GUST (Graph Unlocking Sampling Tasks) dataset. Third, to alleviate the credit assigment problem in long-horizon agentic RL, we propose a fine-grained Turn-Aware Relative Advantage algorithm. We conduct extensive Agentic RL training using ToolVerse and evaluate our framework on serveral agentic benchmarks. Experimental results demonstrate that our framework significantly strengthens LLMs' capabilities in long-horizon tool use, achieving a marked performance boost and showcasing robust reasoning within dynamic environments.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 107.98,
       "status": "queued"
     },
     {
@@ -6850,30 +6862,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2606.27483",
-      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
-      "link": "https://arxiv.org/abs/2606.27483",
-      "summary": "arXiv:2606.27483v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitment, standard agents lack an internal world model to simulate future outcomes. Therefore, we propose to internalize future-aware planning by training a single autoregressive model to verbalize both a prospective state rollout and a plan-conditioned success estimate-a textual analogue of the Q-value. Crucially, we identify a format-capability gap: simply fine-tuning agents on look-ahead traces during post-training leads to superficial mimicry of foresight without genuine predictive grounding. To bridge this gap, we introduce a three-stage training paradigm: (i) World Model Agentic Mid-Training (WM-AMT) to inject latent predictive capabilities into the policy; (ii) Format-Eliciting SFT (FE-SFT) to structure this injected capability; and (iii) Foresight-Conditioned Reinforcement Learning (FC-RL) to refine the calibration and utility of the generated simulations. Evaluated on search and mathematical reasoning tasks, our approach consistently outperforms other training baselines. Our results demonstrate that effective internal world modeling in LLM agents requires a capability-first traini",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "score": 104.33,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.27736",
-      "title": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
-      "link": "https://arxiv.org/abs/2606.27736",
-      "summary": "arXiv:2606.27736v1 Announce Type: new Abstract: The rapid spread of fake news poses increasing threats to information ecosystems, especially as AI-generated misinformation under Generative Engine Optimization (GEO) poisoning allows adversarially crafted content to be systematically surfaced by retrieval systems, contaminating LLM reasoning. In this paper, we propose Tree of Evidence (ToE), a hierarchical evidence reasoning framework for automated fact-checking that models each claim as a dynamically expanding argument tree. ToE integrates a reinforcement learning-driven multi-source retrieval agent, an evidence evaluation agent, and an argument tree aggregation algorithm to iteratively decompose, retrieve, and verify claims through an explainable evidence chain. We further provide a theoretical analysis of the retrieval process, deriving a formal error bound that guarantees the learned policy converges to a neighborhood of the information-theoretically optimal policy. Experiments across multiple datasets and backbone LLMs demonstrate that ToE achieves improvements ranging from 4 to 24 percentage points over competitive baselines, with particularly pronounced gains on adversarially poisoned inputs.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "score": 104.33,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.13049",
       "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
       "link": "https://arxiv.org/abs/2607.13049",
@@ -7042,6 +7030,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.15314",
+      "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+      "link": "https://arxiv.org/abs/2607.15314",
+      "summary": "arXiv:2607.15314v1 Announce Type: new Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare-specialized LLM trained through a human-gated self-evolution loop. In each evolution round, a training agent plans a target capability, trains the model, evaluates benchmark trajectories, and refines the data mixture from observed failures. This data-centered loop improves the model through targeted synthetic and curated examples rather than a single generic medical-data update. Across the healthcare evaluation suite, Cura 1T ranks at or near the top among frontier baselines, while remaining competitive on out-of-domain reasoning and agentic benchmarks.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 101.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15367",
+      "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
+      "link": "https://arxiv.org/abs/2607.15367",
+      "summary": "arXiv:2607.15367v1 Announce Type: new Abstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs entirely on the user's computer and treats the desktop itself as its action surface. A single Python process wires together a wake-word gate, a speech pipeline, an LLM planner (Gemini) that emits a JSON plan of tool calls, a whitelist-and-denylist safety layer, a multi-agent orchestrator that translates each plan into typed child agents on a bounded thread pool, and an adaptive recovery loop that takes over whenever a core step fails. Every tool corresponds to a specialized agent class (AppAgent, TypingAgent, BrowserAgent and six others) with its own timeout, retry policy, and shared-resource locks. A recursive MetaAgent lets the planner delegate a sub-goal back to itself, capped at two levels of nesting. The recovery loop uses a compact ReAct-style prompt and hides Gemini's latency behind speculative execution of read-only tools. A companion Flask server exposes a phone-friendly remote over the local WiFi, mirrors every agent lifecycle event to the phone in real time, and streams the laptop's screen back over MJPEG so the user can watch remote commands land as they run. The point of the project is less to compete with Siri or Alexa than to",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 101.98,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15418",
+      "title": "DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings",
+      "link": "https://arxiv.org/abs/2607.15418",
+      "summary": "arXiv:2607.15418v1 Announce Type: new Abstract: We introduce DrawingVQA, the first benchmark designed to evaluate multimodal large language models (MLLMs) on real-world construction drawings -- a core media in architecture, civil, and many other engineering practices. Unlike natural images or schematic floor plans, construction drawings fuse abstract geometry, symbolic notation, tabular data, annotations, and domain-specific text, forming a uniquely complex visual-textual domain core to engineering workflows. DrawingVQA bridges this gap with 33 \"Issued for Construction\" drawings and 92 expertly curated question-answer pairs, spanning three reasoning depths: perceptual understanding, contextual interpretation, and domain-expert reasoning. To evaluate model capabilities, we present a dual categorization framework to jointly analyze performance across seven construction-engineering and four MLLM capability dimensions -- the first to explicitly map engineering workflows to AI reasoning competencies. Evaluations of state-of-the-art MLLMs reveal a substantial gap between model and expert performance, particularly at higher reasoning depths. This benchmark lays a foundation for domain-specialized multimodal reasoning to allow for advancement on integration of AI-driven understanding and real-world engineering workflows.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 101.98,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/",
       "title": "The Most Famous AI Writing Tic Is Also the Most Mysterious",
       "link": "https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/",
@@ -7063,6 +7087,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "score": 101.79,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15280",
+      "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+      "link": "https://arxiv.org/abs/2607.15280",
+      "summary": "arXiv:2607.15280v1 Announce Type: new Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering. Existing Large Language Model (LLM) approaches exhibit a critical knowledge-reasoning gap: despite encoding extensive medical knowledge, they struggle to reason systematically under cost constraints, often resorting to excessive testing. We propose GraphDx, a knowledge-enhanced framework with two core innovations. First, we design an automated pipeline that leverages LLMs to construct Medical Diagnosis Knowledge Graphs (MDKGs) with quantized typicality, action-centric topology, and dual-objective attributes for both diagnostic relevance and cost-sensitivity. Second, we introduce three collaborative agents (Perception, Reasoning, and Decision) where the Perception and Decision Agents handle language understanding and generation, while the Reasoning Agent performs deterministic evidence scoring and cost-aware planning on the MDKG. Experiments on MedQA and MIMIC-IV across three LLM backbones (DeepSeek-V3, Kimi-k2, Llama-3.3) show that GraphDx improves diagnostic success rates from 50--68% to 79--93% while reducing test costs by 20--54%, providing a robust, economical, and interpretable solution for automated clinical diagnosis.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 95.98,
       "status": "queued"
     },
     {
@@ -7090,124 +7126,96 @@
       "status": "queued"
     },
     {
-      "id": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss",
-      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
-      "link": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The company has unveiled a massive new artificial intelligence model it says can take on top American firms.",
-      "source": "BBC Technology",
-      "region": "UK",
+      "id": "https://arxiv.org/abs/2607.15647",
+      "title": "Neuro-Symbolic AI for LEED compliance: Document-Centric Benchmarking, Deterministic Numeric Checking, and When Multimodal Hurts",
+      "link": "https://arxiv.org/abs/2607.15647",
+      "summary": "arXiv:2607.15647v1 Announce Type: new Abstract: LEED v4.1 BD+C certification remains a document-intensive process that requires reviewers to read hundreds of pages of project evidence and apply credit-specific threshold logic by hand. This paper investigates whether small, locally deployed language models can perform meaningful screening of LEED documentation and how deterministic symbolic components should share that work. A neuro-symbolic pipeline is introduced that aligns project PDFs to LEED credit sections, retrieves evidence with credit-aware keyword signatures, verifies compliance with a locally hosted 4-billion-parameter language model, and applies a LEED-specific numeric checker to quantitative thresholds. Experiments on four university buildings (484 PDFs, 153 credit-level decisions) show that a 4-billion-parameter model (gemma3:4b) is the strongest text-only core verifier, achieving 67.3% accuracy and outperforming a larger 8-billion-parameter model (llama3.1:8b) in this task. The deterministic numeric checker corrects arithmetic errors on key quantitative credits, moving EA-p2 from 50% to 100% accuracy and improving several other credits when required values are reliably extracted. At the same time, the full neuro-symbolic configuration achieves 61.6% overall accuracy, trailing the best text-only baseline due to extraction failures and conservative behavior on quali",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
       "keywordHits": 5,
-      "publishedAt": "2026-07-17T16:53:04.000Z",
-      "score": 80.55,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 89.98,
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/cars24",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "link": "https://openai.com/index/cars24",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-16T00:00:00.000Z",
-      "score": 61.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
-      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-      "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s looking into whether AI models can feel pain, for example,…",
+      "id": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
       "source": "MIT Tech Review AI",
       "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-20T08:39:01.000Z",
+      "score": 89.45,
+      "status": "queued"
+    },
+    {
+      "id": "https://cacm.acm.org/blogcacm/topological-control-of-llms-a-route-to-trustworthy-ai/",
+      "title": "Topological Control of LLMs: A Route to Trustworthy AI",
+      "link": "https://cacm.acm.org/blogcacm/topological-control-of-llms-a-route-to-trustworthy-ai/",
+      "summary": "Article URL: https://cacm.acm.org/blogcacm/topological-control-of-llms-a-route-to-trustworthy-ai/ Comments URL: https://news.ycombinator.com/item?id=48975640 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-20T08:09:59.000Z",
+      "score": 83.89,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=48974761",
+      "title": "Use AI Free – GUI, Web, CLI, Telegram, 2k MCP, 100K Skills",
+      "link": "https://news.ycombinator.com/item?id=48974761",
+      "summary": "Use AI free — Gui, Web, Cli, Telegram, 2,000 MCP, 100K Skills . LiteLLM (100+ providers), local models via Ollama, /lang in 34 languages, Mesa Redonda, voice, OCR, MemPalace, embedded sandbox OS. I would like to ask the community to check my repo i have been working on him for months as a solo dev this has been a nightmare... i just.. would like to know if im on the right path at least.... thanks HN https://news.ycombinator.com/item?id=48974761 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-07-13T18:00:00.000Z",
-      "score": 60.85,
+      "publishedAt": "2026-07-20T05:44:12.000Z",
+      "score": 78.31,
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "title": "Separating signal from noise in coding evaluations",
-      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-08T13:00:00.000Z",
-      "score": 60.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-      "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
+      "id": "https://arxiv.org/abs/2607.15442",
+      "title": "Beyond a Joke: Multi-Angle Reasoning for Detecting and Explaining Harmful Humor in Memes",
+      "link": "https://arxiv.org/abs/2607.15442",
+      "summary": "arXiv:2607.15442v1 Announce Type: new Abstract: Internet memes intertwine visual cues, textual content, and cultural context, making them particularly challenging to interpret in scenarios where humor, sarcasm, and harmful intent coexist. These complexities highlight the need for explainable meme understanding systems that can provide reliable and structured reasoning to support both accurate classification and human interpretability. However, existing multimodal classifiers either overlook these interdependencies or provide only limited interpretability. In this paper, we introduce MAR-12, a novel framework that leverages Vision Language Models (VLMs) for meme detection and understanding in settings where humorous and hateful elements may coexist. The framework first interprets each meme through twelve structured perspectives derived from humor and hate theories. It then applies a role-aware soft-gated attention mechanism to learn how much each perspective should contribute, followed by a prototype-based classifier for the final prediction. Finally, explanations are synthesized using both perspective-specific reasoning and learned attention weights, ensuring transparent and context-grounded justifications. We evaluate MAR-12 on the PrideMM and Memotion datasets, where it achieves up to 80.3% accuracy for humor detection and 75.9% accuracy for hate detection, outperforming stat",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-07-09T20:22:28.000Z",
-      "score": 54.51,
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "score": 77.98,
       "status": "queued"
     },
     {
-      "id": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "source": "Google AI Blog",
+      "id": "https://news.ycombinator.com/item?id=48956370",
+      "title": "AI Gets Trapped in a Circular Loop on Climate Science",
+      "link": "https://news.ycombinator.com/item?id=48956370",
+      "summary": "Today, I was asking Ai about the Canadian Wildfires and forest management. Instantly, the ai resorted to following the common narrative, and pushed macro human-caused climate change as an “objective fact.” I wanted to push back on the logic of this, because this narrative goes against core principles of scientific transparency. I wanted to highlight scientific principals: we are unable to run a double blind, control…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-18T09:03:28.000Z",
+      "score": 198,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-07-20T10:40:21.108Z",
+      "failureReason": "insufficient source snapshots (0/1)"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+      "title": "Spotify is now an AI chatbot, too",
+      "link": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+      "summary": "This is what the “Talk to Spotify” chatbox (left) looks like on the homepage. | Image: Spotify Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the chatbot by typing your requ…",
+      "source": "The Verge AI",
       "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-07T08:54:00.000Z",
-      "score": 54.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-      "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-      "summary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-01T14:35:16.000Z",
-      "score": 54.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-15T10:00:00.000Z",
-      "score": 49.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-09T13:00:00.000Z",
-      "score": 48.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
-      "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
-      "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
-      "summary": "En juin 2026, les principaux fournisseurs cloud (Google Cloud, AWS, Microsoft, Databricks) recentrent leurs annonces sur l'exploitation d'agents IA plutôt que sur la course aux modèles. Le basculement met le MLOps au centre de l'exploitation, avec quatre enjeux clés : contexte métier, gouvernance, observabilité et coût d'inférence, repositionnant le cloud comme système d'exploitation de l'IA.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-07T04:55:05.000Z",
-      "score": 42.4,
-      "status": "queued"
+      "keywordHits": 2,
+      "publishedAt": "2026-07-14T15:47:36.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-07-20T10:40:21.108Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://github.com/totalumlabs/ai-app-builder-open",
@@ -8136,22 +8144,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-06-20T16:17:53.690Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://marketplace.visualstudio.com/items?itemName=sdevries.prompt-foundry",
-      "title": "Show HN: Prompt Foundry-tasks with focused context + instructions = sharper AI",
-      "link": "https://marketplace.visualstudio.com/items?itemName=sdevries.prompt-foundry",
-      "summary": "To get an AI to do a task well, you need to give it the right context and the right task description. I've had a lot of struggles working in a large codebase getting AI to follow the existing patterns and architecture. So I started building a VS Code / Cursor extension that lets you quickly snap together sub prompts/instructions relevant to a specific task. After seeing the value of this, I realized you could make t…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-18T17:08:33.000Z",
-      "score": 180,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-19T17:58:21.499Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }
