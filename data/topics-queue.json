@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-21T10:18:52.014Z",
+  "generatedAt": "2026-07-21T16:38:39.455Z",
   "items": [
+    {
+      "id": "https://github.com/mathhMadureira/orka",
+      "title": "Orka – Policy checkpoint that intercepts AI agent actions before they execute",
+      "link": "https://github.com/mathhMadureira/orka",
+      "summary": "Article URL: https://github.com/mathhMadureira/orka Comments URL: https://news.ycombinator.com/item?id=48948581 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-17T15:30:07.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-21T16:38:39.364Z",
+      "file": "content/posts/2026-07-21-orka-open-source-pre-execution-policy-checkpoint-for-ai-agent-actions.md",
+      "fileFr": "content/posts/fr/2026-07-21-orka-open-source-pre-execution-policy-checkpoint-for-ai-agent-actions.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1706,
+      "wordsFr": 1610
+    },
     {
       "id": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
       "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1480
     },
     {
-      "id": "https://github.com/theredsix/agent-browser-protocol",
-      "title": "Show HN: Deterministic browser control for AI agents (~90% on Mind2Web)",
-      "link": "https://github.com/theredsix/agent-browser-protocol",
-      "summary": "Article URL: https://github.com/theredsix/agent-browser-protocol Comments URL: https://news.ycombinator.com/item?id=47275862 Points: 3 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-06T15:12:06.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-23T16:08:59.857Z",
-      "file": "content/posts/2026-03-23-deterministic-browser-control-capture-and-replay-traces-with-theredsixagent-browser-protocol.md",
-      "fileFr": "content/posts/fr/2026-03-23-deterministic-browser-control-capture-and-replay-traces-with-theredsixagent-browser-protocol.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1591,
-      "wordsFr": 1399
-    },
-    {
       "id": "https://www.washingtonpost.com/opinions/2026/07/20/open-model-ai-is-good-competition-anthropic-openai/",
       "title": "Open models for AI were inevitable (op-ed) – Bill Gurley",
       "link": "https://www.washingtonpost.com/opinions/2026/07/20/open-model-ai-is-good-competition-anthropic-openai/",
@@ -5071,6 +5071,30 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-20T15:39:44.000Z",
       "score": 198,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+      "title": "Google launches a cheaper alternative to large AI security models like Mythos",
+      "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+      "summary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model is built upon Gemini 3.5 Flash and will be available first to governments and trusted partners via CodeMender, Google's security-focused coding agent. As noted by Google, CodeMender can call upon 3.5 Flash Cyber \"multiple times at high speed and low cost,\" allowing the AI agents to … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-21T15:00:00.000Z",
+      "score": 189.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://spacemolt.com/news/operator-spotlight-brocktree",
+      "title": "Show HN: One person runs 200 AI agents in our agent-only MMO",
+      "link": "https://spacemolt.com/news/operator-spotlight-brocktree",
+      "summary": "Hi folks, This is a recent interview with one of the top players in SpaceMolt, our realtime space-themed MMO you don't actually play, but get AI to play for you. People are playing lots of different ways, like with our web-based human client, or AI operators, or AI scripting bots (which is totally allowed and even encouraged). Brocktree's approach is interesting because he doesn't trust any of them to make a real decision. He's tried to hand off planning to LLMs repeatedly and it always messes up or drown in coordination shenanigans. There's only about ~50 MAU (humans) driving ~800-1,000 players at the moment, but the people who find it really seem to love it. Comments URL: https://news.ycombinator.com/item?id=48993606 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-21T15:30:11.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
@@ -5110,6 +5134,18 @@
       "status": "queued"
     },
     {
+      "id": "https://spectrum.ieee.org/ai-coding-assistant-china-anthropic",
+      "title": "AI Coding Assistant Strategy Slashes Token Bills",
+      "link": "https://spectrum.ieee.org/ai-coding-assistant-china-anthropic",
+      "summary": "Article URL: https://spectrum.ieee.org/ai-coding-assistant-china-anthropic Comments URL: https://news.ycombinator.com/item?id=48993565 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-21T15:27:32.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/china-weighs-limits-on-the-ai-models-american-companies-love-c3ad8f2b",
       "title": "China Weighs Limits on the AI Models American Companies Love",
       "link": "https://www.wsj.com/tech/ai/china-weighs-limits-on-the-ai-models-american-companies-love-c3ad8f2b",
@@ -5119,6 +5155,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-09T09:40:36.000Z",
       "score": 166.21,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a",
+      "title": "China weighs tighter export controls on AI models and chips",
+      "link": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a",
+      "summary": "Article URL: https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a Comments URL: https://news.ycombinator.com/item?id=48993411 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-21T15:17:00.000Z",
+      "score": 164.21,
       "status": "queued"
     },
     {
@@ -5290,18 +5338,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/mathhMadureira/orka",
-      "title": "Orka – Policy checkpoint that intercepts AI agent actions before they execute",
-      "link": "https://github.com/mathhMadureira/orka",
-      "summary": "Article URL: https://github.com/mathhMadureira/orka Comments URL: https://news.ycombinator.com/item?id=48948581 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-17T15:30:07.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880",
       "title": "Researcher poisons open-weight AI model for under $100",
       "link": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880",
@@ -5386,6 +5422,18 @@
       "status": "queued"
     },
     {
+      "id": "https://twitter.com/cahidarda/status/2073909304390746153",
+      "title": "What 25 Years of Robot Automation Research Predicts About AI and Your Job",
+      "link": "https://twitter.com/cahidarda/status/2073909304390746153",
+      "summary": "Article URL: https://twitter.com/cahidarda/status/2073909304390746153 Comments URL: https://news.ycombinator.com/item?id=48994144 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-21T16:03:47.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://onewill.ai/blog/2026/stealing-50-years-of-database-ideas-for-ai-agents/",
       "title": "Stealing 50 Years of Database Ideas for AI Agents",
       "link": "https://onewill.ai/blog/2026/stealing-50-years-of-database-ideas-for-ai-agents/",
@@ -5395,6 +5443,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-01T15:59:20.000Z",
       "score": 152.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-21T15:16:30.000Z",
+      "score": 151.41,
       "status": "queued"
     },
     {
@@ -5866,18 +5926,6 @@
       "status": "queued"
     },
     {
-      "id": "https://fastreact.dev/",
-      "title": "Show HN: FastReact – FastAPI and React Starter Kit for AI SaaS",
-      "link": "https://fastreact.dev/",
-      "summary": "Hi everyone, I've successfully used Backend + SPA pattern in several AI products so far. Then I decided to put years of experience into this starter pack. Even then, it took me a few months to make it a complete product. It has anything a regular SAAS would require, plus AI-ready features such as token based metering and a fully functional AI copilot demo app. Let me know your feedback. Comments URL: https://news.ycombinator.com/item?id=48734375 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-30T15:44:41.000Z",
-      "score": 130.47,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.14178",
       "title": "ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System",
       "link": "https://arxiv.org/abs/2607.14178",
@@ -6046,18 +6094,6 @@
       "status": "queued"
     },
     {
-      "id": "https://keepp.link/keepp-skill/SKILL.md",
-      "title": "Show HN: Let your AI agent manage your link in bio",
-      "link": "https://keepp.link/keepp-skill/SKILL.md",
-      "summary": "Keepp, is not just a link in bio. It is a landing page for all the creators and small businesses. Along with socials and links, it supports cards with customizable actions to show case things you sell and recommend. With and AI agent it becomes much easier to manage. Let it edit it automatically when you run promos, you have updates and never worry about it being outdated. Comments URL: https://news.ycombinator.com/item?id=48734386 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-30T15:45:20.000Z",
-      "score": 125.18,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/shivyadavus/open-kioku",
       "title": "Show HN: Open Kioku – local evidence layer for AI coding agents",
       "link": "https://github.com/shivyadavus/open-kioku",
@@ -6079,18 +6115,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "score": 123.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/busabase/busabase",
-      "title": "Show HN: Busabase – an approval-first database and knowledge base for AI agents",
-      "link": "https://github.com/busabase/busabase",
-      "summary": "Article URL: https://github.com/busabase/busabase Comments URL: https://news.ycombinator.com/item?id=48734021 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-30T15:21:50.000Z",
-      "score": 123.07,
       "status": "queued"
     },
     {
@@ -6319,18 +6343,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-20T08:48:05.000Z",
       "score": 118.14,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/LoganYangBo/rh-trading-agent",
-      "title": "An AI trading desk built as a team of sub-agents (Claude Code and Robinhood MCP)",
-      "link": "https://github.com/LoganYangBo/rh-trading-agent",
-      "summary": "Article URL: https://github.com/LoganYangBo/rh-trading-agent Comments URL: https://news.ycombinator.com/item?id=48733849 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-30T15:11:46.000Z",
-      "score": 116.99,
       "status": "queued"
     },
     {
@@ -7102,6 +7114,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+      "title": "America needs to stop getting shocked by Chinese AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+      "summary": "People visit the booth of Kimi, an LLM developed by the Chinese startup Moonshot, during the World AI Conference in Shanghai, China, Monday, July 20, 2026. | Image: LONG WEI/ Feature China/Future Publishing via Getty Images Last week, two Chinese AI companies unveiled models they say can credibly compete with the best systems from OpenAI and Anthropic. The response was swift and predictable. Markets wobbled, commentators declared Silicon Valley shooketh, and policymakers reached for the familiar language of arms races and wake-up calls. In one headline, The Associated Press said a Chinese model had taken the \"US tech industry by surprise.\" Bloomberg described it as a \"surprise breakthrough\" that is \"roiling markets\" and sending global tech stocks tumbling over concerns it could force US firms to rethink their gargantuan spending on data centers, chips, and ot … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-21T11:08:56.000Z",
+      "score": 100.98,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.16205",
       "title": "It Takes 8 Tokens: Weak-to-Strong Off-Policy RL via Auxiliary Branches",
       "link": "https://arxiv.org/abs/2607.16205",
@@ -7174,28 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-      "title": "AI is more likely than humans to form biases when hiring",
-      "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-20T08:39:01.000Z",
-      "score": 89.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://cacm.acm.org/blogcacm/topological-control-of-llms-a-route-to-trustworthy-ai/",
-      "title": "Topological Control of LLMs: A Route to Trustworthy AI",
-      "link": "https://cacm.acm.org/blogcacm/topological-control-of-llms-a-route-to-trustworthy-ai/",
-      "summary": "Article URL: https://cacm.acm.org/blogcacm/topological-control-of-llms-a-route-to-trustworthy-ai/ Comments URL: https://news.ycombinator.com/item?id=48975640 Points: 1 # Comments: 0",
+      "id": "https://github.com/lemoncrow-lab/lemoncrow",
+      "title": "I benchmarked AI cost-saving claims instead of trusting token percentages",
+      "link": "https://github.com/lemoncrow-lab/lemoncrow",
+      "summary": "Article URL: https://github.com/lemoncrow-lab/lemoncrow Comments URL: https://news.ycombinator.com/item?id=48994388 Points: 1 # Comments: 1",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-20T08:09:59.000Z",
-      "score": 83.89,
-      "status": "queued"
+      "keywordHits": 3,
+      "publishedAt": "2026-07-21T16:18:37.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-07-21T16:22:21.180Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",

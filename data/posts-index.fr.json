@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T10:18:52.002Z",
+  "generatedAt": "2026-07-21T16:38:39.385Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-21-orka-open-source-pre-execution-policy-checkpoint-for-ai-agent-actions",
+      "title": "Orka : point de contrôle open-source avant exécution pour les actions d'agents IA",
+      "date": "2026-07-21",
+      "excerpt": "Orka est un service open-source qui agit comme un garde‑fou entre vos agents IA et les outils externes : il évalue les actions planifiées (allow / deny / require-confirmation) pour éviter les boucles coûteuses et produire des traces auditable pour la finance et la conformité.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-21-orka-open-source-pre-execution-policy-checkpoint-for-ai-agent-actions.jpg",
+      "tags": [
+        "AI",
+        "agents",
+        "safety",
+        "open-source",
+        "cost-control",
+        "DevOps",
+        "observability"
+      ],
+      "sources": [
+        "https://github.com/mathhMadureira/orka"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-20-growthspree-rebuilt-as-an-ai-native-b2b-agency-and-reached-dollar15m-arr-in-six-months",
