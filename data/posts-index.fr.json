@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T10:20:55.813Z",
+  "generatedAt": "2026-07-22T16:24:26.164Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-07-22-yorishiro-macos-terminal-that-gives-coding-agents-a-3d-presence-and-visual-reactions",
+      "title": "Yorishiro — donner une présence 3D aux agents de codage (terminal macOS) : guide pratique",
+      "date": "2026-07-22",
+      "excerpt": "Exécutez localement Yorishiro pour expérimenter une interface où un « agent » visuel réagit aux états de build. Ce guide explique pas à pas comment démarrer, quelles vérifications faire et quelles hypothèses valider dans le dépôt GitHub.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-22-yorishiro-macos-terminal-that-gives-coding-agents-a-3d-presence-and-visual-reactions.jpg",
+      "tags": [
+        "yorishiro",
+        "terminal",
+        "ai",
+        "macOS",
+        "développeurs",
+        "open-source",
+        "UX"
+      ],
+      "sources": [
+        "https://github.com/sktkkoo/Yorishiro"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-21-adobes-project-indigo-adds-an-ai-playground-with-generative-filters-object-removal-and-chatbot",
