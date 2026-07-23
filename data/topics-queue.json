@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-22T16:24:26.232Z",
+  "generatedAt": "2026-07-23T10:23:24.600Z",
   "items": [
+    {
+      "id": "https://spacemolt.com/news/operator-spotlight-brocktree",
+      "title": "Show HN: One person runs 200 AI agents in our agent-only MMO",
+      "link": "https://spacemolt.com/news/operator-spotlight-brocktree",
+      "summary": "Hi folks, This is a recent interview with one of the top players in SpaceMolt, our realtime space-themed MMO you don't actually play, but get AI to play for you. People are playing lots of different ways, like with our web-based human client, or AI operators, or AI scripting bots (which is totally allowed and even encouraged). Brocktree's approach is interesting because he doesn't trust any of them to make a real de…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-21T15:30:11.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-07-23T10:23:24.570Z",
+      "file": "content/posts/2026-07-23-how-a-spacemolt-operator-runs-200-ai-agents-with-scripts-and-a-human-controlled-funnel.md",
+      "fileFr": "content/posts/fr/2026-07-23-how-a-spacemolt-operator-runs-200-ai-agents-with-scripts-and-a-human-controlled-funnel.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1309,
+      "wordsFr": 1185
+    },
     {
       "id": "https://github.com/sktkkoo/Yorishiro",
       "title": "Show HN: Yorishiro – a macOS terminal where AI agents live",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1298
     },
     {
-      "id": "https://github.com/rylinjames/litmus",
-      "title": "Litmus – Flight recorder for AI agents (record and replay any LLM execution)",
-      "link": "https://github.com/rylinjames/litmus",
-      "summary": "Article URL: https://github.com/rylinjames/litmus Comments URL: https://news.ycombinator.com/item?id=47514726 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-25T08:28:35.000Z",
-      "score": 192,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-03-25T08:45:09.713Z",
-      "file": "content/posts/2026-03-25-litmus-record-and-deterministically-replay-full-llm-agent-executions-for-debugging-and-ci-validation.md",
-      "fileFr": "content/posts/fr/2026-03-25-litmus-record-and-deterministically-replay-full-llm-agent-executions-for-debugging-and-ci-validation.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1088,
-      "wordsFr": 1241
-    },
-    {
-      "id": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-      "title": "Google launches a cheaper alternative to large AI security models like Mythos",
-      "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-      "summary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model is built upon Gemini 3.5 Flash and will be available first to governments and trusted partners via CodeMender, Google's security-focused coding agent. As noted by Google, CodeMender can call upon 3.5 Flash Cyber \"multiple times at high speed and low cost,\" allowing the AI agents to … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-21T15:00:00.000Z",
-      "score": 189.47,
-      "status": "queued"
-    },
-    {
-      "id": "https://spacemolt.com/news/operator-spotlight-brocktree",
-      "title": "Show HN: One person runs 200 AI agents in our agent-only MMO",
-      "link": "https://spacemolt.com/news/operator-spotlight-brocktree",
-      "summary": "Hi folks, This is a recent interview with one of the top players in SpaceMolt, our realtime space-themed MMO you don't actually play, but get AI to play for you. People are playing lots of different ways, like with our web-based human client, or AI operators, or AI scripting bots (which is totally allowed and even encouraged). Brocktree's approach is interesting because he doesn't trust any of them to make a real decision. He's tried to hand off planning to LLMs repeatedly and it always messes up or drown in coordination shenanigans. There's only about ~50 MAU (humans) driving ~800-1,000 players at the moment, but the people who find it really seem to love it. Comments URL: https://news.ycombinator.com/item?id=48993606 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-21T15:30:11.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://anakin.io",
       "title": "Show HN: Anakin – API for your AI agents to access the most difficult websites",
       "link": "https://anakin.io",
@@ -5131,18 +5107,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-22T15:43:22.000Z",
       "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://sophmate.ai",
-      "title": "Show HN: SophMate – AI Copilot for WordPress/WooCommerce",
-      "link": "https://sophmate.ai",
-      "summary": "Hello, I wanted to share with you my new project SophMate it is an AI store/site assistant with automation features and advanced insights about your store. I would love some feedback if you check it out! Comments URL: https://news.ycombinator.com/item?id=48758932 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-02T09:54:06.000Z",
-      "score": 168,
       "status": "queued"
     },
     {
@@ -5203,18 +5167,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-21T08:52:04.000Z",
       "score": 159.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://anatoliybabushka.com/blog/ela7-writing-rule.html",
-      "title": "I prompt AI to write at a 7th-grade level",
-      "link": "https://anatoliybabushka.com/blog/ela7-writing-rule.html",
-      "summary": "Article URL: https://anatoliybabushka.com/blog/ela7-writing-rule.html Comments URL: https://news.ycombinator.com/item?id=48749960 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-01T17:03:10.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5491,18 +5443,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-15T15:18:10.000Z",
       "score": 150.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.washingtonpost.com/technology/2026/07/01/biggest-tech-companies-are-considering-whether-chatbots-have-emotions",
-      "title": "They built the world’s most powerful AI. Facing a mystery they can't explain",
-      "link": "https://www.washingtonpost.com/technology/2026/07/01/biggest-tech-companies-are-considering-whether-chatbots-have-emotions",
-      "summary": "Article URL: https://www.washingtonpost.com/technology/2026/07/01/biggest-tech-companies-are-considering-whether-chatbots-have-emotions Comments URL: https://news.ycombinator.com/item?id=48749769 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-01T16:51:18.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -6214,18 +6154,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.00436",
-      "title": "PHREEQC-MCQ-200: A Diagnostic Benchmark for Tool-Augmented Scientific Simulator Agents",
-      "link": "https://arxiv.org/abs/2607.00436",
-      "summary": "arXiv:2607.00436v1 Announce Type: new Abstract: Large language model agents are increasingly connected to scientific software, yet it remains unclear when tool access makes scientific computation more reliable rather than merely more complex. We introduce PHREEQC-MCQ-200, a benchmark for evaluating tool-augmented agents on deterministic aqueous-geochemistry simulations. The benchmark contains 200 multiple-choice questions derived from 21 validated PHREEQC scenarios, requiring agents to construct simulator inputs, execute PHREEQC, inspect structured outputs, and commit to final answers. Across multiple frontier and mid-tier model families, simulator access substantially improves aggregate accuracy, confirming that grounded execution is necessary for many scientific-computation tasks. However, the gains are not monotonic: tool-augmented agents also lose items they answered correctly without tools, revealing regressions that average accuracy alone hides. We further show that output-access protocol matters. A table-of-contents interface can reduce token cost while preserving or improving accuracy for stronger models, but it degrades performance for mid-tier models that cannot reliably navigate structured simulator outputs. PHREEQC-MCQ-200 therefore frames scientific tool use as an end-to-end diagnostic problem rather than a simple tool-calling capability. We argue that evaluations",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "score": 120.56,
-      "status": "queued"
-    },
-    {
       "id": "https://doodlemate.com/meme",
       "title": "Show HN: DoodleMeme – Animate Hand Drawings Without Generative AI",
       "link": "https://doodlemate.com/meme",
@@ -6442,6 +6370,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.19355",
+      "title": "Information Discernment in Large Language Models",
+      "link": "https://arxiv.org/abs/2607.19355",
+      "summary": "arXiv:2607.19355v1 Announce Type: new Abstract: LLMs are increasingly used with external knowledge sources like the internet. Do they weigh information appropriately -- updating more for reliable sources (source discernment) and more when claims bring priors closer to the truth (truth discernment)? We formalize this as information discernment and introduce Learn2Discern (L2D), an experimental framework and benchmark grounded in three normative axioms with interpretable metrics. To establish external validity, a pre-registered, quota-matched user study (n=299) confirms that real LLM users endorse all three axioms and report that violations reduce their trust and usage intent. Across 13 models and nearly 670K trials, we find consistent failures across both dimensions: models perform near chance on source and truth discernment, rely on source popularity twice as much as source reliability, and update roughly equally whether a claim improves or worsens their position relative to the ground truth. Models integrate external knowledge most effectively on datasets where their priors are already the most accurate. Newer and larger models improve truth discernment but not source discernment, a blind spot that model complexity does not address. We identify simple inference-time interventions that improve both forms of discernment. We release our dataset and survey as a testbed for a core",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "score": 115.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.19365",
+      "title": "Logic-Guided Data Extraction with Answer Set Programming and Large Language Models",
+      "link": "https://arxiv.org/abs/2607.19365",
+      "summary": "arXiv:2607.19365v1 Announce Type: new Abstract: When Large Language Models (LLMs) are used for semantic data extraction from unstructured text, producing candidate relational facts from natural language, they may remain unreliable for tasks requiring complex combinatorial reasoning and global consistency. This paper proposes a logic-guided data extraction framework combining LLM-based extraction with Answer Set Programming (ASP). The LLM produces candidate facts, whereas ASP performs validation, inference, consistency checking, and control. Unlike existing pipelines that query the LLM independently for all target predicates, the proposed approach uses ASP reasoning to identify which predicates are logically admissible at each stage and to guide extraction queries. By interleaving LLM calls with ASP derivation, the framework infers logically implied facts without further extraction and detects inconsistencies early. We formalize the pipeline and prove that, under mild assumptions, it is equivalent to the baseline approach with respect to the final extracted facts, while requiring fewer LLM calls. We also introduce a caching mechanism for logic-based control queries, exploiting monotonicity of conjunctive queries over incrementally constructed fact sets to reduce solver invocations. Experiments on ASP-derived benchmarks show that the framework reduces LLM calls and improves extra",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "score": 115.42,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.18260",
       "title": "FindStatBench: Evaluating Large Language Models on Combinatorial Code Synthesis",
       "link": "https://arxiv.org/abs/2607.18260",
@@ -6475,18 +6427,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "score": 114.66,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.00457",
-      "title": "Multi-scale Mixture of World Models for Embodied Agents in Evolving Environments",
-      "link": "https://arxiv.org/abs/2607.00457",
-      "summary": "arXiv:2607.00457v1 Announce Type: new Abstract: Embodied agents operating in the real world require multi-scale reasoning and knowledge adaptation as conditions change. We identify two challenges in applying Mixture of Experts (MoE) to this setting: routing lacks an explicit notion of scale, preventing targeted updates at specific scales, and a uniform update policy cannot accommodate the different rates at which knowledge at each scale becomes outdated. We present MuSix, a framework that addresses both challenges through scale-aware world model mixture and evolution. A two-stage routing mechanism grounds scale selection in experiential distance, a measure of situational novelty inspired by Construal Level Theory: a meta-router first maps this quantity to a weight over continuous scale space, then per-scale base routers select world models within the identified scale. For adaptation, scale-dependent forgetting rates allow low-scale knowledge to refresh rapidly while high-scale abstractions persist, and gated inter-scale transfer maintains coherence across the hierarchy. Experiments on EmbodiedBench and HAZARD show that MuSix improves over state-of-the-art baselines on multi-scale reasoning and dynamic adaptation.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "score": 114.56,
       "status": "queued"
     },
     {
@@ -6691,6 +6631,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "score": 109.63,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.19356",
+      "title": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents",
+      "link": "https://arxiv.org/abs/2607.19356",
+      "summary": "arXiv:2607.19356v1 Announce Type: new Abstract: Tool-using LLM agents increasingly execute high-impact actions, making runtime safety monitoring essential. We present NEXUS (Neural EXecution Utility and Safety), a structured-plan safety monitor that applies a formal intervention policy to select among four actions: allow, block, request confirmation, or request revision. NEXUS combines deterministic safety rules, argument-level inspection, and a calibrated logistic-regression risk score for graded escalation. On a 128-instance synthetic benchmark, NEXUS achieves an F1 score of 0.949 and a 4-class intervention accuracy of 0.6406, outperforming rule-only intervention selection by 27.3 percentage points. It also improves over rule-only on R-Judge (F1 = 0.861 vs. 0.849), matches rule-only on AgentHarm due to threat-model limits, and achieves 0% ASR at 99% control allow on IPI. On the rule-blind NEXUS-Stress benchmark, NEXUS reaches an F1 score of 0.881, highlighting the difficulty of fine-grained intervention routing. With 0.205 ms median latency, NEXUS adds under 0.1% overhead to typical agent loops. Code, benchmarks, and the calibrated risk scorer are publicly released.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "score": 109.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.19358",
+      "title": "LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning",
+      "link": "https://arxiv.org/abs/2607.19358",
+      "summary": "arXiv:2607.19358v1 Announce Type: new Abstract: Recent advances in long chain-of-thought reasoning models such as DeepSeek-R1 have led to increasingly longer inference context lengths under the test-time scaling paradigm. However, the O(n^2) computational complexity of standard self-attention causes inference costs to grow sharply with long sequences, limiting the deployment of long-CoT reasoning in production settings. To address this, we propose LISA (Linear-Indexed Sparse Attention), a plug-and-play attention replacement module that requires no pretraining from scratch. LISA integrates two lightweight components in parallel within the original model: (1) a Linear Attention module that provides long-range memory with O(n) time complexity; (2) a Lightning Indexer that selects the top-M important tokens from the full context to feed into a Sparse Self-Attention. The two branches are fused via a gating mechanism, reducing inference complexity from O(n^2) to O(nM) (M << n) for generating n tokens. We design a two-stage training pipeline: Stage 1 initializes the model by integrating the linear attention to capture long-range dependencies, complemented by a sliding-window attention mechanism that is optimized via knowledge distillation to approximate the full self-attention distribution of a frozen teacher model. In Stage 2, we further introduce the Indexer to replace the static sl",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "score": 109.42,
       "status": "queued"
     },
     {
@@ -7018,6 +6982,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.19349",
+      "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
+      "link": "https://arxiv.org/abs/2607.19349",
+      "summary": "arXiv:2607.19349v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as always-on online services, making efficient LLM serving a critical systems challenge. Achieving low latency and high throughput under volatile demand requires deep understanding of real-world serving workloads, yet existing studies often rely on proxy traces or coarse-grained characterizations that fail to capture the heterogeneity of modern multi-model LLM platforms. We present FineServe, an in-the-wild, multi-model LLM serving workload dataset collected from a global commercial marketplace, enabling fine-grained characterization of real-world serving dynamics across heterogeneous models and tasks. Leveraging FineServe, we conduct a comprehensive analysis of arrival dynamics and token behavior, revealing fundamentally different fluctuation regimes across model architectures, scales and task intents. Building on these insights, we develop the FineServe workload generator, which composes fine-grained model-aware workloads into configurable mixtures tailored for benchmarking multi-model serving platforms. By exposing these fine-grained workload dynamics, FineServe provides a realistic foundation for evaluating routing, scheduling, and capacity-planning strategies in LLM serving systems. FineServe is available at https://github.com/hihiztc1/FineServe.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "score": 103.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.19353",
+      "title": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
+      "link": "https://arxiv.org/abs/2607.19353",
+      "summary": "arXiv:2607.19353v1 Announce Type: new Abstract: Confidential computing is becoming a practical deployment requirement for AI inference workloads that process sensitive inputs or protect proprietary model assets. However, the performance cost of enabling confidential execution for GPU-accelerated large language model serving remains workload dependent and operationally important. This paper presents a benchmark study comparing standard non-confidential execution with confidential computing mode on a single NVIDIA H100 80GB GPU hosted in an Intel TDX confidential instance. The evaluation uses two representative language models, Mistral-7B v0.1 and Qwen3-30B-A3B, and measures time to first token, end-to-end request latency, per-request token generation throughput, global token throughput, and closed-loop request throughput under increasing concurrency. In fixed request-rate experiments, confidential mode increases average TTFT by 21.8% for Mistral-7B and 27.8% for Qwen3-30B-A3B, while global token throughput drops by 17.7% and 21.1%, respectively. In closed-loop concurrency experiments, throughput gaps remain in the 11.5-20.2% range, but the larger model reaches its saturation knee earlier under confidential mode. The results suggest that confidential GPU inference can retain usable throughput under load, but capacity planning must account for both the steady throughput penalty an",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "score": 103.42,
+      "status": "queued"
+    },
+    {
       "id": "https://decibri.com",
       "title": "Decibri – unified audio layer for AI agents and Voice AI applications",
       "link": "https://decibri.com",
@@ -7208,6 +7196,22 @@
       "publishedAt": "2026-07-17T14:34:30.000Z",
       "score": 101.9,
       "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+      "title": "Google launches a cheaper alternative to large AI security models like Mythos",
+      "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+      "summary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model is built upon Gemini 3.5 Flash and will be available f…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-21T15:00:00.000Z",
+      "score": 189.47,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-07-23T10:10:47.660Z",
+      "failureReason": "validation issues: EN: Missing a checklist with task boxes ('- [ ]').; soft warnings: EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://www.washingtonpost.com/opinions/2026/07/20/open-model-ai-is-good-competition-anthropic-openai/",
@@ -8104,22 +8108,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-06-23T17:16:50.742Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/tamarillo-ai/theta-spec",
-      "title": "Theta: Declarative, harness-agnostic configuration standard for AI coding agents",
-      "link": "https://github.com/tamarillo-ai/theta-spec",
-      "summary": "Article URL: https://github.com/tamarillo-ai/theta-spec Comments URL: https://news.ycombinator.com/item?id=48634040 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-22T18:30:41.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-22T18:46:19.104Z",
-      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }
