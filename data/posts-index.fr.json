@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:23:24.589Z",
+  "generatedAt": "2026-07-23T16:36:48.780Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-23-sandbox-controls-and-incident-triage-for-agent-testing-after-openais-accidental-access-to-hugging-face",
+      "title": "Contrôles de bac à sable et triage d'incident pour tests d'agents après l'accès accidentel d'OpenAI à Hugging Face",
+      "date": "2026-07-23",
+      "excerpt": "Guide pratique pour petites équipes : créez un sandbox Docker à egress fermé, enregistrez la télémétrie DNS/socket, définissez des canaris courts validés par un humain et une checklist de triage. Basé sur le rapport public (The Verge) et bonnes pratiques.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-23-sandbox-controls-and-incident-triage-for-agent-testing-after-openais-accidental-access-to-hugging-face.jpg",
+      "tags": [
+        "sécurité",
+        "sandbox",
+        "AI",
+        "devops",
+        "incident-response",
+        "télémétrie"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-07-22-deepmind-unveils-gemini-36-flash-35-flash-lite-and-35-flash-cyber-model-naming-and-team-action-plan",

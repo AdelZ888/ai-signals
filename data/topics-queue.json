@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-23T10:23:24.600Z",
+  "generatedAt": "2026-07-23T16:36:48.846Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+      "summary": "OpenAI CEO Sam Altman. | Bloomberg via Getty Images OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, H…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-21T21:48:54.000Z",
+      "score": 111.66,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-23T16:36:48.763Z",
+      "file": "content/posts/2026-07-23-sandbox-controls-and-incident-triage-for-agent-testing-after-openais-accidental-access-to-hugging-face.md",
+      "fileFr": "content/posts/fr/2026-07-23-sandbox-controls-and-incident-triage-for-agent-testing-after-openais-accidental-access-to-hugging-face.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1545,
+      "wordsFr": 1467
+    },
     {
       "id": "https://spacemolt.com/news/operator-spotlight-brocktree",
       "title": "Show HN: One person runs 200 AI agents in our agent-only MMO",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1445
     },
     {
-      "id": "https://github.com/iamevandrake/opensoul",
-      "title": "Show HN: Opensoul – Open-source agentic marketing stack (6 AI agents)",
-      "link": "https://github.com/iamevandrake/opensoul",
-      "summary": "Article URL: https://github.com/iamevandrake/opensoul Comments URL: https://news.ycombinator.com/item?id=47336615 Points: 1 # Comments: 1",
+      "id": "https://onecli.sh",
+      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "link": "https://onecli.sh",
+      "summary": "hey HN, Jonathan and Guy here, creators of OneCLI. OneCLI is an open source vault for AI Agents. traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. we figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. or maybe someone even manipulated them to hand them over? from that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. the secrets set inside the OneCLI vault, encrypted on rest, or could fetch in realtime from your bitwarden / 1password wallets. demo - https://youtu.be/5e5pbPEzZfY the way we got to build OneCLI started by accident, even though our careers were in the security space. At the time, we actually worked on a devtool called ChartDB, an open-source DB tool. And once OpenClaw took off back in January this year, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. they keep them in their memory an",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-11T15:07:21.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-25T16:40:21.420Z",
-      "file": "content/posts/2026-03-25-opensoul-practical-setup-and-checklist-for-the-open-source-agentic-marketing-stack.md",
-      "fileFr": "content/posts/fr/2026-03-25-opensoul-practical-setup-and-checklist-for-the-open-source-agentic-marketing-stack.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1480,
-      "wordsFr": 1298
+      "keywordHits": 5,
+      "publishedAt": "2026-07-23T15:42:40.000Z",
+      "score": 198,
+      "status": "queued"
     },
     {
       "id": "https://anakin.io",
@@ -5071,6 +5083,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-22T15:12:00.000Z",
       "score": 185.37,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/palmier-io/palmier-pro",
+      "title": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
+      "link": "https://github.com/palmier-io/palmier-pro",
+      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Demo: AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ Repo: https://github.com/palmier-io/palmier-pro We built Palmier Pro as an internal tool when we were making AI launch videos for other YC startups (some work: https://www.palmier.io/work) back in February 2026. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor, where we'd iterate the AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we can let Claude generate AI videos inside the editor. As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude/Codex can: Manage projects inside Palmier Pro Import media from a public URL or filesystem to the project, and organize them in folders Search media (by embedding footages using SigLIP2 running locally) Edit the timeline (tracks/clips/keyframes operations) Generate i",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-23T15:11:37.000Z",
+      "score": 175.14,
       "status": "queued"
     },
     {
@@ -5167,18 +5191,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-21T08:52:04.000Z",
       "score": 159.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/business/finance/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push-2026-07-01/",
-      "title": "Portugal launches first open-source AI model, joining Europe's sovereignty push",
-      "link": "https://www.reuters.com/business/finance/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push-2026-07-01/",
-      "summary": "Article URL: https://www.reuters.com/business/finance/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push-2026-07-01/ Comments URL: https://news.ycombinator.com/item?id=48763840 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-02T16:27:47.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5422,18 +5434,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48763273",
-      "title": "Mapping the human element of AI risks in an AI world",
-      "link": "https://news.ycombinator.com/item?id=48763273",
-      "summary": "Hi, I'm working on a document to map the risks from AI and the mitigations on the human side of thing. For example it seems likely that we will have more AI persuasion [1] in the future. So I'm mapping what we can do to mitigate this. Give me a shout if you are interested. [1] https://www.aisi.gov.uk/blog/how-do-ai-models-persuade-exploring-the-levers-of-ai-enabled-persuasion-through-large-scale-experiments My work in progress : https://docs.google.com/document/d/12E6BJdb3gaUXcowW_XnFF0Q0jF7fiSMDkIRfsBRLBrs/edit?usp=sharing Comments URL: https://news.ycombinator.com/item?id=48763273 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-02T15:41:51.000Z",
-      "score": 150.27,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/",
       "title": "Generative AI Is an Engineering Disaster",
       "link": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/",
@@ -5623,6 +5623,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-14T14:36:28.000Z",
       "score": 145.74,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
+      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a number of ex-Apple employees at OpenAI targeted Apple’s trade secrets in job interviews and even downloaded files from Apple’s servers related to hardware manufacturing. The claims are shocking, although OpenAI denies them, and we have yet to see the company’s legal response. Hayden has been covering OpenAI for years now, and she also just talked to a bunch of lawyers who specialize in intellectual property and trade secret law to get a sense of how serious this case is. The answer is not entirely positive for OpenAI, which spent $6.5 billion to acquire legendary Apple designer Jony Ive’s AI hardware startup, io Products, back in 2025. As you’ll hear Hayden explain, Apple is a notoriously tenacious litigant, and we have lots of tech industry history to back up that reputation. But those cases were against companies at the scale of Microsoft and Samsung, giant corporations that could afford the cost and distraction of this kind of litigation. OpenAI isn’t yet that kind of company. It’s still burning cash and a little strategically adrift as it tries to compete in both enterprise and c",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-23T14:00:00.000Z",
+      "score": 145.42,
       "status": "queued"
     },
     {
@@ -5914,6 +5926,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/CoreGrowthLabs/CoreGrowthPrompting/blob/main/README.en.md",
+      "title": "Show HN: A primer for non-coders to design software via structured AI dialogue",
+      "link": "https://github.com/CoreGrowthLabs/CoreGrowthPrompting/blob/main/README.en.md",
+      "summary": "Article URL: https://github.com/CoreGrowthLabs/CoreGrowthPrompting/blob/main/README.en.md Comments URL: https://news.ycombinator.com/item?id=49022930 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-23T15:13:10.000Z",
+      "score": 129.22,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.09665",
       "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
       "link": "https://arxiv.org/abs/2607.09665",
@@ -5947,6 +5971,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-09T09:07:50.000Z",
       "score": 128.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
+      "title": "One ChatGPT link could smuggle a rogue AI agent into your company",
+      "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
+      "summary": "Article URL: https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116 Comments URL: https://news.ycombinator.com/item?id=49022854 Points: 6 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-23T15:07:06.000Z",
+      "score": 127.56,
       "status": "queued"
     },
     {
@@ -6262,18 +6298,6 @@
       "status": "queued"
     },
     {
-      "id": "https://ai-creed.dev/projects/ai-14all/",
-      "title": "Show HN: AI-14all – All you (or your AI agents) need for coding",
-      "link": "https://ai-creed.dev/projects/ai-14all/",
-      "summary": "Article URL: https://ai-creed.dev/projects/ai-14all/ Comments URL: https://news.ycombinator.com/item?id=48762647 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-02T14:57:04.000Z",
-      "score": 118.7,
-      "status": "queued"
-    },
-    {
       "id": "https://agent-coherence.dev/blog/silent-data-loss-taxonomy/",
       "title": "The silent-data-loss taxonomy: four ways an AI agent's write disappears",
       "link": "https://agent-coherence.dev/blog/silent-data-loss-taxonomy/",
@@ -6346,18 +6370,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/qualtyco/api-doctor",
-      "title": "Show HN: OSS Tests to Fix AI Gen Code. 110 Test for Major API – Supabase, Auth0",
-      "link": "https://github.com/qualtyco/api-doctor",
-      "summary": "As a claude code power user once context compacts it will start writing slop. Especially when writing code for API integrations. For example Supabase auth, it allows user metadata to be writable by clients and leaving service role keys in next.js components. I’ve tried prompting and skills.md to catch this, but it’s not consistent without good test feedback. So I open sourced a collection of test to with no LLM involved from official docs to catch and fix bad code integrations. Enjoy Comments URL: https://news.ycombinator.com/item?id=48762860 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-02T15:11:11.000Z",
-      "score": 116.1,
-      "status": "queued"
-    },
-    {
       "id": "https://taskpeace.com/",
       "title": "Show HN: TaskPeace – a task queue my AI coding agents pull work from over MCP",
       "link": "https://taskpeace.com/",
@@ -6427,18 +6439,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "score": 114.66,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.03092",
-      "title": "Generative AI creates delicious, sustainable, and nutritious burgers",
-      "link": "https://arxiv.org/abs/2602.03092",
-      "summary": "Article URL: https://arxiv.org/abs/2602.03092 Comments URL: https://news.ycombinator.com/item?id=48762930 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-02T15:16:21.000Z",
-      "score": 114.26,
       "status": "queued"
     },
     {
@@ -6574,18 +6574,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-      "summary": "OpenAI CEO Sam Altman. | Bloomberg via Getty Images OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, Hugging Face disclosed a security incident that it says was driven by \"an autonomous AI agent system.\" Hugging Face's AI agents detected and stopped the breach, which OpenAI has now admitted occurred during an evaluation of its models' cybersecurity capabilities. OpenAI says \"all e … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-21T21:48:54.000Z",
-      "score": 111.66,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.08018",
       "title": "Concretized Proposition Prompting Resolves Composition-Knowledge Dichotomy in Large Language Models",
       "link": "https://arxiv.org/abs/2607.08018",
@@ -6595,18 +6583,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-07-10T04:00:00.000Z",
       "score": 111.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
-      "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
-      "link": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
-      "summary": "Insiders say Sam Altman is in active talks with the Trump administration.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-02T15:12:25.000Z",
-      "score": 111.11,
       "status": "queued"
     },
     {
@@ -7195,6 +7171,30 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-17T14:34:30.000Z",
       "score": 101.9,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a report from Politico. Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) are expected to introduce the legislation on Thursday. The news of the proposed bill follows OpenAI's admission that its AI systems mistakenly hacked Hugging Face during an internal evaluation. The bill says that, after consultation with the Secretary of Commerce and the Director of National Intelligence (DNI), the DHS would have the ability to order AI companies to shut down … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-23T14:13:35.000Z",
+      "score": 96.5,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-15T17:09:37.000Z",
+      "score": 90.63,
       "status": "queued"
     },
     {
