@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-23T16:36:48.780Z",
+  "generatedAt": "2026-07-24T16:48:51.775Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-24-deploy-onecli-an-open-source-credential-gateway-that-injects-scoped-secrets-for-ai-agents",
+      "title": "Déployer OneCLI — une passerelle open‑source d'identifiants qui injecte des secrets limités pour agents IA",
+      "date": "2026-07-24",
+      "excerpt": "Guide de 60–90 minutes pour déployer OneCLI : une passerelle open‑source qui proxyfie les requêtes des agents, applique des règles réseau et injecte des identifiants limités afin que les agents ne voient jamais les clés brutes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-24-deploy-onecli-an-open-source-credential-gateway-that-injects-scoped-secrets-for-ai-agents.jpg",
+      "tags": [
+        "OneCLI",
+        "sécurité",
+        "agents IA",
+        "proxies",
+        "secrets",
+        "déploiement",
+        "Royaume‑Uni"
+      ],
+      "sources": [
+        "https://onecli.sh"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-07-23-how-a-spacemolt-operator-runs-200-ai-agents-with-scripts-and-a-human-controlled-funnel",
       "title": "Comment un opérateur SpaceMolt gère ~200 agents IA avec des scripts et un entonnoir humain",

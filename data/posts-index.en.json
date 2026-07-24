@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-07-23T16:36:48.783Z",
+  "generatedAt": "2026-07-24T16:48:51.773Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-24-deploy-onecli-an-open-source-credential-gateway-that-injects-scoped-secrets-for-ai-agents",
+      "title": "Deploy OneCLI — an open-source credential gateway that injects scoped secrets for AI agents",
+      "date": "2026-07-24",
+      "excerpt": "60–90 minute guide to deploy OneCLI, an open-source gateway that proxies agent requests, enforces host/path policies, and injects scoped credentials so agents never see raw keys.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-24-deploy-onecli-an-open-source-credential-gateway-that-injects-scoped-secrets-for-ai-agents.jpg",
+      "tags": [
+        "onecli",
+        "ai-agents",
+        "credential-gateway",
+        "credentials",
+        "vault",
+        "security",
+        "open-source",
+        "tutorial"
+      ],
+      "sources": [
+        "https://onecli.sh"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-07-23-how-a-spacemolt-operator-runs-200-ai-agents-with-scripts-and-a-human-controlled-funnel",
       "title": "How a SpaceMolt operator runs 200 AI agents with scripts and a human-controlled funnel",
