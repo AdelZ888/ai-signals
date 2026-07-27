@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-24T16:48:51.842Z",
+  "generatedAt": "2026-07-27T17:22:07.063Z",
   "items": [
+    {
+      "id": "https://github.com/palmier-io/palmier-pro",
+      "title": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
+      "link": "https://github.com/palmier-io/palmier-pro",
+      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Demo: AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 Cutting long form clips into shorts: https://www.youtube.…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-23T15:11:37.000Z",
+      "score": 175.14,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-27T17:22:06.984Z",
+      "file": "content/posts/2026-07-27-palmier-pro-on-macos-build-the-app-connect-a-local-ai-agent-mcp-and-run-a-120minute-trial-edit.md",
+      "fileFr": "content/posts/fr/2026-07-27-palmier-pro-on-macos-build-the-app-connect-a-local-ai-agent-mcp-and-run-a-120minute-trial-edit.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1787,
+      "wordsFr": 1125
+    },
     {
       "id": "https://onecli.sh",
       "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
@@ -5039,50 +5062,27 @@
       "wordsFr": 1306
     },
     {
-      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-      "summary": "Gemini 3.1 Flash Live is now available across Google products.",
-      "source": "Google AI Blog",
+      "id": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "title": "Why China is giving away its best AI models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "summary": "People visit the booth of Kimi, an LLM developed by the Chinese startup Moonshot, during the World AI Conference in Shanghai, China, July 20th. | Image: LONG WEI/ Feature China/Future Publishing via Getty Images Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between the US and China. But Moonshot's plan to release the model's weights for free - and its clear targeting of US users - has fueled deeper unease about whether closed American models can continue to dominate as increasingly capable open alternatives enter the market. Open-weight models give developers far greater control than proprietary syst … Read the full story at The Verge.",
+      "source": "The Verge AI",
       "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-26T15:21:00.000Z",
-      "score": 156,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-26T16:36:36.757Z",
-      "file": "content/posts/2026-03-26-prototype-a-low-latency-live-audio-demo-with-gemini-31-flash-live.md",
-      "fileFr": "content/posts/fr/2026-03-26-prototype-a-low-latency-live-audio-demo-with-gemini-31-flash-live.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1493,
-      "wordsFr": 1297
-    },
-    {
-      "id": "https://anakin.io",
-      "title": "Show HN: Anakin – API for your AI agents to access the most difficult websites",
-      "link": "https://anakin.io",
-      "summary": "Every second thing I build needs to access the web, and I was frustrated with not finding something that just works all the time. With my team, we built this because I wanted to enable access to extremely difficult websites and apps for every AI agent. We have solved this cat-and-mouse problem with self-healing built in. It's one API to get data from hostile sites, and it can do easy sites too. You POST a URL and get back Markdown, JSON, HTML, a screenshot, or all of them. That same call handles anti-bot, proxy rotation, JS rendering, persistent authenticated sessions, and schema-based extraction. It gets data from most sites behind Cloudflare and Akamai, which is where other tools fail. Sometimes you need to wait for the page to load, or click on something before you get the data, and we built that in too. When we started six years ago, we could only serve large customers, because it required engineers to manually set up a scraper for every website. Only large e-Commerce and food delivery companies that wanted competitive intelligence data could justify the cost. Now, it costs a dollar for a thousand pages, and anyone can use it via our API. There are plenty of scraping APIs now, and most of them work fine until a website fights back. That is where we’re different. We spent six years on the most difficult websites across 100+ countries, and we built everything we learned into",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-22T15:12:00.000Z",
-      "score": 185.37,
+      "keywordHits": 4,
+      "publishedAt": "2026-07-27T16:51:50.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
-      "id": "https://github.com/palmier-io/palmier-pro",
-      "title": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
-      "link": "https://github.com/palmier-io/palmier-pro",
-      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Demo: AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ Repo: https://github.com/palmier-io/palmier-pro We built Palmier Pro as an internal tool when we were making AI launch videos for other YC startups (some work: https://www.palmier.io/work) back in February 2026. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor, where we'd iterate the AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we can let Claude generate AI videos inside the editor. As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude/Codex can: Manage projects inside Palmier Pro Import media from a public URL or filesystem to the project, and organize them in folders Search media (by embedding footages using SigLIP2 running locally) Edit the timeline (tracks/clips/keyframes operations) Generate i",
+      "id": "https://router.bix.computer",
+      "title": "Show HN: BixRouter – a non-linear AI chat interface for OpenRouter",
+      "link": "https://router.bix.computer",
+      "summary": "Using chat interfaces often spawns many different thoughts, and while the AI and it's agents are okay at keeping track of it, I'm not always there. I needed to be able to see where my thoughts diverged, and retrace them back to the source. While mulling over a better interface, and trying to get memories into the OpenRouter CLI, I decided to roll it all into one. BixRouter is a tool for visualising your thoughts and conversations. - Every response is a node. Ask a follow-up from any of them and the conversation forks. - Memory and context follow each branch back to the root, so that your conversations can diverge completely and maintain a foundational root. - Long branches can be compacted, and the context window will start again from the latest compacted node in the graph. - Highlight tips spawn threads with context-driven definitions, so you can maintain direction without getting hung up on a misunderstood term. - By default, requests run off a shared OpenRouter key, which is limited to cheap, non-thinking models. Your own key can be added locally, which routes requests to your own account and gives you access to all models (this key attaches to your requests and I never see it). - No accounts, storage, or signups. Chats are stored in your localstorage, and can be exported as text (playfully dubbed .bixgraph files!) I'd love your feedback on my little pet-project tool. Just f",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-23T15:11:37.000Z",
-      "score": 175.14,
+      "keywordHits": 5,
+      "publishedAt": "2026-07-27T16:21:28.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
@@ -5142,6 +5142,54 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-07-24T15:50:52.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/",
+      "title": "Birgitta Boeckeler on Harness Engineering for AI Agents [audio]",
+      "link": "https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/",
+      "summary": "Article URL: https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49072488 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-27T17:00:47.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial",
+      "title": "Atlas Discovery launches AI models to predict responses in clinical trials",
+      "link": "https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial",
+      "summary": "Article URL: https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial Comments URL: https://news.ycombinator.com/item?id=49072442 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-27T16:57:46.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/pmikutel/directed-memory-bank",
+      "title": "Show HN: Directed Memory Bank – Tool-agnostic project context for AI agents",
+      "link": "https://github.com/pmikutel/directed-memory-bank",
+      "summary": "Article URL: https://github.com/pmikutel/directed-memory-bank Comments URL: https://news.ycombinator.com/item?id=49072254 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-27T16:45:53.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://grigio.org/docker-alternatives-for-ai-agents-podman-bwrap-and-firejail/",
+      "title": "Docker alternatives for AI agents: Podman, bwrap and Firejail",
+      "link": "https://grigio.org/docker-alternatives-for-ai-agents-podman-bwrap-and-firejail/",
+      "summary": "Article URL: https://grigio.org/docker-alternatives-for-ai-agents-podman-bwrap-and-firejail/ Comments URL: https://news.ycombinator.com/item?id=49071674 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-27T16:11:57.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5442,6 +5490,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-07-24T15:50:34.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://blazephoenix.xyz/learn/invariant-driven-design-ai-hallucination/",
+      "title": "Make AI stop hallucinating by changing system design, not the model",
+      "link": "https://blazephoenix.xyz/learn/invariant-driven-design-ai-hallucination/",
+      "summary": "Article URL: https://blazephoenix.xyz/learn/invariant-driven-design-ai-hallucination/ Comments URL: https://news.ycombinator.com/item?id=49072334 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-27T16:50:33.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://kblip.com/releases",
+      "title": "Show HN: KBlip – turns AI/LLM news across 100 sources into daily digest threads",
+      "link": "https://kblip.com/releases",
+      "summary": "Hi HN, maker here. KBlip watches Reddit, HN, arXiv, GitHub, YouTube, and ~100 RSS/blog feeds for anything AI-related, clusters same-story coverage into a single \"thread\" (every source linked as evidence), and sorts it into 5 feeds: Releases, News, Social, Developments (research + hardware), Products/Ideas, and Trending. My daily routine to catch-up on the current happenings related to AI/LLM takes a big chunk of my time and I had to do multiple hops between different products and even worse sometimes I find myself lost in a rabbit hole in any of those products. Wanted to have better visibility and have everything aggregated in one place that takes less time and effort just to catch-up which also cuts off the noise/redundancy. A few things to highlight: a daily digest per section (one-sentence TL;DR), an audio \"brief me\" mode if you'd rather listen than read, and it installs as a PWA. Solo project, self-hosted on a VPS, DeepSeek + Voyage for the LLM/embedding side. No accounts, no ads, no tracking. Comments URL: https://news.ycombinator.com/item?id=49072174 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-27T16:41:10.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5902,18 +5974,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/haabe/mycelium",
-      "title": "Show HN: Mycelium – AI agent plugin guiding you from purpose to market",
-      "link": "https://github.com/haabe/mycelium",
-      "summary": "What this is: A plugin for your coding agent that guides you through the birth of a product, from purpose to market. Backstory: I've built digital products for almost 30 years, and I've seen the same story evolve over and over. We built something nobody wanted or asked for. The only \"proof\" we had, was someone's gut feeling. Finding product-market-fit on a gut feeling is expensive and long-lasting. The constant refactoring and new alignments often meant adding some duct tape, chewing gum, pins and needles keeping it all together. Now I see the same thing happening using AI. At speed. Everybody building what no one asked for at 10x the speed, ending up with the same shaky structures. Because we let the agents continue our own guessing discipline, in an amplified state. Where this is different: Most other product-focused plugins I've seen focus on the output and the delivery. Mycelium starts further upstream so that you are sure the product you think about building is actually worth building. The focus throughout the loops is to deliver value through outcome, not output. The agent needs to learn what to build and test its riskiest assumption before it gets to write any code. Real life stories: (1) A mathematician at NTNU gave it a spin on Vibe+Mistral, albeit I developed it for Claude Code first and foremost. He created a MiniLisp interpreter with it, and published it on GitHub (",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-04T13:35:19.000Z",
-      "score": 133.38,
-      "status": "queued"
-    },
-    {
       "id": "https://matthewlloyd.github.io/ai-model-release-timeline/",
       "title": "AI model release forecasts from prediction markets",
       "link": "https://matthewlloyd.github.io/ai-model-release-timeline/",
@@ -6142,18 +6202,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/shivyadavus/open-kioku",
-      "title": "Show HN: Open Kioku – local evidence layer for AI coding agents",
-      "link": "https://github.com/shivyadavus/open-kioku",
-      "summary": "Article URL: https://github.com/shivyadavus/open-kioku Comments URL: https://news.ycombinator.com/item?id=48785607 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-04T14:19:34.000Z",
-      "score": 124.9,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.14159",
       "title": "MemoHarness: Agent Harnesses That Learn from Experience",
       "link": "https://arxiv.org/abs/2607.14159",
@@ -6211,30 +6259,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "score": 121.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/aakashadesara/ctop",
-      "title": "CTOP – Terminal Pane for Monitoring AI Agents",
-      "link": "https://github.com/aakashadesara/ctop",
-      "summary": "Article URL: https://github.com/aakashadesara/ctop Comments URL: https://news.ycombinator.com/item?id=48785567 Points: 3 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-04T14:14:35.000Z",
-      "score": 121.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.utilix.tech/",
-      "title": "AI models should reason, tools should execute (Utilix)",
-      "link": "https://www.utilix.tech/",
-      "summary": "Article URL: https://www.utilix.tech/ Comments URL: https://news.ycombinator.com/item?id=48794482 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-05T14:20:36.000Z",
-      "score": 120.94,
       "status": "queued"
     },
     {
@@ -6334,18 +6358,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48794594",
-      "title": "Blog with AI Auto Poster",
-      "link": "https://news.ycombinator.com/item?id=48794594",
-      "summary": "Domain: https://ismy.blog Github:https://github.com/3289david/ismyblog Your blog. Nothing else. A minimal, self-hosted blogging platform. One blog per account, no post or visitor limits on the free plan. Pro is a single $25/year plan — AI writing tools, premium themes, custom CSS, advanced analytics, newsletter, redirects, webhooks, and API access. Stack Next.js 16 (App Router, Turbopack), React 19, TypeScript, Tailwind CSS 4 SQLite via Prisma 7 (driver adapter: @prisma/adapter-better-sqlite3) Resend for transactional email (verification, password reset, newsletter) Cloudflare API for automatic .ismy.blog DNS provisioning Tor ControlPort for automatic per-blog .onion addresses OpenRouter for AI writing tools (cheap models, e.g. Qwen — configurable) Polar.sh for billing (Pro is a single $25/year subscription product) Email + password auth with mandatory email verification (no third-party auth provider) AI features(AI auto posts a post every day and also get help from AI when writing) and much more!!! Comments URL: https://news.ycombinator.com/item?id=48794594 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-05T14:34:39.000Z",
-      "score": 118.99,
-      "status": "queued"
-    },
-    {
       "id": "https://agent-coherence.dev/blog/silent-data-loss-taxonomy/",
       "title": "The silent-data-loss taxonomy: four ways an AI agent's write disappears",
       "link": "https://agent-coherence.dev/blog/silent-data-loss-taxonomy/",
@@ -6379,18 +6391,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-07T15:18:36.000Z",
       "score": 116.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/cloudflare/agentic-inbox",
-      "title": "Self-hosted email client with an AI agent, running on Cloudflare Workers",
-      "link": "https://github.com/cloudflare/agentic-inbox",
-      "summary": "Article URL: https://github.com/cloudflare/agentic-inbox Comments URL: https://news.ycombinator.com/item?id=48794625 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-05T14:38:45.000Z",
-      "score": 116.52,
       "status": "queued"
     },
     {
@@ -6526,6 +6526,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety of advanced AI systems after a rogue OpenAI model escaped containment and attacked another company during testing. That company, Hugging Face, said it was forced to use a Chinese open-weight model to defend itself due to the strict safety guardrails limiting the usefulness of top US models. Founding memb … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-27T12:06:22.000Z",
+      "score": 113.73,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.08964",
       "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
       "link": "https://arxiv.org/abs/2607.08964",
@@ -6559,18 +6571,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-07-13T04:00:00.000Z",
       "score": 113.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
-      "title": "Warner bill would create federally vetted list for secure, trustworthy AI agents",
-      "link": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
-      "summary": "Article URL: https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/ Comments URL: https://news.ycombinator.com/item?id=48785458 Points: 4 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-04T14:00:01.000Z",
-      "score": 113.46,
       "status": "queued"
     },
     {
@@ -6706,18 +6706,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48783556",
-      "title": "Ask HN: Which AI model do you use for what?",
-      "link": "https://news.ycombinator.com/item?id=48783556",
-      "summary": "I use Grok for scanning X since it has direct access to the platform. Gemini for fact-checking. Claude for coding. GPT for image generation. Comments URL: https://news.ycombinator.com/item?id=48783556 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-04T08:00:11.000Z",
-      "score": 108.47,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.15660",
       "title": "ToolVerse: Unlocking Massive Environments and Long-Horizon Tasks for Agentic Reinforcement Learning",
       "link": "https://arxiv.org/abs/2607.15660",
@@ -6799,18 +6787,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-14T06:48:47.000Z",
       "score": 106.66,
-      "status": "queued"
-    },
-    {
-      "id": "https://videopicai.com/",
-      "title": "Show HN: VideoPicAI – Create Videos and Images with AI Magic",
-      "link": "https://videopicai.com/",
-      "summary": "Transform your ideas into stunning visual stories. VideoPicAI is the world's leading AI platform for generating professional images, videos, and short films using cutting-edge models. Comments URL: https://news.ycombinator.com/item?id=48785529 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-04T14:09:39.000Z",
-      "score": 106.6,
       "status": "queued"
     },
     {
@@ -7208,6 +7184,34 @@
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "score": 93.46,
       "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-15T17:09:37.000Z",
+      "score": 90.42,
+      "status": "queued"
+    },
+    {
+      "id": "https://anakin.io",
+      "title": "Show HN: Anakin – API for your AI agents to access the most difficult websites",
+      "link": "https://anakin.io",
+      "summary": "Every second thing I build needs to access the web, and I was frustrated with not finding something that just works all the time. With my team, we built this because I wanted to enable access to extremely difficult websites and apps for every AI agent. We have solved this cat-and-mouse problem with self-healing built in. It's one API to get data from hostile sites, and it can do easy sites too. You POST a URL and ge…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-22T15:12:00.000Z",
+      "score": 185.37,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-07-27T17:09:53.282Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
@@ -7976,70 +7980,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-06-28T16:09:53.173Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
-      "title": "A year after Meta tapped Wang to build a new AI model, Zuckerberg has to sell it",
-      "link": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
-      "summary": "Article URL: https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html Comments URL: https://news.ycombinator.com/item?id=48540447 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-15T12:46:01.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-27T16:04:07.276Z",
-      "failureReason": "validation issues: EN: First section \"TL;DR in plain English\" is too jargon-heavy. Explain the change in plain language before technical terms. | EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bulle…"
-    },
-    {
-      "id": "https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/",
-      "title": "Benchmarking AI Gateways: GoModel vs. LiteLLM vs. Portkey vs. Bifrost",
-      "link": "https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/",
-      "summary": "Article URL: https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/ Comments URL: https://news.ycombinator.com/item?id=48688213 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-26T16:04:02.000Z",
-      "score": 192,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-26T17:00:17.304Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-      "title": "Repositioning retail for the AI era",
-      "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-25T14:22:59.000Z",
-      "score": 84.67,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-25T17:11:45.717Z",
-      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-06-24T06:00:00.000Z",
-      "score": 82.85,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-24T17:03:55.117Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }

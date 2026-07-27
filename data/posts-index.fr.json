@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-24T16:48:51.775Z",
+  "generatedAt": "2026-07-27T17:22:07.004Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-27-palmier-pro-on-macos-build-the-app-connect-a-local-ai-agent-mcp-and-run-a-120minute-trial-edit",
+      "title": "Palmier Pro sur macOS — compiler l'app, connecter un agent IA local (MCP) et lancer un essai d'édition de 120 minutes",
+      "date": "2026-07-27",
+      "excerpt": "Guide pas à pas pour cloner et lancer Palmier Pro sur macOS, connecter un agent IA local (MCP) ou une API hébergée, et exécuter un essai d'édition de 120 minutes afin de réduire les cycles export/import.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-27-palmier-pro-on-macos-build-the-app-connect-a-local-ai-agent-mcp-and-run-a-120minute-trial-edit.jpg",
+      "tags": [
+        "palmier-pro",
+        "macOS",
+        "IA",
+        "édition-vidéo",
+        "développement",
+        "guide",
+        "petites-équipes"
+      ],
+      "sources": [
+        "https://github.com/palmier-io/palmier-pro"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-24-deploy-onecli-an-open-source-credential-gateway-that-injects-scoped-secrets-for-ai-agents",
       "title": "Déployer OneCLI — une passerelle open‑source d'identifiants qui injecte des secrets limités pour agents IA",
