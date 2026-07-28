@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-27T17:22:07.002Z",
+  "generatedAt": "2026-07-28T16:51:11.870Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-28-directed-memory-bank-a-plain-markdown-projectcontextmd-for-tool-agnostic-ai-agents",
+      "title": "Directed Memory Bank: a plain-markdown project_context.md for tool-agnostic AI agents",
+      "date": "2026-07-28",
+      "excerpt": "Create a single, versioned project_context.md so any file-reading agent (Claude, Gemini, Codex, Cursor) begins sessions with the same project facts, reducing repeated explanations.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-28-directed-memory-bank-a-plain-markdown-projectcontextmd-for-tool-agnostic-ai-agents.jpg",
+      "tags": [
+        "directed-memory-bank",
+        "project-context",
+        "ai-agents",
+        "tool-agnostic",
+        "plain-markdown",
+        "tutorial",
+        "github"
+      ],
+      "sources": [
+        "https://github.com/pmikutel/directed-memory-bank"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-07-27-palmier-pro-on-macos-build-the-app-connect-a-local-ai-agent-mcp-and-run-a-120minute-trial-edit",
       "title": "Palmier Pro on macOS — build the app, connect a local AI agent (MCP), and run a 120‑minute trial edit",

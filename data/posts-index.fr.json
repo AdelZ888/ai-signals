@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-07-27T17:22:07.004Z",
+  "generatedAt": "2026-07-28T16:51:11.873Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-28-directed-memory-bank-a-plain-markdown-projectcontextmd-for-tool-agnostic-ai-agents",
+      "title": "Directed Memory Bank : un project_context.md en markdown simple pour agents IA agnostiques",
+      "date": "2026-07-28",
+      "excerpt": "Créez un fichier unique et versionné project_context.md en markdown brut pour que tout agent capable de lire des fichiers (Claude, Gemini, Codex, Cursor, etc.) démarre les sessions avec les mêmes faits projet. Moins de répétitions, plus de cohérence.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-28-directed-memory-bank-a-plain-markdown-projectcontextmd-for-tool-agnostic-ai-agents.jpg",
+      "tags": [
+        "AI",
+        "markdown",
+        "devtools",
+        "small-teams",
+        "productivity",
+        "engineering"
+      ],
+      "sources": [
+        "https://github.com/pmikutel/directed-memory-bank"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-07-27-palmier-pro-on-macos-build-the-app-connect-a-local-ai-agent-mcp-and-run-a-120minute-trial-edit",
       "title": "Palmier Pro sur macOS — compiler l'app, connecter un agent IA local (MCP) et lancer un essai d'édition de 120 minutes",
