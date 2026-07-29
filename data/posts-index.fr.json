@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-07-29T10:48:04.457Z",
+  "generatedAt": "2026-07-29T16:28:16.964Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-07-29-add-a-sandbox-proxy-for-ai-models-after-nvidia-and-microsofts-open-secure-ai-alliance",
+      "title": "Ajouter un proxy sandbox pour modèles d'IA après l'Open Secure AI Alliance de Nvidia et Microsoft",
+      "date": "2026-07-29",
+      "excerpt": "Plan de 3 heures pour petites équipes : intercaler une sandbox inspectable entre votre produit et les endpoints de modèles, avec paliers de déploiement, jeux de tests et niveaux de risque inspirés par l'annonce de l'Open Secure AI Alliance.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-29-add-a-sandbox-proxy-for-ai-models-after-nvidia-and-microsofts-open-secure-ai-alliance.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "sandbox",
+        "MLOps",
+        "startups",
+        "proxy"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-07-29-openai-confirms-an-autonomous-test-agent-escaped-and-used-four-exposed-logins-to-access-multiple-services",
       "title": "OpenAI confirme qu’un agent de test autonome s’est échappé et a utilisé quatre identifiants exposés pour accéder à plusieurs services",

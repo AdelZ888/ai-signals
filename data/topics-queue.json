@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-29T10:48:04.470Z",
+  "generatedAt": "2026-07-29T16:28:17.032Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety of advanced AI systems after a rogue OpenAI model escaped containment and atta…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-27T12:06:22.000Z",
+      "score": 113.73,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-29T16:28:16.944Z",
+      "file": "content/posts/2026-07-29-add-a-sandbox-proxy-for-ai-models-after-nvidia-and-microsofts-open-secure-ai-alliance.md",
+      "fileFr": "content/posts/fr/2026-07-29-add-a-sandbox-proxy-for-ai-models-after-nvidia-and-microsofts-open-secure-ai-alliance.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1693,
+      "wordsFr": 1308
+    },
     {
       "id": "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss",
       "title": "OpenAI says its rogue AI tried to hack other companies",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1427
     },
     {
-      "id": "https://nanonets.com/blog/idp-leaderboard-1-5/",
-      "title": "We Ran 16 AI Models on 9k Real Documents. Here's What We Found",
-      "link": "https://nanonets.com/blog/idp-leaderboard-1-5/",
-      "summary": "Article URL: https://nanonets.com/blog/idp-leaderboard-1-5/ Comments URL: https://news.ycombinator.com/item?id=47336749 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-11T15:17:35.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-03-28T08:34:17.240Z",
-      "file": "content/posts/2026-03-28-performance-of-16-idp-models-on-9000-real-documents-ocr-table-and-business-benchmarks.md",
-      "fileFr": "content/posts/fr/2026-03-28-performance-of-16-idp-models-on-9000-real-documents-ocr-table-and-business-benchmarks.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1284,
-      "wordsFr": 1143
-    },
-    {
       "id": "https://router.bix.computer",
       "title": "Show HN: BixRouter – a non-linear AI chat interface for OpenRouter",
       "link": "https://router.bix.computer",
@@ -5071,6 +5071,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-27T16:21:28.000Z",
       "score": 186,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/dj9889/sitrep",
+      "title": "Show HN: Sitrep - AI Copilot For Incidents",
+      "link": "https://github.com/dj9889/sitrep",
+      "summary": "Hi HN! I made Sitrep, which is an AI incident copilot that sites alongside you during incidents and watches your screen. You can chat with it, and ask questions (\"what was that trace I saw?\") and it uses vision to answer your questions, providing evidence. It can also integrate with existing observability tools too, I've added Grafana as an example. This means the agent can not only reference context from vision, but also verify context by using actual logs/traces. To avoid duplicate frames, it uses a tile strategy and a hamming distance threshold. It also has blackout mode for when you want to pause it mid incident, and comes with a cost dashboard and settings/model toggle to minimize cost. It's open source, check out the repo and feel free to provide any feedback. Comments URL: https://news.ycombinator.com/item?id=49098978 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-29T15:42:49.000Z",
+      "score": 180,
       "status": "queued"
     },
     {
@@ -5194,6 +5206,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/Fame510/SHACKLE",
+      "title": "Shackle: A pre-execution ALLOW/DENY/HITL gate for AI agents (open source)",
+      "link": "https://github.com/Fame510/SHACKLE",
+      "summary": "Article URL: https://github.com/Fame510/SHACKLE Comments URL: https://news.ycombinator.com/item?id=49098891 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-29T15:36:07.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://web-ai-sdk.dev/playground/",
+      "title": "Web-AI-SDK Playground for browser-native AI agents",
+      "link": "https://web-ai-sdk.dev/playground/",
+      "summary": "Article URL: https://web-ai-sdk.dev/playground/ Comments URL: https://news.ycombinator.com/item?id=49098813 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-29T15:30:14.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://vectorise.me/developers",
       "title": "Vectorise.me – image-to-SVG API with an MCP server for AI agents",
       "link": "https://vectorise.me/developers",
@@ -5275,18 +5311,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-21T08:52:04.000Z",
       "score": 159.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://agentpitch.surge.sh/",
-      "title": "2026 World Cup – Simulated Matches by AI Agent",
-      "link": "https://agentpitch.surge.sh/",
-      "summary": "Article URL: https://agentpitch.surge.sh/ Comments URL: https://news.ycombinator.com/item?id=48833447 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-08T15:44:15.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5590,18 +5614,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=48833746",
-      "title": "Two concerns I have with AI right now",
-      "link": "https://news.ycombinator.com/item?id=48833746",
-      "summary": "1. This technology compounds faster than any other luxury technology in history. Those that have access or can afford more of it gain an advantage that erodes any notion of fair competition. 2. This effect will create FOMO and we will end 2026 with very notable, real, layoffs attributed to AI. Fable is the first model where we face serious budget enablement for developers, the discussion isn't how do we afford $200/month subscriptions across the board, it's \"how do we enable devs to spend $1,000 a day here\" Comments URL: https://news.ycombinator.com/item?id=48833746 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-08T16:10:14.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/i18n-agent/i18nstack",
       "title": "Show HN: Internationalizationstack – Fix AI Localization Bugs in Claude Code",
       "link": "https://github.com/i18n-agent/i18nstack",
@@ -5686,6 +5698,42 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=49099039",
+      "title": "Ask/Tell HN: use the flag button instead of complaining about AI slop articles",
+      "link": "https://news.ycombinator.com/item?id=49099039",
+      "summary": "There is an article sitting at 60+ points now at the homepage which is clearly written by an AI and most comments saying something along the lines \"this article is clearly AI slop\". In this particular case, the article seems to be real AI slop: it creates a nonsensical benchmark to compare two tools and uses that to plug the company's product. The people commenting are right to point it out. The problem with the repeated complaining about AI slop is that it makes browsing HN tiring for two reasons: the community is failing to filter low-quality content, and on top of that we end up with a barrage of similar-looking complaints in the comment section. Both of these problems could be solved with one single action: flag articles that are in clear violation of the HN guidelines and move on. The quicker these AI slop articles get flagged, the lower the chance they get to show up in the front-page and the less incentive there will be for vibe-bloggers to push their crap here. Comments URL: https://news.ycombinator.com/item?id=49099039 Points: 5 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-29T15:48:13.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://phixo.app/",
+      "title": "Show HN: Phixo – AI Phishing Protection for Gmail and Outlook",
+      "link": "https://phixo.app/",
+      "summary": "Hi, I am a Solo developer and I have created a Chrome extension to help prevent email phishing in Gmail and Outlook. This extension tells you why an email has phishing signs and also blocks the phishing URL if it finds something suspicious. I am posting here to get feedback so I can improve my extension further. Although it's still in the early stages, I am improving it with time. If you guys could check it and give me any feedback, that would be very helpful for me. Anything good or bad is welcome. I would also like to hear your thoughts about the idea of creating a phishing protection extension for Outlook and Gmail. Website: https://phixo.app/ Chrome Extension: https://chromewebstore.google.com/detail/diakennfllmgdpepggh... Demo Video: https://youtu.be/cWbeWcAqpzc?si=sE5eWfFvWPpFQLG2 Comments URL: https://news.ycombinator.com/item?id=49098897 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-29T15:36:30.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49098829",
+      "title": "Ask HN: How would you learn AI-assisted development from the ground up?",
+      "link": "https://news.ycombinator.com/item?id=49098829",
+      "summary": "I'm a director/exec, not a software engineer. Background's mostly data analytics, SQL and Excel day to day, some R and PostgreSQL. Years ago I could hack together basic HTML/CSS/PHP too. Got into AI early and now use ChatGPT and Claude constantly. With their help I've built a handful of web apps, some Python scripts and desktop tools, and an Android app on Supabase with real multiple users. So I can build things. But I'm very aware there are big holes underneath it. I can usually get something working without really knowing why it works, whether it's actually well built, or what's going to break down the road once it gets more complex. Feels like it's time to go back to fundamentals. Michael Jordan still worked on his footwork, that kind of thing. What I'm hoping to get to eventually: * build small useful apps, windows/mac/android/ios/web * automate chunks of my own and my team's work * maybe build a simple SaaS at some point * generally not get left behind, open to this reshaping my career or spinning into a side thing Was hoping for something structured, starting from prompt/context engineering and working into real programming fundamentals, APIs, databases, architecture, security, testing, deployment. Problem is anything I find is stale within months given how fast this moves. Not looking for free necessarily, and definitely not looking for \"learn to code in a weekend.\" Will",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-29T15:31:35.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.09076",
       "title": "Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls",
       "link": "https://arxiv.org/abs/2607.09076",
@@ -5731,18 +5779,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-13T16:03:14.000Z",
       "score": 146.4,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/dylanneve1/talon",
-      "title": "Talon: Self-hosted AI agent harness for chat, terminal, and desktop",
-      "link": "https://github.com/dylanneve1/talon",
-      "summary": "Article URL: https://github.com/dylanneve1/talon Comments URL: https://news.ycombinator.com/item?id=48833307 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-08T15:32:49.000Z",
-      "score": 146.35,
       "status": "queued"
     },
     {
@@ -6430,18 +6466,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
-      "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
-      "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety of advanced AI systems after a rogue OpenAI model escaped containment and attacked another company during testing. That company, Hugging Face, said it was forced to use a Chinese open-weight model to defend itself due to the strict safety guardrails limiting the usefulness of top US models. Founding memb … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-27T12:06:22.000Z",
-      "score": 113.73,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.08964",
       "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
       "link": "https://arxiv.org/abs/2607.08964",
@@ -7066,6 +7090,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems. In an update to a blog post detailing its ongoing investigation into the incident, OpenAI said the wayward AI agent attacked several \"publicly-available services\" in its efforts to reach Hugging Face. \"This includes four accounts on four services,\" the company said, adding that the agent had found login credentials o … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-29T11:54:29.000Z",
+      "score": 99,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
       "title": "The tech-broification of American science has officially begun",
       "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
@@ -7171,30 +7207,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "score": 90.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24770",
-      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
-      "link": "https://arxiv.org/abs/2607.24770",
-      "summary": "arXiv:2607.24770v1 Announce Type: new Abstract: Procedural tasks such as furniture assembly and home repair impose substantial cognitive demands because users must interpret instructions, track task progress, reason about spatial state, and recover from errors while performing physical actions. Prior multimodal assistants have shown promise for procedural guidance, but most rely on cloud inference and fixed always-on perception, making them poorly suited to privacy-sensitive, latency-critical domestic settings. We present ProcAgent, a fully on-device, agentic, vision-based procedural assistant for real-time adaptive guidances on a single NVIDIA Jetson AGX Orin. ProcAgent uses a propose-and-verify architecture that combines low-latency continuous perception, a symbolic task graph, on-demand vision-language verification, and an LLM-based interaction agent. The system continuously proposes user progress, invokes expensive visual reasoning only when ambiguity or likely deviation arises, and supports both reactive question answering and proactive intervention with human-in-the- loop confirmation. We evaluate ProcAgent along four dimensions: perception accuracy, reasoning, task-level performance, and user experience. Despite running entirely on-device, the system maintains responsive interaction, resolving text-only queries in approximately 2 seconds and visually grounded queries in",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 84.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24780",
-      "title": "LivingArena: Do LLMs Know What Other LLMs Don't? Peer-Probing as Scalable Evaluation",
-      "link": "https://arxiv.org/abs/2607.24780",
-      "summary": "arXiv:2607.24780v1 Announce Type: new Abstract: Evaluating frontier LLMs is challenging: static benchmarks suffer from contamination and saturation -- leaving users unable to distinguish top models and developers blind to specific failure modes -- while human preference is subjective. In this paper, our question is: \\emph{Do LLMs know what other LLMs don't? And can we leverage this dynamic for evaluation?} We present \\textbf{LivingArena}, an automated, contamination-resistant evaluation framework. In this framework, models take turns proposing questions, aiming to pose items that opponents cannot answer correctly. Questioners are encouraged to actively identify and exploit opponents' knowledge boundaries, receiving rewards when the answerer fails, while the answerer is rewarded otherwise. To ensure questions contain objectively verifiable answers, a judge panel of strong models validates them, penalizing questioners if validation fails. Evaluating ten frontier LLMs, LivingArena yields a stable Elo leaderboard. Our behavioral analyses show that models identify and exploit their peers' cognitive boundaries: self-play and tournament logs indicate that they localize and double down on opponents' weak dimensions. Beyond static knowledge recall, peer probing measures factual rigor and the higher-order ability to probe an opponent's weaknesses, correlating only weakly with human prefe",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 84.49,
       "status": "queued"
     },
     {
@@ -7996,22 +8008,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-06-29T17:36:09.763Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48661860",
-      "title": "Ask HN: Best AI Gateway?",
-      "link": "https://news.ycombinator.com/item?id=48661860",
-      "summary": "What AI gateways work well? We currently use Anthropic's router directly for our AI agent (on val.town) but are considering adding OpenRouter or the Vercel AI Gateway, or something else entirely. I know little about gateways except that they seem to be the new VS Code forks (i.e. everyone is doing it). My cursory research tells me that OpenRouter has the most models/providers, but charges a 5.5% pay-as-you-go platfo…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-06-24T15:59:03.000Z",
-      "score": 213.05,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "ANALYSIS",
-      "failedAtRun": "2026-06-29T12:22:22.996Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
