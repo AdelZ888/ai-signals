@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:19:53.879Z",
+  "generatedAt": "2026-07-30T16:33:44.091Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "model-release-brief",
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-30-simulation-first-poc-for-video-driven-task-orchestration-and-multi-robot-coordination-inspired-by-gemini-robotics-er-2",
+      "title": "POC axé sur la simulation pour orchestration de tâches pilotée par vidéo et coordination multi-robots, inspiré par Gemini Robotics ER 2",
+      "date": "2026-07-30",
+      "excerpt": "Guide pratique pour construire un proof-of-concept (POC) qui transforme la vidéo de caméra en événements étiquetés, alimente un orchestrateur et commande un ou deux robots. Méthode \"simulation-first\", contrôles de sécurité et conseils de mise en route pour petites équipes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-30-simulation-first-poc-for-video-driven-task-orchestration-and-multi-robot-coordination-inspired-by-gemini-robotics-er-2.jpg",
+      "tags": [
+        "robotique",
+        "IA",
+        "perception vidéo",
+        "orchestration",
+        "simulation",
+        "POC",
+        "DeepMind",
+        "Gemini"
+      ],
+      "sources": [
+        "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {

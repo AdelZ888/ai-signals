@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:19:53.875Z",
+  "generatedAt": "2026-07-30T16:33:44.089Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "beginner",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-07-30-simulation-first-poc-for-video-driven-task-orchestration-and-multi-robot-coordination-inspired-by-gemini-robotics-er-2",
+      "title": "Simulation-first POC for video-driven task orchestration and multi-robot coordination inspired by Gemini Robotics ER 2",
+      "date": "2026-07-30",
+      "excerpt": "Build a simulation-first POC that turns camera video into labeled events feeding an orchestrator to drive one or two robots, with practical safety gates, canary rollouts and testing tips.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-30-simulation-first-poc-for-video-driven-task-orchestration-and-multi-robot-coordination-inspired-by-gemini-robotics-er-2.jpg",
+      "tags": [
+        "Gemini Robotics ER 2",
+        "video understanding",
+        "task orchestration",
+        "multi-robot collaboration",
+        "simulation-first",
+        "safety",
+        "DeepMind",
+        "POC"
+      ],
+      "sources": [
+        "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-07-29-add-a-sandbox-proxy-for-ai-models-after-nvidia-and-microsofts-open-secure-ai-alliance",

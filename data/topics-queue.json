@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-30T10:19:53.889Z",
+  "generatedAt": "2026-07-30T16:33:44.149Z",
   "items": [
+    {
+      "id": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-30T15:00:59.000Z",
+      "score": 121.39,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-30T16:33:44.075Z",
+      "file": "content/posts/2026-07-30-simulation-first-poc-for-video-driven-task-orchestration-and-multi-robot-coordination-inspired-by-gemini-robotics-er-2.md",
+      "fileFr": "content/posts/fr/2026-07-30-simulation-first-poc-for-video-driven-task-orchestration-and-multi-robot-coordination-inspired-by-gemini-robotics-er-2.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1605,
+      "wordsFr": 1205
+    },
     {
       "id": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
       "title": "Google is renaming NotebookLM to Gemini Notebook",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1585
     },
     {
-      "id": "https://www.numerama.com/cyberguerre/2217675-cinq-jours-pour-infiltrer-trois-heures-pour-tout-voler-comment-des-hackers-ont-piege-des-millions-de-developpeurs-ia.html",
-      "title": "Cinq jours pour infiltrer, trois heures pour tout voler : comment des hackers ont piégé des millions de développeurs IA",
-      "link": "https://www.numerama.com/cyberguerre/2217675-cinq-jours-pour-infiltrer-trois-heures-pour-tout-voler-comment-des-hackers-ont-piege-des-millions-de-developpeurs-ia.html",
-      "summary": "Dans un article de blog publié le 24 mars 2026, les chercheurs de l'entreprise de cybersécurité Snyk reviennent sur le déroulé d'une attaque menée contre la bibliothèque Python LiteLLM. Le projet, utilisé par des millions de développeurs, a été compromis pendant trois heures. Derrière l'attaque, un groupe nommé TeamPCP qui avait préparé son coup cinq jours à l'avance.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-03-25T07:55:18.000Z",
-      "score": 144,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-03-29T08:35:17.173Z",
-      "file": "content/posts/2026-03-29-litellm-supply-chain-compromise-teampcp-prepared-five-days-active-for-a-three-hour-window.md",
-      "fileFr": "content/posts/fr/2026-03-29-litellm-supply-chain-compromise-teampcp-prepared-five-days-active-for-a-three-hour-window.md",
-      "generationMode": "llm",
-      "series": "founder-notes",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1460,
-      "wordsFr": 1200
-    },
-    {
       "id": "https://router.bix.computer",
       "title": "Show HN: BixRouter – a non-linear AI chat interface for OpenRouter",
       "link": "https://router.bix.computer",
@@ -5230,6 +5230,54 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/softcane/hamza",
+      "title": "Show HN: Maybe AI agents shouldn't decide what's sensitive",
+      "link": "https://github.com/softcane/hamza",
+      "summary": "Article URL: https://github.com/softcane/hamza Comments URL: https://news.ycombinator.com/item?id=49112171 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-30T16:21:00.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://zozo123.github.io/wasted-cycles/",
+      "title": "Show HN: Wasted Cycles – Local wall-clock profiler for AI coding agents",
+      "link": "https://zozo123.github.io/wasted-cycles/",
+      "summary": "Article URL: https://zozo123.github.io/wasted-cycles/ Comments URL: https://news.ycombinator.com/item?id=49111656 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-30T15:47:05.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.jamdesk.com/blog/designing-docs-for-ai-agents",
+      "title": "Designing Docs for AI Agents",
+      "link": "https://www.jamdesk.com/blog/designing-docs-for-ai-agents",
+      "summary": "Article URL: https://www.jamdesk.com/blog/designing-docs-for-ai-agents Comments URL: https://news.ycombinator.com/item?id=49111582 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-30T15:42:44.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.malwarebytes.com/blog/ai/2026/07/hidden-microsoft-copilot-ai-worm",
+      "title": "Prompt turns Microsoft Copilot into an AI worm",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/07/hidden-microsoft-copilot-ai-worm",
+      "summary": "Article URL: https://www.malwarebytes.com/blog/ai/2026/07/hidden-microsoft-copilot-ai-worm Comments URL: https://news.ycombinator.com/item?id=49111474 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-30T15:35:30.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://vectorise.me/developers",
       "title": "Vectorise.me – image-to-SVG API with an MCP server for AI agents",
       "link": "https://vectorise.me/developers",
@@ -5262,6 +5310,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-07-21T15:27:32.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://ykdojo.github.io/awesome-agents-on-google-cloud/anatomy-of-an-ai-agent-on-google-cloud.html",
+      "title": "The anatomy of an AI agent on Google Cloud: a complete guide",
+      "link": "https://ykdojo.github.io/awesome-agents-on-google-cloud/anatomy-of-an-ai-agent-on-google-cloud.html",
+      "summary": "Article URL: https://ykdojo.github.io/awesome-agents-on-google-cloud/anatomy-of-an-ai-agent-on-google-cloud.html Comments URL: https://news.ycombinator.com/item?id=49111801 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-30T15:55:36.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -5526,6 +5586,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-07-27T16:41:10.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.15497",
+      "title": "Towards End-to-End Automation of AI Research [pdf]",
+      "link": "https://arxiv.org/abs/2606.15497",
+      "summary": "Article URL: https://arxiv.org/abs/2606.15497 Comments URL: https://news.ycombinator.com/item?id=49111777 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-30T15:54:17.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -7030,6 +7102,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-30T10:15:19.000Z",
+      "score": 85.46,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.24770",
       "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
       "link": "https://arxiv.org/abs/2607.24770",
@@ -7123,78 +7207,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-29T11:00:00.000Z",
       "score": 71.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24763",
-      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
-      "link": "https://arxiv.org/abs/2607.24763",
-      "summary": "arXiv:2607.24763v1 Announce Type: new Abstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept pace. Despite MDLMs becoming competitive with autoregressive language models, seven recent remasking papers evaluate under incompatible settings, varying nominal step counts, metrics, and sampling temperatures without jointly controlling these factors, rendering their strategy rankings largely incomparable and leaving open whether reported gains reflect algorithmic improvements or evaluation artifacts. We present CaRE, a compute-aware evaluation framework that audits MDLM remasking strategies by standardizing actual number of function evaluations (NFE), enforcing multi-metric reporting, and explicitly controlling stochasticity. Applied to 7 remasking strategies across LLaDA-8B-Base and Dream-7B-Base at 4 stochasticity levels and 3 step budgets on OpenWebText and LM1B, CaRE reveals that: (i) temperature explains the majority of MAUVE variance, (ii) compute-matched comparisons reverse several published strategy rankings, and (iii) informed remasking and stochastic unmasking are in tension, with high-entropy remasking reducing MAUVE by 0.296 at 256 steps at unmask_temp=0.25 (p=0.020). A CaRE leaderboard covering 12 open-weight MDLMs (150M to 8B parameters) shows that this interaction d",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "score": 67.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24773",
-      "title": "Right-sizing Recommendations (RSR): Cloud Workload Conformal Prediction for Virtual Machines in Data Center Operations",
-      "link": "https://arxiv.org/abs/2607.24773",
-      "summary": "arXiv:2607.24773v1 Announce Type: new Abstract: Managing cloud infrastructure efficiently, especially in environments of large cloud providers or hyperscalers, requires optimizing the use of physical resources to minimize costs and maximize performance. Selecting the right virtual machine (VM) sizes is crucial to achieving cost efficiency in these dynamic environments. However, traditional VM allocation and scheduling approaches often fail to account for the fluctuating and unpredictable nature of VM utilization, leading to inefficiencies such as over- or under-provisioning of resources. High-quality interval prediction helps accurately capture uncertainty in cloud resource demand and supports cloud operators in efficient instance provisioning. As an effective and reliable framework for constructing prediction intervals (PIs), conformal prediction (CP) is used for mid- and long-term forecasting tasks in cloud computing environments. This study proposes a new data-driven PI construction approach using bootstrapping conformal prediction for modern, dynamic, data-driven Right-sizing Recommendations (RSR) to enhance provisioning for diverse application workloads on hyperscalers. By learning workload utilization patterns, identifying correlations across multiple time series, and predicting medium- to long-term utilization trends, this research seeks to improve the efficiency of clou",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "score": 67.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24774",
-      "title": "Atmospheric Diffusion-Guided Spatio-Temporal Transformer for Nuclear Radiation Forecasting",
-      "link": "https://arxiv.org/abs/2607.24774",
-      "summary": "arXiv:2607.24774v1 Announce Type: new Abstract: Nuclear radiation, the energy released during atomic decay, poses persistent risks to public health and the environment, and concerns have only grown since the Fukushima accident and the recent commencement of treated-water discharge. Modern monitoring networks now record radiation levels and accompanying weather conditions at thousands of stations, opening the door to nationwide forecasting that can inform emergency response, agricultural advisories, and routine public-safety decisions. However, turning this abundance of monitoring data into reliable forecasts is difficult for three reasons. First, the time series at each station are highly non-stationary, shaped by radioactive decay, weather variability, and irregular human interventions. Second, monitoring stations are severely unevenly distributed in space. Roughly 78% of Japan's stations sit in less than 6% of the country, clustered near Fukushima, which breaks the assumptions of standard graph-based models. Third, radiation co-evolves with heterogeneous context such as wind, temperature, and humidity through atmospheric transport processes that purely data-driven models struggle to capture from observations alone. In this study, we introduce NRFormer+, a spatio-temporal Transformer for nationwide nuclear radiation forecasting. NRFormer+ couples non-stationary temporal attent",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "score": 67.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
-      "link": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-      "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do to make them viable for users - and how it will convince less technical people to give them a shot: Soon we will have agents that can work 24/7 on your behalf to help you achieve your goals and improve your life, your health, your relationships, your finances, whatever you want. The first domain that agents have really taken off in is coding. … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-29T21:48:07.000Z",
-      "score": 63.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "score": 63.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-      "title": "Building the enterprise environment for agentic AI",
-      "link": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-27T11:32:58.000Z",
-      "score": 61.7,
       "status": "queued"
     },
     {
@@ -7964,22 +7976,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-06-30T17:06:06.219Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
-      "title": "Can tech companies learn to love cheaper AI models?",
-      "link": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
-      "summary": "Article URL: https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/ Comments URL: https://news.ycombinator.com/item?id=48474426 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-10T10:55:59.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-06-30T10:47:59.616Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Se…"
     }
   ]
 }
