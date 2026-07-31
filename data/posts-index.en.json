@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-30T16:33:44.089Z",
+  "generatedAt": "2026-07-31T16:57:18.522Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-07-31-sitrep-open-source-ai-incident-copilot-that-ties-screen-captures-to-grafana-traces",
+      "title": "Sitrep: Open-source AI incident copilot that ties screen captures to Grafana traces",
+      "date": "2026-07-31",
+      "excerpt": "Sitrep is an open-source AI incident copilot that watches your screen, deduplicates tiles, and links screenshots to Grafana traces/logs for evidence-backed answers. Demo ~2 hrs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-07-31-sitrep-open-source-ai-incident-copilot-that-ties-screen-captures-to-grafana-traces.jpg",
+      "tags": [
+        "incident-response",
+        "observability",
+        "opentelemetry",
+        "grafana",
+        "ai-agent",
+        "on-call",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/dj9889/sitrep"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-07-30-google-renames-notebooklm-to-gemini-notebook-checklist-for-product-docs-and-support-teams",
       "title": "Google renames NotebookLM to Gemini Notebook — checklist for product, docs, and support teams",

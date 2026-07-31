@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-30T16:33:44.149Z",
+  "generatedAt": "2026-07-31T16:57:18.592Z",
   "items": [
+    {
+      "id": "https://github.com/dj9889/sitrep",
+      "title": "Show HN: Sitrep - AI Copilot For Incidents",
+      "link": "https://github.com/dj9889/sitrep",
+      "summary": "Hi HN! I made Sitrep, which is an AI incident copilot that sites alongside you during incidents and watches your screen. You can chat with it, and ask questions (\"what was that trace I saw?\") and it uses vision to answer your questions, providing evidence. It can also integrate with existing observability tools too, I've added Grafana as an example. This means the agent can not only reference context from vision, bu…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-29T15:42:49.000Z",
+      "score": 180,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-07-31T16:57:18.504Z",
+      "file": "content/posts/2026-07-31-sitrep-open-source-ai-incident-copilot-that-ties-screen-captures-to-grafana-traces.md",
+      "fileFr": "content/posts/fr/2026-07-31-sitrep-open-source-ai-incident-copilot-that-ties-screen-captures-to-grafana-traces.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1706,
+      "wordsFr": 1355
+    },
     {
       "id": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
       "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1413
     },
     {
-      "id": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "title": "Designing AI agents to resist prompt injection",
-      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-03-11T11:30:00.000Z",
-      "score": 72.31,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-03-29T15:55:42.937Z",
-      "file": "content/posts/2026-03-29-designing-agent-workflows-to-limit-prompt-injection-and-socialengineering-risks.md",
-      "fileFr": "content/posts/fr/2026-03-29-designing-agent-workflows-to-limit-prompt-injection-and-socialengineering-risks.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 180,
-      "wordsEn": 1678,
-      "wordsFr": 1585
-    },
-    {
       "id": "https://router.bix.computer",
       "title": "Show HN: BixRouter – a non-linear AI chat interface for OpenRouter",
       "link": "https://router.bix.computer",
@@ -5071,18 +5071,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-27T16:21:28.000Z",
       "score": 186,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/dj9889/sitrep",
-      "title": "Show HN: Sitrep - AI Copilot For Incidents",
-      "link": "https://github.com/dj9889/sitrep",
-      "summary": "Hi HN! I made Sitrep, which is an AI incident copilot that sites alongside you during incidents and watches your screen. You can chat with it, and ask questions (\"what was that trace I saw?\") and it uses vision to answer your questions, providing evidence. It can also integrate with existing observability tools too, I've added Grafana as an example. This means the agent can not only reference context from vision, but also verify context by using actual logs/traces. To avoid duplicate frames, it uses a tile strategy and a hamming distance threshold. It also has blackout mode for when you want to pause it mid incident, and comes with a cost dashboard and settings/model toggle to minimize cost. It's open source, check out the repo and feel free to provide any feedback. Comments URL: https://news.ycombinator.com/item?id=49098978 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-29T15:42:49.000Z",
-      "score": 180,
       "status": "queued"
     },
     {
@@ -5338,6 +5326,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.seangoedecke.com/ai-models-need-moral-support/",
+      "title": "AI models need moral support to make discoveries",
+      "link": "https://www.seangoedecke.com/ai-models-need-moral-support/",
+      "summary": "Article URL: https://www.seangoedecke.com/ai-models-need-moral-support/ Comments URL: https://news.ycombinator.com/item?id=49124490 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-31T15:39:35.000Z",
+      "score": 164.03,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=49086282",
       "title": "Free AI visibility scanner for your website",
       "link": "https://news.ycombinator.com/item?id=49086282",
@@ -5359,42 +5359,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-21T08:52:04.000Z",
       "score": 159.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://nomac.app",
-      "title": "Show HN: NoMac – let your AI agent ship iOS apps without a Mac",
-      "link": "https://nomac.app",
-      "summary": "Article URL: https://nomac.app Comments URL: https://news.ycombinator.com/item?id=48862079 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-10T16:24:11.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://tryfraym.com",
-      "title": "The fix for my AI agent wasn't making it smarteR",
-      "link": "https://tryfraym.com",
-      "summary": "Article URL: https://tryfraym.com Comments URL: https://news.ycombinator.com/item?id=48861942 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-10T16:14:26.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/",
-      "title": "Litert.js, Google's High Performance Web AI Inference",
-      "link": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/",
-      "summary": "Article URL: https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/ Comments URL: https://news.ycombinator.com/item?id=48861772 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-10T16:03:02.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5602,6 +5566,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "title": "Agent Sandbox: A Kubernetes CRD and controller for AI agent runtimes",
+      "link": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "summary": "Article URL: https://github.com/kubernetes-sigs/agent-sandbox Comments URL: https://news.ycombinator.com/item?id=49125061 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-31T16:16:53.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.22555",
       "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
       "link": "https://arxiv.org/abs/2607.22555",
@@ -5770,6 +5746,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "title": "It’s time to panic about AI safety",
+      "link": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "summary": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem. This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, including a bunch of other supposedly secure web services, all in the name of cheating on a benchmark tests. The fact that this hack happened is a problem. So is the fact that it took a while for anyone to notice. And the fact that it seems no one is willing or able to do much to stop it. (And lest you think it's just an OpenAI problem, since we recorded this episode Anthropic acknowledged its models ha … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 8,
+      "publishedAt": "2026-07-31T14:03:04.000Z",
+      "score": 146.46,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/daitangio/take-ai-control",
       "title": "Show HN: Containerized AI development with cross-compatibility",
       "link": "https://github.com/daitangio/take-ai-control",
@@ -5842,14 +5830,14 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-      "title": "Microsoft’s patch Tuesdays are about to get bigger",
-      "link": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-      "summary": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in a blog post on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security updates included in each security release.\" Hackers, even amateurs, have increasingly been using AI to quickly exploit security weaknesses over the past several months. Security researchers are also using AI to find issues faster, leading to more frequent high-severity vulnerabilities, like the \"Copy Fail\" exploit that impacted nearly every Linux distribution in May. Similarly, when Anthropic announce … Read the full story at The Verge.",
-      "source": "The Verge AI",
+      "id": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "title": "Disrupting a Criminal Scam Operation",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "source": "OpenAI News",
       "region": "US",
       "keywordHits": 2,
-      "publishedAt": "2026-07-09T17:00:00.000Z",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
       "score": 144,
       "status": "queued"
     },
@@ -5875,18 +5863,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-07-13T04:00:00.000Z",
       "score": 143.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "title": "OpenAI is shutting down its AI browser Atlas",
-      "link": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "summary": "Article URL: https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/ Comments URL: https://news.ycombinator.com/item?id=48861557 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-10T15:47:52.000Z",
-      "score": 141.94,
       "status": "queued"
     },
     {
@@ -5986,6 +5962,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "title": "Is AI reasoning right for the wrong reasons?",
+      "link": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "summary": "Article URL: https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/ Comments URL: https://news.ycombinator.com/item?id=49124358 Points: 59 # Comments: 55",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-31T15:29:39.000Z",
+      "score": 131.53,
+      "status": "queued"
+    },
+    {
       "id": "https://matthewlloyd.github.io/ai-model-release-timeline/",
       "title": "AI model release forecasts from prediction markets",
       "link": "https://matthewlloyd.github.io/ai-model-release-timeline/",
@@ -6034,18 +6022,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.07858",
-      "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
-      "link": "https://arxiv.org/abs/2607.07858",
-      "summary": "arXiv:2607.07858v1 Announce Type: new Abstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated decision workflows. Actuaries now face a design space that ranges from traditional rule-based automation to large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent ``agentic'' systems that plan, retrieve, call tools, and reflect. This paper examines how these emerging architectures can support actuarial priorities such as transparency, auditability, and human-in-the-loop governance, with a focus on straight-through decision processes. To make these ideas concrete, we develop and analyze an agentic AI framework for straight-through underwriting of small commercial Business Owner Policies (BOPs). We construct a synthetic but realistic experimental environment and compare three underwriting pipelines: (i) a single-LLM baseline, (ii) a naive RAG system, and (iii) a multi-agent ``Agentic RAG'' pipeline that combines targeted retrieval, third-party data checks, and explicit multi-step rule evaluation. The agentic system performs best overall, with the largest gains in multi-step and missing-information scenarios, where structured retrieval and reflection help the model avoid unsupported straight-through decisions.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-07-10T04:00:00.000Z",
-      "score": 129.28,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/CoreGrowthLabs/CoreGrowthPrompting/blob/main/README.en.md",
       "title": "Show HN: A primer for non-coders to design software via structured AI dialogue",
       "link": "https://github.com/CoreGrowthLabs/CoreGrowthPrompting/blob/main/README.en.md",
@@ -6070,15 +6046,15 @@
       "status": "queued"
     },
     {
-      "id": "https://shypmenta.com/",
-      "title": "Show HN: I made AI agent that deploys your thing on diff plats automaticaly",
-      "link": "https://shypmenta.com/",
-      "summary": "Cursor for deployment, in our language. this is an ai agent that connects to ur github, digital ocean, vercel, render, stripe, etc. then u tell it something like this: deploy diff components of this app on appropriate platforms. It goes and does it for you. Then, u become happy. Comments URL: https://news.ycombinator.com/item?id=48861409 Points: 2 # Comments: 0",
+      "id": "https://raylinement.substack.com/p/ai-security-breaches-the-problems",
+      "title": "Show HN: AI Security Breaches, the problems and it's causes",
+      "link": "https://raylinement.substack.com/p/ai-security-breaches-the-problems",
+      "summary": "There has been a recent security breaches by Anthropic and OpenAI that they have problems in difficulty in working and handling with these advance AI models. Comments URL: https://news.ycombinator.com/item?id=49123905 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-10T15:38:02.000Z",
-      "score": 128.55,
+      "keywordHits": 5,
+      "publishedAt": "2026-07-31T14:49:54.000Z",
+      "score": 128.54,
       "status": "queued"
     },
     {
@@ -6202,6 +6178,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.26120",
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "link": "https://arxiv.org/abs/2607.26120",
+      "summary": "arXiv:2607.26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misalignment with collective goals becomes a central concern. We propose a novel framework for evaluating objective misalignment using the social deduction game Werewolf, modifying the objective of a single agent while preserving its assigned role. Across LLMs from four different model families and sizes, four player roles, and three objective formulations, we introduce a dual analysis of the agents' internal reasoning and their public cheap-talk behavior (i.e costless, non-binding communication that does not directly affect the agents' utilities), complemented by an analysis of game outcomes. Our results show that objective misalignment undermines outcomes in inherently adversarial environments, an effect exacerbated by asymmetric information and specialized roles. While compromised agents consistently develop distinct objective-dependent reasoning strategies, these adaptations remain largely invisible in their public behavior. More broadly, our findings suggest that even subtle objective misalignment can profoundly affect collective decision-making, highlighting the need for effective m",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 123.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.26588",
+      "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
+      "link": "https://arxiv.org/abs/2607.26588",
+      "summary": "arXiv:2607.26588v1 Announce Type: new Abstract: The rapid development of large language models (LLMs) has renewed interest in agent-based modeling (ABM). However, current LLM-based ABM research faces several key challenges: modeling evolving agent-environment interactions, enabling flexible counterfactual reasoning, and automating simulation workflows for scientific research. In this paper, we propose Eco3S, a socio-economic system simulation framework for economic research and policy analysis that addresses these challenges through three key mechanisms: (1) Co-evolving Environment Design, a bidirectional feedback loop where agents and the environment co-evolve, producing realistic emergent behaviors; (2) Structural Causal Simulation, a structural causal model (SCM)-inspired counterfactual mechanism that allows flexible interventions for diverse causal inference tasks; (3) Simulation-Analysis-Refinement Paradigm, a self-corrective mechanism that iteratively refines experimental designs based on prior simulation results. Experiments on diverse economic scenarios confirm \\textit{Eco3S}'s effectiveness in replicating multiple established economic studies (canal decay, origins of governance, and information propagation) and phenomena across domains. Additional results further demonstrate its scalability and generalizability, highlighting the framework's potential for rigorous econo",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 123.41,
+      "status": "queued"
+    },
+    {
       "id": "https://buy.stripe.com/5kQ5kEaUKd8w0qr0FKe3e00",
       "title": "Agent Service – promptable AI agents with guardrails and downloadable packages",
       "link": "https://buy.stripe.com/5kQ5kEaUKd8w0qr0FKe3e00",
@@ -6283,6 +6283,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-07-28T09:07:14.000Z",
       "score": 117.91,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "title": "Anthropic says Claude accidentally hacked real companies too",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "summary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI labs are doing enough to control the increasingly capable systems they are building. In a blog post describing the incidents, Anthropic said Claude gained unauthorized access to the systems during cybersecurity evaluations. All of the attacks happened during \"capture-the-flag\" exercises, a commo … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-31T13:41:17.000Z",
+      "score": 117.19,
       "status": "queued"
     },
     {
@@ -6502,15 +6514,27 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.08018",
-      "title": "Concretized Proposition Prompting Resolves Composition-Knowledge Dichotomy in Large Language Models",
-      "link": "https://arxiv.org/abs/2607.08018",
-      "summary": "arXiv:2607.08018v1 Announce Type: new Abstract: LLMs often struggle to balance compositionality with knowledgeability, a challenge we define as Composition-Knowledge Dichotomy. To address this, we propose Concretized Proposition Prompting (CPP), a framework that explicitly concretizes propositions relevant to questions. The results demonstrate that CPP significantly enhances reasoning performance, particularly in medical benchmarks where precise knowledge is paramount, while being competitive on math benchmarks where deductive reasoning is prioritized. Additional experiments reveal that CPP is scalable to various foundation models and parameter sizes, being a fundamental paradigm that bridges the gap between composition- and knowledge-based approaches. Consequently, CPP resolves the composition-knowledge dichotomy by providing a solid foundation for logically organized and factually grounded reasoning.",
+      "id": "https://arxiv.org/abs/2607.26160",
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "link": "https://arxiv.org/abs/2607.26160",
+      "summary": "arXiv:2607.26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-specific criteria into executable functions returning ordinal diagnostic-support scores. GuideSkill-Zero is initialized from guidelines, while GuideSkill-Evo uses case--diagnosis pairs to refine covered skills and add missing diagnoses. At inference, an LLM proposes a differential diagnosis, grounds the features required by each matched skill, and fuses its ranking with the executed skill scores. Across four benchmarks and four backbones, GuideSkill-Zero improves macro-average accuracy over guideline RAG by 13.45% on average. GuideSkill-Evo achieves the highest macro-average for every backbone, improves over direct inference by 18.49% relatively, and increases gold-label skill coverage from 56.5% to 99.5%. On Qwen3.5-9B, it also exceeds the strongest parameter-update baseline by 11.16% without updating the backbone. Expert evaluation further indicates that GuideSkill produces clinically sound and broadly acceptable skills, suggesting that its initialized and evolved rules are reliable and practically meaningful. These results support executable skills as a model-agnostic mechanism for",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 7,
-      "publishedAt": "2026-07-10T04:00:00.000Z",
-      "score": 111.28,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 111.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.26367",
+      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
+      "link": "https://arxiv.org/abs/2607.26367",
+      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw partition function to a tractable representation? To probe this question, we introduce StatMechBench-v0, a benchmark of six Ising-type problems covering transfer-matrix methods, gauge-removable disorder, and planar/Pfaffian structure. We evaluate a simple propose-verify-revise agent across multiple LLMs and problem phrasings. The results show that numerical feedback often helps agents repair code and recover correct partition functions. However, agents can also pass the numerical checks while misidentifying the underlying tractable class or understating computational complexity. This both reveals limitations in current LLM reasoning and calls for a verification stack that goes beyond numerical agreement, incorporating, for example, symbolic checks and structural invariants. Our study provides an early evaluation and design directions for AI agents aimed at structural discovery in theoretical physics.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 111.41,
       "status": "queued"
     },
     {
@@ -6670,15 +6694,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.07721",
-      "title": "Context Graphs for Proactive Enterprise Agents",
-      "link": "https://arxiv.org/abs/2607.07721",
-      "summary": "arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains require proactive agents: systems that surface relevant, actionable information to workers before they ask. We propose the Context Graph, a live relational data structure that models enterprise entities, their relationships, and state transitions over time. Built on this graph, we define a Delta Detection Engine that continuously monitors state changes, a Proactivity Scorer that ranks candidate insights by urgency, relevance, and persona-fit, and a Surfacing Layer powered by an LLM that delivers ranked notifications with grounded explanations. We formalize each component, derive a unified Proactivity Score function, and provide a complete end-to-end Python implementation using NetworkX and the Anthropic Claude API. Evaluation across three generic enterprise case studies (contract lifecycle management, engineering incident response, and sales pipeline hygiene) demonstrates that context-graph-driven proactivity achieves Precision@5 of 0.83, a false positive rate of 0.11, and reduces mean time to surface from 47 minutes (reactive baseline) to under 30 second.",
+      "id": "https://arxiv.org/abs/2607.26393",
+      "title": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
+      "link": "https://arxiv.org/abs/2607.26393",
+      "summary": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social skills such as reasoning, deception, and collaboration. While recent advances in large language models (LLMs) have driven significant progress in SDG agents, current approaches are predominantly text-based, overlooking the multimodal nature that is fundamental to human social interaction. To bridge this gap, we introduce CaM-Wolf, the first SDG agent that integrates multimodal perception and generation. CaM-Wolf processes video inputs from other players, employs a causal-aware Reasoner trained via reinforcement learning to establish logical chains between observable behaviors and hidden roles, and presents itself through an animated avatar. Our experiments and user study show that CaM-Wolf achieves superior agent gameplay performance and enhances the quality of human-AI interaction. This work represents a significant advancement towards creating more human-like AI agents capable of participating in nuanced social dynamics. Our code is available at https://3dagentworld.github.io/avatar_wolf.",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 7,
-      "publishedAt": "2026-07-10T04:00:00.000Z",
-      "score": 105.28,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 105.41,
       "status": "queued"
     },
     {
@@ -6982,6 +7006,18 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "title": "Advancing responsible AI across Europe",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-31T15:00:00.000Z",
+      "score": 98.59,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
       "title": "The tech-broification of American science has officially begun",
       "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
@@ -7042,6 +7078,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.26155",
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "link": "https://arxiv.org/abs/2607.26155",
+      "summary": "arXiv:2607.26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CLINLENS, a benchmark of 200 executable tasks over five linked MIMIC resources spanning structured electronic health records, notes, electrocardiograms, chest radiographs, and echocardiograms. A 4 x 5 taxonomy crosses four patient-time scopes with five analysis capabilities. Program-first reverse synthesis pairs each bounded semi-raw package with an evaluator-private reference workflow and checks required artifacts, cohort and temporal semantics, and the final answer. On a fixed 126-task suite, the strongest of 24 standardized model-scaffold configurations achieves 56.3% scope-macro STRICTPASS despite 100% EXECSUCCESS. For reference, a separately configured coding agent solves 83 of 126 tasks, while five biomedical systems adapted to GPT-4o-mini reach at most 2.9% scope-macro STRICTPASS. These results expose a substantial gap between runnable submissions and correct clinical analyses.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 93.41,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.24768",
       "title": "PATHFinder Agent for Tailored Prenatal Care",
       "link": "https://arxiv.org/abs/2607.24768",
@@ -7090,6 +7138,66 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2607.26119",
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "link": "https://arxiv.org/abs/2607.26119",
+      "summary": "arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We therefore ask, what internal representational differences enable RL models' superior performance? Our work presents two converging lines of evidence: First, linear probes trained on layer-wise hidden states reveal that RL models tend to achieve higher accuracy in predicting answer correctness compared to SFT models, indicating more linearly separable and structured representations. Second, mean ablation studies show that RL models develop a hierarchical architecture where deeper layers become progressively more critical, whereas SFT models distribute importance uniformly across layers. Together, these findings demonstrate that RL training fundamentally restructures how models represent and process reasoning problems. Finally, we analyze token-count variability under repeated sampling across problems to assess adaptive compute allocation. While we observe higher variability in some RL-tuned models than in their SFT counterparts, we see strong consistency in others, suggesting that token allocation may depend more on the overall training pipeline than on RL versus SFT alone. We believe",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 87.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.26181",
+      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
+      "link": "https://arxiv.org/abs/2607.26181",
+      "summary": "arXiv:2607.26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process, yet existing LLM-based approaches generate each component through independent single-turn calls with no shared context, leaving interface mismatches undetected and reported coverage disconnected from specification requirements. To address these challenges, we present GoGoTB, an agentic framework that achieves end-to-end verification closure through three subsystems: an agentic execution control layer, an evolvable knowledge system, and specification-grounded coverage closure. The execution control layer separates deterministic enforcement from LLM reasoning at every tool and stage boundary. The knowledge system dispatches methodology and design-specific expertise on demand. The coverage framework anchors every bin to a named specification behavior so that each residual gap has a diagnosable root cause and a targeted remedy. Tested on 8 register transfer level (RTL) designs without any human intervention, GoGoTB achieves 100\\% environment generation success and averages 98.4\\% line, 97.2\\% branch, 97.0\\% toggle, and 83.2\\% functional coverage. No prior work successfully generates a com",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 87.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.26191",
+      "title": "Position: Evaluation Scores Are Perishable Knowledge Claims",
+      "link": "https://arxiv.org/abs/2607.26191",
+      "summary": "arXiv:2607.26191v1 Announce Type: new Abstract: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidence can then substantially exceed the reliability of the weakest signal: a phenomenon we call trust inflation in evaluation. We argue that evaluation scores should be treated as epistemic claims with three properties: formality (human evaluation provides stronger evidence than an automated metric), scope (a benchmark result applies to the tested distribution, not universally), and validity windows (benchmark results expire as contamination accumulates and distributions shift). Several converging research traditions (chain-of-thought analysis, possibilistic logic, and algebraic theory) establish weakest-link aggregation as the conservative endpoint of a parameterized operator family controlled by a single pessimism parameter. Drawing on those traditions, and on concrete lessons from building an evaluation harness for agentic AI, we propose that evaluation results carry explicit metadata (formality tier, scope declaration, and expiration date) to make their epistemic status transparent. We illustrate the cost of mean aggregation on the public HELM leaderboard: across 54 frontier models on",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 87.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.26307",
+      "title": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
+      "link": "https://arxiv.org/abs/2607.26307",
+      "summary": "arXiv:2607.26307v1 Announce Type: new Abstract: Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benchmark-driven repair is ephemeral, and post-hoc auditing is impossible. We present a code generation concept that addresses these shortcomings through three complementary mechanisms: (i) a relational snippet-history schema that records, per repair event, the benchmark reference, round number, failure text, and LLM explanation, enabling full provenance queries; (ii) a browser-based visualisation tool that renders this history as heat-mapped, hover-annotated source code; and (iii) a competitive fractional position-key indexing scheme with tree-node delimiters that assigns stable, lexicographically-ordered identifiers to each code snippet, enabling fine-grained tracking without disrupting surrounding lines. We evaluate TraceCoder on 30 algorithmic programming tasks spanning string processing, mathematical computation, and data-structure manipulation, across two provider configurations. Of these, 10 exhaust the 6-iteration budget on tasks with subtle edge-case behaviour. Mean Chg% reaches 30%, three in ten code snippets carry a traceable repair-event row, compared to 21% when using Gemini 2.0 Flash as sole provider on a 20-task subset. Three detailed case studies demonstrate how the sys",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 87.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.26490",
+      "title": "EvoPINN: Agentic Discovery of Executable Algorithms for Physics-Informed Neural Networks",
+      "link": "https://arxiv.org/abs/2607.26490",
+      "summary": "arXiv:2607.26490v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) have emerged as a powerful paradigm for solving partial differential equations (PDEs), yet their performance heavily relies on the manual, trial-and-error engineering of neural representations, loss formulations, and optimization dynamics. While Large Language Models (LLMs) offer a promising avenue for automated design, unconstrained code generation often yields mathematically invalid or numerically unstable solutions under strict scientific computing constraints. To bridge this gap, we propose \\textbf{EvoPINN}, an agentic framework that reformulates PINN development from labor-intensive manual design into a rigorous, execution-grounded algorithm discovery problem. EvoPINN navigates a modular search space by decoupling neural representations from training programs, utilizing an LLM agent to iteratively propose memory-conditioned programmatic modifications. To ensure scientific validity, all candidates undergo strict structural verification and budget-matched PDE evaluation. Extensive experiments across diverse PDE regimes (oscillatory, elliptic, dissipative, and nonlinear transport) demonstrate that EvoPINN discovers PDE-specialized learning algorithms that significantly reduce relative $L_{2}$ error compared to baselines. Crucially, EvoPINN autonomously invented SLRC-PINN, a novel architec",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "score": 87.41,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
       "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots",
       "link": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
@@ -7099,114 +7207,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-07-29T18:15:02.000Z",
       "score": 85.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-30T10:15:19.000Z",
-      "score": 85.46,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24770",
-      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
-      "link": "https://arxiv.org/abs/2607.24770",
-      "summary": "arXiv:2607.24770v1 Announce Type: new Abstract: Procedural tasks such as furniture assembly and home repair impose substantial cognitive demands because users must interpret instructions, track task progress, reason about spatial state, and recover from errors while performing physical actions. Prior multimodal assistants have shown promise for procedural guidance, but most rely on cloud inference and fixed always-on perception, making them poorly suited to privacy-sensitive, latency-critical domestic settings. We present ProcAgent, a fully on-device, agentic, vision-based procedural assistant for real-time adaptive guidances on a single NVIDIA Jetson AGX Orin. ProcAgent uses a propose-and-verify architecture that combines low-latency continuous perception, a symbolic task graph, on-demand vision-language verification, and an LLM-based interaction agent. The system continuously proposes user progress, invokes expensive visual reasoning only when ambiguity or likely deviation arises, and supports both reactive question answering and proactive intervention with human-in-the- loop confirmation. We evaluate ProcAgent along four dimensions: perception accuracy, reasoning, task-level performance, and user experience. Despite running entirely on-device, the system maintains responsive interaction, resolving text-only queries in approximately 2 seconds and visually grounded queries in",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "score": 85.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24780",
-      "title": "LivingArena: Do LLMs Know What Other LLMs Don't? Peer-Probing as Scalable Evaluation",
-      "link": "https://arxiv.org/abs/2607.24780",
-      "summary": "arXiv:2607.24780v1 Announce Type: new Abstract: Evaluating frontier LLMs is challenging: static benchmarks suffer from contamination and saturation -- leaving users unable to distinguish top models and developers blind to specific failure modes -- while human preference is subjective. In this paper, our question is: \\emph{Do LLMs know what other LLMs don't? And can we leverage this dynamic for evaluation?} We present \\textbf{LivingArena}, an automated, contamination-resistant evaluation framework. In this framework, models take turns proposing questions, aiming to pose items that opponents cannot answer correctly. Questioners are encouraged to actively identify and exploit opponents' knowledge boundaries, receiving rewards when the answerer fails, while the answerer is rewarded otherwise. To ensure questions contain objectively verifiable answers, a judge panel of strong models validates them, penalizing questioners if validation fails. Evaluating ten frontier LLMs, LivingArena yields a stable Elo leaderboard. Our behavioral analyses show that models identify and exploit their peers' cognitive boundaries: self-play and tournament logs indicate that they localize and double down on opponents' weak dimensions. Beyond static knowledge recall, peer probing measures factual rigor and the higher-order ability to probe an opponent's weaknesses, correlating only weakly with human prefe",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "score": 85.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-27T18:00:00.000Z",
-      "score": 79.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
-      "link": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
-      "summary": "It marks a change of tone for his administration, which has taken a more hands-off approach to the technology.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-30T07:23:11.000Z",
-      "score": 78.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-20T10:00:00.000Z",
-      "score": 78.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24777",
-      "title": "Steering topology distributions for unified generative design of architected metamaterials",
-      "link": "https://arxiv.org/abs/2607.24777",
-      "summary": "arXiv:2607.24777v1 Announce Type: new Abstract: Architected metamaterials derive their functions from structure, creating vast opportunities to program physical responses through topology design. However, existing design methods are often tailored to individual design problems, making limited use of topology knowledge for effective and broadly applicable design as objectives, constraints, and physical functions change. Here we introduce Generative Topology Optimization (GenTO), a unified framework that turns a learned topology prior into a reusable design engine. GenTO trains a diffusion model on a large full-order topology dataset and then iteratively steers the resulting topology distribution toward task-specific high-performing regions using user-defined physical objectives and constraints. This shifts the object of optimization from a single structure to a task-adapted topology distribution. Across topology design problems spanning thermal extremization, multi-objective morphology control, property-targeted auxetic design, and vibration transmission design, GenTO reuses pretrained topology priors for heterogeneous tasks, preserves structural diversity, and reaches high-performing solutions supported by numerical benchmarks and experimental validation. These results establish reusable topology knowledge as a unified principle for effective and scalable architected metamateri",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "score": 73.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-21T07:00:00.000Z",
-      "score": 72.55,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
-      "title": "We’re running out of reasons to ignore AI safety",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
-      "summary": "Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Adam Gleave, cofounder and CEO of AI safety organization FAR.AI, put it, \"a visceral example of how misaligned AI could cause harm.\" According to OpenAI, the models escaped the sandbox meant to contain them, moved through the company's internal systems, found a route to the internet, and then started looking for a way into Hugging Face. And why was … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T11:00:00.000Z",
-      "score": 71.17,
       "status": "queued"
     },
     {
@@ -7928,54 +7928,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-07-02T10:28:01.469Z",
       "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at le…"
-    },
-    {
-      "id": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
-      "title": "The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic",
-      "link": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b Comments URL: https://news.ycombinator.com/item?id=48502556 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-12T11:07:54.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-01T11:16:44.776Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://n8n.io/reports/2026-ai-agent-development-tools/",
-      "title": "N8n 2026 AI agent builder report",
-      "link": "https://n8n.io/reports/2026-ai-agent-development-tools/",
-      "summary": "Article URL: https://n8n.io/reports/2026-ai-agent-development-tools/ Comments URL: https://news.ycombinator.com/item?id=48642757 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-23T10:12:40.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-30T17:06:06.219Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://zunagen.com/",
-      "title": "Show HN: Engineer AI system full DataIQ pipeline choice u model Start training",
-      "link": "https://zunagen.com/",
-      "summary": "Article URL: https://zunagen.com/ Comments URL: https://news.ycombinator.com/item?id=48676126 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-06-25T16:51:01.000Z",
-      "score": 156,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-06-30T17:06:06.219Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
