@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-07-31T16:57:18.522Z",
+  "generatedAt": "2026-08-01T16:08:07.539Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-01-contain-ai-agents-in-three-hours-deny-egress-monitor-outbound-activity-add-a-kill-switch",
+      "title": "Contain AI agents in three hours: deny egress, monitor outbound activity, add a kill switch",
+      "date": "2026-08-01",
+      "excerpt": "A concise 3-hour plan for small teams to contain runaway AI agents: deny-by-default egress, one outbound metric and alert, and a one-button credential kill switch.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-01-contain-ai-agents-in-three-hours-deny-egress-monitor-outbound-activity-add-a-kill-switch.jpg",
+      "tags": [
+        "AI safety",
+        "agents",
+        "sandboxing",
+        "incident response",
+        "security",
+        "monitoring",
+        "small teams"
+      ],
+      "sources": [
+        "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-07-31-sitrep-open-source-ai-incident-copilot-that-ties-screen-captures-to-grafana-traces",
       "title": "Sitrep: Open-source AI incident copilot that ties screen captures to Grafana traces",
