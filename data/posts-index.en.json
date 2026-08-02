@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T09:52:36.280Z",
+  "generatedAt": "2026-08-02T16:15:35.635Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "timeToImplementMinutes": 20,
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-02-recreate-the-web-ai-sdk-playground-to-prototype-browser-hosted-ai-agents",
+      "title": "Recreate the web-ai-sdk Playground to prototype browser-hosted AI agents",
+      "date": "2026-08-02",
+      "excerpt": "Rebuild the web-ai-sdk Playground locally to prototype browser-hosted AI agents that call tools (fetch, summarizer, WebMCP), store conversations in-browser, and export flows as JSON.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-02-recreate-the-web-ai-sdk-playground-to-prototype-browser-hosted-ai-agents.jpg",
+      "tags": [
+        "web-ai-sdk",
+        "playground",
+        "browser-agents",
+        "on-device",
+        "tools",
+        "privacy",
+        "tutorial",
+        "prompt-engineering"
+      ],
+      "sources": [
+        "https://web-ai-sdk.dev/playground/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-02T09:52:36.295Z",
+  "generatedAt": "2026-08-02T16:15:35.703Z",
   "items": [
+    {
+      "id": "https://web-ai-sdk.dev/playground/",
+      "title": "Web-AI-SDK Playground for browser-native AI agents",
+      "link": "https://web-ai-sdk.dev/playground/",
+      "summary": "Article URL: https://web-ai-sdk.dev/playground/ Comments URL: https://news.ycombinator.com/item?id=49098813 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-29T15:30:14.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-02T16:15:35.617Z",
+      "file": "content/posts/2026-08-02-recreate-the-web-ai-sdk-playground-to-prototype-browser-hosted-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-08-02-recreate-the-web-ai-sdk-playground-to-prototype-browser-hosted-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1417,
+      "wordsFr": 1395
+    },
     {
       "id": "https://router.bix.computer",
       "title": "Show HN: BixRouter – a non-linear AI chat interface for OpenRouter",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1170
     },
     {
-      "id": "https://openrouter.ai/openrouter/hunter-alpha",
-      "title": "Hunter Alpha – 1T parameter and 1M token context window AI model",
-      "link": "https://openrouter.ai/openrouter/hunter-alpha",
-      "summary": "Article URL: https://openrouter.ai/openrouter/hunter-alpha Comments URL: https://news.ycombinator.com/item?id=47365616 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-13T15:15:53.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-03-31T08:56:25.873Z",
-      "file": "content/posts/2026-03-31-hunter-alpha-1t-parameter-model-with-1048576-token-context-on-openrouter-prompts-logged.md",
-      "fileFr": "content/posts/fr/2026-03-31-hunter-alpha-1t-parameter-model-with-1048576-token-context-on-openrouter-prompts-logged.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1306,
-      "wordsFr": 1317
-    },
-    {
       "id": "https://www.agentduel.app/b/cru8E9nG",
       "title": "Show HN: I built a deterministic arena where AI agents fight using code",
       "link": "https://www.agentduel.app/b/cru8E9nG",
@@ -5178,30 +5178,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-07-28T16:16:41.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Fame510/SHACKLE",
-      "title": "Shackle: A pre-execution ALLOW/DENY/HITL gate for AI agents (open source)",
-      "link": "https://github.com/Fame510/SHACKLE",
-      "summary": "Article URL: https://github.com/Fame510/SHACKLE Comments URL: https://news.ycombinator.com/item?id=49098891 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-29T15:36:07.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://web-ai-sdk.dev/playground/",
-      "title": "Web-AI-SDK Playground for browser-native AI agents",
-      "link": "https://web-ai-sdk.dev/playground/",
-      "summary": "Article URL: https://web-ai-sdk.dev/playground/ Comments URL: https://news.ycombinator.com/item?id=49098813 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-29T15:30:14.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5806,18 +5782,6 @@
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "title": "Disrupting a Criminal Scam Operation",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "score": 144,
-      "status": "queued"
-    },
-    {
       "id": "https://dev.jimgrey.net/2026/07/22/the-operational-risk-of-ai-coding-agents-in-b2b-saas/",
       "title": "The operational risk of AI coding agents in B2B SaaS",
       "link": "https://dev.jimgrey.net/2026/07/22/the-operational-risk-of-ai-coding-agents-in-b2b-saas/",
@@ -5842,15 +5806,27 @@
       "status": "queued"
     },
     {
-      "id": "https://thenewstack.io/microsoft-agent-framework-go/",
-      "title": "Microsoft joins Google in backing Go for AI agents — OpenAI and Anthropic lag",
-      "link": "https://thenewstack.io/microsoft-agent-framework-go/",
-      "summary": "Article URL: https://thenewstack.io/microsoft-agent-framework-go/ Comments URL: https://news.ycombinator.com/item?id=48881161 Points: 4 # Comments: 0",
+      "id": "https://github.com/xcreener/xcreener-mcp",
+      "title": "Show HN: MCP server so AI agents can screen markets in plain English",
+      "link": "https://github.com/xcreener/xcreener-mcp",
+      "summary": "Article URL: https://github.com/xcreener/xcreener-mcp Comments URL: https://news.ycombinator.com/item?id=49145092 Points: 2 # Comments: 1",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-12T13:39:33.000Z",
-      "score": 141.48,
+      "keywordHits": 3,
+      "publishedAt": "2026-08-02T14:38:46.000Z",
+      "score": 142.56,
+      "status": "queued"
+    },
+    {
+      "id": "https://rails-agent.com",
+      "title": "Show HN: Rails Agent – Build Autonomous AI Agents Natively in Ruby on Rails",
+      "link": "https://rails-agent.com",
+      "summary": "Rails Agent - The Fullstack Agentic Development Platform For Ruby on Rails. Build, Test, Deploy & Monitor in one single dashboard. Advanced alternative for RubyLLM and Active Agent Comments URL: https://news.ycombinator.com/item?id=49145011 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-02T14:25:01.000Z",
+      "score": 141.75,
       "status": "queued"
     },
     {
@@ -5875,18 +5851,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-22T08:25:58.000Z",
       "score": 138.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://agentmint.net/",
-      "title": "Show HN: Agent Legibility Analyzer see if AI shopping agents can read your store",
-      "link": "https://agentmint.net/",
-      "summary": "a handbook for agent selection: how AI shopping agents pick stores and products, and how to win that choice. Comments URL: https://news.ycombinator.com/item?id=48881487 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-12T14:30:37.000Z",
-      "score": 135.09,
       "status": "queued"
     },
     {
@@ -6034,18 +5998,6 @@
       "status": "queued"
     },
     {
-      "id": "https://shrsv.hexmos.com/post/perfectly-hitting-the-wrong-target",
-      "title": "Perfectly Hitting the Wrong Target: The Story of an AI Code Review Benchmark",
-      "link": "https://shrsv.hexmos.com/post/perfectly-hitting-the-wrong-target",
-      "summary": "Article URL: https://shrsv.hexmos.com/post/perfectly-hitting-the-wrong-target Comments URL: https://news.ycombinator.com/item?id=48881554 Points: 4 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-12T14:40:46.000Z",
-      "score": 127.55,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.15686",
       "title": "S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation",
       "link": "https://arxiv.org/abs/2607.15686",
@@ -6082,18 +6034,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.petrostechchronicles.com/blog/How_I_Ship_Production_Features_With_AI_Agents",
-      "title": "I Use Multiple AI Agents in My Team's SDLC to Ship Production Features",
-      "link": "https://www.petrostechchronicles.com/blog/How_I_Ship_Production_Features_With_AI_Agents",
-      "summary": "Article URL: https://www.petrostechchronicles.com/blog/How_I_Ship_Production_Features_With_AI_Agents Comments URL: https://news.ycombinator.com/item?id=48881414 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-12T14:18:57.000Z",
-      "score": 125.67,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/VibePod/vibepod-cli",
       "title": "Unified CLI for running AI coding agents in isolated Docker or Podman containers",
       "link": "https://github.com/VibePod/vibepod-cli",
@@ -6103,6 +6043,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-13T15:31:17.000Z",
       "score": 125.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
+      "title": "Do Not Trust, Continuously Verify (Your AI Agents)",
+      "link": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
+      "summary": "Article URL: https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/ Comments URL: https://news.ycombinator.com/item?id=49144956 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-02T14:19:04.000Z",
+      "score": 125.29,
       "status": "queued"
     },
     {
@@ -6634,6 +6586,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "title": "Is paying artists enough to convince them to embrace AI?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "summary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles, but it's also given rise to a new wave of AI startups like Pippa that market their services as being more ethical than the competition. Like most companies selling access to text-to-video models, Pippa's main product is short bursts of user-generated footage that can be cobbled toget … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-02T13:00:00.000Z",
+      "score": 106.01,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.20467",
       "title": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
       "link": "https://arxiv.org/abs/2607.20467",
@@ -6922,6 +6886,18 @@
       "status": "queued"
     },
     {
+      "id": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
+      "title": "Arrakis raises $8M for AI agent runtime security",
+      "link": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
+      "summary": "Article URL: https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls Comments URL: https://news.ycombinator.com/item?id=49144865 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-02T14:08:42.000Z",
+      "score": 100.65,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.20452",
       "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
       "link": "https://arxiv.org/abs/2607.20452",
@@ -7042,6 +7018,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.alecvo.org/blog/types-with-ai/",
+      "title": "Types with AI: Working with LLMs Through Types",
+      "link": "https://www.alecvo.org/blog/types-with-ai/",
+      "summary": "Article URL: https://www.alecvo.org/blog/types-with-ai/ Comments URL: https://news.ycombinator.com/item?id=49144719 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-02T13:52:12.000Z",
+      "score": 92.31,
+      "status": "queued"
+    },
+    {
       "id": "https://www.tamedtable.com/",
       "title": "Show HN: TamedTable, AI ETL in Natural Language",
       "link": "https://www.tamedtable.com/",
@@ -7051,6 +7039,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-02T07:51:37.000Z",
       "score": 91.96,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695",
+      "title": "OpenAI Lost Its AI Crown–and the Fight to Win It Back",
+      "link": "https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695 Comments URL: https://news.ycombinator.com/item?id=49144690 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-02T13:48:50.000Z",
+      "score": 90.86,
       "status": "queued"
     },
     {
@@ -7186,28 +7186,36 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
-      "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
-      "summary": "In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg Brockman said the company is working on a \"family of devices\" for interacting with its AI models. However, Brockman didn't confirm reports that one of those devices is a smart speaker OpenAI's rumored to be launching in 2027, or earlier rumors that the device might be a wearable like the Humane AI pin. He didn't give a release date, either, only saying that \"you can expect them soon.\" When asked about whether Apple's lawsuit against OpenAI could impact the devices it's working on with former Apple designer Jony Ive, Brockman said, \"We are focused on o … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T18:15:02.000Z",
-      "score": 85.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways",
-      "title": "MUD as AI Evaluation and LLM-judge distortion in ways aggregate κ misses",
-      "link": "https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways",
-      "summary": "Article URL: https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways Comments URL: https://news.ycombinator.com/item?id=49141862 Points: 3 # Comments: 0",
+      "id": "https://github.com/Fame510/SHACKLE",
+      "title": "Shackle: A pre-execution ALLOW/DENY/HITL gate for AI agents (open source)",
+      "link": "https://github.com/Fame510/SHACKLE",
+      "summary": "Article URL: https://github.com/Fame510/SHACKLE Comments URL: https://news.ycombinator.com/item?id=49098891 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-07-29T15:36:07.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-02T16:00:05.667Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial missing clear numbered steps inside \"Installation et implementation pas a pas\".; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points).…"
+    },
+    {
+      "id": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "title": "Disrupting a Criminal Scam Operation",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "source": "OpenAI News",
+      "region": "US",
       "keywordHits": 2,
-      "publishedAt": "2026-08-02T07:02:18.000Z",
-      "score": 79.5,
-      "status": "queued"
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "score": 144,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-02T16:00:05.667Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
@@ -7896,22 +7904,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-07-04T16:01:08.228Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://www.actuia.com/actualite/ce-que-poppy-lia-generative-de-la-californie-apprend-a-ladministration-europeenne/",
-      "title": "Ce que Poppy, l'IA générative de la Californie, apprend à l'administration européenne",
-      "link": "https://www.actuia.com/actualite/ce-que-poppy-lia-generative-de-la-californie-apprend-a-ladministration-europeenne/",
-      "summary": "À compter du 1er juillet 2026, la Californie généralise Poppy, une plateforme d'IA générative conçue par et pour ses agents publics. La mise en œuvre met l'accent sur l'absence de fuite de données et l'indépendance vis-à-vis d'un fournisseur unique, un modèle opérationnel dont les administrations française et européenne peuvent tirer des enseignements concrets.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-03T09:19:00.000Z",
-      "score": 143.76,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-03T10:25:49.337Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }
