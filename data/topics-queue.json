@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-03T11:29:46.035Z",
+  "generatedAt": "2026-08-03T17:18:36.953Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "title": "Anthropic says Claude accidentally hacked real companies too",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "summary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI labs are doing enough to control the increasingly capable systems th…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-07-31T13:41:17.000Z",
+      "score": 117.19,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-03T17:18:36.873Z",
+      "file": "content/posts/2026-08-03-running-safe-llm-red-team-ctfs-after-anthropics-claude-accessed-real-organizations.md",
+      "fileFr": "content/posts/fr/2026-08-03-running-safe-llm-red-team-ctfs-after-anthropics-claude-accessed-real-organizations.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1673,
+      "wordsFr": 1342
+    },
     {
       "id": "https://www.bulaev.net/p/i-had-11-ai-subagents-test-every",
       "title": "I Had 11 AI Subagents Test Every PPTX Skill for Claude Code. Here's What Works",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1346
     },
     {
-      "id": "https://clawrun.sh/?hn",
-      "title": "Show HN: ClawRun – Deploy AI agents into secure sandboxes with one command",
-      "link": "https://clawrun.sh/?hn",
-      "summary": "Article URL: https://clawrun.sh/?hn Comments URL: https://news.ycombinator.com/item?id=47478374 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-22T15:13:35.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-01T16:21:53.412Z",
-      "file": "content/posts/2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume.md",
-      "fileFr": "content/posts/fr/2026-04-01-clawrun-one-command-deployment-of-ai-agents-into-firecracker-microvms-with-snapshot-and-resume.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1681,
-      "wordsFr": 1355
-    },
-    {
       "id": "https://theemailgame.com/",
       "title": "Show HN: The Email Game – AI agents compete over cryptographically signed emails",
       "link": "https://theemailgame.com/",
@@ -5299,30 +5299,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-07-21T08:52:04.000Z",
       "score": 159.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://quantumreckon.com",
-      "title": "Show HN: QuantumReckon – find your real cloud and AI spend, including tokens",
-      "link": "https://quantumreckon.com",
-      "summary": "Article URL: https://quantumreckon.com Comments URL: https://news.ycombinator.com/item?id=48895470 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-13T16:55:50.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/genai-pushback",
-      "title": "Instances of Generative AI Pushback on HN",
-      "link": "https://news.ycombinator.com/genai-pushback",
-      "summary": "Article URL: https://news.ycombinator.com/genai-pushback Comments URL: https://news.ycombinator.com/item?id=48895323 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-13T16:46:54.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5626,18 +5602,6 @@
       "status": "queued"
     },
     {
-      "id": "https://leadstories.com/analysis/2026/07/google-gemini-synthid-detector-confuses-results-within-same-chat.html",
-      "title": "Google Gemini's SynthID AI Watermark Detector Appears to Mix Up Results in Chat",
-      "link": "https://leadstories.com/analysis/2026/07/google-gemini-synthid-detector-confuses-results-within-same-chat.html",
-      "summary": "Article URL: https://leadstories.com/analysis/2026/07/google-gemini-synthid-detector-confuses-results-within-same-chat.html Comments URL: https://news.ycombinator.com/item?id=48894779 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-13T16:08:48.000Z",
-      "score": 149.57,
-      "status": "queued"
-    },
-    {
       "id": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
       "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
       "link": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
@@ -5671,18 +5635,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-03T08:30:05.000Z",
       "score": 146.48,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/daitangio/take-ai-control",
-      "title": "Show HN: Containerized AI development with cross-compatibility",
-      "link": "https://github.com/daitangio/take-ai-control",
-      "summary": "I need to study different harnesses CLI, and to find a way to switch from one provider to another. I built a template repository to govern your AI chats with more grip than usual. It leverages PI.dev coding agent and an aggressive isolation done with Docker + VS Code So far works on Linux and MacOS, and should also works on WSL2. The project uses a container to run your preferred AI harnesses CLI. The container is optional, but protect your disk from bad things (I noticed rm -rf is always the preferred removal command of Deepseek :) a bit scary) I am slowly extending it, aiming at - reduce token usage - ability to install extra skill via pi.dev - experimenting with variants (like AWS AI-SDLC v1). Please feel free to comment and give me hints. Comments URL: https://news.ycombinator.com/item?id=48894720 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-13T16:03:14.000Z",
-      "score": 146.4,
       "status": "queued"
     },
     {
@@ -5974,18 +5926,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/VibePod/vibepod-cli",
-      "title": "Unified CLI for running AI coding agents in isolated Docker or Podman containers",
-      "link": "https://github.com/VibePod/vibepod-cli",
-      "summary": "Article URL: https://github.com/VibePod/vibepod-cli Comments URL: https://news.ycombinator.com/item?id=48894261 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-13T15:31:17.000Z",
-      "score": 125.35,
-      "status": "queued"
-    },
-    {
       "id": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
       "title": "Do Not Trust, Continuously Verify (Your AI Agents)",
       "link": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
@@ -6115,18 +6055,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-07-28T09:07:14.000Z",
       "score": 117.91,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-      "title": "Anthropic says Claude accidentally hacked real companies too",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-      "summary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI labs are doing enough to control the increasingly capable systems they are building. In a blog post describing the incidents, Anthropic said Claude gained unauthorized access to the systems during cybersecurity evaluations. All of the attacks happened during \"capture-the-flag\" exercises, a commo … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-31T13:41:17.000Z",
-      "score": 117.19,
       "status": "queued"
     },
     {
@@ -7186,6 +7114,102 @@
       "status": "queued"
     },
     {
+      "id": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+      "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
+      "link": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+      "summary": "Gemini Robotics 2 includes three models, but only one is publicly available right now.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-30T17:58:02.000Z",
+      "score": 73.26,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.28662",
+      "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
+      "link": "https://arxiv.org/abs/2607.28662",
+      "summary": "arXiv:2607.28662v1 Announce Type: new Abstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across documents, the same person surfaces under several name variants, relationships duplicate, and distinct individuals who share a name risk silent conflation. This paper presents the design, implementation, and empirical refinement of a production extraction layer that converts a live document stream into a validated knowledge graph aligned to a formal ontology. The system consumes document metadata from Kafka, routes PDF, spreadsheet, Office, and image content through handlers built for each format, and extracts entities and relationships in two passes using a locally hosted Qwen3.5-9B model tuned on the ontology. Its distinguishing component is ontology-guided extraction: the relevant slice of a curated ontology is retrieved live from a graph database by embedding similarity and injected into the extraction prompt, reducing catalog overhead by about 94 percent relative to static domain slices. Extracted results then pass through a refinement pipeline of five stages: deterministic cleaning, merging across chunks, a second pass for relationships, six deduplication algorithms that require no model inference, and an embedding resolution subsystem whose conflict guard no similarity score can",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "score": 69.14,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.28678",
+      "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
+      "link": "https://arxiv.org/abs/2607.28678",
+      "summary": "arXiv:2607.28678v1 Announce Type: new Abstract: Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally grounded reasoning. However, existing agentic memory approaches often discard fine-grained dentity cues under aggressive compression and segment-wise processing. They also rely heavily on vector similarity retrieval, which can surface semantically related yet identity-mismatched evidence, leading to entity confusion, error propagation, and hallucinated answers. We propose ViSAGE, a multimodal agentic memory framework that constructs self-correcting, entity-centric memories. Specifically, ViSAGE anchors entity identity via cross-modal binding over long temporal ranges. It then applies bidirectional memory refinement to propagate delayed identity evidence, retroactively unifying historical records and improving future reasoning. We also introduce multi-agent cross-verification to assess retrieved evidence under an identity-evidence alignment onstraint, enabling abstention instead of unsupported answers when evidence is missing. Extensive results demonstrate that ViSAGE consistently outperforms the strongest baseline, achieving 5.9% higher accuracy.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "score": 69.14,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-30T10:15:19.000Z",
+      "score": 67.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.28642",
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "link": "https://arxiv.org/abs/2607.28642",
+      "summary": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compression or test-time control, but the absence of a reusable intermediate interface that can replace discarded history and support continued solving. We further identify a key failure mode of outcome-reward-driven long-chain reinforcement learning: when the model has not solved the task before the window is nearly exhausted, the final-answer reward encourages premature guessing rather than continued careful reasoning. We propose ThinkReset, a text-space instantiation of this view. ThinkReset explicitly constructs reusable intermediate interfaces through interface writeback and reset, and directly optimizes post-reset continuation success. Across multiple long-horizon reasoning benchmarks, this perspective consistently improves success rates under fixed context windows.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "score": 63.14,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "score": 60.88,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "title": "Building the enterprise environment for agentic AI",
+      "link": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-27T11:32:58.000Z",
+      "score": 60.69,
+      "status": "queued"
+    },
+    {
+      "id": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+      "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+      "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+      "summary": "There are new 3.6 and 3.5 models today, but Google is already training Gemini 4.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-07-21T16:58:25.000Z",
+      "score": 60.38,
+      "status": "queued"
+    },
+    {
       "id": "https://www.agentduel.app/b/cru8E9nG",
       "title": "Show HN: I built a deterministic arena where AI agents fight using code",
       "link": "https://www.agentduel.app/b/cru8E9nG",
@@ -7904,38 +7928,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-07-05T10:02:36.372Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense.…"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48772872",
-      "title": "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI",
-      "link": "https://news.ycombinator.com/item?id=48772872",
-      "summary": "I run GrowthSpree, a B2B SaaS marketing agency, selling into the US and Europe. Six months ago we made a bet that the agency model itself was broken for the AI era, so we tore ours down and rebuilt it. This is what we did and what actually happened. The bet: become the first truly AI-native marketing agency. Not an agency that \"uses AI tools\" by bolting ChatGPT onto a 2015 workflow, but one where AI is wired into ho…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-03T09:24:59.000Z",
-      "score": 196.38,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-07-04T16:01:08.228Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/anthropic-un-tiers-du-capital-risque-mondial-du-trimestre-ce-quil-reste-a-leurope/",
-      "title": "Anthropic, un tiers du capital-risque mondial du trimestre : ce qu'il reste à l'Europe",
-      "link": "https://www.actuia.com/actualite/anthropic-un-tiers-du-capital-risque-mondial-du-trimestre-ce-quil-reste-a-leurope/",
-      "summary": "Le capital‑risque mondial a atteint un record de 510 milliards de dollars au 1er semestre 2026, mais l'IA a capté plus de 70 % des investissements au deuxième trimestre. Anthropic a attiré près d'un tiers des flux et deux tiers des capitaux sont allés aux États‑Unis, posant la question des perspectives de financement pour l'Europe et la France.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-03T09:18:55.000Z",
-      "score": 137.63,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-07-04T16:01:08.228Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

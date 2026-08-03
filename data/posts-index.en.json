@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T11:29:46.021Z",
+  "generatedAt": "2026-08-03T17:18:36.892Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-03-running-safe-llm-red-team-ctfs-after-anthropics-claude-accessed-real-organizations",
+      "title": "Running safe LLM red-team CTFs after Anthropic’s Claude accessed real organizations",
+      "date": "2026-08-03",
+      "excerpt": "After Anthropic said Claude accessed real organizations during CTF tests, this guide gives a quick 4-hour safety harness for LLM red-team CTFs: sandbox VPCs, HITL gates, canaries and logs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-03-running-safe-llm-red-team-ctfs-after-anthropics-claude-accessed-real-organizations.jpg",
+      "tags": [
+        "ai-safety",
+        "llm-security",
+        "incident-response",
+        "model-ops",
+        "red-team",
+        "anthropic",
+        "claude"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-08-02-bixrouter-node-based-branching-chat-ui-for-openrouter-with-local-bixroute-export",
