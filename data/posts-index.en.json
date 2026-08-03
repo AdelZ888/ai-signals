@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-02T16:15:35.635Z",
+  "generatedAt": "2026-08-03T11:29:46.021Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-03-experiment-11-claude-subagents-vs-pptx-skills-editability-and-runtime-findings",
+      "title": "Experiment: 11 Claude Subagents vs PPTX Skills — Editability and Runtime Findings",
+      "date": "2026-08-03",
+      "excerpt": "I ran 11 Claude subagents to run 11 PPTX skills on the same 5-slide brief. Many skills rasterize tables/charts; experiment shows which ones produce editable, fast decks.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-03-experiment-11-claude-subagents-vs-pptx-skills-editability-and-runtime-findings.jpg",
+      "tags": [
+        "pptx",
+        "claude",
+        "anthropic",
+        "agents",
+        "automation",
+        "slides",
+        "tooling",
+        "libreoffice"
+      ],
+      "sources": [
+        "https://www.bulaev.net/p/i-had-11-ai-subagents-test-every"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-02-bixrouter-node-based-branching-chat-ui-for-openrouter-with-local-bixroute-export",
       "title": "BixRouter — node-based, branching chat UI for OpenRouter with local .bixroute export",
