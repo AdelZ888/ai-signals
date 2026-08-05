@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:31:49.606Z",
+  "generatedAt": "2026-08-05T17:13:13.503Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-05-piloting-reddits-rules-hub-a-moderator-guide-to-safely-testing-ai-moderation",
+      "title": "Piloter Rules Hub de Reddit : guide pratique pour tester la modération IA en toute sécurité",
+      "date": "2026-08-05",
+      "excerpt": "Guide pratique pour les modérateurs et petites équipes : activer Rules Hub en mode audit, tester 100–500 signalements, mesurer faux positifs/négatifs avant de passer à l’application automatique.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-05-piloting-reddits-rules-hub-a-moderator-guide-to-safely-testing-ai-moderation.jpg",
+      "tags": [
+        "modération",
+        "IA",
+        "Reddit",
+        "pilotage",
+        "petite-équipes",
+        "développeurs"
+      ],
+      "sources": [
+        "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
     },
     {
       "slug": "2026-08-04-on-device-agents-with-lfm25-26b-tool-calling-performance-baselines-and-rollout-checklist",

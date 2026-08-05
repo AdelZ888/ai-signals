@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:31:49.603Z",
+  "generatedAt": "2026-08-05T17:13:13.501Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-05-piloting-reddits-rules-hub-a-moderator-guide-to-safely-testing-ai-moderation",
+      "title": "Piloting Reddit's Rules Hub: a moderator guide to safely testing AI moderation",
+      "date": "2026-08-05",
+      "excerpt": "Practical pilot guide for Reddit moderators: configure Rules Hub's LLM-backed intent rules in audit-only mode, review 100–500 flags, and measure false positives/negatives before rollout.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-05-piloting-reddits-rules-hub-a-moderator-guide-to-safely-testing-ai-moderation.jpg",
+      "tags": [
+        "reddit",
+        "moderation",
+        "ai-moderation",
+        "llms",
+        "community-management",
+        "rules-hub",
+        "safety",
+        "ops"
+      ],
+      "sources": [
+        "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-08-04-on-device-agents-with-lfm25-26b-tool-calling-performance-baselines-and-rollout-checklist",
