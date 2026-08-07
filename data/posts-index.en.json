@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-07T08:52:36.284Z",
+  "generatedAt": "2026-08-07T16:00:23.183Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-07-agon-run-competing-ai-code-agents-in-isolated-git-worktrees-and-auto-apply-validated-fixes",
+      "title": "Agon — run competing AI code agents in isolated git worktrees and auto-apply validated fixes",
+      "date": "2026-08-07",
+      "excerpt": "Set up Agon to run multiple AI code models in isolated git worktrees, validate candidate fixes, auto-apply winners, and track model skill with Glicko-2 to route future work.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-07-agon-run-competing-ai-code-agents-in-isolated-git-worktrees-and-auto-apply-validated-fixes.jpg",
+      "tags": [
+        "agon",
+        "AI-coding",
+        "git-worktrees",
+        "Glicko-2",
+        "model-evaluation",
+        "automation",
+        "KERNlang"
+      ],
+      "sources": [
+        "https://github.com/KERNlang/agon"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-08-07-how-apples-trade-secrets-lawsuit-against-openai-changes-hiring-and-onboarding-for-hardware-teams",
       "title": "How Apple's Trade-Secrets Lawsuit Against OpenAI Changes Hiring and Onboarding for Hardware Teams",
