@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-06T10:40:53.145Z",
+  "generatedAt": "2026-08-07T08:52:36.296Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
+      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a number of ex-Apple employees at OpenAI targeted Apple’s trade secrets in job interviews and even downloaded files from…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-07-23T14:00:00.000Z",
+      "score": 145.42,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "SOCIETY",
+      "publishedAtRun": "2026-08-07T08:52:36.267Z",
+      "file": "content/posts/2026-08-07-how-apples-trade-secrets-lawsuit-against-openai-changes-hiring-and-onboarding-for-hardware-teams.md",
+      "fileFr": "content/posts/fr/2026-08-07-how-apples-trade-secrets-lawsuit-against-openai-changes-hiring-and-onboarding-for-hardware-teams.md",
+      "generationMode": "llm",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1478,
+      "wordsFr": 1666
+    },
     {
       "id": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
       "title": "Anthropic AI created fake profiles and impersonated people in attempted hack",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1113
     },
     {
-      "id": "https://nanosec.ai",
-      "title": "Show HN: I indexed 58K AI agents and built trust scores for the agent economy",
-      "link": "https://nanosec.ai",
-      "summary": "Article URL: https://nanosec.ai Comments URL: https://news.ycombinator.com/item?id=47414276 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-17T15:44:06.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-04T08:42:44.834Z",
-      "file": "content/posts/2026-04-04-nanosecond-ai-publishes-a-public-index-of-58448-agents-with-scanned-receipts-and-owner-metadata.md",
-      "fileFr": "content/posts/fr/2026-04-04-nanosecond-ai-publishes-a-public-index-of-58448-agents-with-scanned-receipts-and-owner-metadata.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1256,
-      "wordsFr": 1090
-    },
-    {
       "id": "https://phronesis.world/laserbrain/",
       "title": "Laserbrain – the adaptive recursion harness for AI agents",
       "link": "https://phronesis.world/laserbrain/",
@@ -5590,15 +5590,15 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/democr-ai/democrai",
-      "title": "Show HN: Democr.ai – self-hosted agentic AI runtime with audit and RBAC",
-      "link": "https://github.com/democr-ai/democrai",
-      "summary": "Article URL: https://github.com/democr-ai/democrai Comments URL: https://news.ycombinator.com/item?id=48935704 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
+      "id": "https://arxiv.org/abs/2608.05212",
+      "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+      "link": "https://arxiv.org/abs/2608.05212",
+      "summary": "arXiv:2608.05212v1 Announce Type: new Abstract: Deep search agents tackle challenging questions through long-horizon web interactions, a process that is both complex and fragile: small reasoning errors may propagate through long, noisy trajectories into fluent but incorrect answers. Diagnosing such failures is difficult, requiring the manual inspection of extremely long execution traces, which could be beyond human capacity. We therefore introduce SearchAuditBench, a benchmark that evaluates whether LLM auditors can localize, attribute, and repair these failures, thereby reducing the human burden. SearchAuditBench comprises 1,243 failed trajectories, averaging 73.1 messages and 65.1K tokens, collected from eight open-weight models on five deep-search benchmarks, each expert-annotated with the critical error step, a search-specific root cause, and a reference repair with grading rubrics. We further propose SearchAuditor, a multi-perspective auditing framework that effectively localizes, attributes, and repairs search-agent failures through evidence-grounded adjudication. Experimental results show that even the strongest baseline, when powered by a frontier model like GPT-5.5, attains only a 26.6% end-to-end pass rate. In contrast, our SearchAuditor consistently outperforms all baselines across different frontier models, achieving an end-to-end pass rate of 32.3%, and resuming fa",
+      "source": "ArXiv cs.AI",
       "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-16T15:13:52.000Z",
-      "score": 151.03,
+      "keywordHits": 9,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 151.19,
       "status": "queued"
     },
     {
@@ -5710,18 +5710,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
-      "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
-      "link": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
-      "summary": "Article URL: https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model Comments URL: https://news.ycombinator.com/item?id=48935687 Points: 8 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-16T15:13:00.000Z",
-      "score": 149.46,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/aurorallm/aurora",
       "title": "Show HN: Aurora – AI Gateway built in Go",
       "link": "https://github.com/aurorallm/aurora",
@@ -5755,18 +5743,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-28T15:34:17.000Z",
       "score": 145.83,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "link": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a number of ex-Apple employees at OpenAI targeted Apple’s trade secrets in job interviews and even downloaded files from Apple’s servers related to hardware manufacturing. The claims are shocking, although OpenAI denies them, and we have yet to see the company’s legal response. Hayden has been covering OpenAI for years now, and she also just talked to a bunch of lawyers who specialize in intellectual property and trade secret law to get a sense of how serious this case is. The answer is not entirely positive for OpenAI, which spent $6.5 billion to acquire legendary Apple designer Jony Ive’s AI hardware startup, io Products, back in 2025. As you’ll hear Hayden explain, Apple is a notoriously tenacious litigant, and we have lots of tech industry history to back up that reputation. But those cases were against companies at the scale of Microsoft and Samsung, giant corporations that could afford the cost and distraction of this kind of litigation. OpenAI isn’t yet that kind of company. It’s still burning cash and a little strategically adrift as it tries to compete in both enterprise and c",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-23T14:00:00.000Z",
-      "score": 145.42,
       "status": "queued"
     },
     {
@@ -5866,30 +5842,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.14178",
-      "title": "ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System",
-      "link": "https://arxiv.org/abs/2607.14178",
-      "summary": "arXiv:2607.14178v1 Announce Type: new Abstract: Recent advances in Large Language Models have fueled autonomous AI agents capable of tackling complex scientific tasks, yet existing automated research systems remain predominantly focused on empirically driven domains with quantitative benchmarks, leaving theory-driven discovery, particularly in mathematically grounded disciplines requiring rigorous proofs and synthesis of domain knowledge, largely underexplored. Key challenges include the difficulty of verifying theoretical reasoning at scale, insufficient reasoning ability for autonomous frontier exploration, and a scarcity of procedural heuristics in the literature. We introduce ReasFlow, an end-to-end autonomous agent system for reasoning-centric scientific discovery that operationalizes a collaborative paradigm where the human expert acts as Principal Investigator while the agent executes rigorous derivations as a capable graduate student. ReasFlow incorporates (i) a robust internal verification loop that audits logical coherence and corrects fundamental errors prior to human inspection, and (ii) an automated knowledge retrieval and self-improvement mechanism that proactively surfaces both declarative facts and overlooked procedural heuristics, substantially reducing expert intervention. The system unifies literature synthesis, algorithm design, theorem proving, experimentat",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "score": 129.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.14187",
-      "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
-      "link": "https://arxiv.org/abs/2607.14187",
-      "summary": "arXiv:2607.14187v1 Announce Type: new Abstract: Embodied cognition requires agents to connect high-level task reasoning with the physical states to be achieved. We introduce Hy-Embodied-RxBrain, an embodied cognition foundation model with joint language-visual reasoning and imagination. Unlike vision-language models that emphasize scene understanding and textual decision making, or generative world models that mainly predict future visual states, RxBrain represents embodied plans in a single planning sequence where language and visual imagination play complementary roles. Language provides the abstract structure of a plan, including task decomposition, planning primitives, constraints, temporal order, and decision logic, while visual imagination grounds this structure through world state prediction and joint subgoal planning, associating each planning step with intermediate and final physical states. RxBrain adopts a unified multimodal Mixture-of-Transformers architecture that supports language, image, and video understanding and generation within one model. To train this capability, we build an automatic pipeline that converts embodied videos into joint text-visual planning supervision by decomposing videos into planning steps and aligning them with visual state transitions. We further introduce RxBrain-Bench to evaluate whether models can represent embodied plans through join",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "score": 129.8,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.20468",
       "title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
       "link": "https://arxiv.org/abs/2607.20468",
@@ -5983,18 +5935,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-22T14:52:14.000Z",
       "score": 124.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.14159",
-      "title": "MemoHarness: Agent Harnesses That Learn from Experience",
-      "link": "https://arxiv.org/abs/2607.14159",
-      "summary": "arXiv:2607.14159v1 Announce Type: new Abstract: An agent harness is the external control layer that turns a base LLM into an executable agent by managing context, tools, orchestration, memory, decoding, and output handling. While harness design strongly affects agent behavior, most automatic improvement methods optimize narrower artifacts such as prompts, pipelines, or workflows, and deployed agents usually reuse a single global harness for all cases. We introduce MemoHarness, an adaptive harness optimization framework that learns from its own executions. MemoHarness decomposes the harness into six editable control dimensions, stores per-case diagnoses and distilled global patterns in a dual-layer experience bank, and adapts the learned harness to each test case using retrieved experience without test-time labels, feedback, or additional search. In our evaluation across shell-agent, code-generation, and analytical-reasoning benchmarks, MemoHarness improves over the fixed harnesses we compare against and shows selective transfer to unseen suites and base models. Its additional context can also remain cost-competitive when much of the retrieved experience is cacheable. These results provide evidence that execution experience is a practical substrate for building agent harnesses that are more adaptive than a single static configuration, while leaving broader claims about statistic",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "score": 123.8,
       "status": "queued"
     },
     {
@@ -6154,6 +6094,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.05168",
+      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "link": "https://arxiv.org/abs/2608.05168",
+      "summary": "arXiv:2608.05168v1 Announce Type: new Abstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these bugs are frequently repairable: inserting a short patch generated by a weak probe model after the same strong-model reasoning prefix can redirect the trajectory toward a correct solution. However, this corrective effect is not reliably internalized by directly fine-tuning on weak patches or repaired trajectories, suggesting that the useful signal lies not in the intervention text itself, but in how it reshapes the model's future reasoning distribution. We therefore propose Woodpecker Distillation, a weak-to-strong training framework that learns from contrastive local interventions. Our method contrasts successful and unsuccessful weak-model patches at the same prefix, constructs a corrective teacher distribution from their induced future token predictions, and distills this signal into the strong model. Experiments on mathematical reasoning benchmarks show that Woodpecker Distillation consistently improves strong-model performance and outperforms direct imitation baselines.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 115.19,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.05246",
+      "title": "LUNAR: Benchmarking Personalized Large Language Models on UNiversal User BehAvioR Logs",
+      "link": "https://arxiv.org/abs/2608.05246",
+      "summary": "arXiv:2608.05246v1 Announce Type: new Abstract: Existing personalized LLM benchmarks primarily rely on textual personas or isolated behavioral signals, providing limited evaluation of cross-domain behavioral personalization, where responses must be grounded in heterogeneous daily-life activities. To address this gap, we introduce LUNAR, the first benchmark for evaluating how LLMs personalize responses from longitudinal app interaction histories across universal daily-life domains, including clothing, food, housing, and mobility. To support scalable benchmark construction while mitigating data sparsity and privacy concerns, LUNAR uses a multi-stage coarse-to-fine synthesis pipeline grounded in real-world behavioral patterns. Fidelity analyses show closer alignment with real behavioral distributions than other synthetic benchmarks. Experiments on 19 mainstream LLMs show that access to behavioral logs is necessary but not sufficient for deep personalization: neither more context nor larger models guarantees better performance; effective personalization depends on selecting and integrating relevant evidence across domains. Direct retrieval of fine-grained behavioral records consistently outperforms compressed memory, while stronger personalization can come at the cost of privacy protection. These findings identify evidence selection, cross-domain integration, and privacy control as",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 115.19,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.04095",
       "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
       "link": "https://arxiv.org/abs/2608.04095",
@@ -6223,30 +6187,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "score": 112.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.14149",
-      "title": "Enhancing Small Language Models Reasoning through Knowledge Graph Grounding",
-      "link": "https://arxiv.org/abs/2607.14149",
-      "summary": "arXiv:2607.14149v1 Announce Type: new Abstract: Although large language models (LLMs) have set benchmarks for zero-shot reasoning, their deployment remains cost-prohibitive and environmentally taxing. Small Language Models (SLMs) offer a sustainable alternative, but prone to errors, on tasks requiring complex, multi-hop logical grounding. We investigate a neuro-symbolic agentic framework to enhance the reasoning capabilities of SLMs, specifically Gemma 3 (1B, 4B) and Llama 3.2 (3B), using the CLUTRR kinship benchmark. Our approach transforms the SLM into a minimalist agent utilizing two specialized tool calls: extract_facts for symbolic triplet extraction and get_hint for expert reasoning via a Relational Graph Convolutional Network (RGCN). We evaluate these models across two configurations, both in an Oracle scenario with ground-truth triplets and a Realistic scenario relying on self-extracted knowledge. Our results reveal that while RGCN-derived hints provide a 1.5 - 2x performance gain over story-only baselines, the system is constrained by the extraction bottleneck and sequential deductive fragility, where early extraction errors compound over multi-hop chains. Furthermore, we identify a \"distraction effect\" in specific architectures where noisy, self-generated facts degrade performance despite the presence of expert hints. This work characterizes the challenges of symbolic",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "score": 111.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=48935371",
-      "title": "I'd prefer to avoid AI comments on Reddit and HN",
-      "link": "https://news.ycombinator.com/item?id=48935371",
-      "summary": "We're all experiencing it. Are you replying to AI right now? So I was thinking. The LLMs solve problems. Compulsively. I'm wondering about leaving problems behind in comments that are slightly human-time-consuming. If the comment-replier solves it then blergh you're chatting with AI. If the entity didn't detect the puzzle or couldn't be arsed solving it, then hey maybe you're talking with a real person. Ok, any measure like this is only temporarily effective. I'm trying it out with a reddit thread. Someone replied to me with something unfriendly. And their comment history appears incendiary. Might just be a person, or might be a robot. But I've left a super-basic puzzle (poorly) hidden in my response. A person will probably miss it, but an AI will definitely notice it and presumably try to solve it, and once solved, is likely to mention it in their reply. Perhaps. Note: there is no puzzle in this post. Promise. More just an exploration in strategy. Comments URL: https://news.ycombinator.com/item?id=48935371 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-16T14:48:21.000Z",
-      "score": 111.72,
       "status": "queued"
     },
     {
@@ -6610,6 +6550,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.05224",
+      "title": "Small Foundation Models of Human Cognition and Behaviour",
+      "link": "https://arxiv.org/abs/2608.05224",
+      "summary": "arXiv:2608.05224v1 Announce Type: new Abstract: Large language models fine-tuned on human behavioural data have emerged as general-purpose cognitive proxies, but the scale this requires, and whether these models process task structure or exploit statistical shortcuts, remain open questions. We train fourteen models from 135M to 14B parameters across four architecture families on Psych-101, a dataset of 10.7 million trial-level choices from 160 experiments. In-distribution, scale barely matters. The models fall within a narrow band, as though against a ceiling, and 0.6B to 1B parameters suffice to match a 70B baseline on held-out participants. Out-of-distribution, that band opens into a markedly steeper scaling gradient, with larger models clearly advantaged in generalisation to novel task structure. To determine what information these models use, we run two diagnostics. We progressively strip four prompt channels -- task instructions, experimental stimuli, outcome feedback, and choice history -- across 27 experiments, and permute trial order. Masking the content of stimuli and feedback destroys 75.7% of learned information and pushes models below chance, demonstrating that choice history alone does not account for performance. Permutation reveals invariance on tasks with independent trials but sensitivity where trial order is determined by prior responses. Small cognitively fin",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 103.19,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.04285",
       "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
       "link": "https://arxiv.org/abs/2608.04285",
@@ -6811,6 +6763,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-24T14:43:55.000Z",
       "score": 97.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.05203",
+      "title": "From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction",
+      "link": "https://arxiv.org/abs/2608.05203",
+      "summary": "arXiv:2608.05203v1 Announce Type: new Abstract: Machine learning models achieve strong predictive accuracy for 90-day outcome prediction in acute ischaemic stroke, yet clinical adoption is limited by the misalignment of model explanations with clinicians' reasoning. Motivated by a clinician user study calling for clinical guideline-aligned cut-offs, we ask whether continuous predictors can be replaced by clinically informed categorical encodings without sacrificing performance. On a multi-centre European registry stratified into three treatment cohorts, we compare standard and fully categorised gradient-boosted models, the latter using stroke guideline-aligned, treatment-specific thresholds. The fully categorised models are statistically indistinguishable from their continuous counterparts in two of the treatment cohorts, with a significant drop in predictive accuracy in one cohort. Global feature importance rankings remain consistent, suggesting that discretising continuous predictors into guideline-based categories preserves the core hierarchy of prognostic factors across all treatment groups. Guideline-based categorisation is thus a viable design choice for stroke-outcome models.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 97.19,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.05245",
+      "title": "Search2Skill: Skill Distillation Beyond Knowledge Boundaries Via Rubric-Based Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2608.05245",
+      "summary": "arXiv:2608.05245v1 Announce Type: new Abstract: Reusable skills, which encapsulate the procedural knowledge required to solve real-world professional tasks, offer LLM-based agents a path toward self-evolution in expert domains. Existing self-evolving skill methods construct skills internally from the model's parametric knowledge or trajectories, and are therefore bounded by what the model already knows. However, the domain conventions and standard procedures underlying professional skills often lie beyond this boundary and are hard to elicit from the agent alone. To address this issue, we therefore propose a novel framework, Search2Skill, that automatically identifies the agent's capability gaps, searches external sources to address them, and distills the retrieved evidence into structured, reusable skills. Specifically, Search2Skill is optimized by a rubric-based reinforcement learning scheme that jointly improves when to search, how to search, and how to generate skills. Experiments on eight expert-level domains from three benchmarks show that Search2Skill consistently outperforms both search-augmented and trajectory-based skill-learning baselines under both streaming and held-out evaluation protocols. Further analyses show that the gains arise from skill abstraction rather than raw retrieved evidence, and that the acquired skills transfer across model scales.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 97.19,
       "status": "queued"
     },
     {
@@ -7162,6 +7138,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.05225",
+      "title": "Project2Task: Graph-Guided Project-Level Planning for Autonomous Research",
+      "link": "https://arxiv.org/abs/2608.05225",
+      "summary": "arXiv:2608.05225v1 Announce Type: new Abstract: Research agents can increasingly search literature, propose hypotheses, generate code, run experiments, and draft manuscripts from a single topic. However, a research project is not merely a larger task: it is a long-horizon agenda that must be advanced through multiple bounded tasks with distinct but related objectives, parallel alternatives, and dependency-aware sequences. Existing single-task systems often treat the project as one oversized task, produce a flat set of vague or overlapping tasks, or leave task boundaries and execution order to manual coordination. We introduce Project2Task, a graph-guided project-level planning layer for autonomous research. Given a project brief, it represents candidate contributions as innovation atoms and organizes them in a directed lineage graph. A lightweight Bernoulli block-model objective selects among horizontal, vertical, and hybrid portfolio decompositions. Project2Task then generates bounded tasks with explicit contribution ownership, repairs overlaps and missing execution fields, and emits dependency-aware task contracts that specify objectives, inputs, expected artifacts, evaluation requirements, boundary constraints, dependencies, and execution order. The contracts are independent of any particular downstream research executor and support integration of task outputs into a coheren",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 85.19,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.02618",
       "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
       "link": "https://arxiv.org/abs/2608.02618",
@@ -7183,6 +7171,42 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "score": 84.73,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.05159",
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "link": "https://arxiv.org/abs/2608.05159",
+      "summary": "arXiv:2608.05159v1 Announce Type: new Abstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources in building these applications, however, effectively leveraging and orchestrating them remains a formidable challenge. Conventional approaches to enterprise application integration, encompassing middleware architectures such as Enterprise Service Bus (ESB), API gateway infrastructures, and Robotic Process Automation (RPA), suffer from inherent limitations like high architectural coupling, escalating operation and maintenance costs, and limited intelligence capabilities. This paper proposes Agentic Nesting, a multi-agent collaboration framework in which existing enterprise applications are encapsulated as autonomous AI agents within a hierarchically nested structure. Rather than flat interconnection, agents are organized into layered stewardship topologies that mirror the compositional complexity of enterprise ecosystems. The framework extracts a digital agent proxy from each legacy application to enable natural-language interaction and autonomous manipulation, coordinates multiple agents through a central orchestrator for task decomposition and dynamic dispatching, and exposes a unifie",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "score": 79.19,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-27T18:00:00.000Z",
+      "score": 78.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
+      "title": "The left and right agree on one thing: no data centers",
+      "link": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
+      "summary": "Today, I’m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers. Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a group called Humans First, a conservative grassroots movement focused on combating AI data center build-outs. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. You’ll hear Gaby explain that it was part of a bigger, broader, and bipartisan opposition to data centers. Not only as physical buildings, but as infrastructure that powers an AI boom that takes local jobs and fills feeds with slop. Data center construction has become a proxy for the public’s feelings about AI: something physical they can aim their fear and frustration at — and even create enough pressure to stop through community organizing and protests. So I wanted Gaby to talk me through what these protests look like on the ground, from voters whose party affiliations have typically aligned them with big business. You’ll hear Gaby say data centers are scrambling party lines, turning diehard Trump voters into protesters who care about left-coded issues like grou",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-06T14:00:00.000Z",
+      "score": 78.4,
       "status": "queued"
     },
     {
@@ -7888,22 +7912,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-07-08T16:38:05.513Z",
       "failureReason": "validation issues: EN: Section \"Step-by-step setup and implementation\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Common problems and quick fixes\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"First use case for a small team\" is missing an inline source link (must include one of the provided URLs). | EN: Section \"Technical notes (optional)\" is missing an inline source link (must include one of the provided URLs). | EN: Section…"
-    },
-    {
-      "id": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
-      "title": "OpenAI, Anthropic new AI spending reality as users shift to efficiency",
-      "link": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
-      "summary": "Article URL: https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html Comments URL: https://news.ycombinator.com/item?id=48717986 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-29T11:43:36.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-07T10:44:38.221Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]
 }
