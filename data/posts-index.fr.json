@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T08:40:08.056Z",
+  "generatedAt": "2026-08-08T15:39:46.923Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-08-vectoriseme-developer-api-rest-and-mcp-compatible-image-to-svg-conversion-with-export-options",
+      "title": "API développeur Vectorise.Me — conversion image→SVG REST/MCP et options d'export",
+      "date": "2026-08-08",
+      "excerpt": "Guide pratique pour utiliser l'API Vectorise.Me : convertir des images raster (JPG/PNG) en SVG canonique, puis exporter en PDF/PNG/EPS/AVIF, avec exemples cURL, presets et conseils pour petites équipes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-08-vectoriseme-developer-api-rest-and-mcp-compatible-image-to-svg-conversion-with-export-options.jpg",
+      "tags": [
+        "vectorisation",
+        "API",
+        "SVG",
+        "images",
+        "développeurs",
+        "startup",
+        "backend"
+      ],
+      "sources": [
+        "https://vectorise.me/developers"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-08-07-agon-run-competing-ai-code-agents-in-isolated-git-worktrees-and-auto-apply-validated-fixes",
