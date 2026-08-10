@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T09:18:55.443Z",
+  "generatedAt": "2026-08-10T16:16:18.969Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 5
+    },
+    {
+      "slug": "2026-08-10-triggertree-local-zero-token-telemetry-that-shows-which-documentation-claude-code-reads",
+      "title": "trigger_tree — Télémétrie locale et zéro-jeton montrant quels documents Claude Code lit",
+      "date": "2026-08-10",
+      "excerpt": "Ajoutez trigger_tree à votre dépôt pour collecter de la télémétrie par exécution, 100 % locale et sans jetons. Produisez cartes de chaleur/froid, une note de santé numérique et des preuves pour guider des corrections de routeurs ou de docs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-10-triggertree-local-zero-token-telemetry-that-shows-which-documentation-claude-code-reads.jpg",
+      "tags": [
+        "trigger_tree",
+        "télémétrie",
+        "Claude Code",
+        "documentation",
+        "CI",
+        "GitHub Actions",
+        "local-first",
+        "zéro-tokens"
+      ],
+      "sources": [
+        "https://github.com/Hedde/trigger_tree"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-08-09-deploying-ai-agents-on-google-cloud-a-five-part-architecture-and-product-map",

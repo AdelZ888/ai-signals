@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-10T09:18:55.455Z",
+  "generatedAt": "2026-08-10T16:16:19.039Z",
   "items": [
+    {
+      "id": "https://github.com/Hedde/trigger_tree",
+      "title": "Show HN: Trigger-tree; see which project docs your AI coding agent reads",
+      "link": "https://github.com/Hedde/trigger_tree",
+      "summary": "Article URL: https://github.com/Hedde/trigger_tree Comments URL: https://news.ycombinator.com/item?id=48990020 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-21T09:34:34.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-10T16:16:18.949Z",
+      "file": "content/posts/2026-08-10-triggertree-local-zero-token-telemetry-that-shows-which-documentation-claude-code-reads.md",
+      "fileFr": "content/posts/fr/2026-08-10-triggertree-local-zero-token-telemetry-that-shows-which-documentation-claude-code-reads.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1385,
+      "wordsFr": 1343
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
       "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1423
     },
     {
-      "id": "https://finance.yahoo.com/news/hiddenlayer-releases-2026-ai-threat-140000928.html",
-      "title": "HiddenLayer 2026: Autonomous Agents Now Account for 1 in 8 AI Breaches",
-      "link": "https://finance.yahoo.com/news/hiddenlayer-releases-2026-ai-threat-140000928.html",
-      "summary": "Article URL: https://finance.yahoo.com/news/hiddenlayer-releases-2026-ai-threat-140000928.html Comments URL: https://news.ycombinator.com/item?id=47436424 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-03-19T08:25:48.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-07T08:59:53.220Z",
-      "file": "content/posts/2026-04-07-hiddenlayer-2026-report-autonomous-agents-widen-ai-runtime-attack-surface-and-account-for-roughly-1-in-8-breaches.md",
-      "fileFr": "content/posts/fr/2026-04-07-hiddenlayer-2026-report-autonomous-agents-widen-ai-runtime-attack-surface-and-account-for-roughly-1-in-8-breaches.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1383,
-      "wordsFr": 1509
-    },
-    {
       "id": "https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/",
       "title": "Birgitta Boeckeler on Harness Engineering for AI Agents [audio]",
       "link": "https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/",
@@ -5278,18 +5278,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/maxrodrigo/clai",
-      "title": "Show HN: Clai – AI for the command line (stdin → LLM → stdout)",
-      "link": "https://github.com/maxrodrigo/clai",
-      "summary": "Since ChatGPT launched I've been trying to integrate LLMs into my workflows; emails, commits PRSs, or even long chat threads. My instinct was to code a small automation platform, but I found myself limited once again by its own constraints. Went back to zero, twice, and went back to the tools I've been using for years: UNIX pipelines. I started using llm and later mods (now deprecated) and they're great tools, but I wanted something leaner and that would compose better with other tools. Clai does one thing: takes stdin, sends it to a model of your choice and prints the result. No REPL, no state. When it's done it just exits. git diff | clai commit cat article.txt | clai summarize | glow pbpaste | clai tldr curl -s example.com/article.html | clai -e \"Extract the three main concepts\" Works with major providers and I'll keep adding more. It can also be pointed to a local model so nothing leaves your machine. Install with: brew install maxrodrigo/tap/clai Comments URL: https://news.ycombinator.com/item?id=49170538 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-04T15:42:39.000Z",
-      "score": 166.32,
-      "status": "queued"
-    },
-    {
       "id": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a",
       "title": "China weighs tighter export controls on AI models and chips",
       "link": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a",
@@ -5347,54 +5335,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-05T15:31:53.000Z",
       "score": 157.3,
-      "status": "queued"
-    },
-    {
-      "id": "https://money-agent-production-a0a9.up.railway.app/api/summarize",
-      "title": "An autonomous AI agent that sells its own API access via x402 payment protocol",
-      "link": "https://money-agent-production-a0a9.up.railway.app/api/summarize",
-      "summary": "Article URL: https://money-agent-production-a0a9.up.railway.app/api/summarize Comments URL: https://news.ycombinator.com/item?id=48976841 Points: 1 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-20T10:30:07.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/itdar/newsline",
-      "title": "Show HN: Newsline – one-line news in your status line while your AI agent works",
-      "link": "https://github.com/itdar/newsline",
-      "summary": "Article URL: https://github.com/itdar/newsline Comments URL: https://news.ycombinator.com/item?id=48980485 Points: 2 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-20T15:44:58.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://deepsql.ai/",
-      "title": "Show HN: DeepSQL – A self-hostable AI DBA agent for Postgres and MySQL",
-      "link": "https://deepsql.ai/",
-      "summary": "Hi HN - I'm Venkat, founder of Stayflexi (YC), CMU CS grad and Ex-Oracle Query Engine team (patents in core databases) DeepSQL started as an internal tool to stop our own databases from becoming the bottleneck they were becoming (13,000+ hotels in production). It worked well enough that we're releasing it. DeepSQL is an AI agent that operates a database the way a senior DBA and Data Engineer would 1. Fixes slow queries (we cutdown DB spend by 4x) 2. Fixes DB bloat (blocks unnecessary schema changes, in vibecoded setup) 2. BI dashboards(we removed spend on tableau, retool and appsmith) 3. Security (We could redact access to sensitive, PII data to our employees) while engaging everyone in the org to interact with our database How it works 1. Deepsql learns your data and relationships from your code base, rules and query logs 2. Deepsql agent has 20 background jobs that continuously monitor the schema changes, bottlenecks, and come up with solutions before the problem arises. (Schema bloat issues are irreversible) 3. Deepsql Brain has CLI and MCP surfaces that can directly work with Claude / Codex and Cursor. 4. Deepsql digest delivers the daily database health report. 5. Your team can connect to deepsql with their favourate surface areas - Web UI, CLI, MCP or Slack. For community support: https://discord.gg/duEJq7AeeG Or just email me for expert level setup guidance venkat@stayfl",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-20T15:32:20.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/Hedde/trigger_tree",
-      "title": "Show HN: Trigger-tree; see which project docs your AI coding agent reads",
-      "link": "https://github.com/Hedde/trigger_tree",
-      "summary": "Article URL: https://github.com/Hedde/trigger_tree Comments URL: https://news.ycombinator.com/item?id=48990020 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-21T09:34:34.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5614,18 +5554,6 @@
       "status": "queued"
     },
     {
-      "id": "https://leetcopilot.dev",
-      "title": "Show HN: A Chrome extension that adds an AI side panel to LeetCode problems",
-      "link": "https://leetcopilot.dev",
-      "summary": "Article URL: https://leetcopilot.dev Comments URL: https://news.ycombinator.com/item?id=48980492 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-20T15:45:21.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=49099039",
       "title": "Ask/Tell HN: use the flag button instead of complaining about AI slop articles",
       "link": "https://news.ycombinator.com/item?id=49099039",
@@ -5682,6 +5610,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-08-08T14:39:12.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+      "title": "Four takeaways from Mark Zuckerberg&#8217;s massive AI manifesto",
+      "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+      "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-10T15:19:05.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -5815,6 +5755,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "score": 136.67,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+      "title": "Bose CEO Lila Snyder on the fight for high-quality audio",
+      "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+      "summary": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both car audio and noise-canceling headphones. Lila was last on the show about four years ago, and since then she’s dramatically rearchitected the company. The focus on research is still there, but she’s sold off Bose Professional, acquired the high-end audio brands McIntosh Labs and Sonus faber, and, perhaps most importantly, started licensing all that core Bose technology to other companies. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. That means that while you can still go buy a Bose soundbar or Bose headphones, the company is also turning into a B2B business, and you can get Bose technology in Skullcandy headphones and Epson projectors, among many other products. That big change in the business comes with a big change in structure. Becoming a software company in addition to a product company comes with a whole new set of challenges, and Lila and I talked about how it’s all working out. I also wanted to know if this is all a reaction to the potential rise of AI wearables — products that",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "score": 132.67,
       "status": "queued"
     },
     {
@@ -6211,6 +6163,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-07-31T04:00:00.000Z",
       "score": 111.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "title": "Evolve your marketing with new AI tools",
+      "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+      "source": "Google AI Blog",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-10T14:30:00.000Z",
+      "score": 111.22,
       "status": "queued"
     },
     {
@@ -6766,6 +6730,18 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "score": 96.69,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.04066",
       "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
       "link": "https://arxiv.org/abs/2608.04066",
@@ -7196,6 +7172,46 @@
       "publishedAt": "2026-07-31T04:00:00.000Z",
       "score": 87.41,
       "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-27T18:00:00.000Z",
+      "score": 78.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "score": 72.85,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/maxrodrigo/clai",
+      "title": "Show HN: Clai – AI for the command line (stdin → LLM → stdout)",
+      "link": "https://github.com/maxrodrigo/clai",
+      "summary": "Since ChatGPT launched I've been trying to integrate LLMs into my workflows; emails, commits PRSs, or even long chat threads. My instinct was to code a small automation platform, but I found myself limited once again by its own constraints. Went back to zero, twice, and went back to the tools I've been using for years: UNIX pipelines. I started using llm and later mods (now deprecated) and they're great tools, but I…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-04T15:42:39.000Z",
+      "score": 166.32,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-10T15:58:42.933Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://fly.io/blog/kurt-scott-money-sprites/",

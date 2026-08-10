@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T09:18:55.440Z",
+  "generatedAt": "2026-08-10T16:16:18.967Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-10-triggertree-local-zero-token-telemetry-that-shows-which-documentation-claude-code-reads",
+      "title": "trigger_tree — Local, zero-token telemetry that shows which documentation Claude Code reads",
+      "date": "2026-08-10",
+      "excerpt": "Add trigger_tree to your repo to collect per-run, local (zero-token) telemetry. Produce heat/cold maps, a numeric health grade, and evidence to guide doc or router fixes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-10-triggertree-local-zero-token-telemetry-that-shows-which-documentation-claude-code-reads.jpg",
+      "tags": [
+        "trigger_tree",
+        "telemetry",
+        "documentation-discovery",
+        "Claude Code",
+        "github-actions",
+        "heatmaps",
+        "health-grade",
+        "local-first"
+      ],
+      "sources": [
+        "https://github.com/Hedde/trigger_tree"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
