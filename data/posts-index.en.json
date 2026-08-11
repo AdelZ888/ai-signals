@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T08:50:45.558Z",
+  "generatedAt": "2026-08-11T16:09:38.217Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-11-cortexbrain-a-compact-observability-pipeline-for-distributed-ai-agents",
+      "title": "CortexBrain: a compact observability pipeline for distributed AI agents",
+      "date": "2026-08-11",
+      "excerpt": "Use CortexBrain to add lightweight observability to distributed AI agents. Start the repo's local example, add basic metrics, import the dashboard, and spot issues fast.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-11-cortexbrain-a-compact-observability-pipeline-for-distributed-ai-agents.jpg",
+      "tags": [
+        "CortexBrain",
+        "CortexFlow",
+        "monitoring",
+        "observability",
+        "ai-agents",
+        "open-source",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/CortexFlow/CortexBrain"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-08-10-openai-pauses-astra-after-reviewers-flag-critical-agentic-coding-and-cybersecurity-capabilities",
