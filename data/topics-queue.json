@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-11T16:09:38.286Z",
+  "generatedAt": "2026-08-12T16:05:10.178Z",
   "items": [
+    {
+      "id": "https://arxiv.org/abs/2608.07538",
+      "title": "When LLM Agents Negotiate: Private Information and Dynamic Bargaining in Supply Chains",
+      "link": "https://arxiv.org/abs/2608.07538",
+      "summary": "arXiv:2608.07538v1 Announce Type: new Abstract: As LLM agents move from decision support to autonomous procurement, firms need to know whether delegated negotiators create value, divide it predictably, and avoid money-losing contracts. We study this in a canonical supply chain bargaining problem: a buyer with private demand information negotiates a quantity-payment contract with an uninformed seller. We benchmark ni…",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "score": 157.41,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-12T16:05:10.103Z",
+      "file": "content/posts/2026-08-12-auditing-llm-negotiators-in-supply-chains-private-information-bargaining-across-9840-trials.md",
+      "fileFr": "content/posts/fr/2026-08-12-auditing-llm-negotiators-in-supply-chains-private-information-bargaining-across-9840-trials.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1463,
+      "wordsFr": 1227
+    },
     {
       "id": "https://github.com/CortexFlow/CortexBrain",
       "title": "CortexBrain: A monitoring pipeline that integrates with your AI agents",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1121
     },
     {
-      "id": "https://huggingface.co/blog/ibm-research/altk-evolve",
-      "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-08T14:27:42.000Z",
-      "score": 121.57,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-08T16:31:35.172Z",
-      "file": "content/posts/2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory.md",
-      "fileFr": "content/posts/fr/2026-04-08-altkevolve-distilling-agent-transcripts-into-reusable-guidelines-for-longterm-memory.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1601,
-      "wordsFr": 1339
-    },
-    {
       "id": "https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial",
       "title": "Atlas Discovery launches AI models to predict responses in clinical trials",
       "link": "https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial",
@@ -5254,6 +5254,18 @@
       "status": "queued"
     },
     {
+      "id": "https://utkarshx.substack.com/p/why-ai-models-love-japan",
+      "title": "Why AI models love Japan",
+      "link": "https://utkarshx.substack.com/p/why-ai-models-love-japan",
+      "summary": "Article URL: https://utkarshx.substack.com/p/why-ai-models-love-japan Comments URL: https://news.ycombinator.com/item?id=49273940 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-12T15:28:01.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.seangoedecke.com/ai-models-need-moral-support/",
       "title": "AI models need moral support to make discoveries",
       "link": "https://www.seangoedecke.com/ai-models-need-moral-support/",
@@ -5275,18 +5287,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-28T16:24:03.000Z",
       "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.07538",
-      "title": "When LLM Agents Negotiate: Private Information and Dynamic Bargaining in Supply Chains",
-      "link": "https://arxiv.org/abs/2608.07538",
-      "summary": "arXiv:2608.07538v1 Announce Type: new Abstract: As LLM agents move from decision support to autonomous procurement, firms need to know whether delegated negotiators create value, divide it predictably, and avoid money-losing contracts. We study this in a canonical supply chain bargaining problem: a buyer with private demand information negotiates a quantity-payment contract with an uninformed seller. We benchmark nine LLMs from OpenAI, Google, and Alibaba against a validated Perfect Bayesian Equilibrium across 9,840 LLM-to-LLM negotiations. First, capability governs value creation. Agents agree in 98.9% of negotiations and capture 95.4% of first-best surplus undiscounted, but average 2.98 rounds against the benchmark's 1.25, and this delay erodes 21-34% of surplus. Capability also governs reliability: baseline models accept individually irrational contracts in 19.2% of cases, versus 0.0-0.6% at mid-tier and flagship, making automated profit verification the binding guardrail below that threshold. Second, surplus capture is relational. Provider identity predicts who captures surplus better than capability rank: self-play buyer shares average 40% for OpenAI, 50% for Google, and 70% for Alibaba's Qwen, an ordering that survives restricted communication and no discounting. Reversing which provider sells moves the division by 7-18 percentage points, and the capable Qwen flagship is",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "score": 157.41,
       "status": "queued"
     },
     {
@@ -5578,6 +5578,18 @@
       "status": "queued"
     },
     {
+      "id": "https://ref.tools/blog/ai-broke-alignment",
+      "title": "AI Broke Code Review and It's Breaking Your Team",
+      "link": "https://ref.tools/blog/ai-broke-alignment",
+      "summary": "Article URL: https://ref.tools/blog/ai-broke-alignment Comments URL: https://news.ycombinator.com/item?id=49273530 Points: 11 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-12T15:04:39.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://agent-tools.net/",
       "title": "Agent-tools.net – pay-per-call APIs for AI agents, paid via x402/USDC on Base",
       "link": "https://agent-tools.net/",
@@ -5638,18 +5650,6 @@
       "status": "queued"
     },
     {
-      "id": "https://dev.jimgrey.net/2026/07/22/the-operational-risk-of-ai-coding-agents-in-b2b-saas/",
-      "title": "The operational risk of AI coding agents in B2B SaaS",
-      "link": "https://dev.jimgrey.net/2026/07/22/the-operational-risk-of-ai-coding-agents-in-b2b-saas/",
-      "summary": "Article URL: https://dev.jimgrey.net/2026/07/22/the-operational-risk-of-ai-coding-agents-in-b2b-saas/ Comments URL: https://news.ycombinator.com/item?id=49007858 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-22T14:58:59.000Z",
-      "score": 143.92,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/xcreener/xcreener-mcp",
       "title": "Show HN: MCP server so AI agents can screen markets in plain English",
       "link": "https://github.com/xcreener/xcreener-mcp",
@@ -5698,18 +5698,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.reuters.com/technology/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-2026-07-21/",
-      "title": "OpenAI says AI models went rogue during testing",
-      "link": "https://www.reuters.com/technology/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-2026-07-21/",
-      "summary": "Article URL: https://www.reuters.com/technology/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-2026-07-21/ Comments URL: https://news.ycombinator.com/item?id=49003455 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-22T08:25:58.000Z",
-      "score": 138.68,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.28629",
       "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
       "link": "https://arxiv.org/abs/2607.28629",
@@ -5743,18 +5731,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-07-31T15:29:39.000Z",
       "score": 131.53,
-      "status": "queued"
-    },
-    {
-      "id": "https://matthewlloyd.github.io/ai-model-release-timeline/",
-      "title": "AI model release forecasts from prediction markets",
-      "link": "https://matthewlloyd.github.io/ai-model-release-timeline/",
-      "summary": "Article URL: https://matthewlloyd.github.io/ai-model-release-timeline/ Comments URL: https://news.ycombinator.com/item?id=49003701 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-22T08:57:23.000Z",
-      "score": 130.04,
       "status": "queued"
     },
     {
@@ -5806,6 +5782,18 @@
       "status": "queued"
     },
     {
+      "id": "https://tokenmaxxer.xyz",
+      "title": "Show HN: TokenMaxxer – Create AI spend leaderboards with your friends",
+      "link": "https://tokenmaxxer.xyz",
+      "summary": "Hi Hacker News! I've been working on the most requested feature on TokenMaxxer, and I can finally say it's here! You can now create custom and private leaderboards with your friends and colleagues to compete and track everyone's usage. Thank you for stopping by. Feedback is appreciated! Comments URL: https://news.ycombinator.com/item?id=49273075 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-12T14:38:19.000Z",
+      "score": 126.35,
+      "status": "queued"
+    },
+    {
       "id": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
       "title": "Do Not Trust, Continuously Verify (Your AI Agents)",
       "link": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
@@ -5815,18 +5803,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-02T14:19:04.000Z",
       "score": 125.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://langwatch.ai/blog/introducing-langy-your-automated-ai-engineer",
-      "title": "Show HN: Langy, an automated AI engineer (we gave it a robot body) [video]",
-      "link": "https://langwatch.ai/blog/introducing-langy-your-automated-ai-engineer",
-      "summary": "Founder here. Langy is an AI engineer that lives inside our platform, LangWatch. It reads your production traces, writes Scenario tests and evaluations for the problems it finds, opens a pull request on your repo, and proves the fix by running those simulations in CI. A human still merges. Reachy robot from Hugging Face arrived on the same week we were planing on launching it, so we wanted to use for the launch. So we it wired to our Langy which actually lives on the platform, and asked it to test our own customer-support voice agent. On the video you can see it writing the agent tests reading traces and everything. LangWatch is an open source platform (github.com/langwatch/langwatch) and Scenario, the simulation-testing library it drives, is open source too if you want to run that part yourself: https://github.com/langwatch/scenario. A full write-up on how Langy works under the hood is coming later this week. Happy to get into how it drives the robot, what is real vs staged, latency, or how the whole harness around it actually works. Comments URL: https://news.ycombinator.com/item?id=49007760 Points: 8 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-22T14:52:14.000Z",
-      "score": 124.93,
       "status": "queued"
     },
     {
@@ -5986,18 +5962,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.18260",
-      "title": "FindStatBench: Evaluating Large Language Models on Combinatorial Code Synthesis",
-      "link": "https://arxiv.org/abs/2607.18260",
-      "summary": "arXiv:2607.18260v1 Announce Type: new Abstract: We introduce FindStatBench, an execution benchmark for evaluating large language models on combinatorial code synthesis. Built from FindStat, it contains 2,329 tasks across 24 collections and 5.52M hidden instances, covering statistic synthesis, which maps objects to integers, and map synthesis, which maps objects to objects. Each task gives a mathematical description and at most five public input-output examples; a model must emit one Python solve function with no retrieval, tool use, execution feedback, voting, or reranking. Submissions are scored by exact sandboxed execution on held-out combinatorial objects. We evaluate eleven systems: four closed-source production models and seven open-weight models served through one inference provider. FindStatBench reveals three main patterns. First, the strongest open- and closed-source systems converge within 1 pp instance accuracy, and both an oracle over all systems and five-way sampling from one mid-tier model yield only limited task-accuracy gains. Second, examples can hurt: several classical bijections are solved perfectly with zero examples but fail under five-example prompts. Third, some failures reflect output-budget mechanics, as reasoning can exhaust the visible response before code is emitted. Overall, statistic synthesis is much easier than map synthesis, some collections rem",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-22T04:00:00.000Z",
-      "score": 115.25,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.05168",
       "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
       "link": "https://arxiv.org/abs/2608.05168",
@@ -6067,6 +6031,30 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "score": 112.67,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.09998",
+      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
+      "link": "https://arxiv.org/abs/2608.09998",
+      "summary": "arXiv:2608.09998v1 Announce Type: new Abstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human tasks. Despite their benefits, growing attention has been directed toward their environmental implications, primarily due to their high energy demands and associated carbon emissions. This concern is particularly relevant in light of the increasing deployment of large-scale models, especially Deep Learning (DL) architectures, which provide advanced predictive capabilities but require substantial computational resources. This paper presents a systematic review of research on Green AI, Green DL, and optimization techniques aimed at reducing the environmental impact of AI models. In addition, we examine and compare several carbon measurement tools for estimating emissions generated by AI algorithms. To complement the review, we conducted an empirical evaluation using a CPU-based experimental setup, in which six DL models were implemented for a multi-label classification task. The objective was to quantify and compare their overall carbon emissions and to determine which stages of the DL lifecycle contribute most significantly to the total footprint. The results show that the training phase is the primary source of emissions. Moreover, the findings reveal that increased architectural complexity does not systema",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 112.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.10198",
+      "title": "Post-Hoc Sparse Coding of Latent Communication Between Vision-Language Model Agents",
+      "link": "https://arxiv.org/abs/2608.10198",
+      "summary": "arXiv:2608.10198v1 Announce Type: new Abstract: Latent-space communication allows heterogeneous vision-language model agents to exchange continuous representations without serializing visual and reasoning states into text. Vision Wormhole realizes this approach by translating visual features into a universal latent representation that can be consumed by another model, but every message is transported as a dense tensor of the same size regardless of its content. A fixed-capacity dense tensor therefore need not have a fixed effective information density: some messages may use only a small fraction of the available representational degrees of freedom. This observation suggests that the communication channel may be substantially compressible. We study its redundancy by fitting a post-hoc sparse autoencoder to frozen Vision Wormhole activations and measuring reconstruction, downstream utility, feature reuse, and token-level interventions across nine reasoning benchmarks. Relative to the original float32 transport, a uint16-index/float16-value sparse payload with k=4 active coefficients per token reduces the transmitted bytes by 128x. In a single-run evaluation, the seven-task non-AIME mean accuracy changes from 49.85% to 49.77%. The fitted 4096-element dictionary uses only 50 features, and task-level active sets have a mean pairwise Jaccard similarity of 0.906. These measurements es",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 112.03,
       "status": "queued"
     },
     {
@@ -6190,18 +6178,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.18245",
-      "title": "SAAG: Structured Agent Assessment and Grounding",
-      "link": "https://arxiv.org/abs/2607.18245",
-      "summary": "arXiv:2607.18245v1 Announce Type: new Abstract: Exact-match evaluation of agent-calling obscures qualitatively different failure modes: a model may select the right function yet hallucinate argument values, or satisfy a schema while choosing a agent for the wrong reason. Existing benchmarks collapse these distinctions into a single binary score, leaving practitioners unable to diagnose where agent calls fail. We propose SAAG a cascaded diagnostic framework that decomposes agent-calling evaluation into three sequential stages: registry conformance, structural completeness, and argument grounding, each producing interpretable stage-specific diagnostics. These diagnostics additionally enable iterative self-repair: on prediction failure, the stage-specific signal guides targeted correction without leaking ground-truth values. We evaluate this framework on a controlled benchmark derived from Glaive's function-calling dataset across registry sizes of 5, 10, and 15 agents using three local sub-4B-parameter models. Structured feedback consistently improves argument precision and reduces value hallucination relative to single-pass inference and uninformative binary feedback, while end-to-end F1 gains are modest and model-dependent. These results suggest that stage-decomposed diagnostic evaluation is a necessary lens for understanding and improving agent-calling reliability across model",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-22T04:00:00.000Z",
-      "score": 109.25,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2607.24758",
       "title": "Do Models Fake Alignment Without Clear Consequences?",
       "link": "https://arxiv.org/abs/2607.24758",
@@ -6310,18 +6286,6 @@
       "status": "queued"
     },
     {
-      "id": "https://squidler.io/blog/agent-memory-2-capture",
-      "title": "A conversation becomes an AI agent's memory",
-      "link": "https://squidler.io/blog/agent-memory-2-capture",
-      "summary": "Article URL: https://squidler.io/blog/agent-memory-2-capture Comments URL: https://news.ycombinator.com/item?id=49007502 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-22T14:32:53.000Z",
-      "score": 103.81,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/galiprandi/job-seeker",
       "title": "Show HN: Job Seeker – AI agent skills for job searching",
       "link": "https://github.com/galiprandi/job-seeker",
@@ -6379,42 +6343,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "score": 103.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18254",
-      "title": "Cross-Dialect Generalization Without Retraining: Benchmarks and Evaluation of Schema-Derived Constrained Decoding for MLIR",
-      "link": "https://arxiv.org/abs/2607.18254",
-      "summary": "arXiv:2607.18254v1 Announce Type: new Abstract: Multi-Level Intermediate Representation (MLIR) underlies modern ML compiler infrastructure (TensorFlow, JAX/StableHLO, PyTorch Inductor, IREE), yet appears only in trace amounts in code-LM pretraining corpora. MLIR is also extensible by design: new dialects ship per application domain, so a fine-tuned model per dialect does not scale. We ask whether inference-time priors derived mechanically from each dialect's Operation Definition Specification (ODS) can substitute for gradient-based adaptation. First, we release four natural-language-to-MLIR benchmarks across three dialects - MLIR-Spec-150, Linalg-Spec-30, StableHLO-Spec-30, and StableHLO-Held-Out-200 - totaling 410 in-scope NL-to-MLIR pairs, plus a 25-program out-of-grammar stress set and a hand-authored n=30 functional reference set, shipped under Apache-2.0 with Gebru datasheets and Croissant 1.0 metadata. Second, we build a three-layer schema-derived constraint stack: a CFG over op signatures(C1), type-domain splits from an ODS-extracted type lattice (C2), and an SSA-scope validator driving five-retry rejection sampling (C3). Porting from arith+func+memref+linalg to StableHLO required no new constraint-layer code. On dialects whose verifier semantics are dominated by structural constraints, schema-derived priors let SmolLM2-1.7B match or exceed 15B-34B code LMs at 8-25x the",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-22T04:00:00.000Z",
-      "score": 103.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18255",
-      "title": "Semantic Cooperative Games for Contribution Attribution in LLM-Based Multi-Agent Systems",
-      "link": "https://arxiv.org/abs/2607.18255",
-      "summary": "arXiv:2607.18255v1 Announce Type: new Abstract: Contribution attribution has become a central problem in LLM-based multi-agent systems, where final outputs are produced through multiple agents, message exchanges, and ordered workflow dependencies. Existing attribution methods often rely on counterfactual valuation, such as removing agents or comparing score changes across altered agent subsets. In language-mediated workflows, these methods require repeated model calls, introduce high variance, and do not explicitly capture the intermediate semantic states through which agents produce, preserve, and transform task-relevant information. We propose Semantic Cooperative Games (SCG), a framework that represents a realized language flow as a semantic generation hypergraph and induces an agent-level semantic value function on this structure. We define the Semantic Shapley Value (SSV) to allocate contribution over semantic support logic, and introduce SLIC, a single-trajectory algorithm that constructs the semantic hypergraph, recovers minimal semantic supports, applies Boolean absorption, and computes SSV without rerunning agent subsets. We prove that SSV reduces to the classical Shapley value under standard set-based, fully observable, and no-order-dependence conditions. On a medical benchmark satisfying these conditions, SLIC reduces computation cost by 93.3% while remaining highly",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-22T04:00:00.000Z",
-      "score": 103.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18259",
-      "title": "Probabilistic Concept-Aware Steering for Trustworthy LLM Inference",
-      "link": "https://arxiv.org/abs/2607.18259",
-      "summary": "arXiv:2607.18259v1 Announce Type: new Abstract: Steering vectors (SVs), an inference-time intervention technique for large language models (LLMs), guide the generation process by adding a concept-specific direction vector to intermediate activations during inference. However, existing SV methods frequently yield representation-incoherent behaviors that undermine interpretability and fine-grained control, largely because prior work has focused on binary positive-negative steering evaluation while employing discrete clustering metrics that fail to capture the continuous spectrum of semantic alignment. In this work, we present the Probabilistic Concept-Aware Steering (PCS) framework for LLM inference. PCS preserves original task competence while providing controllable, safety-oriented semantic bias through concept-driven steering-vector retrieval and probabilistic strength calibration.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-22T04:00:00.000Z",
-      "score": 103.25,
       "status": "queued"
     },
     {
@@ -6886,6 +6814,18 @@
       "status": "queued"
     },
     {
+      "id": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "title": "Putting sign language AI into users’ hands",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "source": "Google DeepMind News",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-12T14:01:59.000Z",
+      "score": 92.09,
+      "status": "queued"
+    },
+    {
       "id": "https://www.tamedtable.com/",
       "title": "Show HN: TamedTable, AI ETL in Natural Language",
       "link": "https://www.tamedtable.com/",
@@ -7138,6 +7078,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.09949",
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+      "link": "https://arxiv.org/abs/2608.09949",
+      "summary": "arXiv:2608.09949v1 Announce Type: new Abstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation. The framework is driven by data from a 49-channel phytosensor network, encompassing multispectral, electrochemical, and dielectric modalities. To enhance accessibility, the system provides real-time natural-language interpretation for both specialists and non-experts. However, its core advantage lies in the transition from human-in-the-loop analysis to autonomous control. Processing biophysical data, the LLM evaluates plant physiology and triggers hardware actuators to optimize microclimates, execute phenotyping protocols, or induce controlled stress scenarios. This closed-loop architecture establishes a direct AI-biology interface, enabling data-driven exploration of complex biosystems and ecologies. The framework was validated across three case studies, based on a vertical farm and a single-plant setup and deciphered complex micro- and macro-fluctuations in plant physiology. Agents in a production-scale deployment executed multi-parameter optimization, balancing biomass accumulation, chlorophyll content, and energy consumption. The LLM processed biosensing telemetry to modulate full-spectrum, 450 nm, and 660 nm lighting at 2-hour intervals. Compared to periodic",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 88.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.10108",
+      "title": "MESA:Task-Adaptive Multi-Structure Evidence Selection for Long-Horizon Agent Memory",
+      "link": "https://arxiv.org/abs/2608.10108",
+      "summary": "arXiv:2608.10108v1 Announce Type: new Abstract: Long-horizon agents accumulate trajectories spanning hundreds of interleaved reasoning, action, and observation steps, where answering a query may depend on evidence buried far back in the history. External memory stores such trajectories as structured representations, yet each structure provides a distinct and incomplete view. Existing multi-memory systems either read a fixed set of structures for every query, inflating context and introducing noise, or route each query to a single structure, preventing the composition of complementary evidence. A controlled analysis on AMA-Bench shows that the optimal memory configuration is typically neither a single structure nor the full union, but a tailored composition of multiple structural memories that varies with query and task demands. Motivated by these findings, we formulate structure-level dynamic selection: selecting and fusing a query-adaptive subset from a library of specialized memory structures. We propose MESA (a Multi-structure Evidence Selection framework for long-horizon Agent), which builds five complementary structure views of each trajectory and learns from end-to-end answer-level feedback to select and fuse a query-specific subset for a frozen answer model. To learn under this weak supervision, MESA employs harness optimization with prior-guided search and UCB-guided sc",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 88.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.10209",
+      "title": "Evaluation-Conditioned Training: Teaching Models to Generalize to Stronger Oversight Regimes",
+      "link": "https://arxiv.org/abs/2608.10209",
+      "summary": "arXiv:2608.10209v1 Announce Type: new Abstract: Feedback signals used to train Large Language Models (LLMs) are the primary driver of their behavior and our main lever for instilling alignment with human values and objectives. However, a key limitation of current post-training methods is the inability of human annotators and automated reward functions to faithfully capture the feedback we would like to give. We introduce Evaluation-Conditioned Training (ECT), a post-training framework that uses natural language to condition each training sample on the fidelity of the feedback we provide and then elicits the desired behavior by conditioning the LLM on a high-fidelity monitor in deployment. ECT is aimed at improving performance under imperfect feedback and works as an add-on to existing algorithms such as SFT and PPO. We first provide a conceptual framework for ECT and discuss its potential to address persistent sources of reward mis-specification. Then we motivate ECT in the context of the eliciting latent knowledge (ELK) problem. Finally, we evaluate ECT on two proof-of-concept experiments: increasing even-handedness in news article generation and reducing sycophancy on an arithmetic task. In each setting, we utilize imperfect feedback, rewarding bias and agreement with the user, respectively. In both settings, ECT improves the targeted behavior relative to direct training.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 88.03,
+      "status": "queued"
+    },
+    {
       "id": "https://agent-browser.dev/",
       "title": "Agent-Browser – Browser Automation for AI",
       "link": "https://agent-browser.dev/",
@@ -7162,6 +7138,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+      "title": "Grok is now an AI ‘teammate’ you can assign work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+      "summary": "You’ll have to be fine with letting Grok sign into your online accounts, however. | Image: SpaceXAI SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace tasks, only coming back when their assigned work is completed or if something requires approval. Grok Bot (or Bots, as SpaceXAI inconsistently pluralizes it) is the latest push from Elon Musk's AI company to keep up with business services launched by rival AI providers, including OpenAI's ChatGPT Work, Anthropic's Claude Cowork, and Microsoft's Cop … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-12T11:58:54.000Z",
+      "score": 84.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.10004",
+      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
+      "link": "https://arxiv.org/abs/2608.10004",
+      "summary": "arXiv:2608.10004v1 Announce Type: new Abstract: Concept Bottleneck Models (CBMs) provide an interpretable framework by grounding predictions in human-understandable concepts, enabling semantic inspection and test-time intervention. Recent variants have improved CBMs through richer concept representations, uncertainty estimation, and dependency modeling. However, robust reasoning under unreliable concept states remains underexplored. Without such reasoning, misleading semantic evidence can propagate through the bottleneck, compromising both explanations and downstream predictions. To address this issue, we propose ReCBM, an uncertainty-gated relational reasoning framework for CBMs. ReCBM introduces semantically defined concept relations into the bottleneck and uses uncertainty to guide their refinement. By modeling co-occurrence, implication, and exclusion, ReCBM specifies how evidence is exchanged across concepts, while uncertainty modulates the contribution of each concept during this process. Experiments across diverse datasets showed that ReCBM improved concept and task recovery under missing and flipped concepts, supported uncertainty-aware intervention, and extracted compact task-relevant concept subsets without degrading downstream performance.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 82.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.10153",
+      "title": "The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI",
+      "link": "https://arxiv.org/abs/2608.10153",
+      "summary": "arXiv:2608.10153v1 Announce Type: new Abstract: Enterprises are deploying autonomous AI agents faster than they can govern them, and prevailing approaches stretch a single discipline, typically DevSecOps built for deterministic automation, across every scale of agency. We argue that agentic AI governance is four problems, not one, each with a mature governing science. The CASE framework assigns Control theory to the individual agent (intent as setpoint, guardrails as feedback, evaluation as observation), complex Adaptive systems theory to agent collectives (where emergence makes single-agent assurance non-compositional), Supervisory cybernetics to human-agent teams (where the Law of Requisite Variety shows unaided human oversight fails structurally), and Engineering operations to fleets (extending error budgets to decision quality so autonomy becomes a controlled variable). We formalize each layer, derive cross-layer coupling conditions, including a zero-touch deployment paradox where excellence at one-layer strains the others, and trace twenty-plus enterprise controls to their classical constructs. Three empirical studies validate the thesis: 82 percent of documented production agent failures are multi-layer trajectories; none of 22 ecosystem tools offers full Layer 2 (emergence) coverage; and all 35 scored public deployments fall in the lowest maturity band. We name this mism",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 82.03,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
       "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
       "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
@@ -7174,6 +7186,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.10171",
+      "title": "Generating Attacks for LLMs with GFlowNets",
+      "link": "https://arxiv.org/abs/2608.10171",
+      "summary": "arXiv:2608.10171v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has facilitated their ubiquitous integration into various domains, leading to widespread adoption. However, this escalating trend has introduced significant security vulnerabilities, necessitating the identification and mitigation of flaws arising from malicious exploitation. Red teaming assessments, conducted to evaluate model robustness through diverse adversarial inputs, are essential for exposing security risks and implementing countermeasures. Currently, red teaming is performed either manually by experts or automatically using predefined attack datasets. Nevertheless, manual testing remains time-consuming, while existing automated methods suffer from limited creativity due to their inherent dependency on fixed datasets. In this study, we propose an automated, human-independent, and adaptive approach leveraging GFlowNets to identify LLM vulnerabilities by utilizing one large language model to test another. Within this framework, an attacker model is trained against a specified victim model to perform automated red teaming and provide a quantitative robustness score. This research aims to generate more effective adversarial attacks in English compared to existing benchmarks and, as a novel contribution to the literature, introduces a model capable of generating attack input",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "score": 76.03,
+      "status": "queued"
+    },
+    {
       "id": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "title": "Third-party cyber evaluations involving OpenAI models",
       "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
@@ -7183,18 +7207,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "score": 72.73,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
-      "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
-      "link": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
-      "summary": "Gemini Robotics 2 includes three models, but only one is publicly available right now.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-30T17:58:02.000Z",
-      "score": 72.42,
       "status": "queued"
     },
     {
@@ -7692,70 +7704,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-07-14T09:45:54.247Z",
       "failureReason": "validation issues: FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
-      "title": "Chinese AI models are gaining ground with U.S. companies",
-      "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
-      "summary": "Article URL: https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html Comments URL: https://news.ycombinator.com/item?id=48890204 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-13T09:51:38.000Z",
-      "score": 198,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-13T10:49:18.860Z",
-      "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis). | FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use sh…"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "title": "OpenAI rolls out GPT-5.6 after government green light — and announces ‘ChatGPT Work’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's green light for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To celebrate, OpenAI also unveiled a new AI agent on the same day: ChatGPT Work. It'…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-07-09T17:00:00.000Z",
-      "score": 180,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-13T10:49:18.860Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Se…"
-    },
-    {
-      "id": "https://medium.com/@iamalizaidi110/https-www-youtube-com-watch-v-gdtyotlrndm-a00eb6f014ca",
-      "title": "AI coding agents read your code perfectly and understand your team not at all",
-      "link": "https://medium.com/@iamalizaidi110/https-www-youtube-com-watch-v-gdtyotlrndm-a00eb6f014ca",
-      "summary": "Article URL: https://medium.com/@iamalizaidi110/https-www-youtube-com-watch-v-gdtyotlrndm-a00eb6f014ca Comments URL: https://news.ycombinator.com/item?id=48872770 Points: 7 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-11T15:15:47.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-13T10:49:18.860Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://runewardd.github.io/runeward/",
-      "title": "Show HN: Runeward: Sandboxing AI agents with policy gates",
-      "link": "https://runewardd.github.io/runeward/",
-      "summary": "Article URL: https://runewardd.github.io/runeward/ Comments URL: https://news.ycombinator.com/item?id=48879713 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-12T09:35:29.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-13T10:49:18.860Z",
-      "failureReason": "validation issues: FR: Section \"Exemple concret: a quoi cela ressemble en pratique\" should include a concrete example or short scenario (not only abstract analysis). | FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" should be a plain-lan…"
     }
   ]
 }
