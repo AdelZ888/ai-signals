@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-08-13T16:04:12.100Z",
+  "generatedAt": "2026-08-14T16:03:26.611Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-14-mitigating-zooms-annotation-vulnerability-found-with-fewer-than-20-ai-prompts",
+      "title": "Atténuer la vulnérabilité d'annotation de Zoom révélée avec moins de 20 prompts d'IA",
+      "date": "2026-08-14",
+      "excerpt": "Zoom a corrigé un défaut d'annotation que des chercheurs auraient exploité en moins de 20 prompts d'IA. Checklist 0–3h : appliquer le patch, restreindre les annotateurs, activer les logs d'erreur de parsing et isoler le parseur.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-14-mitigating-zooms-annotation-vulnerability-found-with-fewer-than-20-ai-prompts.jpg",
+      "tags": [
+        "sécurité",
+        "IA",
+        "Zoom",
+        "hardening",
+        "annotations",
+        "devops"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-08-13-amazon-trains-generative-ai-on-public-twitch-streams-and-clips-prompting-creator-concerns",
       "title": "Amazon a entraîné des modèles génératifs sur des streams et clips Twitch publics, suscitant l'inquiétude des créateurs",

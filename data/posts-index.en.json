@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-13T16:04:12.097Z",
+  "generatedAt": "2026-08-14T16:03:26.608Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-14-mitigating-zooms-annotation-vulnerability-found-with-fewer-than-20-ai-prompts",
+      "title": "Mitigating Zoom's annotation vulnerability found with fewer than 20 AI prompts",
+      "date": "2026-08-14",
+      "excerpt": "Zoom patched an annotation flaw researchers built with under 20 AI prompts. A 0–3 hour checklist: patch, restrict annotators, enable parsing-error logs and sandbox the parser.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-14-mitigating-zooms-annotation-vulnerability-found-with-fewer-than-20-ai-prompts.jpg",
+      "tags": [
+        "security",
+        "vulnerability",
+        "video-conferencing",
+        "ai-red-team",
+        "incident-response",
+        "hardening",
+        "monitoring"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-13-amazon-trains-generative-ai-on-public-twitch-streams-and-clips-prompting-creator-concerns",
       "title": "Amazon trains generative AI on public Twitch streams and clips, prompting creator concerns",
