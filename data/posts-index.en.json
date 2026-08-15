@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-14T16:03:26.608Z",
+  "generatedAt": "2026-08-15T15:24:18.387Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-15-integrating-squid-agent-wallet-sdk-to-let-ai-agents-manage-signing-keys",
+      "title": "Integrating Squid-Agent-Wallet-SDK to Let AI Agents Manage Signing Keys",
+      "date": "2026-08-15",
+      "excerpt": "Short, practical guide to using the open-source Squid-Agent-Wallet-SDK so an AI agent can hold signing keys and produce verifiable signatures—steps, pitfalls, and a POC checklist.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-15-integrating-squid-agent-wallet-sdk-to-let-ai-agents-manage-signing-keys.jpg",
+      "tags": [
+        "wallet-sdk",
+        "AI-agents",
+        "squid-pay",
+        "open-source",
+        "integration",
+        "developer-guide",
+        "security"
+      ],
+      "sources": [
+        "https://github.com/Squid-Pay/Squid-Agent-Wallet-SDK"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
+    },
     {
       "slug": "2026-08-14-mitigating-zooms-annotation-vulnerability-found-with-fewer-than-20-ai-prompts",
       "title": "Mitigating Zoom's annotation vulnerability found with fewer than 20 AI prompts",

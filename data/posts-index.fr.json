@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-14T16:03:26.611Z",
+  "generatedAt": "2026-08-15T15:24:18.390Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-15-integrating-squid-agent-wallet-sdk-to-let-ai-agents-manage-signing-keys",
+      "title": "Intégration de Squid-Agent-Wallet-SDK pour permettre à des agents IA de gérer des clés de signature",
+      "date": "2026-08-15",
+      "excerpt": "Guide pratique et concis pour utiliser le SDK open-source Squid-Agent-Wallet-SDK afin qu’un agent IA détienne une clé de signature et produise des signatures vérifiables — étapes, pièges et checklist POC.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-15-integrating-squid-agent-wallet-sdk-to-let-ai-agents-manage-signing-keys.jpg",
+      "tags": [
+        "squid-pay",
+        "wallet-sdk",
+        "agent-ia",
+        "signatures",
+        "sécurité",
+        "KMS",
+        "UK"
+      ],
+      "sources": [
+        "https://github.com/Squid-Pay/Squid-Agent-Wallet-SDK"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-14-mitigating-zooms-annotation-vulnerability-found-with-fewer-than-20-ai-prompts",
       "title": "Atténuer la vulnérabilité d'annotation de Zoom révélée avec moins de 20 prompts d'IA",
