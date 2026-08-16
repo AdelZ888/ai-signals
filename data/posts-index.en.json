@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-08-15T15:24:18.387Z",
+  "generatedAt": "2026-08-16T08:32:59.515Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-16-podman-bubblewrap-and-firejail-matching-sandbox-tools-to-ai-coding-agent-workloads",
+      "title": "Podman, bubblewrap and Firejail: matching sandbox tools to AI coding agent workloads",
+      "date": "2026-08-16",
+      "excerpt": "Compare Podman, bubblewrap (bwrap) and Firejail for AI coding agents: trade-offs in startup latency, isolation model, and when per-command sandboxes beat Docker.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-16-podman-bubblewrap-and-firejail-matching-sandbox-tools-to-ai-coding-agent-workloads.jpg",
+      "tags": [
+        "containers",
+        "sandboxing",
+        "security",
+        "podman",
+        "bubblewrap",
+        "bwrap",
+        "firejail",
+        "ai-agents"
+      ],
+      "sources": [
+        "https://grigio.org/docker-alternatives-for-ai-agents-podman-bwrap-and-firejail/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-08-15-integrating-squid-agent-wallet-sdk-to-let-ai-agents-manage-signing-keys",
       "title": "Integrating Squid-Agent-Wallet-SDK to Let AI Agents Manage Signing Keys",
