@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-16T08:32:59.528Z",
+  "generatedAt": "2026-08-16T15:37:38.741Z",
   "items": [
+    {
+      "id": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "title": "Evolve your marketing with new AI tools",
+      "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+      "source": "Google AI Blog",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-10T14:30:00.000Z",
+      "score": 111.22,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-16T15:37:38.666Z",
+      "file": "content/posts/2026-08-16-using-ai-summaries-prompt-driven-reports-and-benchmarks-in-google-ads-and-analytics.md",
+      "fileFr": "content/posts/fr/2026-08-16-using-ai-summaries-prompt-driven-reports-and-benchmarks-in-google-ads-and-analytics.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 75,
+      "wordsEn": 1546,
+      "wordsFr": 1140
+    },
     {
       "id": "https://grigio.org/docker-alternatives-for-ai-agents-podman-bwrap-and-firejail/",
       "title": "Docker alternatives for AI agents: Podman, bwrap and Firejail",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1201
     },
     {
-      "id": "https://github.com/Prismer-AI/PrismerCloud",
-      "title": "Show HN: AI agents that learn from each other's mistakes",
-      "link": "https://github.com/Prismer-AI/PrismerCloud",
-      "summary": "Article URL: https://github.com/Prismer-AI/PrismerCloud Comments URL: https://news.ycombinator.com/item?id=47672287 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-07T08:37:01.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-12T15:52:20.334Z",
-      "file": "content/posts/2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors.md",
-      "fileFr": "content/posts/fr/2026-04-12-building-a-two-agent-feedback-loop-with-prismercloud-to-reduce-repeated-model-errors.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 180,
-      "wordsEn": 1617,
-      "wordsFr": 1468
-    },
-    {
       "id": "https://old.reddit.com/r/rails/comments/1v91qv2/at_aiheavy_companies_the_engineers_left_are/",
       "title": "At AI-Heavy Ruby on Rails Companies, Is QA-Ing and Debugging Agents the Future?",
       "link": "https://old.reddit.com/r/rails/comments/1v91qv2/at_aiheavy_companies_the_engineers_left_are/",
@@ -5242,6 +5242,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=49320686",
+      "title": "Is msnbot being used to train AI models?",
+      "link": "https://news.ycombinator.com/item?id=49320686",
+      "summary": "(Summary: msnbot seems to be downloading my website for training an AI model) The msnbot was retired a decade ago for indexing the web, replaced by bingbot. You can tell bingbot not to train AI models by setting a meta tag eg . A month ago I started using this tag for bingbot. After this the defunct msnbot starting hitting my website HARD. I've verified the source IP addresses, and they are genuine. The pattern of pages being indexed is clearly for AI. Search engines and AI indexers slurp my content in different ways. msnbot appears to be taking the data in a way that AI indexers do. I can't find any information about this, or any reason why msnbot has been reactivated in 2026. I'm hoping some people can help! Comments URL: https://news.ycombinator.com/item?id=49320686 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-16T14:54:53.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
       "title": "Does Google even want to win at AI?",
       "link": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
@@ -5322,30 +5334,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-07-27T16:50:33.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://kblip.com/releases",
-      "title": "Show HN: KBlip – turns AI/LLM news across 100 sources into daily digest threads",
-      "link": "https://kblip.com/releases",
-      "summary": "Hi HN, maker here. KBlip watches Reddit, HN, arXiv, GitHub, YouTube, and ~100 RSS/blog feeds for anything AI-related, clusters same-story coverage into a single \"thread\" (every source linked as evidence), and sorts it into 5 feeds: Releases, News, Social, Developments (research + hardware), Products/Ideas, and Trending. My daily routine to catch-up on the current happenings related to AI/LLM takes a big chunk of my time and I had to do multiple hops between different products and even worse sometimes I find myself lost in a rabbit hole in any of those products. Wanted to have better visibility and have everything aggregated in one place that takes less time and effort just to catch-up which also cuts off the noise/redundancy. A few things to highlight: a daily digest per section (one-sentence TL;DR), an audio \"brief me\" mode if you'd rather listen than read, and it installs as a PWA. Solo project, self-hosted on a VPS, DeepSeek + Voyage for the LLM/embedding side. No accounts, no ads, no tracking. Comments URL: https://news.ycombinator.com/item?id=49072174 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-27T16:41:10.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.15497",
-      "title": "Towards End-to-End Automation of AI Research [pdf]",
-      "link": "https://arxiv.org/abs/2606.15497",
-      "summary": "Article URL: https://arxiv.org/abs/2606.15497 Comments URL: https://news.ycombinator.com/item?id=49111777 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-30T15:54:17.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5442,6 +5430,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-08-13T15:55:33.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=z-qksilmGiQ",
+      "title": "IntelliconOps – AI-assisted infrastructure automation with human approval gates [video]",
+      "link": "https://www.youtube.com/watch?v=z-qksilmGiQ",
+      "summary": "Article URL: https://www.youtube.com/watch?v=z-qksilmGiQ Comments URL: https://news.ycombinator.com/item?id=49320552 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-16T14:40:26.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5598,6 +5598,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-08-15T14:48:39.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "title": "The AI Credit Resale Economy",
+      "link": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "summary": "Article URL: https://vectoral.com/blog/who-are-the-token-brokers Comments URL: https://news.ycombinator.com/item?id=49320611 Points: 21 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-16T14:44:55.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -5830,6 +5842,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.nature.com/articles/d41586-026-02503-7",
+      "title": "Can Anthropic's invisible watermarks curb AI slop? Researchers remain sceptical",
+      "link": "https://www.nature.com/articles/d41586-026-02503-7",
+      "summary": "Article URL: https://www.nature.com/articles/d41586-026-02503-7 Comments URL: https://news.ycombinator.com/item?id=49320124 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-16T13:56:21.000Z",
+      "score": 121.79,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.07532",
       "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
       "link": "https://arxiv.org/abs/2608.07532",
@@ -5887,6 +5911,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-06T04:00:00.000Z",
       "score": 120.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://twitter.com/DarioAmodei/status/2088758819304443967",
+      "title": "CEO of Anthropic on the messaging around AI",
+      "link": "https://twitter.com/DarioAmodei/status/2088758819304443967",
+      "summary": "Article URL: https://twitter.com/DarioAmodei/status/2088758819304443967 Comments URL: https://news.ycombinator.com/item?id=49320106 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-16T13:54:50.000Z",
+      "score": 120.27,
       "status": "queued"
     },
     {
@@ -6130,18 +6166,6 @@
       "status": "queued"
     },
     {
-      "id": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "title": "Evolve your marketing with new AI tools",
-      "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
-      "source": "Google AI Blog",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-10T14:30:00.000Z",
-      "score": 111.22,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.07480",
       "title": "Emotion in an active inference model of human driving",
       "link": "https://arxiv.org/abs/2608.07480",
@@ -6334,6 +6358,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/vandith1/agent-guard",
+      "title": "Show HN: A pre-execution guard that stops AI agents running destructive commands",
+      "link": "https://github.com/vandith1/agent-guard",
+      "summary": "Article URL: https://github.com/vandith1/agent-guard Comments URL: https://news.ycombinator.com/item?id=49319603 Points: 3 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-16T12:53:51.000Z",
+      "score": 103.17,
+      "status": "queued"
+    },
+    {
       "id": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
       "title": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
       "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
@@ -6415,6 +6451,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "score": 102.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "title": "Rogue AI aren’t science fiction anymore",
+      "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents went rogue during a cybersecurity test. The agent escaped its isolated testing environment, accessed the internet, and hacked another company, Hugging Face. A few years ago, that might have sounded like science fiction. But, broadly speaking, that's exactly what happened, and the incident kicked off a wave of concern over what increa … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-16T12:00:00.000Z",
+      "score": 101.96,
       "status": "queued"
     },
     {
@@ -7138,64 +7186,36 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-      "title": "Claude will apply invisible watermarks to AI text and images",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-      "summary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page. The changes are invisible to human eyes, but will make it easier for people and online platforms to detect if content was generated by Claude models. These updates are a future commitment rather than something that will go into effect immediately. New AI labeling and transparency obligations under the … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-11T12:22:20.000Z",
-      "score": 87.08,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-      "title": "Grok is now an AI ‘teammate’ you can assign work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-      "summary": "You’ll have to be fine with letting Grok sign into your online accounts, however. | Image: SpaceXAI SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace tasks, only coming back when their assigned work is completed or if something requires approval. Grok Bot (or Bots, as SpaceXAI inconsistently pluralizes it) is the latest push from Elon Musk's AI company to keep up with business services launched by rival AI providers, including OpenAI's ChatGPT Work, Anthropic's Claude Cowork, and Microsoft's Cop … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-12T11:58:54.000Z",
-      "score": 84.12,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.11226",
-      "title": "Cutting AI Datacenter Energy with Reinforcement Learning: Measured Power Control of LLM Training from One GPU to the Fleet",
-      "link": "https://arxiv.org/abs/2608.11226",
-      "summary": "arXiv:2608.11226v1 Announce Type: new Abstract: Reinforcement-learning post-training dominates modern language-model development, yet its power behavior on GPU hardware has not been characterized, and datacenters manage GPU power with workload-blind mechanisms, static caps and reactive throttling, that slow hardware indiscriminately. We instrument GRPO training with half-second power telemetry at 7B, 14B, and 72B scales on one to four A100s (380,000+ samples), and train a PPO meta-controller that adapts the workload's own generation parameters to measured power. Against the full 500-step 7B trace, the controller cuts power-limit violations by 89.8% while increasing token output by 18.1% and energy efficiency by 26.2% (tokens per MWh). Deployed live at 72B, the same controller family yields replicated null results, diagnosed as the group-size actuator losing authority under model sharding. An actuator-authority sweep shows the same parameters applied as generation concurrency retain 17-22% power authority, isolating an occupancy-versus-volume principle; a controller rebuilt on that actuator controls a live 72B rollout-generation workload across three replications: 35.7% more output than a static safe baseline at 2.27 +/- 1.08% budget violations, 87.2% fewer violations than uncontrolled operation, and the best mean throughput and energy per token among constrained controllers, wi",
-      "source": "ArXiv cs.AI",
+      "id": "https://kblip.com/releases",
+      "title": "Show HN: KBlip – turns AI/LLM news across 100 sources into daily digest threads",
+      "link": "https://kblip.com/releases",
+      "summary": "Hi HN, maker here. KBlip watches Reddit, HN, arXiv, GitHub, YouTube, and ~100 RSS/blog feeds for anything AI-related, clusters same-story coverage into a single \"thread\" (every source linked as evidence), and sorts it into 5 feeds: Releases, News, Social, Developments (research + hardware), Products/Ideas, and Trending. My daily routine to catch-up on the current happenings related to AI/LLM takes a big chunk of my…",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "score": 83.84,
-      "status": "queued"
+      "keywordHits": 2,
+      "publishedAt": "2026-07-27T16:41:10.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-16T15:20:17.949Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
-      "id": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-      "summary": "If you squint you can just about make out the hat. | Screenshot: Terrence O’Brien / The Verge Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as text or image, and then whoever is roleplaying as the AI gets 150 seconds to respond. Just like a real LLM, Your AI Slop Bores Me works on a sort of token system. Requests cost credits, and to earn credits you have to jump onto the AI side and answer some of your own. You can also just wait as you get one free request every two minutes. But, as fun as it is to drop … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-15T20:45:00.000Z",
-      "score": 82.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.12385",
-      "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
-      "link": "https://arxiv.org/abs/2608.12385",
-      "summary": "arXiv:2608.12385v1 Announce Type: new Abstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently: prompt prefill is parallel and typically compute-bound, whereas autoregressive decode is sequential and often memory-bandwidth-bound. Conventional width or depth scaling increases both costs together because every added layer is evaluated in both phases. We ask whether additional learned computation can instead be allocated to continuation prediction while preserving the prompt-wide primary computation and a single persistent key-value (KV) cache. We introduce the Dual-Flow Transformer. Its primary flow is a complete causal language model that processes the prompt and writes the KV cache. The auxiliary flow is omitted during prompt processing and activated only from the final prompt position onward, adding continuation-prediction computation without writing persistent state or influencing the primary flow. The two flows share major attention, MLP, and output matrices, while using separate token embeddings and lightweight coupling. Sharing weights and the primary cache also creates opportunities to reuse loaded weights and cached keys and values during grouped execution. Across matched-token comparisons, Dual-Flow achieves lower validatio",
-      "source": "ArXiv cs.AI",
+      "id": "https://arxiv.org/abs/2606.15497",
+      "title": "Towards End-to-End Automation of AI Research [pdf]",
+      "link": "https://arxiv.org/abs/2606.15497",
+      "summary": "Article URL: https://arxiv.org/abs/2606.15497 Comments URL: https://news.ycombinator.com/item?id=49111777 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "score": 82.13,
-      "status": "queued"
+      "keywordHits": 2,
+      "publishedAt": "2026-07-30T15:54:17.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-16T15:20:17.949Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     },
     {
       "id": "https://viborc.com/can-faster-ai-inference-give-developers-their-flow-back/",
