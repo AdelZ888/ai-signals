@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-17T08:39:48.670Z",
+  "generatedAt": "2026-08-17T15:29:01.634Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-17-agent-sandbox-kubernetes-crd-and-controller-to-run-isolated-stateful-ai-agents",
+      "title": "agent-sandbox : CRD et contrôleur Kubernetes pour exécuter des agents IA isolés et stateful",
+      "date": "2026-08-17",
+      "excerpt": "Guide pratique pour agent-sandbox : une CRD et un contrôleur Kubernetes permettant d’exécuter des agents singleton, stateful, avec stockage persistant (PVC). Comprend installation, exemples et conseils de mise en production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-17-agent-sandbox-kubernetes-crd-and-controller-to-run-isolated-stateful-ai-agents.jpg",
+      "tags": [
+        "kubernetes",
+        "agent-sandbox",
+        "ia",
+        "devops",
+        "stateful",
+        "petite-équipes",
+        "uk"
+      ],
+      "sources": [
+        "https://github.com/kubernetes-sigs/agent-sandbox"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-17-what-google-deepminds-leadership-shake-up-means-for-ai-product-teams",
       "title": "Ce que signifie le remaniement de la direction de Google DeepMind pour les équipes produit",

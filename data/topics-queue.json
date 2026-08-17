@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-17T08:39:48.681Z",
+  "generatedAt": "2026-08-17T15:29:01.704Z",
   "items": [
+    {
+      "id": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "title": "Agent Sandbox: A Kubernetes CRD and controller for AI agent runtimes",
+      "link": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "summary": "Article URL: https://github.com/kubernetes-sigs/agent-sandbox Comments URL: https://news.ycombinator.com/item?id=49125061 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-07-31T16:16:53.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-17T15:29:01.613Z",
+      "file": "content/posts/2026-08-17-agent-sandbox-kubernetes-crd-and-controller-to-run-isolated-stateful-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-08-17-agent-sandbox-kubernetes-crd-and-controller-to-run-isolated-stateful-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1587,
+      "wordsFr": 1372
+    },
     {
       "id": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
       "title": "Does Google even want to win at AI?",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1259
     },
     {
-      "id": "https://takt.chat/",
-      "title": "Show HN: I built an AI that forgets things when people leave the room",
-      "link": "https://takt.chat/",
-      "summary": "My girlfriend and I had a fight. We both hopped on our shared Claude account to vent, without telling each other. Eventually, she noticed that chat, joined it, and started grilling me. I got bizarre responses from Claude telling me to calm down. After realizing the chat had been renamed \"Why Michael is an inconsiderate asshole\", I refreshed, realized Claude wasn't built with multi-session websockets in mind, and tol…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-07T15:56:16.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-13T16:19:10.192Z",
-      "file": "content/posts/2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks.md",
-      "fileFr": "content/posts/fr/2026-04-13-group-chat-ai-with-witness-based-memory-to-reduce-accidental-privacy-leaks.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1575,
-      "wordsFr": 1795
-    },
-    {
       "id": "https://zozo123.github.io/wasted-cycles/",
       "title": "Show HN: Wasted Cycles – Local wall-clock profiler for AI coding agents",
       "link": "https://zozo123.github.io/wasted-cycles/",
@@ -5298,18 +5298,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-07-27T16:50:33.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/kubernetes-sigs/agent-sandbox",
-      "title": "Agent Sandbox: A Kubernetes CRD and controller for AI agent runtimes",
-      "link": "https://github.com/kubernetes-sigs/agent-sandbox",
-      "summary": "Article URL: https://github.com/kubernetes-sigs/agent-sandbox Comments URL: https://news.ycombinator.com/item?id=49125061 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-07-31T16:16:53.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -7183,6 +7171,42 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-08T05:00:26.000Z",
       "score": 88.78,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "summary": "If you squint, you can just about make out the hat. | Screenshot: Terrence O’Brien / The Verge Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side, you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as text or image, and then whoever is roleplaying as the AI gets 150 seconds to respond. Just like a real LLM, Your AI Slop Bores Me works on a sort of token system. Requests cost credits, and to earn credits, you have to jump onto the AI side and answer some of your own. You can also just wait as you get one free request every two minutes. But, as fun as it is to dr … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-15T20:45:00.000Z",
+      "score": 74.81,
+      "status": "queued"
+    },
+    {
+      "id": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-13T17:16:04.000Z",
+      "score": 73.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+      "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
+      "link": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+      "summary": "Gemini Robotics 2 includes three models, but only one is publicly available right now.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-07-30T17:58:02.000Z",
+      "score": 72.28,
       "status": "queued"
     },
     {
