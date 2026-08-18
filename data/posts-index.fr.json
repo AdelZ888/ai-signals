@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-17T15:29:01.634Z",
+  "generatedAt": "2026-08-18T15:39:20.303Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-18-tracelint-deterministic-linter-for-agent-execution-traces",
+      "title": "Tracelint : linter déterministe pour traces d'exécution d'agents",
+      "date": "2026-08-18",
+      "excerpt": "Utilisez Tracelint pour analyser statiquement des traces d'exécution d'agents sauvegardées et produire des preuves reproductibles d'erreurs ignorées, de violations de schéma et de boucles — plus des conseils de déploiement en CI.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-18-tracelint-deterministic-linter-for-agent-execution-traces.jpg",
+      "tags": [
+        "tracelint",
+        "lint",
+        "agents",
+        "CI",
+        "observabilité",
+        "opensource",
+        "tests"
+      ],
+      "sources": [
+        "https://github.com/AshwinUgale/tracelint"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-17-agent-sandbox-kubernetes-crd-and-controller-to-run-isolated-stateful-ai-agents",
       "title": "agent-sandbox : CRD et contrôleur Kubernetes pour exécuter des agents IA isolés et stateful",
