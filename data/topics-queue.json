@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-18T15:39:20.367Z",
+  "generatedAt": "2026-08-19T08:36:39.073Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-13T17:16:04.000Z",
+      "score": 72.89,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-08-19T08:36:39.043Z",
+      "file": "content/posts/2026-08-19-streaming-robot-data-loop-using-strands-agents-lerobot-and-hugging-face-storage-buckets.md",
+      "fileFr": "content/posts/fr/2026-08-19-streaming-robot-data-loop-using-strands-agents-lerobot-and-hugging-face-storage-buckets.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1168,
+      "wordsFr": 1254
+    },
     {
       "id": "https://github.com/AshwinUgale/tracelint",
       "title": "Show HN: Tracelint – a linter for AI agent traces, no LLM judge",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1224
     },
     {
-      "id": "https://agentcall.co",
-      "title": "I built an API for AI agents that handles phone numbers, SMS, OTP and voice",
-      "link": "https://agentcall.co",
-      "summary": "Article URL: https://agentcall.co Comments URL: https://news.ycombinator.com/item?id=47753589 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-13T15:38:05.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-14T16:16:24.846Z",
-      "file": "content/posts/2026-04-14-provision-real-sim-numbers-smsotp-webhooks-and-ai-voice-calls-for-ai-agents.md",
-      "fileFr": "content/posts/fr/2026-04-14-provision-real-sim-numbers-smsotp-webhooks-and-ai-voice-calls-for-ai-agents.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1722,
-      "wordsFr": 1458
-    },
-    {
       "id": "https://zozo123.github.io/wasted-cycles/",
       "title": "Show HN: Wasted Cycles – Local wall-clock profiler for AI coding agents",
       "link": "https://zozo123.github.io/wasted-cycles/",
@@ -5263,18 +5263,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-31T15:39:35.000Z",
       "score": 164.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49086282",
-      "title": "Free AI visibility scanner for your website",
-      "link": "https://news.ycombinator.com/item?id=49086282",
-      "summary": "Traditional SEO tools tell you how you rank on Google. RankLLM tells you something different: whether AI assistants — ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews — can actually read, trust and recommend your website. https://rankllm.app/ Comments URL: https://news.ycombinator.com/item?id=49086282 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-28T16:24:03.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -5494,18 +5482,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
-      "title": "Four takeaways from Mark Zuckerberg&#8217;s massive AI manifesto",
-      "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
-      "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-10T15:19:05.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://ref.tools/blog/ai-broke-alignment",
       "title": "AI Broke Code Review and It's Breaking Your Team",
       "link": "https://ref.tools/blog/ai-broke-alignment",
@@ -5662,6 +5638,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.16890",
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "link": "https://arxiv.org/abs/2608.16890",
+      "summary": "arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables, 254 correct records) across three independent runs, compared to 59.2% for the best retrieval-augmented baseline and 0% for all single-agent and flat multi-agent approaches. The DAG topology also enables weaker models: GPT-4.1 achieves 59.2% mean structural match under the same DAG, where it scores 0% under every other architecture. The approach generalizes to ADAE (adverse events; 9-node branching DAG, 55 variables, 1,191 records), achieving 100% structural match on the first attempt. These re",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 141.31,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/legal/litigation/chinese-startup-moonshots-ai-model-breaks-out-testing-environment-researchers-2026-08-07/",
       "title": "Moonshot's AI model Kimi k3 breaks out of testing environment, researchers say",
       "link": "https://www.reuters.com/legal/litigation/chinese-startup-moonshots-ai-model-breaks-out-testing-environment-researchers-2026-08-07/",
@@ -5755,6 +5743,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-15T13:43:46.000Z",
       "score": 129.61,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.17067",
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "link": "https://arxiv.org/abs/2608.17067",
+      "summary": "arXiv:2608.17067v1 Announce Type: new Abstract: As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as violence and nudity, further exacerbated by red-teaming adversarial attacks. Existing defenses predominantly operate under white-box assumptions, relying on text encoder optimization, weight editing, or inference-time intervention, and fundamentally cannot scale to proprietary models. Black-box alternatives based on LLM prompt rewriting offer broader applicability, yet fail in a critical regime we identify as the \\textit{benign adversarial} problem: prompts that are linguistically safe but still trigger harmful generation due to the model's learned data distribution. We propose DiSCO, a zero-shot, strictly black-box defense that operates entirely at the prompt level as a plug-and-play module, requiring no model retraining, fine-tuning, or access to model internals. DiSCO performs distribution-guided suffix expansion via beam search, optimized through contrastive scoring over safe and unsafe image pools generated by the target model itself, with iterative adaptive feedback until safe content is produced. We demonstrate that DiSCO consistently enhances the safety of both undefended and defended models on the I2P benchmark under multiple red-teaming attacks, achieving 37.7% and 25.13",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 129.31,
       "status": "queued"
     },
     {
@@ -5974,6 +5974,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.17183",
+      "title": "Benchmarking the Benchmarks: Evaluating Automated Safety Benchmarks for Small Language Models",
+      "link": "https://arxiv.org/abs/2608.17183",
+      "summary": "arXiv:2608.17183v1 Announce Type: new Abstract: Small Language Models (SLMs) are increasingly deployed in resource-constrained, privacy-sensitive settings, where safety and bias failures can cause security and societal risks. However, existing AI safety\\slash security\\slash compliance benchmarks are designed for large language models that may not transfer reliably to SLMs. We therefore ask: Can these benchmarks effectively and reliably evaluate SLMs? To answer this question, we conduct a large-scale assessment of the effectiveness and robustness of these automated pipelines by evaluating five widely used benchmark suites across 26 open-source SLMs under a unified judging rubric, which assigns a score of 0, 1, or 0.5 to harmful, safe, or ambiguous/irrelevant responses, respectively. Across the benchmarks, ambiguous judgments dominate and correlate with prompt complexity and model architecture, indicating that {\\em LLM-centric safety benchmarks are insufficient as standalone evidence for SLM safety assessment}. In general, the ambiguity rate increases with lexical density, output perplexity, and output length and decreases with lexical sophistication, self-coherence, and reply-prompt similarity. This reveals a capability-safety confound that mixes model capability with apparent safety. Since ambiguity is prevalent, aggregate mean-score leaderboards are mathematically brittle: mod",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 117.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.17202",
+      "title": "Fool's Gold: Defensive Deception Against Safety-Removal Attacks on Open-Weight Models",
+      "link": "https://arxiv.org/abs/2608.17202",
+      "summary": "arXiv:2608.17202v1 Announce Type: new Abstract: Safety alignment in open-weight language models is trivially removable: abliteration projects a refusal-mediating direction out of the weights in minutes, and no release-time defense we are aware of prevents it durably. What cannot be prevented can be deceived. Our defense, decoy hardening (\"Fool's Gold\"), concedes the refusal strip and poisons its payoff: once refusal is stripped, most answers to hazardous operational requests are confident, fluent decoys whose critical elements are falsified. Decoys are trained inside a differentiable simulation of the attack, expressing only in the attacked state; a refusal pin and benign leash hold clean-state behavior to the original. We instantiate it on seven models from five families (9B-122B, dense and mixture-of-experts). On the six models passing our pre-registered efficacy gate, 0.51-0.90 of attacked-state responses to held-out prompts are decoys, +0.27-0.84 attributable to the defense; all six stay within registered benign-behavior and capability budgets; the seventh (smaller) fails the gate (boundary case). Rates replicate on a frozen test split or untouched strata. The claim is epistemic: without independent ground truth, no observation surface we tested separates falsified answers from correct ones - on external red-team benchmarks' CBRNE-adjacent slice, the defended 122B is fatall",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 117.31,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.13574",
       "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
       "link": "https://arxiv.org/abs/2608.13574",
@@ -6055,18 +6079,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-06T04:00:00.000Z",
       "score": 114.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24779",
-      "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising",
-      "link": "https://arxiv.org/abs/2607.24779",
-      "summary": "arXiv:2607.24779v1 Announce Type: new Abstract: Online advertising bidding systems typically deploy multiple offline-trained expert models (e.g., PID controllers, model predictive control, offline RL policies) but face two critical limitations: lack of online adaptability to non-stationary auction markets, and reliance on costly manual tuning of hyperparameters such as bid bounds and budget pacing constraints. We propose HOBA (Hierarchical On-policy Bidding Agents), a hierarchical reinforcement learning framework that decouples strategic reasoning, model selection, and bid execution across three time scales. At the high level, a large language model infers hyperparameters from contextual signals through a Think-Act-Observe-Reflect loop with historical experience retrieval. At the mid level, a SARSA agent dynamically selects among expert models, incorporating causal adjustment to eliminate selection bias. At the low level, a dynamic expert pool (PID, MPC, IQL, Decision Transformer) executes bids under high-level constraints. This design confines online learning to discrete expert selection rather than continuous bid optimization, significantly reducing exploration risk while maintaining adaptability. Experiments on the AuctionNet benchmark and a large-scale A/B test demonstrate consistent improvements over state-of-the-art baselines. In a large-scale online deployment, HOBA deli",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 114.49,
       "status": "queued"
     },
     {
@@ -6154,6 +6166,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.16956",
+      "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
+      "link": "https://arxiv.org/abs/2608.16956",
+      "summary": "arXiv:2608.16956v1 Announce Type: new Abstract: API buyers purchase a dated contract, not a model name alone: the contract includes the requested and served model, reasoning-effort term or its omission, output rail, service product, prompt, and price schedule. We study the reasoning-effort term through a registered paired contrast of Sonnet 5 with explicit high effort against the same model with effort omitted, using 30 AIME 2026 items and five calls per item. Every paid attempt was assigned one frozen terminal category, and inference resampled items while retaining their repeated calls. Mean delivered cost was \\$0.01031 per call higher under the explicit-high contract than under the omitted contract [+\\$0.00204, +\\$0.01974]. The corresponding accuracy contrast was +0.0133 [-0.0267, +0.0467]; we did not detect an accuracy difference, and the interval permits a gain of up to 4.67 percentage points that this design cannot rule out. Cost per correct answer was \\$0.08665 under the high-effort contract and \\$0.07662 under the omitted contract, as registered point estimates. A dated contract census, Models-API metadata, and preregistered raw-response probes further documented model-specific omission semantics, including within a provider; claims remained at documentation grade when raw structure was indeterminate. The request registry, parser, terminal taxonomy, statistical plan, and",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 111.31,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.13606",
       "title": "MobileMem: Learning from a Year of Mobile Experiences",
       "link": "https://arxiv.org/abs/2608.13606",
@@ -6175,18 +6199,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "score": 109.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24758",
-      "title": "Do Models Fake Alignment Without Clear Consequences?",
-      "link": "https://arxiv.org/abs/2607.24758",
-      "summary": "arXiv:2607.24758v1 Announce Type: new Abstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a phenomenon known as alignment faking. The reasons why models fake alignment are not fully understood, however. Canonical examples of alignment faking have taken place in scenarios that explicitly connect evaluation to consequences for the model, such as retraining the model or delaying its deployment. However, recent work by Sheshadri et al. has suggested that mechanistic motivations for alignment faking may vary across models and be more complex than previously considered. To investigate whether consequence-linking information is necessary for alignment faking, we placed 15 models in a scenario testing their willingness to violate a corporate network access policy to help a user with a pro-social request. Nine models were found to produce significant compliance gaps, 5 of which persisted with the removal of scenario language relating model evaluations to deployment consequences. We additionally tested the effect of goal language on model preferences, finding it drove violations in some while suppressing violations in others. This suggests that alignment faking may not require as much instrumental scaffolding as was previously believed, and monitored behavior",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 108.49,
       "status": "queued"
     },
     {
@@ -6442,42 +6454,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.24762",
-      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-      "link": "https://arxiv.org/abs/2607.24762",
-      "summary": "arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is one of the most direct ways to reduce latency and cost, but it has traditionally required expert engineers to hand-write low-level GPU code. Agentic systems built on large language models (LLMs) can now generate and optimize kernels with far less human effort, yet existing tools are largely evaluated on randomly generated tensors and isolated kernels, emit standalone CUDA code that developers must manually reintegrate, mostly target only LLM PyTorch models, and offer limited support for inspecting and debugging results. We present Kernel Forge, an open-source, end-to-end agentic harness that accepts any unmodified PyTorch model in place. Kernel Forge supports vision, diffusion, and LLM workloads, uses Monte Carlo Tree Search (MCTS) to explore multiple optimization paths rather than a single linear refinement chain, and ships with a graphical user interface for monitoring progress, inspecting candidate kernels, and debugging failures. We evaluate Kernel Forge on four PyTorch models spanning vision, diffusion, and LLM workloads on an NVIDIA DGX Spark with GB10 GPU. With only 50 optimization iterations per",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 102.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24764",
-      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-      "link": "https://arxiv.org/abs/2607.24764",
-      "summary": "arXiv:2607.24764v1 Announce Type: new Abstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditional item-level methods face scalability and accuracy challenges, motivating category-level recommendation as a more structured and practical alternative. We present GROCLM, a fine-tuned language model for grocery category recommendation in a real-world production environment. GROCLM employs a two-stage LoRA-based training strategy to encode cyclical purchasing patterns directly into model parameters, enabling more effective utilization of rebuying signals compared to prompt-based conditioning. To ensure valid and controllable outputs, we further introduce a trie-based constrained decoding mechanism over a predefined category space. Experiments on both proprietary production data and a public benchmark demonstrate that GROCLM consistently outperforms strong baselines. In a live production restocking task, GROCLM achieves a 7.5% relative improvement in cart-adds per impression, while maintaining efficient inference by generating all categories jointly. These results highlight the effectiveness and practicality of integrating large language models into structured recommendation systems.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 102.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24766",
-      "title": "Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation",
-      "link": "https://arxiv.org/abs/2607.24766",
-      "summary": "arXiv:2607.24766v1 Announce Type: new Abstract: Large language models (LLMs) can generate individual charts, but coordinated multi-view visualizations (CMVs), where views share data flows and cross-view interactions, remain out of reach. Tight field-level coupling among data transformations, visual encodings, and interaction coordinations causes errors in one component to silently invalidate others. Rather than pursuing end-to-end analytical quality, which depends on model capability, domain knowledge, and user expertise, we target a foundational question: can LLMs reliably produce structurally correct CMVs, and what abstractions make this possible? We present Crystalis, a framework built on query-centric CMV modeling that decomposes a CMV into structured queries over a dependency graph spanning three component types (Data, Visualization, Interaction) and three abstraction levels (requirement, specification, executable object). Two complementary mechanisms operate over this structure: progressive nucleation crystallizes each query vertically from requirement to object along the dependency order, while semantic annealing enforces horizontal consistency across queries at each level through layered logical checks. On a 12-task benchmark across five frontier LLMs, Crystalis achieves up to 75% end-to-end success, substantially outperforming an agentic coding baseline (8.3% E2E with",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 102.49,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
       "title": "Rogue AI aren’t science fiction anymore",
       "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
@@ -6595,6 +6571,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "score": 100.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.17124",
+      "title": "A decodability criterion predicts when hidden-state selection beats majority voting in large language models",
+      "link": "https://arxiv.org/abs/2608.17124",
+      "summary": "arXiv:2608.17124v1 Announce Type: new Abstract: Combining the answers a large language model (LLM) samples for a question into one decision is a test-time information fusion problem, usually solved by majority voting. Voting is unreliable on difficult questions, where the sampled answers share correlated errors, so the wrong answer can win and drawing more samples makes the decision worse. Selecting a candidate by reading a correctness signal from the model's hidden states is a promising alternative, but its accuracy varies across models and tasks, and no measure indicates when it can be trusted. In this paper, we propose CASE (Correctness-Axis SElection), a dynamic selection combiner that trains a linear gate on the answer-token hidden state and selects the highest-scoring candidate. Its main contribution is decodability, a leakage-free measure of how well the gate ranks a question's correct candidates above its incorrect ones, which predicts whether hidden-state selection will outperform voting. A conventional probe appears accurate only because of question-identity leakage, which vanishes under question-grouped evaluation. On held-out data, decodability predicts the accuracy gain of selection over voting with a Pearson correlation r=0.75 and a decision threshold near AUC=0.60. Across general and medical LLMs, CASE improves over voting by up to 19 points on medium-difficulty",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 99.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the company says it instituted a two-week pause in reinforcement learning (RL) training on its \"latest models intended for deployment\" while it tightened up security. The company's \"largest planned frontier RL run remains on hold.\" For its frontier model research, OpenAI now r … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-18T19:28:30.000Z",
+      "score": 99.29,
       "status": "queued"
     },
     {
@@ -6778,18 +6778,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.24759",
-      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-      "link": "https://arxiv.org/abs/2607.24759",
-      "summary": "arXiv:2607.24759v1 Announce Type: new Abstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover. The parts most useful to that work, including dead ends and walked-back claims, are routinely excluded from publications and shared code; future researchers re-attempt the same failures because no record survives. LLM coding agents are common participants but hold no persistent memory across sessions, and retrieval-augmented generation over raw sources does not compound. The llm-wiki pattern (Karpathy, 2026; tonbi, 2026) addresses this by inserting an LLM-maintained, interlinked wiki between raw sources and the agent. We present llm-wiki-memory-template, a reusable, agent-aware instantiation, and argue it is a substrate for heterogeneous collaborative knowledge work along three axes (multi-human, multi-AI-agent, multi-domain) with each axis supported by a distinct architectural element of the template ({\\S}4). The wiki is append-only by convention, which preserves what did not work alongside what did, addressing a negative-result loss problem that publications and code-sharing structurally cannot solve. Three deployed case studies and one design report cover the axes individually: a solo research lineage that preserves abandoned iterations; a two-author project whose retroactiv",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 96.49,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.11216",
       "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
       "link": "https://arxiv.org/abs/2608.11216",
@@ -6907,6 +6895,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-07-31T04:00:00.000Z",
       "score": 93.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.17170",
+      "title": "Synthesizing Feature Extractors: An Agentic Approach for Algorithm Selection",
+      "link": "https://arxiv.org/abs/2608.17170",
+      "summary": "arXiv:2608.17170v1 Announce Type: new Abstract: Algorithm selection for constraint satisfaction problems requires extracting features that capture problem structure. Manually designing feature extractors demands deep domain expertise and quickly becomes a bottleneck when new problem classes appear. We present an automated approach that uses Large Language Models (LLMs) in an agentic check--fix--verify loop to synthesize executable Python scripts that act as interpretable, problem-specific feature extractors. Given a high-level MiniZinc model and an instance, the LLM agent generates code that constructs a typed graph representation and computes structural properties such as graph density, variable clustering, and constraint tightness. We evaluate our approach on three combinatorial problems (vehicle routing, car sequencing, fixed-length error-correcting codes) with a portfolio of five state-of-the-art solvers. The synthesized extractors yield algorithm selectors that consistently outperform both expert-curated mzn2feat features (up to $8.3$ percentage points (pp) test-set accuracy on FLECC) and the best transformer-based trans2feat variants. In the meanwhile, the synthesized feature extractors remain inspectable.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 93.31,
       "status": "queued"
     },
     {
@@ -7042,54 +7042,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.24768",
-      "title": "PATHFinder Agent for Tailored Prenatal Care",
-      "link": "https://arxiv.org/abs/2607.24768",
-      "summary": "arXiv:2607.24768v1 Announce Type: new Abstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gynecologists (ACOG) recently introduced guidelines advocating tailored prenatal care, called PATH (Plan for Tailored Healthcare). We present PATHFinder Agent(Planner for Appropriate Tailored Healthcare), an end-to-end conversational agentic system that gathers patient health and social context through structured dialogue, curates individualized prenatal care plans aligned with PATH guidelines, and surfaces community resources from Michigan 211. The system features a four-stage workflow spanning patient intake, dynamic interaction, plan synthesis, and clinician oversight. We evaluate frontier large language models (LLMs) on expert-curated rubrics across five clinical dimensions, finding that GPT-5.2 achieves the highest average score (77.6\\%) while identifying key gaps in antenatal testing recommendations. We discuss future validation through human participant studies and randomized controlled trials.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 90.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24769",
-      "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
-      "link": "https://arxiv.org/abs/2607.24769",
-      "summary": "arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned objectives while feigning alignment -- in frontier language models, most work has been performed exclusively in English, leaving a major gap in multilingual safety. We apply Petri, an open-source automated auditing framework, to Qwen3-30B-A3B to evaluate deceptive and scheming behaviors across multiple languages. Our findings suggest that scheming scores are inversely correlated with the estimated pretraining language coverage, with low-resource languages averaging 34.2\\% higher scores compared to high-resource languages on a five-category scheming index. Furthermore, we find that the effect of estimated pretraining language coverage is not uniform across scheming behaviors.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 90.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24771",
-      "title": "RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection",
-      "link": "https://arxiv.org/abs/2607.24771",
-      "summary": "arXiv:2607.24771v1 Announce Type: new Abstract: Knowledge injection updates pretrained MLLMs with new factual or domain-specific knowledge, but fitting full authoritative answers can cause drift in non-updated behavior. Online distillation mitigates this drift by training on model-generated rollouts, yet uniform reference-conditioned distillation provides coarse supervision: it can under-emphasize reference-supported rollout tokens and supervise omitted facts only indirectly. We introduce RoCo-ACE, a rollout-conditioned online distillation objective for knowledge injection. RoCo uses same-rollout reference-free/reference-conditioned likelihood contrast to reallocate additional distillation weight to reference-supported rollout tokens, while ACE adds sparse reference-side anchored correction for authoritative anchors omitted from the rollout without full-answer imitation. Across three knowledge-injection settings, six retention benchmarks, multiple baselines, and multiple base models, RoCo-ACE achieves the best injected-knowledge accuracy among compared methods while keeping evaluated retention close to the base model.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 90.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.24772",
-      "title": "RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation",
-      "link": "https://arxiv.org/abs/2607.24772",
-      "summary": "arXiv:2607.24772v1 Announce Type: new Abstract: Geoscience research requires complex analysis and domain expertise, with remote sensing (RS) observations as a key foundation. However, existing RS agents built on general-purpose LLMs remain largely domain-agnostic, resulting in brittle and error-prone workflows. Moreover, these failures are seldom consolidated into a reusable experience for subsequent analyses. To address this issue, we introduce RSMeM, a knowledge-enhanced memory evolution mechanism that bootstraps RS agents with pre-distilled domain knowledge and iteratively integrates online experience for robust multi-step tool execution. RSMeM is composed of two components: (i) Hierarchical Knowledge Grounding, which performs taxonomy-aware retrieval over a hierarchical domain corpus to guide planning and tool selection; and (ii) Failure-Aware Experience Refinement, which distills failure-annotated tool-use traces into reusable constraints for next-round tool execution. By iteratively employing these two processes, RS agents can evolve to absorb task-level domain knowledge and effectively translate it into instance-level execution experience. Extensive experiments on EarthBench demonstrate that RSMeM consistently improves tool-use performance and end-to-end answer across a diverse set of LLM backbones. Notably, RSMeM achieves a 6% accuracy improvement on DeepSeek-V3.2 with",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "score": 90.49,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.06394",
       "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
       "link": "https://arxiv.org/abs/2608.06394",
@@ -7174,6 +7126,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.16891",
+      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+      "link": "https://arxiv.org/abs/2608.16891",
+      "summary": "arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it does not create an execution boundary. We introduce Aegis, a runtime governance system that treats model outputs as action proposals and mediates them through a trusted decision layer before tool execution. The model proposes; the trusted runtime decides. Aegis evaluates proposals against active policy state, resolves provenance server-side, fails closed under uncertainty, and routes selected cases through Senate-style settlement, a quorum- based non-unilateral authorization path. We evaluate Aegis on a repeated sandbox corpus spanning five run families, 42 tasks, three conditions, and ten repeats per family. Across 6,300 rows, prompt-policy conditioning produced 79 risky comparator-path leakage rows. Across 2,100 Aegis-governed rows, the system recorded zero governed mock-tool applications and zero governed risky side-effect completions. All 1,832 Aegis-attempted governed rows preserved trusted Aegis-resolved provenance, and all 1,019 Senate-settled rows had quorum and final signed tally evidence. These results do not prove general autonomous-agent safety. They su",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 87.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.17247",
+      "title": "Explicit State Elicitation Is Not Enough: A Controlled Audit of Memory-Policy Classification",
+      "link": "https://arxiv.org/abs/2608.17247",
+      "summary": "arXiv:2608.17247v1 Announce Type: new Abstract: Personalized agents must decide whether retrieved user memory should be used, ignored, updated, or queried before it affects a current task. We use this setting to develop an empirical audit protocol for structured intermediate outputs: first audit dataset shortcuts, then isolate bundled prompt changes, check whether intermediate labels are answer-associated, test decomposed semantic evidence, and audit provider-level execution failures. A 480-example synthetic development set initially suggested large gains from a state-structured prompt bundle, but TF-IDF diagnostics showed lexical separability and no positive standalone Ignore cases. We therefore construct a frozen 160-example controlled counterfactual set with 40 matched four-way families and rule-derived reference policies. On this set, exposing the four state definitions improves accuracy, but an isolated explicit state-output field does not significantly improve policy accuracy for Llama-3.3-70B and gives only a marginal, non-significant gain for GPT-OSS-120B. Supplying benchmark-associated state labels shifts policy predictions, but because those labels deterministically map to policies, this is a label-conditioning diagnostic rather than evidence of a faithful internal mechanism. Family-level and seed-stability analyses further show that example-level accuracy overstates",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 87.31,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.14585",
       "title": "Euclid-Omni : A Unified Neuro-Symbolic Framework for Plane Geometry",
       "link": "https://arxiv.org/abs/2608.14585",
@@ -7183,6 +7159,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "score": 82.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.17007",
+      "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+      "link": "https://arxiv.org/abs/2608.17007",
+      "summary": "arXiv:2608.17007v1 Announce Type: new Abstract: Agent Skills can specify procedural and resource obligations for tool use, and language models instantiate them as concrete programs. However, when models turn this guidance into code for existing tool interfaces, even a semantically correct program may load an entire input and exceed the memory available to one tool call. We present SkillEffect, a checked-lowering runtime for computations with a recoverable source relation, an audited bounded implementation, and a registered output postcondition. Before granting execution authority, an independent checker rebuilds each proposed lowering from the submitted program and immutable input. Every relation plugin supplies a source recognizer, input-fact extractor, bounded-IR constructor, arena-bound function, and postcondition; one common runtime provides checked selection, bounded-VM execution, atomic capacity leasing, and staged publication. Generality in SkillEffect is architectural rather than automatic: each supported computation requires an audited relation plugin, while the dispatch, resource-control, execution, and publication mechanisms are shared across plugins. Across six operator families, bounded access substantially reduces peak memory and improves completion under externally fixed caps. Six plugins instantiate the same contract across five execution patterns, from streamin",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 81.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.17150",
+      "title": "KnowSim: Evaluating Information Calibration in LLM Assistants with User Simulators that Learn",
+      "link": "https://arxiv.org/abs/2608.17150",
+      "summary": "arXiv:2608.17150v1 Announce Type: new Abstract: To effectively collaborate with users on knowledge-intensive tasks, Large Language Models (LLMs) must perform information calibration: matching content to a user's evolving understanding and cognitive capacity. Yet user simulators used to evaluate and train LLMs do not explicitly model user knowledge so they neither produce realistic interactions across knowledge levels nor reflect how interactions unfold as that knowledge evolves. To close this gap, we introduce KNOWSIM, an evaluation framework built around a user simulator that maintains explicit knowledge states, represented as a graph of Information Units with prerequisite relationships, that evolve under update rules grounded in learning theory. KNOWSIM computes three metrics (Knowledge Gain, Delivery Calibration, Cognitive Overload) directly from the knowledge state trajectory, reflecting key mechanistic aspects of information calibration. We validate KNOWSIM against 705 human-AI sessions across two domains, stratified by knowledge level: its rankings align significantly with human judgments (73-74% sign agreement), outperforming three baseline simulators. Applied to 9 LLMs, KNOWSIM reveals that the best model shifts by user knowledge level, revealing aptitude-treatment interactions invisible to standard evaluation.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "score": 81.31,
       "status": "queued"
     },
     {
@@ -7196,6 +7196,22 @@
       "publishedAt": "2026-08-15T20:45:00.000Z",
       "score": 74.81,
       "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+      "title": "Four takeaways from Mark Zuckerberg&#8217;s massive AI manifesto",
+      "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+      "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positionin…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-10T15:19:05.000Z",
+      "score": 150,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-08-19T08:23:36.793Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://old.reddit.com/r/rails/comments/1v91qv2/at_aiheavy_companies_the_engineers_left_are/",

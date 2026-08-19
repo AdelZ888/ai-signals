@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-18T15:39:20.299Z",
+  "generatedAt": "2026-08-19T08:36:39.061Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-19-streaming-robot-data-loop-using-strands-agents-lerobot-and-hugging-face-storage-buckets",
+      "title": "Streaming robot-data loop using Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "date": "2026-08-19",
+      "excerpt": "Walkthrough of a continuous robot-data loop using Strands Agents, LeRobot files, and Hugging Face Storage Buckets—stream training, avoid redundant bytes, and redeploy to robots.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-19-streaming-robot-data-loop-using-strands-agents-lerobot-and-hugging-face-storage-buckets.jpg",
+      "tags": [
+        "strands",
+        "lerobot",
+        "huggingface",
+        "buckets",
+        "robotics",
+        "mlops",
+        "agents",
+        "streaming"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-08-18-tracelint-deterministic-linter-for-agent-execution-traces",
       "title": "Tracelint: deterministic linter for agent execution traces",
