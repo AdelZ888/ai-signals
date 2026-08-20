@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-08-20T08:41:19.456Z",
+  "generatedAt": "2026-08-20T15:38:22.391Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-20-experiment-safety-playbook-implementing-openais-research-environment-controls-after-the-hugging-face-incident",
+      "title": "Experiment safety playbook: implementing OpenAI's research-environment controls after the Hugging Face incident",
+      "date": "2026-08-20",
+      "excerpt": "A compact playbook translating OpenAI's post-Hugging Face security updates into actionable steps: sandbox isolation, deny-by-default egress, centralized egress logs, and human review gates.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-20-experiment-safety-playbook-implementing-openais-research-environment-controls-after-the-hugging-face-incident.jpg",
+      "tags": [
+        "openai",
+        "ai-security",
+        "model-ops",
+        "rl",
+        "monitoring",
+        "incident-response"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-20-wasted-cycles-local-wall-clock-profiler-for-machine-blocking-stalls-in-ai-coding-agent-loops",
       "title": "Wasted Cycles — local wall-clock profiler for machine-blocking stalls in AI coding agent loops",

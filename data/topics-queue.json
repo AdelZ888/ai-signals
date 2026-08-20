@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-20T08:41:19.471Z",
+  "generatedAt": "2026-08-20T15:38:22.464Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the company says it instituted a two-week pause…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-18T19:28:30.000Z",
+      "score": 99.29,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-20T15:38:22.373Z",
+      "file": "content/posts/2026-08-20-experiment-safety-playbook-implementing-openais-research-environment-controls-after-the-hugging-face-incident.md",
+      "fileFr": "content/posts/fr/2026-08-20-experiment-safety-playbook-implementing-openais-research-environment-controls-after-the-hugging-face-incident.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1450,
+      "wordsFr": 1507
+    },
     {
       "id": "https://zozo123.github.io/wasted-cycles/",
       "title": "Show HN: Wasted Cycles – Local wall-clock profiler for AI coding agents",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1269
     },
     {
-      "id": "https://www.numerama.com/tech/2232225-non-francois-ruffin-une-ia-nest-pas-un-economiste.html",
-      "title": "Non, François Ruffin, une IA n’est pas un économiste",
-      "link": "https://www.numerama.com/tech/2232225-non-francois-ruffin-une-ia-nest-pas-un-economiste.html",
-      "summary": "Après Bernie Sanders, c’est au tour de François Ruffin de mettre l’intelligence artificielle en scène. Dans une vidéo diffusée ce 14 avril 2026, le député interroge le chatbot Claude sur le traumatisme industriel du Nord. Problème : en croyant obtenir un diagnostic, l'élu ne fait qu'écouter l'écho de son propre discours.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-14T14:53:44.000Z",
-      "score": 133.4,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-16T09:18:51.265Z",
-      "file": "content/posts/2026-04-16-francois-ruffins-filmed-exchange-with-claude-highlights-limits-of-llm-demos-for-economic-claims.md",
-      "fileFr": "content/posts/fr/2026-04-16-francois-ruffins-filmed-exchange-with-claude-highlights-limits-of-llm-demos-for-economic-claims.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "beginner",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1407,
-      "wordsFr": 1011
-    },
-    {
       "id": "https://www.jamdesk.com/blog/designing-docs-for-ai-agents",
       "title": "Designing Docs for AI Agents",
       "link": "https://www.jamdesk.com/blog/designing-docs-for-ai-agents",
@@ -5070,18 +5070,6 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-07-30T15:42:44.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.malwarebytes.com/blog/ai/2026/07/hidden-microsoft-copilot-ai-worm",
-      "title": "Prompt turns Microsoft Copilot into an AI worm",
-      "link": "https://www.malwarebytes.com/blog/ai/2026/07/hidden-microsoft-copilot-ai-worm",
-      "summary": "Article URL: https://www.malwarebytes.com/blog/ai/2026/07/hidden-microsoft-copilot-ai-worm Comments URL: https://news.ycombinator.com/item?id=49111474 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-30T15:35:30.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5275,6 +5263,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-13T14:48:03.000Z",
       "score": 156.92,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "title": "Welcome to the AI crisis in math",
+      "link": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "summary": "Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. It caused a huge debate in the math community, and Rob spent some time talking to some of the most accomplished mathematicians of our time about it. It’s funny that AI systems are all still pretty bad at elementary school arithmetic, but getting increasingly good at very high-end abstract math. That raises some big questions for the field of advanced math. If AI can do math of this caliber, does that mean AI labs can transfer those skills to other domains? What good are academic grants and university programs training new generations of human mathematicians to identify new problems as they try to solve existing ones, if frontier models simply answer all the outstanding questions? What if all this attention around math is just a big marketing exercise for frontier AI labs, which couldn’t care less what happens to one of the oldest and most fundamental academic disciplines there is? There’s a lot here, and Robert has talked to a lot of people with a lot of views on all of it. Okay: Verge AI reporter Robert Hart on what AI is doing to math. Here we go. This",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "score": 156.26,
       "status": "queued"
     },
     {
@@ -6598,18 +6598,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the company says it instituted a two-week pause in reinforcement learning (RL) training on its \"latest models intended for deployment\" while it tightened up security. The company's \"largest planned frontier RL run remains on hold.\" For its frontier model research, OpenAI now r … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-18T19:28:30.000Z",
-      "score": 99.29,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.18104",
       "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
       "link": "https://arxiv.org/abs/2608.18104",
@@ -7183,6 +7171,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "score": 82.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "title": "Slack is launching collaborative vibe-coding channels",
+      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "score": 81.96,
       "status": "queued"
     },
     {
