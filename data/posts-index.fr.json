@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-08-19T15:36:15.521Z",
+  "generatedAt": "2026-08-20T08:41:19.460Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-20-wasted-cycles-local-wall-clock-profiler-for-machine-blocking-stalls-in-ai-coding-agent-loops",
+      "title": "Wasted Cycles — profileur local (wall‑clock) pour les blocages machine dans les boucles d'agents IA",
+      "date": "2026-08-20",
+      "excerpt": "Un outil local-first qui mesure le temps écoulé (wall‑clock) pour identifier ce qui bloque les boucles d'agents IA (builds, tests, CI, containers). Binaire vérifié par checksum, export JSON, support GitHub Actions pour latences de workflow.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-20-wasted-cycles-local-wall-clock-profiler-for-machine-blocking-stalls-in-ai-coding-agent-loops.jpg",
+      "tags": [
+        "profilage",
+        "CI",
+        "GitHub Actions",
+        "devops",
+        "agents IA",
+        "wasted-cycles"
+      ],
+      "sources": [
+        "https://zozo123.github.io/wasted-cycles/"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 30,
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-08-19-pixel-and-gemini-matchday-prototype-4hour-demo-with-personalized-highlights-realtime-cards-and-ar-seat-finder",
       "title": "Prototype matchday Pixel + Gemini : démo 4 heures avec highlights personnalisés, cartes en temps réel et recherche de siège AR",
