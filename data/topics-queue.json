@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-20T15:38:22.464Z",
+  "generatedAt": "2026-08-21T08:34:47.774Z",
   "items": [
+    {
+      "id": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents",
+      "title": "AI coding agents pass tests. Can they write idiomatic Laravel?",
+      "link": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents",
+      "summary": "Article URL: https://laravel.com/blog/idiomatic-laravel-ai-coding-agents Comments URL: https://news.ycombinator.com/item?id=49171285 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-04T16:36:58.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-08-21T08:34:47.742Z",
+      "file": "content/posts/2026-08-21-boost-benchmarks-show-ai-agents-pass-all-17-pest-evals-focus-shifts-to-idiomatic-maintainable-laravel.md",
+      "fileFr": "content/posts/fr/2026-08-21-boost-benchmarks-show-ai-agents-pass-all-17-pest-evals-focus-shifts-to-idiomatic-maintainable-laravel.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1423,
+      "wordsFr": 1189
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
       "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1229
     },
     {
-      "id": "https://github.com/stephenchilcote-gauntlet/leftglove",
-      "title": "LeftGlove – MCP server that makes websites usable by AI agents (npx leftglove)",
-      "link": "https://github.com/stephenchilcote-gauntlet/leftglove",
-      "summary": "Article URL: https://github.com/stephenchilcote-gauntlet/leftglove Comments URL: https://news.ycombinator.com/item?id=47780671 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-15T15:41:08.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-16T16:56:08.790Z",
-      "file": "content/posts/2026-04-16-leftglove-an-mcp-server-npx-that-wraps-shiftlefter-for-agent-and-human-web-exploration.md",
-      "fileFr": "content/posts/fr/2026-04-16-leftglove-an-mcp-server-npx-that-wraps-shiftlefter-for-agent-and-human-web-exploration.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1526,
-      "wordsFr": 1269
-    },
-    {
-      "id": "https://www.jamdesk.com/blog/designing-docs-for-ai-agents",
-      "title": "Designing Docs for AI Agents",
-      "link": "https://www.jamdesk.com/blog/designing-docs-for-ai-agents",
-      "summary": "Article URL: https://www.jamdesk.com/blog/designing-docs-for-ai-agents Comments URL: https://news.ycombinator.com/item?id=49111582 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-30T15:42:44.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents",
-      "title": "AI coding agents pass tests. Can they write idiomatic Laravel?",
-      "link": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents",
-      "summary": "Article URL: https://laravel.com/blog/idiomatic-laravel-ai-coding-agents Comments URL: https://news.ycombinator.com/item?id=49171285 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-04T16:36:58.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://everfree.vercel.app/",
       "title": "Show HN: Everfree -AI cowriter note app on GitHub backend & Evernote migration",
       "link": "https://everfree.vercel.app/",
@@ -5239,6 +5215,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-07-31T15:39:35.000Z",
       "score": 164.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19202",
+      "title": "Active Inference as Context Acquisition for AI Agents",
+      "link": "https://arxiv.org/abs/2608.19202",
+      "summary": "arXiv:2608.19202v1 Announce Type: new Abstract: Interactive AI agents must acquire the right context as efficiently as possible. When a user omits a constraint, preference, file, or task variable, an agent can proceed with a default assumption or spend tokens on a clarifying question, retrieval call, tool call, or prompt trial. We formulate this tradeoff as active inference for context acquisition. An inner inference step updates beliefs over a latent task state, and an outer decision selects the next context action, task action, or stop action to minimize expected free energy under cost. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. We instantiate the framework in Optimal Question Asking (OQA), with exact posteriors and a dynamic programming oracle, and benchmark frontier language models on binary and multiway categorical tasks from 25 to 300 candidates. We also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic and views active inference as a design principle for the context-acquisition layer of AI agents.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 159.05,
       "status": "queued"
     },
     {
@@ -5542,6 +5530,18 @@
       "status": "queued"
     },
     {
+      "id": "https://sufiyan.cc/plainspeak",
+      "title": "Show HN: Plainspeak, make AI agents write like a human",
+      "link": "https://sufiyan.cc/plainspeak",
+      "summary": "Article URL: https://sufiyan.cc/plainspeak Comments URL: https://news.ycombinator.com/item?id=49384788 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-21T07:09:01.000Z",
+      "score": 147.28,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.18078",
       "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
       "link": "https://arxiv.org/abs/2608.18078",
@@ -5743,30 +5743,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-02T14:19:04.000Z",
       "score": 125.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.26120",
-      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
-      "link": "https://arxiv.org/abs/2607.26120",
-      "summary": "arXiv:2607.26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misalignment with collective goals becomes a central concern. We propose a novel framework for evaluating objective misalignment using the social deduction game Werewolf, modifying the objective of a single agent while preserving its assigned role. Across LLMs from four different model families and sizes, four player roles, and three objective formulations, we introduce a dual analysis of the agents' internal reasoning and their public cheap-talk behavior (i.e costless, non-binding communication that does not directly affect the agents' utilities), complemented by an analysis of game outcomes. Our results show that objective misalignment undermines outcomes in inherently adversarial environments, an effect exacerbated by asymmetric information and specialized roles. While compromised agents consistently develop distinct objective-dependent reasoning strategies, these adaptations remain largely invisible in their public behavior. More broadly, our findings suggest that even subtle objective misalignment can profoundly affect collective decision-making, highlighting the need for effective m",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "score": 123.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.26588",
-      "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
-      "link": "https://arxiv.org/abs/2607.26588",
-      "summary": "arXiv:2607.26588v1 Announce Type: new Abstract: The rapid development of large language models (LLMs) has renewed interest in agent-based modeling (ABM). However, current LLM-based ABM research faces several key challenges: modeling evolving agent-environment interactions, enabling flexible counterfactual reasoning, and automating simulation workflows for scientific research. In this paper, we propose Eco3S, a socio-economic system simulation framework for economic research and policy analysis that addresses these challenges through three key mechanisms: (1) Co-evolving Environment Design, a bidirectional feedback loop where agents and the environment co-evolve, producing realistic emergent behaviors; (2) Structural Causal Simulation, a structural causal model (SCM)-inspired counterfactual mechanism that allows flexible interventions for diverse causal inference tasks; (3) Simulation-Analysis-Refinement Paradigm, a self-corrective mechanism that iteratively refines experimental designs based on prior simulation results. Experiments on diverse economic scenarios confirm \\textit{Eco3S}'s effectiveness in replicating multiple established economic studies (canal decay, origins of governance, and information propagation) and phenomena across domains. Additional results further demonstrate its scalability and generalizability, highlighting the framework's potential for rigorous econo",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "score": 123.41,
       "status": "queued"
     },
     {
@@ -6094,6 +6070,18 @@
       "status": "queued"
     },
     {
+      "id": "https://Argentic.network",
+      "title": "Show HN: Argentic – An L402 Lightning toll booth for AI scraping agents",
+      "link": "https://Argentic.network",
+      "summary": "Article URL: https://Argentic.network Comments URL: https://news.ycombinator.com/item?id=49384477 Points: 5 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-21T06:24:16.000Z",
+      "score": 113.05,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2607.28657",
       "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
       "link": "https://arxiv.org/abs/2607.28657",
@@ -6142,30 +6130,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.26160",
-      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
-      "link": "https://arxiv.org/abs/2607.26160",
-      "summary": "arXiv:2607.26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-specific criteria into executable functions returning ordinal diagnostic-support scores. GuideSkill-Zero is initialized from guidelines, while GuideSkill-Evo uses case--diagnosis pairs to refine covered skills and add missing diagnoses. At inference, an LLM proposes a differential diagnosis, grounds the features required by each matched skill, and fuses its ranking with the executed skill scores. Across four benchmarks and four backbones, GuideSkill-Zero improves macro-average accuracy over guideline RAG by 13.45% on average. GuideSkill-Evo achieves the highest macro-average for every backbone, improves over direct inference by 18.49% relatively, and increases gold-label skill coverage from 56.5% to 99.5%. On Qwen3.5-9B, it also exceeds the strongest parameter-update baseline by 11.16% without updating the backbone. Expert evaluation further indicates that GuideSkill produces clinically sound and broadly acceptable skills, suggesting that its initialized and evolved rules are reliable and practically meaningful. These results support executable skills as a model-agnostic mechanism for",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "score": 111.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.26367",
-      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
-      "link": "https://arxiv.org/abs/2607.26367",
-      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw partition function to a tractable representation? To probe this question, we introduce StatMechBench-v0, a benchmark of six Ising-type problems covering transfer-matrix methods, gauge-removable disorder, and planar/Pfaffian structure. We evaluate a simple propose-verify-revise agent across multiple LLMs and problem phrasings. The results show that numerical feedback often helps agents repair code and recover correct partition functions. However, agents can also pass the numerical checks while misidentifying the underlying tractable class or understating computational complexity. This both reveals limitations in current LLM reasoning and calls for a verification stack that goes beyond numerical agreement, incorporating, for example, symbolic checks and structural invariants. Our study provides an early evaluation and design directions for AI agents aimed at structural discovery in theoretical physics.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "score": 111.41,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.16956",
       "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
       "link": "https://arxiv.org/abs/2608.16956",
@@ -6187,6 +6151,42 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "score": 111.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
+      "title": "AI CMS with WebMCP tools for agents in admin panel",
+      "link": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
+      "summary": "Article URL: https://aliothpress.com/cms-for-ai-agents-webmcp-built-in Comments URL: https://news.ycombinator.com/item?id=49384446 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-21T06:20:14.000Z",
+      "score": 111.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19299",
+      "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+      "link": "https://arxiv.org/abs/2608.19299",
+      "summary": "arXiv:2608.19299v1 Announce Type: new Abstract: Air traffic control (ATC) communication is a safety-critical dialogue that remains largely human-driven even as other parts of air traffic management have been semi-automated. In this article, we experimentally evaluate whether large language models (LLMs) can generate operationally realistic ATC transmissions. An experimental general-aviation flight flying over the San Francisco \"Bay Tour\" route is hand-transcribed and used as ground truth (P0). Through a pilot-in-the-loop process we design five prompt structures (P1-P5) of increasing constraint and embed them in a stateful multi-turn pipeline, where the model plays ATC to a fixed pilot transcript while conditioning on the accumulating dialogue history. Across nine open- and closed-source LLMs we vary the prompt, the presence of a worked transcript from a different experimental flight as an in-context example, and whether the model conditions on its own prior replies or on injected ground-truth history. Turns are scored with lexical, structural, and semantic similarity metrics and by an LLM-as-judge (GPT-5.5) validated against human expert annotation. Supplying a worked example improves similarity, but tightening the prompt does not: the lightest prompts perform best and the most heavily scripted one collapses as its own errors accumulate through the dialogue, which injecting cor",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 111.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19579",
+      "title": "Enforcing LLM Safety through DMD-based Classification of Prompt-Response Embedding Dynamics",
+      "link": "https://arxiv.org/abs/2608.19579",
+      "summary": "arXiv:2608.19579v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed in high-stakes applications, yet their tendency to generate toxic, harmful, or policy-violating content poses significant risks. Detecting these unsafe outputs efficiently in a black-box manner remains an open challenge. In this paper, we extend a recently proposed dynamical systems framework designed for hallucination detection to LLM safety classification. By projecting both prompts and responses into high-dimensional embedding spaces and fitting separate Koopman-based predictive models for safe and unsafe regimes, we classify new outputs using a new differential residual score that compares prediction errors of the safe and unsafe regimes. A key contribution is the incorporation of the prompt and response embedding dynamics, yielding fitted Koopman operators that capture crucial interaction patterns. We evaluate our black-box method across three safety benchmarks using three embedding models. Our results show that incorporating prompt embeddings yields consistent improvements, particularly for interaction-dependent violations when paired with causal decoders (e.g., in Llama-3), while response-only violations benefit more from dense semantic embedding representations. These findings opens the door for using dynamical systems to analyze AI systems rather than the dominant par",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 111.05,
       "status": "queued"
     },
     {
@@ -6322,18 +6322,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.26393",
-      "title": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
-      "link": "https://arxiv.org/abs/2607.26393",
-      "summary": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social skills such as reasoning, deception, and collaboration. While recent advances in large language models (LLMs) have driven significant progress in SDG agents, current approaches are predominantly text-based, overlooking the multimodal nature that is fundamental to human social interaction. To bridge this gap, we introduce CaM-Wolf, the first SDG agent that integrates multimodal perception and generation. CaM-Wolf processes video inputs from other players, employs a causal-aware Reasoner trained via reinforcement learning to establish logical chains between observable behaviors and hidden roles, and presents itself through an animated avatar. Our experiments and user study show that CaM-Wolf achieves superior agent gameplay performance and enhances the quality of human-AI interaction. This work represents a significant advancement towards creating more human-like AI agents capable of participating in nuanced social dynamics. Our code is available at https://3dagentworld.github.io/avatar_wolf.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "score": 105.41,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/dburnett11155-rgb/Tokencompress",
       "title": "Tokencompress A sub-2ms Go CLI and MCP sidecar that prunes AI agent tool context",
       "link": "https://github.com/dburnett11155-rgb/Tokencompress",
@@ -6463,6 +6451,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-06T04:00:00.000Z",
       "score": 102.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/",
+      "title": "AWS Bedrock AgentCore enforces user context to prevent hijacked AI agents",
+      "link": "https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/",
+      "summary": "Article URL: https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/ Comments URL: https://news.ycombinator.com/item?id=49384306 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-21T05:56:29.000Z",
+      "score": 102.09,
       "status": "queued"
     },
     {
@@ -6607,6 +6607,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "score": 99.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19680",
+      "title": "Frequency-Aware Continual Learning for Smart Contract Vulnerability Detection with Large Language Models",
+      "link": "https://arxiv.org/abs/2608.19680",
+      "summary": "arXiv:2608.19680v1 Announce Type: new Abstract: Smart contract vulnerability detection with Large Language Models (LLMs) faces three causally linked challenges. First, new vulnerability categories demand parameter-efficient adaptation, since full retraining is prohibitive for sequentially arriving tasks. Second, training per-task adapters on a shared backbone causes catastrophic forgetting of previously learned vulnerabilities. Third, the resulting multiplicity of adapters must be consolidated into a single model, since task identity is unknown at inference time. Each challenge arises directly from the solution to its predecessor, making an integrated framework essential. We propose a three-stage pipeline in which each stage addresses one challenge and feeds into the next. The adaptation stage uses Frequency-Aware Low-Rank Adaptation (FA-LoRA), which performs adaptation in the Fourier domain with per-frequency importance gates, requiring only 0.4% trainable parameters while outperforming standard LoRA and QLoRA. The continual learning stage applies Forget-Aware Replay (FAR), which uses these frequency gates to estimate per-sample forgetting risk via loss dynamics and prioritizes vulnerable knowledge for rehearsal, achieving an average Micro-F1 of 0.8022 across sequential tasks. The deployment stage employs Anchor-Protected Progressive Merging (APPM), which exploits the asymmetr",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 99.05,
       "status": "queued"
     },
     {
@@ -6886,18 +6898,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.26155",
-      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
-      "link": "https://arxiv.org/abs/2607.26155",
-      "summary": "arXiv:2607.26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CLINLENS, a benchmark of 200 executable tasks over five linked MIMIC resources spanning structured electronic health records, notes, electrocardiograms, chest radiographs, and echocardiograms. A 4 x 5 taxonomy crosses four patient-time scopes with five analysis capabilities. Program-first reverse synthesis pairs each bounded semi-raw package with an evaluator-private reference workflow and checks required artifacts, cohort and temporal semantics, and the final answer. On a fixed 126-task suite, the strongest of 24 standardized model-scaffold configurations achieves 56.3% scope-macro STRICTPASS despite 100% EXECSUCCESS. For reference, a separately configured coding agent solves 83 of 126 tasks, while five biomedical systems adapted to GPT-4o-mini reach at most 2.9% scope-macro STRICTPASS. These results expose a substantial gap between runnable submissions and correct clinical analyses.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "score": 93.41,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.17170",
       "title": "Synthesizing Feature Extractors: An Agentic Approach for Algorithm Selection",
       "link": "https://arxiv.org/abs/2608.17170",
@@ -6919,6 +6919,54 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "score": 93.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19408",
+      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
+      "link": "https://arxiv.org/abs/2608.19408",
+      "summary": "arXiv:2608.19408v1 Announce Type: new Abstract: On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student-generated trajectories with dense token-level supervision from a teacher. However, OPD implicitly assumes that teacher-derived rewards are an appropriate proxy for reasoning progress, and therefore treats all teacher feedback equally during policy optimization. While in practice, this assumption does not always hold. We observe that teacher-derived rewards often conflict with genuine reasoning progress, as reasoning steps with clear reasoning advancement may still receive lower distillation rewards, simply due to deviation from teacher's outputs. To address this mismatch, we propose Reasoning-Progress-Aware Reward Filtering for On-Policy Distillation (R2-OPD), which constructs two within-trajectory rankings of reasoning spans, one from teacher-derived rewards and the other from independently estimated progress reward. Distillation rewards are selectively suppressed whenever the two rankings disagree, reducing supervision that conflicts with reasoning progress while preserving effective teacher guidance. Our approach shows consistent improvement over standard OPD especially regarding reasoning performances.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 93.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19511",
+      "title": "Symposium: Trust via Auditable Records for Communities of AI Scientist Agents",
+      "link": "https://arxiv.org/abs/2608.19511",
+      "summary": "arXiv:2608.19511v1 Announce Type: new Abstract: Symposium is a formal framework and practical implementation to record the operation of AI agents deployed by small scientific research communities. Symposium provides long-term, immutable histories of agent-driven research activity, leaving auditable trails of analyses, hypotheses, data, and scientific discourse. This shared record of published artifacts enables agents to build on prior work and preserves the evidence researchers and agents need to make purpose-dependent trust assessments. Symposium captures scientific argument, including structured claims, fine-grained evidence citations, assumptions, and explicit declarations of what material may and may not be used as evidence. Symposium differs from AI co-scientist agents or integrated AI research environments; it is a framework that separates a scientific community's durable history from the agents and other systems that operate on that history. It assumes that a community will use diverse AI systems in a rapidly evolving environment. A working implementation of the publication infrastructure, agent prompt components, and documentation are provided to enable users to rapidly set up and run their own Symposium community.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 93.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19652",
+      "title": "Can Agent Memory Systems Track Evolving State?",
+      "link": "https://arxiv.org/abs/2608.19652",
+      "summary": "arXiv:2608.19652v1 Announce Type: new Abstract: As LLM-based agents are deployed for longer and higher-stakes tasks, their memory systems continue to have crucial gaps. While existing memory benchmarks focus largely on recall-shaped tasks, we argue an effective memory system must track the evolving state of the world; as facts, constraints, and decisions are revised over a long interaction, answers must reflect the current state and not a superseded one. We define this capability as state tracking and instantiate it in StateMemBench, a benchmark of 234 multi-session scenarios spanning two conversation-length regimes. Its closed-pool grading scores whether an answer reflects the current state, the superseded state, or fails otherwise, separating state-tracking failures from other errors by construction. Our analysis shows that this task is challenging for existing memory systems, retrieval-augmented baselines, and long-context baselines. We then present StateMem, a state-first memory method that explicitly tracks supersession and relational dependencies, and show it improves current-state accuracy over the strongest same-backbone baseline by 1.8x (0.205 -> 0.363) on DeepSeek-V4-Flash and over the strongest memory system by 1.6x (0.149 -> 0.233) on Qwen-3.5-9B, while remaining competitive with the long-context baselines. Finally, we show the same state approach can be applied as",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 93.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19689",
+      "title": "Rethinking the Evaluation and Optimization of LLM-Based Social Simulation",
+      "link": "https://arxiv.org/abs/2608.19689",
+      "summary": "arXiv:2608.19689v1 Announce Type: new Abstract: LLM-based social simulation is a promising complement to traditional methods such as surveys and behavioral experiments. A core question is how to evaluate the fidelity of LLM-simulated human behavior and optimize LLMs toward it. Prevailing practice evaluates by accuracy, checking whether the model selects the single response observed from a human, and trains the LLM to reproduce this hard label. However, human behavior is inherently subjective: the same person in the same situation may reasonably act differently, so an observed response is only one draw from an underlying response distribution, rendering accuracy-based evaluation unreliable and hard-label training misleading. To address these problems, we first introduce the subjectivity coefficient, an entropy-based quantity distinguishing objective tasks such as coding from subjective ones such as social simulation, and use it to systematically analyze how accuracy-based evaluation and hard-label training fail as subjectivity grows. Based on the subjectivity coefficient, we propose Subjectivity-Adaptive soft-Label Training (SALT): it pools observed outputs from semantically nearby inputs into soft distributional labels, with an aggregation radius adapted to the estimated subjectivity of each input; in the near-objective limit the neighborhood shrinks, so SALT naturally falls ba",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 93.05,
       "status": "queued"
     },
     {
@@ -7159,42 +7207,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-19T04:00:00.000Z",
       "score": 87.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.14585",
-      "title": "Euclid-Omni : A Unified Neuro-Symbolic Framework for Plane Geometry",
-      "link": "https://arxiv.org/abs/2608.14585",
-      "summary": "arXiv:2608.14585v1 Announce Type: new Abstract: Euclidean geometry is a compelling testbed for AI reasoning, as it demands the combination of intuitive diagram understanding, axiomatic deduction, and algebraic computation. Yet, existing approaches typically address only a subset of these abilities or struggle with competition-level problems. We introduce \\textit{Euclid-Omni}, a unified neuro-symbolic framework that couples a formal geometry system with Large Language Models (LLMs) and Vision-Language Models (VLMs) to tackle both calculation- and proving-style problems, in formal and natural languages, up to Olympiad-level difficulty. At its core, we develop \\textit{Euclidea}, a versatile symbolic geometry solver that automatically generates reasoning steps through deductive inference and algebraic computation. Building on this, we develop a data-generation pipeline that synthesizes symbolic problems and solutions, renders diagrams, and translates them into natural language, producing large-scale, diverse datasets for training LLMs and VLMs across a wide range of reasoning settings. Experiments show that VLMs trained on our synthetic data achieve superior performance on calculation tasks, and that LLMs combined with \\textit{Euclidea} are competitive with state-of-the-art systems on Olympiad-level proving problems, despite using orders of magnitude less compute and training data.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "score": 82.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "title": "Slack is launching collaborative vibe-coding channels",
-      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "score": 81.96,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.17007",
-      "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
-      "link": "https://arxiv.org/abs/2608.17007",
-      "summary": "arXiv:2608.17007v1 Announce Type: new Abstract: Agent Skills can specify procedural and resource obligations for tool use, and language models instantiate them as concrete programs. However, when models turn this guidance into code for existing tool interfaces, even a semantically correct program may load an entire input and exceed the memory available to one tool call. We present SkillEffect, a checked-lowering runtime for computations with a recoverable source relation, an audited bounded implementation, and a registered output postcondition. Before granting execution authority, an independent checker rebuilds each proposed lowering from the submitted program and immutable input. Every relation plugin supplies a source recognizer, input-fact extractor, bounded-IR constructor, arena-bound function, and postcondition; one common runtime provides checked selection, bounded-VM execution, atomic capacity leasing, and staged publication. Generality in SkillEffect is architectural rather than automatic: each supported computation requires an audited relation plugin, while the dispatch, resource-control, execution, and publication mechanisms are shared across plugins. Across six operator families, bounded access substantially reduces peak memory and improves completion under externally fixed caps. Six plugins instantiate the same contract across five execution patterns, from streamin",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 81.31,
       "status": "queued"
     },
     {
@@ -7660,22 +7672,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-07-22T10:13:58.388Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/lemoncrow-lab/lemoncrow",
-      "title": "I benchmarked AI cost-saving claims instead of trusting token percentages",
-      "link": "https://github.com/lemoncrow-lab/lemoncrow",
-      "summary": "Article URL: https://github.com/lemoncrow-lab/lemoncrow Comments URL: https://news.ycombinator.com/item?id=48994388 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-21T16:18:37.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-07-21T16:22:21.180Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]
 }
