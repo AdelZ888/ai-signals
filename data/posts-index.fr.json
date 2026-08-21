@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T08:34:47.763Z",
+  "generatedAt": "2026-08-21T15:46:44.869Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-21-singular-lite-orchestrating-parallel-autonomous-coding-agents-with-leases-gates-and-git-worktree-isolation",
+      "title": "singular-lite : orchestrer des agents autonomes de coding en parallèle avec leases, gates et isolation git-worktree",
+      "date": "2026-08-21",
+      "excerpt": "Utilisez singular-lite pour faire tourner plusieurs agents autonomes sur un dépôt : git-worktrees par agent, contrôle de concurrence par « leases », plus gates et audits pour garder des merges revus par des humains et traçables. Projet open-source (GPL-3.0) — https://github.com/alex-reysa/singular-lite",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-21-singular-lite-orchestrating-parallel-autonomous-coding-agents-with-leases-gates-and-git-worktree-isolation.jpg",
+      "tags": [
+        "orchestration",
+        "agents",
+        "git",
+        "CI",
+        "AI",
+        "open-source",
+        "singular-lite",
+        "devops"
+      ],
+      "sources": [
+        "https://github.com/alex-reysa/singular-lite"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
