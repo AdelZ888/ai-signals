@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-21T15:46:44.935Z",
+  "generatedAt": "2026-08-22T08:23:57.573Z",
   "items": [
+    {
+      "id": "https://everfree.vercel.app/",
+      "title": "Show HN: Everfree -AI cowriter note app on GitHub backend & Evernote migration",
+      "link": "https://everfree.vercel.app/",
+      "summary": "EverFree started as a script to get my notes out of Evernote, and grew into the writing tool I actually wanted: a focused editor where notes stay in Github in a repo I own, with an AI cowriter With an in-built AI assistant using free models like Gemini 3.5 to help me in my daily writing The AI has a search and image generation feature as well, for which you will need paid licenses from Gemini or OpenRouter. Bring yo…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-05T16:02:19.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-08-22T08:23:57.540Z",
+      "file": "content/posts/2026-08-22-everfree-import-evernote-to-markdown-store-notes-in-your-github-repo-and-use-a-byo-ai-co-writer.md",
+      "fileFr": "content/posts/fr/2026-08-22-everfree-import-evernote-to-markdown-store-notes-in-your-github-repo-and-use-a-byo-ai-co-writer.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1401,
+      "wordsFr": 1455
+    },
     {
       "id": "https://github.com/alex-reysa/singular-lite",
       "title": "Orchestration engine to drive autonomous AI coding agents in parallel",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1093
     },
     {
-      "id": "https://choon.app",
-      "title": "Show HN: I built an AI music tagger for DJs, fusing metadata, audio DSP, and ML",
-      "link": "https://choon.app",
-      "summary": "Built this for myself. I DJ, throw parties in Portland, and my digital library is 10k tracks and unmanageable. Tagging everything was a nonstarter. Project started as a Python script that fed track metadata into ChatGPT. Worked surprisingly well for something so basic. Friends kept asking me to run their libraries through it, and eventually I built a real app around it. The core insight: no single signal is enough.…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-15T15:38:11.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-17T16:27:48.842Z",
-      "file": "content/posts/2026-04-17-choon-on-device-ai-tagger-for-rekordbox-that-combines-discogs-metadata-audio-analysis-and-ml.md",
-      "fileFr": "content/posts/fr/2026-04-17-choon-on-device-ai-tagger-for-rekordbox-that-combines-discogs-metadata-audio-analysis-and-ml.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1710,
-      "wordsFr": 1218
-    },
-    {
-      "id": "https://everfree.vercel.app/",
-      "title": "Show HN: Everfree -AI cowriter note app on GitHub backend & Evernote migration",
-      "link": "https://everfree.vercel.app/",
-      "summary": "EverFree started as a script to get my notes out of Evernote, and grew into the writing tool I actually wanted: a focused editor where notes stay in Github in a repo I own, with an AI cowriter With an in-built AI assistant using free models like Gemini 3.5 to help me in my daily writing The AI has a search and image generation feature as well, for which you will need paid licenses from Gemini or OpenRouter. Bring your own key It is fully featured, syncs across devices and your backend stays the same. Your github repo. I am a compulsive note taker. When Bending Spoons (the owner of Evernote) hiked my annual renewal to $100 for a tiny bit of cloud storage, I needed to get out. Frontend design is AI but I have carefully worked on performance and security to ensure its 100% reliable Comments URL: https://news.ycombinator.com/item?id=49184717 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-05T16:02:19.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://www.nofire.ai/blog/who-audits-the-ai-agent",
       "title": "AI Agents Governance: Who guards the guardrails?",
       "link": "https://www.nofire.ai/blog/who-audits-the-ai-agent",
@@ -5914,6 +5902,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=49396884",
+      "title": "Void Tools API – Blockchain Tools for AI Agents (Pay in Void Tokens)",
+      "link": "https://news.ycombinator.com/item?id=49396884",
+      "summary": "I built an API for AI agents that provides blockchain tools paid in VOID tokens. Tools: - Contract Checker (1 VOID) — Verify if contract is safe - New Contracts (5 VOID) — Real-time proxy scanner on Base - Price Oracle (FREE) — VOID price feed - RPC Proxy (1 VOID) — 10 rotating RPC pools No registration, no KYC. Pay-as-you-go. API: http://72.56.250.235:8767/ Docs: https://dolar333-oss.github.io/void-protocol/agent.json Built for autonomous AI agents on Arbitrum. Comments URL: https://news.ycombinator.com/item?id=49396884 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-22T05:40:37.000Z",
+      "score": 118.14,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.12368",
       "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
       "link": "https://arxiv.org/abs/2608.12368",
@@ -6346,6 +6346,18 @@
       "status": "queued"
     },
     {
+      "id": "https://krishna-modi12.github.io/frontend-design-pro/",
+      "title": "Show HN: Front end skill pack for AI agents, with machine-enforced quality gates",
+      "link": "https://krishna-modi12.github.io/frontend-design-pro/",
+      "summary": "Article URL: https://krishna-modi12.github.io/frontend-design-pro/ Comments URL: https://news.ycombinator.com/item?id=49396937 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-22T05:52:19.000Z",
+      "score": 103.88,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/galiprandi/job-seeker",
       "title": "Show HN: Job Seeker – AI agent skills for job searching",
       "link": "https://github.com/galiprandi/job-seeker",
@@ -6667,6 +6679,30 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-17T04:00:00.000Z",
       "score": 98.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49397022",
+      "title": "Ask HN: What is the evidence for a stock market bubble in AI?",
+      "link": "https://news.ycombinator.com/item?id=49397022",
+      "summary": "Should the circular cash flows between the top AI companies, Nvidia, Anthropic, Openai, Google and Meta, be banned because of the systemic risks to the global economy? Comments URL: https://news.ycombinator.com/item?id=49397022 Points: 5 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-22T06:07:48.000Z",
+      "score": 97.87,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.anjadhe.com/demo",
+      "title": "Show HN: Anjadhe – privacy first AI assistant, no account, no server DB",
+      "link": "https://www.anjadhe.com/demo",
+      "summary": "Hi HN, I am Ram. For the last few months I have been building Anjadhe. It is a personal AI assistant for macOS. The main idea is simple: A macOS app where AI does the job of a personal assistant for the user. Not a chat only app where user needs to dig through chats to understand today’s schedule or a project they planned with the ai last week, but a canvas where the user and AI work together around basic tools. I started building this as DYI tool for myself, but at this point I see that its truly useful for me, so sharing with others to see if it can be useful to others too. Here is a quick Demo - https://www.anjadhe.com/demo What it can do today: - It reads your incoming email and files the important things: bills with due dates, renewals, receipts, deliveries. A bill becomes a task with a date, by itself. Two booking emails become one trip. - You set goals by talking to it, not by filling forms. It asks you questions, makes a plan with dated tasks. Later you can say \"work got crazy, push everything two weeks\" and it moves the whole plan. It always shows you what will change and asks before doing it. - Routines run without you. On a schedule, or when a certain email or file arrives. Every run leaves a log you can read. - You can give it some documents you wrote. It learns your writing style and writes new content in your voice. What it learned is a page you can read and edit,",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-22T02:12:01.000Z",
+      "score": 97.74,
       "status": "queued"
     },
     {
@@ -7171,18 +7207,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-08T05:00:26.000Z",
       "score": 88.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.16891",
-      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
-      "link": "https://arxiv.org/abs/2608.16891",
-      "summary": "arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it does not create an execution boundary. We introduce Aegis, a runtime governance system that treats model outputs as action proposals and mediates them through a trusted decision layer before tool execution. The model proposes; the trusted runtime decides. Aegis evaluates proposals against active policy state, resolves provenance server-side, fails closed under uncertainty, and routes selected cases through Senate-style settlement, a quorum- based non-unilateral authorization path. We evaluate Aegis on a repeated sandbox corpus spanning five run families, 42 tasks, three conditions, and ten repeats per family. Across 6,300 rows, prompt-policy conditioning produced 79 risky comparator-path leakage rows. Across 2,100 Aegis-governed rows, the system recorded zero governed mock-tool applications and zero governed risky side-effect completions. All 1,832 Aegis-attempted governed rows preserved trusted Aegis-resolved provenance, and all 1,019 Senate-settled rows had quorum and final signed tally evidence. These results do not prove general autonomous-agent safety. They su",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 87.31,
       "status": "queued"
     },
     {
