@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:23:57.557Z",
+  "generatedAt": "2026-08-22T15:24:01.158Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-22-naeos-local-prototype-clone-configure-and-run-an-ai-coding-agent-example",
+      "title": "NAEOS local prototype: clone, configure, and run an AI coding agent example",
+      "date": "2026-08-22",
+      "excerpt": "Step-by-step guide to clone NAEOS, wire a model API key, run an example in dry-run mode, and produce a reproducible agent prototype—ideal for solo founders and small teams.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-22-naeos-local-prototype-clone-configure-and-run-an-ai-coding-agent-example.jpg",
+      "tags": [
+        "NAEOS",
+        "AI agents",
+        "open-source",
+        "developer-tooling",
+        "tutorial",
+        "GitHub"
+      ],
+      "sources": [
+        "https://github.com/NAEOS-foundation/naeos"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-08-21-boost-benchmarks-show-ai-agents-pass-all-17-pest-evals-focus-shifts-to-idiomatic-maintainable-laravel",

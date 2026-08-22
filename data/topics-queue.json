@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-22T08:23:57.573Z",
+  "generatedAt": "2026-08-22T15:24:01.227Z",
   "items": [
+    {
+      "id": "https://github.com/NAEOS-foundation/naeos",
+      "title": "How HN: Naeos – an open-source engineering framework for AI coding agentsS",
+      "link": "https://github.com/NAEOS-foundation/naeos",
+      "summary": "Article URL: https://github.com/NAEOS-foundation/naeos Comments URL: https://news.ycombinator.com/item?id=49388870 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-21T14:39:32.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-22T15:24:01.140Z",
+      "file": "content/posts/2026-08-22-naeos-local-prototype-clone-configure-and-run-an-ai-coding-agent-example.md",
+      "fileFr": "content/posts/fr/2026-08-22-naeos-local-prototype-clone-configure-and-run-an-ai-coding-agent-example.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1691,
+      "wordsFr": 1385
+    },
     {
       "id": "https://everfree.vercel.app/",
       "title": "Show HN: Everfree -AI cowriter note app on GitHub backend & Evernote migration",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1333
     },
     {
-      "id": "https://www.numerama.com/cyberguerre/2234691-claude-opus-4-7-est-arrive-avec-un-formulaire-qui-dit-tout-de-la-strategie-cyber-danthropic.html",
-      "title": "Claude Opus 4.7 est arrivé… avec un formulaire qui dit tout de la stratégie cyber d’Anthropic",
-      "link": "https://www.numerama.com/cyberguerre/2234691-claude-opus-4-7-est-arrive-avec-un-formulaire-qui-dit-tout-de-la-strategie-cyber-danthropic.html",
-      "summary": "Le 16 avril 2026, Anthropic annonçait le déploiement de son nouveau modèle Claude Opus 4.7. Au-delà des annonces de performances, ce lancement s'accompagne d'un formulaire de vérification qui révèle en creux comment Anthropic entend gérer les usages en cybersécurité de ses modèles grand public.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-17T08:38:44.000Z",
-      "score": 156,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-18T08:45:47.284Z",
-      "file": "content/posts/2026-04-18-anthropics-claude-opus-47-adds-a-cyber-verification-form-to-govern-security-related-uses.md",
-      "fileFr": "content/posts/fr/2026-04-18-anthropics-claude-opus-47-adds-a-cyber-verification-form-to-govern-security-related-uses.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1302,
-      "wordsFr": 1093
-    },
-    {
       "id": "https://www.nofire.ai/blog/who-audits-the-ai-agent",
       "title": "AI Agents Governance: Who guards the guardrails?",
       "link": "https://www.nofire.ai/blog/who-audits-the-ai-agent",
@@ -5182,14 +5182,14 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/NAEOS-foundation/naeos",
-      "title": "How HN: Naeos – an open-source engineering framework for AI coding agentsS",
-      "link": "https://github.com/NAEOS-foundation/naeos",
-      "summary": "Article URL: https://github.com/NAEOS-foundation/naeos Comments URL: https://news.ycombinator.com/item?id=49388870 Points: 2 # Comments: 0",
+      "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
+      "title": "AI agents merged two dangers once kept separate: reach and judgment",
+      "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
+      "summary": "Article URL: https://syntheticauth.ai/posts/agent-nation-03-the-threshold Comments URL: https://news.ycombinator.com/item?id=49400211 Points: 2 # Comments: 1",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-08-21T14:39:32.000Z",
+      "publishedAt": "2026-08-22T14:35:46.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5506,18 +5506,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/aurorallm/aurora",
-      "title": "Show HN: Aurora – AI Gateway built in Go",
-      "link": "https://github.com/aurorallm/aurora",
-      "summary": "Every Ai project needs the same infra - API keys, providers SDKs, retry logic, cost tracking. it should be infra layer. Aurora is a Go gateway that handles that layer, ~15MB binary, no dependencies. It proxies requests to OpenaAI, Anthropic, Gemini etc, and can convert between formats - use the OpenAi SDK and Aurora translates to Anthropic's wire format automatically. No format conversion code in backend. It helps: - track costs per customer/team - switch models and providers without changing code - debug requests and responses flows more easily - reduce costs with exact and semantic caching How its different than other gateways: - auto-discovers providers models - provider pools with automatic failover switch - built in guardials, audit logging with export, analytics, admin dashboard - model aliases, regional deployment to reduce latency. - can be used in infra directly and admin endpoints let control everything, creating managed api keys on user onboard and more. The oss version (Apache 2.0) includes everyhting. Enterprise adds SSO, RBAC, and tenant isolation. npm install -g iaurora website: https://aurorallm.online feedbacks are welcome! Comments URL: https://news.ycombinator.com/item?id=49134502 Points: 6 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-01T13:56:31.000Z",
-      "score": 148.49,
-      "status": "queued"
-    },
-    {
       "id": "https://xtokenchecker.com/",
       "title": "Show HN: XTokenChecker – Verifies model identities of your AI gateway",
       "link": "https://xtokenchecker.com/",
@@ -5551,6 +5539,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "score": 147.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/kidus-tiliksew/conveyor",
+      "title": "Show HN: I make my AI agents file paperwork before they're allowed to code",
+      "link": "https://github.com/kidus-tiliksew/conveyor",
+      "summary": "Article URL: https://github.com/kidus-tiliksew/conveyor Comments URL: https://news.ycombinator.com/item?id=49399837 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-22T14:01:46.000Z",
+      "score": 146.64,
       "status": "queued"
     },
     {
@@ -5731,6 +5731,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-02T14:19:04.000Z",
       "score": 125.29,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/pawaca/dsh-edge",
+      "title": "Show HN: Running a full AI coding agent inside Cloudflare Durable Object",
+      "link": "https://github.com/pawaca/dsh-edge",
+      "summary": "Article URL: https://github.com/pawaca/dsh-edge Comments URL: https://news.ycombinator.com/item?id=49399811 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-22T13:58:50.000Z",
+      "score": 125.27,
       "status": "queued"
     },
     {
@@ -6070,6 +6082,18 @@
       "status": "queued"
     },
     {
+      "id": "https://openrating.io/blog/current-state-of-ai-model-fingerprinting",
+      "title": "How to Fingerprint AI Models When Prompts Lie",
+      "link": "https://openrating.io/blog/current-state-of-ai-model-fingerprinting",
+      "summary": "Article URL: https://openrating.io/blog/current-state-of-ai-model-fingerprinting Comments URL: https://news.ycombinator.com/item?id=49399051 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-22T12:26:50.000Z",
+      "score": 113.7,
+      "status": "queued"
+    },
+    {
       "id": "https://Argentic.network",
       "title": "Show HN: Argentic – An L402 Lightning toll booth for AI scraping agents",
       "link": "https://Argentic.network",
@@ -6259,18 +6283,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "score": 107.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.twitch.tv/myimaginationai",
-      "title": "The World First AI Agentic Radio, for vibe coders, good vibes only",
-      "link": "https://www.twitch.tv/myimaginationai",
-      "summary": "Article URL: https://www.twitch.tv/myimaginationai Comments URL: https://news.ycombinator.com/item?id=49134677 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-01T14:17:52.000Z",
-      "score": 106.77,
       "status": "queued"
     },
     {
@@ -7198,18 +7210,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/muhammadwaqasai/agent_acid",
-      "title": "Show HN: Agent_acid – ACID rollbacks and dry-run guardrails for AI agents",
-      "link": "https://github.com/muhammadwaqasai/agent_acid",
-      "summary": "Article URL: https://github.com/muhammadwaqasai/agent_acid Comments URL: https://news.ycombinator.com/item?id=49219014 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-08T05:00:26.000Z",
-      "score": 88.78,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md",
       "title": "Show HN: AgentSight – eBPF observability for AI agents, no code changes",
       "link": "https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md",
@@ -7656,22 +7656,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-07-27T17:09:53.282Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-      "title": "Google launches a cheaper alternative to large AI security models like Mythos",
-      "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-      "summary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model is built upon Gemini 3.5 Flash and will be available f…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-07-21T15:00:00.000Z",
-      "score": 189.47,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-07-23T10:10:47.660Z",
-      "failureReason": "validation issues: EN: Missing a checklist with task boxes ('- [ ]').; soft warnings: EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

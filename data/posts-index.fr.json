@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:23:57.561Z",
+  "generatedAt": "2026-08-22T15:24:01.162Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,31 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-22-naeos-local-prototype-clone-configure-and-run-an-ai-coding-agent-example",
+      "title": "Prototype local NAEOS : cloner, configurer et exécuter un agent de codage IA (UK)",
+      "date": "2026-08-22",
+      "excerpt": "Guide pas à pas pour cloner NAEOS, connecter une clé d'API modèle, lancer un exemple en mode dry-run et obtenir un prototype d'agent reproductible — conçu pour fondateurs solo, petites équipes et développeurs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-22-naeos-local-prototype-clone-configure-and-run-an-ai-coding-agent-example.jpg",
+      "tags": [
+        "NAEOS",
+        "prototype",
+        "agents",
+        "open-source",
+        "IA",
+        "développement"
+      ],
+      "sources": [
+        "https://github.com/NAEOS-foundation/naeos"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
