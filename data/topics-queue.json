@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T08:31:43.238Z",
+  "generatedAt": "2026-08-23T15:43:28.918Z",
   "items": [
     {
       "id": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
@@ -5194,30 +5194,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/thesanjeetc/parselbox",
-      "title": "Show HN: Parselbox – an embeddable Python sandbox for AI agents",
-      "link": "https://github.com/thesanjeetc/parselbox",
-      "summary": "Article URL: https://github.com/thesanjeetc/parselbox Comments URL: https://news.ycombinator.com/item?id=49388608 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-21T14:23:56.000Z",
-      "score": 160.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.19202",
-      "title": "Active Inference as Context Acquisition for AI Agents",
-      "link": "https://arxiv.org/abs/2608.19202",
-      "summary": "arXiv:2608.19202v1 Announce Type: new Abstract: Interactive AI agents must acquire the right context as efficiently as possible. When a user omits a constraint, preference, file, or task variable, an agent can proceed with a default assumption or spend tokens on a clarifying question, retrieval call, tool call, or prompt trial. We formulate this tradeoff as active inference for context acquisition. An inner inference step updates beliefs over a latent task state, and an outer decision selects the next context action, task action, or stop action to minimize expected free energy under cost. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. We instantiate the framework in Optimal Question Asking (OQA), with exact posteriors and a dynamic programming oracle, and benchmark frontier language models on binary and multiway categorical tasks from 25 to 300 candidates. We also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic and views active inference as a design principle for the context-acquisition layer of AI agents.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "score": 159.05,
-      "status": "queued"
-    },
-    {
       "id": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
       "title": "AI agents can't yet do open-ended AI research",
       "link": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
@@ -5239,30 +5215,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-13T14:48:03.000Z",
       "score": 156.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
-      "title": "A unified API for AI model routing",
-      "link": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
-      "summary": "Article URL: https://developers.googleblog.com/a-unified-api-for-ai-model-routing/ Comments URL: https://news.ycombinator.com/item?id=49171289 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-04T16:37:03.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2602.16763",
-      "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
-      "link": "https://arxiv.org/abs/2602.16763",
-      "summary": "Article URL: https://arxiv.org/abs/2602.16763 Comments URL: https://news.ycombinator.com/item?id=49170915 Points: 7 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-04T16:10:39.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5554,30 +5506,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/xcreener/xcreener-mcp",
-      "title": "Show HN: MCP server so AI agents can screen markets in plain English",
-      "link": "https://github.com/xcreener/xcreener-mcp",
-      "summary": "Article URL: https://github.com/xcreener/xcreener-mcp Comments URL: https://news.ycombinator.com/item?id=49145092 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-02T14:38:46.000Z",
-      "score": 142.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://rails-agent.com",
-      "title": "Show HN: Rails Agent – Build Autonomous AI Agents Natively in Ruby on Rails",
-      "link": "https://rails-agent.com",
-      "summary": "Rails Agent - The Fullstack Agentic Development Platform For Ruby on Rails. Build, Test, Deploy & Monitor in one single dashboard. Advanced alternative for RubyLLM and Active Agent Comments URL: https://news.ycombinator.com/item?id=49145011 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-02T14:25:01.000Z",
-      "score": 141.75,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.16890",
       "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
       "link": "https://arxiv.org/abs/2608.16890",
@@ -5695,18 +5623,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-12T14:38:19.000Z",
       "score": 126.35,
-      "status": "queued"
-    },
-    {
-      "id": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
-      "title": "Do Not Trust, Continuously Verify (Your AI Agents)",
-      "link": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
-      "summary": "Article URL: https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/ Comments URL: https://news.ycombinator.com/item?id=49144956 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-02T14:19:04.000Z",
-      "score": 125.29,
       "status": "queued"
     },
     {
@@ -6298,18 +6214,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-      "title": "Is paying artists enough to convince them to embrace AI?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-      "summary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles, but it's also given rise to a new wave of AI startups like Pippa that market their services as being more ethical than the competition. Like most companies selling access to text-to-video models, Pippa's main product is short bursts of user-generated footage that can be cobbled toget … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-02T13:00:00.000Z",
-      "score": 106.01,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/dburnett11155-rgb/Tokencompress",
       "title": "Tokencompress A sub-2ms Go CLI and MCP sidecar that prunes AI agent tool context",
       "link": "https://github.com/dburnett11155-rgb/Tokencompress",
@@ -6550,18 +6454,6 @@
       "status": "queued"
     },
     {
-      "id": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
-      "title": "Arrakis raises $8M for AI agent runtime security",
-      "link": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
-      "summary": "Article URL: https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls Comments URL: https://news.ycombinator.com/item?id=49144865 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-02T14:08:42.000Z",
-      "score": 100.65,
-      "status": "queued"
-    },
-    {
       "id": "https://nataliegwinters.substack.com/p/exclusive-china-is-building-ai-models",
       "title": "China Is Building AI Models of American Voters",
       "link": "https://nataliegwinters.substack.com/p/exclusive-china-is-building-ai-models",
@@ -6763,18 +6655,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "score": 96.73,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "score": 96.69,
       "status": "queued"
     },
     {
@@ -7042,18 +6922,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.alecvo.org/blog/types-with-ai/",
-      "title": "Types with AI: Working with LLMs Through Types",
-      "link": "https://www.alecvo.org/blog/types-with-ai/",
-      "summary": "Article URL: https://www.alecvo.org/blog/types-with-ai/ Comments URL: https://news.ycombinator.com/item?id=49144719 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-02T13:52:12.000Z",
-      "score": 92.31,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
       "title": "AI bots started a religion – humans followed",
       "link": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
@@ -7099,18 +6967,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "score": 91.41,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695",
-      "title": "OpenAI Lost Its AI Crown–and the Fight to Win It Back",
-      "link": "https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695 Comments URL: https://news.ycombinator.com/item?id=49144690 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-02T13:48:50.000Z",
-      "score": 90.86,
       "status": "queued"
     },
     {
@@ -7196,6 +7052,194 @@
       "publishedAt": "2026-08-08T05:01:16.000Z",
       "score": 88.92,
       "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "title": "OpenAI hit the brakes. Now what?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause in reinforcement learning training on its \"latest models intended for deployment,\" and an ongoing delay to its \"largest planned frontier RL run.\" The decision is a very public test of an idea AI safety advocates have pushed for for years: that companies should be willing to bow out of the AI race and slow things … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-19T17:10:09.000Z",
+      "score": 73.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "title": "Meta AI is getting a Mac app",
+      "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "summary": "Meta AI can create content and make suggestions based on what it “sees” on your screen. | Image: Meta Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The launch comes as Meta makes its AI chatbot more like a productivity-focused assistant to better compete with its AI rivals - many of which already have desktop apps. You can share your window with Google's Gemini AI app, while OpenAI's ChatGPT and Anthropic's Claude apps take things a step further by allowing the chatbots to take con … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-19T17:00:00.000Z",
+      "score": 67.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "score": 66.97,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "title": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "score": 61.3,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "title": "Scaling AI agents with trustworthy data",
+      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-12T16:51:57.000Z",
+      "score": 54.46,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "title": "It’s Greg Brockman’s OpenAI now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "summary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives have departed, including some of the company's biggest names. Throughout it all, one person has quietly amassed power: Greg Brockman. Brockman is currently OpenAI's president and cofounder. He's helped lead OpenAI since its inception, described as an \"engineering workhorse that pushed to build scaled-up systems that wou … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-20T15:45:55.000Z",
+      "score": 49.68,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "title": "Slack is launching collaborative vibe-coding channels",
+      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "score": 49.59,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+      "title": "Unlocking hidden revenue streams with market models",
+      "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-20T09:47:22.000Z",
+      "score": 49.55,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "title": "The builder’s guide to GPT‑5.6",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-13T11:00:00.000Z",
+      "score": 48.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/thesanjeetc/parselbox",
+      "title": "Show HN: Parselbox – an embeddable Python sandbox for AI agents",
+      "link": "https://github.com/thesanjeetc/parselbox",
+      "summary": "Article URL: https://github.com/thesanjeetc/parselbox Comments URL: https://news.ycombinator.com/item?id=49388608 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-21T14:23:56.000Z",
+      "score": 160.18,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-23T15:20:37.204Z",
+      "failureReason": "validation issues: FR: Missing at least one markdown table (decision frame or comparison).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19202",
+      "title": "Active Inference as Context Acquisition for AI Agents",
+      "link": "https://arxiv.org/abs/2608.19202",
+      "summary": "arXiv:2608.19202v1 Announce Type: new Abstract: Interactive AI agents must acquire the right context as efficiently as possible. When a user omits a constraint, preference, file, or task variable, an agent can proceed with a default assumption or spend tokens on a clarifying question, retrieval call, tool call, or prompt trial. We formulate this tradeoff as active inference for context acquisition. An inner inferenc…",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "score": 159.05,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-23T15:20:37.204Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler w…"
+    },
+    {
+      "id": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
+      "title": "A unified API for AI model routing",
+      "link": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
+      "summary": "Article URL: https://developers.googleblog.com/a-unified-api-for-ai-model-routing/ Comments URL: https://news.ycombinator.com/item?id=49171289 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-04T16:37:03.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-23T15:20:37.204Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://arxiv.org/abs/2602.16763",
+      "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+      "link": "https://arxiv.org/abs/2602.16763",
+      "summary": "Article URL: https://arxiv.org/abs/2602.16763 Comments URL: https://news.ycombinator.com/item?id=49170915 Points: 7 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-04T16:10:39.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-23T15:20:37.204Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
+    },
+    {
+      "id": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "score": 96.69,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-23T15:20:37.204Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://www.nofire.ai/blog/who-audits-the-ai-agent",
