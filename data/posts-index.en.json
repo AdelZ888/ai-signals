@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-08-23T08:31:43.224Z",
+  "generatedAt": "2026-08-24T08:43:40.074Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-08-24-conflicting-llm-guidance-left-a-developer-unsure-which-rce-remediation-to-run",
+      "title": "Conflicting LLM guidance left a developer unsure which RCE remediation to run",
+      "date": "2026-08-24",
+      "excerpt": "Two AI assistants flagged and prescribed fixes for a remote code execution bug, but they disagreed on commands and folder names. Learn why pausing and verifying matters.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-24-conflicting-llm-guidance-left-a-developer-unsure-which-rce-remediation-to-run.jpg",
+      "tags": [
+        "ai-safety",
+        "security",
+        "rce",
+        "model-comparison",
+        "incident-response",
+        "founder-advice",
+        "ops"
+      ],
+      "sources": [
+        "https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-08-23-ai-generated-proofs-and-the-verification-challenge-facing-mathematicians",
       "title": "AI-generated 'proofs' and the verification challenge facing mathematicians",

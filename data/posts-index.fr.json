@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-08-23T08:31:43.227Z",
+  "generatedAt": "2026-08-24T08:43:40.077Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-24-conflicting-llm-guidance-left-a-developer-unsure-which-rce-remediation-to-run",
+      "title": "Des conseils contradictoires de LLM ont laissé un dev incertain sur la commande à lancer pour corriger une RCE",
+      "date": "2026-08-24",
+      "excerpt": "Deux assistants IA ont détecté et proposé des remèdes pour une exécution de code à distance (RCE), mais ils ont divergent sur les commandes et noms de dossiers. Pourquoi il faut faire une pause, vérifier et préserver les preuves avant d'agir.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-24-conflicting-llm-guidance-left-a-developer-unsure-which-rce-remediation-to-run.jpg",
+      "tags": [
+        "sécurité",
+        "RCE",
+        "LLM",
+        "devops",
+        "startups",
+        "ops",
+        "France"
+      ],
+      "sources": [
+        "https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-23-ai-generated-proofs-and-the-verification-challenge-facing-mathematicians",
       "title": "« Preuves » générées par l'IA et le défi de vérification pour les mathématiciens",

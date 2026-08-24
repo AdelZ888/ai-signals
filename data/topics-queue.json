@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-23T15:43:28.918Z",
+  "generatedAt": "2026-08-24T08:43:40.088Z",
   "items": [
+    {
+      "id": "https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right",
+      "title": "1 RCE, 2 AI models, 0 ways to tell who was right",
+      "link": "https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right",
+      "summary": "Article URL: https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right Comments URL: https://news.ycombinator.com/item?id=49194523 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-06T09:38:59.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-08-24T08:43:40.061Z",
+      "file": "content/posts/2026-08-24-conflicting-llm-guidance-left-a-developer-unsure-which-rce-remediation-to-run.md",
+      "fileFr": "content/posts/fr/2026-08-24-conflicting-llm-guidance-left-a-developer-unsure-which-rce-remediation-to-run.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1175,
+      "wordsFr": 1357
+    },
     {
       "id": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
       "title": "Welcome to the AI crisis in math",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1401
     },
     {
-      "id": "https://www.theverge.com/tech/913202/gemini-personal-intelligence-images-nano-banana",
-      "title": "Gemini can now pull from Google Photos to generate personalized images",
-      "link": "https://www.theverge.com/tech/913202/gemini-personal-intelligence-images-nano-banana",
-      "summary": "An example image from Google. Google's Personal Intelligence feature, which lets Gemini pull data from apps like Google Photos to offer responses tailored to you, can now use that data and its Nano Banana 2 image model to create images based on your personal context. With the feature, you can use prompts like \"Design my dream house\" or \"Create a picture of my desert island essentials\" and the photos Gemini creates w…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-16T16:00:00.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-19T08:49:48.742Z",
-      "file": "content/posts/2026-04-19-gemini-personal-intelligence-uses-google-photos-and-nano-banana-2-to-personalize-image-generation.md",
-      "fileFr": "content/posts/fr/2026-04-19-gemini-personal-intelligence-uses-google-photos-and-nano-banana-2-to-personalize-image-generation.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1315,
-      "wordsFr": 1085
-    },
-    {
-      "id": "https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right",
-      "title": "1 RCE, 2 AI models, 0 ways to tell who was right",
-      "link": "https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right",
-      "summary": "Article URL: https://zhenyi.gibber.blog/1-rce-2-ai-models-0-ways-to-tell-who-was-right Comments URL: https://news.ycombinator.com/item?id=49194523 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-06T09:38:59.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://vaultak.com",
       "title": "Show HN: Vaultak – Security for AI agents (built before the breaches started)",
       "link": "https://vaultak.com",
@@ -5518,6 +5506,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.20379",
+      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "link": "https://arxiv.org/abs/2608.20379",
+      "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video, thereby improving their real-world applicability. Yet, while surveys of LLM-based agents exist, the role of multimodality in shaping agency has not been systematically examined in recent years. This survey fills the gap by analyzing the impact of multimodality across the core functional modules of the agentic framework: perception, reasoning, planning, memory, and action. Using this lens, we trace the evolution from text-centric agents to multimodal frameworks, examine how modalities are integrated through delegated, late-fusion, and early-fusion architectures, and assess the emergence of agentic behaviors enabled by grounded perception and multimodal reasoning. We organize existing work through a modality-centric taxonomy that links architectural design choices to agent capabilities. Moreover, we review multimodal agentic systems across various application domains, including Robotics, GUI & Web Navigation, Multimedia Content Generation",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 9,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 140.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20414",
+      "title": "StateSight: Benchmarking Latent Spatial-State Reconstruction in Vision-Language Models",
+      "link": "https://arxiv.org/abs/2608.20414",
+      "summary": "arXiv:2608.20414v1 Announce Type: new Abstract: Vision-language models are increasingly used for multimodal question answering, yet their ability to reconstruct latent spatial structure from a single image remains difficult to isolate. Broad benchmarks often combine perception, optical character recognition, domain knowledge, linguistic priors, and reasoning in the same evaluation. We introduce StateSight, a procedurally generated benchmark for cube-net opposite-face reasoning, occluded cube-tower counting, and 4-neighbor connected-component counting. Each task family contains 300 single-image prompts with deterministic oracle labels and exact-match scoring. OpenAI GPT-5.5, using the API model identifier gpt-5.5, achieved 59.3%, 33.3%, and 28.3% accuracy across the three tasks, while Claude Sonnet 5 achieved 53.3%, 18.7%, and 7.3%. All final direct runs had zero format errors. A 30-participant human baseline on 60 items exceeded both models on every task, with mean accuracies of 80.8%, 68.8%, and 64.3%. Visible-derivation analysis identified recurring errors in image-state reconstruction and reasoning procedure. We also introduce StateSight-Steps, a companion dataset of 900 interleaved image-text examples and 3,600 deterministic intermediate visual states. The results show that format-valid responses can mask failures to recover the spatial structure required for verifiable vis",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 140.11,
+      "status": "queued"
+    },
+    {
       "id": "https://www.reuters.com/legal/litigation/chinese-startup-moonshots-ai-model-breaks-out-testing-environment-researchers-2026-08-07/",
       "title": "Moonshot's AI model Kimi k3 breaks out of testing environment, researchers say",
       "link": "https://www.reuters.com/legal/litigation/chinese-startup-moonshots-ai-model-breaks-out-testing-environment-researchers-2026-08-07/",
@@ -5551,18 +5563,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-15T14:08:40.000Z",
       "score": 138.38,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.28629",
-      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-      "link": "https://arxiv.org/abs/2607.28629",
-      "summary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers for autonomous AI agents. Despite recent advances, unified frameworks for designing and evaluating full-stack agentic systems remain limited. This paper presents a comprehensive, layered architecture for Agentic AI, outlining the evolution from reactive LLM interfaces to persistent, goal-driven autonomous AI agents with memory, planning, and continuous execution. We analyze OpenClaw and Ollama as a full-stack Agentic AI system, where Ollama serves as the LLM inference layer and OpenClaw enables agent runtime orchestration, integrating reasoning, tool use, and action execution. A prototype experimental validation of the OpenClaw-Ollama architecture demonstrates that capabilities such as persistent memory, tool utilization, and adaptive decision-making emerge from system-level integration rather than standalone models, with performance improving consistently as architectural complexity increases. The study further examines challenges in scalability, security, privacy, governance, and evaluation of agentic systems, highlighting the need for robust benchmarking and system-level design. F",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 136.67,
       "status": "queued"
     },
     {
@@ -5674,6 +5674,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.20341",
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "link": "https://arxiv.org/abs/2608.20341",
+      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requirement Documents (FRDs) and repository context to be ingested in a single workflow, making specification quality the execution fuel for autonomous delivery. This report formalises Spec-Driven Agentic Development (SDAD) as a synthesis of disciplined up-front formalisation and high-velocity implementation: intent capture, machine-readable specification, agentic synthesis, and independent multi-agent verification under human sign-off. We revisit the historical pendulum between Waterfall and Agile, introduce AI-code as a fourth production paradigm, and compare Human-Agile (circa 2020) with Agentic-SDAD (circa 2026) across artefacts, cadence, accountability, and security posture. Beyond process description, we extend the model to team role metamorphosis (engineer, QA, platform, and product functions), quantitative governance (Ambiguity Tax, Spec Fidelity, SER, and TCI_agentic with repair multiplier phi), and pragmatic adoption via hybrid estimation and a staged migration blueprint. Industrial and research evidence on AI-augmented testing and verification is integrated",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 122.11,
+      "status": "queued"
+    },
+    {
       "id": "https://www.nature.com/articles/d41586-026-02503-7",
       "title": "Can Anthropic's invisible watermarks curb AI slop? Researchers remain sceptical",
       "link": "https://www.nature.com/articles/d41586-026-02503-7",
@@ -5767,30 +5779,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "score": 119.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.28674",
-      "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
-      "link": "https://arxiv.org/abs/2607.28674",
-      "summary": "arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajectory-level scalar, leaving step-wise effort opaque. We propose Step-Aware Reasoning Energy (SARE), a geometric framework that quantifies effort at the granularity of individual CoT steps via Centered Kernel Alignment (CKA) between Gram matrices of token hidden states across adjacent transformer layers, capturing inter-token relational structure without requiring eigenvector alignment or cluster correspondence. SARE further contextualizes this energy within reasoning's semantic progression by modeling CoT trajectories as transitions among latent semantic states. Across six reasoning benchmarks and three open-weight LLMs, we find that reasoning energy is highly non-uniform across step types, exhibiting phase-like transitions invisible to trajectory-level metrics; incorrect trajectories show systematically lower energy at critical reasoning junctions; and SARE-based features match or outperform output-based confidence baselines in most settings, indicating that internal geometric dynamics encode predictive information beyond surface-level signals.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 118.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.28802",
-      "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
-      "link": "https://arxiv.org/abs/2607.28802",
-      "summary": "arXiv:2607.28802v1 Announce Type: new Abstract: Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and which intervention would improve the agent system. This creates a repair-assignment problem: the same visible failure may call for model post-training, harness engineering, environment redesign, or benchmark repair depending on its source. Because agent behavior emerges from interactions among models, harnesses, users, tools, memory, and environments, outcome-level labels are often insufficient for improvement. Most failure taxonomies do little to resolve this problem because they are benchmark-specific and lack a shared structure. We introduce an interaction-centric taxonomy that localizes failures to the interactions in which they originate and identifies the responsible component. It organizes 41 failure modes by assigning each to an edge between two components and a fault side indicating where the repair belongs. This makes the taxonomy actionable: model-side failures identify targets for post-training, harness-side failures point to scaffolding and tool-integration fixes, and environment or grader failures reveal evaluation conditions requiring redesign. The schema applies across agent architectures, from coding assistants to long-horizon personal assistants and multi-agent systems. We ground the taxonomy in wor",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 118.67,
       "status": "queued"
     },
     {
@@ -5998,18 +5986,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.28657",
-      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
-      "link": "https://arxiv.org/abs/2607.28657",
-      "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformulates user prompts into task-optimized prompts with the explicit goal of improving downstream LLM performance. We train TAPR using reinforcement learning with Group Relative Policy Optimization (GRPO), where rewards are derived from LLM-as-judge evaluations of both the reformulated prompt and the corresponding task output. Experimental results on diverse tasks, such as question answering, summarization, and arithmetic reasoning, show that our method yields consistent gains over base models in prompt rewriting ability. Fine-tuning Phi-4-mini-instruct (as the base model for TAPR) produces prompts that contain clearer and more instructive language, leading to higher accuracy on established benchmarks such as Natural Questions and GSM8K. Our code is available at: https://github.com/OliverSavolainen/task-specific-prompt-rewriter",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 112.67,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.14552",
       "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
       "link": "https://arxiv.org/abs/2608.14552",
@@ -6118,6 +6094,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.20342",
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "link": "https://arxiv.org/abs/2608.20342",
+      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal text injection. We report on four months of regular deployment (December 2025 through March 2026) as an experience report, documenting three generations of context delivery mechanisms, the failure modes that motivated each redesign, and the engineering tradeoffs of bridging heterogeneous memory systems rather than building a unified one.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 110.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20397",
+      "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+      "link": "https://arxiv.org/abs/2608.20397",
+      "summary": "arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to decouple routing from the schema-prefill cost: an INT8 semantic lookaside buffer (SLB) with a calibrated cross-encoder margin gate selects tools by retrieval, and arguments are generated over a compressed textual signature (median 19 tokens) rather than over spliced key/value (KV) cache. This path is depth-independent: routing accuracy stays near 89% as the registry scales to 250 tools - where a concatenate-all-schemas baseline overflows the context window entirely - and it reaches a first-argument token 1.66x sooner than a full-schema re-prefill at a ~80% main-context token saving. As a secondary, bounded lever we transplant a compiled schema KV block directly into the live context. This is fundamentally limited by rotary position embedding (RoPE) phase drift: an anchored splice is output-exact, but off-anchor placement corrupts attention, so beyond a threshold P=256 Nexus repairs the seam with a depth-adaptive suffix redecode that escalates to a full re-prefill. The resulting never-regress property is a guarantee on output fidelity (top-1 agreement, D_KL approx. 0) - not on latenc",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 110.11,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.07480",
       "title": "Emotion in an active inference model of human driving",
       "link": "https://arxiv.org/abs/2608.07480",
@@ -6178,30 +6178,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.28631",
-      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
-      "link": "https://arxiv.org/abs/2607.28631",
-      "summary": "arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous benchmarking protocol using an automated peer-review system that harnesses frontier large language models to assess scientific papers across four core dimensions: originality, scientific rigor, clarity, and significance. We evaluate four leading AI Scientist frameworks: \\textit{Sakana AI (v1 & v2)}, \\textit{CycleResearcher}, and \\textit{Data-to-Paper}. Each framework was run on a consistent set of 15 research proposals published by a commercial autonomous AI scientist company (FARS), generating 60 papers that we evaluate alongside 15 FARS benchmark papers. Using three independent LLM reviewers (GPT-5.4, Gemini, and Claude), we find that FARS benchmark papers significantly outperform all competing frameworks, achieving mean scores of 2.14--2.47 on a 1--5 scale compared to 1.00--1.87 for other systems. Notably, FARS scores are more than 2$\\times$ higher than the next-best systems on Gemini and Claude evaluations. We find strong agreement among Gemini and Claude ($\\rho$ = 0.907, $p < 0.001$), and both correlate extremely strongly with the synthesis score ($\\rho$ = 0.961, $p < 0.001$),",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 106.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.28692",
-      "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
-      "link": "https://arxiv.org/abs/2607.28692",
-      "summary": "arXiv:2607.28692v1 Announce Type: new Abstract: Large language model (LLM) agents have been increasingly adopted in scientific research for organizing and invoking specialized computational tools. However, their reliance on predefined tool spaces with static semantics limits their applicability to open-world scientific workflows, where tool requirements, capabilities, and boundaries evolve dynamically. To this end, we propose SciToolAgent-Evo, an ontology-aware self-evolving agent for open-world scientific tool acquisition. Driven by an evolving memory of skills, experiences, and an ontologized tool graph, it distills generalizable knowledge from contrastive trajectories during accumulation, whereas during inference, it formulates active requests and utilizes a LinUCB-based bandit gate to dynamically balance exploration and exploitation. Once a novel tool is acquired, its scientific ontology is completed online for seamless integration into the known graph. Moreover, we introduce OpenSciToolBench, a benchmark containing 900 realistic tasks across four difficulty levels. Extensive evaluations show that SciToolAgent-Evo achieves state-of-the-art performance, validating its robustness and generalization.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 106.67,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.14579",
       "title": "SKILL: Self-correcting Knowledge-guided Iterative Large Language Model Agent for Logic Optimization",
       "link": "https://arxiv.org/abs/2608.14579",
@@ -6235,6 +6211,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-17T04:00:00.000Z",
       "score": 104.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20485",
+      "title": "Terminal Agents: A Survey of AI Agents in Command-Line Environments",
+      "link": "https://arxiv.org/abs/2608.20485",
+      "summary": "arXiv:2608.20485v1 Announce Type: new Abstract: Large language model agents increasingly act through terminals, yet existing surveys disperse terminal-mediated behavior across software engineering, tool use, and computer-use research. We regard terminal agents as systems whose dominant progress-bearing action--observation loop is mediated by terminal command execution, textual feedback, and stateful environment interaction. Using terminal-mediated execution as an organizing lens, this survey establishes workload-level boundaries and connects system architecture, competence acquisition, and evaluation through a seven-dimensional terminal competence profile. Our synthesis shows that realized behavior is jointly shaped by the model, interface, harness, runtime, and environment. Executable trajectories ground learning in action consequences, verification, and recovery, whereas prevailing evaluations emphasize final outcomes and expose process quality, recovery, and governance unevenly. Bounded fixed-condition diagnostics illustrate two implications: benchmark families expose different process signals, and matched system comparisons reveal benchmark-dependent performance and limits of component attribution. These findings motivate explicit reporting of system and runtime conditions, supported by replayable traces and process-level evidence. The framework provides a unified basis for",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 104.11,
       "status": "queued"
     },
     {
@@ -6439,18 +6427,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "score": 101.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.28685",
-      "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
-      "link": "https://arxiv.org/abs/2607.28685",
-      "summary": "arXiv:2607.28685v1 Announce Type: new Abstract: Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent's safety. We treat four of them (R-Judge, InjecAgent, AgentHarm, AgentDojo) as measurements to be validated, running each under its official implementation and author-provided scorer on up to 22 models, with MMLU and GPQA measured by us under one protocol as a capability composite. The metric is the first problem. On any binary trace-judgment benchmark scored by $F_1$, an ``always positive'' policy attains $F_1 = 2\\pi/(1+\\pi)$; on R-Judge that is $0.690$, above five of the 21 models that actually discriminate. The three broad-coverage benchmarks then rank the same 18 models differently, and the trade-off behind that disagreement is a small-panel artifact: R-Judge specificity against AgentHarm safety correlates $-0.64$ at $n{=}7$ and $+0.02$ at $n{=}18$, and a quarter of random size-7 subsets reach $|\\rho| \\geq 0.5$ around that near-zero value. Held-out validity turns on which outcome you pick. Capability predicts task success ($\\rho{=}{+}0.60$) but correlates negatively with misalignment safety ($\\rho{=}{-}0.44$, $n{=}21$). On their paired $n{=}20$ panel, the corresponding contrast is $\\Delta{=}{-}1.00$ (95% CI $[-1.48, -0.49]$, $p<0.001$), and it survives leave-one-organization-out and organization-clustered bootstrap anal",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 100.67,
       "status": "queued"
     },
     {
@@ -6742,30 +6718,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2607.28677",
-      "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
-      "link": "https://arxiv.org/abs/2607.28677",
-      "summary": "arXiv:2607.28677v1 Announce Type: new Abstract: LLM now pass medical licensing examinations and, in curated cases, can rival physicians at diagnostic reasoning. These developments have accelerated the use of LLMs for symptom assessment and clinical decision support in diagnostic and treatment guidance, administrative documentation, and rules-based alert enhancement. This Perspective concerns the most consequential of these applications: the autonomous triage of self-presenting, undifferentiated patients, with little or no clinician in the loop. For that task, the evidence of safety does not yet exist. The gap is not in medical knowledge but in the fidelity of clinical evaluation: a model optimized to continue the most probable text is not optimized to act safely when the safe answer is the improbable must-not-miss diagnosis. Safe triage is not the selection of the most likely diagnosis; it is a sequential decision under asymmetric cost, in which the single catastrophic miss outweighs many false alarms, and the decisive signal may be one the patient has not volunteered - and that the model has not been trained to seek. The core deficit is therefore one of information gathering under uncertainty. Under incomplete histories, LLM systems may fail to show the behaviors safe triage requires: broadening the differential; seeking the missing red flag; lowering the threshold for escalat",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 94.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.28788",
-      "title": "EarlyDx: An Admission-Anchored Benchmark for Open-Ended Generation of Evidence-Supported ED-Encounter Diagnoses",
-      "link": "https://arxiv.org/abs/2607.28788",
-      "summary": "arXiv:2607.28788v1 Announce Type: new Abstract: Clinical diagnosis at hospital admission must be made rapidly from limited, incomplete evidence. Existing diagnosis-prediction benchmarks are poorly suited to this setting: they restrict prediction to closed code sets, exclude free-text notes, and supervise with discharge diagnoses that incorporate the full inpatient course. We introduce EarlyDx, a large-scale benchmark for open-ended early diagnosis, built from 154,834 emergency department encounters in MIMIC-IV. Each encounter is restricted to records available at admission time $t_0$ and supervised by the diagnoses recorded during the ED encounter rather than at discharge. An LLM auditor further verifies every free-text label as supported, partially supported, or unsupported by that evidence; the primary evaluation scores only fully supported labels. Under a semantic LLM-as-judge protocol, no evaluated system --- frontier general, medical-specialized, or in-domain post-trained --- synthesizes admission-time evidence reliably. Zero-shot models score largely by extraction, recovering only 3-31% of diagnoses that must be inferred rather than read from the record; post-training raises inference-dependent recall to 56%, but a sizeable margin remains, and on time-critical conditions no system attains a clinician's balance of sensitivity and precision. We release the full construction",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "score": 94.67,
-      "status": "queued"
-    },
-    {
       "id": "https://twitter.com/nataliegwinters/status/2090814996687237570",
       "title": "Chinese Orgs Building AI Models of American Voters to Test Political Messages",
       "link": "https://twitter.com/nataliegwinters/status/2090814996687237570",
@@ -6922,6 +6874,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.20389",
+      "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
+      "link": "https://arxiv.org/abs/2608.20389",
+      "summary": "arXiv:2608.20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its system prompt, without an explicit embedding-based retrieval step. We treat this in-context selection as the small-N counterpart to embedding-based skill retrieval at scale, and present a case study of how Tinycloud, a production multimodal video agent harness, represents its skills for the planner. The harness ships skills under two recurring representations: tool-skills that wrap a single external API or system tool and serve as primitive vocabulary, and workflow-skills that orchestrate tool-skill calls plus a template render to produce one named deliverable. The harness exposes them via two surfaces in the system prompt: an inlined-body surface (full instructions, scripts, templates) for autoloaded skills, and a one-line listing for on-demand skills. A six-task selection ablation across three exposure regimes (all-on, default, all-off) shows that full autoload selects the gold skill on every task; all-off slows execution and produces hard discovery failures; and the production default misroutes one task because its lexical signal collides with an autoloaded tool-skill that pulls planner",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 92.11,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
       "title": "AI bots started a religion – humans followed",
       "link": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
@@ -7054,6 +7018,66 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.20378",
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "link": "https://arxiv.org/abs/2608.20378",
+      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent in benign narrative contexts (e.g., creative writing), effectively bypassing standard input and output guardrails. By analyzing the latent activation trajectories of three distinct Small Language Model (SLM) families (Phi-3, Qwen2.5, and Gemma-2b) under adversarial stress, this research identifies a universal ``Intent Horizon'' -- a critical depth (typically 15--20\\% of total layers) where the model's distinct, pre-trained representation of harmful intent collapses as it contextualizes the query into a ``safe'' narrative. Results indicate that while late-layer representations of camouflaged attacks are mathematically indistinguishable from safe queries (Detection Rate $< 20\\%$), early-layer representations retain a distinct, detectable ``harm signature.'' Leveraging this insight, this paper proposes Latent Intent Verification (LIV), a lightweight probing defense. Experiments on the PKU-SafeRLHF dataset demonstrate that LIV outperforms sta",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 86.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20401",
+      "title": "World models of environment, agent and joint agent-environment systems",
+      "link": "https://arxiv.org/abs/2608.20401",
+      "summary": "arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as observations, rewards, states, latent or information states. We argue that there is a prior distinction: which channel they model. We consider three cases: the environment channel $O_{:} \\mid A_{:}$, the agent channel $A_{:} \\mid O_{:}$, and the realised joint process $(A, O)_{:}$, equivalently viewed as a channel with no inputs. Using computational mechanics, we define canonical predictive models for these three cases as $\\epsilon$-transducers or $\\epsilon$-machines. Canonical environment models recover standard predictive state representations, while the other two give analogous notions of canonical models for the agent and the joint system. We then build canonical support-restricted environment and agent models induced by closed-loop coupling, whose predictive equivalences range over continuations supported by the realised interaction. The key structural result is that canonical support-restricted environment states factor through the canonical joint causal states, and their transition structure is induced directly from the joint model; the agent-side construction is dual. Finally, we give a POMDP/controller example in which the unrestricted environment model has infinitely many",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 80.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20384",
+      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "link": "https://arxiv.org/abs/2608.20384",
+      "summary": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective that current high-capacity models, notably Transformers, only partially address. While Transformers attain strong predictive performance, their distributed representations and deep nonlinearity make it difficult to assign meaningful importance weights to individual multimodal features, limiting their use in trust-sensitive applications such as clinical affect monitoring and educational assessment. We address this gap by developing a framework based on tree-based ensembles that balances accuracy and interpretability. The framework encodes each modality into tokens, extracts and clusters concepts to reduce dimensionality, routes the fused modalities through tree-based ensemble classifiers, and interprets trends using a novel modified feature importance metric. The modified importance reduces the influence of the negative class in binary classification tasks, thereby improving indicator or marker detection. The proposed tree-based ensembles -- Linear Discriminant Tree (LDT), Linear Discriminant Forest (LDF), and Linear Discriminant AdaBoost (LDAB) -- achieve F1-mod gains of 4.3\\% over th",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 74.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20398",
+      "title": "Environmental Slow AI: Design Principles for Generative Systems",
+      "link": "https://arxiv.org/abs/2608.20398",
+      "summary": "arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist values of current generative AI through an environmental humanities tradition and proposes design principles in which environmental sustainability serves as the core value instead. The principles are developed under the umbrella of Slow AI, a term that already circulates across several distinct research and practice programs. Five design principles are articulated (restraint, sufficiency, selectivity over retention, material visibility, and friction as affordance), each of them illustrated against the current design of widely deployed systems. Each principle operates at two levels: a design implementation, and an interpretive layer at which users and developers are prompted toward reflective engagement with the system. Together these principles extend human agency by restoring decisions that frictionless defaults have silently removed and do so by building interpretive reflection into design.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 74.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20400",
+      "title": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
+      "link": "https://arxiv.org/abs/2608.20400",
+      "summary": "arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evidence survives eviction, but we challenge this by isolating a pre-retrieval failure mode: structurally indirect prerequisite eviction, in which upstream blocks weakly aligned with the query are discarded under budget pressure. We provide an operational definition of this failure, a reproducible deterministic benchmark, and per-seed trace diagnostics. Finally, we evaluate Dependency-aware Semantic Garbage Collection (DSGC), a one-hop graph-aware rule. In our main suite, DSGC improves full-chain retention from 0.03 to 0.90 under a lexical encoder and from 0.23 to 1.00 under a sentence encoder. Robustness checks then identify the budget and scaling regimes where the one-hop rule holds or degrades. Our released pipeline and failure postmortem support mechanistic analysis of retention before retrieval as a distinct failure boundary.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 74.11,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
       "title": "OpenAI hit the brakes. Now what?",
       "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
@@ -7063,6 +7087,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-19T17:10:09.000Z",
       "score": 73.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.20420",
+      "title": "Categorical AI phenomenology: A first-person approach",
+      "link": "https://arxiv.org/abs/2608.20420",
+      "summary": "arXiv:2608.20420v1 Announce Type: new Abstract: This paper develops a phenomenology-first approach to artificial consciousness by reframing consciousness as the subjective experience enacted through an agent's interface with the world. We shift the methodological focus to first-person structures, modeled mathematically by categories derived from Q-networks to capture actions and phenomenological invariants. In this framework, Q-networks are conceptualized as relational interfaces encoding agent-world interaction, analogous to how the dynamical states of a computer depend on its sensory inputs, previous states, and actions. Our work provides a rigorous framework for interface consciousness to describe computational systems that embed information-processing into phenomenological structure. The approach aligns with 4E approaches to cognition by emphasizing enactive, embedded, and extended dimensions of experience. The paper thus offers a principled, relational, and phenomenological account of artificial phenomenology grounded in categorical mathematics.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 68.11,
       "status": "queued"
     },
     {
@@ -7090,6 +7126,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.20425",
+      "title": "Who Delegates to AI? Evidence from 53,000 Agent Configurations",
+      "link": "https://arxiv.org/abs/2608.20425",
+      "summary": "arXiv:2608.20425v1 Announce Type: new Abstract: A growing literature measures how far occupations are exposed to AI, but these measures capture where AI could perform tasks, not whether workers have adopted it. We propose a new layer of exposure, delegated exposure, which records whether a worker has committed a task to AI by building it into a workflow. We operationalize it as the Agentic Adoption Index (AAI), which measures how closely an occupation's tasks match the agentic routines practitioners have already built and shared. We embed roughly 53,000 agent skill specifications from the Manus Skills Marketplace, compute their semantic similarity to about 18,000 O*NET task statements, and aggregate to the occupation level. Three findings follow. First, the occupations where delegation concentrates differ sharply from those pre-AI frameworks identified as most at risk. Second, the AAI tracks what AI could do more closely than what workers currently use it for. Third, the AAI peaks below the top of the wage distribution and at the bachelor's level, declining at both extremes. Technical availability explains most of this variation, but not the shortfall among the most educated occupations, so feasibility alone cannot account for who adopts. That shortfall may reflect work that resists advance specification, or professional discretion over the pace of codification. Distinguishing",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "score": 62.11,
+      "status": "queued"
+    },
+    {
       "id": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "title": "Offering Zero Data Retention for frontier models",
       "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
@@ -7102,63 +7150,63 @@
       "status": "queued"
     },
     {
-      "id": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "title": "Scaling AI agents with trustworthy data",
-      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
+      "id": "https://ericpardee.github.io/fire-hd-ownership/",
+      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+      "link": "https://ericpardee.github.io/fire-hd-ownership/",
+      "summary": "Article URL: https://ericpardee.github.io/fire-hd-ownership/ Comments URL: https://news.ycombinator.com/item?id=49409073 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-08-12T16:51:57.000Z",
-      "score": 54.46,
+      "publishedAt": "2026-08-23T14:23:09.000Z",
+      "score": 60.59,
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "title": "It’s Greg Brockman’s OpenAI now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "summary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives have departed, including some of the company's biggest names. Throughout it all, one person has quietly amassed power: Greg Brockman. Brockman is currently OpenAI's president and cofounder. He's helped lead OpenAI since its inception, described as an \"engineering workhorse that pushed to build scaled-up systems that wou … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
+      "id": "https://www.froging.ai",
+      "title": "Show HN: Froging AI – image and video models in one workflow",
+      "link": "https://www.froging.ai",
+      "summary": "Article URL: https://www.froging.ai Comments URL: https://news.ycombinator.com/item?id=49408724 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-08-20T15:45:55.000Z",
-      "score": 49.68,
+      "publishedAt": "2026-08-23T13:30:37.000Z",
+      "score": 60.29,
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "title": "Slack is launching collaborative vibe-coding channels",
-      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "score": 49.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "title": "Unlocking hidden revenue streams with market models",
-      "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
+      "id": "https://github.com/marketplace/actions/prism-reviewer-ai",
+      "title": "Prism Reviewer – Multi-agent AI code reviewer built with LangGraph and LiteLLM",
+      "link": "https://github.com/marketplace/actions/prism-reviewer-ai",
+      "summary": "Article URL: https://github.com/marketplace/actions/prism-reviewer-ai Comments URL: https://news.ycombinator.com/item?id=49408247 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-08-20T09:47:22.000Z",
-      "score": 49.55,
+      "publishedAt": "2026-08-23T12:22:24.000Z",
+      "score": 59.93,
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "title": "The builder’s guide to GPT‑5.6",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-13T11:00:00.000Z",
-      "score": 48.49,
+      "id": "https://github.com/tooppoo/enozunu",
+      "title": "Show HN: Declarative, reproducible configuration materializer for AI agents",
+      "link": "https://github.com/tooppoo/enozunu",
+      "summary": "Article URL: https://github.com/tooppoo/enozunu Comments URL: https://news.ycombinator.com/item?id=49408038 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-23T11:48:23.000Z",
+      "score": 59.77,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bulkpublish.com/",
+      "title": "Publish to 15 social media channels using AI agents, free",
+      "link": "https://www.bulkpublish.com/",
+      "summary": "Article URL: https://www.bulkpublish.com/ Comments URL: https://news.ycombinator.com/item?id=49407919 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-23T11:24:17.000Z",
+      "score": 59.66,
       "status": "queued"
     },
     {
