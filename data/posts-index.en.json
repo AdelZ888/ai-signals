@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:43:40.074Z",
+  "generatedAt": "2026-08-24T15:43:54.547Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-24-create-auditable-model-risk-tests-from-felonybenchs-feloniesjson-for-ci-pipelines",
+      "title": "Create auditable model-risk tests from FelonyBench's felonies.json for CI pipelines",
+      "date": "2026-08-24",
+      "excerpt": "Fetch and archive FelonyBench's felonies.json, pick high‑impact labels (e.g., production database compromise 4×), then run sanitized CI tests to produce auditable model-risk reports.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-24-create-auditable-model-risk-tests-from-felonybenchs-feloniesjson-for-ci-pipelines.jpg",
+      "tags": [
+        "felonybench",
+        "ai-cybersecurity",
+        "benchmark",
+        "model-risk",
+        "ci",
+        "auditability"
+      ],
+      "sources": [
+        "https://felonybench.org/"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-08-23-ai-generated-proofs-and-the-verification-challenge-facing-mathematicians",

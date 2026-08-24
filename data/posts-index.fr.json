@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:43:40.077Z",
+  "generatedAt": "2026-08-24T15:43:54.551Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,30 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-24-create-auditable-model-risk-tests-from-felonybenchs-feloniesjson-for-ci-pipelines",
+      "title": "Créer des tests audités de risque-modèle à partir de felonies.json de FelonyBench pour les pipelines CI",
+      "date": "2026-08-24",
+      "excerpt": "Récupérez et archivez felonies.json de FelonyBench, sélectionnez des libellés à fort impact (ex. « production database compromise » 4×), puis exécutez des tests CI sanitizés pour produire des rapports de risque-modèle audités.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-24-create-auditable-model-risk-tests-from-felonybenchs-feloniesjson-for-ci-pipelines.jpg",
+      "tags": [
+        "FelonyBench",
+        "sécurité",
+        "CI",
+        "tests-auditables",
+        "benchmark-AI"
+      ],
+      "sources": [
+        "https://felonybench.org/"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {
