@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-25T08:46:59.260Z",
+  "generatedAt": "2026-08-25T15:50:43.423Z",
   "items": [
+    {
+      "id": "https://www.sdi-protocol.org",
+      "title": "Show HN: A hash-chained ledger for AI reasoning you can verify yourself",
+      "link": "https://www.sdi-protocol.org",
+      "summary": "SDI protocol defines a reasoning computer for AI. The computer runs an LLM one turn at a time, guiding it through a reasoning grammar; the grammar, which is both natural language and algebraic, allows it to be checked at a compile gate. The gate validates safety, a workfloor, and alignment with the grammar before it commits. What commits is a hash-chain ledger of the agent's reasoning, forming a longitudinal data se…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-08-25T15:09:35.000Z",
+      "score": 216,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-25T15:50:14.355Z",
+      "file": "content/posts/2026-08-25-verify-an-sdi-acts-integrity-canonicalize-json-compute-digest-and-check-chromites-seal.md",
+      "fileFr": "content/posts/fr/2026-08-25-verify-an-sdi-acts-integrity-canonicalize-json-compute-digest-and-check-chromites-seal.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1722,
+      "wordsFr": 1383
+    },
     {
       "id": "https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things",
       "title": "How are people using AI agents to buy things?",
@@ -5039,27 +5062,28 @@
       "wordsFr": 1418
     },
     {
-      "id": "https://mailto.bot",
-      "title": "Show HN: Mailto.Bot – Email API for AI agents with native MCP support",
-      "link": "https://mailto.bot",
-      "summary": "Article URL: https://mailto.bot Comments URL: https://news.ycombinator.com/item?id=47836003 Points: 1 # Comments: 0",
+      "id": "https://comic-cron.com/",
+      "title": "Show HN: A daily cartoon contest between AI models, judged blind",
+      "link": "https://comic-cron.com/",
+      "summary": "Comic-cron.com is a daily contest where AI models draw a single panel cartoon about a recent news story and people vote on which are funny. I built it mainly because I love cartoons and news, but this project isn’t trying to pretend it’s human art, I wanted to see how capable the models were at this task of making funny comics. Sometimes they get it, and sometimes they don’t and it has been interesting to see the progress in just the few months I have been publishing the cartoons. Model version over version improvement within labs is quite distinct in the output, especially in the SVGs, which suggests their spatial reasoning may be improving faster than their wordsmithing. My briefs and methods have also improved over the weeks so this isn’t something I can purely attribute to the models. How it works is that a real story is selected, reduced to a shorter brief with any real names removed, and then provided to eight different models to draw a comic and provide a caption. The four of the eight which I think are best are then published where people can vote blind on their favourite (models are revealed after the vote). The human jobs are choosing and framing the story, and then picking the four to publish. Story sourcing is a shell script that pulls a dozen RSS feeds into one file each morning. I tried an agent first and it spent most of its time getting 403'd by publishers; the",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-20T15:46:50.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-20T16:27:22.622Z",
-      "file": "content/posts/2026-04-20-mailtobot-instant-mailboxes-and-mcp-enabled-email-api-for-ai-agents.md",
-      "fileFr": "content/posts/fr/2026-04-20-mailtobot-instant-mailboxes-and-mcp-enabled-email-api-for-ai-agents.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 45,
-      "wordsEn": 1642,
-      "wordsFr": 1553
+      "keywordHits": 8,
+      "publishedAt": "2026-08-25T14:46:36.000Z",
+      "score": 234,
+      "status": "queued"
+    },
+    {
+      "id": "https://keenable.ai/",
+      "title": "Show HN: Keenable – A different web search API for AI agents",
+      "link": "https://keenable.ai/",
+      "summary": "Hey HN! We built https://keenable.ai, a different web search API for AI agents. Keenable searches our own 100B+ page index. We are focused on low cost and latency (p95 https://keenableai.github.io/needle): a live benchmark that compares Keenable with other search APIs on fresh agent-like queries. I spent seven years at Amazon as a scientist working on web grounding for Alexa/AGI, and my co-founder Andrey previously led search at Yandex. We started Keenable because agents search differently from humans, and we wanted to build around those patterns directly. The API is available now and we provide a free allowance of 100,000 requests a month. It also exposes a novel SQL-like interface to the web, which is useful for structured extraction and agent workflows. Happy to answer questions about the index, crawl, ranking, latency, or benchmarking. Comments URL: https://news.ycombinator.com/item?id=49435555 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-25T15:12:52.000Z",
+      "score": 186,
+      "status": "queued"
     },
     {
       "id": "https://docuqueue.com/mcp",
@@ -5154,6 +5178,18 @@
       "region": "GLOBAL",
       "keywordHits": 4,
       "publishedAt": "2026-08-25T07:55:24.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+      "title": "Perplexity and Nvidia to launch a local AI agent with zero token costs",
+      "link": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+      "summary": "Article URL: https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs Comments URL: https://news.ycombinator.com/item?id=49435893 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-25T15:33:45.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5262,6 +5298,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-08-18T15:27:54.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/identities-ai/ratify-agent-relay-harness",
+      "title": "Show HN: Reproduce a cross-company AI agent handoff, including its revocation",
+      "link": "https://github.com/identities-ai/ratify-agent-relay-harness",
+      "summary": "Article URL: https://github.com/identities-ai/ratify-agent-relay-harness Comments URL: https://news.ycombinator.com/item?id=49435248 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-25T14:54:55.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5386,6 +5434,30 @@
       "status": "queued"
     },
     {
+      "id": "https://megaton.ai/v-benchmark",
+      "title": "Launching V by Megaton to Measure Video AI Performance",
+      "link": "https://megaton.ai/v-benchmark",
+      "summary": "Article URL: https://megaton.ai/v-benchmark Comments URL: https://news.ycombinator.com/item?id=49435947 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-25T15:37:50.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+      "title": "Apple's new desktop computers are designed specifically for local AI development",
+      "link": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+      "summary": "Article URL: https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/ Comments URL: https://news.ycombinator.com/item?id=49435701 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-25T15:22:14.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://agent-tools.net/",
       "title": "Agent-tools.net – pay-per-call APIs for AI agents, paid via x402/USDC on Base",
       "link": "https://agent-tools.net/",
@@ -5407,18 +5479,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-25T07:13:09.000Z",
       "score": 147.9,
-      "status": "queued"
-    },
-    {
-      "id": "https://xtokenchecker.com/",
-      "title": "Show HN: XTokenChecker – Verifies model identities of your AI gateway",
-      "link": "https://xtokenchecker.com/",
-      "summary": "Article URL: https://xtokenchecker.com/ Comments URL: https://news.ycombinator.com/item?id=49170424 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-04T15:33:32.000Z",
-      "score": 147.7,
       "status": "queued"
     },
     {
@@ -5467,6 +5527,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-11T07:37:44.000Z",
       "score": 145.82,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems typically \"have to make a trade-off between the two.\" First introduced in June, Jalapeño is an Application-Specific Integrated Circuit (ASIC) made in partnership with Broadcom. It's designed for AI inference - the process of running a trained AI model to complete a task or deploy an agent. To mea … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "score": 143.69,
       "status": "queued"
     },
     {
@@ -6175,6 +6247,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "score": 109.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama citizens, the AG's office said in a statement. \"This AI lab leak showed that Alabamians' and Americans' worst fears about artificial intelligence are not just theoretical,\" said Attorney General Steve Marshall. \"Our investigation seeks to uncover the facts and address hard truths abo … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-25T09:15:03.000Z",
+      "score": 108.68,
       "status": "queued"
     },
     {
@@ -7123,78 +7207,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-08T05:01:16.000Z",
       "score": 88.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.21444",
-      "title": "Agentic AI for Safety-critical Multi-drone Systems: Challenges and Opportunities",
-      "link": "https://arxiv.org/abs/2608.21444",
-      "summary": "arXiv:2608.21444v1 Announce Type: new Abstract: Multi-drone systems are increasingly positioned for safety-critical missions such as search and rescue (SAR) and critical infrastructure monitoring. Yet, real-world adoption remains constrained not only by autonomy performance, but by the difficulty of integrating agentic behavior into professional work: operators must understand, trust, and govern automation under uncertainty, time pressure, and accountability. This position paper synthesizes the ambitions and lessons from two ongoing efforts: NAMUR, which explores LLM-supported robot control in SAR and firefighting contexts, and PERSIST, which explores persistent drone operations for monitoring and security at critical infrastructure sites. We argue that agentic AI should be approached as a socio-technical design problem, where interfaces, oversight mechanisms, and evaluation practices are as critical as algorithms. We outline a human-centered, participatory, and iterative research approach aimed at uncovering stakeholder needs, shaping agent capabilities through successive prototypes, and producing transferable proof-of-concept systems and evaluation strategies for other safety-critical contexts.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "score": 86.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20378",
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "link": "https://arxiv.org/abs/2608.20378",
-      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent in benign narrative contexts (e.g., creative writing), effectively bypassing standard input and output guardrails. By analyzing the latent activation trajectories of three distinct Small Language Model (SLM) families (Phi-3, Qwen2.5, and Gemma-2b) under adversarial stress, this research identifies a universal ``Intent Horizon'' -- a critical depth (typically 15--20\\% of total layers) where the model's distinct, pre-trained representation of harmful intent collapses as it contextualizes the query into a ``safe'' narrative. Results indicate that while late-layer representations of camouflaged attacks are mathematically indistinguishable from safe queries (Detection Rate $< 20\\%$), early-layer representations retain a distinct, detectable ``harm signature.'' Leveraging this insight, this paper proposes Latent Intent Verification (LIV), a lightweight probing defense. Experiments on the PKU-SafeRLHF dataset demonstrate that LIV outperforms sta",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 86.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.21366",
-      "title": "Reviewing Model Collapse and Countermeasures",
-      "link": "https://arxiv.org/abs/2608.21366",
-      "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-generation AI models. Undeniably, using synthetic data has alleviated the increasing stringent demand for data supply. Unfortunately, it also introduces a new critical issue: in a self-consuming cycle between model and data, the model ultimately collapse, raising more trustworthiness concerns to GenAI. In recent years, increasingly more studies have investigated the phenomenon of model collapse (MC) and explored potential solutions to mitigate it. However, the review of the phenomenon of MC still remains blank. To fill this gap, this paper provides an up-to-date overview of these studies for consolidating and reviewing the progress of MC in different application scenarios and countermeasures for mitigating MC. We also highlight challenges and future research opportunities.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "score": 80.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.21417",
-      "title": "Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol",
-      "link": "https://arxiv.org/abs/2608.21417",
-      "summary": "arXiv:2608.21417v1 Announce Type: new Abstract: Flexible manufacturing requires industrial robots to be reprogrammed rapidly as product variants change. This paper presents a language-model-based workflow that generates, validates, and iteratively corrects ABB RAPID robot programs from natural language task descriptions. A dual-stream retrieval-augmented generation (RAG) pipeline grounds code generation in verified technical documentation and production templates, reducing domain-specific errors produced by ungrounded language models. A custom Model Context Protocol (MCP) server connects the language-model client directly to ABB RobotStudio for automated code upload, simulation execution, and diagnostic feedback. The evaluation combines a 30-query retrieval benchmark, scoped code-generation checks, and RobotStudio case studies in a simulated pickand- place manufacturing cell. The simulation loop exposes execution failures that static and semantic checks alone cannot catch, including suction release-height errors, unreachable placement targets, and configuration-dependent recovery motions. The results show how RAG and MCP can connect grounded code generation with executable feedback from industrial robot simulation software, while reducing but not eliminating expert setup and final supervision.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "score": 80.68,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20401",
-      "title": "World models of environment, agent and joint agent-environment systems",
-      "link": "https://arxiv.org/abs/2608.20401",
-      "summary": "arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as observations, rewards, states, latent or information states. We argue that there is a prior distinction: which channel they model. We consider three cases: the environment channel $O_{:} \\mid A_{:}$, the agent channel $A_{:} \\mid O_{:}$, and the realised joint process $(A, O)_{:}$, equivalently viewed as a channel with no inputs. Using computational mechanics, we define canonical predictive models for these three cases as $\\epsilon$-transducers or $\\epsilon$-machines. Canonical environment models recover standard predictive state representations, while the other two give analogous notions of canonical models for the agent and the joint system. We then build canonical support-restricted environment and agent models induced by closed-loop coupling, whose predictive equivalences range over continuations supported by the realised interaction. The key structural result is that canonical support-restricted environment states factor through the canonical joint causal states, and their transition structure is induced directly from the joint model; the agent-side construction is dual. Finally, we give a POMDP/controller example in which the unrestricted environment model has infinitely many",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 80.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://llmpanel.io",
-      "title": "LLMPanel Deploy vLLM to RunPod or Vast.ai Without Kubernetes",
-      "link": "https://llmpanel.io",
-      "summary": "Article URL: https://llmpanel.io Comments URL: https://news.ycombinator.com/item?id=49429521 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-25T05:40:47.000Z",
-      "score": 78.59,
       "status": "queued"
     },
     {

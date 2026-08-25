@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T08:46:59.249Z",
+  "generatedAt": "2026-08-25T15:50:14.376Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-25-verify-an-sdi-acts-integrity-canonicalize-json-compute-digest-and-check-chromites-seal",
+      "title": "Vérifier l'intégrité d’un act SDI : canonicaliser le JSON, calculer le digest et vérifier le sceau",
+      "date": "2026-08-25",
+      "excerpt": "Guide pratique pour récupérer un « act » SDI (JSON), produire une représentation canonique, calculer un digest SHA‑256 et comparer au sceau enregistré — uniquement avec curl, Python et intégration CI. Destiné aux équipes réduites et développeurs au Royaume‑Uni.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-25-verify-an-sdi-acts-integrity-canonicalize-json-compute-digest-and-check-chromites-seal.jpg",
+      "tags": [
+        "SDI",
+        "intégrité",
+        "JSON",
+        "cryptographie",
+        "CI",
+        "devops",
+        "AI",
+        "Royaume‑Uni"
+      ],
+      "sources": [
+        "https://www.sdi-protocol.org"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

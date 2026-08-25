@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T08:46:59.247Z",
+  "generatedAt": "2026-08-25T15:50:14.374Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-25-verify-an-sdi-acts-integrity-canonicalize-json-compute-digest-and-check-chromites-seal",
+      "title": "Verify an SDI act's integrity: canonicalize JSON, compute digest, and check Chromite's seal",
+      "date": "2026-08-25",
+      "excerpt": "A hands-on guide to fetch an SDI act, canonicalize its JSON, compute the SHA-256 digest, and verify Chromite's recorded seal with only curl and Python—includes CI tips and failure modes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-25-verify-an-sdi-acts-integrity-canonicalize-json-compute-digest-and-check-chromites-seal.jpg",
+      "tags": [
+        "SDI Protocol",
+        "Chromite",
+        "verifiable-ai",
+        "canonicalization",
+        "SHA-256",
+        "argumentation-graph",
+        "CI",
+        "curl"
+      ],
+      "sources": [
+        "https://www.sdi-protocol.org"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-08-24-conflicting-llm-guidance-left-a-developer-unsure-which-rce-remediation-to-run",
