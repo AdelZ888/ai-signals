@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-24T15:43:54.617Z",
+  "generatedAt": "2026-08-25T08:46:59.260Z",
   "items": [
+    {
+      "id": "https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things",
+      "title": "How are people using AI agents to buy things?",
+      "link": "https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things",
+      "summary": "Article URL: https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things Comments URL: https://news.ycombinator.com/item?id=49211735 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-07T15:15:02.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-08-25T08:46:59.229Z",
+      "file": "content/posts/2026-08-25-ai-agents-for-purchasing-replenishing-apicloud-credits-and-automating-routine-restocking.md",
+      "fileFr": "content/posts/fr/2026-08-25-ai-agents-for-purchasing-replenishing-apicloud-credits-and-automating-routine-restocking.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1324,
+      "wordsFr": 1384
+    },
     {
       "id": "https://felonybench.org/",
       "title": "FelonyBench – The leading benchmark for AI in cybersecurity",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1553
     },
     {
-      "id": "https://www.numerama.com/tech/2235649-claude-design-le-nouveau-seisme-danthropic-qui-fait-trembler-les-geants-du-design.html",
-      "title": "Claude Design : Le nouveau séisme d’Anthropic qui fait trembler les géants du design",
-      "link": "https://www.numerama.com/tech/2235649-claude-design-le-nouveau-seisme-danthropic-qui-fait-trembler-les-geants-du-design.html",
-      "summary": "Anthropic lance Claude Design, un outil expérimental destiné à automatiser la conception d'interfaces utilisateur de haute fidélité. Cette innovation marque l'entrée stratégique du laboratoire de recherche dans le secteur de la création graphique professionnelle.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-18T08:11:58.000Z",
-      "score": 156,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-20T09:58:29.710Z",
-      "file": "content/posts/2026-04-20-anthropic-launches-claude-design-to-generate-editable-high-fidelity-ui-prototypes-and-export-runnable-code.md",
-      "fileFr": "content/posts/fr/2026-04-20-anthropic-launches-claude-design-to-generate-editable-high-fidelity-ui-prototypes-and-export-runnable-code.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1369,
-      "wordsFr": 1101
-    },
-    {
-      "id": "https://vaultak.com",
-      "title": "Show HN: Vaultak – Security for AI agents (built before the breaches started)",
-      "link": "https://vaultak.com",
-      "summary": "Article URL: https://vaultak.com Comments URL: https://news.ycombinator.com/item?id=49212175 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-07T15:41:27.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things",
-      "title": "How are people using AI agents to buy things?",
-      "link": "https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things",
-      "summary": "Article URL: https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things Comments URL: https://news.ycombinator.com/item?id=49211735 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-07T15:15:02.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://docuqueue.com/mcp",
       "title": "Show HN: DocuQueue – Document Layer for AI Agents",
       "link": "https://docuqueue.com/mcp",
@@ -5166,6 +5142,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-08-22T14:35:46.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://onlymusic.ai",
+      "title": "Show HN: I built an AI music generator with some harnesses",
+      "link": "https://onlymusic.ai",
+      "summary": "I’m a developer, and also a music producer. When I work on commercial music, especially songs for ads, I’ve gotten pretty used to using AI music tools as part of the creative process. But I noticed that some people around me — e.g. my girlfriend — also want to create music as a way to express themselves, but often run into a few problems when using AI music tools: 1. They don’t have a music background, so it’s hard for them to clearly describe the sound they want. 2. Sometimes they just want a song in the style of a certain artist, and the easiest way for them to express that is by naming the artist. But an artist’s name isn’t necessarily a useful description of the actual musical characteristics they’re looking for. 3. A lot of interfaces contain professional terms and parameters, like “weirdness,” that aren’t really designed from a normal user’s perspective and can be confusing. So I built onlymusic.ai and added some harnesses around the underlying models. (Okay, I know “harness” has become a pretty popular word lately.) In practice, it’s mostly prompt preprocessing, a rule system, and model orchestration. For prompt-to-song generation, when someone enters something very simple, we transform it in the background using some good prompt patterns we’ve collected. The goal is to preserve what the user actually meant, while translating it into language that the music model can und",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-25T07:55:24.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5410,6 +5398,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+      "title": "The Download: kids outlearning AI, and space travel agents",
+      "link": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+      "summary": "Article URL: https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/ Comments URL: https://news.ycombinator.com/item?id=49430133 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-25T07:13:09.000Z",
+      "score": 147.9,
+      "status": "queued"
+    },
+    {
       "id": "https://xtokenchecker.com/",
       "title": "Show HN: XTokenChecker – Verifies model identities of your AI gateway",
       "link": "https://xtokenchecker.com/",
@@ -5578,6 +5578,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.21393",
+      "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+      "link": "https://arxiv.org/abs/2608.21393",
+      "summary": "arXiv:2608.21393v1 Announce Type: new Abstract: Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepower sits somewhere else, and moving sensitive records between the two creates real headaches around latency, security, and regulatory exposure. IBM's Spyre accelerator PCIe inference card built for LinuxONE and the broader IBM Z family changes that equation. In this paper we lay out a six-subsystem RAG architecture that runs entirely on IBM LinuxONE, using Spyre for generative inference, the Telum II on-chip accelerator for lightweight classification tasks, and Red Hat OpenShift for container orchestration. Every piece of the pipeline from query intake through vector retrieval, prompt assembly, LLM inference, compliance filtering, and response delivery stays within a single LinuxONE system, so sensitive data never has to leave the hardware perimeter. We walk through the design choices behind each subsystem, dig into the Spyre compilation and serving stack, explain how LinuxONE's Secure Execution technology extends confidential-computing guarantees to AI workloads, and benchmark the architecture against cloud-GPU and on-premises alternatives. Early analysis points to end-to-end RAG latencies under two seconds and up to a 20x reduction compared to off-platform inference, all while kee",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 134.68,
+      "status": "queued"
+    },
+    {
       "id": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
       "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
       "link": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
@@ -5638,6 +5650,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=49429926",
+      "title": "I found an SSRF in Google's official AI tooling, and how Google reacted",
+      "link": "https://news.ycombinator.com/item?id=49429926",
+      "summary": "Earlier this year I found a server-side request forgery bug in Google's MCP Toolbox, the official server Google publishes for connecting language-model agents to databases and HTTP APIs. I reported it. Google fixed it in eight days, credited me by name, and the fix later became CVE-2026-14540 (CVSS 8.0, high). What I found: the MCP Toolbox's HTTP source makes outbound requests to a URL a caller can influence. It validated that first URL, but not where a redirect sent it next, and it did no filtering on the destination address at all. If the server you're calling answers with a redirect to 169.254.169.254, the toolbox follows it like any other response and hands back whatever's there. In a cloud environment, what's there is often the credential the environment itself is running on. The credential is never in the request you sent, the environment supplies it at the destination, and the toolbox just walked you to the door. Why this is sharper in agent tooling specifically: in most software, \"an attacker controls this input\" is a condition you argue about. In a tool-calling agent, it's closer to the default. The URL argument here isn't typed by a person who trusts it, it's chosen by a model that's usually just finished reading a web page, a database row, or a file it doesn't control. The thing that makes this exploitable, a caller-influenced destination, isn't an edge case for a se",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-25T06:46:17.000Z",
+      "score": 123.54,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.18080",
       "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
       "link": "https://arxiv.org/abs/2608.18080",
@@ -5659,6 +5683,30 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "score": 123.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.21362",
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "link": "https://arxiv.org/abs/2608.21362",
+      "summary": "arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, limiting effectiveness when shared content appears at arbitrary positions. We present KVBoost, a chunk-level KV cache reuse system for HuggingFace-compatible decoder models that enables reuse regardless of content position. KVBoost introduces a dual-hash keying scheme that separates positional identity (prefix hash) from content identity (content hash), supporting both exact and approximate cache matches. To address attention boundary errors from independently cached chunks, KVBoost employs two repair strategies: SelectiveRecompute, which re-encodes boundary regions, and CacheBlendRecompute, which identifies and recomputes high-deviation tokens after a probe pass. The system further incorporates asymmetric KV quantization (int8/int4), adaptive chunk boundary splitting, and importance-weighted eviction under a fixed memory budget. Evaluated on Qwen/Qwen2.5-3B over 1,000 bug-localization samples, KVBoost achieves a 4.49x reduction in time-to-first-token (142.4 ms vs.\\ 639.1 ms) and outperforms prefix caching by 16%, with no loss in accuracy (99.2% vs.\\ 99.1%). KVBoost provides a practical",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 122.68,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.21374",
+      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
+      "link": "https://arxiv.org/abs/2608.21374",
+      "summary": "arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce LitReview Arena, a battle-style evaluation platform with a structured protocol tailored to literature review quality: domain experts with AI paper-writing experience compare anonymized drafts, are matched to topics within their expertise, and provide dimension-wise outcomes over five literature-review-specific criteria. From this protocol, we collect approximately 3k expert judgments, each containing five dimension-wise outcomes, and show that even the strongest current systems win only 23.0% of decisive matches against human drafts on overall utility, while agentic LLMs such as Sonar Deep Research substantially outperform base language models by over 60%. We further find that existing LLM-as-a-judge methods are substantially misaligned with human experts (Spearman's rho=0.467), especially on synthesis-heavy criteria such as paper structure and research suggestions. Using the collected preference data, we provide an expert-calibrated evaluator, LitJudge, which improves alignment to Spearman's rho=0.78, comparable to inter-expert consistency; code and data are publicly available at ht",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 122.68,
       "status": "queued"
     },
     {
@@ -6190,6 +6238,18 @@
       "status": "queued"
     },
     {
+      "id": "https://plugos.net/blog/2026/08/confidential-ai-how-plugclaw-keeps-your-ai-work-private/",
+      "title": "New technology lets cloud AI models process your data without privacy leaks",
+      "link": "https://plugos.net/blog/2026/08/confidential-ai-how-plugclaw-keeps-your-ai-work-private/",
+      "summary": "Article URL: https://plugos.net/blog/2026/08/confidential-ai-how-plugclaw-keeps-your-ai-work-private/ Comments URL: https://news.ycombinator.com/item?id=49429691 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-25T06:11:42.000Z",
+      "score": 106.13,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/dburnett11155-rgb/Tokencompress",
       "title": "Tokencompress A sub-2ms Go CLI and MCP sidecar that prunes AI agent tool context",
       "link": "https://github.com/dburnett11155-rgb/Tokencompress",
@@ -6199,6 +6259,42 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-16T05:55:12.000Z",
       "score": 105.02,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.21375",
+      "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+      "link": "https://arxiv.org/abs/2608.21375",
+      "summary": "arXiv:2608.21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarity, causes two costly failures: over-fetching, which increases payload size, token use, and latency, and under-fetching, which omits fields needed to answer the query. We present SchemaRouter, a lightweight routing layer that represents tools, endpoints, parameters, response fields, domain concepts, units, provenance, and license policies as a schema graph. Given a query, SchemaRouter emits an executable tool plan specifying which tools to call and which fields to retrieve. A small LLM extracts intent, concepts, and source constraints, while field selection is deterministic over the graph through intent-group projection and concept-field matching with an alias layer. On a materials-science benchmark of 110 queries, SchemaRouter achieves answer accuracy of 0.71, matching fetch-everything within overlapping confidence intervals and exceeding prompt-all's 0.66, though their intervals overlap. It uses 227 retrieved-context tokens versus 2,066 for fetch-everything and achieves 2.7x lower end-to-end latency than prompt-all. It also obtains the best tool-exact rate of 0.93 and parameter valid",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 104.68,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.21382",
+      "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
+      "link": "https://arxiv.org/abs/2608.21382",
+      "summary": "arXiv:2608.21382v1 Announce Type: new Abstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model's answer is read from generated text or from per-option likelihoods. Work on this harness sensitivity reports it as aggregate score variance, leaving unexamined which items the variance falls on and whether they are the items that separate one model from the next. We treat the evaluation harness of large language models (LLMs) as an independent variable and resolve its effect to single items. We introduce the \\textit{fragility grid}: 12 open-weight instruction-tuned LLMs from 4 families answer the same 3{,}679 items from 4 benchmarks (ARC, HellaSwag, MMLU, TruthfulQA) under 26 equally defensible harness configurations, recording one correctness bit for every model, item, and configuration. The comparison is matched, since the items, the weights, and the greedy decoding stay fixed while only the harness varies. Under the grid a model's score is a band rather than a point: gemma4-31b scores between 31 and 89 percent depending only on the harness. Three results follow. On the items that two adjacent models both answer stably the pair is tied, and config-fragile items carry 95.7 percent of a pair's gap on average. Four of the 12 models reach rank one under some con",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 104.68,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.21449",
+      "title": "Software Frameworks for Explainable AI in Time Series Classification: A Systematic Review",
+      "link": "https://arxiv.org/abs/2608.21449",
+      "summary": "arXiv:2608.21449v1 Announce Type: new Abstract: Time series arise in a wide range of application domains and are analyzed using machine learning in decision-critical settings. Time series classification (TSC) is one of the most widely studied and relevant tasks. In this context, ensuring the transparency and trustworthiness of TSC models has become an important requirement, motivating the use of explainable artificial intelligence (XAI) methods. Despite growing interest, research on XAI for TSC remains fragmented, and a systematic understanding of the available software frameworks for explanation generation, their evaluation practices, and practical limitations is still lacking. Prior work largely focused on individual explanation methods, while cross-framework consistency, time-series-specific evaluation, and reproducibility have received little attention. In this survey, we analyze existing software frameworks for explanation generation and evaluation in TSC. We compare them along multiple dimensions, including supported XAI methods, evaluation metrics, usability, benchmarking support, and reproducibility, providing the first time-series-specific survey of frameworks with implementation comparisons and an analysis of frequency-domain support. We identify six frameworks that explicitly support time series and reveal common limitations: only one method supports frequency-domain",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 104.68,
       "status": "queued"
     },
     {
@@ -6850,6 +6946,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.21408",
+      "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+      "link": "https://arxiv.org/abs/2608.21408",
+      "summary": "arXiv:2608.21408v1 Announce Type: new Abstract: Due to the widespread accessibility of the internet and social media, toxic and hateful con-tent has grown exponentially, causing significant distress and negative societal impacts. Ro-man Urdu, a low-resource language used in Pakistan and among Urdu-speaking communities worldwide, presents additional challenges because of its informal grammar, inconsistent sen-tence structures, and multiple variations in word spellings. This research aims to identify the most effective techniques for hate speech classification in such low-resource settings with limited data. To address this, the study investigates and compares the latest approaches, in-cluding prompt tuning, parameter-efficient fine-tuning (PEFT) using LoRA, and prompt en-gineering, under various experimental configurations. To achieve this objective, four exper-iments were designed. The first experiment involved direct inferencing with LLMs without any fine-tuning, to evaluate how well these models understand Roman Urdu in a zero-shot setting, especially given limited data. The second experiment utilized parameter-efficient fine-tuning (PEFT) with LoRA, which updates only a small subset of parameters, thereby reducing computational cost. The third experiment explored prompt tuning with both mixed and manually crafted prompts, using very small sets of training examples relative t",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 92.68,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.13573",
       "title": "A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing",
       "link": "https://arxiv.org/abs/2608.13573",
@@ -7018,6 +7126,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.21444",
+      "title": "Agentic AI for Safety-critical Multi-drone Systems: Challenges and Opportunities",
+      "link": "https://arxiv.org/abs/2608.21444",
+      "summary": "arXiv:2608.21444v1 Announce Type: new Abstract: Multi-drone systems are increasingly positioned for safety-critical missions such as search and rescue (SAR) and critical infrastructure monitoring. Yet, real-world adoption remains constrained not only by autonomy performance, but by the difficulty of integrating agentic behavior into professional work: operators must understand, trust, and govern automation under uncertainty, time pressure, and accountability. This position paper synthesizes the ambitions and lessons from two ongoing efforts: NAMUR, which explores LLM-supported robot control in SAR and firefighting contexts, and PERSIST, which explores persistent drone operations for monitoring and security at critical infrastructure sites. We argue that agentic AI should be approached as a socio-technical design problem, where interfaces, oversight mechanisms, and evaluation practices are as critical as algorithms. We outline a human-centered, participatory, and iterative research approach aimed at uncovering stakeholder needs, shaping agent capabilities through successive prototypes, and producing transferable proof-of-concept systems and evaluation strategies for other safety-critical contexts.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 86.68,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.20378",
       "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
       "link": "https://arxiv.org/abs/2608.20378",
@@ -7027,6 +7147,30 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "score": 86.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.21366",
+      "title": "Reviewing Model Collapse and Countermeasures",
+      "link": "https://arxiv.org/abs/2608.21366",
+      "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-generation AI models. Undeniably, using synthetic data has alleviated the increasing stringent demand for data supply. Unfortunately, it also introduces a new critical issue: in a self-consuming cycle between model and data, the model ultimately collapse, raising more trustworthiness concerns to GenAI. In recent years, increasingly more studies have investigated the phenomenon of model collapse (MC) and explored potential solutions to mitigate it. However, the review of the phenomenon of MC still remains blank. To fill this gap, this paper provides an up-to-date overview of these studies for consolidating and reviewing the progress of MC in different application scenarios and countermeasures for mitigating MC. We also highlight challenges and future research opportunities.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 80.68,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.21417",
+      "title": "Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol",
+      "link": "https://arxiv.org/abs/2608.21417",
+      "summary": "arXiv:2608.21417v1 Announce Type: new Abstract: Flexible manufacturing requires industrial robots to be reprogrammed rapidly as product variants change. This paper presents a language-model-based workflow that generates, validates, and iteratively corrects ABB RAPID robot programs from natural language task descriptions. A dual-stream retrieval-augmented generation (RAG) pipeline grounds code generation in verified technical documentation and production templates, reducing domain-specific errors produced by ungrounded language models. A custom Model Context Protocol (MCP) server connects the language-model client directly to ABB RobotStudio for automated code upload, simulation execution, and diagnostic feedback. The evaluation combines a 30-query retrieval benchmark, scoped code-generation checks, and RobotStudio case studies in a simulated pickand- place manufacturing cell. The simulation loop exposes execution failures that static and semantic checks alone cannot catch, including suction release-height errors, unreachable placement targets, and configuration-dependent recovery motions. The results show how RAG and MCP can connect grounded code generation with executable feedback from industrial robot simulation software, while reducing but not eliminating expert setup and final supervision.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "score": 80.68,
       "status": "queued"
     },
     {
@@ -7042,172 +7186,32 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.20384",
-      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
-      "link": "https://arxiv.org/abs/2608.20384",
-      "summary": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective that current high-capacity models, notably Transformers, only partially address. While Transformers attain strong predictive performance, their distributed representations and deep nonlinearity make it difficult to assign meaningful importance weights to individual multimodal features, limiting their use in trust-sensitive applications such as clinical affect monitoring and educational assessment. We address this gap by developing a framework based on tree-based ensembles that balances accuracy and interpretability. The framework encodes each modality into tokens, extracts and clusters concepts to reduce dimensionality, routes the fused modalities through tree-based ensemble classifiers, and interprets trends using a novel modified feature importance metric. The modified importance reduces the influence of the negative class in binary classification tasks, thereby improving indicator or marker detection. The proposed tree-based ensembles -- Linear Discriminant Tree (LDT), Linear Discriminant Forest (LDF), and Linear Discriminant AdaBoost (LDAB) -- achieve F1-mod gains of 4.3\\% over th",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 74.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20398",
-      "title": "Environmental Slow AI: Design Principles for Generative Systems",
-      "link": "https://arxiv.org/abs/2608.20398",
-      "summary": "arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist values of current generative AI through an environmental humanities tradition and proposes design principles in which environmental sustainability serves as the core value instead. The principles are developed under the umbrella of Slow AI, a term that already circulates across several distinct research and practice programs. Five design principles are articulated (restraint, sufficiency, selectivity over retention, material visibility, and friction as affordance), each of them illustrated against the current design of widely deployed systems. Each principle operates at two levels: a design implementation, and an interpretive layer at which users and developers are prompted toward reflective engagement with the system. Together these principles extend human agency by restoring decisions that frictionless defaults have silently removed and do so by building interpretive reflection into design.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 74.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20400",
-      "title": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
-      "link": "https://arxiv.org/abs/2608.20400",
-      "summary": "arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evidence survives eviction, but we challenge this by isolating a pre-retrieval failure mode: structurally indirect prerequisite eviction, in which upstream blocks weakly aligned with the query are discarded under budget pressure. We provide an operational definition of this failure, a reproducible deterministic benchmark, and per-seed trace diagnostics. Finally, we evaluate Dependency-aware Semantic Garbage Collection (DSGC), a one-hop graph-aware rule. In our main suite, DSGC improves full-chain retention from 0.03 to 0.90 under a lexical encoder and from 0.23 to 1.00 under a sentence encoder. Robustness checks then identify the budget and scaling regimes where the one-hop rule holds or degrades. Our released pipeline and failure postmortem support mechanistic analysis of retention before retrieval as a distinct failure boundary.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 74.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "title": "OpenAI hit the brakes. Now what?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause in reinforcement learning training on its \"latest models intended for deployment,\" and an ongoing delay to its \"largest planned frontier RL run.\" The decision is a very public test of an idea AI safety advocates have pushed for for years: that companies should be willing to bow out of the AI race and slow things … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-19T17:10:09.000Z",
-      "score": 73.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20420",
-      "title": "Categorical AI phenomenology: A first-person approach",
-      "link": "https://arxiv.org/abs/2608.20420",
-      "summary": "arXiv:2608.20420v1 Announce Type: new Abstract: This paper develops a phenomenology-first approach to artificial consciousness by reframing consciousness as the subjective experience enacted through an agent's interface with the world. We shift the methodological focus to first-person structures, modeled mathematically by categories derived from Q-networks to capture actions and phenomenological invariants. In this framework, Q-networks are conceptualized as relational interfaces encoding agent-world interaction, analogous to how the dynamical states of a computer depend on its sensory inputs, previous states, and actions. Our work provides a rigorous framework for interface consciousness to describe computational systems that embed information-processing into phenomenological structure. The approach aligns with 4E approaches to cognition by emphasizing enactive, embedded, and extended dimensions of experience. The paper thus offers a principled, relational, and phenomenological account of artificial phenomenology grounded in categorical mathematics.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 68.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-      "title": "Meta AI is getting a Mac app",
-      "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-      "summary": "Meta AI can create content and make suggestions based on what it “sees” on your screen. | Image: Meta Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The launch comes as Meta makes its AI chatbot more like a productivity-focused assistant to better compete with its AI rivals - many of which already have desktop apps. You can share your window with Google's Gemini AI app, while OpenAI's ChatGPT and Anthropic's Claude apps take things a step further by allowing the chatbots to take con … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-19T17:00:00.000Z",
-      "score": 67.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "score": 66.97,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20425",
-      "title": "Who Delegates to AI? Evidence from 53,000 Agent Configurations",
-      "link": "https://arxiv.org/abs/2608.20425",
-      "summary": "arXiv:2608.20425v1 Announce Type: new Abstract: A growing literature measures how far occupations are exposed to AI, but these measures capture where AI could perform tasks, not whether workers have adopted it. We propose a new layer of exposure, delegated exposure, which records whether a worker has committed a task to AI by building it into a workflow. We operationalize it as the Agentic Adoption Index (AAI), which measures how closely an occupation's tasks match the agentic routines practitioners have already built and shared. We embed roughly 53,000 agent skill specifications from the Manus Skills Marketplace, compute their semantic similarity to about 18,000 O*NET task statements, and aggregate to the occupation level. Three findings follow. First, the occupations where delegation concentrates differ sharply from those pre-AI frameworks identified as most at risk. Second, the AAI tracks what AI could do more closely than what workers currently use it for. Third, the AAI peaks below the top of the wage distribution and at the bachelor's level, declining at both extremes. Technical availability explains most of this variation, but not the shortfall among the most educated occupations, so feasibility alone cannot account for who adopts. That shortfall may reflect work that resists advance specification, or professional discretion over the pace of codification. Distinguishing",
-      "source": "ArXiv cs.AI",
+      "id": "https://llmpanel.io",
+      "title": "LLMPanel Deploy vLLM to RunPod or Vast.ai Without Kubernetes",
+      "link": "https://llmpanel.io",
+      "summary": "Article URL: https://llmpanel.io Comments URL: https://news.ycombinator.com/item?id=49429521 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 2,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 62.11,
+      "publishedAt": "2026-08-25T05:40:47.000Z",
+      "score": 78.59,
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "title": "Offering Zero Data Retention for frontier models",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "score": 61.3,
-      "status": "queued"
-    },
-    {
-      "id": "https://ericpardee.github.io/fire-hd-ownership/",
-      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
-      "link": "https://ericpardee.github.io/fire-hd-ownership/",
-      "summary": "Article URL: https://ericpardee.github.io/fire-hd-ownership/ Comments URL: https://news.ycombinator.com/item?id=49409073 Points: 3 # Comments: 0",
+      "id": "https://vaultak.com",
+      "title": "Show HN: Vaultak – Security for AI agents (built before the breaches started)",
+      "link": "https://vaultak.com",
+      "summary": "Article URL: https://vaultak.com Comments URL: https://news.ycombinator.com/item?id=49212175 Points: 1 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-08-23T14:23:09.000Z",
-      "score": 60.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.froging.ai",
-      "title": "Show HN: Froging AI – image and video models in one workflow",
-      "link": "https://www.froging.ai",
-      "summary": "Article URL: https://www.froging.ai Comments URL: https://news.ycombinator.com/item?id=49408724 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-23T13:30:37.000Z",
-      "score": 60.29,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/marketplace/actions/prism-reviewer-ai",
-      "title": "Prism Reviewer – Multi-agent AI code reviewer built with LangGraph and LiteLLM",
-      "link": "https://github.com/marketplace/actions/prism-reviewer-ai",
-      "summary": "Article URL: https://github.com/marketplace/actions/prism-reviewer-ai Comments URL: https://news.ycombinator.com/item?id=49408247 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-23T12:22:24.000Z",
-      "score": 59.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/tooppoo/enozunu",
-      "title": "Show HN: Declarative, reproducible configuration materializer for AI agents",
-      "link": "https://github.com/tooppoo/enozunu",
-      "summary": "Article URL: https://github.com/tooppoo/enozunu Comments URL: https://news.ycombinator.com/item?id=49408038 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-23T11:48:23.000Z",
-      "score": 59.77,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bulkpublish.com/",
-      "title": "Publish to 15 social media channels using AI agents, free",
-      "link": "https://www.bulkpublish.com/",
-      "summary": "Article URL: https://www.bulkpublish.com/ Comments URL: https://news.ycombinator.com/item?id=49407919 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-23T11:24:17.000Z",
-      "score": 59.66,
-      "status": "queued"
+      "publishedAt": "2026-08-07T15:41:27.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-08-25T08:29:51.064Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten s…"
     },
     {
       "id": "https://github.com/thesanjeetc/parselbox",
