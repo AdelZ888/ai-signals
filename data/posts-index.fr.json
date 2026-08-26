@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T08:43:04.265Z",
+  "generatedAt": "2026-08-26T16:23:36.437Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "timeToImplementMinutes": 120,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-26-on-site-ai-chat-using-gemini-a-single-google-cloud-function-and-firestore-dollar5-15month",
+      "title": "Chat IA intégré : Gemini, une seule Cloud Function Google et Firestore (5–15 $/mois)",
+      "date": "2026-08-26",
+      "excerpt": "Guide pratique pour ajouter un chat IA sur votre site qui cite vos articles. Utilise les embeddings Gemini, une Cloud Function Google unique, Firestore et un passage RSS horaire. Coût estimé : ~5–15 $/mois.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-26-on-site-ai-chat-using-gemini-a-single-google-cloud-function-and-firestore-dollar5-15month.jpg",
+      "tags": [
+        "IA",
+        "Gemini",
+        "Google Cloud",
+        "Firestore",
+        "RAG",
+        "Serverless",
+        "embeddings",
+        "frontend"
+      ],
+      "sources": [
+        "https://emergencemachine.com/building-an-ai-chat-for-my-blog/"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-08-25-ai-agents-for-purchasing-replenishing-apicloud-credits-and-automating-routine-restocking",
