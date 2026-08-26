@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-25T15:50:43.423Z",
+  "generatedAt": "2026-08-26T08:43:04.279Z",
   "items": [
+    {
+      "id": "https://keenable.ai/",
+      "title": "Show HN: Keenable – A different web search API for AI agents",
+      "link": "https://keenable.ai/",
+      "summary": "Hey HN! We built https://keenable.ai, a different web search API for AI agents. Keenable searches our own 100B+ page index. We are focused on low cost and latency (p95 https://keenableai.github.io/needle): a live benchmark that compares Keenable with other search APIs on fresh agent-like queries. I spent seven years at Amazon as a scientist working on web grounding for Alexa/AGI, and my co-founder Andrey previously…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-25T15:12:52.000Z",
+      "score": 186,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-26T08:43:04.244Z",
+      "file": "content/posts/2026-08-26-integrating-keenables-web-search-api-100b-index-and-sub-250ms-p95-retrieval-for-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-08-26-integrating-keenables-web-search-api-100b-index-and-sub-250ms-p95-retrieval-for-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1336,
+      "wordsFr": 1308
+    },
     {
       "id": "https://www.sdi-protocol.org",
       "title": "Show HN: A hash-chained ledger for AI reasoning you can verify yourself",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1324
     },
     {
-      "id": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
-      "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
-      "link": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
-      "summary": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters. Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to “distill” their colleagues’ skills and personality traits and replicate them with…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-04-20T09:00:00.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "SOCIETY",
-      "publishedAtRun": "2026-04-21T09:30:06.192Z",
-      "file": "content/posts/2026-04-21-chinese-tech-workers-report-being-asked-to-document-workflows-for-ai-agents.md",
-      "fileFr": "content/posts/fr/2026-04-21-chinese-tech-workers-report-being-asked-to-document-workflows-for-ai-agents.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1393,
-      "wordsFr": 1418
-    },
-    {
-      "id": "https://comic-cron.com/",
-      "title": "Show HN: A daily cartoon contest between AI models, judged blind",
-      "link": "https://comic-cron.com/",
-      "summary": "Comic-cron.com is a daily contest where AI models draw a single panel cartoon about a recent news story and people vote on which are funny. I built it mainly because I love cartoons and news, but this project isn’t trying to pretend it’s human art, I wanted to see how capable the models were at this task of making funny comics. Sometimes they get it, and sometimes they don’t and it has been interesting to see the progress in just the few months I have been publishing the cartoons. Model version over version improvement within labs is quite distinct in the output, especially in the SVGs, which suggests their spatial reasoning may be improving faster than their wordsmithing. My briefs and methods have also improved over the weeks so this isn’t something I can purely attribute to the models. How it works is that a real story is selected, reduced to a shorter brief with any real names removed, and then provided to eight different models to draw a comic and provide a caption. The four of the eight which I think are best are then published where people can vote blind on their favourite (models are revealed after the vote). The human jobs are choosing and framing the story, and then picking the four to publish. Story sourcing is a shell script that pulls a dozen RSS feeds into one file each morning. I tried an agent first and it spent most of its time getting 403'd by publishers; the",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-08-25T14:46:36.000Z",
-      "score": 234,
-      "status": "queued"
-    },
-    {
-      "id": "https://keenable.ai/",
-      "title": "Show HN: Keenable – A different web search API for AI agents",
-      "link": "https://keenable.ai/",
-      "summary": "Hey HN! We built https://keenable.ai, a different web search API for AI agents. Keenable searches our own 100B+ page index. We are focused on low cost and latency (p95 https://keenableai.github.io/needle): a live benchmark that compares Keenable with other search APIs on fresh agent-like queries. I spent seven years at Amazon as a scientist working on web grounding for Alexa/AGI, and my co-founder Andrey previously led search at Yandex. We started Keenable because agents search differently from humans, and we wanted to build around those patterns directly. The API is available now and we provide a free allowance of 100,000 requests a month. It also exposes a novel SQL-like interface to the web, which is useful for structured extraction and agent workflows. Happy to answer questions about the index, crawl, ranking, latency, or benchmarking. Comments URL: https://news.ycombinator.com/item?id=49435555 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-25T15:12:52.000Z",
-      "score": 186,
-      "status": "queued"
-    },
-    {
       "id": "https://docuqueue.com/mcp",
       "title": "Show HN: DocuQueue – Document Layer for AI Agents",
       "link": "https://docuqueue.com/mcp",
@@ -5530,18 +5506,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
-      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
-      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems typically \"have to make a trade-off between the two.\" First introduced in June, Jalapeño is an Application-Specific Integrated Circuit (ASIC) made in partnership with Broadcom. It's designed for AI inference - the process of running a trained AI model to complete a task or deploy an agent. To mea … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "score": 143.69,
-      "status": "queued"
-    },
-    {
       "id": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
       "title": "Nvidia's Switchyard router reshuffles AI models mid-task to cut task costs",
       "link": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
@@ -5698,6 +5662,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.23622",
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "link": "https://arxiv.org/abs/2608.23622",
+      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to intervention, which in practice depends on controlled experimentation. In this work, we propose a multi-agent framework that enables LLM agents to conduct controlled experiments with scientific simulation models for pharmaceutical process design. Given a user query and a baseline configuration, the system constructs a structured task representation, designs experiments, executes comparative simulation, interprets the resulting outcomes, and synthesizes evidence-based recommendations for process parameter optimization. By coupling language models with high-fidelity simulation models in an interactive agent framework, the proposed system supports reasoning through intervention, comparison, and observation. As a result, it produces more specific and actionable outputs than language-only reasoning. In an industrial application setting, this advantage is reflected in higher output specificity as well as improved user-rated correctness and helpfulness. Ablation studies and visualized case analyses further demonstrate the effectiveness and practical utility of simulation-integrated experimental r",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 128.64,
+      "status": "queued"
+    },
+    {
       "id": "https://tokenmaxxer.xyz",
       "title": "Show HN: TokenMaxxer – Create AI spend leaderboards with your friends",
       "link": "https://tokenmaxxer.xyz",
@@ -5707,6 +5683,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-12T14:38:19.000Z",
       "score": 126.35,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49444955",
+      "title": "Looking for people to follow designing systems to ship code with AI agents",
+      "link": "https://news.ycombinator.com/item?id=49444955",
+      "summary": "Today I watched a workshop, probably recorded by one of the people attended the Zoom call and shared over X, and I loved it. The speaker was from Cursor and talked about her own genuine experience in developing the the systems at work that ship hundred of PRs every month w/o her touching the code at all -- aside from her working on the environment, harness, constraints, rules where these agents operate. What I liked also how she actually showed it, explained it, and her communication sounded pure hands-on experience. And more importantly, throughout the video she looked really tired and but energetic at the same time if you know what I mean. Tired because of solving real problems, and energetic because of solving real problems unlike those YouTubers or many X folks with overly energetic acts coming from speaking about AI rather than what they really do with AI at work. So for people like me who are away from the source of all this, which is Silicon Valley, I am really trying to access those resources; the resources that were not highly censored for much wider public view. I am doing progressively more AI driven automated deliveries at work, and I really want to learn from the masters in the field. Unfortunately not living in Silicon Valley and cannot attend those live meetings in person or not being informed about these digital workshops and zoom calls thru the active community",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-26T06:50:35.000Z",
+      "score": 126.26,
       "status": "queued"
     },
     {
@@ -5851,18 +5839,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-09T14:05:45.000Z",
       "score": 120.91,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.02650",
-      "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
-      "link": "https://arxiv.org/abs/2608.02650",
-      "summary": "arXiv:2608.02650v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on external tools to complete complex real-world tasks. However, reliable tool-use planning remains challenging due to the limitations of implicit reasoning and the evolving nature of real-world execution environments. Existing tool-use agents typically rely on LLMs to infer tool compositions from textual descriptions, which can lead to inefficient exploration and unreliable execution in complex tasks. To address these challenges, we model tool relations at the schema level and construct a directed Tool--Schema Hypergraph, in which tools are represented as hyperedges from their required input-schema nodes to their output-schema nodes. Furthermore, we propose HyperAgent, a Tool--Schema Hypergraph-guided framework for dynamic planning and execution. Given a task, HyperAgent first extracts a task-relevant tool context graph and uses it to guide the construction of a schema-aware Task DAG. During execution, HyperAgent dynamically realizes each subtask by constructing a state-conditioned tool support graph through deficit-oriented expansion, which identifies unresolved requirements and retrieves supporting producer tools according to the current agent state. Experiments on AppWorld demonstrate that HyperAgent improves task completion performance while reducing redundant API calls, LLM",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "score": 120.73,
       "status": "queued"
     },
     {
@@ -6646,6 +6622,18 @@
       "status": "queued"
     },
     {
+      "id": "https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/",
+      "title": "GitHub denies Copilot Autofix wrote the bug Wiz's AI agent found",
+      "link": "https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/",
+      "summary": "Article URL: https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/ Comments URL: https://news.ycombinator.com/item?id=49444544 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-26T05:53:25.000Z",
+      "score": 99.92,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.17124",
       "title": "A decodability criterion predicts when hidden-state selection beats majority voting in large language models",
       "link": "https://arxiv.org/abs/2608.17124",
@@ -6679,6 +6667,42 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "score": 99.05,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.23626",
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "link": "https://arxiv.org/abs/2608.23626",
+      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleteness as a systematic. We audit AION-1, a 39-modality transformer trained on more than 200 million objects, using causal interventions on its inputs. Holding the image tokens byte-identical and editing only the survey segmentation map changes every quantity the model reports -- flux, size, ellipticity, redshift -- by 110-4400 times a matched placebo. The mechanism is detection gating, presence at the field centre (r = 0.47), not the light the mask encloses (r = 0.30); across 322 real blends the model ignores how the pipeline partitioned the light (R = -0.006). Nor is the preference specific to that channel: contradicted catalogue photometry leaves the model nine times worse than supplying no metadata at all. The Legacy Survey pipeline leaves 3.68% of targets with no segment covering their position. Propagating that rate, with a miss represented by the fields the pipeline actually returns, shifts tomographic mean redshifts by a median 0.71 times the LSST DESC requirement over 40 assignments and exceeds it in 12; observed positional errors take the worst bin to 8.3 times. Drawing the misses by their measure",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 98.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.23666",
+      "title": "Gated Activation Steering for Reducing Sycophancy & Hallucination in Medical Question Answering",
+      "link": "https://arxiv.org/abs/2608.23666",
+      "summary": "arXiv:2608.23666v1 Announce Type: new Abstract: Sycophancy and hallucination are persistent failure modes of Large Language Models (LLMs) across domains. However, it becomes particularly consequential in clinical question answering, where responses must remain grounded in the provided context and robust to user pressure. Hallucination can introduce information that is unsupported by the context, while sycophancy can cause a model to abandon a previously correct answer when challenged by the user. Existing approaches, such as prompt-based safeguards and always-on activation steering, often address these behaviors separately or apply interventions broadly across turns, which can unnecessarily deteriorate responses that were already correct. To address these limitations within a single framework, we employ Inference Time Intervention (ITI) to jointly control both behaviors by learning separate steering directions for hallucination and sycophancy from contrastive clinical pairs and applying them to causally verified attention heads. During runtime, behavior-specific gates then determine when intervention is needed: the hallucination component mitigates unsupported claims, while the sycophancy component mitigates answer shifts caused by user pressure. We evaluate this framework on clinical questions grounded in EHR data while keeping the model weights frozen. Across all evaluation s",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 98.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.23670",
+      "title": "Automata from Agent Traces: Failure and Next-Step Prediction",
+      "link": "https://arxiv.org/abs/2608.23670",
+      "summary": "arXiv:2608.23670v1 Announce Type: new Abstract: LLM-based agents execute multi-step tasks, but their behavioral structure remains opaque: long unstructured traces resist the safety auditing and runtime monitoring that deployment requires. Existing approaches operate per-trace or success-only, so they miss the cross-run topology that links next-step and failure prediction. To recover that shared structure, we collapse an entire trace corpus into a single, compact finite-state machine (FSM) that serves as a structural substrate for the otherwise unpredictable behavior of LLM agents. Across twelve public datasets, the FSMs are compact (7-43 states), replay held-out data at >=0.997 fitness with near-identical topology across splits, and build in milliseconds. This substrate addresses both prediction goals. For next-step prediction, FSM-state context outperforms Agent Workflow Memory on every ground-truth-matched dataset. For failure prediction, per-state behavioral features reach held-out AUROC up to 0.94, and an online monitor ranks failing runs above passing ones from a partial trace, triggering early stopping well before completion. Behavioral topology thus appears shaped more by the deployment harness than by the LLM, providing a model-agnostic structural primitive for safety auditing and runtime monitoring.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 98.64,
       "status": "queued"
     },
     {
@@ -6799,18 +6823,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "score": 97.19,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.02996",
-      "title": "On the missing benchmarks layer and a potential solution",
-      "link": "https://arxiv.org/abs/2608.02996",
-      "summary": "arXiv:2608.02996v1 Announce Type: new Abstract: Latin America is missing a foundational layer for native AI development: the benchmark layer. The benchmark layer does two things no other layer can - it audits AI systems against regional social requirements and it directs AI optimization in economically relevant environments. Without it, public institutions cannot independently evaluate foreign AI systems, and companies cannot optimize AI systems to solve local problems with SOTA performance. The cost of the missing layer is dual: a loss of auditability and a loss of optimization direction over a technology that is increasingly critical infrastructure. We propose an EvalsHub, with LatamBoard as its first regional instance - an open, task-first benchmark infrastructure where universities, public institutions, professional communities, and companies can publish, execute, compare, and maintain evaluations across models, workflows, and agents. Built once, measured forever - re-run by institutions as new AI systems ship and by industry teams after every system change. Open by design and incentive-driven by construction.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "score": 96.73,
       "status": "queued"
     },
     {
@@ -7042,6 +7054,54 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2608.23568",
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "link": "https://arxiv.org/abs/2608.23568",
+      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation while varying the reader-facing artifact. RENDER combines a five-level packet ladder, localizing when answer-bearing content enters the input, with deterministic templates approximating ChatGPT-style entries, LangChain summaries, MemGPT-style typed records, and raw conversation. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. In deployed-style templates, best-worst spread is 24.6-48.8 points per model; under the primary scorer, ChatGPT-style entries have higher point estimates than raw conversation on 7 of 9 models. Judge rescoring preserves the positive aggregate effect, but model-specific significance is mixed. Three models scoring 0 percent on formal ledger packets answer the same facts from natural-language entries at 45.4-53.4 percent. The effect persists under retrieval noise and transfers to HotpotQA, suggesting that memory/RAG evaluations should report or control the reader-facing artifact.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 92.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.23569",
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "link": "https://arxiv.org/abs/2608.23569",
+      "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the complexity of enterprise database environments. We introduce ESQ-Bench, an Oracle-first NL2SQL benchmark with systematic complexity tiers and silent-divergence evaluation across three enterprise schema complexity tiers. We constructed and released six populated schemas (465 tables, 164,682 rows, zero empty tables) with identical seed data on Oracle, PostgreSQL, MySQL, and SQL Server, a four-metric evaluation harness (EM, EX, SR, SD), and 550 gold-validated question-query pairs (Tier-1: 95; Tier-2: 228; Tier-3: 227). Schema-linked prompting with GPT-4o shows monotonic execution-match degradation across tiers: 79.8, 60.3, and 57.2 percent EX on executed queries (June 2026), versus 75.6, 80.4, and 95.8 percent on an earlier 142-question pilot slice. EM stays below 7 percent tier-wide; operational silent-divergence reaches 73 to 99 percent among EX-passing queries. Failure analysis shows wrong-result semantics dominate at higher tiers. Claude Sonnet 4.6 with schema-linked prompts reaches 87.4, 74.9, and 68.7 percent EX (executed queries), exceeding GPT-4o schema-linked",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 92.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.23642",
+      "title": "AI Agents Push Humans Out of the Loop",
+      "link": "https://arxiv.org/abs/2608.23642",
+      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede effective human oversight, but the cognitive capacities required for it are also themselves degraded by extended use of AI systems. This position paper argues that current approaches to the development and deployment of AI agent systems do not support effective human oversight -- they contribute to its degradation. To address this, a top priority in the advancement of AI agents should be supporting the situated goals and cognitive requirements of effective human oversight, treating the human needs of overseers at the same level of importance as AI agent capability. To put this idea into practice, we connect work on automation and human-computer interaction to AI agent processes, outlining design-level affordances and organizational protocols that (1) support overseers in exercising critical judgement and (2) counteract the skill atrophy that arises from extended use of automation. We urge developers and deployers to adopt these or similar approaches. Without explicit support for the cognitive demands of effective human-agent interaction, AI agent systems will continue to passively inc",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 92.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.23644",
+      "title": "Ethical LLM-Assisted Research: A Framework for Responsible Delegation, Verification, and Epistemic Value",
+      "link": "https://arxiv.org/abs/2608.23644",
+      "summary": "arXiv:2608.23644v1 Announce Type: new Abstract: Large language models (LLMs) are becoming routine instruments of scientific research, assisting with literature synthesis, hypothesis development, coding, and formal reasoning. Their use raises a central epistemic question: when parts of scientific reasoning are delegated to an artificial system, what conditions must remain under human control for the resulting knowledge claims to retain epistemic legitimacy and accountable authorship? This paper develops a normative and conceptual framework for analyzing such delegation. Scientific reasoning is treated as a distributed process in which the origin of a contribution may vary between human and machine, while responsibility for its acceptance into the scientific record remains human. The framework distinguishes content origin $O(g)$, completion of human verification $V(g)$, responsibility assignment $R(g)$, accountable human ownership $M(g)$, and epistemic outcome $E(g)$. These constructs separate the provenance of a claim from the process by which it is checked, the epistemic outcome of that checking, and the human responsibility attached to its disposition. The central proposition is that the ethical boundary of LLM-assisted research is determined primarily by adequate verification and accountable human ownership rather than by the degree of machine involvement itself. On this basi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "score": 92.64,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.13573",
       "title": "A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing",
       "link": "https://arxiv.org/abs/2608.13573",
@@ -7126,88 +7186,36 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.02879",
-      "title": "Interpreting Black-Box Large Language Models with Sentence-Level Energy Landscapes",
-      "link": "https://arxiv.org/abs/2608.02879",
-      "summary": "arXiv:2608.02879v1 Announce Type: new Abstract: The widespread adoption of proprietary Large Language Models (LLMs) accessed strictly through closed APIs has created a critical challenge for responsible deployment: a fundamental lack of interpretability. To address this, we propose a model-agnostic, post-hoc attribution interpreter operating at the sentence level. Our approach trains an Energy-Based Model (EBM) as a surrogate to capture the LLM's internal conceptual consistency between prompts and responses. This energy landscape guides the training of a lightweight interpreter network. Uniquely, our interpreter operates as a standalone tool; once trained, it quantifies the influence of prompt sentences on a user-specified target output without requiring further API queries to the LLM. By globally training a local interpreter across diverse inputs, our framework captures broader generation patterns and mitigates instance-specific biases. Experiments demonstrate that our EBM accurately simulates the target LLM, allowing the interpreter to effectively identify the prompt sentences most influential in generating specific target outputs.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "score": 90.73,
-      "status": "queued"
-    },
-    {
-      "id": "https://vero.verina.io/",
-      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
-      "link": "https://vero.verina.io/",
-      "summary": "Article URL: https://vero.verina.io/ Comments URL: https://news.ycombinator.com/item?id=49406158 Points: 1 # Comments: 0",
+      "id": "https://comic-cron.com/",
+      "title": "Show HN: A daily cartoon contest between AI models, judged blind",
+      "link": "https://comic-cron.com/",
+      "summary": "Comic-cron.com is a daily contest where AI models draw a single panel cartoon about a recent news story and people vote on which are funny. I built it mainly because I love cartoons and news, but this project isn’t trying to pretend it’s human art, I wanted to see how capable the models were at this task of making funny comics. Sometimes they get it, and sometimes they don’t and it has been interesting to see the pr…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-23T04:59:37.000Z",
-      "score": 90.34,
-      "status": "queued"
+      "keywordHits": 8,
+      "publishedAt": "2026-08-25T14:46:36.000Z",
+      "score": 234,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "SOCIETY",
+      "failedAtRun": "2026-08-26T08:30:14.891Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
-      "id": "https://arxiv.org/abs/2608.06394",
-      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
-      "link": "https://arxiv.org/abs/2608.06394",
-      "summary": "arXiv:2608.06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only considering in-domain scenarios where the model needs to be trained and tested within the same graph domain, resulting in limited cross-domain generalization. Recently, Graph Foundation Models (GFMs) have emerged as a promising paradigm for learning transferable graph representations across diverse graph domains and downstream tasks. However, existing GFMs are built upon single-label assumption, where all nodes are arbitrarily regarded as containing only one class of semantic and embedded into a single representation. For multi-label nodes, such a representation essentially approximates multiple semantics with a single point in the representation space, inevitably leading to semantic entanglement and making simultaneous discrimination of multiple labels difficult. To address these limitations, we propose a Multi-Semantic Basis Graph Foundation Model (MSB-GFM), a framework for cross-domain multi-label node classification. Specifically, we introduce a multi-semantic basis representation learning paradigm that models each multi-label node as an adaptive composition of semantic bases, thereby",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 89.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06400",
-      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
-      "link": "https://arxiv.org/abs/2608.06400",
-      "summary": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized experts and characterizing experts through examples with high routing weights. However, routing weights only reveal which prompts an expert $\\textit{receives}$, not how it $\\textit{judges}$ responses, providing only a partial account of expert behavior. We therefore propose $\\textbf{Co}$ntribution-$\\textbf{Co}$ntrast ($\\textbf{CoCo}$) response-level interpretation, which faithfully characterizes experts' roles using chosen-rejected response pairs with the largest contribution contrasts, jointly capturing routing and preference behavior. Across automatic and human evaluations, CoCo yields more coherent, faithful, and specialized interpretations than router-based, score-based, and sparse autoencoder-based alternatives while maintaining competitive reward modeling accuracy. To the best of our knowledge, this is the first systematic study of interpretation methods for MoE reward models.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 89.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06402",
-      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
-      "link": "https://arxiv.org/abs/2608.06402",
-      "summary": "arXiv:2608.06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches improve performance at the expense of interpretability and rely on labeled data and training. Large language models (LLMs), with strong reasoning capabilities and world knowledge, are promising for interpretable, label-free community detection. To leverage these strengths, we propose LUCID, an LLM-guided, interpretable, training-free, and unsupervised community detection method. Inspired by phase-transition kinetics in natural systems, where complex structures emerge through initialization, merging, refinement, and selection, LUCID is designed as a four-stage pipeline. Within this pipeline, the LLM induces formal rules that translate implicit knowledge into explicit and interpretable logical structures. Specifically, (1) the Local-View Community Initialization stage encodes local graph structures using k-ego contexts and unsupervised node roles; (2) the Multi-factor Community Merge stage uses LLM-induced rules to iteratively merge local communities; (3) the Multi-grain Community Refinement stage applies LLM-induced coarse-to-fine rules in parallel to reduce boundary noise; and (4) th",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
+      "id": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems typically \"have to make a trade-off between the two.\" First introduce…",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 5,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 89.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06530",
-      "title": "KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning",
-      "link": "https://arxiv.org/abs/2608.06530",
-      "summary": "arXiv:2608.06530v1 Announce Type: new Abstract: Planning a degree from official university sources requires solving two problems in order. The institution's curriculum must first be reconstructed from catalogs, departmental pages, JSON endpoints, and PDFs that share no schema, and only then can a student-specific path be optimized under prerequisite logic and overlapping requirement constraints. Coupling the two lets each failure mode hide the other, because a planner that drives its own crawling never learns facts its current plan does not need. We present KnowPlan, which enforces an extraction-first boundary and measures the interface between the stages rather than assuming it. CatalogBrowse explores with no access to any user profile. It scores legal actions by lower-confidence expected marginal gain over a finite set of atomic catalog obligations per unit of source access, parses deterministically through platform adapters with a span-constrained clause-to-AST model fallback, and terminates on a closure certificate over index, schema, provenance, and reference completeness instead of a reward threshold. Its output contract is three provenance-linked JSON documents. DegreeMap consumes only those documents. It compiles them into a typed requirement hypergraph and optimizes lexicographically with CP-SAT over hard feasibility, completion horizon, load and risk, personalized uti",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 89.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/vibhu-dixit/lybrary",
-      "title": "Lybrary,a persistent AST-aware code memory for AI agents(MCP server pip install)",
-      "link": "https://github.com/vibhu-dixit/lybrary",
-      "summary": "Article URL: https://github.com/vibhu-dixit/lybrary Comments URL: https://news.ycombinator.com/item?id=49219016 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-08T05:01:16.000Z",
-      "score": 88.92,
-      "status": "queued"
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "score": 143.69,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-08-26T08:30:14.891Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders…"
     },
     {
       "id": "https://vaultak.com",
