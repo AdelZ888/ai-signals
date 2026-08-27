@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-26T16:23:36.503Z",
+  "generatedAt": "2026-08-27T18:39:58.998Z",
   "items": [
+    {
+      "id": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "title": "How to encourage smarter AI use in the classroom",
+      "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-24T14:20:19.000Z",
+      "score": 134.83,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-27T18:39:58.963Z",
+      "file": "content/posts/2026-08-27-traffic-light-playbook-for-classroom-ai-pilot-steps-and-teacher-tools.md",
+      "fileFr": "content/posts/fr/2026-08-27-traffic-light-playbook-for-classroom-ai-pilot-steps-and-teacher-tools.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 300,
+      "wordsEn": 1691,
+      "wordsFr": 1253
+    },
     {
       "id": "https://emergencemachine.com/building-an-ai-chat-for-my-blog/",
       "title": "Building an AI Chat for My Blog: Gemini, Cloud Functions, $5-15/Month",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1556
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity",
-      "title": "Anthropic releases a new Opus model amid Mythos Preview buzz",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity",
-      "summary": "Anthropic has released its most powerful \"generally available\" model to date: Claude Opus 4.7. The company called it a step up from Opus 4.6 for advanced software engineering tasks, particularly in complex coding areas that in the past required more hand-holding. It's also supposed to be better at analyzing images and following instructions, and it can exhibit more \"creativity\" when creating slides and documents, pe…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-16T15:59:24.000Z",
-      "score": 168,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-22T09:18:23.221Z",
-      "file": "content/posts/2026-04-22-anthropic-releases-claude-opus-47-as-ga-mythos-preview-reportedly-outperforms-it-in-early-evaluations.md",
-      "fileFr": "content/posts/fr/2026-04-22-anthropic-releases-claude-opus-47-as-ga-mythos-preview-reportedly-outperforms-it-in-early-evaluations.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1572,
-      "wordsFr": 1132
-    },
-    {
       "id": "https://docuqueue.com/mcp",
       "title": "Show HN: DocuQueue – Document Layer for AI Agents",
       "link": "https://docuqueue.com/mcp",
@@ -5170,6 +5170,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=49468363",
+      "title": "Ask HN: AI agent acts. Your logs say so. But you wrote the logs",
+      "link": "https://news.ycombinator.com/item?id=49468363",
+      "summary": "Hi I am really lost here, if you are deploying AI agents in production, how are you handling auditability? also what would make you trust an external witness protocol? fo reference, the Amazon vs Perplexisty use case!! Comments URL: https://news.ycombinator.com/item?id=49468363 Points: 4 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-27T17:36:42.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://construct.computer/blog/agent-task-half-life/",
       "title": "AI Agents have a half-life",
       "link": "https://construct.computer/blog/agent-task-half-life/",
@@ -5182,6 +5194,30 @@
       "status": "queued"
     },
     {
+      "id": "https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/",
+      "title": "Walkthrough of a prompt injection attack on a modern office-work AI agent",
+      "link": "https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/",
+      "summary": "Article URL: https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/ Comments URL: https://news.ycombinator.com/item?id=49468107 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-27T17:19:01.000Z",
+      "score": 166.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49468252",
+      "title": "Tell HN: Man, AI is killing my brain",
+      "link": "https://news.ycombinator.com/item?id=49468252",
+      "summary": "I was among the last to resist, but then I was given a subtle hint that if I won't \"improve my productivity and be on par with my colleagues\" my work will be at risk. So I started to use Claude Code about a year ago. At first, I'd give it small tasks, review every line it wrote, opened a proper PR, review again, ask questions, ask it to fix stuff I don't like. But I saw that my colleagues were shipping more, and so I started to ease on my reviews. At first, I would push small features straight to main. But my colleagues were shipping 10x more than me, and I need my job, so I started to push more and rely more on AI. As the agent was doing its work, sometimes 20-30 minutes, I would mindlessly scroll social media, something I tried to avoid for a very long time. But then I saw that my peers are using work trees, running multiple agents. So I started to do the same. Now, instead of mindlessly scrolling, I was launching 4-5 agents, juggling between their output. At some point, I was no longer having mental capacity to understand so much context, so I just started to chose the \"Recommended\" suggestion by Claude. I no longer know the code, or how things work. If there is a bug, I just copy the user complaint / bug description into Claude and let it figure it out. The good/bad part is that it seems to work. And I'm afraid what's next. Almost one year later and I'm no longer sure I can",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-27T17:28:27.000Z",
+      "score": 157.56,
+      "status": "queued"
+    },
+    {
       "id": "https://rulemesh.com/how-it-works",
       "title": "Show HN: A Way for AI agents to support you with regulatory compliance",
       "link": "https://rulemesh.com/how-it-works",
@@ -5191,18 +5227,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-13T14:48:03.000Z",
       "score": 156.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
-      "title": "Anthropic is hiring an AI chip design team",
-      "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
-      "summary": "Article URL: https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/ Comments URL: https://news.ycombinator.com/item?id=49194552 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-06T09:43:00.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5287,18 +5311,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "score": 151.19,
-      "status": "queued"
-    },
-    {
-      "id": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/",
-      "title": "Train the AI to Want to Die",
-      "link": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/",
-      "summary": "Article URL: https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/ Comments URL: https://news.ycombinator.com/item?id=49194507 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-06T09:36:18.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -5407,18 +5419,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-25T15:22:14.000Z",
       "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://agent-tools.net/",
-      "title": "Agent-tools.net – pay-per-call APIs for AI agents, paid via x402/USDC on Base",
-      "link": "https://agent-tools.net/",
-      "summary": "Article URL: https://agent-tools.net/ Comments URL: https://news.ycombinator.com/item?id=49194345 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-06T09:12:09.000Z",
-      "score": 149.92,
       "status": "queued"
     },
     {
@@ -5575,18 +5575,6 @@
       "keywordHits": 9,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "score": 136.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "title": "How to encourage smarter AI use in the classroom",
-      "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-24T14:20:19.000Z",
-      "score": 134.83,
       "status": "queued"
     },
     {
@@ -5818,18 +5806,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.04077",
-      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
-      "link": "https://arxiv.org/abs/2608.04077",
-      "summary": "arXiv:2608.04077v1 Announce Type: new Abstract: Evaluating financial AI agents requires criteria aligned with real professional work. Existing rubric methods typically derive criteria from task prompts or model outputs, overlooking tacit standards visible only in practitioner deliverables. We introduce FinProBench, a benchmark for professional financial tasks, and Role-Grounded Rubric Construction (RGRC), a reusable pipeline that derives rubrics from deliverables produced by practitioners in the same role. RGRC comprises four stages: Deliverable Collection, Competency Extraction, Rubric Synthesis, and Validation. Its rubrics capture tacit standards, distinguish quality levels, and transfer across tasks within a role. Before analysis, we classified 57 occupations by deliverable genre into 30 prior-rich conventional roles and 27 prior-sparse role-specialized roles. Across all roles, Prompt-only nearly matches RGRC for conventional roles (89.2% vs. 90.7%), but RGRC substantially outperforms it for role-specialized roles (99.1% vs. 78.0%). This split indicates that prompt engineering can approximate rubrics when conventions are well represented in model priors, while professional grounding is essential for standards beyond those priors. FinProBench is built from 1,723 curated deliverables spanning 57 occupations, 8 financial sub-industries, and 161 deliverable types, and releases a",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 120.59,
-      "status": "queued"
-    },
-    {
       "id": "https://twitter.com/DarioAmodei/status/2088758819304443967",
       "title": "CEO of Anthropic on the messaging around AI",
       "link": "https://twitter.com/DarioAmodei/status/2088758819304443967",
@@ -5851,6 +5827,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "score": 119.5,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-08-26T19:00:00.000Z",
+      "score": 119.1,
       "status": "queued"
     },
     {
@@ -5938,6 +5926,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
+      "title": "Google, Microsoft and OpenAI among 100 firms calling for better cyber defences",
+      "link": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The letter warns cyber-attacks which use AI will become more sophisticated in a matter of months.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-27T17:01:27.000Z",
+      "score": 116.62,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.13574",
       "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
       "link": "https://arxiv.org/abs/2608.13574",
@@ -5959,6 +5959,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-08-17T04:00:00.000Z",
       "score": 116.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/kontext-security/sandy",
+      "title": "Sandy – A sandbox for AI coding agents with monitoring and policy controls",
+      "link": "https://github.com/kontext-security/sandy",
+      "summary": "Article URL: https://github.com/kontext-security/sandy Comments URL: https://news.ycombinator.com/item?id=49467501 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-27T16:33:44.000Z",
+      "score": 115.53,
       "status": "queued"
     },
     {
@@ -5995,30 +6007,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "score": 115.19,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.04095",
-      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
-      "link": "https://arxiv.org/abs/2608.04095",
-      "summary": "arXiv:2608.04095v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long horizons. Existing personalized-memory benchmarks primarily test factual retention or rely on weakly constrained model-generated trajectories, leaving event-driven preference adaptation underexplored. We introduce FinPerMA, an event-grounded benchmark that evaluates personalized memory against frozen longitudinal investor trajectories. Its generation pipeline combines deterministic, theory-informed impact rules, controlled LLM narration, and automated quality screening; a Post-Shock checkpoint isolates whether an agent has integrated a material event into its persistent user model. On 2,994 questions from 276 personas, seven frontier LLMs and up to seven memory configurations remain far from saturated: no full-context configuration exceeds approximately 0.47 overall accuracy or approximately 39% on multiple-choice questions. Attribution analysis shows that summary-based memory often preserves factual details while losing the preference signals needed for personalization; simple retrieval can therefore outperform purpose-built memory systems, with the gap widening after shocks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 114.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.04156",
-      "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
-      "link": "https://arxiv.org/abs/2608.04156",
-      "summary": "arXiv:2608.04156v1 Announce Type: new Abstract: Electroencephalography (EEG) analysis extends beyond assigning predefined labels to recordings; it requires workflows connecting natural-language instructions, signal processing, quantitative evidence, and scientific interpretation. We term this capability \\emph{comprehensive EEG understanding}. Existing evaluations, however, primarily target isolated decoding tasks or system-specific demonstrations, leaving the competence of large language models (LLMs) insufficiently quantified. We introduce \\benchmarkname{}, a unified benchmark for comprehensive, instruction-conditioned EEG understanding. It comprises four subsets---Foundational Analysis, Sleep Assessment, Neurocognitive Assessment, and Physiological Integration---covering 17 datasets, \\numcases{} tasks, and over \\numinstances{} real-data instances. Given an instruction and EEG recordings with optional physiological signals, a system must perform the analysis and produce a scientifically grounded report and, when required, artifacts. Outputs are assessed through numerical, categorical, set, sequence, semantic, and artifact validation. We evaluate \\nummodels{} representative LLMs across more than 100K executions under two paradigms: autonomous code execution with CodeAct and structured agentic analysis with BrainAgent. Results vary substantially across models, subsets, difficult",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 114.59,
       "status": "queued"
     },
     {
@@ -6154,6 +6142,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
+      "title": "OpenAI&#8217;s executive exodus has one big winner",
+      "link": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
+      "summary": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face, Brockman has amassed enormous power and influence within the top ranks of the company as other senior leaders have left in rapid succession these past few months. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. Brockman now oversees the company’s entire consumer and enterprise product teams, including ChatGPT, Codex, and its major infrastructure build out. As Hayden recently reported, he is effectively now the day-to-day operational leader of OpenAI. This will have major effects on OpenAI as a company and its product strategy, at a time when it continues to cede ground to Anthropic in the enterprise and is preparing for a historic IPO. This is all against the backdrop of needing to turn a profit in the next few years and the company’s huge ambitions to replace both Google Search and the iPhone in the consumer market. So I wanted Hayden to break down for me what’s going on at OpenAI, and the increasingly important role Greg Brockman will play in its future.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-27T14:00:00.000Z",
+      "score": 110.59,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.13606",
       "title": "MobileMem: Learning from a Year of Mobile Experiences",
       "link": "https://arxiv.org/abs/2608.13606",
@@ -6259,6 +6259,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "score": 107.5,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/infercrane/infercrane",
+      "title": "InferCrane – Deploy and safely evolve self-hosted AI inference",
+      "link": "https://github.com/infercrane/infercrane",
+      "summary": "Article URL: https://github.com/infercrane/infercrane Comments URL: https://news.ycombinator.com/item?id=49467696 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-27T16:49:27.000Z",
+      "score": 107.07,
       "status": "queued"
     },
     {
@@ -6439,42 +6451,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-09T13:03:49.000Z",
       "score": 103.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.04285",
-      "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
-      "link": "https://arxiv.org/abs/2608.04285",
-      "summary": "arXiv:2608.04285v1 Announce Type: new Abstract: Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning algorithms to function in high-stakes domains or in low-data regimes that characterize many real-world applications. We argue that the neurosymbolic combination of machine learning and formal reasoning is not a niche approach within AI, but rather includes many already successful techniques that are of crucial importance to the development of reliable, efficient and, ultimately, trustworthy systems. This perspective prompts a re-examination of the design of current AI systems. We show that many leading AI systems, including some that are not traditionally considered as neurosymbolic, can be analysed from the perspective of four principles of neurosymbolic AI design: Reasoning, Assurances, Interfacing and Learning (RAIL). Applying the RAIL framework offers a unified view of seemingly disparate AI systems, ranging from physics-aware machine learning to neuro-guided search (such as Google DeepMind's Alpha-* suite), causal learning and tool-augmented Large Language Models. Importantly, the RAIL principles will enable engineers to make better-informed and more principled decisions about the design and deploy",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 102.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.04458",
-      "title": "Architectural Implications of Agentic AI Workflows",
-      "link": "https://arxiv.org/abs/2608.04458",
-      "summary": "arXiv:2608.04458v1 Announce Type: new Abstract: Agentic AI is emerging in datacenters, but its architectural implications remain unexplored. We organize agentic workflows in a taxonomy and present its first architectural characterization with a production study at Microsoft Azure and a controlled study of open-source frameworks. We show that agentic execution is fragmented and heterogeneous. Requests expand into a workflow of LLM inferences, tool invocations, and orchestration decisions that repeatedly cross the CPU-GPU boundary. Our taxonomy explains how this fragmentation turns into resource demand. As orchestration and tools run on the host, the CPU sits on the critical path. Execution structure sets the load over time, which stays low with sudden spikes. Model composition sets how evenly the workflow uses the GPUs. Diversity in tasks and tools widens this range even further. These characteristics expose architectural mismatches of conventional uniform servers. Fragmented execution strands CPU and GPU capacity despite bursty demand. Different software roles make homogeneous CPU provisioning inefficient. Finally, multiplexing many agents onto shared cores degrades microarchitectural locality. Guided by our findings, we derive implications for agentic servers and examine them through Agora, our prototype for commodity servers. Agora dynamically harvests idle CPU cores for co-l",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 102.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.04519",
-      "title": "Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness",
-      "link": "https://arxiv.org/abs/2608.04519",
-      "summary": "arXiv:2608.04519v1 Announce Type: new Abstract: Benchmarking machine unlearning methods is critical to understand whether sensitive knowledge is removed from large language models (LLMs) or not. Current unlearning benchmarks include mainly single-hop questions and a narrow set of multi-hop questions. Although effective, they still face two challenges. (1) Knowledge is not isolated, whereby diverse multi-hop reasoning paths can potentially induce knowledge leakage than normal queries. (2) Unlearning may be fragile: unlearned knowledge can be partially recovered through recovery attacks such as lightweight post-unlearning adaptation, making static evaluation insufficient. Therefore, in this paper, we introduce \\unlearning as a novel benchmark to understand robust LLM knowledge removal across diverse reasoning paths and recovery attacks. We experiment with this benchmark on 3 models, 6 unlearning methods, and 2 carefully curated datasets. Results show that existing methods are vulnerable to multi-hop reasoning paths and recovery attacks. We further explore the trade-off among forget quality, robustness, and model utility for LLM unlearning.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 102.59,
       "status": "queued"
     },
     {
@@ -6802,39 +6778,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.04066",
-      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
-      "link": "https://arxiv.org/abs/2608.04066",
-      "summary": "arXiv:2608.04066v1 Announce Type: new Abstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you cannot trust? We present an agent instrument built so that verification is structural rather than post-hoc. A deterministic Executive owns all belief; a language model may only file typed proposals, and a claim is admitted only when a prediction pre-registered before acting is matched against observation by code. Two properties make the instrument a verifier of its own science, not just of the agent: every run invalidates itself when per-organ write-error, render-size, or salted-canary-echo floors are breached (four of the first eight architecture runs were invalidated, each localizing a real defect); and a render-invisible shadow reference compiles the plan the full system would have committed in every ablation cell, so drift metrics are defined even where the mechanism under test has been removed. Using this instrument we report a clean, single-variable result on a failure every long-horizon agent suffers: ablating the commitment mechanism flips goal-abandonment from 0.00 to 1.00 while binding error stays flat at 0.00 (three seeds per cell, up to 394 reference beats per run, every run gated valid). The binding channel, by contrast, does not reappear as per-beat drift when its repair is ablated -- because binding is code-owned, the fai",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
+      "id": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+      "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI's cyber agents banded together to perform a hack during a security test.",
+      "source": "BBC Technology",
+      "region": "UK",
       "keywordHits": 5,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 96.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.04205",
-      "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-      "link": "https://arxiv.org/abs/2608.04205",
-      "summary": "arXiv:2608.04205v1 Announce Type: new Abstract: Human evaluation of AI systems and digital products is costly, slow, and difficult to scale. Offline evaluations are more scalable but often abstract away human diversity and interactive behavior. We therefore introduce MatrAIx, a population-scale simulated-user evaluation infrastructure for testing AI systems and digital products with heterogeneous users. MatrAIx has three core components: First, Persona 8B contains 8.3 billion persona records represented by 1,290 categorical dimensions. Records are either sampled from a dependency graph that preserves correlated attributes or derived from human-authored profiles. We release a quality-filtered coreset of approximately 1 million personas, comprising 599,847 human-grounded and 400,000 synthetic records. Second, the MatrAIx Playground provides four environments in which diverse users evaluate and interact with digital products: Survey, AI Chatbot, Web, and App. Third, MatrAIx provides 1,010 application tasks spanning more than 25 domains, including Commerce, Software, Finance, and Healthcare. We conducted 18,189 evaluation trials across eight representative tasks. Persona agents were powered by three LLMs: Claude Opus 4.8, GPT 5.5, and Claude Haiku 4.5. The resulting feedback captures how decisions and preferences vary across persona backgrounds, including hesitation after a price i",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 96.59,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.04384",
-      "title": "Improving Auto-Design of Neural PDE Solvers with a Domain-Specific Language",
-      "link": "https://arxiv.org/abs/2608.04384",
-      "summary": "arXiv:2608.04384v1 Announce Type: new Abstract: Neural PDE solver auto-design is fundamentally a search-space representation problem. In the space of unrestricted Python programs, valid solvers form an extremely sparse subset: most candidate programs are syntactically incorrect, semantically incompatible, or numerically unstable. Direct code generation therefore forces an LLM to spend most of its search capacity navigating implementation failures rather than reasoning about solver quality. ADSL-PDE addresses this challenge by introducing a structured search state between solver concepts and executable code. It represents the functional decisions that determine a neural PDE solver (architecture, physical constraints, objectives, sampling, and optimization) while abstracting away low-level implementation details. A deterministic compiler maps each valid search state to an executable solver. In effect, ADSL-PDE reshapes the search space: it removes large regions of invalid programs, increases the density of meaningful candidates, and preserves the compositional freedom needed to discover previously unseen designs. Solver evolution can thus operate over design decisions rather than code artifacts. Built on this representation, our evolutionary agent iteratively proposes, evaluates, and refines solver search states using empirical feedback. Across multiple PDE benchmarks, ADSL-PDE i",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "score": 96.59,
+      "publishedAt": "2026-08-26T22:03:45.000Z",
+      "score": 95.87,
       "status": "queued"
     },
     {
@@ -6847,6 +6799,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "score": 95.84,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "title": "OpenAI’s rogue AI model incident was worse than we thought",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "summary": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to find out about any of it. Over a month later, two new reports offer nearly 130 pages of details on the incident and OpenAI's response, many of them previously unreleased. One was written by OpenAI itself, the other by two third-party AI research nonprofits, METR and Redwood Research, which OpenAI allowed to jointly investigate the inciden … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-26T21:36:06.000Z",
+      "score": 95.74,
       "status": "queued"
     },
     {
@@ -7006,18 +6970,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-      "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-05T20:47:11.000Z",
-      "score": 92.78,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.21408",
       "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
       "link": "https://arxiv.org/abs/2608.21408",
@@ -7162,6 +7114,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+      "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+      "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the supposed finish line of the AI race, there is no consensus on what artificial general intelligence means, let alone how we'll know when we've actually got there, which makes achieving it equally arbitrary. Asked about OpenAI's pursuit of AGI, Huang said that when it comes to Nvidia, \"for many tasks, we could say that we've already achieved AGI.\" … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-27T16:15:52.000Z",
+      "score": 83.38,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
       "title": "AI models flub these intelligence tests. Can you fare any better?",
       "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
@@ -7207,6 +7171,42 @@
       "keywordHits": 4,
       "publishedAt": "2026-08-26T04:00:00.000Z",
       "score": 69.77,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "title": "The Hugging Face incident and the road ahead",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "score": 68.82,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.23646",
+      "title": "MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models",
+      "link": "https://arxiv.org/abs/2608.23646",
+      "summary": "arXiv:2608.23646v1 Announce Type: new Abstract: Molecular embedding models can serve as foundational infrastructure for computational chemistry and drug discovery, where reusable vector representations support property prediction, virtual screening, and retrieval. Most molecular encoders are specialist models built around a single molecular view, producing unconditional vectors with no language interface for varying the representation. We ask whether multimodal large language models (MLLMs), which natively process images, text, and symbolic inputs, can instead serve as \\emph{general molecular embedding models} that produce embeddings conditioned on both a molecular profile and a natural-language semantic context. We introduce \\textbf{MolEmb}, a lightweight framework that adapts MLLMs by aligning molecular profiles with textual descriptions in a shared embedding space using a bidirectional contrastive objective. The resulting embedding model is competitive on molecular property prediction and supports cross-modal molecule--text retrieval in the same space. We further introduce \\textbf{MolCAR}, a diagnostic benchmark for context-aware retrieval, and find that context-aware molecular embedding is primarily a data property of the supervision. These results suggest that MLLMs are not merely chemistry assistants or generators, but a viable and extensible route to general molecular em",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "score": 68.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "title": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "link": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "summary": "Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the Microduck show it picking up socks and markers, kicking around a ball, and zipping around on tiny rollerskates. Pollen Robotics says it can also \"react to its surroundings\" and follow around a laser pointer, or users can control it with a game controller. The Microduck's software is open-source, like Hugging Fa … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-27T13:44:00.000Z",
+      "score": 67.11,
       "status": "queued"
     },
     {
@@ -7752,54 +7752,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-07-29T10:29:22.461Z",
       "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentence…"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49085375",
-      "title": "SOTA on the hardest AI memory benchmark (BEAM, 10M tokens), with a smaller model",
-      "link": "https://news.ycombinator.com/item?id=49085375",
-      "summary": "Hey HN. I'm Johnny, founder of Exabase. We just hit the highest reported score on BEAM, the hardest AI memory benchmark, at every scale up to 10 million tokens. We also ran our evaluation using Gemini 3 Flash, when all previous leaders depended on a much larger model (Gemini 3 Pro). At 10M tokens, the scale is vastly larger than any model's context window, so context stuffing isn't an option (aside from the fact tha…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-07-28T15:27:19.000Z",
-      "score": 219.28,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-07-28T16:39:52.165Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "source": "Google AI Blog",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-28T16:00:00.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-07-28T16:39:52.165Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://anakin.io",
-      "title": "Show HN: Anakin – API for your AI agents to access the most difficult websites",
-      "link": "https://anakin.io",
-      "summary": "Every second thing I build needs to access the web, and I was frustrated with not finding something that just works all the time. With my team, we built this because I wanted to enable access to extremely difficult websites and apps for every AI agent. We have solved this cat-and-mouse problem with self-healing built in. It's one API to get data from hostile sites, and it can do easy sites too. You POST a URL and ge…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-07-22T15:12:00.000Z",
-      "score": 185.37,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-07-27T17:09:53.282Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
