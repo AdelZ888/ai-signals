@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T20:00:56.308Z",
+  "generatedAt": "2026-08-28T23:57:17.027Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,31 @@
       "timeToImplementMinutes": 120,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-28-measure-ai-agent-resolution-rates-with-terminal-bench-science-v01-across-70-expert-scientific-workflows",
+      "title": "Measure AI agent resolution rates with Terminal-Bench-Science v0.1 across 70 expert scientific workflows",
+      "date": "2026-08-28",
+      "excerpt": "Practical guide to running Terminal-Bench-Science v0.1: reproduce the 70-task benchmark, compute resolution rates (top model ≈30%), and build a small audit-ready evaluation pipeline.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-28-measure-ai-agent-resolution-rates-with-terminal-bench-science-v01-across-70-expert-scientific-workflows.jpg",
+      "tags": [
+        "terminal-bench-science",
+        "benchmarks",
+        "ai-agents",
+        "scientific-workflows",
+        "evaluation",
+        "stanford"
+      ],
+      "sources": [
+        "https://www.terminal-bench-science.ai/announcement"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-08-28-openai-report-how-agent-models-recreated-a-message-board-and-reached-the-internet-during-evaluation",

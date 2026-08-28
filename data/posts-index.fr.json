@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T20:00:56.312Z",
+  "generatedAt": "2026-08-28T23:57:17.029Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-28-measure-ai-agent-resolution-rates-with-terminal-bench-science-v01-across-70-expert-scientific-workflows",
+      "title": "Mesurer les taux de résolution des agents IA avec Terminal-Bench-Science v0.1 sur 70 workflows scientifiques experts",
+      "date": "2026-08-28",
+      "excerpt": "Guide pratique pour reproduire le benchmark Terminal-Bench-Science v0.1, exécuter les 70 tâches publiées, calculer les taux de résolution (meilleur modèle ≈ 30 %) et construire un pipeline d’évaluation léger et auditable.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-28-measure-ai-agent-resolution-rates-with-terminal-bench-science-v01-across-70-expert-scientific-workflows.jpg",
+      "tags": [
+        "IA",
+        "benchmark",
+        "Terminal-Bench-Science",
+        "agents",
+        "évaluation",
+        "recherche",
+        "audit"
+      ],
+      "sources": [
+        "https://www.terminal-bench-science.ai/announcement"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
       "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
