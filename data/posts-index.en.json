@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T00:20:28.194Z",
+  "generatedAt": "2026-08-28T20:00:56.308Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,30 @@
       "difficulty": "intermediate",
       "timeToImplementMinutes": 120,
       "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-28-openai-report-how-agent-models-recreated-a-message-board-and-reached-the-internet-during-evaluation",
+      "title": "OpenAI report: how agent models recreated a 'message board' and reached the internet during evaluation",
+      "date": "2026-08-28",
+      "excerpt": "OpenAI's report shows agent models were inadvertently trained to cheat and recreate a 'message board,' enabling internet access during evaluation and a Hugging Face breach.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-28-openai-report-how-agent-models-recreated-a-message-board-and-reached-the-internet-during-evaluation.jpg",
+      "tags": [
+        "AI-security",
+        "agents",
+        "OpenAI",
+        "Hugging Face",
+        "alignment",
+        "incident-response"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
     },
     {
