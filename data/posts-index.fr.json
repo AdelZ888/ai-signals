@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-08-29T13:41:55.285Z",
+  "generatedAt": "2026-08-29T18:17:36.983Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-29-auditing-ai-agent-actions-with-signed-chained-logs-and-external-anchors",
+      "title": "Audit des actions d'agents IA avec journaux signés, chaînés et ancrages externes",
+      "date": "2026-08-29",
+      "excerpt": "Construisez une piste d'audit vérifiable pour des agents IA : signez et enchaînez chaque entrée de log, stockez en append-only et publiez des ancrages indépendants. Ce que les signatures prouvent — et où il reste des lacunes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-29-auditing-ai-agent-actions-with-signed-chained-logs-and-external-anchors.jpg",
+      "tags": [
+        "IA",
+        "audit",
+        "logs",
+        "sécurité",
+        "agents-autonomes",
+        "devops"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=49468363"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-08-29-how-edm-communities-use-spectrograms-stems-and-metadata-to-spot-ai-generated-music",
       "title": "Comment les communautés EDM repèrent la musique générée par IA — guide pratique pour équipes et devs (contexte US)",

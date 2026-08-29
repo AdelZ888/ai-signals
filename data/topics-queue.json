@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-29T13:41:55.294Z",
+  "generatedAt": "2026-08-29T18:17:37.038Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=49468363",
+      "title": "Ask HN: AI agent acts. Your logs say so. But you wrote the logs",
+      "link": "https://news.ycombinator.com/item?id=49468363",
+      "summary": "Hi I am really lost here, if you are deploying AI agents in production, how are you handling auditability? also what would make you trust an external witness protocol? fo reference, the Amazon vs Perplexisty use case!! Comments URL: https://news.ycombinator.com/item?id=49468363 Points: 4 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-27T17:36:42.000Z",
+      "score": 168,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-08-29T18:17:36.965Z",
+      "file": "content/posts/2026-08-29-auditing-ai-agent-actions-with-signed-chained-logs-and-external-anchors.md",
+      "fileFr": "content/posts/fr/2026-08-29-auditing-ai-agent-actions-with-signed-chained-logs-and-external-anchors.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "wordsEn": 1548,
+      "wordsFr": 1393
+    },
     {
       "id": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
       "title": "Musicians-turned-detectives are hunting for AI grifters",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1420
     },
     {
-      "id": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
-      "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
-      "link": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
-      "summary": "Today on Decoder, I want to lay out an idea that’s been banging around my head for weeks now as we’ve been reporting on AI and having conversations here on this show. I’ve been calling it software brain, and it’s a particular way of seeing the world that fits everything into algorithms, databases and loops — software. Software brain is powerful stuff. It’s a way of thinking that basically created our modern world. M…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-04-23T14:00:00.000Z",
-      "score": 162.68,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-04-25T08:46:29.524Z",
-      "file": "content/posts/2026-04-25-ship-ai-features-without-surprising-users-assistive-defaults-opt-ins-and-conservative-rollouts.md",
-      "fileFr": "content/posts/fr/2026-04-25-ship-ai-features-without-surprising-users-assistive-defaults-opt-ins-and-conservative-rollouts.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1247,
-      "wordsFr": 1282
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=49320686",
       "title": "Is msnbot being used to train AI models?",
       "link": "https://news.ycombinator.com/item?id=49320686",
@@ -5131,18 +5131,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-28T19:25:04.000Z",
       "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49468363",
-      "title": "Ask HN: AI agent acts. Your logs say so. But you wrote the logs",
-      "link": "https://news.ycombinator.com/item?id=49468363",
-      "summary": "Hi I am really lost here, if you are deploying AI agents in production, how are you handling auditability? also what would make you trust an external witness protocol? fo reference, the Amazon vs Perplexisty use case!! Comments URL: https://news.ycombinator.com/item?id=49468363 Points: 4 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-27T17:36:42.000Z",
-      "score": 168,
       "status": "queued"
     },
     {
@@ -5287,18 +5275,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-28T18:46:09.000Z",
       "score": 155.54,
-      "status": "queued"
-    },
-    {
-      "id": "https://unpredictabletokens.substack.com/p/ai-escaped-its-sandbox-what-that",
-      "title": "'AI Escaped Its Sandbox' — What Does That Actually Mean?",
-      "link": "https://unpredictabletokens.substack.com/p/ai-escaped-its-sandbox-what-that",
-      "summary": "Article URL: https://unpredictabletokens.substack.com/p/ai-escaped-its-sandbox-what-that Comments URL: https://news.ycombinator.com/item?id=49222259 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-08T14:39:12.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -7183,6 +7159,54 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-28T04:00:00.000Z",
       "score": 79.61,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.26107",
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "link": "https://arxiv.org/abs/2608.26107",
+      "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and insufficient interpretability, leading to a \"black-box\" trust crisis that hinders their adoption in real-world pedagogical settings. To address these challenges, we propose EduRiskX, a neuro-symbolic framework that integrates a temporal Transformer-based predictor with F-Logic symbolic reasoning. The neural component models longitudinal student activity sequences using temporal attention, class-weighted loss, and dynamic weekly truncation. Acting as a data-driven expert system, an F-Logic rule base -- grounded in established educational theories (Engagement Theory and Student Integration Model) to mimic the diagnostic logic of human educators -- is constructed exclusively from the training data. The neural risk probability and the symbolic confidence score are then combined through a logistic regression-based fusion mechanism that learns the relative contribution of each signal. Experiments on the Open University Learning Analytics Dataset (OULAD) using a strict 80/10/10 student-level split show that EduRiskX achieves an accuracy of 0.900 and an F1-score of 0.894 at the end of the semester (Week 38), wi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-29T04:00:00.000Z",
+      "score": 74.46,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.26157",
+      "title": "GROUND: Reducing Hallucinations in LLM-Based Enterprise Analytics Through Governed Semantic Definitions",
+      "link": "https://arxiv.org/abs/2608.26157",
+      "summary": "arXiv:2608.26157v1 Announce Type: new Abstract: Natural-language analytics over enterprise data warehouses is increasingly important, but production use is limited by hallucinated metrics, invalid joins, wrong grain, unsafe data access, and unsupported explanations. Existing text-to-SQL systems often ground generation in database schemas or retrieved documentation, while enterprise reporting also requires governed business semantics: approved metrics, dimensions, join paths, filters, and row-level security. This paper introduces GROUND, Governed Retrieval Over Unified Normalized Definitions, a framework that constrains LLM-generated analytics to a governed semantic layer. GROUND supplies approved definitions, binds user intent to governed metrics and dimensions, and validates generated SQL against schema, metric, join, grain, filter, security, and cost rules before execution. On violations, it retries or abstains. In a 100-question synthetic enterprise-reporting benchmark, GROUND is compared with direct schema-only text-to-SQL, schema-RAG, and semantic-only grounding under one shared model. GROUND is the only system free of measured hallucinations across all six evaluated categories, while ungoverned systems violate row-level security on many questions. A semantic-only condition with exact metric definitions but no access policy still leaks data, showing that governance cannot",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-29T04:00:00.000Z",
+      "score": 74.46,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/jalapeno-first-results",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-25T07:00:00.000Z",
+      "score": 73.12,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "title": "The Hugging Face incident and the road ahead",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "score": 67.33,
       "status": "queued"
     },
     {
