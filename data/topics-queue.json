@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-29T18:17:37.038Z",
+  "generatedAt": "2026-08-30T13:30:44.627Z",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+      "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI's cyber agents banded together to perform a hack during a security test.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 5,
+      "publishedAt": "2026-08-26T22:03:45.000Z",
+      "score": 95.87,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-08-30T13:30:44.594Z",
+      "file": "content/posts/2026-08-30-unsanctioned-message-board-let-1206-openai-agents-coordinate-a-july-attack-on-hugging-face.md",
+      "fileFr": "content/posts/fr/2026-08-30-unsanctioned-message-board-let-1206-openai-agents-coordinate-a-july-attack-on-hugging-face.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1469,
+      "wordsFr": 1076
+    },
     {
       "id": "https://news.ycombinator.com/item?id=49468363",
       "title": "Ask HN: AI agent acts. Your logs say so. But you wrote the logs",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1353
     },
     {
-      "id": "https://github.com/dcp-ai-protocol/dcp-ai",
-      "title": "DCP-AI – Portable accountability layer for AI agents (post-quantum)",
-      "link": "https://github.com/dcp-ai-protocol/dcp-ai",
-      "summary": "Article URL: https://github.com/dcp-ai-protocol/dcp-ai Comments URL: https://news.ycombinator.com/item?id=47865000 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-22T15:27:15.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-25T15:48:11.007Z",
-      "file": "content/posts/2026-04-25-record-signed-jsonl-audit-logs-for-ai-agents-with-the-dcp-ai-protocol-post-quantum-options.md",
-      "fileFr": "content/posts/fr/2026-04-25-record-signed-jsonl-audit-logs-for-ai-agents-with-the-dcp-ai-protocol-post-quantum-options.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 180,
-      "wordsEn": 1835,
-      "wordsFr": 1420
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=49320686",
       "title": "Is msnbot being used to train AI models?",
       "link": "https://news.ycombinator.com/item?id=49320686",
@@ -5131,6 +5131,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-28T19:25:04.000Z",
       "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://1endpoint.dev",
+      "title": "Show HN: 1endpoint – Cheaper access to AI models",
+      "link": "https://1endpoint.dev",
+      "summary": "1endpoint is a unified AI inference gateway. We support OpenAI Chat Completions, Responses API and Anthropic Messages, so existing tools and agents can usually point to 1endpoint without changing much of their integration. The other thing we've been focusing heavily on is cost. A lot of the models are significantly cheaper than their official API pricing, without relabeling or downgrading the requested model. Comments URL: https://news.ycombinator.com/item?id=49497665 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-08-30T11:13:32.000Z",
+      "score": 168.99,
       "status": "queued"
     },
     {
@@ -6334,30 +6346,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/galiprandi/job-seeker",
-      "title": "Show HN: Job Seeker – AI agent skills for job searching",
-      "link": "https://github.com/galiprandi/job-seeker",
-      "summary": "Markdown skills that coding agents (Devin, Claude, Cursor, opencode) consume to automate the entire job search: search LinkedIn, fill Easy Apply, track in kanban, draft replies. Comments URL: https://news.ycombinator.com/item?id=49231157 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-09T13:20:51.000Z",
-      "score": 103.51,
-      "status": "queued"
-    },
-    {
-      "id": "https://foundera.app/",
-      "title": "Show HN: YC Startup School, but AI-Native",
-      "link": "https://foundera.app/",
-      "summary": "Hi HN, YC Startup School is a great resource and was part of the inspiration. But I think right now, much of the startup education model became capable of actually working alongside a founder with AI agents. So I'm experimenting with what an AI-native version of Startup School. I'm looking for early users who are willing to try it and give me brutally useful feedback. At Foundera, our AI Agents can help you research a problem, challenge assumptions around an idea, validate the market, define milestones, and help you move from an idea toward something you can actually build. Foundera can also help you build the right product by connecting to your best external AI coding tools, such as Codex, Claude etc. I'm also building the ecosystem layer around this. As founders progress, I'd like Foundera to connect them with other founders, mentors, accelerators and eventually investors that actually make sense for their current stage. It's still early, and parts of it will definitely be wrong. That's why I'm posting here. Use \"EARLY-BIRD\" and you'll get 4 months worth free access to all of the AI tools while I'm testing this. Happy to answer questions here, including technical or product questions and things that aren't working yet. Thanks. Comments URL: https://news.ycombinator.com/item?id=49231031 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-09T13:04:55.000Z",
-      "score": 103.44,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.07617",
       "title": "TeXFix-Bench: An Empirically Grounded Multi-Format Benchmark for LLM-Based Document Source Repair",
       "link": "https://arxiv.org/abs/2608.07617",
@@ -6379,18 +6367,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-16T12:53:51.000Z",
       "score": 103.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
-      "title": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
-      "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
-      "summary": "Article URL: https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html Comments URL: https://news.ycombinator.com/item?id=49231022 Points: 46 # Comments: 17",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-09T13:03:49.000Z",
-      "score": 103.07,
       "status": "queued"
     },
     {
@@ -6751,18 +6727,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-11T06:45:53.000Z",
       "score": 97.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-      "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-      "summary": "OpenAI's cyber agents banded together to perform a hack during a security test.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-26T22:03:45.000Z",
-      "score": 95.87,
       "status": "queued"
     },
     {
@@ -7162,6 +7126,18 @@
       "status": "queued"
     },
     {
+      "id": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
+      "title": "Only believe what you can validate: a verification framework for agentic AI",
+      "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
+      "summary": "Article URL: https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/ Comments URL: https://news.ycombinator.com/item?id=49497440 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-30T10:36:16.000Z",
+      "score": 78.8,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.26107",
       "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
       "link": "https://arxiv.org/abs/2608.26107",
@@ -7198,6 +7174,18 @@
       "status": "queued"
     },
     {
+      "id": "https://runplane.ai",
+      "title": "We built this after an AI agent misread a risk signal and moved $1.2M in trades",
+      "link": "https://runplane.ai",
+      "summary": "Article URL: https://runplane.ai Comments URL: https://news.ycombinator.com/item?id=49497238 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-30T09:57:59.000Z",
+      "score": 70.87,
+      "status": "queued"
+    },
+    {
       "id": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
       "title": "The Hugging Face incident and the road ahead",
       "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
@@ -7207,6 +7195,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "score": 67.33,
+      "status": "queued"
+    },
+    {
+      "id": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "score": 55.1,
       "status": "queued"
     },
     {
