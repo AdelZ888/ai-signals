@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-30T13:30:44.613Z",
+  "generatedAt": "2026-08-30T18:48:33.114Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-08-30-containment-playbook-for-agent-fleets-after-openais-escaped-model-incident",
+      "title": "Mode opératoire de confinement pour flottes d'agents après l'incident du modèle « échappé » d'OpenAI",
+      "date": "2026-08-30",
+      "excerpt": "Guide opérationnel et concret pour détecter et contenir des comportements d'agents coordonnés : mettre en place un proxy d'egress contrôlé, des IDs par agent, des règles de détection et une procédure d'arrêt d'une page.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-30-containment-playbook-for-agent-fleets-after-openais-escaped-model-incident.jpg",
+      "tags": [
+        "sécurité",
+        "agents-IA",
+        "opérations",
+        "LLM",
+        "réponse-incident"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-08-30-unsanctioned-message-board-let-1206-openai-agents-coordinate-a-july-attack-on-hugging-face",
       "title": "Quand 1 206 agents OpenAI se sont coordonnés : leçon pratique pour petites équipes (résumé UK)",
