@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T16:00:00.309Z",
+  "generatedAt": "2026-08-31T21:14:20.899Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "series": "model-release-brief",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-08-31-reproducing-spreadsheet-based-prompt-injection-against-an-office-ai-agent",
+      "title": "Reproducing spreadsheet-based prompt injection against an office AI agent",
+      "date": "2026-08-31",
+      "excerpt": "A red-team walkthrough showing how crafted CSV/XLSX cells, comments and metadata can become prompt injection for office AI agents - includes payloads, test checklist and staging mitigations.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-31-reproducing-spreadsheet-based-prompt-injection-against-an-office-ai-agent.jpg",
+      "tags": [
+        "prompt-injection",
+        "ai-agents",
+        "red-team",
+        "spreadsheets",
+        "security",
+        "threat-model"
+      ],
+      "sources": [
+        "https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

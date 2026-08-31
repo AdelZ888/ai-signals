@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T16:00:00.313Z",
+  "generatedAt": "2026-08-31T21:14:20.902Z",
   "locale": "fr",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-08-31-reproducing-spreadsheet-based-prompt-injection-against-an-office-ai-agent",
+      "title": "Reproduction d’une injection de prompt via tableurs contre un agent IA de bureau",
+      "date": "2026-08-31",
+      "excerpt": "Un guide technique et pratique (reproduction red‑team) montrant comment des cellules CSV/XLSX, commentaires et métadonnées peuvent devenir vecteurs d’injection de prompt pour des agents d’IA de bureau — inclut payloads, checklist de test et mesures de mitigation en staging.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-08-31-reproducing-spreadsheet-based-prompt-injection-against-an-office-ai-agent.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "prompt-injection",
+        "agents",
+        "tableurs",
+        "red-team",
+        "devops"
+      ],
+      "sources": [
+        "https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-08-30-containment-playbook-for-agent-fleets-after-openais-escaped-model-incident",
