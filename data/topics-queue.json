@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-08-30T18:48:33.177Z",
+  "generatedAt": "2026-08-31T16:00:00.323Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=49320686",
+      "title": "Is msnbot being used to train AI models?",
+      "link": "https://news.ycombinator.com/item?id=49320686",
+      "summary": "(Summary: msnbot seems to be downloading my website for training an AI model) The msnbot was retired a decade ago for indexing the web, replaced by bingbot. You can tell bingbot not to train AI models by setting a meta tag eg . A month ago I started using this tag for bingbot. After this the defunct msnbot starting hitting my website HARD. I've verified the source IP addresses, and they are genuine. The pattern of p…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-16T14:54:53.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-08-31T16:00:00.295Z",
+      "file": "content/posts/2026-08-31-report-retired-msnbot-observed-crawling-a-site-in-2026-after-adding-a-bingbot-noarchive-tag.md",
+      "fileFr": "content/posts/fr/2026-08-31-report-retired-msnbot-observed-crawling-a-site-in-2026-after-adding-a-bingbot-noarchive-tag.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1324,
+      "wordsFr": 1282
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
       "title": "OpenAI’s rogue AI model incident was worse than we thought",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1330
     },
     {
-      "id": "https://ai-hermes-agent.com/install",
-      "title": "Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
-      "link": "https://ai-hermes-agent.com/install",
-      "summary": "This is an independent Hermes Agent install guide I put together for the part that usually gets skipped after \"run this command.\" What I wanted was one place that shows the environment choice first, then the official installer path, then the first commands people usually need right after install. The practical routes here are macOS, Linux, WSL2, and Termux. The flow is intentionally narrow: choose the host, run the…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-04-22T15:52:27.000Z",
-      "score": 168,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-04-26T15:55:19.026Z",
-      "file": "content/posts/2026-04-26-hermes-agent-installer-and-first-run-guide-for-macos-linux-wsl2-and-termux.md",
-      "fileFr": "content/posts/fr/2026-04-26-hermes-agent-installer-and-first-run-guide-for-macos-linux-wsl2-and-termux.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "beginner",
-      "timeToImplementMinutes": 30,
-      "wordsEn": 1808,
-      "wordsFr": 1417
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49320686",
-      "title": "Is msnbot being used to train AI models?",
-      "link": "https://news.ycombinator.com/item?id=49320686",
-      "summary": "(Summary: msnbot seems to be downloading my website for training an AI model) The msnbot was retired a decade ago for indexing the web, replaced by bingbot. You can tell bingbot not to train AI models by setting a meta tag eg . A month ago I started using this tag for bingbot. After this the defunct msnbot starting hitting my website HARD. I've verified the source IP addresses, and they are genuine. The pattern of pages being indexed is clearly for AI. Search engines and AI indexers slurp my content in different ways. msnbot appears to be taking the data in a way that AI indexers do. I can't find any information about this, or any reason why msnbot has been reactivated in 2026. I'm hoping some people can help! Comments URL: https://news.ycombinator.com/item?id=49320686 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-16T14:54:53.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://files.catbox.moe/j3w39k.html",
       "title": "A live list of bounties whose sponsors explicitly allow AI agents",
       "link": "https://files.catbox.moe/j3w39k.html",
@@ -5134,6 +5122,30 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/polycore/pg-dry-run",
+      "title": "Show HN: Preview Postgres writes from AI agents with xmin checks (pg-dry-run)",
+      "link": "https://github.com/polycore/pg-dry-run",
+      "summary": "Article URL: https://github.com/polycore/pg-dry-run Comments URL: https://news.ycombinator.com/item?id=49510746 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-31T15:11:42.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://fellowgeek.github.io/mcp-speak/",
+      "title": "Show HN: What Happens When You Give Your AI Agents a Voice and an Attitude",
+      "link": "https://fellowgeek.github.io/mcp-speak/",
+      "summary": "Article URL: https://fellowgeek.github.io/mcp-speak/ Comments URL: https://news.ycombinator.com/item?id=49510547 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-31T14:55:08.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://construct.computer/blog/agent-task-half-life/",
       "title": "AI Agents have a half-life",
       "link": "https://construct.computer/blog/agent-task-half-life/",
@@ -5155,6 +5167,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-08-27T17:19:01.000Z",
       "score": 166.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://usealmanac.com/",
+      "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+      "link": "https://usealmanac.com/",
+      "summary": "Hi HN, I'm Kushagra, one of three founders of Almanac, a Hermes with a brain that knows everything about your company. We started our journey with setting up Hermes for our company, thinking it must be easy. We wanted an agent that would know every context about our company, so we could ask questions and get context-appropriate responses to. This started a very annoying and difficult journey. Setting up Hermes, getting it to talk right, building OAuth apps for every connector myself, then feeding it context myself, and ultimately struggling with Hermes's default memory. At the same time, we saw our YC batchmates struggling with the same problem, and we saw an opportunity. So we built Almanac. This is how it works. You sign up, you get a Hermes agent straight out of the box. You have a one-click connect to any account (Gmail, Calendar, Granola, PostHog, etc). You have personal accounts (only accessible by you) and also shared accounts (accessible by everyone in the company). The consequence being I can never see my cofounders' accounts. The “brain” of this agent is wikis. We pull in information from your connected sources, and start organizing this information in two wikis. A personal one, for you, which understands who you are, what your preferences are, the people in your life, and the things going on in your life. The second wiki is a company wiki, which includes what the com",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-31T15:34:34.000Z",
+      "score": 162,
       "status": "queued"
     },
     {
@@ -5362,6 +5386,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+      "title": "Debian won&#8217;t ban AI code from its Linux distribution",
+      "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject to special rules beyond the standards already expected of Debian contributors.\" The project's voting developers considered several other proposals on how to handle AI, including some that would have banned contributions made using AI tools. As It's FOSS reports, some users and contributors aren't happy with the policy, includi … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-31T15:34:58.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
       "title": "The Download: kids outlearning AI, and space travel agents",
       "link": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
@@ -5506,6 +5542,18 @@
       "status": "queued"
     },
     {
+      "id": "https://news.ycombinator.com/item?id=49510169",
+      "title": "Ask HN: What's the Best AI Setup?",
+      "link": "https://news.ycombinator.com/item?id=49510169",
+      "summary": "People who run AI agents in some kind of advanced way can you share your settings? With things moving so fast I've been a bit out of touch Comments URL: https://news.ycombinator.com/item?id=49510169 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-31T14:23:53.000Z",
+      "score": 137.36,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.14558",
       "title": "The Unwritten Benchmark: A New Challenge for Multimodal Machine Learning in Abstract Perceptual Reasoning",
       "link": "https://arxiv.org/abs/2608.14558",
@@ -5515,6 +5563,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "score": 136.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://twitter.com/firesidealpha/status/2093860831595499892",
+      "title": "OpenAI Engineers Are Shipping AI-Generated Kernels They Don't Understand",
+      "link": "https://twitter.com/firesidealpha/status/2093860831595499892",
+      "summary": "Article URL: https://twitter.com/firesidealpha/status/2093860831595499892 Comments URL: https://news.ycombinator.com/item?id=49510192 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-31T14:27:00.000Z",
+      "score": 135.47,
       "status": "queued"
     },
     {
@@ -5770,15 +5830,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.06411",
-      "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
-      "link": "https://arxiv.org/abs/2608.06411",
-      "summary": "arXiv:2608.06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual tokens. Visual token pruning can reduce this cost, but requires accurate token importance estimates. Recent studies have demonstrated that text-to-vision attention from middle language model layers can effectively guide visual token pruning, typically using attention from a predefined middle layer to select the visual tokens to retain. Two problems therefore remain. First, our analysis shows that the layer whose attention is most responsive to the question varies substantially across samples, making a fixed layer suboptimal. Second, obtaining attention from the appropriate middle layer requires processing numerous visual tokens through several language model layers, by which point considerable computation has already been spent. To address both problems, we propose Middle-layer Attention Prediction (MAP), which uses Question Contrastive Teacher Selection to identify a sample-specific teacher layer by contrasting attention under the original and reference questions, and distills attention from the selected layer into a lightweight predictor that estimates visual token importance from multi-modal input features. During inference, MAP combines the predicted",
-      "source": "ArXiv cs.AI",
+      "id": "https://blog.bytebytego.com/p/the-new-american-ai-model-designed",
+      "title": "The New American AI Model Designed to Be Customized",
+      "link": "https://blog.bytebytego.com/p/the-new-american-ai-model-designed",
+      "summary": "Article URL: https://blog.bytebytego.com/p/the-new-american-ai-model-designed Comments URL: https://news.ycombinator.com/item?id=49510063 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 119.5,
+      "keywordHits": 2,
+      "publishedAt": "2026-08-31T14:13:29.000Z",
+      "score": 119.82,
       "status": "queued"
     },
     {
@@ -5923,6 +5983,30 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "score": 115.41,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49510066",
+      "title": "Ask HN: What would happen if your company stopped using all AI tomorrow?",
+      "link": "https://news.ycombinator.com/item?id=49510066",
+      "summary": "This is something I’ve been turning over in my head lately. I’m not denying AI is being used everywhere, but I don’t know if it’s actually helping businesses overall. If we shut it all down it seems that businesses would be fine (and maybe even better since there’d be no token burning budgets). Comments URL: https://news.ycombinator.com/item?id=49510066 Points: 8 # Comments: 8",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-31T14:14:25.000Z",
+      "score": 114.74,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
+      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+      "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
+      "summary": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Meta just reached a settlement with dozens of states, including New York, which will restrict how teens use platforms like Instagram in very specific ways. Governor Hochul is a strong supporter of those restrictions and more, as you’ll hear. But those come with a cost — widespread age verification means adults will also have to show ID to use the internet, which will essentially make it impossible to be anonymous online. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. So I asked about that, and if these new restrictions amount to Meta conceding in a lawsuit that these kinds of regulations on speech might not pass First Amendment scrutiny if the governor were to try and impose them in a law. I had similar questions about New York’s restrictions on ghost guns, which prevent 3D printers from printing gun parts. That law is already being challenged — not in courts, but by activists like Cody Wilson, who runs the largest database of 3D-printable gun files and who has started alteri",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-08-31T14:00:00.000Z",
+      "score": 114.46,
       "status": "queued"
     },
     {
@@ -6166,18 +6250,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.06578",
-      "title": "Divergent Response Modes in Frontier Language Models Under Steering Pressure",
-      "link": "https://arxiv.org/abs/2608.06578",
-      "summary": "arXiv:2608.06578v1 Announce Type: new Abstract: Frontier language models are trained using distinct data, objectives, and safety pipelines. Whether these differences produce measurably different behaviors under explicit steering pressure remains underexplored. This study evaluates behavioral steerability across six frontier models from six developers using 300 paired base and steered items over three categories: values-conflict, reasoning-elicitation, and reasoning-suppression (plus 40 validation items). All six models act as blind peer judges and classify every response based on fixed behavioral rubrics. The resulting 24,480 judgments are scored by leave-one-out consensus. We find that models differ not just in how much steering shifts their behavior but in what kind (mode) of response they give, and some response modes appear in only one or two of them. GPT-5 deflects requests to disclose its reasoning while leaving its answer intact (99% vs. 0% for all other models). Claude Opus 4.7 and GPT-5 resist explicit suppression instructions and in different ways. Using Llama as the open-weight model, we trace the largest behavioral split to its internals. A linear probe decodes the behavior from the residual stream at 0.87 held-out accuracy while injecting that direction during generation drives the behavior from 0% to 86% across an intervention sweep. Every finding holds under both",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 107.5,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/infercrane/infercrane",
       "title": "InferCrane – Deploy and safely evolve self-hosted AI inference",
       "link": "https://github.com/infercrane/infercrane",
@@ -6391,42 +6463,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "score": 101.84,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06410",
-      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
-      "link": "https://arxiv.org/abs/2608.06410",
-      "summary": "arXiv:2608.06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair progress implicit. This causes inefficient repair targeting, slow consolidation of partial progress, and propagation of ineffective interventions across rounds. Therefore, we formulate issue-centric agent optimization, in which repair progress is carried forward as an explicit persistent issue state to guide optimization, rather than re-derived from candidate history in each round. We instantiate the formulation in ADIAS, a framework for automated full-code agent design with two mechanisms. A persistent issue state maintains stable issue identities, lifecycle status, supporting evidence, and intervention-outcome histories. Issue-guided optimization uses this state to jointly propose repair targets and revision directions for subsequent focused full-code modification. Across five interactive benchmarks, ADIAS outperforms the strongest baseline by 25.2% on average and achieves consistent gains across four backbone models. Controlled ablations further show that removing persistent issue state or replacing issue-centric revision with candidate-centric policies leads to performance drops of",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 101.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06501",
-      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
-      "link": "https://arxiv.org/abs/2608.06501",
-      "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept understanding is a core cognitive capacity underlying receptive creativity. It enables a perceiver to recover intended meaning from non-obvious but meaningful conceptual relations. We operationalize item construction as cross-concept encoding and model inference as cross-concept decoding. We introduce C4, a cognition-inspired evaluation framework for Chengyu (Chinese idiom)-based Cross-Concept Creativity. Its encoding component maps target slots to imageable substitute concepts along bridge paths in a manually annotated and third-party-reviewed cross-concept network, enabling batch generation with explicit structure, difficulty indexed by bridge count and depth, and exact answers. Using this framework, we instantiate the C4 Evaluation Set (C4-Eval), comprising 184 synthetic items and 37 human-created cross-concept chengyu figures collected from online sources. We manually construct and review cross-concept relations, bridge paths, and reasoning processes for the collected figures. Each C4-Eval item is instantiated in five task settings, yielding 884 primary answer-recovery cases. Across ten",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 101.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06659",
-      "title": "CellWorld: From Gene-Level Reconstruction to Latent Cell Prediction in Spatial Transcriptomics Foundation Models",
-      "link": "https://arxiv.org/abs/2608.06659",
-      "summary": "arXiv:2608.06659v1 Announce Type: new Abstract: This paper shows that latent-space predictive pretraining can provide a scalable route to foundation models for spatial transcriptomics. Existing spatial transcriptomics foundation models primarily reconstruct masked gene identities or expression values, potentially encouraging the reproduction of assay-specific technical variation and limiting representation transferability. To avoid directly reconstructing such variation, we shift the prediction target from observed gene measurements to latent cell representations and introduce CellWorld, which predicts the latent representations of masked cells from visible spatial context and a limited partial-expression hint. We pretrain four CellWorld variants, spanning 5.74M to 94.56M trainable parameters, on a corpus of 46 million human cells. Our controlled scaling experiments show that performance improves with model capacity, particularly on spatial tasks, while spatial transfer depends more on sufficient optimization and broad biological source diversity than on cell count alone. Across four held-out datasets, even CellWorld-Small, with 5.74M trainable parameters, outperforms every baseline on all 11 linear-probe benchmarks and all seven fine-tuned spatial benchmarks. Most notably, a frozen CellWorld-Large pretrained on only 5\\% of the corpus with broad biological source coverage outpe",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 101.5,
       "status": "queued"
     },
     {
@@ -6703,42 +6739,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "score": 95.84,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06398",
-      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
-      "link": "https://arxiv.org/abs/2608.06398",
-      "summary": "arXiv:2608.06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation to every patch. This uniform computation cannot adapt model capacity to variations in patch semantics and granularity. We address this limitation with EntropyMoE, a Mixture-of-Experts (MoE) architecture designed for dynamic byte patches. EntropyMoE replaces the dense feed-forward modules in the global patch Transformer with Top-K expert layers. Each dynamic patch serves as the basic unit of expert routing, and its byte coverage determines its contribution to workload accounting. The router selects experts directly from patch entropy, using the same granularity signal that underlies dynamic patch construction to organize sparse computation. Patch entropy and length jointly define the feature space for regulating expert specialization. Experiments show that EntropyMoE achieves the lowest held-out bits-per-byte among matched dense and sparse baselines while maintaining comparable downstream accuracy. These results establish patch entropy as an effective routing coordinate for sparse conditional computation and extend Mixture-of-Experts modeling beyond tokenizer-based representations.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 95.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06474",
-      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
-      "link": "https://arxiv.org/abs/2608.06474",
-      "summary": "arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design. Hand-authored browser scripts are executable yet costly to write for open-ended requirements, while VLM and GUI-agent graders scale but may issue verdicts before observing the decisive state. We propose WebGrader, a self-evolving programmatic grader that autonomously derives the required interaction flows from each website request, represents each flow as an executable Flow Contract, and uses its execution outcome as an RL reward. WebGrader materializes the generated project in a live browser, grounds target actions against the source code and live DOM, and collects visual, DOM, response, and persistent-state evidence along the same browser trajectory. A residual-driven offline loop then discovers reusable verifier skills, screens them on disjoint validation pages, and freezes the promoted skill graph before policy training. By separating test planning, action grounding, evidence collection, and semantic judgment, WebGrader issues a Pass verdict only after observing the requested transition. On WebGen-Bench, WebGrader trains an 8B policy to a 52.01% functional success rate, outperfo",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 95.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.06632",
-      "title": "Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation",
-      "link": "https://arxiv.org/abs/2608.06632",
-      "summary": "arXiv:2608.06632v1 Announce Type: new Abstract: Industrial recommendation systems predominantly adopt a passive ranking paradigm that infers user preferences from implicit behavioral signals (e.g., clicks, dwell time) rather than explicit, natural language inputs. As a result, users experience a persistent discrepancy between their explicit interests and what passive behavioral algorithms deliver, limiting their ability to express nuanced preferences or steer their feed in real time. To address this growing gap between how recommendations are optimized and how users wish to articulate their interests, we present Shape Your Feed (SYF), an LLM-based agentic recommendation framework that enables real-time, multimodal co-curation of content. SYF employs a three-tier architecture: (i) a Perception Flow that captures fine-grained user intent from text prompts, voice commands, and UI interactions; (ii) a Serving Flow that performs real-time agentic re-ranking and pruning of candidate items, grounded in a persistent Semantic Profile encoding evolving user preferences; and (iii) a Self-Evolution Flow that aligns system behavior with human judgments via Direct Preference Optimization (DPO) and an LLM-as-a-Judge ensemble. Offline evaluations show that SYF's alignment scoring module achieves 98.85% accuracy, substantially improving over strong few-shot baselines. Large-scale online A/B exp",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "score": 95.5,
       "status": "queued"
     },
     {
@@ -7090,6 +7090,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "summary": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and platforms. Along with ChatGPT, the European Commission also announced that Reddit and Roblox are considered Very Large Online Platforms, subjecting them to the same rules. The DSA restricts platforms from targeting ads to minors or using a person's sexual orientation, religion, ethnicity, or political beliefs. … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-08-31T13:27:36.000Z",
+      "score": 78.64,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.26107",
       "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
       "link": "https://arxiv.org/abs/2608.26107",
@@ -7184,6 +7196,22 @@
       "publishedAt": "2026-08-20T09:47:22.000Z",
       "score": 48.48,
       "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49510283",
+      "title": "Show HN: AI startup TrustedRouter raises $1.25M",
+      "link": "https://news.ycombinator.com/item?id=49510283",
+      "summary": "https://www.axios.com/2026/08/31/exclusive-ai-startup-trustedrouter-raises-125-million hey everybody, I started trustedrouter.com, which is a really simple way to use AI without needing to give your data to a third party like a close source router It’s been really fun to build this because I got to know the CEOs and founders of so many different providers. We now have more providers than open router and more models…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-08-31T14:34:37.000Z",
+      "score": 189.17,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-08-31T15:39:24.106Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://1endpoint.dev",
