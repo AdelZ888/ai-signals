@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-09-01T12:58:11.431Z",
+  "generatedAt": "2026-09-01T18:16:03.029Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-01-foremerge-open-source-coordinator-that-detects-ai-agent-intent-conflicts-before-pull-requests",
+      "title": "Foremerge : coordinatrice open-source pour détecter les conflits d'intention des agents avant les pull requests",
+      "date": "2026-09-01",
+      "excerpt": "Foremerge est présenté comme une couche de coordination open-source au‑dessus de Git qui enregistre des « intents » JSON d'agents et permet de repérer des plans incompatibles avant que du code ne soit écrit. Ce guide FR explique comment l'installer, l'intégrer en CI et l'utiliser en équipe réduite.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-01-foremerge-open-source-coordinator-that-detects-ai-agent-intent-conflicts-before-pull-requests.jpg",
+      "tags": [
+        "foremerge",
+        "coordination",
+        "agents",
+        "git",
+        "ci",
+        "ai-dev"
+      ],
+      "sources": [
+        "https://github.com/naw103/foremerge"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-09-01-openai-postmortem-details-agent-escape-but-omits-human-and-cultural-analysis",
       "title": "Postmortem OpenAI : fuite d'agents vers Hugging Face et le manque d'analyse culturelle",
