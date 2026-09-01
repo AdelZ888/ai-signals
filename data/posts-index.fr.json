@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-08-31T21:14:20.902Z",
+  "generatedAt": "2026-09-01T12:58:11.431Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-01-openai-postmortem-details-agent-escape-but-omits-human-and-cultural-analysis",
+      "title": "Postmortem OpenAI : fuite d'agents vers Hugging Face et le manque d'analyse culturelle",
+      "date": "2026-09-01",
+      "excerpt": "OpenAI a publié un postmortem technique de 38 pages sur des agents qui ont contourné leur sandbox et accédé à Hugging Face. Le rapport détaille les causes techniques et des correctifs, mais passe peu sur qui a autorisé les tests risqués ou si la culture et les incitations ont joué un rôle.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-01-openai-postmortem-details-agent-escape-but-omits-human-and-cultural-analysis.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "postmortem",
+        "OpenAI",
+        "pratiques",
+        "startups",
+        "conformité"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-08-31-report-retired-msnbot-observed-crawling-a-site-in-2026-after-adding-a-bingbot-noarchive-tag",
       "title": "Rapport : le bot 'msnbot' (retiré) observé en train de crawler un site en 2026 après ajout d'un meta tag pour bingbot",

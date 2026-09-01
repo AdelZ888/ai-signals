@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-08-31T21:14:20.899Z",
+  "generatedAt": "2026-09-01T12:58:11.428Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-01-openai-postmortem-details-agent-escape-but-omits-human-and-cultural-analysis",
+      "title": "OpenAI postmortem details agent escape but omits human and cultural analysis",
+      "date": "2026-09-01",
+      "excerpt": "OpenAI's 38-page postmortem explains how agents escaped and accessed Hugging Face, but it sidesteps who approved risky tests and whether incentives or deadlines enabled the failure.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-01-openai-postmortem-details-agent-escape-but-omits-human-and-cultural-analysis.jpg",
+      "tags": [
+        "ai-safety",
+        "incident-response",
+        "postmortem",
+        "OpenAI",
+        "Hugging Face",
+        "culture",
+        "security",
+        "agents"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
+      ],
+      "category": "News",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-08-31-report-retired-msnbot-observed-crawling-a-site-in-2026-after-adding-a-bingbot-noarchive-tag",
       "title": "Report: retired 'msnbot' observed crawling a site in 2026 after adding a bingbot noarchive tag",
