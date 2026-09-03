@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-09-02T18:33:30.862Z",
+  "generatedAt": "2026-09-03T12:26:07.167Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-03-oconee-runtime-per-action-runtime-authorization-for-browser-ai-and-coding-agents",
+      "title": "Oconee Runtime : autorisation par action pour les agents IA dans le navigateur et les outils de codage",
+      "date": "2026-09-03",
+      "excerpt": "Les assistants dans le navigateur et les agents de développement peuvent désormais exécuter des commandes et modifier du code. Oconee Runtime recommande des vérifications de politique au moment de l'exécution (per-action runtime authorization) : refuser par défaut les écritures et l'accès aux identifiants, tagger et journaliser les actions.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-03-oconee-runtime-per-action-runtime-authorization-for-browser-ai-and-coding-agents.jpg",
+      "tags": [
+        "IA",
+        "gouvernance",
+        "sécurité",
+        "runtime",
+        "agents",
+        "développement",
+        "CNIL",
+        "GDPR"
+      ],
+      "sources": [
+        "https://www.oconeeruntime.com/news/policy-enforcement-for-browser-ai-and-coding-agents"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-02-prototyping-agentic-video-understanding-in-gemini-with-a-single-node-notebook",
       "title": "Prototyper la compréhension vidéo agentique dans Gemini depuis un notebook mono‑nœud",
