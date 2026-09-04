@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T12:30:19.555Z",
+  "generatedAt": "2026-09-04T18:16:16.028Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-09-04-run-crew-locally-set-up-a-sandbox-agent-to-draft-prs-from-issues",
+      "title": "Run Crew locally: set up a sandbox agent to draft PRs from issues",
+      "date": "2026-09-04",
+      "excerpt": "Step-by-step guide to run the Crew repo locally, inspect .claude/skills and .github, and configure a narrow AI agent to draft PRs from issues while keeping human approval.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-04-run-crew-locally-set-up-a-sandbox-agent-to-draft-prs-from-issues.jpg",
+      "tags": [
+        "crew",
+        "github",
+        "tutorial",
+        "ai-agents",
+        "agent-workflow",
+        "local-setup",
+        "pull-requests"
+      ],
+      "sources": [
+        "https://github.com/JamelHammoud/crew"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-09-03-nvidia-agreed-to-buy-hugging-face-for-dollar1293b-a-90-minute-ops-playbook-to-safeguard-hosted-models",
