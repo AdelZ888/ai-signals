@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-09-05T17:17:54.044Z",
+  "generatedAt": "2026-09-06T17:56:24.720Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-06-integrating-weathernext-3-pilot-guide-to-evaluate-0-24h-forecasts-and-stage-rollouts",
+      "title": "Intégration de WeatherNext 3 : Guide pilote pour évaluer les prévisions 0–24h et déployer par étapes",
+      "date": "2026-09-06",
+      "excerpt": "Guide pas à pas pour piloter WeatherNext 3 : lancer des prévisions 0–24h pour 1–3 lieux, comparer aux données observées, vérifier latence/taux de valeurs nulles, et publier les prévisions validées en staging.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-06-integrating-weathernext-3-pilot-guide-to-evaluate-0-24h-forecasts-and-stage-rollouts.jpg",
+      "tags": [
+        "WeatherNext 3",
+        "météo",
+        "IA",
+        "pilotage",
+        "déploiement",
+        "UK",
+        "startups"
+      ],
+      "sources": [
+        "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-09-05-roland-melody-flip-daw-plugin-workflow-for-generating-and-capturing-melodic-ideas",
       "title": "Roland Melody Flip : flux de travail DAW pour générer et capturer des idées mélodiques",
