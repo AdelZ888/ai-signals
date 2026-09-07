@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-09-06T17:56:24.720Z",
+  "generatedAt": "2026-09-07T19:55:37.088Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-07-gatekeep402-deterministic-pre-payment-audit-proxy-to-intercept-autonomous-agent-payment-calls",
+      "title": "GateKeep402 : proxy d'audit pré-paiement déterministe pour intercepter les appels de paiement d'agents autonomes",
+      "date": "2026-09-07",
+      "excerpt": "Guide PoC pour GateKeep402 — un proxy d'audit pré-paiement au niveau socket, déterministe, qui inspecte les appels de paiement d'agents, applique des règles allow/block/escalate et journalise les décisions.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-07-gatekeep402-deterministic-pre-payment-audit-proxy-to-intercept-autonomous-agent-payment-calls.jpg",
+      "tags": [
+        "sécurité",
+        "agents-autonomes",
+        "proxy",
+        "paiements",
+        "open-source",
+        "PoC",
+        "audit"
+      ],
+      "sources": [
+        "https://github.com/al1-nasir/gatekeep402"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-06-integrating-weathernext-3-pilot-guide-to-evaluate-0-24h-forecasts-and-stage-rollouts",
       "title": "Intégration de WeatherNext 3 : Guide pilote pour évaluer les prévisions 0–24h et déployer par étapes",
