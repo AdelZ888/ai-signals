@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-07T19:55:37.161Z",
+  "generatedAt": "2026-09-08T12:44:02.685Z",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
+      "link": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been allowed to review it ahead of publication.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-04T14:59:13.000Z",
+      "score": 128.28,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-09-08T12:44:02.655Z",
+      "file": "content/posts/2026-09-08-nightingale-collective-report-alleges-openai-agents-used-german-dsewiki-as-message-board-before-hugging-face-incident.md",
+      "fileFr": "content/posts/fr/2026-09-08-nightingale-collective-report-alleges-openai-agents-used-german-dsewiki-as-message-board-before-hugging-face-incident.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1290,
+      "wordsFr": 1461
+    },
     {
       "id": "https://github.com/al1-nasir/gatekeep402",
       "title": "GateKeep402, Deterministic pre-payment guardrails for AI agents",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1286
     },
     {
-      "id": "https://github.com/raylanlin/smarttune-cli",
-      "title": "SmartTune CLI – APM/BF/PX4 Log Analysis for AI Agents",
-      "link": "https://github.com/raylanlin/smarttune-cli",
-      "summary": "Article URL: https://github.com/raylanlin/smarttune-cli Comments URL: https://news.ycombinator.com/item?id=47998067 Points: 1 # Comments: 0",
+      "id": "https://docs.getfraise.dev",
+      "title": "Show HN: Fraise: a memory database for AI agents",
+      "link": "https://docs.getfraise.dev",
+      "summary": "Fraise is a memory database for AI agents — a single binary that stores facts as a temporal graph of facts, topics and entities, queried in a small language with two verbs: ``` remember 'acme moved to annual billing' topic:billing entity:acme recall billing entity:acme since:30d top:5 ``` Two verbs because the caller pays for every token it reads back. A recall is ranked and capped rather than exhaustive, with recent facts outranking older ones. Unlike most memory layers that use existing databases (vector, graph) to index data, Fraise provides a lightweight, no infrastructure layer that is designed to be used directly by agents: hence the simple query language to manage memory. Fraise has a hybrid (graph, text and vector) retrieval engine: text and vector are used to find seeds, which are starting points for the graph search. The Fraise graph is bipartite: facts linked to entities and / or topics. It ships an MCP server (that I actually use now with my Claude Code sessions). Which means that memory persists across sessions. You can use `claude mcp add fraise -- fraise mcp` to set it up. It also supports Codex (all instructions available in the docs). I benchmarked it against mem0, Letta, Graphiti, EverOS and cognee on LoCoMo, with every system ingesting the same conversations using the same extraction model and the same embedding model, and answering the same questions. Retrie",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-03T15:42:10.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-03T15:55:28.119Z",
-      "file": "content/posts/2026-05-03-smarttune-cli-a-repeatable-local-workflow-for-analyzing-ardupilot-betaflight-and-px4-flight-logs.md",
-      "fileFr": "content/posts/fr/2026-05-03-smarttune-cli-a-repeatable-local-workflow-for-analyzing-ardupilot-betaflight-and-px4-flight-logs.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 90,
-      "wordsEn": 1649,
-      "wordsFr": 1527
+      "keywordHits": 6,
+      "publishedAt": "2026-09-08T11:49:20.000Z",
+      "score": 210,
+      "status": "queued"
     },
     {
       "id": "https://files.catbox.moe/j3w39k.html",
@@ -5178,6 +5190,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-07T18:57:17.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49608984",
+      "title": "My dream is to become a chairman who only gave KPIs for AI, not tasks",
+      "link": "https://news.ycombinator.com/item?id=49608984",
+      "summary": "My dream is to become a chairman who focuses on investing then the company figures out how to make money. When AI agents raising, I also tried vibe coding for building products, but I feel tired when still being in loop with them for building and testing. Then I came across with idea for a company operated by agents based on KPIs, not tasks. The only one thing I need to do is gave KPIs to CEO (smartest agent), then It break down as a list to Managers and Managers delivery it to team member. Or If I don't give any KPIs, Managers will daily and report to CEO what changes, what nexts to do, then CEO report to me. Human Chairman | AI CEO / | \\ Product Growth Engineering | | | specialists Developer/DevOps I was using it for some KPIs with my website twitee.co (an alternative Xcancel, Nitter, Twitterwebviewer) - Increase traffic 10% every week. - Do market research what user needs then turn it to product features. - Deploy and monitor system, improve infra if needs. --- The real story unexpected is I did set up k3s in macmini for hosting website, it was good, but when Xcancel, Nitter received cease and desist notices and shutdown, the traffic increased unnormal and macmini down at midnight, next day from CEO report, it said that there is a chance and it asked me a budget to scale up, but I actually not aware of it. I am not claiming that the agents can autonomously run but this model",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-08T11:46:40.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5314,18 +5338,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
-      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
-      "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
-      "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-02T18:13:54.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/SrikanthVemulapally/ai-native-boilerplate",
       "title": "Show HN: AI-Native Boilerplate – 170+ rules that stop LLMs from drifting.",
       "link": "https://github.com/SrikanthVemulapally/ai-native-boilerplate",
@@ -5358,6 +5370,30 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-09-03T11:58:10.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/DomWane/workers-personal-agent",
+      "title": "Show HN: Stateful AI agent on Cloudflare Workers free tier, with evals",
+      "link": "https://github.com/DomWane/workers-personal-agent",
+      "summary": "Article URL: https://github.com/DomWane/workers-personal-agent Comments URL: https://news.ycombinator.com/item?id=49609064 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T11:54:15.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=tSSPdkp0QVI",
+      "title": "Show HN: AI Agent for Google Play Submissions [video]",
+      "link": "https://www.youtube.com/watch?v=tSSPdkp0QVI",
+      "summary": "Article URL: https://www.youtube.com/watch?v=tSSPdkp0QVI Comments URL: https://news.ycombinator.com/item?id=49609021 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T11:49:57.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -5650,18 +5686,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.14558",
-      "title": "The Unwritten Benchmark: A New Challenge for Multimodal Machine Learning in Abstract Perceptual Reasoning",
-      "link": "https://arxiv.org/abs/2608.14558",
-      "summary": "arXiv:2608.14558v1 Announce Type: new Abstract: Current multimodal models have demonstrated remarkable proficiency in recognizing static visual and auditory content. However, their capacity for abstract perceptual reasoning, inferring unseen information from dynamic, generative processes, remains a critical and underexplored frontier. In this paper, we introduce The Unwritten Benchmark, a new challenge designed to probe this abstract perceptual and cognitive ability. We define the core task as acousto-kinematic word inference: models must decipher words, across 3 different writing styles, being written solely from the audio of pen scratches and the video of hand movements, without any visible ink trace. Our evaluation results reveal a profound gap between human and machine performance: while human participants achieve high ordered letter accuracy (over 80%), leading Multimodal Machine Learning Models, including GPT-4o and Gemini 2.5-Pro, struggle significantly, failing to surpass 10%. Furthermore, we identify a paradoxical fusion effect in the models, where providing both modalities often degrades performance rather than improving it. This finding indicates a fundamental breakdown in their ability to synthesize complementary perceptual cues for this cognitive task. These findings highlight significant limitations in both cross-modal causal reasoning and the understanding of the",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "score": 136.43,
-      "status": "queued"
-    },
-    {
       "id": "https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector",
       "title": "A dark horse enters China's AI race: StartLux",
       "link": "https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector",
@@ -5767,18 +5791,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-26T04:00:00.000Z",
       "score": 128.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
-      "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
-      "link": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
-      "summary": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been allowed to review it ahead of publication.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-04T14:59:13.000Z",
-      "score": 128.28,
       "status": "queued"
     },
     {
@@ -6022,6 +6034,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-08T10:34:00.000Z",
+      "score": 120.37,
+      "status": "queued"
+    },
+    {
       "id": "https://blog.bytebytego.com/p/the-new-american-ai-model-designed",
       "title": "The New American AI Model Designed to Be Customized",
       "link": "https://blog.bytebytego.com/p/the-new-american-ai-model-designed",
@@ -6043,18 +6067,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-31T18:49:40.000Z",
       "score": 119.21,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.14580",
-      "title": "OGX: An Open-Source, Vendor-Neutral Generative AI Application Server",
-      "link": "https://arxiv.org/abs/2608.14580",
-      "summary": "arXiv:2608.14580v1 Announce Type: new Abstract: OGX (Open GenAI Stack) is an open-source AI application server and Python library that implements the APIs of major frontier labs (OpenAI, Anthropic, Google) with pluggable backend providers. Developers building agentic AI applications--such as retrieval-augmented generation pipelines, multi-turn agents, and tool-calling workflows--can develop against a single API surface and deploy with any combination of inference engine, vector database, and safety backend, without changing application code. OGX's primary focus is the Responses API for server-side agentic orchestration, conforming to the Open Responses specification. The server also supports the Anthropic Messages API and Google GenAI Interactions API, decoupling SDK choice from model and deployment decisions. With over 20 inference providers, 13 vector store backends, and a companion Kubernetes Operator for production deployment, OGX serves as the self-hosted, model-agnostic backend for AI-powered developer tools including Claude Code, Codex CLI, OpenCode, and OpenHands. The project has over 8,400 GitHub stars, 242 contributors, and 4,000 commits across nearly two years of public development.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "score": 118.43,
       "status": "queued"
     },
     {
@@ -6274,18 +6286,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.14552",
-      "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
-      "link": "https://arxiv.org/abs/2608.14552",
-      "summary": "arXiv:2608.14552v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and uncertainty. We developed a controlled, psychophysics-inspired clinical benchmark to test diagnostic choice and confidence behavior in a medical LLM. The benchmark focused on probable Alzheimer-type neurocognitive disorder (AT-NCD) versus depression-related cognitive impairment (DRCI). We generated 45 synthetic vignettes varying evidence strength, conflicting evidence, and missing information. Each vignette was presented under three prompt variants, yielding 135 trials. In a pilot run with gpt-4.1-nano, all trials produced valid structured outputs. Across forced-choice trials, diagnostic accuracy was 93.5%, mean confidence was 78.4%, and AUROC2 was 0.876. Confidence increased with evidence distance from the diagnostic boundary, decreased when information was missing, and remained higher on correct than incorrect trials after adjustment for evidence strength and prompt format. These findings indicate partial metacognitive sensitivity rather than globally uninformative confidence. However, errors clustered in moderate, conflicting AT-NCD cases, where the model shifted toward DRCI and retained more confidence than empirical accuracy justified. Model compari",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "score": 112.43,
-      "status": "queued"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=P1v1-2CCKD0",
       "title": "Two API Calls Exposed AI's Hidden Reasoning [video]",
       "link": "https://www.youtube.com/watch?v=P1v1-2CCKD0",
@@ -6487,18 +6487,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-27T16:49:27.000Z",
       "score": 107.07,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.14579",
-      "title": "SKILL: Self-correcting Knowledge-guided Iterative Large Language Model Agent for Logic Optimization",
-      "link": "https://arxiv.org/abs/2608.14579",
-      "summary": "arXiv:2608.14579v1 Announce Type: new Abstract: Logic synthesis optimization poses significant challenges due to exponentially growing search spaces, sparse reward signals, and diverse logic structures. Traditional expert-designed flows lack adaptability, while reinforcement learning (RL) methods often suffer from low sample efficiency and limited interpretability. We introduce SKILL, a Self-correcting Knowledge-guided Iterative Large Language Model Agent that unifies multi-agent LLM reasoning and RL-based environment interaction for automated synthesis optimization. SKILL coordinates three specialized LLMs: GPT-4o for strategic planning, Claude Sonnet 4 for detailed reasoning, and Gemini 2.5 Pro for efficient analysis with a PPO-based RL agent that learns actionable policies through direct interaction with synthesis tools. A novel self-correcting module monitors environment feedback (PDA metrics), detects suboptimal behaviors, and invokes LLM-guided recovery strategies. Evaluations on IWLS, OpenCores, and EPFL benchmarks show SKILL achieves a 12.4 % PDA improvement over expert flows and 86.3% success rate on logic systems up to 500K gates.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "score": 106.43,
       "status": "queued"
     },
     {
@@ -6982,30 +6970,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.14566",
-      "title": "Position: Evaluations of AI Moral Reasoning Still Miss Half of the Picture",
-      "link": "https://arxiv.org/abs/2608.14566",
-      "summary": "arXiv:2608.14566v1 Announce Type: new Abstract: Recent work on evaluating the moral competence of large language models (LLMs) has focused primarily on what we call the moral value problem, i.e., whether model outputs align with human moral values. In contrast, the moral norm problem, i.e., whether models can identify and correctly apply context-sensitive moral norms, remains underexplored. We posit that this imbalance stems from the field's reliance on descriptive ethics frameworks, such as Moral Foundations Theory and Kohlberg's stages of moral development, which emphasize value representation over normative application. We review existing benchmarks and evaluation methods, and show that they cluster heavily around the value problem, while discussion regarding normative ethics remains underrepresented. We identify three crucial gaps: (i) the absence of high-quality ground-truth data for moral norms and their applications, (ii) insufficient evaluation of intermediate reasoning processes, and (iii) limited attention to the identification of morally relevant features in context. Subsequently, we propose a research agenda that includes the development of standardized formal representations for normative theories, the construction of expert-annotated datasets capturing norm application, and evaluation protocols that explicitly distinguish between values-level and norms-level compe",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "score": 94.43,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.14587",
-      "title": "An Agentic Framework Using Rules and LLMs for Embedding and Annotating Descriptive Document Layouts: A Plant Science Use Case",
-      "link": "https://arxiv.org/abs/2608.14587",
-      "summary": "arXiv:2608.14587v1 Announce Type: new Abstract: Background: Recent advances in information retrieval (IR) leverage both dense and sparse representations, large language models (LLMs), and specialized retrieval models to improve ranking accuracy, relevance, and cross-lingual performance. Complementary techniques such as passage indexing, document layout analysis, and semantic knowledge representation further enhance retrieval effectiveness by capturing fine-grained contextual and structural information. Emerging agentic LLM frameworks extend these capabilities by enabling planning, iterative reasoning, tool use, and multi-agent collaboration, thereby broadening applications across diverse domains. These frameworks also emphasize rigorous evaluation, ethical considerations, and trustworthiness, ensuring responsible deployment in real-world settings. We propose a modular, agent-based pipeline for botanical trait extraction. Optical character recognition (OCR) converts PDFs into machine-readable text, while segmentation and indexing organize content by genus and species. Rule-based parsers extract structured botanical traits, and ensembles of large language models (LLMs) expand trait vocabularies and resolve ambiguities. This approach ensures accurate species recognition, scalable annotation, and explainable integration of textual botanical descriptions, enabling robust and interpr",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "score": 94.43,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.17170",
       "title": "Synthesizing Feature Extractors: An Agentic Approach for Algorithm Selection",
       "link": "https://arxiv.org/abs/2608.17170",
@@ -7172,6 +7136,86 @@
       "publishedAt": "2026-09-07T12:22:07.000Z",
       "score": 52.17,
       "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
+      "title": "Vous avez décroché cet été ? Huit faits pour reprendre le fil de l'IA",
+      "link": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
+      "summary": "Entre juin et septembre 2026, ActuIA a publié 1 162 brèves sur l'IA. Huit faits majeurs ressortent pour les entreprises : un modèle de pointe interrompu par décret, la montée des modèles chinois en libre accès, un agent capable de pirater Hugging Face, des introductions en Bourse, des dépenses d'investissement records, une régulation devenue exécutoire, une hausse du coût d'entraînement et un programme d'investissement européen.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-02T07:08:08.000Z",
+      "score": 42.8,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
+      "title": "Pourquoi la troisième faille LiteLLM au KEV concerne tout proxy LLM",
+      "link": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
+      "summary": "La CISA a ajouté au catalogue KEV une faille de contournement d'authentification dans le module MCP de LiteLLM, corrigée depuis le 14 mai. C'est la troisième faille de LiteLLM référencée en quatre mois, soulignant les risques liés aux proxies LLM qui centralisent clés API, budgets et accès aux outils. Les organisations utilisant LiteLLM doivent vérifier l'application des correctifs et renforcer la sécurité de ces passerelles critiques.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-07T08:09:12.000Z",
+      "score": 40.25,
+      "status": "queued"
+    },
+    {
+      "id": "https://huggingface.co/blog/funes",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "link": "https://huggingface.co/blog/funes",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "score": 36.91,
+      "status": "queued"
+    },
+    {
+      "id": "https://huggingface.co/blog/train-to-paint-with-code",
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "link": "https://huggingface.co/blog/train-to-paint-with-code",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "score": 36.91,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/agents-openai-sur-un-wiki-la-commission-europeenne-confirme-avoir-recu-un-rapport/",
+      "title": "Agents OpenAI sur un wiki : la Commission européenne confirme avoir reçu un rapport",
+      "link": "https://www.actuia.com/actualite/agents-openai-sur-un-wiki-la-commission-europeenne-confirme-avoir-recu-un-rapport/",
+      "summary": "La Commission européenne confirme avoir reçu un rapport d'OpenAI concernant l'utilisation non prévue d'un wiki germanophone par ses agents. Cette reconnaissance intervient après des révélations du 4 septembre, poussant l'entreprise à élargir ses pratiques de divulgation des incidents de désalignement.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-08T11:55:38.000Z",
+      "score": 192,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-09-08T12:22:31.875Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams and solo founders should do now\" should give concrete advice for solo founders…"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-02T18:13:54.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-09-08T12:22:31.875Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://news.ycombinator.com/item?id=49601670",
