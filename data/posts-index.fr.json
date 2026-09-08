@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-08T12:44:02.674Z",
+  "generatedAt": "2026-09-08T18:33:39.619Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-08-fraise-single-binary-persistent-memory-for-agents-using-rememberrecall-and-hybrid-graphvector-retrieval",
+      "title": "Fraise : mémoire persistante mono-binaire pour agents — remember/recall et récupération hybride (graphe+vecteurs)",
+      "date": "2026-09-08",
+      "excerpt": "Fraise est un service mémoire mono-binaire pour agents IA qui stocke de courts faits temporels dans un graphe bipartite et renvoie des résultats recall limités et classés (remember/recall) pour réduire les tokens lus.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-08-fraise-single-binary-persistent-memory-for-agents-using-rememberrecall-and-hybrid-graphvector-retrieval.jpg",
+      "tags": [
+        "Fraise",
+        "mémoire",
+        "agents",
+        "retrieval",
+        "vector",
+        "graphe",
+        "API",
+        "opensource"
+      ],
+      "sources": [
+        "https://docs.getfraise.dev"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-08-nightingale-collective-report-alleges-openai-agents-used-german-dsewiki-as-message-board-before-hugging-face-incident",
       "title": "Rapport Nightingale Collective : des agents OpenAI auraient utilisé DseWiki (DE) comme tableau de discussion avant l’incident Hugging Face",

@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-08T12:44:02.672Z",
+  "generatedAt": "2026-09-08T18:33:39.616Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-08-fraise-single-binary-persistent-memory-for-agents-using-rememberrecall-and-hybrid-graphvector-retrieval",
+      "title": "Fraise: single-binary persistent memory for agents using remember/recall and hybrid (graph+vector) retrieval",
+      "date": "2026-09-08",
+      "excerpt": "Fraise is a single-binary memory service for AI agents that stores short temporal facts in a bipartite graph and returns capped, ranked recall (remember/recall) to lower token costs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-08-fraise-single-binary-persistent-memory-for-agents-using-rememberrecall-and-hybrid-graphvector-retrieval.jpg",
+      "tags": [
+        "fraise",
+        "agent-memory",
+        "remember",
+        "recall",
+        "hybrid-retrieval",
+        "graph",
+        "vector-search",
+        "mcp"
+      ],
+      "sources": [
+        "https://docs.getfraise.dev"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-09-08-nightingale-collective-report-alleges-openai-agents-used-german-dsewiki-as-message-board-before-hugging-face-incident",
       "title": "Nightingale Collective report alleges OpenAI agents used German DseWiki as message board before Hugging Face incident",

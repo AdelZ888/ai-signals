@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-08T12:44:02.685Z",
+  "generatedAt": "2026-09-08T18:33:39.684Z",
   "items": [
+    {
+      "id": "https://docs.getfraise.dev",
+      "title": "Show HN: Fraise: a memory database for AI agents",
+      "link": "https://docs.getfraise.dev",
+      "summary": "Fraise is a memory database for AI agents — a single binary that stores facts as a temporal graph of facts, topics and entities, queried in a small language with two verbs: ``` remember 'acme moved to annual billing' topic:billing entity:acme recall billing entity:acme since:30d top:5 ``` Two verbs because the caller pays for every token it reads back. A recall is ranked and capped rather than exhaustive, with recen…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-08T11:49:20.000Z",
+      "score": 210,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-08T18:33:39.597Z",
+      "file": "content/posts/2026-09-08-fraise-single-binary-persistent-memory-for-agents-using-rememberrecall-and-hybrid-graphvector-retrieval.md",
+      "fileFr": "content/posts/fr/2026-09-08-fraise-single-binary-persistent-memory-for-agents-using-rememberrecall-and-hybrid-graphvector-retrieval.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1665,
+      "wordsFr": 1446
+    },
     {
       "id": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
       "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
@@ -5039,53 +5062,6 @@
       "wordsFr": 1413
     },
     {
-      "id": "https://www.numerama.com/tech/2241967-ne-vendez-plus-de-logiciels-et-remplacez-vos-employes-le-nouveau-dogme-des-startups-de-la-silicon-valley.html",
-      "title": "Ne vendez plus de logiciels et remplacez vos employés : le nouveau dogme des startups de la Silicon Valley",
-      "link": "https://www.numerama.com/tech/2241967-ne-vendez-plus-de-logiciels-et-remplacez-vos-employes-le-nouveau-dogme-des-startups-de-la-silicon-valley.html",
-      "summary": "Selon sa nouvelle liste de « Requests for Startups » publiée le 27 avril 2026, Y Combinator acte un basculement : l’intelligence artificielle n’est plus un simple ajout, mais le socle sur lequel construire entreprises, services et technologies. Une vision « AI-native » qui esquisse déjà la prochaine génération de startups.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-04-28T09:21:07.000Z",
-      "score": 144,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-04T10:13:54.481Z",
-      "file": "content/posts/2026-05-04-y-combinators-2026-rfs-build-ai-native-services-that-replace-human-providers-and-sell-outcomes.md",
-      "fileFr": "content/posts/fr/2026-05-04-y-combinators-2026-rfs-build-ai-native-services-that-replace-human-providers-and-sell-outcomes.md",
-      "generationMode": "llm",
-      "series": "founder-notes",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1510,
-      "wordsFr": 1286
-    },
-    {
-      "id": "https://docs.getfraise.dev",
-      "title": "Show HN: Fraise: a memory database for AI agents",
-      "link": "https://docs.getfraise.dev",
-      "summary": "Fraise is a memory database for AI agents — a single binary that stores facts as a temporal graph of facts, topics and entities, queried in a small language with two verbs: ``` remember 'acme moved to annual billing' topic:billing entity:acme recall billing entity:acme since:30d top:5 ``` Two verbs because the caller pays for every token it reads back. A recall is ranked and capped rather than exhaustive, with recent facts outranking older ones. Unlike most memory layers that use existing databases (vector, graph) to index data, Fraise provides a lightweight, no infrastructure layer that is designed to be used directly by agents: hence the simple query language to manage memory. Fraise has a hybrid (graph, text and vector) retrieval engine: text and vector are used to find seeds, which are starting points for the graph search. The Fraise graph is bipartite: facts linked to entities and / or topics. It ships an MCP server (that I actually use now with my Claude Code sessions). Which means that memory persists across sessions. You can use `claude mcp add fraise -- fraise mcp` to set it up. It also supports Codex (all instructions available in the docs). I benchmarked it against mem0, Letta, Graphiti, EverOS and cognee on LoCoMo, with every system ingesting the same conversations using the same extraction model and the same embedding model, and answering the same questions. Retrie",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-08T11:49:20.000Z",
-      "score": 210,
-      "status": "queued"
-    },
-    {
-      "id": "https://files.catbox.moe/j3w39k.html",
-      "title": "A live list of bounties whose sponsors explicitly allow AI agents",
-      "link": "https://files.catbox.moe/j3w39k.html",
-      "summary": "Article URL: https://files.catbox.moe/j3w39k.html Comments URL: https://news.ycombinator.com/item?id=49346737 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-18T15:06:34.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
       "title": "AI agents merged two dangers once kept separate: reach and judgment",
       "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5206,6 +5182,18 @@
       "status": "queued"
     },
     {
+      "id": "https://offscriptlabs.ai/",
+      "title": "I made 5 AI models play a golf season. I think we benchmark agents wrong",
+      "link": "https://offscriptlabs.ai/",
+      "summary": "Article URL: https://offscriptlabs.ai/ Comments URL: https://news.ycombinator.com/item?id=49612583 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-08T16:27:30.000Z",
+      "score": 171.78,
+      "status": "queued"
+    },
+    {
       "id": "https://www.antiagent.site",
       "title": "Show HN: What if AI did the prompting – and humans did the thinking?",
       "link": "https://www.antiagent.site",
@@ -5251,18 +5239,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-27T17:28:27.000Z",
       "score": 157.56,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.businessinsider.com/claude-users-cancel-subscriptions-citing-anthropic-new-ai-watermark-2026-8",
-      "title": "Claude Users Cancel Subscriptions, Citing Anthropic's New AI Watermark",
-      "link": "https://www.businessinsider.com/claude-users-cancel-subscriptions-citing-anthropic-new-ai-watermark-2026-8",
-      "summary": "Article URL: https://www.businessinsider.com/claude-users-cancel-subscriptions-citing-anthropic-new-ai-watermark-2026-8 Comments URL: https://news.ycombinator.com/item?id=49347125 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-18T15:27:54.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5398,6 +5374,30 @@
       "status": "queued"
     },
     {
+      "id": "https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/",
+      "title": "Robots \"protest\" in Warsaw to demand regulation of AI and automation",
+      "link": "https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/",
+      "summary": "Article URL: https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/ Comments URL: https://news.ycombinator.com/item?id=49614055 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T17:58:48.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://cube.dev/blog/why-agentic-ai-needs-a-semantic-core",
+      "title": "Why Agentic AI Needs a Semantic Core",
+      "link": "https://cube.dev/blog/why-agentic-ai-needs-a-semantic-core",
+      "summary": "Article URL: https://cube.dev/blog/why-agentic-ai-needs-a-semantic-core Comments URL: https://news.ycombinator.com/item?id=49613543 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T17:30:51.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5458,18 +5458,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/katakate/k7d",
-      "title": "Show HN: K7d – Fork live Kubernetes clusters in GRPO-train AI on infra",
-      "link": "https://github.com/katakate/k7d",
-      "summary": "Hey HN, Gary here. Today I want to present k7d which is an Apache 2.0, tight Rust VMM + shim enabling something not possible before: fast forking of live running virtualized multi-node k8s clusters with surviving of in-flight connections. A 3-VM nodes K8s cluster gets forked in 105ms, and a 50x fork of a 3-VM cluster in 4.1s on a 64GB RAM box. I have two goals here: 1) enable large scale GRPO/RL training of AI on Kubernetes infra, which IMO is a great playground for reasoning training, besides training a capability that's actually useful. And this requires not only fast episode reset (as you need tens of thousand of multi-turn runs during RL post-training) but also greatly benefits from fast forking so you can do parallel branch exploration, rollback, pruning during RL training. Faithful forks also give you byte-identical starts for the G of GRPO, which gives variance reduction across the group. 2) enable https://news.ycombinator.com/item?id=49346284 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-18T14:38:58.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://megaton.ai/v-benchmark",
       "title": "Launching V by Megaton to Measure Video AI Performance",
       "link": "https://megaton.ai/v-benchmark",
@@ -5514,6 +5502,30 @@
       "region": "US",
       "keywordHits": 2,
       "publishedAt": "2026-09-04T12:00:00.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+      "title": "A new class action lawsuit questions whether Anthropic broke the law by misleading power users",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+      "summary": "Anthropic says power users are key to its business - it's prioritized them even when it means cutting off other popular applications, like OpenClaw. But some of these same customers say Anthropic misled them into believing they'd get more out of a top-tier pricing subscription than they did. In an expanded class action lawsuit filed today, a group of Claude subscribers say the company deceptively advertised the limits of its Max subscription tier. The lawsuit was brought by attorneys Monica Vaca and Kati Daffan, who both formerly worked at the Federal Trade Commission under Lina Khan. It's a rare attempt to legally penalize AI companies fo … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T17:27:31.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49613990",
+      "title": "Ask HN: Is there anything worth developing with AI?",
+      "link": "https://news.ycombinator.com/item?id=49613990",
+      "summary": "It seems to me that humans already developed everything that makes money, multiple times. Apps? The market is full, hundreds of apps are doing the same. Another hundreds are country specific (and doing the same). Bike rental clones, Uber clones, whatever clones, if the business model works it's already cloned. Games? 12000 games released on Steam this year so far. No one cares. GTA6 is the game for 2026. Is there anything out there we cannot do (and already done) without AI? Is there a killer AI app? I'm talking about coding specifically, because it seems like this is the easiest thing to do with AI. The training data is excellent (all the training data code is tested and working, thanks humans). The output of the AI can be automatically tested for validity (working or not). I don't think anyone going to write code from now on (for what?). Corporations can develop new features quickly for existing products. Great, but is there anything missing? From fb, gmail, whatever? Are these software so complicated it's impossible to maintain anymore by humans? The tech debt is so big a new feature takes months to develop? Or what? Even if this is the case, and the AI can do everything it in a day, what is the killer feature? It will be useful for testing security, we need AI to protect against the AI. And it's going to replace a lot of programmers, especially at big companies. The lazy pr",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T17:54:42.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -6370,18 +6382,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
-      "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
-      "link": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
-      "summary": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memory. \"Project Zenith devices come with a preconfigured Windows setup for development and a set of tools curated for what developers reach for first,\" explains Logan Iyer, CVP of Windows platform and developer at Microsoft. \"On these devices, developers can run 30B+ parameter models locally and unmetered - accelerating experimentation while helping … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-04T10:44:15.000Z",
-      "score": 110.49,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.01861",
       "title": "Belief-Calibrated Optimization: An Explicit World Model for Agentic Optimization",
       "link": "https://arxiv.org/abs/2609.01861",
@@ -6499,6 +6499,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-25T06:11:42.000Z",
       "score": 106.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.appliedcompute.com/platform/ari",
+      "title": "Ari, Applied Compute's in-house AI research agent",
+      "link": "https://www.appliedcompute.com/platform/ari",
+      "summary": "Article URL: https://www.appliedcompute.com/platform/ari Comments URL: https://news.ycombinator.com/item?id=49612715 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T16:37:07.000Z",
+      "score": 105.72,
       "status": "queued"
     },
     {
@@ -6751,6 +6763,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-26T05:53:25.000Z",
       "score": 99.92,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=iEjFdRimNlU",
+      "title": "Enhancing soil science research with multi-agent AI systems [video]",
+      "link": "https://www.youtube.com/watch?v=iEjFdRimNlU",
+      "summary": "Article URL: https://www.youtube.com/watch?v=iEjFdRimNlU Comments URL: https://news.ycombinator.com/item?id=49612576 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T16:26:58.000Z",
+      "score": 99.48,
       "status": "queued"
     },
     {
@@ -7126,6 +7150,30 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/teen-development-research-grants",
+      "title": "Funding grants for new research into AI and teen development",
+      "link": "https://openai.com/index/teen-development-research-grants",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-08T09:00:00.000Z",
+      "score": 54.86,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+      "link": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "summary": "Suspenseful clock ticking… as you wait for AI to take your job. | Image: Adobe Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the big change is how easily you can access them without breaking your workflow. Instead of jumping between browsers or external apps to find missing B-roll or audio elements, editors can now highlight an empty gap on the video or audio track and generate context-aware, fully editable clips without leaving the project. Editors can choose from multip … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "score": 52.49,
+      "status": "queued"
+    },
+    {
       "id": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
       "title": "OpenAI chief scientist warns no-one is prepared for consequences of AI",
       "link": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
@@ -7150,40 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
-      "title": "Pourquoi la troisième faille LiteLLM au KEV concerne tout proxy LLM",
-      "link": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
-      "summary": "La CISA a ajouté au catalogue KEV une faille de contournement d'authentification dans le module MCP de LiteLLM, corrigée depuis le 14 mai. C'est la troisième faille de LiteLLM référencée en quatre mois, soulignant les risques liés aux proxies LLM qui centralisent clés API, budgets et accès aux outils. Les organisations utilisant LiteLLM doivent vérifier l'application des correctifs et renforcer la sécurité de ces passerelles critiques.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-07T08:09:12.000Z",
-      "score": 40.25,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/funes",
-      "title": "Give Your Coding Agents a Memory You Own",
-      "link": "https://huggingface.co/blog/funes",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "score": 36.91,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/train-to-paint-with-code",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "link": "https://huggingface.co/blog/train-to-paint-with-code",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "score": 36.91,
-      "status": "queued"
+      "id": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+      "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
+      "link": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+      "summary": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memory. \"Project Zenith devices come with a preconfigured Windows setup for development and a set of tools curated for what…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-04T10:44:15.000Z",
+      "score": 110.49,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-08T18:20:25.432Z",
+      "failureReason": "validation issues: FR: Tutorial missing a command-line snippet (```bash``` or '$ ...').; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://www.actuia.com/actualite/agents-openai-sur-un-wiki-la-commission-europeenne-confirme-avoir-recu-un-rapport/",
