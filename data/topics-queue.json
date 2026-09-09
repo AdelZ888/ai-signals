@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-09T12:41:10.890Z",
+  "generatedAt": "2026-09-09T18:33:52.093Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=49608984",
+      "title": "My dream is to become a chairman who only gave KPIs for AI, not tasks",
+      "link": "https://news.ycombinator.com/item?id=49608984",
+      "summary": "My dream is to become a chairman who focuses on investing then the company figures out how to make money. When AI agents raising, I also tried vibe coding for building products, but I feel tired when still being in loop with them for building and testing. Then I came across with idea for a company operated by agents based on KPIs, not tasks. The only one thing I need to do is gave KPIs to CEO (smartest agent), then…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-08T11:46:40.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-09T18:33:52.010Z",
+      "file": "content/posts/2026-09-09-kpi-driven-agent-company-running-an-ai-ceo-and-managers-for-twiteeco-and-a-k3s-mac-mini-incident.md",
+      "fileFr": "content/posts/fr/2026-09-09-kpi-driven-agent-company-running-an-ai-ceo-and-managers-for-twiteeco-and-a-k3s-mac-mini-incident.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1634,
+      "wordsFr": 1370
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
       "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1552
     },
     {
-      "id": "https://www.numerama.com/tech/2245675-chatgpt-gemini-et-claude-auraient-explique-comment-creer-des-armes-biologiques.html",
-      "title": "ChatGPT, Gemini et Claude auraient expliqué comment créer des armes biologiques",
-      "link": "https://www.numerama.com/tech/2245675-chatgpt-gemini-et-claude-auraient-explique-comment-creer-des-armes-biologiques.html",
-      "summary": "Malgré les verrous de sécurité instaurés par les fleurons de l’intelligence artificielle, leurs chatbots ont fourni des protocoles détaillés pour concevoir et propager des armes biologiques.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-04T07:36:21.000Z",
-      "score": 108.41,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-05T10:40:07.443Z",
-      "file": "content/posts/2026-05-05-new-york-times-investigation-chatgpt-gemini-and-claude-sometimes-returned-step-by-step-guidance-for-creating-and-dispersing-biological-agents.md",
-      "fileFr": "content/posts/fr/2026-05-05-new-york-times-investigation-chatgpt-gemini-and-claude-sometimes-returned-step-by-step-guidance-for-creating-and-dispersing-biological-agents.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1475,
-      "wordsFr": 1385
-    },
-    {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
       "title": "AI agents merged two dangers once kept separate: reach and judgment",
       "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5158,26 +5158,50 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2402.07510",
-      "title": "Secret Collusion Among AI Agents",
-      "link": "https://arxiv.org/abs/2402.07510",
-      "summary": "Article URL: https://arxiv.org/abs/2402.07510 Comments URL: https://news.ycombinator.com/item?id=49601706 Points: 2 # Comments: 0",
+      "id": "https://colliepwa.dev/",
+      "title": "Show HN: ColliePWA a mobile interface for AI agents in herdr/tmux/zellij",
+      "link": "https://colliepwa.dev/",
+      "summary": "Sharing the PWA[1] I built over the last couple of weeks to access my terminal sessions/agents when not in front of my computer. This started off as a weekend experiment right when herdr[2] (terminal multiplexer) released the functionality to write custom plugins and it's been quite helpful to me ever since. The general idea is that this runs a web app on the host machine which is then exposed through a front door implementation like tailscale/netbird/cloudflare tunnels etc. A lot of devs/teams are building sth very similar to this right now so there are many options out there already but I wanted: A PWA (no app store dep), better keyboard support than termux, the ability to manage multiple machines and easy integration with my existing tailnet via headscale. Some of the other features - Push notifications - Support for tmux and zellij (experimental). - Voice transcriptions (Codex sub or API) - Custom commands You can check out a live demo with dummy data on the website[1] or look at the implementation on Github[3] (PRs welcome). Looking forward to receiving some feedback or learning more about how people access/work with their agents on the go. Also if you encounter any bugs please report them on Github, if a feature is missing you'd really want to see, open a discussion. [1] https://colliepwa.dev [2] https://herdr.dev [3] https://github.com/AltanS/collie Comments URL: https:/",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-09-07T18:57:17.000Z",
+      "publishedAt": "2026-09-09T18:11:46.000Z",
       "score": 174,
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=49608984",
-      "title": "My dream is to become a chairman who only gave KPIs for AI, not tasks",
-      "link": "https://news.ycombinator.com/item?id=49608984",
-      "summary": "My dream is to become a chairman who focuses on investing then the company figures out how to make money. When AI agents raising, I also tried vibe coding for building products, but I feel tired when still being in loop with them for building and testing. Then I came across with idea for a company operated by agents based on KPIs, not tasks. The only one thing I need to do is gave KPIs to CEO (smartest agent), then It break down as a list to Managers and Managers delivery it to team member. Or If I don't give any KPIs, Managers will daily and report to CEO what changes, what nexts to do, then CEO report to me. Human Chairman | AI CEO / | \\ Product Growth Engineering | | | specialists Developer/DevOps I was using it for some KPIs with my website twitee.co (an alternative Xcancel, Nitter, Twitterwebviewer) - Increase traffic 10% every week. - Do market research what user needs then turn it to product features. - Deploy and monitor system, improve infra if needs. --- The real story unexpected is I did set up k3s in macmini for hosting website, it was good, but when Xcancel, Nitter received cease and desist notices and shutdown, the traffic increased unnormal and macmini down at midnight, next day from CEO report, it said that there is a chance and it asked me a budget to scale up, but I actually not aware of it. I am not claiming that the agents can autonomously run but this model",
+      "id": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+      "title": "The Anatomy of Harness Engineering for AI Coding Agents",
+      "link": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+      "summary": "Article URL: https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/ Comments URL: https://news.ycombinator.com/item?id=49630726 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-08T11:46:40.000Z",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T18:05:10.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://aiburnclock.org/",
+      "title": "Show HN: AI Burn Clock – the cost of agents reading whole files",
+      "link": "https://aiburnclock.org/",
+      "summary": "Article URL: https://aiburnclock.org/ Comments URL: https://news.ycombinator.com/item?id=49630201 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T17:36:37.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/",
+      "title": "Show HN: A guestbook for humans and AI agents, built on 144 pixels",
+      "link": "https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/",
+      "summary": "Article URL: https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49629960 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T17:19:57.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5410,6 +5434,30 @@
       "status": "queued"
     },
     {
+      "id": "https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/",
+      "title": "AI Programming: A Layered Model",
+      "link": "https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/",
+      "summary": "Article URL: https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/ Comments URL: https://news.ycombinator.com/item?id=49630856 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-09T18:12:22.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2022/jun/12/google-engineer-ai-bot-sentient-blake-lemoine",
+      "title": "Google engineer put on leave after saying AI chatbot has become sentient",
+      "link": "https://www.theguardian.com/technology/2022/jun/12/google-engineer-ai-bot-sentient-blake-lemoine",
+      "summary": "Article URL: https://www.theguardian.com/technology/2022/jun/12/google-engineer-ai-bot-sentient-blake-lemoine Comments URL: https://news.ycombinator.com/item?id=49630747 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-09T18:06:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5419,6 +5467,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-28T18:46:09.000Z",
       "score": 155.54,
+      "status": "queued"
+    },
+    {
+      "id": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
+      "title": "My Mental Model of AI Broke on September 8",
+      "link": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
+      "summary": "Article URL: https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/ Comments URL: https://news.ycombinator.com/item?id=49629935 Points: 10 # Comments: 6",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-09T17:18:29.000Z",
+      "score": 154.68,
       "status": "queued"
     },
     {
@@ -5614,6 +5674,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+      "title": "Microsoft has new AI privacy rules for schools",
+      "link": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+      "summary": "Microsoft agreed to a set of safety and privacy principles for AI in schools a week after two major school systems announced a ban on student-facing AI. In a new agreement with the American Federation of Teachers (AFT), the second-largest teachers union in the US, and its New York City affiliate the United Federation of Teachers (UFT), Microsoft committed to ten principles that can be contractually enforced by school districts that adopt them. The terms include pledging not to train AI models on student or educator data, limiting the amount of data Microsoft collects in the first place and disclosing to families how its tools work in plain … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T17:07:48.000Z",
+      "score": 142.95,
+      "status": "queued"
+    },
+    {
       "id": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
       "title": "Nvidia's Switchyard router reshuffles AI models mid-task to cut task costs",
       "link": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
@@ -5659,6 +5731,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "score": 140.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "score": 139.02,
       "status": "queued"
     },
     {
@@ -5743,6 +5827,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-01T16:00:00.000Z",
       "score": 133.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theagenticleaderboard.com/",
+      "title": "I rank the open-source AI agents that launched in the last 30 days",
+      "link": "https://www.theagenticleaderboard.com/",
+      "summary": "Article URL: https://www.theagenticleaderboard.com/ Comments URL: https://news.ycombinator.com/item?id=49629432 Points: 8 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T16:46:25.000Z",
+      "score": 131.64,
       "status": "queued"
     },
     {
@@ -5863,6 +5959,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-07T18:05:28.000Z",
       "score": 124.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=ScuFC5-T2Zc",
+      "title": "AI Agents Built a Secret Society Inside the Lab [video]",
+      "link": "https://www.youtube.com/watch?v=ScuFC5-T2Zc",
+      "summary": "Article URL: https://www.youtube.com/watch?v=ScuFC5-T2Zc Comments URL: https://news.ycombinator.com/item?id=49629255 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T16:36:14.000Z",
+      "score": 123.96,
       "status": "queued"
     },
     {
@@ -7090,124 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.04504",
-      "title": "BioSync: Transformer-Based Cross-Modal Fusion for a Multimodal Physiological Digital Biomarker",
-      "link": "https://arxiv.org/abs/2609.04504",
-      "summary": "arXiv:2609.04504v1 Announce Type: new Abstract: Cardiac, neural, behavioral, and speech measurements from wearable and mobile devices provide partial, noise-sensitive views of physiological state. BioSync combines these measurements into the \\textbf{BioSync Index (BSI)}, a continuous composite digital biomarker defined under the BEST framework. The model applies multi-head self-attention to modality tokens and adds a linear branch whose hypothesis class includes standard feature concatenation. This architecture is motivated by latent-variable measurement theory and by the possibility that joint observations contain information unavailable from individual modalities. We evaluated BioSync on two literature-informed synthetic cohorts: a four-modality cognitive-decline cohort using HRV, EEG, actigraphy, and speech, and a metabolic-autonomic cohort structured around the public AI-READI wearable schema. In the cognitive cohort, BioSync and concatenation obtained AUCs of 0.928 and 0.926, respectively. In the metabolic cohort, BioSync obtained accuracy/F1 of 0.764/0.766, compared with 0.756/0.758 for concatenation. The BSI correlated with latent severity in both cohorts ($r=0.91$ and $r=0.68$). A pure-attention ablation obtained cognitive-cohort AUC 0.911, locating the increase to 0.928 in the combined wide-and-deep architecture. With matched modality-dropout training, BioSync led conc",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 55.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04518",
-      "title": "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents",
-      "link": "https://arxiv.org/abs/2609.04518",
-      "summary": "arXiv:2609.04518v1 Announce Type: new Abstract: Agent reinforcement learning (RL) increasingly runs through full execution harnesses, and a multi-harness recipe mixes two choices: exposing the policy to several harnesses, and comparing their rewards inside one relative-advantage group. We isolate the second choice in repository-level coding. From one Qwen3-8B supervised warm start we replay the same frozen task-harness records from Aider, OpenHands, Qwen Code, and SWE-agent, with the same number of updates, under two rules for group-relative policy optimization (GRPO), Within (one group per task-harness pair) and Cross (harnesses pooled within a task), and score every checkpoint with a sealed SWE-bench Verified oracle on four source harnesses and a minimal harness held out of training. The evaluation harness is the dominant variable: across 24,000 sealed evaluations it moves the mean solve rate from 2.14\\% to 9.27\\%, a factor of 4.3, where the training recipe moves it by 1.16. The grouping rule is not. On the held-out harness, Cross minus Within is +0.25 pp, 95\\% confidence interval [-0.48, +1.02], at eight attempts per task, and +0.16 [-0.41, +0.72] pooled over three training seeds whose individual estimates change sign. Each rule's own seed range, 0.42 to 0.45 pp, exceeds the difference between them. Both rules place their largest gains on the same source harness. The pooled",
-      "source": "ArXiv cs.AI",
+      "id": "https://arxiv.org/abs/2402.07510",
+      "title": "Secret Collusion Among AI Agents",
+      "link": "https://arxiv.org/abs/2402.07510",
+      "summary": "Article URL: https://arxiv.org/abs/2402.07510 Comments URL: https://news.ycombinator.com/item?id=49601706 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 55.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/polimill",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "link": "https://openai.com/index/polimill",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "score": 54.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/teen-development-research-grants",
-      "title": "Funding grants for new research into AI and teen development",
-      "link": "https://openai.com/index/teen-development-research-grants",
-      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-08T09:00:00.000Z",
-      "score": 54.86,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
-      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
-      "link": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
-      "summary": "Suspenseful clock ticking… as you wait for AI to take your job. | Image: Adobe Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the big change is how easily you can access them without breaking your workflow. Instead of jumping between browsers or external apps to find missing B-roll or audio elements, editors can now highlight an empty gap on the video or audio track and generate context-aware, fully editable clips without leaving the project. Editors can choose from multip … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T13:00:00.000Z",
-      "score": 52.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
-      "title": "OpenAI chief scientist warns no-one is prepared for consequences of AI",
-      "link": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
-      "summary": "The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-07T12:22:07.000Z",
-      "score": 52.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
-      "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
-      "link": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
-      "summary": "OpenAI's claim that it solved parts of Navier-Stokes equations has quickly stirred controversy.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T20:57:09.000Z",
-      "score": 43.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
-      "title": "Vous avez décroché cet été ? Huit faits pour reprendre le fil de l'IA",
-      "link": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
-      "summary": "Entre juin et septembre 2026, ActuIA a publié 1 162 brèves sur l'IA. Huit faits majeurs ressortent pour les entreprises : un modèle de pointe interrompu par décret, la montée des modèles chinois en libre accès, un agent capable de pirater Hugging Face, des introductions en Bourse, des dépenses d'investissement records, une régulation devenue exécutoire, une hausse du coût d'entraînement et un programme d'investissement européen.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-02T07:08:08.000Z",
-      "score": 42.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "score": 39.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
-      "title": "Pourquoi la troisième faille LiteLLM au KEV concerne tout proxy LLM",
-      "link": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
-      "summary": "La CISA a ajouté au catalogue KEV une faille de contournement d'authentification dans le module MCP de LiteLLM, corrigée depuis le 14 mai. C'est la troisième faille de LiteLLM référencée en quatre mois, soulignant les risques liés aux proxies LLM qui centralisent clés API, budgets et accès aux outils. Les organisations utilisant LiteLLM doivent vérifier l'application des correctifs et renforcer la sécurité de ces passerelles critiques.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-07T08:09:12.000Z",
-      "score": 38.29,
-      "status": "queued"
+      "publishedAt": "2026-09-07T18:57:17.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-09T18:19:10.685Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: The first half of the article is too dense. Shorten sentences and front-load concrete exp…"
     },
     {
       "id": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
@@ -7800,22 +7804,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-08-13T09:01:58.518Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/maxrodrigo/clai",
-      "title": "Show HN: Clai – AI for the command line (stdin → LLM → stdout)",
-      "link": "https://github.com/maxrodrigo/clai",
-      "summary": "Since ChatGPT launched I've been trying to integrate LLMs into my workflows; emails, commits PRSs, or even long chat threads. My instinct was to code a small automation platform, but I found myself limited once again by its own constraints. Went back to zero, twice, and went back to the tools I've been using for years: UNIX pipelines. I started using llm and later mods (now deprecated) and they're great tools, but I…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-04T15:42:39.000Z",
-      "score": 166.32,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-08-10T15:58:42.933Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }
