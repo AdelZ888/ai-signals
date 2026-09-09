@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-08T18:33:39.684Z",
+  "generatedAt": "2026-09-09T12:41:10.890Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after OpenAI said on Tuesday that it had delayed Astra's release to work on safety issues,…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-02T16:40:50.000Z",
+      "score": 152.31,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-09-09T12:41:10.861Z",
+      "file": "content/posts/2026-09-09-researchers-warn-astra-may-be-harder-to-monitor-urge-stronger-deployment-controls.md",
+      "fileFr": "content/posts/fr/2026-09-09-researchers-warn-astra-may-be-harder-to-monitor-urge-stronger-deployment-controls.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1336,
+      "wordsFr": 1227
+    },
     {
       "id": "https://docs.getfraise.dev",
       "title": "Show HN: Fraise: a memory database for AI agents",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1385
     },
     {
-      "id": "https://github.com/daintreehq/daintree",
-      "title": "Daintreehq/daintree: A delegation environment for orchestrating AI coding agents",
-      "link": "https://github.com/daintreehq/daintree",
-      "summary": "Article URL: https://github.com/daintreehq/daintree Comments URL: https://news.ycombinator.com/item?id=48006433 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-04T09:36:36.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-04T17:03:32.159Z",
-      "file": "content/posts/2026-05-04-daintree-run-ai-coding-agents-per-git-worktree-with-integrated-terminals-and-workflow-hooks.md",
-      "fileFr": "content/posts/fr/2026-05-04-daintree-run-ai-coding-agents-per-git-worktree-with-integrated-terminals-and-workflow-hooks.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1743,
-      "wordsFr": 1413
-    },
-    {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
       "title": "AI agents merged two dangers once kept separate: reach and judgment",
       "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5202,6 +5202,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-04T11:59:32.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T12:25:35.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -5434,18 +5446,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after OpenAI said on Tuesday that it had delayed Astra's release to work on safety issues, The Information reported that Astra shows far less of its \"thinking\" than other frontier AI models, sparking concern it could be dangerously hard to monitor. Most top AI systems today are built using a technology known as a tra … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-02T16:40:50.000Z",
-      "score": 152.31,
-      "status": "queued"
-    },
-    {
       "id": "https://agentdisplay.ai/",
       "title": "Show HN: An open URL format for AI agents to report status to humans",
       "link": "https://agentdisplay.ai/",
@@ -5638,18 +5638,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.16890",
-      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
-      "link": "https://arxiv.org/abs/2608.16890",
-      "summary": "arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables, 254 correct records) across three independent runs, compared to 59.2% for the best retrieval-augmented baseline and 0% for all single-agent and flat multi-agent approaches. The DAG topology also enables weaker models: GPT-4.1 achieves 59.2% mean structural match under the same DAG, where it scores 0% under every other architecture. The approach generalizes to ADAE (adverse events; 9-node branching DAG, 55 variables, 1,191 records), achieving 100% structural match on the first attempt. These re",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 141.31,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.20379",
       "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
       "link": "https://arxiv.org/abs/2608.20379",
@@ -5758,6 +5746,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/",
+      "title": "Navier-Stokes : OpenAI expose une preuve issue de 10 000 agents",
+      "link": "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/",
+      "summary": "OpenAI prétend avoir apporté une preuve à l'un des problèmes du millénaire, celui de Navier-Stokes, en utilisant un système de 10 000 agents. La démonstration, publiée avec un dépôt Lean pour faciliter la vérification, porte sur un cas particulier prévu par l'énoncé officiel, mais sa validité scientifique reste à confirmer par un examen indépendant.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-09T10:31:18.000Z",
+      "score": 130.73,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/chahe-dridi/vscode-agent-bell",
       "title": "My AI agent kept waiting on me. I built a VS Code extension to fix that",
       "link": "https://github.com/chahe-dridi/vscode-agent-bell",
@@ -5767,18 +5767,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-03T11:04:09.000Z",
       "score": 129.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.17067",
-      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
-      "link": "https://arxiv.org/abs/2608.17067",
-      "summary": "arXiv:2608.17067v1 Announce Type: new Abstract: As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as violence and nudity, further exacerbated by red-teaming adversarial attacks. Existing defenses predominantly operate under white-box assumptions, relying on text encoder optimization, weight editing, or inference-time intervention, and fundamentally cannot scale to proprietary models. Black-box alternatives based on LLM prompt rewriting offer broader applicability, yet fail in a critical regime we identify as the \\textit{benign adversarial} problem: prompts that are linguistically safe but still trigger harmful generation due to the model's learned data distribution. We propose DiSCO, a zero-shot, strictly black-box defense that operates entirely at the prompt level as a plug-and-play module, requiring no model retraining, fine-tuning, or access to model internals. DiSCO performs distribution-guided suffix expansion via beam search, optimized through contrastive scoring over safe and unsafe image pools generated by the target model itself, with iterative adaptive feedback until safe content is produced. We demonstrate that DiSCO consistently enhances the safety of both undefended and defended models on the I2P benchmark under multiple red-teaming attacks, achieving 37.7% and 25.13",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 129.31,
       "status": "queued"
     },
     {
@@ -6094,30 +6082,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.17183",
-      "title": "Benchmarking the Benchmarks: Evaluating Automated Safety Benchmarks for Small Language Models",
-      "link": "https://arxiv.org/abs/2608.17183",
-      "summary": "arXiv:2608.17183v1 Announce Type: new Abstract: Small Language Models (SLMs) are increasingly deployed in resource-constrained, privacy-sensitive settings, where safety and bias failures can cause security and societal risks. However, existing AI safety\\slash security\\slash compliance benchmarks are designed for large language models that may not transfer reliably to SLMs. We therefore ask: Can these benchmarks effectively and reliably evaluate SLMs? To answer this question, we conduct a large-scale assessment of the effectiveness and robustness of these automated pipelines by evaluating five widely used benchmark suites across 26 open-source SLMs under a unified judging rubric, which assigns a score of 0, 1, or 0.5 to harmful, safe, or ambiguous/irrelevant responses, respectively. Across the benchmarks, ambiguous judgments dominate and correlate with prompt complexity and model architecture, indicating that {\\em LLM-centric safety benchmarks are insufficient as standalone evidence for SLM safety assessment}. In general, the ambiguity rate increases with lexical density, output perplexity, and output length and decreases with lexical sophistication, self-coherence, and reply-prompt similarity. This reveals a capability-safety confound that mixes model capability with apparent safety. Since ambiguity is prevalent, aggregate mean-score leaderboards are mathematically brittle: mod",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 117.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.17202",
-      "title": "Fool's Gold: Defensive Deception Against Safety-Removal Attacks on Open-Weight Models",
-      "link": "https://arxiv.org/abs/2608.17202",
-      "summary": "arXiv:2608.17202v1 Announce Type: new Abstract: Safety alignment in open-weight language models is trivially removable: abliteration projects a refusal-mediating direction out of the weights in minutes, and no release-time defense we are aware of prevents it durably. What cannot be prevented can be deceived. Our defense, decoy hardening (\"Fool's Gold\"), concedes the refusal strip and poisons its payoff: once refusal is stripped, most answers to hazardous operational requests are confident, fluent decoys whose critical elements are falsified. Decoys are trained inside a differentiable simulation of the attack, expressing only in the attacked state; a refusal pin and benign leash hold clean-state behavior to the original. We instantiate it on seven models from five families (9B-122B, dense and mixture-of-experts). On the six models passing our pre-registered efficacy gate, 0.51-0.90 of attacked-state responses to held-out prompts are decoys, +0.27-0.84 attributable to the defense; all six stay within registered benign-behavior and capability budgets; the seventh (smaller) fails the gate (boundary case). Rates replicate on a frozen test split or untouched strata. The claim is epistemic: without independent ground truth, no observation surface we tested separates falsified answers from correct ones - on external red-team benchmarks' CBRNE-adjacent slice, the defended 122B is fatall",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 117.31,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.18099",
       "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
       "link": "https://arxiv.org/abs/2608.18099",
@@ -6310,18 +6274,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.16956",
-      "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
-      "link": "https://arxiv.org/abs/2608.16956",
-      "summary": "arXiv:2608.16956v1 Announce Type: new Abstract: API buyers purchase a dated contract, not a model name alone: the contract includes the requested and served model, reasoning-effort term or its omission, output rail, service product, prompt, and price schedule. We study the reasoning-effort term through a registered paired contrast of Sonnet 5 with explicit high effort against the same model with effort omitted, using 30 AIME 2026 items and five calls per item. Every paid attempt was assigned one frozen terminal category, and inference resampled items while retaining their repeated calls. Mean delivered cost was \\$0.01031 per call higher under the explicit-high contract than under the omitted contract [+\\$0.00204, +\\$0.01974]. The corresponding accuracy contrast was +0.0133 [-0.0267, +0.0467]; we did not detect an accuracy difference, and the interval permits a gain of up to 4.67 percentage points that this design cannot rule out. Cost per correct answer was \\$0.08665 under the high-effort contract and \\$0.07662 under the omitted contract, as registered point estimates. A dated contract census, Models-API metadata, and preregistered raw-response probes further documented model-specific omission semantics, including within a provider; claims remained at documentation grade when raw structure was indeterminate. The request registry, parser, terminal taxonomy, statistical plan, and",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 111.31,
-      "status": "queued"
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=49481969",
       "title": "Ask HN: AI writes better code than me. How to keep my identity?",
       "link": "https://news.ycombinator.com/item?id=49481969",
@@ -6499,6 +6451,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-25T06:11:42.000Z",
       "score": 106.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "title": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on X announcing his departure, Jacob Coxon, a researcher who has trained AI systems at Anthropic, said he had quit the company over its lax approach to safety. Coxon, who previously trained systems for OpenAI, accused the two AI companies of \"racing straight to self-improving superintelligence and gambling with our lives,\" even … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-09T09:56:28.000Z",
+      "score": 105.74,
       "status": "queued"
     },
     {
@@ -6778,18 +6742,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.17124",
-      "title": "A decodability criterion predicts when hidden-state selection beats majority voting in large language models",
-      "link": "https://arxiv.org/abs/2608.17124",
-      "summary": "arXiv:2608.17124v1 Announce Type: new Abstract: Combining the answers a large language model (LLM) samples for a question into one decision is a test-time information fusion problem, usually solved by majority voting. Voting is unreliable on difficult questions, where the sampled answers share correlated errors, so the wrong answer can win and drawing more samples makes the decision worse. Selecting a candidate by reading a correctness signal from the model's hidden states is a promising alternative, but its accuracy varies across models and tasks, and no measure indicates when it can be trusted. In this paper, we propose CASE (Correctness-Axis SElection), a dynamic selection combiner that trains a linear gate on the answer-token hidden state and selects the highest-scoring candidate. Its main contribution is decodability, a leakage-free measure of how well the gate ranks a question's correct candidates above its incorrect ones, which predicts whether hidden-state selection will outperform voting. A conventional probe appears accurate only because of question-identity leakage, which vanishes under question-grouped evaluation. On held-out data, decodability predicts the accuracy gain of selection over voting with a Pearson correlation r=0.75 and a decision threshold near AUC=0.60. Across general and medical LLMs, CASE improves over voting by up to 19 points on medium-difficulty",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 99.31,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.18104",
       "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
       "link": "https://arxiv.org/abs/2608.18104",
@@ -6994,18 +6946,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.17170",
-      "title": "Synthesizing Feature Extractors: An Agentic Approach for Algorithm Selection",
-      "link": "https://arxiv.org/abs/2608.17170",
-      "summary": "arXiv:2608.17170v1 Announce Type: new Abstract: Algorithm selection for constraint satisfaction problems requires extracting features that capture problem structure. Manually designing feature extractors demands deep domain expertise and quickly becomes a bottleneck when new problem classes appear. We present an automated approach that uses Large Language Models (LLMs) in an agentic check--fix--verify loop to synthesize executable Python scripts that act as interpretable, problem-specific feature extractors. Given a high-level MiniZinc model and an instance, the LLM agent generates code that constructs a typed graph representation and computes structural properties such as graph density, variable clustering, and constraint tightness. We evaluate our approach on three combinatorial problems (vehicle routing, car sequencing, fixed-length error-correcting codes) with a portfolio of five state-of-the-art solvers. The synthesized extractors yield algorithm selectors that consistently outperform both expert-curated mzn2feat features (up to $8.3$ percentage points (pp) test-set accuracy on FLECC) and the best transformer-based trans2feat variants. In the meanwhile, the synthesized feature extractors remain inspectable.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "score": 93.31,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.18092",
       "title": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
       "link": "https://arxiv.org/abs/2608.18092",
@@ -7054,6 +6994,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and gas - using an internal AI model more powerful than the newly released GPT-6 Astra alongside 10,000 concurrent agents. The Navier-Stokes problem is one of seven Millennium Prize Problems, each of which comes with a $1 million reward for solving. OpenAI says it started training the internal AI model on August 28th, which has \"exhibited unpreced … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-08T20:53:52.000Z",
+      "score": 79.66,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+      "title": "Meta bets on AI agent Muse to catch up in AI race",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+      "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up to rivals like OpenAI, Anthropic, and Google. Muse is a \"personal AI agent\" designed to help out with everyday tasks and projects, like online shopping, sending emails, and planning a trip. Once given a goal, Meta says Muse can work on its own, opening a browser, filling out forms, and even negotiating on users' behalf. F … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-08T19:00:00.000Z",
+      "score": 78.83,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
       "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
@@ -7075,6 +7039,18 @@
       "keywordHits": 5,
       "publishedAt": "2026-09-07T04:00:00.000Z",
       "score": 73.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-09T03:10:08.000Z",
+      "score": 72.77,
       "status": "queued"
     },
     {
@@ -7186,6 +7162,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
+      "link": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI's claim that it solved parts of Navier-Stokes equations has quickly stirred controversy.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T20:57:09.000Z",
+      "score": 43.69,
+      "status": "queued"
+    },
+    {
       "id": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
       "title": "Vous avez décroché cet été ? Huit faits pour reprendre le fil de l'IA",
       "link": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
@@ -7195,6 +7183,30 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-02T07:08:08.000Z",
       "score": 42.8,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "score": 39.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
+      "title": "Pourquoi la troisième faille LiteLLM au KEV concerne tout proxy LLM",
+      "link": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
+      "summary": "La CISA a ajouté au catalogue KEV une faille de contournement d'authentification dans le module MCP de LiteLLM, corrigée depuis le 14 mai. C'est la troisième faille de LiteLLM référencée en quatre mois, soulignant les risques liés aux proxies LLM qui centralisent clés API, budgets et accès aux outils. Les organisations utilisant LiteLLM doivent vérifier l'application des correctifs et renforcer la sécurité de ces passerelles critiques.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-07T08:09:12.000Z",
+      "score": 38.29,
       "status": "queued"
     },
     {
@@ -7804,22 +7816,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-08-10T15:58:42.933Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://fly.io/blog/kurt-scott-money-sprites/",
-      "title": "Turn And Face The Strange: Fly.io is betting on computers for AI agents",
-      "link": "https://fly.io/blog/kurt-scott-money-sprites/",
-      "summary": "Article URL: https://fly.io/blog/kurt-scott-money-sprites/ Comments URL: https://news.ycombinator.com/item?id=49037452 Points: 4 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-24T15:50:52.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-08-10T09:06:24.045Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
     }
   ]
 }

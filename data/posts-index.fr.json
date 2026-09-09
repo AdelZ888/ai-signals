@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-09-08T18:33:39.619Z",
+  "generatedAt": "2026-09-09T12:41:10.880Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-09-researchers-warn-astra-may-be-harder-to-monitor-urge-stronger-deployment-controls",
+      "title": "Des chercheurs mettent en garde : Astra pourrait être plus difficile à surveiller — contrôles de déploiement recommandés",
+      "date": "2026-09-09",
+      "excerpt": "La couverture du Verge rapporte l'alarme de chercheurs avant la sortie d'Astra d'OpenAI et appelle à des garde-fous de déploiement (observabilité, journalisation, kill-switch). Ce document traduit et localise ces préoccupations pour équipes petites et techniques, avec recommandations opérationnelles — en distinguant ce qui vient directement de l'article et ce qui relève d'hypothèses/pratiques conservatrices.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-09-researchers-warn-astra-may-be-harder-to-monitor-urge-stronger-deployment-controls.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "observabilité",
+        "OpenAI",
+        "Astra",
+        "petites-équipes",
+        "déploiement"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-09-08-fraise-single-binary-persistent-memory-for-agents-using-rememberrecall-and-hybrid-graphvector-retrieval",
       "title": "Fraise : mémoire persistante mono-binaire pour agents — remember/recall et récupération hybride (graphe+vecteurs)",
