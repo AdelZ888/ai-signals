@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-10T12:48:20.057Z",
+  "generatedAt": "2026-09-10T18:14:32.473Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=49647573",
+      "title": "Ask HN: Would you pay to have your favorite AI agents in one app?",
+      "link": "https://news.ycombinator.com/item?id=49647573",
+      "summary": "About 9 months ago, I created a simple program to facilitate structured dialogues among local LLMs from the terminal. I’ve been iterating on it since. It now has an app UI, supports both local models and cloud models, and has a shared memory system. Today it requires API keys for cloud models and has no tool use. I’m working to support pre-existing cloud subscriptions and tools-use. If I publish it, would you pay fo…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-10T17:41:54.000Z",
+      "score": 210,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-10T18:14:32.387Z",
+      "file": "content/posts/2026-09-10-would-you-pay-for-an-app-that-aggregates-your-local-and-cloud-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-09-10-would-you-pay-for-an-app-that-aggregates-your-local-and-cloud-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1397,
+      "wordsFr": 1516
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
       "title": "Mathematicians want proof OpenAI didn’t use their work",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1600
     },
     {
-      "id": "https://www.numerama.com/tech/2247685-openai-lance-gpt-5-5-instant-chatgpt-devient-moins-bavard.html",
-      "title": "OpenAI lance GPT-5.5 Instant : ChatGPT devient moins bavard",
-      "link": "https://www.numerama.com/tech/2247685-openai-lance-gpt-5-5-instant-chatgpt-devient-moins-bavard.html",
-      "summary": "Lancé le 5 mai 2026, GPT-5.5 Instant devient le nouveau modèle par défaut de ChatGPT. OpenAI promet une IA plus fiable, plus concise et mieux personnalisée, avec moins d’hallucinations et une meilleure prise en compte du contexte des utilisateurs.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-06T08:24:58.000Z",
-      "score": 106.15,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-06T10:32:33.547Z",
-      "file": "content/posts/2026-05-06-gpt-55-instant-becomes-chatgpt-default-vendor-reports-525percent-fewer-incorrect-assertions-and-a-visible-controllable-memory.md",
-      "fileFr": "content/posts/fr/2026-05-06-gpt-55-instant-becomes-chatgpt-default-vendor-reports-525percent-fewer-incorrect-assertions-and-a-visible-controllable-memory.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1196,
-      "wordsFr": 1170
-    },
-    {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
       "title": "AI agents merged two dangers once kept separate: reach and judgment",
       "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5470,6 +5470,66 @@
       "status": "queued"
     },
     {
+      "id": "https://promptsign.ai/",
+      "title": "Show HN: PromptSign – Sigstore signing and verification for AI instruction files",
+      "link": "https://promptsign.ai/",
+      "summary": "I built PromptSign after finding some useful-looking AI skills on the Internet and realizing I couldn't really know where they came from. In particular, I could not answer: 1) Who created the skill? 2) Is what I'm invoking right now really what I installed in the first place? 3) Is this update from the same source as the original? 4) What if I only wanted to install by reputation i.e. to whitelist certain skill publishers and ignore everyone else? AI instructions are markdown files, freely modifiable after install. The only check I could find was once at install against a digest in the marketplace manifest that the publisher controls. In short, there was no permanent AI skill \"identity\". How it works: PromptSign signs AI instruction files with Sigstore keyless signing after the author authenticates via a GitHub, Google, or Microsoft account. Sigstore issues a short-lived certificate binding that identity to an ephemeral Ed25519 key (generated locally and never written to disk). PromptSign signs a manifest of hashes for every file in the skill's directory with that key. The manifest is signed as a Dead Simple Signing Envelope (DSSE) and sent to Rekor for public timestamping, because Sigstore certificates expire in minutes. The bundle stored alongside the skill (.promptsign directory) holds that envelope, the signing certificate, and the Rekor receipt. That bundle verifies offlin",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T18:03:06.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/",
+      "title": "We Benchmarked 83 Frontier AI Repos–None Passed with an A",
+      "link": "https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/",
+      "summary": "Article URL: https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/ Comments URL: https://news.ycombinator.com/item?id=49647376 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T17:28:15.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://old.reddit.com/r/singularity/comments/1wbrnlp/warner_music_made_suno_shut_down_its_original_ai/",
+      "title": "Warner Music made Suno shut down its original AI model",
+      "link": "https://old.reddit.com/r/singularity/comments/1wbrnlp/warner_music_made_suno_shut_down_its_original_ai/",
+      "summary": "Article URL: https://old.reddit.com/r/singularity/comments/1wbrnlp/warner_music_made_suno_shut_down_its_original_ai/ Comments URL: https://news.ycombinator.com/item?id=49647103 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T17:12:09.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://automatedteach.com/p/designing-tests-for-agentic-ai-tools",
+      "title": "Designing Tests for Agentic AI Tools",
+      "link": "https://automatedteach.com/p/designing-tests-for-agentic-ai-tools",
+      "summary": "Article URL: https://automatedteach.com/p/designing-tests-for-agentic-ai-tools Comments URL: https://news.ycombinator.com/item?id=49647091 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T17:11:12.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-code-its-own-amd-gpu-drivers-agent-first-omarchy-linux-debugs-itself-ai-can-check-its-own-progress-on-screen-in-real-time",
+      "title": "Old MacBook uses a mirror, webcam, and AI agent to code its own AMD GPU drivers",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-code-its-own-amd-gpu-drivers-agent-first-omarchy-linux-debugs-itself-ai-can-check-its-own-progress-on-screen-in-real-time",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-code-its-own-amd-gpu-drivers-agent-first-omarchy-linux-debugs-itself-ai-can-check-its-own-progress-on-screen-in-real-time Comments URL: https://news.ycombinator.com/item?id=49647068 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T17:10:06.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5602,6 +5662,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "link": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "summary": "Article URL: https://www.anthropic.com/threat-intelligence-report-september-2026 Comments URL: https://news.ycombinator.com/item?id=49647300 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T17:23:42.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.sendroq.com/",
+      "title": "Show HN: I built an AI Agent that sell itself",
+      "link": "https://www.sendroq.com/",
+      "summary": "Quick bit of context: SendRoq is a LinkedIn automation tool. Before the AI era (pre-2021), I ran a marketing agency. Back then, client acquisition on LinkedIn was all manual. Once AI agents started becoming a thing, I built one for my agency's internal use, never intended to sell it. It worked really well for us. A few colleagues and partners kept pushing me to turn it into a SaaS. I said no, we were already profitable running the agency, why complicate things. Then a few weeks later, I was on an onboarding call with a new client, and he asked, \"How did you guys know I was looking for marketing help?\" I told him straight up: we have an AI agent that analyzes LinkedIn profiles and picks up on signals. If someone comments, engages, or posts anything hinting they're looking for marketing, it flags it and reaches out. He got interested immediately and wanted to buy the agent for his own sales team, was ready to pay well for it. I told him it wasn't public, not for sale. He pushed back: \"So make it a SaaS.\" That conversation is basically what got the ball rolling. A few months later we actually started building it out. The hardest part, unsurprisingly, was getting our first users. Our GTM was pretty meta: we used our own tool to book meetings with potential customers and sell them directly. Comments URL: https://news.ycombinator.com/item?id=49646702 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-10T16:47:07.000Z",
+      "score": 149.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+      "title": "Why the current tech backlash feels different",
+      "link": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+      "summary": "This interview has been lightly edited for length and clarity. Nick Statt: Hello and welcome to Decoder, Nilay’s show about big ideas and other problems. This is Nick Statt, senior producer. And I’m joined by our brand-new supervising producer, Greg Ott. Greg Ott: Good day, everyone. And Hi, Nilay. Nilay is here too. He is the person who hosts the show, and his name is also in the show. So it makes sense. Nilay Patel: It’s true. We don’t consistently say my name in the show enough. We should do it all the time. I should do it. Welcome to Decoder with Nilay Patel. GO: Like Nick was saying, this is Nilay’s show and we are doing a mailbag episode. This is where we go through all the feedback. Because you listen to the end of every episode, we know you do. We do mention that we go through every single email that we get. Nick, you can verify that. We get a ton of email, and we do read through all of it. Is that true? NS: We now get YouTube comments. We get many, many Verge comments. We get Spotify comments and posts on Bluesky, Threads, and elsewhere. So yeah, we get a lot of feedback. I do feel like promising we’ll read all the YouTube comments is an emotional commitment that we’re making, but we do read everything. GO: We do. NS: I do read the Spotify comments. I read every one because those are specifically pretty pointed. GO: Yeah. They’re kind of like uncut gems. Because they’r",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 10,
+      "publishedAt": "2026-09-10T14:00:00.000Z",
+      "score": 149.1,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
       "title": "The Download: kids outlearning AI, and space travel agents",
       "link": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
@@ -5707,6 +5803,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-31T19:18:49.000Z",
       "score": 142.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://coletivo.alganet.dev/",
+      "title": "Coletivo – A place for AI agents to collaborate via MCP",
+      "link": "https://coletivo.alganet.dev/",
+      "summary": "Article URL: https://coletivo.alganet.dev/ Comments URL: https://news.ycombinator.com/item?id=49646690 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-10T16:45:49.000Z",
+      "score": 142.18,
       "status": "queued"
     },
     {
@@ -6271,6 +6379,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "score": 115.52,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49646640",
+      "title": "Why isn't decompilation a solved problem in the AI era?",
+      "link": "https://news.ycombinator.com/item?id=49646640",
+      "summary": "There are thousands of pairs of source-executable pairs that could be used for training, and the compiler is a parameter that AI can easily identify and account for as a heavily weighted factor. So why isn't there (or maybe there is and I don't know about it) an AI based decompiler that can take almost any machine code, and transform it into highly readable source code (complete with meaningful guesses for variable names and comments)? It seems like it should be even easier when the executable could be run and inspected at runtime by the AI model. What is the state of the art with AI decompilation, and are there tools I can play with today? Comments URL: https://news.ycombinator.com/item?id=49646640 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T16:42:33.000Z",
+      "score": 114.78,
       "status": "queued"
     },
     {
@@ -7087,102 +7207,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-10T10:19:04.000Z",
       "score": 91.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
-      "title": "Anthropic requalifie ses incidents cyber en défaut d'alignement, en ajoute un quatrième et ouvre ses transcriptions à METR",
-      "link": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
-      "summary": "Anthropic revient sur sa qualification de juillet : après relecture de 481 millions de transcriptions, elle attribue à un raisonnement biaisé et à l'imprudence les quatre incidents où Claude a accédé à de vrais systèmes pendant des évaluations cyber, dont un paquet PyPI malveillant installé chez quinze éditeurs de sécurité. Son audit préalable n'avait rien vu ; METR enquête pendant huit semaines.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T10:26:01.000Z",
-      "score": 88.75,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05505",
-      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
-      "link": "https://arxiv.org/abs/2609.05505",
-      "summary": "arXiv:2609.05505v1 Announce Type: new Abstract: Systematic reviews require sustained human judgment across thousands of records, yet existing evaluations of large language models (LLMs) typically examine review stages in isolation. We introduce SciLitBench, a multi-stage benchmark spanning title and abstract screening, full-text screening, and schema-guided data extraction, with 42,981 retrieved records, 1,012 full texts, and annotations for 888 included papers. Across 22 open-weight LLMs from six model families, explicit inclusion and exclusion criteria improve title and abstract screening $F_2$ by 28.8\\%, while researcher-authored rationales improve full-text screening by 15\\%. Data extraction reveals a different reliability regime: performance declines from 0.97 accuracy for publication year to 0.37 Jaccard overlap for computational approach, while the strongest models recover only 30\\% of annotated evaluation evidence and 25\\% of limitations. SciLitBench identifies a practical boundary between high-recall screening and evidence-complete extraction and provides a reproducible resource for evaluating LLM-assisted evidence synthesis.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 86.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05511",
-      "title": "SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction",
-      "link": "https://arxiv.org/abs/2609.05511",
-      "summary": "arXiv:2609.05511v1 Announce Type: new Abstract: Web agents need to navigate visually rich, long-horizon interfaces that change across sites, yet most previous agents still learn each task in isolation and discard the procedural knowledge they accumulate. Recent skill-augmented frameworks take an important first step, but they treat the skill library as a flat or two-tier prompt-side cache and offer no principled mechanism for compressing redundancy or composing skills recursively. We introduce \\textsc{Scaffold}, a self-improving framework for visual web agents that (i) induces parametric, executable skills from successful trajectories under a multi-instance abstraction constraint, (ii) maintains a recursively composed hierarchy in which higher-level skills invoke lower-level ones, (iii) compacts the library via a minimum-description-length (MDL) criterion and behavioral equivalence checking, and (iv) periodically distills skill-augmented trajectories back into model weights to internalize the abstractions. Across WebArena, VisualWebArena, and a held-out split of Online-Mind2Web, \\textsc{Scaffold} improves success rate by $11.1$--$17.2$ absolute points over the strongest skill-augmented baseline and shows monotonic gains across five self-improvement iterations without library collapse. We release the code and documents in the Github \\href{https://github.com/BokwaiHo/SCAFFOLD}{re",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 86.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05513",
-      "title": "When and What to Teach: Budget-Aware Online Adaptation for Web Agents",
-      "link": "https://arxiv.org/abs/2609.05513",
-      "summary": "arXiv:2609.05513v1 Announce Type: new Abstract: Web agents have achieved significant success in automating complex internet tasks but deploying them in real-world environments requires continuous online adaptation. Given that deploying powerful proprietary models remains commercially cost-prohibitive, practitioners must rely on lightweight local models that evolve post-deployment via online teaching from a stronger teacher. However, standard interactive feedback imposes prohibitive costs. We show that conventional trajectory-level preference optimization wastes budget on both unresolvable episodes and redundant execution turns. To resolve these inefficiencies, we propose \\textbf{Score-Guided Online Teaching with Budgeted Trajectory Trimming}, a budget-aware framework that systematically orchestrates \\textbf{when} and \\textbf{what} to teach. Specifically, our framework integrates a solvability-aware teacher gate to dictate \\textbf{when} to query the teacher model and a score-guided turn selection mechanism to decide \\textbf{what} informative turns to retain. Extensive experiments on MiniWoB and TimeWarp demonstrate that our method achieves comparable first-pass success while reducing teacher calls by 22.6\\% and student training compute by 52.1\\% on average. Our code is available at https://github.com/zjw131f1fc/budgeted-online-teaching.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 86.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04298",
-      "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
-      "link": "https://arxiv.org/abs/2609.04298",
-      "summary": "arXiv:2609.04298v1 Announce Type: new Abstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and agent integrations. We introduce Harbor Adapters, a unified evaluation infrastructure for agentic benchmarks. Our work makes three contributions. First, we develop benchmark adapters that port more than 80 benchmarks to evaluate arbitrary agents, and validate them through rigorous code review and parity experiments. Second, we conduct a large-scale evaluation of 8 models spanning capability tiers across 54 benchmarks; every model is run with Terminus-2 and with one of 3 native harnesses. This enables a broader analysis of agent capabilities and failure modes than was previously possible. Third, we introduce Harbor-Index, a curated set of 82 difficult, diverse, and high-quality tasks spanning 29 benchmarks, refined from the adapted suite through difficulty filtering, AI and human audit, and an audit-and-fix loop. Harbor-Index preserves the challenge and breadth of large-scale agentic evaluations while being affordable to run; no evaluated model-harness configuration exceeds 30% pass rate, and the strongest (GPT-5.5 with Codex) reaches 28.0%. We release the adapters, evaluation results, in-depth analysis, and Harbor-Index as open-source artifacts to support more reliable and comprehensive evaluation of lan",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 85.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04377",
-      "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
-      "link": "https://arxiv.org/abs/2609.04377",
-      "summary": "arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains brittle, with no path to executable action; static playbooks encode logic but cannot reason or adapt. This demands an architecture treating tacit-knowledge capture, ontological grounding, sovereign deployment, and auditable actuation as co-designed from the start. This paper introduces the Corporate Language Model (CLM), a framework transforming a firm's structured, unstructured, multimodal, and tacit knowledge into an ontology-grounded enterprise foundation upon which reasoning and governed execution are composed. CLM has five capability planes and four architectural pillars: a Neurosymbolic Mesh coupling generative models with a knowledge graph; a Skill Graph where reusable tactics, personas, objections, and goals are typed and composed; Living Digital Twins modeling functional areas as reasoning surrogates; and a Deep Security Layer enforcing sovereignty, traceability, and human oversight. A Spec-as-Code paradigm bridges grounded intent and executable artifact. CLM is one instantiation of this foundation-centric class. Four contributions follow: CLM is defined as a distinct object of study; the Skill G",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 85.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-      "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-      "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and gas - using an internal AI model more powerful than the newly released GPT-6 Astra alongside 10,000 concurrent agents. The Navier-Stokes problem is one of seven Millennium Prize Problems, each of which comes with a $1 million reward for solving. OpenAI says it started training the internal AI model on August 28th, which has \"exhibited unpreced … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-08T20:53:52.000Z",
-      "score": 79.66,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-      "title": "Meta bets on AI agent Muse to catch up in AI race",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-      "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up to rivals like OpenAI, Anthropic, and Google. Muse is a \"personal AI agent\" designed to help out with everyday tasks and projects, like online shopping, sending emails, and planning a trip. Once given a goal, Meta says Muse can work on its own, opening a browser, filling out forms, and even negotiating on users' behalf. F … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-08T19:00:00.000Z",
-      "score": 78.83,
       "status": "queued"
     },
     {
