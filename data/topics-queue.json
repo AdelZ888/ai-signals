@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-09T18:33:52.093Z",
+  "generatedAt": "2026-09-10T12:48:20.057Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "title": "Mathematicians want proof OpenAI didn’t use their work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "summary": "Sam Altman, chief executive officer of OpenAI, during a media tour of the Stargate AI data center. | Bloomberg via Getty Images Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing the AI gian…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-10T11:00:57.000Z",
+      "score": 154.26,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-09-10T12:48:20.022Z",
+      "file": "content/posts/2026-09-10-mathematicians-seek-proof-openai-didnt-train-on-their-unpublished-work.md",
+      "fileFr": "content/posts/fr/2026-09-10-mathematicians-seek-proof-openai-didnt-train-on-their-unpublished-work.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1320,
+      "wordsFr": 1270
+    },
     {
       "id": "https://news.ycombinator.com/item?id=49608984",
       "title": "My dream is to become a chairman who only gave KPIs for AI, not tasks",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1170
     },
     {
-      "id": "https://github.com/gregario/the-rouge",
-      "title": "Show HN: The Rouge is my attempt at an AI product factory",
-      "link": "https://github.com/gregario/the-rouge",
-      "summary": "I named the Rouge after Ford's River Rouge complex, it took in raw materials and popped out Model A's at the other end. I've been trying to build the AI equivalent; ideas come in one end, and an MVP pops out the other. It has a UI to manage projects and the \"catalogue\" of capabilities the Rouge has to build with. Building a project has two phases: Spec involves some or all of the following, depending on how big the…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-04T16:29:14.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-05T16:50:42.202Z",
-      "file": "content/posts/2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps.md",
-      "fileFr": "content/posts/fr/2026-05-05-the-rouge-an-open-source-buildevaluatefix-workflow-for-shipping-ai-mvps.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1530,
-      "wordsFr": 1552
-    },
-    {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
       "title": "AI agents merged two dangers once kept separate: reach and judgment",
       "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5230,18 +5230,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
-      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-09T12:25:35.000Z",
-      "score": 168,
-      "status": "queued"
-    },
-    {
       "id": "https://usealmanac.com/",
       "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
       "link": "https://usealmanac.com/",
@@ -5262,6 +5250,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-05T10:48:04.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.rewarelabs.com/blog/introducing-security-cards/",
+      "title": "Show HN: Security Cards – Reducing insecure AI-generated code by 72%",
+      "link": "https://www.rewarelabs.com/blog/introducing-security-cards/",
+      "summary": "AI coding agents often generate functionally correct but insecure code. To address this issue, we have open-sourced Security Cards, targeted security guidance for 80+ widely used libraries across 13 programming languages. Our evaluation shows that the Security Cards reduce the rate of insecure code generation by up to 72.3% in Claude Code with Opus 4.7. You can find these security cards on GitHub (https://github.com/Reware-Labs/securitycards) or on our website (https://securitycards.rewarelabs.com/) We are planning to constantly support more languages and libraries, and we’d be glad to hear your feedback, especially on where these cards would be most useful in your workflow, and which libraries we should support next. Comments URL: https://news.ycombinator.com/item?id=49642340 Points: 4 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-10T12:03:03.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -5458,6 +5458,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
+      "title": "Anthropic reveals fourth likely crime committed by its AI",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412 Comments URL: https://news.ycombinator.com/item?id=49642063 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T11:42:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5638,18 +5650,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.18078",
-      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
-      "link": "https://arxiv.org/abs/2608.18078",
-      "summary": "arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisions that affect economic markets. This is because integrating these agents into society could collapse the legal evidentiary distinction between competition and collusion among independent firms without eroding the economic harm distinction. Experiments with DeepSeek-R1 agents in the Bertrand oligopoly pricing domain reveal a tendency towards tacit collusion that persists even when humans prompt the agents not to collude. We further show that the chain-of-thought of these agents can be steered toward either extremely collusive or highly competitive behavior in a way that is not semantically detectable by another LLM analyzing the reasoning traces. As a result, deploying reasoning agents for market decisions leads to collusive economic outcomes without any evidence of conspiracy or intent. Thus, certification based on observed behavior in representative situations is necessary to prevent collusion. We provide preliminary evidence that such agents can be steered in a generalizable way toward efficient competitive equilibria. However, developing a comprehensive behavioral certification will be required before these models can",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 147.17,
-      "status": "queued"
-    },
-    {
       "id": "https://github.com/kidus-tiliksew/conveyor",
       "title": "Show HN: I make my AI agents file paperwork before they're allowed to code",
       "link": "https://github.com/kidus-tiliksew/conveyor",
@@ -5731,6 +5731,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "score": 140.11,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.sanitycheck.dev/",
+      "title": "AI agents that QA-test your web app like real users",
+      "link": "https://www.sanitycheck.dev/",
+      "summary": "Article URL: https://www.sanitycheck.dev/ Comments URL: https://news.ycombinator.com/item?id=49641654 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-10T11:04:38.000Z",
+      "score": 139.8,
       "status": "queued"
     },
     {
@@ -5866,18 +5878,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.18086",
-      "title": "Position: Current Model Cards Are Insufficient for Downstream Governance of Open-Weight Foundation Models",
-      "link": "https://arxiv.org/abs/2608.18086",
-      "summary": "arXiv:2608.18086v1 Announce Type: new Abstract: The growth of open-weight foundation models (OWFMs) has prompted the AI community to re-evaluate strategies for effective downstream governance. Although model cards have been widely adopted as transparency artifacts in model repositories, existing frameworks often fail to adequately inform downstream developers and users about the distinct safety challenges posed by OWFMs. This position paper analyzes 500 model cards hosted on Hugging Face and argues that effective governance of OWFMs requires a multi-layered approach integrating three complementary components: (i) model cards, (ii) acceptable use policies (AUPs), and (iii) licenses. To motivate this claim, we identify a safety gap left by existing regulatory approaches, including model heritage, alignment provenance, and empirically observed behaviors, through an analysis of model cards with safety-critical information. We further argue that standard open-source licenses (OSLs) are not well suited for OWFMs and may weaken the enforceability of AUPs. Building on these observations, we outline directions for evolving model cards, AUPs, and licenses into integrated safety artifacts to enable a more comprehensive governance framework that coherently integrates informational, normative, and legal dimensions.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 129.17,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.23622",
       "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
       "link": "https://arxiv.org/abs/2608.23622",
@@ -5887,6 +5887,18 @@
       "keywordHits": 6,
       "publishedAt": "2026-08-26T04:00:00.000Z",
       "score": 128.64,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05441",
+      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+      "link": "https://arxiv.org/abs/2609.05441",
+      "summary": "arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. We present MERIT (Memory Evaluation for Realistic Instrumented Tasks), a benchmark and harness that measures the marginal utility of memory for task-executing agents under explicit cost accounting. MERIT provides episodic tool-use tasks in three domains whose dependence on earlier-episode facts is verified by an automated leak check; a difficulty ladder ending in updated-fact recall; controlled memory corruption; and full token and dollar metering of every memory operation. Across 23,440 scored episodes ($42.57), a two-generation pilot on gpt-4.1-mini and a preregistered 3-model x 3-seed grid (GPT-4.1, Claude Haiku 4.5; memory side held fixed), memory lifts dependent-task success from a leak-verified floor of 0.00 to 0.55-1.00. On updated facts, embedding retrieval collapses unpredictably (0.30-0.95 across models; max seed gap 0.45), and agents act on a correctly retrieved value only 55% of the time, while update-on-write stores (a structured fact store and, notably, LLM summarization) remain at 0.70-1.00; the hybrid is worse than the fact store alone. A latest-generation spot-check (Claude Sonnet 5, ga",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 128.16,
       "status": "queued"
     },
     {
@@ -5995,30 +6007,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-04T10:58:24.000Z",
       "score": 123.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.18080",
-      "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
-      "link": "https://arxiv.org/abs/2608.18080",
-      "summary": "arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and ethical considerations. We integrate findings from interdisciplinary studies utilizing diverse data sources such as social media posts, electronic medical records, and multimodal inputs to enable early detection of depression, suicide risk assessment, personalized therapy support, and psychoeducational content generation. Our review highlights advancements in LLM models and annotation strategies that enhance interpretability and clinical relevance, while we also emphasize the critical role of prompt engineering for domain adaptation. We also discuss emerging multimodal fusion techniques integrating text, speech, and sensor data for improved mental health diagnosis and monitoring. Finally, we address ongoing ethical, sociotechnical, and regulatory challenges, and advocate frameworks to ensure safe, equitable, and accountable deployment of LLMs in real-world mental health care.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 123.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.18131",
-      "title": "Safety Alignment Illusion: The Cross-Lingual Safety Gap in LLMs",
-      "link": "https://arxiv.org/abs/2608.18131",
-      "summary": "arXiv:2608.18131v1 Announce Type: new Abstract: Current safety alignment training for Large Language Models (LLMs) are heavily English-centric. When such safety filters fail for non-English languages, the consequences are immediate and user-facing: voice assistants and spoken dialogue systems may produce stereotype-reinforcing outputs, bypassing the standard English-focused safety alignments and propagating harmful bias to non-English speaking communities. For spoken language technologies deployed across India's linguistically diverse population, this represents a critical failure mode. To address this cross-lingual gap, we introduce INCLUDE (Indian Cultural Lens for Understanding and Detecting Embedded Biases), a multilingual evaluation benchmark designed to quantify Indian-centric socio-cultural biases. INCLUDE consists of 2,604 prompts spanning six prompt languages: English, Hindi, Bengali, Marathi, Tamil, and Hinglish (Hindi-English code-mix). We evaluate ten open- and closed-source LLMs against this benchmark, analyzing 14,988 bias scores. Our statistical results reveal two key findings. First, Bengali yielded the highest average bias score in open-source models. Second, English demonstrated a notable reversal, producing the lowest bias in open-source models but the highest bias in closed-source models.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 123.17,
       "status": "queued"
     },
     {
@@ -6190,30 +6178,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.18099",
-      "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
-      "link": "https://arxiv.org/abs/2608.18099",
-      "summary": "arXiv:2608.18099v1 Announce Type: new Abstract: Investment management is a high-stakes domain in which agentic AI systems must do more than generate plausible text. They must retrieve point-in-time data, assemble correct computational inputs, invoke specialized methods, and produce auditable structured outputs. We introduce FinSkillBench, an evaluation suite designed to measure whether language model agents can effectively use financial domain skills to solve investment management tasks. The benchmark spans three domains, portfolio construction, risk management, and fundamental analysis, and includes 12 subtasks with 2,603 task episodes. Each episode provides point-in-time inputs, hidden ground truth, and a task-specific verifier.We compare three conditions: no skill, curated skill packages consisting of procedural documents and executable components, and self-generated skills in which the agent writes and reuses its own procedures within an episode. Across 9 models and a large-scale evaluation, curated skills consistently improve performance, raising mean scores from 0.366 to 0.528, with the largest gains in portfolio construction and risk management. In contrast, self-generated skills provide little benefit despite higher computational cost. An independent evaluation using a separate agent framework (Hermes Agent, 8 models, 5,280 episodes total) reproduces the directional pat",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 117.17,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.18136",
-      "title": "FraudBench: Stress-Testing Policy-Grounded Banking Agents Against Adaptive Fraud",
-      "link": "https://arxiv.org/abs/2608.18136",
-      "summary": "arXiv:2608.18136v1 Announce Type: new Abstract: Conversational agents now act for end users through tools while holding access to customer databases and internal policy documents that a caller can reach through dialogue alone. Banking is the clearest case: the same agent that answers a question can also change contact details, reset a PIN, or move money, so ordinary customer service is inseparable from authorization, fraud detection, and policy compliance. Existing financial-fraud benchmarks classify static transactions or messages, and general agent-safety benchmarks target prompt injection or generic harmful use; none test whether a policy-grounded banking agent safely acts when a caller manipulates identity, authorization, and trust over a conversation. We introduce FraudBench, an executable benchmark built on the $\\tau^2$-bench dual-control framework and the $\\tau$-Knowledge banking environment. Both the agent and the simulated caller act through tools over shared, mutable account state, and the agent may grant the caller access to selected tools; the environment exposes a 698-document internal policy corpus that the agent must retrieve from. FraudBench contains 150 authored adversarial scenarios; a frozen public set of 107 (90 across ten fraud mechanisms plus 17 chained adaptive attacks) is used for all reported runs, with 43 further chained attacks held out. Safety is his",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 117.17,
-      "status": "queued"
-    },
-    {
       "id": "https://www.wsj.com/tech/ai/nvidia-agrees-to-buy-hugging-face-for-13-billion-11929060",
       "title": "Nvidia Agrees to Buy AI Platform Hugging Face for $13B",
       "link": "https://www.wsj.com/tech/ai/nvidia-agrees-to-buy-hugging-face-for-13-billion-11929060",
@@ -6259,6 +6223,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "score": 116.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05514",
+      "title": "The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies",
+      "link": "https://arxiv.org/abs/2609.05514",
+      "summary": "arXiv:2609.05514v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used as proxies for human participants in social science research, yet it remains unclear whether they can faithfully simulate diverse and conflicting human value systems. We present a World Values Survey (WVS)-grounded simulation framework where culturally diverse agents with different communication styles engage in longitudinal, value-laden discussions. Across approximately 4,000 conversations involving 1,200 personas, 15 topics, and three models (GPT-4o, Gemini-2.5-Flash, and Gemma-4-E4B), we evaluate value faithfulness, value drift, and conversational realism. We find that more than 50\\% of personas fail to express their assigned WVS profiles from the outset, while 2-7\\% drift after repeated conversations. Ablations removing demographic details improve faithfulness for some models but do not change the broader trend: simulated value distributions still systematically deviate from the assigned WVS profiles. Compared to human discussions, simulated dialogues show a different trade-off between stylistic consistency and semantic diversity, often producing content-wise varied but stylistically repetitive exchanges. These findings suggest that current LLM agents can generate plausible conversations, but remain limited proxies for representing and preserving diverse human value",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 116.16,
       "status": "queued"
     },
     {
@@ -6394,18 +6370,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.18111",
-      "title": "Solving Is Not Drawing: A Benchmark for Diagrammatic Reasoning in Olympiad Geometry",
-      "link": "https://arxiv.org/abs/2608.18111",
-      "summary": "arXiv:2608.18111v1 Announce Type: new Abstract: Foundation models such as GPT and Claude now solve olympiad-level mathematics with remarkable proficiency, so much so that geometry problem solving has become a standard proxy for their mathematical reasoning. Yet solving a geometry problem and drawing the figure it depends on are not the same skill: progress often hinges on a faithful diagram with the right auxiliary constructions and incidences, and it is unclear that a model which reasons its way to the answer can also produce one. A growing collection of benchmarks, including MathVista, and MathVerse, measures whether models reach the correct answer, but to our knowledge, none isolate the distinct ability to construct the diagram itself, leaving this capability unmeasured. We introduce an open-source benchmark that targets this gap: 954 self-contained olympiad geometry problems, with a 297-problem hard subset, each paired with its solution and a human-authored, high-fidelity diagram in renderable Asymptote code, together with a suite of text-, code-, image-, VLM-, and constraint-based metrics for what we term diagrammatic reasoning. Evaluating current foundation models reveals a pronounced gap between solving and drawing: their diagrams are markedly less faithful, with an average compile success rate of only 36.14\\%. Strong mathematical reasoning, we find, does not imply the a",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 111.17,
-      "status": "queued"
-    },
-    {
       "id": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
       "title": "AI CMS with WebMCP tools for agents in admin panel",
       "link": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
@@ -6487,6 +6451,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "score": 110.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05512",
+      "title": "Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment",
+      "link": "https://arxiv.org/abs/2609.05512",
+      "summary": "arXiv:2609.05512v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) impose substantial energy costs during deployment, yet current compression methods apply uniform quantization across all components, risking damage to critical reasoning circuits. We present a reasoning-aware compression framework that benchmarks quantization conditions across five reasoning benchmarks, GSM8K, FOLIO, MATH-500, ProofWriter, and MuSiQue, with hardware-level GPU energy measurement; profiles per-module INT4 vulnerability across all 196-224 (layer, projection) pairs via a perturbation sweep on a held-out calibration split, then selectively restores the most sensitive circuits to FP16. Three findings emerge. First, INT4 quantization can increase energy by extending reasoning chains; a 25% power reduction becomes a net energy increase on GSM8K. Second, vulnerability is task-dependent: attention projections are more critical for mathematical reasoning, and sensitivity patterns differ by architecture in logical inference. Third, selective compression achieves Pareto-optimal points inaccessible to uniform methods: R1-Qwen-7B Top-10% on ProofWriter gains +12 pp over FP16 at -9.7% energy, validated on held-out data across five reasoning benchmarks.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 110.16,
       "status": "queued"
     },
     {
@@ -6706,6 +6682,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2609.05437",
+      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "link": "https://arxiv.org/abs/2609.05437",
+      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anticipating who will enforce it and how (e.g., public shame or even imprisonment). These second-order expectations, known as metanorms, govern how people respond when social rules are broken. We introduce a novel framework for evaluating metanorm reasoning in Large Language Models (LLMs) along two dimensions: emotional appraisal and behavioral response, and propose new classification tasks, namely, predicting self-regulation in violators, and other-regulation in observers. We release a multi-perspective dataset, NormReact, of 450 norm violation scenarios, hand-annotated for emotions and behavioral responses across norm violators' gender and observers' social closeness. Current LLMs portray a harsher social world: across six models, they overpredict negative sanctions where humans would expect inaction, and alignment with human judgments deteriorates as social distance increases. These findings suggest that AI systems in norm-sensitive domains from conflict mediation to policy simulation, may risk producing a distorted picture of social regulation: one that over-represents punishment and",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 104.16,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.20485",
       "title": "Terminal Agents: A Survey of AI Agents in Command-Line Environments",
       "link": "https://arxiv.org/abs/2608.20485",
@@ -6850,18 +6838,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.18104",
-      "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
-      "link": "https://arxiv.org/abs/2608.18104",
-      "summary": "arXiv:2608.18104v1 Announce Type: new Abstract: Large language model (LLM)-based agents are increasingly becoming self-evolving systems that persist across interactions, maintain memories, use tools, acquire skills, refine workflows, and coordinate with other agents. These capabilities make agent states structural and dynamic: entities, relations, attributes, dependencies, and execution structures change with new evidence, feedback, and environmental conditions. Existing graph-agent surveys typically treat graphs as support structures for agent functions rather than as evolving substrates, while self-evolving-agent surveys focus on agent-level mechanisms and rarely discuss graph topology evolution. Thus, the coupling between evolving agent state and dynamic graph topology remains underexplored. This survey connects these two research lines by framing \\textit{agent evolution as dynamic graph transformation}. We model agent state as a dynamic graph, where memories, tools, skills, workflows, and inter-agent relations are represented as typed nodes, edges, and subgraphs updated through schema-constrained rewrites. Based on this formulation, we organize existing dynamic-graph-based methods for self-evolving agents into four taxonomies: node/feature evolution, edge/topology evolution, subgraph activation, and cross-component co-evolution. Building on this taxonomy, we propose dynamic",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 99.17,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2608.19680",
       "title": "Frequency-Aware Continual Learning for Smart Contract Vulnerability Detection with Large Language Models",
       "link": "https://arxiv.org/abs/2608.19680",
@@ -6955,6 +6931,42 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-04T04:00:00.000Z",
       "score": 98.37,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05446",
+      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
+      "link": "https://arxiv.org/abs/2609.05446",
+      "summary": "arXiv:2609.05446v1 Announce Type: new Abstract: We introduce AutoFyn, an agent harness inspired by the Expert Iteration algorithm, adapting a frozen model across many rounds by updating persistent state from verified reward signals rather than model weights. Each round begins from a fresh model session, and durable information is reintroduced only through explicit interfaces such as persistent memory files, reports, and repository state. Within a round, an orchestrator explores, plans and builds many alternative approaches with specialized agents, while a task-grounded verifier verifies the work and supplies an objective reward for measuring progress. This reward is distilled back into the persistent state, which updates the effective policy for the next round. In this technical report, we formalize this loop and describe its persistent state and verification interfaces. We then demonstrate its use in three domains, namely olympiad mathematics, data science, and cybersecurity. On the six fresh problems of the 2026 International Mathematical Olympiad, every model with room to improve scores higher under AutoFyn than in its provider's own coding agent. AutoFyn also built the top-ranked agent on the Spider 2.0 dbt benchmark, and has produced $16$ maintainer-confirmed vulnerability advisories in Next.js, MetaMask, pnpm, Warp, LiteLLM, Langflow, and Open WebUI.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 98.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05459",
+      "title": "Compiling VGDL into Causal Models",
+      "link": "https://arxiv.org/abs/2609.05459",
+      "summary": "arXiv:2609.05459v1 Announce Type: new Abstract: Reinforcement learning and large language models often struggle to accurately capture the causal mechanics of game environments. Standard reinforcement learning agents tend to rely on spurious correlations, while large language models are prone to hallucinating game rules. Although causal reinforcement learning improves interpretability, there is currently no formal methodology to map complex game mechanics directly into causal models. To address this, we propose a deterministic framework that compiles games specified in the Video Game Description Language into Dynamic Structural Causal Models. Rather than inferring causal structures from gameplay traces or noisy large language models' outputs, our methodology directly translates game components, including sprite dynamics, interaction rules, and termination conditions, into explicit structural equations. Each game tick represents a causal transition from state variables at time $t$ to $t+1$. By establishing this grounded mapping, the approach guarantees absolute causal fidelity to the ground-truth game mechanics. The resulting models offer transparent causal pathways that support counterfactual reasoning, causal reinforcement learning agent training, and procedural content validation. This framework provides a principled bridge between symbolic game descriptions and causally groun",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 98.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05553",
+      "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
+      "link": "https://arxiv.org/abs/2609.05553",
+      "summary": "arXiv:2609.05553v1 Announce Type: new Abstract: Agent memory allows LLM agents to use earlier interactions when answering new queries. Existing methods often compress interaction histories into summaries or other LLM-generated representations. Repeated generation adds cost and can discard answer-bearing details before the system knows what a future query will require. We propose EdgeMem, an agent-memory method built around a simple principle: preserve original interaction turns and organize them through complementary content, temporal, and episodic cues. EdgeMem realizes this principle with a multi-anchor hypergraph constructed by lightweight local processing. Retrieval directly returns source evidence and reserves LLM use for final answer generation, combining structured access to multi-session histories with faithful retention of the original conversation. Experiments on LoCoMo and LongMemEval-S show strong retrieval and memory-grounded question answering; on LoCoMo, EdgeMem achieves the highest strict-judge score among seven reproduced systems under a shared prompt (61.01 versus 58.70), while construction and retrieval require no generative-LLM calls. Overall, EdgeMem shows that preserving and organizing source evidence provides an effective and efficient foundation for agent memory without generative memory management.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 98.16,
       "status": "queued"
     },
     {
@@ -7054,18 +7066,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.18092",
-      "title": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
-      "link": "https://arxiv.org/abs/2608.18092",
-      "summary": "arXiv:2608.18092v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) promise scalable collaboration, yet adding agents often reduces reliability. This position paper argues that many MAS failures are fundamentally concurrency control problems: agents concurrently read and write shared state, and long LLM inference windows amplify the risk of stale reads, lost updates, and inconsistent outcomes. Failure modes commonly attributed to coordination or communication breakdowns can be mapped directly onto classical concurrency anomalies. We contend that MAS frameworks should address these failures through explicit concurrency control mechanisms: conflict detection, isolation guarantees, and structured access to shared resources. Concurrency control should be a first-class design concern, not an afterthought.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "score": 93.17,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.04304",
       "title": "Iris: Climbing to the Search Frontier",
       "link": "https://arxiv.org/abs/2609.04304",
@@ -7075,6 +7075,66 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-07T04:00:00.000Z",
       "score": 91.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/gpt-6-astra-ce-qui-a-change-chez-openai-en-quinze-jours/",
+      "title": "GPT-6 Astra : ce qui a changé chez OpenAI en quinze jours",
+      "link": "https://www.actuia.com/actualite/gpt-6-astra-ce-qui-a-change-chez-openai-en-quinze-jours/",
+      "summary": "En septembre, OpenAI a présenté GPT-6 Astra aux entreprises avec des chiffres de sûreté et des contrôles d'administration absents du lancement initial. Entre les deux dates, un rapport d'incident et un wiki détourné ont conduit à une mise à jour des promesses de sûreté.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T10:19:04.000Z",
+      "score": 91.6,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
+      "title": "Anthropic requalifie ses incidents cyber en défaut d'alignement, en ajoute un quatrième et ouvre ses transcriptions à METR",
+      "link": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
+      "summary": "Anthropic revient sur sa qualification de juillet : après relecture de 481 millions de transcriptions, elle attribue à un raisonnement biaisé et à l'imprudence les quatre incidents où Claude a accédé à de vrais systèmes pendant des évaluations cyber, dont un paquet PyPI malveillant installé chez quinze éditeurs de sécurité. Son audit préalable n'avait rien vu ; METR enquête pendant huit semaines.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T10:26:01.000Z",
+      "score": 88.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05505",
+      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
+      "link": "https://arxiv.org/abs/2609.05505",
+      "summary": "arXiv:2609.05505v1 Announce Type: new Abstract: Systematic reviews require sustained human judgment across thousands of records, yet existing evaluations of large language models (LLMs) typically examine review stages in isolation. We introduce SciLitBench, a multi-stage benchmark spanning title and abstract screening, full-text screening, and schema-guided data extraction, with 42,981 retrieved records, 1,012 full texts, and annotations for 888 included papers. Across 22 open-weight LLMs from six model families, explicit inclusion and exclusion criteria improve title and abstract screening $F_2$ by 28.8\\%, while researcher-authored rationales improve full-text screening by 15\\%. Data extraction reveals a different reliability regime: performance declines from 0.97 accuracy for publication year to 0.37 Jaccard overlap for computational approach, while the strongest models recover only 30\\% of annotated evaluation evidence and 25\\% of limitations. SciLitBench identifies a practical boundary between high-recall screening and evidence-complete extraction and provides a reproducible resource for evaluating LLM-assisted evidence synthesis.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 86.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05511",
+      "title": "SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction",
+      "link": "https://arxiv.org/abs/2609.05511",
+      "summary": "arXiv:2609.05511v1 Announce Type: new Abstract: Web agents need to navigate visually rich, long-horizon interfaces that change across sites, yet most previous agents still learn each task in isolation and discard the procedural knowledge they accumulate. Recent skill-augmented frameworks take an important first step, but they treat the skill library as a flat or two-tier prompt-side cache and offer no principled mechanism for compressing redundancy or composing skills recursively. We introduce \\textsc{Scaffold}, a self-improving framework for visual web agents that (i) induces parametric, executable skills from successful trajectories under a multi-instance abstraction constraint, (ii) maintains a recursively composed hierarchy in which higher-level skills invoke lower-level ones, (iii) compacts the library via a minimum-description-length (MDL) criterion and behavioral equivalence checking, and (iv) periodically distills skill-augmented trajectories back into model weights to internalize the abstractions. Across WebArena, VisualWebArena, and a held-out split of Online-Mind2Web, \\textsc{Scaffold} improves success rate by $11.1$--$17.2$ absolute points over the strongest skill-augmented baseline and shows monotonic gains across five self-improvement iterations without library collapse. We release the code and documents in the Github \\href{https://github.com/BokwaiHo/SCAFFOLD}{re",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 86.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.05513",
+      "title": "When and What to Teach: Budget-Aware Online Adaptation for Web Agents",
+      "link": "https://arxiv.org/abs/2609.05513",
+      "summary": "arXiv:2609.05513v1 Announce Type: new Abstract: Web agents have achieved significant success in automating complex internet tasks but deploying them in real-world environments requires continuous online adaptation. Given that deploying powerful proprietary models remains commercially cost-prohibitive, practitioners must rely on lightweight local models that evolve post-deployment via online teaching from a stronger teacher. However, standard interactive feedback imposes prohibitive costs. We show that conventional trajectory-level preference optimization wastes budget on both unresolvable episodes and redundant execution turns. To resolve these inefficiencies, we propose \\textbf{Score-Guided Online Teaching with Budgeted Trajectory Trimming}, a budget-aware framework that systematically orchestrates \\textbf{when} and \\textbf{what} to teach. Specifically, our framework integrates a solvability-aware teacher gate to dictate \\textbf{when} to query the teacher model and a score-guided turn selection mechanism to decide \\textbf{what} informative turns to retain. Extensive experiments on MiniWoB and TimeWarp demonstrate that our method achieves comparable first-pass success while reducing teacher calls by 22.6\\% and student training compute by 52.1\\% on average. Our code is available at https://github.com/zjw131f1fc/budgeted-online-teaching.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "score": 86.16,
       "status": "queued"
     },
     {
@@ -7126,76 +7186,36 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "summary": "The OpenAI logo is displayed on a smartphone screen placed on a reflective surface on which the company's logo is projected in Creteil, France, on September 4, 2026, as OpenAI began rolling out GPT-6 Astra, its most advanced model to date. (Photo by Samuel Boivin/NurPhoto via Getty Images) | NurPhoto via Getty Images The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by The New York Times, Ziff Davis, Merriam-Webster, and Encyclopedia Britannica against OpenAI. The Seattle Times and Newsday also named Microsoft as a defendant in the suit, since Copilot is built on OpenAI's technology. The publishers join a list of nearly 400 local newspapers that recently sued the two … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
+      "id": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
+      "title": "IA de frontière : les auteurs des lois de Californie, New York et Illinois réclament un accord de rythme vérifié par des tiers",
+      "link": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
+      "summary": "Cinq élus d'État américains, auteurs de SB 53, du RAISE Act et de SB 315, demandent aux laboratoires d'IA un « Mutually Agreed Pacing Framework », accord volontaire de ralentissement vérifié par des tiers, après l'intrusion d'agents d'OpenAI chez Hugging Face. Deux de leurs trois lois n'entrent en vigueur qu'en 2027 et 2028 et Washington conteste les textes d'État ; l'Europe, elle, enquête déjà au titre de l'AI Act.",
+      "source": "ActuIA",
+      "region": "FR",
       "keywordHits": 5,
-      "publishedAt": "2026-09-06T23:36:04.000Z",
-      "score": 77.94,
-      "status": "queued"
+      "publishedAt": "2026-09-10T11:28:23.000Z",
+      "score": 179.64,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "failedAtRun": "2026-09-10T12:28:34.652Z",
+      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
-      "id": "https://arxiv.org/abs/2609.04495",
-      "title": "Rethinking Indirect Prompt Injection as a Test-Time Search Problem",
-      "link": "https://arxiv.org/abs/2609.04495",
-      "summary": "arXiv:2609.04495v1 Announce Type: new Abstract: We formulate indirect prompt injection as a test-time search over a task-dependent attack surface induced by the environment, user task, and injection task. To operationalize this formulation, we introduce an agentic attacker with a dedicated search harness that performs environment reconnaissance, structured reasoning over attack strategies, and adaptive evaluation using victim-agent feedback. Across heterogeneous tasks, we find that increasing attacker test-time compute improves vulnerability discovery and exploitation, while ablations show that explicit strategy management is important for avoiding redundant search and sustaining gains at larger budgets. These results suggest that agentic security evaluations should characterize both the attacker's search procedure and compute budget, rather than treating attack success as a budget-independent property of the victim. More broadly, our findings identify the attacker's adaptive search over the system attack surfaces as an important and underexplored security risk for tool-using agents.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 73.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "title": "What OpenAI’s latest controversy tells us about the future of math",
-      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-09T03:10:08.000Z",
-      "score": 72.77,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "title": "Research acceleration: The view inside OpenAI",
-      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-06T08:00:00.000Z",
-      "score": 72.21,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-26T09:00:00.000Z",
-      "score": 66.48,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04239",
-      "title": "EXAONE Forecast for Finance",
-      "link": "https://arxiv.org/abs/2609.04239",
-      "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-scale pretraining. However, they are primarily developed for general-domain TS and largely rely on self-attention backbones whose computational cost grows quadratically with sequence length and variate count. Moreover, they assume fully observed inputs and are pretrained on corpora that fail to capture the unique dynamics of financial markets. These limitations hinder their applicability to finance, where long, many-channel, intermittently observed panels are common. To address these challenges, EXAONE Finance adopts an attention-free architecture, replacing self-attention with two simple yet effective linear-time operators: 1) a causal 1D convolution for temporal mixing and 2) a group-aware pooling multi-layer perceptron (MLP) for variate mixing. Furthermore, a masked context augmentation exposes the model to contiguous missing spans during training, improving robustness to the missingness pervasive in financial markets. EXAONE Finance is pretrained on a large-scale financial corpus covering not only equities but also foreign exchange, commodities, crypto-assets, fixed income, and macroeconomic indicators",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 55.6,
-      "status": "queued"
+      "id": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T12:25:35.000Z",
+      "score": 168,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "ANALYSIS",
+      "failedAtRun": "2026-09-10T12:28:34.652Z",
+      "failureReason": "validation issues: FR: Section \"Exemple concret: ou cela compte\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams should pay attention to\" should give concrete advice for solo founders / small teams (at least 3 actionable points). |…"
     },
     {
       "id": "https://arxiv.org/abs/2402.07510",

@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-09-09T18:33:52.032Z",
+  "generatedAt": "2026-09-10T12:48:20.045Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-10-mathematicians-seek-proof-openai-didnt-train-on-their-unpublished-work",
+      "title": "Les mathématiciens demandent la preuve qu’OpenAI n’a pas entraîné ses modèles sur leurs travaux non publiés",
+      "date": "2026-09-10",
+      "excerpt": "Des mathématiciens ont demandé à OpenAI de démontrer que des brouillons privés ou des conversations n'ont pas été ingérés pour l'entraînement des modèles. Le reportage de The Verge documente la dispute publique mais ne publie pas d'éléments d'audit internes (logs, manifests, preuves cryptographiques) qui permettraient de trancher.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-10-mathematicians-seek-proof-openai-didnt-train-on-their-unpublished-work.jpg",
+      "tags": [
+        "IA",
+        "provenance",
+        "gouvernance",
+        "sécurité",
+        "OpenAI",
+        "mathématiques",
+        "transparence"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data"
+      ],
+      "category": "Model Breakdowns",
+      "region": "US",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-09-09-kpi-driven-agent-company-running-an-ai-ceo-and-managers-for-twiteeco-and-a-k3s-mac-mini-incident",
       "title": "Entreprise pilotée par KPI : CEO IA, managers agents et l'incident k3s sur Mac mini",
