@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-10T18:14:32.473Z",
+  "generatedAt": "2026-09-11T12:40:22.945Z",
   "items": [
+    {
+      "id": "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/",
+      "title": "Navier-Stokes : OpenAI expose une preuve issue de 10 000 agents",
+      "link": "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/",
+      "summary": "OpenAI prétend avoir apporté une preuve à l'un des problèmes du millénaire, celui de Navier-Stokes, en utilisant un système de 10 000 agents. La démonstration, publiée avec un dépôt Lean pour faciliter la vérification, porte sur un cas particulier prévu par l'énoncé officiel, mais sa validité scientifique reste à confirmer par un examen indépendant.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-09T10:31:18.000Z",
+      "score": 130.73,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-09-11T12:40:22.909Z",
+      "file": "content/posts/2026-09-11-openai-publishes-lean-formalization-of-a-navier-stokes-case-with-external-forcing-created-by-10000-agents.md",
+      "fileFr": "content/posts/fr/2026-09-11-openai-publishes-lean-formalization-of-a-navier-stokes-case-with-external-forcing-created-by-10000-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1324,
+      "wordsFr": 1238
+    },
     {
       "id": "https://news.ycombinator.com/item?id=49647573",
       "title": "Ask HN: Would you pay to have your favorite AI agents in one app?",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1294
     },
     {
-      "id": "https://github.com/simplyblock/postbrain",
-      "title": "Show HN: Long-term memory for AI agents and teams, built with PostgreSQL",
-      "link": "https://github.com/simplyblock/postbrain",
-      "summary": "Hey folks! Over the past weeks, I started building a long-term memory for AI agents. While there are many around already, this one is specifically aimed at development teams. There are a few items which make it special: - Development teams can share memories between their agents (and across agent types such as Claude and Codex) - Higher value memories become artifacts, such as code style rules, decision, feature des…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-06T15:40:12.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-06T17:09:02.023Z",
-      "file": "content/posts/2026-05-06-postbrain-team-focused-long-term-memory-for-ai-coding-agents-postgresql-pgvector.md",
-      "fileFr": "content/posts/fr/2026-05-06-postbrain-team-focused-long-term-memory-for-ai-coding-agents-postgresql-pgvector.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1634,
-      "wordsFr": 1600
-    },
-    {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
       "title": "AI agents merged two dangers once kept separate: reach and judgment",
       "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5206,6 +5206,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/pizza-bot-app/pizza-bot",
+      "title": "Pizza Bot: a local-first inbox for long-running AI agents",
+      "link": "https://github.com/pizza-bot-app/pizza-bot",
+      "summary": "Article URL: https://github.com/pizza-bot-app/pizza-bot Comments URL: https://news.ycombinator.com/item?id=49657189 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T12:20:16.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://offscriptlabs.ai/",
       "title": "I made 5 AI models play a golf season. I think we benchmark agents wrong",
       "link": "https://offscriptlabs.ai/",
@@ -5226,6 +5238,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-04T11:59:32.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
+      "id": "https://artificialanalysis.ai/agents/search-api",
+      "title": "Twelve search APIs ran through the same AI agent to see which one helps it most",
+      "link": "https://artificialanalysis.ai/agents/search-api",
+      "summary": "Article URL: https://artificialanalysis.ai/agents/search-api Comments URL: https://news.ycombinator.com/item?id=49656926 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T11:56:46.000Z",
       "score": 168,
       "status": "queued"
     },
@@ -5262,6 +5286,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-10T12:03:03.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.cnbc.com/2026/09/11/anthropic-openai-ai-existential-concerns.html",
+      "title": "Why fears of AI self-improvement are causing 'existential' concerns",
+      "link": "https://www.cnbc.com/2026/09/11/anthropic-openai-ai-existential-concerns.html",
+      "summary": "Article URL: https://www.cnbc.com/2026/09/11/anthropic-openai-ai-existential-concerns.html Comments URL: https://news.ycombinator.com/item?id=49656644 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T11:31:06.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -5530,6 +5566,18 @@
       "status": "queued"
     },
     {
+      "id": "https://eng.snu.ac.kr/en/communication/promotion/news?md=v&bbsidx=8355",
+      "title": "Study: Generative AI Is Eroding the Development Pathway for Software Developers",
+      "link": "https://eng.snu.ac.kr/en/communication/promotion/news?md=v&bbsidx=8355",
+      "summary": "Article URL: https://eng.snu.ac.kr/en/communication/promotion/news?md=v&bbsidx=8355 Comments URL: https://news.ycombinator.com/item?id=49656591 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-11T11:26:49.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5731,18 +5779,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-04T11:04:01.000Z",
       "score": 147.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://sufiyan.cc/plainspeak",
-      "title": "Show HN: Plainspeak, make AI agents write like a human",
-      "link": "https://sufiyan.cc/plainspeak",
-      "summary": "Article URL: https://sufiyan.cc/plainspeak Comments URL: https://news.ycombinator.com/item?id=49384788 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-21T07:09:01.000Z",
-      "score": 147.28,
       "status": "queued"
     },
     {
@@ -5962,15 +5998,15 @@
       "status": "queued"
     },
     {
-      "id": "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/",
-      "title": "Navier-Stokes : OpenAI expose une preuve issue de 10 000 agents",
-      "link": "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/",
-      "summary": "OpenAI prétend avoir apporté une preuve à l'un des problèmes du millénaire, celui de Navier-Stokes, en utilisant un système de 10 000 agents. La démonstration, publiée avec un dépôt Lean pour faciliter la vérification, porte sur un cas particulier prévu par l'énoncé officiel, mais sa validité scientifique reste à confirmer par un examen indépendant.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-09T10:31:18.000Z",
-      "score": 130.73,
+      "id": "https://xcancel.com/antibot/captcha",
+      "title": "Noodle Computer – Share Linux Desktops with AI Agents on Your Mac",
+      "link": "https://xcancel.com/antibot/captcha",
+      "summary": "Article URL: https://xcancel.com/antibot/captcha Comments URL: https://news.ycombinator.com/item?id=49656260 Points: 1 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T10:52:28.000Z",
+      "score": 130.88,
       "status": "queued"
     },
     {
@@ -6334,6 +6370,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2609.09203",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "link": "https://arxiv.org/abs/2609.09203",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic reasoning from fortunate guessing. We present \\textbf{OpenDiscoveryTrace}, a public dataset of 558 complete AI scientific agent trajectories that captures how models reason, not just what they produce. Each trajectory records a structured 9-field-per-step trace---including thoughts, tool calls, observations, errors, revision triggers, and self-reported confidence---as models execute 124 scientific tasks spanning drug discovery, materials science, genomics, and scientific literature analysis. The dataset covers seven models: three frontier models (GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro; 124 trajectories each, fully balanced across domains and difficulty levels) and four open-weight models (Qwen2.5-7B, Mistral-7B-v0.3, Phi-3.5-mini, and Qwen2.5-1.5B; 30 each), plus 60 live-retrieval variant trajectories. Pilot analysis on 363 LLM-judged trajectories reveals that process traces expose behavioral differences invisible to output-only evaluation: all three frontier models achieve comparable success rates (84--89%), yet Claude Opus 4.6 pr",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "score": 116.23,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2609.05514",
       "title": "The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies",
       "link": "https://arxiv.org/abs/2609.05514",
@@ -6454,18 +6502,6 @@
       "status": "queued"
     },
     {
-      "id": "https://Argentic.network",
-      "title": "Show HN: Argentic – An L402 Lightning toll booth for AI scraping agents",
-      "link": "https://Argentic.network",
-      "summary": "Article URL: https://Argentic.network Comments URL: https://news.ycombinator.com/item?id=49384477 Points: 5 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-21T06:24:16.000Z",
-      "score": 113.05,
-      "status": "queued"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=P1v1-2CCKD0",
       "title": "Two API Calls Exposed AI's Hidden Reasoning [video]",
       "link": "https://www.youtube.com/watch?v=P1v1-2CCKD0",
@@ -6487,42 +6523,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-08-28T17:40:39.000Z",
       "score": 111.27,
-      "status": "queued"
-    },
-    {
-      "id": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
-      "title": "AI CMS with WebMCP tools for agents in admin panel",
-      "link": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
-      "summary": "Article URL: https://aliothpress.com/cms-for-ai-agents-webmcp-built-in Comments URL: https://news.ycombinator.com/item?id=49384446 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-21T06:20:14.000Z",
-      "score": 111.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.19299",
-      "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
-      "link": "https://arxiv.org/abs/2608.19299",
-      "summary": "arXiv:2608.19299v1 Announce Type: new Abstract: Air traffic control (ATC) communication is a safety-critical dialogue that remains largely human-driven even as other parts of air traffic management have been semi-automated. In this article, we experimentally evaluate whether large language models (LLMs) can generate operationally realistic ATC transmissions. An experimental general-aviation flight flying over the San Francisco \"Bay Tour\" route is hand-transcribed and used as ground truth (P0). Through a pilot-in-the-loop process we design five prompt structures (P1-P5) of increasing constraint and embed them in a stateful multi-turn pipeline, where the model plays ATC to a fixed pilot transcript while conditioning on the accumulating dialogue history. Across nine open- and closed-source LLMs we vary the prompt, the presence of a worked transcript from a different experimental flight as an in-context example, and whether the model conditions on its own prior replies or on injected ground-truth history. Turns are scored with lexical, structural, and semantic similarity metrics and by an LLM-as-judge (GPT-5.5) validated against human expert annotation. Supplying a worked example improves similarity, but tightening the prompt does not: the lightest prompts perform best and the most heavily scripted one collapses as its own errors accumulate through the dialogue, which injecting cor",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "score": 111.05,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.19579",
-      "title": "Enforcing LLM Safety through DMD-based Classification of Prompt-Response Embedding Dynamics",
-      "link": "https://arxiv.org/abs/2608.19579",
-      "summary": "arXiv:2608.19579v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed in high-stakes applications, yet their tendency to generate toxic, harmful, or policy-violating content poses significant risks. Detecting these unsafe outputs efficiently in a black-box manner remains an open challenge. In this paper, we extend a recently proposed dynamical systems framework designed for hallucination detection to LLM safety classification. By projecting both prompts and responses into high-dimensional embedding spaces and fitting separate Koopman-based predictive models for safe and unsafe regimes, we classify new outputs using a new differential residual score that compares prediction errors of the safe and unsafe regimes. A key contribution is the incorporation of the prompt and response embedding dynamics, yielding fitted Koopman operators that capture crucial interaction patterns. We evaluate our black-box method across three safety benchmarks using three embedding models. Our results show that incorporating prompt embeddings yields consistent improvements, particularly for interaction-dependent violations when paired with causal decoders (e.g., in Llama-3), while response-only violations benefit more from dense semantic embedding representations. These findings opens the door for using dynamical systems to analyze AI systems rather than the dominant par",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "score": 111.05,
       "status": "queued"
     },
     {
@@ -6571,6 +6571,30 @@
       "keywordHits": 8,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "score": 110.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.09226",
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "link": "https://arxiv.org/abs/2609.09226",
+      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This framework captures a broad range of human intelligence behaviors with analytical mechanisms and offers an indirect method to examine the Liu-Chen-Ao (LCA) hypothesis of nonlocal entangled nerve fibers in the brain through collective trader behaviors. Our empirical analysis of Chinese intraday stock market data demonstrates that adaptive entangled game modes explain 82-94% (89% overall) of observed decision patterns, a sharp contrast to the predictions of neoclassical finance based on independent rational agents. Moreover, 2-12% of behaviors show adaption to intraday news, events, and environments, characterized by dual equilibrium states and abrupt reference point shifts, while purely independent modes occur in less than 5% of cases. These findings empirically support the LCA hypothesis, as observable trading behaviors reflect underlying brain mechanisms and internal intelligence decision-making in behavioral psychology. Our results highlight the necessity of incorporating adaptive entangled game modules into artificial general intelligence (AGI) architectures, addressing the limitations of conventiona",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "score": 110.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.09448",
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "link": "https://arxiv.org/abs/2609.09448",
+      "summary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. In comparison to the traditional machine learning systems, agentic workflows have complex failure modes with planning, tool invocation and dynamic environment interactions. In this paper, we investigate whether model's internal representations provide stronger signals of eventual task success in multi-turn agentic setups. We introduce two complementary methods: Latent Trajectory Dynamics (LTD), which summarizes changes in residual-stream representations across an an interaction trajectory, and the Action Representation Probe (ARP), which predicts success from representations formed at action decisions. Across three interactive benchmarks (Bash, SQL, Python) and three model families (Qwen14B, Qwen7B, DeepSeek6.7B), our methods consistently outperform surface level generation and sequence-based calibration baselines providing a zero-overhead reliability monitor that requires neither prompt alterations nor multi-sample rollouts.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "score": 110.23,
       "status": "queued"
     },
     {
@@ -6886,15 +6910,15 @@
       "status": "queued"
     },
     {
-      "id": "https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/",
-      "title": "AWS Bedrock AgentCore enforces user context to prevent hijacked AI agents",
-      "link": "https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/",
-      "summary": "Article URL: https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/ Comments URL: https://news.ycombinator.com/item?id=49384306 Points: 2 # Comments: 0",
+      "id": "https://www.cnn.com/2026/09/10/health/anthropic-bioweapons-report",
+      "title": "Anthropic says it blocked possible attempts to use AI to develop bioweapons",
+      "link": "https://www.cnn.com/2026/09/10/health/anthropic-bioweapons-report",
+      "summary": "Article URL: https://www.cnn.com/2026/09/10/health/anthropic-bioweapons-report Comments URL: https://news.ycombinator.com/item?id=49656146 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-21T05:56:29.000Z",
-      "score": 102.09,
+      "keywordHits": 2,
+      "publishedAt": "2026-09-11T10:36:49.000Z",
+      "score": 101.87,
       "status": "queued"
     },
     {
@@ -6955,18 +6979,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-08T16:26:58.000Z",
       "score": 99.48,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.19680",
-      "title": "Frequency-Aware Continual Learning for Smart Contract Vulnerability Detection with Large Language Models",
-      "link": "https://arxiv.org/abs/2608.19680",
-      "summary": "arXiv:2608.19680v1 Announce Type: new Abstract: Smart contract vulnerability detection with Large Language Models (LLMs) faces three causally linked challenges. First, new vulnerability categories demand parameter-efficient adaptation, since full retraining is prohibitive for sequentially arriving tasks. Second, training per-task adapters on a shared backbone causes catastrophic forgetting of previously learned vulnerabilities. Third, the resulting multiplicity of adapters must be consolidated into a single model, since task identity is unknown at inference time. Each challenge arises directly from the solution to its predecessor, making an integrated framework essential. We propose a three-stage pipeline in which each stage addresses one challenge and feeds into the next. The adaptation stage uses Frequency-Aware Low-Rank Adaptation (FA-LoRA), which performs adaptation in the Fourier domain with per-frequency importance gates, requiring only 0.4% trainable parameters while outperforming standard LoRA and QLoRA. The continual learning stage applies Forget-Aware Replay (FAR), which uses these frequency gates to estimate per-sample forgetting risk via loss dynamics and prioritizes vulnerable knowledge for rehearsal, achieving an average Micro-F1 of 0.8022 across sequential tasks. The deployment stage employs Anchor-Protected Progressive Merging (APPM), which exploits the asymmetr",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "score": 99.05,
       "status": "queued"
     },
     {
@@ -7051,6 +7063,30 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-04T04:00:00.000Z",
       "score": 98.37,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.09233",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "link": "https://arxiv.org/abs/2609.09233",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-file bundles containing instructions, scripts, and other resources that help agents perform specific tasks. Agent skills are typically executed by loading their skill instructions into an agent's context and relying on the agent to follow them. As task horizons grow, however, this approach becomes increasingly brittle, because reasoning quality degrades as more information accumulates in the context window. We investigate an alternative approach in which skill packages are instead invoked as subagents. Rather than loading skill instructions into the main context, subagent execution spawns fresh context windows dedicated to solving individual subtasks. We show that subagent execution outperforms agent-skill execution when skill packages expose clear input-output contracts and their instructions encode the procedural knowledge needed to fulfill those contracts. The tradeoff is additional communication overhead, as extra tokens are required to coordinate between the main agent and its subagents. Our results show that the benefit of reusable knowledge depends not only on its content, but also on how it is or",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "score": 98.23,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.09428",
+      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+      "link": "https://arxiv.org/abs/2609.09428",
+      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective human judgment, limiting reproducibility, scalability, and comparability between studies. We examine whether LLMs can serve as a reproducible and scalable mechanism to make comparative assessments of the quality of XAI explanations. We introduce XAI-Arena, an LLM-as-a-judge framework for scalable, reproducible, multidimensional, and stakeholder-sensitive evaluation of XAI explanation quality. XAI-Arena then allows us to compare XAI explanations along various dimensions, namely, perceived simplicity, clarity, task adequacy, trust calibration, actionability, transparency, faithfulness, and overall interpretability. We then benchmark XAI explanation methods across various datasets, machine learning models, and stakeholder personas. Human validation shows a strong positive association between LLM-generated and human ratings (Spearman's rho=.693, p<.001). Together, LLM-based evaluations can capture systematic differences in XAI explanation quality and provide a scalable and reproducible framework for comparative assessment of XAI explanations.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "score": 98.23,
       "status": "queued"
     },
     {
@@ -7171,42 +7207,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "score": 97.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://twitter.com/nataliegwinters/status/2090814996687237570",
-      "title": "Chinese Orgs Building AI Models of American Voters to Test Political Messages",
-      "link": "https://twitter.com/nataliegwinters/status/2090814996687237570",
-      "summary": "Article URL: https://twitter.com/nataliegwinters/status/2090814996687237570 Comments URL: https://news.ycombinator.com/item?id=49406229 Points: 5 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-23T05:19:45.000Z",
-      "score": 94.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04304",
-      "title": "Iris: Climbing to the Search Frontier",
-      "link": "https://arxiv.org/abs/2609.04304",
-      "summary": "arXiv:2609.04304v1 Announce Type: new Abstract: We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we author multi-hop chains over an entity graph distilled from a seed page and its out-links, rewrite every non-answer entity into a descriptive reference so that no clue can be resolved by string matching, and admit only questions that a reference model fails closed-book yet solves once the supporting evidence is supplied. These questions are then turned into trajectories, which are filtered at both the trajectory and the turn level before SFT. The policy is then optimized by RL against live search, with the reward judge and the observation summarizer served inside the training cluster, and with over-long rollouts interrupted at the request level and resumed from their committed prefix at the next step. We alternate the two stages in a procedure we call SFT-RL climbing, returning the hardest solved and most efficient rollouts of each RL round to the next supervised pass. Because inference-time context management is worth more on these benchmarks than most reported differences between systems, we evaluate every benchmark both with and without it, holding the tool set, the context limit, and the j",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 91.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/gpt-6-astra-ce-qui-a-change-chez-openai-en-quinze-jours/",
-      "title": "GPT-6 Astra : ce qui a changé chez OpenAI en quinze jours",
-      "link": "https://www.actuia.com/actualite/gpt-6-astra-ce-qui-a-change-chez-openai-en-quinze-jours/",
-      "summary": "En septembre, OpenAI a présenté GPT-6 Astra aux entreprises avec des chiffres de sûreté et des contrôles d'administration absents du lancement initial. Entre les deux dates, un rapport d'incident et un wiki détourné ont conduit à une mise à jour des promesses de sûreté.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T10:19:04.000Z",
-      "score": 91.6,
       "status": "queued"
     },
     {

@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-09-10T18:14:32.410Z",
+  "generatedAt": "2026-09-11T12:40:22.933Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-11-openai-publishes-lean-formalization-of-a-navier-stokes-case-with-external-forcing-created-by-10000-agents",
+      "title": "OpenAI, preuve formelle Lean sur Navier–Stokes (pré-annonce) — ce que doivent savoir les petites équipes",
+      "date": "2026-09-11",
+      "excerpt": "OpenAI a publié un dépôt Lean qui formalise un cas de Navier–Stokes avec un terme de forçage externe, d'après un article public. Le résultat est rapporté comme produit par un système coordonné d'environ 10 000 agents ; la formalisation et sa portée mathématique requièrent un examen scientifique. Ce guide explique simplement quoi faire pour vérifier, archive et communiquer — puis donne une checklist technique pour les équipes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-11-openai-publishes-lean-formalization-of-a-navier-stokes-case-with-external-forcing-created-by-10000-agents.jpg",
+      "tags": [
+        "Navier-Stokes",
+        "Lean",
+        "preuve formelle",
+        "OpenAI",
+        "agents",
+        "vérification",
+        "ingénierie",
+        "IA"
+      ],
+      "sources": [
+        "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-09-10-mathematicians-seek-proof-openai-didnt-train-on-their-unpublished-work",
       "title": "Les mathématiciens demandent la preuve qu’OpenAI n’a pas entraîné ses modèles sur leurs travaux non publiés",
