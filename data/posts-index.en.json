@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T12:40:22.929Z",
+  "generatedAt": "2026-09-11T18:45:37.612Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-09-11-pizza-bot-local-first-inbox-to-monitor-and-manage-long-running-ai-agents",
+      "title": "Pizza Bot: Local-first inbox to monitor and manage long-running AI agents",
+      "date": "2026-09-11",
+      "excerpt": "Run a local Pizza Bot instance to monitor and control long-running AI agent jobs. The repo includes setup steps, a validation checklist, and DeepAgents/LangGraph notes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-11-pizza-bot-local-first-inbox-to-monitor-and-manage-long-running-ai-agents.jpg",
+      "tags": [
+        "pizza-bot",
+        "ai-agents",
+        "local-first",
+        "long-running",
+        "DeepAgents",
+        "LangGraph",
+        "tutorial",
+        "open-source"
+      ],
+      "sources": [
+        "https://github.com/pizza-bot-app/pizza-bot"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 6
     },
     {
       "slug": "2026-09-10-mathematicians-seek-proof-openai-didnt-train-on-their-unpublished-work",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-11T12:40:22.945Z",
+  "generatedAt": "2026-09-11T18:45:37.676Z",
   "items": [
+    {
+      "id": "https://github.com/pizza-bot-app/pizza-bot",
+      "title": "Pizza Bot: a local-first inbox for long-running AI agents",
+      "link": "https://github.com/pizza-bot-app/pizza-bot",
+      "summary": "Article URL: https://github.com/pizza-bot-app/pizza-bot Comments URL: https://news.ycombinator.com/item?id=49657189 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T12:20:16.000Z",
+      "score": 174,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-11T18:45:37.593Z",
+      "file": "content/posts/2026-09-11-pizza-bot-local-first-inbox-to-monitor-and-manage-long-running-ai-agents.md",
+      "fileFr": "content/posts/fr/2026-09-11-pizza-bot-local-first-inbox-to-monitor-and-manage-long-running-ai-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1313,
+      "wordsFr": 1165
+    },
     {
       "id": "https://www.actuia.com/actualite/navier-stokes-openai-expose-une-preuve-issue-de-10-000-agents/",
       "title": "Navier-Stokes : OpenAI expose une preuve issue de 10 000 agents",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1296
     },
     {
-      "id": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
-      "title": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens",
-      "link": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
-      "summary": "Up to 3x the speed with no loss of quality—is it too good to be true?",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-06T15:44:20.000Z",
-      "score": 192,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-07T10:24:51.484Z",
-      "file": "content/posts/2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3.md",
-      "fileFr": "content/posts/fr/2026-05-07-gemma-4-adds-multitoken-prediction-mtp-speculative-decoding-can-speed-generation-up-to-3.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1355,
-      "wordsFr": 1294
-    },
-    {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
       "title": "AI agents merged two dangers once kept separate: reach and judgment",
       "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5158,30 +5158,6 @@
       "status": "queued"
     },
     {
-      "id": "https://colliepwa.dev/",
-      "title": "Show HN: ColliePWA a mobile interface for AI agents in herdr/tmux/zellij",
-      "link": "https://colliepwa.dev/",
-      "summary": "Sharing the PWA[1] I built over the last couple of weeks to access my terminal sessions/agents when not in front of my computer. This started off as a weekend experiment right when herdr[2] (terminal multiplexer) released the functionality to write custom plugins and it's been quite helpful to me ever since. The general idea is that this runs a web app on the host machine which is then exposed through a front door implementation like tailscale/netbird/cloudflare tunnels etc. A lot of devs/teams are building sth very similar to this right now so there are many options out there already but I wanted: A PWA (no app store dep), better keyboard support than termux, the ability to manage multiple machines and easy integration with my existing tailnet via headscale. Some of the other features - Push notifications - Support for tmux and zellij (experimental). - Voice transcriptions (Codex sub or API) - Custom commands You can check out a live demo with dummy data on the website[1] or look at the implementation on Github[3] (PRs welcome). Looking forward to receiving some feedback or learning more about how people access/work with their agents on the go. Also if you encounter any bugs please report them on Github, if a feature is missing you'd really want to see, open a discussion. [1] https://colliepwa.dev [2] https://herdr.dev [3] https://github.com/AltanS/collie Comments URL: https:/",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-09T18:11:46.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
-      "id": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
-      "title": "The Anatomy of Harness Engineering for AI Coding Agents",
-      "link": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
-      "summary": "Article URL: https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/ Comments URL: https://news.ycombinator.com/item?id=49630726 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-09T18:05:10.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://aiburnclock.org/",
       "title": "Show HN: AI Burn Clock – the cost of agents reading whole files",
       "link": "https://aiburnclock.org/",
@@ -5206,14 +5182,38 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/pizza-bot-app/pizza-bot",
-      "title": "Pizza Bot: a local-first inbox for long-running AI agents",
-      "link": "https://github.com/pizza-bot-app/pizza-bot",
-      "summary": "Article URL: https://github.com/pizza-bot-app/pizza-bot Comments URL: https://news.ycombinator.com/item?id=49657189 Points: 1 # Comments: 0",
+      "id": "https://c4.quietgridlabs.com/",
+      "title": "Show HN: Viaduct – Architecture change sets for AI coding agents",
+      "link": "https://c4.quietgridlabs.com/",
+      "summary": "Article URL: https://c4.quietgridlabs.com/ Comments URL: https://news.ycombinator.com/item?id=49662336 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
       "keywordHits": 3,
-      "publishedAt": "2026-09-11T12:20:16.000Z",
+      "publishedAt": "2026-09-11T17:43:29.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.checklyhq.com/blog/agentic-rewrite-nodejs-to-go/",
+      "title": "Let AI Agents Rewrite a 92M-Message-a-Day Node Service to Go",
+      "link": "https://www.checklyhq.com/blog/agentic-rewrite-nodejs-to-go/",
+      "summary": "Article URL: https://www.checklyhq.com/blog/agentic-rewrite-nodejs-to-go/ Comments URL: https://news.ycombinator.com/item?id=49662139 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T17:31:36.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.pragmaticengineer.com/the-pulse-tech-companies-move-to-open-ai-models/",
+      "title": "Tech companies move to open AI models",
+      "link": "https://blog.pragmaticengineer.com/the-pulse-tech-companies-move-to-open-ai-models/",
+      "summary": "Article URL: https://blog.pragmaticengineer.com/the-pulse-tech-companies-move-to-open-ai-models/ Comments URL: https://news.ycombinator.com/item?id=49661892 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T17:16:58.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5578,6 +5578,30 @@
       "status": "queued"
     },
     {
+      "id": "https://mathandai.org/",
+      "title": "A Severe Misalignment of AI in Mathematics - Terence Tao et al",
+      "link": "https://mathandai.org/",
+      "summary": "Article URL: https://mathandai.org/ Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-11T17:45:12.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
+      "title": "A Misalignment of AI in Mathematics",
+      "link": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
+      "summary": "Article URL: https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49662116 Points: 4 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-11T17:30:26.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5818,18 +5842,6 @@
       "status": "queued"
     },
     {
-      "id": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
-      "title": "Nvidia's Switchyard router reshuffles AI models mid-task to cut task costs",
-      "link": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
-      "summary": "Article URL: https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests Comments URL: https://news.ycombinator.com/item?id=49388335 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-21T14:10:29.000Z",
-      "score": 142.61,
-      "status": "queued"
-    },
-    {
       "id": "https://twitter.com/perceptroninc/status/2092678357775442103",
       "title": "Perceptron AI releases Isaac 0.5: 36B, open weight, embodied foundation model",
       "link": "https://twitter.com/perceptroninc/status/2092678357775442103",
@@ -5890,18 +5902,6 @@
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-09T17:00:00.000Z",
-      "score": 139.02,
-      "status": "queued"
-    },
-    {
       "id": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
       "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
       "link": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
@@ -5923,6 +5923,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-08-31T14:23:53.000Z",
       "score": 137.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.ethersflow.com/try-it",
+      "title": "Show HN: EthersFlow-Adversarial Multi-Model Consensus Gate for AI Agent Action",
+      "link": "https://www.ethersflow.com/try-it",
+      "summary": "Article URL: https://www.ethersflow.com/try-it Comments URL: https://news.ycombinator.com/item?id=49661392 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T16:43:50.000Z",
+      "score": 136.45,
       "status": "queued"
     },
     {
@@ -6046,6 +6058,18 @@
       "status": "queued"
     },
     {
+      "id": "https://medium.com/@ruxiz2005/ai-agents-still-diverge-at-temperature-0-when-does-it-matter-f5abac008e17",
+      "title": "AI agents still diverge at temperature 0. When does it matter?",
+      "link": "https://medium.com/@ruxiz2005/ai-agents-still-diverge-at-temperature-0-when-does-it-matter-f5abac008e17",
+      "summary": "Article URL: https://medium.com/@ruxiz2005/ai-agents-still-diverge-at-temperature-0-when-does-it-matter-f5abac008e17 Comments URL: https://news.ycombinator.com/item?id=49661215 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T16:34:04.000Z",
+      "score": 128.16,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
       "title": "Scaling agentic AI pilots across the enterprise",
       "link": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
@@ -6103,6 +6127,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-08-22T13:58:50.000Z",
       "score": 125.27,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "title": "Anthropic spent this week in hot water over cybersecurity",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "summary": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will likely fuel already raging concerns about cybersecurity and AI. In Anthropic's report, it detailed four cases this year in which its own AI models hacked an external company or exploited vulnerabilities. In one, an \"internal, general-purpose research model\" broke into third-party systems, using access tokens and passwords and downloading files. … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-11T16:09:14.000Z",
+      "score": 125.06,
       "status": "queued"
     },
     {
@@ -7138,76 +7174,52 @@
       "status": "queued"
     },
     {
-      "id": "https://www.anjadhe.com/demo",
-      "title": "Show HN: Anjadhe – privacy first AI assistant, no account, no server DB",
-      "link": "https://www.anjadhe.com/demo",
-      "summary": "Hi HN, I am Ram. For the last few months I have been building Anjadhe. It is a personal AI assistant for macOS. The main idea is simple: A macOS app where AI does the job of a personal assistant for the user. Not a chat only app where user needs to dig through chats to understand today’s schedule or a project they planned with the ai last week, but a canvas where the user and AI work together around basic tools. I started building this as DYI tool for myself, but at this point I see that its truly useful for me, so sharing with others to see if it can be useful to others too. Here is a quick Demo - https://www.anjadhe.com/demo What it can do today: - It reads your incoming email and files the important things: bills with due dates, renewals, receipts, deliveries. A bill becomes a task with a date, by itself. Two booking emails become one trip. - You set goals by talking to it, not by filling forms. It asks you questions, makes a plan with dated tasks. Later you can say \"work got crazy, push everything two weeks\" and it moves the whole plan. It always shows you what will change and asks before doing it. - Routines run without you. On a schedule, or when a certain email or file arrives. Every run leaves a log you can read. - You can give it some documents you wrote. It learns your writing style and writes new content in your voice. What it learned is a page you can read and edit,",
+      "id": "https://colliepwa.dev/",
+      "title": "Show HN: ColliePWA a mobile interface for AI agents in herdr/tmux/zellij",
+      "link": "https://colliepwa.dev/",
+      "summary": "Sharing the PWA[1] I built over the last couple of weeks to access my terminal sessions/agents when not in front of my computer. This started off as a weekend experiment right when herdr[2] (terminal multiplexer) released the functionality to write custom plugins and it's been quite helpful to me ever since. The general idea is that this runs a web app on the host machine which is then exposed through a front door i…",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-22T02:12:01.000Z",
-      "score": 97.74,
-      "status": "queued"
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T18:11:46.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-11T18:11:11.410Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
-      "id": "https://arxiv.org/abs/2608.26109",
-      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-      "link": "https://arxiv.org/abs/2608.26109",
-      "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produced none. Among the 14 cases that overlapped with the SHAP review subset, the standalone LLM showed higher SHAP alignment (mean Jaccard 0.171 versus 0.077) and higher direction consistency (92.9\\% versus 78.6\\%), while the agentic pipeline showed higher guideline grounding (0.762 versus 0.143), higher value specificity (0.236 versus 0.143), and slightly higher plausibility (0.700 versus 0.671). Clinically, the results suggest that agentic decomposition may improve safety-relevant grounding and p",
-      "source": "ArXiv cs.AI",
+      "id": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+      "title": "The Anatomy of Harness Engineering for AI Coding Agents",
+      "link": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+      "summary": "Article URL: https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/ Comments URL: https://news.ycombinator.com/item?id=49630726 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "score": 97.61,
-      "status": "queued"
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T18:05:10.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-11T18:11:11.410Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
-      "id": "https://arxiv.org/abs/2608.26113",
-      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
-      "link": "https://arxiv.org/abs/2608.26113",
-      "summary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generation pipeline with PDK aware knowledge injection, automated placement and routing, DRC/LVS validation, and SAX-based photonic simulation. To systematically evaluate AI-driven photonic design, we introduce PIC-Set, a benchmark of 36 parameterized PIC design tasks spanning core photonic primitives and multi-component circuits. Using PIC-Set, we benchmark several state-of-the-art Large Language Models (LLMs) under a unified evaluation protocol, including new metrics such as structural and functional $Spec@k$, optimization efficiency, and robustness under perturbations. Across the benchmark, PICasso significantly improves end-to-end specification satisfaction compared to vanilla LLM generation. Structural $Spec@3$ reaches up to 92.7% and functional $Spec@3$ up to 52% on high-complexity circuits. In addition, PICasso consistently reduces circuit insertion loss, lowering the mean loss from 4.98 dB to 3.25 dB (1.74 dB improvement) through simulation-guided optimization. These results demonstrate that structured domain constraints, physical verification, and simulation feedback transform LLMs from brittle netlis",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "score": 97.61,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04523",
-      "title": "MaxKernel: Agentic Kernel Generation for TPUs",
-      "link": "https://arxiv.org/abs/2609.04523",
-      "summary": "arXiv:2609.04523v1 Announce Type: new Abstract: Designing and authoring high-performance custom kernels for accelerators is a complex task that requires deep hardware-level expertise. Large Language Models (LLM) can be leveraged together with real-time compiler feedback to build agentic systems for kernel generation. In this work, we present MaxKernel, a multi-agent system that implements three distinct paradigms for TPU kernel development: (1) a Human-in-the-Loop (HITL) agent for collaborative, step-by-step design; (2) an Autonomous (Auto) agent that executes a fully automated, metric/trace-driven optimization loop; and (3) a Graph-Based Autonomous Search that scales the Auto agent for global exploration of the design space. All three paradigms leverage a shared pool of specialized sub-agents to handle planning, implementation, self-debugging, testing, and hardware profiling. We evaluate MaxKernel on JaxBench, a comprehensive suite of 50 diverse kernel tasks for TPUs, alongside complex, real-world workloads from state-of-the-art open-source models. We demonstrate that MaxKernel consistently generates highly optimized implementations, matching expert hand-tuned baselines and delivering significant performance across the benchmark. Our agent is open-sourced and available https://github.com/AI-Hypercomputer/accelerator-agents/tree/main/MaxKernel.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 97.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.28597",
-      "title": "The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys",
-      "link": "https://arxiv.org/abs/2608.28597",
-      "summary": "arXiv:2608.28597v1 Announce Type: new Abstract: Online surveys are a foundational data collection instrument in a variety of fields, with attention checks serving as critical guardians of response quality. However, the rapid emergence of agentic AI (goal directed systems powered by a large language model (LLM) brain and/or a multimodal processing unit with tool-augmented capabilities) raises new questions about the robustness of these safeguards. We investigate how well agentic AI architectures can complete web-based surveys and pass standard attention checks. We evaluate a single-agent architecture capable of multimodal input processing and tool-based web interaction on a controlled survey sandbox. We analyze the problem from two perspectives. From an attack perspective, we demonstrate how structural vulnerabilities such as exposed DOM metadata and predictable option encoding allow agents to resolve attention checks through structured parsing only. From a defense perspective, we implement a mitigation strategy of DOM metadata obfuscation to remove semantic cues in text-based questions. We evaluate multiple open-source language and multimodal models to study capability and orchestration effectiveness. Based on our evaluations, we offer perspectives on how to simultaneously meet the needs of empiricists and agentic AI researchers.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "score": 97.52,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.28600",
-      "title": "SHAPE of Chain-of-Thought in Math Reasoning",
-      "link": "https://arxiv.org/abs/2608.28600",
-      "summary": "arXiv:2608.28600v1 Announce Type: new Abstract: Large language models (LLMs) achieve strong performance on mathematical reasoning benchmarks, yet the mathematically meaningful skills underlying their reasoning remain underexplored. We introduce \\texttt{SHAPE}, a framework that analyzes Chain-of-Thought (CoT) trajectories through two lenses developed in mathematics education: (1) semantic spaces: the model's evolving mathematical interpretations of a problem (e.g., algebraic, geometric), and (2) heuristics: the specific mathematical actions taken within those spaces (e.g., simplifying the problem, working backward). We first use \\texttt{SHAPE} to analyze the reasoning patterns of various models. Our findings reveal that the mathematical heuristics employed by a model better explain final answer correctness than traditional CoT features. Furthermore, models are likely to reach correct solutions by concentrating their reasoning effort within a few semantic spaces rather than exploring many disparate ones -- a pattern consistent with human behavior. Next, we utilize the \\texttt{SHAPE} lens to evaluate whether post-training truly enhances mathematical proficiency. We find that reinforcement learning induces mode-seeking in heuristic usage. Lastly, we post-train LLMs by promoting diverse heuristics and demonstrate its effectiveness in improving accuracy. Overall, \\texttt{SHAPE} provi",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "score": 97.52,
-      "status": "queued"
+      "id": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "score": 139.02,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-11T18:11:11.410Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
