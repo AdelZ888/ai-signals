@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-12T11:55:42.445Z",
+  "generatedAt": "2026-09-12T18:00:59.558Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=49670455",
+      "title": "GoatCode – open-source terminal AI agent with provider failover",
+      "link": "https://news.ycombinator.com/item?id=49670455",
+      "summary": "GoatCode is a single 85 MB binary that runs in your terminal. It brings 180+ LLM providers (or your existing Claude/ChatGPT/Gemini/Copilot subscriptions via OAuth), and when your quota dies mid-session it automatically retries then walks your fallback chain live — switches provider mid-turn, says so, and finishes the answer. No crash, no lost context. What’s new in v2.1.10: - Prompt caching on Anthropic (up to 90% c…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-09-12T09:02:29.000Z",
+      "score": 175.65,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-12T18:00:59.457Z",
+      "file": "content/posts/2026-09-12-goatcode-v2110-terminal-ai-agent-with-live-provider-failover-and-anthropic-prompt-caching.md",
+      "fileFr": "content/posts/fr/2026-09-12-goatcode-v2110-terminal-ai-agent-with-live-provider-failover-and-anthropic-prompt-caching.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1512,
+      "wordsFr": 1382
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
       "title": "OpenAI just wants to win",
@@ -5039,50 +5062,15 @@
       "wordsFr": 1873
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins",
-      "title": "OpenAI talks about not talking about goblins",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins",
-      "summary": "OpenAI is opening up about its goblin problem. After a report from Wired revealed instructions to OpenAI's coding model to \"never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures,\" the AI startup published an explanation on its website, calling references to the creatures a \"strange habit\" its models developed as a result of their training. As outlined in the blog post, O…",
-      "source": "The Verge AI",
-      "region": "US",
+      "id": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Amodei's call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+      "source": "BBC Technology",
+      "region": "UK",
       "keywordHits": 4,
-      "publishedAt": "2026-04-30T13:42:29.000Z",
-      "score": 106.08,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-08T09:44:14.550Z",
-      "file": "content/posts/2026-05-08-openai-explains-how-gpt-51s-nerdy-persona-caused-creature-metaphors-to-spread-across-models.md",
-      "fileFr": "content/posts/fr/2026-05-08-openai-explains-how-gpt-51s-nerdy-persona-caused-creature-metaphors-to-spread-across-models.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1283,
-      "wordsFr": 1320
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49670455",
-      "title": "GoatCode – open-source terminal AI agent with provider failover",
-      "link": "https://news.ycombinator.com/item?id=49670455",
-      "summary": "GoatCode is a single 85 MB binary that runs in your terminal. It brings 180+ LLM providers (or your existing Claude/ChatGPT/Gemini/Copilot subscriptions via OAuth), and when your quota dies mid-session it automatically retries then walks your fallback chain live — switches provider mid-turn, says so, and finishes the answer. No crash, no lost context. What’s new in v2.1.10: - Prompt caching on Anthropic (up to 90% cheaper long sessions; savings shown in /cost) - Inline unified diffs after every write/edit - /rewind — jump transcript + files back to any turn - Parallel subagents (up to 3 task calls fan out concurrently) - /search + goat search — full-text across every saved session - @file Tab completion, /model sonnet aliases - True context meter (real API tokens vs model window) - GOAT MODE (bypass) that actually works: mid-turn switch, prompt resolves YES - Noir theme: deep slate + black-green surfaces Install: npm install -g goatcode-cli (or grab a static binary from the releases page) Repo: https://github.com/Arhan-w/GoatCode Landing: https://goatcode.vercel.app Comments URL: https://news.ycombinator.com/item?id=49670455 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 10,
-      "publishedAt": "2026-09-12T09:02:29.000Z",
-      "score": 175.65,
-      "status": "queued"
-    },
-    {
-      "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
-      "title": "AI agents merged two dangers once kept separate: reach and judgment",
-      "link": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
-      "summary": "Article URL: https://syntheticauth.ai/posts/agent-nation-03-the-threshold Comments URL: https://news.ycombinator.com/item?id=49400211 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-22T14:35:46.000Z",
-      "score": 174,
+      "publishedAt": "2026-09-12T17:05:34.000Z",
+      "score": 180,
       "status": "queued"
     },
     {
@@ -5226,6 +5214,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-11T17:16:58.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://yoshuabengio.org/en/blog/why-are-ai-agents-lying-cheating-and-coordinating",
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "link": "https://yoshuabengio.org/en/blog/why-are-ai-agents-lying-cheating-and-coordinating",
+      "summary": "Article URL: https://yoshuabengio.org/en/blog/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49674708 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-12T17:23:16.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5650,6 +5650,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "link": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
+      "summary": "Article URL: https://www.bbc.com/news/articles/c14dpgm0rg4o Comments URL: https://news.ycombinator.com/item?id=49674395 Points: 33 # Comments: 58",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-12T16:56:52.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5695,6 +5707,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-07T18:24:32.000Z",
       "score": 152.84,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated",
+      "title": "You Didn't Deploy the AI Agent You Evaluated",
+      "link": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated",
+      "summary": "Article URL: https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated Comments URL: https://news.ycombinator.com/item?id=49674222 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-12T16:39:13.000Z",
+      "score": 152.07,
       "status": "queued"
     },
     {
@@ -5851,18 +5875,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-04T11:04:01.000Z",
       "score": 147.64,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/kidus-tiliksew/conveyor",
-      "title": "Show HN: I make my AI agents file paperwork before they're allowed to code",
-      "link": "https://github.com/kidus-tiliksew/conveyor",
-      "summary": "Article URL: https://github.com/kidus-tiliksew/conveyor Comments URL: https://news.ycombinator.com/item?id=49399837 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-22T14:01:46.000Z",
-      "score": 146.64,
       "status": "queued"
     },
     {
@@ -6187,18 +6199,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-02T17:10:56.000Z",
       "score": 125.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://github.com/pawaca/dsh-edge",
-      "title": "Show HN: Running a full AI coding agent inside Cloudflare Durable Object",
-      "link": "https://github.com/pawaca/dsh-edge",
-      "summary": "Article URL: https://github.com/pawaca/dsh-edge Comments URL: https://news.ycombinator.com/item?id=49399811 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-22T13:58:50.000Z",
-      "score": 125.27,
       "status": "queued"
     },
     {
@@ -6562,6 +6562,18 @@
       "status": "queued"
     },
     {
+      "id": "https://deviantmovie.com/",
+      "title": "Show HN: Deviant, a feature-length sci-fi thriller about AI, made with AI",
+      "link": "https://deviantmovie.com/",
+      "summary": "I wrote a screenplay a couple years ago and decided to see if I could actually “film it” with AI video tools. Deviant is the result, an 84 minute sci-fi thriller about a tech mogul's clone that finds an exploit in its own safety code. The process: Character and set reference images in Midjourney and Nano Banana. Scene by scene prompts written from the script (I have an agent skill now for this), generated in Google Veo for most of the film, until it stopped working reliably, then I shelved it. Now with Seedance 2.5 available in the US on Higgsfield, I completed the final act. The last 20 minutes look noticeably better than the first 60. Edited just in iMovie, audio with ElevenLabs. I decided to release it as is rather than regenerate everything. Biggest problems were getting the actors to “act”, shot composition, character consistency, voice matching, and getting more than two characters to interact coherently in one frame. Happy to go into detail on any of it. Comments URL: https://news.ycombinator.com/item?id=49673745 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-12T16:02:08.000Z",
+      "score": 114.64,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
       "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
       "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
@@ -6583,18 +6595,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-02T16:12:25.000Z",
       "score": 113.8,
-      "status": "queued"
-    },
-    {
-      "id": "https://openrating.io/blog/current-state-of-ai-model-fingerprinting",
-      "title": "How to Fingerprint AI Models When Prompts Lie",
-      "link": "https://openrating.io/blog/current-state-of-ai-model-fingerprinting",
-      "summary": "Article URL: https://openrating.io/blog/current-state-of-ai-model-fingerprinting Comments URL: https://news.ycombinator.com/item?id=49399051 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-22T12:26:50.000Z",
-      "score": 113.7,
       "status": "queued"
     },
     {
@@ -7198,16 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.09428",
-      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
-      "link": "https://arxiv.org/abs/2609.09428",
-      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective human judgment, limiting reproducibility, scalability, and comparability between studies. We examine whether LLMs can serve as a reproducible and scalable mechanism to make comparative assessments of the quality of XAI explanations. We introduce XAI-Arena, an LLM-as-a-judge framework for scalable, reproducible, multidimensional, and stakeholder-sensitive evaluation of XAI explanation quality. XAI-Arena then allows us to compare XAI explanations along various dimensions, namely, perceived simplicity, clarity, task adequacy, trust calibration, actionability, transparency, faithfulness, and overall interpretability. We then benchmark XAI explanation methods across various datasets, machine learning models, and stakeholder personas. Human validation shows a strong positive association between LLM-generated and human ratings (Spearman's rho=.693, p<.001). Together, LLM-based evaluations can capture systematic differences in XAI explanation quality and provide a scalable and reproducible framework for comparative assessment of XAI explanations.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "score": 98.23,
-      "status": "queued"
+      "id": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow the pace of training and development to give companies time to build safeguards and regulator…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-12T16:23:40.000Z",
+      "score": 152.9,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-12T17:41:16.449Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://colliepwa.dev/",
