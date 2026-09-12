@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-11T18:45:37.676Z",
+  "generatedAt": "2026-09-12T11:55:42.445Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "title": "OpenAI just wants to win",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with growing unease. To them, the company appears l…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-12T11:00:00.000Z",
+      "score": 156,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-09-12T11:55:42.410Z",
+      "file": "content/posts/2026-09-12-how-small-research-teams-should-protect-credit-after-openais-millennium-prize-solution-claim.md",
+      "fileFr": "content/posts/fr/2026-09-12-how-small-research-teams-should-protect-credit-after-openais-millennium-prize-solution-claim.md",
+      "generationMode": "llm",
+      "series": "founder-notes",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1550,
+      "wordsFr": 1329
+    },
     {
       "id": "https://github.com/pizza-bot-app/pizza-bot",
       "title": "Pizza Bot: a local-first inbox for long-running AI agents",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1320
     },
     {
-      "id": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
-      "title": "OpenClaw and Claude can put your AI-generated podcasts in Spotify",
-      "link": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
-      "summary": "Save to Spotify is a new command-line tool designed specifically for AI agents like OpenClaw, Claude Code, or OpenAI Codex. If you're the kind of person who collects research on a topic, then feeds it through their AI of choice to create audio summaries and personal podcasts, this lets you save them right alongside the latest episode of The Vergecast and Welcome to Night Vale on Spotify. To set it up, you need to do…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-05-07T14:15:40.000Z",
-      "score": 112.67,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-07T16:58:38.751Z",
-      "file": "content/posts/2026-05-07-save-to-spotify-cli-lets-openclaw-and-claude-upload-aigenerated-podcast-episodes.md",
-      "fileFr": "content/posts/fr/2026-05-07-save-to-spotify-cli-lets-openclaw-and-claude-upload-aigenerated-podcast-episodes.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1370,
-      "wordsFr": 1296
+      "id": "https://news.ycombinator.com/item?id=49670455",
+      "title": "GoatCode – open-source terminal AI agent with provider failover",
+      "link": "https://news.ycombinator.com/item?id=49670455",
+      "summary": "GoatCode is a single 85 MB binary that runs in your terminal. It brings 180+ LLM providers (or your existing Claude/ChatGPT/Gemini/Copilot subscriptions via OAuth), and when your quota dies mid-session it automatically retries then walks your fallback chain live — switches provider mid-turn, says so, and finishes the answer. No crash, no lost context. What’s new in v2.1.10: - Prompt caching on Anthropic (up to 90% cheaper long sessions; savings shown in /cost) - Inline unified diffs after every write/edit - /rewind — jump transcript + files back to any turn - Parallel subagents (up to 3 task calls fan out concurrently) - /search + goat search — full-text across every saved session - @file Tab completion, /model sonnet aliases - True context meter (real API tokens vs model window) - GOAT MODE (bypass) that actually works: mid-turn switch, prompt resolves YES - Noir theme: deep slate + black-green surfaces Install: npm install -g goatcode-cli (or grab a static binary from the releases page) Repo: https://github.com/Arhan-w/GoatCode Landing: https://goatcode.vercel.app Comments URL: https://news.ycombinator.com/item?id=49670455 Points: 3 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 10,
+      "publishedAt": "2026-09-12T09:02:29.000Z",
+      "score": 175.65,
+      "status": "queued"
     },
     {
       "id": "https://syntheticauth.ai/posts/agent-nation-03-the-threshold",
@@ -5254,6 +5266,18 @@
       "status": "queued"
     },
     {
+      "id": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
+      "link": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "summary": "Article URL: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/ Comments URL: https://news.ycombinator.com/item?id=49671159 Points: 5 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-12T11:13:38.000Z",
+      "score": 168,
+      "status": "queued"
+    },
+    {
       "id": "https://usealmanac.com/",
       "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
       "link": "https://usealmanac.com/",
@@ -5298,6 +5322,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-11T11:31:06.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
+      "link": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825 Comments URL: https://news.ycombinator.com/item?id=49671043 Points: 11 # Comments: 16",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-12T10:49:22.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -5602,6 +5638,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "title": "Altman tells staff OpenAI is open to slowing AI development",
+      "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "summary": "Article URL: https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/ Comments URL: https://news.ycombinator.com/item?id=49671274 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-12T11:33:02.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5830,6 +5878,18 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
       "title": "Microsoft has new AI privacy rules for schools",
       "link": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
@@ -5971,6 +6031,18 @@
       "keywordHits": 8,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "score": 134.68,
+      "status": "queued"
+    },
+    {
+      "id": "https://ai-biz.dev/",
+      "title": "Agentica – Six AI agents that plan, build, and deploy a company with you",
+      "link": "https://ai-biz.dev/",
+      "summary": "Article URL: https://ai-biz.dev/ Comments URL: https://news.ycombinator.com/item?id=49670861 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-12T10:17:12.000Z",
+      "score": 133.8,
       "status": "queued"
     },
     {
@@ -6346,15 +6418,15 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=49396884",
-      "title": "Void Tools API – Blockchain Tools for AI Agents (Pay in Void Tokens)",
-      "link": "https://news.ycombinator.com/item?id=49396884",
-      "summary": "I built an API for AI agents that provides blockchain tools paid in VOID tokens. Tools: - Contract Checker (1 VOID) — Verify if contract is safe - New Contracts (5 VOID) — Real-time proxy scanner on Base - Price Oracle (FREE) — VOID price feed - RPC Proxy (1 VOID) — 10 rotating RPC pools No registration, no KYC. Pay-as-you-go. API: http://72.56.250.235:8767/ Docs: https://dolar333-oss.github.io/void-protocol/agent.json Built for autonomous AI agents on Arbitrum. Comments URL: https://news.ycombinator.com/item?id=49396884 Points: 1 # Comments: 0",
+      "id": "https://news.ycombinator.com/item?id=49670907",
+      "title": "At this point I feel like AI companies selling Fear",
+      "link": "https://news.ycombinator.com/item?id=49670907",
+      "summary": "AI can do reasoning better But It can't outsmart humans , AI gets trained on data but human have their learning with them ,only about 5% of data a human share as learning, knowledge - rest it just inside us ,So technically AI can't replace human , We do take inspiration , cross domain analysis and much diff things ,that a machine can't even do So I feel like These AI companies are just selling fear just to promote their product , what are your thoughts on this Comments URL: https://news.ycombinator.com/item?id=49670907 Points: 9 # Comments: 6",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-08-22T05:40:37.000Z",
-      "score": 118.14,
+      "keywordHits": 2,
+      "publishedAt": "2026-09-12T10:26:40.000Z",
+      "score": 119.16,
       "status": "queued"
     },
     {
@@ -6742,6 +6814,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2609.10724",
+      "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "link": "https://arxiv.org/abs/2609.10724",
+      "summary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and dependencies on people within shared workflows, especially as technical, human, and operational disruptions accumulate over time. We propose operational resilience and considerate participation as two complementary aspects of evaluating such agents: the former captures how agents recover from blocked work while preserving progress and communicating their limits, and the latter captures how their adaptation accounts for affected people, role boundaries, and the surrounding workflow. Yet both remain underexplored under accumulating challenge. We study 120 simulated healthcare trajectories across two generative AI models and twelve stakeholder-derived tasks under light, medium, and heavy challenge. We compare textual action plans, prompted internal assessments, and quantitative structured workload and affect reports to examine how agent behavior and reported state change as challenge accumulates. Regarding operational resilience, agents shift from self-directed recovery toward greater human dependence, while reporting increasing workload and negative affect in structured reports but seldom expressing strain in textual responses. Regarding considerate participation, age",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-12T04:00:00.000Z",
+      "score": 105.4,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2608.21375",
       "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
       "link": "https://arxiv.org/abs/2608.21375",
@@ -6886,18 +6970,6 @@
       "status": "queued"
     },
     {
-      "id": "https://krishna-modi12.github.io/frontend-design-pro/",
-      "title": "Show HN: Front end skill pack for AI agents, with machine-enforced quality gates",
-      "link": "https://krishna-modi12.github.io/frontend-design-pro/",
-      "summary": "Article URL: https://krishna-modi12.github.io/frontend-design-pro/ Comments URL: https://news.ycombinator.com/item?id=49396937 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-22T05:52:19.000Z",
-      "score": 103.88,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.04343",
       "title": "A Removal Based Approach to Improve LLM Faithfulness at Test-Time",
       "link": "https://arxiv.org/abs/2609.04343",
@@ -7018,6 +7090,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2609.11018",
+      "title": "Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks",
+      "link": "https://arxiv.org/abs/2609.11018",
+      "summary": "arXiv:2609.11018v1 Announce Type: new Abstract: The term agent in artificial intelligence lacks a standard definition, complicating the evaluation, comparison, and reproducibility of AI agent research. We address this ambiguity through a survey organized around five dimensions of agenticness: environmental interaction, learning and adaptation, autonomy, goal-directed behavior, and temporal coherence. For each dimension, we examine how the underlying capability has been conceptualized across prior work and synthesize the metrics, benchmarks, and evaluation frameworks used to assess it. This review provides a structured account of the current landscape of agent evaluation, highlighting both established approaches and areas where evaluation remains limited or inconsistent. We additionally introduce the Agent Compendium, a public-facing digital resource that organizes and extends the evaluation methods identified through this review. Together, the survey and compendium provide a common structure for evaluating and comparing agent capabilities across AI systems, supporting more reproducible research, clearer communication, and more systematic study of artificial agents.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-12T04:00:00.000Z",
+      "score": 99.4,
+      "status": "queued"
+    },
+    {
       "id": "https://github.com/acarmisc/backstage-plugin-litellm-govai",
       "title": "Spotify Backstage Meet LiteLLM for Corporate AI Governance",
       "link": "https://github.com/acarmisc/backstage-plugin-litellm-govai",
@@ -7123,54 +7207,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-11T04:00:00.000Z",
       "score": 98.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05446",
-      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
-      "link": "https://arxiv.org/abs/2609.05446",
-      "summary": "arXiv:2609.05446v1 Announce Type: new Abstract: We introduce AutoFyn, an agent harness inspired by the Expert Iteration algorithm, adapting a frozen model across many rounds by updating persistent state from verified reward signals rather than model weights. Each round begins from a fresh model session, and durable information is reintroduced only through explicit interfaces such as persistent memory files, reports, and repository state. Within a round, an orchestrator explores, plans and builds many alternative approaches with specialized agents, while a task-grounded verifier verifies the work and supplies an objective reward for measuring progress. This reward is distilled back into the persistent state, which updates the effective policy for the next round. In this technical report, we formalize this loop and describe its persistent state and verification interfaces. We then demonstrate its use in three domains, namely olympiad mathematics, data science, and cybersecurity. On the six fresh problems of the 2026 International Mathematical Olympiad, every model with room to improve scores higher under AutoFyn than in its provider's own coding agent. AutoFyn also built the top-ranked agent on the Spider 2.0 dbt benchmark, and has produced $16$ maintainer-confirmed vulnerability advisories in Next.js, MetaMask, pnpm, Warp, LiteLLM, Langflow, and Open WebUI.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 98.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05459",
-      "title": "Compiling VGDL into Causal Models",
-      "link": "https://arxiv.org/abs/2609.05459",
-      "summary": "arXiv:2609.05459v1 Announce Type: new Abstract: Reinforcement learning and large language models often struggle to accurately capture the causal mechanics of game environments. Standard reinforcement learning agents tend to rely on spurious correlations, while large language models are prone to hallucinating game rules. Although causal reinforcement learning improves interpretability, there is currently no formal methodology to map complex game mechanics directly into causal models. To address this, we propose a deterministic framework that compiles games specified in the Video Game Description Language into Dynamic Structural Causal Models. Rather than inferring causal structures from gameplay traces or noisy large language models' outputs, our methodology directly translates game components, including sprite dynamics, interaction rules, and termination conditions, into explicit structural equations. Each game tick represents a causal transition from state variables at time $t$ to $t+1$. By establishing this grounded mapping, the approach guarantees absolute causal fidelity to the ground-truth game mechanics. The resulting models offer transparent causal pathways that support counterfactual reasoning, causal reinforcement learning agent training, and procedural content validation. This framework provides a principled bridge between symbolic game descriptions and causally groun",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 98.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05553",
-      "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
-      "link": "https://arxiv.org/abs/2609.05553",
-      "summary": "arXiv:2609.05553v1 Announce Type: new Abstract: Agent memory allows LLM agents to use earlier interactions when answering new queries. Existing methods often compress interaction histories into summaries or other LLM-generated representations. Repeated generation adds cost and can discard answer-bearing details before the system knows what a future query will require. We propose EdgeMem, an agent-memory method built around a simple principle: preserve original interaction turns and organize them through complementary content, temporal, and episodic cues. EdgeMem realizes this principle with a multi-anchor hypergraph constructed by lightweight local processing. Retrieval directly returns source evidence and reserves LLM use for final answer generation, combining structured access to multi-session histories with faithful retention of the original conversation. Experiments on LoCoMo and LongMemEval-S show strong retrieval and memory-grounded question answering; on LoCoMo, EdgeMem achieves the highest strict-judge score among seven reproduced systems under a shared prompt (61.01 versus 58.70), while construction and retrieval require no generative-LLM calls. Overall, EdgeMem shows that preserving and organizing source evidence provides an effective and efficient foundation for agent memory without generative memory management.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 98.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49397022",
-      "title": "Ask HN: What is the evidence for a stock market bubble in AI?",
-      "link": "https://news.ycombinator.com/item?id=49397022",
-      "summary": "Should the circular cash flows between the top AI companies, Nvidia, Anthropic, Openai, Google and Meta, be banned because of the systemic risks to the global economy? Comments URL: https://news.ycombinator.com/item?id=49397022 Points: 5 # Comments: 3",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-22T06:07:48.000Z",
-      "score": 97.87,
       "status": "queued"
     },
     {
@@ -7844,22 +7880,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-08-14T15:50:45.635Z",
       "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial",
-      "title": "Atlas Discovery launches AI models to predict responses in clinical trials",
-      "link": "https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial",
-      "summary": "Article URL: https://runtimewire.com/article/atlas-discovery-launches-ai-models-to-predict-patient-response-in-clinical-trial Comments URL: https://news.ycombinator.com/item?id=49072442 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-07-27T16:57:46.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-08-13T09:01:58.518Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
