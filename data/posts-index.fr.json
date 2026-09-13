@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-13T13:11:03.961Z",
+  "generatedAt": "2026-09-13T18:02:13.884Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-13-benchmark-search-apis-by-swapping-providers-while-fixing-the-model-and-prompt",
+      "title": "Benchmarker les Search APIs en changeant de fournisseur tout en fixant le modèle et le prompt",
+      "date": "2026-09-13",
+      "excerpt": "Guide pratique pour construire un harness reproductible qui exécute un même agent en changeant uniquement la Search API. Comparez coût, latence et qualité des réponses pour choisir le meilleur fournisseur.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-13-benchmark-search-apis-by-swapping-providers-while-fixing-the-model-and-prompt.jpg",
+      "tags": [
+        "search-api",
+        "benchmark",
+        "agents",
+        "retrieval",
+        "IA",
+        "développeurs",
+        "startups",
+        "petites-équipes"
+      ],
+      "sources": [
+        "https://artificialanalysis.ai/agents/search-api"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-13-why-public-ai-benchmark-scores-shouldnt-determine-your-production-model",
       "title": "Pourquoi les scores publics de benchmarks IA ne doivent pas décider du modèle en production",
