@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-12T18:00:59.483Z",
+  "generatedAt": "2026-09-13T13:11:03.961Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-13-why-public-ai-benchmark-scores-shouldnt-determine-your-production-model",
+      "title": "Pourquoi les scores publics de benchmarks IA ne doivent pas décider du modèle en production",
+      "date": "2026-09-13",
+      "excerpt": "Les classements publics sont faciles à lire mais peuvent être trompeurs : ils servent souvent de PR plutôt que de preuve de performance en production. Utilisez-les pour présélectionner des modèles, puis vérifiez-les rapidement sur vos données réelles.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-13-why-public-ai-benchmark-scores-shouldnt-determine-your-production-model.jpg",
+      "tags": [
+        "IA",
+        "benchmarks",
+        "produit",
+        "startups",
+        "développeurs",
+        "équipe small"
+      ],
+      "sources": [
+        "https://www.pcmag.com/opinions/why-ai-benchmarks-are-total-bs-and-how-openai-and-anthropic-use-them-to"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-09-12-goatcode-v2110-terminal-ai-agent-with-live-provider-failover-and-anthropic-prompt-caching",
       "title": "GoatCode v2.1.10 : agent IA en terminal avec basculement fournisseur en direct et cache de prompts Anthropic",

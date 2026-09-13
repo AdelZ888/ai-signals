@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-09-12T18:00:59.480Z",
+  "generatedAt": "2026-09-13T13:11:03.957Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-13-why-public-ai-benchmark-scores-shouldnt-determine-your-production-model",
+      "title": "Why public AI benchmark scores shouldn't determine your production model",
+      "date": "2026-09-13",
+      "excerpt": "Public AI leaderboard scores are easy to read but can be gamed and misrepresent real-world performance. Learn how to use them to shortlist models, then verify on your own data.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-13-why-public-ai-benchmark-scores-shouldnt-determine-your-production-model.jpg",
+      "tags": [
+        "benchmarks",
+        "leaderboards",
+        "evaluation",
+        "model-selection",
+        "product",
+        "metrics",
+        "ai-ethics"
+      ],
+      "sources": [
+        "https://www.pcmag.com/opinions/why-ai-benchmarks-are-total-bs-and-how-openai-and-anthropic-use-them-to"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-09-12-goatcode-v2110-terminal-ai-agent-with-live-provider-failover-and-anthropic-prompt-caching",
       "title": "GoatCode v2.1.10: Terminal AI agent with live provider failover and Anthropic prompt caching",
