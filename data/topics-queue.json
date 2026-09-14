@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-13T18:02:13.950Z",
+  "generatedAt": "2026-09-14T14:45:05.499Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "link": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "summary": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify and control the actions of AI agents. Microsoft's AI code…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-14T13:00:00.000Z",
+      "score": 155.22,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-09-14T14:45:05.463Z",
+      "file": "content/posts/2026-09-14-microsoft-issues-37-page-humanist-ai-code-prioritizing-people-and-rejecting-model-personhood.md",
+      "fileFr": "content/posts/fr/2026-09-14-microsoft-issues-37-page-humanist-ai-code-prioritizing-people-and-rejecting-model-personhood.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1162,
+      "wordsFr": 1392
+    },
     {
       "id": "https://artificialanalysis.ai/agents/search-api",
       "title": "Twelve search APIs ran through the same AI agent to see which one helps it most",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1494
     },
     {
-      "id": "https://www.sofx.com/openai-and-anthropic-launch-rival-pe-joint-ventures-to-address-enterprise-ai-deployment-gap/",
-      "title": "OpenAI and Anthropic launch ventures to speed enterprise AI adoption",
-      "link": "https://www.sofx.com/openai-and-anthropic-launch-rival-pe-joint-ventures-to-address-enterprise-ai-deployment-gap/",
-      "summary": "Article URL: https://www.sofx.com/openai-and-anthropic-launch-rival-pe-joint-ventures-to-address-enterprise-ai-deployment-gap/ Comments URL: https://news.ycombinator.com/item?id=48019709 Points: 2 # Comments: 0",
+      "id": "https://github.com/oooscoos/Benzi",
+      "title": "A fresh take on Code Intelligence for AI agents – publically benchmarked",
+      "link": "https://github.com/oooscoos/Benzi",
+      "summary": "Article URL: https://github.com/oooscoos/Benzi Comments URL: https://news.ycombinator.com/item?id=49697137 Points: 2 # Comments: 1",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-05T08:47:39.000Z",
-      "score": 164.67,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-09T16:23:07.455Z",
-      "file": "content/posts/2026-05-09-openai-and-anthropic-launch-pe-backed-ventures-to-embed-engineers-for-enterprise-ai-deployments.md",
-      "fileFr": "content/posts/fr/2026-05-09-openai-and-anthropic-launch-pe-backed-ventures-to-embed-engineers-for-enterprise-ai-deployments.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1506,
-      "wordsFr": 1281
+      "keywordHits": 4,
+      "publishedAt": "2026-09-14T14:07:27.000Z",
+      "score": 192,
+      "status": "queued"
     },
     {
       "id": "https://onlymusic.ai",
@@ -5638,6 +5650,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/world/china/china-state-newspaper-blasts-anthropics-calls-slow-ai-cold-war-tactic-2026-09-14/",
+      "title": "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic",
+      "link": "https://www.reuters.com/world/china/china-state-newspaper-blasts-anthropics-calls-slow-ai-cold-war-tactic-2026-09-14/",
+      "summary": "Article URL: https://www.reuters.com/world/china/china-state-newspaper-blasts-anthropics-calls-slow-ai-cold-war-tactic-2026-09-14/ Comments URL: https://news.ycombinator.com/item?id=49696781 Points: 8 # Comments: 2",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-14T13:44:18.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
       "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
       "link": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
@@ -5887,30 +5911,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-10T16:45:49.000Z",
       "score": 142.18,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20379",
-      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-      "link": "https://arxiv.org/abs/2608.20379",
-      "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video, thereby improving their real-world applicability. Yet, while surveys of LLM-based agents exist, the role of multimodality in shaping agency has not been systematically examined in recent years. This survey fills the gap by analyzing the impact of multimodality across the core functional modules of the agentic framework: perception, reasoning, planning, memory, and action. Using this lens, we trace the evolution from text-centric agents to multimodal frameworks, examine how modalities are integrated through delegated, late-fusion, and early-fusion architectures, and assess the emergence of agentic behaviors enabled by grounded perception and multimodal reasoning. We organize existing work through a modality-centric taxonomy that links architectural design choices to agent capabilities. Moreover, we review multimodal agentic systems across various application domains, including Robotics, GUI & Web Navigation, Multimedia Content Generation",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 9,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 140.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20414",
-      "title": "StateSight: Benchmarking Latent Spatial-State Reconstruction in Vision-Language Models",
-      "link": "https://arxiv.org/abs/2608.20414",
-      "summary": "arXiv:2608.20414v1 Announce Type: new Abstract: Vision-language models are increasingly used for multimodal question answering, yet their ability to reconstruct latent spatial structure from a single image remains difficult to isolate. Broad benchmarks often combine perception, optical character recognition, domain knowledge, linguistic priors, and reasoning in the same evaluation. We introduce StateSight, a procedurally generated benchmark for cube-net opposite-face reasoning, occluded cube-tower counting, and 4-neighbor connected-component counting. Each task family contains 300 single-image prompts with deterministic oracle labels and exact-match scoring. OpenAI GPT-5.5, using the API model identifier gpt-5.5, achieved 59.3%, 33.3%, and 28.3% accuracy across the three tasks, while Claude Sonnet 5 achieved 53.3%, 18.7%, and 7.3%. All final direct runs had zero format errors. A 30-participant human baseline on 60 items exceeded both models on every task, with mean accuracies of 80.8%, 68.8%, and 64.3%. Visible-derivation analysis identified recurring errors in image-state reconstruction and reasoning procedure. We also introduce StateSight-Steps, a companion dataset of 900 interleaved image-text examples and 3,600 deterministic intermediate visual states. The results show that format-valid responses can mask failures to recover the spatial structure required for verifiable vis",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 140.11,
       "status": "queued"
     },
     {
@@ -6259,18 +6259,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-09-04T04:00:00.000Z",
       "score": 122.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20341",
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "link": "https://arxiv.org/abs/2608.20341",
-      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requirement Documents (FRDs) and repository context to be ingested in a single workflow, making specification quality the execution fuel for autonomous delivery. This report formalises Spec-Driven Agentic Development (SDAD) as a synthesis of disciplined up-front formalisation and high-velocity implementation: intent capture, machine-readable specification, agentic synthesis, and independent multi-agent verification under human sign-off. We revisit the historical pendulum between Waterfall and Agile, introduce AI-code as a fourth production paradigm, and compare Human-Agile (circa 2020) with Agentic-SDAD (circa 2026) across artefacts, cadence, accountability, and security posture. Beyond process description, we extend the model to team role metamorphosis (engineer, QA, platform, and product functions), quantitative governance (Ambiguity Tax, Spec Fidelity, SER, and TCI_agentic with repair multiplier phi), and pragmatic adoption via hybrid estimation and a staged migration blueprint. Industrial and research evidence on AI-augmented testing and verification is integrated",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 122.11,
       "status": "queued"
     },
     {
@@ -6694,30 +6682,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.20342",
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "link": "https://arxiv.org/abs/2608.20342",
-      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal text injection. We report on four months of regular deployment (December 2025 through March 2026) as an experience report, documenting three generations of context delivery mechanisms, the failure modes that motivated each redesign, and the engineering tradeoffs of bridging heterogeneous memory systems rather than building a unified one.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 110.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2608.20397",
-      "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
-      "link": "https://arxiv.org/abs/2608.20397",
-      "summary": "arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to decouple routing from the schema-prefill cost: an INT8 semantic lookaside buffer (SLB) with a calibrated cross-encoder margin gate selects tools by retrieval, and arguments are generated over a compressed textual signature (median 19 tokens) rather than over spliced key/value (KV) cache. This path is depth-independent: routing accuracy stays near 89% as the registry scales to 250 tools - where a concatenate-all-schemas baseline overflows the context window entirely - and it reaches a first-argument token 1.66x sooner than a full-schema re-prefill at a ~80% main-context token saving. As a secondary, bounded lever we transplant a compiled schema KV block directly into the live context. This is fundamentally limited by rotary position embedding (RoPE) phase drift: an anchored splice is output-exact, but off-anchor placement corrupts attention, so beyond a threshold P=256 Nexus repairs the seam with a depth-adaptive suffix redecode that escalates to a full re-prefill. The resulting never-regress property is a guarantee on output fidelity (top-1 agreement, D_KL approx. 0) - not on latenc",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 110.11,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
       "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
       "link": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
@@ -6946,18 +6910,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2608.20485",
-      "title": "Terminal Agents: A Survey of AI Agents in Command-Line Environments",
-      "link": "https://arxiv.org/abs/2608.20485",
-      "summary": "arXiv:2608.20485v1 Announce Type: new Abstract: Large language model agents increasingly act through terminals, yet existing surveys disperse terminal-mediated behavior across software engineering, tool use, and computer-use research. We regard terminal agents as systems whose dominant progress-bearing action--observation loop is mediated by terminal command execution, textual feedback, and stateful environment interaction. Using terminal-mediated execution as an organizing lens, this survey establishes workload-level boundaries and connects system architecture, competence acquisition, and evaluation through a seven-dimensional terminal competence profile. Our synthesis shows that realized behavior is jointly shaped by the model, interface, harness, runtime, and environment. Executable trajectories ground learning in action consequences, verification, and recovery, whereas prevailing evaluations emphasize final outcomes and expose process quality, recovery, and governance unevenly. Bounded fixed-condition diagnostics illustrate two implications: benchmark families expose different process signals, and matched system comparisons reveal benchmark-dependent performance and limits of component attribution. These findings motivate explicit reporting of system and runtime conditions, supported by replayable traces and process-level evidence. The framework provides a unified basis for",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "score": 104.11,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.04343",
       "title": "A Removal Based Approach to Improve LLM Faithfulness at Test-Time",
       "link": "https://arxiv.org/abs/2609.04343",
@@ -7183,6 +7135,78 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-09T20:06:28.000Z",
       "score": 55.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+      "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he said it was \"absolutely\" possible, but vowed to take actions to prevent that from happening, even if it meant pausing training, adding that \"there are risks we should not be able to incur on behalf of humanity.\" \"We're not rushing into an IPO. I actually think that, given everything happening with safety, th … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-12T21:16:28.000Z",
+      "score": 50.91,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-09T11:00:00.000Z",
+      "score": 48.97,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, seem to think the AI executives are being overreactive and fear that a pause could lead to China outpacing the US in the AI race. According to the Financial Times, Trump said \"Look, we're leading China in AI … and, frankly, I want to keep it that way, because whoever wins AI, wins.\" Jo … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-13T19:41:48.000Z",
+      "score": 48.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "title": "Meta says it&#8217;s changing AI suggestions after posing invasive personal questions",
+      "link": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina El-Kassaby says the company \"missed the mark,\" adding that \"the feature never should have prompted the individual with questions like that.\" Last week, Instagram user Kalie Robins posted a video explaining how Meta AI presented her with an invasive suggestion after cross-posting a clip to Facebook. The AI prompt, \"Who is the child passenger?\" appeared beneath a video of her and her child sin … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-11T14:25:21.000Z",
+      "score": 43.66,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
+      "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
+      "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-11T08:15:25.000Z",
+      "score": 37.53,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/gpt-6-astra-ce-qui-a-change-chez-openai-en-quinze-jours/",
+      "title": "GPT-6 Astra : ce qui a changé chez OpenAI en quinze jours",
+      "link": "https://www.actuia.com/actualite/gpt-6-astra-ce-qui-a-change-chez-openai-en-quinze-jours/",
+      "summary": "En septembre, OpenAI a présenté GPT-6 Astra aux entreprises avec des chiffres de sûreté et des contrôles d'administration absents du lancement initial. Entre les deux dates, un rapport d'incident et un wiki détourné ont conduit à une mise à jour des promesses de sûreté.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-10T10:19:04.000Z",
+      "score": 37.2,
       "status": "queued"
     },
     {
