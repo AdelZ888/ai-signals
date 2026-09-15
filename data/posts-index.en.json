@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:31:56.389Z",
+  "generatedAt": "2026-09-15T18:57:00.630Z",
   "locale": "en",
   "posts": [
     {
@@ -25,6 +25,30 @@
       "series": "founder-notes",
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-09-15-prototype-a-multilingual-content-assistant-with-locale-confidence-routing-and-per-language-prompts",
+      "title": "Prototype a multilingual content assistant with locale-confidence routing and per-language prompts",
+      "date": "2026-09-15",
+      "excerpt": "Practical prototype to route user messages by locale confidence; choose native generation or translate-then-generate, apply per-language tone templates, PII masking, and spot-check rollouts.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-15-prototype-a-multilingual-content-assistant-with-locale-confidence-routing-and-per-language-prompts.jpg",
+      "tags": [
+        "multilingual",
+        "localization",
+        "natural-language-processing",
+        "mlops",
+        "product"
+      ],
+      "sources": [
+        "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

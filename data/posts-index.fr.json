@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:31:56.392Z",
+  "generatedAt": "2026-09-15T18:57:00.633Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-09-15-prototype-a-multilingual-content-assistant-with-locale-confidence-routing-and-per-language-prompts",
+      "title": "Prototyper un assistant de contenu multilingue avec routage par confiance de locale et prompts par langue",
+      "date": "2026-09-15",
+      "excerpt": "Prototype pragmatique pour router les messages utilisateurs selon la confiance de locale : choisir génération native ou traduction-puis-génération, appliquer des modèles de ton par langue, masquer les données personnelles (PII) et déployer par étapes avec contrôles.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-15-prototype-a-multilingual-content-assistant-with-locale-confidence-routing-and-per-language-prompts.jpg",
+      "tags": [
+        "multilingue",
+        "assistant",
+        "IA",
+        "traduction",
+        "routage",
+        "déploiement"
+      ],
+      "sources": [
+        "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-09-14-benzi-a-publicly-benchmarked-tree-sitter-resolver-that-returns-structured-code-answers-for-ai-agents",
