@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-15T18:57:00.630Z",
+  "generatedAt": "2026-09-16T19:18:30.410Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-16-measuring-and-improving-run-to-run-consistency-in-agents-with-altk-evolve-guidelines",
+      "title": "Measuring and Improving Run-to-Run Consistency in Agents with ALTK-Evolve Guidelines",
+      "date": "2026-09-16",
+      "excerpt": "Learn a practical pipeline to measure run-to-run agent consistency (R=5), log full trajectories, and inject short ALTK-Evolve guidelines at inference to reduce flip failures.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-16-measuring-and-improving-run-to-run-consistency-in-agents-with-altk-evolve-guidelines.jpg",
+      "tags": [
+        "agents",
+        "consistency",
+        "reliability",
+        "evaluation",
+        "ALTK-Evolve",
+        "metrics",
+        "guidelines",
+        "HuggingFace"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-15-ex-anthropic-researcher-warns-of-extinction-risk-practical-release-checklist-for-small-ai-teams",
       "title": "Ex-Anthropic researcher warns of extinction risk; practical release checklist for small AI teams",
