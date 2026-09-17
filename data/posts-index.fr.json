@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-17T13:00:40.012Z",
+  "generatedAt": "2026-09-17T19:02:13.538Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-17-deploy-a-starter-apowerb-agent-to-classify-text-and-trigger-webhooks",
+      "title": "Déployer un agent ApowerB de démarrage pour classer du texte et appeler des webhooks",
+      "date": "2026-09-17",
+      "excerpt": "Guide pas à pas pour débuter avec ApowerB : cloner le dépôt, lancer un agent simple qui classe des textes et appelle des webhooks, plus une checklist, des conseils de dépannage et des notes pour la production.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-17-deploy-a-starter-apowerb-agent-to-classify-text-and-trigger-webhooks.jpg",
+      "tags": [
+        "apowerb",
+        "agents",
+        "ia",
+        "orchestration",
+        "déploiement",
+        "webhooks",
+        "startup",
+        "devops"
+      ],
+      "sources": [
+        "https://github.com/apowerb/apowerb"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-09-17-microsoft-and-aftuft-set-ten-enforceable-ai-privacy-principles-for-schools-obligations-for-teachers-it-and-vendors",
       "title": "Microsoft et syndicats enseignants : dix principes de confidentialité AI pour les écoles — ce que cela signifie pour les emplois et les produits",
