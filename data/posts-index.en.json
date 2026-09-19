@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:15:39.722Z",
+  "generatedAt": "2026-09-19T18:23:31.901Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,31 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-09-19-security-cards-open-source-library-guidance-that-reduced-insecure-ai-generated-code-by-72percent-in-reware-labs-evaluation",
+      "title": "Security Cards: open-source library guidance that reduced insecure AI-generated code by 72% in Reware Labs' evaluation",
+      "date": "2026-09-19",
+      "excerpt": "Open-source Security Cards give AI coding agents short, library-specific security guidance for 80+ libraries (13 languages). Reware Labs found up to 72.3% fewer insecure outputs.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-19-security-cards-open-source-library-guidance-that-reduced-insecure-ai-generated-code-by-72percent-in-reware-labs-evaluation.jpg",
+      "tags": [
+        "security",
+        "ai-agents",
+        "developer-tools",
+        "open-source",
+        "devsecops",
+        "code-generation"
+      ],
+      "sources": [
+        "https://www.rewarelabs.com/blog/introducing-security-cards/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

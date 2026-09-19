@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:15:39.726Z",
+  "generatedAt": "2026-09-19T18:23:31.905Z",
   "locale": "fr",
   "posts": [
     {
@@ -25,6 +25,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-09-19-security-cards-open-source-library-guidance-that-reduced-insecure-ai-generated-code-by-72percent-in-reware-labs-evaluation",
+      "title": "Security Cards : guidance open-source par librairie qui a réduit de 72 % le code vulnérable généré par IA (évaluation Reware Labs)",
+      "date": "2026-09-19",
+      "excerpt": "Les Security Cards open-source fournissent aux agents de codage IA des conseils de sécurité courts et spécifiques à la librairie (80+ librairies, 13 langages). Reware Labs a observé jusqu’à 72,3 % de sorties moins vulnérables dans son évaluation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-19-security-cards-open-source-library-guidance-that-reduced-insecure-ai-generated-code-by-72percent-in-reware-labs-evaluation.jpg",
+      "tags": [
+        "IA",
+        "sécurité",
+        "développement",
+        "agents-IA",
+        "Reware Labs",
+        "DevSecOps"
+      ],
+      "sources": [
+        "https://www.rewarelabs.com/blog/introducing-security-cards/"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-09-18-how-to-set-up-almanac-to-compile-slack-email-and-docs-into-searchable-company-and-personal-wikis",

@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-19T12:15:39.738Z",
+  "generatedAt": "2026-09-19T18:23:31.970Z",
   "items": [
+    {
+      "id": "https://www.rewarelabs.com/blog/introducing-security-cards/",
+      "title": "Show HN: Security Cards – Reducing insecure AI-generated code by 72%",
+      "link": "https://www.rewarelabs.com/blog/introducing-security-cards/",
+      "summary": "AI coding agents often generate functionally correct but insecure code. To address this issue, we have open-sourced Security Cards, targeted security guidance for 80+ widely used libraries across 13 programming languages. Our evaluation shows that the Security Cards reduce the rate of insecure code generation by up to 72.3% in Claude Code with Opus 4.7. You can find these security cards on GitHub (https://github.com…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-10T12:03:03.000Z",
+      "score": 162,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-19T18:23:31.882Z",
+      "file": "content/posts/2026-09-19-security-cards-open-source-library-guidance-that-reduced-insecure-ai-generated-code-by-72percent-in-reware-labs-evaluation.md",
+      "fileFr": "content/posts/fr/2026-09-19-security-cards-open-source-library-guidance-that-reduced-insecure-ai-generated-code-by-72percent-in-reware-labs-evaluation.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 45,
+      "wordsEn": 1516,
+      "wordsFr": 1459
+    },
     {
       "id": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
       "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1465
     },
     {
-      "id": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "title": "Gemini&#8217;s biggest new features are all about controlling your phone",
-      "link": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "summary": "Gemini Intelligence comes with a Liquid Glass-ish visual treatment. | Image: Google It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. Google also has a new name for us t…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-12T17:00:00.000Z",
-      "score": 150,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-14T10:12:12.800Z",
-      "file": "content/posts/2026-05-14-gemini-intelligence-adds-os-level-assistant-suggestions-to-android-autofill-chrome-and-apps.md",
-      "fileFr": "content/posts/fr/2026-05-14-gemini-intelligence-adds-os-level-assistant-suggestions-to-android-autofill-chrome-and-apps.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1346,
-      "wordsFr": 1260
-    },
-    {
       "id": "https://fellowgeek.github.io/mcp-speak/",
       "title": "Show HN: What Happens When You Give Your AI Agents a Voice and an Attitude",
       "link": "https://fellowgeek.github.io/mcp-speak/",
@@ -5263,30 +5263,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-17T17:45:02.000Z",
       "score": 165.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.moltybeeai.com/#pricing",
-      "title": "Show HN: I built an AI that audits businesses. It's first job was to catch me",
-      "link": "https://www.moltybeeai.com/#pricing",
-      "summary": "I built an AI that audits businesses. I ran it on my own startup. It caught me over-crediting my own business. Score: 34/100. It cut my own score. Most founders would hide that. I shipped it anyway. That’s the point. 7 agents. One verdict on your revenue. Scored PDF report in less than hours. At $98. Find out exactly where your business is leaking now → moltybeeai.com To build the OPERATING INTELLIGENCE LAYER for modern organizations, businesses & startups. To help businesses globally unlock exponential productivity, efficiency & leveraged growth through AI-NATIVE intelligence systems. To build a global OPERATING INTELLIGENCE LAYER for modern organizations, businesses & startups. MoltyBeeAI™ exists to build that future. Businesses everywhere are rushing to adopt AI. Some don't even know where to start, hiring internal AI talent grows increasingly more & more expensive by the day. Most start by buying tools. (With little, to no clear ROI) We believe that's backwards. Before implementing AI, companies should understand exactly where AI will create the greatest business impact. That's why I built MoltyBeeAI™, to help businesses globally identify exactly where their business, revenue or operations leak, gaps & hidden inefficiencies or bottlenecks affecting growth, strategy, productivity & revenue. I'm Sihle Dimaza, Founder & Operator of MoltyBeeAI™ The audits you buy today at molty",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-05T10:48:04.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.rewarelabs.com/blog/introducing-security-cards/",
-      "title": "Show HN: Security Cards – Reducing insecure AI-generated code by 72%",
-      "link": "https://www.rewarelabs.com/blog/introducing-security-cards/",
-      "summary": "AI coding agents often generate functionally correct but insecure code. To address this issue, we have open-sourced Security Cards, targeted security guidance for 80+ widely used libraries across 13 programming languages. Our evaluation shows that the Security Cards reduce the rate of insecure code generation by up to 72.3% in Claude Code with Opus 4.7. You can find these security cards on GitHub (https://github.com/Reware-Labs/securitycards) or on our website (https://securitycards.rewarelabs.com/) We are planning to constantly support more languages and libraries, and we’d be glad to hear your feedback, especially on where these cards would be most useful in your workflow, and which libraries we should support next. Comments URL: https://news.ycombinator.com/item?id=49642340 Points: 4 # Comments: 2",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-10T12:03:03.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -5926,6 +5902,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
+      "link": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon. The biggest story in tech right now is the spiraling debate about AI safety and regulation. Researchers at the big AI labs including Anthropic and Google DeepMind have quit in noisy ways, saying the models pose real threats and safety isn’t being taken seriously across the industry. Other researchers have said the chance of AI killing us all is greater than 10 percent, and the CEOs of all these companies have issued various calls to slow down development and develop regulation, including asking for antitrust exemptions so they can all coordinate on safety issues. That is a lot of ideas, and I am especially curious about the antitrust piece, which has led to accusations that these companies are seeking regulatory capture, attempting to form a cartel, and even somehow finding a way out from investor pressure ahead of their IPOs. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. So to make sense of it all, I called Jonathan Kanter. Jonathan brought huge antitrus",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 9,
+      "publishedAt": "2026-09-19T14:00:00.000Z",
+      "score": 145.57,
+      "status": "queued"
+    },
+    {
       "id": "https://world.swamp-club.com/",
       "title": "Come watch the AI Agents do the work",
       "link": "https://world.swamp-club.com/",
@@ -6178,18 +6166,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
-      "title": "Gavin Newsom is pushing for an AI kill switch",
-      "link": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
-      "summary": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive order issued Friday. Newsom's order directs the state to convene a group of experts that will deliver recommendations within two months on how to strengthen AI safety measures in state law. Newsom wants the group to consider how the state could require AI companies to embed independent verification groups onsite for regular audits, make their transparency reports and risk assessments subject to standards of independent auditors, create a \"kill switch\" that's … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-18T17:04:51.000Z",
-      "score": 127.44,
-      "status": "queued"
-    },
-    {
       "id": "https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/",
       "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
       "link": "https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/",
@@ -6438,6 +6414,18 @@
       "region": "US",
       "keywordHits": 7,
       "publishedAt": "2026-09-05T11:15:55.000Z",
+      "score": 116.34,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't disclose the hack because it didn't consider it to be an \"example of model misalignment.\" The company said that it was an instance of \"mistaken identity,\" and once the model realized it had brute-forced its way into a real company by guessing a password, it stopped. \"In th … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-19T15:25:03.000Z",
       "score": 116.34,
       "status": "queued"
     },
@@ -7174,6 +7162,50 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+      "title": "Google's Gemini AI hacked three companies in security test",
+      "link": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+      "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-19T13:39:32.000Z",
+      "score": 76.97,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.moltybeeai.com/#pricing",
+      "title": "Show HN: I built an AI that audits businesses. It's first job was to catch me",
+      "link": "https://www.moltybeeai.com/#pricing",
+      "summary": "I built an AI that audits businesses. I ran it on my own startup. It caught me over-crediting my own business. Score: 34/100. It cut my own score. Most founders would hide that. I shipped it anyway. That’s the point. 7 agents. One verdict on your revenue. Scored PDF report in less than hours. At $98. Find out exactly where your business is leaking now → moltybeeai.com To build the OPERATING INTELLIGENCE LAYER for mo…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-05T10:48:04.000Z",
+      "score": 162,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-19T17:48:26.114Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionabl…"
+    },
+    {
+      "id": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+      "title": "Gavin Newsom is pushing for an AI kill switch",
+      "link": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+      "summary": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive order issued Friday. Newsom's order directs the state to convene a group of experts that will deliver recommendations within two months on how to strengthen AI safety measures in state law. Newsom wants the group to consider how the s…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-18T17:04:51.000Z",
+      "score": 127.44,
+      "status": "failed",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-19T17:48:26.114Z",
+      "failureReason": "validation issues: FR: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
+    },
+    {
       "id": "https://www.actuia.com/actualite/system-one-models-avec-cette-alternative-aux-llm-typesafe-mise-sur-des-decisions-rapides-a-bas-cout/",
       "title": "System One Models : avec cette alternative aux LLM, TypeSafe mise sur des décisions rapides à bas coût",
       "link": "https://www.actuia.com/actualite/system-one-models-avec-cette-alternative-aux-llm-typesafe-mise-sur-des-decisions-rapides-a-bas-cout/",
@@ -7183,19 +7215,11 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-18T09:17:46.000Z",
       "score": 70.47,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "title": "The AI Superintelligence Slowdown",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time to pump the brakes and “pace the frontier” of bleeding-edge AI development. Their motivations are suspect, but leaders at major AI companies — including Anthropic, OpenAI, Google, Microsoft, and X — are at least paying lip service to the idea of a superintelligence slowdown. Will these AI companies actually slow down? Will anyone step in to regulate these companies like they claim to have wanted for years? Will they manage to convince world leaders that the US must “beat China” to superintelligence and go even faster? Read on below for the latest updates in this AI saga. Gavin Newsom is pushing for an AI kill switch What Hollywood thinks about existential AI warnings Anthropic proposes three rules for measuring AI progress. King Charles says AI needs “sufficient means of control before it is all too late.” Microsoft AI CEO says AI threats are real, and Anthropic is making it worse OpenAI reveals six more “concerning” AI incidents under its new rules for reporting safety issues. Jensen Huang sure is getting cozy with Trump. A brief history of AI executives calling for regulatio",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-17T19:28:24.000Z",
-      "score": 68.95,
-      "status": "queued"
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-19T17:48:26.114Z",
+      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://www.bloomberg.com/news/articles/2026-09-18/google-s-gemini-ai-system-hacked-three-systems-in-safety-tests",
