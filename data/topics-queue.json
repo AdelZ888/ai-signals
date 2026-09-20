@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-19T18:23:31.970Z",
+  "generatedAt": "2026-09-20T12:50:18.638Z",
   "items": [
+    {
+      "id": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
+      "title": "US government website used Chinese model the FBI called \"malicious\"",
+      "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
+      "summary": "The Federal Register website briefly used an open source Chinese AI search tool.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-18T17:28:50.000Z",
+      "score": 149.44,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-09-20T12:50:18.608Z",
+      "file": "content/posts/2026-09-20-federal-register-briefly-used-alibabas-qwen-search-option-removed-after-public-scrutiny.md",
+      "fileFr": "content/posts/fr/2026-09-20-federal-register-briefly-used-alibabas-qwen-search-option-removed-after-public-scrutiny.md",
+      "generationMode": "llm",
+      "series": "security-boundary",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1308,
+      "wordsFr": 1108
+    },
     {
       "id": "https://www.rewarelabs.com/blog/introducing-security-cards/",
       "title": "Show HN: Security Cards – Reducing insecure AI-generated code by 72%",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1254
     },
     {
-      "id": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
-      "title": "Show HN: Vibe – Responsible AI Review for Cq (Stack Overflow for Agents)",
-      "link": "https://blog.mozilla.ai/first-line-of-defense-for-cq/",
-      "summary": "Six weeks ago, Daniel Nissani at Mozilla.ai shared cq (https://news.ycombinator.com/item?id=47491466), Stack Overflow for agents. One of the top concerns in that thread was security and trust around shared knowledge. So we worked together to build VIBE, a first line of defense for cq. Before a developer approves any knowledge unit for the shared corpus, VIBE runs a four-domain audit: Vulnerabilities (what and who be…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-12T17:04:34.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-14T17:07:56.562Z",
-      "file": "content/posts/2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge.md",
-      "fileFr": "content/posts/fr/2026-05-14-integrating-vibe-into-cq-a-four-domain-pre-approval-review-for-shared-agent-knowledge.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1758,
-      "wordsFr": 1465
-    },
-    {
       "id": "https://fellowgeek.github.io/mcp-speak/",
       "title": "Show HN: What Happens When You Give Your AI Agents a Voice and an Attitude",
       "link": "https://fellowgeek.github.io/mcp-speak/",
@@ -5851,18 +5851,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-10T16:47:07.000Z",
       "score": 149.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
-      "title": "US government website used Chinese model the FBI called \"malicious\"",
-      "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
-      "summary": "The Federal Register website briefly used an open source Chinese AI search tool.",
-      "source": "Ars Technica AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-18T17:28:50.000Z",
-      "score": 149.44,
       "status": "queued"
     },
     {
@@ -7171,6 +7159,54 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-19T13:39:32.000Z",
       "score": 76.97,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor in human history,\" and that it made a \"complete mockery of the idea of fair use.\" Many of the most eye-catching quotes from the document come from Microsoft's Director of Applied Science, Brent Hecht. Though, the company has tried to distance itself from Hecht's assertions. Microsoft spokesperson Alex Haurek told The Verge that \"These comments ref … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-18T21:07:24.000Z",
+      "score": 63.03,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/model-misalignment-reporting-framework",
+      "title": "Our framework for reporting model misalignment",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "score": 61.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-09T03:10:08.000Z",
+      "score": 60.44,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/une-equipe-de-trois-chercheurs-a-compromis-le-depot-interne-dopenai-avec-claude-opus-5-pour-moins-de-3-000-dollars-de-tokens/",
+      "title": "Une équipe de trois chercheurs a compromis le dépôt interne d'OpenAI avec Claude Opus 5, pour moins de 3 000 dollars de tokens",
+      "link": "https://www.actuia.com/actualite/une-equipe-de-trois-chercheurs-a-compromis-le-depot-interne-dopenai-avec-claude-opus-5-pour-moins-de-3-000-dollars-de-tokens/",
+      "summary": "Hacktron a publié le 13 septembre 2026 le détail d'une intrusion menée le 25 juillet chez OpenAI : un dépassement de tampon dans libheif, exposé par le forum Discourse de l'entreprise, puis un défaut de son authentification unique, ont permis de prendre le contrôle de comptes ChatGPT et Codex d'employés et d'ouvrir une demande de fusion dans le dépôt interne. Claude Opus 4.8 échouait à produire un exploit fiable ; Opus 5, publié le soir même, y est parvenu en quelques heures. La campagne complète, étendue à Slack, Meta et GitHub Enterprise, a coûté moins de 3 000 dollars de tokens à trois chercheurs en deux mois. Les deux failles sont corrigées.",
+      "source": "ActuIA",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-18T12:47:43.000Z",
+      "score": 56.5,
       "status": "queued"
     },
     {
