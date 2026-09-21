@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-09-20T18:08:57.818Z",
+  "generatedAt": "2026-09-21T14:49:07.742Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-21-nanosamurai-an-open-source-self-hosted-speech-ai-platform-how-to-run-a-quick-smoke-test",
+      "title": "nanosamurai — plateforme open‑source de reconnaissance vocale auto‑hébergée : comment faire un smoke‑test rapide",
+      "date": "2026-09-21",
+      "excerpt": "Guide pratique (UK) pour exécuter un test rapide de nanosamurai : cloner le dépôt public, lancer le starter local et vérifier qu'un échantillon audio de 30 s produit une transcription localement.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-21-nanosamurai-an-open-source-self-hosted-speech-ai-platform-how-to-run-a-quick-smoke-test.jpg",
+      "tags": [
+        "nanosamurai",
+        "speech-ai",
+        "auto-hébergement",
+        "sécurité",
+        "UK",
+        "devops",
+        "ASR"
+      ],
+      "sources": [
+        "https://github.com/nanosamurai/nanosamurai"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-09-20-ai-native-boilerplate-160-rules-across-six-layers-to-stabilize-llm-agents",
       "title": "ai-native-boilerplate : stabiliser les agents LLM avec un petit jeu de règles versionné",

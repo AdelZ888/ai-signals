@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-09-20T18:08:57.813Z",
+  "generatedAt": "2026-09-21T14:49:07.738Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-21-nanosamurai-an-open-source-self-hosted-speech-ai-platform-how-to-run-a-quick-smoke-test",
+      "title": "nanosamurai: an open-source, self-hosted speech AI platform — how to run a quick smoke test",
+      "date": "2026-09-21",
+      "excerpt": "A practical smoke-test for nanosamurai: an open-source, self-hosted speech AI. Clone the repo, use the docker-compose starter and confirm a 30‑second transcript locally.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-21-nanosamurai-an-open-source-self-hosted-speech-ai-platform-how-to-run-a-quick-smoke-test.jpg",
+      "tags": [
+        "nanosamurai",
+        "speech-to-text",
+        "ASR",
+        "self-hosted",
+        "docker-compose",
+        "Kubernetes",
+        "observability",
+        "privacy"
+      ],
+      "sources": [
+        "https://github.com/nanosamurai/nanosamurai"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-20-ai-native-boilerplate-160-rules-across-six-layers-to-stabilize-llm-agents",
       "title": "ai-native-boilerplate: 160+ rules across six layers to stabilize LLM agents",
