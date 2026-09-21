@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-21T14:49:07.738Z",
+  "generatedAt": "2026-09-21T20:01:55.934Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-21-how-to-integrate-emotes-reaction-api-into-an-ai-agent-conversation-loop",
+      "title": "How to integrate Emote's reaction API into an AI agent conversation loop",
+      "date": "2026-09-21",
+      "excerpt": "A concise guide to wiring Emote's one-endpoint reaction API into your server-side agent loop. Run reactions in parallel with your LLM; returns one emoji or 'none'.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-21-how-to-integrate-emotes-reaction-api-into-an-ai-agent-conversation-loop.jpg",
+      "tags": [
+        "emote",
+        "reactions",
+        "ai-agents",
+        "api",
+        "integration",
+        "tutorial",
+        "server",
+        "typescript"
+      ],
+      "sources": [
+        "https://useemote.com"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "beginner",
+      "timeToImplementMinutes": 45,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-21-nanosamurai-an-open-source-self-hosted-speech-ai-platform-how-to-run-a-quick-smoke-test",
       "title": "nanosamurai: an open-source, self-hosted speech AI platform — how to run a quick smoke test",
