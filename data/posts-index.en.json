@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-23T13:13:05.282Z",
+  "generatedAt": "2026-09-23T18:58:57.812Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-23-nimblegate-self-hosted-git-push-guardrails-to-audit-approve-or-block-ai-agent-pushes",
+      "title": "Nimblegate: self-hosted Git push guardrails to audit, approve, or block AI agent pushes",
+      "date": "2026-09-23",
+      "excerpt": "Guide to running Nimblegate: a self-hosted gate that audits, forwards or blocks Git pushes from AI agents, logs decisions, and supports staged enforcement for protected branches.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-23-nimblegate-self-hosted-git-push-guardrails-to-audit-approve-or-block-ai-agent-pushes.jpg",
+      "tags": [
+        "nimblegate",
+        "git",
+        "ai-agents",
+        "security",
+        "self-hosted",
+        "devops",
+        "github",
+        "guardrails"
+      ],
+      "sources": [
+        "https://github.com/nimblegate/nimblegate"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 180,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-23-openai-grants-ukraine-access-to-daybreak-gpt-56-sol-for-civilian-cyber-defence",
       "title": "OpenAI grants Ukraine access to Daybreak (GPT-5.6 Sol) for civilian cyber defence",
