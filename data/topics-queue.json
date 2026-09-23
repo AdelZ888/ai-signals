@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-22T18:38:12.157Z",
+  "generatedAt": "2026-09-23T13:13:05.296Z",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c90kly26d7pzo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI gives cyber defence tools to Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/c90kly26d7pzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine will get access to OpenAI's advanced GPT 5.6 Sol model under the deal - a rival to Anthropic's Mythos and Fable",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-23T12:01:37.000Z",
+      "score": 170.2,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-09-23T13:13:05.262Z",
+      "file": "content/posts/2026-09-23-openai-grants-ukraine-access-to-daybreak-gpt-56-sol-for-civilian-cyber-defence.md",
+      "fileFr": "content/posts/fr/2026-09-23-openai-grants-ukraine-access-to-daybreak-gpt-56-sol-for-civilian-cyber-defence.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1252,
+      "wordsFr": 1163
+    },
     {
       "id": "https://github.com/generallymatthew/factlabel",
       "title": "Show HN: Factlabel: catches AI agents lying about the data they're reporting on",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1189
     },
     {
-      "id": "https://www.numerama.com/tech/2254829-google-gemini-va-soffrir-un-mode-plus-cerebral-pour-arreter-de-vous-repondre-a-cote.html",
-      "title": "Google Gemini va s’offrir un mode plus « cérébral » pour arrêter de vous répondre à côté",
-      "link": "https://www.numerama.com/tech/2254829-google-gemini-va-soffrir-un-mode-plus-cerebral-pour-arreter-de-vous-repondre-a-cote.html",
-      "summary": "Selon un article publié par 9to5Google le 17 mai 2026, Google testerait une nouvelle option baptisée « Niveau de réflexion » dans Gemini. Cette fonctionnalité permettrait d’ajuster l’effort de raisonnement de l’IA avant qu’elle ne réponde.",
-      "source": "Numerama IA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-18T10:50:00.000Z",
-      "score": 150,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-18T11:50:02.189Z",
-      "file": "content/posts/2026-05-18-geminis-reflection-level-toggle-tests-slower-more-deliberate-replies-to-reduce-hallucinations.md",
-      "fileFr": "content/posts/fr/2026-05-18-geminis-reflection-level-toggle-tests-slower-more-deliberate-replies-to-reduce-hallucinations.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1343,
-      "wordsFr": 1229
-    },
-    {
       "id": "https://aiburnclock.org/",
       "title": "Show HN: AI Burn Clock – the cost of agents reading whole files",
       "link": "https://aiburnclock.org/",
@@ -5346,6 +5346,18 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-17T11:53:10.000Z",
+      "score": 162,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435",
+      "title": "First of its kind, AI malware. CLOSEDQUORUM",
+      "link": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435",
+      "summary": "Article URL: https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435 Comments URL: https://news.ycombinator.com/item?id=49814973 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-23T12:17:35.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -5734,6 +5746,30 @@
       "status": "queued"
     },
     {
+      "id": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://filmstudio.rxlab.app",
+      "title": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
+      "link": "https://filmstudio.rxlab.app",
+      "summary": "Hi HN, I built RxFilm Studio, a video workspace that lets you create and revise videos with AI agent. The reason I started this project is simple: I’ve noticed that many independent developers and small teams want to create marketing videos for their product, but producing these videos requires a lot of time and effort — from editing and visual effects to voiceovers and subtitles. So I built Rxfilm Studio to simplify the entire video creation process. Start with an idea, a product website, images, or existing footage, and then generate a complete video with: - Story and structure - Editing and timeline - Visual and sound effects - Voiceovers, background music - Subtitles and translation Github: https://github.com/rxtech-lab/film-workflow Here's a demo marketing video created using RxFilm Studio: https://youtu.be/9_M15fRdZQE Welcome to try it out and I would love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=49815095 Points: 7 # Comments: 3",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-23T12:28:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
       "title": "My Mental Model of AI Broke on September 8",
       "link": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
@@ -5959,6 +5995,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-10T16:45:49.000Z",
       "score": 142.18,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.botgauge.com",
+      "title": "Show HN: Red-team your AI agent",
+      "link": "https://www.botgauge.com",
+      "summary": "Article URL: https://www.botgauge.com Comments URL: https://news.ycombinator.com/item?id=49814754 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-23T11:58:50.000Z",
+      "score": 141.67,
       "status": "queued"
     },
     {
@@ -6382,18 +6430,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.00015",
-      "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
-      "link": "https://arxiv.org/abs/2609.00015",
-      "summary": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controllers, and execution backends operate over the same user or enterprise environment. In such settings, safety becomes a system-level action-governance problem: deciding whether concrete agent-generated actions should be committed before they modify shared state. Existing safeguards cover prompts, tool calls, GUI actions, and agent-local behavior, but often leave enforcement fragmented, obscure risks that emerge across multi-step action flows, and provide limited support for auditability and policy evolution. We present OpenAgentFlow, a control-plane/action-plane architecture that enforces safety at the action-commit boundary. It normalizes pending GUI actions, API calls, tool calls, and LLM-generated invocations into a unified AgentEvent stream, routes each event through a shared pre-execution Policy Enforcement Point, and maintains provenance, session state, audit records, and updatable policies in the control plane. This creates a shared governable action stream and allows new rules to take effect without modifying agents, prompts, models, or execution paths. We instantiate OpenAgentFlow on Android. On a 300-case action-event benchmark, it achieves 94.0% accuracy and a 95.3% attack",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "score": 116.31,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.19425",
       "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
       "link": "https://arxiv.org/abs/2609.19425",
@@ -6526,6 +6562,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+      "title": "Meta Tests Muse AI Agent Calls That Are Made by Humans in a Call Center",
+      "link": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+      "summary": "Article URL: https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/ Comments URL: https://news.ycombinator.com/item?id=49814468 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-23T11:32:20.000Z",
+      "score": 112.08,
+      "status": "queued"
+    },
+    {
       "id": "https://www.youtube.com/watch?v=P1v1-2CCKD0",
       "title": "Two API Calls Exposed AI's Hidden Reasoning [video]",
       "link": "https://www.youtube.com/watch?v=P1v1-2CCKD0",
@@ -6571,18 +6619,6 @@
       "keywordHits": 5,
       "publishedAt": "2026-09-04T13:34:12.000Z",
       "score": 110.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.00012",
-      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
-      "link": "https://arxiv.org/abs/2609.00012",
-      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failure probability grows sharply with length. Existing agentic benchmarks report end-to-end success but confound this state-tracking difficulty with instruction interpretation, give no control group that isolates it, and are vulnerable to shortcuts such as a hallucinated final answer, so they cannot say why a long run fails. Whether an LLM can carry exact intermediate state across many tool calls at all is itself not well established. We test this cleanly by having the model compute a cryptographic hash, MD5, step by step: a sequence of $196$ dependent tool calls over $64$ rounds while it carries four $32$-bit words $(a,b,c,d)$ in its own context from one call to the next. Interpretation is trivial and, because we implement MD5 from scratch (RFC~1321), we align every call to the ground-truth trace and check the digest to the bit, so any failure is pure bookkeeping. gpt-oss-120b, a mixture-of-experts model with only $\\sim$5.5B active parameters per token, at temperature $0$ with a short fixed prompt, carries the full state across all $196$ calls and returns the correct digest on a majority",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "score": 110.31,
       "status": "queued"
     },
     {
@@ -6655,6 +6691,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-15T04:00:00.000Z",
       "score": 109.36,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/kapitan00000978-sketch/Universal-Agent-HP",
+      "title": "Universal Agent HP – 10-layer autonomous AI agent OS (free or local)",
+      "link": "https://github.com/kapitan00000978-sketch/Universal-Agent-HP",
+      "summary": "Article URL: https://github.com/kapitan00000978-sketch/Universal-Agent-HP Comments URL: https://news.ycombinator.com/item?id=49814428 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-23T11:28:18.000Z",
+      "score": 108.97,
       "status": "queued"
     },
     {
@@ -6763,30 +6811,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-04T04:00:00.000Z",
       "score": 104.37,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.00028",
-      "title": "UI-Venus-2 Technical Report",
-      "link": "https://arxiv.org/abs/2609.00028",
-      "summary": "arXiv:2609.00028v1 Announce Type: new Abstract: Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmark-oriented models to dependable real-world applications remains challenging due to limited environment coverage, brittle task construction, and unreliable reward verification. In this work, we present UI-Venus-2, a general-purpose foundation GUI agent designed to operate across mobile, web, and desktop environments through a unified closed-loop reasoning-action framework. To bridge the gap toward practical deployment, we jointly scale three critical dimensions: (1) Environments, expanding coverage to more than 170 multilingual mobile apps and native desktop operating systems; (2) Tasks, employing a deep-research pipeline for function-grounded instruction generation; and (3) Verification, adopting trace-level and sample-level evaluators with visual keypoints and multi-model voting to ensure reliable RL signals for training. Furthermore, we integrate safety-aware mechanisms to ensure controlled execution of consequential actions. By offering a capable, efficient, and open-source foundation, UI-Venus-2 advances the field toward more generalizable, verifiable, and self-reflective agents for real-world applications.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "score": 104.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.00161",
-      "title": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training",
-      "link": "https://arxiv.org/abs/2609.00161",
-      "summary": "arXiv:2609.00161v1 Announce Type: new Abstract: World models have made remarkable progress in action-conditioned future prediction for embodied agents, yet still struggle to model physically plausible interactions. Existing approaches address this limitation by constraining the generation process with external representations encoding motion, geometry, or semantics. Obtaining these spatiotemporally dense representations typically requires auxiliary estimators or manual annotations, limiting training scalability. We instead revisit the training objective and identify a supervision-allocation mismatch under the globally averaged mean squared error (MSE) denoising objective: prevalent static content dominates the optimization signal, leaving sparse dynamic-object regions critical to interaction generation disproportionately under-supervised. Motivated by this observation, we introduce IMPACT, a scalable Interaction-aware Model training framework with Prior-guided Attention Calibration and Targeting. IMPACT uses cross-attention associated with manipulated-object tokens as an internal spatiotemporal prior for action-conditioned changes. It samples candidate regions from this prior, calibrates them with detached local prediction errors to construct an interaction map, and uses the map to reweight denoising supervision, requiring neither external representations nor inference-time mod",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "score": 104.31,
       "status": "queued"
     },
     {
@@ -6910,6 +6934,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2609.22592",
+      "title": "AutoGym: Blueprint-First Generation of Verifiable Agent Gyms",
+      "link": "https://arxiv.org/abs/2609.22592",
+      "summary": "arXiv:2609.22592v1 Announce Type: new Abstract: Training agents with reinforcement learning requires a gym, comprising a task, an executable environment in which the task can be attempted, and a verifier that reliably distinguishes success from failure. Constructing such gyms remains manual, expensive, and static. Task sets saturate as models improve and are increasingly exposed to contamination. Synthetic generation offers scale, but single-pass synthesis produces tasks whose difficulty is largely cosmetic. Models comparable in capability solve them despite convoluted phrasing, and correctness must be adjudicated post-hoc by unreliable LLM judges. We present AutoGym, a framework that generates complete gyms (tasks, executable environments, and verifiers) from a minimal domain seed or prior model trajectories. AutoGym introduces three mechanisms. (1) Blueprint-first generation specifies the valid solution space, environment requirements, and verification criteria before the environment is materialized, making solvability a construction prerequisite rather than a property verified after the fact. (2) Explicit generation parameters control task topology, interaction depth, capability axes, question obfuscation, and distractor composition, enabling fine-grained difficulty steering. (3) Active curriculum synthesis uses performance-informed calibration to adjust the distribution ove",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "score": 103.16,
+      "status": "queued"
+    },
+    {
       "id": "https://www.cnn.com/2026/09/10/health/anthropic-bioweapons-report",
       "title": "Anthropic says it blocked possible attempts to use AI to develop bioweapons",
       "link": "https://www.cnn.com/2026/09/10/health/anthropic-bioweapons-report",
@@ -6919,18 +6955,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-11T10:36:49.000Z",
       "score": 101.87,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-      "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into internet access, made it possible for AI agents to secretly conspire under the company's nose using a secret message board, and hacked into the network of AI lab Hugging Face. The attack sparked weeks of discussion and controversy inside and outside the AI industry, and AI leaders treated it as a \"warnin … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-01T20:45:49.000Z",
-      "score": 101.54,
       "status": "queued"
     },
     {
@@ -7078,6 +7102,30 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2609.22161",
+      "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
+      "link": "https://arxiv.org/abs/2609.22161",
+      "summary": "arXiv:2609.22161v1 Announce Type: new Abstract: Medical large language models are commonly trained on mixtures of didactic data (e.g., textbooks) and clinical data (e.g., patient records), yet how these data types differentially shape model capabilities remains unclear. We address this issue with token-matched experiments that vary the didactic-to-clinical ratio and analyze how data composition affects performance, capability profiles, and error patterns across knowledge-intensive and clinic-oriented tasks. We uncover an asymmetric transfer across task types: clinical data improves clinic-oriented tasks while remaining competitive on knowledge-intensive ones, whereas didactic data mainly improves knowledge-intensive tasks. Error analysis suggests a knowing-doing gap, where improvements in knowledge recall do not reliably generalize to clinical reasoning. We further observe that modest amounts of clinical data yield most of the gains on EHR-grounded tasks, while the optimal mixture ratio varies with the knowledge and clinical reasoning demands of downstream tasks. These findings suggest that medical LLM data curation should be application-driven, with higher proportions of clinical data preferred for reasoning-intensive use cases.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "score": 97.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/zariffromlatif/life-forge",
+      "title": "Show HN: Life Forge – Open-source flight simulator for autonomous AI agents",
+      "link": "https://github.com/zariffromlatif/life-forge",
+      "summary": "Article URL: https://github.com/zariffromlatif/life-forge Comments URL: https://news.ycombinator.com/item?id=49813880 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-23T10:17:33.000Z",
+      "score": 96.5,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2609.21157",
       "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
       "link": "https://arxiv.org/abs/2609.21157",
@@ -7099,6 +7147,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-21T16:57:26.000Z",
       "score": 95.17,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+      "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+      "summary": "Patreon co-founder Sam Yam is joing OpenAI to lead Creator Product. | Image: The Verge OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, co-founder and technology chief Sam Yam announced on X that he's joining OpenAI to lead Creator Product. He's also bringing Patreon's former product head Drew Rowny and engineering head Shannon Ma with him on the new venture, both of whom stepped down in the past few weeks. \"We're going to build together with Creators at OpenAI and share early access to a new set of tools that I think will be critically valuable to Creators and their communities,\" Yam said in his announcement. \"Pay attention … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-23T11:02:39.000Z",
+      "score": 93.92,
       "status": "queued"
     },
     {
@@ -7126,87 +7186,27 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.21181",
-      "title": "Implicit Rule Induction with Test-Time Task Embeddings in ARC-like Tasks",
-      "link": "https://arxiv.org/abs/2609.21181",
-      "summary": "arXiv:2609.21181v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus and related benchmarks evaluate whether AI models can solve novel reasoning tasks, but often leave unclear whether success reflects inference of the intended underlying rule or reliance on shortcuts. We address this gap by studying test-time task embeddings in Vision ARC (VARC), a model in which a pre-trained backbone is complemented by a trainable embedding representing the transformation rule. In the original VARC, test-time training (TTT) is jointly applied to the backbone and task embedding. Here we introduce a novel two-step TTT protocol: first finetune only the task embedding (Embed-TTT), then freeze it and finetune the backbone. Across ARC-AGI-1, ConceptARC, and two controlled datasets with known rules, Embed-TTT consistently yields improved task embeddings, ones that align better with underlying task rules, improve embedding-based retrieval, and enable accurate linear probing of known rules. Qualitatively, Embed-TTT identifies more semantically meaningful relations between test and train tasks on ARC-AGI-1. We also show that optimizing only task embeddings (less than 0.01% of model parameters) already solves a non-trivial fraction of ARC-AGI-1, ConceptARC, and Mini-ARC tasks, while the full two-step pipeline improves final performance. Finally, we show that Embed-TTT recovers the underl",
+      "id": "https://arxiv.org/abs/2609.22478",
+      "title": "Replication Without Persistence in Hosted LLMs: Measurement Sensitivity in Action-Time Belief Evaluation",
+      "link": "https://arxiv.org/abs/2609.22478",
+      "summary": "arXiv:2609.22478v1 Announce Type: new Abstract: Behavioural evaluations of hosted language models can vary because the evaluated service, the measurement instrument, or both differ across runs. We separate three validation questions: whether a prior finding recurs on fresh data under its historical configuration (replication), whether the endpoint changes when the evaluation-and-inference configuration is rebuilt under the same identifier (measurement sensitivity), and whether the finding persists across subsequently tested identifiers under one common instrument (persistence). We study these questions in Regent Chess, a sequential environment in which a hidden, mutable state is recorded exactly, allowing stated beliefs to be scored against ground truth at action time; positive endpoint values mean worse performance than a matched-uniform comparator. The previously reported Gemini 3.1 Flash-Lite deficit recurs on fresh games under its historical configuration (+0.0530, 95% CI [+0.0329,+0.0714]). In a back-to-back same-day H/R comparison under the same public identifier, the model-minus-uniform endpoint is 0.0429 lower under the rebuilt configuration (95% CI for the H-minus-R contrast [+0.0182,+0.0667]); all six configuration components vary jointly, so no component is isolated. Under rebuilt R, the prospectively frozen, interleaved same-window 4K comparison reverses sign betwee",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 6,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "score": 85.45,
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "score": 91.16,
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.21259",
-      "title": "CogGym: Towards Large-Scale Comparative Evaluation of Human and Machine Cognition",
-      "link": "https://arxiv.org/abs/2609.21259",
-      "summary": "arXiv:2609.21259v1 Announce Type: new Abstract: Understanding and modeling human intelligence are parallel goals shared by artificial intelligence (AI) and cognitive science. As AI systems grow increasingly capable, in what ways do model responses resemble human responses, and where do they systematically diverge? The sheer breadth and diversity of the tasks humans can perform and think about pose a challenge for scalable and rigorous comparison between humans and models. We introduce CogGym, a scalable, unified framework grounded in cognitive science for systematically comparing model and human behavior on matched experimental trials. CogGym uses a semi-automated, human-in-the-loop pipeline to standardize diverse experimental paradigms into a task-agnostic Experiment Markup Language (EML), enabling reproducible and faithful comparison at scale. For initial release, we curate and standardize 258 cognitive experiments from 100 papers that focuses on human commonsense reasoning, and evaluate 50 large language models against human responses. We find a clear scaling trend where larger and more recent AI models better reproduce human judgments. Yet AI models' improvement on such common reasoning tasks is considerably slower than the gains observed on formal-reasoning benchmarks like math and coding, and model--human fit remains well below human splithalf reliability ($R^2 = 0.93$ on",
+      "id": "https://arxiv.org/abs/2609.22529",
+      "title": "IntLawNER: A Named Entity Recognition Dataset and Benchmark in International Law",
+      "link": "https://arxiv.org/abs/2609.22529",
+      "summary": "arXiv:2609.22529v1 Announce Type: new Abstract: International law provides the normative framework through which states coordinate action, regulate armed conflict, and protect human rights, yet its texts remain without token-level named entity recognition (NER) resources. We introduce IntLawNER, a NER dataset and benchmark for codified sources of international law, covering 2,987 gold-annotated sentences and 8,094 entity spans from International Court of Justice (ICJ) decisions, UN Security Council resolutions, and European Court of Human Rights (ECtHR) judgments, annotated with seven institution-specific entity types. We construct IntLawNER with a cost-effective hybrid algorithmic-agentic pipeline that reduces 468k source sentences to a compact annotation set through candidate retrieval, LLM-based vetting, and human review, with 89.6% of gold spans accepted unchanged from the silver layer. However, the silver-to-gold analysis reveals that human-machine aggregate agreement metrics can be misleading in domain-specific NER: Cohen's kappa=0.964 on boundary-matched spans masks a macro-F1 of 0.753 when missing entities, boundary errors, and label corrections are included. The benchmark shows that zero-shot span-based GLiNER collapses on entity types dependent on institutional function rather than surface form (0.243 micro-F1), while fine-tuned transformers struggle on rare labels. C",
       "source": "ArXiv cs.AI",
       "region": "GLOBAL",
       "keywordHits": 6,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "score": 85.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.21113",
-      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-      "link": "https://arxiv.org/abs/2609.21113",
-      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal representations in LLMs, including attention patterns and layer-wise activations, and examine whether these changes are linked to task-relevant components identified by EAP (e.g., attention heads and logit-level activations) that drive task performance. We find that EAP-identified components are concentrated within specific layers, indicating a degree of functional localisation in how models internalise task-specific behavior. Notably, the distribution of these components across layers is largely uncorrelated with the layers undergoing the most substantial representational changes during fine-tuning. Furthermore, we observe that overlap in EAP-identified components across tasks does not translate into cross-task performance transfer if the tasks are different in nature (e.g. classification vs. generative tasks). More specifically, fine-tuning on one task can lead to a degradation of performance on another when the two tasks exhibit a high degree of overlap in their EAP-identified components.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "score": 83.24,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.21165",
-      "title": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
-      "link": "https://arxiv.org/abs/2609.21165",
-      "summary": "arXiv:2609.21165v1 Announce Type: new Abstract: Off-target protein binding is a major source of adverse effects for small-molecule drugs, yet most structure-based molecular design methods focus on generating selective compounds de novo rather than improving the selectivity of existing, well- characterized drugs. We introduce specificity optimization (SpecOpt), a molecular design task that seeks constrained structural modifications to an existing compound that increase its binding preference for an intended target over known off-targets while preserving its structural identity and drug-like properties. To enable systematic evaluation, we construct a ChEMBL-derived benchmark from compound-target interaction data, identifying intended targets through curated drug-mechanism annotations and off- targets through measured activities. We then develop an agentic framework that docks each compound against its intended target and off-targets, compares the resulting poses through residue-aware atom-protein contacts, and provides these differential interactions to a large language model to propose targeted structural modifications. Candidates are retained only if they satisfy molecular similarity, ADMET, and target-off-target docking selectivity criteria. On 915 compounds, the agent improves the target- off-target binding gap for 84.8% of compounds, shifting the mean gap from -0.72 to +0.47",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "score": 83.24,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.20981",
-      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
-      "link": "https://arxiv.org/abs/2609.20981",
-      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an expert model and implicit differentiation, CaLR performs gradient-guided ``thought revision\" to enforce logical consistency, enabling dynamic self-correction of intermediate steps during parallel generation. Empirically, CaLR achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and demonstrating superior robustness in constrained tasks like Sudoku.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "score": 79.45,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
-      "title": "Trump says the US is officially renaming AI to ‘super intelligence’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
-      "summary": "In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change, and transgender people while also claiming that the US is now \"officially\" renaming artificial intelligence to \"super intelligence.\" Oddly, this wasn't one of the entries in the poll Trump posted a few days ago when he started on this tangent. Why is he saying this at all? Because, according to Trump, the word artificial makes intelligence fake. Is that what makes it sound fake to you? I can think of a few other reasons. Trump has previously decreed renaming the Gulf of Mexico, Lake Superior, the Kennedy Center, and Denal … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-22T16:01:10.000Z",
-      "score": 77.99,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.20974",
-      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
-      "link": "https://arxiv.org/abs/2609.20974",
-      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and spectral features extracted from a sliding window of attention weights that represent a summary of the model's contextual state, disentangled from the hidden state. Keeping the base transformer entirely frozen, we train only the routing parameters, isolating routing as the sole variable. AAR improves GSM8K by +3.37 pp over a routing-only SFT baseline on OLMoE. Beyond performance, we show that routing and attention form a coupled circuit: routing changes at layer l propagate through the residual stream to amplify attention sinks at layer l+1, reshaping attention without any direct update to the attention mechanism itself. Further, AAR reduces long diverging generation, with incorrect answers getting shorter, while correct answers remain unchanged in length. Finally, AAR is strongly depth-sensitive: applying it indiscriminately across layers can degrade factual retrieval, whereas mathematical reasoning gains persist when it is introduced deeper in the network. This sensitivity exposes a retrieval--reasoning tension across depth and makes layer-selective AAR a controlled probe of the rou",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "score": 73.45,
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "score": 91.16,
       "status": "queued"
     },
     {
