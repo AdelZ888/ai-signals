@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-24T13:22:01.341Z",
+  "generatedAt": "2026-09-24T18:55:10.144Z",
   "items": [
+    {
+      "id": "https://github.com/CTRLRun/ctrlrun",
+      "title": "Control AI agents at the execution layer, not the prompt",
+      "link": "https://github.com/CTRLRun/ctrlrun",
+      "summary": "Article URL: https://github.com/CTRLRun/ctrlrun Comments URL: https://news.ycombinator.com/item?id=49834720 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-24T18:17:55.000Z",
+      "score": 192,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-24T18:55:10.048Z",
+      "file": "content/posts/2026-09-24-enforce-tool-allowlists-and-runtime-policies-for-ai-agents-with-ctrlrun-in-github-actions.md",
+      "fileFr": "content/posts/fr/2026-09-24-enforce-tool-allowlists-and-runtime-policies-for-ai-agents-with-ctrlrun-in-github-actions.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1664,
+      "wordsFr": 1529
+    },
     {
       "id": "https://aiburnclock.org/",
       "title": "Show HN: AI Burn Clock – the cost of agents reading whole files",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1253
     },
     {
-      "id": "https://arxiv.org/abs/2605.07896",
-      "title": "What if AI systems weren't chatbots?",
-      "link": "https://arxiv.org/abs/2605.07896",
-      "summary": "Article URL: https://arxiv.org/abs/2605.07896 Comments URL: https://news.ycombinator.com/item?id=48119749 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-13T09:39:41.000Z",
-      "score": 156,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-19T17:54:34.107Z",
-      "file": "content/posts/2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm.md",
-      "fileFr": "content/posts/fr/2026-05-19-task-focused-ai-interfaces-practical-alternatives-to-the-chatbot-first-paradigm.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 180,
-      "wordsEn": 1255,
-      "wordsFr": 1399
-    },
-    {
       "id": "https://openai.com/index/ringg",
       "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
       "link": "https://openai.com/index/ringg",
@@ -5274,6 +5274,42 @@
       "region": "GLOBAL",
       "keywordHits": 3,
       "publishedAt": "2026-09-23T17:58:25.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://slashdot.org/story/26/09/24/0338213/openai-anthropic-ceos-urge-un-countries-to-cooperate-on-ai-safety-standards",
+      "title": "OpenAI, Anthropic CEOs urge UN countries to cooperate on AI safety standards",
+      "link": "https://slashdot.org/story/26/09/24/0338213/openai-anthropic-ceos-urge-un-countries-to-cooperate-on-ai-safety-standards",
+      "summary": "Article URL: https://slashdot.org/story/26/09/24/0338213/openai-anthropic-ceos-urge-un-countries-to-cooperate-on-ai-safety-standards Comments URL: https://news.ycombinator.com/item?id=49835056 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-24T18:40:47.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/ShadowWalker2014/rig",
+      "title": "Show HN: Rig – Open-source cloud desktops for AI agents",
+      "link": "https://github.com/ShadowWalker2014/rig",
+      "summary": "Article URL: https://github.com/ShadowWalker2014/rig Comments URL: https://news.ycombinator.com/item?id=49834499 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-24T18:01:51.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/drawcms/drawcms",
+      "title": "Show HN: DrawCMS – An open-source animated diagramming tool for AI Agents",
+      "link": "https://github.com/drawcms/drawcms",
+      "summary": "Hello, I'm building DrawCMS. It's an open source animated diagram editor you can self-host. You can ask a compatible AI agent to read your repository and create an editable diagram, then walk through the flow step by step on the canvas. AI makes it easy to write code quickly. Keeping track of how that code works can be harder. You finish a feature, move on, and a week later you're trying to remember where a request goes, which service writes to the database, or why a background job runs. It supports architecture, sequence, network and etc diagrams, infrastructure icons also . You can also draw and edit everything manually. Repo: https://github.com/drawcms/drawcms Quickstart (Claude Code, Codex, OpenClaw, Hermes): npx skills add drawcms/drawcms-skill -g Thanks for reading, and I hope you try it out! I would love to hear any feedback Comments URL: https://news.ycombinator.com/item?id=49834430 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-24T17:57:11.000Z",
       "score": 174,
       "status": "queued"
     },
@@ -5818,6 +5854,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+      "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+      "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-24T18:06:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
       "title": "My Mental Model of AI Broke on September 8",
       "link": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
@@ -5922,6 +5970,18 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-09-16T17:59:03.000Z",
+      "score": 150,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "title": "Meta is going to let you build games with AI right on your phone",
+      "link": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "summary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be available in early access, and interested users can sign up for a waitlist. Horizon has struggled as a platform, but Meta has a plan to give these new Horizon games significantly more reach: It's going to let published games made with Horizon Create and Horizon Studio get recommended on Facebook and Instagram, where they also will be playable. … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-24T17:52:29.000Z",
       "score": 150,
       "status": "queued"
     },
@@ -6862,18 +6922,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "title": "ChatGPT, Grok, and Claude all went down at the same time",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing users from having conversations with ChatGPT, the outage affected logins, file uploads, voice mode, search, deep research, image generation, and more. The incident occurred while OpenAI teased the launch of Astra, its new AI model. Meanwhile, Anthropic's Claude chatbot, Claude Code, and the Claude … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-03T15:35:14.000Z",
-      "score": 103.33,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.27150",
       "title": "Do We Need Complex Topology Control? Distinct-Peer Random Routing Improves Cost-Efficiency in Sparse Multi-Agent Debate",
       "link": "https://arxiv.org/abs/2609.27150",
@@ -6946,6 +6994,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+      "title": "Muse will apparently let you download its entire filesystem",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+      "summary": "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on Mastodon that it was \"extremely easy\" to replicate James' results and that Muse had \"Almost no prompt injection resistance.\" Meta denies that the incident represents a security breach. As noted in its announcement post, Meta's Muse runs in persistent Linux virtual machines for each user. Meta spokes … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-24T17:14:12.000Z",
+      "score": 99.07,
+      "status": "queued"
+    },
+    {
       "id": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
       "title": "Measurements for understanding the pace of AI development inside frontier labs",
       "link": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
@@ -7003,6 +7063,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-18T04:00:00.000Z",
       "score": 98.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/999383/mark-zuckerberg-meta-glasses-ai-teen-safety-surveillance-data-centers",
+      "title": "I have some questions for Mark Zuckerberg",
+      "link": "https://www.theverge.com/podcast/999383/mark-zuckerberg-meta-glasses-ai-teen-safety-surveillance-data-centers",
+      "summary": "It’s a big week for Meta. The company just kicked off its big Connect conference on Wednesday, and the new Muse AI agent appears to be an early hit. I’ve been using it — it is surprisingly good. CEO Mark Zuckerberg has obviously been out there taking a victory lap and participating in a lot of interviews about all this. So of course, we asked for him to appear on Decoder. Meta declined my interview request for whatever reason. But luckily Mark just did a big interview with our friend and former colleague Alex Heath on the Sources podcast. So I figure we could just highlight some moments from that conversation and I could point out some obvious gaps in what Mark is saying about the company right now, and hopefully the next set of people who get to talk to him can ask him some follow-up questions. So here’s some of the things I would love to ask Mark Zuckerberg if he would join me here on Decoder. Let’s start with Mark’s comments on the Meta Glasses. Mark Zuckerberg: So we actually feel quite good about the product. I mean, phones don’t have a light, but I mean, people go around recording people all the time. So I think it’s very important to note that the entire tech industry really wants passive surveillance devices to fit into the same category as phones — for you to understand everything from Flock cameras to Ring doorbells to Meta Glasses the same way that you might understa",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-24T14:15:00.000Z",
+      "score": 98.17,
       "status": "queued"
     },
     {
@@ -7078,6 +7150,30 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+      "title": "Muse sure looks a lot like OpenClaw",
+      "link": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+      "summary": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate. And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 billion valuation, has been making the rounds in the tech industry. Under the hood, though, there are some obvious similarities to the platform that started it all: OpenClaw. For the past week or so, some social media users have alleged that Muse is directly built on OpenClaw. The two platforms use the same names for core files (SOUL.md, memory, … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-24T17:10:38.000Z",
+      "score": 96.38,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+      "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+      "link": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+      "summary": "The fireman outfit. Dead. | Photo by Sean Hollister / The Verge This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health goals. I was underwhelmed. I'd asked for a workout regimen for a sub-30 minute 5K and regaining lost muscle. It generated an okay-ish but kind of mid weekly routine. But then I looked at its face. Based on what it learned about me from my emails, it had morphed into cat-shaped piece of bread with a Kirby-like face. It was so stinking cute, … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-24T17:00:00.000Z",
+      "score": 95.39,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2609.21157",
       "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
       "link": "https://arxiv.org/abs/2609.21157",
@@ -7111,78 +7207,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-23T11:02:39.000Z",
       "score": 93.92,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.26891",
-      "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
-      "link": "https://arxiv.org/abs/2609.26891",
-      "summary": "arXiv:2609.26891v1 Announce Type: new Abstract: Modern language-model agents are built around the \\textit{agent loop}, where the LLM is placed in an environment exposing a set of tools, and the LLM has full control over the workflow by alternating between tool calls and observing their output. However, certain workflows currently require additional engineering beyond the agent loop itself, such as memory systems and self-improving systems. We built an LLM agent framework, JAZ, to explore the extent to which a minimal harness that is little more than the agent loop itself can accomplish tasks these specialized systems are built for. JAZ exposes a single LLM-based primitive invoke and provides a set of built-in hooks that allow the programmer to apply constraints and monitoring. Generalizing existing code-mode agent loops, \\texttt{invoke} is the simplest loop that satisfies two defining properties: (1) the LLM can write arbitrary executable code that can include recursive \\texttt{invoke}; (2) everything visible to the LLM --- all inputs to \\texttt{invoke} as well as its interaction history with the code environment --- are variables in the code environment. We motivate our design from first principles, viewing \\texttt{invoke} as a language primitive representing a function whose implementation is provided at runtime by an LLM every time it is called. To validate the design of our",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "score": 91.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.26952",
-      "title": "Escaping Python Dependency Hell: A Hybrid Replay-and-Repair Pipeline for Python Dependency Resolution",
-      "link": "https://arxiv.org/abs/2609.26952",
-      "summary": "arXiv:2609.26952v1 Announce Type: new Abstract: Dependency conflicts in Python ecosystems arise from incompatible version constraints, missing packages, and undocumented compatibility relationships, causing many real-world code snippets to fail at execution. This paper presents PLLM+, a hybrid dependency-repair pipeline evaluated on the HG2.9K benchmark of 2,891 dependency-failing snippets. PLLM+ prioritizes inexpensive deterministic steps before invoking LLM-based repair: static AST-based interpreter inference, replay of historically successful dependency configurations from the competition-provided solutions database, and live PyPI validation of candidate package versions. When these steps do not resolve a case, the system falls back to a structured LLM-based repair loop with typed error classification and Proposer/Critic agents. On HG2.9K, PLLM+ solves 1,500 out of 2,891 snippets, compared with 1,169 solved by the PLLM baseline. It also reduces average runtime from 368.7 to 71.8 seconds per snippet. Most successful fixes come from replaying known configurations: 1,495 of the 1,500 successful fixes are produced by the solutions database, while the LLM fallback accounts for 5 additional fixes. These results suggest that, in this benchmark setting, deterministic reuse of previously validated dependency configurations is a simple and effective strategy, with LLM-based repair ser",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "score": 91.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.27051",
-      "title": "Propose, Don't Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors",
-      "link": "https://arxiv.org/abs/2609.27051",
-      "summary": "arXiv:2609.27051v1 Announce Type: new Abstract: Language-model agents now run the whole of quantitative factor research: they propose investment factors, backtest them, select the survivors and retire them. We ask which of those jobs an agent should keep. Our answer is governed self-evolution: the agent may propose, and a frozen statistical referee that the agent cannot touch must judge. The referee scores each candidate only on market outcomes revealed after submission, by betting, so its false-discovery guarantee holds at every stopping time for any proposal policy. We cross three proposers (a script, a bandit and a language model) with this referee and with three deliberately leaky ones, in a synthetic world with planted truth, a probe-authoring environment and a ten-year walk-forward on the CSI 500. Who judges sets the number of false admissions: the frozen referee admits 5-11 times fewer sub-threshold factors than the leaky referees under a scripted proposer, and no proposer closes that gap. Who proposes sets the yield: the language model beats the script, matches the bandit, and adds the one capability a bandit lacks, writing its own diagnostic probes. The certificate's price is time: an admitted true factor waits about 500 trading days, and the certified portfolio's Sharpe ratio therefore trails an ungated one. Judging belongs to the procedure; proposing and instrument-m",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "score": 91.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.26836",
-      "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
-      "link": "https://arxiv.org/abs/2609.26836",
-      "summary": "arXiv:2609.26836v1 Announce Type: new Abstract: Agentic AI systems are increasingly adopting automated pipelines that integrate multiple tools. While prior research and benchmarks have studied about task success and task completion of these agentic systems, the research about agent to tool interaction, specifically in biology agentic workflow is limited. This study investigates specific failures in agent to tool interaction where a tool invocation appears successful, some or all of the information or functionality from the tool via API/ wrapper is incomplete or missing and there are no communications / notifications to the user or the agent about such missing information. We call this a silent failures as the user or the agents are not aware that such failure has occurred. For the purposes of this study we developed an audit mechanism to identify such silent failures in Agent to tool interaction, by examining 15 scientific tools (and their associated API documentation and tool documentations) integrated within ToolUniverse environment (ToolUniverse serves as our experimental environment rather than the object of the study itself). We structure our study around 7 failure locus characterising where the failure occurs in the chain. We observed 91 failures (manually validated post LLM based candidate discovery and automated testing), most frequent of them being missing data or fiel",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "score": 85.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.26927",
-      "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
-      "link": "https://arxiv.org/abs/2609.26927",
-      "summary": "arXiv:2609.26927v1 Announce Type: new Abstract: The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agents in simulated dynamic worlds. This connects the current era of general artificial intelligence (AI/AGI) with the proliferation of transformer-based conversational agents and the increased computational capabilities. Given an overview of current and previous multi-agent theories of mind (socially and affectively-aware agents), the existence of an integrative design of agent interactions with themselves and with humans must be crucial for understanding how to create sustainable and governance in future human-agent reasoning systems. In this work is presented a software \"AGIMUD\" that integrates: A. socially-aware reasoning and emotion in agent behavior and interaction, B. a design of human multimodal scheme for human users, artificial agents and simulated worlds, and C. distributing the AI processing through the network to enable multiple autonomous agents. These integrations allow the dynamic world recreation as multi-user dungeons (MUDs) where both agents and humans can interact simultaneously in real time. Find the code online in https://github.com/dberga/AGIMUD.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "score": 85.31,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.27035",
-      "title": "Reinforcement Learning with Decomposed Subtasks",
-      "link": "https://arxiv.org/abs/2609.27035",
-      "summary": "arXiv:2609.27035v1 Announce Type: new Abstract: Group Relative Policy Optimization (GRPO) and related policy-gradient methods for training language model agents collapse an entire multi-turn rollout into a single scalar trajectory reward before it enters the policy update. When the task composes distinct skills, especially under sparse and delayed environmental feedback, this collapsing is lossy: the optimizer must implicitly infer which competency drove the outcome and how that should change behavior. We argue the right primitive is not a better scalar but a decomposition: trajectory reward should be split along subtasks before it enters the policy update. We introduce Reinforcement Learning with Decomposed Subtasks (RLDS), whose core is Subtask-Decomposed Advantage Estimation (SDAE): a replacement for the scalar GRPO advantage that splits trajectory reward into per-subtask shares on a fixed taxonomy, computes a group-relative advantage per subtask, and distributes per-token credit by weighting each subtask's advantage by its importance, concentrating it around the step where a reflection marks that subtask's execution as consequential. We evaluate on four agentic benchmarks: FrozenLake (sparse grid navigation), HotpotQA (multi-hop QA, one retrieval tool), ScienceWorld (long-horizon embodied science), and DeepResearch (long-form research, four tools, composite rubric reward).",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "score": 85.31,
       "status": "queued"
     },
     {

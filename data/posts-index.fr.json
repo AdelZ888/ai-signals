@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T13:22:01.322Z",
+  "generatedAt": "2026-09-24T18:55:10.072Z",
   "locale": "fr",
   "posts": [
     {
@@ -24,6 +24,31 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-09-24-enforce-tool-allowlists-and-runtime-policies-for-ai-agents-with-ctrlrun-in-github-actions",
+      "title": "Appliquer des allowlists d'outils et des politiques d'exécution pour agents IA avec CTRLRun dans GitHub Actions (contexte UK)",
+      "date": "2026-09-24",
+      "excerpt": "Ajoutez une étape CTRLRun à votre CI GitHub Actions pour appliquer des politiques d'exécution, produire des journaux d'audit par exécution et restreindre l'accès aux outils des agents. Guide pas à pas, checklist de déploiement et suggestions pour petites équipes.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-24-enforce-tool-allowlists-and-runtime-policies-for-ai-agents-with-ctrlrun-in-github-actions.jpg",
+      "tags": [
+        "ctrlrun",
+        "github-actions",
+        "agents-IA",
+        "sécurité",
+        "CI",
+        "audit"
+      ],
+      "sources": [
+        "https://github.com/CTRLRun/ctrlrun"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
     },
     {
       "slug": "2026-09-23-nimblegate-self-hosted-git-push-guardrails-to-audit-approve-or-block-ai-agent-pushes",
