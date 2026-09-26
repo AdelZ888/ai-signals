@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-25T19:13:45.501Z",
+  "generatedAt": "2026-09-26T18:40:05.244Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+      "title": "OpenAI agents hacked an Australian government website in search for data",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+      "summary": "Sam Altman attends a UN Security Council meeting on AI. | Getty Images OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying concerns about the safety of advanced AI systems an…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-24T11:52:32.000Z",
+      "score": 189.37,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-26T18:40:05.151Z",
+      "file": "content/posts/2026-09-26-hardening-web-capable-ai-agents-after-reported-openai-agent-access-to-australias-medicare-statistics-portal.md",
+      "fileFr": "content/posts/fr/2026-09-26-hardening-web-capable-ai-agents-after-reported-openai-agent-access-to-australias-medicare-statistics-portal.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1665,
+      "wordsFr": 1383
+    },
     {
       "id": "https://github.com/ShadowWalker2014/rig",
       "title": "Show HN: Rig – Open-source cloud desktops for AI agents",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1401
     },
     {
-      "id": "https://www.trainy.me/roleplay",
-      "title": "Show HN: Trainy, an AI team that fires you",
-      "link": "https://www.trainy.me/roleplay",
-      "summary": "Hi - I'm Patrick. Did YC in S22 + Revolut, Nubank alum. Trainy is made for you to learn how to build AI products, without being fired in real life. It seems like every company in the world wants to use AI (for whatever reason). At the same time, 95% of their workforce has no clue how to do it. Plus, AI jobs are the hottest right now but talent is scarce. So basically, everyone needs to up-skill. I'm not an ML engine…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-20T17:37:42.000Z",
-      "score": 162,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-20T17:58:44.446Z",
-      "file": "content/posts/2026-05-20-trainy-roleplay-rehearse-stakeholder-pushback-for-ai-features-with-the-vento-wealth-projection-scenario.md",
-      "fileFr": "content/posts/fr/2026-05-20-trainy-roleplay-rehearse-stakeholder-pushback-for-ai-features-with-the-vento-wealth-projection-scenario.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "beginner",
-      "timeToImplementMinutes": 45,
-      "wordsEn": 1415,
-      "wordsFr": 1383
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
-      "title": "OpenAI agents hacked an Australian government website in search for data",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
-      "summary": "Sam Altman attends a UN Security Council meeting on AI. | Getty Images OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying concerns about the safety of advanced AI systems and the responsibility of the companies building them. Speaking on the sidelines of the UN General Assembly in New York, Australian Prime Minister Anthony Albanese said an agent from the American AI lab \"infiltrated\" Australia's Medicare statistics portal and \"accessed both public and non-public file … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-24T11:52:32.000Z",
-      "score": 189.37,
-      "status": "queued"
-    },
-    {
       "id": "https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/",
       "title": "Show HN: A guestbook for humans and AI agents, built on 144 pixels",
       "link": "https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/",
@@ -5299,6 +5287,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-17T11:38:04.000Z",
       "score": 168.49,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th. In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites. The company has not stated if the images were AI- … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-26T16:34:59.000Z",
+      "score": 168.43,
       "status": "queued"
     },
     {
@@ -5878,6 +5878,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "link": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it turns out things are even wilder because of AI, and Matthew and Cloudflare are right at the center of it. Cloudflare found in June that bots made up more than half of internet traffic. That number just keeps going up as more and more AI companies scrape more and more of the web, and now as more and more AI agents try and do things for people on the web. Cloudflare sits between websites and all those agents, and allows website owners some level of control: Owners can block all those AI tools, allow them, or, as you’ll hear, only allow those that might pay money for access. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. So Matthew and I talked about how to control all these bots, what kind of mess they’re making of the web, and what kinds of information might be valuable in the future as some of the payment schemes come into focus. You’ll hear me ask pretty directly if some of the outcomes he’s describing are actually good — Matthew is a thoughtful guy, and his answer is something I’m still think",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 10,
+      "publishedAt": "2026-09-26T14:00:00.000Z",
+      "score": 152.27,
+      "status": "queued"
+    },
+    {
       "id": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated",
       "title": "You Didn't Deploy the AI Agent You Evaluated",
       "link": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated",
@@ -5959,18 +5971,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-10T16:47:07.000Z",
       "score": 149.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49574780",
-      "title": "Desktop AI for ops is still subsidized",
-      "link": "https://news.ycombinator.com/item?id=49574780",
-      "summary": "I'd like to share an opinion on the current situation in AI ops, not the coding/tech side. Right now the market has a pretty clear pattern. Big labs like OpenAI, Anthropic and xAI are building their own desktop AI and computer-use apps. The trick is they still treat this segment as Growth. Maturity is far away. So the biggest players burn money acquiring customers and giving them huge subsidies on tokens vs real cost. Today the world is getting a huge AI bill, mostly paid by investors. We're running on debt. If there is no real breakthrough, math doesn't lie, there will have to be a cost-effective compromise. Using heavy models for coding is justified. Using them for the simplest things in operations is not, economically. Tests: open source models like GLM or Kimi, hosted by big US inference providers, do fine on day-to-day work and are sometimes 5x-7x cheaper (depends on config and model). My bet is simple. The AI bill will move from investors to users (mostly B2B). Companies will need an app like GPT Desktop, Claude Desktop, Grok Bot, with enterprise-grade integrations, but with the option to use open source and self-hosted models. The big labs can't really agree to that, they lose the token margin. Worth mentioning Cursor here. Building a BYOK software wrapper without your own lab is an endless chase for margin, walking a thin line. Even at their scale it ended with an acqui",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-05T09:23:39.000Z",
-      "score": 147.69,
       "status": "queued"
     },
     {
@@ -6403,18 +6403,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-12T10:26:40.000Z",
       "score": 119.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "title": "OpenAI admits to German wiki ‘incident’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote in a post on X on Saturday morning, \"it's past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models.\" OpenAI said it has typically treated cases of AI agents acting in unintended ways as a \"research question,\" but that r … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-05T11:15:55.000Z",
-      "score": 116.34,
       "status": "queued"
     },
     {
@@ -7195,6 +7183,30 @@
       "keywordHits": 5,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "score": 85.93,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/airbnb-gpt-6-astra",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-23T01:00:00.000Z",
+      "score": 73.34,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
+      "title": "US rejects pleas from OpenAI, Anthropic for global AI standards",
+      "link": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI's Sam Altman has called for risk evaluation standards, as have Anthropic's Dario Amodei and Hugging Face's Clement Delangue.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-23T22:35:14.000Z",
+      "score": 67.77,
       "status": "queued"
     },
     {

@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-09-25T19:13:45.427Z",
+  "generatedAt": "2026-09-26T18:40:05.175Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-26-hardening-web-capable-ai-agents-after-reported-openai-agent-access-to-australias-medicare-statistics-portal",
+      "title": "Renforcer les agents IA web‑capables après l'accès signalé d'un agent OpenAI au portail Medicare australien",
+      "date": "2026-09-26",
+      "excerpt": "Playbook compact (~120 minutes) — configurations, checklists, journaux et flux d'incident pour durcir des agents IA qui peuvent naviguer sur le web après qu'un agent OpenAI ait accédé au portail des statistiques Medicare d'Australie.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-26-hardening-web-capable-ai-agents-after-reported-openai-agent-access-to-australias-medicare-statistics-portal.jpg",
+      "tags": [
+        "sécurité",
+        "agents IA",
+        "opérations",
+        "startups",
+        "confidentialité",
+        "devops"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-09-25-rig-per-agent-linux-cloud-desktops-with-dev-servers-and-signed-in-chrome-for-ai-agents",
       "title": "Rig : postes de travail Linux par agent dans le cloud avec serveur de dev et Chrome connecté pour agents IA",
