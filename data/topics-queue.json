@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-26T18:40:05.244Z",
+  "generatedAt": "2026-09-27T13:30:08.012Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paus…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-26T16:34:59.000Z",
+      "score": 168.43,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "ANALYSIS",
+      "publishedAtRun": "2026-09-27T13:30:07.973Z",
+      "file": "content/posts/2026-09-27-openai-pauses-tool-enabled-training-for-its-most-capable-models-after-reported-sandbox-bypass.md",
+      "fileFr": "content/posts/fr/2026-09-27-openai-pauses-tool-enabled-training-for-its-most-capable-models-after-reported-sandbox-bypass.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1416,
+      "wordsFr": 1221
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
       "title": "OpenAI agents hacked an Australian government website in search for data",
@@ -5039,27 +5062,16 @@
       "wordsFr": 1455
     },
     {
-      "id": "https://www.actuia.com/actualite/celonis-rachete-ikigai-labs-le-mit-entre-au-capital-contre-une-licence-de-brevets/",
-      "title": "Celonis rachète Ikigai Labs, le MIT entre au capital contre une licence de brevets",
-      "link": "https://www.actuia.com/actualite/celonis-rachete-ikigai-labs-le-mit-entre-au-capital-contre-une-licence-de-brevets/",
-      "summary": "Celonis a annoncé le 12 mai 2026, depuis Munich, le lancement du Celonis Context Model (CCM) et, dans le même communiqué, la signature d'un accord définitif en vue de l'acqu...",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-20T10:30:31.000Z",
-      "score": 150,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-21T11:17:56.714Z",
-      "file": "content/posts/2026-05-21-celonis-launches-context-model-and-agrees-to-acquire-ikigai-labs-while-mit-reportedly-takes-equity-for-patent-rights.md",
-      "fileFr": "content/posts/fr/2026-05-21-celonis-launches-context-model-and-agrees-to-acquire-ikigai-labs-while-mit-reportedly-takes-equity-for-patent-rights.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1418,
-      "wordsFr": 1401
+      "id": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
+      "title": "Is Windows NT's object-based model better suited for AI agents than Linux?",
+      "link": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
+      "summary": "Article URL: https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/ Comments URL: https://news.ycombinator.com/item?id=49866112 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-27T12:30:13.000Z",
+      "score": 192,
+      "status": "queued"
     },
     {
       "id": "https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/",
@@ -5278,6 +5290,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/h1d3mun3/augur",
+      "title": "Show HN: Augur – Sandboxed macOS VMs with Xcode for AI Coding Agents",
+      "link": "https://github.com/h1d3mun3/augur",
+      "summary": "Article URL: https://github.com/h1d3mun3/augur Comments URL: https://news.ycombinator.com/item?id=49866246 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-27T12:52:07.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
       "title": "AI models need more data about biology, and OpenAI is paying",
       "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
@@ -5287,18 +5311,6 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-17T11:38:04.000Z",
       "score": 168.49,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th. In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites. The company has not stated if the images were AI- … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-26T16:34:59.000Z",
-      "score": 168.43,
       "status": "queued"
     },
     {
@@ -5826,6 +5838,30 @@
       "region": "UK",
       "keywordHits": 2,
       "publishedAt": "2026-09-24T18:06:40.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/",
+      "title": "Human-AI partnerships are for alignment, not capability",
+      "link": "https://www.seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/",
+      "summary": "Article URL: https://www.seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/ Comments URL: https://news.ycombinator.com/item?id=49866353 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-27T13:04:38.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://vania-novikau.me/ai-party-wall/",
+      "title": "A wall that listens: the local-LLM pipeline behind an AI party in Vilnius",
+      "link": "https://vania-novikau.me/ai-party-wall/",
+      "summary": "Article URL: https://vania-novikau.me/ai-party-wall/ Comments URL: https://news.ycombinator.com/item?id=49866154 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-27T12:35:51.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -7162,51 +7198,15 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.28570",
-      "title": "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
-      "link": "https://arxiv.org/abs/2609.28570",
-      "summary": "arXiv:2609.28570v1 Announce Type: new Abstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is uneven. We trace this to two weak points in the \\emph{correction chain} from reward to parameter update. At the rollout level, hard queries---those with high semantic entropy---frequently produce unanimously wrong sample groups, collapsing the group-relative advantage to zero exactly where hallucination risk is highest. At the optimization level, confident-but-wrong tokens are gradient-invisible: a categorical policy's expected score-gradient norm vanishes as its distribution sharpens, so the predictions that most need correction receive the weakest updates. We propose Dual-Entropy Enhanced Policy Optimization (DEEPO), a dual-stage enhancement combining signal variance regularization with gradient preconditioning: semantic-entropy-triggered expert prefixes inject grounded continuations on high-uncertainty queries, providing direct supervision and restoring advantage variance, while advantage-sign-aware Renyi preconditioning counteracts logit-level saturation so correction reaches confident errors in the operational confidence regime. Both branches improve over GRPO individually; their interaction is statistically significant on VideoMMMU---the most complex long-horizon task in our evaluati",
-      "source": "ArXiv cs.AI",
+      "id": "https://www.the-scientist.com/anthropic-s-secretive-ai-powered-wet-lab-breaks-cover-and-makes-first-discovery-75037",
+      "title": "Anthropic's Secretive AI-Powered Wet Lab Breaks Cover and Makes First Discovery",
+      "link": "https://www.the-scientist.com/anthropic-s-secretive-ai-powered-wet-lab-breaks-cover-and-makes-first-discovery-75037",
+      "summary": "Article URL: https://www.the-scientist.com/anthropic-s-secretive-ai-powered-wet-lab-breaks-cover-and-makes-first-discovery-75037 Comments URL: https://news.ycombinator.com/item?id=49865571 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "score": 85.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.28654",
-      "title": "Training Object Permanence in World Models",
-      "link": "https://arxiv.org/abs/2609.28654",
-      "summary": "arXiv:2609.28654v1 Announce Type: new Abstract: Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure of 150 hand-designed cognitive science inspired tasks, divided into six cognitive categories. We build Blender generators that randomize speed, lighting, camera angle, and other nuisance parameters while preserving each task's cognitive structure, yielding 10,000+ samples per task. We release a 1.5M-sample training corpus and a 300-question exam. On this exam we evaluate 14 video models: 3 reference-to-video, 7 edit, and 4 continuation, among which PWM-WROP, our 16B world model. In a blind pairwise Elo study, PWM-WROP ranks first among continuation models and third overall, behind only a statistical tie between two reference-to-video models. We release the data, exam, model answers, scores, weights, and PWM, our native-PyTorch training stack on AWS Trainium2.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "score": 85.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/airbnb-gpt-6-astra",
-      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "link": "https://openai.com/index/airbnb-gpt-6-astra",
-      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-23T01:00:00.000Z",
-      "score": 73.34,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
-      "title": "US rejects pleas from OpenAI, Anthropic for global AI standards",
-      "link": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
-      "summary": "OpenAI's Sam Altman has called for risk evaluation standards, as have Anthropic's Dario Amodei and Hugging Face's Clement Delangue.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-23T22:35:14.000Z",
-      "score": 67.77,
+      "keywordHits": 2,
+      "publishedAt": "2026-09-27T11:03:32.000Z",
+      "score": 87.27,
       "status": "queued"
     },
     {
