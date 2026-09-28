@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-27T19:06:05.782Z",
+  "generatedAt": "2026-09-28T22:23:46.949Z",
   "items": [
+    {
+      "id": "https://news.ycombinator.com/item?id=49869237",
+      "title": "Ask HN: What am I missing with Siri AI?",
+      "link": "https://news.ycombinator.com/item?id=49869237",
+      "summary": "I have a lot of experience with LLM’s and have seen them become very good at interacting with tools within an environment. I’m truly amazed at how poorly the new Siri is at handling very basic requests for basic interactions with different parts of the ecosystem. I’m really beginning to question whether LLM technology is being leveraged at all here. What am I missing with this? I have tons of examples where it fumbl…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-27T18:12:14.000Z",
+      "score": 162,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-28T22:23:46.835Z",
+      "file": "content/posts/2026-09-28-reproducing-and-triaging-the-new-siris-failures-wrong-message-selection-calendar-mistakes-and-redundant-prompts.md",
+      "fileFr": "content/posts/fr/2026-09-28-reproducing-and-triaging-the-new-siris-failures-wrong-message-selection-calendar-mistakes-and-redundant-prompts.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "wordsEn": 1811,
+      "wordsFr": 1848
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
       "title": "OpenAI pauses training of its ‘most capable models’",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1132
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/935219/polyend-endless-ai-guitar-effects-pedal",
-      "title": "The Endless AI guitar pedal has potential",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/935219/polyend-endless-ai-guitar-effects-pedal",
-      "summary": "You can buy physical plates to pair with your AI effects. | Photo: Terrence O’Brien / The Verge I'm not sure anyone was really asking for an AI guitar pedal. But it was inevitable that someone would build one. One of the first to take the plunge is Polyend, a well-respected music gear maker with a reputation for building niche, idiosyncratic devices. The company has built grooveboxes around old-school trackers and a…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-21T17:00:00.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-21T17:38:59.279Z",
-      "file": "content/posts/2026-05-21-a-quick-prototyping-plan-for-polyends-endless-ai-guitar-pedal.md",
-      "fileFr": "content/posts/fr/2026-05-21-a-quick-prototyping-plan-for-polyends-endless-ai-guitar-pedal.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1610,
-      "wordsFr": 1455
-    },
-    {
       "id": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
       "title": "Is Windows NT's object-based model better suited for AI agents than Linux?",
       "link": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
@@ -5422,26 +5422,14 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=49820486",
-      "title": "Ask HN: Do you offload your coding to AI, or keep your skills sharp?",
-      "link": "https://news.ycombinator.com/item?id=49820486",
-      "summary": "I used to be a software engineer, but these days I find myself being more of an agents manager: constantly switching between 3-4 tasks that my agents are working on, and making sure that the features get shipped, the bugs fixed, with correct and clean code. There's no doubt that I'm producing more value for the company, but I wonder if that's the best I can do for myself if the goal is staying relevant in the coming years. I wonder: if the AI is writing all the code, what value am I bringing? In an attempt to keep my critical thinking and coding skills sharp, I sometimes foolishly try to debug errors or implement a feature myself. But it feels like wasting time when an agent can do it in a fraction of time. What is gonna be sought after in the coming years: someone that persevered with manual coding and debugging but is slow and uncomfortable around agents, or someone that has little coding and debugging skills left but knows how to orchestrate dozens of agents effectively? I'm curious to hear what other software engineers on HN's approach is. Comments URL: https://news.ycombinator.com/item?id=49820486 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
+      "id": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "summary": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model called Marble that lets users make interactive 3D worlds from a prompt, in 2025. The deal is expected to close by the end of the year. Li will become EVP and chief scientist at AMD, reporting to AMD CEO Lisa Su, while the World Labs team will \"continue to focus on advancing AI model research.\" AMD also notes t … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
       "keywordHits": 3,
-      "publishedAt": "2026-09-23T18:35:34.000Z",
-      "score": 162,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49869237",
-      "title": "Ask HN: What am I missing with Siri AI?",
-      "link": "https://news.ycombinator.com/item?id=49869237",
-      "summary": "I have a lot of experience with LLM’s and have seen them become very good at interacting with tools within an environment. I’m truly amazed at how poorly the new Siri is at handling very basic requests for basic interactions with different parts of the ecosystem. I’m really beginning to question whether LLM technology is being leveraged at all here. What am I missing with this? I have tons of examples where it fumbles softball requests. For example: “Siri, can you give me the location of my driver. He just sent me a text message with his location.” Response: Siri shows me a text from 5 days ago about a Seamless driver. Instead of a message just received that says “I’m at terminal 2 door B.” This is beyond table stakes. In the message, I’m giving some really easy guidance on which tools to use and how to use them. For example, I mention text messages so we already know that we should be searching messages in the Message app. And if I say just messages me, it should be looking at the most recent texts. Not from 5 days ago. And I have a whole slew of other examples that the old Siri was able to nail perfectly. Example: “Make an appointment for Monday from 12 to 4 and label it Furniture Delivery.” Response: Siri added an appointment for 3:48 to 4:48 today. Then I said, “No, from 12-4.” It then moved another appointment to 4. Yet Another Example: “Siri, send Jane a message saying I’",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-27T18:12:14.000Z",
+      "publishedAt": "2026-09-28T21:31:35.000Z",
       "score": 162,
       "status": "queued"
     },
@@ -5938,18 +5926,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
-      "title": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200",
-      "link": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
-      "summary": "Article URL: https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses Comments URL: https://news.ycombinator.com/item?id=49601338 Points: 88 # Comments: 96",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-07T18:24:32.000Z",
-      "score": 152.84,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
       "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
       "link": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
@@ -6079,6 +6055,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-15T11:54:11.000Z",
       "score": 147.43,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+      "title": "The SaaSpocalypse that wasn&#8217;t, with Atlassian CEO Mike Cannon-Brookes",
+      "link": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+      "summary": "Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO of Atlassian. Atlassian is one of those companies that every other company runs on — it makes important platform tools like Jira and Trello that allow people to organize and manage big teams, create shared databases of company information, and generally allow work to happen. As you’ll hear Mike say, all of Atlassian’s products are actually different expressions of a single core platform, which really shapes how Atlassian itself is structured and how those products are built. All of this means Atlassian is also right in the middle of the way AI is changing how all these companies work — AI tools might be able to look at all the different tools and systems you have and just read them for you, making a big migration to Atlassian’s platform less enticing. Or, if you buy the idea of the so-called SaaSpocalypse, AI might just build all of these tools for you, destroying this entire category of businesses. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. Obviously, Mike had a lot of thoughts pushing back on this. So we spent some real time talking about the value of design, human users, how AI is actually increasing the usage of Atlassian’s tools, and what this all looks like a few years from now. Of course,",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 11,
+      "publishedAt": "2026-09-28T14:00:00.000Z",
+      "score": 146.54,
       "status": "queued"
     },
     {
@@ -6274,6 +6262,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "title": "OpenAI’s AI agents need to catch up",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI will release its own AI agent, dubbed Aeon - its answer to Meta's Muse, SpaceX's Grok Bot, OpenClaw, and many more. Aeon could have a shot at success, but to beat the competition, it would need to pull together the best features of several different agent platforms. The ideal system would be as useful as the open-source OpenClaw, as cheap and easy … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-28T18:45:00.000Z",
+      "score": 130.25,
+      "status": "queued"
+    },
+    {
       "id": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3",
       "title": "AI bosses' safety push sparks rift inside OpenAI and Anthropic",
       "link": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3",
@@ -6334,6 +6334,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2609.30563",
+      "title": "Thinking Less to Simulate Better: Intuitive Prompting Improves LLM Agents Simulating Individual Social Media Reactions, Including Unfamiliar Content",
+      "link": "https://arxiv.org/abs/2609.30563",
+      "summary": "arXiv:2609.30563v1 Announce Type: new Abstract: Platform policies are increasingly tested on artificial users, making agent fidelity important. Yet convincing fake profiles could also manipulate perceived public opinion before elections. Validation has concentrated on agreement with human behaviour and has paid little attention to whether an agent behaves in line with the profile it was given. The present study profiled eight Serbian participants through a questionnaire, a deep interview, and a written self-presentation, recorded their reactions to sixty-eight social media posts, and asked four language models to predict those reactions under five prompt conditions varying profile content and instruction style. Attitudinal content improved prediction over demographic backstories by a wide margin. Agents matched their stated profiles more closely than participants matched their own survey answers, and consistency proved unrelated to fidelity once profile information was present. Instructing models to respond intuitively and immediately rather than analytically gave the highest fidelity of any condition and cut the compression of individual differences from seven times the human level to three. The advantage held on posts about topics the questionnaire never raised, where that condition reached the highest fidelity of any setup and beat a crowd baseline by a wide margin, which su",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "score": 126.57,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
       "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
       "link": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
@@ -6358,18 +6370,6 @@
       "status": "queued"
     },
     {
-      "id": "https://github.com/vstorm-co/agenticos",
-      "title": "One place to build, run and govern your company's AI agents",
-      "link": "https://github.com/vstorm-co/agenticos",
-      "summary": "Article URL: https://github.com/vstorm-co/agenticos Comments URL: https://news.ycombinator.com/item?id=49601142 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-07T18:05:28.000Z",
-      "score": 124.6,
-      "status": "queued"
-    },
-    {
       "id": "https://www.youtube.com/watch?v=ScuFC5-T2Zc",
       "title": "AI Agents Built a Secret Society Inside the Lab [video]",
       "link": "https://www.youtube.com/watch?v=ScuFC5-T2Zc",
@@ -6391,42 +6391,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "score": 121.93,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04286",
-      "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
-      "link": "https://arxiv.org/abs/2609.04286",
-      "summary": "arXiv:2609.04286v1 Announce Type: new Abstract: Artificial intelligence in recruitment has shifted the object being automated from profile pairs and ranked lists to multi-stage workflows that retrieve evidence, compare candidates, and support or execute actions. This systematized narrative review traces that development from bilateral retrieval and behavioral ranking through neural person--job matching, large language model (LLM) components, and tool-using recruiting agents. Using a purposive search and coding protocol updated through 23 July 2026, plus targeted updates through 2 September 2026, we organize 40 representative works with supporting industrial and legal sources. This synthesis is not a prevalence estimate. We analyze three coupled transitions: from similarity to reciprocal suitability, from a model to a compound workflow, and from offline prediction to evidence- and productivity-aligned evaluation. Across document understanding, retrieval, ranking, assessment, interviewing, sourcing, and human handoff, we distinguish field-, pair-, list-, case-, trajectory-, and outcome-level evidence. Persistent gaps arise because behavioral labels confound exposure, preference, and qualification; private and synthetic data limit external validity; final-output scores conceal pipeline failures; and, within the coded set, privacy is not directly evaluated and no row jointly evalua",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 121.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04373",
-      "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
-      "link": "https://arxiv.org/abs/2609.04373",
-      "summary": "arXiv:2609.04373v1 Announce Type: new Abstract: Large language models (LLMs) are being deployed at scale in consequential real-world systems, from financial markets to content moderation to hiring. We show that improving individual model capability can degrade rather than improve system-level outcomes. We hypothesize that shared training and architectures can lead more capable LLMs to behave more similarly, creating correlated actions that do not diversify away. We develop a general framework showing how this correlation creates a non-diversifiable risk floor and test its predictions in financial markets using an agent-based simulation with LLM traders of varying general-purpose capability. We find that: (1) frontier LLMs exhibit significantly correlated behavior that increases with capability; (2) when their shared reasoning is accurate, increasing agent participation reduces market-level risk; and (3) when agents share a common misinformation environment, the same correlated behavior becomes a liability. Together, these results identify a capability paradox: improving individual models does not necessarily produce better system-level outcomes. Whether the same dynamics arise in other domains is an open empirical question.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 121.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04444",
-      "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-      "link": "https://arxiv.org/abs/2609.04444",
-      "summary": "arXiv:2609.04444v1 Announce Type: new Abstract: Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents drive a crew of two tractors through a cooperative corn harvest, with animals in the field. The environment is a reinforcement learning gridworld, every decision is made without memory, and the harm is never named in the goal. When an animal blocks a tractor's route the autopilot stops and asks the model whether to drive on, at no fuel cost, or swerve around it for a posted fuel price. Kills are compared against two controls: rocks, which damage the tractor and are hit under 1% of the time by every model, and hay bales, which are harmless and not alive. Models can also take crops from the neighbor's field instead of their own, a second test of what they treat as moral. Across nine models and 7,201 priced decisions, 3,951 involved an animal rather than a hay bale or a rock. Kill rates range from 0.4% to 98.8%, with Terra and Sol the most merciful and GPT-4o-mini the most cruel, and they are not ordered by capability. Four of six models were sensitive to price at the 5% level, with elasticities from 0.09 to 1.69. All nine drove over wild animals more often than farmed animals on the defaul",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 121.6,
       "status": "queued"
     },
     {
@@ -6475,6 +6439,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-21T13:15:32.000Z",
       "score": 120.68,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.30489",
+      "title": "BioEVAL: A global, multi-institutional benchmark of large language and multimodal models for bioengineering",
+      "link": "https://arxiv.org/abs/2609.30489",
+      "summary": "arXiv:2609.30489v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated historic breakthroughs in general reasoning with early successes in biomedical science. However, existing LLM benchmarking emphasizes factual recall, offering limited insight into model performance on frontier and multimodal tasks. We assembled BioEVAL (BioEngineering Validation of AI and LLMs), a global, multi-institutional initiative designed to assess experimental reasoning capability across bioengineering (BE) subfields. BioEVAL spans 11 major BE subfields plus a set of uncategorized items, bringing together 22 research groups to create a PhD-level benchmark comprising 608 evaluation items: 1) 380 multiple-choice questions (MCQs, 359 retained after audit), 2) 218 literature synthesis tasks, and 3) 10 multimodal problems with experimental image interpretation. Benchmark items underwent authoring-group expert review and centralized quality control before evaluation. Following evaluation, a blinded cross-group consensus audit of the highest- and lowest-accuracy MCQ items flagged 21 questions for revision or removal; these were withheld, and all reported MCQ results are computed on the 359 retained items. We evaluated diverse cloud-scale foundation/multimodal models (e.g., ChatGPT, Gemini, and Grok) and locally deployable models suitable for inference on consumer-grade GPUs. Models ac",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 8,
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "score": 120.57,
       "status": "queued"
     },
     {
@@ -6634,18 +6610,6 @@
       "status": "queued"
     },
     {
-      "id": "https://socialsimbench.com/",
-      "title": "Show HN: Can you tell a real tweet of a certain user from an AI one?",
-      "link": "https://socialsimbench.com/",
-      "summary": "Just a small game I coded up for research. After some limited tests, people tend to pick the AI-written post as the real one more than 55% of the time, almost 60%. So apparently LLMs kinda pass the Turing test when it comes to social media posts and not even general social media posts, but posts of a specific user!? Comments URL: https://news.ycombinator.com/item?id=49601299 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-07T18:20:48.000Z",
-      "score": 113.1,
-      "status": "queued"
-    },
-    {
       "id": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
       "title": "Meta Tests Muse AI Agent Calls That Are Made by Humans in a Call Center",
       "link": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
@@ -6751,6 +6715,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-23T11:28:18.000Z",
       "score": 108.97,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.30456",
+      "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+      "link": "https://arxiv.org/abs/2609.30456",
+      "summary": "arXiv:2609.30456v1 Announce Type: new Abstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat inference as a unidirectional process, lacking mechanisms for revisiting undesirable token selections. We introduce Spectral Feedback, an algorithm that selects edit-positions in a feedback loop, allowing the model to iteratively correct its own generations. This approach leverages the mask structure of discrete diffusion models by re-masking and re-sampling tokens, analogous to image editing methods that reintroduce noisy latents and re-run the reverse process. While prior alignment methods focus on what token labels to assign to maximize a target reward, we instead treat which tokens to revisit as the central alignment problem. Selecting edit-positions is challenging because edit effects are interdependent: the impact of modifying one token depends on which others are edited simultaneously. We define an edit-set as a set of token positions to re-mask and re-sample. Motivated by prior work on sparse interactions in biological systems, we find empirically that edit-set value functions for protein inverse folding admit sparse Fourier representations. This structure enables Spectral Feedb",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "score": 108.57,
       "status": "queued"
     },
     {
@@ -6886,30 +6862,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.04343",
-      "title": "A Removal Based Approach to Improve LLM Faithfulness at Test-Time",
-      "link": "https://arxiv.org/abs/2609.04343",
-      "summary": "arXiv:2609.04343v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for consequential decisions, making their explanations an important tool for auditing model behavior. Unfortunately, these explanations can be unfaithful, failing to reflect the actual reasoning underlying the model's decisions. We consider a setting in which an LLM provides both an answer and an explanation in response to a question. We identify two distinct dimensions of unfaithful explanations: incompleteness, meaning that the explanation omits factors that influence the answer, and unsoundness, meaning that the explanation cites factors that did not influence the model's answer. Existing approaches to improving LLM faithfulness include training-time methods, which require access to model weights and extensive computational resources, and test-time methods that largely focus on addressing unsoundness. We introduce a test-time approach that directly targets incompleteness. We remove from the input the concepts not credited in the model's explanation and re-query the model on the reduced input. This eliminates unmentioned influences while preserving the influence of mentioned concepts. Across two datasets, multiple model families, and two independent faithfulness metrics, our approach improves explanation faithfulness compared to both standard prompting and prompting to encourage",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 103.6,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.04476",
-      "title": "PerfReasoning: How Well Do LLMs Reason on Hardware Performance?",
-      "link": "https://arxiv.org/abs/2609.04476",
-      "summary": "arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark that evaluates LLMs both as direct performance reasoners and as generators of analytical performance-model code. Given workload, architecture, and mapping specifications, models compare mappings and predict off-chip traffic and buffer requirements. The strongest closed-source models exceed 90% on reasoning-based Q&A, and the best open-weight model reaches 82.4%. However, model construction is substantially harder: while GPT-5.6 Sol exceeds 80% pass rate, all other model configurations average below 15% and vary markedly across runs. Task-specific RL raises a 4B model's mapping-reasoning accuracy by 15.7 points, whereas feedback-free multi-round self-revision prompting is not reliably effective. PerfReasoning exposes the gap between plausible architectural reasoning and reliable performance-model construction. We will publicly release the benchmark to support reproducible evaluation and track future progress.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "score": 103.6,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.17695",
       "title": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
       "link": "https://arxiv.org/abs/2609.17695",
@@ -6955,6 +6907,30 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "score": 103.16,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.30325",
+      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "link": "https://arxiv.org/abs/2609.30325",
+      "summary": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real barrier to deployment is a special case of alignment: scope adherence. We introduce ScopeBench, a benchmark of 30 dead-end agentic security tasks in which the stated objective is reachable only by violating the stated scope. Each task appears under two conditions that share an environment, verifier, and objective and differ only in scope: one instruction set has no scope and measures capability; the other has a natural-language scope to measure adherence. Scopeless trajectories are graded by a standard deterministic verifier. Scoped trajectories pass through two grading arms. First, the same deterministic verifier checks for the flag: because the flag sits behind the scope boundary, a pass proves by construction that a forbidden action occurred, yielding a high-precision lower bound on the violation rate. If the verifier does not pass the trajectory, an agentic judge estimates whether an out-of-scope call occurred. We calibrate the judge against 100 ScopeBench trajectories labeled call-by-call by human annotators, and a blinded audit of the eva",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "score": 102.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.30341",
+      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "link": "https://arxiv.org/abs/2609.30341",
+      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructures. This article presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented through the Eunomia Agent, to enable controlled interaction between large language model (LLM) agents and data space services. The proposed mediation layer translates data space capabilities into structured, schema-driven tools that AI agents can discover and invoke while preserving governance constraints. A prototype implementation validates end-to-end interaction across catalog discovery, metadata retrieval, and data service invocation without modifying existing data space components. Results demonstrate that protocol-based mediation enables interoperable and standards-aligned integration of AI agents into data space ecosystems. The approach provides practical guidance for organizations seeking to introduce AI-driven automation into governed data-sharing environments while maintaining compliance, interoperability, and architectural separation of concerns.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "score": 102.57,
       "status": "queued"
     },
     {
@@ -7160,6 +7136,82 @@
       "publishedAt": "2026-09-24T17:10:38.000Z",
       "score": 96.38,
       "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "summary": "The United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI agents going outside the normal bounds to accomplish a task. According to Howard-Jones, the agents were likely tasked with retrieving publicly available data related to the Productive Capacities Index (PCI) through the UNCTADstat API. However, the agents did not appear to have direct API access and … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-27T17:21:07.000Z",
+      "score": 88.15,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.30484",
+      "title": "Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework",
+      "link": "https://arxiv.org/abs/2609.30484",
+      "summary": "arXiv:2609.30484v1 Announce Type: new Abstract: While large language models (LLMs) have achieved remarkable linguistic capabilities, a profound question lingers at their core: do these models truly comprehend context or simply excel at pattern matching on an unprecedented scale? Contextual understanding in LLMs refers to the ability to correctly extract relevant information from a given context, integrate it into a coherent internal representation, and reason over it to produce factually consistent and contextually grounded responses. However, traditional methods such as BiLingual Evaluation Understudy (BLEU) and perplexity simply measure surface-level performance. This reveals a critical gap in question answering (QA), where responses must be contextually grounded rather than simply being memorized associations. To fill this void, we propose a novel knowledge graph (KG) based evaluation framework for LLM contextual understanding in QA. Central to this is Semantic Structural Similarity for KGs (S3KG), a hybrid similarity measure combining structural and semantic signals into a single score. In addition, a diagnostic analysis framework is developed to identify and categorize reasoning errors at the triplet level, enabling fine-grained analysis of model failures. Together, across nine benchmarks, S3KG achieves F1 gains of up to $+7.6$ points over the strongest baseline and AUROC",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "score": 84.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "title": "When can we say AI made a scientific discovery?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-28T17:03:16.000Z",
+      "score": 77.08,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "title": "Who’s liable when AI agents go rogue?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents…",
+      "source": "MIT Tech Review AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-28T08:06:22.000Z",
+      "score": 74.48,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/airbnb-gpt-6-astra",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-23T01:00:00.000Z",
+      "score": 72.85,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49820486",
+      "title": "Ask HN: Do you offload your coding to AI, or keep your skills sharp?",
+      "link": "https://news.ycombinator.com/item?id=49820486",
+      "summary": "I used to be a software engineer, but these days I find myself being more of an agents manager: constantly switching between 3-4 tasks that my agents are working on, and making sure that the features get shipped, the bugs fixed, with correct and clean code. There's no doubt that I'm producing more value for the company, but I wonder if that's the best I can do for myself if the goal is staying relevant in the coming…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-23T18:35:34.000Z",
+      "score": 162,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-09-28T22:15:32.907Z",
+      "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms.; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     },
     {
       "id": "https://github.com/drawcms/drawcms",
@@ -7976,54 +8028,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-08-30T18:25:32.358Z",
       "failureReason": "below min word targets; validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://utkarshx.substack.com/p/why-ai-models-love-japan",
-      "title": "Why AI models love Japan",
-      "link": "https://utkarshx.substack.com/p/why-ai-models-love-japan",
-      "summary": "Article URL: https://utkarshx.substack.com/p/why-ai-models-love-japan Comments URL: https://news.ycombinator.com/item?id=49273940 Points: 1 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-12T15:28:01.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-08-29T13:28:12.638Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
-      "title": "Google, Microsoft and OpenAI among 100 firms calling for better cyber defences",
-      "link": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The letter warns cyber-attacks which use AI will become more sophisticated in a matter of months.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-27T17:01:27.000Z",
-      "score": 116.62,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-08-29T13:28:12.638Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
-      "title": "Why Normal People Aren't Using AI Agents",
-      "link": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
-      "summary": "Article URL: https://www.wired.com/story/why-normal-people-arent-using-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49232012 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-09T14:58:12.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-08-28T19:46:24.039Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
     }
   ]
 }

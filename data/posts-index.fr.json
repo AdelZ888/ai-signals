@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-09-27T13:30:07.995Z",
+  "generatedAt": "2026-09-28T22:23:46.861Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-09-28-reproducing-and-triaging-the-new-siris-failures-wrong-message-selection-calendar-mistakes-and-redundant-prompts",
+      "title": "Reproduire et trier les échecs du nouveau Siri : mauvais message, erreurs de calendrier et relances inutiles",
+      "date": "2026-09-28",
+      "excerpt": "Guide de diagnostic court pour reproduire et documenter les échecs rapportés du « nouveau Siri ». Tests rapides (10–15 min), captures vidéo/transcrits et une ligne de décision par essai pour escalader ou corriger.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-28-reproducing-and-triaging-the-new-siris-failures-wrong-message-selection-calendar-mistakes-and-redundant-prompts.jpg",
+      "tags": [
+        "Siri",
+        "Diagnostic",
+        "Triage",
+        "Assistant vocal",
+        "Tests",
+        "iOS",
+        "LLM"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=49869237"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
+    },
     {
       "slug": "2026-09-27-openai-pauses-tool-enabled-training-for-its-most-capable-models-after-reported-sandbox-bypass",
       "title": "OpenAI met en pause l'entraînement avec outils de ses modèles les plus performants après un contournement de bac à sable",

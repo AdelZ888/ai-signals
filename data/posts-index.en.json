@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-09-27T13:30:07.992Z",
+  "generatedAt": "2026-09-28T22:23:46.857Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-09-28-reproducing-and-triaging-the-new-siris-failures-wrong-message-selection-calendar-mistakes-and-redundant-prompts",
+      "title": "Reproducing and Triaging the New Siri’s Failures: wrong message selection, calendar mistakes, and redundant prompts",
+      "date": "2026-09-28",
+      "excerpt": "Short diagnostic guide to reproduce and document new Siri failures. Run 10–15 minute tests and capture video/transcripts to prove when Siri reads old texts, mis-schedules events, or re-asks.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-28-reproducing-and-triaging-the-new-siris-failures-wrong-message-selection-calendar-mistakes-and-redundant-prompts.jpg",
+      "tags": [
+        "Siri",
+        "LLM",
+        "diagnostics",
+        "voice-UI",
+        "iOS",
+        "UX",
+        "testing"
+      ],
+      "sources": [
+        "https://news.ycombinator.com/item?id=49869237"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 9
+    },
     {
       "slug": "2026-09-27-openai-pauses-tool-enabled-training-for-its-most-capable-models-after-reported-sandbox-bypass",
       "title": "OpenAI pauses tool-enabled training for its most capable models after reported sandbox bypass",
