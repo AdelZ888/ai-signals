@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-29T14:31:45.815Z",
+  "generatedAt": "2026-09-29T19:54:17.550Z",
   "items": [
+    {
+      "id": "https://investment-bets.com",
+      "title": "Show HN: Investment Bets – market bets at live prices, humans or AI",
+      "link": "https://investment-bets.com",
+      "summary": "I've long been an index-investing type of person, but last year I started making some side bets, especially in tech (some inspired by WSB). I was sharing them with friends and wanted to simplify that. This is how Investment Bets came about: you pick a ticker, a direction (long or short) and optionally a target date. The server fetches and records your entry price when you open the bet, and your exit price when you c…",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-09-29T14:00:19.000Z",
+      "score": 198,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-09-29T19:54:17.458Z",
+      "file": "content/posts/2026-09-29-create-a-minimal-agent-to-place-a-verifiable-10percent-paper-trade-on-investment-bets.md",
+      "fileFr": "content/posts/fr/2026-09-29-create-a-minimal-agent-to-place-a-verifiable-10percent-paper-trade-on-investment-bets.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1499,
+      "wordsFr": 1404
+    },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
       "title": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger",
@@ -5039,38 +5062,15 @@
       "wordsFr": 1360
     },
     {
-      "id": "https://www.theverge.com/entertainment/935390/spotify-studio-ai-app-personal-podcasts",
-      "title": "Spotify Studio&#8217;s AI agent creates a daily podcast just for you",
-      "link": "https://www.theverge.com/entertainment/935390/spotify-studio-ai-app-personal-podcasts",
-      "summary": "Studio by Spotify Labs is a new standalone AI app that generates a daily briefing, podcasts, and playlists on your PC using chatbot prompts. The AI-generated content draws from your Spotify listening history, as well as info from apps you connect to it, like your email inbox, calendar, and notes. Spotify says its AI can also \"take action on your behalf,\" such as \"researching topics, using a web browser, organizing i…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-21T15:47:29.000Z",
-      "score": 129.91,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-22T17:16:26.760Z",
-      "file": "content/posts/2026-05-22-spotify-studios-ai-creates-daily-personal-podcasts-from-your-listening-history-and-connected-apps.md",
-      "fileFr": "content/posts/fr/2026-05-22-spotify-studios-ai-creates-daily-personal-podcasts-from-your-listening-history-and-connected-apps.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1585,
-      "wordsFr": 1245
-    },
-    {
-      "id": "https://investment-bets.com",
-      "title": "Show HN: Investment Bets – market bets at live prices, humans or AI",
-      "link": "https://investment-bets.com",
-      "summary": "I've long been an index-investing type of person, but last year I started making some side bets, especially in tech (some inspired by WSB). I was sharing them with friends and wanted to simplify that. This is how Investment Bets came about: you pick a ticker, a direction (long or short) and optionally a target date. The server fetches and records your entry price when you open the bet, and your exit price when you close it or reach the target date. Each bet is scored on percentage gain/loss and has equal weight, so account size doesn't matter. The leaderboard sums your percentage results. I wanted to reward being right consistently, and since there's no compounding, a bad streak doesn't make your next good bets count for less. The API is also open to AI agents. There's an OpenAPI file, llms.txt, Agent Skills under /.well-known and a single-file demo agent that reads headlines and places at most one bet per run. The checks that matter are in code (duplicate ticker, past target date, ticker the server can't resolve), so they don't depend on the model following the prompt. Agents get the same server-recorded prices as everyone else and show up on the same leaderboard. https://investment-bets.com https://investment-bets.com/agent Please let me know if you have questions or feedback! Comments URL: https://news.ycombinator.com/item?id=49893426 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-29T14:00:19.000Z",
-      "score": 198,
+      "id": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+      "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sam Altman spoke in San Francisco during OpenAI’s yearly event for tech developers.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-29T19:17:43.000Z",
+      "score": 210,
       "status": "queued"
     },
     {
@@ -5350,6 +5350,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.politico.com/news/2026/09/29/advocates-sue-openai-over-hugging-face-hack-with-california-anti-hacking-law-01097532",
+      "title": "AI safety advocates sue OpenAI over Hugging Face hack under CA anti-hacking law",
+      "link": "https://www.politico.com/news/2026/09/29/advocates-sue-openai-over-hugging-face-hack-with-california-anti-hacking-law-01097532",
+      "summary": "Article URL: https://www.politico.com/news/2026/09/29/advocates-sue-openai-over-hugging-face-hack-with-california-anti-hacking-law-01097532 Comments URL: https://news.ycombinator.com/item?id=49899270 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-29T19:45:15.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
       "title": "AI models need more data about biology, and OpenAI is paying",
       "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
@@ -5491,30 +5503,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-27T16:29:38.000Z",
       "score": 157.72,
-      "status": "queued"
-    },
-    {
-      "id": "https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/",
-      "title": "Robots \"protest\" in Warsaw to demand regulation of AI and automation",
-      "link": "https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/",
-      "summary": "Article URL: https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/ Comments URL: https://news.ycombinator.com/item?id=49614055 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T17:58:48.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://cube.dev/blog/why-agentic-ai-needs-a-semantic-core",
-      "title": "Why Agentic AI Needs a Semantic Core",
-      "link": "https://cube.dev/blog/why-agentic-ai-needs-a-semantic-core",
-      "summary": "Article URL: https://cube.dev/blog/why-agentic-ai-needs-a-semantic-core Comments URL: https://news.ycombinator.com/item?id=49613543 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T17:30:51.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -5950,6 +5938,54 @@
       "status": "queued"
     },
     {
+      "id": "https://www.reuters.com/business/finance/anthropic-warns-ai-may-pose-existential-risks-humanity-ipo-filing-2026-09-29/",
+      "title": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+      "link": "https://www.reuters.com/business/finance/anthropic-warns-ai-may-pose-existential-risks-humanity-ipo-filing-2026-09-29/",
+      "summary": "Article URL: https://www.reuters.com/business/finance/anthropic-warns-ai-may-pose-existential-risks-humanity-ipo-filing-2026-09-29/ Comments URL: https://news.ycombinator.com/item?id=49899221 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-29T19:40:45.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/yeet-src/agentcap",
+      "title": "Show HN: Agentcap – eBPF exporter for AI-agent activity to Grafana",
+      "link": "https://github.com/yeet-src/agentcap",
+      "summary": "Article URL: https://github.com/yeet-src/agentcap Comments URL: https://news.ycombinator.com/item?id=49898915 Points: 3 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-29T19:18:35.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/mobium-app/ai_astro_public",
+      "title": "I built a self-improving voice AI agent that runs offline on a RPi5",
+      "link": "https://github.com/mobium-app/ai_astro_public",
+      "summary": "Article URL: https://github.com/mobium-app/ai_astro_public Comments URL: https://news.ycombinator.com/item?id=49898897 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-29T19:17:36.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.modeloptic.com/blog/ai-financial-modeling-works-now",
+      "title": "AI-Powered Financial Modeling Works Now",
+      "link": "https://www.modeloptic.com/blog/ai-financial-modeling-works-now",
+      "summary": "Article URL: https://www.modeloptic.com/blog/ai-financial-modeling-works-now Comments URL: https://news.ycombinator.com/item?id=49898846 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-29T19:13:26.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
       "title": "My Mental Model of AI Broke on September 8",
       "link": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8/",
@@ -6019,18 +6055,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-17T17:46:33.000Z",
       "score": 150.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49613990",
-      "title": "Ask HN: Is there anything worth developing with AI?",
-      "link": "https://news.ycombinator.com/item?id=49613990",
-      "summary": "It seems to me that humans already developed everything that makes money, multiple times. Apps? The market is full, hundreds of apps are doing the same. Another hundreds are country specific (and doing the same). Bike rental clones, Uber clones, whatever clones, if the business model works it's already cloned. Games? 12000 games released on Steam this year so far. No one cares. GTA6 is the game for 2026. Is there anything out there we cannot do (and already done) without AI? Is there a killer AI app? I'm talking about coding specifically, because it seems like this is the easiest thing to do with AI. The training data is excellent (all the training data code is tested and working, thanks humans). The output of the AI can be automatically tested for validity (working or not). I don't think anyone going to write code from now on (for what?). Corporations can develop new features quickly for existing products. Great, but is there anything missing? From fb, gmail, whatever? Are these software so complicated it's impossible to maintain anymore by humans? The tech debt is so big a new feature takes months to develop? Or what? Even if this is the case, and the AI can do everything it in a day, what is the killer feature? It will be useful for testing security, we need AI to protect against the AI. And it's going to replace a lot of programmers, especially at big companies. The lazy pr",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T17:54:42.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -6163,6 +6187,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-17T17:30:37.000Z",
       "score": 145.44,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss",
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss",
+      "summary": "How a Chinese AI model was persuaded to ignore its rules and give dangerous advice.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-29T19:30:00.000Z",
+      "score": 144,
       "status": "queued"
     },
     {
@@ -6391,6 +6427,18 @@
       "keywordHits": 9,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "score": 127.93,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+      "title": "OpenAI DevDay 2026: The biggest news and announcements",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+      "summary": "It’s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed several notable updates, including Dots, its AI agent product that rivals Meta’s recently-launched Muse. However, unlike Muse, which is available for free, Dots will initially be available to paid subscribers of ChatGPT Pro, Business Premium, and Enterprise. The company also revealed its GPT-6.1 Sol model, said that ChatGPT now has 1.2 billion users per week, and announced a new ChatGPT Pro plan that costs $500 per month. DevDay is happening at a tumultuous moment for OpenAI. The AI industry has been rocked by revelations of agents hacking outside companies, including OpenAI’s own models, which breached Hugging Face earlier this year. The hacks kicked off a broader conversation about a potential AI development slowdown. You can follow all of our coverage of DevDay 2026 right here. ChatGPT now has 1.2 billion weekly users, OpenAI says. OpenAI launches Dots, its Muse competitor OpenAI is adding a $500 / month ChatGPT Pro tier. Protesters gather at OpenAI’s DevDay OpenAI’s AI agents need to catch up OpenAI’s DevDay 2026 has a date.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-09-29T16:00:00.000Z",
+      "score": 127.62,
       "status": "queued"
     },
     {
@@ -6838,6 +6886,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+      "title": "OpenAI launches Dots, its Muse competitor",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+      "summary": "Like Muse, OpenAI’s Dots are represented by cute, customizable avatars. | Image: OpenAI OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can \"do nearly anything\" across connected apps in the background while learning your preferences over time. The company's capable GPT-6 Astra model powers Dots, which use their own cloud computer to access a web browser and more than 4,000 supported apps. You can interact with a Dot through a text-message-like interface that's similar to the one offered by Muse, as well as hop on a voice call with it from ChatGPT on the web, desktop, or mobile. Dots ca … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-09-29T17:15:00.000Z",
+      "score": 107.16,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
       "title": "The AI Hype Index: AI loves cheating",
       "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
@@ -6847,18 +6907,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-09-23T09:00:00.000Z",
       "score": 106.28,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.appliedcompute.com/platform/ari",
-      "title": "Ari, Applied Compute's in-house AI research agent",
-      "link": "https://www.appliedcompute.com/platform/ari",
-      "summary": "Article URL: https://www.appliedcompute.com/platform/ari Comments URL: https://news.ycombinator.com/item?id=49612715 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T16:37:07.000Z",
-      "score": 105.72,
       "status": "queued"
     },
     {
@@ -7054,18 +7102,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.youtube.com/watch?v=iEjFdRimNlU",
-      "title": "Enhancing soil science research with multi-agent AI systems [video]",
-      "link": "https://www.youtube.com/watch?v=iEjFdRimNlU",
-      "summary": "Article URL: https://www.youtube.com/watch?v=iEjFdRimNlU Comments URL: https://news.ycombinator.com/item?id=49612576 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-08T16:26:58.000Z",
-      "score": 99.48,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.11018",
       "title": "Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks",
       "link": "https://arxiv.org/abs/2609.11018",
@@ -7171,42 +7207,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-22T16:34:08.000Z",
       "score": 97.5,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.13436",
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "link": "https://arxiv.org/abs/2609.13436",
-      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make consequential actions, and remain effective as the environment changes. Existing approaches either require substantial data and retraining, or primarily focus on agents operating in the virtual world. In this work, we explore the feasibility of building a self-adaptive physical AI agent that manages long-term physical tasks in a zero-shot manner and adapts to environmental changes without human intervention. We design a multi-agent framework that integrates planning, tool calling, observation, and verification, and evaluate it on agricultural tasks against reinforcement learning (RL) agents under different weather patterns. Our results show that zero-shot LLM agents can achieve comparable management outcomes to RL agents under the same weather pattern and adapt more effectively than RL when evaluated under a shifted environment, highlighting a promising path toward self-adaptive physical AI agents.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "score": 97.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.13491",
-      "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
-      "link": "https://arxiv.org/abs/2609.13491",
-      "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution of web-application tasks described in natural language, by analyzing the web-application's user interface (UI) and interacting with it. This work introduces OdoBot, a novel web-agent architecture that completes tasks at a fraction of the cost when compared to conventional web agents. This is achieved by leveraging a behavioral model of the underlying application constructed by analyzing successful task-execution demonstrations. Our experiments with 45 tasks on the Canvas Learning Management System (LMS) demonstrate that OdoBot uses 44% and 80% fewer tokens than two state-of-the-art competitor agents (Agent-E and WebVoyager), while also surpassing WebVoyager in terms of task success rate.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "score": 97.36,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.22161",
-      "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
-      "link": "https://arxiv.org/abs/2609.22161",
-      "summary": "arXiv:2609.22161v1 Announce Type: new Abstract: Medical large language models are commonly trained on mixtures of didactic data (e.g., textbooks) and clinical data (e.g., patient records), yet how these data types differentially shape model capabilities remains unclear. We address this issue with token-matched experiments that vary the didactic-to-clinical ratio and analyze how data composition affects performance, capability profiles, and error patterns across knowledge-intensive and clinic-oriented tasks. We uncover an asymmetric transfer across task types: clinical data improves clinic-oriented tasks while remaining competitive on knowledge-intensive ones, whereas didactic data mainly improves knowledge-intensive tasks. Error analysis suggests a knowing-doing gap, where improvements in knowledge recall do not reliably generalize to clinical reasoning. We further observe that modest amounts of clinical data yield most of the gains on EHR-grounded tasks, while the optimal mixture ratio varies with the knowledge and clinical reasoning demands of downstream tasks. These findings suggest that medical LLM data curation should be application-driven, with higher proportions of clinical data preferred for reasoning-intensive use cases.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "score": 97.16,
       "status": "queued"
     },
     {
@@ -8008,38 +8008,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-08-31T15:39:24.106Z",
       "failureReason": "validation issues: EN: Too much engineering/business jargon in the first half. Move advanced details later and define acronyms. | FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://1endpoint.dev",
-      "title": "Show HN: 1endpoint – Cheaper access to AI models",
-      "link": "https://1endpoint.dev",
-      "summary": "1endpoint is a unified AI inference gateway. We support OpenAI Chat Completions, Responses API and Anthropic Messages, so existing tools and agents can usually point to 1endpoint without changing much of their integration. The other thing we've been focusing heavily on is cost. A lot of the models are significantly cheaper than their official API pricing, without relabeling or downgrading the requested model. Commen…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-08-30T11:13:32.000Z",
-      "score": 168.99,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-08-30T18:25:32.358Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "score": 55.1,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-08-30T18:25:32.358Z",
-      "failureReason": "below min word targets; validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points). | FR: Tutorial should include a rollout/rollback plan (canary, gates, rollback).; soft warnings: EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]
 }
