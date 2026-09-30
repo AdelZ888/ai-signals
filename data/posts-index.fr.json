@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T14:30:57.805Z",
+  "generatedAt": "2026-09-30T20:03:59.040Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "series": "founder-notes",
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-09-30-cloudflares-approach-to-controlling-ai-bots-block-allow-or-monetize-web-access",
+      "title": "Contrôler les bots IA avec Cloudflare : bloquer, autoriser ou monétiser l'accès au web",
+      "date": "2026-09-30",
+      "excerpt": "Guide pratique pour détecter les agents automatisés, choisir une politique et déployer des règles Cloudflare + un petit point d'émission/validation de tokens. Idéal pour fondateurs, petites équipes et développeurs qui veulent protéger l'origine sans casser l'expérience utilisateur.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-30-cloudflares-approach-to-controlling-ai-bots-block-allow-or-monetize-web-access.jpg",
+      "tags": [
+        "Cloudflare",
+        "bots",
+        "sécurité",
+        "infrastructure",
+        "IA",
+        "développeurs",
+        "fondateurs"
+      ],
+      "sources": [
+        "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 7
     },
     {

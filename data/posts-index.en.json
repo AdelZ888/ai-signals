@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T14:30:57.800Z",
+  "generatedAt": "2026-09-30T20:03:59.036Z",
   "locale": "en",
   "posts": [
     {
@@ -27,6 +27,33 @@
       "difficulty": "intermediate",
       "editorialTemplate": "ANALYSIS",
       "readingTimeMinutes": 7
+    },
+    {
+      "slug": "2026-09-30-cloudflares-approach-to-controlling-ai-bots-block-allow-or-monetize-web-access",
+      "title": "Cloudflare’s approach to controlling AI bots: block, allow, or monetize web access",
+      "date": "2026-09-30",
+      "excerpt": "Cloudflare says bots now exceed half of web traffic. This guide explains how site owners can detect AI agents, choose policies, and deploy Cloudflare rules plus tokens to control access.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-09-30-cloudflares-approach-to-controlling-ai-bots-block-allow-or-monetize-web-access.jpg",
+      "tags": [
+        "cloudflare",
+        "bots",
+        "ai",
+        "scraping",
+        "web-security",
+        "rate-limiting",
+        "monetization",
+        "web-ops"
+      ],
+      "sources": [
+        "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
+      ],
+      "category": "Tutorials",
+      "region": "US",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-09-29-create-a-minimal-agent-to-place-a-verifiable-10percent-paper-trade-on-investment-bets",
