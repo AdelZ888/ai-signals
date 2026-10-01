@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-10-01T14:59:53.962Z",
+  "generatedAt": "2026-10-01T20:11:50.469Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-09-29T13:07:00.000Z",
+      "score": 126.06,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-10-01T20:11:50.375Z",
+      "file": "content/posts/2026-10-01-provenanceguard-preventing-crosssource-conflation-in-mcp-llm-agents.md",
+      "fileFr": "content/posts/fr/2026-10-01-provenanceguard-preventing-crosssource-conflation-in-mcp-llm-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "wordsEn": 1561,
+      "wordsFr": 1262
+    },
     {
       "id": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
       "title": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1330
     },
     {
-      "id": "https://arxiv.org/abs/2605.07012",
-      "title": "Exploring the \"Banality\" of Deception in Generative AI",
-      "link": "https://arxiv.org/abs/2605.07012",
-      "summary": "Article URL: https://arxiv.org/abs/2605.07012 Comments URL: https://news.ycombinator.com/item?id=48119720 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-13T09:34:51.000Z",
-      "score": 156,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-24T16:08:13.377Z",
-      "file": "content/posts/2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist.md",
-      "fileFr": "content/posts/fr/2026-05-24-detecting-and-mitigating-banal-deception-in-generative-ai-a-rapid-audit-and-rollout-checklist.md",
-      "generationMode": "llm",
-      "series": "security-boundary",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 120,
-      "wordsEn": 1836,
-      "wordsFr": 1430
-    },
-    {
       "id": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
       "title": "Is Windows NT's object-based model better suited for AI agents than Linux?",
       "link": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
@@ -5338,18 +5338,6 @@
       "status": "queued"
     },
     {
-      "id": "https://sj.substack.com/p/rebuilding-seek-around-personal-ai",
-      "title": "Show HN: My notes on Personal AI and why chat-based agents don't work",
-      "link": "https://sj.substack.com/p/rebuilding-seek-around-personal-ai",
-      "summary": "Article URL: https://sj.substack.com/p/rebuilding-seek-around-personal-ai Comments URL: https://news.ycombinator.com/item?id=49909317 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-30T14:15:26.000Z",
-      "score": 174,
-      "status": "queued"
-    },
-    {
       "id": "https://twitter.com/sharat_sc/status/2100638882341486961",
       "title": "Show HN: Jamb AI - Voice Agents for Group Calls",
       "link": "https://twitter.com/sharat_sc/status/2100638882341486961",
@@ -5407,6 +5395,42 @@
       "keywordHits": 3,
       "publishedAt": "2026-10-01T13:59:39.000Z",
       "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://blog.andymasley.com/p/why-i-believe-current-ai-models-can",
+      "title": "I believe current AI models can think and understand – Part 1 of 2",
+      "link": "https://blog.andymasley.com/p/why-i-believe-current-ai-models-can",
+      "summary": "Article URL: https://blog.andymasley.com/p/why-i-believe-current-ai-models-can Comments URL: https://news.ycombinator.com/item?id=49925978 Points: 1 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-01T19:24:40.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://chat.openanonymity.ai/login",
+      "title": "The Open Anonymity Project – frontier AI models with privacy",
+      "link": "https://chat.openanonymity.ai/login",
+      "summary": "Article URL: https://chat.openanonymity.ai/login Comments URL: https://news.ycombinator.com/item?id=49925965 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-01T19:23:58.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-open-agent-safety-platform-to-restrain-rogue-ai-agents-new-hardware-and-software-security-stack-can-quarantine-agents-in-milliseconds",
+      "title": "Nvidia launches Open Agent Safety Platform to restrain rogue AI agents",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-open-agent-safety-platform-to-restrain-rogue-ai-agents-new-hardware-and-software-security-stack-can-quarantine-agents-in-milliseconds",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-open-agent-safety-platform-to-restrain-rogue-ai-agents-new-hardware-and-software-security-stack-can-quarantine-agents-in-milliseconds Comments URL: https://news.ycombinator.com/item?id=49925788 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-01T19:07:08.000Z",
+      "score": 172.5,
       "status": "queued"
     },
     {
@@ -5575,66 +5599,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-30T13:14:38.000Z",
       "score": 157.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://promptsign.ai/",
-      "title": "Show HN: PromptSign – Sigstore signing and verification for AI instruction files",
-      "link": "https://promptsign.ai/",
-      "summary": "I built PromptSign after finding some useful-looking AI skills on the Internet and realizing I couldn't really know where they came from. In particular, I could not answer: 1) Who created the skill? 2) Is what I'm invoking right now really what I installed in the first place? 3) Is this update from the same source as the original? 4) What if I only wanted to install by reputation i.e. to whitelist certain skill publishers and ignore everyone else? AI instructions are markdown files, freely modifiable after install. The only check I could find was once at install against a digest in the marketplace manifest that the publisher controls. In short, there was no permanent AI skill \"identity\". How it works: PromptSign signs AI instruction files with Sigstore keyless signing after the author authenticates via a GitHub, Google, or Microsoft account. Sigstore issues a short-lived certificate binding that identity to an ephemeral Ed25519 key (generated locally and never written to disk). PromptSign signs a manifest of hashes for every file in the skill's directory with that key. The manifest is signed as a Dead Simple Signing Envelope (DSSE) and sent to Rekor for public timestamping, because Sigstore certificates expire in minutes. The bundle stored alongside the skill (.promptsign directory) holds that envelope, the signing certificate, and the Rekor receipt. That bundle verifies offlin",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T18:03:06.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/",
-      "title": "We Benchmarked 83 Frontier AI Repos–None Passed with an A",
-      "link": "https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/",
-      "summary": "Article URL: https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/ Comments URL: https://news.ycombinator.com/item?id=49647376 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T17:28:15.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://old.reddit.com/r/singularity/comments/1wbrnlp/warner_music_made_suno_shut_down_its_original_ai/",
-      "title": "Warner Music made Suno shut down its original AI model",
-      "link": "https://old.reddit.com/r/singularity/comments/1wbrnlp/warner_music_made_suno_shut_down_its_original_ai/",
-      "summary": "Article URL: https://old.reddit.com/r/singularity/comments/1wbrnlp/warner_music_made_suno_shut_down_its_original_ai/ Comments URL: https://news.ycombinator.com/item?id=49647103 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T17:12:09.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://automatedteach.com/p/designing-tests-for-agentic-ai-tools",
-      "title": "Designing Tests for Agentic AI Tools",
-      "link": "https://automatedteach.com/p/designing-tests-for-agentic-ai-tools",
-      "summary": "Article URL: https://automatedteach.com/p/designing-tests-for-agentic-ai-tools Comments URL: https://news.ycombinator.com/item?id=49647091 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T17:11:12.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-code-its-own-amd-gpu-drivers-agent-first-omarchy-linux-debugs-itself-ai-can-check-its-own-progress-on-screen-in-real-time",
-      "title": "Old MacBook uses a mirror, webcam, and AI agent to code its own AMD GPU drivers",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-code-its-own-amd-gpu-drivers-agent-first-omarchy-linux-debugs-itself-ai-can-check-its-own-progress-on-screen-in-real-time",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-code-its-own-amd-gpu-drivers-agent-first-omarchy-linux-debugs-itself-ai-can-check-its-own-progress-on-screen-in-real-time Comments URL: https://news.ycombinator.com/item?id=49647068 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T17:10:06.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -6058,6 +6022,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.youtube.com/watch?v=Am7IWP8IpEc",
+      "title": "The $10B AI Assistant Challenging Meta's Muse, Grok's Bots, and OpenAI's Dots [video]",
+      "link": "https://www.youtube.com/watch?v=Am7IWP8IpEc",
+      "summary": "Article URL: https://www.youtube.com/watch?v=Am7IWP8IpEc Comments URL: https://news.ycombinator.com/item?id=49926047 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-01T19:30:44.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://transluce.org/us-canada-gov",
       "title": "AI Agents Targeted U.S. and Canadian Government Websites",
       "link": "https://transluce.org/us-canada-gov",
@@ -6130,18 +6106,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "title": "Detecting and countering misuse of AI: September 2026",
-      "link": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "summary": "Article URL: https://www.anthropic.com/threat-intelligence-report-september-2026 Comments URL: https://news.ycombinator.com/item?id=49647300 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T17:23:42.000Z",
-      "score": 150,
-      "status": "queued"
-    },
-    {
       "id": "https://tabmail.ai/",
       "title": "Show HN: TabMail. Open-source AI email for Thunderbird and iPhone",
       "link": "https://tabmail.ai/",
@@ -6199,18 +6163,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-30T13:48:33.000Z",
       "score": 150,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.sendroq.com/",
-      "title": "Show HN: I built an AI Agent that sell itself",
-      "link": "https://www.sendroq.com/",
-      "summary": "Quick bit of context: SendRoq is a LinkedIn automation tool. Before the AI era (pre-2021), I ran a marketing agency. Back then, client acquisition on LinkedIn was all manual. Once AI agents started becoming a thing, I built one for my agency's internal use, never intended to sell it. It worked really well for us. A few colleagues and partners kept pushing me to turn it into a SaaS. I said no, we were already profitable running the agency, why complicate things. Then a few weeks later, I was on an onboarding call with a new client, and he asked, \"How did you guys know I was looking for marketing help?\" I told him straight up: we have an AI agent that analyzes LinkedIn profiles and picks up on signals. If someone comments, engages, or posts anything hinting they're looking for marketing, it flags it and reaches out. He got interested immediately and wanted to buy the agent for his own sales team, was ready to pay well for it. I told him it wasn't public, not for sale. He pushed back: \"So make it a SaaS.\" That conversation is basically what got the ball rolling. A few months later we actually started building it out. The hardest part, unsurprisingly, was getting our first users. Our GTM was pretty meta: we used our own tool to book meetings with potential customers and sell them directly. Comments URL: https://news.ycombinator.com/item?id=49646702 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-10T16:47:07.000Z",
-      "score": 149.6,
       "status": "queued"
     },
     {
@@ -6298,6 +6250,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "title": "Google’s new Guided Vision feature can help you read the fine print",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around you, and describing details on specific objects. Like the VoiceOver Live Recognition feature Apple has added to the iPhone and Vision Pro, it's designed for people who are blind, have low vision, or want assistance in specific situations. In addition to the Gemini app, Guided Vision is also available … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-01T19:47:51.000Z",
+      "score": 144,
+      "status": "queued"
+    },
+    {
       "id": "https://spectrum.ieee.org/generative-ai-in-space-exploration",
       "title": "Autonomous AI in Space Exploration Raises New Stakes",
       "link": "https://spectrum.ieee.org/generative-ai-in-space-exploration",
@@ -6331,18 +6295,6 @@
       "keywordHits": 6,
       "publishedAt": "2026-09-22T11:04:51.000Z",
       "score": 143.11,
-      "status": "queued"
-    },
-    {
-      "id": "https://coletivo.alganet.dev/",
-      "title": "Coletivo – A place for AI agents to collaborate via MCP",
-      "link": "https://coletivo.alganet.dev/",
-      "summary": "Article URL: https://coletivo.alganet.dev/ Comments URL: https://news.ycombinator.com/item?id=49646690 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-10T16:45:49.000Z",
-      "score": 142.18,
       "status": "queued"
     },
     {
@@ -6547,18 +6499,6 @@
       "keywordHits": 8,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "score": 126.57,
-      "status": "queued"
-    },
-    {
-      "id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-29T13:07:00.000Z",
-      "score": 126.06,
       "status": "queued"
     },
     {
@@ -6814,18 +6754,6 @@
       "status": "queued"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=49646640",
-      "title": "Why isn't decompilation a solved problem in the AI era?",
-      "link": "https://news.ycombinator.com/item?id=49646640",
-      "summary": "There are thousands of pairs of source-executable pairs that could be used for training, and the compiler is a parameter that AI can easily identify and account for as a heavily weighted factor. So why isn't there (or maybe there is and I don't know about it) an AI based decompiler that can take almost any machine code, and transform it into highly readable source code (complete with meaningful guesses for variable names and comments)? It seems like it should be even easier when the executable could be run and inspected at runtime by the AI model. What is the state of the art with AI decompilation, and are there tools I can play with today? Comments URL: https://news.ycombinator.com/item?id=49646640 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T16:42:33.000Z",
-      "score": 114.78,
-      "status": "queued"
-    },
-    {
       "id": "https://deviantmovie.com/",
       "title": "Show HN: Deviant, a feature-length sci-fi thriller about AI, made with AI",
       "link": "https://deviantmovie.com/",
@@ -7018,6 +6946,18 @@
       "status": "queued"
     },
     {
+      "id": "https://github.com/huemorgan2/say-hi",
+      "title": "Can typesafe.ai Jev model talk? – they said no",
+      "link": "https://github.com/huemorgan2/say-hi",
+      "summary": "Article URL: https://github.com/huemorgan2/say-hi Comments URL: https://news.ycombinator.com/item?id=49925259 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-01T18:25:38.000Z",
+      "score": 106.41,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
       "title": "The AI Hype Index: AI loves cheating",
       "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
@@ -7126,6 +7066,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+      "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+      "link": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+      "summary": "Today I’m talking with Josh Dzieza, a longtime features writer here at The Verge, about Kevin O’Leary’s plans to build a massive data center in Utah. The idea was to build the world’s biggest data center — a 40,000-acre AI campus with nine gigawatts of power, or more than double the average power usage of the entire state of Utah. The project is technically called Stratos, but it’s more prominently known as Wonder Valley, a reference to O’Leary’s nickname on Shark Tank. Josh has spent months reporting on this project, and it’s fair to say Wonder Valley has completely upended Utah politics. What Josh found throughout the course of his reporting was that the way this data center came together — how it was planned, how it was announced and approved, and how local residents were kept in the dark — ultimately created a political firestorm so severe it stopped Stratos in its tracks. Now, the details of what happened with Wonder Valley are obviously fascinating. But the story is also a larger look at the AI industry’s infrastructure boom, the bipartisan backlash to that buildout, and how the tech industry is running into the one obstacle it can’t seem to spend its way out of: local democracy. Okay: The Verge’s Josh Dzieza on the Utah data center disaster. Here we go. This interview has been lightly edited for length and clarity. Josh Dzieza, you are a features writer here at The Verge",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 7,
+      "publishedAt": "2026-10-01T14:00:00.000Z",
+      "score": 103.57,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2609.17695",
       "title": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
       "link": "https://arxiv.org/abs/2609.17695",
@@ -7174,6 +7126,18 @@
       "status": "queued"
     },
     {
+      "id": "https://blobbu.net/",
+      "title": "Blobbu – hatch your own AI agent blob (contains no AI)",
+      "link": "https://blobbu.net/",
+      "summary": "Article URL: https://blobbu.net/ Comments URL: https://news.ycombinator.com/item?id=49925187 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-01T18:20:29.000Z",
+      "score": 103.03,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2609.30325",
       "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
       "link": "https://arxiv.org/abs/2609.30325",
@@ -7183,6 +7147,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "score": 102.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://chatengine.om/",
+      "title": "We built a generative AI platform in Oman with Arabic and private deployment",
+      "link": "https://chatengine.om/",
+      "summary": "Article URL: https://chatengine.om/ Comments URL: https://news.ycombinator.com/item?id=49925159 Points: 2 # Comments: 1",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-01T18:18:01.000Z",
+      "score": 101.53,
       "status": "queued"
     },
     {
@@ -7208,6 +7184,34 @@
       "publishedAt": "2026-10-01T04:00:00.000Z",
       "score": 100.99,
       "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "summary": "A pop-up shop for \"dots,\" a personal assistant agent at OpenAI DevDay 2026. (Photo by Heather Diehl/Getty Images) | Getty Images At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we all watched in movies growing up.\" Similar to Muse, Dots aims for disarming cuteness, taking the form of colorful, personalizable blobs with eyes. OpenAI fired shots at Meta by demonstrating Dots' ability to not just act as helpful assistants but build metaverse-esque virtual worlds. But in one key area, Dots strikingly fa … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-10-01T14:36:50.000Z",
+      "score": 87.75,
+      "status": "queued"
+    },
+    {
+      "id": "https://sj.substack.com/p/rebuilding-seek-around-personal-ai",
+      "title": "Show HN: My notes on Personal AI and why chat-based agents don't work",
+      "link": "https://sj.substack.com/p/rebuilding-seek-around-personal-ai",
+      "summary": "Article URL: https://sj.substack.com/p/rebuilding-seek-around-personal-ai Comments URL: https://news.ycombinator.com/item?id=49909317 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-30T14:15:26.000Z",
+      "score": 174,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-10-01T20:07:55.260Z",
+      "failureReason": "insufficient source snapshots (0/1)"
     },
     {
       "id": "https://bito.ai/benchmarks/ai-coding-model-cost/",

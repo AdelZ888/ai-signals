@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:59:53.947Z",
+  "generatedAt": "2026-10-01T20:11:50.396Z",
   "locale": "en",
   "posts": [
     {
@@ -26,6 +26,32 @@
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
       "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-10-01-provenanceguard-preventing-crosssource-conflation-in-mcp-llm-agents",
+      "title": "ProvenanceGuard: Preventing Cross‑Source Conflation in MCP LLM Agents",
+      "date": "2026-10-01",
+      "excerpt": "Adds a source-aware verification layer for MCP agents that checks claims against the named tool output, returns support_score and match_span, and flags cross-source conflation.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-01-provenanceguard-preventing-crosssource-conflation-in-mcp-llm-agents.jpg",
+      "tags": [
+        "MCP",
+        "ProvenanceGuard",
+        "source-aware verification",
+        "LLM agents",
+        "provenance",
+        "factuality",
+        "cross-source conflation"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
     },
     {
       "slug": "2026-09-30-amd-to-acquire-world-labs-for-about-dollar82b-immediate-checklist-for-founders-and-small-teams",

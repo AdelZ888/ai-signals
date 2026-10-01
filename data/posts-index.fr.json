@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:59:53.952Z",
+  "generatedAt": "2026-10-01T20:11:50.401Z",
   "locale": "fr",
   "posts": [
     {
@@ -26,6 +26,33 @@
       "series": "agent-playbook",
       "difficulty": "intermediate",
       "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "2026-10-01-provenanceguard-preventing-crosssource-conflation-in-mcp-llm-agents",
+      "title": "ProvenanceGuard : éviter la conflation inter‑sources pour les agents LLM basés MCP",
+      "date": "2026-10-01",
+      "excerpt": "Ajoute une couche de vérification « aware » des sources pour les agents qui suivent le Model Context Protocol (MCP). Le vérificateur confirme chaque affirmation contre la sortie de l'outil nommé, retourne support_score et match_span, et signale les cas de conflation entre sources.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-01-provenanceguard-preventing-crosssource-conflation-in-mcp-llm-agents.jpg",
+      "tags": [
+        "provenance",
+        "MCP",
+        "vérification",
+        "LLM",
+        "agents",
+        "IA",
+        "développement",
+        "sécurité"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
       "readingTimeMinutes": 6
     },
     {
