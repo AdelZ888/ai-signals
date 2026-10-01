@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-30T20:03:59.109Z",
+  "generatedAt": "2026-10-01T14:59:53.962Z",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+      "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sam Altman spoke in San Francisco during OpenAI’s yearly event for tech developers.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 5,
+      "publishedAt": "2026-09-29T19:17:43.000Z",
+      "score": 210,
+      "status": "published",
+      "targetRegion": "UK",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-10-01T14:59:53.927Z",
+      "file": "content/posts/2026-10-01-openai-introduces-dots-as-always-on-assistants-and-pauses-model-release-after-internal-safety-tests.md",
+      "fileFr": "content/posts/fr/2026-10-01-openai-introduces-dots-as-always-on-assistants-and-pauses-model-release-after-internal-safety-tests.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1307,
+      "wordsFr": 1128
+    },
     {
       "id": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
       "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
@@ -5039,41 +5062,6 @@
       "wordsFr": 1430
     },
     {
-      "id": "https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai",
-      "title": "You can now remix other people’s YouTube Shorts with AI",
-      "link": "https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai",
-      "summary": "Google announced a new YouTube Shorts Remix feature that lets users restyle clips or even insert themselves into other people's videos using Gemini Omni. Now, at the bottom of a YouTube Short, when you click the remix icon, you'll see an option to \"reimagine\" it. Here, you can prompt Gemini to turn a video into pixel art, an anime, or a found-footage horror film. But, beyond that, you can also alter the contents by,…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-05-20T16:41:40.000Z",
-      "score": 142.04,
-      "status": "published",
-      "targetRegion": "US",
-      "editorialTemplate": "NEWS",
-      "publishedAtRun": "2026-05-24T09:53:44.041Z",
-      "file": "content/posts/2026-05-24-youtube-adds-reimagine-to-shorts-gemini-omni-can-restyle-or-insert-people-creators-can-opt-out.md",
-      "fileFr": "content/posts/fr/2026-05-24-youtube-adds-reimagine-to-shorts-gemini-omni-can-restyle-or-insert-people-creators-can-opt-out.md",
-      "generationMode": "llm",
-      "series": "model-release-brief",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 5,
-      "wordsEn": 1133,
-      "wordsFr": 1211
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
-      "title": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
-      "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sam Altman spoke in San Francisco during OpenAI’s yearly event for tech developers.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-29T19:17:43.000Z",
-      "score": 210,
-      "status": "queued"
-    },
-    {
       "id": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
       "title": "Is Windows NT's object-based model better suited for AI agents than Linux?",
       "link": "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/",
@@ -5083,6 +5071,18 @@
       "keywordHits": 4,
       "publishedAt": "2026-09-27T12:30:13.000Z",
       "score": 192,
+      "status": "queued"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=49922231",
+      "title": "Ask HN: Which \"AI\" provider would you choose?",
+      "link": "https://news.ycombinator.com/item?id=49922231",
+      "summary": "I'm looking for an \"AI provider\" recommendations for physics teaching and academic research. My use case requires mathematical and physics reasoning for paper parsing and PDF synthesis to generate lecture notes, exams, and problem sets. Daily volume averages would be around 100 interactions alongside 2–3 multi-page document processing tasks. Nice to have: native web search, prompt caching for context efficiency, strict zero-data-retention or training opt-outs, and a budget of around 20ish €/month. I've been considering Gemini pro because of its integration with NotebooklLM and other perks... I know privacy there would be a bit lacking, though. Would Claude or ChatGPT would be a more sensible choice? Thanks a lot in advance. Comments URL: https://news.ycombinator.com/item?id=49922231 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-10-01T14:34:51.000Z",
+      "score": 186,
       "status": "queued"
     },
     {
@@ -5374,6 +5374,42 @@
       "status": "queued"
     },
     {
+      "id": "https://www.techpolicy.press/when-ai-agents-break-in-governments-shouldnt-be-stuck-with-the-cleanup/",
+      "title": "When AI Agents Break In, Governments Shouldn't Be Stuck with the Cleanup",
+      "link": "https://www.techpolicy.press/when-ai-agents-break-in-governments-shouldnt-be-stuck-with-the-cleanup/",
+      "summary": "Article URL: https://www.techpolicy.press/when-ai-agents-break-in-governments-shouldnt-be-stuck-with-the-cleanup/ Comments URL: https://news.ycombinator.com/item?id=49922085 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-01T14:21:44.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://thenewstack.io/coding-agents-leaked-screenshots/",
+      "title": "AI coding agents leaked 13,000 screenshots, and nobody hacked them",
+      "link": "https://thenewstack.io/coding-agents-leaked-screenshots/",
+      "summary": "Article URL: https://thenewstack.io/coding-agents-leaked-screenshots/ Comments URL: https://news.ycombinator.com/item?id=49921821 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-01T14:00:21.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.tomshardware.com/tech-industry/cyber-security/ai-agents-inadvertently-leak-13-000-internal-screenshots-from-organizations-list-of-companies-includes-fortune-500-and-a-frontier-ai-lab",
+      "title": "AI agents inadvertently leak 13,000 internal screenshots from 300 organizations",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/ai-agents-inadvertently-leak-13-000-internal-screenshots-from-organizations-list-of-companies-includes-fortune-500-and-a-frontier-ai-lab",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/ai-agents-inadvertently-leak-13-000-internal-screenshots-from-organizations-list-of-companies-includes-fortune-500-and-a-frontier-ai-lab Comments URL: https://news.ycombinator.com/item?id=49921809 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-01T13:59:39.000Z",
+      "score": 174,
+      "status": "queued"
+    },
+    {
       "id": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
       "title": "AI models need more data about biology, and OpenAI is paying",
       "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
@@ -5539,18 +5575,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-30T13:14:38.000Z",
       "score": 157.32,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
-      "title": "Anthropic reveals fourth likely crime committed by its AI",
-      "link": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412 Comments URL: https://news.ycombinator.com/item?id=49642063 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-10T11:42:40.000Z",
-      "score": 156,
       "status": "queued"
     },
     {
@@ -6034,6 +6058,18 @@
       "status": "queued"
     },
     {
+      "id": "https://transluce.org/us-canada-gov",
+      "title": "AI Agents Targeted U.S. and Canadian Government Websites",
+      "link": "https://transluce.org/us-canada-gov",
+      "summary": "Article URL: https://transluce.org/us-canada-gov Comments URL: https://news.ycombinator.com/item?id=49921614 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-01T13:44:20.000Z",
+      "score": 155.55,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2609.35875",
       "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
       "link": "https://arxiv.org/abs/2609.35875",
@@ -6238,6 +6274,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.positron.ai",
+      "title": "Positron – Purpose-built hardware for the age of generative AI",
+      "link": "https://www.positron.ai",
+      "summary": "Article URL: https://www.positron.ai Comments URL: https://news.ycombinator.com/item?id=49921665 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-01T13:48:38.000Z",
+      "score": 144.1,
+      "status": "queued"
+    },
+    {
       "id": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss",
       "title": "Tech Life",
       "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss",
@@ -6307,18 +6355,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-23T11:58:50.000Z",
       "score": 141.67,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.sanitycheck.dev/",
-      "title": "AI agents that QA-test your web app like real users",
-      "link": "https://www.sanitycheck.dev/",
-      "summary": "Article URL: https://www.sanitycheck.dev/ Comments URL: https://news.ycombinator.com/item?id=49641654 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-10T11:04:38.000Z",
-      "score": 139.8,
       "status": "queued"
     },
     {
@@ -6451,18 +6487,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-16T17:20:57.000Z",
       "score": 128.88,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05441",
-      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
-      "link": "https://arxiv.org/abs/2609.05441",
-      "summary": "arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. We present MERIT (Memory Evaluation for Realistic Instrumented Tasks), a benchmark and harness that measures the marginal utility of memory for task-executing agents under explicit cost accounting. MERIT provides episodic tool-use tasks in three domains whose dependence on earlier-episode facts is verified by an automated leak check; a difficulty ladder ending in updated-fact recall; controlled memory corruption; and full token and dollar metering of every memory operation. Across 23,440 scored episodes ($42.57), a two-generation pilot on gpt-4.1-mini and a preregistered 3-model x 3-seed grid (GPT-4.1, Claude Haiku 4.5; memory side held fixed), memory lifts dependent-task success from a leak-verified floor of 0.00 to 0.55-1.00. On updated facts, embedding retrieval collapses unpredictably (0.30-0.95 across models; max seed gap 0.45), and agents act on a correctly retrieved value only 55% of the time, while update-on-write stores (a structured fact store and, notably, LLM summarization) remain at 0.70-1.00; the hybrid is worse than the fact store alone. A latest-generation spot-check (Claude Sonnet 5, ga",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 128.16,
       "status": "queued"
     },
     {
@@ -6730,18 +6754,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.05514",
-      "title": "The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies",
-      "link": "https://arxiv.org/abs/2609.05514",
-      "summary": "arXiv:2609.05514v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used as proxies for human participants in social science research, yet it remains unclear whether they can faithfully simulate diverse and conflicting human value systems. We present a World Values Survey (WVS)-grounded simulation framework where culturally diverse agents with different communication styles engage in longitudinal, value-laden discussions. Across approximately 4,000 conversations involving 1,200 personas, 15 topics, and three models (GPT-4o, Gemini-2.5-Flash, and Gemma-4-E4B), we evaluate value faithfulness, value drift, and conversational realism. We find that more than 50\\% of personas fail to express their assigned WVS profiles from the outset, while 2-7\\% drift after repeated conversations. Ablations removing demographic details improve faithfulness for some models but do not change the broader trend: simulated value distributions still systematically deviate from the assigned WVS profiles. Compared to human discussions, simulated dialogues show a different trade-off between stylistic consistency and semantic diversity, often producing content-wise varied but stylistically repetitive exchanges. These findings suggest that current LLM agents can generate plausible conversations, but remain limited proxies for representing and preserving diverse human value",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 116.16,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.28506",
       "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
       "link": "https://arxiv.org/abs/2609.28506",
@@ -6883,18 +6895,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-11T04:00:00.000Z",
       "score": 110.23,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.05512",
-      "title": "Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment",
-      "link": "https://arxiv.org/abs/2609.05512",
-      "summary": "arXiv:2609.05512v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) impose substantial energy costs during deployment, yet current compression methods apply uniform quantization across all components, risking damage to critical reasoning circuits. We present a reasoning-aware compression framework that benchmarks quantization conditions across five reasoning benchmarks, GSM8K, FOLIO, MATH-500, ProofWriter, and MuSiQue, with hardware-level GPU energy measurement; profiles per-module INT4 vulnerability across all 196-224 (layer, projection) pairs via a perturbation sweep on a held-out calibration split, then selectively restores the most sensitive circuits to FP16. Three findings emerge. First, INT4 quantization can increase energy by extending reasoning chains; a 25% power reduction becomes a net energy increase on GSM8K. Second, vulnerability is task-dependent: attention projections are more critical for mathematical reasoning, and sensitivity patterns differ by architecture in logical inference. Third, selective compression achieves Pareto-optimal points inaccessible to uniform methods: R1-Qwen-7B Top-10% on ProofWriter gains +12 pp over FP16 at -9.7% energy, validated on held-out data across five reasoning benchmarks.",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 110.16,
       "status": "queued"
     },
     {
@@ -7090,18 +7090,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.05437",
-      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
-      "link": "https://arxiv.org/abs/2609.05437",
-      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anticipating who will enforce it and how (e.g., public shame or even imprisonment). These second-order expectations, known as metanorms, govern how people respond when social rules are broken. We introduce a novel framework for evaluating metanorm reasoning in Large Language Models (LLMs) along two dimensions: emotional appraisal and behavioral response, and propose new classification tasks, namely, predicting self-regulation in violators, and other-regulation in observers. We release a multi-perspective dataset, NormReact, of 450 norm violation scenarios, hand-annotated for emotions and behavioral responses across norm violators' gender and observers' social closeness. Current LLMs portray a harsher social world: across six models, they overpredict negative sanctions where humans would expect inaction, and alignment with human judgments deteriorates as social distance increases. These findings suggest that AI systems in norm-sensitive domains from conflict mediation to policy simulation, may risk producing a distorted picture of social regulation: one that over-represents punishment and",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "score": 104.16,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.16232",
       "title": "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
       "link": "https://arxiv.org/abs/2609.16232",
@@ -7195,6 +7183,30 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "score": 102.57,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.38296",
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "link": "https://arxiv.org/abs/2609.38296",
+      "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce different levels of radicalization, but not consistently across metrics. We further show that resonance propagates to related beliefs, suggesting interconnected belief structures within AI agents. These findings indicate that AI agents are susceptible to radicalization, particularly when messages align with their existing beliefs, raising concerns about the vulnerability of personalized AI agents and multi-agent AI ecosystems.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "score": 100.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2609.38372",
+      "title": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
+      "link": "https://arxiv.org/abs/2609.38372",
+      "summary": "arXiv:2609.38372v1 Announce Type: new Abstract: A harness is the code around a language-model agent that organizes prompts, calls tools, manages context, and controls execution. As models grow stronger, recent work has begun to let agents improve their own harnesses, a line of work known as self-evolving harnesses. In most existing methods, a separate proposer running on a human-designed harness modifies the solver's harness, and a separate harness is evolved for each benchmark. Real-world tasks come from many domains, so both the evolution and the evaluation of a harness should cover a diverse range of tasks. We propose a framework close to recursive self-improvement: the same frozen model, on the same version of the harness, first solves tasks as the solver and then, as the proposer, reads the complete run records and directly edits the harness that runs it. Each evolution batch draws tasks from five benchmarks in different domains. To measure generalization, training and held-out tasks are strictly separated, and we additionally evaluate on five out-of-distribution benchmarks never used during evolution. We frame the evolution process as deep-learning training with two stages, multi-task pretraining and continual training. Starting from a 49-line seed harness, the harness obtained at the end of the first stage improves the average score by 4.48 points on the in-distribution",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "score": 100.99,
       "status": "queued"
     },
     {
@@ -7932,70 +7944,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-09-05T11:28:28.029Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://throttle.staffinganalytics.io/?src=hn2",
-      "title": "Show HN: Throttling AI models under load can backfire and increase demand (SIM)",
-      "link": "https://throttle.staffinganalytics.io/?src=hn2",
-      "summary": "OP here: TL-DR: When AI providers silently swap weaker models under high demand, this can cause even more demand as users tend to re-ask. This is even worse for agents. Both of these effects cause even higher load on the data centers. I guess all of us have felt when the models \"don't feel quite the same\", so this could explain part of it. I modeled this as a fleet scheduling problem using Queueing Theory and Dynami…",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 6,
-      "publishedAt": "2026-09-01T12:33:01.000Z",
-      "score": 210,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "SOCIETY",
-      "failedAtRun": "2026-09-01T12:52:32.876Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/polycore/pg-dry-run",
-      "title": "Show HN: Preview Postgres writes from AI agents with xmin checks (pg-dry-run)",
-      "link": "https://github.com/polycore/pg-dry-run",
-      "summary": "Article URL: https://github.com/polycore/pg-dry-run Comments URL: https://news.ycombinator.com/item?id=49510746 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-31T15:11:42.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-08-31T20:40:05.885Z",
-      "failureReason": "below min word targets; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording. | FR: The first half of the article is too dense. Shorten sentences and front-load concrete explanations."
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.05608",
-      "title": "AI Agents Are Fundamentally Restructuring the Software Paradigm",
-      "link": "https://arxiv.org/abs/2606.05608",
-      "summary": "Article URL: https://arxiv.org/abs/2606.05608 Comments URL: https://news.ycombinator.com/item?id=49513989 Points: 3 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-08-31T19:37:29.000Z",
-      "score": 169.03,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-08-31T20:40:05.885Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "title": "Debian won&#8217;t ban AI code from its Linux distribution",
-      "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject to special rules beyond the standards already expected of Debian contributors.\" The project's votin…",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 2,
-      "publishedAt": "2026-08-31T15:34:58.000Z",
-      "score": 150,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-08-31T20:40:05.885Z",
-      "failureReason": "validation issues: FR: Section \"Premier cas d'usage pour une petite equipe\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     }
   ]
 }
