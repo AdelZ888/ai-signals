@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-10-01T20:11:50.396Z",
+  "generatedAt": "2026-10-02T14:28:20.684Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-10-02-when-windows-nts-objecthandle-and-impersonation-primitives-matter-for-ai-agent-design",
+      "title": "When Windows NT's object/handle and impersonation primitives matter for AI agent design",
+      "date": "2026-10-02",
+      "excerpt": "Google researcher Laurie Kirk argues NT's object/handle/impersonation model eases specific agent patterns. Read a pragmatic, source‑backed breakdown of benefits, limits, and prototyping steps.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-02-when-windows-nts-objecthandle-and-impersonation-primitives-matter-for-ai-agent-design.jpg",
+      "tags": [
+        "os-security",
+        "windows-nt",
+        "linux",
+        "agents",
+        "system-design",
+        "access-control",
+        "agent-playbook"
+      ],
+      "sources": [
+        "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-10-01-openai-introduces-dots-as-always-on-assistants-and-pauses-model-release-after-internal-safety-tests",
       "title": "OpenAI introduces 'dots' as always-on assistants and pauses model release after internal safety tests",

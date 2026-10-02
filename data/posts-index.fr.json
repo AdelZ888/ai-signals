@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-10-01T20:11:50.401Z",
+  "generatedAt": "2026-10-02T14:28:20.688Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-10-02-when-windows-nts-objecthandle-and-impersonation-primitives-matter-for-ai-agent-design",
+      "title": "Quand les primitives objet/handle et d'usurpation de Windows NT comptent pour la conception d'agents IA",
+      "date": "2026-10-02",
+      "excerpt": "Une chercheuse (ancienne ingénieure inverse chez Microsoft) défend que le modèle objet/handle et les tokens d'usurpation de Windows NT simplifient certains patterns d'agents. Résumé pragmatique des bénéfices, limites et étapes de prototypage.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-02-when-windows-nts-objecthandle-and-impersonation-primitives-matter-for-ai-agent-design.jpg",
+      "tags": [
+        "Windows NT",
+        "Linux",
+        "architecture",
+        "sécurité",
+        "agents IA",
+        "prototype",
+        "ops",
+        "développement"
+      ],
+      "sources": [
+        "https://www.windowslatest.com/2026/09/26/google-researcher-explains-why-windows-nt-puts-linux-to-shame-and-imagines-an-alternate-history-where-it-won/"
+      ],
+      "category": "Model Breakdowns",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "ANALYSIS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-10-01-openai-introduces-dots-as-always-on-assistants-and-pauses-model-release-after-internal-safety-tests",
       "title": "OpenAI présente « dots » : assistants toujours actifs et pause pour raisons de sécurité — ce que les équipes UK doivent savoir",
