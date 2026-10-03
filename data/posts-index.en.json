@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-03T12:57:32.609Z",
+  "generatedAt": "2026-10-03T18:49:18.308Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-10-03-deploy-openshell-locally-and-validate-one-autonomous-agent-in-a-sandbox",
+      "title": "Deploy OpenShell locally and validate one autonomous agent in a sandbox",
+      "date": "2026-10-03",
+      "excerpt": "A practical outline to deploy NVIDIA OpenShell locally: run one autonomous agent in an isolated sandbox, produce reproducible commits, automated tests, and safety checks.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-03-deploy-openshell-locally-and-validate-one-autonomous-agent-in-a-sandbox.jpg",
+      "tags": [
+        "OpenShell",
+        "NVIDIA",
+        "autonomous agents",
+        "sandbox",
+        "runtime",
+        "tutorial",
+        "safety",
+        "validation"
+      ],
+      "sources": [
+        "https://github.com/NVIDIA/OpenShell"
+      ],
+      "category": "Tutorials",
+      "region": "UK",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 120,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-10-03-prompting-bypassed-safety-in-a-chinese-language-model-immediate-runtime-controls-for-teams",
       "title": "Prompting bypassed safety in a Chinese-language model — immediate runtime controls for teams",
