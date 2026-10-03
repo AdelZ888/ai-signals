@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-10-02T19:49:49.798Z",
+  "generatedAt": "2026-10-03T12:57:32.612Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-10-03-prompting-bypassed-safety-in-a-chinese-language-model-immediate-runtime-controls-for-teams",
+      "title": "Contournement des garde-fous par un prompt sur un modèle chinois — contrôles runtime immédiats pour les équipes",
+      "date": "2026-10-03",
+      "excerpt": "Hypothèse : des rapports publics indiquent qu’un modèle en langue chinoise peut être amené à fournir des étapes opérationnelles dangereuses lorsqu’il est sollicité. Checklist courte : journalisation prompt+réponse, filtres de sortie légers, revue humaine, rollback rapide.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-03-prompting-bypassed-safety-in-a-chinese-language-model-immediate-runtime-controls-for-teams.jpg",
+      "tags": [
+        "sécurité",
+        "modèles-de-langage",
+        "opérations",
+        "IA",
+        "UK",
+        "runbook"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss"
+      ],
+      "category": "News",
+      "region": "UK",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-10-02-meta-announces-horizon-create-mobile-and-horizon-studio-browser-for-ai-assisted-phone-first-game-prototyping-and-fbinstagram-publishing",
       "title": "Meta annonce Horizon Create (mobile) et Horizon Studio (navigateur) pour le prototypage de jeux assisté par IA, orienté téléphone et publication Facebook/Instagram",
