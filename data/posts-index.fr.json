@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-10-03T18:49:18.311Z",
+  "generatedAt": "2026-10-04T19:39:56.261Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-10-04-reconstructing-e-fields-from-fem-electromagnetic-solves-using-nedelec-edge-element-dofs",
+      "title": "Reconstruire les champs E depuis des solves FEM électromagnétiques en utilisant les DOF des éléments de Nédélec",
+      "date": "2026-10-04",
+      "excerpt": "Guide pratique pour exporter le vecteur global des DOF d'un solveur FEM EM et la topologie du maillage, puis reconstruire point par point E(x) avec les fonctions de base vectorielles de Nédélec — pourquoi l'extraction par nœuds donne des champs erronés et comment corriger cela.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-04-reconstructing-e-fields-from-fem-electromagnetic-solves-using-nedelec-edge-element-dofs.jpg",
+      "tags": [
+        "FEM",
+        "Électromagnétisme",
+        "Nédélec",
+        "Éléments-arete",
+        "Postprocessing",
+        "Datasets"
+      ],
+      "sources": [
+        "https://www.arenaphysica.com/publications/fem-edge-elements"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 240,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 7
+    },
     {
       "slug": "2026-10-03-deploy-openshell-locally-and-validate-one-autonomous-agent-in-a-sandbox",
       "title": "Déployer OpenShell en local et valider un agent autonome dans un bac à sable",
