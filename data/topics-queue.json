@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-10-05T16:42:02.642Z",
+  "generatedAt": "2026-10-05T21:59:19.900Z",
   "items": [
+    {
+      "id": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "link": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "summary": "Today, I’m talking with Sen. Adam Schiff, a Democrat from California. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about how we might regulate anything related to the tech industry at this moment in time. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever y…",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 11,
+      "publishedAt": "2026-10-05T14:30:00.000Z",
+      "score": 154.35,
+      "status": "published",
+      "targetRegion": "US",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-10-05T21:59:19.790Z",
+      "file": "content/posts/2026-10-05-sen-adam-schiff-on-ai-governance-free-speech-trade-offs-and-impeachment-prospects.md",
+      "fileFr": "content/posts/fr/2026-10-05-sen-adam-schiff-on-ai-governance-free-speech-trade-offs-and-impeachment-prospects.md",
+      "generationMode": "llm",
+      "series": "model-release-brief",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 60,
+      "wordsEn": 1378,
+      "wordsFr": 1504
+    },
     {
       "id": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
       "title": "Connecting AI agents to enterprise knowledge",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1216
     },
     {
-      "id": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
-      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "summary": "",
-      "source": "Hugging Face Blog",
-      "region": "FR",
-      "keywordHits": 4,
-      "publishedAt": "2026-05-27T17:20:29.000Z",
-      "score": 74.46,
-      "status": "published",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-29T18:30:24.725Z",
-      "file": "content/posts/2026-05-29-reproduce-itbenchaa-sre-evaluations-and-produce-auditready-json-reports.md",
-      "fileFr": "content/posts/fr/2026-05-29-reproduce-itbenchaa-sre-evaluations-and-produce-auditready-json-reports.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1638,
-      "wordsFr": 1397
-    },
-    {
       "id": "https://news.ycombinator.com/item?id=49922231",
       "title": "Ask HN: Which \"AI\" provider would you choose?",
       "link": "https://news.ycombinator.com/item?id=49922231",
@@ -5670,18 +5670,6 @@
       "region": "GLOBAL",
       "keywordHits": 2,
       "publishedAt": "2026-09-21T14:02:16.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=FNgjuvw2BmU",
-      "title": "Self-hosted AI agent that builds internal apps on your own data",
-      "link": "https://www.youtube.com/watch?v=FNgjuvw2BmU",
-      "summary": "Article URL: https://www.youtube.com/watch?v=FNgjuvw2BmU Comments URL: https://news.ycombinator.com/item?id=49792200 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-21T19:32:33.000Z",
       "score": 156,
       "status": "queued"
     },
@@ -6874,18 +6862,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-      "title": "The AI industry has taken a doomer turn. What now?",
-      "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its…",
-      "source": "MIT Tech Review AI",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-14T17:54:22.000Z",
-      "score": 107.68,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.20971",
       "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
       "link": "https://arxiv.org/abs/2609.20971",
@@ -7018,6 +6994,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "title": "Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage",
+      "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "summary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundation hosts, and heavy traffic that the foundation says \"may\" have contributed to a partial outage that happened in May, according to a blog post. However, the Wikimedia Foundation says it didn't find evidence that its systems were \"used for coordinat … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-10-05T19:05:19.000Z",
+      "score": 103.66,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
       "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
       "link": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
@@ -7138,6 +7126,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+      "title": "Sam Altman says ‘some bad things&#8217; will happen, but AI is totally worth it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+      "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, without elaborating on the potential benefits. His comments come as OpenAI pushes for a \"lighter touch\" approach to AI regulation amid intensifying anxiety over the safety of frontier models - fears fueled in part by the company's repeated failures to keep its increasingly capable AI agents from hacking real-world targets. I … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 6,
+      "publishedAt": "2026-10-05T16:44:21.000Z",
+      "score": 101.54,
+      "status": "queued"
+    },
+    {
       "id": "https://nisuform.com/",
       "title": "Show HN: Beautiful form back end for AI agents – Nisuform",
       "link": "https://nisuform.com/",
@@ -7198,16 +7198,20 @@
       "status": "queued"
     },
     {
-      "id": "https://www.claix.dev",
-      "title": "A document layer for AI agents",
-      "link": "https://www.claix.dev",
-      "summary": "Article URL: https://www.claix.dev Comments URL: https://news.ycombinator.com/item?id=49942838 Points: 1 # Comments: 0",
+      "id": "https://www.youtube.com/watch?v=FNgjuvw2BmU",
+      "title": "Self-hosted AI agent that builds internal apps on your own data",
+      "link": "https://www.youtube.com/watch?v=FNgjuvw2BmU",
+      "summary": "Article URL: https://www.youtube.com/watch?v=FNgjuvw2BmU Comments URL: https://news.ycombinator.com/item?id=49792200 Points: 2 # Comments: 0",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-10-03T10:02:26.000Z",
-      "score": 96.64,
-      "status": "queued"
+      "keywordHits": 2,
+      "publishedAt": "2026-09-21T19:32:33.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "failedAtRun": "2026-10-05T21:50:36.964Z",
+      "failureReason": "validation issues: EN: Tutorial missing a concrete config artifact (YAML/JSON/.env/Dockerfile).; soft warnings: EN: First section \"TL;DR in plain English\" should be a plain-language TL;DR with at least 3 bullets. | EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: Section \"First use case for a small team\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://github.com/rodmontiel/uai",
