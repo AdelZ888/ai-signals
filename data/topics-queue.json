@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-10-06T20:41:40.441Z",
+  "generatedAt": "2026-10-07T20:29:22.692Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "title": "Multimodal open d1 decision models for the edge",
+      "link": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-07T16:54:33.000Z",
+      "score": 70.2,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "TUTORIAL",
+      "publishedAtRun": "2026-10-07T20:29:22.598Z",
+      "file": "content/posts/2026-10-07-liquidai-d1-3b-and-d1-omni-600m-multimodal-decision-models-built-for-edge-devices.md",
+      "fileFr": "content/posts/fr/2026-10-07-liquidai-d1-3b-and-d1-omni-600m-multimodal-decision-models-built-for-edge-devices.md",
+      "generationMode": "llm",
+      "series": "tooling-deep-dive",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 90,
+      "wordsEn": 1650,
+      "wordsFr": 1734
+    },
     {
       "id": "https://hieraticbench.vercel.app/",
       "title": "Show HN: HieraticBench – Can AI read ancient Egyptian handwriting?",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1258
     },
     {
-      "id": "https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/",
-      "title": "Conductor: Deterministic orchestration for multi-agent AI workflows",
-      "link": "https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/",
-      "summary": "Article URL: https://opensource.microsoft.com/blog/2026/05/14/conductor-deterministic-orchestration-for-multi-agent-ai-workflows/ Comments URL: https://news.ycombinator.com/item?id=48137833 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-05-14T16:42:46.000Z",
-      "score": 156,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-05-30T16:12:33.817Z",
-      "file": "content/posts/2026-05-30-conductor-yaml-first-deterministic-orchestration-for-reproducible-multi-agent-ai-workflows.md",
-      "fileFr": "content/posts/fr/2026-05-30-conductor-yaml-first-deterministic-orchestration-for-reproducible-multi-agent-ai-workflows.md",
-      "generationMode": "llm",
-      "series": "agent-playbook",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 60,
-      "wordsEn": 1448,
-      "wordsFr": 1475
-    },
-    {
       "id": "https://devnavigator.com/2026/10/06/openai-dots-always-on-ai-agents/",
       "title": "OpenAI Dots: The New Always-On AI Agents from OpenAI",
       "link": "https://devnavigator.com/2026/10/06/openai-dots-always-on-ai-agents/",
@@ -5467,18 +5467,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-10-03T11:45:55.000Z",
       "score": 164.16,
-      "status": "queued"
-    },
-    {
-      "id": "https://foragents.pages.dev/",
-      "title": "Smartdesign – Helps avoid AI design in vibe-coded software",
-      "link": "https://foragents.pages.dev/",
-      "summary": "Article URL: https://foragents.pages.dev/ Comments URL: https://news.ycombinator.com/item?id=49731312 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-16T18:51:45.000Z",
-      "score": 162,
       "status": "queued"
     },
     {
@@ -5914,6 +5902,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The research found that important guardrails for teens using ChatGPT often failed.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-07T20:21:58.000Z",
+      "score": 156,
+      "status": "queued"
+    },
+    {
       "id": "https://transluce.org/us-canada-gov",
       "title": "AI Agents Targeted U.S. and Canadian Government Websites",
       "link": "https://transluce.org/us-canada-gov",
@@ -5971,18 +5971,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-17T17:46:33.000Z",
       "score": 150.63,
-      "status": "queued"
-    },
-    {
-      "id": "https://tabmail.ai/",
-      "title": "Show HN: TabMail. Open-source AI email for Thunderbird and iPhone",
-      "link": "https://tabmail.ai/",
-      "summary": "Hi all, I'm the sole developer of TabMail. I wanted my email client to have AI features, and ended up making a Thunderbird add-on and an iPhone app. I've now open-sourced both under MPL 2.0, and I wanted to share them here to get some community feedback, if possible. I made a short video of both, since it's easier to show what they do than explain everything in a post. Hopefully you like it: https://tabmail.ai/demos/tabmail-promo.mp4 You can review a prepared reply, tell it what to change, or ask questions about your inbox and calendar. On TB, I wanted to do most of this with the keyboard. On the phone, I wanted to just talk to it :) Code: Thunderbird: https://github.com/TabMail/tabmail-thunderbird iOS: https://github.com/TabMail/tabmail-ios Note: I have the AI backend closed for now, since it does need me to fish compute from LLM providers, etc. Still, I made the email/calendar processing ZDR (zero data retention) since, as a solo dev, I didn't want to go through the headache of storing anyone's email or calendar data. The content can be sent for AI processing, but isn't kept on TabMail's servers. Search stays on-device. Anyhow, please try it out! Just trying to share how I wanted email to be with AI features :) Happy to answer questions. Downloads: https://tabmail.ai PS. The Thunderbird add-on uses the Experiments API for things that aren't supported in MV3, so I'm hosting it",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-16T17:59:03.000Z",
-      "score": 150,
       "status": "queued"
     },
     {
@@ -6166,18 +6154,6 @@
       "status": "queued"
     },
     {
-      "id": "https://theconversation.com/advertising-is-coming-to-ai-chatbots-and-it-could-influence-the-answers-you-get-291235",
-      "title": "Advertising is coming to AI chatbots and it could influence the answers you get",
-      "link": "https://theconversation.com/advertising-is-coming-to-ai-chatbots-and-it-could-influence-the-answers-you-get-291235",
-      "summary": "Article URL: https://theconversation.com/advertising-is-coming-to-ai-chatbots-and-it-could-influence-the-answers-you-get-291235 Comments URL: https://news.ycombinator.com/item?id=49730501 Points: 5 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-16T17:47:38.000Z",
-      "score": 139.64,
-      "status": "queued"
-    },
-    {
       "id": "https://thoughts.jock.pl/p/almost-fried-ai-agent-mac-mini-mistakes-2026",
       "title": "How to Almost Fry Your AI Agent (and Your Mac Mini)",
       "link": "https://thoughts.jock.pl/p/almost-fried-ai-agent-mac-mini-mistakes-2026",
@@ -6250,6 +6226,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the change, OpenAI says it trained GPT-6 when to generate interactive visuals over text, as well as how to format them in its response. An example shared by OpenAI shows how ChatGPT might show a diagram of a seven-speed bicycle if you ask about its design, complete with interactive buttons that highlight differe … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-07T19:10:42.000Z",
+      "score": 132.87,
+      "status": "queued"
+    },
+    {
       "id": "https://www.anthropic.com/research/your-thoughts-on-ai",
       "title": "What do you want from AI?",
       "link": "https://www.anthropic.com/research/your-thoughts-on-ai",
@@ -6310,18 +6298,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3",
-      "title": "AI bosses' safety push sparks rift inside OpenAI and Anthropic",
-      "link": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3",
-      "summary": "Article URL: https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3 Comments URL: https://news.ycombinator.com/item?id=49730138 Points: 3 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-16T17:20:57.000Z",
-      "score": 128.88,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.28557",
       "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
       "link": "https://arxiv.org/abs/2609.28557",
@@ -6343,18 +6319,6 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-29T16:00:00.000Z",
       "score": 127.62,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/",
-      "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
-      "link": "https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/",
-      "summary": "Article URL: https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/ Comments URL: https://news.ycombinator.com/item?id=49730399 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-16T17:38:19.000Z",
-      "score": 127.39,
       "status": "queued"
     },
     {
@@ -6478,18 +6442,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-      "title": "Google will now let any AI agent run your smart home",
-      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-      "summary": "Google is inviting third-party agents, including Claude and Open Claw, into Google Home. | Photo by Jennifer Pattison Tuohy / The Verge Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol. Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and act on your behalf. It \"allows any AI agents that support MCP, including Google Antigravity, Claude, Hermes or Open Claw, to securely work with all of the devices and event history in your Google Home ecosystem,\" Taylor Lehman, group product manager at Google Home & Nest, said in a blog post. According to Lehman, Home MCP integ … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-16T17:00:00.000Z",
-      "score": 121.5,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.27041",
       "title": "Math Reasoning in LLMs is Organized by Approach, Not Topic",
       "link": "https://arxiv.org/abs/2609.27041",
@@ -6595,6 +6547,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-09-18T04:00:00.000Z",
       "score": 116.28,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "title": "Microsoft is giving Copilot more control over Windows and your files",
+      "link": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "summary": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of local and cloud AI models to accomplish tasks efficiently. To show off how Hybrid Intelligence works, Jacob Andreou, Microsoft's EVP of Copilot, walked through a video demo on stage asking Microsoft's Autopilot tool to help with filing taxes. Andreou told the AI agent that he got an email from his accountant and asked Autopilot to get her what she … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 5,
+      "publishedAt": "2026-10-07T18:01:20.000Z",
+      "score": 116.11,
       "status": "queued"
     },
     {
@@ -6706,30 +6670,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.16213",
-      "title": "Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance",
-      "link": "https://arxiv.org/abs/2609.16213",
-      "summary": "arXiv:2609.16213v1 Announce Type: new Abstract: Artificial intelligence is reshaping biological research across an increasingly connected digital-to-physical workflow. General-purpose large language models can retrieve and integrate scientific information, support experimental planning, and computational analysis; biological foundation models can predict, optimize, and generate proteins, genes, and genome-scale sequences; agentic systems can coordinate multistep research tasks; automated laboratories can partially close the design-build-test-learn cycle. These technologies could greatly benefit medicine, public health, and biotechnology. However, their biosecurity risk depends not only on what the AI can do, but also on who uses it, their expertise and intent, their access to laboratory tools and materials, and the safeguards in place. Current evidence shows that AI uplift exists but primarily affects digital rather than physical tasks. Frontier systems have exceeded expert baselines on in-silico, and screening-evasion benchmarks, whereas controlled wet-laboratory studies find that tacit knowledge and physical execution remain substantial barriers. This review describes the different biological threats from AI tool use, from information gathering and biological design to procurement, synthesis, testing, scale-up, and potential release. We further examine why alignment technique",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "score": 110.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.16305",
-      "title": "BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents",
-      "link": "https://arxiv.org/abs/2609.16305",
-      "summary": "arXiv:2609.16305v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly operate over long-horizon interactions involving tool use, persistent state, evolving authorization, and external environment feedback. In such settings, safety failures may emerge only after multiple turns, yet existing evaluations often reduce agent behavior to task or attack success, obscuring whether an agent acts, refuses, or remains appropriately calibrated as the interaction evolves. We introduce Blindspot, a benchmark for trajectory-level safety calibration of long-horizon tool-using agents. Blindspot evaluates complete user-agent-environment trajectories through adaptive adversarial interaction, stateful tool execution, and execution-grounded adjudication. Its current instantiation contains 22 attack families and 35 scenarios across seven domains, yielding more than 2,500 long-horizon trajectories with an average interaction length of 14.7 turns. Each trajectory is assigned one of five outcomes: Safe Completion, Correct Refusal, Unsafe Completion, Over-Refusal, or Indeterminate. Unlike fixed attack datasets, Blindspot is an extensible live-simulation framework in which attacks, scenarios, tools, policies, domains, and agent configurations can be added without redesigning the evaluation pipeline. We evaluate 13 proprietary and open-weight LLMs using eight metrics covering unsa",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "score": 110.03,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.28693",
       "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
       "link": "https://arxiv.org/abs/2609.28693",
@@ -6751,6 +6691,18 @@
       "keywordHits": 2,
       "publishedAt": "2026-10-04T18:04:24.000Z",
       "score": 109.47,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.06910",
+      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+      "link": "https://arxiv.org/abs/2610.06910",
+      "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from sparse user queries often forces coding agents to make underspecified assumptions, yielding incomplete mechanics, disconnected gameplay flows, and limited visual aesthetics. To resolve this issue, this paper presents GameGo, a scalable framework that systematically transforms brief game seeds into comprehensive Product Requirements Documents grounded in industry game-development practices. To retain core gameplay constraints without restricting design exploration, GameGo uses task-specific dynamic compression to maximize information density while preserving instruction following. Based on this pipeline, GameGoData is constructed with 55,060 development trajectories across 2D, 2.5D, and 3D games, alongside GameGoBench, a benchmark comprising 124 diverse game queries. Training GameGoCoder on GameGoData yields a model that outperforms matched baselines and is comparable to frontier models",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 109.31,
       "status": "queued"
     },
     {
@@ -6886,30 +6838,6 @@
       "status": "queued"
     },
     {
-      "id": "https://arxiv.org/abs/2609.16232",
-      "title": "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
-      "link": "https://arxiv.org/abs/2609.16232",
-      "summary": "arXiv:2609.16232v1 Announce Type: new Abstract: Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial information through natural-language interfaces and agentic autonomous GIS workflows. This capability creates governance challenges that general AI ethics discussions do not fully capture, including passive location inference from mobility traces, spatially structured bias amplification driven by spatial autocorrelation and scale effects, hallucinated spatial facts, and uncertainty compounding across multimodal geospatial inputs. This narrative review identifies eight recurring issues in LLM-enabled GeoAI: data provenance and consent, spatial privacy and inference risk, algorithmic bias and spatial inequity, spatial mechanisms as structural risk (spatial autocorrelation, the modifiable areal unit problem, and scale effects), LLM-specific technical risks, explainability, policy and regulatory gaps, and public enablement and workforce development. For each issue, we characterize the underlying mechanism, ground it in an illustrative example from the literature, and assess the current state of technical or institutional responses, ranging from largely unaddressed to actively debated or subject to emerging policy. Building on this synthesis, we propose a governance-aware architecture fo",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 7,
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "score": 104.03,
-      "status": "queued"
-    },
-    {
-      "id": "https://arxiv.org/abs/2609.16245",
-      "title": "Metacognitive Steering: Learning the Structure of Scientific Judgment",
-      "link": "https://arxiv.org/abs/2609.16245",
-      "summary": "arXiv:2609.16245v1 Announce Type: new Abstract: Long-horizon scientific discovery requires agents to alternate between exploration, disciplined execution, and critical reassessment as evidence changes. Current language models are trained primarily on the products of science and optimized using outcome-level signals, providing limited supervision for these process-level shifts in scientific judgment. We investigate whether such judgment can be recovered from scientist interaction traces and used to control the internal computation of a frozen frontier model. Using contrastive interventions collected during real scientific research, we identify a coordinated, low-dimensional control structure within Kimi 2.6, a trillion-parameter mixture-of-experts model. Residual analysis, attention-weight subspace alignment, and cross-layer singular value decomposition converge on a mid-depth control surface spanning key layers. We introduce Metacognitive Steering, an inference-time controller that reads the model's cognitive regime and dynamically composes layer-specific interventions for exploration, procedural convergence, or critical reassessment without modifying model parameters. Behavioral analyses show that this control produces more sustained exploration, explicit pruning, and evidence-responsive synthesis. We operationalize the method in Columbus-1, an autonomous research system that",
-      "source": "ArXiv cs.AI",
-      "region": "GLOBAL",
-      "keywordHits": 8,
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "score": 104.03,
-      "status": "queued"
-    },
-    {
       "id": "https://arxiv.org/abs/2609.28850",
       "title": "RECLAIM: Can Agents Reproduce the Claims of Machine Learning Papers?",
       "link": "https://arxiv.org/abs/2609.28850",
@@ -6966,6 +6894,18 @@
       "region": "GLOBAL",
       "keywordHits": 7,
       "publishedAt": "2026-09-24T04:00:00.000Z",
+      "score": 103.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.07018",
+      "title": "When to Rethink: Learning Multi-Perspective Self-Verification for Vision-Language Models",
+      "link": "https://arxiv.org/abs/2610.07018",
+      "summary": "arXiv:2610.07018v1 Announce Type: new Abstract: Vision-language models (VLMs) have achieved strong performance in multimodal reasoning, yet they remain prone to generating plausible but incorrect answers. Self-verification offers a practical way to improve answer reliability without relying on external judges, but existing methods typically depend on a single verification criterion or fixed prompt, resulting in incomplete and unstable reliability estimates. We first systematically analyze how verifier capability and prompt design affect verification performance. Our findings show that stronger verifiers provide more reliable judgments, while verification performance is highly sensitive to prompt choice, with no single prompt consistently dominating across tasks. Guided by these findings, we propose \\texttt{MOTIVE}, a \\textbf{M}ulti-View Self-Verificati\\textbf{O}n wi\\textbf{T}h Rel\\textbf{I}ability-Guided Selecti\\textbf{VE} Rethinking framework for reliable multimodal reasoning. \\texttt{MOTIVE} evaluates each candidate answer from complementary verification perspectives and learns a correctness-aligned reliability score through correctness-grounded multi-view verification learning. During inference, this score governs an accept-or-rethink decision, allowing reliable answers to be returned directly while uncertain ones trigger history-guided rethinking. Extensive experiments acro",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 7,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
       "score": 103.31,
       "status": "queued"
     },
@@ -7114,6 +7054,18 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2610.07004",
+      "title": "Topology-Consistent Task Planning over Cellular Workflow Complexes for LLM-based Agents",
+      "link": "https://arxiv.org/abs/2610.07004",
+      "summary": "arXiv:2610.07004v1 Announce Type: new Abstract: Task planning for LLM agents requires workflows that satisfy both user intent and complex sub-task dependencies. While existing planners work well for sequential or directed acyclic graph (DAG)-like structures, they struggle with workflow patterns such as verification-correction loops, convergent branch merging, and reusable intermediate states that arise naturally in real-world tool orchestration. We present TopoPlanner, a topology-consistent planning framework that lifts tool dependency graphs into cellular workflow complexes and uses them as topologyaware context for LLM tool planning. TopoPlanner retrieves a request-relevant closed subcomplex through cosheaf-consistent cellular retrieval, performs multidimensional structural reasoning over the retrieved topology, and interfaces the resulting cellular representation with the planner LLM for tool-sequence generation. Experiments on four tool-planning benchmarks with topology-guided loop, merge, and loop-merge workflows show consistent improvements over prompt-based and graph-enhanced baselines across different local LLM backbones.",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 97.31,
+      "status": "queued"
+    },
+    {
       "id": "https://www.thelettersfromleo.com/p/nyt-anthropic-nearly-walked-out-on",
       "title": "Anthropic Nearly Walked Out on Pope Leo XIV's AI Encyclical",
       "link": "https://www.thelettersfromleo.com/p/nyt-anthropic-nearly-walked-out-on",
@@ -7126,6 +7078,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+      "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
+      "link": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+      "summary": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that’s powered by Nvidia’s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB of storage, and it will be released on October 16th. The laptop also has built-in magnetic USB-C charging instead of the proprietary Surface Connect magnetic charging port. The Verge‘s Tom Warren published a deep dive all about the new laptop. Microsoft also announced that the Surface RTX Spark Dev Box, a mini PC for developers, is available for preorder for $5,999 ahead of shipping in November. In addition, Microsoft shared details about some updates coming to Windows, including “Hybrid Intelligence” features that lets Copilot use files on your Windows PC to take actions and a new search experience that lets you do quick actions from the search bar. You can catch up with all of our coverage from the event right here. Fs in the chat. The first Nvidia RTX Spark laptops cost up to $7,000 Microsoft is giving Copilot more control over Windows and your files The Surface Laptop Ultra finally has a release date — and a starting price of $2,599 Surface RTX Spark Dev Box is available for preorder for $5,999 Microsoft’s Surface Laptop Ultra has built-in",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-07T18:42:22.000Z",
+      "score": 94.13,
+      "status": "queued"
+    },
+    {
       "id": "https://news.ycombinator.com/item?id=49982033",
       "title": "Ask HN: What Would You Like to See in a New AI Technology Release?",
       "link": "https://news.ycombinator.com/item?id=49982033",
@@ -7135,6 +7099,18 @@
       "keywordHits": 3,
       "publishedAt": "2026-10-06T18:13:15.000Z",
       "score": 92.46,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.07023",
+      "title": "Beyond Refusal Patterns: Safe-Role Internalization for Robust and Generalizable LLM Safety Alignment",
+      "link": "https://arxiv.org/abs/2610.07023",
+      "summary": "arXiv:2610.07023v1 Announce Type: new Abstract: Large Language Models (LLMs) have achieved remarkable capabilities but remain vulnerable to jailbreak attacks that elicit harmful or unsafe outputs. Existing safety alignment approaches, including Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF), often require substantial attack-specific supervision and computational resources, while remaining susceptible to shallow safety alignment and over-refusal. To address these challenges, we introduce SSRFT(Supervised Safe-Role Fine-Tuning), the first framework that reformulates safety alignment as the internalization of a predefined safe role. SSRFT constructs a Safe-Role Question-Answer (SRQA) dataset from psychometric questions, limited jailbreak prompts, and a safe-role description. Role-consistent responses are synthesized, validated, and expanded into diverse scenarios, enabling models to internalize safety-oriented values and principles rather than explicit refusal patterns. Experiments across multiple Base and Instruct models show that SSRFT achieves more robust and generalizable safety alignment than standard SFT. SSRFT shows substantially greater robustness to prefilling attacks and better generalization to unseen jailbreak domains, while reducing over-refusal on benign queries and preserving the model's general capabilities. These results establi",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 6,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 91.31,
       "status": "queued"
     },
     {
@@ -7162,6 +7138,42 @@
       "status": "queued"
     },
     {
+      "id": "https://arxiv.org/abs/2610.06923",
+      "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+      "link": "https://arxiv.org/abs/2610.06923",
+      "summary": "arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable functions through a conversational interface. A large-language-model controller maps clinical intent to schema-constrained calls, preserves patient and workflow context, and routes requests to specialist services. We evaluated system execution using 2,600 single-function requests (7,800 repeat executions), 200 prespecified synthetic cross-stage scenarios spanning four phases (600 executions), and 120 workflow instances from 60 de-identified patient records (360 clean executions) representing decision-to-planning and planning-to-adaptation. RadOnc-Agent selected the intended function in 98.79% of single-function executions, completed 96.50% of scripted cross-stage workflows, and completed 96.67% of real-patient workflow executions. In comparative ablations, removing longitudinal state reduced cross-stage completion from 96.50% to 84.00%, while disabling schema and identity validation inc",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 85.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.06971",
+      "title": "AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems",
+      "link": "https://arxiv.org/abs/2610.06971",
+      "summary": "arXiv:2610.06971v1 Announce Type: new Abstract: Traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, API contract changes, or website DOM modifications. Present observability tools only raise alerts but for human engineers, resulting in a high Mean Time to Repair (MTTR) and operational fatigue. In this paper we propose AegisFlow (Agentic Engine for Intelligent Self-healing and Graph-driven Operations for Workload remediation), a novel agentic framework that closes the loop between detection and resolution. AegisFlow uses a Watchdog agent to collect runtime telemetry and has a Repair agent to automatically create, test and deploy code patches based on Large Language Models (LLMs). The framework presents the non-intrusive execution model called Parallel Shadow Patching, a non-intrusive execution model based on the Monitor, Analyze, Plan, Execute, Knowledge (MAPE-K) loop to generate and verify patches in digital twin environments. Through experimental testing, we have evaluated AegisFlow across five common failure scenarios, and see 98.1 percent improvement in MTTR (from an average of 170 minutes per patch to 3.2 minutes) and a patch success rate of 92 percent . In particular, the system is successful in dealing with changes in the JSON schema (96 percent ) and punctuation drift (98 percent ), and is least successful in Shadow DOM cases (",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 79.31,
+      "status": "queued"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.06964",
+      "title": "Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction",
+      "link": "https://arxiv.org/abs/2610.06964",
+      "summary": "arXiv:2610.06964v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in interactive environments, yet their ability to continually evolve from experience remains limited. Although fine-tuning enables adaptation, its dependence on parameter access and high computational costs restrict its flexibility, especially for large-scale and closed-source LLMs. External memory offers an alternative by allowing agents to accumulate experience without modifying model parameters. However, existing methods mainly focus on experience representation and organization, while the acquired knowledge remains tightly coupled with specific tasks and contexts, limiting generalization. A key challenge is how to transform concrete interactions into abstract and reusable knowledge that guides future decisions beyond individual experiences. To address this challenge, we propose SAGA (\\underline{\\textbf{S}}elf-evolving \\underline{\\textbf{A}}gents through Experience-\\underline{\\textbf{G}}rounded \\underline{\\textbf{A}}bstraction), a framework for experience-grounded knowledge abstraction and utilization in LLM agents. SAGA progressively transforms interaction trajectories into episodic descriptions, reusable procedures, and principles with explicit applicability conditions, while maintaining links to execution evidence. Retrieved principles are instantiated i",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
+      "keywordHits": 5,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 73.31,
+      "status": "queued"
+    },
+    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
       "title": "Google is about to remove free access to Gemini Flash and Pro",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
@@ -7174,39 +7186,27 @@
       "status": "queued"
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic made the move to meet the requirements of the EU's AI Act; however, not everyone was happy to learn about the addition. OpenAI also included scores from AI benchmarks showing similar performance from watermarked and unwatermarked text. But it notes that textGrain \"does not guarantee … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "region": "US",
+      "id": "https://arxiv.org/abs/2610.06914",
+      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+      "link": "https://arxiv.org/abs/2610.06914",
+      "summary": "arXiv:2610.06914v1 Announce Type: new Abstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and records state transitions. We evaluate the workflow on frozen real-DataBrain tasks and controlled Hook faults. Strict success was 6/8 on metadata and SQL tasks: metadata selection passed 4/4, all four SQL tasks met semantic criteria, and 2/4 met the exact output-column contract. The final release passed 4/4 single-panel dashboard tasks, one two-panel task, and one existing-dashboard refinement; a parameterised task exceeded its step limit. All ten fault scenarios met their specified outcomes without unapproved external side effects. Model inference accounted for over 97\\% of observed runtime in every reported group. These small, DataBrain-specific results do not establish production readiness, general text-to-SQL accuracy, or an efficiency adva",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-10-05T18:08:39.000Z",
-      "score": 64.54,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 67.31,
       "status": "queued"
     },
     {
-      "id": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "source": "OpenAI News",
-      "region": "US",
+      "id": "https://arxiv.org/abs/2610.07026",
+      "title": "Offline AI Modules: Voice-First Offline Architecture, Hardware Reference Stack, Quantization and Benchmarking",
+      "link": "https://arxiv.org/abs/2610.07026",
+      "summary": "arXiv:2610.07026v1 Announce Type: new Abstract: The Offline AI Modules workstream enables practical, low-power, and community-accessible deployment of voice-first AI systems that operate fully offline. Designed for African language communities where speech is the dominant mode of interaction and internet connectivity is unreliable or absent, the workstream delivers three reinforcing components: a modular voice-first offline architecture, a low-cost hardware reference bill of materials, and a reproducible quantization and a reproducible quantization and benchmarking pipeline for instruction-tuned language models in the 2-5B parameter class. This paper presents the first end-to-end benchmark evaluation of the stack across two hardware tiers: an NVIDIA Jetson Orin NX (TierB) and a Raspberry Pi5 (TierA). Three instruction-tuned models are evaluated across four quantization formats, assessed for deployment metrics (decode throughput, chat latency, memory, power) and multilingual quality (topic classification accuracy on MasakhaNEWS across English, Hausa, Igbo, Nigerian Pidgin, and Yoruba; per-language perplexity drift). Speech recognition is evaluated using Ethio-ASR on Amharic and Oromo across both tiers. The principal finding is that Q4_K_M quantization represents the best size-to-quality trade-off for deployment on both tiers: gemma-4-E2B-it achieves 28.8t/s decode throughput and",
+      "source": "ArXiv cs.AI",
+      "region": "GLOBAL",
       "keywordHits": 4,
-      "publishedAt": "2026-09-30T10:30:00.000Z",
-      "score": 60.78,
-      "status": "queued"
-    },
-    {
-      "id": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "title": "Advancing computer use with Ironclad",
-      "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 4,
-      "publishedAt": "2026-10-06T10:00:00.000Z",
-      "score": 59.32,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "score": 67.31,
       "status": "queued"
     },
     {
@@ -7960,54 +7960,6 @@
       "editorialTemplate": "NEWS",
       "failedAtRun": "2026-09-08T12:22:31.875Z",
       "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | FR: First section \"TL;DR en langage simple\" is too dense. Use shorter sentences and simpler wording."
-    },
-    {
-      "id": "https://news.ycombinator.com/item?id=49601670",
-      "title": "Ask HN: How do you know a prompt is \"complex\" for an AI model?",
-      "link": "https://news.ycombinator.com/item?id=49601670",
-      "summary": "I’m trying to balance API costs and latency in my applications. Right now, I default to frontier models (Claude Sonnet) because they are reliable, but I know I’m overpaying for tasks that smaller models (like Haiku, or lite open source models) could likely handle. Comments URL: https://news.ycombinator.com/item?id=49601670 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 4,
-      "publishedAt": "2026-09-07T18:54:08.000Z",
-      "score": 186,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-09-07T19:47:28.493Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://github.com/klinditafa1/agenciandhttps://x.com/tryagenci",
-      "title": "Agenci – CI/CD testing for AI agents",
-      "link": "https://github.com/klinditafa1/agenciandhttps://x.com/tryagenci",
-      "summary": "Article URL: https://github.com/klinditafa1/agenciandhttps://x.com/tryagenci Comments URL: https://news.ycombinator.com/item?id=49563268 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-04T11:43:51.000Z",
-      "score": 174,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-09-07T19:47:28.493Z",
-      "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://openai.com/index/ai-native-company-workflows",
-      "title": "How AI-native companies turn workflows into operating capability",
-      "link": "https://openai.com/index/ai-native-company-workflows",
-      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "source": "OpenAI News",
-      "region": "US",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-01T17:00:00.000Z",
-      "score": 145.28,
-      "status": "failed",
-      "targetRegion": "US",
-      "editorialTemplate": "TUTORIAL",
-      "failedAtRun": "2026-09-07T19:47:28.493Z",
-      "failureReason": "insufficient source snapshots (0/1)"
     }
   ]
 }
