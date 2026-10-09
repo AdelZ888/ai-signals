@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-09T14:55:47.856Z",
+  "generatedAt": "2026-10-09T20:23:12.593Z",
   "locale": "en",
   "posts": [
+    {
+      "slug": "2026-10-09-astro-an-offline-self-improving-voice-assistant-for-raspberry-pi-5",
+      "title": "ASTRO — an offline, self-improving voice assistant for Raspberry Pi 5",
+      "date": "2026-10-09",
+      "excerpt": "Guide to running ASTRO locally on a Raspberry Pi 5: wake-word, on-device STT/TTS, optional Hailo NPU support, and LoRA-based self-training for private, offline voice assistants.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-09-astro-an-offline-self-improving-voice-assistant-for-raspberry-pi-5.jpg",
+      "tags": [
+        "raspberry-pi",
+        "raspberry-pi-5",
+        "edge-ai",
+        "voice-ai",
+        "self-hosted",
+        "hailo",
+        "stt",
+        "tts"
+      ],
+      "sources": [
+        "https://github.com/mobium-app/ai_astro_public"
+      ],
+      "category": "Tutorials",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 360,
+      "editorialTemplate": "TUTORIAL",
+      "readingTimeMinutes": 8
+    },
     {
       "slug": "2026-10-09-openais-agent-notices-enterprise-contracts-place-liability-for-agent-actions-on-customers",
       "title": "OpenAI's agent notices: enterprise contracts place liability for agent actions on customers",
