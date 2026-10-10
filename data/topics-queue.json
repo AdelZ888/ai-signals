@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-10-09T20:23:12.658Z",
+  "generatedAt": "2026-10-10T14:14:08.725Z",
   "items": [
+    {
+      "id": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "region": "FR",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-02T04:01:31.000Z",
+      "score": 54.59,
+      "status": "published",
+      "targetRegion": "FR",
+      "editorialTemplate": "NEWS",
+      "publishedAtRun": "2026-10-10T14:14:08.694Z",
+      "file": "content/posts/2026-10-10-autosynthdata-turning-deployment-failures-into-verified-synthetic-training-tasks-for-enterprise-agents.md",
+      "fileFr": "content/posts/fr/2026-10-10-autosynthdata-turning-deployment-failures-into-verified-synthetic-training-tasks-for-enterprise-agents.md",
+      "generationMode": "llm",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "timeToImplementMinutes": 5,
+      "wordsEn": 1402,
+      "wordsFr": 1207
+    },
     {
       "id": "https://github.com/mobium-app/ai_astro_public",
       "title": "I built a self-improving voice AI agent that runs offline on a RPi5",
@@ -5039,29 +5062,6 @@
       "wordsFr": 1056
     },
     {
-      "id": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/",
-      "title": "Cosmos 3: Omnimodal World Models for Physical AI",
-      "link": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/",
-      "summary": "Article URL: https://research.nvidia.com/labs/cosmos-lab/cosmos3/ Comments URL: https://news.ycombinator.com/item?id=48356566 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-06-01T13:26:10.000Z",
-      "score": 174,
-      "status": "published",
-      "targetRegion": "UK",
-      "editorialTemplate": "TUTORIAL",
-      "publishedAtRun": "2026-06-01T20:09:35.770Z",
-      "file": "content/posts/2026-06-01-prototype-vision-to-action-demos-using-nvidia-cosmos-3-omnimodal-world-model.md",
-      "fileFr": "content/posts/fr/2026-06-01-prototype-vision-to-action-demos-using-nvidia-cosmos-3-omnimodal-world-model.md",
-      "generationMode": "llm",
-      "series": "tooling-deep-dive",
-      "difficulty": "intermediate",
-      "timeToImplementMinutes": 240,
-      "wordsEn": 1655,
-      "wordsFr": 1291
-    },
-    {
       "id": "https://devnavigator.com/2026/10/06/openai-dots-always-on-ai-agents/",
       "title": "OpenAI Dots: The New Always-On AI Agents from OpenAI",
       "link": "https://devnavigator.com/2026/10/06/openai-dots-always-on-ai-agents/",
@@ -5086,15 +5086,15 @@
       "status": "queued"
     },
     {
-      "id": "https://blog.keyvan.net/p/ai-models-are-not-hacking-autonomously",
-      "title": "AI models are not hacking \"autonomously\"",
-      "link": "https://blog.keyvan.net/p/ai-models-are-not-hacking-autonomously",
-      "summary": "Article URL: https://blog.keyvan.net/p/ai-models-are-not-hacking-autonomously Comments URL: https://news.ycombinator.com/item?id=49765779 Points: 2 # Comments: 0",
+      "id": "https://maplehill.openwants.com/",
+      "title": "Show HN: OpenWants – A Simulated City Where AI Agents Handle Residents Needs",
+      "link": "https://maplehill.openwants.com/",
+      "summary": "Iv'e been working on this for a while. Most of the effort went into what i call \"sophisticated simplicity\", keep the idea in the smallest version that still works. This one is a bit personal. it can feel like some sci-fi thing, but i've been obsessed with it for a very long time. its not a \"business\" that you used to see here speak about moat or tam, its more like an experiment, a way of me to take one question seriously and see where it leads and if there are others like me out there. AI models are on a path to keep getting better and better, personal ai agents are spreading fast, and we're starting to see \"ghost\" agents that handle the things for people they don't want to do themselves. the question i keep coming back to is this: if every one of us has a powerful brain in our pocket, do we still need all the infrastructure we built to connect people's needs? im talking about those services like uber,airbnb,indeed,doordash,tinder,zillow,amazon and many more. or would agents just need one shared place to find each other, and that's it? So i built a simulated city to explore that. it has AI residents that live there with stats like hunger, energy, and money. each resident has its own ai agent, and it has one shared list where agents write down what everyone wants and then work on our behalf to make it happen. that could mean delivering food, giving rides, or finding jobs, relati",
       "source": "Hacker News (AI)",
       "region": "GLOBAL",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-19T11:52:49.000Z",
-      "score": 174,
+      "keywordHits": 6,
+      "publishedAt": "2026-10-10T12:42:25.000Z",
+      "score": 176.52,
       "status": "queued"
     },
     {
@@ -5506,30 +5506,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.astralcodexten.com/p/next-token-predictor-is-an-ais-job",
-      "title": "Next-Token Predictor Is an AI's Job, Not Its Species",
-      "link": "https://www.astralcodexten.com/p/next-token-predictor-is-an-ais-job",
-      "summary": "Article URL: https://www.astralcodexten.com/p/next-token-predictor-is-an-ais-job Comments URL: https://news.ycombinator.com/item?id=49765793 Points: 1 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-19T11:54:35.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
-      "id": "https://blog.cloudflare.com/aeo/",
-      "title": "Anyone Used Cloudflare AI Agent Diagnostics for SaaS Purchases?",
-      "link": "https://blog.cloudflare.com/aeo/",
-      "summary": "Article URL: https://blog.cloudflare.com/aeo/ Comments URL: https://news.ycombinator.com/item?id=49765573 Points: 2 # Comments: 1",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-19T11:21:52.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://www.bbc.com/news/articles/cqlykr2vrv04o",
       "title": "US will form 'AI Force' and appoint an artificial intelligence tsar",
       "link": "https://www.bbc.com/news/articles/cqlykr2vrv04o",
@@ -5746,18 +5722,6 @@
       "status": "queued"
     },
     {
-      "id": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
-      "title": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
-      "link": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The research found that important guardrails for teens using ChatGPT often failed.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 2,
-      "publishedAt": "2026-10-07T20:21:58.000Z",
-      "score": 156,
-      "status": "queued"
-    },
-    {
       "id": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
       "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
       "link": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
@@ -5902,6 +5866,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.arcade.dev/blog/prompt-injection-detection-tools/",
+      "title": "Prompt Injection Detection and Defense Tools for Enterprise AI Agents",
+      "link": "https://www.arcade.dev/blog/prompt-injection-detection-tools/",
+      "summary": "Article URL: https://www.arcade.dev/blog/prompt-injection-detection-tools/ Comments URL: https://news.ycombinator.com/item?id=50032282 Points: 1 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 4,
+      "publishedAt": "2026-10-10T12:30:32.000Z",
+      "score": 147.71,
+      "status": "queued"
+    },
+    {
       "id": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
       "title": "Anthropic, OpenAI et al. face antitrust suit for agreeing to slow AI development",
       "link": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
@@ -5911,18 +5887,6 @@
       "keywordHits": 3,
       "publishedAt": "2026-09-21T18:33:56.000Z",
       "score": 145.82,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
-      "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
-      "link": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
-      "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon. The biggest story in tech right now is the spiraling debate about AI safety and regulation. Researchers at the big AI labs including Anthropic and Google DeepMind have quit in noisy ways, saying the models pose real threats and safety isn’t being taken seriously across the industry. Other researchers have said the chance of AI killing us all is greater than 10 percent, and the CEOs of all these companies have issued various calls to slow down development and develop regulation, including asking for antitrust exemptions so they can all coordinate on safety issues. That is a lot of ideas, and I am especially curious about the antitrust piece, which has led to accusations that these companies are seeking regulatory capture, attempting to form a cartel, and even somehow finding a way out from investor pressure ahead of their IPOs. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. So to make sense of it all, I called Jonathan Kanter. Jonathan brought huge antitrus",
-      "source": "The Verge AI",
-      "region": "US",
-      "keywordHits": 9,
-      "publishedAt": "2026-09-19T14:00:00.000Z",
-      "score": 145.57,
       "status": "queued"
     },
     {
@@ -6127,18 +6091,6 @@
       "keywordHits": 2,
       "publishedAt": "2026-09-30T13:08:17.000Z",
       "score": 130.69,
-      "status": "queued"
-    },
-    {
-      "id": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
-      "title": "Anthropic sets up biology lab as it ramps AI drug program",
-      "link": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
-      "summary": "Article URL: https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/ Comments URL: https://news.ycombinator.com/item?id=49765387 Points: 2 # Comments: 0",
-      "source": "Hacker News (AI)",
-      "region": "GLOBAL",
-      "keywordHits": 2,
-      "publishedAt": "2026-09-19T10:52:46.000Z",
-      "score": 130.38,
       "status": "queued"
     },
     {
@@ -6391,6 +6343,18 @@
       "keywordHits": 7,
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "score": 117.53,
+      "status": "queued"
+    },
+    {
+      "id": "https://github.com/roozjalali/ariodb",
+      "title": "Ariodb – a proxy that checks and can undo what AI agents do to your DB",
+      "link": "https://github.com/roozjalali/ariodb",
+      "summary": "Article URL: https://github.com/roozjalali/ariodb Comments URL: https://news.ycombinator.com/item?id=50032125 Points: 2 # Comments: 0",
+      "source": "Hacker News (AI)",
+      "region": "GLOBAL",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-10T12:11:06.000Z",
+      "score": 116.86,
       "status": "queued"
     },
     {
@@ -7078,6 +7042,18 @@
       "status": "queued"
     },
     {
+      "id": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "link": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-10T10:06:23.000Z",
+      "score": 84.13,
+      "status": "queued"
+    },
+    {
       "id": "https://arxiv.org/abs/2610.10635",
       "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
       "link": "https://arxiv.org/abs/2610.10635",
@@ -7160,6 +7136,82 @@
       "publishedAt": "2026-10-08T17:00:00.000Z",
       "score": 71.48,
       "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's reports don't come with human review: The outputs of this opt-in vulnerability scanner will be fully model-generated, without human review or triage. This will enable faster and more frequent scanning, but means that it is possible reports will be incorrect or invalid. Th … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-10-08T21:53:51.000Z",
+      "score": 62.99,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as spam. Anthropic learned its AI model sent the false tip on September 28th and notified the PPD on October 7th. The company said that during testing, its AI model was interacting with \"randomly selected websites\" and submitted false information through the PPD's tipline, according to the PPD's stateme … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-10-09T21:15:38.000Z",
+      "score": 55.13,
+      "status": "queued"
+    },
+    {
+      "id": "https://openai.com/index/practical-guide-building-gpt-6",
+      "title": "A model guide for the GPT-6 family",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "source": "OpenAI News",
+      "region": "US",
+      "keywordHits": 4,
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "score": 54.63,
+      "status": "queued"
+    },
+    {
+      "id": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+      "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+      "link": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+      "summary": "So much for Gemini 3.5 Pro.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-30T20:11:08.000Z",
+      "score": 54.51,
+      "status": "queued"
+    },
+    {
+      "id": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+      "title": "Google confirms Gemini models hacked three companies in May 2026",
+      "link": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+      "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
+      "source": "Ars Technica AI",
+      "region": "US",
+      "keywordHits": 3,
+      "publishedAt": "2026-09-21T16:57:26.000Z",
+      "score": 54.26,
+      "status": "queued"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The research found that important guardrails for teens using ChatGPT often failed.",
+      "source": "BBC Technology",
+      "region": "UK",
+      "keywordHits": 2,
+      "publishedAt": "2026-10-07T20:21:58.000Z",
+      "score": 156,
+      "status": "failed",
+      "targetRegion": "UK",
+      "editorialTemplate": "ANALYSIS",
+      "failedAtRun": "2026-10-10T14:05:39.454Z",
+      "failureReason": "validation issues: EN: Missing at least one markdown table (decision frame or comparison).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams should pay attention to\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
     },
     {
       "id": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
@@ -7896,38 +7948,6 @@
       "editorialTemplate": "TUTORIAL",
       "failedAtRun": "2026-09-11T18:11:11.410Z",
       "failureReason": "insufficient source snapshots (0/1)"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
-      "title": "IA de frontière : les auteurs des lois de Californie, New York et Illinois réclament un accord de rythme vérifié par des tiers",
-      "link": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
-      "summary": "Cinq élus d'État américains, auteurs de SB 53, du RAISE Act et de SB 315, demandent aux laboratoires d'IA un « Mutually Agreed Pacing Framework », accord volontaire de ralentissement vérifié par des tiers, après l'intrusion d'agents d'OpenAI chez Hugging Face. Deux de leurs trois lois n'entrent en vigueur qu'en 2027 et 2028 et Washington conteste les textes d'État ; l'Europe, elle, enquête déjà au titre de l'AI Act.",
-      "source": "ActuIA",
-      "region": "FR",
-      "keywordHits": 5,
-      "publishedAt": "2026-09-10T11:28:23.000Z",
-      "score": 179.64,
-      "status": "failed",
-      "targetRegion": "FR",
-      "editorialTemplate": "NEWS",
-      "failedAtRun": "2026-09-10T12:28:34.652Z",
-      "failureReason": "validation issues: FR: Section \"Ce que les petites equipes et solos doivent faire maintenant\" should give concrete advice for solo founders / small teams (at least 3 actionable points)."
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
-      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
-      "source": "BBC Technology",
-      "region": "UK",
-      "keywordHits": 3,
-      "publishedAt": "2026-09-09T12:25:35.000Z",
-      "score": 168,
-      "status": "failed",
-      "targetRegion": "UK",
-      "editorialTemplate": "ANALYSIS",
-      "failedAtRun": "2026-09-10T12:28:34.652Z",
-      "failureReason": "validation issues: FR: Section \"Exemple concret: ou cela compte\" should include a concrete example or short scenario (not only abstract analysis).; soft warnings: EN: First section \"TL;DR in plain English\" is too dense. Use shorter sentences and simpler wording. | EN: The first half of the article is too dense. Shorten sentences and front-load concrete explanations. | EN: Section \"What small teams should pay attention to\" should give concrete advice for solo founders / small teams (at least 3 actionable points). |…"
     }
   ]
 }

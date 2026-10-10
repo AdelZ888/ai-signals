@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-10-09T20:23:12.596Z",
+  "generatedAt": "2026-10-10T14:14:08.714Z",
   "locale": "fr",
   "posts": [
+    {
+      "slug": "2026-10-10-autosynthdata-turning-deployment-failures-into-verified-synthetic-training-tasks-for-enterprise-agents",
+      "title": "AutoSynthData : transformer les échecs en production en tâches synthétiques vérifiées pour agents d’entreprise",
+      "date": "2026-10-10",
+      "excerpt": "AutoSynthData de ServiceNow convertit des échecs réels d’agents en exemples d’entraînement synthétiques validés, en s’appuyant sur un « teacher » plus fort et sur des contrôles au niveau des échantillons et des lots pour réduire l’étiquetage manuel.",
+      "coverImage": "https://ozjpvvwgsgpzyca7.public.blob.vercel-storage.com/covers/2026-10-10-autosynthdata-turning-deployment-failures-into-verified-synthetic-training-tasks-for-enterprise-agents.jpg",
+      "tags": [
+        "AutoSynthData",
+        "ServiceNow",
+        "données synthétiques",
+        "agents IA",
+        "entreprise",
+        "FR",
+        "MLOps"
+      ],
+      "sources": [
+        "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+      ],
+      "category": "News",
+      "region": "FR",
+      "series": "agent-playbook",
+      "difficulty": "intermediate",
+      "editorialTemplate": "NEWS",
+      "readingTimeMinutes": 6
+    },
     {
       "slug": "2026-10-09-astro-an-offline-self-improving-voice-assistant-for-raspberry-pi-5",
       "title": "ASTRO — assistant vocal hors ligne et auto‑améliorant pour Raspberry Pi",
