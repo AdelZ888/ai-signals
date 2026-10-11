@@ -1,0 +1,131 @@
+{
+  "anthropic": {
+    "id": "anthropic", "name": "Anthropic",
+    "models": {
+      "claude-haiku-5-5": {
+        "id": "claude-haiku-5-5", "name": "Claude Haiku 5.5", "family": "claude-haiku",
+        "release_date": "2026-10-07", "knowledge": "2026-06", "open_weights": false,
+        "reasoning": true, "tool_call": true, "structured_output": true,
+        "modalities": { "input": ["text", "image", "pdf"], "output": ["text"] },
+        "limit": { "context": 1000000, "output": 128000 },
+        "cost": { "input": 0.1, "output": 0.5, "cache_read": 0.01, "cache_write": 0.125,
+          "tiers": [{ "input": 0.5, "output": 2.5, "tier": { "type": "context", "size": 100000 } }] },
+        "canonical_model_id": "anthropic/claude-haiku-5-5"
+      },
+      "claude-opus-4-5": {
+        "id": "claude-opus-4-5", "name": "Claude Opus 4.5", "family": "claude-opus",
+        "release_date": "2025-11-24", "open_weights": false, "reasoning": true, "tool_call": true,
+        "modalities": { "input": ["text", "image"], "output": ["text"] },
+        "limit": { "context": 200000, "output": 64000 },
+        "cost": { "input": 5, "output": 25 },
+        "canonical_model_id": "anthropic/claude-opus-4-5"
+      },
+      "claude-opus-4-5-20251101": {
+        "id": "claude-opus-4-5-20251101", "name": "Claude Opus 4.5 (2025-11-01)", "family": "claude-opus",
+        "release_date": "2025-11-01", "open_weights": false, "reasoning": true, "tool_call": true,
+        "modalities": { "input": ["text", "image"], "output": ["text"] },
+        "limit": { "context": 200000, "output": 64000 },
+        "cost": { "input": 5, "output": 25 },
+        "canonical_model_id": "anthropic/claude-opus-4-5-20251101"
+      },
+      "claude-3-haiku": {
+        "id": "claude-3-haiku", "name": "Claude Haiku 3", "family": "claude-haiku", "status": "deprecated",
+        "release_date": "2024-03", "open_weights": false, "tool_call": true,
+        "modalities": { "input": ["text", "image"], "output": ["text"] },
+        "limit": { "context": 200000, "output": 4096 },
+        "cost": { "input": 0.25, "output": 1.25 }
+      }
+    }
+  },
+  "openai": {
+    "id": "openai", "name": "OpenAI",
+    "models": {
+      "gpt-6.1-sol": {
+        "id": "gpt-6.1-sol", "name": "GPT-6.1 Sol", "family": "gpt-sol", "release_date": "2026-09-29",
+        "knowledge": "2026-03", "open_weights": false, "reasoning": true, "tool_call": true, "structured_output": true,
+        "modalities": { "input": ["text", "image", "pdf"], "output": ["text"] },
+        "limit": { "context": 1050000, "output": 128000 },
+        "cost": { "input": 2, "output": 10, "cache_read": 0.1, "context_over_200k": { "input": 4, "output": 15 } },
+        "canonical_model_id": "openai/gpt-6.1-sol"
+      },
+      "gpt-image-2": {
+        "id": "gpt-image-2", "name": "GPT Image 2",
+        "modalities": { "input": ["text", "image"], "output": ["image"] },
+        "limit": { "context": 32000, "output": 0 }, "cost": { "input": 5, "output": 40 },
+        "canonical_model_id": "openai/gpt-image-2"
+      },
+      "gpt-free-preview": {
+        "id": "gpt-free-preview", "name": "GPT Free Preview",
+        "modalities": { "input": ["text"], "output": ["text"] },
+        "limit": { "context": 128000, "output": 16000 }, "cost": { "input": 0, "output": 0 },
+        "canonical_model_id": "openai/gpt-free-preview"
+      }
+    }
+  },
+  "zai": {
+    "id": "zai", "name": "Z.AI",
+    "models": {
+      "glm-5": {
+        "id": "glm-5", "name": "GLM-5", "family": "glm", "release_date": "2026-02-11", "open_weights": true,
+        "reasoning": true, "tool_call": true, "modalities": { "input": ["text"], "output": ["text"] },
+        "limit": { "context": 200000, "output": 128000 }, "cost": { "input": 1, "output": 3.2 },
+        "canonical_model_id": "zhipuai/glm-5"
+      }
+    }
+  },
+  "mistral": {
+    "id": "mistral", "name": "Mistral",
+    "models": {
+      "glm-5": {
+        "id": "glm-5", "name": "Mistral GLM 5", "modalities": { "input": ["text"], "output": ["text"] },
+        "limit": { "context": 32000, "output": 8000 }, "cost": { "input": 0.5, "output": 1.5 },
+        "canonical_model_id": "mistral/glm-5"
+      }
+    }
+  },
+  "togetherai": {
+    "id": "togetherai", "name": "Together AI",
+    "models": {
+      "google/gemma-4-31b-it": {
+        "id": "google/gemma-4-31b-it", "name": "Gemma 4 31B (Together)", "family": "gemma",
+        "release_date": "2026-04-02", "open_weights": true, "tool_call": false,
+        "modalities": { "input": ["text", "image"], "output": ["text"] },
+        "limit": { "context": 262144, "output": 8192 }, "cost": { "input": 0.2, "output": 0.6 },
+        "canonical_model_id": "google/gemma-4-31b-it"
+      },
+      "zai-org/GLM-5": {
+        "id": "zai-org/GLM-5", "name": "GLM-5 (Together)", "modalities": { "input": ["text"], "output": ["text"] },
+        "limit": { "context": 200000, "output": 32000 }, "cost": { "input": 1.1, "output": 3.5 },
+        "canonical_model_id": "zhipuai/glm-5"
+      },
+      "xiaomi/mimo-v3": {
+        "id": "xiaomi/mimo-v3", "name": "MiMo V3", "modalities": { "input": ["text"], "output": ["text"] },
+        "limit": { "context": 128000, "output": 8192 }, "cost": { "input": 0.3, "output": 1 },
+        "canonical_model_id": "xiaomi/mimo-v3"
+      }
+    }
+  },
+  "deepinfra": {
+    "id": "deepinfra", "name": "DeepInfra",
+    "models": {
+      "google/gemma-4-31b-it": {
+        "id": "google/gemma-4-31b-it", "name": "Gemma 4 31B", "family": "gemma",
+        "release_date": "2026-04-02", "open_weights": true, "tool_call": false,
+        "modalities": { "input": ["text", "image"], "output": ["text"] },
+        "limit": { "context": 262144, "output": 8192 }, "cost": { "input": 0.12, "output": 0.4 },
+        "canonical_model_id": "google/gemma-4-31b-it"
+      }
+    }
+  },
+  "openrouter": {
+    "id": "openrouter", "name": "OpenRouter",
+    "models": {
+      "anthropic/claude-haiku-5-5": {
+        "id": "anthropic/claude-haiku-5-5", "name": "Claude Haiku 5.5",
+        "modalities": { "input": ["text"], "output": ["text"] },
+        "limit": { "context": 1000000, "output": 128000 }, "cost": { "input": 0.09, "output": 0.45 },
+        "canonical_model_id": "anthropic/claude-haiku-5-5"
+      }
+    }
+  }
+}
