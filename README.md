@@ -1,104 +1,38 @@
-# AI Signals - Automated AI Blog
+# AI Signals v2: AI model pricing tracker
 
-A fully automated blog that discovers AI topics, generates posts, and publishes them on a schedule.
+Daily prices, context windows and capabilities of AI model APIs, with comparisons, rankings, a cost calculator and a small grounded news engine. Live at https://aisignals.dev.
 
-## What this project does
+## How it works
 
-- Renders a markdown-based blog from `content/posts`.
-- Supports sections and blog UX:
-  - Home, News, Tutorials, Services, Regions, Search, About
-  - French mirror routes under `/fr` with localized UI and metadata
-  - Regional pages (`/regions/us`, `/regions/uk`, `/regions/fr`)
-  - Tag pages (`/tags/[tag]`)
-  - Reading time, table of contents, related posts, share links
-- Generates SEO outputs:
-  - RSS feed at `/rss.xml`
-  - French RSS feed at `/fr/rss.xml`
-  - Sitemap at `/sitemap.xml`
-- Automates content pipeline:
-  - Topic discovery from AI RSS feeds (US/UK/FR + global sources)
-  - Queue scoring in `data/topics-queue.json`
-  - Region-balanced post generation for US/UK/FR
-  - Long-form generation rules (minimum word counts, structured deep-dive sections, multi-source bundle)
-  - Automatic French companion post generation in `content/posts/fr`
-  - Post generation with OpenAI (fallback template if key is missing)
-  - Daily GitHub Action auto-commit
+- `npm run refresh-data` downloads https://models.dev/api.json (MIT), normalizes it (`src/lib/data`), checks guards, writes `data/models/latest.json` and appends changes to `data/models/history/YYYY-MM.jsonl`.
+- `npm run editorial` scores today's changes (`src/lib/editorial/score.ts`) and writes at most one article to `content/news/` with `gpt-6.1-sol`. Every number is checked against a fact sheet, with a template fallback.
+- `npm run weekly-digest` writes the Monday digest; `npm run send-digest` emails it (Beehiiv subscribers, sent with Resend).
+- The Next.js 16 site (`src/app`) is statically generated from `data/` and `content/news/`.
+- GitHub Actions: `daily-update.yml` (06:00 UTC), `weekly-digest.yml` (Monday 08:00 UTC), `health-check.yml` (every 6 h), `alert-on-failure.yml`.
 
 ## Local setup
 
-1. Install dependencies:
-
 ```bash
 npm install
-```
-
-2. Configure environment:
-
-```bash
 cp .env.example .env.local
-```
-
-3. Add your key in `.env.local`:
-
-```bash
-OPENAI_API_KEY=...
-OPENAI_MODEL=gpt-5-mini
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
-MIN_WORDS_EN=900
-MAX_WORDS_EN=1500
-MIN_WORDS_FR=850
-```
-
-4. Run the app:
-
-```bash
+npm run refresh-data
 npm run dev
 ```
 
-5. Run one automation cycle locally:
+Requires Node 24 (scripts run TypeScript natively).
 
-```bash
-npm run automate
-```
+## Commands
 
-## Available scripts
+| Command | What it does |
+|---|---|
+| `npm test` | Unit tests (`node:test`) |
+| `npm run refresh-data` | Daily data refresh |
+| `npm run backfill-history` | One-shot price history from the models.dev git history |
+| `npm run editorial` | Flash article (`DRY_RUN=1`, `EDITORIAL_DATE`, `SIMULATE_DAYS=60`) |
+| `npm run weekly-digest` | Weekly digest (`DRY_RUN=1`, `DIGEST_DATE`) |
+| `npm run send-digest` | Send the latest digest (`NEWSLETTER_TEST_TO` for a single test address) |
+| `npm run site-check -- --deep` | Smoke test (`SITE_CHECK_BASE`) |
 
-- `npm run dev` - start local site
-- `npm run build` - production build
-- `npm run lint` - lint check
-- `npm run discover-topics` - refresh queue from RSS sources
-- `npm run generate-post` - generate one post from queue
-- `npm run automate` - discover + generate
+## Data and credits
 
-## GitHub automation
-
-Daily publishing is configured in:
-
-- `.github/workflows/auto-publish.yml`
-
-To enable OpenAI generation in GitHub Actions, add this repository secret:
-
-- `OPENAI_API_KEY`
-
-## Services lead funnel
-
-Service pages are available at:
-
-- `/services`
-- `/fr/services`
-
-Qualified requests are posted to:
-
-- `/api/services/lead`
-
-Required env vars:
-
-- `RESEND_API_KEY`
-- `SERVICES_LEAD_TO`
-
-Optional env vars:
-
-- `SERVICES_FROM`
-- `SERVICES_REPLY_TO`
-- `SERVICES_BOOKING_URL`
-- `NEXT_PUBLIC_SERVICES_BOOKING_URL`
+Model data: [models.dev](https://models.dev), MIT license. Cross-check: [pydantic/genai-prices](https://github.com/pydantic/genai-prices), MIT license.
