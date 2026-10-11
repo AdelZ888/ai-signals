@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { makeModel } from "../data/testing.ts";
-import { bestTitle, buildRss, compareTitle, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
+import { bestTitle, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
 
 const haiku = makeModel({ id: "anthropic/claude-haiku-5-5", name: "Claude Haiku 5.5", price: { input: 0.1, output: 0.5 }, context: 1_000_000 });
 const sol = makeModel({ id: "openai/gpt-6.1-sol", name: "GPT-6.1 Sol" });
@@ -28,4 +28,18 @@ test("xml escaping and RSS", () => {
   );
   assert.match(rss, /<item><title>A &amp; B<\/title><link>https:\/\/aisignals.dev\/news\/a<\/link>/u);
   assert.match(rss, /<pubDate>Sun, 11 Oct 2026 06:00:00 GMT<\/pubDate>/u);
+});
+
+test("sitemaps", () => {
+  assert.equal(
+    buildUrlset([{ loc: "https://x.dev/a?b&c", lastmod: "2026-10-11" }, { loc: "https://x.dev/b" }]),
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>https://x.dev/a?b&amp;c</loc><lastmod>2026-10-11</lastmod></url>\n<url><loc>https://x.dev/b</loc></url>\n</urlset>\n',
+  );
+  assert.match(buildSitemapIndex([{ loc: "https://x.dev/sitemaps/models.xml", lastmod: null }]), /<sitemapindex[^>]*>\n<sitemap><loc>https:\/\/x.dev\/sitemaps\/models.xml<\/loc><\/sitemap>\n<\/sitemapindex>/u);
+});
+
+test("lastModFor uses the latest event of the page's models", () => {
+  const e = (date: string, id: string) => ({ date, id, lab: "l", slug: "s", name: "n", type: "price_change" as const });
+  assert.equal(lastModFor(["a", "b"], [e("2026-01-01", "a"), e("2026-03-01", "b"), e("2026-09-01", "c")]), "2026-03-01");
+  assert.equal(lastModFor(["z"], [e("2026-01-01", "a")]), null);
 });

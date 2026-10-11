@@ -1,4 +1,4 @@
-import type { Model } from "../data/types.ts";
+import type { Model, ModelEvent } from "../data/types.ts";
 import { fmtTokens, fmtUsd, monthYear } from "./format.ts";
 
 export function modelTitle(m: Model, today: string): string {
@@ -29,4 +29,28 @@ export function buildRss(channel: { title: string; link: string; description: st
     .map((i) => `<item><title>${xmlEscape(i.title)}</title><link>${xmlEscape(i.link)}</link><guid>${xmlEscape(i.link)}</guid><pubDate>${pubDate(i.date)}</pubDate><description>${xmlEscape(i.description)}</description></item>`)
     .join("");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>${xmlEscape(channel.title)}</title><link>${xmlEscape(channel.link)}</link><description>${xmlEscape(channel.description)}</description>${body}</channel></rss>\n`;
+}
+
+export const SITEMAP_FILES = ["pages.xml", "models.xml", "compare.xml", "best.xml", "news.xml"] as const;
+
+export type SitemapEntry = { loc: string; lastmod?: string | null };
+
+const XML_HEAD = '<?xml version="1.0" encoding="UTF-8"?>\n';
+const NS = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"';
+const entry = (tag: string, e: SitemapEntry) => `<${tag}><loc>${xmlEscape(e.loc)}</loc>${e.lastmod ? `<lastmod>${e.lastmod}</lastmod>` : ""}</${tag}>`;
+
+export function buildUrlset(entries: SitemapEntry[]): string {
+  return `${XML_HEAD}<urlset ${NS}>\n${entries.map((e) => entry("url", e)).join("\n")}\n</urlset>\n`;
+}
+
+export function buildSitemapIndex(entries: SitemapEntry[]): string {
+  return `${XML_HEAD}<sitemapindex ${NS}>\n${entries.map((e) => entry("sitemap", e)).join("\n")}\n</sitemapindex>\n`;
+}
+
+/** Real last-change date of the models shown on a page (never the build date). */
+export function lastModFor(ids: string[], events: ModelEvent[]): string | null {
+  const wanted = new Set(ids);
+  let max: string | null = null;
+  for (const e of events) if (wanted.has(e.id) && (max === null || e.date > max)) max = e.date;
+  return max;
 }
