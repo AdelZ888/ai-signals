@@ -25,7 +25,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: { default: TITLE, template: "%s | AI Signals" },
   description: DESCRIPTION,
-  icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
   alternates: { canonical: "/", types: { "application/rss+xml": [{ title: "AI Signals", url: "/rss.xml" }] } },
   openGraph: {
     type: "website",
