@@ -3,6 +3,8 @@ import { JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 
 import { GoogleAnalytics } from "@/components/google-analytics";
+import { SiteFooter } from "@/components/site-footer";
+import { TerminalNav } from "@/components/terminal-nav";
 import { getSiteUrl } from "@/lib/site-url";
 
 import "./globals.css";
@@ -65,7 +67,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body className={mono.variable}>
         <GoogleAnalytics measurementId={GA_MEASUREMENT_ID || undefined} />
-        {children}
+        <TerminalNav />
+        <main className="shell">{children}</main>
+        <SiteFooter />
       </body>
     </html>
   );
