@@ -10,7 +10,9 @@
     "test": "node --test \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
     "refresh-data": "node scripts/data/refresh.ts",
     "backfill-history": "node scripts/data/backfill-history.ts",
-    "editorial": "node scripts/editorial/run.ts"
+    "editorial": "node scripts/editorial/run.ts",
+    "weekly-digest": "node scripts/editorial/weekly-digest.ts",
+    "send-digest": "node scripts/newsletter/send-digest.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
