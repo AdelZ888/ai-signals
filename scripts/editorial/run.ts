@@ -5,7 +5,7 @@ import { DEFAULT_DATA_DIR, readEvents, readLatest } from "../../src/lib/data/sto
 import type { Model, ModelEvent } from "../../src/lib/data/types.ts";
 import { buildFactSheet, type FactSheet } from "../../src/lib/editorial/factsheet.ts";
 import { checkGrounding, checkLinks, factUrls, pickTitle } from "../../src/lib/editorial/guards.ts";
-import { pickFlashEvent, scoreEvent } from "../../src/lib/editorial/score.ts";
+import { coveredKeys, flashCandidates, pickFlashEvent, scoreEvent } from "../../src/lib/editorial/score.ts";
 import { articleSlug, renderTemplateArticle, type Article } from "../../src/lib/editorial/template.ts";
 import { articleExists, listArticles, writeArticle } from "../../src/lib/site/articles.ts";
 import { complete } from "./openai.ts";
@@ -39,12 +39,13 @@ async function writeWithLlm(facts: FactSheet, fallback: Article): Promise<{ arti
 }
 
 function simulate(models: Model[], events: ModelEvent[], days: number, end: string): number {
-  const published: string[] = [];
+  const published: { modelId: string; slug: string; date: string; kind: string }[] = [];
   for (let i = days - 1; i >= 0; i -= 1) {
     const day = addDays(end, -i);
-    const pick = pickFlashEvent(events.filter((e) => e.date === day).map((e) => scoreEvent(e, models, day)), published, day);
+    const scored = flashCandidates(events, models, day).map((e) => scoreEvent(e, models, day));
+    const pick = pickFlashEvent(scored, published.map((p) => p.date), day, coveredKeys(published, day));
     if (!pick) continue;
-    published.push(day);
+    published.push({ modelId: pick.event.id, slug: articleSlug(pick.event), date: day, kind: "flash" });
     console.log(`${day} score=${pick.score} ${renderTemplateArticle(buildFactSheet(pick, models)).title}`);
   }
   console.log(`[editorial] simulation: ${published.length} flash articles over ${days} days`);
@@ -62,11 +63,12 @@ async function main(): Promise<number> {
   const simulateDays = Number(process.env.SIMULATE_DAYS ?? 0);
   if (simulateDays > 0) return simulate(models, events, simulateDays, today);
 
-  const scored = events.filter((e) => e.date === today).map((e) => scoreEvent(e, models, today));
+  const scored = flashCandidates(events, models, today).map((e) => scoreEvent(e, models, today));
   for (const s of scored) console.log(`[editorial] ${s.event.type} ${s.event.id} score=${s.score}${s.eligible ? " ELIGIBLE" : ""} (${s.reasons.join("; ")})`);
 
-  const flashDates = listArticles().filter((a) => a.kind === "flash").map((a) => a.date);
-  const pick = pickFlashEvent(scored, flashDates, today);
+  const articles = listArticles();
+  const flashDates = articles.filter((a) => a.kind === "flash").map((a) => a.date);
+  const pick = pickFlashEvent(scored, flashDates, today, coveredKeys(articles, today));
   if (!pick) {
     console.log("[editorial] nothing to publish today");
     return 0;

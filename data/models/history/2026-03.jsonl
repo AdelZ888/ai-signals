@@ -11,4 +11,3 @@
 {"id":"xai/grok-4.20-0309-reasoning","lab":"xai","slug":"grok-4.20-0309-reasoning","name":"Grok 4.20 (Reasoning)","date":"2026-03-21","type":"new_model","after":{"input":2,"output":6,"blended":3,"context":1000000}}
 {"id":"xai/grok-4.20-multi-agent-0309","lab":"xai","slug":"grok-4.20-multi-agent-0309","name":"Grok 4.20 Multi-Agent","date":"2026-03-21","type":"new_model","after":{"input":2,"output":6,"blended":3,"context":1000000}}
 {"id":"mistral/mistral-small-2603","lab":"mistral","slug":"mistral-small-2603","name":"Mistral Small 4","date":"2026-03-29","type":"new_model","after":{"input":0.15,"output":0.6,"blended":0.2625,"context":262144}}
-{"id":"mistral/mistral-small-latest","lab":"mistral","slug":"mistral-small-latest","name":"Mistral Small","date":"2026-03-29","type":"price_change","before":{"input":0.1,"output":0.3,"blended":0.15,"context":262144},"after":{"input":0.15,"output":0.6,"blended":0.2625,"context":262144},"pctChange":75}

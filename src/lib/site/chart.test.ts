@@ -16,3 +16,9 @@ test("a single point or empty input never yields NaN", () => {
   assert.doesNotMatch(one.paths[0].d, /NaN|Infinity/u);
   assert.deepEqual(buildStepChart([], 100, 50).paths, []);
 });
+
+test("invalid dates in the series are ignored instead of throwing", () => {
+  const g = buildStepChart([{ id: "x", points: [{ date: "2025-13-01", value: 1 }, { date: "2026-01-01", value: 2 }] }], 100, 50, 0);
+  assert.equal(g.startDate, "2026-01-01");
+  assert.doesNotMatch(g.paths[0].d, /NaN/u);
+});

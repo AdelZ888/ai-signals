@@ -20,6 +20,7 @@ test("keeps only allow-listed labs, text output and paid models", () => {
       "google/gemma-4-31b-it",
       "mistral/glm-5",
       "openai/gpt-6.1-sol",
+      "openai/gpt-evil",
       "zhipuai/glm-5",
     ],
   );
@@ -93,4 +94,16 @@ test("display names drop the models.dev '(latest)' suffix", () => {
 test("embedding and reranker models are not chat models", () => {
   assert.equal(byId.has("openai/text-embedding-3-small"), false);
   assert.equal(byId.has("openai/gpt-rerank-1"), false);
+});
+
+test("image, audio, realtime/live, tts and -latest alias models are excluded", () => {
+  for (const id of ["gemini-3-image", "gemini-live-3", "gemini-realtime-2", "gemini-flash-latest", "gemini-3-tts"]) {
+    assert.equal(byId.has(`google/${id}`), false, id);
+  }
+});
+
+test("names carrying URLs, emails or HTML fall back to the slug", async () => {
+  assert.equal(byId.get("openai/gpt-evil")!.name, "gpt-evil");
+  const { renderMarkdown } = await import("../site/articles.ts");
+  assert.doesNotMatch(await renderMarkdown(`| ${byId.get("openai/gpt-evil")!.name} |\n| --- |`), /<a /u);
 });

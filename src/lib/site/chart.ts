@@ -7,6 +7,8 @@ const r1 = (n: number) => Math.round(n * 10) / 10;
 
 /** Step-line geometry (prices change in steps) on a shared time/price scale. */
 export function buildStepChart(series: ChartSeries[], width: number, height: number, pad = 8): ChartGeometry {
+  const valid = (p: ChartPoint) => Number.isFinite(Date.parse(`${p.date}T00:00:00Z`)) && Number.isFinite(p.value);
+  series = series.map((s) => ({ ...s, points: s.points.filter(valid) }));
   const all = series.flatMap((s) => s.points);
   if (all.length === 0) return { paths: [], yMax: 0, startDate: "", endDate: "" };
   const times = all.map((p) => Date.parse(`${p.date}T00:00:00Z`));

@@ -2,15 +2,12 @@ import type { ModelEvent } from "../data/types.ts";
 import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost } from "../site/format.ts";
 import type { FactSheet } from "./factsheet.ts";
 import { mdEscape } from "./markdown.ts";
+import { eventKind } from "./score.ts";
 
 export type Article = { title: string; description: string; body: string };
 
 export function articleSlug(e: ModelEvent): string {
-  const kind =
-    e.type === "new_model" ? "pricing"
-      : e.type === "price_change" ? ((e.pctChange ?? 0) < 0 ? "price-cut" : "price-increase")
-        : e.type === "context_change" ? "context-window" : "deprecated";
-  return `${e.date}-${e.slug}-${kind}`.replace(/\./gu, "-");
+  return `${e.date}-${e.slug}-${eventKind(e)}`.replace(/\./gu, "-");
 }
 
 function headline(f: FactSheet): string {

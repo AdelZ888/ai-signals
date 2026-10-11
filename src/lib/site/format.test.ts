@@ -41,3 +41,12 @@ test("urls", () => {
   assert.equal(modelUrl({ lab: "openai", slug: "gpt-6.1-sol" }), "/models/openai/gpt-6.1-sol");
   assert.equal(ogImageUrl("A & B", "x"), "/api/og?title=A+%26+B&subtitle=x");
 });
+
+test("fmtUsd never rounds a list price away (up to 4 decimals, at least 2)", () => {
+  assert.equal(fmtUsd(0.1875), "$0.1875");
+  assert.equal(fmtUsd(1.125), "$1.125");
+  assert.equal(fmtUsd(0.175), "$0.175");
+  assert.equal(fmtUsd(0.435), "$0.435");
+  assert.equal(fmtUsd(12.5), "$12.50");
+  assert.equal(fmtUsd(2), "$2.00");
+});

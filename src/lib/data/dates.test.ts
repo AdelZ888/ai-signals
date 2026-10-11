@@ -29,3 +29,10 @@ test("lastWeekRange returns the previous Monday-Sunday", () => {
   assert.deepEqual(lastWeekRange("2026-10-12"), { start: "2026-10-05", end: "2026-10-11", weekId: "2026-W41" });
   assert.deepEqual(lastWeekRange("2026-10-14"), { start: "2026-10-05", end: "2026-10-11", weekId: "2026-W41" });
 });
+
+test("well-formed but impossible dates are rejected", () => {
+  assert.equal(toIsoDay("2025-13-01"), null);
+  assert.equal(toIsoDay("2025-00"), null);
+  assert.equal(toIsoDay("2025-02-30"), null);
+  assert.equal(toIsoDay("2024-02-29"), "2024-02-29");
+});

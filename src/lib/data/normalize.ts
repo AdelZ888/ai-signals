@@ -30,13 +30,17 @@ export function blendedPrice(input: number, output: number): number {
   return round((3 * input + output) / 4);
 }
 
-const NOT_CHAT = /(^|[-_/ ])(embed|embedding|rerank|reranker)([-_/ ]|\d|$)/iu;
+const NOT_CHAT = /(^|[-_/ ])(embed|embedding|rerank|reranker|realtime|live|image|tts|audio|transcribe|latest)([-_/ ]|\d|$)/iu;
 
-/** Chat/text LLMs only: they always bill output tokens (embeddings and rerankers do not, or are named as such). */
+/**
+ * Chat/text LLMs only (spec §5.2): text-only output, billed output tokens, and not an embedding, reranker,
+ * realtime/live, image, TTS/audio model or a moving "-latest" alias of another model.
+ */
 function isPaidText(m: RawModel): m is Candidate["raw"] {
   const c = m.cost;
+  const output = m.modalities?.output ?? [];
   return (
-    (m.modalities?.output ?? []).includes("text") &&
+    output.length > 0 && output.every((o) => o === "text") &&
     typeof c?.input === "number" && typeof c.output === "number" && c.output > 0 &&
     !NOT_CHAT.test(`${m.id ?? ""} ${m.name ?? ""} ${m.family ?? ""}`)
   );
@@ -69,6 +73,14 @@ function toStatus(status: string | undefined): ModelStatus {
   if (status === "deprecated") return "deprecated";
   if (status === "beta" || status === "alpha") return "beta";
   return "active";
+}
+
+/** Third-party names end up in pages, Markdown and emails: anything URL-, email- or HTML-like falls back to the slug. */
+const UNSAFE_NAME = /(https?:|www\.|@|<|>|\]\(|[\u0000-\u001f])/iu;
+
+function displayName(raw: string, fallback: string): string {
+  const name = raw.replace(/\s*\(latest\)\s*$/iu, "").trim();
+  return !name || name.length > 80 || UNSAFE_NAME.test(name) ? fallback : name;
 }
 
 function slugFromId(id: string): string {
@@ -124,7 +136,7 @@ export function normalizeModelsDev(raw: RawModelsDev): Model[] {
       id,
       slug: slugFromId(id),
       lab: id.split("/")[0],
-      name: (m.name ?? base.key).replace(/\s*\(latest\)\s*$/iu, "").trim(),
+      name: displayName(m.name ?? base.key, slugFromId(id)),
       family: m.family ?? null,
       releaseDate: toIsoDay(m.release_date),
       knowledgeCutoff: m.knowledge ?? null,

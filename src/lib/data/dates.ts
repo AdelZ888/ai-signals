@@ -6,10 +6,13 @@ function utc(date: string): Date {
 
 export function toIsoDay(value: string | null | undefined): string | null {
   const v = String(value ?? "").trim();
-  if (/^\d{4}-\d{2}-\d{2}$/u.test(v)) return v;
-  if (/^\d{4}-\d{2}$/u.test(v)) return `${v}-01`;
-  if (/^\d{4}$/u.test(v)) return `${v}-01-01`;
-  return null;
+  let day: string | null = null;
+  if (/^\d{4}-\d{2}-\d{2}$/u.test(v)) day = v;
+  else if (/^\d{4}-\d{2}$/u.test(v)) day = `${v}-01`;
+  else if (/^\d{4}$/u.test(v)) day = `${v}-01-01`;
+  // Round-trip through Date so "2025-13-01" or "2025-02-30" are rejected, not rolled over.
+  const parsed = day ? new Date(`${day}T00:00:00Z`) : null;
+  return parsed && !Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === day ? day : null;
 }
 
 export function daysBetween(from: string, to: string): number {

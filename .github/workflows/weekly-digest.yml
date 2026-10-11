@@ -38,6 +38,8 @@ jobs:
         run: |
           bash scripts/ops/commit-and-push.sh "chore(news): weekly digest" content/news
       - name: Wait for the digest page to be live
+        # Sending stays off until Adel validates one test send: set the repo variable NEWSLETTER_ENABLED=true.
+        if: ${{ vars.NEWSLETTER_ENABLED == 'true' }}
         run: |
           SLUG=$(node -e "import('./src/lib/site/articles.ts').then(m => console.log(m.listArticles().find(a => a.kind === 'digest')?.slug ?? ''))")
           if [ -z "$SLUG" ]; then echo "no digest"; exit 0; fi
@@ -49,6 +51,8 @@ jobs:
           echo "digest page not live after 7 minutes"
           exit 1
       - name: Send the newsletter
+        # Sending stays off until Adel validates one test send: set the repo variable NEWSLETTER_ENABLED=true.
+        if: ${{ vars.NEWSLETTER_ENABLED == 'true' }}
         env:
           NEXT_PUBLIC_SITE_URL: https://aisignals.dev
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
@@ -60,5 +64,7 @@ jobs:
           BEEHIIV_PUBLICATION_ID: ${{ secrets.BEEHIIV_PUBLICATION_ID }}
         run: npm run send-digest
       - name: Commit the send log
+        # Sending stays off until Adel validates one test send: set the repo variable NEWSLETTER_ENABLED=true.
+        if: ${{ vars.NEWSLETTER_ENABLED == 'true' }}
         run: |
           bash scripts/ops/commit-and-push.sh "chore(news): newsletter send log" data/newsletter-log.json

@@ -1,10 +1,10 @@
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-/** USD per 1M tokens: 2 decimals from $0.10, otherwise 3 significant digits. */
+/** USD per 1M tokens, never rounded away: from $0.10 up to 4 decimals (at least 2), below that 3 significant digits. */
 export function fmtUsd(n: number): string {
   if (!Number.isFinite(n)) return "—";
   if (n === 0) return "$0";
-  if (Math.abs(n) >= 0.1) return `$${n.toFixed(2)}`;
+  if (Math.abs(n) >= 0.1) return `$${n.toFixed(4).replace(/(\.\d\d\d*?)0+$/u, "$1")}`;
   return `$${Number(n.toPrecision(3))}`;
 }
 
