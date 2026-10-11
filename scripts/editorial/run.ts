@@ -4,7 +4,7 @@ import { addDays } from "../../src/lib/data/dates.ts";
 import { DEFAULT_DATA_DIR, readEvents, readLatest } from "../../src/lib/data/store.ts";
 import type { Model, ModelEvent } from "../../src/lib/data/types.ts";
 import { buildFactSheet, type FactSheet } from "../../src/lib/editorial/factsheet.ts";
-import { checkGrounding, checkLinks, pickTitle } from "../../src/lib/editorial/guards.ts";
+import { checkGrounding, checkLinks, factUrls, pickTitle } from "../../src/lib/editorial/guards.ts";
 import { pickFlashEvent, scoreEvent } from "../../src/lib/editorial/score.ts";
 import { articleSlug, renderTemplateArticle, type Article } from "../../src/lib/editorial/template.ts";
 import { articleExists, listArticles, writeArticle } from "../../src/lib/site/articles.ts";
@@ -26,7 +26,7 @@ async function writeWithLlm(facts: FactSheet, fallback: Article): Promise<{ arti
       body = await complete(BODY_SYSTEM, `Fact sheet:\n${factsJson}\n\nPrevious draft:\n${body}\n\n${repairPrompt(check.unknown)}`);
       check = checkGrounding(body, facts);
     }
-    const links = checkLinks(body, facts);
+    const links = checkLinks(body, factUrls(facts));
     if (!check.ok || !links.ok || body.split(/\s+/u).length < MIN_WORDS) {
       console.warn(`[editorial] LLM draft rejected (unknown numbers: ${check.unknown.join(", ") || "none"}; bad links: ${links.bad.join(", ") || "none"}), using template`);
       return { article: fallback, mode: "template" };

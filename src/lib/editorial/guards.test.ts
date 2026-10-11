@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
-import { checkGrounding, checkLinks, extractNumbers, pickTitle } from "./guards.ts";
+import { checkGrounding, checkLinks, extractNumbers, factUrls, pickTitle } from "./guards.ts";
 import type { FactSheet } from "./factsheet.ts";
 
 const facts = {
@@ -35,10 +35,25 @@ test("pickTitle filters hype, invented numbers, missing names and false superlat
   assert.equal(pickTitle(["nothing usable!"], facts), null);
 });
 
-test("checkLinks only allows internal links that exist in the facts", () => {
-  assert.deepEqual(checkLinks("See [Claude Haiku 5.5](/models/anthropic/claude-haiku-5-5).", facts), { ok: true, bad: [] });
-  assert.deepEqual(checkLinks("[phish](https://evil.example/login) and [x](/models/fake/one)", facts), { ok: false, bad: ["https://evil.example/login", "/models/fake/one"] });
-  assert.deepEqual(checkLinks("Visit https://evil.example now", facts), { ok: false, bad: ["https://evil.example"] });
-  assert.deepEqual(checkLinks("<img src=x onerror=alert(1)>", facts), { ok: false, bad: ["<img"] });
-  assert.deepEqual(checkLinks("No links at all.", {}), { ok: true, bad: [] });
+test("checkLinks only allows internal links listed in the fact sheet url fields", () => {
+  const allowed = factUrls(facts);
+  assert.deepEqual(allowed, ["/models/anthropic/claude-haiku-5-5", "/models/google/gemini-3-8-flash-lite"]);
+  assert.deepEqual(checkLinks("See [Claude Haiku 5.5](/models/anthropic/claude-haiku-5-5).", allowed), { ok: true, bad: [] });
+  assert.deepEqual(checkLinks("No links at all.", []), { ok: true, bad: [] });
+  const cases: [string, string][] = [
+    ["[phish](https://evil.example/login)", "https://evil.example/login"],
+    ["[x](/models/fake/one)", "/models/fake/one"],
+    ["Visit https://evil.example now", "https://evil.example"],
+    ["Visit www.evil.example now", "http://www.evil.example"],
+    ["[x](//evil.example)", "//evil.example"],
+    ["[x][1]\n\n[1]: https://evil.example/ref", "https://evil.example/ref"],
+    ["![img](https://evil.example/p.png)", "https://evil.example/p.png"],
+    ["<img src=x onerror=alert(1)>", "html:<img src=x onerror=alert(1)>"],
+  ];
+  for (const [text, bad] of cases) assert.deepEqual(checkLinks(text, allowed), { ok: false, bad: [bad] }, text);
+});
+
+test("a model name that looks like a path never becomes an allowed link", () => {
+  const poisoned = { ...facts, model: { ...facts.model, name: "//evil.example" }, competitors: [{ ...facts.model, url: "//evil.example" }] } as unknown as FactSheet;
+  assert.deepEqual(factUrls(poisoned), ["/models/anthropic/claude-haiku-5-5", "/models/google/gemini-3-8-flash-lite"]);
 });

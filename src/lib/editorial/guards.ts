@@ -1,9 +1,10 @@
+import { remark } from "remark";
+import remarkGfm from "remark-gfm";
+
 import type { FactSheet } from "./factsheet.ts";
 
 const NUMBER_RE = /\d[\d,]*(?:\.\d+)?/gu;
-const LINK_TARGET = /\]\(([^)\s]+)\)/gu;
-const RAW_URL = /https?:\/\/[^\s)\]]+/giu;
-const HTML_TAG = /<\/?[a-z][a-z0-9]*/giu;
+const INTERNAL_PATH = /^\/(models|providers|compare|best|news|changes|calculator)(\/[a-z0-9._-]+)*\/?$/u;
 const BANNED = /you won'?t believe|shocking|insane|mind[- ]?blowing|game[- ]?changer|jaw[- ]?dropping|!|\?\?/iu;
 
 export function extractNumbers(text: string): number[] {
@@ -67,15 +68,26 @@ export function pickTitle(titles: string[], facts: FactSheet): string | null {
   return valid.map((t, i) => ({ t, s: score(t), i })).sort((a, b) => b.s - a.s || a.i - b.i)[0]?.t ?? null;
 }
 
-/** LLM output may only link to internal URLs present in the facts: no external URL, no HTML. */
-export function checkLinks(text: string, facts: unknown): { ok: boolean; bad: string[] } {
-  const allowed = new Set<string>();
-  walk(facts, () => undefined, (s) => {
-    if (s.startsWith("/")) allowed.add(s);
-  });
+type MdNode = { type: string; url?: string; value?: string; children?: MdNode[] };
+
+/** Allowed link targets: only the url fields of the fact sheet, and only strict internal paths. */
+export function factUrls(facts: FactSheet): string[] {
+  const urls = [facts.model.url, facts.rival?.url, ...facts.competitors.map((c) => c.url)];
+  return [...new Set(urls.filter((u): u is string => typeof u === "string" && INTERNAL_PATH.test(u)))];
+}
+
+/**
+ * LLM output may only link to allowed internal URLs: the text is parsed like the site renders it
+ * (Markdown + GFM), so inline, reference, autolink, www. and image links are all caught, and raw HTML is rejected.
+ */
+export function checkLinks(text: string, allowedUrls: string[]): { ok: boolean; bad: string[] } {
+  const allowed = new Set(allowedUrls.filter((u) => INTERNAL_PATH.test(u)));
   const bad = new Set<string>();
-  for (const m of text.matchAll(LINK_TARGET)) if (!allowed.has(m[1])) bad.add(m[1]);
-  for (const m of text.matchAll(RAW_URL)) if (![...bad].some((b) => b.startsWith(m[0]))) bad.add(m[0]);
-  for (const m of text.matchAll(HTML_TAG)) bad.add(m[0]);
+  const visit = (node: MdNode) => {
+    if ((node.type === "link" || node.type === "image" || node.type === "definition") && !allowed.has(node.url ?? "")) bad.add(node.url ?? "");
+    if (node.type === "html") bad.add(`html:${node.value ?? ""}`);
+    node.children?.forEach(visit);
+  };
+  visit(remark().use(remarkGfm).parse(text) as unknown as MdNode);
   return { ok: bad.size === 0, bad: [...bad] };
 }
