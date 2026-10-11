@@ -1,6 +1,7 @@
 import type { ModelEvent } from "../data/types.ts";
 import { fmtPct, fmtTokens, fmtUsd } from "../site/format.ts";
 import { modelUrl } from "../site/urls.ts";
+import { mdEscape } from "./markdown.ts";
 import type { Article } from "./template.ts";
 
 export type DigestRange = { start: string; end: string; weekId: string };
@@ -8,7 +9,7 @@ export type DigestRange = { start: string; end: string; weekId: string };
 export const digestSlug = (weekId: string) => `weekly-ai-pricing-${weekId.toLowerCase()}`;
 
 const row = (cells: string[]) => `| ${cells.join(" | ")} |`;
-const linkOf = (e: ModelEvent) => (e.type === "removed" ? e.name : `[${e.name}](${modelUrl(e)})`);
+const linkOf = (e: ModelEvent) => (e.type === "removed" ? mdEscape(e.name) : `[${mdEscape(e.name)}](${modelUrl(e)})`);
 
 function inRange(events: ModelEvent[], range: DigestRange): ModelEvent[] {
   return events

@@ -3,7 +3,7 @@ import "../load-env.mjs";
 import { lastWeekRange } from "../../src/lib/data/dates.ts";
 import { DEFAULT_DATA_DIR, readEvents } from "../../src/lib/data/store.ts";
 import { buildDigest, digestFacts, digestSlug } from "../../src/lib/editorial/digest.ts";
-import { checkGrounding } from "../../src/lib/editorial/guards.ts";
+import { checkGrounding, checkLinks } from "../../src/lib/editorial/guards.ts";
 import { articleExists, writeArticle } from "../../src/lib/site/articles.ts";
 import { complete } from "./openai.ts";
 import { DIGEST_INTRO_SYSTEM } from "./prompts.ts";
@@ -30,7 +30,7 @@ async function main(): Promise<number> {
     const facts = digestFacts(events, range);
     try {
       const intro = await complete(DIGEST_INTRO_SYSTEM, JSON.stringify(facts, null, 2), { maxTokens: 1500 });
-      if (intro && !intro.includes("!") && checkGrounding(intro, facts).ok) digest = buildDigest(events, range, intro) ?? fallback;
+      if (intro && !intro.includes("!") && checkGrounding(intro, facts).ok && checkLinks(intro, {}).ok) digest = buildDigest(events, range, intro) ?? fallback;
       else console.warn("[digest] LLM intro rejected, using the default intro");
     } catch (error) {
       console.warn(`[digest] LLM unavailable (${(error as Error).message}), using the default intro`);

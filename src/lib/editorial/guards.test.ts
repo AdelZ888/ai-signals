@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
-import { checkGrounding, extractNumbers, pickTitle } from "./guards.ts";
+import { checkGrounding, checkLinks, extractNumbers, pickTitle } from "./guards.ts";
 import type { FactSheet } from "./factsheet.ts";
 
 const facts = {
@@ -33,4 +33,12 @@ test("pickTitle filters hype, invented numbers, missing names and false superlat
   ];
   assert.equal(pickTitle(titles, facts), "Claude Haiku 5.5 Cuts Prices 20%, Now Cheaper Than Gemini 3.8 Flash Lite");
   assert.equal(pickTitle(["nothing usable!"], facts), null);
+});
+
+test("checkLinks only allows internal links that exist in the facts", () => {
+  assert.deepEqual(checkLinks("See [Claude Haiku 5.5](/models/anthropic/claude-haiku-5-5).", facts), { ok: true, bad: [] });
+  assert.deepEqual(checkLinks("[phish](https://evil.example/login) and [x](/models/fake/one)", facts), { ok: false, bad: ["https://evil.example/login", "/models/fake/one"] });
+  assert.deepEqual(checkLinks("Visit https://evil.example now", facts), { ok: false, bad: ["https://evil.example"] });
+  assert.deepEqual(checkLinks("<img src=x onerror=alert(1)>", facts), { ok: false, bad: ["<img"] });
+  assert.deepEqual(checkLinks("No links at all.", {}), { ok: true, bad: [] });
 });

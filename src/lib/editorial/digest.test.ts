@@ -42,3 +42,10 @@ test("empty weeks produce no digest", () => {
   assert.equal(buildDigest([], range), null);
   assert.equal(digestSlug("2026-W01"), "weekly-ai-pricing-2026-w01");
 });
+
+test("untrusted model names cannot break the digest tables", () => {
+  const evil = e("2026-10-08", "openai/evil", "new_model", { name: "Evil | [x](https://phish.io)", after: snap(1, 2) });
+  const body = buildDigest([evil], range)?.body ?? "";
+  assert.match(body, /\[Evil \\\| \\\[x\\\]\\\(https:\/\/phish\.io\\\)\]\(\/models\/openai\/evil\)/u);
+  assert.doesNotMatch(body, /\]\(https:\/\/phish/u);
+});

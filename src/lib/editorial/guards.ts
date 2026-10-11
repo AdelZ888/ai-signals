@@ -1,6 +1,9 @@
 import type { FactSheet } from "./factsheet.ts";
 
 const NUMBER_RE = /\d[\d,]*(?:\.\d+)?/gu;
+const LINK_TARGET = /\]\(([^)\s]+)\)/gu;
+const RAW_URL = /https?:\/\/[^\s)\]]+/giu;
+const HTML_TAG = /<\/?[a-z][a-z0-9]*/giu;
 const BANNED = /you won'?t believe|shocking|insane|mind[- ]?blowing|game[- ]?changer|jaw[- ]?dropping|!|\?\?/iu;
 
 export function extractNumbers(text: string): number[] {
@@ -62,4 +65,17 @@ export function pickTitle(titles: string[], facts: FactSheet): string | null {
     );
   const score = (t: string) => (/\d/u.test(t) ? 2 : 0) + (/\b(vs\.?|than|undercuts|beats)\b/iu.test(t) ? 2 : 0) + (/[$%]/u.test(t) ? 1 : 0);
   return valid.map((t, i) => ({ t, s: score(t), i })).sort((a, b) => b.s - a.s || a.i - b.i)[0]?.t ?? null;
+}
+
+/** LLM output may only link to internal URLs present in the facts: no external URL, no HTML. */
+export function checkLinks(text: string, facts: unknown): { ok: boolean; bad: string[] } {
+  const allowed = new Set<string>();
+  walk(facts, () => undefined, (s) => {
+    if (s.startsWith("/")) allowed.add(s);
+  });
+  const bad = new Set<string>();
+  for (const m of text.matchAll(LINK_TARGET)) if (!allowed.has(m[1])) bad.add(m[1]);
+  for (const m of text.matchAll(RAW_URL)) if (![...bad].some((b) => b.startsWith(m[0]))) bad.add(m[0]);
+  for (const m of text.matchAll(HTML_TAG)) bad.add(m[0]);
+  return { ok: bad.size === 0, bad: [...bad] };
 }

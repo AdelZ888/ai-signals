@@ -1,6 +1,7 @@
 import type { ModelEvent } from "../data/types.ts";
 import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost } from "../site/format.ts";
 import type { FactSheet } from "./factsheet.ts";
+import { mdEscape } from "./markdown.ts";
 
 export type Article = { title: string; description: string; body: string };
 
@@ -30,7 +31,7 @@ function headline(f: FactSheet): string {
 }
 
 function intro(f: FactSheet): string {
-  const m = f.model;
+  const m = { ...f.model, name: mdEscape(f.model.name), lab: mdEscape(f.model.lab) };
   switch (f.eventType) {
     case "new_model":
       return `${m.lab} released ${m.name}${m.releaseDate ? ` on ${m.releaseDate}` : ""}. It costs ${fmtUsd(m.input)} per million input tokens and ${fmtUsd(m.output)} per million output tokens, with a ${fmtTokens(m.context)}-token context window.`;
@@ -61,17 +62,17 @@ const row = (cells: string[]) => `| ${cells.join(" | ")} |`;
 
 /** Deterministic, number-safe article used when the LLM is unavailable or fails grounding. */
 export function renderTemplateArticle(f: FactSheet): Article {
-  const m = f.model;
+  const m = { ...f.model, name: mdEscape(f.model.name) };
   const lines: string[] = [intro(f)];
   if (f.rival) {
-    lines.push("", `That makes it cheaper than [${f.rival.name}](${f.rival.url}) on a blended basis: ${fmtUsd(m.blended)} vs ${fmtUsd(f.rival.blended)} per million tokens.`);
+    lines.push("", `That makes it cheaper than [${mdEscape(f.rival.name)}](${f.rival.url}) on a blended basis: ${fmtUsd(m.blended)} vs ${fmtUsd(f.rival.blended)} per million tokens.`);
   }
   lines.push("", "## What changed", "", row(["", "Input / 1M", "Output / 1M", "Context"]), row(["---", "---", "---", "---"]));
   if (f.before) lines.push(row(["Before", fmtUsd(f.before.input), fmtUsd(f.before.output), fmtTokens(f.before.context)]));
   lines.push(row([f.before ? "Now" : "Launch", fmtUsd(m.input), fmtUsd(m.output), fmtTokens(m.context)]));
 
   lines.push("", "## What it costs in practice", "", "Monthly cost at list price (base tier):", "");
-  lines.push(row(["Workload", "Tokens in / out", m.name, ...f.competitors.map((c) => c.name)]));
+  lines.push(row(["Workload", "Tokens in / out", m.name, ...f.competitors.map((c) => mdEscape(c.name))]));
   lines.push(row(["---", "---", "---", ...f.competitors.map(() => "---")]));
   for (const s of f.scenarios) {
     lines.push(row([s.label, `${s.inputTokensM}M / ${s.outputTokensM}M`, fmtUsdCost(s.cost), ...s.competitorCosts.map((c) => fmtUsdCost(c.cost))]));
@@ -80,11 +81,12 @@ export function renderTemplateArticle(f: FactSheet): Article {
   if (f.competitors.length > 0) {
     lines.push("", "## How it compares", "", row(["Model", "Input / 1M", "Output / 1M", "Context", `vs ${m.name}`]), row(["---", "---", "---", "---", "---"]));
     for (const c of f.competitors) {
-      lines.push(row([`[${c.name}](${c.url})`, fmtUsd(c.input), fmtUsd(c.output), fmtTokens(c.context), fmtPct(c.diffPctVsSubject)]));
+      lines.push(row([`[${mdEscape(c.name)}](${c.url})`, fmtUsd(c.input), fmtUsd(c.output), fmtTokens(c.context), fmtPct(c.diffPctVsSubject)]));
     }
   }
 
   lines.push("", "## Who should care", "", ...whoShouldCare(f), "", `[Full ${m.name} pricing, history and cost calculator](${m.url})`);
-  const first = intro(f);
+  // The description is plain text (front matter, meta tags): undo the Markdown escaping of intro().
+  const first = intro(f).replace(/\\([\\`*_[\]()|<>])/gu, "$1");
   return { title: headline(f), description: first.length > 160 ? `${first.slice(0, 157).trimEnd()}…` : first, body: lines.join("\n") };
 }

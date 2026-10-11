@@ -40,3 +40,13 @@ test("articleSlug is stable and URL-safe", () => {
   assert.equal(articleSlug(cases[1]), "2026-10-11-claude-haiku-5-5-price-cut");
   assert.equal(articleSlug({ ...cases[0], slug: "gpt-6.1-sol" }), "2026-10-11-gpt-6-1-sol-pricing");
 });
+
+test("untrusted competitor names are escaped in template tables", () => {
+  const evil = makeModel({ id: "meta/evil", name: "Evil | [x](https://phish.io)", releaseDate: "2026-09-01", price: { input: 0.11, output: 0.45 }, context: 1_000_000, ...vision });
+  const all = [...models, evil];
+  const facts = buildFactSheet(scoreEvent(cases[0], all, TODAY), all);
+  const body = renderTemplateArticle(facts).body;
+  assert.ok(facts.competitors.some((c) => c.name.startsWith("Evil")));
+  assert.doesNotMatch(body, /\]\(https:\/\/phish/u);
+  assert.match(body, /Evil \\\| \\\[x\\\]/u);
+});
