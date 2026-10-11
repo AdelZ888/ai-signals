@@ -208,6 +208,49 @@
           "output": 0
         },
         "canonical_model_id": "openai/gpt-free-preview"
+      },
+      "text-embedding-3-small": {
+        "id": "text-embedding-3-small",
+        "name": "text-embedding-3-small",
+        "family": "text-embedding",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limit": {
+          "context": 8191,
+          "output": 1536
+        },
+        "cost": {
+          "input": 0.02,
+          "output": 0
+        },
+        "canonical_model_id": "openai/text-embedding-3-small"
+      },
+      "gpt-rerank-1": {
+        "id": "gpt-rerank-1",
+        "name": "GPT Rerank 1",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limit": {
+          "context": 8000,
+          "output": 100
+        },
+        "cost": {
+          "input": 0.05,
+          "output": 0.05
+        },
+        "canonical_model_id": "openai/gpt-rerank-1"
       }
     }
   },

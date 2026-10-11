@@ -89,3 +89,8 @@ test("blendedPrice is 3:1 input:output", () => {
 test("display names drop the models.dev '(latest)' suffix", () => {
   assert.equal(byId.get("anthropic/claude-opus-4-5")!.name, "Claude Opus 4.5");
 });
+
+test("embedding and reranker models are not chat models", () => {
+  assert.equal(byId.has("openai/text-embedding-3-small"), false);
+  assert.equal(byId.has("openai/gpt-rerank-1"), false);
+});

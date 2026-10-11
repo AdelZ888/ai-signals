@@ -1069,41 +1069,6 @@
     "aliases": []
   },
   {
-    "id": "alibaba/qwen3-embedding-8b",
-    "slug": "qwen3-embedding-8b",
-    "lab": "alibaba",
-    "name": "Qwen3 Embedding 8B",
-    "family": "qwen",
-    "releaseDate": "2025-06-05",
-    "knowledgeCutoff": null,
-    "status": "active",
-    "openWeights": true,
-    "price": {
-      "input": 0.07,
-      "output": 0
-    },
-    "blended": 0.0525,
-    "priceSource": "novita-ai",
-    "context": 32768,
-    "maxOutput": null,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [
-      {
-        "provider": "novita-ai",
-        "input": 0.07,
-        "output": 0
-      }
-    ],
-    "aliases": []
-  },
-  {
     "id": "alibaba/qwen3-livetranslate-flash-realtime",
     "slug": "qwen3-livetranslate-flash-realtime",
     "lab": "alibaba",
@@ -1339,41 +1304,6 @@
       "structuredOutput": false
     },
     "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen3-reranker-8b",
-    "slug": "qwen3-reranker-8b",
-    "lab": "alibaba",
-    "name": "Qwen3 Reranker 8B",
-    "family": "qwen",
-    "releaseDate": "2025-06-05",
-    "knowledgeCutoff": null,
-    "status": "active",
-    "openWeights": true,
-    "price": {
-      "input": 0.05,
-      "output": 0
-    },
-    "blended": 0.0375,
-    "priceSource": "novita-ai",
-    "context": 32768,
-    "maxOutput": null,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [
-      {
-        "provider": "novita-ai",
-        "input": 0.05,
-        "output": 0
-      }
-    ],
     "aliases": []
   },
   {
@@ -5039,74 +4969,6 @@
     "aliases": []
   },
   {
-    "id": "google/gemini-embedding-001",
-    "slug": "gemini-embedding-001",
-    "lab": "google",
-    "name": "Gemini Embedding 001",
-    "family": "gemini",
-    "releaseDate": "2025-05-20",
-    "knowledgeCutoff": "2025-05",
-    "status": "active",
-    "openWeights": false,
-    "price": {
-      "input": 0.15,
-      "output": 0
-    },
-    "blended": 0.1125,
-    "priceSource": "google",
-    "context": 2048,
-    "maxOutput": 1,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [
-      {
-        "provider": "google-vertex",
-        "input": 0.15,
-        "output": 0
-      }
-    ],
-    "aliases": []
-  },
-  {
-    "id": "google/gemini-embedding-2",
-    "slug": "gemini-embedding-2",
-    "lab": "google",
-    "name": "Gemini Embedding 2",
-    "family": "gemini",
-    "releaseDate": "2026-04-22",
-    "knowledgeCutoff": "2025-11",
-    "status": "active",
-    "openWeights": false,
-    "price": {
-      "input": 0.2,
-      "output": 0
-    },
-    "blended": 0.15,
-    "priceSource": "google",
-    "context": 8192,
-    "maxOutput": 1,
-    "modalitiesIn": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "pdf"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
     "id": "google/gemini-flash-latest",
     "slug": "gemini-flash-latest",
     "lab": "google",
@@ -6824,35 +6686,6 @@
     "capabilities": {
       "reasoning": false,
       "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "mistral/mistral-embed",
-    "slug": "mistral-embed",
-    "lab": "mistral",
-    "name": "Mistral Embed",
-    "family": "mistral-embed",
-    "releaseDate": "2023-12-11",
-    "knowledgeCutoff": null,
-    "status": "active",
-    "openWeights": false,
-    "price": {
-      "input": 0.1,
-      "output": 0
-    },
-    "blended": 0.075,
-    "priceSource": "mistral",
-    "context": 8000,
-    "maxOutput": 3072,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
       "structuredOutput": false
     },
     "hosts": [],
@@ -9787,93 +9620,6 @@
         "output": 4.4
       }
     ],
-    "aliases": []
-  },
-  {
-    "id": "openai/text-embedding-3-large",
-    "slug": "text-embedding-3-large",
-    "lab": "openai",
-    "name": "text-embedding-3-large",
-    "family": "text-embedding",
-    "releaseDate": "2024-01-25",
-    "knowledgeCutoff": "2024-01",
-    "status": "active",
-    "openWeights": false,
-    "price": {
-      "input": 0.13,
-      "output": 0
-    },
-    "blended": 0.0975,
-    "priceSource": "openai",
-    "context": 8191,
-    "maxOutput": 3072,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "openai/text-embedding-3-small",
-    "slug": "text-embedding-3-small",
-    "lab": "openai",
-    "name": "text-embedding-3-small",
-    "family": "text-embedding",
-    "releaseDate": "2024-01-25",
-    "knowledgeCutoff": "2024-01",
-    "status": "active",
-    "openWeights": false,
-    "price": {
-      "input": 0.02,
-      "output": 0
-    },
-    "blended": 0.015,
-    "priceSource": "openai",
-    "context": 8191,
-    "maxOutput": 1536,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "openai/text-embedding-ada-002",
-    "slug": "text-embedding-ada-002",
-    "lab": "openai",
-    "name": "text-embedding-ada-002",
-    "family": "text-embedding",
-    "releaseDate": "2022-12-15",
-    "knowledgeCutoff": "2022-12",
-    "status": "active",
-    "openWeights": false,
-    "price": {
-      "input": 0.1,
-      "output": 0
-    },
-    "blended": 0.075,
-    "priceSource": "openai",
-    "context": 8192,
-    "maxOutput": 1536,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [],
     "aliases": []
   },
   {

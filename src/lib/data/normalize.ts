@@ -30,12 +30,15 @@ export function blendedPrice(input: number, output: number): number {
   return round((3 * input + output) / 4);
 }
 
+const NOT_CHAT = /(^|[-_/ ])(embed|embedding|rerank|reranker)([-_/ ]|\d|$)/iu;
+
+/** Chat/text LLMs only: they always bill output tokens (embeddings and rerankers do not, or are named as such). */
 function isPaidText(m: RawModel): m is Candidate["raw"] {
   const c = m.cost;
   return (
     (m.modalities?.output ?? []).includes("text") &&
-    typeof c?.input === "number" && typeof c.output === "number" &&
-    (c.input > 0 || c.output > 0)
+    typeof c?.input === "number" && typeof c.output === "number" && c.output > 0 &&
+    !NOT_CHAT.test(`${m.id ?? ""} ${m.name ?? ""} ${m.family ?? ""}`)
   );
 }
 
