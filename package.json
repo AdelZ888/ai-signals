@@ -12,7 +12,8 @@
     "backfill-history": "node scripts/data/backfill-history.ts",
     "editorial": "node scripts/editorial/run.ts",
     "weekly-digest": "node scripts/editorial/weekly-digest.ts",
-    "send-digest": "node scripts/newsletter/send-digest.ts"
+    "send-digest": "node scripts/newsletter/send-digest.ts",
+    "site-check": "node scripts/ops/site-check.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

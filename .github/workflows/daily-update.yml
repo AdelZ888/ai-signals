@@ -1,0 +1,46 @@
+name: Daily Data & Editorial
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - name: Refresh model data
+        run: npm run refresh-data
+      - name: Write at most one flash article
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-6.1-sol
+        run: npm run editorial
+      - run: npm run lint
+      - run: npm test
+      - name: Build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://aisignals.dev
+        run: npm run build
+      - name: Smoke test the build
+        run: |
+          npx next start -p 3100 &
+          for i in $(seq 1 30); do curl -sf -o /dev/null http://localhost:3100/ && break; sleep 1; done
+          SITE_CHECK_BASE=http://localhost:3100 node scripts/ops/site-check.ts --deep
+      - name: Commit and push
+        run: |
+          bash scripts/ops/commit-and-push.sh "chore(data): daily refresh" data/models content/news

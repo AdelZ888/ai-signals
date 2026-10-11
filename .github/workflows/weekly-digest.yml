@@ -1,0 +1,64 @@
+name: Weekly Digest
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - name: Write the weekly digest
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-6.1-sol
+        run: npm run weekly-digest
+      - run: npm run lint
+      - run: npm test
+      - name: Build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://aisignals.dev
+        run: npm run build
+      - name: Commit and push the digest
+        run: |
+          bash scripts/ops/commit-and-push.sh "chore(news): weekly digest" content/news
+      - name: Wait for the digest page to be live
+        run: |
+          SLUG=$(node -e "import('./src/lib/site/articles.ts').then(m => console.log(m.listArticles().find(a => a.kind === 'digest')?.slug ?? ''))")
+          if [ -z "$SLUG" ]; then echo "no digest"; exit 0; fi
+          for i in $(seq 1 42); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "https://aisignals.dev/news/$SLUG")
+            if [ "$code" = "200" ]; then exit 0; fi
+            sleep 10
+          done
+          echo "digest page not live after 7 minutes"
+          exit 1
+      - name: Send the newsletter
+        env:
+          NEXT_PUBLIC_SITE_URL: https://aisignals.dev
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
+          NEWSLETTER_REPLY_TO: ${{ secrets.NEWSLETTER_REPLY_TO }}
+          NEWSLETTER_ADDRESS: ${{ secrets.NEWSLETTER_ADDRESS }}
+          NEWSLETTER_UNSUBSCRIBE_SECRET: ${{ secrets.NEWSLETTER_UNSUBSCRIBE_SECRET }}
+          BEEHIIV_API_KEY: ${{ secrets.BEEHIIV_API_KEY }}
+          BEEHIIV_PUBLICATION_ID: ${{ secrets.BEEHIIV_PUBLICATION_ID }}
+        run: npm run send-digest
+      - name: Commit the send log
+        run: |
+          bash scripts/ops/commit-and-push.sh "chore(news): newsletter send log" data/newsletter-log.json
