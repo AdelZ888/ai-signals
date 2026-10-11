@@ -85,3 +85,7 @@ test("blendedPrice is 3:1 input:output", () => {
   assert.equal(blendedPrice(1, 2), 1.25);
   assert.equal(blendedPrice(0, 4), 1);
 });
+
+test("display names drop the models.dev '(latest)' suffix", () => {
+  assert.equal(byId.get("anthropic/claude-opus-4-5")!.name, "Claude Opus 4.5");
+});

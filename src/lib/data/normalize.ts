@@ -121,7 +121,7 @@ export function normalizeModelsDev(raw: RawModelsDev): Model[] {
       id,
       slug: slugFromId(id),
       lab: id.split("/")[0],
-      name: (m.name ?? base.key).trim(),
+      name: (m.name ?? base.key).replace(/\s*\(latest\)\s*$/iu, "").trim(),
       family: m.family ?? null,
       releaseDate: toIsoDay(m.release_date),
       knowledgeCutoff: m.knowledge ?? null,
