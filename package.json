@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "node --test \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
-    "refresh-data": "node scripts/data/refresh.ts"
+    "refresh-data": "node scripts/data/refresh.ts",
+    "backfill-history": "node scripts/data/backfill-history.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

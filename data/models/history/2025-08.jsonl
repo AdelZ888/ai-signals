@@ -1,0 +1,6 @@
+{"id":"openai/gpt-4","lab":"openai","slug":"gpt-4","name":"GPT-4","date":"2025-08-07","type":"price_change","before":{"input":10,"output":30,"blended":15,"context":8192},"after":{"input":30,"output":60,"blended":37.5,"context":8192},"pctChange":150}
+{"id":"openai/gpt-5","lab":"openai","slug":"gpt-5","name":"GPT-5","date":"2025-08-07","type":"new_model","after":{"input":1.25,"output":10,"blended":3.4375,"context":400000}}
+{"id":"openai/gpt-5-mini","lab":"openai","slug":"gpt-5-mini","name":"GPT-5 Mini","date":"2025-08-07","type":"new_model","after":{"input":0.25,"output":2,"blended":0.6875,"context":400000}}
+{"id":"openai/gpt-5-nano","lab":"openai","slug":"gpt-5-nano","name":"GPT-5 Nano","date":"2025-08-07","type":"new_model","after":{"input":0.05,"output":0.4,"blended":0.1375,"context":400000}}
+{"id":"mistral/mistral-medium-2508","lab":"mistral","slug":"mistral-medium-2508","name":"Mistral Medium 3.1","date":"2025-08-14","type":"new_model","after":{"input":0.4,"output":2,"blended":0.8,"context":262144}}
+{"id":"zhipuai/glm-4.5v","lab":"zhipuai","slug":"glm-4.5v","name":"GLM-4.5V","date":"2025-08-15","type":"new_model","after":{"input":0.6,"output":1.8,"blended":0.9,"context":64000}}
