@@ -1885,7 +1885,7 @@
     "family": "qwen",
     "releaseDate": "2026-08-12",
     "knowledgeCutoff": null,
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 2,
@@ -6087,6 +6087,41 @@
       "structuredOutput": false
     },
     "hosts": [],
+    "aliases": []
+  },
+  {
+    "id": "mistral/mistral-small-24b-instruct-2501",
+    "slug": "mistral-small-24b-instruct-2501",
+    "lab": "mistral",
+    "name": "Mistral Small 3",
+    "family": "mistral-small",
+    "releaseDate": "2025-01-30",
+    "knowledgeCutoff": "2023-10-31",
+    "status": "active",
+    "openWeights": true,
+    "price": {
+      "input": 0.05,
+      "output": 0.08
+    },
+    "blended": 0.0575,
+    "priceSource": "deepinfra",
+    "context": 32768,
+    "maxOutput": 16384,
+    "modalitiesIn": [
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": false,
+      "toolCall": false,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.05,
+        "output": 0.08
+      }
+    ],
     "aliases": []
   },
   {
