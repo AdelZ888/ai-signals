@@ -2224,6 +2224,11 @@
         "output": 50
       },
       {
+        "provider": "deepinfra",
+        "input": 10,
+        "output": 50
+      },
+      {
         "provider": "google-vertex",
         "input": 10,
         "output": 50
@@ -4427,6 +4432,46 @@
     "aliases": []
   },
   {
+    "id": "google/gemini-4-argon",
+    "slug": "gemini-4-argon",
+    "lab": "google",
+    "name": "Gemini 4 Argon",
+    "family": "gemini",
+    "releaseDate": "2026-10-13",
+    "knowledgeCutoff": "2026-03",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 2,
+      "output": 10,
+      "cacheRead": 0.1
+    },
+    "blended": 4,
+    "priceSource": "google",
+    "context": 1048576,
+    "maxOutput": 32768,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "google-vertex",
+        "input": 2,
+        "output": 10
+      }
+    ],
+    "aliases": []
+  },
+  {
     "id": "google/gemma-3-12b-it",
     "slug": "gemma-3-12b-it",
     "lab": "google",
@@ -5218,6 +5263,40 @@
       "cacheRead": 0.15
     },
     "blended": 2,
+    "priceSource": "meta",
+    "context": 1048576,
+    "maxOutput": 131072,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video",
+      "pdf",
+      "audio"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
+    "aliases": []
+  },
+  {
+    "id": "meta/muse-wonder-1.0",
+    "slug": "muse-wonder-1.0",
+    "lab": "meta",
+    "name": "Muse Wonder",
+    "family": "muse",
+    "releaseDate": "2026-10-12",
+    "knowledgeCutoff": null,
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 4,
+      "output": 20,
+      "cacheRead": 0.2
+    },
+    "blended": 8,
     "priceSource": "meta",
     "context": 1048576,
     "maxOutput": 131072,
