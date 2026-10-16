@@ -2,21 +2,21 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { makeModel } from "../data/testing.ts";
-import { bestTitle, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
+import { bestTitle, clampDescription, fitTitle, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
 
 const haiku = makeModel({ id: "anthropic/claude-haiku-5-5", name: "Claude Haiku 5.5", price: { input: 0.1, output: 0.5 }, context: 1_000_000 });
 const sol = makeModel({ id: "openai/gpt-6.1-sol", name: "GPT-6.1 Sol" });
 
 test("titles match search intent and carry the month", () => {
-  assert.equal(modelTitle(haiku, "2026-10-11"), "Claude Haiku 5.5 Pricing, Context Window & Specs (Oct 2026)");
-  assert.equal(compareTitle(haiku, sol, "2026-10-11"), "Claude Haiku 5.5 vs GPT-6.1 Sol: Price & Specs Compared (Oct 2026)");
+  assert.equal(modelTitle(haiku, "2026-10-11"), "Claude Haiku 5.5 API Pricing & Specs (Oct 2026)");
+  assert.equal(compareTitle(haiku, sol, "2026-10-11"), "Claude Haiku 5.5 vs GPT-6.1 Sol: Pricing Compared (Oct 2026)");
   assert.equal(bestTitle({ title: "Cheapest Vision Models" }, 20, "2026-10-11"), "20 Cheapest Vision Models (Oct 2026)");
 });
 
 test("model description uses real numbers", () => {
   assert.equal(
     modelDescription(haiku, "Anthropic"),
-    "Claude Haiku 5.5 by Anthropic: $0.10 per 1M input tokens, $0.50 per 1M output tokens, 1M context. Price history, cheaper alternatives and a cost calculator.",
+    "Claude Haiku 5.5 (Anthropic) costs $0.10 per 1M input and $0.50 per 1M output tokens, 1M context. Price history, cheaper alternatives, cost calculator.",
   );
 });
 
@@ -42,4 +42,16 @@ test("lastModFor uses the latest event of the page's models", () => {
   const e = (date: string, id: string) => ({ date, id, lab: "l", slug: "s", name: "n", type: "price_change" as const });
   assert.equal(lastModFor(["a", "b"], [e("2026-01-01", "a"), e("2026-03-01", "b"), e("2026-09-01", "c")]), "2026-03-01");
   assert.equal(lastModFor(["z"], [e("2026-01-01", "a")]), null);
+});
+
+test("fitTitle keeps the brand suffix only when the whole title fits in 60 characters", () => {
+  assert.equal(fitTitle("Claude Haiku 5.5 API Pricing & Specs (Oct 2026)"), "Claude Haiku 5.5 API Pricing & Specs (Oct 2026)");
+  assert.deepEqual(fitTitle("Qwen Plus Character (Japanese) API Pricing & Specs (Oct 2026)"), { absolute: "Qwen Plus Character (Japanese) API Pricing & Specs (Oct 2026)" });
+});
+
+test("clampDescription cuts long descriptions at a word boundary", () => {
+  const long = "word ".repeat(60).trim();
+  const out = clampDescription(long);
+  assert.ok(out.length <= 155 && out.endsWith("…"), out);
+  assert.equal(clampDescription("short enough"), "short enough");
 });

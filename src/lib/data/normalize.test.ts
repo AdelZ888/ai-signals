@@ -17,6 +17,7 @@ test("keeps only allow-listed labs, text output and paid models", () => {
       "anthropic/claude-3-haiku",
       "anthropic/claude-haiku-5-5",
       "anthropic/claude-opus-4-5",
+      "anthropic/claude-opus-4-5-20250901",
       "google/gemma-4-31b-it",
       "mistral/glm-5",
       "openai/gpt-6.1-sol",
@@ -106,4 +107,10 @@ test("names carrying URLs, emails or HTML fall back to the slug", async () => {
   assert.equal(byId.get("openai/gpt-evil")!.name, "gpt-evil");
   const { renderMarkdown } = await import("../site/articles.ts");
   assert.doesNotMatch(await renderMarkdown(`| ${byId.get("openai/gpt-evil")!.name} |\n| --- |`), /<a /u);
+});
+
+test("duplicate display names get a distinguishing suffix", () => {
+  assert.equal(byId.get("anthropic/claude-opus-4-5")!.name, "Claude Opus 4.5");
+  assert.equal(byId.get("anthropic/claude-opus-4-5-20250901")!.name, "Claude Opus 4.5 (20250901)");
+  assert.equal(new Set(models.map((m) => m.name.toLowerCase())).size, models.length);
 });

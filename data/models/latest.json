@@ -3746,7 +3746,7 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "slug": "deepseek-v4-pro-0813",
     "lab": "deepseek",
-    "name": "DeepSeek V4 Pro",
+    "name": "DeepSeek V4 Pro (0813)",
     "family": "deepseek-thinking",
     "releaseDate": "2026-08-12",
     "knowledgeCutoff": null,
@@ -3807,7 +3807,7 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "slug": "deepseek-v4.1-flash",
     "lab": "deepseek",
-    "name": "DeepSeek V4 Flash Vision Exp",
+    "name": "DeepSeek V4 Flash Vision Exp (1-flash)",
     "family": "deepseek-flash",
     "releaseDate": "2026-09-10",
     "knowledgeCutoff": "2025-05",
@@ -3861,6 +3861,11 @@
         "provider": "togetherai",
         "input": 0.3,
         "output": 1.2
+      },
+      {
+        "provider": "scaleway",
+        "input": 0.672,
+        "output": 2.016
       }
     ],
     "aliases": []
@@ -4942,7 +4947,7 @@
     "id": "meta/llama-3.2-1b-instruct",
     "slug": "llama-3.2-1b-instruct",
     "lab": "meta",
-    "name": "Llama 3.2 1B Instruct",
+    "name": "Llama 3.2 1B Instruct (instruct)",
     "family": "llama",
     "releaseDate": "2024-09-25",
     "knowledgeCutoff": null,

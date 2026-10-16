@@ -7,7 +7,7 @@ import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { getCatalog, labName } from "@/lib/site/catalog";
 import { fmtTokens, fmtUsd } from "@/lib/site/format";
-import { bestTitle } from "@/lib/site/seo";
+import { bestTitle, fitTitle } from "@/lib/site/seo";
 import { BEST_LISTS, MIN_LIST_SIZE, findBestList } from "@/lib/site/selection";
 import { bestUrl, modelUrl } from "@/lib/site/urls";
 
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const { models, today } = getCatalog();
   const entries = list.select(models, today);
   return {
-    title: bestTitle(list, entries.length, today),
+    title: fitTitle(bestTitle(list, entries.length, today)),
     description: `${list.description} Updated daily from list prices.`,
     alternates: { canonical: bestUrl(list.slug) },
     robots: entries.length >= MIN_LIST_SIZE ? undefined : { index: false, follow: true },

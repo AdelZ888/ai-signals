@@ -7,8 +7,8 @@ import { getCatalog } from "@/lib/site/catalog";
 import { modelRows } from "@/lib/site/rows";
 
 export const metadata: Metadata = {
-  title: "All AI Models: API Pricing & Specs",
-  description: "Search and sort every tracked AI model by input price, output price, context window and 30-day price change.",
+  title: "LLM API Pricing Comparison: All AI Models",
+  description: "Compare the API pricing of every major LLM: input and output price per 1M tokens, context window and 30-day price change. Updated daily.",
   alternates: { canonical: "/models" },
 };
 

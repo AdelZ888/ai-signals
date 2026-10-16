@@ -1,16 +1,33 @@
 import type { Model, ModelEvent } from "../data/types.ts";
 import { fmtTokens, fmtUsd, monthYear } from "./format.ts";
 
+const BRAND_SUFFIX = " | AI Signals";
+const MAX_TITLE = 60;
+const MAX_DESCRIPTION = 155;
+
+/** Google shows ~60 characters: keep the brand suffix only when the whole title fits. */
+export function fitTitle(core: string): string | { absolute: string } {
+  return core.length + BRAND_SUFFIX.length <= MAX_TITLE ? core : { absolute: core };
+}
+
+export function clampDescription(text: string, max = MAX_DESCRIPTION): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max - 1);
+  return `${cut.slice(0, cut.lastIndexOf(" ")).replace(/[\s,.;:]+$/u, "")}…`;
+}
+
 export function modelTitle(m: Model, today: string): string {
-  return `${m.name} Pricing, Context Window & Specs (${monthYear(today)})`;
+  return `${m.name} API Pricing & Specs (${monthYear(today)})`;
 }
 
 export function modelDescription(m: Model, labName: string): string {
-  return `${m.name} by ${labName}: ${fmtUsd(m.price.input)} per 1M input tokens, ${fmtUsd(m.price.output)} per 1M output tokens, ${fmtTokens(m.context)} context. Price history, cheaper alternatives and a cost calculator.`;
+  return clampDescription(
+    `${m.name} (${labName}) costs ${fmtUsd(m.price.input)} per 1M input and ${fmtUsd(m.price.output)} per 1M output tokens, ${fmtTokens(m.context)} context. Price history, cheaper alternatives, cost calculator.`,
+  );
 }
 
 export function compareTitle(a: Model, b: Model, today: string): string {
-  return `${a.name} vs ${b.name}: Price & Specs Compared (${monthYear(today)})`;
+  return `${a.name} vs ${b.name}: Pricing Compared (${monthYear(today)})`;
 }
 
 export function bestTitle(list: { title: string }, n: number, today: string): string {

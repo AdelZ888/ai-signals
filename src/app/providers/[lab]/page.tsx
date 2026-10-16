@@ -9,6 +9,7 @@ import { ModelTable } from "@/components/model-table";
 import { StatGrid } from "@/components/stat-grid";
 import { getCatalog, labName, labSummaries, recentEvents } from "@/lib/site/catalog";
 import { fmtUsd, monthYear } from "@/lib/site/format";
+import { clampDescription, fitTitle } from "@/lib/site/seo";
 import { modelRows } from "@/lib/site/rows";
 import { modelUrl, providerUrl } from "@/lib/site/urls";
 
@@ -25,8 +26,8 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const summary = labSummaries(getCatalog().models).find((s) => s.lab === lab);
   if (!summary) return {};
   return {
-    title: `${summary.name} API Pricing: All ${summary.models.length} Models Compared (${monthYear(getCatalog().today)})`,
-    description: `Every ${summary.name} model with input and output price per 1M tokens, context window and price history. Blended prices from ${fmtUsd(summary.minBlended)} to ${fmtUsd(summary.maxBlended)}.`,
+    title: fitTitle(`${summary.name} API Pricing: All ${summary.models.length} Models (${monthYear(getCatalog().today)})`),
+    description: clampDescription(`Every ${summary.name} model with input and output price per 1M tokens, context window and price history. Blended prices from ${fmtUsd(summary.minBlended)} to ${fmtUsd(summary.maxBlended)}.`),
     alternates: { canonical: providerUrl(lab) },
   };
 }

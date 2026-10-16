@@ -16,7 +16,7 @@ import { findModel, getCatalog, hostName, isFirstPartyPrice, labName } from "@/l
 import { monthlyCost } from "@/lib/site/cost";
 import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format";
 import { priceHistory } from "@/lib/site/history";
-import { modelDescription, modelTitle } from "@/lib/site/seo";
+import { fitTitle, modelDescription, modelTitle } from "@/lib/site/seo";
 import { alternatives, comparisonPairs, isIndexable, makePair } from "@/lib/site/selection";
 import { compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
 
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   if (!model) return {};
   const url = modelUrl(model);
   return {
-    title: modelTitle(model, getCatalog().today),
+    title: fitTitle(modelTitle(model, getCatalog().today)),
     description: modelDescription(model, labName(model.lab)),
     alternates: { canonical: url },
     robots: isIndexable(model) ? undefined : { index: false, follow: true },

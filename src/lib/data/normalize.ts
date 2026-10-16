@@ -169,10 +169,22 @@ export function normalizeModelsDev(raw: RawModelsDev): Model[] {
 
   merged.sort((a, b) => a.id.localeCompare(b.id));
   const seen = new Set<string>();
+  const firstByName = new Map<string, Model>();
   for (const m of merged) {
     m.aliases.sort();
     if (seen.has(m.slug)) m.slug = `${m.slug}-${m.lab}`;
     seen.add(m.slug);
+    // Unmerged snapshots often share a display name: suffix the later one so titles stay unique.
+    const key = m.name.toLowerCase();
+    const first = firstByName.get(key);
+    if (first) {
+      let i = 0;
+      while (i < first.slug.length && first.slug[i] === m.slug[i]) i += 1;
+      const suffix = m.slug.slice(i).replace(/^[-.]+/u, "") || m.slug;
+      m.name = `${m.name} (${suffix})`;
+    } else {
+      firstByName.set(key, m);
+    }
   }
   return merged;
 }
