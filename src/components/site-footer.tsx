@@ -25,7 +25,7 @@ export function SiteFooter() {
           <p className="box-title">{"// about"}</p>
           <p>
             <Link href="/about">methodology &amp; sources</Link><br />
-            <a href="/rss.xml">rss</a><br />
+            <a href="/rss.xml">rss</a> · <a href="/data/models.json">json</a> · <a href="/data/models.csv">csv</a><br />
             Data: <a href="https://models.dev" rel="noopener">models.dev</a> (MIT)
           </p>
         </div>

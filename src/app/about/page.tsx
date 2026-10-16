@@ -34,6 +34,11 @@ export default function AboutPage() {
         </ul>
         <h2>How articles are written</h2>
         <p>News articles and the weekly digest are generated automatically from our own data. An AI model (GPT-6.1 Sol) writes the text, and every number it uses is checked against the data before publication. If the check fails, a plain data template is published instead.</p>
+        <h2>Download the data</h2>
+        <p>
+          The full dataset is free to reuse with attribution: <a href="/data/models.json">models.json</a> and{" "}
+          <a href="/data/models.csv">models.csv</a>, refreshed daily.
+        </p>
         <h2>Corrections</h2>
         <p>Spotted a wrong price? Email <a href="mailto:hello@aisignals.dev">hello@aisignals.dev</a>, or contribute the fix upstream to models.dev.</p>
       </div>
@@ -51,6 +56,11 @@ export default function AboutPage() {
           creator: { "@type": "Organization", name: "AI Signals", url: base },
           dateModified: meta?.lastSuccessAt,
           variableMeasured: ["input price per 1M tokens", "output price per 1M tokens", "context window"],
+          license: "https://github.com/sst/models.dev/blob/dev/LICENSE",
+          distribution: [
+            { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${base}/data/models.json` },
+            { "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: `${base}/data/models.csv` },
+          ],
         }}
       />
     </>
