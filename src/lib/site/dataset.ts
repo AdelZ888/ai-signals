@@ -25,8 +25,11 @@ export function datasetRows(models: Model[], baseUrl: string): DatasetRow[] {
 }
 
 const csvCell = (v: unknown) => {
-  const s = v === null || v === undefined ? "" : String(v);
-  return /[",\n]/u.test(s) ? `"${s.replace(/"/gu, '""')}"` : s;
+  if (v === null || v === undefined) return "";
+  let s = String(v);
+  // Third-party text starting with = + - @ (or a control char) would run as a formula in spreadsheets.
+  if (typeof v === "string" && /^[=+\-@\t\r]/u.test(s)) s = `'${s}`;
+  return /[",\r\n]/u.test(s) || s.startsWith("'") ? `"${s.replace(/"/gu, '""')}"` : s;
 };
 
 export function toCsv(rows: Record<string, unknown>[]): string {

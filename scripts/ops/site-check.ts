@@ -1,6 +1,6 @@
 import { getCatalog, getPairs } from "../../src/lib/site/catalog.ts";
-import { BEST_LISTS, isIndexable } from "../../src/lib/site/selection.ts";
-import { bestUrl, compareUrl, modelUrl } from "../../src/lib/site/urls.ts";
+import { BEST_LISTS, alternativesPageModels, isIndexable } from "../../src/lib/site/selection.ts";
+import { alternativesUrl, bestUrl, compareUrl, modelUrl } from "../../src/lib/site/urls.ts";
 
 type Check = { path: string; status: number; expect?: RegExp; contentType?: string };
 
@@ -22,6 +22,10 @@ const BASIC: Check[] = [
   { path: "/sitemap.xml", status: 200, expect: /<sitemapindex/u },
   { path: "/sitemaps/models.xml", status: 200, expect: /<urlset/u },
   { path: "/robots.txt", status: 200, expect: /Sitemap:/u },
+  { path: "/sitemaps/alternatives.xml", status: 200, expect: /<urlset/u },
+  { path: "/llms.txt", status: 200, expect: /^# AI Signals/u },
+  { path: "/data/models.json", status: 200, expect: /"models":\[\{/u },
+  { path: "/data/models.csv", status: 200, expect: /^id,name,lab/u },
   { path: "/api/og?title=health", status: 200, contentType: "image/png" },
   { path: "/posts/legacy-check", status: 410 },
   { path: "/fr", status: 410 },
@@ -33,6 +37,8 @@ function deepChecks(): Check[] {
   const checks: Check[] = [{ path: "/compare/nope-vs-nothing", status: 404 }];
   const model = models.find(isIndexable);
   if (model) checks.push({ path: modelUrl(model), status: 200, expect: new RegExp(escapeRe(model.name), "u") });
+  const withAlternatives = alternativesPageModels(models, getCatalog().today)[0];
+  if (withAlternatives) checks.push({ path: alternativesUrl(withAlternatives), status: 200, expect: /alternatives/u });
   const pair = getPairs()[0];
   if (pair) {
     checks.push({ path: compareUrl(pair.key), status: 200 });

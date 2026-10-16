@@ -32,6 +32,11 @@ export default function Home() {
     <>
       <section className="hero">
         <h1>Every AI model&apos;s price, tracked daily.</h1>
+        <p className="prose">
+          AI Signals compares the API prices of {models.length} large language models from OpenAI, Anthropic, Google, Mistral,
+          DeepSeek, Meta and more. Every price, context window and capability is checked daily, with price history, head-to-head
+          comparisons, rankings and a cost calculator, so you can pick the right model for your budget.
+        </p>
         <p className="sub">
           {models.length} models · {labSummaries(models).length} labs · <span className="ok">● last sync {sync}</span>
         </p>

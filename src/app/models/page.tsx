@@ -21,6 +21,11 @@ export default function ModelsPage() {
       <Breadcrumbs items={[{ href: "/models", label: "models" }]} />
       <h1>All AI models: API pricing &amp; specs</h1>
       <p className="sub">{models.length} models · USD per 1M tokens · verified {meta?.lastSuccessAt.slice(0, 10) ?? "n/a"}</p>
+      <p className="prose">
+        Compare the API pricing of every major large language model in one table: input and output price per million tokens, context
+        window and 30-day price change, refreshed daily from public provider pricing. Click a column to sort, search by name or lab,
+        and open a model for its price history, cheaper alternatives and a cost calculator.
+      </p>
       <Box title="models">
         <ModelTable rows={rows} searchable />
       </Box>

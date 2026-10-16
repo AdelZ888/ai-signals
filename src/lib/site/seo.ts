@@ -17,7 +17,8 @@ export function clampDescription(text: string, max = MAX_DESCRIPTION): string {
 }
 
 export function modelTitle(m: Model, today: string): string {
-  return `${m.name} API Pricing & Specs (${monthYear(today)})`;
+  const full = `${m.name} API Pricing & Specs (${monthYear(today)})`;
+  return full.length <= MAX_TITLE ? full : `${m.name} API Pricing (${monthYear(today)})`;
 }
 
 export function modelDescription(m: Model, labName: string): string {
@@ -27,7 +28,8 @@ export function modelDescription(m: Model, labName: string): string {
 }
 
 export function compareTitle(a: Model, b: Model, today: string): string {
-  return `${a.name} vs ${b.name}: Pricing Compared (${monthYear(today)})`;
+  const full = `${a.name} vs ${b.name}: Pricing Compared (${monthYear(today)})`;
+  return full.length <= MAX_TITLE ? full : `${a.name} vs ${b.name} Pricing`;
 }
 
 export function bestTitle(list: { title: string }, n: number, today: string): string {

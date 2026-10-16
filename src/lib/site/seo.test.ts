@@ -76,3 +76,10 @@ test("organizationLd describes the publisher with a crawlable logo", () => {
   assert.equal(ld.logo, "https://aisignals.dev/apple-icon");
   assert.equal(ld.url, "https://aisignals.dev");
 });
+
+test("titles fall back to shorter variants for long model names", () => {
+  const long = makeModel({ id: "google/x", name: "Gemini 3.1 Pro Preview Custom Tools" });
+  assert.equal(modelTitle(long, "2026-10-11"), "Gemini 3.1 Pro Preview Custom Tools API Pricing (Oct 2026)");
+  const b = makeModel({ id: "openai/y", name: "GPT-6.1 Sol" });
+  assert.equal(compareTitle(long, b, "2026-10-11"), "Gemini 3.1 Pro Preview Custom Tools vs GPT-6.1 Sol Pricing");
+});

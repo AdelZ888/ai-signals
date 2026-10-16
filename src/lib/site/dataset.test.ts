@@ -24,3 +24,8 @@ test("datasetRows exposes public, indexable models with absolute URLs", () => {
 test("toCsv quotes fields that need it", () => {
   assert.equal(toCsv([{ a: 1, b: 'x "y", z' }, { a: 2, b: null }]), 'a,b\n1,"x ""y"", z"\n2,\n');
 });
+
+test("toCsv neutralizes spreadsheet formulas in text cells", () => {
+  assert.equal(toCsv([{ name: "=HYPERLINK(\"https://evil\")", n: -1 }]), 'name,n\n"\'=HYPERLINK(""https://evil"")",-1\n');
+  assert.equal(toCsv([{ name: "+cmd", n: 1 }, { name: "a\rb", n: 2 }]), 'name,n\n"\'+cmd",1\n"a\rb",2\n');
+});
