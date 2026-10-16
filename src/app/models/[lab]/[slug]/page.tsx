@@ -195,6 +195,14 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
                 </table>
               </Box>
             ) : null}
+            <Box title="embed this price badge" className="o-faq">
+              <p className="muted">Show the live price of {model.name} in your README or docs (updated daily):</p>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={`/badge/${model.lab}/${model.slug}.svg`} alt={`${model.name} API price badge`} height={20} />
+              <pre className="prose" style={{ whiteSpace: "pre-wrap", wordBreak: "break-all", fontSize: 12 }}>
+                {`[![${model.name} price](${getSiteUrl()}/badge/${model.lab}/${model.slug}.svg)](${getSiteUrl()}${modelUrl(model)})`}
+              </pre>
+            </Box>
             <Box title="faq" className="o-faq">
               <FaqList items={buildFaq(model, alts, source)} />
             </Box>
