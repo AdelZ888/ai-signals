@@ -78,7 +78,8 @@ export function renderTemplateArticle(f: FactSheet): Article {
   if (f.competitors.length > 0) {
     lines.push("", "## How it compares", "", row(["Model", "Input / 1M", "Output / 1M", "Context", `vs ${m.name}`]), row(["---", "---", "---", "---", "---"]));
     for (const c of f.competitors) {
-      lines.push(row([`[${mdEscape(c.name)}](${c.url})`, fmtUsd(c.input), fmtUsd(c.output), fmtTokens(c.context), fmtPct(c.diffPctVsSubject)]));
+      const name = `[${mdEscape(c.name)}](${c.url})${c.compareUrl ? ` · [compare](${c.compareUrl})` : ""}`;
+      lines.push(row([name, fmtUsd(c.input), fmtUsd(c.output), fmtTokens(c.context), fmtPct(c.diffPctVsSubject)]));
     }
   }
 

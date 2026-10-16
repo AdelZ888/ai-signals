@@ -8,6 +8,7 @@ import { checkGrounding, checkLinks, factUrls, pickTitle } from "../../src/lib/e
 import { coveredKeys, flashCandidates, pickFlashEvent, scoreEvent } from "../../src/lib/editorial/score.ts";
 import { articleSlug, renderTemplateArticle, type Article } from "../../src/lib/editorial/template.ts";
 import { articleExists, listArticles, writeArticle } from "../../src/lib/site/articles.ts";
+import { getPairs } from "../../src/lib/site/catalog.ts";
 import { complete } from "./openai.ts";
 import { BODY_SYSTEM, TITLE_SYSTEM, repairPrompt } from "./prompts.ts";
 
@@ -79,7 +80,7 @@ async function main(): Promise<number> {
     return 0;
   }
 
-  const facts = buildFactSheet(pick, models);
+  const facts = buildFactSheet(pick, models, new Set(getPairs().map((p) => p.key)));
   const fallback = renderTemplateArticle(facts);
   const { article, mode } = DRY_RUN ? { article: fallback, mode: "template" as const } : await writeWithLlm(facts, fallback);
   if (DRY_RUN) {

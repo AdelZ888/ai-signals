@@ -72,7 +72,7 @@ type MdNode = { type: string; url?: string; value?: string; children?: MdNode[] 
 
 /** Allowed link targets: only the url fields of the fact sheet, and only strict internal paths. */
 export function factUrls(facts: FactSheet): string[] {
-  const urls = [facts.model.url, facts.rival?.url, ...facts.competitors.map((c) => c.url)];
+  const urls = [facts.model.url, facts.rival?.url, ...facts.competitors.flatMap((c) => [c.url, c.compareUrl])];
   return [...new Set(urls.filter((u): u is string => typeof u === "string" && INTERNAL_PATH.test(u)))];
 }
 

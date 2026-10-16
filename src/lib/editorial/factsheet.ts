@@ -2,8 +2,8 @@ import { LAB_NAMES, isLabId } from "../data/config.ts";
 import { pct } from "../data/diff.ts";
 import type { EventType, Model, PriceSnapshot } from "../data/types.ts";
 import { SCENARIOS, monthlyCost } from "../site/cost.ts";
-import { alternatives, nearestCompetitors } from "../site/selection.ts";
-import { modelUrl } from "../site/urls.ts";
+import { alternatives, makePair, nearestCompetitors } from "../site/selection.ts";
+import { compareUrl, modelUrl } from "../site/urls.ts";
 import type { ScoredEvent } from "./score.ts";
 
 export type FactModel = {
@@ -14,6 +14,8 @@ export type FactModel = {
   diffPctVsSubject: number;
   /** The subject vs this model, in % (negative = the subject is cheaper). */
   subjectVsThisPct: number;
+  /** Comparison page with the subject, when it exists. */
+  compareUrl: string | null;
 };
 
 export type FactSheet = {
@@ -28,18 +30,20 @@ export type FactSheet = {
   isCheapestInClass: boolean;
 };
 
-function factModel(m: Model, subject: Model): FactModel {
+function factModel(m: Model, subject: Model, pairKeys: ReadonlySet<string> = new Set()): FactModel {
+  const key = m.id === subject.id ? null : makePair(subject, m).key;
   return {
     name: m.name, lab: isLabId(m.lab) ? LAB_NAMES[m.lab] : m.lab, url: modelUrl(m),
     input: m.price.input, output: m.price.output, blended: m.blended, context: m.context, maxOutput: m.maxOutput,
     releaseDate: m.releaseDate, openWeights: m.openWeights, reasoning: m.capabilities.reasoning,
     toolCall: m.capabilities.toolCall, vision: m.modalitiesIn.includes("image"),
     diffPctVsSubject: pct(subject.blended, m.blended), subjectVsThisPct: pct(m.blended, subject.blended),
+    compareUrl: key && pairKeys.has(key) ? compareUrl(key) : null,
   };
 }
 
 /** Every number an article may use. The LLM never sees anything else. */
-export function buildFactSheet(scored: ScoredEvent, models: Model[]): FactSheet {
+export function buildFactSheet(scored: ScoredEvent, models: Model[], pairKeys: ReadonlySet<string> = new Set()): FactSheet {
   const { event, rival } = scored;
   const model = models.find((m) => m.id === event.id);
   if (!model) throw new Error(`model ${event.id} is not in the catalog`);
@@ -54,7 +58,7 @@ export function buildFactSheet(scored: ScoredEvent, models: Model[]): FactSheet 
     rival: rival
       ? { name: rival.name, url: modelUrl(rival), blended: rival.blended, diffPctVsSubject: pct(model.blended, rival.blended), subjectVsThisPct: pct(rival.blended, model.blended) }
       : null,
-    competitors: competitors.map((c) => factModel(c, model)),
+    competitors: competitors.map((c) => factModel(c, model, pairKeys)),
     scenarios: SCENARIOS.map((s) => ({
       label: s.label,
       inputTokensM: s.inputTokens / 1_000_000,

@@ -13,7 +13,7 @@ Rules:
 - No exclamation marks, no hype.
 - Structure: one intro paragraph, then "## What changed", "## What it costs in practice" (a Markdown table built from "scenarios"), "## How it compares" (a Markdown table built from "competitors"), "## Who should care".
 - "scenarios" costs are monthly costs at list price (base tier); token counts there are in millions per month.
-- Link the model once with its "url" field, e.g. [Model name](url). Link competitors with their "url" fields.`;
+- Link the model once with its "url" field, e.g. [Model name](url). Link competitors with their "url" fields, and their "compareUrl" (when not null) as a [compare](compareUrl) link.`;
 
 export const DIGEST_INTRO_SYSTEM = `You write the two- or three-sentence introduction of a weekly AI model pricing digest.
 Use only facts from the JSON. Every number must appear in it. No hype, no exclamation marks. Return plain text only.`;

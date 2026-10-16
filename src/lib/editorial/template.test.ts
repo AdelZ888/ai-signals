@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { makeModel } from "../data/testing.ts";
 import type { ModelEvent } from "../data/types.ts";
 import { buildFactSheet } from "./factsheet.ts";
-import { checkGrounding } from "./guards.ts";
+import { checkGrounding, factUrls } from "./guards.ts";
 import { scoreEvent } from "./score.ts";
 import { articleSlug, renderTemplateArticle } from "./template.ts";
 
@@ -49,4 +49,16 @@ test("untrusted competitor names are escaped in template tables", () => {
   assert.ok(facts.competitors.some((c) => c.name.startsWith("Evil")));
   assert.doesNotMatch(body, /\]\(https:\/\/phish/u);
   assert.match(body, /Evil \\\| \\\[x\\\]/u);
+});
+
+test("fact sheets carry comparison URLs when the pair page exists, and templates link them", () => {
+  const event = cases[0];
+  const scored = scoreEvent(event, models, TODAY);
+  const keys = new Set(["claude-haiku-5-5-vs-llama-5-scout"]);
+  const facts = buildFactSheet(scored, models, keys);
+  const llama = facts.competitors.find((c) => c.name === "Llama 5 Scout");
+  assert.equal(llama?.compareUrl, "/compare/claude-haiku-5-5-vs-llama-5-scout");
+  assert.equal(facts.competitors.find((c) => c.name === "GPT-6.1 Mini")?.compareUrl, null);
+  assert.ok(factUrls(facts).includes("/compare/claude-haiku-5-5-vs-llama-5-scout"));
+  assert.match(renderTemplateArticle(facts).body, /\[compare\]\(\/compare\/claude-haiku-5-5-vs-llama-5-scout\)/u);
 });
