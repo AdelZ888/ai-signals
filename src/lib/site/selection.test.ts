@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { makeModel } from "../data/testing.ts";
 import {
   BEST_LISTS, alternatives, comparisonPairs, findBestList, isIndexable, makePair, nearestCompetitors,
-  alternativesPageModels, notablePool, parsePairKey, predecessor, stablePairs, versionOf,
+  alternativesPageModels, hostSummaries, notablePool, parsePairKey, predecessor, stablePairs, versionOf,
 } from "./selection.ts";
 
 const TODAY = "2026-10-11";
@@ -119,4 +119,26 @@ test("alternatives pages exist only for notable models with at least 5 compatibl
   assert.ok(ids.includes("openai/star"));
   assert.ok(!ids.includes("openai/vision-only"), "no page without 5 compatible alternatives");
   assert.ok(!ids.includes("meta/ancient"), "only notable (recent) models");
+});
+
+test("per-lab rankings exist for every lab, filtered to that lab", () => {
+  const claude = findBestList("cheapest-claude-models");
+  assert.equal(claude?.title, "Cheapest Claude Models");
+  const models = [
+    makeModel({ id: "anthropic/a", price: { input: 3, output: 3 } }),
+    makeModel({ id: "anthropic/b", price: { input: 1, output: 1 } }),
+    makeModel({ id: "openai/c", price: { input: 0.1, output: 0.1 } }),
+  ];
+  assert.deepEqual(claude?.select(models, TODAY).map((m) => m.id), ["anthropic/b", "anthropic/a"]);
+  assert.ok(findBestList("cheapest-gpt-models") && findBestList("cheapest-gemini-models") && findBestList("cheapest-llama-models"));
+});
+
+test("hostSummaries groups hosted models per provider, cheapest first", () => {
+  const llama = makeModel({ id: "meta/llama", openWeights: true, hosts: [{ provider: "groq", input: 0.1, output: 0.3 }, { provider: "togetherai", input: 0.2, output: 0.6 }] });
+  const qwen = makeModel({ id: "alibaba/qwen", openWeights: true, hosts: [{ provider: "groq", input: 0.05, output: 0.1 }] });
+  const hosts = hostSummaries([llama, qwen, makeModel({ id: "openai/x" })]);
+  assert.deepEqual(hosts.map((h) => [h.provider, h.offers.length]), [["groq", 2], ["togetherai", 1]]);
+  assert.deepEqual(hosts[0].offers.map((o) => o.model.id), ["alibaba/qwen", "meta/llama"]);
+  assert.equal(hosts[0].offers[1].cheapestHost, true);
+  assert.equal(hosts[1].offers[0].cheapestHost, false);
 });

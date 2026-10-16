@@ -2,8 +2,8 @@ import { getSiteUrl } from "@/lib/site-url";
 import { listArticles } from "@/lib/site/articles";
 import { getCatalog, getPairs, labSummaries } from "@/lib/site/catalog";
 import { SITEMAP_FILES, buildUrlset, lastModFor, type SitemapEntry } from "@/lib/site/seo";
-import { BEST_LISTS, MIN_LIST_SIZE, alternatives, alternativesPageModels, isIndexable } from "@/lib/site/selection";
-import { alternativesUrl, bestUrl, compareUrl, modelUrl, newsUrl, providerUrl } from "@/lib/site/urls";
+import { BEST_LISTS, MIN_LIST_SIZE, alternatives, alternativesPageModels, hostSummaries, isIndexable } from "@/lib/site/selection";
+import { alternativesUrl, bestUrl, compareUrl, hostUrl, modelUrl, newsUrl, providerUrl } from "@/lib/site/urls";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -12,7 +12,7 @@ export function generateStaticParams() {
   return SITEMAP_FILES.map((file) => ({ file }));
 }
 
-const STATIC_PAGES = ["/", "/models", "/providers", "/compare", "/best", "/calculator", "/changes", "/news", "/newsletter", "/about"];
+const STATIC_PAGES = ["/", "/models", "/providers", "/hosts", "/compare", "/best", "/calculator", "/changes", "/news", "/newsletter", "/about"];
 
 function entriesFor(file: string, base: string): SitemapEntry[] | null {
   const { models, events, meta, today } = getCatalog();
@@ -22,6 +22,9 @@ function entriesFor(file: string, base: string): SitemapEntry[] | null {
       return [
         ...STATIC_PAGES.map((p) => ({ loc: `${base}${p}`, lastmod: siteLastmod })),
         ...labSummaries(models).map((s) => ({ loc: `${base}${providerUrl(s.lab)}`, lastmod: lastModFor(s.models.map((m) => m.id), events) })),
+        ...hostSummaries(models)
+          .filter((h) => h.offers.length >= MIN_LIST_SIZE)
+          .map((h) => ({ loc: `${base}${hostUrl(h.provider)}`, lastmod: lastModFor(h.offers.map((o) => o.model.id), events) ?? siteLastmod })),
       ];
     case "models.xml":
       return models.filter(isIndexable).map((m) => ({ loc: `${base}${modelUrl(m)}`, lastmod: lastModFor([m.id], events) ?? m.releaseDate }));

@@ -1,5 +1,6 @@
-import { TIER1_LABS } from "../data/config.ts";
+import { LAB_IDS, TIER1_LABS } from "../data/config.ts";
 import { daysBetween } from "../data/dates.ts";
+import { blendedPrice } from "../data/normalize.ts";
 import type { Model } from "../data/types.ts";
 
 export const NOTABLE_MAX_AGE_DAYS = 548;
@@ -161,6 +162,51 @@ export const BEST_LISTS: BestList[] = [
         .slice(0, LIST_SIZE),
   },
 ];
+
+/** How people search for each lab's models ("cheapest claude model", "cheapest gpt model"…). */
+const LAB_BRANDS: Record<string, { slug: string; title: string }> = {
+  openai: { slug: "gpt", title: "GPT (OpenAI)" },
+  anthropic: { slug: "claude", title: "Claude" },
+  google: { slug: "gemini", title: "Gemini & Gemma" },
+  xai: { slug: "grok", title: "Grok" },
+  mistral: { slug: "mistral", title: "Mistral" },
+  deepseek: { slug: "deepseek", title: "DeepSeek" },
+  alibaba: { slug: "qwen", title: "Qwen" },
+  meta: { slug: "llama", title: "Llama" },
+  zhipuai: { slug: "glm", title: "GLM" },
+  moonshotai: { slug: "kimi", title: "Kimi" },
+  minimax: { slug: "minimax", title: "MiniMax" },
+  cohere: { slug: "cohere", title: "Cohere" },
+};
+
+for (const lab of LAB_IDS) {
+  const brand = LAB_BRANDS[lab];
+  BEST_LISTS.push({
+    slug: `cheapest-${brand.slug}-models`,
+    title: `Cheapest ${brand.title} Models`,
+    description: `Every active ${brand.title} model ranked by blended price per million tokens.`,
+    select: (ms) => cheapest(listable(ms).filter((m) => m.lab === lab)),
+  });
+}
+
+export type HostOffer = { model: Model; input: number; output: number; blended: number; cheapestHost: boolean };
+export type HostSummary = { provider: string; offers: HostOffer[] };
+
+/** Models offered by each third-party host, cheapest first; flags where the host is the cheapest option. */
+export function hostSummaries(models: Model[]): HostSummary[] {
+  const byHost = new Map<string, HostOffer[]>();
+  for (const m of listable(models)) {
+    if (m.hosts.length === 0) continue;
+    const best = Math.min(...m.hosts.map((h) => blendedPrice(h.input, h.output)));
+    for (const h of m.hosts) {
+      const blended = blendedPrice(h.input, h.output);
+      byHost.set(h.provider, [...(byHost.get(h.provider) ?? []), { model: m, input: h.input, output: h.output, blended, cheapestHost: blended === best }]);
+    }
+  }
+  return [...byHost.entries()]
+    .map(([provider, offers]) => ({ provider, offers: offers.sort((a, b) => a.blended - b.blended || a.model.id.localeCompare(b.model.id)) }))
+    .sort((a, b) => b.offers.length - a.offers.length || a.provider.localeCompare(b.provider));
+}
 
 export function findBestList(slug: string): BestList | null {
   return BEST_LISTS.find((l) => l.slug === slug) ?? null;

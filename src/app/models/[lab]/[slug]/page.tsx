@@ -21,7 +21,7 @@ import { priceHistory } from "@/lib/site/history";
 import { modelRankings, modelSummary } from "@/lib/site/insights";
 import { alternatesFor, fitTitle, lastModFor, modelDescription, modelTitle } from "@/lib/site/seo";
 import { alternatives, alternativesPageModels, isIndexable, makePair } from "@/lib/site/selection";
-import { alternativesUrl, bestUrl, compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
+import { alternativesUrl, bestUrl, compareUrl, hostUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
 
 type Params = { lab: string; slug: string };
 
@@ -189,7 +189,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
                   <thead><tr><th scope="col">host</th><th scope="col">in $/1M</th><th scope="col">out $/1M</th></tr></thead>
                   <tbody>
                     {model.hosts.map((h) => (
-                      <tr key={h.provider}><td>{hostName(h.provider)}</td><td>{fmtUsd(h.input)}</td><td>{fmtUsd(h.output)}</td></tr>
+                      <tr key={h.provider}><td><Link href={hostUrl(h.provider)}>{hostName(h.provider)}</Link></td><td>{fmtUsd(h.input)}</td><td>{fmtUsd(h.output)}</td></tr>
                     ))}
                   </tbody>
                 </table>
