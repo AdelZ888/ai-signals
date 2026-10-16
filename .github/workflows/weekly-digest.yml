@@ -37,6 +37,16 @@ jobs:
       - name: Commit and push the digest
         run: |
           bash scripts/ops/commit-and-push.sh "chore(news): weekly digest" content/news
+      - name: Notify IndexNow about the digest
+        continue-on-error: true
+        run: |
+          SLUG=$(node -e "import('./src/lib/site/articles.ts').then(m => console.log(m.listArticles().find(a => a.kind === 'digest')?.slug ?? ''))")
+          if [ -z "$SLUG" ]; then exit 0; fi
+          for i in $(seq 1 42); do
+            if [ "$(curl -s -o /dev/null -w '%{http_code}' "https://aisignals.dev/news/$SLUG")" = "200" ]; then node scripts/ops/indexnow.ts; exit 0; fi
+            sleep 10
+          done
+          exit 1
       - name: Wait for the digest page to be live
         # Sending stays off until Adel validates one test send: set the repo variable NEWSLETTER_ENABLED=true.
         if: ${{ vars.NEWSLETTER_ENABLED == 'true' }}

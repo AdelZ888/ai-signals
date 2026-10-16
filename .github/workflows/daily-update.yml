@@ -44,3 +44,18 @@ jobs:
       - name: Commit and push
         run: |
           bash scripts/ops/commit-and-push.sh "chore(data): daily refresh" data/models content/news
+      - name: Wait for the deployment to be live
+        id: deploy
+        continue-on-error: true
+        run: |
+          SYNC=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/models/meta.json','utf8')).lastSuccessAt.slice(0,16).replace('T',' '))")
+          for i in $(seq 1 42); do
+            if curl -s https://aisignals.dev/ | grep -q "$SYNC"; then exit 0; fi
+            sleep 10
+          done
+          echo "deployment not live after 7 minutes"
+          exit 1
+      - name: Notify IndexNow (Bing, Yandex, Seznam, Naver)
+        if: steps.deploy.outcome == 'success'
+        continue-on-error: true
+        run: node scripts/ops/indexnow.ts
