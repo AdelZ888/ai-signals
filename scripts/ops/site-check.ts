@@ -1,5 +1,5 @@
-import { getCatalog } from "../../src/lib/site/catalog.ts";
-import { BEST_LISTS, comparisonPairs, isIndexable } from "../../src/lib/site/selection.ts";
+import { getCatalog, getPairs } from "../../src/lib/site/catalog.ts";
+import { BEST_LISTS, isIndexable } from "../../src/lib/site/selection.ts";
 import { bestUrl, compareUrl, modelUrl } from "../../src/lib/site/urls.ts";
 
 type Check = { path: string; status: number; expect?: RegExp; contentType?: string };
@@ -29,11 +29,11 @@ const BASIC: Check[] = [
 
 /** Checks that depend on the local data (only valid against a build of this checkout). */
 function deepChecks(): Check[] {
-  const { models, today } = getCatalog();
+  const { models } = getCatalog();
   const checks: Check[] = [{ path: "/compare/nope-vs-nothing", status: 404 }];
   const model = models.find(isIndexable);
   if (model) checks.push({ path: modelUrl(model), status: 200, expect: new RegExp(escapeRe(model.name), "u") });
-  const pair = comparisonPairs(models, today)[0];
+  const pair = getPairs()[0];
   if (pair) {
     checks.push({ path: compareUrl(pair.key), status: 200 });
     checks.push({ path: compareUrl(`${pair.b.slug}-vs-${pair.a.slug}`), status: 308 });

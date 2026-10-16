@@ -3,9 +3,8 @@ import Link from "next/link";
 
 import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { getCatalog } from "@/lib/site/catalog";
+import { getPairs } from "@/lib/site/catalog";
 import { fmtUsd } from "@/lib/site/format";
-import { comparisonPairs } from "@/lib/site/selection";
 import { compareUrl } from "@/lib/site/urls";
 
 export const metadata: Metadata = {
@@ -15,8 +14,7 @@ export const metadata: Metadata = {
 };
 
 export default function CompareIndex() {
-  const { models, today } = getCatalog();
-  const pairs = [...comparisonPairs(models, today)].sort((p, q) => p.key.localeCompare(q.key));
+  const pairs = [...getPairs()].sort((p, q) => p.key.localeCompare(q.key));
   return (
     <>
       <Breadcrumbs items={[{ href: "/compare", label: "compare" }]} />

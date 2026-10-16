@@ -6,11 +6,11 @@ import { AdSlot } from "@/components/ad-slot";
 import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import type { Model } from "@/lib/data/types";
-import { getCatalog, labName } from "@/lib/site/catalog";
+import { getCatalog, getPairs, labName } from "@/lib/site/catalog";
 import { SCENARIOS, monthlyCost } from "@/lib/site/cost";
 import { fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format";
 import { clampDescription, compareTitle, fitTitle } from "@/lib/site/seo";
-import { comparisonPairs, type Pair } from "@/lib/site/selection";
+import type { Pair } from "@/lib/site/selection";
 import { compareUrl, modelUrl, ogImageUrl } from "@/lib/site/urls";
 import { compareVerdict } from "@/lib/site/verdict";
 
@@ -19,13 +19,11 @@ type Params = { pair: string };
 export const dynamicParams = true;
 
 export function generateStaticParams(): Params[] {
-  const { models, today } = getCatalog();
-  return comparisonPairs(models, today).map((p) => ({ pair: p.key }));
+  return getPairs().map((p) => ({ pair: p.key }));
 }
 
 function resolvePair(key: string): { pair: Pair; all: Pair[] } | { redirectTo: string } | null {
-  const { models, today } = getCatalog();
-  const all = comparisonPairs(models, today);
+  const all = getPairs();
   const pair = all.find((p) => p.key === key);
   if (pair) return { pair, all };
   const parts = key.split("-vs-");

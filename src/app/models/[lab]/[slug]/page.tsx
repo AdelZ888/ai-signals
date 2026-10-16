@@ -12,12 +12,12 @@ import { PriceChart } from "@/components/price-chart";
 import { StatGrid } from "@/components/stat-grid";
 import { pct } from "@/lib/data/diff";
 import type { Model } from "@/lib/data/types";
-import { findModel, getCatalog, hostName, isFirstPartyPrice, labName } from "@/lib/site/catalog";
+import { findModel, getCatalog, getPairs, hostName, isFirstPartyPrice, labName } from "@/lib/site/catalog";
 import { monthlyCost } from "@/lib/site/cost";
 import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format";
 import { priceHistory } from "@/lib/site/history";
 import { fitTitle, modelDescription, modelTitle } from "@/lib/site/seo";
-import { alternatives, comparisonPairs, isIndexable, makePair } from "@/lib/site/selection";
+import { alternatives, isIndexable, makePair } from "@/lib/site/selection";
 import { compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
 
 type Params = { lab: string; slug: string };
@@ -90,7 +90,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
 
   const { models, events, meta, today } = getCatalog();
   const alts = alternatives(model, models, 5);
-  const pairKeys = new Set(comparisonPairs(models, today).map((p) => p.key));
+  const pairKeys = new Set(getPairs().map((p) => p.key));
   const compareLinks = models
     .filter((m) => m.id !== model.id)
     .map((m) => makePair(model, m))

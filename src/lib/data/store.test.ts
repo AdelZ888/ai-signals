@@ -4,7 +4,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-import { appendEvents, readEvents, readLatest, readMeta, writeEvents, writeLatest, writeMeta } from "./store.ts";
+import { appendEvents, readEvents, readLatest, readMeta, readPairs, writeEvents, writeLatest, writeMeta, writePairs } from "./store.ts";
 import { makeModel } from "./testing.ts";
 import type { ModelEvent } from "./types.ts";
 
@@ -45,4 +45,11 @@ test("writeEvents replaces the whole history", () => {
   writeEvents(dir, [ev("2026-10-02", "y"), ev("2026-10-01", "x")]);
   assert.deepEqual(fs.readdirSync(path.join(dir, "history")), ["2026-10.jsonl"]);
   assert.deepEqual(readEvents(dir).map((e) => e.id), ["x", "y"]);
+});
+
+test("published comparison pairs round-trip sorted and deduplicated", () => {
+  const dir = tmp();
+  assert.deepEqual(readPairs(dir), []);
+  writePairs(dir, ["b-vs-c", "a-vs-b", "a-vs-b"]);
+  assert.deepEqual(readPairs(dir), ["a-vs-b", "b-vs-c"]);
 });

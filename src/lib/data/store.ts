@@ -27,6 +27,10 @@ export const writeLatest = (dir: string, models: Model[]) => writeJsonAtomic(pat
 export const readMeta = (dir: string) => readJson<Meta>(path.join(dir, "meta.json"));
 export const writeMeta = (dir: string, meta: Meta) => writeJsonAtomic(path.join(dir, "meta.json"), meta);
 
+/** Comparison pages ever published (append-only), so their URLs stay stable. */
+export const readPairs = (dir: string) => readJson<string[]>(path.join(dir, "pairs.json")) ?? [];
+export const writePairs = (dir: string, keys: string[]) => writeJsonAtomic(path.join(dir, "pairs.json"), [...new Set(keys)].sort());
+
 export function readEvents(dir: string): ModelEvent[] {
   const historyDir = path.join(dir, "history");
   let files: string[];

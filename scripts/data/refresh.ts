@@ -2,7 +2,8 @@ import { GENAI_PRICES_URL, MODELS_DEV_URL } from "../../src/lib/data/config.ts";
 import { crossCheck, type GenaiProvider } from "../../src/lib/data/crosscheck.ts";
 import { diffSnapshots } from "../../src/lib/data/diff.ts";
 import { normalizeModelsDev, type RawModelsDev } from "../../src/lib/data/normalize.ts";
-import { DEFAULT_DATA_DIR, appendEvents, readLatest, readMeta, writeLatest, writeMeta } from "../../src/lib/data/store.ts";
+import { DEFAULT_DATA_DIR, appendEvents, readLatest, readMeta, readPairs, writeLatest, writeMeta, writePairs } from "../../src/lib/data/store.ts";
+import { stablePairs } from "../../src/lib/site/selection.ts";
 import { validateSnapshot } from "../../src/lib/data/validate.ts";
 
 const USER_AGENT = "aisignals-bot/2.0 (+https://aisignals.dev/about)";
@@ -37,6 +38,7 @@ async function main(): Promise<number> {
   const events = prev ? diffSnapshots(prev, next, today) : [];
   writeLatest(dir, next);
   appendEvents(dir, events);
+  writePairs(dir, stablePairs(next, today, readPairs(dir)).map((p) => p.key));
   writeMeta(dir, {
     lastSuccessAt: now,
     source: "models.dev",

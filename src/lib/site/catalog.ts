@@ -1,11 +1,11 @@
 import path from "node:path";
 
 import { HOST_NAMES, LAB_NAMES, LAB_PROVIDER, isLabId } from "../data/config.ts";
-import { readEvents, readLatest, readMeta } from "../data/store.ts";
+import { readEvents, readLatest, readMeta, readPairs } from "../data/store.ts";
 import type { Meta, Model, ModelEvent } from "../data/types.ts";
-import { isActive, isIndexable } from "./selection.ts";
+import { isActive, isIndexable, stablePairs, type Pair } from "./selection.ts";
 
-export type Catalog = { models: Model[]; events: ModelEvent[]; meta: Meta | null; today: string };
+export type Catalog = { models: Model[]; events: ModelEvent[]; meta: Meta | null; today: string; publishedPairs: string[] };
 
 let cached: Catalog | null = null;
 
@@ -19,8 +19,19 @@ export function getCatalog(): Catalog {
     events: readEvents(dir),
     meta,
     today: (meta?.lastSuccessAt ?? new Date().toISOString()).slice(0, 10),
+    publishedPairs: readPairs(dir),
   };
   return cached;
+}
+
+let pairsCache: Pair[] | null = null;
+
+/** Comparison pages: today's selection plus every previously published pair (stable URLs). */
+export function getPairs(): Pair[] {
+  if (pairsCache) return pairsCache;
+  const { models, today, publishedPairs } = getCatalog();
+  pairsCache = stablePairs(models, today, publishedPairs);
+  return pairsCache;
 }
 
 export function findModel(lab: string, slug: string): Model | null {

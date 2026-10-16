@@ -100,6 +100,32 @@ export function comparisonPairs(models: Model[], today: string, cap = PAIR_CAP):
   return [...out.values()];
 }
 
+/** Resolves "a-vs-b" (slugs may contain dashes) against the catalog. */
+export function parsePairKey(key: string, bySlug: Map<string, Model>): Pair | null {
+  let at = key.indexOf("-vs-");
+  while (at !== -1) {
+    const a = bySlug.get(key.slice(0, at));
+    const b = bySlug.get(key.slice(at + 4));
+    if (a && b && a.id !== b.id) return makePair(a, b);
+    at = key.indexOf("-vs-", at + 1);
+  }
+  return null;
+}
+
+/**
+ * Today's selection first, then every previously published pair whose two models still have a page:
+ * a comparison URL never disappears just because the selection rules moved on.
+ */
+export function stablePairs(models: Model[], today: string, published: string[]): Pair[] {
+  const out = new Map(comparisonPairs(models, today).map((p) => [p.key, p]));
+  const bySlug = new Map(models.filter(isIndexable).map((m) => [m.slug, m]));
+  for (const key of published) {
+    const pair = parsePairKey(key, bySlug);
+    if (pair && !out.has(pair.key)) out.set(pair.key, pair);
+  }
+  return [...out.values()];
+}
+
 export type BestList = { slug: string; title: string; description: string; select: (models: Model[], today: string) => Model[] };
 
 const cheapest = (models: Model[]) => [...models].sort(byBlended).slice(0, LIST_SIZE);

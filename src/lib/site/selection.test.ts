@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { makeModel } from "../data/testing.ts";
 import {
   BEST_LISTS, alternatives, comparisonPairs, findBestList, isIndexable, makePair, nearestCompetitors,
-  notablePool, predecessor, versionOf,
+  notablePool, parsePairKey, predecessor, stablePairs, versionOf,
 } from "./selection.ts";
 
 const TODAY = "2026-10-11";
@@ -89,4 +89,23 @@ test("best lists filter and rank", () => {
   assert.deepEqual(newest?.select(models, TODAY).map((m) => m.id), ["openai/a", "meta/c"]);
   assert.equal(new Set(BEST_LISTS.map((l) => l.slug)).size, BEST_LISTS.length);
   assert.equal(findBestList("nope"), null);
+});
+
+test("stablePairs keeps previously published pairs so comparison URLs never disappear", () => {
+  const a = makeModel({ id: "openai/a", releaseDate: "2026-09-01", price: { input: 1, output: 1 } });
+  const b = makeModel({ id: "google/b", releaseDate: "2026-09-02", price: { input: 1.1, output: 1.1 } });
+  const old = makeModel({ id: "meta/old", releaseDate: "2023-01-01", price: { input: 1, output: 1 } });
+  const models = [a, b, old];
+  const pairs = stablePairs(models, TODAY, ["a-vs-old", "gone-vs-a", "a-vs-b"]);
+  const keys = pairs.map((p) => p.key);
+  assert.equal(keys[0], "a-vs-b");
+  assert.ok(keys.includes("a-vs-old"), "published pair kept even though no longer selected");
+  assert.ok(!keys.some((k) => k.includes("gone")), "pairs whose model disappeared are dropped");
+  assert.equal(new Set(keys).size, keys.length);
+});
+
+test("parsePairKey resolves slugs that contain dashes", () => {
+  const bySlug = new Map([["gpt-6.1-sol", makeModel({ id: "openai/gpt-6.1-sol" })], ["claude-haiku-5-5", makeModel({ id: "anthropic/claude-haiku-5-5" })]]);
+  assert.equal(parsePairKey("claude-haiku-5-5-vs-gpt-6.1-sol", bySlug)?.key, "claude-haiku-5-5-vs-gpt-6.1-sol");
+  assert.equal(parsePairKey("nope-vs-gpt-6.1-sol", bySlug), null);
 });
