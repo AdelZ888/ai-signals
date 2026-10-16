@@ -33,7 +33,9 @@ function entriesFor(file: string, base: string): SitemapEntry[] | null {
     case "compare.xml":
       return getPairs().map((p) => ({ loc: `${base}${compareUrl(p.key)}`, lastmod: lastModFor([p.a.id, p.b.id], events) }));
     case "best.xml":
-      return BEST_LISTS.filter((l) => l.select(models, today).length >= MIN_LIST_SIZE).map((l) => ({ loc: `${base}${bestUrl(l.slug)}`, lastmod: siteLastmod }));
+      return BEST_LISTS.map((l) => ({ l, entries: l.select(models, today) }))
+        .filter(({ entries }) => entries.length >= MIN_LIST_SIZE)
+        .map(({ l, entries }) => ({ loc: `${base}${bestUrl(l.slug)}`, lastmod: lastModFor(entries.map((m) => m.id), events) ?? siteLastmod }));
     case "news.xml":
       return listArticles().map((a) => ({ loc: `${base}${newsUrl(a.slug)}`, lastmod: a.date }));
     default:
