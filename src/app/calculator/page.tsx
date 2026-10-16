@@ -6,11 +6,12 @@ import { CostCalculator } from "@/components/cost-calculator";
 import { getCatalog } from "@/lib/site/catalog";
 import { isActive, isIndexable } from "@/lib/site/selection";
 import { modelUrl } from "@/lib/site/urls";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "AI API Cost Calculator: Compare Monthly LLM Costs",
   description: "Enter your monthly input and output tokens and compare the cost of every tracked AI model API, cheapest first.",
-  alternates: { canonical: "/calculator" },
+  alternates: alternatesFor("/calculator"),
 };
 
 export default function CalculatorPage() {

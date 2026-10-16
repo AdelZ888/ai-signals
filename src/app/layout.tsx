@@ -25,7 +25,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: { default: TITLE, template: "%s | AI Signals" },
   description: DESCRIPTION,
-  alternates: { canonical: "/", types: { "application/rss+xml": [{ title: "AI Signals", url: "/rss.xml" }] } },
+  alternates: { types: { "application/rss+xml": [{ title: "AI Signals", url: "/rss.xml" }] } },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+    other: process.env.BING_SITE_VERIFICATION ? { "msvalidate.01": process.env.BING_SITE_VERIFICATION } : undefined,
+  },
   openGraph: {
     type: "website",
     siteName: "AI Signals",

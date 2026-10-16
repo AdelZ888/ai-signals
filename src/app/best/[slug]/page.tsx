@@ -5,9 +5,11 @@ import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/ad-slot";
 import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { JsonLd } from "@/components/json-ld";
+import { getSiteUrl } from "@/lib/site-url";
 import { getCatalog, labName } from "@/lib/site/catalog";
 import { fmtTokens, fmtUsd } from "@/lib/site/format";
-import { bestTitle, fitTitle } from "@/lib/site/seo";
+import { alternatesFor, bestTitle, fitTitle, itemListLd } from "@/lib/site/seo";
 import { BEST_LISTS, MIN_LIST_SIZE, findBestList } from "@/lib/site/selection";
 import { bestUrl, modelUrl } from "@/lib/site/urls";
 
@@ -27,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   return {
     title: fitTitle(bestTitle(list, entries.length, today)),
     description: `${list.description} Updated daily from list prices.`,
-    alternates: { canonical: bestUrl(list.slug) },
+    alternates: alternatesFor(bestUrl(list.slug)),
     robots: entries.length >= MIN_LIST_SIZE ? undefined : { index: false, follow: true },
   };
 }
@@ -78,6 +80,7 @@ export default async function BestPage({ params }: { params: Promise<Params> }) 
         </div>
       </Box>
       <AdSlot />
+      <JsonLd data={itemListLd(list.title, entries.map((m) => ({ name: m.name, url: modelUrl(m) })), getSiteUrl())} />
       <Box title="other rankings">
         {BEST_LISTS.filter((l) => l.slug !== list.slug).map((l) => <Link key={l.slug} className="btn" href={bestUrl(l.slug)}>{l.title}</Link>)}
       </Box>

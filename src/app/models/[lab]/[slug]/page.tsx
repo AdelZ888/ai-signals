@@ -7,17 +7,19 @@ import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CostCalculator, type CalcRow } from "@/components/cost-calculator";
 import { FaqList } from "@/components/faq-list";
+import { JsonLd } from "@/components/json-ld";
 import { ModelLayout } from "@/components/model-layout";
 import { PriceChart } from "@/components/price-chart";
 import { StatGrid } from "@/components/stat-grid";
 import { pct } from "@/lib/data/diff";
 import type { Model } from "@/lib/data/types";
+import { getSiteUrl } from "@/lib/site-url";
 import { findModel, getCatalog, getPairs, hostName, isFirstPartyPrice, labName } from "@/lib/site/catalog";
 import { monthlyCost } from "@/lib/site/cost";
 import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format";
 import { priceHistory } from "@/lib/site/history";
 import { modelRankings, modelSummary } from "@/lib/site/insights";
-import { fitTitle, modelDescription, modelTitle } from "@/lib/site/seo";
+import { alternatesFor, fitTitle, lastModFor, modelDescription, modelTitle } from "@/lib/site/seo";
 import { alternatives, alternativesPageModels, isIndexable, makePair } from "@/lib/site/selection";
 import { alternativesUrl, bestUrl, compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
 
@@ -37,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   return {
     title: fitTitle(modelTitle(model, getCatalog().today)),
     description: modelDescription(model, labName(model.lab)),
-    alternates: { canonical: url },
+    alternates: alternatesFor(url),
     robots: isIndexable(model) ? undefined : { index: false, follow: true },
     openGraph: {
       url,
@@ -121,6 +123,17 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
           { label: "context", value: fmtTokens(model.context) },
           { label: "max output", value: fmtTokens(model.maxOutput) },
         ]}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: `${model.name} pricing & specs`,
+          url: `${getSiteUrl()}${modelUrl(model)}`,
+          dateModified: verified,
+          datePublished: lastModFor([model.id], events.filter((e) => e.type === "new_model")) ?? model.releaseDate ?? undefined,
+          about: { "@type": "SoftwareApplication", name: model.name, applicationCategory: "DeveloperApplication", creator: { "@type": "Organization", name: labName(model.lab) } },
+        }}
       />
       <div className="prose summary">
         <p>{modelSummary(model, models, labName(model.lab)).join(" ")}</p>

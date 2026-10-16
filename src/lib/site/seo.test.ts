@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { makeModel } from "../data/testing.ts";
-import { bestTitle, clampDescription, fitTitle, itemListLd, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
+import { alternatesFor, bestTitle, clampDescription, fitTitle, itemListLd, organizationLd, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
 
 const haiku = makeModel({ id: "anthropic/claude-haiku-5-5", name: "Claude Haiku 5.5", price: { input: 0.1, output: 0.5 }, context: 1_000_000 });
 const sol = makeModel({ id: "openai/gpt-6.1-sol", name: "GPT-6.1 Sol" });
@@ -64,4 +64,15 @@ test("itemListLd builds a schema.org ItemList with absolute URLs", () => {
     numberOfItems: 1,
     itemListElement: [{ "@type": "ListItem", position: 1, name: "A", url: "https://aisignals.dev/models/x/a" }],
   });
+});
+
+test("alternatesFor keeps the RSS feed next to the canonical URL", () => {
+  assert.deepEqual(alternatesFor("/models"), { canonical: "/models", types: { "application/rss+xml": [{ title: "AI Signals", url: "/rss.xml" }] } });
+});
+
+test("organizationLd describes the publisher with a crawlable logo", () => {
+  const ld = organizationLd("https://aisignals.dev");
+  assert.equal(ld["@type"], "Organization");
+  assert.equal(ld.logo, "https://aisignals.dev/apple-icon");
+  assert.equal(ld.url, "https://aisignals.dev");
 });

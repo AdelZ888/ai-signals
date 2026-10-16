@@ -5,11 +5,12 @@ import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { listArticles } from "@/lib/site/articles";
 import { newsUrl } from "@/lib/site/urls";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "AI Model Pricing News",
   description: "New AI models, price cuts and the weekly pricing digest, generated from our daily data.",
-  alternates: { canonical: "/news" },
+  alternates: alternatesFor("/news"),
 };
 
 export default function NewsIndex() {

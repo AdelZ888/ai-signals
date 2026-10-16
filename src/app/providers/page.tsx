@@ -6,11 +6,12 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { getCatalog, labSummaries } from "@/lib/site/catalog";
 import { fmtUsd } from "@/lib/site/format";
 import { providerUrl } from "@/lib/site/urls";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "AI Model Providers: API Pricing by Lab",
   description: "Every AI lab we track, with model count and blended price range per million tokens.",
-  alternates: { canonical: "/providers" },
+  alternates: alternatesFor("/providers"),
 };
 
 export default function ProvidersPage() {

@@ -9,6 +9,7 @@ import { getSiteUrl } from "@/lib/site-url";
 import { listArticles, renderMarkdown } from "@/lib/site/articles";
 import { getCatalog } from "@/lib/site/catalog";
 import { modelUrl, newsUrl, ogImageUrl } from "@/lib/site/urls";
+import { alternatesFor } from "@/lib/site/seo";
 
 type Params = { slug: string };
 
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   return {
     title: article.title,
     description: article.description,
-    alternates: { canonical: newsUrl(article.slug) },
+    alternates: alternatesFor(newsUrl(article.slug)),
     openGraph: { type: "article", publishedTime: article.date, images: [{ url: ogImageUrl(article.title, article.date), width: 1200, height: 630 }] },
   };
 }
@@ -55,6 +56,7 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
           datePublished: article.date,
           dateModified: article.date,
           mainEntityOfPage: `${base}${newsUrl(article.slug)}`,
+          image: `${base}${ogImageUrl(article.title, article.date)}`,
           author: { "@type": "Organization", name: "AI Signals", url: base },
           publisher: { "@type": "Organization", name: "AI Signals", url: base },
         }}

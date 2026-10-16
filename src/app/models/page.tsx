@@ -5,11 +5,12 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ModelTable } from "@/components/model-table";
 import { getCatalog } from "@/lib/site/catalog";
 import { modelRows } from "@/lib/site/rows";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "LLM API Pricing Comparison: All AI Models",
   description: "Compare the API pricing of every major LLM: input and output price per 1M tokens, context window and 30-day price change. Updated daily.",
-  alternates: { canonical: "/models" },
+  alternates: alternatesFor("/models"),
 };
 
 export default function ModelsPage() {

@@ -1,14 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { Box } from "@/components/box";
 import { EventFeed } from "@/components/event-feed";
+import { JsonLd } from "@/components/json-ld";
 import { ModelTable } from "@/components/model-table";
 import { TIER1_LABS } from "@/lib/data/config";
 import { daysBetween } from "@/lib/data/dates";
 import { getCatalog, getPairs, labSummaries, recentEvents } from "@/lib/site/catalog";
+import { getSiteUrl } from "@/lib/site-url";
 import { modelRows } from "@/lib/site/rows";
+import { alternatesFor, organizationLd } from "@/lib/site/seo";
 import { BEST_LISTS, notablePool } from "@/lib/site/selection";
 import { bestUrl, compareUrl } from "@/lib/site/urls";
+
+export const metadata: Metadata = { alternates: alternatesFor("/") };
 
 export default function Home() {
   const { models, events, meta, today } = getCatalog();
@@ -52,6 +58,17 @@ export default function Home() {
         <br />
         <Link className="btn" href="/compare">all comparisons →</Link>
       </Box>
+      <JsonLd data={organizationLd(getSiteUrl())} />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "AI Signals",
+          url: getSiteUrl(),
+          description: "Every AI model's API price, context window and capabilities, tracked daily.",
+          publisher: { "@type": "Organization", name: "AI Signals", url: getSiteUrl() },
+        }}
+      />
       <Box title="rankings">
         <ul className="feed">
           {BEST_LISTS.map((l) => (

@@ -7,11 +7,12 @@ import { getCatalog } from "@/lib/site/catalog";
 import { fmtUsd } from "@/lib/site/format";
 import { BEST_LISTS } from "@/lib/site/selection";
 import { bestUrl } from "@/lib/site/urls";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "Best AI Models by Price: Rankings Updated Daily",
   description: "Rankings of the cheapest AI models by capability: vision, reasoning, long context, open weights, tool calling and more.",
-  alternates: { canonical: "/best" },
+  alternates: alternatesFor("/best"),
 };
 
 export default function BestIndex() {

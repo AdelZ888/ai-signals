@@ -4,11 +4,12 @@ import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { EventFeed } from "@/components/event-feed";
 import { getCatalog, recentEvents } from "@/lib/site/catalog";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "AI Model Price Changes & New Releases Log",
   description: "Every tracked AI model launch, price cut, price increase, context change and deprecation, newest first.",
-  alternates: { canonical: "/changes" },
+  alternates: alternatesFor("/changes"),
 };
 
 export default function ChangesPage() {

@@ -81,3 +81,21 @@ export function itemListLd(name: string, items: { name: string; url: string }[],
     itemListElement: items.map((it, i) => ({ "@type": "ListItem", position: i + 1, name: it.name, url: `${baseUrl}${it.url}` })),
   };
 }
+
+const RSS_TYPES = { "application/rss+xml": [{ title: "AI Signals", url: "/rss.xml" }] };
+
+/** Next.js replaces `alternates` per page: always carry the RSS feed with the canonical URL. */
+export function alternatesFor(path: string): { canonical: string; types: typeof RSS_TYPES } {
+  return { canonical: path, types: RSS_TYPES };
+}
+
+export function organizationLd(baseUrl: string): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "AI Signals",
+    url: baseUrl,
+    logo: `${baseUrl}/apple-icon`,
+    description: "Daily AI model API prices, context windows and capabilities, with comparisons and a cost calculator.",
+  };
+}

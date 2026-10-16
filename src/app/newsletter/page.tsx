@@ -3,11 +3,12 @@ import type { Metadata } from "next";
 import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { NewsletterForm } from "@/components/newsletter-form";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "Weekly AI Model Pricing Digest",
   description: "One email every Monday: new AI models, price cuts, price increases and deprecations, straight from our daily data.",
-  alternates: { canonical: "/newsletter" },
+  alternates: alternatesFor("/newsletter"),
 };
 
 export default function NewsletterPage() {

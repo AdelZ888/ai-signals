@@ -5,11 +5,12 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
 import { getSiteUrl } from "@/lib/site-url";
 import { getCatalog, labSummaries } from "@/lib/site/catalog";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "About AI Signals: Methodology & Data Sources",
   description: "How AI Signals collects, normalizes and verifies AI model prices every day, and how its articles are written.",
-  alternates: { canonical: "/about" },
+  alternates: alternatesFor("/about"),
 };
 
 export default function AboutPage() {

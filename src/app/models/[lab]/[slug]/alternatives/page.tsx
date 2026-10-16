@@ -11,7 +11,7 @@ import { getSiteUrl } from "@/lib/site-url";
 import { findModel, getCatalog, getPairs, labName } from "@/lib/site/catalog";
 import { SCENARIOS, monthlyCost } from "@/lib/site/cost";
 import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost, monthYear } from "@/lib/site/format";
-import { clampDescription, fitTitle, itemListLd } from "@/lib/site/seo";
+import { alternatesFor, clampDescription, fitTitle, itemListLd } from "@/lib/site/seo";
 import { alternatives, alternativesPageModels, makePair } from "@/lib/site/selection";
 import { alternativesUrl, compareUrl, modelUrl, providerUrl } from "@/lib/site/urls";
 
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     description: clampDescription(
       `${alts.length} alternatives to ${model.name} with the same input types and capabilities${cheaper.length > 0 ? `, ${cheaper.length} of them cheaper` : ""}. Prices per 1M tokens, context windows and monthly costs.`,
     ),
-    alternates: { canonical: alternativesUrl(model) },
+    alternates: alternatesFor(alternativesUrl(model)),
   };
 }
 

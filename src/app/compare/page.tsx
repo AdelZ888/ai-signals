@@ -6,11 +6,12 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { getPairs } from "@/lib/site/catalog";
 import { fmtUsd } from "@/lib/site/format";
 import { compareUrl } from "@/lib/site/urls";
+import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "AI Model Comparisons: Price & Specs Side by Side",
   description: "Head-to-head comparisons of popular AI models: input and output prices, context windows, capabilities and monthly cost.",
-  alternates: { canonical: "/compare" },
+  alternates: alternatesFor("/compare"),
 };
 
 export default function CompareIndex() {
