@@ -24,6 +24,8 @@ const BASIC: Check[] = [
   { path: "/robots.txt", status: 200, expect: /Sitemap:/u },
   { path: "/sitemaps/alternatives.xml", status: 200, expect: /<urlset/u },
   { path: "/llms.txt", status: 200, expect: /^# AI Signals/u },
+  { path: "/guides", status: 200, expect: /pricing guides/u },
+  { path: "/hosts", status: 200, expect: /inference hosts/u },
   { path: "/data/models.json", status: 200, expect: /"models":\[\{/u },
   { path: "/data/models.csv", status: 200, expect: /^id,name,lab/u },
   { path: "/api/og?title=health", status: 200, contentType: "image/png" },

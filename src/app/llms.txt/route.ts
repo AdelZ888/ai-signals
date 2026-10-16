@@ -1,8 +1,9 @@
 import { getSiteUrl } from "@/lib/site-url";
 import { getCatalog, labSummaries } from "@/lib/site/catalog";
 import { fmtUsd } from "@/lib/site/format";
+import { GUIDES_DIR, listArticles } from "@/lib/site/articles";
 import { BEST_LISTS } from "@/lib/site/selection";
-import { bestUrl, providerUrl } from "@/lib/site/urls";
+import { bestUrl, guideUrl, providerUrl } from "@/lib/site/urls";
 
 export const dynamic = "force-static";
 
@@ -25,6 +26,9 @@ export function GET() {
     `- [Changelog](${base}/changes): new models, price cuts and increases, deprecations`,
     `- [News](${base}/news): articles and the weekly pricing digest`,
     `- [Methodology](${base}/about): sources and how prices are normalized`,
+    "",
+    "## Guides",
+    ...listArticles(GUIDES_DIR).map((g) => `- [${g.title}](${base}${guideUrl(g.slug)}): ${g.description}`),
     "",
     "## Rankings",
     ...BEST_LISTS.map((l) => `- [${l.title}](${base}${bestUrl(l.slug)}): ${l.description}`),

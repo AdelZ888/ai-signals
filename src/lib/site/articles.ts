@@ -16,6 +16,7 @@ export type ArticleFile = {
 };
 
 export const NEWS_DIR = path.join(process.cwd(), "content", "news");
+export const GUIDES_DIR = path.join(process.cwd(), "content", "guides");
 
 function toDay(value: unknown): string {
   if (value instanceof Date) return value.toISOString().slice(0, 10);

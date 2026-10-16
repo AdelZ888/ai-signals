@@ -19,7 +19,9 @@ export function SiteFooter() {
             <Link href="/hosts">inference hosts</Link><br />
             <Link href="/compare">comparisons</Link><br />
             <Link href="/best">rankings</Link><br />
-            <Link href="/calculator">cost calculator</Link>
+            <Link href="/calculator">cost calculator</Link><br />
+            <Link href="/changes">changelog</Link><br />
+            <Link href="/guides">pricing guides</Link>
           </p>
         </div>
         <div>

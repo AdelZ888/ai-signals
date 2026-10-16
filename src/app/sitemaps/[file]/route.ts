@@ -1,9 +1,9 @@
 import { getSiteUrl } from "@/lib/site-url";
-import { listArticles } from "@/lib/site/articles";
+import { GUIDES_DIR, listArticles } from "@/lib/site/articles";
 import { getCatalog, getPairs, labSummaries } from "@/lib/site/catalog";
 import { SITEMAP_FILES, buildUrlset, lastModFor, type SitemapEntry } from "@/lib/site/seo";
 import { BEST_LISTS, MIN_LIST_SIZE, alternatives, alternativesPageModels, hostSummaries, isIndexable } from "@/lib/site/selection";
-import { alternativesUrl, bestUrl, compareUrl, hostUrl, modelUrl, newsUrl, providerUrl } from "@/lib/site/urls";
+import { alternativesUrl, bestUrl, compareUrl, guideUrl, hostUrl, modelUrl, newsUrl, providerUrl } from "@/lib/site/urls";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -12,7 +12,7 @@ export function generateStaticParams() {
   return SITEMAP_FILES.map((file) => ({ file }));
 }
 
-const STATIC_PAGES = ["/", "/models", "/providers", "/hosts", "/compare", "/best", "/calculator", "/changes", "/news", "/newsletter", "/about"];
+const STATIC_PAGES = ["/", "/models", "/providers", "/hosts", "/compare", "/best", "/calculator", "/changes", "/news", "/guides", "/newsletter", "/about"];
 
 function entriesFor(file: string, base: string): SitemapEntry[] | null {
   const { models, events, meta, today } = getCatalog();
@@ -41,6 +41,8 @@ function entriesFor(file: string, base: string): SitemapEntry[] | null {
         .map(({ l, entries }) => ({ loc: `${base}${bestUrl(l.slug)}`, lastmod: lastModFor(entries.map((m) => m.id), events) ?? siteLastmod }));
     case "news.xml":
       return listArticles().map((a) => ({ loc: `${base}${newsUrl(a.slug)}`, lastmod: a.date }));
+    case "guides.xml":
+      return listArticles(GUIDES_DIR).map((g) => ({ loc: `${base}${guideUrl(g.slug)}`, lastmod: g.date }));
     default:
       return null;
   }

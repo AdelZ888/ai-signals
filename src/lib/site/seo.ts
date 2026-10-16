@@ -50,7 +50,7 @@ export function buildRss(channel: { title: string; link: string; description: st
   return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>${xmlEscape(channel.title)}</title><link>${xmlEscape(channel.link)}</link><description>${xmlEscape(channel.description)}</description>${body}</channel></rss>\n`;
 }
 
-export const SITEMAP_FILES = ["pages.xml", "models.xml", "alternatives.xml", "compare.xml", "best.xml", "news.xml"] as const;
+export const SITEMAP_FILES = ["pages.xml", "models.xml", "alternatives.xml", "compare.xml", "best.xml", "news.xml", "guides.xml"] as const;
 
 export type SitemapEntry = { loc: string; lastmod?: string | null };
 
