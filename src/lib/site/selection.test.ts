@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { makeModel } from "../data/testing.ts";
 import {
   BEST_LISTS, alternatives, comparisonPairs, findBestList, isIndexable, makePair, nearestCompetitors,
-  notablePool, parsePairKey, predecessor, stablePairs, versionOf,
+  alternativesPageModels, notablePool, parsePairKey, predecessor, stablePairs, versionOf,
 } from "./selection.ts";
 
 const TODAY = "2026-10-11";
@@ -108,4 +108,15 @@ test("parsePairKey resolves slugs that contain dashes", () => {
   const bySlug = new Map([["gpt-6.1-sol", makeModel({ id: "openai/gpt-6.1-sol" })], ["claude-haiku-5-5", makeModel({ id: "anthropic/claude-haiku-5-5" })]]);
   assert.equal(parsePairKey("claude-haiku-5-5-vs-gpt-6.1-sol", bySlug)?.key, "claude-haiku-5-5-vs-gpt-6.1-sol");
   assert.equal(parsePairKey("nope-vs-gpt-6.1-sol", bySlug), null);
+});
+
+test("alternatives pages exist only for notable models with at least 5 compatible alternatives", () => {
+  const many = Array.from({ length: 6 }, (_, i) => makeModel({ id: `google/alt-${i}`, family: `f${i}`, releaseDate: "2026-08-01", price: { input: 0.1 * (i + 1), output: 0.2 * (i + 1) } }));
+  const star = makeModel({ id: "openai/star", family: "star", releaseDate: "2026-09-01", price: { input: 2, output: 8 } });
+  const lonely = makeModel({ id: "openai/vision-only", family: "v", releaseDate: "2026-09-01", modalitiesIn: ["text", "image", "video"] });
+  const ancient = makeModel({ id: "meta/ancient", family: "a", releaseDate: "2023-01-01" });
+  const ids = alternativesPageModels([...many, star, lonely, ancient], TODAY).map((m) => m.id);
+  assert.ok(ids.includes("openai/star"));
+  assert.ok(!ids.includes("openai/vision-only"), "no page without 5 compatible alternatives");
+  assert.ok(!ids.includes("meta/ancient"), "only notable (recent) models");
 });

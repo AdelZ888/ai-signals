@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { makeModel } from "../data/testing.ts";
-import { bestTitle, clampDescription, fitTitle, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
+import { bestTitle, clampDescription, fitTitle, itemListLd, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
 
 const haiku = makeModel({ id: "anthropic/claude-haiku-5-5", name: "Claude Haiku 5.5", price: { input: 0.1, output: 0.5 }, context: 1_000_000 });
 const sol = makeModel({ id: "openai/gpt-6.1-sol", name: "GPT-6.1 Sol" });
@@ -54,4 +54,14 @@ test("clampDescription cuts long descriptions at a word boundary", () => {
   const out = clampDescription(long);
   assert.ok(out.length <= 155 && out.endsWith("…"), out);
   assert.equal(clampDescription("short enough"), "short enough");
+});
+
+test("itemListLd builds a schema.org ItemList with absolute URLs", () => {
+  assert.deepEqual(itemListLd("Top", [{ name: "A", url: "/models/x/a" }], "https://aisignals.dev"), {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Top",
+    numberOfItems: 1,
+    itemListElement: [{ "@type": "ListItem", position: 1, name: "A", url: "https://aisignals.dev/models/x/a" }],
+  });
 });

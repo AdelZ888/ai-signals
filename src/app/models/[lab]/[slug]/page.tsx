@@ -18,8 +18,8 @@ import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format"
 import { priceHistory } from "@/lib/site/history";
 import { modelRankings, modelSummary } from "@/lib/site/insights";
 import { fitTitle, modelDescription, modelTitle } from "@/lib/site/seo";
-import { alternatives, isIndexable, makePair } from "@/lib/site/selection";
-import { bestUrl, compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
+import { alternatives, alternativesPageModels, isIndexable, makePair } from "@/lib/site/selection";
+import { alternativesUrl, bestUrl, compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
 
 type Params = { lab: string; slug: string };
 
@@ -101,6 +101,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
   const verified = (meta?.lastSuccessAt ?? today).slice(0, 10);
   const p = model.price;
   const rankings = modelRankings(model, models, today);
+  const hasAlternativesPage = alternativesPageModels(models, today).some((m) => m.id === model.id);
 
   return (
     <>
@@ -164,6 +165,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
                   </table>
                 </div>
               )}
+              {hasAlternativesPage ? <Link className="btn" href={alternativesUrl(model)}>all {model.name} alternatives →</Link> : null}
               {compareLinks.map((c) => (
                 <Link key={c.key} className="btn" href={compareUrl(c.key)}>{c.a.name} vs {c.b.name} →</Link>
               ))}

@@ -126,6 +126,13 @@ export function stablePairs(models: Model[], today: string, published: string[])
   return [...out.values()];
 }
 
+export const MIN_ALTERNATIVES = 5;
+
+/** Models that get a dedicated "alternatives" page: notable ones with enough compatible alternatives. */
+export function alternativesPageModels(models: Model[], today: string): Model[] {
+  return notablePool(models, today).filter((m) => alternatives(m, models, MIN_ALTERNATIVES).length >= MIN_ALTERNATIVES);
+}
+
 export type BestList = { slug: string; title: string; description: string; select: (models: Model[], today: string) => Model[] };
 
 const cheapest = (models: Model[]) => [...models].sort(byBlended).slice(0, LIST_SIZE);

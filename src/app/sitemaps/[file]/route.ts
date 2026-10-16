@@ -2,8 +2,8 @@ import { getSiteUrl } from "@/lib/site-url";
 import { listArticles } from "@/lib/site/articles";
 import { getCatalog, getPairs, labSummaries } from "@/lib/site/catalog";
 import { SITEMAP_FILES, buildUrlset, lastModFor, type SitemapEntry } from "@/lib/site/seo";
-import { BEST_LISTS, MIN_LIST_SIZE, isIndexable } from "@/lib/site/selection";
-import { bestUrl, compareUrl, modelUrl, newsUrl, providerUrl } from "@/lib/site/urls";
+import { BEST_LISTS, MIN_LIST_SIZE, alternatives, alternativesPageModels, isIndexable } from "@/lib/site/selection";
+import { alternativesUrl, bestUrl, compareUrl, modelUrl, newsUrl, providerUrl } from "@/lib/site/urls";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -25,6 +25,11 @@ function entriesFor(file: string, base: string): SitemapEntry[] | null {
       ];
     case "models.xml":
       return models.filter(isIndexable).map((m) => ({ loc: `${base}${modelUrl(m)}`, lastmod: lastModFor([m.id], events) ?? m.releaseDate }));
+    case "alternatives.xml":
+      return alternativesPageModels(models, today).map((m) => ({
+        loc: `${base}${alternativesUrl(m)}`,
+        lastmod: lastModFor([m.id, ...alternatives(m, models, 10).map((a) => a.id)], events),
+      }));
     case "compare.xml":
       return getPairs().map((p) => ({ loc: `${base}${compareUrl(p.key)}`, lastmod: lastModFor([p.a.id, p.b.id], events) }));
     case "best.xml":
