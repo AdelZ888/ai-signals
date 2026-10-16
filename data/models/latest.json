@@ -5282,6 +5282,48 @@
     "aliases": []
   },
   {
+    "id": "meta/muse-spark-open",
+    "slug": "muse-spark-open",
+    "lab": "meta",
+    "name": "Muse Spark Open",
+    "family": "muse",
+    "releaseDate": "2026-10-15",
+    "knowledgeCutoff": "2026-01-04",
+    "status": "active",
+    "openWeights": true,
+    "price": {
+      "input": 1.25,
+      "output": 4.25,
+      "cacheRead": 0.15
+    },
+    "blended": 2,
+    "priceSource": "fireworks-ai",
+    "context": 1048576,
+    "maxOutput": 131072,
+    "modalitiesIn": [
+      "text",
+      "image"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "fireworks-ai",
+        "input": 1.25,
+        "output": 4.25
+      },
+      {
+        "provider": "nebius",
+        "input": 1.25,
+        "output": 4.25
+      }
+    ],
+    "aliases": []
+  },
+  {
     "id": "meta/muse-wonder-1.0",
     "slug": "muse-wonder-1.0",
     "lab": "meta",
