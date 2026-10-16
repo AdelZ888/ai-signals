@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { makeModel } from "../data/testing.ts";
-import { compareVerdict } from "./verdict.ts";
+import { chooseLines, compareVerdict, scenarioLines } from "./verdict.ts";
 
 test("verdict states price, context and capability differences", () => {
   const a = makeModel({
@@ -22,4 +22,14 @@ test("identical models get a single neutral line", () => {
   const a = makeModel({ id: "openai/a", name: "A" });
   const b = makeModel({ id: "google/b", name: "B" });
   assert.deepEqual(compareVerdict(a, b), ["A and B have the same blended price."]);
+});
+
+test("scenario lines quantify monthly savings and choice lines say when to pick each", () => {
+  const a = makeModel({ id: "openai/a", name: "A", price: { input: 1, output: 2 }, context: 128_000 });
+  const b = makeModel({ id: "google/b", name: "B", price: { input: 3, output: 6 }, context: 1_000_000, modalitiesIn: ["text", "image"] });
+  assert.deepEqual(scenarioLines(a, b)[0], "Chatbot (10M input / 2M output tokens per month): A costs $14.00 vs $42.00 for B, saving $28.00 per month.");
+  const choose = chooseLines(a, b);
+  assert.ok(choose.includes("Choose A for cost-sensitive, high-volume workloads."));
+  assert.ok(choose.includes("Choose B for long documents and large codebases (1M-token context)."));
+  assert.ok(choose.includes("Choose B if you need image input."));
 });

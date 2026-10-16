@@ -68,6 +68,15 @@ export default async function BestPage({ params }: { params: Promise<Params> }) 
           </table>
         </div>
       </Box>
+      <Box title="how this ranking works">
+        <div className="prose">
+          <p>
+            {list.description} Only active models with a published price and context window are included. Prices are base-tier list
+            prices in USD per million tokens; the blended price weights input and output 3:1, a typical mix for chat and RAG workloads.
+            The data comes from models.dev and is refreshed every day, so this ranking changes as soon as a provider changes its prices.
+          </p>
+        </div>
+      </Box>
       <AdSlot />
       <Box title="other rankings">
         {BEST_LISTS.filter((l) => l.slug !== list.slug).map((l) => <Link key={l.slug} className="btn" href={bestUrl(l.slug)}>{l.title}</Link>)}

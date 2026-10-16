@@ -5,10 +5,10 @@ import { EventFeed } from "@/components/event-feed";
 import { ModelTable } from "@/components/model-table";
 import { TIER1_LABS } from "@/lib/data/config";
 import { daysBetween } from "@/lib/data/dates";
-import { getCatalog, labSummaries, recentEvents } from "@/lib/site/catalog";
+import { getCatalog, getPairs, labSummaries, recentEvents } from "@/lib/site/catalog";
 import { modelRows } from "@/lib/site/rows";
 import { BEST_LISTS, notablePool } from "@/lib/site/selection";
-import { bestUrl } from "@/lib/site/urls";
+import { bestUrl, compareUrl } from "@/lib/site/urls";
 
 export default function Home() {
   const { models, events, meta, today } = getCatalog();
@@ -45,6 +45,13 @@ export default function Home() {
           </Box>
         </div>
       </div>
+      <Box title="popular comparisons">
+        {getPairs().slice(0, 12).map((p) => (
+          <Link key={p.key} className="btn" href={compareUrl(p.key)}>{p.a.name} vs {p.b.name}</Link>
+        ))}
+        <br />
+        <Link className="btn" href="/compare">all comparisons →</Link>
+      </Box>
       <Box title="rankings">
         <ul className="feed">
           {BEST_LISTS.map((l) => (

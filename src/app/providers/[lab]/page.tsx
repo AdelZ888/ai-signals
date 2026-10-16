@@ -10,6 +10,7 @@ import { StatGrid } from "@/components/stat-grid";
 import { getCatalog, labName, labSummaries, recentEvents } from "@/lib/site/catalog";
 import { fmtUsd, monthYear } from "@/lib/site/format";
 import { clampDescription, fitTitle } from "@/lib/site/seo";
+import { providerSummary } from "@/lib/site/insights";
 import { modelRows } from "@/lib/site/rows";
 import { modelUrl, providerUrl } from "@/lib/site/urls";
 
@@ -48,6 +49,7 @@ export default async function ProviderPage({ params }: { params: Promise<Params>
       <Breadcrumbs items={[{ href: "/providers", label: "providers" }, { href: providerUrl(lab), label: labName(lab) }]} />
       <h1>{summary.name} API pricing</h1>
       <p className="sub">{all.length} models tracked · USD per 1M tokens</p>
+      <p className="prose">{providerSummary(summary.name, all)}</p>
       <StatGrid
         stats={[
           { label: "active models", value: String(summary.models.length) },

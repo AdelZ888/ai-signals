@@ -16,9 +16,10 @@ import { findModel, getCatalog, getPairs, hostName, isFirstPartyPrice, labName }
 import { monthlyCost } from "@/lib/site/cost";
 import { fmtPct, fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format";
 import { priceHistory } from "@/lib/site/history";
+import { modelRankings, modelSummary } from "@/lib/site/insights";
 import { fitTitle, modelDescription, modelTitle } from "@/lib/site/seo";
 import { alternatives, isIndexable, makePair } from "@/lib/site/selection";
-import { compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
+import { bestUrl, compareUrl, modelUrl, ogImageUrl, providerUrl } from "@/lib/site/urls";
 
 type Params = { lab: string; slug: string };
 
@@ -99,6 +100,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
   const source = isFirstPartyPrice(model) ? null : hostName(model.priceSource);
   const verified = (meta?.lastSuccessAt ?? today).slice(0, 10);
   const p = model.price;
+  const rankings = modelRankings(model, models, today);
 
   return (
     <>
@@ -119,6 +121,21 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
           { label: "max output", value: fmtTokens(model.maxOutput) },
         ]}
       />
+      <div className="prose summary">
+        <p>{modelSummary(model, models, labName(model.lab)).join(" ")}</p>
+        {rankings.length > 0 ? (
+          <p>
+            Ranked{" "}
+            {rankings.slice(0, 4).map((r, i) => (
+              <span key={r.slug}>
+                {i > 0 ? (i === Math.min(rankings.length, 4) - 1 ? " and " : ", ") : null}
+                #{r.rank} of {r.size} in <Link href={bestUrl(r.slug)}>{r.title}</Link>
+              </span>
+            ))}
+            .
+          </p>
+        ) : null}
+      </div>
       <ModelLayout
         main={
           <>

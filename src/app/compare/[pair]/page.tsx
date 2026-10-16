@@ -12,7 +12,7 @@ import { fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format";
 import { clampDescription, compareTitle, fitTitle } from "@/lib/site/seo";
 import type { Pair } from "@/lib/site/selection";
 import { compareUrl, modelUrl, ogImageUrl } from "@/lib/site/urls";
-import { compareVerdict } from "@/lib/site/verdict";
+import { chooseLines, compareVerdict, scenarioLines } from "@/lib/site/verdict";
 
 type Params = { pair: string };
 
@@ -121,8 +121,13 @@ export default async function ComparePage({ params }: { params: Promise<Params> 
         </div>
       </Box>
       <Box title="verdict">
-        <ul className="feed">{compareVerdict(a, b).map((line) => <li key={line}>{line}</li>)}</ul>
+        <ul className="feed">{[...compareVerdict(a, b), ...scenarioLines(a, b)].map((line) => <li key={line}>{line}</li>)}</ul>
       </Box>
+      {chooseLines(a, b).length > 0 ? (
+        <Box title={`${a.name} or ${b.name}: which one to choose`}>
+          <ul className="feed">{chooseLines(a, b).map((line) => <li key={line}>{line}</li>)}</ul>
+        </Box>
+      ) : null}
       <AdSlot />
       {others.length > 0 ? (
         <Box title="related comparisons">
