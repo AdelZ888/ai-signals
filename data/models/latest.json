@@ -3807,21 +3807,21 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "slug": "deepseek-v4.1-flash",
     "lab": "deepseek",
-    "name": "DeepSeek V4 Flash Vision Exp (1-flash)",
+    "name": "DeepSeek V4.1 Flash",
     "family": "deepseek-flash",
     "releaseDate": "2026-09-10",
     "knowledgeCutoff": "2025-05",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.15,
+      "input": 0.2,
       "output": 0.6,
-      "cacheRead": 0.003
+      "cacheRead": 0.006
     },
-    "blended": 0.2625,
-    "priceSource": "deepseek",
-    "context": 1000000,
-    "maxOutput": 393216,
+    "blended": 0.3,
+    "priceSource": "deepinfra",
+    "context": 1048576,
+    "maxOutput": 384000,
     "modalitiesIn": [
       "text",
       "image"
@@ -3866,6 +3866,48 @@
         "provider": "scaleway",
         "input": 0.672,
         "output": 2.016
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "slug": "deepseek-v4.1-flash-1017",
+    "lab": "deepseek",
+    "name": "DeepSeek V4 Flash Vision Exp (1-flash-1017)",
+    "family": "deepseek-flash",
+    "releaseDate": "2026-10-17",
+    "knowledgeCutoff": "2025-05",
+    "status": "deprecated",
+    "openWeights": true,
+    "price": {
+      "input": 0.15,
+      "output": 0.6,
+      "cacheRead": 0.003
+    },
+    "blended": 0.2625,
+    "priceSource": "deepseek",
+    "context": 1000000,
+    "maxOutput": 393216,
+    "modalitiesIn": [
+      "text",
+      "image"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.2,
+        "output": 0.6
+      },
+      {
+        "provider": "baseten",
+        "input": 0.3,
+        "output": 1.2
       }
     ],
     "aliases": []
@@ -5322,6 +5364,11 @@
       },
       {
         "provider": "nebius",
+        "input": 1.25,
+        "output": 4.25
+      },
+      {
+        "provider": "togetherai",
         "input": 1.25,
         "output": 4.25
       }
@@ -9150,7 +9197,8 @@
     "openWeights": true,
     "price": {
       "input": 0.6,
-      "output": 1.8
+      "output": 1.8,
+      "cacheRead": 0.11
     },
     "blended": 0.9,
     "priceSource": "zai",
@@ -9224,7 +9272,8 @@
     "openWeights": true,
     "price": {
       "input": 0.3,
-      "output": 0.9
+      "output": 0.9,
+      "cacheRead": 0.05
     },
     "blended": 0.45,
     "priceSource": "zai",
