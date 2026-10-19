@@ -2777,7 +2777,7 @@
     "id": "anthropic/claude-sonnet-4-20250514",
     "slug": "claude-sonnet-4-20250514",
     "lab": "anthropic",
-    "name": "Claude Sonnet 4 (EU)",
+    "name": "Claude Sonnet 4 (APAC)",
     "family": "claude-sonnet",
     "releaseDate": "2025-05-22",
     "knowledgeCutoff": "2025-03-31",
@@ -3874,11 +3874,11 @@
     "id": "deepseek/deepseek-v4.1-flash-1017",
     "slug": "deepseek-v4.1-flash-1017",
     "lab": "deepseek",
-    "name": "DeepSeek V4 Flash Vision Exp (1-flash-1017)",
+    "name": "DeepSeek V4.1 Flash 1017",
     "family": "deepseek-flash",
     "releaseDate": "2026-10-17",
     "knowledgeCutoff": "2025-05",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
       "input": 0.15,
@@ -3906,6 +3906,16 @@
       },
       {
         "provider": "baseten",
+        "input": 0.3,
+        "output": 1.2
+      },
+      {
+        "provider": "fireworks-ai",
+        "input": 0.3,
+        "output": 1.2
+      },
+      {
+        "provider": "novita-ai",
         "input": 0.3,
         "output": 1.2
       }
@@ -5264,18 +5274,18 @@
     "id": "meta/muse-spark-1.2",
     "slug": "muse-spark-1.2",
     "lab": "meta",
-    "name": "Muse Spark 1.2",
+    "name": "Muse Spark 1.2 Contributor",
     "family": "muse",
     "releaseDate": "2026-08-05",
     "knowledgeCutoff": null,
     "status": "active",
     "openWeights": false,
     "price": {
-      "input": 1.25,
-      "output": 4.25,
-      "cacheRead": 0.15
+      "input": 0.1,
+      "output": 0.2,
+      "cacheRead": 0.002
     },
-    "blended": 2,
+    "blended": 0.125,
     "priceSource": "meta",
     "context": 1048576,
     "maxOutput": 131072,
@@ -5298,18 +5308,18 @@
     "id": "meta/muse-spark-1.3",
     "slug": "muse-spark-1.3",
     "lab": "meta",
-    "name": "Muse Spark 1.3",
+    "name": "Muse Spark 1.3 Contributor",
     "family": "muse",
     "releaseDate": "2026-09-02",
     "knowledgeCutoff": null,
     "status": "active",
     "openWeights": false,
     "price": {
-      "input": 1.25,
-      "output": 4.25,
-      "cacheRead": 0.15
+      "input": 0.1,
+      "output": 0.2,
+      "cacheRead": 0.002
     },
-    "blended": 2,
+    "blended": 0.125,
     "priceSource": "meta",
     "context": 1048576,
     "maxOutput": 131072,
@@ -5726,6 +5736,38 @@
         "output": 1.2
       }
     ],
+    "aliases": []
+  },
+  {
+    "id": "minimax/MiniMax-M3.1-Flash",
+    "slug": "minimax-m3.1-flash",
+    "lab": "minimax",
+    "name": "MiniMax-M3.1-Flash",
+    "family": "minimax",
+    "releaseDate": "2026-10-19",
+    "knowledgeCutoff": null,
+    "status": "active",
+    "openWeights": true,
+    "price": {
+      "input": 0.15,
+      "output": 0.6,
+      "cacheRead": 0.015
+    },
+    "blended": 0.2625,
+    "priceSource": "minimax",
+    "context": 1000000,
+    "maxOutput": 512000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": false
+    },
+    "hosts": [],
     "aliases": []
   },
   {
@@ -6561,7 +6603,7 @@
     "id": "mistral/pixtral-large-2502",
     "slug": "pixtral-large-2502",
     "lab": "mistral",
-    "name": "Pixtral Large (25.02)",
+    "name": "Pixtral Large (25.02) (US)",
     "family": "pixtral",
     "releaseDate": "2025-04-08",
     "knowledgeCutoff": null,
@@ -6893,18 +6935,18 @@
     "id": "moonshotai/kimi-k2.7-code",
     "slug": "kimi-k2.7-code",
     "lab": "moonshotai",
-    "name": "Kimi K2.7 Code HighSpeed",
+    "name": "Kimi K2.7 Code",
     "family": "kimi-k2",
     "releaseDate": "2026-06-12",
     "knowledgeCutoff": "2025-01",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 1.9,
-      "output": 8,
-      "cacheRead": 0.38
+      "input": 0.95,
+      "output": 4,
+      "cacheRead": 0.19
     },
-    "blended": 3.425,
+    "blended": 1.7125,
     "priceSource": "moonshotai",
     "context": 262144,
     "maxOutput": 262144,
@@ -7970,7 +8012,7 @@
     "id": "openai/gpt-5.6-sol",
     "slug": "gpt-5.6-sol",
     "lab": "openai",
-    "name": "GPT-5.6",
+    "name": "GPT-5.6 Sol",
     "family": "gpt-sol",
     "releaseDate": "2026-07-09",
     "knowledgeCutoff": "2026-02-16",
@@ -8349,7 +8391,7 @@
     "blended": 0.1275,
     "priceSource": "amazon-bedrock",
     "context": 131072,
-    "maxOutput": 128000,
+    "maxOutput": 131072,
     "modalitiesIn": [
       "text"
     ],
@@ -9694,19 +9736,19 @@
     "id": "zhipuai/glm-5.3-flash",
     "slug": "glm-5.3-flash",
     "lab": "zhipuai",
-    "name": "GLM-5.3-Flash",
+    "name": "GLM-5.3-FlashX",
     "family": "glm-flash",
-    "releaseDate": "2026-08-26",
+    "releaseDate": "2026-09-18",
     "knowledgeCutoff": null,
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.15,
-      "output": 0.5,
-      "cacheRead": 0.03,
+      "input": 0.37,
+      "output": 1.25,
+      "cacheRead": 0.075,
       "cacheWrite": 0
     },
-    "blended": 0.2375,
+    "blended": 0.59,
     "priceSource": "zai",
     "context": 1000000,
     "maxOutput": 131072,
