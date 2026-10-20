@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useId, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useState } from "react";
+
+import { track, useSearchTracking } from "@/components/analytics";
 
 import { monthlyCost, parseTokenInput } from "@/lib/site/cost";
 import { fmtUsd, fmtUsdCost } from "@/lib/site/format";
@@ -15,8 +17,16 @@ export function CostCalculator({
   const [inputM, setInputM] = useState(String(defaultInputM));
   const [outputM, setOutputM] = useState(String(defaultOutputM));
   const [query, setQuery] = useState("");
+  const [edited, setEdited] = useState(false);
+  useSearchTracking(query, "calculator");
   const inTokens = parseTokenInput(inputM) * 1_000_000;
   const outTokens = parseTokenInput(outputM) * 1_000_000;
+
+  useEffect(() => {
+    if (!edited) return;
+    const timer = window.setTimeout(() => track("calculator_use", { input_m: inTokens / 1_000_000, output_m: outTokens / 1_000_000 }), 2000);
+    return () => window.clearTimeout(timer);
+  }, [edited, inTokens, outTokens]);
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -31,11 +41,11 @@ export function CostCalculator({
       <div className="calc-inputs">
         <div>
           <label htmlFor={`${id}-in`}>input tokens / month (millions)</label>
-          <input id={`${id}-in`} className="input" inputMode="decimal" value={inputM} onChange={(e) => setInputM(e.target.value)} />
+          <input id={`${id}-in`} className="input" inputMode="decimal" value={inputM} onChange={(e) => { setInputM(e.target.value); setEdited(true); }} />
         </div>
         <div>
           <label htmlFor={`${id}-out`}>output tokens / month (millions)</label>
-          <input id={`${id}-out`} className="input" inputMode="decimal" value={outputM} onChange={(e) => setOutputM(e.target.value)} />
+          <input id={`${id}-out`} className="input" inputMode="decimal" value={outputM} onChange={(e) => { setOutputM(e.target.value); setEdited(true); }} />
         </div>
       </div>
       {searchable ? (

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { ConsentSettingsLink } from "@/components/consent-banner";
 import { NewsletterForm } from "@/components/newsletter-form";
 
 export function SiteFooter() {
@@ -29,7 +30,8 @@ export function SiteFooter() {
           <p>
             <Link href="/about">methodology &amp; sources</Link><br />
             <a href="/rss.xml">rss</a> · <a href="/data/models.json">json</a> · <a href="/data/models.csv">csv</a><br />
-            Data: <a href="https://models.dev" rel="noopener">models.dev</a> (MIT)
+            Data: <a href="https://models.dev" rel="noopener">models.dev</a> (MIT)<br />
+            <ConsentSettingsLink />
           </p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "ai-signals-dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev", "--", "-p", "3005"], "port": 3005 }
+    { "name": "ai-signals-dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev", "--", "-p", "3005"], "port": 3005 },
+    { "name": "ai-signals-dev-ga", "runtimeExecutable": "env", "runtimeArgs": ["NEXT_PUBLIC_GA_MEASUREMENT_ID=G-SEGRLC8HGJ", "npm", "run", "dev", "--", "-p", "3006"], "port": 3006 }
   ]
 }

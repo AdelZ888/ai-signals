@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 
-import { GoogleAnalytics } from "@/components/google-analytics";
+import { ConsentBanner } from "@/components/consent-banner";
 import { SiteFooter } from "@/components/site-footer";
 import { TerminalNav } from "@/components/terminal-nav";
+import { gaBootstrap } from "@/lib/site/analytics";
 import { getSiteUrl } from "@/lib/site-url";
 
 import "./globals.css";
@@ -16,10 +17,6 @@ const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "";
 const TITLE = "AI Signals: AI Model API Pricing & Specs, Updated Daily";
 const DESCRIPTION =
   "Track the price, context window and capabilities of every major AI model API. Compare models and estimate your monthly cost. Updated daily.";
-const CONSENT_REGIONS = [
-  "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI",
-  "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH",
-];
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
@@ -41,23 +38,14 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image" },
 };
 
-const gaBootstrap = `
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', region: ${JSON.stringify(CONSENT_REGIONS)}, wait_for_update: 500 });
-gtag('consent', 'default', { ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted' });
-gtag('js', new Date());
-gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });
-`.trim();
-
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <head>
         {GA_MEASUREMENT_ID ? (
           <>
+            <Script id="ga-bootstrap" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: gaBootstrap(GA_MEASUREMENT_ID) }} />
             <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="afterInteractive" />
-            <Script id="ga-bootstrap" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: gaBootstrap }} />
           </>
         ) : null}
         {ADSENSE_CLIENT ? (
@@ -69,10 +57,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         ) : null}
       </head>
       <body className={mono.variable}>
-        <GoogleAnalytics measurementId={GA_MEASUREMENT_ID || undefined} />
         <TerminalNav />
         <main className="shell">{children}</main>
         <SiteFooter />
+        <ConsentBanner enabled={Boolean(GA_MEASUREMENT_ID)} />
       </body>
     </html>
   );

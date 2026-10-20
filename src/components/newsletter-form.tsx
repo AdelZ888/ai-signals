@@ -2,6 +2,8 @@
 
 import { useId, useState } from "react";
 
+import { track } from "@/components/analytics";
+
 type State = "idle" | "sending" | "done" | "error";
 
 export function NewsletterForm({ source = "footer" }: { source?: string }) {
@@ -20,6 +22,7 @@ export function NewsletterForm({ source = "footer" }: { source?: string }) {
         body: JSON.stringify({ email, locale: "en", hp, utm_source: "site", utm_medium: source }),
       });
       setState(res.ok ? "done" : "error");
+      if (res.ok) track("sign_up", { method: "newsletter", signup_source: source });
     } catch {
       setState("error");
     }

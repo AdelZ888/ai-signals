@@ -2,6 +2,8 @@
 
 import { useSyncExternalStore } from "react";
 
+import { track } from "@/components/analytics";
+
 type Layout = "dashboard" | "report";
 const KEY = "ais-layout";
 const listeners = new Set<() => void>();
@@ -28,6 +30,7 @@ function write(layout: Layout) {
     /* storage unavailable: the choice lasts for this page view */
   }
   listeners.forEach((l) => l());
+  track("layout_toggle", { layout });
 }
 
 /** Same HTML for both layouts; CSS switches the grid. Mobile is always the report layout. */

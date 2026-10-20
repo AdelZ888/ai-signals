@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 
+import { useSearchTracking } from "@/components/analytics";
+
 import { fmtPct, fmtTokens, fmtUsd } from "@/lib/site/format";
 import type { ModelRow } from "@/lib/site/rows";
 
@@ -13,6 +15,7 @@ export function ModelTable({
 }: { rows: ModelRow[]; searchable?: boolean; showLab?: boolean; initialSort?: SortKey | null }) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<{ key: SortKey | null; dir: 1 | -1 }>({ key: initialSort, dir: 1 });
+  useSearchTracking(query, "models");
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
