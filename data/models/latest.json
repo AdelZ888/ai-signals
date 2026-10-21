@@ -519,6 +519,41 @@
     "aliases": []
   },
   {
+    "id": "alibaba/qwen2.5-7b-instruct",
+    "slug": "qwen2.5-7b-instruct",
+    "lab": "alibaba",
+    "name": "Qwen 2.5 7B Instruct Turbo",
+    "family": "qwen",
+    "releaseDate": "2024-09-19",
+    "knowledgeCutoff": null,
+    "status": "deprecated",
+    "openWeights": true,
+    "price": {
+      "input": 0.3,
+      "output": 0.3
+    },
+    "blended": 0.3,
+    "priceSource": "togetherai",
+    "context": 32768,
+    "maxOutput": 32768,
+    "modalitiesIn": [
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": false,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "togetherai",
+        "input": 0.3,
+        "output": 0.3
+      }
+    ],
+    "aliases": []
+  },
+  {
     "id": "alibaba/qwen2.5-coder-32b-instruct",
     "slug": "qwen2.5-coder-32b-instruct",
     "lab": "alibaba",
@@ -650,6 +685,16 @@
         "output": 0.55
       },
       {
+        "provider": "nebius",
+        "input": 0.2,
+        "output": 0.6
+      },
+      {
+        "provider": "togetherai",
+        "input": 0.2,
+        "output": 0.6
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.22,
         "output": 0.88
@@ -693,6 +738,42 @@
         "provider": "deepinfra",
         "input": 0.12,
         "output": 0.5
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "alibaba/qwen3-30b-a3b-instruct-2507",
+    "slug": "qwen3-30b-a3b-instruct-2507",
+    "lab": "alibaba",
+    "name": "Qwen3-30B-A3B-Instruct-2507",
+    "family": "qwen",
+    "releaseDate": "2025-07-28",
+    "knowledgeCutoff": "2025-12",
+    "status": "active",
+    "openWeights": true,
+    "price": {
+      "input": 0.1,
+      "output": 0.3,
+      "cacheRead": 0.1
+    },
+    "blended": 0.15,
+    "priceSource": "nebius",
+    "context": 262144,
+    "maxOutput": 8192,
+    "modalitiesIn": [
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": false,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "nebius",
+        "input": 0.1,
+        "output": 0.3
       }
     ],
     "aliases": []
@@ -838,11 +919,6 @@
         "provider": "amazon-bedrock",
         "input": 0.15,
         "output": 0.6
-      },
-      {
-        "provider": "scaleway",
-        "input": 0.2,
-        "output": 0.8
       }
     ],
     "aliases": []
@@ -887,9 +963,19 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.3,
+        "output": 1
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.45,
         "output": 1.8
+      },
+      {
+        "provider": "togetherai",
+        "input": 2,
+        "output": 2
       }
     ],
     "aliases": []
@@ -969,6 +1055,11 @@
     "hosts": [
       {
         "provider": "amazon-bedrock",
+        "input": 0.5,
+        "output": 1.2
+      },
+      {
+        "provider": "togetherai",
         "input": 0.5,
         "output": 1.2
       }
@@ -1445,6 +1536,11 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.14,
+        "output": 1
+      },
+      {
         "provider": "novita-ai",
         "input": 0.25,
         "output": 2
@@ -1482,12 +1578,27 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.45,
+        "output": 3
+      },
+      {
+        "provider": "nebius",
+        "input": 0.6,
+        "output": 3.6
+      },
+      {
         "provider": "novita-ai",
         "input": 0.6,
         "output": 3.6
       },
       {
         "provider": "scaleway",
+        "input": 0.6,
+        "output": 3.6
+      },
+      {
+        "provider": "togetherai",
         "input": 0.6,
         "output": 3.6
       }
@@ -1527,6 +1638,11 @@
         "provider": "deepinfra",
         "input": 0.1,
         "output": 0.15
+      },
+      {
+        "provider": "togetherai",
+        "input": 0.17,
+        "output": 0.25
       }
     ],
     "aliases": []
@@ -1679,6 +1795,11 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.1,
+        "output": 0.95
+      },
+      {
         "provider": "novita-ai",
         "input": 0.248,
         "output": 1.485
@@ -1799,7 +1920,13 @@
       "toolCall": true,
       "structuredOutput": true
     },
-    "hosts": [],
+    "hosts": [
+      {
+        "provider": "togetherai",
+        "input": 0.5,
+        "output": 3
+      }
+    ],
     "aliases": []
   },
   {
@@ -1883,6 +2010,11 @@
       },
       {
         "provider": "deepinfra",
+        "input": 2.5,
+        "output": 7.5
+      },
+      {
+        "provider": "togetherai",
         "input": 2.5,
         "output": 7.5
       }
@@ -2471,7 +2603,7 @@
     "id": "anthropic/claude-opus-4-1-20250805",
     "slug": "claude-opus-4-1-20250805",
     "lab": "anthropic",
-    "name": "Claude Opus 4.1",
+    "name": "Claude Opus 4.1 (US)",
     "family": "claude-opus",
     "releaseDate": "2025-08-05",
     "knowledgeCutoff": "2025-03-31",
@@ -2829,7 +2961,7 @@
     "id": "anthropic/claude-sonnet-4-20250514",
     "slug": "claude-sonnet-4-20250514",
     "lab": "anthropic",
-    "name": "Claude Sonnet 4 (US)",
+    "name": "Claude Sonnet 4 (EU)",
     "family": "claude-sonnet",
     "releaseDate": "2025-05-22",
     "knowledgeCutoff": "2025-03-31",
@@ -3420,11 +3552,55 @@
         "provider": "amazon-bedrock",
         "input": 1.35,
         "output": 5.4
+      },
+      {
+        "provider": "togetherai",
+        "input": 3,
+        "output": 7
       }
     ],
-    "aliases": [
-      "deepseek-r1-0528"
-    ]
+    "aliases": []
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528",
+    "slug": "deepseek-r1-0528",
+    "lab": "deepseek",
+    "name": "DeepSeek-R1-0528",
+    "family": "deepseek-thinking",
+    "releaseDate": "2025-05-28",
+    "knowledgeCutoff": "2024-07",
+    "status": "active",
+    "openWeights": true,
+    "price": {
+      "input": 0.5,
+      "output": 2.15,
+      "cacheRead": 0.35
+    },
+    "blended": 0.9125,
+    "priceSource": "deepinfra",
+    "context": 163840,
+    "maxOutput": 64000,
+    "modalitiesIn": [
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.5,
+        "output": 2.15
+      },
+      {
+        "provider": "novita-ai",
+        "input": 0.7,
+        "output": 2.5
+      }
+    ],
+    "aliases": []
   },
   {
     "id": "deepseek/deepseek-r1-0528-qwen3-8b",
@@ -3497,6 +3673,11 @@
         "provider": "novita-ai",
         "input": 0.89,
         "output": 0.89
+      },
+      {
+        "provider": "togetherai",
+        "input": 1.25,
+        "output": 1.25
       }
     ],
     "aliases": []
@@ -3571,9 +3752,19 @@
         "output": 0.95
       },
       {
+        "provider": "baseten",
+        "input": 0.5,
+        "output": 1.5
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.58,
         "output": 1.68
+      },
+      {
+        "provider": "togetherai",
+        "input": 0.6,
+        "output": 1.7
       }
     ],
     "aliases": []
@@ -3582,20 +3773,21 @@
     "id": "deepseek/deepseek-v3.2",
     "slug": "deepseek-v3.2",
     "lab": "deepseek",
-    "name": "DeepSeek V3.2",
+    "name": "DeepSeek-V3.2",
     "family": "deepseek",
     "releaseDate": "2025-12-01",
     "knowledgeCutoff": "2024-07",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.62,
-      "output": 1.85
+      "input": 0.26,
+      "output": 0.38,
+      "cacheRead": 0.13
     },
-    "blended": 0.9275,
-    "priceSource": "amazon-bedrock",
+    "blended": 0.29,
+    "priceSource": "deepinfra",
     "context": 163840,
-    "maxOutput": 81920,
+    "maxOutput": 64000,
     "modalitiesIn": [
       "text"
     ],
@@ -3605,6 +3797,11 @@
       "structuredOutput": true
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.26,
+        "output": 0.38
+      },
       {
         "provider": "amazon-bedrock",
         "input": 0.62,
@@ -3960,7 +4157,7 @@
     "id": "deepseek/deepseek-v4.1-flash-1017",
     "slug": "deepseek-v4.1-flash-1017",
     "lab": "deepseek",
-    "name": "DeepSeek V4 Flash Vision Exp (1-flash-1017)",
+    "name": "DeepSeek V4 Flash (1-flash-1017)",
     "family": "deepseek-flash",
     "releaseDate": "2026-10-17",
     "knowledgeCutoff": "2025-05",
@@ -4638,7 +4835,7 @@
     ],
     "capabilities": {
       "reasoning": false,
-      "toolCall": true,
+      "toolCall": false,
       "structuredOutput": false
     },
     "hosts": [
@@ -4697,6 +4894,11 @@
         "provider": "novita-ai",
         "input": 0.119,
         "output": 0.2
+      },
+      {
+        "provider": "nebius",
+        "input": 0.1,
+        "output": 0.3
       },
       {
         "provider": "amazon-bedrock",
@@ -4815,7 +5017,7 @@
     "name": "Gemma 4 31B IT",
     "family": "gemma",
     "releaseDate": "2026-04-02",
-    "knowledgeCutoff": null,
+    "knowledgeCutoff": "2025-01",
     "status": "active",
     "openWeights": true,
     "price": {
@@ -4988,7 +5190,7 @@
     ],
     "capabilities": {
       "reasoning": false,
-      "toolCall": true,
+      "toolCall": false,
       "structuredOutput": true
     },
     "hosts": [
@@ -4996,6 +5198,11 @@
         "provider": "novita-ai",
         "input": 0.02,
         "output": 0.05
+      },
+      {
+        "provider": "groq",
+        "input": 0.05,
+        "output": 0.08
       },
       {
         "provider": "cloudflare-workers-ai",
@@ -5088,7 +5295,7 @@
     "name": "Llama 3.2 1B Instruct (instruct)",
     "family": "llama",
     "releaseDate": "2024-09-25",
-    "knowledgeCutoff": null,
+    "knowledgeCutoff": "2023-12",
     "status": "active",
     "openWeights": true,
     "price": {
@@ -5104,7 +5311,7 @@
     ],
     "capabilities": {
       "reasoning": false,
-      "toolCall": true,
+      "toolCall": false,
       "structuredOutput": true
     },
     "hosts": [
@@ -5155,20 +5362,20 @@
     "id": "meta/llama-3.3-70b-instruct",
     "slug": "llama-3.3-70b-instruct",
     "lab": "meta",
-    "name": "Llama-3.3-70B-Instruct",
+    "name": "Llama 3.3 70B Turbo",
     "family": "llama",
     "releaseDate": "2024-12-06",
     "knowledgeCutoff": "2023-12",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.135,
-      "output": 0.4
+      "input": 0.1,
+      "output": 0.32
     },
-    "blended": 0.2013,
-    "priceSource": "novita-ai",
-    "context": 12288,
-    "maxOutput": 12288,
+    "blended": 0.155,
+    "priceSource": "deepinfra",
+    "context": 131072,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text"
     ],
@@ -5179,9 +5386,19 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.1,
+        "output": 0.32
+      },
+      {
         "provider": "novita-ai",
         "input": 0.135,
         "output": 0.4
+      },
+      {
+        "provider": "groq",
+        "input": 0.59,
+        "output": 0.79
       },
       {
         "provider": "amazon-bedrock",
@@ -5192,6 +5409,11 @@
         "provider": "cloudflare-workers-ai",
         "input": 0.293,
         "output": 2.253
+      },
+      {
+        "provider": "togetherai",
+        "input": 1.04,
+        "output": 1.04
       }
     ],
     "aliases": []
@@ -5200,30 +5422,35 @@
     "id": "meta/llama-4-maverick-17b-instruct",
     "slug": "llama-4-maverick-17b-instruct",
     "lab": "meta",
-    "name": "Llama 4 Maverick 17B Instruct",
+    "name": "Llama 4 Maverick 17B FP8",
     "family": "llama",
     "releaseDate": "2025-04-05",
     "knowledgeCutoff": "2024-08",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
-      "input": 0.27,
-      "output": 0.85
+      "input": 0.2,
+      "output": 0.8
     },
-    "blended": 0.415,
-    "priceSource": "novita-ai",
+    "blended": 0.35,
+    "priceSource": "deepinfra",
     "context": 1048576,
-    "maxOutput": 8192,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text",
       "image"
     ],
     "capabilities": {
       "reasoning": false,
-      "toolCall": true,
+      "toolCall": false,
       "structuredOutput": true
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.2,
+        "output": 0.8
+      },
       {
         "provider": "novita-ai",
         "input": 0.27,
@@ -5241,20 +5468,20 @@
     "id": "meta/llama-4-scout-17b-instruct",
     "slug": "llama-4-scout-17b-instruct",
     "lab": "meta",
-    "name": "Llama 4 Scout 17B Instruct",
+    "name": "Llama 4 Scout 17B",
     "family": "llama",
     "releaseDate": "2025-04-05",
     "knowledgeCutoff": "2024-08",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.18,
-      "output": 0.59
+      "input": 0.1,
+      "output": 0.3
     },
-    "blended": 0.2825,
-    "priceSource": "novita-ai",
-    "context": 131072,
-    "maxOutput": 131072,
+    "blended": 0.15,
+    "priceSource": "deepinfra",
+    "context": 327680,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text",
       "image"
@@ -5262,9 +5489,14 @@
     "capabilities": {
       "reasoning": false,
       "toolCall": true,
-      "structuredOutput": false
+      "structuredOutput": true
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.1,
+        "output": 0.3
+      },
       {
         "provider": "novita-ai",
         "input": 0.18,
@@ -5319,6 +5551,76 @@
         "provider": "cloudflare-workers-ai",
         "input": 0.484,
         "output": 0.03
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "meta/llama-prompt-guard-2-22m",
+    "slug": "llama-prompt-guard-2-22m",
+    "lab": "meta",
+    "name": "Llama Prompt Guard 2 22M",
+    "family": "llama",
+    "releaseDate": "2025-04-29",
+    "knowledgeCutoff": null,
+    "status": "beta",
+    "openWeights": true,
+    "price": {
+      "input": 0.03,
+      "output": 0.03
+    },
+    "blended": 0.03,
+    "priceSource": "groq",
+    "context": 512,
+    "maxOutput": 512,
+    "modalitiesIn": [
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": false,
+      "toolCall": false,
+      "structuredOutput": false
+    },
+    "hosts": [
+      {
+        "provider": "groq",
+        "input": 0.03,
+        "output": 0.03
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "meta/llama-prompt-guard-2-86m",
+    "slug": "llama-prompt-guard-2-86m",
+    "lab": "meta",
+    "name": "Prompt Guard 2 86M",
+    "family": "llama",
+    "releaseDate": "2025-04-29",
+    "knowledgeCutoff": null,
+    "status": "beta",
+    "openWeights": true,
+    "price": {
+      "input": 0.04,
+      "output": 0.04
+    },
+    "blended": 0.04,
+    "priceSource": "groq",
+    "context": 512,
+    "maxOutput": 512,
+    "modalitiesIn": [
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": false,
+      "toolCall": false,
+      "structuredOutput": false
+    },
+    "hosts": [
+      {
+        "provider": "groq",
+        "input": 0.04,
+        "output": 0.04
       }
     ],
     "aliases": []
@@ -5642,12 +5944,27 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.15,
+        "output": 1.15
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.3,
         "output": 1.2
       },
       {
+        "provider": "baseten",
+        "input": 0.3,
+        "output": 1.2
+      },
+      {
         "provider": "novita-ai",
+        "input": 0.3,
+        "output": 1.2
+      },
+      {
+        "provider": "togetherai",
         "input": 0.3,
         "output": 1.2
       }
@@ -5812,12 +6129,22 @@
         "output": 1.1
       },
       {
+        "provider": "fireworks-ai",
+        "input": 0.3,
+        "output": 1.2
+      },
+      {
         "provider": "nebius",
         "input": 0.3,
         "output": 1.2
       },
       {
         "provider": "novita-ai",
+        "input": 0.3,
+        "output": 1.2
+      },
+      {
+        "provider": "togetherai",
         "input": 0.3,
         "output": 1.2
       }
@@ -6597,20 +6924,14 @@
       "toolCall": true,
       "structuredOutput": false
     },
-    "hosts": [
-      {
-        "provider": "scaleway",
-        "input": 0.2,
-        "output": 0.2
-      }
-    ],
+    "hosts": [],
     "aliases": []
   },
   {
     "id": "mistral/pixtral-large-2502",
     "slug": "pixtral-large-2502",
     "lab": "mistral",
-    "name": "Pixtral Large (25.02)",
+    "name": "Pixtral Large (25.02) (US)",
     "family": "pixtral",
     "releaseDate": "2025-04-08",
     "knowledgeCutoff": null,
@@ -6863,19 +7184,21 @@
     "family": "kimi-k2",
     "releaseDate": "2026-01-27",
     "knowledgeCutoff": "2025-01",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
-      "input": 0.6,
-      "output": 3
+      "input": 0.45,
+      "output": 2.25,
+      "cacheRead": 0.07
     },
-    "blended": 1.2,
-    "priceSource": "amazon-bedrock",
+    "blended": 0.9,
+    "priceSource": "deepinfra",
     "context": 262144,
-    "maxOutput": 16384,
+    "maxOutput": 32768,
     "modalitiesIn": [
       "text",
-      "image"
+      "image",
+      "video"
     ],
     "capabilities": {
       "reasoning": true,
@@ -6884,12 +7207,22 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.45,
+        "output": 2.25
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.6,
         "output": 3
       },
       {
         "provider": "azure",
+        "input": 0.6,
+        "output": 3
+      },
+      {
+        "provider": "baseten",
         "input": 0.6,
         "output": 3
       },
@@ -6932,12 +7265,22 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.75,
+        "output": 3.5
+      },
+      {
         "provider": "novita-ai",
         "input": 0.8,
         "output": 3.4
       },
       {
         "provider": "azure",
+        "input": 0.95,
+        "output": 4
+      },
+      {
+        "provider": "baseten",
         "input": 0.95,
         "output": 4
       },
@@ -6953,18 +7296,18 @@
     "id": "moonshotai/kimi-k2.7-code",
     "slug": "kimi-k2.7-code",
     "lab": "moonshotai",
-    "name": "Kimi K2.7 Code HighSpeed",
+    "name": "Kimi K2.7 Code",
     "family": "kimi-k2",
     "releaseDate": "2026-06-12",
     "knowledgeCutoff": "2025-01",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 1.9,
-      "output": 8,
-      "cacheRead": 0.38
+      "input": 0.95,
+      "output": 4,
+      "cacheRead": 0.19
     },
-    "blended": 3.425,
+    "blended": 1.7125,
     "priceSource": "moonshotai",
     "context": 262144,
     "maxOutput": 262144,
@@ -8340,17 +8683,17 @@
     "name": "GPT OSS 120B",
     "family": "gpt-oss",
     "releaseDate": "2025-08-05",
-    "knowledgeCutoff": null,
+    "knowledgeCutoff": "2024-06",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.05,
-      "output": 0.25
+      "input": 0.037,
+      "output": 0.17
     },
-    "blended": 0.1,
-    "priceSource": "novita-ai",
+    "blended": 0.0703,
+    "priceSource": "deepinfra",
     "context": 131072,
-    "maxOutput": 32768,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text"
     ],
@@ -8360,6 +8703,11 @@
       "structuredOutput": true
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.037,
+        "output": 0.17
+      },
       {
         "provider": "novita-ai",
         "input": 0.05,
@@ -8371,12 +8719,32 @@
         "output": 0.36
       },
       {
+        "provider": "baseten",
+        "input": 0.1,
+        "output": 0.5
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.15,
         "output": 0.6
       },
       {
+        "provider": "fireworks-ai",
+        "input": 0.15,
+        "output": 0.6
+      },
+      {
         "provider": "groq",
+        "input": 0.15,
+        "output": 0.6
+      },
+      {
+        "provider": "nebius",
+        "input": 0.15,
+        "output": 0.6
+      },
+      {
+        "provider": "togetherai",
         "input": 0.15,
         "output": 0.6
       },
@@ -8397,20 +8765,20 @@
     "id": "openai/gpt-oss-20b",
     "slug": "gpt-oss-20b",
     "lab": "openai",
-    "name": "gpt-oss-20b",
+    "name": "GPT OSS 20B",
     "family": "gpt-oss",
     "releaseDate": "2025-08-05",
-    "knowledgeCutoff": null,
+    "knowledgeCutoff": "2024-06",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.07,
-      "output": 0.3
+      "input": 0.03,
+      "output": 0.14
     },
-    "blended": 0.1275,
-    "priceSource": "amazon-bedrock",
+    "blended": 0.0575,
+    "priceSource": "deepinfra",
     "context": 131072,
-    "maxOutput": 128000,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text"
     ],
@@ -8421,8 +8789,18 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.03,
+        "output": 0.14
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.07,
+        "output": 0.3
+      },
+      {
+        "provider": "groq",
+        "input": 0.075,
         "output": 0.3
       },
       {
@@ -8499,6 +8877,11 @@
         "provider": "amazon-bedrock",
         "input": 0.07,
         "output": 0.2
+      },
+      {
+        "provider": "groq",
+        "input": 0.075,
+        "output": 0.3
       }
     ],
     "aliases": []
@@ -9315,6 +9698,11 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.5,
+        "output": 2
+      },
+      {
         "provider": "novita-ai",
         "input": 0.55,
         "output": 2.2
@@ -9391,7 +9779,17 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.4,
+        "output": 1.75
+      },
+      {
         "provider": "amazon-bedrock",
+        "input": 0.6,
+        "output": 2.2
+      },
+      {
+        "provider": "baseten",
         "input": 0.6,
         "output": 2.2
       },
@@ -9411,16 +9809,17 @@
     "family": "glm-flash",
     "releaseDate": "2026-01-19",
     "knowledgeCutoff": "2025-04",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
-      "input": 0.0605,
-      "output": 0.4
+      "input": 0.06,
+      "output": 0.4,
+      "cacheRead": 0.01
     },
-    "blended": 0.1454,
-    "priceSource": "cloudflare-workers-ai",
-    "context": 131072,
-    "maxOutput": 131072,
+    "blended": 0.145,
+    "priceSource": "deepinfra",
+    "context": 202752,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text"
     ],
@@ -9430,6 +9829,11 @@
       "structuredOutput": true
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.06,
+        "output": 0.4
+      },
       {
         "provider": "cloudflare-workers-ai",
         "input": 0.0605,
@@ -9508,6 +9912,16 @@
       "structuredOutput": false
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.6,
+        "output": 2.08
+      },
+      {
+        "provider": "baseten",
+        "input": 0.95,
+        "output": 3.15
+      },
       {
         "provider": "amazon-bedrock",
         "input": 1,
@@ -9592,6 +10006,11 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 1.05,
+        "output": 3.5
+      },
+      {
         "provider": "baseten",
         "input": 1.3,
         "output": 4.3
@@ -9599,6 +10018,11 @@
       {
         "provider": "novita-ai",
         "input": 1.38,
+        "output": 4.4
+      },
+      {
+        "provider": "togetherai",
+        "input": 1.4,
         "output": 4.4
       }
     ],
