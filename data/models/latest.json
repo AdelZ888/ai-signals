@@ -2405,7 +2405,7 @@
     "id": "anthropic/claude-opus-4-1-20250805",
     "slug": "claude-opus-4-1-20250805",
     "lab": "anthropic",
-    "name": "Claude Opus 4.1 (US)",
+    "name": "Claude Opus 4.1",
     "family": "claude-opus",
     "releaseDate": "2025-08-05",
     "knowledgeCutoff": "2025-03-31",
@@ -2763,7 +2763,7 @@
     "id": "anthropic/claude-sonnet-4-20250514",
     "slug": "claude-sonnet-4-20250514",
     "lab": "anthropic",
-    "name": "Claude Sonnet 4 (EU)",
+    "name": "Claude Sonnet 4 (US)",
     "family": "claude-sonnet",
     "releaseDate": "2025-05-22",
     "knowledgeCutoff": "2025-03-31",
@@ -3940,11 +3940,11 @@
     "id": "deepseek/deepseek-v4.1-flash-1017",
     "slug": "deepseek-v4.1-flash-1017",
     "lab": "deepseek",
-    "name": "DeepSeek V4.1 Flash 1017",
+    "name": "DeepSeek V4 Flash Vision Exp (1-flash-1017)",
     "family": "deepseek-flash",
     "releaseDate": "2026-10-17",
     "knowledgeCutoff": "2025-05",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.15,
@@ -3977,6 +3977,11 @@
       },
       {
         "provider": "baseten",
+        "input": 0.3,
+        "output": 1.2
+      },
+      {
+        "provider": "nebius",
         "input": 0.3,
         "output": 1.2
       },
@@ -4919,7 +4924,7 @@
     "id": "meta/llama-3.1-70b-instruct",
     "slug": "llama-3.1-70b-instruct",
     "lab": "meta",
-    "name": "Llama 3.1 70B Instruct",
+    "name": "Llama 3.1 70B Instruct (US)",
     "family": "llama",
     "releaseDate": "2024-07-23",
     "knowledgeCutoff": "2023-12",
@@ -6002,6 +6007,11 @@
     "hosts": [
       {
         "provider": "fireworks-ai",
+        "input": 0.15,
+        "output": 0.6
+      },
+      {
+        "provider": "nebius",
         "input": 0.15,
         "output": 0.6
       },
@@ -7124,7 +7134,13 @@
       "toolCall": true,
       "structuredOutput": true
     },
-    "hosts": [],
+    "hosts": [
+      {
+        "provider": "novita-ai",
+        "input": 2,
+        "output": 10
+      }
+    ],
     "aliases": []
   },
   {
@@ -8077,7 +8093,7 @@
     "id": "openai/gpt-5.6-sol",
     "slug": "gpt-5.6-sol",
     "lab": "openai",
-    "name": "GPT-5.6",
+    "name": "GPT-5.6 Sol",
     "family": "gpt-sol",
     "releaseDate": "2026-07-09",
     "knowledgeCutoff": "2026-02-16",
