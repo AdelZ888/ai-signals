@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { makeModel } from "../data/testing.ts";
-import { alternatesFor, bestTitle, clampDescription, fitTitle, itemListLd, organizationLd, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
+import { alternatesFor, bestDescription, bestTitle, clampDescription, compareDescription, hostDescription, hostTitle, fitTitle, itemListLd, organizationLd, buildRss, buildSitemapIndex, buildUrlset, compareTitle, lastModFor, modelDescription, modelTitle, xmlEscape } from "./seo.ts";
 
 const haiku = makeModel({ id: "anthropic/claude-haiku-5-5", name: "Claude Haiku 5.5", price: { input: 0.1, output: 0.5 }, context: 1_000_000 });
 const sol = makeModel({ id: "openai/gpt-6.1-sol", name: "GPT-6.1 Sol" });
@@ -82,4 +82,40 @@ test("titles fall back to shorter variants for long model names", () => {
   assert.equal(modelTitle(long, "2026-10-11"), "Gemini 3.1 Pro Preview Custom Tools API Pricing (Oct 2026)");
   const b = makeModel({ id: "openai/y", name: "GPT-6.1 Sol" });
   assert.equal(compareTitle(long, b, "2026-10-11"), "Gemini 3.1 Pro Preview Custom Tools vs GPT-6.1 Sol Pricing");
+});
+
+test("compare titles keep the month when the medium variant fits", () => {
+  const opus5 = makeModel({ id: "anthropic/claude-opus-5", name: "Claude Opus 5" });
+  const opus55 = makeModel({ id: "anthropic/claude-opus-5-5", name: "Claude Opus 5.5" });
+  assert.equal(compareTitle(opus5, opus55, "2026-10-30"), "Claude Opus 5 vs Claude Opus 5.5 Pricing (Oct 2026)");
+});
+
+test("compare description shows both prices and which model is cheaper", () => {
+  const opus5 = makeModel({ id: "anthropic/claude-opus-5", name: "Claude Opus 5", price: { input: 5, output: 25 }, context: 1_000_000 });
+  const opus55 = makeModel({ id: "anthropic/claude-opus-5-5", name: "Claude Opus 5.5", price: { input: 4, output: 20 }, context: 1_000_000 });
+  assert.equal(
+    compareDescription(opus5, opus55),
+    "Claude Opus 5 costs $5.00 input / $25.00 output per 1M tokens, Claude Opus 5.5 $4.00 / $20.00. Claude Opus 5.5 is 20% cheaper. Context: 1M vs 1M.",
+  );
+  assert.match(compareDescription(opus55, opus55), /Same price per token\./u);
+});
+
+test("host title and description target pricing and model-list searches", () => {
+  assert.equal(hostTitle("Groq", "2026-10-30"), "Groq API Pricing & Models List (Oct 2026)");
+  assert.equal(hostTitle("Some Very Long Inference Cloud Name", "2026-10-30"), "Some Very Long Inference Cloud Name API Pricing (Oct 2026)");
+  const llama = makeModel({ id: "meta/llama-3.1-8b", name: "Llama 3.1 8B" });
+  assert.equal(
+    hostDescription("Groq", 7, { model: llama, input: 0.05, output: 0.08 }, 3),
+    "7 AI models on Groq, priced per 1M tokens: from Llama 3.1 8B at $0.05 input / $0.08 output. Cheapest host for 3 of them.",
+  );
+  const mistral = makeModel({ id: "mistral/mistral-small-3.1-24b", name: "Mistral Small 3.1 24B" });
+  assert.doesNotMatch(hostDescription("Google Vertex AI", 35, { model: mistral, input: 0.1, output: 0.3 }, 12), /…$/u);
+});
+
+test("best description names the top models", () => {
+  const ms = ["GPT-6.1 Sol", "Claude Opus 5.5", "Gemini 3.5 Pro", "Extra"].map((name, i) => makeModel({ id: `x/m${i}`, name }));
+  assert.equal(
+    bestDescription({ description: "Models released in the last 60 days, newest first." }, ms),
+    "Models released in the last 60 days, newest first. Top 3: GPT-6.1 Sol, Claude Opus 5.5, Gemini 3.5 Pro. Updated daily from list prices.",
+  );
 });

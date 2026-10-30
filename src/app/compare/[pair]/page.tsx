@@ -9,7 +9,7 @@ import type { Model } from "@/lib/data/types";
 import { getCatalog, getPairs, labName } from "@/lib/site/catalog";
 import { SCENARIOS, monthlyCost } from "@/lib/site/cost";
 import { fmtTokens, fmtUsd, fmtUsdCost, yesNo } from "@/lib/site/format";
-import { alternatesFor, clampDescription, compareTitle, fitTitle } from "@/lib/site/seo";
+import { alternatesFor, compareDescription, compareTitle, fitTitle } from "@/lib/site/seo";
 import type { Pair } from "@/lib/site/selection";
 import { compareUrl, modelUrl, ogImageUrl } from "@/lib/site/urls";
 import { chooseLines, compareVerdict, scenarioLines } from "@/lib/site/verdict";
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const { a, b, key } = r.pair;
   return {
     title: fitTitle(compareTitle(a, b, getCatalog().today)),
-    description: clampDescription(`${a.name} vs ${b.name}: ${fmtUsd(a.price.input)} vs ${fmtUsd(b.price.input)} per 1M input tokens, ${fmtTokens(a.context)} vs ${fmtTokens(b.context)} context. Side-by-side specs and monthly costs.`),
+    description: compareDescription(a, b),
     alternates: alternatesFor(compareUrl(key)),
     openGraph: { images: [{ url: ogImageUrl(`${a.name} vs ${b.name}`, "price & specs compared"), width: 1200, height: 630 }] },
   };

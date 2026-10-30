@@ -9,8 +9,8 @@ import { JsonLd } from "@/components/json-ld";
 import { pct } from "@/lib/data/diff";
 import { getSiteUrl } from "@/lib/site-url";
 import { getCatalog, hostName, labName } from "@/lib/site/catalog";
-import { fmtPct, fmtTokens, fmtUsd, monthYear } from "@/lib/site/format";
-import { alternatesFor, clampDescription, fitTitle, itemListLd } from "@/lib/site/seo";
+import { fmtPct, fmtTokens, fmtUsd } from "@/lib/site/format";
+import { alternatesFor, fitTitle, hostDescription, hostTitle, itemListLd } from "@/lib/site/seo";
 import { MIN_LIST_SIZE, hostSummaries } from "@/lib/site/selection";
 import { hostUrl, modelUrl } from "@/lib/site/urls";
 
@@ -28,12 +28,10 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const host = find((await params).provider);
   if (!host) return {};
   const name = hostName(host.provider);
-  const cheapest = host.offers[0];
+  const wins = host.offers.filter((o) => o.cheapestHost).length;
   return {
-    title: fitTitle(`${name} API Pricing: ${host.offers.length} Models (${monthYear(getCatalog().today)})`),
-    description: clampDescription(
-      `${name} pricing for ${host.offers.length} AI models, from ${cheapest.model.name} at ${fmtUsd(cheapest.input)} input / ${fmtUsd(cheapest.output)} output per 1M tokens. Compare with other hosts.`,
-    ),
+    title: fitTitle(hostTitle(name, getCatalog().today)),
+    description: hostDescription(name, host.offers.length, host.offers[0], wins),
     alternates: alternatesFor(hostUrl(host.provider)),
     robots: host.offers.length >= MIN_LIST_SIZE ? undefined : { index: false, follow: true },
   };

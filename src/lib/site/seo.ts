@@ -29,11 +29,42 @@ export function modelDescription(m: Model, labName: string): string {
 
 export function compareTitle(a: Model, b: Model, today: string): string {
   const full = `${a.name} vs ${b.name}: Pricing Compared (${monthYear(today)})`;
-  return full.length <= MAX_TITLE ? full : `${a.name} vs ${b.name} Pricing`;
+  if (full.length <= MAX_TITLE) return full;
+  const dated = `${a.name} vs ${b.name} Pricing (${monthYear(today)})`;
+  return dated.length <= MAX_TITLE ? dated : `${a.name} vs ${b.name} Pricing`;
+}
+
+/** Price searches ("opus 5.5 price") land on compare pages: show both input and output prices in the snippet. */
+export function compareDescription(a: Model, b: Model): string {
+  const [cheap, dear] = a.blended <= b.blended ? [a, b] : [b, a];
+  const saving = Math.round((1 - cheap.blended / dear.blended) * 100);
+  const verdict = saving === 0 ? "Same price per token." : `${cheap.name} is ${saving}% cheaper.`;
+  return clampDescription(
+    `${a.name} costs ${fmtUsd(a.price.input)} input / ${fmtUsd(a.price.output)} output per 1M tokens, ${b.name} ${fmtUsd(b.price.input)} / ${fmtUsd(b.price.output)}. ${verdict} Context: ${fmtTokens(a.context)} vs ${fmtTokens(b.context)}.`,
+  );
+}
+
+/** Host queries mix "pricing" and "models list" (e.g. "groq api models list"). */
+export function hostTitle(name: string, today: string): string {
+  const full = `${name} API Pricing & Models List (${monthYear(today)})`;
+  return full.length <= MAX_TITLE ? full : `${name} API Pricing (${monthYear(today)})`;
+}
+
+export function hostDescription(name: string, count: number, cheapest: { model: Model; input: number; output: number }, wins: number): string {
+  const lead = wins > 0 ? ` Cheapest host for ${wins} of them.` : "";
+  return clampDescription(
+    `${count} AI models on ${name}, priced per 1M tokens: from ${cheapest.model.name} at ${fmtUsd(cheapest.input)} input / ${fmtUsd(cheapest.output)} output.${lead}`,
+  );
 }
 
 export function bestTitle(list: { title: string }, n: number, today: string): string {
   return `${n} ${list.title} (${monthYear(today)})`;
+}
+
+export function bestDescription(list: { description: string }, entries: Model[]): string {
+  const top = entries.slice(0, 3).map((m) => m.name);
+  const picks = top.length > 0 ? ` Top ${top.length}: ${top.join(", ")}.` : "";
+  return clampDescription(`${list.description}${picks} Updated daily from list prices.`);
 }
 
 export function xmlEscape(s: string): string {

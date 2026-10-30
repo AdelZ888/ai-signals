@@ -9,7 +9,7 @@ import { JsonLd } from "@/components/json-ld";
 import { getSiteUrl } from "@/lib/site-url";
 import { getCatalog, labName } from "@/lib/site/catalog";
 import { fmtTokens, fmtUsd } from "@/lib/site/format";
-import { alternatesFor, bestTitle, fitTitle, itemListLd } from "@/lib/site/seo";
+import { alternatesFor, bestDescription, bestTitle, fitTitle, itemListLd } from "@/lib/site/seo";
 import { BEST_LISTS, MIN_LIST_SIZE, findBestList } from "@/lib/site/selection";
 import { bestUrl, modelUrl } from "@/lib/site/urls";
 
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const entries = list.select(models, today);
   return {
     title: fitTitle(bestTitle(list, entries.length, today)),
-    description: `${list.description} Updated daily from list prices.`,
+    description: bestDescription(list, entries),
     alternates: alternatesFor(bestUrl(list.slug)),
     robots: entries.length >= MIN_LIST_SIZE ? undefined : { index: false, follow: true },
   };
