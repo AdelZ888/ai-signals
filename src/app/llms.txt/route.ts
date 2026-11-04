@@ -23,6 +23,7 @@ export function GET() {
     `- [All AI models](${base}/models): searchable table of every model's input/output price, context window and 30-day change`,
     `- [Cost calculator](${base}/calculator): monthly cost of any token volume across all models`,
     `- [Comparisons](${base}/compare): head-to-head pages (price, specs, monthly cost scenarios)`,
+    `- [AI Price Index](${base}/price-index): monthly index of AI model API list prices (median blended price on labs' own APIs), with methodology and open data`,
     `- [Changelog](${base}/changes): new models, price cuts and increases, deprecations`,
     `- [News](${base}/news): articles and the weekly pricing digest`,
     `- [Methodology](${base}/about): sources and how prices are normalized`,
@@ -39,6 +40,8 @@ export function GET() {
     "## Data",
     `- [models.json](${base}/data/models.json): full dataset (JSON)`,
     `- [models.csv](${base}/data/models.csv): full dataset (CSV)`,
+    `- [price-index.csv](${base}/data/price-index.csv): AI Price Index, monthly series (CSV)`,
+    `- [price-index.json](${base}/data/price-index.json): AI Price Index, monthly series (JSON)`,
     "",
   ];
   return new Response(lines.join("\n"), { headers: { "content-type": "text/plain; charset=utf-8" } });

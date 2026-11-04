@@ -22,6 +22,7 @@ export function SiteFooter() {
             <Link href="/best">rankings</Link><br />
             <Link href="/calculator">cost calculator</Link><br />
             <Link href="/changes">changelog</Link><br />
+            <Link href="/price-index">ai price index</Link><br />
             <Link href="/guides">pricing guides</Link>
           </p>
         </div>

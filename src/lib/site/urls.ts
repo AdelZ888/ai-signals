@@ -10,3 +10,4 @@ export function ogImageUrl(title: string, subtitle: string): string {
 }
 export const alternativesUrl = (m: { lab: string; slug: string }) => `/models/${m.lab}/${m.slug}/alternatives`;
 export const hostUrl = (provider: string) => `/hosts/${provider}`;
+export const priceIndexUrl = (month?: string) => (month ? `/price-index/${month}` : "/price-index");

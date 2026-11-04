@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { makeModel } from "../../src/lib/data/testing.ts";
 import type { ModelEvent } from "../../src/lib/data/types.ts";
 import { makePair } from "../../src/lib/site/selection.ts";
-import { INDEXNOW_KEY, changedUrls, indexNowPayload } from "./indexnow-urls.ts";
+import { INDEXNOW_KEY, changedUrls, indexNowPayload, priceIndexUrls } from "./indexnow-urls.ts";
 
 const a = makeModel({ id: "anthropic/claude-haiku-5-5" });
 const b = makeModel({ id: "openai/gpt-6.1-sol" });
@@ -45,4 +45,14 @@ test("indexNowPayload follows the protocol", () => {
     keyLocation: `https://aisignals.dev/${INDEXNOW_KEY}.txt`,
     urlList: ["https://aisignals.dev/"],
   });
+});
+
+test("priceIndexUrls announces the index only around the day a month closes", () => {
+  const base = "https://aisignals.dev";
+  const urls = [`${base}/price-index`, `${base}/price-index/2026-10`];
+  assert.deepEqual(priceIndexUrls(base, "2026-11-01", "2026-10"), urls);
+  assert.deepEqual(priceIndexUrls(base, "2026-11-02", "2026-10"), urls);
+  assert.deepEqual(priceIndexUrls(base, "2026-11-03", "2026-10"), []);
+  assert.deepEqual(priceIndexUrls(base, "2026-10-31", "2026-10"), []);
+  assert.deepEqual(priceIndexUrls(base, "2026-11-01", null), []);
 });

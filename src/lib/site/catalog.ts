@@ -1,8 +1,9 @@
 import path from "node:path";
 
 import { HOST_NAMES, LAB_NAMES, LAB_PROVIDER, isLabId } from "../data/config.ts";
-import { readEvents, readLatest, readMeta, readPairs } from "../data/store.ts";
+import { readEvents, readIndexSnapshots, readLatest, readMeta, readPairs } from "../data/store.ts";
 import type { Meta, Model, ModelEvent } from "../data/types.ts";
+import { BASE_MONTH, buildSeries, type IndexPoint, type IndexSnapshot } from "./price-index.ts";
 import { isActive, isIndexable, stablePairs, type Pair } from "./selection.ts";
 
 export type Catalog = { models: Model[]; events: ModelEvent[]; meta: Meta | null; today: string; publishedPairs: string[] };
@@ -32,6 +33,18 @@ export function getPairs(): Pair[] {
   const { models, today, publishedPairs } = getCatalog();
   pairsCache = stablePairs(models, today, publishedPairs);
   return pairsCache;
+}
+
+export type PriceIndex = { snapshots: IndexSnapshot[]; series: IndexPoint[]; latest: IndexPoint | null; base: IndexPoint | null };
+
+let priceIndexCache: PriceIndex | null = null;
+
+export function getPriceIndex(): PriceIndex {
+  if (priceIndexCache) return priceIndexCache;
+  const snapshots = readIndexSnapshots();
+  const series = buildSeries(snapshots);
+  priceIndexCache = { snapshots, series, latest: series.at(-1) ?? null, base: series.find((p) => p.month === BASE_MONTH) ?? series[0] ?? null };
+  return priceIndexCache;
 }
 
 export function findModel(lab: string, slug: string): Model | null {

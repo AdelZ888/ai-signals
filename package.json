@@ -9,6 +9,7 @@
     "lint": "eslint",
     "test": "node --test \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
     "refresh-data": "node scripts/data/refresh.ts",
+    "close-price-index": "node scripts/data/close-price-index.ts",
     "backfill-history": "node scripts/data/backfill-history.ts",
     "editorial": "node scripts/editorial/run.ts",
     "weekly-digest": "node scripts/editorial/weekly-digest.ts",

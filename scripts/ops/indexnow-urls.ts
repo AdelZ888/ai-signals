@@ -1,6 +1,8 @@
 import type { Model, ModelEvent } from "../../src/lib/data/types.ts";
 import type { Pair } from "../../src/lib/site/selection.ts";
-import { alternativesUrl, compareUrl, modelUrl, newsUrl, providerUrl } from "../../src/lib/site/urls.ts";
+import { daysBetween } from "../../src/lib/data/dates.ts";
+import { closingDate } from "../../src/lib/site/price-index.ts";
+import { alternativesUrl, compareUrl, modelUrl, newsUrl, priceIndexUrl, providerUrl } from "../../src/lib/site/urls.ts";
 
 /** Public by design: IndexNow verifies ownership by fetching /<key>.txt from the site. */
 export const INDEXNOW_KEY = "fc361257a7af3c32a78ccf4bcfd6db90";
@@ -34,6 +36,13 @@ export function changedUrls(input: ChangeInput): string[] {
   }
   for (const p of input.pairs) if (ids.has(p.a.id) || ids.has(p.b.id)) paths.push(compareUrl(p.key));
   return [...new Set(paths)].map((p) => `${base}${p}`);
+}
+
+/** The index and the new monthly report, during the two days after a month closes. */
+export function priceIndexUrls(base: string, today: string, latestMonth: string | null): string[] {
+  if (!latestMonth) return [];
+  const age = daysBetween(closingDate(latestMonth), today);
+  return age >= 0 && age <= 1 ? [priceIndexUrl(), priceIndexUrl(latestMonth)].map((p) => `${base}${p}`) : [];
 }
 
 export function indexNowPayload(base: string, urls: string[]) {

@@ -50,3 +50,14 @@ export type ModelEvent = {
 };
 
 export type Meta = { lastSuccessAt: string; source: string; modelCount: number; lastChangeAt: string | null };
+
+/** One chat model sold on its maker's own API, as it stood at the end of a month. */
+export type IndexRow = {
+  id: string; lab: string; slug: string; name: string;
+  input: number; output: number; blended: number;
+  releaseDate: string | null; context: number; status: ModelStatus;
+  tools: boolean; reasoning: boolean; vision: boolean;
+};
+
+/** Frozen once written: published months are never recomputed from newer data. */
+export type IndexSnapshot = { month: string; rows: IndexRow[] };

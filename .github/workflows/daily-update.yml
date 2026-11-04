@@ -23,6 +23,8 @@ jobs:
           node-version: "24"
           cache: npm
       - run: npm ci
+      - name: Freeze last month's price index
+        run: npm run close-price-index
       - name: Refresh model data
         run: npm run refresh-data
       - name: Write at most one flash article
@@ -43,7 +45,7 @@ jobs:
           SITE_CHECK_BASE=http://localhost:3100 node scripts/ops/site-check.ts --deep
       - name: Commit and push
         run: |
-          bash scripts/ops/commit-and-push.sh "chore(data): daily refresh" data/models content/news
+          bash scripts/ops/commit-and-push.sh "chore(data): daily refresh" data/models data/price-index content/news
       - name: Wait for the deployment to be live
         id: deploy
         continue-on-error: true

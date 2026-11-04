@@ -1,10 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import type { Meta, Model, ModelEvent } from "./types.ts";
+import type { IndexRow, IndexSnapshot, Meta, Model, ModelEvent } from "./types.ts";
 
 export const DEFAULT_DATA_DIR = path.join(process.cwd(), "data", "models");
 const MONTH_FILE = /^\d{4}-\d{2}\.jsonl$/u;
+export const DEFAULT_INDEX_DIR = path.join(process.cwd(), "data", "price-index");
+const INDEX_FILE = /^(\d{4}-\d{2})\.json$/u;
 
 function readJson<T>(file: string): T | null {
   try {
@@ -72,4 +74,27 @@ export function writeEvents(dir: string, events: ModelEvent[]): void {
   }
   const sorted = [...events].sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id) || a.type.localeCompare(b.type));
   appendEvents(dir, sorted);
+}
+
+export function readIndexSnapshots(dir = DEFAULT_INDEX_DIR): IndexSnapshot[] {
+  let files: string[];
+  try {
+    files = fs.readdirSync(dir);
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return [];
+    throw error;
+  }
+  return files
+    .flatMap((f) => {
+      const month = f.match(INDEX_FILE)?.[1];
+      return month ? [{ month, rows: readJson<IndexRow[]>(path.join(dir, f)) ?? [] }] : [];
+    })
+    .sort((a, b) => a.month.localeCompare(b.month));
+}
+
+/** One row per line, so a month stays small and readable in git. */
+export function writeIndexSnapshot(dir: string, snapshot: IndexSnapshot): void {
+  fs.mkdirSync(dir, { recursive: true });
+  const body = snapshot.rows.map((r) => JSON.stringify(r)).join(",\n");
+  fs.writeFileSync(path.join(dir, `${snapshot.month}.json`), `[\n${body}\n]\n`);
 }

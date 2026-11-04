@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const LINKS = [
   ["/models", "models"], ["/compare", "compare"], ["/best", "best"],
-  ["/calculator", "calculator"], ["/guides", "guides"], ["/news", "news"],
+  ["/calculator", "calculator"], ["/price-index", "price index"], ["/guides", "guides"], ["/news", "news"],
 ] as const;
 
 export function TerminalNav() {

@@ -7,9 +7,11 @@ import { JsonLd } from "@/components/json-ld";
 import { ModelTable } from "@/components/model-table";
 import { TIER1_LABS } from "@/lib/data/config";
 import { daysBetween } from "@/lib/data/dates";
-import { getCatalog, getPairs, labSummaries, recentEvents } from "@/lib/site/catalog";
+import { getCatalog, getPairs, getPriceIndex, labSummaries, recentEvents } from "@/lib/site/catalog";
 import { getSiteUrl } from "@/lib/site-url";
 import { modelRows } from "@/lib/site/rows";
+import { fmtPct, fmtUsd } from "@/lib/site/format";
+import { monthLabel } from "@/lib/site/price-index";
 import { alternatesFor, organizationLd } from "@/lib/site/seo";
 import { BEST_LISTS, notablePool } from "@/lib/site/selection";
 import { bestUrl, compareUrl } from "@/lib/site/urls";
@@ -27,6 +29,7 @@ export default function Home() {
     .sort((a, b) => Math.abs(b.pctChange ?? 0) - Math.abs(a.pctChange ?? 0))
     .slice(0, 5);
   const sync = meta ? `${meta.lastSuccessAt.slice(0, 16).replace("T", " ")} UTC` : "pending";
+  const { latest: index, base: indexBase } = getPriceIndex();
 
   return (
     <>
@@ -41,6 +44,14 @@ export default function Home() {
           {models.length} models · {labSummaries(models).length} labs · <span className="ok">● last sync {sync}</span>
         </p>
       </section>
+      {index && indexBase ? (
+        <Box title="ai price index">
+          <p>
+            The median AI model costs <b>{fmtUsd(index.median)}</b> per 1M tokens on its maker&apos;s API, {fmtPct(index.sinceBasePct)} since {monthLabel(indexBase.month)}.{" "}
+            <Link href="/price-index">See the monthly index and data →</Link>
+          </p>
+        </Box>
+      ) : null}
       <div className="grid-2">
         <Box title="popular models">
           <ModelTable rows={modelRows(popular)} initialSort={null} />

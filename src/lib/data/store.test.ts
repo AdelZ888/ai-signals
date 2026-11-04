@@ -4,7 +4,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-import { appendEvents, readEvents, readLatest, readMeta, readPairs, writeEvents, writeLatest, writeMeta, writePairs } from "./store.ts";
+import { appendEvents, readEvents, readIndexSnapshots, readLatest, readMeta, readPairs, writeEvents, writeIndexSnapshot, writeLatest, writeMeta, writePairs } from "./store.ts";
 import { makeModel } from "./testing.ts";
 import type { ModelEvent } from "./types.ts";
 
@@ -52,4 +52,19 @@ test("published comparison pairs round-trip sorted and deduplicated", () => {
   assert.deepEqual(readPairs(dir), []);
   writePairs(dir, ["b-vs-c", "a-vs-b", "a-vs-b"]);
   assert.deepEqual(readPairs(dir), ["a-vs-b", "b-vs-c"]);
+});
+
+test("index snapshots round-trip in month order and ignore other files", () => {
+  const dir = tmp();
+  assert.deepEqual(readIndexSnapshots(path.join(dir, "missing")), []);
+  const row = {
+    id: "a/x", lab: "a", slug: "x", name: "x", input: 1, output: 2, blended: 1.25, releaseDate: null, context: 1,
+    status: "active" as const, tools: true, reasoning: false, vision: false,
+  };
+  writeIndexSnapshot(dir, { month: "2026-02", rows: [row] });
+  writeIndexSnapshot(dir, { month: "2026-01", rows: [row, { ...row, id: "a/y" }] });
+  fs.writeFileSync(path.join(dir, "notes.txt"), "ignored");
+  const snapshots = readIndexSnapshots(dir);
+  assert.deepEqual(snapshots.map((s) => [s.month, s.rows.length]), [["2026-01", 2], ["2026-02", 1]]);
+  assert.deepEqual(snapshots[1].rows[0], row);
 });

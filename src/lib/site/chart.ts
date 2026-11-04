@@ -27,3 +27,35 @@ export function buildStepChart(series: ChartSeries[], width: number, height: num
   const iso = (t: number) => new Date(t).toISOString().slice(0, 10);
   return { paths, yMax, startDate: iso(t0), endDate: iso(t1) };
 }
+
+export type LineSeries = { id: string; values: number[] };
+export type LineMargin = { top: number; right: number; bottom: number; left: number };
+export type LineChart = { paths: { id: string; d: string }[]; ticks: { value: number; y: number }[]; xs: number[]; margin: LineMargin };
+
+const DEFAULT_MARGIN: LineMargin = { top: 10, right: 10, bottom: 20, left: 32 };
+
+function niceStep(span: number): number {
+  const rough = span / 4;
+  return [1, 2, 5, 10, 25, 50, 100, 250, 500].find((s) => s >= rough) ?? Math.ceil(rough);
+}
+
+/** Straight-line chart over evenly spaced periods, with round y ticks (not zero-based: it plots an index). */
+export function buildLineChart(series: LineSeries[], width: number, height: number, margin = DEFAULT_MARGIN): LineChart {
+  const all = series.flatMap((s) => s.values).filter(Number.isFinite);
+  const count = Math.max(0, ...series.map((s) => s.values.length));
+  if (all.length === 0) return { paths: [], ticks: [], xs: [], margin };
+
+  const step = niceStep(Math.max(...all) - Math.min(...all));
+  const yMin = Math.floor(Math.min(...all) / step) * step;
+  const yMax = Math.max(Math.ceil(Math.max(...all) / step) * step, yMin + step);
+  const plotW = width - margin.left - margin.right;
+  const plotH = height - margin.top - margin.bottom;
+  const xs = Array.from({ length: count }, (_, i) => r1(margin.left + (count > 1 ? (i / (count - 1)) * plotW : plotW / 2)));
+  const y = (v: number) => r1(margin.top + (1 - (v - yMin) / (yMax - yMin)) * plotH);
+
+  const ticks: LineChart["ticks"] = [];
+  for (let v = yMin; v <= yMax; v += step) ticks.push({ value: v, y: y(v) });
+  const paths = series.map((s) => ({ id: s.id, d: s.values.map((v, i) => `${i === 0 ? "M" : "L"}${xs[i]} ${y(v)}`).join("") }));
+  return { paths, ticks, xs, margin };
+}
+

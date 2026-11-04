@@ -1,6 +1,6 @@
-import { getCatalog, getPairs } from "../../src/lib/site/catalog.ts";
+import { getCatalog, getPairs, getPriceIndex } from "../../src/lib/site/catalog.ts";
 import { BEST_LISTS, alternativesPageModels, isIndexable } from "../../src/lib/site/selection.ts";
-import { alternativesUrl, bestUrl, compareUrl, modelUrl } from "../../src/lib/site/urls.ts";
+import { alternativesUrl, bestUrl, compareUrl, modelUrl, priceIndexUrl } from "../../src/lib/site/urls.ts";
 
 type Check = { path: string; status: number; expect?: RegExp; contentType?: string };
 
@@ -28,6 +28,11 @@ const BASIC: Check[] = [
   { path: "/hosts", status: 200, expect: /inference hosts/u },
   { path: "/data/models.json", status: 200, expect: /"models":\[\{/u },
   { path: "/data/models.csv", status: 200, expect: /^id,name,lab/u },
+  { path: "/price-index", status: 200, expect: /AI Price Index/u },
+  { path: "/price-index/chart.svg", status: 200, contentType: "image/svg+xml" },
+  { path: "/data/price-index.json", status: 200, expect: /"series":\[\{/u },
+  { path: "/data/price-index.csv", status: 200, expect: /^month,index/u },
+  { path: "/news/2026-10-31-muse-spark-1-3-price-cut", status: 308 },
   { path: "/api/og?title=health", status: 200, contentType: "image/png" },
   { path: "/posts/legacy-check", status: 410 },
   { path: "/fr", status: 410 },
@@ -47,6 +52,8 @@ function deepChecks(): Check[] {
     checks.push({ path: compareUrl(`${pair.b.slug}-vs-${pair.a.slug}`), status: 308 });
   }
   for (const list of BEST_LISTS) checks.push({ path: bestUrl(list.slug), status: 200 });
+  for (const p of getPriceIndex().series) checks.push({ path: priceIndexUrl(p.month), status: 200, expect: /AI Price Index/u });
+  checks.push({ path: priceIndexUrl("1999-01"), status: 404 });
   return checks;
 }
 

@@ -1,7 +1,7 @@
 import { listArticles } from "../../src/lib/site/articles.ts";
-import { getCatalog, getPairs } from "../../src/lib/site/catalog.ts";
+import { getCatalog, getPairs, getPriceIndex } from "../../src/lib/site/catalog.ts";
 import { alternativesPageModels } from "../../src/lib/site/selection.ts";
-import { changedUrls, indexNowPayload } from "./indexnow-urls.ts";
+import { changedUrls, indexNowPayload, priceIndexUrls } from "./indexnow-urls.ts";
 
 const BASE = (process.env.SITE_BASE ?? "https://aisignals.dev").replace(/\/+$/u, "");
 const ENDPOINT = "https://api.indexnow.org/indexnow";
@@ -25,15 +25,17 @@ async function main(): Promise<number> {
     urls = await sitemapUrls();
   } else {
     const { models, events, today } = getCatalog();
-    urls = changedUrls({
+    const date = process.env.INDEXNOW_DATE ?? today;
+    const changed = changedUrls({
       base: BASE,
-      today: process.env.INDEXNOW_DATE ?? today,
+      today: date,
       events,
       articles: listArticles(),
       models,
       pairs: getPairs(),
       alternativesFor: new Set(alternativesPageModels(models, today).map((m) => m.id)),
     });
+    urls = [...new Set([...changed, ...priceIndexUrls(BASE, date, getPriceIndex().latest?.month ?? null)])];
   }
   if (urls.length === 0) {
     console.log("[indexnow] nothing changed today");

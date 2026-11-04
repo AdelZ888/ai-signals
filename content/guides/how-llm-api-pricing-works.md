@@ -58,4 +58,4 @@ Reasoning models think before they answer. That hidden reasoning is generated te
 3. Compare the cheapest models that meet those needs, for example with the [cheapest LLM APIs](/best/cheapest-llm-api) or the [cheapest vision models](/best/cheapest-vision-model).
 4. Check caching and batch options before you commit; they often matter more than the list price.
 
-Prices change often, sometimes weekly. Every price on AI Signals is refreshed daily, and every change is logged in the [changelog](/changes).
+Labs rarely change the price of an existing model, but new models arrive every week, and that is what moves the market: see the monthly [AI Price Index](/price-index). Every price on AI Signals is refreshed daily, and every change is logged in the [changelog](/changes).

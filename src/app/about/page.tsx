@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import Link from "next/link";
+
 import { Box } from "@/components/box";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
@@ -34,6 +36,8 @@ export default function AboutPage() {
         </ul>
         <h2>How articles are written</h2>
         <p>News articles and the weekly digest are generated automatically from our own data. An AI model (GPT-6.1 Sol) writes the text, and every number it uses is checked against the data before publication. If the check fails, a plain data template is published instead.</p>
+        <h2>The AI Price Index</h2>
+        <p>Every month we publish the <Link href="/price-index">AI Price Index</Link>, which tracks the median list price of AI model APIs, with its own methodology and open data.</p>
         <h2>Download the data</h2>
         <p>
           The full dataset is free to reuse with attribution: <a href="/data/models.json">models.json</a> and{" "}
@@ -41,6 +45,11 @@ export default function AboutPage() {
         </p>
         <h2>Corrections</h2>
         <p>Spotted a wrong price? Email <a href="mailto:hello@aisignals.dev">hello@aisignals.dev</a>, or contribute the fix upstream to models.dev.</p>
+        <p>
+          <b>2026-11-04.</b> Five models sold in several versions under one identifier (Kimi K2.7 Code, Kimi K3.1 Pro, GLM-5.3-Flash, Muse Spark 1.2 and 1.3) flipped between
+          those versions&apos; prices from one refresh to the next, which our site reported as price changes. We fixed the cause, removed 39 incorrect changelog entries, retracted
+          four news articles and corrected two weekly digests. No lab had changed those prices.
+        </p>
       </div>
       <Box title="dataset">
         <p className="muted">{models.length} models · {events.length} recorded changes · last refresh {meta?.lastSuccessAt ?? "n/a"}</p>

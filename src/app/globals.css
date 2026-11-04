@@ -124,6 +124,12 @@ table.data th button:focus-visible { outline: 2px solid var(--accent); }
 .legend .k-in::before, .legend .k-out::before { content: ""; display: inline-block; width: 10px; height: 2px; margin-right: 6px; vertical-align: middle; }
 .legend .k-in::before { background: var(--accent); }
 .legend .k-out::before { background: var(--amber); }
+.chart .s-muted { stroke: var(--muted); }
+.legend .k-muted::before { content: ""; display: inline-block; width: 10px; height: 2px; margin-right: 6px; vertical-align: middle; background: var(--muted); }
+.grid-even { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 900px) { .grid-even { grid-template-columns: minmax(0, 1fr); } }
+.box-sub { font-size: 12px; font-weight: 400; color: var(--muted); margin: 14px 0 4px; }
+.snippet { margin: 0; padding: 8px 10px; background: var(--line-soft); font-size: 11px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
 .ad-slot { border: 1px dashed var(--line); margin: 0 0 14px; overflow: hidden; }
 
 /* model page: dashboard (desktop) or report layout */

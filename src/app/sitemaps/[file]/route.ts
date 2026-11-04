@@ -1,9 +1,10 @@
 import { getSiteUrl } from "@/lib/site-url";
 import { GUIDES_DIR, listArticles } from "@/lib/site/articles";
-import { getCatalog, getPairs, labSummaries } from "@/lib/site/catalog";
+import { getCatalog, getPairs, getPriceIndex, labSummaries } from "@/lib/site/catalog";
+import { publishedOn } from "@/lib/site/price-index";
 import { SITEMAP_FILES, buildUrlset, lastModFor, type SitemapEntry } from "@/lib/site/seo";
 import { BEST_LISTS, MIN_LIST_SIZE, alternatives, alternativesPageModels, hostSummaries, isIndexable } from "@/lib/site/selection";
-import { alternativesUrl, bestUrl, compareUrl, guideUrl, hostUrl, modelUrl, newsUrl, providerUrl } from "@/lib/site/urls";
+import { alternativesUrl, bestUrl, compareUrl, guideUrl, hostUrl, modelUrl, newsUrl, priceIndexUrl, providerUrl } from "@/lib/site/urls";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -17,10 +18,13 @@ const STATIC_PAGES = ["/", "/models", "/providers", "/hosts", "/compare", "/best
 function entriesFor(file: string, base: string): SitemapEntry[] | null {
   const { models, events, meta, today } = getCatalog();
   const siteLastmod = meta?.lastChangeAt ?? null;
+  const index = getPriceIndex();
   switch (file) {
     case "pages.xml":
       return [
         ...STATIC_PAGES.map((p) => ({ loc: `${base}${p}`, lastmod: siteLastmod })),
+        ...(index.latest ? [{ loc: `${base}${priceIndexUrl()}`, lastmod: publishedOn(index.latest.month) }] : []),
+        ...index.series.map((p) => ({ loc: `${base}${priceIndexUrl(p.month)}`, lastmod: publishedOn(p.month) })),
         ...labSummaries(models).map((s) => ({ loc: `${base}${providerUrl(s.lab)}`, lastmod: lastModFor(s.models.map((m) => m.id), events) })),
         ...hostSummaries(models)
           .filter((h) => h.offers.length >= MIN_LIST_SIZE)
