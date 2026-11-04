@@ -89,8 +89,24 @@ function slugFromId(id: string): string {
 
 function cheapest(cands: Candidate[]): Candidate {
   return [...cands].sort(
-    (a, b) => blendedPrice(a.raw.cost.input, a.raw.cost.output) - blendedPrice(b.raw.cost.input, b.raw.cost.output) || a.providerId.localeCompare(b.providerId),
+    (a, b) =>
+      blendedPrice(a.raw.cost.input, a.raw.cost.output) - blendedPrice(b.raw.cost.input, b.raw.cost.output) ||
+      a.providerId.localeCompare(b.providerId) ||
+      a.key.localeCompare(b.key),
   )[0];
+}
+
+/**
+ * A lab can sell several SKUs under one canonical id (HighSpeed, FlashX, Contributor tier). models.dev does not keep
+ * its key order stable between builds, so taking the first one made list prices flip between refreshes.
+ * The SKU named like the canonical id wins, else the cheapest SKU still on sale.
+ */
+function pickFirstParty(cands: Candidate[], id: string): Candidate {
+  const own = id.split("/").slice(1).join("/");
+  const named = cands.filter((c) => (c.raw.id ?? c.key) === own);
+  if (named.length > 0) return cheapest(named);
+  const live = cands.filter((c) => c.raw.status !== "deprecated");
+  return cheapest(live.length > 0 ? live : cands);
 }
 
 function toHosts(cands: Candidate[]): Host[] {
@@ -104,7 +120,7 @@ function toHosts(cands: Candidate[]): Host[] {
 }
 
 export function normalizeModelsDev(raw: RawModelsDev): Model[] {
-  const byId = new Map<string, { firstParty?: Candidate; hosts: Candidate[] }>();
+  const byId = new Map<string, { firstParty: Candidate[]; hosts: Candidate[] }>();
 
   for (const [providerId, provider] of Object.entries(raw)) {
     const providerLab = PROVIDER_TO_LAB.get(providerId);
@@ -118,9 +134,9 @@ export function normalizeModelsDev(raw: RawModelsDev): Model[] {
       const lab = id.split("/")[0];
       if (!id || !isLabId(lab)) continue;
 
-      const entry = byId.get(id) ?? { hosts: [] };
+      const entry = byId.get(id) ?? { firstParty: [], hosts: [] };
       const cand: Candidate = { providerId, key, raw: m };
-      if (providerLab === lab) entry.firstParty ??= cand;
+      if (providerLab === lab) entry.firstParty.push(cand);
       else if (isHost) entry.hosts.push(cand);
       else continue;
       byId.set(id, entry);
@@ -129,7 +145,7 @@ export function normalizeModelsDev(raw: RawModelsDev): Model[] {
 
   const models: Model[] = [];
   for (const [id, entry] of byId) {
-    const base = entry.firstParty ?? cheapest(entry.hosts);
+    const base = entry.firstParty.length > 0 ? pickFirstParty(entry.firstParty, id) : cheapest(entry.hosts);
     const m = base.raw;
     const price = toPrice(m.cost);
     models.push({

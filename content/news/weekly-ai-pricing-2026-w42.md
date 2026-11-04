@@ -16,7 +16,7 @@ For 2026-10-12 through 2026-10-18, the digest records 8 updates: 5 new models, 1
 | [Gemini 4 Argon](/models/google/gemini-4-argon) | 2026-10-14 | $2.00 | $10.00 | 1.05M |
 | [Muse Wonder](/models/meta/muse-wonder-1.0) | 2026-10-14 | $4.00 | $20.00 | 1.05M |
 | [Muse Spark Open](/models/meta/muse-spark-open) | 2026-10-16 | $1.25 | $4.25 | 1.05M |
-| [DeepSeek V4 Flash Vision Exp \(1-flash-1017\)](/models/deepseek/deepseek-v4.1-flash-1017) | 2026-10-18 | $0.15 | $0.60 | 1M |
+| [DeepSeek V4.1 Flash 1017](/models/deepseek/deepseek-v4.1-flash-1017) | 2026-10-18 | $0.15 | $0.60 | 1M |
 
 ## Price changes
 

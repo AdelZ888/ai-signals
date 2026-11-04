@@ -114,3 +114,49 @@ test("duplicate display names get a distinguishing suffix", () => {
   assert.equal(byId.get("anthropic/claude-opus-4-5-20250901")!.name, "Claude Opus 4.5 (20250901)");
   assert.equal(new Set(models.map((m) => m.name.toLowerCase())).size, models.length);
 });
+
+function sku(id: string, input: number, output: number, canonical: string, extra: Record<string, unknown> = {}) {
+  return { id, name: id, cost: { input, output }, modalities: { output: ["text"] }, canonical_model_id: canonical, ...extra };
+}
+
+function reversed<T>(record: Record<string, T>): Record<string, T> {
+  return Object.fromEntries(Object.entries(record).reverse());
+}
+
+test("the SKU named like the canonical id wins, whatever the upstream key order", () => {
+  const canonical = "moonshotai/kimi-k3.1-pro";
+  const skus = {
+    "kimi-k3.1-pro-highspeed": sku("kimi-k3.1-pro-highspeed", 4, 20, canonical),
+    "kimi-k3.1-pro": sku("kimi-k3.1-pro", 2, 10, canonical),
+  };
+  for (const models of [skus, reversed(skus)]) {
+    const [m] = normalizeModelsDev({ moonshotai: { models } } as RawModelsDev);
+    assert.equal(m.name, "kimi-k3.1-pro");
+    assert.deepEqual([m.price.input, m.price.output], [2, 10]);
+  }
+});
+
+test("the named SKU wins even when a promo SKU is cheaper", () => {
+  const canonical = "meta/muse-spark-1.3";
+  const skus = {
+    "muse-spark-1.3-contributor": sku("muse-spark-1.3-contributor", 0.1, 0.2, canonical),
+    "muse-spark-1.3": sku("muse-spark-1.3", 1.25, 4.25, canonical),
+  };
+  for (const models of [skus, reversed(skus)]) {
+    assert.equal(normalizeModelsDev({ meta: { models } } as RawModelsDev)[0].price.input, 1.25);
+  }
+});
+
+test("without a named SKU, the live SKU wins and the choice does not depend on key order", () => {
+  const canonical = "deepseek/deepseek-v4.1-flash-1017";
+  const skus = {
+    "deepseek-v4-flash": sku("deepseek-v4-flash", 0.15, 0.6, canonical, { status: "deprecated" }),
+    "deepseek-flash": sku("deepseek-flash", 0.15, 0.6, canonical),
+    "deepseek-v4-flash-vision-exp": sku("deepseek-v4-flash-vision-exp", 0.15, 0.6, canonical, { status: "deprecated" }),
+  };
+  for (const models of [skus, reversed(skus)]) {
+    const [m] = normalizeModelsDev({ deepseek: { models } } as RawModelsDev);
+    assert.equal(m.name, "deepseek-flash");
+    assert.equal(m.status, "active");
+  }
+});
