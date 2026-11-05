@@ -7141,7 +7141,17 @@
     },
     "hosts": [
       {
+        "provider": "baseten",
+        "input": 2,
+        "output": 10
+      },
+      {
         "provider": "novita-ai",
+        "input": 2,
+        "output": 10
+      },
+      {
+        "provider": "togetherai",
         "input": 2,
         "output": 10
       }
