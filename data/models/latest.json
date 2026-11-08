@@ -7146,6 +7146,11 @@
         "output": 10
       },
       {
+        "provider": "fireworks-ai",
+        "input": 2,
+        "output": 10
+      },
+      {
         "provider": "novita-ai",
         "input": 2,
         "output": 10
@@ -8510,11 +8515,6 @@
       },
       {
         "provider": "amazon-bedrock",
-        "input": 0.15,
-        "output": 0.6
-      },
-      {
-        "provider": "fireworks-ai",
         "input": 0.15,
         "output": 0.6
       },
