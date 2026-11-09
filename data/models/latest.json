@@ -537,7 +537,7 @@
     "family": "qwen",
     "releaseDate": "2025-04-28",
     "knowledgeCutoff": null,
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.0509,
@@ -2112,7 +2112,7 @@
     "family": "qwen",
     "releaseDate": "2025-03-05",
     "knowledgeCutoff": "2024-04",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.66,
@@ -5054,7 +5054,7 @@
     "family": "llama",
     "releaseDate": "2024-09-25",
     "knowledgeCutoff": "2023-12",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.027,
@@ -5124,7 +5124,7 @@
     "family": "llama",
     "releaseDate": "2024-09-25",
     "knowledgeCutoff": "2023-12",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.0509,
@@ -7118,7 +7118,7 @@
     "releaseDate": "2026-10-23",
     "knowledgeCutoff": null,
     "status": "active",
-    "openWeights": false,
+    "openWeights": true,
     "price": {
       "input": 2,
       "output": 10,
@@ -7142,6 +7142,11 @@
     "hosts": [
       {
         "provider": "baseten",
+        "input": 2,
+        "output": 10
+      },
+      {
+        "provider": "deepinfra",
         "input": 2,
         "output": 10
       },
