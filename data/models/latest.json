@@ -2272,6 +2272,55 @@
     "aliases": []
   },
   {
+    "id": "anthropic/claude-fable-5-2",
+    "slug": "claude-fable-5-2",
+    "lab": "anthropic",
+    "name": "Claude Fable 5.2",
+    "family": "claude-fable",
+    "releaseDate": "2026-11-09",
+    "knowledgeCutoff": "2026-06",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 8,
+      "output": 40,
+      "cacheRead": 0.2,
+      "cacheWrite": 10
+    },
+    "blended": 16,
+    "priceSource": "anthropic",
+    "context": 1000000,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "amazon-bedrock",
+        "input": 8,
+        "output": 40
+      },
+      {
+        "provider": "azure",
+        "input": 8,
+        "output": 40
+      },
+      {
+        "provider": "google-vertex",
+        "input": 8,
+        "output": 40
+      }
+    ],
+    "aliases": []
+  },
+  {
     "id": "anthropic/claude-haiku-4-5",
     "slug": "claude-haiku-4-5",
     "lab": "anthropic",
@@ -5460,6 +5509,47 @@
     "aliases": []
   },
   {
+    "id": "meta/muse-ember-1.0",
+    "slug": "muse-ember-1.0",
+    "lab": "meta",
+    "name": "Muse Ember",
+    "family": "muse",
+    "releaseDate": "2026-11-09",
+    "knowledgeCutoff": null,
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 0.1,
+      "output": 0.5,
+      "cacheRead": 0.004,
+      "tiers": [
+        {
+          "minContext": 200000,
+          "input": 0.3,
+          "output": 1.5
+        }
+      ]
+    },
+    "blended": 0.2,
+    "priceSource": "meta",
+    "context": 1048576,
+    "maxOutput": 524288,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video",
+      "pdf",
+      "audio"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
+    "aliases": []
+  },
+  {
     "id": "meta/muse-spark-1.1",
     "slug": "muse-spark-1.1",
     "lab": "meta",
@@ -7164,6 +7254,11 @@
         "provider": "togetherai",
         "input": 2,
         "output": 10
+      },
+      {
+        "provider": "amazon-bedrock",
+        "input": 4,
+        "output": 20
       }
     ],
     "aliases": []
