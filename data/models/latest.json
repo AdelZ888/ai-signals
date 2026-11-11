@@ -2860,7 +2860,7 @@
     "family": "claude-sonnet",
     "releaseDate": "2025-09-29",
     "knowledgeCutoff": "2025-07-31",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": false,
     "price": {
       "input": 3,
@@ -4620,6 +4620,46 @@
     "name": "Gemini 4 Argon",
     "family": "gemini",
     "releaseDate": "2026-10-13",
+    "knowledgeCutoff": "2026-03",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 2,
+      "output": 10,
+      "cacheRead": 0.1
+    },
+    "blended": 4,
+    "priceSource": "google",
+    "context": 1048576,
+    "maxOutput": 32768,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "google-vertex",
+        "input": 2,
+        "output": 10
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "google/gemini-4-carbon",
+    "slug": "gemini-4-carbon",
+    "lab": "google",
+    "name": "Gemini 4 Carbon",
+    "family": "gemini",
+    "releaseDate": "2026-11-10",
     "knowledgeCutoff": "2026-03",
     "status": "active",
     "openWeights": false,
