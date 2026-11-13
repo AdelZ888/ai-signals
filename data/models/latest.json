@@ -4039,14 +4039,7 @@
     "openWeights": false,
     "price": {
       "input": 1.25,
-      "output": 10,
-      "tiers": [
-        {
-          "minContext": 200000,
-          "input": 2.5,
-          "output": 15
-        }
-      ]
+      "output": 10
     },
     "blended": 3.4375,
     "priceSource": "google",
@@ -4669,6 +4662,46 @@
         "provider": "google-vertex",
         "input": 2,
         "output": 10
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "google/gemini-4-hydrogen",
+    "slug": "gemini-4-hydrogen",
+    "lab": "google",
+    "name": "Gemini 4 Hydrogen",
+    "family": "gemini",
+    "releaseDate": "2026-11-12",
+    "knowledgeCutoff": "2026-03",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 1.5,
+      "output": 7.5,
+      "cacheRead": 0.075
+    },
+    "blended": 3,
+    "priceSource": "google",
+    "context": 1048576,
+    "maxOutput": 65536,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "google-vertex",
+        "input": 1.5,
+        "output": 7.5
       }
     ],
     "aliases": []
