@@ -6335,7 +6335,7 @@
     "blended": 0.1,
     "priceSource": "mistral",
     "context": 131072,
-    "maxOutput": 262144,
+    "maxOutput": 131072,
     "modalitiesIn": [
       "text",
       "image",
@@ -7290,6 +7290,11 @@
       },
       {
         "provider": "fireworks-ai",
+        "input": 2,
+        "output": 10
+      },
+      {
+        "provider": "nebius",
         "input": 2,
         "output": 10
       },
