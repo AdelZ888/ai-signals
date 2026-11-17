@@ -2100,6 +2100,49 @@
     "aliases": []
   },
   {
+    "id": "alibaba/qwen4-max",
+    "slug": "qwen4-max",
+    "lab": "alibaba",
+    "name": "Qwen4 Max",
+    "family": "qwen",
+    "releaseDate": "2026-11-16",
+    "knowledgeCutoff": null,
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 1.413,
+      "output": 4.24,
+      "cacheRead": 0.071
+    },
+    "blended": 2.1197,
+    "priceSource": "deepinfra",
+    "context": 1000000,
+    "maxOutput": 262144,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 1.413,
+        "output": 4.24
+      },
+      {
+        "provider": "novita-ai",
+        "input": 1.413,
+        "output": 4.24
+      }
+    ],
+    "aliases": []
+  },
+  {
     "id": "alibaba/qwq-32b",
     "slug": "qwq-32b",
     "lab": "alibaba",
@@ -8717,7 +8760,8 @@
     "openWeights": true,
     "price": {
       "input": 0.03,
-      "output": 0.14
+      "output": 0.14,
+      "cacheRead": 0.015
     },
     "blended": 0.0575,
     "priceSource": "deepinfra",
