@@ -1214,14 +1214,21 @@
     "maxOutput": 32768,
     "modalitiesIn": [
       "text",
-      "image"
+      "image",
+      "video"
     ],
     "capabilities": {
       "reasoning": true,
       "toolCall": true,
       "structuredOutput": true
     },
-    "hosts": [],
+    "hosts": [
+      {
+        "provider": "novita-ai",
+        "input": 0.144,
+        "output": 1.434
+      }
+    ],
     "aliases": []
   },
   {
@@ -8660,6 +8667,86 @@
         "output": 5
       }
     ],
+    "aliases": []
+  },
+  {
+    "id": "openai/gpt-6.2-astra",
+    "slug": "gpt-6.2-astra",
+    "lab": "openai",
+    "name": "GPT-6.2 Astra",
+    "family": "gpt-astra",
+    "releaseDate": "2026-11-17",
+    "knowledgeCutoff": "2026-05-18",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 8,
+      "output": 40,
+      "cacheRead": 0.4,
+      "cacheWrite": 10,
+      "tiers": [
+        {
+          "minContext": 272000,
+          "input": 16,
+          "output": 60
+        }
+      ]
+    },
+    "blended": 16,
+    "priceSource": "openai",
+    "context": 1050000,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
+    "aliases": []
+  },
+  {
+    "id": "openai/gpt-6.2-sol",
+    "slug": "gpt-6.2-sol",
+    "lab": "openai",
+    "name": "GPT-6.2 Sol",
+    "family": "gpt-sol",
+    "releaseDate": "2026-11-17",
+    "knowledgeCutoff": "2026-06-01",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 2,
+      "output": 10,
+      "cacheRead": 0.1,
+      "cacheWrite": 2.5,
+      "tiers": [
+        {
+          "minContext": 272000,
+          "input": 4,
+          "output": 15
+        }
+      ]
+    },
+    "blended": 4,
+    "priceSource": "openai",
+    "context": 1050000,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
     "aliases": []
   },
   {
