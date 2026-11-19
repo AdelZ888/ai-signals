@@ -4757,6 +4757,46 @@
     "aliases": []
   },
   {
+    "id": "google/gemini-4-neon",
+    "slug": "gemini-4-neon",
+    "lab": "google",
+    "name": "Gemini 4 Neon",
+    "family": "gemini",
+    "releaseDate": "2026-11-18",
+    "knowledgeCutoff": "2026-03",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 3,
+      "output": 15,
+      "cacheRead": 0.15
+    },
+    "blended": 6,
+    "priceSource": "google",
+    "context": 1048576,
+    "maxOutput": 65536,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "google-vertex",
+        "input": 3,
+        "output": 15
+      }
+    ],
+    "aliases": []
+  },
+  {
     "id": "google/gemma-3-12b-it",
     "slug": "gemma-3-12b-it",
     "lab": "google",
@@ -8665,6 +8705,11 @@
         "provider": "azure",
         "input": 1,
         "output": 5
+      },
+      {
+        "provider": "novita-ai",
+        "input": 1,
+        "output": 5
       }
     ],
     "aliases": []
@@ -8706,7 +8751,23 @@
       "toolCall": true,
       "structuredOutput": true
     },
-    "hosts": [],
+    "hosts": [
+      {
+        "provider": "amazon-bedrock",
+        "input": 8,
+        "output": 40
+      },
+      {
+        "provider": "azure",
+        "input": 8,
+        "output": 40
+      },
+      {
+        "provider": "novita-ai",
+        "input": 8,
+        "output": 40
+      }
+    ],
     "aliases": []
   },
   {
@@ -8746,7 +8807,23 @@
       "toolCall": true,
       "structuredOutput": true
     },
-    "hosts": [],
+    "hosts": [
+      {
+        "provider": "amazon-bedrock",
+        "input": 2,
+        "output": 10
+      },
+      {
+        "provider": "azure",
+        "input": 2,
+        "output": 10
+      },
+      {
+        "provider": "novita-ai",
+        "input": 2,
+        "output": 10
+      }
+    ],
     "aliases": []
   },
   {
