@@ -3952,20 +3952,20 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "slug": "deepseek-v4.1-flash",
     "lab": "deepseek",
-    "name": "DeepSeek V4.1 Flash",
+    "name": "DeepSeek V4.1 Flash Spot",
     "family": "deepseek-flash",
     "releaseDate": "2026-09-10",
     "knowledgeCutoff": "2025-05",
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.2,
+      "input": 0.15,
       "output": 0.6,
-      "cacheRead": 0.006
+      "cacheRead": 0.003
     },
-    "blended": 0.3,
-    "priceSource": "deepinfra",
-    "context": 1048576,
+    "blended": 0.2625,
+    "priceSource": "fireworks-ai",
+    "context": 1000000,
     "maxOutput": 384000,
     "modalitiesIn": [
       "text",
@@ -3978,14 +3978,14 @@
     },
     "hosts": [
       {
-        "provider": "deepinfra",
-        "input": 0.2,
+        "provider": "fireworks-ai",
+        "input": 0.15,
         "output": 0.6
       },
       {
-        "provider": "fireworks-ai",
-        "input": 0.21,
-        "output": 0.84
+        "provider": "deepinfra",
+        "input": 0.2,
+        "output": 0.6
       },
       {
         "provider": "azure",
@@ -4008,74 +4008,9 @@
         "output": 1.2
       }
     ],
-    "aliases": []
-  },
-  {
-    "id": "deepseek/deepseek-v4.1-flash-1017",
-    "slug": "deepseek-v4.1-flash-1017",
-    "lab": "deepseek",
-    "name": "DeepSeek V4.1 Flash 1017",
-    "family": "deepseek-flash",
-    "releaseDate": "2026-10-17",
-    "knowledgeCutoff": "2025-05",
-    "status": "active",
-    "openWeights": true,
-    "price": {
-      "input": 0.15,
-      "output": 0.6,
-      "cacheRead": 0.003
-    },
-    "blended": 0.2625,
-    "priceSource": "deepseek",
-    "context": 1048576,
-    "maxOutput": 393216,
-    "modalitiesIn": [
-      "text",
-      "image"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": true
-    },
-    "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 0.2,
-        "output": 0.6
-      },
-      {
-        "provider": "fireworks-ai",
-        "input": 0.21,
-        "output": 0.84
-      },
-      {
-        "provider": "baseten",
-        "input": 0.3,
-        "output": 1.2
-      },
-      {
-        "provider": "cloudflare-workers-ai",
-        "input": 0.3,
-        "output": 1.2
-      },
-      {
-        "provider": "nebius",
-        "input": 0.3,
-        "output": 1.2
-      },
-      {
-        "provider": "novita-ai",
-        "input": 0.3,
-        "output": 1.2
-      },
-      {
-        "provider": "scaleway",
-        "input": 0.672,
-        "output": 2.016
-      }
-    ],
-    "aliases": []
+    "aliases": [
+      "deepseek-v4.1-flash-1017"
+    ]
   },
   {
     "id": "google/gemini-2.5-computer-use-preview-10-2025",
@@ -9631,50 +9566,16 @@
         "output": 6
       },
       {
+        "provider": "azure",
+        "input": 2,
+        "output": 6
+      },
+      {
         "provider": "google-vertex",
         "input": 2,
         "output": 6
       }
     ],
-    "aliases": []
-  },
-  {
-    "id": "xai/grok-build-0.1",
-    "slug": "grok-build-0.1",
-    "lab": "xai",
-    "name": "Grok Build 0.1",
-    "family": "grok-build",
-    "releaseDate": "2026-04-16",
-    "knowledgeCutoff": null,
-    "status": "active",
-    "openWeights": false,
-    "price": {
-      "input": 1,
-      "output": 2,
-      "cacheRead": 0.2,
-      "tiers": [
-        {
-          "minContext": 200000,
-          "input": 2,
-          "output": 4
-        }
-      ]
-    },
-    "blended": 1.25,
-    "priceSource": "xai",
-    "context": 256000,
-    "maxOutput": 256000,
-    "modalitiesIn": [
-      "text",
-      "image",
-      "pdf"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": true
-    },
-    "hosts": [],
     "aliases": []
   },
   {
@@ -10268,8 +10169,8 @@
     "hosts": [
       {
         "provider": "fireworks-ai",
-        "input": 0.98,
-        "output": 3.08
+        "input": 0.7,
+        "output": 2.2
       },
       {
         "provider": "deepinfra",
