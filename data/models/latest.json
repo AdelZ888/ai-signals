@@ -347,41 +347,6 @@
     "aliases": []
   },
   {
-    "id": "alibaba/qwen2.5-7b-instruct",
-    "slug": "qwen2.5-7b-instruct",
-    "lab": "alibaba",
-    "name": "Qwen 2.5 7B Instruct Turbo",
-    "family": "qwen",
-    "releaseDate": "2024-09-19",
-    "knowledgeCutoff": null,
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.3,
-      "output": 0.3
-    },
-    "blended": 0.3,
-    "priceSource": "togetherai",
-    "context": 32768,
-    "maxOutput": 32768,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": true,
-      "structuredOutput": true
-    },
-    "hosts": [
-      {
-        "provider": "togetherai",
-        "input": 0.3,
-        "output": 0.3
-      }
-    ],
-    "aliases": []
-  },
-  {
     "id": "alibaba/qwen2.5-coder-32b-instruct",
     "slug": "qwen2.5-coder-32b-instruct",
     "lab": "alibaba",
@@ -508,11 +473,6 @@
       },
       {
         "provider": "nebius",
-        "input": 0.2,
-        "output": 0.6
-      },
-      {
-        "provider": "togetherai",
         "input": 0.2,
         "output": 0.6
       },
@@ -769,11 +729,6 @@
         "provider": "amazon-bedrock",
         "input": 0.45,
         "output": 1.8
-      },
-      {
-        "provider": "togetherai",
-        "input": 2,
-        "output": 2
       }
     ],
     "aliases": []
@@ -855,11 +810,6 @@
     "hosts": [
       {
         "provider": "amazon-bedrock",
-        "input": 0.5,
-        "output": 1.2
-      },
-      {
-        "provider": "togetherai",
         "input": 0.5,
         "output": 1.2
       }
@@ -1397,11 +1347,6 @@
         "output": 3.6
       },
       {
-        "provider": "togetherai",
-        "input": 0.6,
-        "output": 3.6
-      },
-      {
         "provider": "scaleway",
         "input": 0.6729,
         "output": 4.0374
@@ -1862,7 +1807,13 @@
       "toolCall": true,
       "structuredOutput": true
     },
-    "hosts": [],
+    "hosts": [
+      {
+        "provider": "togetherai",
+        "input": 0.32,
+        "output": 1.28
+      }
+    ],
     "aliases": []
   },
   {
@@ -2019,6 +1970,11 @@
         "provider": "novita-ai",
         "input": 0.15,
         "output": 0.47
+      },
+      {
+        "provider": "togetherai",
+        "input": 0.15,
+        "output": 0.47
       }
     ],
     "aliases": []
@@ -2117,19 +2073,18 @@
     "status": "active",
     "openWeights": false,
     "price": {
-      "input": 1.05,
-      "output": 3.15,
-      "cacheRead": 0.0525
+      "input": 1.413,
+      "output": 4.24,
+      "cacheRead": 0.071
     },
-    "blended": 1.575,
-    "priceSource": "togetherai",
+    "blended": 2.1197,
+    "priceSource": "deepinfra",
     "context": 1000000,
     "maxOutput": 262144,
     "modalitiesIn": [
       "text",
       "image",
-      "video",
-      "pdf"
+      "video"
     ],
     "capabilities": {
       "reasoning": true,
@@ -2137,11 +2092,6 @@
       "structuredOutput": true
     },
     "hosts": [
-      {
-        "provider": "togetherai",
-        "input": 1.05,
-        "output": 3.15
-      },
       {
         "provider": "deepinfra",
         "input": 1.413,
@@ -2151,6 +2101,11 @@
         "provider": "novita-ai",
         "input": 1.413,
         "output": 4.24
+      },
+      {
+        "provider": "togetherai",
+        "input": 1.5,
+        "output": 4.5
       }
     ],
     "aliases": []
@@ -2226,7 +2181,7 @@
     "name": "Claude Fable 5",
     "family": "claude-fable",
     "releaseDate": "2026-06-07",
-    "knowledgeCutoff": null,
+    "knowledgeCutoff": "2026-01-31",
     "status": "active",
     "openWeights": false,
     "price": {
@@ -2592,7 +2547,7 @@
     "family": "claude-opus",
     "releaseDate": "2025-11-24",
     "knowledgeCutoff": "2025-05",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": false,
     "price": {
       "input": 5,
@@ -3454,11 +3409,6 @@
         "provider": "amazon-bedrock",
         "input": 1.35,
         "output": 5.4
-      },
-      {
-        "provider": "togetherai",
-        "input": 3,
-        "output": 7
       }
     ],
     "aliases": []
@@ -3575,11 +3525,6 @@
         "provider": "novita-ai",
         "input": 0.89,
         "output": 0.89
-      },
-      {
-        "provider": "togetherai",
-        "input": 1.25,
-        "output": 1.25
       }
     ],
     "aliases": []
@@ -3657,11 +3602,6 @@
         "provider": "amazon-bedrock",
         "input": 0.58,
         "output": 1.68
-      },
-      {
-        "provider": "togetherai",
-        "input": 0.6,
-        "output": 1.7
       }
     ],
     "aliases": []
@@ -3786,11 +3726,6 @@
         "provider": "baseten",
         "input": 0.13,
         "output": 0.26
-      },
-      {
-        "provider": "togetherai",
-        "input": 0.14,
-        "output": 0.28
       },
       {
         "provider": "scaleway",
@@ -5276,11 +5211,6 @@
         "provider": "scaleway",
         "input": 1.00935,
         "output": 1.00935
-      },
-      {
-        "provider": "togetherai",
-        "input": 1.04,
-        "output": 1.04
       }
     ],
     "aliases": []
@@ -5939,11 +5869,6 @@
         "provider": "novita-ai",
         "input": 0.3,
         "output": 1.2
-      },
-      {
-        "provider": "togetherai",
-        "input": 0.3,
-        "output": 1.2
       }
     ],
     "aliases": []
@@ -6015,11 +5940,6 @@
       },
       {
         "provider": "novita-ai",
-        "input": 0.3,
-        "output": 1.2
-      },
-      {
-        "provider": "togetherai",
         "input": 0.3,
         "output": 1.2
       }
@@ -6117,11 +6037,6 @@
       },
       {
         "provider": "novita-ai",
-        "input": 0.3,
-        "output": 1.2
-      },
-      {
-        "provider": "togetherai",
         "input": 0.3,
         "output": 1.2
       }
@@ -6411,7 +6326,7 @@
     "family": "mistral-large",
     "releaseDate": "2025-12-02",
     "knowledgeCutoff": "2023-10",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.5,
@@ -6517,7 +6432,7 @@
     "family": "mistral-medium",
     "releaseDate": "2026-04-29",
     "knowledgeCutoff": null,
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 1.5,
@@ -9694,11 +9609,6 @@
         "provider": "novita-ai",
         "input": 1,
         "output": 3.2
-      },
-      {
-        "provider": "togetherai",
-        "input": 1,
-        "output": 3.2
       }
     ],
     "aliases": []
@@ -9771,11 +9681,6 @@
       {
         "provider": "novita-ai",
         "input": 1.38,
-        "output": 4.4
-      },
-      {
-        "provider": "togetherai",
-        "input": 1.4,
         "output": 4.4
       }
     ],
@@ -9998,6 +9903,40 @@
         "output": 0.5
       }
     ],
+    "aliases": []
+  },
+  {
+    "id": "zhipuai/glm-5.3-flashx-legal",
+    "slug": "glm-5.3-flashx-legal",
+    "lab": "zhipuai",
+    "name": "GLM-5.3-FlashX-Legal",
+    "family": "glm-flash-legal",
+    "releaseDate": "2026-11-02",
+    "knowledgeCutoff": null,
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 0.37,
+      "output": 1.25,
+      "cacheRead": 0.075,
+      "cacheWrite": 0
+    },
+    "blended": 0.59,
+    "priceSource": "zai",
+    "context": 1000000,
+    "maxOutput": 131072,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "video",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
     "aliases": []
   },
   {
