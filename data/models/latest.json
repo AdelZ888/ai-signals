@@ -1,35 +1,5 @@
 [
   {
-    "id": "alibaba/qvq-max",
-    "slug": "qvq-max",
-    "lab": "alibaba",
-    "name": "QVQ Max",
-    "family": "qvq",
-    "releaseDate": "2025-03-25",
-    "knowledgeCutoff": "2024-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 1.2,
-      "output": 4.8
-    },
-    "blended": 2.1,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text",
-      "image"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
     "id": "alibaba/qwen-flash",
     "slug": "qwen-flash",
     "lab": "alibaba",
@@ -79,7 +49,8 @@
     "openWeights": false,
     "price": {
       "input": 1.6,
-      "output": 6.4
+      "output": 6.4,
+      "cacheRead": 0.32
     },
     "blended": 2.8,
     "priceSource": "alibaba",
@@ -132,35 +103,6 @@
     "aliases": []
   },
   {
-    "id": "alibaba/qwen-mt-turbo",
-    "slug": "qwen-mt-turbo",
-    "lab": "alibaba",
-    "name": "Qwen-MT Turbo",
-    "family": "qwen-mt-turbo",
-    "releaseDate": "2025-01-01",
-    "knowledgeCutoff": "2024-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 0.16,
-      "output": 0.49
-    },
-    "blended": 0.2425,
-    "priceSource": "alibaba",
-    "context": 16384,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
     "id": "alibaba/qwen-plus",
     "slug": "qwen-plus",
     "lab": "alibaba",
@@ -210,7 +152,8 @@
     "openWeights": false,
     "price": {
       "input": 0.5,
-      "output": 1.4
+      "output": 1.4,
+      "cacheRead": 0.1
     },
     "blended": 0.725,
     "priceSource": "alibaba",
@@ -222,65 +165,6 @@
     "capabilities": {
       "reasoning": false,
       "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen-turbo",
-    "slug": "qwen-turbo",
-    "lab": "alibaba",
-    "name": "Qwen Turbo",
-    "family": "qwen-turbo",
-    "releaseDate": "2024-11-01",
-    "knowledgeCutoff": "2024-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 0.05,
-      "output": 0.2
-    },
-    "blended": 0.0875,
-    "priceSource": "alibaba",
-    "context": 1000000,
-    "maxOutput": 16384,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen-vl-max",
-    "slug": "qwen-vl-max",
-    "lab": "alibaba",
-    "name": "Qwen-VL Max",
-    "family": "qwen-vl-max",
-    "releaseDate": "2024-04-08",
-    "knowledgeCutoff": "2024-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 0.8,
-      "output": 3.2
-    },
-    "blended": 1.4,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text",
-      "image"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": true,
       "structuredOutput": false
     },
     "hosts": [],
@@ -311,36 +195,6 @@
     "capabilities": {
       "reasoning": false,
       "toolCall": false,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen-vl-plus",
-    "slug": "qwen-vl-plus",
-    "lab": "alibaba",
-    "name": "Qwen-VL Plus",
-    "family": "qwen-vl-plus",
-    "releaseDate": "2024-01-25",
-    "knowledgeCutoff": "2024-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 0.21,
-      "output": 0.63
-    },
-    "blended": 0.315,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text",
-      "image"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": true,
       "structuredOutput": false
     },
     "hosts": [],
@@ -379,64 +233,6 @@
         "output": 1
       }
     ],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen3-14b",
-    "slug": "qwen3-14b",
-    "lab": "alibaba",
-    "name": "Qwen3 14B",
-    "family": "qwen",
-    "releaseDate": "2025-04-01",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.35,
-      "output": 1.4
-    },
-    "blended": 0.6125,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen3-235b-a22b",
-    "slug": "qwen3-235b-a22b",
-    "lab": "alibaba",
-    "name": "Qwen3 235B-A22B",
-    "family": "qwen",
-    "releaseDate": "2025-04-01",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.7,
-      "output": 2.8
-    },
-    "blended": 1.225,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 16384,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
     "aliases": []
   },
   {
@@ -571,17 +367,17 @@
     "lab": "alibaba",
     "name": "Qwen3 32B",
     "family": "qwen",
-    "releaseDate": "2025-04-01",
+    "releaseDate": "2025-04-28",
     "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.7,
-      "output": 2.8
+      "input": 0.08,
+      "output": 0.28
     },
-    "blended": 1.225,
-    "priceSource": "alibaba",
-    "context": 131072,
+    "blended": 0.13,
+    "priceSource": "deepinfra",
+    "context": 40960,
     "maxOutput": 16384,
     "modalitiesIn": [
       "text"
@@ -589,7 +385,7 @@
     "capabilities": {
       "reasoning": true,
       "toolCall": true,
-      "structuredOutput": false
+      "structuredOutput": true
     },
     "hosts": [
       {
@@ -606,71 +402,30 @@
     "aliases": []
   },
   {
-    "id": "alibaba/qwen3-8b",
-    "slug": "qwen3-8b",
-    "lab": "alibaba",
-    "name": "Qwen3 8B",
-    "family": "qwen",
-    "releaseDate": "2025-04-01",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.18,
-      "output": 0.7
-    },
-    "blended": 0.31,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
     "id": "alibaba/qwen3-coder-30b-a3b-instruct",
     "slug": "qwen3-coder-30b-a3b-instruct",
     "lab": "alibaba",
     "name": "Qwen3-Coder 30B-A3B Instruct",
     "family": "qwen-coder",
-    "releaseDate": "2025-04-01",
+    "releaseDate": "2025-07-31",
     "knowledgeCutoff": "2025-04",
     "status": "deprecated",
     "openWeights": true,
     "price": {
-      "input": 0.45,
-      "output": 2.25,
-      "tiers": [
-        {
-          "minContext": 32000,
-          "input": 0.75,
-          "output": 3.75
-        },
-        {
-          "minContext": 128000,
-          "input": 1.2,
-          "output": 6
-        }
-      ]
+      "input": 0.15,
+      "output": 0.6
     },
-    "blended": 0.9,
-    "priceSource": "alibaba",
+    "blended": 0.2625,
+    "priceSource": "amazon-bedrock",
     "context": 262144,
-    "maxOutput": 65536,
+    "maxOutput": 131072,
     "modalitiesIn": [
       "text"
     ],
     "capabilities": {
       "reasoning": false,
       "toolCall": true,
-      "structuredOutput": false
+      "structuredOutput": true
     },
     "hosts": [
       {
@@ -685,39 +440,28 @@
     "id": "alibaba/qwen3-coder-480b-a35b-instruct",
     "slug": "qwen3-coder-480b-a35b-instruct",
     "lab": "alibaba",
-    "name": "Qwen3-Coder 480B-A35B Instruct",
+    "name": "Qwen3 Coder 480B A35B Instruct Turbo",
     "family": "qwen-coder",
-    "releaseDate": "2025-04-01",
+    "releaseDate": "2025-07-22",
     "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
-      "input": 1.5,
-      "output": 7.5,
-      "tiers": [
-        {
-          "minContext": 32000,
-          "input": 2.7,
-          "output": 13.5
-        },
-        {
-          "minContext": 128000,
-          "input": 4.5,
-          "output": 22.5
-        }
-      ]
+      "input": 0.3,
+      "output": 1,
+      "cacheRead": 0.1
     },
-    "blended": 3,
-    "priceSource": "alibaba",
+    "blended": 0.475,
+    "priceSource": "deepinfra",
     "context": 262144,
-    "maxOutput": 65536,
+    "maxOutput": 66536,
     "modalitiesIn": [
       "text"
     ],
     "capabilities": {
       "reasoning": false,
       "toolCall": true,
-      "structuredOutput": false
+      "structuredOutput": true
     },
     "hosts": [
       {
@@ -817,70 +561,6 @@
     "aliases": []
   },
   {
-    "id": "alibaba/qwen3-coder-plus",
-    "slug": "qwen3-coder-plus",
-    "lab": "alibaba",
-    "name": "Qwen3 Coder Plus",
-    "family": "qwen-coder-plus",
-    "releaseDate": "2025-07-23",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 1,
-      "output": 5
-    },
-    "blended": 2,
-    "priceSource": "alibaba",
-    "context": 1048576,
-    "maxOutput": 65536,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen3-max",
-    "slug": "qwen3-max",
-    "lab": "alibaba",
-    "name": "Qwen3 Max",
-    "family": "qwen-max",
-    "releaseDate": "2025-09-23",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 1.2,
-      "output": 6
-    },
-    "blended": 2.4,
-    "priceSource": "alibaba",
-    "context": 262144,
-    "maxOutput": 65536,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 1.2,
-        "output": 6
-      }
-    ],
-    "aliases": []
-  },
-  {
     "id": "alibaba/qwen3-next-80b-a3b-instruct",
     "slug": "qwen3-next-80b-a3b-instruct",
     "lab": "alibaba",
@@ -888,15 +568,15 @@
     "family": "qwen",
     "releaseDate": "2025-09-01",
     "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.5,
-      "output": 2
+      "input": 0.09,
+      "output": 1.1
     },
-    "blended": 0.875,
-    "priceSource": "alibaba",
-    "context": 131072,
+    "blended": 0.3425,
+    "priceSource": "deepinfra",
+    "context": 262144,
     "maxOutput": 32768,
     "modalitiesIn": [
       "text"
@@ -904,7 +584,7 @@
     "capabilities": {
       "reasoning": false,
       "toolCall": true,
-      "structuredOutput": false
+      "structuredOutput": true
     },
     "hosts": [
       {
@@ -918,35 +598,6 @@
         "output": 1.2
       }
     ],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen3-next-80b-a3b-thinking",
-    "slug": "qwen3-next-80b-a3b-thinking",
-    "lab": "alibaba",
-    "name": "Qwen3-Next 80B-A3B (Thinking)",
-    "family": "qwen",
-    "releaseDate": "2025-09-01",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.5,
-      "output": 6
-    },
-    "blended": 1.875,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 32768,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
     "aliases": []
   },
   {
@@ -985,36 +636,6 @@
         "output": 0.97
       }
     ],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen3-vl-235b-a22b",
-    "slug": "qwen3-vl-235b-a22b",
-    "lab": "alibaba",
-    "name": "Qwen3-VL 235B-A22B",
-    "family": "qwen-vl",
-    "releaseDate": "2025-04-01",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.7,
-      "output": 2.8
-    },
-    "blended": 1.225,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 32768,
-    "modalitiesIn": [
-      "text",
-      "image"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
     "aliases": []
   },
   {
@@ -1067,7 +688,7 @@
     "family": "qwen-vl",
     "releaseDate": "2025-04-01",
     "knowledgeCutoff": "2025-04",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.2,
@@ -1211,11 +832,6 @@
     },
     "hosts": [
       {
-        "provider": "deepinfra",
-        "input": 0.29,
-        "output": 2.4
-      },
-      {
         "provider": "novita-ai",
         "input": 0.4,
         "output": 3.2
@@ -1315,7 +931,7 @@
     "family": "qwen",
     "releaseDate": "2026-02-15",
     "knowledgeCutoff": null,
-    "status": "active",
+    "status": "deprecated",
     "openWeights": true,
     "price": {
       "input": 0.6,
@@ -1437,11 +1053,12 @@
     "family": "qwen-plus",
     "releaseDate": "2026-02-16",
     "knowledgeCutoff": "2025-04",
-    "status": "active",
+    "status": "deprecated",
     "openWeights": false,
     "price": {
       "input": 0.4,
       "output": 2.4,
+      "cacheWrite": 0.5,
       "tiers": [
         {
           "minContext": 256000,
@@ -1597,37 +1214,6 @@
       "reasoning": true,
       "toolCall": true,
       "structuredOutput": true
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwen3.6-max-preview",
-    "slug": "qwen3.6-max-preview",
-    "lab": "alibaba",
-    "name": "Qwen3.6 Max Preview",
-    "family": "qwen-max",
-    "releaseDate": "2026-04-20",
-    "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 1.3,
-      "output": 7.8,
-      "cacheRead": 0.13,
-      "cacheWrite": 1.625
-    },
-    "blended": 2.925,
-    "priceSource": "alibaba",
-    "context": 262144,
-    "maxOutput": 65536,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
     },
     "hosts": [],
     "aliases": []
@@ -1824,15 +1410,15 @@
     "family": "qwen",
     "releaseDate": "2026-08-12",
     "knowledgeCutoff": null,
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
       "input": 2,
       "output": 6,
-      "cacheRead": 0.2
+      "cacheRead": 0.25
     },
     "blended": 3,
-    "priceSource": "deepinfra",
+    "priceSource": "fireworks-ai",
     "context": 262144,
     "maxOutput": 131072,
     "modalitiesIn": [
@@ -1844,11 +1430,6 @@
       "structuredOutput": true
     },
     "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 2,
-        "output": 6
-      },
       {
         "provider": "fireworks-ai",
         "input": 2,
@@ -2073,18 +1654,20 @@
     "status": "active",
     "openWeights": false,
     "price": {
-      "input": 1.413,
-      "output": 4.24,
-      "cacheRead": 0.071
+      "input": 1.5,
+      "output": 4.5,
+      "cacheRead": 0.075,
+      "cacheWrite": 1.875
     },
-    "blended": 2.1197,
-    "priceSource": "deepinfra",
+    "blended": 2.25,
+    "priceSource": "alibaba",
     "context": 1000000,
     "maxOutput": 262144,
     "modalitiesIn": [
       "text",
       "image",
-      "video"
+      "video",
+      "pdf"
     ],
     "capabilities": {
       "reasoning": true,
@@ -2101,6 +1684,11 @@
         "provider": "novita-ai",
         "input": 1.413,
         "output": 4.24
+      },
+      {
+        "provider": "fireworks-ai",
+        "input": 1.5,
+        "output": 4.5
       },
       {
         "provider": "togetherai",
@@ -2143,35 +1731,6 @@
         "output": 1
       }
     ],
-    "aliases": []
-  },
-  {
-    "id": "alibaba/qwq-plus",
-    "slug": "qwq-plus",
-    "lab": "alibaba",
-    "name": "QwQ Plus",
-    "family": "qwq",
-    "releaseDate": "2025-03-05",
-    "knowledgeCutoff": "2024-04",
-    "status": "deprecated",
-    "openWeights": false,
-    "price": {
-      "input": 0.8,
-      "output": 2.4
-    },
-    "blended": 1.2,
-    "priceSource": "alibaba",
-    "context": 131072,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": false
-    },
-    "hosts": [],
     "aliases": []
   },
   {
@@ -3099,36 +2658,6 @@
     "aliases": []
   },
   {
-    "id": "cohere/command-a-plus-05-2026",
-    "slug": "command-a-plus-05-2026",
-    "lab": "cohere",
-    "name": "Command A Plus",
-    "family": "command-a-plus",
-    "releaseDate": "2026-05-20",
-    "knowledgeCutoff": "2025-04-01",
-    "status": "active",
-    "openWeights": true,
-    "price": {
-      "input": 2.5,
-      "output": 10
-    },
-    "blended": 4.375,
-    "priceSource": "cohere",
-    "context": 128000,
-    "maxOutput": 64000,
-    "modalitiesIn": [
-      "text",
-      "image"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": true
-    },
-    "hosts": [],
-    "aliases": []
-  },
-  {
     "id": "cohere/command-a-reasoning-08-2025",
     "slug": "command-a-reasoning-08-2025",
     "lab": "cohere",
@@ -3525,42 +3054,6 @@
         "provider": "novita-ai",
         "input": 0.89,
         "output": 0.89
-      }
-    ],
-    "aliases": []
-  },
-  {
-    "id": "deepseek/deepseek-v3-0324",
-    "slug": "deepseek-v3-0324",
-    "lab": "deepseek",
-    "name": "DeepSeek V3 0324",
-    "family": "deepseek",
-    "releaseDate": "2025-03-24",
-    "knowledgeCutoff": null,
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.24,
-      "output": 0.9,
-      "cacheRead": 0.135
-    },
-    "blended": 0.405,
-    "priceSource": "deepinfra",
-    "context": 163840,
-    "maxOutput": 163840,
-    "modalitiesIn": [
-      "text"
-    ],
-    "capabilities": {
-      "reasoning": false,
-      "toolCall": true,
-      "structuredOutput": true
-    },
-    "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 0.24,
-        "output": 0.9
       }
     ],
     "aliases": []
@@ -4818,13 +4311,14 @@
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.14,
-      "output": 0.4
+      "input": 0.09,
+      "output": 0.34,
+      "cacheRead": 0.05
     },
-    "blended": 0.205,
-    "priceSource": "amazon-bedrock",
+    "blended": 0.1525,
+    "priceSource": "deepinfra",
     "context": 262144,
-    "maxOutput": 32768,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text",
       "image",
@@ -4837,6 +4331,11 @@
     },
     "hosts": [
       {
+        "provider": "deepinfra",
+        "input": 0.09,
+        "output": 0.34
+      },
+      {
         "provider": "amazon-bedrock",
         "input": 0.14,
         "output": 0.4
@@ -4844,11 +4343,6 @@
       {
         "provider": "novita-ai",
         "input": 0.14,
-        "output": 0.4
-      },
-      {
-        "provider": "deepinfra",
-        "input": 0.2,
         "output": 0.4
       }
     ],
@@ -4888,43 +4382,6 @@
         "provider": "amazon-bedrock",
         "input": 0.04,
         "output": 0.08
-      }
-    ],
-    "aliases": []
-  },
-  {
-    "id": "google/gemma-4-E4B-it",
-    "slug": "gemma-4-e4b-it",
-    "lab": "google",
-    "name": "Gemma 4 E4B IT",
-    "family": "gemma",
-    "releaseDate": "2026-04-02",
-    "knowledgeCutoff": null,
-    "status": "deprecated",
-    "openWeights": true,
-    "price": {
-      "input": 0.02,
-      "output": 0.1
-    },
-    "blended": 0.04,
-    "priceSource": "deepinfra",
-    "context": 131072,
-    "maxOutput": 8192,
-    "modalitiesIn": [
-      "text",
-      "image",
-      "audio"
-    ],
-    "capabilities": {
-      "reasoning": true,
-      "toolCall": true,
-      "structuredOutput": true
-    },
-    "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 0.02,
-        "output": 0.1
       }
     ],
     "aliases": []
@@ -4976,21 +4433,26 @@
     "openWeights": true,
     "price": {
       "input": 0.02,
-      "output": 0.05
+      "output": 0.04
     },
-    "blended": 0.0275,
-    "priceSource": "novita-ai",
-    "context": 16384,
-    "maxOutput": 16384,
+    "blended": 0.025,
+    "priceSource": "deepinfra",
+    "context": 131072,
+    "maxOutput": 4096,
     "modalitiesIn": [
       "text"
     ],
     "capabilities": {
       "reasoning": false,
-      "toolCall": false,
-      "structuredOutput": true
+      "toolCall": true,
+      "structuredOutput": false
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.02,
+        "output": 0.04
+      },
       {
         "provider": "novita-ai",
         "input": 0.02,
@@ -5219,20 +4681,20 @@
     "id": "meta/llama-4-maverick-17b-instruct",
     "slug": "llama-4-maverick-17b-instruct",
     "lab": "meta",
-    "name": "Llama 4 Maverick 17B FP8",
+    "name": "Llama 4 Maverick 17B Instruct",
     "family": "llama",
     "releaseDate": "2025-04-05",
     "knowledgeCutoff": "2024-08",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.2,
-      "output": 0.8
+      "input": 0.27,
+      "output": 0.85
     },
-    "blended": 0.35,
-    "priceSource": "deepinfra",
+    "blended": 0.415,
+    "priceSource": "novita-ai",
     "context": 1048576,
-    "maxOutput": 16384,
+    "maxOutput": 8192,
     "modalitiesIn": [
       "text",
       "image"
@@ -5243,11 +4705,6 @@
       "structuredOutput": true
     },
     "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 0.2,
-        "output": 0.8
-      },
       {
         "provider": "novita-ai",
         "input": 0.27,
@@ -5510,12 +4967,12 @@
     "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.35,
-      "output": 1.5,
+      "input": 0.3,
+      "output": 1.2,
       "cacheRead": 0.04
     },
-    "blended": 0.6375,
-    "priceSource": "togetherai",
+    "blended": 0.525,
+    "priceSource": "deepinfra",
     "context": 131072,
     "maxOutput": 131072,
     "modalitiesIn": [
@@ -5528,6 +4985,11 @@
       "structuredOutput": true
     },
     "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.3,
+        "output": 1.2
+      },
       {
         "provider": "togetherai",
         "input": 0.35,
@@ -5654,9 +5116,9 @@
       "cacheRead": 0.15
     },
     "blended": 2,
-    "priceSource": "fireworks-ai",
+    "priceSource": "baseten",
     "context": 1048576,
-    "maxOutput": 131072,
+    "maxOutput": 1048576,
     "modalitiesIn": [
       "text",
       "image"
@@ -5664,9 +5126,14 @@
     "capabilities": {
       "reasoning": true,
       "toolCall": true,
-      "structuredOutput": true
+      "structuredOutput": false
     },
     "hosts": [
+      {
+        "provider": "baseten",
+        "input": 1.25,
+        "output": 4.25
+      },
       {
         "provider": "fireworks-ai",
         "input": 1.25,
@@ -5856,11 +5323,6 @@
     },
     "hosts": [
       {
-        "provider": "deepinfra",
-        "input": 0.15,
-        "output": 1.15
-      },
-      {
         "provider": "amazon-bedrock",
         "input": 0.3,
         "output": 1.2
@@ -5933,11 +5395,6 @@
       "structuredOutput": false
     },
     "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 0.25,
-        "output": 1
-      },
       {
         "provider": "novita-ai",
         "input": 0.3,
@@ -6362,10 +5819,10 @@
     "lab": "mistral",
     "name": "Mistral Large 4",
     "family": "mistral-large",
-    "releaseDate": "2026-10-06",
+    "releaseDate": "2026-10-05",
     "knowledgeCutoff": null,
     "status": "active",
-    "openWeights": false,
+    "openWeights": true,
     "price": {
       "input": 0.7,
       "output": 2.1,
@@ -6430,7 +5887,7 @@
     "lab": "mistral",
     "name": "Mistral Medium 3.5",
     "family": "mistral-medium",
-    "releaseDate": "2026-04-29",
+    "releaseDate": "2026-04-28",
     "knowledgeCutoff": null,
     "status": "deprecated",
     "openWeights": true,
@@ -6458,6 +5915,41 @@
         "provider": "scaleway",
         "input": 1.68225,
         "output": 8.41125
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "mistral/mistral-nemo",
+    "slug": "mistral-nemo",
+    "lab": "mistral",
+    "name": "Mistral Nemo",
+    "family": "mistral-nemo",
+    "releaseDate": "2024-07-18",
+    "knowledgeCutoff": "2024-07",
+    "status": "active",
+    "openWeights": true,
+    "price": {
+      "input": 0.029,
+      "output": 0.03
+    },
+    "blended": 0.0293,
+    "priceSource": "deepinfra",
+    "context": 131072,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": false,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.029,
+        "output": 0.03
       }
     ],
     "aliases": []
@@ -6602,6 +6094,42 @@
         "provider": "cloudflare-workers-ai",
         "input": 0.351,
         "output": 0.555
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "mistral/mistral-small-3.2-24b-instruct",
+    "slug": "mistral-small-3.2-24b-instruct",
+    "lab": "mistral",
+    "name": "Mistral Small 3.2 24B",
+    "family": "mistral-small",
+    "releaseDate": "2025-06-20",
+    "knowledgeCutoff": "2023-10-31",
+    "status": "active",
+    "openWeights": true,
+    "price": {
+      "input": 0.075,
+      "output": 0.2
+    },
+    "blended": 0.1063,
+    "priceSource": "deepinfra",
+    "context": 128000,
+    "maxOutput": 16384,
+    "modalitiesIn": [
+      "image",
+      "text"
+    ],
+    "capabilities": {
+      "reasoning": false,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [
+      {
+        "provider": "deepinfra",
+        "input": 0.075,
+        "output": 0.2
       }
     ],
     "aliases": []
@@ -6863,21 +6391,19 @@
     "family": "kimi",
     "releaseDate": "2026-01-27",
     "knowledgeCutoff": "2025-01",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.45,
-      "output": 2.25,
-      "cacheRead": 0.07
+      "input": 0.6,
+      "output": 3
     },
-    "blended": 0.9,
-    "priceSource": "deepinfra",
+    "blended": 1.2,
+    "priceSource": "amazon-bedrock",
     "context": 262144,
-    "maxOutput": 32768,
+    "maxOutput": 16384,
     "modalitiesIn": [
       "text",
-      "image",
-      "video"
+      "image"
     ],
     "capabilities": {
       "reasoning": true,
@@ -6885,11 +6411,6 @@
       "structuredOutput": true
     },
     "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 0.45,
-        "output": 2.25
-      },
       {
         "provider": "amazon-bedrock",
         "input": 0.6,
@@ -6992,11 +6513,6 @@
     },
     "hosts": [
       {
-        "provider": "deepinfra",
-        "input": 0.68,
-        "output": 3.4
-      },
-      {
         "provider": "azure",
         "input": 0.95,
         "output": 4
@@ -7046,11 +6562,6 @@
     },
     "hosts": [
       {
-        "provider": "fireworks-ai",
-        "input": 2.1,
-        "output": 10.5
-      },
-      {
         "provider": "deepinfra",
         "input": 2.85,
         "output": 14.25
@@ -7062,6 +6573,11 @@
       },
       {
         "provider": "baseten",
+        "input": 3,
+        "output": 15
+      },
+      {
+        "provider": "fireworks-ai",
         "input": 3,
         "output": 15
       },
@@ -8132,6 +7648,45 @@
     "aliases": []
   },
   {
+    "id": "openai/gpt-6-astra-healthcare",
+    "slug": "gpt-6-astra-healthcare",
+    "lab": "openai",
+    "name": "GPT-6 Astra Healthcare",
+    "family": "gpt-astra",
+    "releaseDate": "2026-11-24",
+    "knowledgeCutoff": "2026-04-30",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 10,
+      "output": 50,
+      "cacheRead": 1,
+      "tiers": [
+        {
+          "minContext": 272000,
+          "input": 20,
+          "output": 75
+        }
+      ]
+    },
+    "blended": 20,
+    "priceSource": "openai",
+    "context": 1050000,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
+    "aliases": []
+  },
+  {
     "id": "openai/gpt-6-luna",
     "slug": "gpt-6-luna",
     "lab": "openai",
@@ -8285,6 +7840,45 @@
     "aliases": []
   },
   {
+    "id": "openai/gpt-6.1-sol-healthcare",
+    "slug": "gpt-6.1-sol-healthcare",
+    "lab": "openai",
+    "name": "GPT-6.1 Sol Healthcare",
+    "family": "gpt-sol",
+    "releaseDate": "2026-11-24",
+    "knowledgeCutoff": "2026-04-30",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 2,
+      "output": 10,
+      "cacheRead": 0.1,
+      "tiers": [
+        {
+          "minContext": 272000,
+          "input": 4,
+          "output": 15
+        }
+      ]
+    },
+    "blended": 4,
+    "priceSource": "openai",
+    "context": 1050000,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
+    "aliases": []
+  },
+  {
     "id": "openai/gpt-6.1-terra",
     "slug": "gpt-6.1-terra",
     "lab": "openai",
@@ -8397,6 +7991,46 @@
     "aliases": []
   },
   {
+    "id": "openai/gpt-6.2-astra-healthcare",
+    "slug": "gpt-6.2-astra-healthcare",
+    "lab": "openai",
+    "name": "GPT-6.2 Astra Healthcare",
+    "family": "gpt-astra",
+    "releaseDate": "2026-11-24",
+    "knowledgeCutoff": "2026-05-18",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 8,
+      "output": 40,
+      "cacheRead": 0.4,
+      "cacheWrite": 10,
+      "tiers": [
+        {
+          "minContext": 272000,
+          "input": 16,
+          "output": 60
+        }
+      ]
+    },
+    "blended": 16,
+    "priceSource": "openai",
+    "context": 1050000,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
+    "aliases": []
+  },
+  {
     "id": "openai/gpt-6.2-sol",
     "slug": "gpt-6.2-sol",
     "lab": "openai",
@@ -8453,6 +8087,46 @@
     "aliases": []
   },
   {
+    "id": "openai/gpt-6.2-sol-healthcare",
+    "slug": "gpt-6.2-sol-healthcare",
+    "lab": "openai",
+    "name": "GPT-6.2 Sol Healthcare",
+    "family": "gpt-sol",
+    "releaseDate": "2026-11-24",
+    "knowledgeCutoff": "2026-06-01",
+    "status": "active",
+    "openWeights": false,
+    "price": {
+      "input": 2,
+      "output": 10,
+      "cacheRead": 0.1,
+      "cacheWrite": 2.5,
+      "tiers": [
+        {
+          "minContext": 272000,
+          "input": 4,
+          "output": 15
+        }
+      ]
+    },
+    "blended": 4,
+    "priceSource": "openai",
+    "context": 1050000,
+    "maxOutput": 128000,
+    "modalitiesIn": [
+      "text",
+      "image",
+      "pdf"
+    ],
+    "capabilities": {
+      "reasoning": true,
+      "toolCall": true,
+      "structuredOutput": true
+    },
+    "hosts": [],
+    "aliases": []
+  },
+  {
     "id": "openai/gpt-oss-120b",
     "slug": "gpt-oss-120b",
     "lab": "openai",
@@ -8470,7 +8144,7 @@
     "blended": 0.0703,
     "priceSource": "deepinfra",
     "context": 131072,
-    "maxOutput": 16384,
+    "maxOutput": 131072,
     "modalitiesIn": [
       "text"
     ],
@@ -9487,17 +9161,16 @@
     "family": "glm-flash",
     "releaseDate": "2026-01-19",
     "knowledgeCutoff": "2025-04",
-    "status": "deprecated",
+    "status": "active",
     "openWeights": true,
     "price": {
-      "input": 0.06,
-      "output": 0.4,
-      "cacheRead": 0.01
+      "input": 0.0605,
+      "output": 0.4
     },
-    "blended": 0.145,
-    "priceSource": "deepinfra",
-    "context": 202752,
-    "maxOutput": 16384,
+    "blended": 0.1454,
+    "priceSource": "cloudflare-workers-ai",
+    "context": 131072,
+    "maxOutput": 131072,
     "modalitiesIn": [
       "text"
     ],
@@ -9507,11 +9180,6 @@
       "structuredOutput": true
     },
     "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 0.06,
-        "output": 0.4
-      },
       {
         "provider": "cloudflare-workers-ai",
         "input": 0.0605,
@@ -9591,11 +9259,6 @@
     },
     "hosts": [
       {
-        "provider": "deepinfra",
-        "input": 0.6,
-        "output": 2.08
-      },
-      {
         "provider": "amazon-bedrock",
         "input": 1,
         "output": 3.2
@@ -9673,11 +9336,6 @@
       "structuredOutput": true
     },
     "hosts": [
-      {
-        "provider": "deepinfra",
-        "input": 1.05,
-        "output": 3.5
-      },
       {
         "provider": "novita-ai",
         "input": 1.38,
