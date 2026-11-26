@@ -38,3 +38,12 @@ test("change30d compares with the price 30 days ago", () => {
   const fresh = makeModel({ id: "openai/a", releaseDate: "2026-10-01" });
   assert.equal(change30d(fresh, [], "2026-10-11"), null);
 });
+
+test("selected-price history keeps the prior and new quotes across a provider switch", () => {
+  const switched: ModelEvent = { ...events[1], type: "provider_change" };
+  assert.deepEqual(priceHistory(model, [switched], "2026-10-11"), [
+    { date: "2026-01-01", input: 1, output: 2 },
+    { date: "2026-06-01", input: 0.5, output: 1 },
+    { date: "2026-10-11", input: 0.5, output: 1 },
+  ]);
+});

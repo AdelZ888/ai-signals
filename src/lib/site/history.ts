@@ -7,14 +7,14 @@ export type PricePoint = { date: string; input: number; output: number };
 
 export function priceHistory(model: Model, events: ModelEvent[], today: string): PricePoint[] {
   const own = events
-    .filter((e) => e.id === model.id && (e.type === "new_model" || e.type === "price_change"))
+    .filter((e) => e.id === model.id && (e.type === "new_model" || e.type === "price_change" || e.type === "provider_change"))
     .sort((a, b) => a.date.localeCompare(b.date));
   const release = model.releaseDate;
   const points: PricePoint[] = [];
 
   for (const e of own) {
     if (!e.after) continue;
-    if (points.length === 0 && e.type === "price_change" && e.before) {
+    if (points.length === 0 && e.before) {
       points.push({ date: release && release < e.date ? release : e.date, input: e.before.input, output: e.before.output });
     }
     points.push({ date: e.date, input: e.after.input, output: e.after.output });

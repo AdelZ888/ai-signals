@@ -1,3 +1,5 @@
+import { HOST_NAMES, LAB_IDS, LAB_NAMES, LAB_PROVIDER } from "../data/config.ts";
+
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 /** USD per 1M tokens, never rounded away: from $0.10 up to 4 decimals (at least 2), below that 3 significant digits. */
@@ -32,3 +34,9 @@ export function monthYear(isoDay: string): string {
 }
 
 export const yesNo = (v: boolean) => (v ? "yes" : "no");
+
+export function fmtProvider(source: string | undefined): string {
+  if (!source) return "source not recorded";
+  const lab = LAB_IDS.find((id) => LAB_PROVIDER[id] === source);
+  return lab ? LAB_NAMES[lab] : (Object.hasOwn(HOST_NAMES, source) ? HOST_NAMES[source] : source);
+}
