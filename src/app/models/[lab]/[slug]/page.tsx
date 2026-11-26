@@ -155,6 +155,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
           <>
             <Box title="price history ($/1M tokens)" className="o-chart">
               <PriceChart points={priceHistory(model, events, today)} />
+              <p className="dim">Tracks the selected provider’s quote, which may change providers over time.</p>
             </Box>
             <Box title="cheaper or similar alternatives" className="o-alt">
               {alts.length === 0 ? <p className="dim">No compatible alternative tracked.</p> : (
