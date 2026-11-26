@@ -8,7 +8,7 @@ import { alternatesFor } from "@/lib/site/seo";
 
 export const metadata: Metadata = {
   title: "AI Model Price Changes & New Releases Log",
-  description: "Every tracked AI model launch, price cut, price increase, context change and deprecation, newest first.",
+  description: "Every tracked AI model launch, price cut, price increase, provider switch, context change and deprecation, newest first.",
   alternates: alternatesFor("/changes"),
 };
 
