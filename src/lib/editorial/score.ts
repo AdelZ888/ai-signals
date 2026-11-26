@@ -1,5 +1,6 @@
 import { LAB_PROVIDER, TIER1_LABS, isLabId } from "../data/config.ts";
 import { addDays, daysBetween, isoWeek } from "../data/dates.ts";
+import { samePriceSource } from "../data/diff.ts";
 import type { Model, ModelEvent } from "../data/types.ts";
 import { priceBand, versionOf } from "../site/selection.ts";
 
@@ -29,6 +30,7 @@ function findRival(model: Model, blended: number, models: Model[]): Rival | null
 }
 
 export function scoreEvent(event: ModelEvent, models: Model[], today: string): ScoredEvent {
+  if (event.type === "provider_change") return rejected(event, "provider switch (digest only)");
   if (event.type === "removed") return rejected(event, "removals are digest-only");
   const model = models.find((m) => m.id === event.id);
   if (!model) return rejected(event, "model not in catalog");
@@ -38,6 +40,9 @@ export function scoreEvent(event: ModelEvent, models: Model[], today: string): S
   if (event.type === "price_change" && !(isLabId(model.lab) && model.priceSource === LAB_PROVIDER[model.lab])) {
     return rejected(event, "host-priced change (digest only)");
   }
+
+  if ((event.type === "price_change" || event.type === "context_change") &&
+      samePriceSource(event) !== model.priceSource) return rejected(event, "not a confirmed same-provider change");
 
   const tier1 = TIER1_LABS.has(model.lab);
   let score = tier1 ? 40 : 15;
@@ -79,7 +84,7 @@ export function scoreEvent(event: ModelEvent, models: Model[], today: string): S
   return { event, score, reasons, eligible: score >= FLASH_THRESHOLD, rival };
 }
 
-export type EventKind = "pricing" | "price-cut" | "price-increase" | "context-window" | "deprecated" | "removed";
+export type EventKind = "pricing" | "price-cut" | "price-increase" | "context-window" | "provider_change" | "deprecated" | "removed";
 
 export function eventKind(e: ModelEvent): EventKind {
   if (e.type === "new_model") return "pricing";
@@ -112,7 +117,7 @@ export function flashCandidates(events: ModelEvent[], models: Model[], today: st
   return events.filter((e) => {
     if (e.type !== "price_change") return e.date === today;
     const m = byId.get(e.id);
-    return e.date === yesterday && !!m && !!e.after && m.price.input === e.after.input && m.price.output === e.after.output;
+    return e.date === yesterday && !!m && !!e.after && m.price.input === e.after.input && m.price.output === e.after.output && m.priceSource === samePriceSource(e);
   });
 }
 
