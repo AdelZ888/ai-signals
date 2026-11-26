@@ -7,6 +7,7 @@ import { JsonLd } from "@/components/json-ld";
 import { ModelTable } from "@/components/model-table";
 import { TIER1_LABS } from "@/lib/data/config";
 import { daysBetween } from "@/lib/data/dates";
+import { samePriceSource } from "@/lib/data/diff";
 import { getCatalog, getPairs, getPriceIndex, labSummaries, recentEvents } from "@/lib/site/catalog";
 import { getSiteUrl } from "@/lib/site-url";
 import { modelRows } from "@/lib/site/rows";
@@ -25,7 +26,7 @@ export default function Home() {
     .sort((a, b) => (b.releaseDate ?? "").localeCompare(a.releaseDate ?? ""))
     .slice(0, 15);
   const movers = events
-    .filter((e) => e.type === "price_change" && daysBetween(e.date, today) <= 30)
+    .filter((e) => e.type === "price_change" && samePriceSource(e) && daysBetween(e.date, today) <= 30)
     .sort((a, b) => Math.abs(b.pctChange ?? 0) - Math.abs(a.pctChange ?? 0))
     .slice(0, 5);
   const sync = meta ? `${meta.lastSuccessAt.slice(0, 16).replace("T", " ")} UTC` : "pending";
@@ -62,7 +63,7 @@ export default function Home() {
             <EventFeed events={recentEvents(events, 8)} />
             <Link className="btn" href="/changes">full changelog →</Link>
           </Box>
-          <Box title="biggest price moves (30 days)">
+          <Box title="biggest same-provider price moves (30 days)">
             <EventFeed events={movers} />
           </Box>
         </div>
