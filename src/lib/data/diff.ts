@@ -6,7 +6,12 @@ export function pct(before: number, after: number): number {
 }
 
 export function snapshotOf(m: Model): PriceSnapshot {
-  return { input: m.price.input, output: m.price.output, blended: m.blended, context: m.context };
+  return { input: m.price.input, output: m.price.output, blended: m.blended, context: m.context, priceSource: m.priceSource };
+}
+
+export function samePriceSource(event: ModelEvent): string | undefined {
+  const source = event.before?.priceSource;
+  return source && source === event.after?.priceSource ? source : undefined;
 }
 
 export function diffSnapshots(prev: Model[], next: Model[], date: string): ModelEvent[] {
@@ -21,11 +26,15 @@ export function diffSnapshots(prev: Model[], next: Model[], date: string): Model
       events.push({ ...head(m), type: "new_model", after: snapshotOf(m) });
       continue;
     }
-    if (p.price.input !== m.price.input || p.price.output !== m.price.output) {
-      events.push({ ...head(m), type: "price_change", before: snapshotOf(p), after: snapshotOf(m), pctChange: pct(p.blended, m.blended) });
-    }
-    if (p.context !== m.context) {
-      events.push({ ...head(m), type: "context_change", before: snapshotOf(p), after: snapshotOf(m) });
+    if (p.priceSource !== m.priceSource) {
+      events.push({ ...head(m), type: "provider_change", before: snapshotOf(p), after: snapshotOf(m), pctChange: pct(p.blended, m.blended) });
+    } else {
+      if (p.price.input !== m.price.input || p.price.output !== m.price.output) {
+        events.push({ ...head(m), type: "price_change", before: snapshotOf(p), after: snapshotOf(m), pctChange: pct(p.blended, m.blended) });
+      }
+      if (p.context !== m.context) {
+        events.push({ ...head(m), type: "context_change", before: snapshotOf(p), after: snapshotOf(m) });
+      }
     }
     if (p.status !== "deprecated" && m.status === "deprecated") {
       events.push({ ...head(m), type: "deprecated", before: snapshotOf(p), after: snapshotOf(m) });

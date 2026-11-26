@@ -32,9 +32,13 @@ export type Model = {
   aliases: string[];
 };
 
-export type PriceSnapshot = { input: number; output: number; blended: number; context: number };
+export type PriceSnapshot = {
+  input: number; output: number; blended: number; context: number;
+  /** Missing in legacy history where the provider cannot be established. */
+  priceSource?: string;
+};
 
-export type EventType = "new_model" | "price_change" | "context_change" | "deprecated" | "removed";
+export type EventType = "new_model" | "price_change" | "provider_change" | "context_change" | "deprecated" | "removed";
 
 export type ModelEvent = {
   date: string;
@@ -45,7 +49,7 @@ export type ModelEvent = {
   type: EventType;
   before?: PriceSnapshot;
   after?: PriceSnapshot;
-  /** For price_change: percent change of the blended price. */
+  /** For price_change and provider_change: percent difference between blended prices. */
   pctChange?: number;
 };
 
