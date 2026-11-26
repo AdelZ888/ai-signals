@@ -32,9 +32,12 @@ export function priceHistory(model: Model, events: ModelEvent[], today: string):
   return out;
 }
 
-/** Percent change of the blended price over 30 days, or null when unknown or unchanged. */
+/** Percent change of the selected quote over 30 days, excluding windows that cross a provider switch. */
 export function change30d(model: Model, events: ModelEvent[], today: string): number | null {
   const cutoff = addDays(today, -30);
+  if (events.some((e) => e.id === model.id && e.type === "provider_change" && e.date > cutoff && e.date <= today)) {
+    return null;
+  }
   const past = priceHistory(model, events, today).filter((p) => p.date <= cutoff).at(-1);
   if (!past) return null;
   const before = blendedPrice(past.input, past.output);
