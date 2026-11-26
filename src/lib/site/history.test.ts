@@ -38,3 +38,36 @@ test("change30d compares with the price 30 days ago", () => {
   const fresh = makeModel({ id: "openai/a", releaseDate: "2026-10-01" });
   assert.equal(change30d(fresh, [], "2026-10-11"), null);
 });
+
+test("selected-price history keeps the prior and new quotes across a provider switch", () => {
+  const switched: ModelEvent = { ...events[1], type: "provider_change" };
+  assert.deepEqual(priceHistory(model, [switched], "2026-10-11"), [
+    { date: "2026-01-01", input: 1, output: 2 },
+    { date: "2026-06-01", input: 0.5, output: 1 },
+    { date: "2026-10-11", input: 0.5, output: 1 },
+  ]);
+});
+
+test("change30d omits periods that cross a provider switch", () => {
+  const qwen = makeModel({
+    id: "alibaba/qwen3-32b", lab: "alibaba", priceSource: "deepinfra",
+    price: { input: 0.08, output: 0.28 }, releaseDate: "2026-01-01",
+  });
+  const base = { id: qwen.id, lab: qwen.lab, slug: qwen.slug, name: qwen.name };
+  const maker = { ...snap(0.7, 2.8), priceSource: "alibaba" };
+  const host = { ...snap(0.08, 0.28), priceSource: "deepinfra" };
+  const switched: ModelEvent = {
+    ...base, date: "2026-11-25", type: "provider_change", before: maker, after: host,
+  };
+  assert.equal(change30d(qwen, [switched], "2026-11-25"), null);
+
+  const hostedPrice = { ...snap(0.04, 0.14), priceSource: "deepinfra" };
+  const dropped = { ...qwen, price: { input: hostedPrice.input, output: hostedPrice.output }, blended: hostedPrice.blended };
+  const hostedChange: ModelEvent = {
+    ...base, date: "2026-12-01", type: "price_change", before: host, after: hostedPrice,
+  };
+  // At the cutoff, the chart already records the new provider's quote.
+  assert.equal(change30d(dropped, [switched, hostedChange], "2026-12-25"), -50);
+  assert.equal(change30d(dropped, [switched, hostedChange], "2026-12-24"), null);
+  assert.equal(change30d(model, [...events, { ...switched, date: "2026-06-10" }], "2026-06-20"), -50);
+});

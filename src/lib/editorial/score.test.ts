@@ -19,7 +19,13 @@ const models = [
 const snap = (input: number, output: number, context = 128_000) => ({ input, output, blended: (3 * input + output) / 4, context });
 const ev = (id: string, type: ModelEvent["type"], extra: Partial<ModelEvent> = {}): ModelEvent => {
   const [lab, slug] = id.split("/");
-  return { date: TODAY, id, lab, slug, name: slug, type, ...extra };
+  const { before, after, ...rest } = extra;
+  const source = models.find((m) => m.id === id)?.priceSource ?? lab;
+  return {
+    date: TODAY, id, lab, slug, name: slug, type, ...rest,
+    before: before ? { priceSource: source, ...before } : undefined,
+    after: after ? { priceSource: source, ...after } : undefined,
+  };
 };
 
 test("new generation from a tier-1 lab that undercuts a rival is eligible", () => {
@@ -41,7 +47,7 @@ test("price changes: thresholds and tiers", () => {
   assert.equal(cut20.eligible, true);
   assert.equal(scoreEvent(ev("anthropic/claude-haiku-4-5", "price_change", { pctChange: -8, after: snap(1, 5) }), models, TODAY).eligible, false);
   // tier-2 15 + cut 20% 20 + undercuts Claude Haiku 4.5 15 = 50: still below the threshold
-  const tier2 = scoreEvent(ev("zhipuai/glm-5", "price_change", { pctChange: -25, after: snap(1, 3.2) }), models, TODAY);
+  const tier2 = scoreEvent(ev("zhipuai/glm-5", "price_change", { pctChange: -25, before: snap(1.33, 4.25), after: snap(1, 3.2) }), models, TODAY);
   assert.equal(tier2.score, 50);
   assert.equal(tier2.eligible, false);
 });
@@ -101,4 +107,18 @@ test("pickFlashEvent skips events already covered by a recent article", () => {
   );
   assert.deepEqual([...covered], ["anthropic/claude-haiku-5-5:pricing"]);
   assert.equal(pickFlashEvent([best], [], TODAY, covered), null);
+});
+
+test("a change from a host back to the maker cannot become a price or context headline", () => {
+  const id = "anthropic/claude-haiku-4-5";
+  const snapshots = {
+    before: { ...snap(0.2, 1, 200_000), priceSource: "deepinfra" },
+    after: { ...snap(1, 5, 800_000), priceSource: "anthropic" },
+  };
+  for (const type of ["provider_change", "price_change", "context_change"] as const) {
+    const event = ev(id, type, { ...snapshots, pctChange: 400 });
+    assert.equal(scoreEvent(event, models, TODAY).eligible, false);
+  }
+  const sameRatesWrongSource = { ...ev(id, "price_change", snapshots), date: "2026-10-10" };
+  assert.deepEqual(flashCandidates([sameRatesWrongSource], models, TODAY), []);
 });

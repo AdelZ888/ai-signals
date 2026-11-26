@@ -28,12 +28,15 @@ async function main(): Promise<number> {
   let digest = fallback;
   if (!DRY_RUN) {
     const facts = digestFacts(events, range);
-    try {
-      const intro = await complete(DIGEST_INTRO_SYSTEM, JSON.stringify(facts, null, 2), { maxTokens: 1500 });
-      if (intro && !intro.includes("!") && checkGrounding(intro, facts).ok && checkLinks(intro, []).ok) digest = buildDigest(events, range, intro) ?? fallback;
-      else console.warn("[digest] LLM intro rejected, using the default intro");
-    } catch (error) {
-      console.warn(`[digest] LLM unavailable (${(error as Error).message}), using the default intro`);
+    // A numeric grounding check cannot catch a cross-provider comparison described as a price cut.
+    if (facts.providerSwitches === 0 && facts.unverifiedPriceComparisons === 0) {
+      try {
+        const intro = await complete(DIGEST_INTRO_SYSTEM, JSON.stringify(facts, null, 2), { maxTokens: 1500 });
+        if (intro && !intro.includes("!") && checkGrounding(intro, facts).ok && checkLinks(intro, []).ok) digest = buildDigest(events, range, intro) ?? fallback;
+        else console.warn("[digest] LLM intro rejected, using the default intro");
+      } catch (error) {
+        console.warn(`[digest] LLM unavailable (${(error as Error).message}), using the default intro`);
+      }
     }
   }
 
